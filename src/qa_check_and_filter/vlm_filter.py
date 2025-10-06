@@ -3,9 +3,9 @@ import os
 
 # 路径配置
 current_task = "6cross_event_causality"
-correct_qids_file = f"/data1/lianghao/hzy/lqh/qa_correct/answer_with_vlm/qwen2.5_vl/{current_task}/all_correct_qids.json"
-big_json_file = f"/data1/lianghao/hzy/lqh/qa_result/{current_task}.json"
-output_file = f"/data1/lianghao/hzy/lqh/qa_vlm_filtered/{current_task}.json"
+correct_qids_file = f"./qa_correct/answer_with_vlm/qwen2.5_vl/{current_task}/all_correct_qids.json"
+big_json_file = f"./qa_result/{current_task}.json"
+output_file = f"./qa_vlm_filtered/{current_task}.json"
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
 # 1. 读入答对的 question_id
