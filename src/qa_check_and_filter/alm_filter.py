@@ -3,9 +3,9 @@ import os
 
 # 路径配置
 current_task = "1intra_event_reasoning"
-correct_qids_file = f"/data1/lianghao/hzy/lqh/qa_correct/answer_with_alm/qwen2_audio/{current_task}/all_correct_qids.json"
-big_json_file = f"/data1/lianghao/hzy/lqh/qa_vlm_filtered/{current_task}.json"
-output_file = f"/data1/lianghao/hzy/lqh/qa_alm_filtered/{current_task}.json"
+correct_qids_file = f"./qa_correct/answer_with_alm/qwen2_audio/{current_task}/all_correct_qids.json"
+big_json_file = f"./qa_vlm_filtered/{current_task}.json"
+output_file = f"./qa_alm_filtered/{current_task}.json"
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
 # 1. 读入答对的 question_id
