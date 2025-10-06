@@ -100,15 +100,3 @@ def compute_cs(chunks: List[str], scorer: SimpleScorer,
             cs += -p * math.log(p, 2)
 
     return cs, {"edges": edges, "degrees": deg}
-
-if __name__ == "__main__":
-    scorer = SimpleScorer("gpt2")
-    # chunks = ["I have an apple.", "I have a big apple."]
-    chunks = [
-        " Professor Fawnt uses kitchen and day-to-day materials, toys and other simple devices to communicate the wonder and joy of science to different age groups. The target participants of these workshops were school teachers and this series of videos presented by Vikantrasar and Isapune. There are questions I asked yesterday without answer.",
-        " But the water is coming, what's it? Do you think it's not so? I think. In fiction? Yeah. But one always attraction. We can let this program be cooking for 10 minutes because I need the water and we can do that more. And after I have some questions. Here is connected with the previous questions that is to seek the flux of water outside the water. Here is a definition itself of the definition itself of the ellipses that is to say for this point. To this point, the sum of the distance is given by the point, but it's right for this point and this one. There is no different difference between ellipses and the parabola. Then x square, open x square, open x square, open x square, open x square, open x square and open x square."
-    ]
-
-    print("BC:", bc_per_boundary(chunks, scorer))
-    cs, info = compute_cs(chunks, scorer, mode="sequential", K=0.5)
-    print("CS:", cs, "edges:", info["edges"])
