@@ -1,8 +1,6 @@
 import re
 import nltk
 import json
-# nltk.data.path.append("/data1/lianghao/miniconda/envs/lqh/nltk_data")
-# nltk.download('punkt_tab', download_dir="/data1/lianghao/miniconda/envs/lqh/nltk_data")
 from nltk.tokenize import sent_tokenize
 
 def map_chunks_with_timestamps(transcript, borders):
@@ -86,8 +84,8 @@ def map_chunks_with_timestamps(transcript, borders):
 
 if __name__ == "__main__":
     # 测试文件
-    text_file = "/data1/lianghao/hzy/lqh/datasets/finevideo/metadata/academic_lectures/sample_3.json"
-    border_file = "/data1/lianghao/hzy/lqh/datasets/finevideo/chunking_try/academic_lectures/sample_3.json"
+    text_file = "./datasets/finevideo/metadata/academic_lectures/sample_3.json"
+    border_file = "./datasets/finevideo/chunking_try/academic_lectures/sample_3.json"
 
     with open(text_file, "r", encoding="utf-8") as f:
         text = json.load(f)
