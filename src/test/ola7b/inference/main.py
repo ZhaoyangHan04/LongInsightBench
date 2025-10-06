@@ -160,7 +160,7 @@ def ask_model(model, tokenizer, image_processor, video_path, text):
 
 # ========= 主逻辑 =========
 if __name__ == "__main__":
-    MODEL_PATH = "/data1/lianghao/models/Ola-7b"  
+    MODEL_PATH = "./models/Ola-7b"  
     curren_tasks = ["1intra_event_reasoning", 
                     "2multimodal_temporal_localization", 
                     "3audio_visual_alignment", 
@@ -169,9 +169,9 @@ if __name__ == "__main__":
                     "6cross_event_causality"] 
     for curren_task in curren_tasks:
         print(f"===== 处理任务: {curren_task} =====")
-        INPUT_FILE = f"/data1/lianghao/hzy/lqh/final_qa_subset/{curren_task}.json"
-        OUTPUT_FILE = f"/data1/lianghao/hzy/lqh/experiment_frames/ola7b_raw/64/{curren_task}.json"
-        VIDEO_ROOT = "/data1/lianghao/hzy/lqh/datasets/finevideo/videos"
+        INPUT_FILE = f"./final_qa_subset/{curren_task}.json"
+        OUTPUT_FILE = f"./experiment_frames/ola7b_raw/64/{curren_task}.json"
+        VIDEO_ROOT = "./datasets/finevideo/videos"
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
         # 加载模型
