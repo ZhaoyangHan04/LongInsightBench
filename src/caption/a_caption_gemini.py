@@ -14,11 +14,11 @@ client = genai.Client(
 category = "software_tutorials"
 model_name = "gemini_2"
 
-video_dir = f"/data1/lianghao/hzy/lqh/clean_data_for_caption/videos/{category}"
-chunk_json_dir = f"/data1/lianghao/hzy/lqh/clean_data_for_caption/clean_chunks/{category}"
-audio_tmp_dir = f"/data1/lianghao/hzy/lqh/caption_tmp_files/a_caption/{model_name}/{category}"
-audio_output_dir = f"/data1/lianghao/hzy/lqh/caption_result/a_caption/{model_name}/{category}"
-token_log_path = f"/data1/lianghao/hzy/lqh/caption_result/a_caption/{model_name}/{category}/token_usage.log"
+video_dir = "./clean_data_for_caption/videos/{category}"
+chunk_json_dir = f"./clean_data_for_caption/clean_chunks/{category}"
+audio_tmp_dir = f"./caption_tmp_files/a_caption/{model_name}/{category}"
+audio_output_dir = f"./caption_result/a_caption/{model_name}/{category}"
+token_log_path = f"./caption_result/a_caption/{model_name}/{category}/token_usage.log"
 
 os.makedirs(audio_tmp_dir, exist_ok=True)
 os.makedirs(audio_output_dir, exist_ok=True)
