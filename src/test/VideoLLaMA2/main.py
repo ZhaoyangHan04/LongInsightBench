@@ -13,15 +13,15 @@ from videollama2 import model_init, mm_infer
 from videollama2.utils import disable_torch_init
 
 # ====== 初始化模型 ======
-MODEL_PATH = "/data1/lianghao/models/VideoLLaMA2-7B"
+MODEL_PATH = "./models/VideoLLaMA2-7B"
 model, processor, tokenizer = model_init(MODEL_PATH)
     
 
 # ====== 文件路径 ======
 current_task = "1intra_event_reasoning"
-INPUT_FILE = f"/data1/lianghao/hzy/lqh/final_qa/{current_task}.json"
-OUTPUT_FILE = f"/data1/lianghao/hzy/lqh/experiment/videollama2/{current_task}.json"
-VIDEO_ROOT = "/data1/lianghao/hzy/lqh/datasets/finevideo/videos"
+INPUT_FILE = f"./final_qa/{current_task}.json"
+OUTPUT_FILE = f"./experiment/videollama2/{current_task}.json"
+VIDEO_ROOT = "./datasets/finevideo/videos"
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
 # ====== 读取已有结果 ======
