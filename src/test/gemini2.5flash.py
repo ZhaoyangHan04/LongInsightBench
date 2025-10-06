@@ -113,11 +113,11 @@ current_tasks = ["1intra_event_reasoning", "2multimodal_temporal_localization", 
 for current_task in current_tasks:
     print(f"===== 处理任务: {current_task} =====")
 
-    INPUT_FILE = f"/data1/lianghao/hzy/lqh/final_qa_subset/{current_task}.json"
-    OUTPUT_FILE = f"/data1/lianghao/hzy/lqh/experiment_subset/gemini2.5flash_olm/{current_task}.json"
-    VIDEO_ROOT = "/data1/lianghao/hzy/lqh/datasets/finevideo/videos"
-    AUDIO_ROOT = "/data1/lianghao/hzy/lqh/datasets/finevideo/audios"
-    TMP_FILE = f"/data1/lianghao/hzy/lqh/experiment_subset/gemini2.5flash_olm/tmp.json"
+    INPUT_FILE = f"./final_qa_subset/{current_task}.json"
+    OUTPUT_FILE = f"./experiment_subset/gemini2.5flash_olm/{current_task}.json"
+    VIDEO_ROOT = "./datasets/finevideo/videos"
+    AUDIO_ROOT = "./datasets/finevideo/audios"
+    TMP_FILE = f"./experiment_subset/gemini2.5flash_olm/tmp.json"
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     # ====== 读取已有结果 ======
