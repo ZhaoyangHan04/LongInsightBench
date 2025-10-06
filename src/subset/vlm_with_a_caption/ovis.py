@@ -9,7 +9,7 @@ import torch
 from transformers import AutoModelForCausalLM
 
 # ========== 配置 ==========
-MODEL_PATH = "/data1/lianghao/models/Ovis2.5-9B"
+MODEL_PATH = "./models/Ovis2.5-9B"
 enable_thinking = False
 enable_thinking_budget = False
 max_new_tokens = 2048
@@ -129,10 +129,10 @@ current_tasks = ["1intra_event_reasoning", "2multimodal_temporal_localization", 
 for current_task in current_tasks:
     print(f"===== 处理任务: {current_task} =====")
 
-    INPUT_FILE = f"/data1/lianghao/hzy/lqh/final_qa_subset/{current_task}.json"   # <-- 我把 typo 改成 final_qa_subset
-    OUTPUT_FILE = f"/data1/lianghao/hzy/lqh/experiment_subset/ovis/{current_task}.json"
-    AUDIO_CAPTION_ROOT = "/data1/lianghao/hzy/lqh/caption_result_0907/a_caption(gemini2)"
-    VIDEO_ROOT = "/data1/lianghao/hzy/lqh/datasets/finevideo/videos"
+    INPUT_FILE = f"./final_qa_subset/{current_task}.json"   # <-- 我把 typo 改成 final_qa_subset
+    OUTPUT_FILE = f"./experiment_subset/ovis/{current_task}.json"
+    AUDIO_CAPTION_ROOT = "./caption_result_0907/a_caption(gemini2)"
+    VIDEO_ROOT = "./datasets/finevideo/videos"
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     # ========== 主流程 ==========
