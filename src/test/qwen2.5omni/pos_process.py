@@ -182,9 +182,9 @@ def process_file(input_file: str, output_file: str):
 if __name__ == "__main__":
     # 按需修改路径
     current_task = "2multimodal_temporal_localization"  #"4timeline_reconstruction" #"6cross_event_causality" #"4timeline_reconstruction"
-    model_name = "qwen"
-    input_path = f"/data1/lianghao/hzy/lqh/experiment/{model_name}/{current_task}.json"
-    output_path = f"/data1/lianghao/hzy/lqh/experiment_final/{model_name}/{current_task}.json"
+    model_name = "qwen2.5omni"
+    input_path = f"./experiment/{model_name}/{current_task}.json"
+    output_path = f"./experiment_final/{model_name}/{current_task}.json"
     process_file(input_path, output_path)
 
 
