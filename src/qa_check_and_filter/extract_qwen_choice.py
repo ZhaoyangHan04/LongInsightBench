@@ -29,7 +29,7 @@ for current_task in current_tasks:
     print(f"\n=== Processing task: {current_task} ===")
     for category in categories:
         print(f"\n=== Processing category: {category} ===")
-        json_folder = f"/data1/lianghao/hzy/lqh/{dir_name}/{model_name}/{current_task}/{category}"
+        json_folder = f"./{dir_name}/{model_name}/{current_task}/{category}"
         
         json_files = [f for f in os.listdir(json_folder) if f.endswith(".json")]
 
