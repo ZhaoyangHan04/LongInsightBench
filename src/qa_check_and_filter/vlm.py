@@ -11,7 +11,7 @@ from qwen_vl_utils import process_vision_info
 # -----------------------------
 # 模型初始化
 # -----------------------------
-model_path = "/data1/lianghao/models/Qwen2.5-VL-7B-Instruct"
+model_path = "./models/Qwen2.5-VL-7B-Instruct"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 processor = AutoProcessor.from_pretrained(model_path)
@@ -142,9 +142,9 @@ if __name__ == "__main__":
     
     for category in categories:
         print(f"\n=== Processing category: {category} ===")
-        video_dir = f"/data1/lianghao/hzy/lqh/clean_data_for_caption/videos/{category}"
-        qa_dir = f"/data1/lianghao/hzy/lqh/qa_result/{current_task}/{category}"
-        out_dir = f"/data1/lianghao/hzy/lqh/answer_with_vlm/qwen2.5_vl/{current_task}/{category}"
+        video_dir = f"./clean_data_for_caption/videos/{category}"
+        qa_dir = f"./qa_result/{current_task}/{category}"
+        out_dir = f"./answer_with_vlm/qwen2.5_vl/{current_task}/{category}"
         os.makedirs(out_dir, exist_ok=True)
 
         video_files = sorted(glob.glob(os.path.join(video_dir, "sample_*.mp4")))
