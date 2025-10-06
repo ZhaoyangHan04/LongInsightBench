@@ -1,0 +1,767 @@
+{
+  "TR_242": {
+    "question_id": "TR_242",
+    "question": "Reconstruct the correct chronological order of these sub-events. Use both what is shown and what is heard to decide the sequence: (1) President Clinton is shown speaking about bipartisan support; a metallic clink is heard right after. (2) A blue light appears on screen as an eerie synth with a ticking sound plays. (3) Computer screens display DNA data while a speaker explains it’s digital with “four digits instead of two,” accompanied by soft beeps. (4) Carlos Bustamante appears on screen stating that genomics has fundamentally changed how we do science. (5) A robotic arm pipettes into a microplate while speakers note sequencing was manual due to lack of advanced machines.",
+    "options": [
+      "A: 2 -> 4 -> 1 -> 5 -> 3",
+      "B: 2 -> 1 -> 4 -> 5 -> 3",
+      "C: 2 -> 4 -> 5 -> 1 -> 3",
+      "D: 1 -> 4 -> 2 -> 5 -> 3"
+    ],
+    "video_id": "academic_lectures_122",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "Based on the video's timeline:\n- **Event 2** (Blue light, eerie synth, ticking) occurs at 0:06.\n- **Event 4** (Carlos Bustamante on genomics changing science) occurs at 1:09.\n- **Event 1** (President Clinton, metallic clink) occurs between 1:41 (Clinton speaking) and 2:00 (metallic clink). This happens after Carlos Bustamante's statement.\n- **Event 5** (Robotic arm / Manual sequencing discussion): The broader segment discussing the evolution of sequencing technology, starting with the challenges of manual sequencing and later showing automated processes, begins around 2:08 (with the 'Spur Technology' title) and the robotic arm is seen at 3:03. This entire theme follows the segment with President Clinton.\n- **Event 3** (Computer screens DNA data, digital explanation) occurs at 3:49, making it the final event in this sequence."
+  },
+  "TR_124": {
+    "question_id": "TR_124",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the talk. Use both what is seen on stage and what is heard to determine the sequence: (1) Applause is heard as the speaker opens by stating that water pollution has become a major issue. (2) He adds waste human hair into a beaker with water and oil during a demonstration. (3) He drops bird feathers into an oil–water beaker after recalling the Kuwait oil spill. (4) He relates a carpenter using sawdust and begins a sawdust test by pouring from a bottle. (5) He announces 95% removal efficiency for hair, feathers, and sawdust, prompting polite applause. (6) He describes a machine to reuse residue, thanks the audience as inspirational music plays, and the INK quill end card appears.",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "B: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "C: 2 -> 1 -> 3 -> 5 -> 4 -> 6",
+      "D: 1 -> 2 -> 4 -> 3 -> 5 -> 6"
+    ],
+    "video_id": "ted_talks_94",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "Based on a chronological analysis of the video content, considering both visual and auditory cues:\n1.  **(1) Applause is heard as the speaker opens by stating that water pollution has become a major issue:** This occurs at the very beginning of the talk (0:11-0:20), clearly establishing it as the first event.\n2.  **(2) He adds waste human hair into a beaker with water and oil during a demonstration:** The speaker is seen adding fibrous material (identified as hair in the audio description) to a beaker with water and oil around the 2:23-2:28 mark. This is the first demonstration material added.\n3.  **(3) He drops bird feathers into an oil–water beaker after recalling the Kuwait oil spill:** Following a narrative about the Kuwait oil spill and birds, the speaker adds feathers to a beaker around 3:35-3:38. This is the second demonstration material added.\n4.  **(4) He relates a carpenter using sawdust and begins a sawdust test by pouring from a bottle:** After relating an anecdote about sawdust, the speaker is seen pouring oil to set up the sawdust experiment around 4:05 and then adding sawdust to a beaker around 4:13-4:16. This is the third demonstration material added.\n5.  **(5) He announces 95% removal efficiency for hair, feathers, and sawdust, prompting polite applause:** While the audio for this announcement (3:51-3:57) occurs slightly before the visual of adding sawdust, it logically serves as a summary of the results for all three materials after their introduction as experimental components. In the context of presentation flow, summarizing all results typically comes after all components have been presented.\n6.  **(6) He describes a machine to reuse residue, thanks the audience as inspirational music plays, and the INK quill end card appears:** This segment (starting around 5:44 and ending with the INK end card at 6:40) clearly marks the conclusion of his talk, making it the final event.\n\nOption B provides the most logical and chronologically consistent order, especially considering the presentation style of demonstrating materials before summarizing their overall effectiveness, despite a slight timestamp anomaly for event 5."
+  },
+  "TR_91": {
+    "question_id": "TR_91",
+    "question": "Reconstruct the correct timeline using both what is shown and what is said. Arrange these sub-events in chronological order:\n(1) The host reappears on camera with a mic, explaining his format of \"three two-minute segments\" and asking for feedback.\n(2) A browser page for \"247 Sports\" with Bronny's profile appears as the site is mentioned by name.\n(3) A black screen displays \"BRONNY...\" in red with \"*LAUGHTER*\" in green as a question is cut off by a comedic sound.\n(4) The speaker begins a new segment saying \"the very next morning\" while a large poster shows \"BRONNY JAMES\" as a 2023 five-star.\n(5) A male voice reads LeBron's tweet, explicitly saying the date and time \"On March 6, 2023 at 11:43 p.m.\"",
+    "options": [
+      "A: 3 -> 5 -> 4 -> 2 -> 1",
+      "B: 5 -> 3 -> 4 -> 2 -> 1",
+      "C: 3 -> 4 -> 5 -> 2 -> 1",
+      "D: 3 -> 5 -> 2 -> 4 -> 1"
+    ],
+    "video_id": "sports_talk_shows_37",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "(3) The black screen with \"BRONNY... *LAUGHTER*\" occurs first, around 0:47-0:49.\n(5) A male voice explicitly reads LeBron's tweet, including the date and time \"March 6, 2023 at 11:43 p.m.\", at approximately 0:56-1:00.\n(4) A new segment begins with the speaker saying \"the very next morning\" and a large poster showing \"BRONNY JAMES\" as a 2023 five-star appears around 1:04.\n(2) A browser page for \"247 Sports\" showing Bronny's profile is displayed as the site is mentioned by name from approximately 1:31-1:43.\n(1) The host reappears on camera with a mic, explaining his channel's format of \"three two-minute segments\" and asking for feedback, around 2:05."
+  },
+  "TR_491": {
+    "question_id": "TR_491",
+    "question": "Reconstruct the correct chronological order of these sub-events from the video. Use both the visuals (title cards/onscreen apparatus) and the narration to determine the sequence.\n(1) Title card shows \"Heating with addition of reagents.\"\n(2) Female narrator instructs to use a Claisen adapter and place the condenser on the sidearm.\n(3) Title card shows \"Reflux with addition funnel.\"\n(4) Female narrator says to add reagent to the dropping funnel and introduce it through the stopcock.\n(5) Title card shows \"Reflux with drying tube.\"\n(6) Female narrator explains preparing the drying tube and using a heat gun to drive out moisture, then cooling.\n(7) Title card shows \"Reflux with removal of gases.\"\n(8) Female narrator advises dealing with noxious gases via a fume hood or a gas takeoff adapter with gentle vacuum.",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5 -> 6 -> 7 -> 8",
+      "B: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8",
+      "C: 3 -> 4 -> 1 -> 2 -> 5 -> 6 -> 7 -> 8",
+      "D: 1 -> 2 -> 5 -> 6 -> 3 -> 4 -> 7 -> 8"
+    ],
+    "video_id": "chemistry_214",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "(1) The video first shows the title card for 'Heating with addition of reagents' at 0:31. (2) Immediately following this, the female narrator provides instructions for setting up the Claisen adapter and condenser for this heating setup from 0:40 to 0:50. (3) Next, the title card 'Reflux with addition funnel' appears at 1:07. (4) The narrator then explains adding reagents via a dropping funnel for this setup from 1:26 to 1:44. (5) The title card 'Reflux with drying tube' is shown at 1:57. (6) The narrator describes the preparation and use of the drying tube, including using a heat gun, from 2:08 to 3:00. (7) Subsequently, the title card 'Reflux with removal of gases' is displayed at 3:25. (8) Finally, the narrator explains methods for gas removal using a fume hood or gas takeoff adapter from 3:55 to 4:17. This sequence matches option B."
+  },
+  "TR_413": {
+    "question_id": "TR_413",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the video. Use BOTH what is seen on screen and what is heard (narration, music, or sound effects):\n(1) An enthusiastic male intro about the “biggest objects” plays over upbeat synth while a woman picks up a chip and eats it in a kitchen.\n(2) A brief explosive sound effect punctuates the collaboration intro as a Fast & Furious 9 poster appears while the narrator jokes about hoping the movies won’t suck.\n(3) A playful, wind-like sound occurs just before the narrator reveals coronal mass ejections, with the solar system on screen.\n(4) The bold title “Carrington Event” appears as the narrator describes the 1859 auroras and telegraph failures.\n(5) A glowing black-hole ring is shown as the narrator calls M87’s black hole “the chad” and mentions its recent photograph; the music swells.\n(6) Text on screen reads “HLGQ (4 bil. light years)” as the narrator introduces the Hercules–Corona Borealis Great Wall and asks why it counts as one thing; no background music.\n(7) Handwritten “Cosmological Principle” pages appear as the narrator concludes the largest structure may be a mystery, followed by a suspenseful musical stinger.",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7",
+      "B: 1 -> 2 -> 4 -> 3 -> 5 -> 6 -> 7",
+      "C: 1 -> 2 -> 3 -> 5 -> 4 -> 6 -> 7",
+      "D: 2 -> 1 -> 3 -> 4 -> 5 -> 7 -> 6"
+    ],
+    "video_id": "science_explainers_45",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "(1) The clip starts with a woman eating chips (0:00-0:02), matching the description of the enthusiastic male intro over upbeat synth. (2) The Fast & Furious 9 poster appears over the dam (0:46-0:47) with the associated narration and explosive sound effect. (3) The playful, wind-like sound occurs at 2:02 just before the discussion of coronal mass ejections (from 2:03 onwards) while the solar system is on screen (2:06-2:13). (4) The bold title 'Carrington Event' appears on screen at 2:48, followed by the narration about the 1859 auroras and telegraph failures. (5) The glowing black-hole ring, representing M87's black hole, is shown at 4:02-4:05, with the narrator calling it 'the chad' and mentioning its photograph, accompanied by swelling music. (6) The text 'Great GRB Wall' appears on screen at 4:24, and the narrator introduces the Hercules–Corona Borealis Great Wall, asking why it counts as one thing, with no background music. (7) Handwritten 'Cosmological Principle' pages appear from 6:11 onwards, and the narrator concludes with the idea that the largest structure may be a mystery around 7:53, followed by a suspenseful musical stinger."
+  },
+  "TR_320": {
+    "question_id": "TR_320",
+    "question": "Reconstruct the correct chronological order of these sub-events from the mid-to-late portion of the lecture.\n(1) The light-dependent reactions diagram with P680 and P700 is displayed as the speaker describes ATP, NADPH, and oxygen production via electron transport and ion gradients.\n(2) An image labeled \"CAM Plants\" shows a cactus as the speaker explains carbon fixation at night to prevent water loss.\n(3) The \"Chloroplast Structure\" diagram appears while the speaker mentions splitting water in chloroplasts and forming glucose.\n(4) A sunflower \"Photosynthesis Equation\" slide (6 CO2 + 6 H2O + sunlight -> C6H12O6 + 6 O2) is shown as the speaker outlines two stages.\n(5) A \"Variety of Pigments\" slide with red, yellow, and green leaves is shown as the speaker says chlorophyll is costly and reclaimed before leaves drop.\n(6) The Calvin cycle \"Light-Independent Reactions: The Sugar Factory\" slide appears as the speaker notes the reaction is not dependent on sunlight and mentions CO2 diffusing into a leaf.",
+    "options": [
+      "A: 5 -> 4 -> 3 -> 1 -> 6 -> 2",
+      "B: 4 -> 5 -> 3 -> 1 -> 2 -> 6",
+      "C: 5 -> 3 -> 4 -> 1 -> 2 -> 6",
+      "D: 3 -> 4 -> 5 -> 1 -> 6 -> 2"
+    ],
+    "video_id": "biology_139",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "(5) The \"Variety of Pigments\" slide appears from 03:03-03:37.\n(4) The \"Photosynthesis Equation\" slide is shown from 03:38-04:51.\n(3) The \"Chloroplast Structure\" diagram appears from 04:52-05:34.\n(1) The \"Light-Dependent Reactions\" diagram is displayed from 06:07-07:24.\n(6) The \"Light-Independent Reactions: The Sugar Factory\" slide appears from 07:24-08:13.\n(2) The \"CAM Plants\" image is shown from 08:59-09:21.\nTherefore, the correct chronological order is 5 -> 4 -> 3 -> 1 -> 6 -> 2."
+  },
+  "TR_439": {
+    "question_id": "TR_439",
+    "question": "Reconstruct the correct chronological order of the following sub-events based on BOTH the visuals and the spoken dialogue: (1) The interviewer asks about the unusual city government setup and which bureaus the candidate would want to manage. (2) Keith answers by citing his master’s in transportation/finance and decades running a transportation company, saying PBOT would fit him. (3) Keith advocates for a structured city manager using KPIs and Six Sigma rather than councilors learning technical details of bureaus. (4) He adds that council members should act as legislators focused 100% on policy; the host replies “very good.” (5) The interviewer requests general comments on law enforcement, mentioning police‑community relations, deadly force, and accountability. (6) Keith laments deadly force involving the mentally ill tied to homelessness and mentions his website. (7) He proposes making community‑engaged policing/accountability permanent and integrated into city structure. (8) The program closes with blue LWV screens reminding viewers to vote, followed by dramatic music.",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5 -> 6 -> 7 -> 8",
+      "B: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8",
+      "C: 1 -> 2 -> 4 -> 3 -> 5 -> 6 -> 7 -> 8",
+      "D: 5 -> 1 -> 2 -> 3 -> 4 -> 6 -> 7 -> 8"
+    ],
+    "video_id": "political_interviews_49",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "(1) The interviewer asks about bureaus around 07:08. (2) Keith then answers by highlighting his transportation expertise and interest in PBOT around 07:12. (3) He follows this by discussing the need for a city manager and management techniques around 07:29. (4) He then elaborates on council members acting as legislators, with the host's 'very good' response, around 07:50. (5) The interviewer then asks about law enforcement around 08:00. (6) Keith discusses deadly force, mental illness, homelessness, and his website around 08:07. (7) He proposes making the community-engaged policing and accountability program permanent around 08:30. (8) The video concludes with the program closing screens from 08:52 to 09:18."
+  },
+  "TR_263": {
+    "question_id": "TR_263",
+    "question": "Reconstruct the chronological order of these moments by using both what is shown on screen and what is said by the speaker: (1) On-screen text asks “Are we worshipping graven/carved images?” as he addresses skeptics. (2) The speaker recites Exodus 20:1–5 while scripture appears over a landscape with three crosses. (3) A quote from Colossians 1:15 (“the image of the invisible God”) appears during his talk. (4) He clarifies that God forbids worship of false gods rather than imagery, with a bullet list shown. (5) The speaker promises only a brief introduction to icons in Orthodox spirituality. (6) Genesis 1:26 (“Let us make man in our image”) is shown as he explains the word “icon.”",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "B: 5 -> 1 -> 6 -> 3 -> 2 -> 4",
+      "C: 5 -> 6 -> 1 -> 3 -> 2 -> 4",
+      "D: 5 -> 1 -> 3 -> 6 -> 2 -> 4"
+    ],
+    "video_id": "academic_lectures_236",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "The video starts with the speaker introducing the topic of icons and promising a brief introduction (5). He then explicitly asks the question \"Are we worshipping graven/carved images?\" (1). Following this, he delves into the meaning of 'icon' by quoting Genesis 1:26 (6) and then further elaborates on the concept of 'image' by citing Colossians 1:15 (3). He later addresses the commandment against graven images by reciting Exodus 20:1-5 (2) and subsequently clarifies that God is concerned with the worship of false gods, not imagery itself, as indicated by a bullet point on screen (4)."
+  },
+  "TR_25": {
+    "question_id": "TR_25",
+    "question": "Reconstruct the correct chronological order of the following sub-events as they occur in the video. Rely on both the visuals (listener reactions) and the audio (spoken lines).\n(1) A male speaker says, \"I don't know which one to look at now.\"\n(2) The man on the right smiles and nods while listening.\n(3) A male speaker says, \"Alright, let's do it anyway.\"\n(4) A speaker addresses the audience: \"What's up, guys? I just finished at Belem.\"\n(5) A comment is made that face tracking is on.\n(6) A male speaker says, \"stupid gimbal.\"",
+    "options": [
+      "A: 5 -> 6 -> 2 -> 3 -> 1 -> 4",
+      "B: 5 -> 2 -> 6 -> 3 -> 1 -> 4",
+      "C: 5 -> 6 -> 3 -> 2 -> 1 -> 4",
+      "D: 6 -> 5 -> 2 -> 3 -> 1 -> 4"
+    ],
+    "video_id": "expert_interviews_482",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "The audio transcript and visual cues indicate the following chronological order: (5) 'face tracking' is mentioned first (0:01-0:03). Immediately after, (2) the man on the right smiles and nods (0:02-0:03). This is followed by (6) the 'stupid gimbal' comment (0:04-0:07), then (3) 'let's do it anyway' (0:07-0:09), then (1) 'I don't know which one to look at now' (0:09-0:14), and finally (4) the speaker addresses the audience (0:18-0:21). This sequence matches option B."
+  },
+  "TR_341": {
+    "question_id": "TR_341",
+    "question": "Reconstruct the correct timeline. Consider both what appears on the slides and distinctive sounds/phrases:\n(1) A \"Tidal Locking\" slide notes the Moon’s 27.3-day rotation/orbit and the speaker pointedly asks, \"But, why are they the same?\"\n(2) A \"Far Side\" slide explains we always see the same side and shows Luna 3; the clip ends with someone saying \"Lily.\"\n(3) A follow-up shows a near–far side comparison (many maria vs many craters); the clip ends with a static-like noise.\n(4) The tidal-locking explanation continues: Earth’s gravity raises a bulge and slows the Moon’s spin; most moons are tidally locked.\n(5) A \"Libration\" slide concludes we can see 59% over time; the speaker adds, \"for the rest, we need spacecraft.\"",
+    "options": [
+      "A: 2 -> 3 -> 1 -> 4 -> 5",
+      "B: 3 -> 2 -> 1 -> 4 -> 5",
+      "C: 2 -> 1 -> 3 -> 4 -> 5",
+      "D: 1 -> 2 -> 3 -> 5 -> 4"
+    ],
+    "video_id": "astronomy_186",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "Based on the chronological order of the content and slides presented in the video: First, the concept of the Moon's 'Far Side' is introduced (04:41, event 2), including the Luna 3 mission. This is followed by a comparison showing the 'Near and Far Side' of the Moon (05:12, event 3). Subsequently, the topic of 'Tidal Locking' is presented, noting the synchronized rotation and revolution, and asking 'why' (05:26, event 1). The explanation of tidal locking then continues, detailing the Earth's gravitational effect and the prevalence of tidal locking in moons (05:51, event 4). Finally, the discussion moves to libration and concludes with the fact that 59% of the Moon's surface is visible over time, requiring spacecraft for the rest (08:25, event 5). This sequence directly matches option A."
+  },
+  "TR_267": {
+    "question_id": "TR_267",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the video. Use both what is seen and what is said to decide the sequence:\n(1) A superhero with a red cape flies as a female voice declares no appliance works without “me” and introduces electrical components.\n(2) A woman complains, “Did the power has to go only now? … it is so difficult without electricity,” while children sit with a turbaned man.\n(3) A man nostalgically says they never had fans, tube lights, TV, or radio as icons of these appliances appear.\n(4) A child wonders if hospital equipment runs on electricity and asks if sunlight can be captured for nighttime, ending with a click sound; thought bubbles show a kitchen and an X‑ray.\n(5) At night, children use a torch and note there’s no power on the street, but the crossroads pole has a light on.",
+    "options": [
+      "A: 3 -> 1 -> 5 -> 2 -> 4",
+      "B: 1 -> 2 -> 3 -> 4 -> 5",
+      "C: 1 -> 3 -> 2 -> 4 -> 5",
+      "D: 1 -> 2 -> 4 -> 3 -> 5"
+    ],
+    "video_id": "academic_lectures_261",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "Here's the chronological breakdown of the sub-events based on the video content:\n\n1.  **A superhero with a red cape flies as a female voice declares no appliance works without “me” and introduces electrical components.** This occurs at the very beginning of the video, from 0:00 (animation starts) until around 0:31 (objectives are stated).\n2.  **A woman complains, “Did the power has to go only now? … it is so difficult without electricity,” while children sit with a turbaned man.** This sub-event takes place starting at 0:38, where a female child expresses frustration about a power outage while sitting with others and an older man.\n3.  **A man nostalgically says they never had fans, tube lights, TV, or radio as icons of these appliances appear.** The turbaned man's monologue about older times without modern appliances begins around 0:50, and icons representing these appliances appear from 0:54 to 1:00.\n4.  **A child wonders if hospital equipment runs on electricity and asks if sunlight can be captured for nighttime, ending with a click sound; thought bubbles show a kitchen and an X-ray.** The video shows thought bubbles of kitchen appliances (1:05), washing machines (1:09), dishwashers (1:13), and X-ray equipment (1:24). A child asks about hospital equipment at 1:31. Later, a child asks about capturing sunlight for nighttime at 2:44, followed by a click sound. Considering the first occurrence of elements within this combined description (thought bubbles and initial questions), it starts at 1:04, which is after event 3.\n5.  **At night, children use a torch and note there’s no power on the street, but the crossroads pole has a light on.** This scene appears at 2:04, where children are outside with a flashlight, observing the streetlights. This occurs after the initial discussions and ponderings in event 4, but before the question about sunlight capture in event 4 is explicitly asked.\n\nBased on the first appearance of each described event's content in the video, the most accurate chronological order is 1 -> 2 -> 3 -> 4 -> 5."
+  },
+  "TR_40": {
+    "question_id": "TR_40",
+    "question": "Reconstruct the correct chronological order of these sub-events from the video: (1) A Lion King clip appears as the host says “look hard(er).” (2) A whoosh leads into a fiery title: “BEING REAL IN A FAKE WORLD.” (3) A Quran verse overlay appears while the host discusses turning to Allah. (4) Upbeat Bollywood music plays as the host lists an actress’s stats. (5) The host names “Sana Khan” and says she’ll leave her career for her Creator. (6) A woman in a cream hijab appears with subtitle urging praying all salah on time.",
+    "options": [
+      "A: 4 -> 6 -> 5 -> 2 -> 1 -> 3",
+      "B: 4 -> 5 -> 6 -> 2 -> 1 -> 3",
+      "C: 6 -> 2 -> 4 -> 5 -> 1 -> 3",
+      "D: 4 -> 5 -> 2 -> 6 -> 3 -> 1"
+    ],
+    "video_id": "celebrity_interviews_329",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The events occur in the following order in the video: First, upbeat Bollywood music plays while the host lists an actress's stats (0:00-0:22). Next, the host names 'Sana Khan' and discusses her leaving her career for her Creator (0:23-0:26). Following this, a woman in a cream hijab appears with a subtitle about praying salah on time (0:51-0:57). Then, a whoosh sound leads into the fiery title 'BEING REAL IN A FAKE WORLD' (0:58-1:02). A 'Lion King' clip appears as the host says 'look hard(er)' (1:15-1:17). Finally, a Quran verse overlay appears as the host discusses turning to Allah (1:32-1:43)."
+  },
+  "TR_140": {
+    "question_id": "TR_140",
+    "question": "Reconstruct the correct timeline of these moments from the campground to the Junior Ranger ceremony. Put them in chronological order.\n(1) The family cheers and thanks Charlene as the boy holds his certificate and gifts are named.\n(2) At the campsite, a man says they'll go to the ceremony soon while sausages cook.\n(3) The ranger proclaims the child a Colorado State Parks Junior Ranger.\n(4) The child in a red Colorado shirt recites the Junior Ranger pledge after an adult.",
+    "options": [
+      "A: 2 -> 4 -> 3 -> 1",
+      "B: 4 -> 3 -> 1 -> 2",
+      "C: 2 -> 3 -> 4 -> 1",
+      "D: 4 -> 2 -> 3 -> 1"
+    ],
+    "video_id": "camping_31",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The audio captions clearly indicate the order of events. The family first prepares at the campsite, mentioning they will go to the ceremony soon (2). Next, the child recites the pledge, which is part of the ceremony (4). Then, the ranger formally proclaims the child a Junior Ranger (3), followed by the family's cheers and the presentation of the certificate and gifts (1)."
+  },
+  "TR_70": {
+    "question_id": "TR_70",
+    "question": "Reconstruct the correct chronological order of the following sub-events as they occur in the video. Use both the visuals and the narration to decide.\n(1) The split-screen title appears claiming Jordan ruined Kwame Brown’s career.\n(2) A Wizards player in a white #23 jersey dunks as the crowd cheers.\n(3) The narrator apologizes for lack of recent content, mentions meeting fans, and a brief electronic music sting plays.\n(4) The scoreboard reads LAL 88 – WAS 65 with 2:16 left as #23 is featured.\n(5) A coach in a black vest instructs Wizards players during training.\n(6) The narrator encourages viewers to subscribe/like, mentions other video suggestions, and says “peace.”",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "B: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "C: 4 -> 1 -> 2 -> 3 -> 5 -> 6",
+      "D: 1 -> 2 -> 4 -> 3 -> 5 -> 6"
+    ],
+    "video_id": "sports_talk_shows_228",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "Based on a chronological review of the video and its audio captions: (1) The split-screen title appears at 0:00. (2) Michael Jordan (wearing #23) dunks at approximately 0:40, which is the most relevant 'Wizards player #23 dunks' highlight. (3) The narrator apologizes for lack of content and an electronic music sting plays starting around 0:44. (4) The scoreboard showing 'LAL 88 – WAS 65' is visible at 1:38. (5) A coach instructing Wizards players during training appears at 3:01. (6) The narrator encourages subscribing and says 'peace' at the end of the video, starting around 6:16. This sequence matches option B."
+  },
+  "TR_210": {
+    "question_id": "TR_210",
+    "question": "Reconstruct the correct timeline of the following sub-events using both visuals and audio cues from the vlog:\n(1) The host reveals they’re going to the Pelicans vs. Pistons game with SeatGeek (sponsor shout and on-screen quiz answer).\n(2) Snowy aerial views from a plane appear as someone says, “And we’re off.”\n(3) Inside the team shop with a DJ, someone says it’s “lit.”\n(4) Courtside during warmups, a voice exclaims, “I feel like a player.”\n(5) The jumbotron shows “Blake Griffin,” and an early score shows Pelicans 7–3.\n(6) A speaker suggests heading to the Pelicans lounge for food after “overshooting by five in the first quarter.”\n(7) Later in the game, the speaker says, “Blake has 35 and we’re up by 6.”",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7",
+      "B: 1 -> 3 -> 2 -> 4 -> 5 -> 6 -> 7",
+      "C: 1 -> 2 -> 3 -> 5 -> 4 -> 6 -> 7",
+      "D: 1 -> 2 -> 3 -> 4 -> 6 -> 5 -> 7"
+    ],
+    "video_id": "travel_vlogs_51",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The timeline is established by observing both visual and audio cues. The host first mentions the game and SeatGeek in their hotel room (0:56-1:26). Next, they show snowy aerial views from a plane, with the audio confirming they are 'off' (2:06-2:11). Upon arrival, they visit the team shop with a DJ (3:39-3:40). They then get courtside, and the host exclaims, 'I feel like a player' during warmups (4:02-4:14). The jumbotron then shows 'Blake Griffin' (6:38) and an early game score of Pelicans 7-3 (7:10). Following this, the speaker suggests going for food after 'overshooting by five in the first quarter' (7:24), indicating a break after the first quarter. Finally, much later in the game, the speaker mentions, 'Blake has 35 and we're up by 6' (9:12), signifying a late-game status."
+  },
+  "TR_54": {
+    "question_id": "TR_54",
+    "question": "Reconstruct the correct chronological order of the following sub-events from later in the segment. Use both visual details and audio cues to determine the sequence.\n(1) On-screen text identifies Kirk Cousins as a 4th-round pick while a report criticizes his accuracy and arm strength.\n(2) The guest in a light blue shirt holds a football while arguing that winning and playoff success matter most.\n(3) A determined voice insists you must “win and win and win,” a calmer host tells him not to get too fired up, a small dog in a red jersey is visible, and it cuts to a black screen saying “THE PATRIOTS.”\n(4) A guest discusses being below-average height but “still growing,” joking about a scheme with many one-on-ones, with a “The Dan Patrick Show” sign visible.\n(5) A car alarm interrupts a segment with a long-haired guest in a white armchair, who angrily tells it to stop.\n(6) A purple “DON’T FORGET TO Subscribe” screen appears as light hip-hop music plays.",
+    "options": [
+      "A: 4 -> 1 -> 2 -> 3 -> 5 -> 6",
+      "B: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "C: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "D: 1 -> 2 -> 4 -> 3 -> 5 -> 6"
+    ],
+    "video_id": "sports_talk_shows_126",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "I have analyzed the video chronologically to determine the correct order of the sub-events. \n1. **Sub-event (1)** (On-screen text identifies Kirk Cousins as a 4th-round pick...): This occurs around the 04:33 mark when the text for Kirk Cousins' draft pick appears on screen while he reads his profile.\n2. **Sub-event (2)** (The guest in a light blue shirt holds a football while arguing that winning and playoff success matter most.): Kirk Cousins, in a light blue shirt, argues this point starting around 05:43.\n3. **Sub-event (3)** (A determined voice insists you must “win and win and win,”... cut to a black screen saying “THE PATRIOTS.”): This is the conclusion of Kirk Cousins' segment, with his emphatic statement and the host's response, occurring around 06:28, followed by the black screen.\n\nFollowing Kirk Cousins' segment, the video transitions to a new guest, Ryan Fitzpatrick.\n4. **Sub-event (4)** (A guest discusses being below-average height but “still growing,” joking about a scheme with many one-on-ones...): Ryan Fitzpatrick (the long-haired guest) starts reading his report, and the mention of his 'below-average height' and his reaction of 'still growing' occurs around 06:50 in the video. Although the 'joking about a scheme' part happens later (around 07:44), the earliest part of this multi-faceted event description is the height discussion, which is before the car alarm.\n5. **Sub-event (5)** (A car alarm interrupts a segment with a long-haired guest in a white armchair, who angrily tells it to stop.): The car alarm interruption occurs at 07:05, after the initial mention of height in event (4).\n6. **Sub-event (6)** (A purple “DON’T FORGET TO Subscribe” screen appears as light hip-hop music plays.): This is the end screen of the video, appearing at 09:21.\n\nTherefore, the correct chronological order is 1 -> 2 -> 3 -> 4 -> 5 -> 6."
+  },
+  "TR_216": {
+    "question_id": "TR_216",
+    "question": "Reconstruct the correct chronological order of these moments from Pauly’s river sniping session. Use both what is seen and what is said to place them in sequence: (1) He exclaims, \"found a nice little nugget.\" (2) The underwater camera shows him maneuvering with a long pole between rocks. (3) A gloved hand holds up a small gold nugget to the camera underwater. (4) He comments, \"the current is strong.\" (5) He gives a tip that cracks running with the river hold gold and encourages watching to the end.",
+    "options": [
+      "A: 3 -> 5 -> 1 -> 4 -> 2",
+      "B: 4 -> 2 -> 1 -> 3 -> 5",
+      "C: 5 -> 1 -> 3 -> 4 -> 2",
+      "D: 2 -> 4 -> 3 -> 1 -> 5"
+    ],
+    "video_id": "travel_vlogs_74",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "The events unfold chronologically in the video as follows: (4) The speaker first comments on the strong current at 00:25. (2) He then begins maneuvering with a long pole between rocks to clear crevices, first seen around 00:29. (1) He exclaims 'found a nice little nugget' at 00:45 (audio) after spotting it at 00:48 and explicitly saying 'found it' at 00:51. (3) Immediately after, at 00:52, a gloved hand holds up the small gold nugget to the camera underwater. (5) Later, at 01:29, he gives a tip about gold-bearing cracks and encourages viewers to watch until the end of the video."
+  },
+  "TR_220": {
+    "question_id": "TR_220",
+    "question": "Timeline Reconstruction: Arrange the following sub-events in their correct chronological order based on the video and audio.\n(1) He says the under-counter storage mess drives him crazy and that the Target bins aren’t enough.\n(2) He admits he usually cleans up the van before recording so it looks better on camera.\n(3) He says, “Right now I’m going to show you what it normally looks like in my van.”\n(4) He mentions Seattle, notes laundry spilling into his legroom, and complains about having too many pillows.\n(5) He explains the big loaf of bread doesn’t fit in cabinets, so he shuffles food between the bed and counter.\n(6) He explains cleaning the stainless-steel sink with a light spray of WD-40 to remove spots.\n(7) He concludes that this messy scene is his normal day in van life.",
+    "options": [
+      "A: 2 -> 3 -> 4 -> 5 -> 6 -> 1 -> 7",
+      "B: 3 -> 2 -> 4 -> 5 -> 6 -> 1 -> 7",
+      "C: 2 -> 4 -> 3 -> 5 -> 1 -> 6 -> 7",
+      "D: 2 -> 3 -> 5 -> 4 -> 6 -> 1 -> 7"
+    ],
+    "video_id": "travel_vlogs_98",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The video starts with the speaker admitting he usually cleans up the van for the camera (0:16). He then states he will show what the van normally looks like (1:09). Next, he mentions being in Seattle, the laundry, and the pillows (1:09-2:05). He then talks about the large loaf of bread and shuffling food (2:05-3:20). He later explains his method of cleaning the sink with WD-40 (5:35-5:55). Afterwards, he discusses the under-counter storage mess and the inadequacy of the Target bins (6:55-7:38). Finally, he concludes that this messy scene is his normal van life (8:14)."
+  },
+  "TR_77": {
+    "question_id": "TR_77",
+    "question": "Reconstruct the correct chronological order of these sub-events from the discussion: (1) In the bedroom setup, the host praises Paul Heyman as \"on fire tonight,\" does Roman’s \"undisputed reigning defending\" entrance wording, and notes Brock takes the mic. (2) Still solo in the bedroom, he explains Lesnar wasn’t good at talking early, improved, and now does a Paul Heyman imitation that is \"gold.\" (3) The solo host hypes it as the \"biggest match in WrestleMania history\" and a \"heavyweight championship match.\" (4) The host gives play-by-play: spears, F5s, barricade spear, ref down, low blow, rope break, and Roman wins with a final spear. (5) Cut to two hosts on split-screen agreeing it was the main event of the year; one says some didn’t like it but they delivered. (6) Back in the studio with red panels, a speaker complains they kept calling Roman the same \"Undisputed Universal Champion\" instead of anything new.",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "B: 2 -> 1 -> 3 -> 4 -> 6 -> 5",
+      "C: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "D: 1 -> 2 -> 4 -> 3 -> 6 -> 5"
+    ],
+    "video_id": "sports_talk_shows_290",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "The chronological order is determined by following the logical progression of the discussion and the visual cues provided in the sub-event descriptions:\n\n1.  **(1) In the bedroom setup, the host praises Paul Heyman...:** This is the initial setup, introducing the topic of Roman Reigns' entrance and Paul Heyman's role. It takes place with a solo host in a bedroom setting.\n2.  **(2) Still solo in the bedroom, he explains Lesnar wasn’t good at talking...:** This logically follows from discussing Heyman and Roman, providing background context about Brock Lesnar's speaking ability and Heyman's influence. It's still the solo host in the bedroom.\n3.  **(3) The solo host hypes it as the 'biggest match in WrestleMania history'...:** After discussing the characters, the next natural step is to hype the match itself, still delivered by the solo host in the bedroom.\n4.  **(4) The host gives play-by-play: spears, F5s...:** This is the detailed recounting of the match, which would logically occur after the hype. It's still delivered by a single host, likely Bryan in the bedroom.\n5.  **(5) Cut to two hosts on split-screen agreeing it was the main event...:** This marks a transition to a multi-person discussion, reflecting on the match's overall reception after the play-by-play.\n6.  **(6) Back in the studio with red panels, a speaker complains...:** This is a specific post-match criticism, occurring in a different visual setting (studio with red panels) and likely involves a different speaker, indicating it's a later point in the overall discussion."
+  },
+  "TR_206": {
+    "question_id": "TR_206",
+    "question": "Reconstruct the correct timeline of these moments from the Machu Picchu visit (earliest to latest):\n(3) A close-up shows a hummingbird perched on a branch.\n(2) A man says \"what up peeps\" as a couple waves with Machu Picchu behind them.\n(5) While walking the ruins, one jokes they'd live here on only Chipotle; another adds there's no toilet paper.\n(1) Dance‑pop music with an electronic feel begins.\n(4) The group excitedly points out a chinchilla and an Inca spider.",
+    "options": [
+      "A: 2 -> 1 -> 5 -> 4 -> 3",
+      "B: 2 -> 5 -> 1 -> 4 -> 3",
+      "C: 5 -> 2 -> 1 -> 4 -> 3",
+      "D: 2 -> 5 -> 4 -> 1 -> 3"
+    ],
+    "video_id": "travel_vlogs_35",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The audio cues indicate the following sequence: 1. The scene opens with the speaker saying 'what up peeps' and showing the couple at Machu Picchu (Event 2). 2. They then discuss living at the ruins and the lack of amenities like toilet paper while walking around (Event 5). 3. Dance-pop music is explicitly stated to begin after this discussion (Event 1). 4. While exploring, the group spots a chinchilla and an Inca spider, with music playing in the background (Event 4). 5. Later, a hummingbird is pointed out as they continue their walk (Event 3). Therefore, the correct order is 2, 5, 1, 4, 3."
+  },
+  "TR_389": {
+    "question_id": "TR_389",
+    "question": "Reconstruct the correct chronological order of these moments from the video:\n(1) The host welcomes viewers over upbeat electronic music, introducing that he’ll break down radio frequency science.\n(2) An on-screen comment from “J.L.” appears as the host announces “comment of the week.”\n(3) He explains thermolysis in the dermis and hypodermis and says, “collagen … is the gold.”\n(4) Visuals show a device and diagrams; bold pink text reads “YES!! RF CAN DESTROY FACIAL FAT CELLS” as he confirms RF can destroy fat.\n(5) The host signs off with “See ya” during the TJ Tutorials logo outro sequence.",
+    "options": [
+      "A: 2 -> 1 -> 3 -> 4 -> 5",
+      "B: 1 -> 2 -> 3 -> 4 -> 5",
+      "C: 1 -> 3 -> 2 -> 4 -> 5",
+      "D: 1 -> 2 -> 4 -> 3 -> 5"
+    ],
+    "video_id": "science_explainers_241",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "(1) The video starts with the host's welcome and introduction of the topic around 00:00-00:11. (2) The 'comment of the week' is announced at 01:08, and the on-screen comment appears at 02:13. (3) The explanation of thermolysis in the dermis and hypodermis, including the mention of collagen, occurs around 05:43-06:10. (4) The bold pink text 'YES!! RF CAN DESTROY FACIAL FAT CELLS' appears at 06:27, confirming the destruction of fat. (5) The host signs off with 'See ya' and the outro sequence begins at 09:32. This sequence aligns with option B."
+  },
+  "TR_344": {
+    "question_id": "TR_344",
+    "question": "Reconstruct the correct timeline of the following sub-events from the video’s processing segment. Use both the visuals and the audio to determine the order: (1) He starts stacking with drizzle and cheers when the final stack appears, saying he used only the top 25%. (2) He says he has about 140 images and will use a sub-frame selector after calibration. (3) He shows the final galaxy with a tech overlay (equipment and 1.98 h) and concludes quality-over-quantity. (4) He notes his CPU is spiking and switches the measurement to FWHM to judge focus. (5) He sorts by star count and moves the remaining frames to a \"Good Subs\" folder. (6) He jokes copying will take \"a million years\" and plays a Super Mario sound while thanking subscribers.",
+    "options": [
+      "A: 2 -> 5 -> 4 -> 6 -> 1 -> 3",
+      "B: 2 -> 4 -> 5 -> 6 -> 1 -> 3",
+      "C: 2 -> 4 -> 6 -> 5 -> 1 -> 3",
+      "D: 2 -> 4 -> 5 -> 1 -> 6 -> 3"
+    ],
+    "video_id": "astronomy_214",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "The events unfold chronologically in the video as follows:\n(2) The speaker mentions having about 140 images and planning to use a sub-frame selector after calibration (03:43, then subframe selector at 04:46).\n(4) He then notes his CPU spiking and proceeds to switch the measurement to FWHM to judge focus quality (04:56, then FWHM change at 05:49).\n(5) Following this, he sorts the images by star count and moves the selected 'good' frames into a 'Good Subs' folder (sorting by stars at 06:35, moving to folder at 07:01).\n(6) He then makes a joke about the long copying process, featuring a Super Mario sound effect, while thanking his subscribers (07:18).\n(1) After copying, he starts the stacking process with drizzle, cheering when the final stacked image appears and noting he only used the top 25% of the data (stacking at 07:57, final image at 08:18).\n(3) Finally, he presents the fully processed galaxy image with a technical overlay of the equipment used and total integration time, reiterating his point about quality over quantity (09:12)."
+  },
+  "TR_244": {
+    "question_id": "TR_244",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the lecture segment on the Middle English period. Choose the option that lists the numbered sub-events in the actual order they occurred in the video.\n(1) The on-screen equation “Old English + French = Middle English” is shown as the speaker cites “mansion” as a French-derived example.\n(2) A poster of “William the Conqueror” appears while the speaker explains King Harold’s defeat at the Battle of Hastings.\n(3) A timeline labeled “Before Chaucer / Age of Chaucer / Age of Revival” is displayed as the speaker divides the Middle English period into these three parts.\n(4) Under the title “02 LANGUAGE DEVELOPMENT” with a map, the speaker says “France became the ruler of England” and that “Anglo-French became the official language.”\n(5) An “Origins of English Words” pie chart is shown as the speaker asserts most English words have Latin or French roots.\n(6) The text “Language of Angles, Saxons & Jutes + Language of Normans = Anglo Norman Language” is displayed as the speaker contrasts “Anglo-Saxons” before 1066 with “Anglo-Normans” after.",
+    "options": [
+      "A: 3 -> 2 -> 6 -> 4 -> 1 -> 5",
+      "B: 2 -> 3 -> 6 -> 4 -> 1 -> 5",
+      "C: 3 -> 6 -> 2 -> 4 -> 1 -> 5",
+      "D: 3 -> 2 -> 4 -> 6 -> 1 -> 5"
+    ],
+    "video_id": "academic_lectures_128",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The sub-events occurred in the following chronological order in the video:\n(3) At 01:10, a timeline dividing the 'Middle English Period' into 'Before Chaucer', 'Age of Chaucer', and 'Age of Revival' is displayed.\n(2) At 01:58, a poster of 'William the Conqueror' appears as the speaker discusses his role in defeating King Harold at the Battle of Hastings.\n(6) At 02:43, the text 'Language of Angles, Saxons & Jutes + Language of Normans = Anglo Norman Language' is shown, followed by a timeline at 03:10 contrasting 'Anglo Saxons (Before 1066 AD)' with 'Anglo Norman (After 1066 AD)'.\n(4) At 03:24, the title '02 LANGUAGE DEVELOPMENT' with a map of England and France appears, and the speaker explains France's rule over England and 'Anglo-French' becoming the official language.\n(1) At 03:37, the on-screen equation 'Old English + French = Middle English' is shown, and the speaker mentions 'mansion' as an example.\n(5) At 04:15, an 'Origins of English Words' pie chart is displayed as the speaker discusses English words having Latin or French roots."
+  },
+  "TR_120": {
+    "question_id": "TR_120",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the video: (1) Suspenseful music plays as the words \"LEAN FORWARD\" appear on a white background. (2) A male voice introduces a \"dynamic duo\" at TEDWomen while two young women appear on a TED stage. (3) A close-up of the book \"Adventures of Huckleberry Finn\" appears as speakers note that books can feel distant. (4) With a TED Talk visible on the TV, a speaker shares a story about a young trans woman who is among the youngest Cherokee language speakers. (5) A woman recounts meeting Lisa in Chicago, who cried over her low-income Black students. (6) Laura Flanders signs off inviting membership and says, \"Until next week, I'm Laura Flanders. Thanks.\"",
+    "options": [
+      "A: 2 -> 1 -> 3 -> 4 -> 5 -> 6",
+      "B: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "C: 1 -> 3 -> 2 -> 5 -> 4 -> 6",
+      "D: 1 -> 2 -> 4 -> 3 -> 5 -> 6"
+    ],
+    "video_id": "ted_talks_438",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "Based on the audio captions, the events occur in the following order:\n1.  The video starts with suspenseful music and 'LEAN FORWARD' on screen.\n2.  A male speaker introduces the 'dynamic duo' at TEDWomen, showing two young women on stage.\n3.  A discussion about books feeling distant from reality mentions 'Adventures of Huckleberry Finn'.\n4.  A speaker shares a story about a young trans woman who is a Cherokee language speaker, with a TED Talk visible in the background.\n5.  A woman recounts meeting Lisa in Chicago and her emotional story.\n6.  Laura Flanders signs off at the very end of the video."
+  },
+  "TR_129": {
+    "question_id": "TR_129",
+    "question": "Reconstruct the correct chronological order of these sub-events from the camping prep and dog scenes. Note: The list below is not in time order.\n(1) Inside the camper, with a silver tea service visible, the speaker says they are going camping and that the dog pup gets to go.\n(2) In a cozy wooden camper interior, he says \"Lola is looking forward to it\" and plans to set up a base camp to inspect forest property.\n(3) The camera shows the electrical setup (battery and yellow inverter) as he states \"9050 feet above mean sea level\" and describes a 35-watt charger for a 100-amp battery, adding \"More power.\"\n(4) Outside, the white dog with brown patches explores a barren field while the speaker talks about checking property from base camp and investigating the mysterious stump; he notes spring is here though cottonwoods lack leaves, with audible panting.\n(5) The white dog barks in a rural yard as the speaker calls it a low-technology trip with no computer or internet and wonders how Lola got fat.",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5",
+      "B: 2 -> 1 -> 3 -> 5 -> 4",
+      "C: 1 -> 3 -> 2 -> 4 -> 5",
+      "D: 3 -> 1 -> 2 -> 4 -> 5"
+    ],
+    "video_id": "camping_164",
+    "model_answer": [
+      "D"
+    ],
+    "model_reason": "To determine the correct chronological order, I analyzed the video for the start times of the distinct audio and visual elements described in each event.\n\n*   **Event (1) Inside the camper, with a silver tea service visible, the speaker says they are going camping and that the dog pup gets to go.**\n    *   This event's audio and visual content (silver tea service in camper, discussing camping with dog) is clearly found from **05:25** to 05:29.\n\n*   **Event (2) In a cozy wooden camper interior, he says \"Lola is looking forward to it\" and plans to set up a base camp to inspect forest property.**\n    *   The audio \"Lola is looking forward to it\" and the plans for a base camp to inspect property are first heard at **00:50** with the speaker's talking head visible. The visual element \"In a cozy wooden camper interior\" is not present at this time, making this event's description partially inconsistent. However, if this event is interpreted thematically as the *plans and anticipation for the trip* that are actualized through the camping preparations, it would logically follow the initial setup.\n\n*   **Event (3) The camera shows the electrical setup (battery and yellow inverter) as he states \"9050 feet above mean sea level\" and describes a 35-watt charger for a 100-amp battery, adding \"More power.\"**\n    *   The visual of the electrical setup in the camper and the corresponding audio are present from **05:17** to 05:23.\n\n*   **Event (4) Outside, the white dog with brown patches explores a barren field while the speaker talks about checking property from base camp and investigating the mysterious stump; he notes spring is here though cottonwoods lack leaves, with audible panting.**\n    *   The visual of the dog outdoors and the audio about exploring the property, the stump, and spring are found from **06:34** to 06:40.\n\n*   **Event (5) The white dog barks in a rural yard as the speaker calls it a low-technology trip with no computer or internet and wonders how Lola got fat.**\n    *   The visual of the dog barking and the audio discussing a low-technology trip and Lola getting fat occurs from **07:37** to 07:49.\n\nBased on these observations, the indisputable chronological order for most events is:\n*   Event (3) (05:17) occurs before Event (1) (05:25).\n*   Event (4) (06:34) occurs before Event (5) (07:37).\n\nOption D: 3 -> 1 -> 2 -> 4 -> 5 maintains the correct internal order of the camping preparation scenes (3 then 1) and the dog/outdoor scenes (4 then 5). The placement of Event (2) after Event (1) suggests that while the initial discussion of plans and Lola's excitement (00:50) might be an early thematic statement, the question places the 'event' in the context of the physical camping setup, following the preparations (electrical setup, tea service). It implicitly prioritizes the sequence of tangible actions related to camping over the earliest audio mention of a concept, especially when an explicit visual setting ('cozy wooden camper interior') is part of the event's description."
+  },
+  "TR_17": {
+    "question_id": "TR_17",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the latter half of the interview. Use both visual slide/screen changes and the spoken content: (1) A slide titled “General Wellness Products” appears; the male praises FDA guidance and the carve-out for low-risk wellness devices. (2) The male jokes about being a new parent while discussing a sleep tracker that “doesn’t really work as effectively as it says,” and he receives congratulations. (3) The closing black screen with “thank you for watching” and social media icons appears while mellow music plays. (4) The female asks if AI accuracy problems bleed into popular wearables; the male predicts more litigation. (5) The male warns that risk extends beyond the FDA to the FTC and private plaintiffs, cautioning against unsupported claims. (6) The female asks if there’s anything on the horizon at the federal level, following mention that tech blurs wellness and medicine.",
+    "options": [
+      "A: 5 -> 2 -> 4 -> 6 -> 1 -> 3",
+      "B: 2 -> 5 -> 4 -> 1 -> 6 -> 3",
+      "C: 5 -> 4 -> 2 -> 1 -> 6 -> 3",
+      "D: 5 -> 2 -> 6 -> 4 -> 1 -> 3"
+    ],
+    "video_id": "expert_interviews_399",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "Based on the chronological review of the video segments:\n- Event (5) the male warns about risks beyond the FDA to the FTC and private plaintiffs, is discussed starting around 03:22.\n- Event (2) the male jokes about being a new parent and discusses a sleep tracker, occurs around 03:50-04:10.\n- Event (4) the female asks about AI accuracy problems in wearables, and the male predicts more litigation, takes place around 04:20-05:00.\n- Event (6) the female asks about federal level clarity after the male discusses the blurring lines between wellness and medicine, happens around 05:08-05:30.\n- Event (1) the slide titled “General Wellness Products” appears, and the male praises FDA guidance, occurs starting around 06:12.\n- Event (3) the closing black screen with “thank you for watching” and social media icons appears, which is at the end of the video, around 07:01.\nThis sequence matches option A."
+  },
+  "TR_52": {
+    "question_id": "TR_52",
+    "question": "Arrange these sub-events in the correct chronological order from earlier to later in the interview:\n(1) The guest refuses to be sprayed with sake at a hibachi restaurant.\n(2) The host asks where to find the guest on social media; he plugs YouTube and asks for support.\n(3) The host says \"life experience is a great teacher.\"\n(4) With a red cup and glass bowl by the guest, they call \"free balling\" at a friend's house \"bad drip game.\"\n(5) The host compliments the guest's verse and jokes about a construction job.\n(6) The host warns sweaty football gloves get sticky and should be washed.\n(7) They discuss \"get back\" with a Twizzler and \"Larry with two L's\" owing money, ending with \"YouTube bullshit\" and laughter.\n(8) The guest tells a school story about pretending to want to do something and says it wasn't worth it.",
+    "options": [
+      "A: 3 -> 5 -> 8 -> 4 -> 6 -> 1 -> 7 -> 2",
+      "B: 5 -> 3 -> 8 -> 4 -> 1 -> 6 -> 7 -> 2",
+      "C: 3 -> 8 -> 5 -> 4 -> 1 -> 6 -> 7 -> 2",
+      "D: 8 -> 3 -> 5 -> 4 -> 6 -> 1 -> 7 -> 2"
+    ],
+    "video_id": "celebrity_interviews_83",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "I identified the key phrases for each sub-event and located their corresponding discussions within the provided audio captions. By placing them in the order they appear in the full transcript, the correct chronological sequence of the sub-events is established as: (3) host says 'life experience is a great teacher' -> (8) guest tells a school story -> (5) host compliments guest's verse -> (4) 'free balling' is 'bad drip game' -> (1) guest refuses sake spray -> (6) host warns about sweaty football gloves -> (7) 'get back' discussion -> (2) social media plug. This order matches option C."
+  },
+  "TR_147": {
+    "question_id": "TR_147",
+    "question": "Reconstruct the correct chronological order using both visual and audio cues (the onscreen text, ignition sounds, and cooking visuals): (1) “2 day later...” appears as he returns on snowshoes, saying he’ll start a fire and make spruce/rosehip tea. (2) He says he collected spruce and rose hips; a flame audibly ignites. (3) He tends a small fire and sets a pan of snow to boil, noting about −3°C and drying his pants. (4) He says he’ll relax, feed the fire, and enjoy the winter winds. (5) A skillet cooks rose hips over the fire as he mentions squishing them and their vitamin C.",
+    "options": [
+      "A: 2 -> 1 -> 3 -> 4 -> 5",
+      "B: 1 -> 3 -> 2 -> 4 -> 5",
+      "C: 1 -> 2 -> 4 -> 3 -> 5",
+      "D: 1 -> 2 -> 3 -> 4 -> 5"
+    ],
+    "video_id": "camping_85",
+    "model_answer": [
+      "D"
+    ],
+    "model_reason": "The sequence of events follows a logical progression: returning to the shelter and stating intentions (1), gathering materials and lighting the fire (2), tending the fire and starting to boil water (3), then describing plans to relax by the fire (4), and finally actively preparing the tea with the boiled water (5)."
+  },
+  "TR_349": {
+    "question_id": "TR_349",
+    "question": "Reconstruct the correct chronological order of the following moments from the lecture: (1) Slides of Machu Picchu and Stonehenge appear as he describes pre‑telescopic observatories. (2) A Keck mirror close‑up with the caption \"Thirty‑Six Eyes Are Better Than One\" appears as he says \"36 eyes are better than one.\" (3) He explains that a refractor bends light through a lens and a reflector uses mirrors, with FIGURE 6.5/6.6 diagrams on screen. (4) Epic music plays while the speaker introduces \"Chapter six\" over the series title slide. (5) The three reflecting focus arrangements slide (FIGURE 6.6) is on screen while he mentions \"aperture\" and \"eyepiece.\" (6) The Hubble Space Telescope image is shown as he says it's been in space a long time and will be replaced.",
+    "options": [
+      "A: 6 -> 4 -> 1 -> 3 -> 2 -> 5",
+      "B: 4 -> 1 -> 6 -> 3 -> 5 -> 2",
+      "C: 4 -> 6 -> 1 -> 3 -> 5 -> 2",
+      "D: 6 -> 1 -> 4 -> 5 -> 3 -> 2"
+    ],
+    "video_id": "astronomy_328",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "(4) The video starts with an introduction slide at 00:24, where epic music plays, and the speaker introduces \"Chapter six.\"\n(6) At 00:49, the image of the Hubble Space Telescope (Figure 6.1) is shown as the speaker discusses its long duration and eventual replacement.\n(1) At 01:30, a slide showing Machu Picchu and Stonehenge (Figure 6.3) appears, illustrating pre-telescopic observatories.\n(3) At 02:00, Figure 6.5, showing diagrams of refracting and reflecting telescopes, appears, and the speaker explains how each works. This covers the general principle.\n(5) At 02:30, Figure 6.6, which displays the three reflecting focus arrangements (Prime, Newtonian, Cassegrain), is shown, continuing the discussion of telescope mechanics. Although the exact phrasing of \"aperture\" and \"eyepiece\" from the audio description for this event might be slightly generalized or appear slightly later in the video related to other figures, the visual of Figure 6.6 is presented at this time, following Figure 6.5.\n(2) At 03:26, a close-up of the Keck mirror (Figure 6.9) with the caption \"Thirty-Six Eyes Are Better Than One\" is displayed, aligning with the speaker's comment."
+  },
+  "TR_378": {
+    "question_id": "TR_378",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the video:\n(1) A final black screen displays “THANKS FOR WATCHING” as a calm instrumental plays and the speaker asks viewers to subscribe.\n(2) A cityscape diagram shows an “Atmosphere or Atmosplane” arrow and labels for “Real Sun” and “Apparent Sun,” while the narrator insists the real sun is always higher and visible.\n(3) A white screen shows “IF YOU, GUYS, CAN HELP” with an email, as the speaker calls it a theory and mentions proving it with a 3D program.\n(4) The intro features the Dr. Zack/YouTube segment with calm music as Zach greets “Flat Earthers,” Steve joins, and they say refraction in the atmosphere was the solution.\n(5) Black screens reading “NOT US” then “NOT THEM” appear between mountain shots while the narrator explains they added atmosphere in Cinema 4D, making the apparent sun go down.\n(6) With ambient music, a voice discusses sunrise/sunset in Salinas, California, saying the “atmos plane” is key and works correctly, over views of Earth/sky with data overlays.",
+    "options": [
+      "A: 4 -> 5 -> 2 -> 3 -> 6 -> 1",
+      "B: 4 -> 2 -> 5 -> 3 -> 6 -> 1",
+      "C: 4 -> 5 -> 3 -> 2 -> 6 -> 1",
+      "D: 4 -> 5 -> 2 -> 6 -> 3 -> 1"
+    ],
+    "video_id": "science_explainers_162",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The video starts with the introduction by Dr. Zack and Steve (4), who discuss refraction as a solution. This is followed by explaining their model using Cinema 4D, with the 'NOT US' and 'NOT THEM' screens (5). Then, a more detailed explanation of the 'Atmosphere or Atmosplane' and how the 'Real Sun' and 'Apparent Sun' work is shown with a cityscape diagram (2). After explaining the core concept, they issue a call for help with an email and mention proving their theory with a 3D program (3). Next, they demonstrate the practical application of their 'atmos plane' model for sunrise/sunset in Salinas, California (6). Finally, the video concludes with the 'THANKS FOR WATCHING' screen (1)."
+  },
+  "TR_125": {
+    "question_id": "TR_125",
+    "question": "Arrange the following sub-events in the correct chronological order of the trip segments leading up to arrival at the campground. Use both what is said and what is shown to decide the order.\n(1) The female driver says the trip will take three and a half to four hours and mentions stopping for lunch and gas while driving on a wet road.\n(2) A female voice says \"Welcome to Georgia\" as highway traffic is shown.\n(3) They pause at the Georgia Welcome Center, describing boondocking for lunch in the RV.\n(4) A female narrator says it's about a mile to go on this road toward the campground.\n(5) The camera passes the \"Jekyll Island Campground\" entrance sign.",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5",
+      "B: 1 -> 2 -> 3 -> 4 -> 5",
+      "C: 2 -> 1 -> 3 -> 4 -> 5",
+      "D: 1 -> 2 -> 3 -> 5 -> 4"
+    ],
+    "video_id": "camping_1",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "Based on the video's chronological flow:\n- Sub-event (1) occurs first, with the female speaker discussing trip duration and stops while driving, as seen from 0:08 to 0:38.\n- Sub-event (2) follows, showing the 'Welcome to Georgia' sign at 1:23.\n- Sub-event (3) takes place next, with the RV parked at the Georgia Welcome Center, from 1:36.\n- Sub-event (4) happens as they are nearing the destination, with the female narrator mentioning 'about a mile to go on this road' towards the campground at 2:10.\n- Sub-event (5) is the final event, showing the 'Jekyll Island Campground' entrance sign at 2:16."
+  },
+  "TR_470": {
+    "question_id": "TR_470",
+    "question": "Reconstruct the correct chronological order of these sub-events (use both visuals and narration): (1) The calendar bubble on the watch shows the current date as the speaker explains live-info icons like steps and weather. (2) A phone rings while the speaker says it will stop when you pick it up (Find my phone). (3) The speaker explains brightness controls with different day and night ambient levels as backgrounds change from sunset to night. (4) The Wear Cloud Editor on the phone is used to arrange bubbles and mentions export/sharing themes; the watch preview updates. (5) A green “STICKY OPEN” instruction bubble appears while the speaker explains double-tapping to pin an app. (6) The watch shows a contact cloud; the speaker suggests adding up to 15 contacts and setting default call/text/email.",
+    "options": [
+      "A: 3 -> 4 -> 1 -> 5 -> 2 -> 6",
+      "B: 4 -> 3 -> 1 -> 5 -> 6 -> 2",
+      "C: 3 -> 1 -> 4 -> 5 -> 2 -> 6",
+      "D: 3 -> 4 -> 5 -> 1 -> 2 -> 6"
+    ],
+    "video_id": "software_tutorials_332",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "(3) The speaker explains brightness controls with different day and night ambient levels as backgrounds change from sunset to night. This sub-event occurs first in the video from 06:33 to 06:46. (4) The Wear Cloud Editor on the phone is used to arrange bubbles and mentions export/sharing themes; the watch preview updates. This sub-event occurs next, from 07:13 to 07:29. (1) The calendar bubble on the watch shows the current date as the speaker explains live-info icons like steps and weather. This sub-event occurs from 08:28 to 08:46. (5) A green “STICKY OPEN” instruction bubble appears while the speaker explains double-tapping to pin an app. This sub-event occurs from 08:56 to 09:08. (2) A phone rings while the speaker says it will stop when you pick it up (Find my phone). This sub-event occurs from 09:30 to 09:35. (6) The watch shows a contact cloud; the speaker suggests adding up to 15 contacts and setting default call/text/email. This sub-event occurs last, from 10:08 to 10:20."
+  },
+  "TR_298": {
+    "question_id": "TR_298",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the video: (1) Diagram of a wave marked with λ as the narrator names \"lambda\" to indicate wavelength. (2) Coastal scene labeled \"The wavefront\" while the narrator defines a line where the wave is all at a peak. (3) Opening slide titled \"General wave properties\" as the narrator explains waves transfer energy. (4) Jet with a vapor cone shown during the wave speed explanation, followed by a flushing sound. (5) Close-up of a blue electric guitar as the narrator defines frequency in hertz and mentions the human hearing range.",
+    "options": [
+      "A: 3 -> 2 -> 5 -> 4 -> 1",
+      "B: 2 -> 3 -> 4 -> 5 -> 1",
+      "C: 3 -> 2 -> 4 -> 5 -> 1",
+      "D: 3 -> 4 -> 2 -> 5 -> 1"
+    ],
+    "video_id": "physics_156",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "Based on the audio captions, the chronological order of the sub-events is as follows: (3) 'General wave properties' is discussed first (0:00-0:41). Then, the concept of 'wavefront' with a coastal scene is introduced (1:10-1:47). Next, the 'wave speed' explanation featuring a jet and a flushing sound occurs (1:48-2:07). This is followed by the explanation of 'frequency' with the electric guitar (2:08-2:20). Finally, the 'wavelength' diagram with 'lambda' is presented (2:21-3:19)."
+  },
+  "TR_245": {
+    "question_id": "TR_245",
+    "question": "Reconstruct the correct chronological order of these sub-events by using both the visuals and what is spoken in the video: (1) A computer shows “Access Denied” while the speaker says students’ education depends on journal access. (2) Bold “OPEN ACCESS” appears as the narrator defines it as “free, immediate, online availability … with full reuse rights.” (3) The screen shows “What’s changed is two things: Digitization” with people on laptops, as the narrator says “Digitization.” (4) A steep price graph is displayed while the narrator says journal prices have “outpaced inflation by over 250%.”",
+    "options": [
+      "A: 2 -> 3 -> 4 -> 1",
+      "B: 2 -> 4 -> 3 -> 1",
+      "C: 3 -> 2 -> 4 -> 1",
+      "D: 2 -> 3 -> 1 -> 4"
+    ],
+    "video_id": "academic_lectures_130",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The video explicitly defines 'OPEN ACCESS' at the very beginning (0:00-0:05), matching sub-event (2). Following this, it discusses changes, with 'Digitization' appearing around 1:07-1:12, aligning with sub-event (3). The steep price graph and the narrator mentioning prices outpacing inflation by over 250% occurs around 1:37-1:40, corresponding to sub-event (4). Finally, the 'Access Denied' screen and the discussion about students' education depending on journal access is shown much later, around 2:59-3:15, which is sub-event (1). Therefore, the chronological order is 2 -> 3 -> 4 -> 1."
+  },
+  "TR_117": {
+    "question_id": "TR_117",
+    "question": "Reconstruct the correct chronological order of the following sub-events from later in the video. Use both visuals and audio cues (specific phrases and soundtrack changes) to determine the sequence.\n(1) She invites us to peek into the bee museum and explains the Grafter's Shack as a homage to queen breeders; a beekeeping suit is shown, and gentle harp music begins near the end of this segment.\n(2) The speaker says, \"we're in the winter now,\" as a snowy mailbox labeled \"Mildred's Lane\" appears.\n(3) She describes people \"swarming around a building\" and practicing the philosophy of work styles, over scenes of teaching, workshops, a puppet show, and a gallery, with soft ethereal music.\n(4) Didgeridoo-like music begins as she speaks about co-evolving into a new landscape with open conversations around a fire or dinner table where ideas are born.\n(5) The on-screen \"Mildred's Lane: Glossary of Terms\" definition of \"comportment\" appears.\n(6) She concludes with \"an ethics of comportment; being is the practice... social, political,\" as folk fiddle music plays and the credits roll.",
+    "options": [
+      "A: 3 -> 1 -> 2 -> 4 -> 5 -> 6",
+      "B: 2 -> 1 -> 3 -> 4 -> 5 -> 6",
+      "C: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "D: 1 -> 3 -> 2 -> 4 -> 6 -> 5"
+    ],
+    "video_id": "ted_talks_391",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "I have analyzed the video chronologically to determine the exact order of each sub-event:\n- **(1) She invites us to peek into the bee museum and explains the Grafter's Shack as a homage to queen breeders; a beekeeping suit is shown, and gentle harp music begins near the end of this segment.** This event occurs from approximately 05:15 to 05:48 in the video, with the speaker introducing the 'bee museum' and 'Grafter's Shack,' showing beekeeping gear, and gentle harp music starting around 05:29.\n- **(2) The speaker says, \"we're in the winter now,\" as a snowy mailbox labeled \"Mildred's Lane\" appears.** This event takes place from about 06:03 to 06:11. The speaker's audio 'we're in the winter now' is heard at 06:03, immediately followed by the visual of the snowy Mildred's Lane mailbox at 06:04.\n- **(3) She describes people \"swarming around a building\" and practicing the philosophy of work styles, over scenes of teaching, workshops, a puppet show, and a gallery, with soft ethereal music.** This segment runs from approximately 06:12 to 06:46, featuring the speaker's commentary on 'swarming around a building' (06:13) and 'work styles' (06:15), accompanied by visuals of various activities like teaching, workshops, and a puppet show, with soft ethereal music playing in the background.\n- **(4) Didgeridoo-like music begins as she speaks about co-evolving into a new landscape with open conversations around a fire or dinner table where ideas are born.** This occurs from about 07:09 to 07:32. The speaker discusses 'co-evolving' and 'conversations around a fire or dinner table' starting at 07:09, and didgeridoo-like music begins at 07:11, leading into visuals of people gathered around a fire at night.\n- **(5) The on-screen \"Mildred's Lane: Glossary of Terms\" definition of \"comportment\" appears.** This brief on-screen text defining 'comportment' is shown at 07:37.\n- **(6) She concludes with \"an ethics of comportment; being is the practice... social, political,\" as folk fiddle music plays and the credits roll.** This final concluding segment begins around 09:12 and lasts until the end of the video, featuring the speaker's reflective words on 'comportment' and 'being,' accompanied by folk fiddle music and the rolling credits."
+  },
+  "TR_156": {
+    "question_id": "TR_156",
+    "question": "Reconstruct the correct chronological order of these moments from the gear-introduction segment:\n(1) He introduces his channel and says he plans to visit a farm in Kent.\n(2) He shows the Garrett Ace 250 as a backup and mentions spare camera and batteries.\n(3) He says he has a harness and another bag of bits, including a coin book.\n(4) He lists a pinpointer, cleaning brush, and a towel/flannel from his bag.\n(5) He says he has the X-Terra Pro and suggests starting detecting.",
+    "options": [
+      "A: 2 -> 1 -> 3 -> 4 -> 5",
+      "B: 1 -> 3 -> 2 -> 4 -> 5",
+      "C: 1 -> 2 -> 3 -> 4 -> 5",
+      "D: 1 -> 2 -> 4 -> 3 -> 5"
+    ],
+    "video_id": "hiking_151",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "The audio captions clearly indicate the sequence of events. The first caption describes the channel introduction and plans (1). The second caption talks about the Garrett Ace 250 and batteries (2). The third caption mentions the harness and another bag with a coin book (3). The fourth caption details items from a bag like a pinpointer and brush (4). The fifth caption introduces the X-Terra Pro and signals the start of detecting (5). This directly matches option C."
+  },
+  "TR_337": {
+    "question_id": "TR_337",
+    "question": "Reconstruct the correct chronological order of these sub-events from the lecture segment on the pancreas. Use both what is shown on the slides/images and what the narrator says to decide the order.\n(1) A zoomed pancreatic islet labeled with alpha and beta cells is on screen while the speaker explains glucagon and insulin working together.\n(2) The opening \"ENDOCRINE SYSTEM\" objective slide is shown as the speaker says they will discuss the pancreas and its location.\n(3) An insulin-release diagram shows a blood glucose meter reading 160 mg/dL (hyperglycemia) as the speaker explains insulin lowers high blood glucose toward homeostasis.\n(4) A pancreas diagram featuring ducts and acinar cells is displayed while the speaker explains exocrine enzymes going to the small intestine.\n(5) A 400X microscope view highlights lighter-staining islets versus darker acini as the speaker points out endocrine cells.",
+    "options": [
+      "A: 2 -> 1 -> 4 -> 5 -> 3",
+      "B: 2 -> 4 -> 1 -> 5 -> 3",
+      "C: 4 -> 2 -> 1 -> 5 -> 3",
+      "D: 1 -> 2 -> 4 -> 5 -> 3"
+    ],
+    "video_id": "biology_91",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "The correct chronological order is determined by observing the sequence of slides and corresponding narration in the video. Event (2), the opening objective slide, appears first (0:00-0:13). This is followed by a general diagram of the endocrine system where the pancreas is identified (0:14-0:38), leading into a detailed diagram of the pancreas. Within this detailed diagram, the speaker first explains the exocrine function related to acinar cells and digestive enzymes, corresponding to event (4) (0:39-0:49). Immediately after, still on the same detailed pancreas diagram, the speaker introduces the endocrine function, mentioning pancreatic islets, alpha and beta cells, and the hormones insulin and glucagon, which corresponds to event (1) (0:49-1:33). Following this anatomical and functional overview, the video transitions to the histology of the pancreas, with a 400X view highlighting islets of Langerhans and acini cells, matching event (5) (2:11-2:31). Finally, after discussing glucagon's role, the video presents a diagram specifically explaining insulin's effects on high blood glucose, which is event (3) (4:34-5:43)."
+  },
+  "TR_322": {
+    "question_id": "TR_322",
+    "question": "Reconstruct the correct chronological order of these sub-events from the video (note: the list is shuffled): (1) Slide title switches to “Fluid Mosaic Model” as the speaker names the scientists who proposed it in 1972. (2) On the same slide, the speaker defines integral and peripheral proteins and notes transmembrane proteins are glycosylated outside. (3) The speaker explains glycosylation (“carbohydrate moieties are attached”) and the view changes to a phospholipid molecule with hydrophilic head/hydrophobic tails. (4) A “Plasma Membrane & Disease” slide appears while the speaker lists diseases like high blood cholesterol, diabetes, obesity, and Graves’ disease. (5) A blue “Thank you” contact slide is shown as the speaker ends the talk and mentions the next presentation will be about the cytoskeleton.",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5",
+      "B: 2 -> 1 -> 3 -> 4 -> 5",
+      "C: 1 -> 3 -> 2 -> 4 -> 5",
+      "D: 1 -> 2 -> 4 -> 3 -> 5"
+    ],
+    "video_id": "biology_163",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The events occur in the following chronological order: (1) The 'Fluid Mosaic Model' slide appears, and the speaker names Singer and Nicolson as its proposers around the 02:58 mark. (2) On the same slide, the speaker defines integral and peripheral proteins, and notes that transmembrane proteins are glycosylated outside the membrane, as seen from 03:00 to 03:08. (3) The speaker then explains glycosylation more thoroughly and the slide changes to depict a phospholipid molecule with hydrophilic and hydrophobic parts around 03:46. (4) A new slide titled 'Plasma Membrane & Disease' appears, and the speaker lists various related diseases around 05:56. (5) Finally, a blue 'Thank you' slide is shown, and the speaker concludes the presentation, mentioning the next topic, around 07:30."
+  },
+  "TR_370": {
+    "question_id": "TR_370",
+    "question": "Below are sub-events from the video presented in non-chronological order. Determine the correct chronological order based on both what is seen and what is heard.\n(1) Baking soda and ACV are mixed in a bowl, producing audible fizzing as she explains CO2 release.\n(2) Upbeat pop music plays, then the host voices surprise that some haven't heard of baking soda for hair.\n(3) A pH strip test shows near-neutral \"salt water\" as she says sodium acetate remains and lists scalp benefits.\n(4) A split-screen introduces the Apple Cider Vinegar Series and Baking Soda Series as the host starts to outline their roles.\n(5) The host says \"sit back, relax, and enjoy the video\" while talking about baking soda and ACV.\n(6) On a hair pH scale, \"baking soda\" and \"ACV\" are placed; she warns products outside the safe zone cause permanent damage.",
+    "options": [
+      "A: 2 -> 4 -> 5 -> 6 -> 1 -> 3",
+      "B: 2 -> 5 -> 4 -> 6 -> 1 -> 3",
+      "C: 5 -> 2 -> 4 -> 1 -> 6 -> 3",
+      "D: 2 -> 5 -> 6 -> 4 -> 1 -> 3"
+    ],
+    "video_id": "science_explainers_104",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "(2) The video starts with the host expressing surprise about baking soda for hair, with upbeat music playing (0:00-0:05).\n(5) The host then invites viewers to \"sit back, relax, and enjoy the video\" (0:29-0:35).\n(4) A split-screen is introduced, showing the Apple Cider Vinegar Series and Baking Soda Series (0:41-0:45).\n(6) The pH balancing scale is displayed, and baking soda and ACV are placed on it, with a warning about products outside the safe zone causing damage (2:29-3:40).\n(1) Baking soda and ACV are mixed in a bowl, showing the fizzing reaction and explaining CO2 release (5:00-5:18).\n(3) A pH strip test is conducted on the resulting solution, showing it's near-neutral 'salt water', and its scalp benefits are discussed (5:31-5:37)."
+  },
+  "TR_253": {
+    "question_id": "TR_253",
+    "question": "Reconstruct the correct chronological order of the following sub-events, using both visuals and narration:\n(1) The comparative method’s limits (~5,000 years) are explained while Spanish/Portuguese pairs are shown under a \"comparative method\" label.\n(2) A stick figure stands on Earth beside a spider and a bird with crossed-out speech bubbles as the narrator asks when language abilities evolved and says \"Who knows?\".\n(3) A list reading \"Proto-World Existed / Sort of Existed / Didn't Exist\" is shown while a woman outlines scenarios and says \"proto-world didn’t exist at all.\"\n(4) A divergence diagram of humans, chimpanzees, and bonobos (7 million YBP) appears as a female voice mentions humans in Africa ~100,000 years ago and the 7-million-year divergence.\n(5) A stick figure points to a green bubble listing consonants and vowels as a male voice says Proto-World probably had both but beyond that we don’t really know.\n(6) A woman says \"See you soon for more linguistics videos,\" credits for songs appear, and then rock music starts.",
+    "options": [
+      "A: 2 -> 1 -> 3 -> 4 -> 5 -> 6",
+      "B: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "C: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "D: 2 -> 3 -> 1 -> 4 -> 5 -> 6"
+    ],
+    "video_id": "academic_lectures_180",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "Based on the video's progression, event (1) 'The comparative method’s limits (~5,000 years) are explained...' occurs first, starting around 01:23. This is followed by event (2) 'A stick figure stands on Earth beside a spider and a bird...' which begins around 02:50. Next, event (3) 'A list reading 'Proto-World Existed / Sort of Existed / Didn't Exist' is shown...' is presented, starting at approximately 04:14 with the list and key narration at 05:30. Event (4) 'A divergence diagram of humans, chimpanzees, and bonobos (7 million YBP)...' appears around 06:02 (with the 100k YBP map) and 06:11 (with the divergence tree). Following this, event (5) 'A stick figure points to a green bubble listing consonants and vowels...' starts at 06:37. Finally, event (6) 'A woman says 'See you soon for more linguistics videos,' credits for songs appear...' marks the end of the video, beginning at 06:53. Therefore, the correct chronological order is 1 -> 2 -> 3 -> 4 -> 5 -> 6."
+  },
+  "TR_366": {
+    "question_id": "TR_366",
+    "question": "Reconstruct the correct timeline of these moments from the intro through the tidal-heating explanation. Use both what is seen and what is heard to order them: (1) The host announces a special guest to discuss a mission to Jupiter’s icy moons as dramatic strings begin. (2) Underwater bubbles appear while gurgling water sounds are heard. (3) On-screen text identifies “Michele Dougherty, Professor of Space Physics, Imperial College London.” (4) The physicist states her involvement has been “the last 15 or 20 years.” (5) She describes Cassini’s discovery of water vapor outgassing from Enceladus. (6) She holds a small globe while explaining tidal heating of Jupiter’s moons.",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "B: 1 -> 2 -> 3 -> 5 -> 4 -> 6",
+      "C: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "D: 2 -> 1 -> 3 -> 4 -> 5 -> 6"
+    ],
+    "video_id": "astronomy_569",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "The events in the video unfold in the following sequence:\n1.  The host announces the special guest and the mission to Jupiter's icy moons, accompanied by dramatic string music (00:00-00:05).\n2.  Animated visuals display Jupiter's moons, followed by an underwater scene with bubbles and gurgling water sounds (00:18-00:46).\n3.  The guest speaker, Michele Dougherty, is introduced with on-screen text identifying her role (01:17-01:25).\n4.  Michele states her involvement in the search for alien life has been for 'the last 15 or 20 years' (01:29-01:30).\n5.  She then describes the Cassini spacecraft's discovery of water vapor outgassing from Enceladus (01:31-01:50).\n6.  Later, during the discussion, she uses a small globe to explain the concept of tidal heating in Jupiter's moons (02:10-02:58).\n\nThis chronological order perfectly matches option C."
+  },
+  "TR_21": {
+    "question_id": "TR_21",
+    "question": "Reconstruct the correct timeline of the following sub-events from the interview (listed in non-chronological order): (1) Title card asks \"Did You Choose Music...?\" while a jazz trumpet leads. (2) He says \"music chose\" him and that his dad was a studio musician. (3) While describing sessions with his father, a constant hum plays, then static cuts him off. (4) He praises studio \"guys\" who can play anything and says mentoring came from watching them. (5) Graphic appears: \"Who/What Is The Most Important In A Recording Session?\"",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5",
+      "B: 1 -> 2 -> 3 -> 4 -> 5",
+      "C: 2 -> 1 -> 3 -> 4 -> 5",
+      "D: 1 -> 2 -> 4 -> 3 -> 5"
+    ],
+    "video_id": "expert_interviews_449",
+    "model_answer": [
+      "B"
+    ],
+    "model_reason": "Based on the audio captions and video timestamps: (1) The title card 'Did You Choose Music...?' appears from 00:04 to 00:08. (2) The speaker discusses music choosing him and his dad being a studio musician from 00:09 to 00:51. (3) He describes sessions with his father, accompanied by a hum and static, from 01:43 to 02:51. Following this, the graphic for event (5) 'Who/What Is The Most Important In A Recording Session?' appears from 02:51 to 02:55. Then, event (4), where he praises studio 'guys' and discusses mentoring, begins at 02:56. Therefore, the actual chronological order is 1 -> 2 -> 3 -> 5 -> 4. However, this exact sequence is not available in the options. Option B (1 -> 2 -> 3 -> 4 -> 5) correctly sequences the first three events and is the closest match, despite swapping the order of event (4) and event (5) compared to the video's literal timeline."
+  },
+  "TR_293": {
+    "question_id": "TR_293",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the lecture:\n(1) He says “Good morning” and asks “What is simple harmonic motion?” while “Simple Harmonic Motion” is visible on the board.\n(2) Speech briefly gives way to orchestral music and then ambient sounds.\n(3) He writes x = A sin(ωt) on the whiteboard while discussing vectorial/complex representation.\n(4) He says “both are good, both can be used” about sine and cosine forms, pointing at both equations.\n(5) He derives acceleration d²x/dt² and asks “what can we conclude?”\n(6) The video switches to a contact information screen and the lecture speech stops.",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "B: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "C: 2 -> 1 -> 3 -> 4 -> 5 -> 6",
+      "D: 1 -> 2 -> 4 -> 3 -> 5 -> 6"
+    ],
+    "video_id": "physics_11",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "(2) The video starts with a title card displaying 'MECHANICAL VIBRATIONS' accompanied by orchestral music and ambient sounds (0:00-0:04).\n(1) The speaker then appears and says 'Good morning' (0:05) and introduces the topic 'Simple Harmonic Motion' which is displayed on the board (0:10) and he asks 'What is simple harmonic motion?' (0:13).\n(3) Later in the video, he writes the equation x = A sin(ωt) on the whiteboard as he discusses vectorial/complex representation (2:39).\n(4) He then discusses the use of both sine and cosine forms, stating 'both are good, both can be used' while pointing to the equations (5:30-5:34).\n(5) Following this, he proceeds to derive acceleration, writing d²x/dt² (6:49) and asking 'what can we conclude?' (7:29).\n(6) Finally, the video transitions to a contact information screen, marking the end of the lecture speech (8:49)."
+  },
+  "TR_467": {
+    "question_id": "TR_467",
+    "question": "Reconstruct the correct chronological order of these sub-events from later in the video: (1) On-screen text explains path tracing: “thousands of rays per pixel,” and a glass container illustrates “Bigger light surface = Softer shadows.” (2) The speaker promotes Octane 4, asks to subscribe, and hip-hop music starts. (3) An apples scene shows rays emitted from the camera as the speaker describes ray tracing with bounces as revolutionary. (4) Star Wars real-time ray tracing demo footage appears while the speaker calls it an ultimate gaming experience requiring powerful hardware.",
+    "options": [
+      "A: 3 -> 4 -> 1 -> 2",
+      "B: 4 -> 3 -> 1 -> 2",
+      "C: 3 -> 1 -> 4 -> 2",
+      "D: 1 -> 3 -> 4 -> 2"
+    ],
+    "video_id": "software_tutorials_318",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "Based on the chronological order of the events in the video: (3) The explanation of ray tracing with the apples scene occurs first (around 05:12). (4) The \"Star Wars real-time ray tracing demo\" follows this explanation (around 07:22). (1) The explanation of path tracing with on-screen text about rays per pixel and softer shadows appears next (around 08:19). (2) Finally, the speaker promotes Octane 4, asks for subscriptions, and the hip-hop music starts at the very end of the speaking segment (around 09:05)."
+  },
+  "TR_356": {
+    "question_id": "TR_356",
+    "question": "Reconstruct the chronological order of the following sub-events from the lecture. Use both what is seen on the slides and what is said to decide the sequence.\n(1) The Orion Nebula slide (FIGURE 1.4) is shown while the speaker calls it \"the most beautiful thing in the entire night sky.\"\n(2) Dramatic orchestral music plays as space scenes (a bright star, a ringed planet, then Earth) appear and the host introduces himself as \"Professor Jim Cathy.\"\n(3) An Earth image (FIGURE 1.6, \"Humanity's Home Base\") appears as the speaker calls Earth the \"pale blue dot\" and mentions a geostationary satellite.\n(4) The presenter says \"Let's go ahead and jump into the PowerPoint\" as the Chapter 1 slide with interacting galaxies appears.\n(5) A slide labeled FIGURE 1.2 shows Mars centered on Valles Marineris while the speaker describes the red planet mosaic.",
+    "options": [
+      "A: 2 -> 4 -> 5 -> 1 -> 3",
+      "B: 4 -> 2 -> 5 -> 1 -> 3",
+      "C: 2 -> 5 -> 4 -> 1 -> 3",
+      "D: 2 -> 4 -> 1 -> 5 -> 3"
+    ],
+    "video_id": "astronomy_429",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The video starts with an introductory segment (2) where the host, Professor Jim Cathy, introduces himself against a backdrop of space scenes and dramatic music. This is followed by the beginning of the PowerPoint presentation (4) with the Chapter 1 slide. The speaker then discusses Mars, shown in FIGURE 1.2 (5). Later, the Orion Nebula, FIGURE 1.4, is presented as 'the most beautiful thing' (1). Finally, the Earth image, FIGURE 1.6, is discussed (3). Therefore, the chronological order is 2 -> 4 -> 5 -> 1 -> 3."
+  },
+  "TR_39": {
+    "question_id": "TR_39",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the segment:\n(1) The host introduces Academy Award-winning actor Sean Penn and mentions his new novel; Mystic River footage and the book cover appear.\n(2) In a split-screen with a presidential podium and seal, the anchor calls the Trump era \"a dystopia come to life.\"\n(3) The interviewer asks, \"What are you saying with this novel?\" to a denim‑shirt guest in a newsroom.\n(4) The guest replies it’s \"a love letter...\" and a humorous lament, calling for mutual accountability.\n(5) The host reflects that beyond rules, societies need art and absurdity; SNL and Picasso’s Guernica are shown.",
+    "options": [
+      "A: 1 -> 5 -> 2 -> 3 -> 4",
+      "B: 2 -> 1 -> 5 -> 3 -> 4",
+      "C: 2 -> 5 -> 1 -> 3 -> 4",
+      "D: 5 -> 2 -> 1 -> 4 -> 3"
+    ],
+    "video_id": "celebrity_interviews_305",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "The video starts at 00:00 with the anchor discussing the Trump era as 'a dystopia come to life,' transitioning to a split-screen with Trump (event 2). This is followed by the host discussing society's need for art and absurdity, with clips from SNL and Picasso's Guernica (event 5) from 00:19 to 00:33. Next, the host introduces Academy Award-winning actor Sean Penn and his new novel, showing footage from 'Mystic River' and the book cover (event 1) from 00:34 to 00:57. The interviewer then asks the guest, 'What are you saying with this novel?' (event 3) at 01:17. Immediately after, the guest replies that it is 'a love letter...' and a humorous lament (event 4) at 01:19. Therefore, the correct chronological order is 2 -> 5 -> 1 -> 3 -> 4."
+  },
+  "TR_459": {
+    "question_id": "TR_459",
+    "question": "Reconstruct the correct chronological order of these sub-events, considering both visuals and audio: (1) The host mentions seeing an Instagram ad of Timbaland while a brief cut shows a woman posing at a “Viva Awards” backdrop. (2) The host says he’ll go into Logic Pro X to add ear candy and chords, concluding with “so let’s go,” while seated at the desk with DAW, mic, and keyboard visible. (3) A text-to-speech voice says “two thousand years later,” followed by the host describing reverb, low pass, EQ, and a chopped Shadow Dynasty sample as the DAW is shown up close. (4) The speaker adds drums, panned hi-hats, a beatboxing perk, and then a sub-bass as the hip-hop beat plays. (5) The host recommends the Masterclass after referencing Jay-Z’s reaction, ending with someone saying “Hell yeah,” with cutaways to other speakers in different rooms.",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5",
+      "B: 1 -> 3 -> 2 -> 4 -> 5",
+      "C: 1 -> 2 -> 4 -> 3 -> 5",
+      "D: 2 -> 1 -> 3 -> 4 -> 5"
+    ],
+    "video_id": "software_tutorials_231",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The chronological order of the sub-events is determined by carefully matching the provided audio descriptions and visual cues with the given timestamps and event descriptions. Event (1) occurs early in the video (0:23-0:34) when the host mentions the Timbaland ad and images of other artists are shown. Event (2) follows the initial beatboxing phase and precedes the longer editing process (4:31-4:39). Event (3) is triggered by the '2000 years later' meme and details the advanced editing of melodies and samples (4:42-5:51). Event (4) continues the beat-making process by adding drums, hi-hats, and sub-bass (5:53-7:13). Finally, event (5) serves as a conclusion and recommendation for the Masterclass, including the Jay-Z reaction reference (7:36-7:49). Thus, the correct sequence is 1 -> 2 -> 3 -> 4 -> 5."
+  },
+  "TR_11": {
+    "question_id": "TR_11",
+    "question": "Reconstruct the correct chronological order of the following sub-events from the interview. Use both what is seen and what is heard to decide the timeline.\n(1) She describes three buildings collapsing nearly in free fall and suggests a controlled demolition with explosives placed in advance.\n(2) A blue blueprint-style screen appears with ARCHITECTS & ENGINEERS for 9/11 TRUTH and Lynn Margulis’ title card while somber classical music plays and she begins introducing herself.\n(3) She asserts, “Science is not science unless it is public,” and a door slamming sound is heard right after.\n(4) She says she received the President’s Medal of Science in 1999 from President Clinton while seated at her computer showing a colorful cell image labeled “cytoskeleton of spirochete origin, by hypothesis.”\n(5) She explains that, like reconstructing natural history, they are reconstructing what destroyed the buildings on 9/11; on her monitor the label reads “cytokinesis of spermatogonia, by hypothesis.”",
+    "options": [
+      "A: 2 -> 4 -> 5 -> 3 -> 1",
+      "B: 4 -> 2 -> 5 -> 1 -> 3",
+      "C: 2 -> 5 -> 4 -> 3 -> 1",
+      "D: 2 -> 4 -> 3 -> 5 -> 1"
+    ],
+    "video_id": "expert_interviews_288",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The events chronologically unfold as follows:\n(2) The video begins with the title card and Lynn Margulis introducing herself (0:01-0:15).\n(4) She then mentions receiving the President's Medal of Science in 1999 (0:31-0:43).\n(5) Following this, she discusses reconstructing past events, including 9/11, using scientific principles (1:23-1:44).\n(3) Later, as part of her broader discussion on science, she states that 'science is not science unless it is public,' which is followed by a door slamming sound (4:43-4:49).\n(1) Finally, she delves into the specifics of the 9/11 collapses, suggesting controlled demolition (4:51-5:33)."
+  },
+  "TR_246": {
+    "question_id": "TR_246",
+    "question": "Reconstruct the correct chronological order of these sub-events from the prayer session: (1) The instructor emphasizes cleanliness and the prayer place, greeting with “Assalam Alaikum.” (2) They begin Salat with Takbir at-Tahrima, saying “Allahu Akbar” softly while standing facing the Qiblah wall. (3) The leader recites Surah Al-Fatiha, after “Auzu billahi” and “Bismillah,” with translations on screen. (4) Both perform Ruku, hands on knees, saying “Subhana Rabbiyal Azim,” then rise at “Sami Allahu liman hamida.” (5) They go into Sajdah saying “Allahu Akbar,” placing nose and forehead, reciting “Subhana Rabbiyal A‘la” three times. (6) They end with Tasleem, saying “Assalamu alaikum wa rahmatullah” to the right and left; a voice explains it’s called Salam.",
+    "options": [
+      "A: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "B: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "C: 1 -> 2 -> 4 -> 3 -> 5 -> 6",
+      "D: 2 -> 1 -> 3 -> 4 -> 5 -> 6"
+    ],
+    "video_id": "academic_lectures_142",
+    "model_answer": [
+      "A"
+    ],
+    "model_reason": "The video sequentially presents the steps of the Islamic prayer (Salat). It starts with the instructor discussing the preparation, which includes emphasizing cleanliness (body, clothes, and place) and explaining the Qiblah direction, along with greeting with 'Assalam Alaikum' (0:00-0:49). Then, they discuss and demonstrate beginning Salat with 'Allahu Akbar' (Takbir at-Tahrima) while standing (1:16-1:59). This is followed by the recitation of 'Auzu billahi,' 'Bismillah,' and Surah Al-Fatiha (2:29-2:48). Next, they perform Ruku, bowing with hands on knees, reciting 'Subhana Rabbiyal Azim,' and then rising with 'Sami Allahu liman hamida' (3:25-4:21). Afterward, they proceed to Sajdah, kneeling and prostrating with nose and forehead on the ground, saying 'Allahu Akbar' and reciting 'Subhana Rabbiyal A‘la' (4:32-5:19). Finally, the prayer concludes with Tasleem, saying 'Assalamu alaikum wa rahmatullah' to the right and left, followed by an explanation of its meaning (6:33-6:51)."
+  },
+  "TR_403": {
+    "question_id": "TR_403",
+    "question": "Reconstruct the correct chronological order (earliest to latest) of the following sub-events, using both what is seen and what is heard in the clip:\n(1) The opening image with a man on a throne-like chair and the title “The Relativity of Wrong” appears as a male host introduces “Evolution and Faith.”\n(2) Over a black‑and‑white portrait, a second male voice states that right and wrong are not absolute.\n(3) A diagram of Eratosthenes’ shadow method is shown while the speaker talks about calculating Earth’s curvature.\n(4) The Vanguard I satellite diagram is on screen as the narrator mentions “1958 Vanguard 1” and the “Bartlett pear” idea.\n(5) A statue of Copernicus appears while the narrator explains the switch from an Earth‑centered to a sun‑centered system.\n(6) A DNA double helix with the word “c0nc0rdance” is shown as the host says, “Thanks for watching.”",
+    "options": [
+      "A: 2 -> 1 -> 3 -> 4 -> 5 -> 6",
+      "B: 1 -> 2 -> 4 -> 3 -> 5 -> 6",
+      "C: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "D: 2 -> 3 -> 1 -> 5 -> 4 -> 6"
+    ],
+    "video_id": "science_explainers_349",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "I have evaluated the start and end times of each described sub-event in the video to determine their chronological sequence. (1) occurs at the beginning of the video (0:00-0:03). (2) follows at 1:28-1:54. (3) is shown at 2:30-2:51. (4) appears at 3:40-3:56. (5) is presented at 5:13-5:31. Finally, (6) marks the end of the video at 7:13-7:22. This order matches option C."
+  },
+  "TR_270": {
+    "question_id": "TR_270",
+    "question": "Reconstruct the chronological order of these sub-events. Use both the visuals and the audio cues to determine the correct sequence.\n(1) The title \"Plate Tectonics & California Geology\" appears while acoustic guitar plays and the narrator introduces basics.\n(2) A 3D subduction-zone diagram is shown as the narrator explains oceanic crust subducting and mentions a volcanic chain.\n(3) A satellite view highlights Mount Shasta and Lassen Peak with red arrows during discussion of volcanic activity.\n(4) A shaking-intensity animation of the Bay Area plays as the narrator identifies the Loma Prieta earthquake.\n(5) A distinct \"slam\" sound ends the segment after mention of the San Andreas fault and subduction.\n(6) A quiz slide with a yellow \"PAUSE NOW\" box appears as bluesy rock music starts and the narrator reviews plate-boundary topics.",
+    "options": [
+      "A: 1 -> 3 -> 2 -> 4 -> 5 -> 6",
+      "B: 1 -> 2 -> 3 -> 5 -> 4 -> 6",
+      "C: 1 -> 2 -> 3 -> 4 -> 5 -> 6",
+      "D: 2 -> 1 -> 3 -> 4 -> 6 -> 5"
+    ],
+    "video_id": "academic_lectures_275",
+    "model_answer": [
+      "C"
+    ],
+    "model_reason": "I have analyzed the video chronologically to determine the order of the sub-events. \n1. **The title 'Plate Tectonics & California Geology' appears while acoustic guitar plays and the narrator introduces basics.** This occurs from 00:00 in the video, marking the start of the presentation.\n2. **A 3D subduction-zone diagram is shown as the narrator explains oceanic crust subducting and mentions a volcanic chain.** This visual appears around the 00:41 mark, where the narrator discusses subduction and the formation of volcanic arcs.\n3. **A satellite view highlights Mount Shasta and Lassen Peak with red arrows during discussion of volcanic activity.** This is shown at 01:03, directly following the explanation of volcanic chains.\n4. **A shaking-intensity animation of the Bay Area plays as the narrator identifies the Loma Prieta earthquake.** This animation begins at 02:01, detailing a specific earthquake event.\n5. **A distinct 'slam' sound ends the segment after mention of the San Andreas fault and subduction.** The 'slam' sound is heard at 02:27, marking the beginning of an animation that traces the geological history relevant to the San Andreas Fault.\n6. **A quiz slide with a yellow 'PAUSE NOW' box appears as bluesy rock music starts and the narrator reviews plate-boundary topics.** This review slide is introduced at 03:07, accompanied by the start of bluesy rock music.\n\nBased on these timestamps, the correct chronological order is 1 -> 2 -> 3 -> 4 -> 5 -> 6, which corresponds to option C."
+  }
+}
