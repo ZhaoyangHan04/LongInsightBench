@@ -11,9 +11,9 @@ import numpy as np
 
 # ====== 基础配置 ======
 model_type = "xxl"
-MODEL_PATH = f"/data1/lianghao/models/uio2-{model_type}"
-PREPROCESSOR_PATH = "/data1/lianghao/models/uio2-preprocessor"
-VIDEO_ROOT = "/data1/lianghao/hzy/lqh/datasets/finevideo/videos"
+MODEL_PATH = f"./models/uio2-{model_type}"
+PREPROCESSOR_PATH = "./uio2-preprocessor"
+VIDEO_ROOT = "./datasets/finevideo/videos"
 
 if torch.cuda.is_available():
     device = torch.device("cuda")
@@ -43,8 +43,8 @@ current_tasks = ["1intra_event_reasoning", "3audio_visual_alignment", "5topic_st
 
 for current_task in current_tasks:
     print(f"===== 处理任务: {model_type}, {current_task} =====")
-    INPUT_FILE = f"/data1/lianghao/hzy/lqh/final_qa_subset/{current_task}.json"
-    OUTPUT_FILE = f"/data1/lianghao/hzy/lqh/experiment_frames/unifiedio2_{model_type}/128/{current_task}.json"
+    INPUT_FILE = f"./final_qa_subset/{current_task}.json"
+    OUTPUT_FILE = f"./experiment_frames/unifiedio2_{model_type}/128/{current_task}.json"
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     # ====== 读取历史结果（断点续跑） ======
     if os.path.exists(OUTPUT_FILE):
