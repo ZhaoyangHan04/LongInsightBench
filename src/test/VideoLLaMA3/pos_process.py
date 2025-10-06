@@ -75,7 +75,7 @@ if __name__ == "__main__":
     model_name = "videollama3"
     for current_task in current_tasks:
         print(f"===== 处理任务: {current_task} =====")
-        input_path = f"/data1/lianghao/hzy/lqh/experiment_frames/{model_name}_raw/64/{current_task}.json"      # 输入文件
-        output_path = f"/data1/lianghao/hzy/lqh/experiment_frames/{model_name}/64/{current_task}.json"   # 输出文件
+        input_path = f"./experiment_frames/{model_name}_raw/64/{current_task}.json"      # 输入文件
+        output_path = f"./experiment_frames/{model_name}/64/{current_task}.json"   # 输出文件
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         process_file(input_path, output_path)
