@@ -3,8 +3,8 @@ import re
 import json
 import torch
 from openai import OpenAI
-from hzy.lqh.code.finevideo.chunking.chunk_test import SimpleScorer
-from hzy.lqh.code.finevideo.chunking.chunk_utils import map_chunks_with_timestamps
+from src.chunking.chunk_test import SimpleScorer
+from src.chunking.chunk_utils import map_chunks_with_timestamps
 from filter import check_video_quality
 
 client = OpenAI()
@@ -201,8 +201,8 @@ def process_metadata(metadata_path: str, output_path: str, log_file: str):
 
 
 if __name__ == "__main__":
-    metadata_root = "/data1/lianghao/hzy/lqh/datasets/finevideo/metadata"
-    output_root = "/data1/lianghao/hzy/lqh/datasets/finevideo/chunking"
+    metadata_root = "./datasets/finevideo/metadata"
+    output_root = "./datasets/finevideo/chunking"
 
     total_generated = 0
 
