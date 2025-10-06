@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_195_q1",
+    "model_answer": "The correct answer is A: Because AVCHD spreads crucial metadata across its folder structure (e.g., BDMV, CLIPINF) alongside .MTS clips, so deleting folders breaks needed information and complicates sharing/editing.\nAVCHD format stores both audio and video data in a single .MTS file as well as several subfolders containing additional information such as index files, subtitles, and audio settings. Deleting these folders can lead to the loss of important metadata that is required for proper playback or editing of the video. Therefore, it's advised not to delete parts of an AVCHD recording without understanding the implications on sharing and editing the content.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_195_q2",
+    "model_answer": "The sequence of steps after the “cut here” label implies that the codec being used is likely an interframe codec, such as those found in many video editing software like Adobe Premiere Pro or Final Cut Pro. This is because interframe codecs typically require the decoder to search back to the previous keyframe, uncompress it, and calculate the differences between frames, which can increase CPU work at cuts. Therefore, option A seems to be the most appropriate answer.",
+    "choices": [
+      "A"
+    ]
+  }
+]

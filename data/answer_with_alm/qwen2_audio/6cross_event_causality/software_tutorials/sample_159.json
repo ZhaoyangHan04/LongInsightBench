@@ -1,0 +1,22 @@
+[
+  {
+    "question_id": "software_tutorials_159_q1",
+    "model_answer": "The correct answer is A: Exporting the mod after agreeing to the EULA and saving it with a versioned filename (event 2).\n\nThis is because exporting the mod involves creating a versioned file of the mod, which includes information about its version number and dependencies. This file is necessary for Minecraft to recognize the mod when it starts up. When you agree to the EULA and save the mod with a versioned filename, you create this versioned file, which is then used by Minecraft to identify the mod during startup. \n\nOption B, visiting MinecraftForge.net and downloading the recommended 1.14.4 Forge installer (event 3), is related to installing the Forge mod manager, but it does not directly cause the mod to be recognized at startup.\n\nOption C, dropping the exported mod into the profile’s mods folder and relaunching Minecraft (event 10 sub-event before the menu appears), only shows how the mod can be installed in Minecraft once it has been recognized at startup.\n\nOption D, opening %appdata% and navigating into the “Minecraft Launcher” folder (event 7), is related to configuring the Minecraft launcher, but it does not directly cause the mod to be recognized at startup.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_159_q2",
+    "model_answer": "The correct answer is A, B, C, D. All of these steps were required to enable the creation of a new creative world and the successful loading of the mod in the Minecraft forge environment.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  }
+]

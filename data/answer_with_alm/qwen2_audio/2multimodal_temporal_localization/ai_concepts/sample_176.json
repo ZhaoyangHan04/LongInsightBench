@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "ai_concepts_176_q1",
+    "model_answer": "The answer is A: [00:02:22 - 00:03:58]. The speaker starts explaining NePu's Decoder at 00:02:22 and then moves on to describe the Projection to 2D at 00:03:58. After that, they detail the Rendering steps, including showing a human figure with keypoints and a diagram of three MLP rendering heads gathering information around a query pixel \"q.\" Throughout this explanation, the speaker emphasizes the use of cross-attention to aggregate nearby features and the importance of rendering directly in 2D to avoid costly volumetric rendering.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "ai_concepts_176_q2",
+    "model_answer": "The speaker details optimizing the latent vector z by minimizing binary cross-entropy between observed and rendered masks across cameras with a regularization term, running multiple initializations and selecting the one with highest IoU in the following sentence: 'We optimize the latent vector z by minimizing binary cross-entropy between observed and rendered masks across cameras with a regularization term, running multiple initializations and selecting the one with highest IoU.' Therefore, the answer is (B).",
+    "choices": [
+      "B"
+    ]
+  }
+]

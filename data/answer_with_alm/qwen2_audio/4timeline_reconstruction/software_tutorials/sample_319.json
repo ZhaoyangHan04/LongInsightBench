@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_319_q1",
+    "model_answer": "The correct timeline is:\n\n1. Upbeat electronic intro plays while the presenter introduces creating a UWP app and topics like Blend and adaptive triggers, with “Connect(\"Learn\");” visible on a screen.\n2. The presenter says he prefers Blend but that either Blend or Visual Studio can be used as he gestures in the studio.\n3. In Blend, he switches the design surface from phone to a desktop via the top-left device dropdown, noting he’ll cover device sizes later.\n4. He drops a TextBlock, enlarged the font, and types “Hello world” on the design canvas.\n5. He deploys the app; a new window shows “Hello World,” and he congratulates you on making your first Hello World.\n6. He begins customizing by dragging out a button and searches for where to change its font size.\n\nTherefore, the correct answer is A: 1 -> 3 -> 2 -> 4 -> 5 -> 6.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_319_q2",
+    "model_answer": "The correct timeline is: (1) He right-clicks a button, chooses Edit Template → Edit a Copy, and adds a rounded rectangle behind the ContentPresenter. (2) He scopes back to the main document, drags another button, and applies the created style via Apply Resource for a consistent look. (3) He opens the States pane, creates a state group, and adds “wide” and “narrow” adaptive triggers. (4) In the trigger editor, he sets MinWidth to 1024 for one trigger and 320 for the other, explaining width-based layout switching. (5) He rearranges controls for the wide layout, rotates the “Hello World” label, runs the app, and points out crossing the 1024 threshold switches layouts. (6) He concludes the demo saying that’s all there is to it and that adaptive triggers help across devices. Therefore, the correct order is option A: 1 -> 2 -> 3 -> 4 -> 5 -> 6.",
+    "choices": [
+      "A"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "question_id": "hiking_89_q1",
+    "model_answer": "The correct answer is D: Configuring GPSBabel's Preferences to include the needed formats (adding KML/Keyhole Markup and GPX) before converting (events 2–3).\n\nExplanation: In order for GPSBabel to successfully convert the Google Earth walk plan to GPX format, it needs to be configured to recognize and accept both KML and GPX formats. This configuration step is found in GPSBabel's Preferences (events 2-3), where users can add supported file types under the 'File' tab. Once this step is completed, GPSBabel will be able to correctly translate the KML file to GPX during the conversion process (event 4).",
+    "choices": [
+      "D"
+    ]
+  },
+  {
+    "question_id": "hiking_89_q2",
+    "model_answer": "The correct answer(s) are A and C.\nEvent 3 involved converting the Google Earth KML walk plan to a GPX file using GPSBabel, ensuring the file was in the correct format for the eTrex 20. Event 7 involved pasting the new GPX walk file into the Garmin's GPX folder, overwriting the previous file. Both of these actions directly led to the on-device display of the walk route on the Garmin eTrex 20 screen. Events 5 and 8 were related to styling and editing the path in Google Earth, which did not have a direct impact on the display of the route on the eTrex 20.",
+    "choices": [
+      "A",
+      "C"
+    ]
+  }
+]

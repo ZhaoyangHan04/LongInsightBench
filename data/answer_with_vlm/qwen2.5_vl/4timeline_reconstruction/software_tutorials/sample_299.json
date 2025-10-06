@@ -1,0 +1,17 @@
+[
+  {
+    "question_id": "software_tutorials_299_q1",
+    "model_answer": "The correct chronological order is:\n\nA: 1 -> 2 -> 3 -> 4\n\nExplanation:\n- The speaker starts by introducing \"Game Dev Guide\" and the topic of custom event systems on a red title slide (Event 1).\n- Next, there's a red slide asking \"Which one are you?\" with choices between inspector fields and singletons, where the speaker warns about dependencies and spaghetti code (Event 2).\n- Then, a slide titled \"The Observer Pattern\" appears as the speaker explains subscribing and dispatching events (Event 3).\n- Finally, in the Unity scene with a cube and a door, the speaker demonstrates that the door should open when the cube enters a trigger using the event system (Event 4).\n\nThis sequence matches option A.",
+    "choices": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_299_q2",
+    "model_answer": "The correct chronological order of events based on the provided information in the audio is:\n\nB: 1 -> 2 -> 3 -> 4 -> 5\n\nExplanation:\n- Event 1 (creating the singleton and implementing the first event) is mentioned at the beginning of the audio.\n- Event 2 (DoorController listens and opens on dispatch) follows after the first event is created.\n- Event 3 (adding another event for trigger exit) comes next, as it's mentioned after the first event is described.\n- Event 4 (passing an integer parameter into the actions and updating subscriber/listener methods) is discussed after the second event.\n- Event 5 (setting an index ID, checking the passed ID, and the door opening with the green cube moving through the doorway) is the final step, as it's mentioned last in the audio.\n\nThe other options are incorrect because they either skip steps or place them out of sequence.",
+    "choices": [
+      "B"
+    ]
+  }
+]

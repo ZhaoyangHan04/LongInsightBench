@@ -1,0 +1,21 @@
+[
+  {
+    "question_id": "expert_interviews_274_q1",
+    "model_answer": "The correct answer is A, B, C, and D.\n\n**Explanation:**\n\n- **Event 2:** This event introduces the concept of the split-brain scenario, where both NameNodes become active, leading to metadata corruption and cluster division. This sets the stage for understanding the necessity of fencing mechanisms to prevent such issues.\n  \n- **Event 6:** This event provides an overview of the split-brain issue and introduces the concept of fencing, which is essential for preventing the problem discussed in Event 2. It also mentions the `hdfs-site.xml` property for specifying fencing methods, which is relevant to the discussion in Event 8.\n\n- **Event 7:** This event emphasizes the importance of having only one NameNode as the writer and introduces fencing methods like scripts or Java classes to manage the active node. This is crucial for understanding how the fencing mechanism works and its role in preventing split-brain scenarios.\n\n- **Event 5:** This event explains that DataNodes must send block information to both NameNodes to maintain synchronization, which is necessary for a fast failover. This setup is important because it highlights the need for coordination between nodes, which is addressed by the fencing mechanisms discussed in Event 8.\n\nTherefore, Events 2, 6, ",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_id": "expert_interviews_274_q2",
+    "model_answer": "answer: A, B, C\n\nThe presenter transitions to the HDFS NameNode HA Architecture diagram after explaining the split-brain scenario in events 1, 2, and 3. In these events, the split-brain problem is introduced, where both Active and Standby NameNodes become active, leading to metadata corruption and cluster division. Events 1, 2, and 3 collectively create the necessary context for understanding the solution presented in the architecture diagram. Event 0, which is the opening introduction, does not provide the required context for the transition to the solution diagram.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+]

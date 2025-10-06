@@ -1,0 +1,92 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:27.082",
+    "audio_caption": "The clip begins with a male speaker introducing a video about using GNU Octave to find solutions to differential equations. He then shifts to describing a contraption he built in his shed. He hopes his listeners can anticipate that moving one pendulum won't affect others. Following this, the sound of a loud, short \"whoosh\" is heard. The man then resumes speaking, asking what would happen if he put the wooden contraption on rollers."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:27.082",
+    "end": "00:01:06.410",
+    "audio_caption": "The audio clip begins with a male speaker introducing the sound as a system of pendulums. He references videos of metronomes synchronizing on a plank and describes his own wooden contraption as a series of harmonic oscillators. He wonders what happens when he releases one and the sound transitions to that of pendulums. The male speaker notes that the pendulums become synchronized, but \"not in-phase synchronized like the metronomes.\" Rather, he says, \"they are anti-phase synchronized\" and states that it \"seems that this system has a stable state where the platform doesn't move.\""
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:06.410",
+    "end": "00:01:42.919",
+    "audio_caption": "The clip begins with a single male speaker introducing a \"differential equation\" and suggesting focusing on one pendulum, then expanding on it. He mentions it's a \"second order homogeneous differential equation.\" He also recommends a video by \"Physics with Elliot\" explaining how to derive the equation, whose link is available in the description, expressing that he found it \"really helpful.\" A brief, low-frequency \"beep\" sound occurs at the end of the clip."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:42.919",
+    "end": "00:02:19.283",
+    "audio_caption": "The audio clip starts with a male speaker explaining how to rearrange a differential equation for use in GNU Octave. He describes using a change of variables for any second-order differential equation, then explains substituting variables. He then continues that they have this system of equations. The speaker then states \"So far, the system of equations represents a simple harmonic oscillator\". After that, he explains \"simple here means the oscillator has no friction acting upon it\"."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:19.283",
+    "end": "00:02:30.792",
+    "audio_caption": "The audio clip features one male speaker discussing \"simple harmonic oscillators\" with a descriptive and instructive tone. He mentions \"friction\" and identifies \"K\" as the \"friction parameter.\""
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:02:30.792",
+    "end": "00:03:03.309",
+    "audio_caption": "A single male speaker begins by mentioning initial conditions for \"x sub 1 and x sub 2\". They continue speaking about the \"Octave function ode 45\" and its relationship to other methods such as Euler's method. Concluding, they suggest installing the OCL package via forge."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:03:03.309",
+    "end": "00:03:16.546",
+    "audio_caption": "The clip begins with a male speaker explaining the initial step of defining a function for a system of differential equations so that \"Octave can use it.\" He then introduces the function, calling it \"Dynamics Pendulum.\" The audio seems to be a lecture or tutorial in nature."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:03:16.546",
+    "end": "00:03:45.178",
+    "audio_caption": "The audio clip begins with a male speaker discussing the convenience of \"defining these parameters locally,\" such as \"k for friction\" and \"g for the gravitational constant.\" He notes that \"the value of k was arbitrarily chosen\" and says that he will provide an explanation later. He then states that \"we must define the independent variable\" and decides to \"take time to be the independent variable.\" Finally, he states that \"x0 is the initial condition vector.\" He speaks in a clear, instructional tone."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:03:45.178",
+    "end": "00:04:29.328",
+    "audio_caption": "The audio clip begins with a male speaker discussing the \"function of equations\", \"independent variable\", and \"initial conditions\", explaining that these are passed to the \"ODE45 method.\" He continues, describing the ODE45 method's iterative process and the substitutions made in the equations. He notes the ODE45 method then approximates next values similarly to Euler's method. He adds that \"ODE45 is usually the one that you want to use.\""
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:04:29.328",
+    "end": "00:04:53.025",
+    "audio_caption": "A male speaker is giving instructions while maintaining a neutral tone. He mentions a link to documentation on how to choose a solver that's in the notes. He explains graphing the result and approximating values for \"x sub 1\" or theta, and for \"x sub 2\" or the returning force. He then clarifies that this was just for one pendulum isolated from the others."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:04:53.025",
+    "end": "00:05:26.090",
+    "audio_caption": "The audio clip begins with one male speaker proposing to \"set a system of two pendula on a shared platform on some rollers.\" He then describes the dynamics of the system, stating that \"the dominant pendulum forces the platform very slightly,\" and explains how this leads to anti-phase synchronization. The speaker's tone is explanatory and matter-of-fact."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:05:26.090",
+    "end": "00:06:10.488",
+    "audio_caption": "The audio clip begins with a single male speaker recalling a previous equation that \"determined the angle of the single pendulum\". He continues in a measured tone, mentioning a \"nudge parameter\" to achieve a dampening effect on another pendulum. The speaker then states that the total loss of energy is \"that nudge, plus friction\". The clip ends with him describing a chart showing \"two pendulum\" that \"end up with antiphase synchronization\"."
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:06:10.488",
+    "end": "00:06:56.742",
+    "audio_caption": "The audio clip begins with a male speaker introducing the topic of a platform with three pendula modeled by three equations. He explains that the force each pendulum gives to the platform is absorbed by the other two, and the force gained from the system is the average exerted by others. He mentions a chart illustrating how initially resting pendula will counteract half the force from the dominant pendulum. Lastly, what appears to be feedback or static is present."
+  },
+  {
+    "chunk_id": 13,
+    "start": "00:06:56.742",
+    "end": "00:07:25.700",
+    "audio_caption": "A male speaker notes that he chose values for certain parameters arbitrarily. He continues, describing how the pendulum's angle could be measured at regular intervals to solve for the unknown parameters, which he imagines would involve filming."
+  },
+  {
+    "chunk_id": 14,
+    "start": "00:07:25.700",
+    "end": "00:08:02.093",
+    "audio_caption": "The clip begins with a male speaker providing information about the links in the video description, mentioning topics like deriving the differential equation of a pendulum, setting up a Jupyter Notebook, and choosing a numerical method. He also mentions the availability of scripts and codes, and how to install the OCL package. He ends by asking for feedback, specifically asking listeners to share anything they found interesting or surprising, or if they have any feedback in general. The speaker then thanks the listener for watching."
+  }
+]

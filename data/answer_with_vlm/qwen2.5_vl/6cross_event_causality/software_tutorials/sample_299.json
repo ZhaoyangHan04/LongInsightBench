@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_299_q1",
+    "model_answer": "answer: Unable to answer\n\nThe provided audio does not contain any information about events 8, 9, or 4, nor does it mention anything about setting up an index ID property on doors or creating a GameEvents singleton. The audio is focused on introducing a custom event system for game development and does not provide context for the specific question asked.",
+    "choices": [
+      "Unable to answer"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_299_q2",
+    "model_answer": "The correct answer is B: Event 4 — Implemented a central GameEvents singleton and a DoorwayTriggerEnter dispatcher that other scripts can access without holding direct references.\n\nExplanation: The narrator mentions that the system's resilience comes from the fact that it is the single dependency. This implies that the system is designed to be independent of other components, which aligns with the implementation of a central GameEvents singleton and a DoorwayTriggerEnter dispatcher. These components allow scripts to access the event system without holding direct references, thus reducing dependencies on other parts of the game. Therefore, Event 4 is the step that primarily caused the decoupled resilience of the event system.",
+    "choices": [
+      "B"
+    ]
+  }
+]

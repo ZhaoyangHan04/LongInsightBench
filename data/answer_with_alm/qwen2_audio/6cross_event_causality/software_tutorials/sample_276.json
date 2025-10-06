@@ -1,0 +1,26 @@
+[
+  {
+    "question_id": "software_tutorials_276_q1",
+    "model_answer": "The preceding actions that most directly caused the discovery of the TV were (A) Successfully registering the TV in SmartThings by entering the on-screen PIN and naming it (event 4), and (D) Starting Alexa’s device scan by tapping \"Discover Devices\" (event 9). These two steps allowed the TV to be detected and connected to the Alexa app. Option (B) simply opening the updated SmartThings app to the home screen may have contributed to the discovery process but was not the primary cause. Option (C) is also related to linking the account, which could have helped in discovering the TV, but again, it was not the main factor.",
+    "choices": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_276_q2",
+    "model_answer": "The correct answer is A, B, C, D.\nExplanation: These four events were necessary for Alexa to gain control over the Samsung SmartTV:\n\nA) Enabling the SmartThings skill in Alexa and signing in with the same Samsung account used to add the TV (event 7) was crucial for Alexa to understand and communicate with the TV.\nB) Tapping \"Authorize\" in the linking prompt to grant Alexa access to SmartThings (event 8) allowed Alexa to send commands to the TV.\nC) The TV being discovered and added in Alexa, shown as \"1 TV found and connected\" (event 10), made sure that Alexa knew which device to control.\nD) Using a wireless network instead of wired Ethernet, as recommended, while the TV shows \"No Signal\" on HDMI 2 (event 1), ensured that the TV could receive signals from the Alexa app.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  }
+]

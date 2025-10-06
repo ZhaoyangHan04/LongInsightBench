@@ -1,0 +1,18 @@
+[
+  {
+    "question_id": "ai_concepts_176_q1",
+    "model_answer": "Answer: A/B/C\nThe high-quality synthetic multi-view dataset created in Event 7 is directly related to the ability to generate realistic silhouettes of cows and giraffes. This dataset was used to train models such as the PointTransformer-based encoder for 3D keypoints and a 2D attention-based decoding(rendering) pipeline used in Events 3-4 for pose optimization. Additionally, the learned strong prior over the latent z from silhouettes in Events 8-9 also played a crucial role in generating realistic poses. The comparison between LFN* and NePu in Event 11 demonstrated the superiority of the proposed method in terms of rendering quality.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_id": "ai_concepts_176_q2",
+    "model_answer": "The correct answer is B: Events 5–6: Modality-specific MLP rendering heads (RGB, depth, occupancy) trained jointly with losses over color, depth, silhouette, plus latent-norm regularization, to produce reliable depth and masks.\n\nThese components of NePu allow for the simultaneous learning of multiple modalities such as RGB, depth, and occupancy, which are essential for 3D point cloud reconstruction. The joint training of these rendering heads ensures that they are consistent across different views and can accurately estimate depth and other properties of objects. Additionally, the use of latent-norm regularization helps to improve the stability and reliability of the estimated depths.",
+    "choices": [
+      "B"
+    ]
+  }
+]

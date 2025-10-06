@@ -1,0 +1,80 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:01:07.589",
+    "audio_caption": "The clip begins with a male speaker introducing a work focused on \"photorealism enhancement,\" using footage from Grand Theft Auto 5 as an example. He transitions to showcasing their method, describing it as a convolutional network. He details the model's training using the Cityscapes dataset, providing examples. The speaker describes how the method uses this to modify GTA 5 environments, achieving geometric and semantic consistency. The clip concludes with the sound of traffic."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:01:07.589",
+    "end": "00:01:43.437",
+    "audio_caption": "The audio clip begins with a male speaker discussing \"contrastive unpaired image-to-image translation,\" also known as CUT, and its flaws such as temporal instability and hallucinating objects. He then introduces another state-of-the-art approach, T-SET, which is similarly unstable and adds artifacts. Transitioning, the speaker shifts to discussing their own method and why it is more stable and produces fewer artifacts."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:43.437",
+    "end": "00:02:20.515",
+    "audio_caption": "The audio clip features one male speaker explaining a method involving rendered images from a game. He details the use of an image enhancement network, the extraction of rendering buffers called G-buffers containing geometric and material information, and the processing of these buffers through a G-buffer encoder network. The speaker's tone is informative and technical."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:20.515",
+    "end": "00:02:44.005",
+    "audio_caption": "The clip features one male speaker describing a process for enhancing realism in networks, involving a perceptual discriminator that produces a realism score for each image. He mentions feeding real photos to help it understand the real world. Further, the rendered images are added to the discriminator inputs, and a perceptual loss is employed to retain the structure of those images. The speaker sounds informative and technical."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:44.005",
+    "end": "00:03:17.833",
+    "audio_caption": "The audio features a single male speaker explaining a technical process involving \"G-buffer encoder\", \"semantic class label map\", and \"convolutional network streams\". The speaker continues, explaining how objects like \"trees\" and \"cars\" are treated differently by the process. The speaker also explains that the resulting tensors are further processed by residual blocks, which output tensors at multiple scales."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:17.833",
+    "end": "00:03:59.605",
+    "audio_caption": "The audio clip begins with a single male speaker introducing an image enhancement network to process images at multiple scales. He describes the architecture as based on HRNet, processing images in parallel. He speaks in a clear and informative tone. The speaker continues to describe how the network utilizes residual blocks at each scale. He elaborates on replacing batch normalization layers with rendering-aware de-normalization blocks, referred to as \"RAD,\" which modulate features based on rendering information. Finally, he directs the audience to their paper for further details."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:03:59.605",
+    "end": "00:04:56.662",
+    "audio_caption": "The audio clip begins with one male speaker in a neutral tone, describing the 'perceptual discriminator', including its semantic segmentation network and perceptual features. He highlights extracting features from VGG at multiple levels and passing them through a convolutional network. The speaker also mentions training discriminators directly on images and how his network quickly learns realism at multiple perceptual levels. In addition, the speaker discusses passing unmodified images through a segmentation network and using a label map to specialize the discriminator on individual object classes. The speaker concludes by mentioning that object classes are consistent for rendered and real images and directs listeners to a paper for more details."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:56.662",
+    "end": "00:06:11.822",
+    "audio_caption": "One male speaker starts by introducing another idea in a serious tone, explaining a challenge in training discriminator networks. He describes the common choice of using a large portion of an image, but notes that this approach proved to be suboptimal. He provides an example with real and rendered images showing different content and their effect when training the network. He goes on to say that their solution is to decrease the field of view for the network, and showing corresponding scenes from both data sets. Then he states that, in this case, the process is automatic and requires no access to semantic label maps. He concludes with, \"More details can be found in our paper\"."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:06:11.822",
+    "end": "00:06:34.854",
+    "audio_caption": "The clip contains speech by a single male speaker, who begins by saying, \"Let us now look at more results and comparisons.\" He then continues to mention, \"GTA again\" and remarks on the results produced by \"our method.\" No other sounds are present."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:06:34.854",
+    "end": "00:06:54.421",
+    "audio_caption": "The audio begins with a speaker, seemingly a male, describing color transfer in images, stating that it \"matches the color distribution of GTA to cityscapes\" and leaves objects looking synthetic. He notes that, \"unlike many other approaches, color transfer is temporarily stable.\" This voice appears to be that of a narrator, speaking in a neutral tone. The audio then transitions to a clicking sound."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:06:54.421",
+    "end": "00:07:07.745",
+    "audio_caption": "The audio clip starts with a male speaker introducing a \"state-of-the-art photo style transfer approach.\" He mentions it requires a reference photo and can become \"temporally unstable\" if images and the reference diverge."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:07:07.745",
+    "end": "00:07:43.469",
+    "audio_caption": "The audio clip begins with a single male speaker discussing results from \"Cut,\" highlighting how it hallucinates objects like trees and stars. He then states that his approach alleviates such artifacts in a descriptive and informative tone. Subsequently, he introduces \"T-Set\", an image-to-image translation approach that requires a favorable reference photo, which can cause artifacts and instability. The speaking tone maintains a professional and explanatory character."
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:07:43.469",
+    "end": "00:08:32.999",
+    "audio_caption": "The audio begins with a clear, concise statement turning attention to the game GTA. Next, a male voice with a neutral tone introduces a method trained on the Mapillary Vistas dataset. The speaker elaborates on the dataset's features and how their method captures its style while retaining the semantic and geometric content of the game. The audio ends with very faint sounds."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "question_id": "software_tutorials_299_q1",
+    "model_answer": "answer: Unable to answer\n\nThe provided audio segment does not contain any specific details about the implementation of a custom event system or the preparation of events. The question asks for specifics about the code and narration between two timestamps, but the audio content does not match this request. Therefore, there's insufficient information to determine the correct answer.",
+    "choices": [
+      "Unable to answer"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_299_q2",
+    "model_answer": "The correct answer is B: The TriggerArea script’s OnTriggerEnter method dispatches the DoorwayTriggerEnter event through GameEvents.\n\nIn the provided audio, the narrator explains that the TriggerArea script's OnTriggerEnter method triggers the DoorwayTriggerEnter event through the GameEvents system. This event is then listened to by the DoorController script which has subscribed to it using the += operator. The DoorController script then calls the OnDoorwayOpen method, which uses LeanTween to animate the door opening. Therefore, the correct answer is B.",
+    "choices": [
+      "B",
+      "B"
+    ]
+  }
+]

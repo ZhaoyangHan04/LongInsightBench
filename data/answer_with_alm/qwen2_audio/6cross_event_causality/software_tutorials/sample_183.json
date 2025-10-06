@@ -1,0 +1,25 @@
+[
+  {
+    "question_id": "software_tutorials_183_q1",
+    "model_answer": "B/C",
+    "choices": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_183_q2",
+    "model_answer": "The correct answer is A, B, C, D. All of these events contributed to making the texture mapped successfully onto the new mesh:\n\nA: In Event 11, executing the bake after selecting the new image texture and target mesh, then Ctrl-selecting the original mesh and pressing Bake was crucial for transferring the texture to the new mesh.\nB: In Event 2, duplicating the object (Shift+D then Escape), hiding the original, and working on the duplicate as the bake target helped to isolate the texture mapping process and make it easier to see the results.\nC: In Event 8, bringing back the MeshLab-generated UVs (the “big grid”) into Blender and verifying the UV layout ensured that the texture would be applied correctly to the mesh's surface.\nD: In Event 1, observing in the materials tab that there were hundreds of materials tied to tiles and wanting to consolidate them helped to simplify the material setup and make it easier to manage during the texture mapping process.\n\nTherefore, all four events played a role in successfully mapping the texture onto the new mesh.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "A",
+      "B",
+      "D",
+      "C",
+      "D"
+    ]
+  }
+]

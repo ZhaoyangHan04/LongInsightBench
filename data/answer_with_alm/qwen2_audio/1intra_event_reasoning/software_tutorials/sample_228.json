@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_228_q1",
+    "model_answer": "The correct answer is D: JavaScript scroll logic jumps past the heading before CSS can render it.\n\nExplanation: In the provided audio, the speaker mentions that after enabling smooth scrolling using JavaScript, the section titles disappear when navigating to different sections. This indicates that the issue is caused by the JavaScript code used for smooth scrolling, which may be interfering with the display of the section titles. Specifically, it seems that the JavaScript scroll logic is jumping past the section heading before the CSS has a chance to render it properly.",
+    "choices": [
+      "D"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_228_q2",
+    "model_answer": "The specific adjustments made by the speaker to troubleshoot the scroll alignment of anchor links are:\n\n  * He sets the `overflow-y` property of the parent container to `auto`.\n  * He calculates the height of the sticky nav using JavaScript and assigns it to the `height` property of the same container.\n  * He adds a `customscrollpadding` class to the container and sets its `padding-bottom` property to equal the sum of the `height` of the sticky nav and the desired amount of space between the nav and the anchor links.\n  * He adds the appropriate CSS classes to the anchor links to display them correctly.\n\nTherefore, the correct answer is A: He appends the \"px\" unit to the computed navigation height when setting the custom scroll-padding property.",
+    "choices": [
+      "A"
+    ]
+  }
+]

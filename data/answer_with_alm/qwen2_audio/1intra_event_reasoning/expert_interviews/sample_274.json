@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "expert_interviews_274_q1",
+    "model_answer": "Answer: A: By keeping the Standby NameNode’s state up to date (including block locations) while DataNodes are configured to send block information to both NameNodes simultaneously.\nExplanation: In the video segment, it is explained that when a DataNode fails, the standby NameNode takes over quickly by receiving updates from the remaining active DataNode about the failed node's block locations. This ensures that even if one NameNode fails, the other can still function as needed, providing high availability and fault tolerance in Hadoop clusters.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "expert_interviews_274_q2",
+    "model_answer": "Answer: A: By using JournalNodes to allow only a single writer and configuring dfs.ha.fencing.methods in hdfs-site.xml so scripts/Java classes can fence by killing or shutting down the errant NameNode.\n\nThe segment explains that the split-brain problem occurs when there is a network partition between two NameNodes leading to concurrent writes to the same file. To prevent this, JournalNodes are used to ensure only a single writer at a time by allowing only one write per node. Additionally, the dfs.ha.fencing.methods property in hdfs-site.xml is set to 'kill' or 'shutDown', which allows Java scripts or classes to forcefully fence the errant NameNode. This ensures that only one NameNode remains active during a failover scenario, preventing a split-brain situation.",
+    "choices": [
+      "A"
+    ]
+  }
+]

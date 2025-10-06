@@ -1,0 +1,92 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:27.082",
+    "video_caption": "The video begins with a title slide introducing the topic of using GNU Octave to numerically solve a system of harmonic oscillators. The slide features a graph with two oscillating lines, one red and one blue, and a photo of a wooden frame with wheels and a string attached to it, likely representing the physical setup for the harmonic oscillators. The scene then transitions to a black screen, followed by a close-up of the wooden frame on a wooden floor. A hand is seen adjusting the frame, and the camera focuses on the string and the pendulum-like object hanging from it. The video then shifts to a close-up of two white cylindrical objects, possibly weights or components related to the harmonic oscillator setup, placed on the wooden floor. The background includes a blue patterned fabric, possibly a chair or cushion, adding a touch of color to the otherwise neutral setting. The video provides a detailed look at the physical components and setup involved in the harmonic oscillator experiment, emphasizing the practical aspects of the theoretical concept introduced in the title slide."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:27.082",
+    "end": "00:01:06.410",
+    "video_caption": "The video begins with a view of a wooden structure on wheels, featuring a string hanging from the top, set against a backdrop of a wooden floor and a blue couch. The scene transitions to a close-up of a hand placing black boxes labeled \"UM PHYSICS DEMO LAB\" on a wooden table, with green cans positioned in front of them. The hand adjusts the boxes, ensuring they are properly aligned. The video then returns to the wooden structure, now with a hand adjusting the string, indicating preparation for an experiment. The hand releases the string, causing the structure to move forward, and the video concludes with the structure continuing its motion, showcasing the experiment's outcome. The environment throughout the video is a cozy indoor setting, with the wooden floor and blue couch providing a consistent background."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:06.410",
+    "end": "00:01:42.919",
+    "video_caption": "The video features a static image of a mathematical equation displayed on a white background. The equation reads \"θ'' + (g/l) sin θ = 0,\" which is a second-order differential equation commonly associated with the simple pendulum problem in physics. The equation is centered on the screen, with no other objects, text, or visual elements present. The background remains consistently white throughout the video, and there are no changes or movements observed between the frames. The focus is solely on the equation, emphasizing its significance in the context of physics and mathematics."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:42.919",
+    "end": "00:02:19.283",
+    "video_caption": "The video begins with a white background displaying a mathematical equation: \"θ'' + (g/ℓ) sin θ = 0,\" which represents the equation of motion for a simple pendulum. The equation is followed by a series of steps that transform the second-order differential equation into a system of first-order differential equations. The first step defines x1 as θ, x1' as θ', and x2 as θ''. The second step introduces a blue arrow pointing to the right, indicating a transformation. The third step shows the transformed system of equations: x1' = x2 and x2' = -(g/ℓ) sin x1. The video concludes with a simplified version of the transformed system, focusing on the two first-order differential equations without the initial definitions. Throughout the video, the background remains consistently white, and there are no people or objects present, emphasizing the mathematical content."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:19.283",
+    "end": "00:02:30.792",
+    "video_caption": "The video begins with a white background displaying two mathematical equations in black text. The first equation is \"x1' = x2,\" and the second equation is \"x2' = -g sin x1 / l.\" These equations represent a system of differential equations, likely describing the motion of a pendulum, where x1 and x2 are variables, and g and l are constants. The video then transitions to a similar white background with the same first equation \"x1' = x2,\" but the second equation changes to \"x2' = -g sin x1 / l - kx2.\" This new equation introduces an additional term \"-kx2,\" indicating the inclusion of damping or friction in the system. The video maintains a consistent white background throughout, with no visible people, objects, or environmental details, focusing solely on the mathematical equations. The atmosphere is academic and analytical, emphasizing the evolution of the system's dynamics through the modification of the equations."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:02:30.792",
+    "end": "00:03:03.309",
+    "video_caption": "The video displays a series of identical frames, each showing a computer screen with MATLAB code. The code defines a function named \"dynamics_pendulum\" that calculates the dynamics of a pendulum, including parameters such as gravity (g), damping coefficient (k), and initial conditions (x0). The code then uses the ode45 solver to simulate the pendulum's motion over a specified time interval (t0 to t8) with a given time step (0.05). The resulting solution is plotted, with the x-axis representing time (t) and the y-axis representing the pendulum's angle (theta) and returning force. The plot includes a legend to differentiate between the two variables. The background is a plain white screen, and the text is displayed in a standard MATLAB font. There are no people, objects, or environmental details visible in the frames, and no visual changes occur between the frames."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:03:03.309",
+    "end": "00:03:16.546",
+    "video_caption": "The video showcases a series of frames displaying a computer screen with MATLAB code. The code defines a function named \"dynamics_pendulum\" that calculates the dynamics of a pendulum, including parameters such as damping coefficient (k), gravitational acceleration (g), and the pendulum's angular position and velocity. The code then sets up a time step and initial conditions for the pendulum's motion, solves the differential equations using the ode45 solver, and plots the results, showing the pendulum's angular position and returning force over time. The screen remains static throughout the video, with no visible changes or movements, and the environment is a typical computer setup with a focus on the code and its output."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:03:16.546",
+    "end": "00:03:45.178",
+    "video_caption": "The video showcases a series of frames displaying a computer screen with MATLAB code. The code defines a function named \"dynamics_pendulum\" that calculates the dynamics of a pendulum, including parameters such as damping coefficient (k), length (l), and gravitational acceleration (g). The code then sets up a time step and initial conditions for the pendulum's motion, followed by the use of the ode45 solver to obtain the solution. The solution is plotted with theta (x1) on the y-axis and time (t) on the x-axis, with a legend indicating the theta and returning force. The background is a plain white screen, and the text is displayed in a standard MATLAB font. The video progresses by highlighting different parts of the code with a red arrow, indicating a step-by-step explanation or focus on specific sections of the code. The environment remains consistent throughout the video, with no visible changes in the background or camera movement."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:03:45.178",
+    "end": "00:04:29.328",
+    "video_caption": "The video showcases a series of frames displaying a computer screen with MATLAB code. The code defines a function named \"dynamics_pendulum\" that calculates the dynamics of a pendulum, including parameters such as 'k', 'g', and 'l'. The code then sets up a time step and range, and uses the ode45 solver to find the solution for the pendulum's dynamics. The solution is plotted with theta on the y-axis and time on the x-axis, with a legend indicating the theta and returning force. The video highlights specific lines of code with red arrows, indicating areas of focus or importance. The environment is a typical computer screen with a white background, and the atmosphere is educational, aimed at explaining the dynamics of a pendulum through MATLAB programming. The visual changes between frames are minimal, primarily focusing on the highlighted code lines and the plot of the pendulum's dynamics."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:04:29.328",
+    "end": "00:04:53.025",
+    "video_caption": "The video begins with a display of MATLAB code on a computer screen, detailing the setup for a pendulum simulation. The code defines a function for the dynamics of a pendulum, including parameters such as mass (k), length (l), and gravitational acceleration (g). It then sets up the time step and initial conditions for the simulation, followed by the execution of the simulation using the ode45 solver. The results are plotted, showing the angular displacement (theta) and the returning force over time. The graph illustrates the oscillatory motion of the pendulum, with the theta curve (in red) showing a damped oscillation and the returning force curve (in black) depicting the restoring force acting on the pendulum. The video then transitions to a real-life setup of a pendulum, consisting of a wooden frame with a string and a weight attached to it, placed on a wooden floor. The pendulum is shown in motion, swinging back and forth, demonstrating the physical realization of the simulated dynamics. The background includes a blue patterned object, possibly a cushion or a bag, adding a touch of color to the scene. The video effectively connects the theoretical simulation with its practical implementation, providing a comprehensive understanding of pendulum dynamics."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:04:53.025",
+    "end": "00:05:26.090",
+    "video_caption": "The video begins with a black screen, followed by a scene where a person is seen working on a wooden structure with wheels, which appears to be a homemade cart or trolley. The person is using a tool to tighten a screw on the structure, which is placed on a wooden floor. The structure is made of light-colored wood and has blue wheels attached to the bottom. The person's hand is visible, holding the tool, and the focus is on the process of securing the structure. The background shows a wooden floor with some scattered items, including a piece of wood and a blue object, possibly a bag or container. The video then transitions to a close-up view of the completed wooden structure with wheels, now stationary on the wooden floor. The structure is shown from a slightly elevated angle, highlighting its design and the blue wheels. The background remains consistent with the previous scene, featuring the wooden floor and scattered items. The video concludes with a static shot of the wooden structure, emphasizing its construction and the blue wheels, with no visible movement or action taking place."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:05:26.090",
+    "end": "00:06:10.488",
+    "video_caption": "The video begins with a display of a computer screen showing a MATLAB script titled \"Former system for one pendulum.\" The script includes a function definition for \"dynamics_pendulum,\" which calculates the derivatives of the pendulum's angular position and velocity. The script also sets up the initial conditions and time span for the simulation, and uses the ode45 solver to obtain the solution. The script then plots the angular position (theta) and angular velocity (theta_dot) over time, with labels and a legend indicating the plotted variables. The video then transitions to a graph showing the results of the simulation, with the angular position (theta) plotted in red and the angular velocity (theta_dot) plotted in black. The graph shows the pendulum's motion over time, with the angular position oscillating between positive and negative values, and the angular velocity approaching zero as the pendulum comes to rest. The video concludes with a static display of the graph, highlighting the pendulum's motion and the effects of damping on its oscillations."
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:06:10.488",
+    "end": "00:06:56.742",
+    "video_caption": "The video begins with a graph displaying two oscillating lines labeled \"theta\" on the y-axis and \"time (t)\" on the x-axis, with the red line labeled \"Probs\" and the black line labeled \"Probs2.\" The graph shows a damped oscillation, with the amplitude decreasing over time. The scene transitions to a wooden structure on a hardwood floor, featuring a skateboard-like base with wheels and a wooden plank on top, possibly a homemade device or project. The next frame shows a computer screen with MATLAB code, including a function named \"dynamics_pendulum\" and a script that solves and plots the pendulum's motion over time. The code is displayed in a text editor with syntax highlighting, indicating a programming environment. The video then returns to the graph, now with three oscillating lines labeled \"Probs,\" \"Probs2,\" and \"Probs3,\" all showing damped oscillations with decreasing amplitudes over time. The final frame shows the same graph with the three lines, emphasizing the comparison between the different pendulum motions. The video focuses on the graphical representation of pendulum motion and the underlying code used to simulate it, providing a visual and technical understanding of the concept."
+  },
+  {
+    "chunk_id": 13,
+    "start": "00:06:56.742",
+    "end": "00:07:25.700",
+    "video_caption": "The video begins with a close-up of a computer screen displaying a MATLAB script for simulating a dynamic pendulum. The script includes functions and variables for the pendulum's motion, with comments and code in green text. The scene then transitions to a real-life setup of a wooden pendulum apparatus on a skateboard, placed on a wooden floor. The pendulum consists of a string with a weight attached, hanging from a fixed point on the skateboard. The camera captures the pendulum in motion, swinging back and forth, demonstrating the physical simulation of the dynamic pendulum described in the MATLAB script. The background includes a blue and white striped fabric and a black object, possibly a tool, on the floor. The video concludes with the pendulum continuing its oscillatory motion, showcasing the practical application of the mathematical model."
+  },
+  {
+    "chunk_id": 14,
+    "start": "00:07:25.700",
+    "end": "00:08:02.093",
+    "video_caption": "The video begins with a slide titled \"Useful links,\" listing various resources related to physics and computational tools. The links include topics such as deriving the second-order differential equation of a single pendulum, setting up GNU Octave with Jupyter Notebook, choosing an ODE solver, accessing video scripts and code on GitHub, installing OCL to run ODE45, and a video of metronomes in-phase sync from UM DemoLab. The slide is simple, with a white background and black text, and remains static for several seconds. The video then transitions to another slide titled \"I value feedback,\" which prompts viewers to share their thoughts on what they found surprising, interesting, or any other comments. This slide also maintains a plain white background with black text and remains static for a few seconds. The video concludes with this feedback slide, emphasizing the importance of viewer input."
+  }
+]

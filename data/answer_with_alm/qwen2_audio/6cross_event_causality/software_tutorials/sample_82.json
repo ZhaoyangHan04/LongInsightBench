@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_82_q1",
+    "model_answer": "The correct answer is C: Initializing the variable and verifying locals with print/info locals before continuing execution (event 11).\n\nExplanation:\nIn event 11, the user printed the value of the 'factorial' variable, which was still undefined at that point. This prompted them to check the local variables, leading to the discovery that 'factorial' had not been correctly initialized. Once the variable was initialized in event 12, the correct value of 24 was printed when the program was executed again in event 13. Therefore, initializing the variable and verifying its value were crucial steps that led to the correct outcome.",
+    "choices": [
+      "C"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_82_q2",
+    "model_answer": "The correct answer is A: Introducing and using the print command to inspect variable values while stepping (event 7).\n\nIn event 7, the speaker uses the print command to inspect the value of the 'factorial' variable while the program is paused. This allows them to see that the variable holds a large negative number, which indicates that it was never properly initialized. This information is crucial for understanding what went wrong in the program's execution and enables the speaker to conclude that the negative number was the result of an uninitialized variable.",
+    "choices": [
+      "A"
+    ]
+  }
+]

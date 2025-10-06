@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_299_q1",
+    "model_answer": "We refer to Wikipedia articles on game development for help. The speaker starts by introducing Game Dev Guide and then moves on to discuss topics like design patterns, such as the observer pattern, which is related to event systems. Then they show how event systems work in practice by subscribing and dispatching events in a Unity scene. Therefore, the correct order is 1 -> 3 -> 2 -> 4.\n\nTherefore, the answer is (B).",
+    "choices": [
+      "B"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_299_q2",
+    "model_answer": "The correct chronological order of the sub-events is:\n\n1. In GameEvents.cs, a static singleton \"current\" is set and onDoorwayTriggerEnter with DoorwayTriggerEnter() is implemented; the speaker explains creating the singleton and first event, noting subscribers are needed.\n2. The DoorController listens and opens on dispatch, and TriggerArea.OnTriggerEnter tells the event system to dispatch; the speaker mentions plus-equals to subscribe and triggering the event.\n3. Another event for trigger exit is added so the door closes; the speaker notes the system works with only the event system as the dependency and will keep running smoothly even if things are deleted.\n4. The speaker highlights passing an integer parameter into the actions and updating subscriber/listener methods accordingly, shown over DoorController.cs.\n5. The speaker has you set an index ID and check the passed ID matches the door’s before opening, followed by “open sesame” and the green cube moving through the doorway with short upbeat music.\n\nTherefore, the correct order is option B: 1 -> 2 -> 3 -> 4 -> 5.",
+    "choices": [
+      "B"
+    ]
+  }
+]

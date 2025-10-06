@@ -1,0 +1,21 @@
+[
+  {
+    "question_id": "software_tutorials_196_q1",
+    "model_answer": "The correct answer is A: Event 7: Adding a pen down action and wrapping the move/turn sequence in a repeat loop (plus adjusting speed with a wait), preparing it to run from a trigger.\n\nThis step involves adding a pen down action to the sprite's script, which means the sprite will start drawing when triggered. Then, a repeat loop is added around the move and turn actions, which will cause the sprite to repeatedly draw a square on the stage. Finally, the wait action is used to adjust the speed of the animation so that it moves smoothly.\n\nOption B is incorrect because constructing the core movement pattern was done in a previous step (Event 5).\n\nOption C is incorrect because control features like repeat blocks were already introduced in an earlier step (Event 6).\n\nOption D is incorrect because importing a desert background occurred after the sprite's script had been created, and it does not directly relate to the drawing of the square on the stage.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_196_q2",
+    "model_answer": "A/B/C",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+]

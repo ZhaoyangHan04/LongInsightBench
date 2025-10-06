@@ -1,0 +1,62 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:50.333",
+    "audio_caption": "The clip begins with a male speaker introducing a continuation of a Hadoop interview series and an interesting problem named \"split brain problem.\" He talks about the problem in Hadoop 2 and aims to explain what this problem is, reasons for it, and solutions provided by Hadoop to tackle it. Before proceeding, he asks the listeners to subscribe to the channel if they like the videos and to leave comments to improve the quality. The clip concludes by beginning the explanation of the split brain problem."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:50.333",
+    "end": "00:01:03.683",
+    "audio_caption": "The audio begins with a male speaker describing a \"split-brain problem\", specifically relating to a situation in Hadoop 2 architecture where both name nodes become active simultaneously. The tone is informational."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:03.683",
+    "end": "00:01:59.050",
+    "audio_caption": "The audio clip features a male speaker discussing the Hadoop 2 architecture, specifically about the active and passive name nodes. He describes the \"split brain issue\" when both nodes become active, causing metadata corruption. The speaker's tone is informative and explanatory. A ringing sound interrupts the speech, followed by a brief mention of issues like metadata corruption and handling data nodes. The ringing sound happens again."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:59.050",
+    "end": "00:02:37.745",
+    "audio_caption": "The audio clip features a single male speaker discussing technical topics, specifically referencing a scenario where a cluster system divides into smaller clusters, each led by individual name nodes. He explains how data nodes associate themselves differently, leading to two groups believing they are the only active cluster and resulting in a split-brain issue or scenario. The speaker's tone is informative and explanatory."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:37.745",
+    "end": "00:03:59.825",
+    "audio_caption": "A male speaker introduces the topic and asks about reasons for a scenario and possible solutions. He provides a historical context of Hadoop architecture, mentioning that before Hadoop 2, the name node was a single point of failure, with no automatic failover mechanism. Then he describes how the concept of two name nodes was brought in, one active and one passive, as a standby, and that it will take over in failover scenarios. He also introduces the concept of general nodes for maintaining a quorum and sharing namespace and metadata information between the two name nodes, active and passive."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:59.825",
+    "end": "00:04:50.326",
+    "audio_caption": "The audio begins with a single male speaker discussing Hadoop's highly available architecture, mentioning concepts like active and passive name nodes. He emphasizes the importance of keeping the two name nodes in sync from the data node perspective, ensuring information regarding blocks and storage is supplemented to both nodes. The speaker describes the role of the data node and its configuration to send block information to both name nodes simultaneously."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:04:50.326",
+    "end": "00:05:23.055",
+    "audio_caption": "The clip features a single male speaker discussing facilitation processes, mentioning that \"both the name nodes would have their active tenure.\" He adopts a professional and explanatory tone, covering details such as command handling and potential scenarios where a failover could lead to data corruption, causing it to \"file or corrupt the entire metadata.\""
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:05:23.055",
+    "end": "00:06:16.546",
+    "audio_caption": "The audio clip begins with a male speaker discussing how Hadoop 2 provides a solution for certain scenarios through fencing. He explains fencing mechanisms, emphasizing that only one name node can be active at a time in a Hadoop cluster to prevent overlap. He mentions different fencing methods, including custom Java objects and scripts designed to kill or shut down name nodes. The audio ends with the speaker mentioning killing a dying name node. A rustling noise is heard during the speaker's explanation."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:06:16.546",
+    "end": "00:07:37.466",
+    "audio_caption": "The clip begins with a male voice explaining a fencing mechanism provided in Hadoop2, mentioning \"SSH fence\" configuration and its function of using SSH on a failing name node, culminating in killing the process explicitly.  He then describes another fencing method involving a shell, where a script path carries custom logic to terminate or prevent access to a process. He concludes by summarizing the fencing mechanism provided by Hadoop2. The clip shifts from the described scenario to a reference about the current video where the presenter has discussed the split brain issue and the probable solutions provided by Hadoop 2. A background ambient sound of dogs barking intermittently can be heard throughout the clip."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:07:37.466",
+    "end": "00:07:41.473",
+    "audio_caption": "The audio clip begins with a male speaker saying, \"Keep watching. Happy learning. Have a great day ahead. Bye-bye\". The speaker has a positive and encouraging tone. Following the speech, a sound that resembles a \"baah\" noise. It may indicate the presence of sheep or similar animals."
+  }
+]

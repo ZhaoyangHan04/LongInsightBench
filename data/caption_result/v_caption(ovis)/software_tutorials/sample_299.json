@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:56.073",
+    "video_caption": "The video begins with a black screen that transitions to a red background displaying the text \"Custom Event System for your game\" in white and yellow fonts. It then shifts to a red background with white text stating \"In this guide...\" followed by two bullet points: \"How to build a custom event system\" and \"Reasons to build a custom event system.\" The video then shows a red background with a white rectangle containing the text \"Singleton setInstance() gameManager.cs\" in white font. The next frame features a red background with the word \"Singletons\" in white font. The video then transitions to a light gray background with the text \"Singletons in Unity\" in red font. The final frame displays the same light gray background with the text \"Camera.main EventSystem.current\" in red font, accompanied by a smaller text below stating, \"These are classes that you'll rarely have more than one of, so we can use singletons to easily access them and their properties.\" The video provides a guide on building a custom event system for games, explaining the concept of singletons in Unity and their application in accessing classes like Camera.main and EventSystem.current."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:56.073",
+    "end": "00:02:04.130",
+    "video_caption": "The video begins with a title slide introducing the topic of \"Singletons in Unity,\" highlighting the use of \"Camera.main\" and \"EventSystem.current\" as examples of classes that are rarely instantiated more than once, making them ideal candidates for singleton implementation. The slide explains that singletons allow for easy access to these classes and their properties. The scene transitions to a red background with the question \"Which one are you?\" in white text, prompting viewers to consider their approach to coding. The next frame continues with the same red background, stating \"You assign everything to public fields in the inspector,\" followed by \"or Singletons, everywhere,\" suggesting two contrasting coding styles. An illustration then appears, depicting a character in a red shirt and white gloves, sweating and looking stressed, with a thought bubble showing two buttons labeled \"Singletons\" and \"Using the Inspector,\" indicating a choice between the two methods. The video then shifts to a screenshot of a Unity console displaying multiple \"UnassignedReferenceException\" errors, emphasizing the potential issues that can arise from improper coding practices. The final frame returns to a red background with the text \"Let's mitigate some dependencies!\" in white, suggesting a solution to the problems highlighted in the previous frames. The video effectively uses text, illustrations, and screenshots to convey the importance of choosing the right coding approach and the potential pitfalls of improper implementation."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:02:04.130",
+    "end": "00:02:46.638",
+    "video_caption": "The video begins with a solid red background displaying the title \"The Observer Pattern\" in white text at the top left corner. It then introduces a white rectangular box labeled \"Subject\" with the subtitle \"EventSystem\" underneath, centered on the red background. The scene transitions to show three white rectangular boxes labeled \"Observer\" with the subtitles \"UIPanel,\" \"SoundEffects,\" and \"TimeManager\" respectively, positioned below the \"Subject\" box. The text \"UIWasClicked()\" appears in the center of the frame, indicating an event being triggered. The video then shifts to a new slide with the title \"Designing The Event System\" in white text at the top left corner, followed by two bullet points: \"Create methods for scripts to subscribe to\" and \"Methods for scripts to dispatch when event occurs.\" The final scene displays a screenshot of a game development environment with a hierarchical structure on the left side and an \"Event Trigger (Script)\" panel on the right, showing various event types such as \"Pointer Enter,\" \"Scroll,\" and \"Move,\" each with options for runtime and object selection. The video provides a visual explanation of the Observer Pattern and its application in designing an event system within a game development context."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:46.638",
+    "end": "00:03:01.452",
+    "video_caption": "The video showcases a 3D modeling software interface, where a user is working on a scene involving a green cube and a red door on a white platform. Initially, the interface displays various menus and options, including a 'Project' panel with folders labeled 'Assets,' 'LeanTween,' 'Scenes,' 'Scripts,' 'Cube,' 'Door,' and 'DoorController.' The user interacts with the scene, adjusting the position of the green cube and the red door. The background transitions from a brown to a blue color, indicating changes in the scene's environment. The user continues to manipulate the objects, with the green cube moving closer to the red door. The interface also shows a 'Hierarchy' panel on the right, listing the objects in the scene, such as 'Directional Light,' 'Wall Section,' and 'Cube.' The video concludes with the green cube positioned near the red door, and the user making further adjustments to the scene's elements."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:03:01.452",
+    "end": "00:03:35.177",
+    "video_caption": "The video showcases a sequence of actions within a Unity game development environment. Initially, the Unity Editor interface is displayed, featuring the Hierarchy panel with various game objects such as 'SampleScene', 'MainCamera', 'Directional Light', 'Wall Section', and 'Cube'. The Inspector panel shows the properties of the selected 'Cube' object, including its position, rotation, and scale. The Project panel lists assets like 'LeanTween', 'Scenes', and 'Scripts'. The scene then transitions to the GameEvents.cs script file, where the code editor displays the class definition for 'GameEvents' inheriting from 'MonoBehaviour'. The code includes methods like 'Start' and 'Update', with comments explaining their purposes. The 'Start' method is empty, while the 'Update' method is commented out. The code editor highlights the 'Start' method, and the user begins typing 'public static GameEvents current;' to declare a static variable. The user then adds a private void Awake() method, which assigns 'this' to the 'current' variable. Following this, the user declares a public event 'Action onDoorwayTriggerEnter' and adds a new method 'public void DoorwayTriggerEnter()'. The user then types 'if (onDoorwayTriggerEnter != null)' and 'onDoorwayTriggerEnter();' within the 'DoorwayTriggerEnter' method, indicating the intention to invoke the event if it is not null. The video concludes with the user adding a new line of code 'if (onDoorwayTriggerEnter != null)' and 'onDoorwayTriggerEnter();' within the 'DoorwayTriggerEnter' method, indicating the intention to invoke the event if it is not null. The Unity Editor interface remains visible throughout the video, providing a consistent environment for the coding process."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:35.177",
+    "end": "00:04:24.974",
+    "video_caption": "The video showcases a sequence of actions within a Unity game development environment. Initially, the Unity interface is displayed, highlighting the 'DoorController' script in the 'Assets' folder, with a focus on the 'Door' object in the 'Hierarchy' panel. The 'DoorController' script is then opened in the 'Code' editor, revealing its C# code. The code includes a 'DoorController' class inheriting from 'MonoBehaviour', with a 'Start' method and a 'void OnDoorwayOpen()' method. The 'OnDoorwayOpen()' method utilizes 'LeanTween' to move the game object and 'GameEvents' to trigger an event. Subsequently, the 'TriggerArea' script is opened, showing its 'Start' and 'Update' methods, and a 'void OnTriggerEnter(Collider other)' method that triggers the 'DoorwayTriggerEnter' event. The video concludes with the 'TriggerArea' script's 'OnTriggerEnter' method being highlighted, indicating the completion of the script's functionality. Throughout the video, the Unity interface and code editor are the primary focus, with no visible people or environmental details."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:04:24.974",
+    "end": "00:04:57.613",
+    "video_caption": "The video begins with a close-up of a computer screen displaying code in a text editor, specifically focusing on a script named \"DoorController.cs\" within a Unity game development environment. The code includes various methods and events related to door interactions, such as \"onDoorwayTriggerEnter\" and \"onDoorwayTriggerExit,\" which are part of a game event system. The scene then transitions to a 3D rendered environment featuring a simple white platform with a blue background. On this platform, there are two cubes, one red and one green, positioned near a vertical barrier. The red cube appears to be interacting with the barrier, possibly simulating a door mechanism, while the green cube remains stationary. The video captures the interaction between the cubes and the barrier, illustrating the functionality of the door mechanism within the game environment."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:57.613",
+    "end": "00:05:18.794",
+    "video_caption": "The video begins with a 3D modeling software interface displaying a simple white platform with a blue channel running through it. A red cube is placed in the center of the platform, and a green cube is positioned to the right side. The software interface shows various tools and options on the right side, including a 'SampleCube' object and a 'Default Light' object. The scene then transitions to a top-down view of the platform, where the red cube is duplicated and placed at different positions around the platform, creating a maze-like structure. The green cube is moved to the center of the platform, and the red cubes are arranged to form barriers around it. The video then shows the green cube moving through the maze, navigating around the red cubes. The text 'THAT'S' appears on the screen, followed by 'HOW' and 'TO,' indicating a tutorial or instructional theme. The video concludes with the text 'THAT'S HOW TO' displayed prominently over the maze, emphasizing the instructional nature of the content."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:05:18.794",
+    "end": "00:05:37.398",
+    "video_caption": "The video showcases a sequence of frames from a computer screen displaying a code editor, specifically focusing on a C# script named \"DoorController.cs\" within a Unity game development environment. The code editor interface is dark-themed, with syntax highlighting in various colors such as blue, green, and white, indicating different elements of the code. The script contains methods and events related to door interactions, including \"onDoorwayTriggerEnter\" and \"onDoorwayTriggerExit,\" which are used to detect when a player enters or exits a trigger area. The video progresses through the code editor, highlighting different parts of the script, such as the \"DoorController\" class and its methods, including \"OnDoorwayOpen\" and \"OnDoorwayClose.\" The interface also shows tabs for other scripts like \"GameEvents.cs\" and \"TriggerArea.cs,\" suggesting a collaborative development environment. The video provides a detailed look at the code structure and functionality, emphasizing the use of Unity's scripting capabilities for game development."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:05:37.398",
+    "end": "00:06:02.567",
+    "video_caption": "The video begins with a close-up of a computer screen displaying code in a programming environment, specifically focusing on a script named \"DoorController\" written in C#. The code includes methods for handling door opening and closing events, utilizing the LeanTween library for smooth animations. The scene then transitions to a 3D game development environment, showcasing a scene with a white floor and walls, featuring red and green cubes. The green cube is seen moving through a doorway, demonstrating the functionality of the door controller script. The video concludes with the green cube successfully passing through the door, illustrating the successful implementation of the door opening and closing logic within the game environment."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:06:02.567",
+    "end": "00:06:57.756",
+    "video_caption": "The video begins with a 3D isometric view of a white platform divided into sections by walls, featuring red and brown doors. A green cube is seen moving through the doors, navigating the platform. The scene transitions to a split-screen view, showing the 3D platform on the left and a game development interface on the right, where the platform is being edited. The interface displays a list of objects and scripts, with the green cube visible in the 3D view. The focus then shifts to a close-up of the game development interface, highlighting the code for the platform's door mechanics. The code includes functions for opening and closing doors, with comments explaining the purpose of each function. The video continues to show the code in detail, emphasizing the logic behind the door interactions. The final frames return to the 3D view of the platform, where the green cube is seen moving through the doors, demonstrating the functionality implemented in the code. The video concludes with the green cube successfully navigating through the doors, showcasing the successful integration of the door mechanics in the game environment."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:06:57.756",
+    "end": "00:08:00.421",
+    "video_caption": "The video begins with an isometric view of a white platform with red barriers and a green cube in the center, set against a blue background. Text appears, outlining steps to build a custom event system: 1) Create a static event class, 2) Add events based on game logic, 3) Have scripts listen for these events, and 4) Have scripts dispatch these events. The scene transitions to a red background with the text \"Singletons can still be useful\" and \"Consider this another tool in your toolbox.\" The video then shifts to a red background displaying the \"Game Dev GUIDE\" logo, followed by \"For More Tips\" in white and yellow text. The final frames show a light gray background with a red rectangle at the bottom containing the text \"Check out some of these other videos!\" in white, encouraging viewers to explore additional content."
+  }
+]

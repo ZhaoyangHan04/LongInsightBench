@@ -1,0 +1,20 @@
+[
+  {
+    "question_id": "software_tutorials_321_q1",
+    "model_answer": "The correct answer is B/C: Event 4: Pasting the disable-UPnP code under the connection tag in shared.xml in Notepad, saving the file, and restarting Skype as instructed; Event 6: In Skype’s Connection options, entering a five-digit port that does not start with six and selecting HTTPS for proxy, as the speaker instructs.\n\nThese two events directly relate to the successful login by addressing issues with the UPnP and firewall settings respectively. Disabling UPnP and specifying a non-zero port number in the Skype connection settings allowed the connection to be made through the firewall and successfully logged into Skype.",
+    "choices": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_321_q2",
+    "model_answer": "The most plausible preceding sub-events leading to editing the XML file are A and C: \\n\\nEvent 0: During the login attempt, Skype shows only a spinning icon; the speaker says this is undesirable and that you must quit Skype.\\n\\nEvent 2: The speaker explains the challenge of disabling UPnP when connecting through HTTPS proxy and promises to show a workaround, then quits Skype — setting up the need to edit a file.\\n\\nOption B does not seem to be directly related to opening the shared.xml file, and Option D mentions an error message which is not necessarily related to editing the XML file either.",
+    "choices": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  }
+]

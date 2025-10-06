@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_337_q1",
+    "model_answer": "The correct answer is B: Turning on USB debugging and connecting the phone via USB, shown by the “USB debugging connected” notification (event 4).\n\nExplanation: In order for ADB (Android Debug Bridge) to recognize the device, the developer needs to enable USB debugging on their phone. This is done by going into Settings > About phone > Software information > Build number (反复点击Build number until 'Developer options' appears), enabling Developer options, and then turning on USB debugging. Once the USB debugging is turned on, the phone will show up as a device in the ADB list when connected via USB.",
+    "choices": [
+      "B"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_337_q2",
+    "model_answer": "The correct answer is D: Enabling USB debugging and connecting the phone over USB so it can communicate with the computer (event 4).\n\nExplanation: In event 4, the presenter enabled USB debugging on their Android device. This allowed their computer to recognize the device as a media storage device, which made it possible to copy files to and from the device. Since the Play Store app installation requires access to the device's storage space, the USB debugging setting was necessary for this particular operation.",
+    "choices": [
+      "D"
+    ]
+  }
+]

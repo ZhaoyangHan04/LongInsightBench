@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_299_q1",
+    "model_answer": "The correct answer is A: By declaring 'public static GameEvents current' and assigning it in Awake, and by preparing 'onDoorwayTriggerEnter' to be invoked via the 'DoorwayTriggerEnter()' method.\n\nIn the provided code snippet, the first line declares a public static variable named 'current' of type 'GameEvents'. This variable is assigned the value returned by 'FindObjectOfType(GameEvents)' in the 'Awake' method. The second line prepares a script component to handle the ' DoorwayTriggerEnter ' event by attaching the 'DoorwayTriggerEnter' method to the 'onDoorwayTriggerEnter' property of this component.\n\nThe narration describes the same process, mentioning that a single access point to the event system is established by initializing 'current' in the 'Awake' method and preparing 'onDoorwayTriggerEnter' to be invoked via the 'DoorwayTriggerEnter' method.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_299_q2",
+    "model_answer": "The correct answer is B: The TriggerArea script’s OnTriggerEnter method dispatches the DoorwayTriggerEnter event through GameEvents.\n\nIn the provided code snippet, the OnTriggerEnter method of the TriggerArea script is used to detect when a player enters the trigger area. When this happens, the method dispatches the DoorwayTriggerEnter event through GameEvents. This event is then listened to by the DoorController script, which animates the door with LeanTween when it receives the event.\n\nTherefore, the trigger and door are linked through the DoorwayTriggerEnter event, which is dispatched by the TriggerArea script and listened to by the DoorController script.",
+    "choices": [
+      "B"
+    ]
+  }
+]

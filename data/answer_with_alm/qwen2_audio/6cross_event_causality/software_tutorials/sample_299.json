@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_299_q1",
+    "model_answer": "The preceding steps that most directly enabled linking a specific door to its matching trigger via IDs are B: Event 9 (earlier within the clip) — Set up an index ID property on the door and added a check to open only if the passed ID matches. This step created the necessary property and logic to link the door's trigger to the correct event.",
+    "choices": [
+      "B"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_299_q2",
+    "model_answer": "The answer is B: Event 4 — Implemented a central GameEvents singleton and a DoorwayTriggerEnter dispatcher that other scripts can access without holding direct references. This step decoupled the event system from other objects, allowing it to be a single dependency that could handle triggers and notify scripts without causing direct object-to-object dependencies.",
+    "choices": [
+      "B"
+    ]
+  }
+]

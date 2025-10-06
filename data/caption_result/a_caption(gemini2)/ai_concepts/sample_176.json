@@ -1,0 +1,92 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:47.754",
+    "audio_caption": "The clip begins with a male speaker introducing \"a key point-based neural rendering approach for dynamic shapes.\" He continues to discuss post estimation and its applications in computer vision. The tone is informative and academic. He speaks about how existing models learn joints. He notes that there is data available for training human models, and datasets have been published for animals too. He adds that these datasets cover a wide range of species."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:47.754",
+    "end": "00:01:27.595",
+    "audio_caption": "A male speaker describes an approach called \"neural puppeteer,\" based on an efficient rendering pipeline that renders image properties like occupancy, depth, and texture. He continues to discuss the relationship between neural rendering and pose estimation, focusing on how NePU can estimate 3D key points. He transitions to promising to explain how NePU works, step by step."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:27.595",
+    "end": "00:01:54.140",
+    "audio_caption": "The audio clip begins with a speaker describing the importance of learning pose relationships for inverse rendering solutions, aiming to infer 3D keypoints from observations. The tone is informative and academic. Then the speaker mentions explaining the rendering process step-by-step. The audio concludes with an indistinguishable blip sound."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:54.140",
+    "end": "00:02:22.675",
+    "audio_caption": "The audio features one male speaker with an informative tone discussing a model that encodes 3D key points. He mentions \"deep learning on point clouds\" and the \"vector self attention operator\" from \"Point Transformer.\" He likens this mechanism to convolutions in CNNs."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:22.675",
+    "end": "00:03:58.304",
+    "audio_caption": "The audio features a single male speaker with a calm and informative tone, discussing the functionalities of a decoder, including its ability to decompress a single latent vector into key points and local features, refine features using an attention operator, incorporate camera parameters, and facilitate attention for further refinement. The speaker emphasizes performing rendering directly in 2D due to the costliness of volumetric rendering and mentions how the model learns good view consistency. He describes gathering information from surrounding local features using a cross-attention mechanism and aggregating nearby information for final predictions."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:58.304",
+    "end": "00:04:22.891",
+    "audio_caption": "The clip begins with a single male speaker describing a model with multiple multilayer perception heads, one for each modality, specifically mentioning rendering heads for RGB, depth, and occupancy. He explains that all network parameters are trained jointly using a loss consisting of three parts. He then introduces a \"key point reconstruction part\"."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:04:22.891",
+    "end": "00:04:36.916",
+    "audio_caption": "The clip starts with a male speaker stating, \"we have a rendering loss between the color, depth, and occupancy masks.\" He continues explaining that latent variables are \"regularized in their norm,\" encouraging a \"zero mean Gaussian latent distribution.\""
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:36.916",
+    "end": "00:05:06.262",
+    "audio_caption": "The clip begins with a male speaker describing a decision to explore a method using synthetic animal data. The speaker specifies that the high-quality data consists of four specimens: cows, giraffes, pigeons, and humans. Further details include the data set containing 24 post cameras with high-quality ground truth RGB, depth, and masks with synchronized 3D key point locations."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:05:06.262",
+    "end": "00:05:40.749",
+    "audio_caption": "The audio clip begins with a single male speaker discussing inverse rendering experiments focused on inferring 3D keypoint positions. He mentions an easy domain transfer from synthetic to real and prioritizing 2D occupancy masks. The speaker notes reliance on a prior distribution that a neural network learned. A transition occurs, and another male voice then utters a single word, \"Yes\"."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:05:40.749",
+    "end": "00:06:41.690",
+    "audio_caption": "The clip begins with a male speaker who explains the process of finding a latent vector that minimizes binary cross-entropy across cameras and pixels between observed and rendered masks, including a regularization term. Using a decoder, they can infer 3D key points. The speaker mentions that they run multiple initializations to avoid getting stuck in local minima, choosing the one with the highest intersection over union. Following this, the same speaker describes an animation showing post optimization from initialization to final pose given the silhouette."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:06:41.690",
+    "end": "00:07:49.676",
+    "audio_caption": "The audio clip features a single male speaker with a neutral tone. He discusses \"zero-shot synthetic to real-world experiments\" and the training of \"NeRF\" on synthetic data, then the inference on real-world images. He mentions examples of \"giraffes and a cow,\" and then discusses inverse rendering for pose estimation and its performance. The speaker concludes with the reflection of \"overall good quality of NeRF\" for pose estimation, using color-coded dots, with red dots indicating high and green dots indicating low 3D error."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:07:49.676",
+    "end": "00:08:29.199",
+    "audio_caption": "The clip starts with a male speaker describing the functionality of a forward differentiable rendering pipeline, claiming it works very well and achieves better average peak signal-to-noise ratio and mean absolute error over all objects than light field networks. He then explains that the qualitative results reflect the overall good quality of for forward differentiable neural rendering. The speaker also compares the results, noting the importance of the local conditioning and that the results obtained are much more detailed with precise boundaries. Afterwards, there is unintelligible vocalization."
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:08:29.199",
+    "end": "00:08:58.164",
+    "audio_caption": "A single male speaker delivers a technical explanation, starting with comparing \"NePU\" to \"NeRF\" and citing promising but lower quality results, noting the differing rendering formulations and more complex problem-solving for \"NePU,\" before concluding on \"NeRF\" based approaches typically rely on intensive volumetric rendering."
+  },
+  {
+    "chunk_id": 13,
+    "start": "00:08:58.164",
+    "end": "00:09:42.146",
+    "audio_caption": "The audio clip starts with a single male speaker describing a single evaluation rendering formulation, noting a significant speed increase compared to NERF-based approaches. Then, he mentions applying their rendering pipeline to key points from motion capture data from the Amas data set, exclaiming that the Nepo can even dance Macarena. Lastly, the speaker says \"Oh\" with surprise."
+  },
+  {
+    "chunk_id": 14,
+    "start": "00:09:42.146",
+    "end": "00:10:38.108",
+    "audio_caption": "The audio clip begins with a male speaker emphasizing that depth estimations from a particular tool can be utilized for 3D shape reconstruction. The speaker continues in a declarative tone, mentioning that although this tool renders in 2D, creating potential inconsistencies, a good level of view consistency is usually maintained. The speaker concludes by noting that the latent space structure of this tool encodes meaningful information about pose relationships. He directs listeners to visit a project page by scanning a QR code to access code, a synthetic data set, and further results. The clip concludes with a digital sound."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_82_q1",
+    "model_answer": "The correct chronological order of the sub-events is:\n\n  1. Set a breakpoint at the start of main using the 'break' (b) command.\n  2. At the for loop, prints i = 1 and then finds factorial is a big negative number due to no initialization.\n  3. Sets a breakpoint after the do-while loop by specifying a line number with the file name, then continues.\n  4. After stepping through four iterations, prints factorial and sees a huge wrong value, so restarts.\n  5. Uses the print command to inspect variable values while stepping.\n\nTherefore, the correct order is 3 -> 2 -> 4 -> 1 -> 5.\n\nAnswer: D",
+    "choices": [
+      "D"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_82_q2",
+    "model_answer": "The correct chronological order of the sub-events leading to the correct factorial result is:\n\n(3) Prints i and confirms it equals 1 inside the loop.\n(2) Talks about initializing values, sets variables, and prepares to continue.\n(4) Uses info locals to view all local variables.\n(5) Prints factorial and sees a large negative number, realizing it was never initialized.\n\nTherefore, the answer is C: 3 -> 2 -> 4 -> 5 -> 1.",
+    "choices": [
+      "C"
+    ]
+  }
+]

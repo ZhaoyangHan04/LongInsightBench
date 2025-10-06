@@ -1,0 +1,80 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:01:02.080",
+    "audio_caption": "The audio clip starts with a male speaker introducing a topic, referring to a previous video and stating the intention to show how to improve a 3D object by tidying up its components. He then begins to describe the first issue, that the 3D data consists of many tiles. He switches tone and begins to describe the next steps. Background music, with a somber tone, begins playing as the speaker describes how he will select and join the tiles together, and merge vertices to remove overlapping data."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:01:02.080",
+    "end": "00:01:19.446",
+    "audio_caption": "The clip begins with a male speaker discussing combining objects and transitioning to the material tab. He notes the hundreds of materials present, each tied to an original tile. His objective is to consolidate all these materials into a single one with a texture and UV map. His tone is instructional and calm."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:19.446",
+    "end": "00:01:30.363",
+    "audio_caption": "The audio begins with a male speaker outlining a digital object manipulation process, starting with \"duplicate the object\". He describes the steps of pressing \"shift D\" and \"escape\" to copy an object. His tone is instructional and calm. He points out how this duplication is reflected in the digital \"outliner\". He continues to turn off the visibility of the first object and focus on the second."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:30.363",
+    "end": "00:02:06.425",
+    "audio_caption": "The clip begins with a male speaker discussing deleting materials \"one by one,\" followed by his suggestion for \"a quicker way to do this\" using a script. He transitions to describing the process, mentioning \"the code in the description\" and how it \"takes the active object and goes through each material slot\" to remove them. Finally, he demonstrates the effect of \"running the script,\" noting that \"all the materials have now been removed from the object.\" There's a sound effect indicating deletion at the end of the clip."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:06.425",
+    "end": "00:02:41.651",
+    "audio_caption": "The clip starts with a male speaker outlining a plan involving an original object and transferring colors and textures. He speaks in a measured, explanatory tone. He then describes steps to take, including selecting an object, switching to a UV editor, and going into edit mode. His description transitions to an assessment of the existing UV map, which he describes as chaotic with many vertices mapped together. The male speaker ends by suggesting they will do something, cut off mid-sentence."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:02:41.651",
+    "end": "00:03:22.413",
+    "audio_caption": "The audio clip begins with a male speaker introducing the process of creating a new UV map, describing that they will be \"creating a new unwrapping\". The speaker then explains that \"the gold standard\" would be to \"press U\" to unwrap UVs and then \"go to smart UV project\", then advising the listener to \"save your file\". The male speaker highlights that unwrapping may \"take a very long time\" using this method, elaborating that \"this mesh here, which is about 100,000 vertices, took about 15 minutes.\" He continues by summarizing the steps to unwrap with a smart UV project.  Afterwards he recommends to \"go make yourself a cup of coffee or something\". He concludes that after it is complete, the listener \"should have a nice UV map\"."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:03:22.413",
+    "end": "00:04:06.306",
+    "audio_caption": "The clip starts with a male speaker explaining how to unwrap a model, mentioning a quicker way to achieve it with \"slightly inferior results.\" He then outlines the process of exporting an object as an OBJ file and importing it into MeshLab, a free software, providing instructions on specific actions like pressing tab and navigating menus. Afterwards, the speaker describes further steps in MeshLab, such as importing a mesh file and how it should appear in the viewport."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:06.306",
+    "end": "00:04:37.301",
+    "audio_caption": "The audio clip starts with a male speaker explaining a process, mentioning \"mesh selected,\" \"filters,\" \"texture,\" and \"parameterization,\" speaking in a clear, instructional tone. He then specifies a texture dimension in pixels. After a pause, he states an action \"press apply.\" The speaker then explains more technical functions, and says that they should be able to see a \"little overlay pop up.\" Concluding the clip, the speaker says, \"big grid,\" signaling the end of the process he was describing."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:04:37.301",
+    "end": "00:05:16.505",
+    "audio_caption": "The clip begins with a male speaker describing a process of exporting, \"export this back,\" and importing files between OBJ and Blender, with a calm and instructional tone. He explains steps like disabling normal and face color, enabling texture coordinates, and selecting the OBJ file for import. He states how to confirm by selecting the object, pressing tab, and then observing, \"we've got that nice gridded UV map\" that was taken from MeshLab. The clip concludes with a sound effect."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:05:16.505",
+    "end": "00:06:24.460",
+    "audio_caption": "The audio clip starts with a single male speaker discussing baking texture from an original to a new object, explaining the need for the new object to have a material. He then describes navigating to the shader editor, adding a new material, and adding an image texture node. He mentions creating a new image, setting its resolution, and then setting the background as black with alpha set to zero. He concludes by saying he is not going to link it to the node tree yet, as it needs to be disconnected for baking."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:06:24.460",
+    "end": "00:07:19.737",
+    "audio_caption": "The audio clip starts with a male speaker describing bake settings for a software. He mentions render properties, changing the render engine to cycles, device to GPU, diffuse, and selected to active bake. He then discusses the settings under that, and he goes on to say, \"a ray distance of 0.1\". He mentions the margin to one pixel."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:07:19.737",
+    "end": "00:07:47.013",
+    "audio_caption": "The clip starts with a male speaker declaring readiness to bake and advising to save the file. He explains how to select the new image texture and mesh, then to select the existing mesh while holding control, before stating \"we're ready to press bake.\" Baking is initiated, and the speaker notes that the process might take a long time, but this time there is a progress bar. The clip ends with a whooshing sound effect."
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:07:47.013",
+    "end": "00:08:56.172",
+    "audio_caption": "The clip starts with a male speaker talking about connecting color outputs to the principal BSDF in the shader editor. He is talking about how to turn off the visibility for his original object so the texture can be mapped onto our geometry. The speaker indicates that he has successfully transferred it. The speaker mentions a specular value needing to be turned down in the principal BSDF. The speaker indicates that he would like to save the image and rename it to bait texture. The speaker mentions that he is going over to the image editor and selecting the bait texture from a drop-down menu. The speaker is talking about how to save the file in a useful location as a PNG or JPEG file. The male speaker thanks the audience for watching while summarizing how to clean up a mesh that's been imported from Google Maps 3D."
+  }
+]

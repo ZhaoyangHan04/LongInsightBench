@@ -1,0 +1,19 @@
+[
+  {
+    "question_id": "astronomy_502_q1",
+    "model_answer": "The preceding setup steps that most directly enabled dithers to be issued and then appear in the log viewer were:\n\nA: Event 2: In PHD2, using the Tools menu to “Enable Server,” allowing acquisition software to send dither commands to PHD2.\nC: Event 4: In Sequence Generator Pro’s Control Panel (Auto Guide tab), choosing PHD2 as the guiding interface and setting Medium Dither every frame so it handles dithering in the background.\n\nExplanation:\nEvent 2 enables the communication between the telescope, PHD2, and the acquisition software, which allows the software to send dither commands to PHD2.\nEvent 4 sets up PHD2 as the guiding interface and activates medium dither on every frame, which means that PHD2 will automatically handle dithering in the background.\nTogether, these two events set the conditions necessary for dithering to occur during acquisitions.",
+    "choices": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "question_id": "astronomy_502_q2",
+    "model_answer": "The most plausible prior configuration steps leading to the wrap-up and transition in event 7 are:\n\nA: Event 2: Enabling the PHD2 server so external programs can issue dither commands.\nB: Event 3: Using Nebulosity’s PHD Link to connect and issue a dither/move between frames.\nC: Event 4: In Sequence Generator Pro, selecting PHD2 as the guiding interface and choosing Medium Dither every frame.\n\nThese events establish the necessary components for a dithering workflow, which was crucial for obtaining high-quality images without noise interference. The setup allowed for automatic tracking and long exposures of space, resulting in clear lines, glow, and bias-free images.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+]

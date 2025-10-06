@@ -1,0 +1,20 @@
+[
+  {
+    "question_id": "software_tutorials_22_q1",
+    "model_answer": "The preceding sub-events that most directly enabled the outcome of the game's UI showing the player's currency and experience updated to previously saved values are:\n\nA: Event 3 — Implementing the Load method that opens a file stream, deserializes with a BinaryFormatter, returns the saved object, and handles errors.\nB: Event 2 — Creating the SerializationManager with a Save method (taking a save name and object) and a helper that returns a BinaryFormatter to be used for serialization.\nC: Event 5 — Marking SaveData (and related data-holding classes) with [System.Serializable] and setting up the singleton-style reference used by the save system.\n\nThese events were crucial for creating the functionality needed to save and load game progress, which is necessary for allowing players to return to their previous state in the game. The UI update would not have been possible without these underlying events being implemented first.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_22_q2",
+    "model_answer": "The correct answer is A, B, C. These events are the primary enablers of the successful loading of toys with their original positions and orientations when the game is loaded. Event 11 involves implementing serialization surrogates for Vector3 and Quaternion using the BinaryFormatter and configuring it with a SurrogateSelector to use these surrogates. Event 10 involves designing a serializable ToyData class with fields for toy type, ID, and position/rotation data. Event 9 identifies that the BinaryFormatter cannot serialize Unity classes out of the box, necessitating a surrogate-based approach. Event 7 involves creating a user interface for players to work/buy items and update their currency and toy count.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+]

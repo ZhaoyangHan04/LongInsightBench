@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:25.360",
+    "audio_caption": "The audio clip begins with a friendly greeting, followed by the introduction of a data science and machine learning channel. A male speaker proceeds to describe a Twitter recommendation system, mentioning that Twitter recently open-sourced its codebase and published a blog. The speaker then indicates that they will go through the blog and discuss how the Twitter recommendation system differs from other social media platforms."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:25.360",
+    "end": "00:01:16.882",
+    "audio_caption": "The audio clip begins with a male speaker discussing how the app recommends tweets across various areas like search and explore. He details a personalization system, describing how a small selection of tweets is filtered from a large daily volume, then displayed to users. He introduces the recommendation system setup, outlining the process as consisting of three main stages: candidate sourcing, which he characterizes as the retrieval layer, followed by a ranking process where an ML model orders these tweets."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:16.882",
+    "end": "00:01:56.636",
+    "audio_caption": "The clip features a single male speaker explaining a process, possibly related to content filtering or presentation, mentioning stages involving heuristics, filters, balancing content, and user feedback. He references specific details such as tweets, generators, and ranking systems, maintaining an informative and explanatory tone."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:56.636",
+    "end": "00:03:24.809",
+    "audio_caption": "The audio clip primarily features a single male speaker discussing candidate sources for Twitter, detailing how Twitter's retrieval layer sources tweets from in-network and out-of-network individuals. He describes the distinctions between Twitter and other social media platforms like Facebook and Instagram, citing Twitter's focus on understanding global events and influencer opinions, necessitating broader candidate sources. He elaborates on in-network sourcing using logistic regression models and real graphs, highlighting their role in ranking tweets based on relevance and engagement. The speaker further explains how real graphs emphasize tweets from users with stronger connections, followed by logistic regression ranking. He concludes that a portion of these tweets will be sent to the ranker, complementing those from out-network sources."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:03:24.809",
+    "end": "00:04:21.219",
+    "audio_caption": "The audio begins with a male speaker discussing how Twitter sources out-of-network tweets, explaining that the platform uses social graphs and embedding spaces. He details how social graphs estimate relevance by analyzing engagement of people one follows and those with similar interests, mentioning \"graph jet\" and Twitter's graph model. He notes that the system generates candidate tweets based on recent engagement and ranks them using a logistic regression model. In summary, the discussion revolves around how Twitter uses social graphs for out-of-network content, using a professional and analytical tone."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:04:21.219",
+    "end": "00:04:55.314",
+    "audio_caption": "The clip features a single male speaker discussing the importance of embedding spaces, stating that they are \"very hot these days\" and \"very useful.\" He elaborates on generating numeric representations of users and tweets within community spaces and how this allows for approximate nearest neighbor searches, describing the process of representing users and tweets as vectors."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:04:55.314",
+    "end": "00:05:44.350",
+    "audio_caption": "The audio clip features one male speaker discussing Twitter's \"sim cluster\" algorithm, focusing on its use of custom matrix factorization for influencer community discovery. He describes how influencers are grouped into communities and the process of embedding users and tweets into a community space. The speaker maintains a clear, informative tone throughout."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:05:44.350",
+    "end": "00:06:41.134",
+    "audio_caption": "The clip starts with a speaker, presumably male, discussing the number of users on Twitter and the need to represent them in a condensed way, which he refers to as the \"community.\" He mentions how users and tweets are embedded into a smaller space, the community space, and how they can be embedded by looking at their current popularity in each community or affinity towards a community. He then explains how a user can be interested in various communities, and the value of those dimensions representing those communities will be high, describing how tweets and users are embedded into the community dimension or space."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:06:41.134",
+    "end": "00:06:51.055",
+    "audio_caption": "The audio clip features a male speaker discussing \"the ranking model,\" explaining how it follows retrieval processes and uses an ML model. The tone is informative and explanatory."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:06:51.055",
+    "end": "00:07:16.492",
+    "audio_caption": "The audio clip starts with a male speaker describing a system that uses a 48 million parameter neural network to rank 1500 candidates sourced from both in and out of a network. He explains that the network is continuously trained on Tweet interactions, utilizing thousands of features to predict the engagement probability of users liking, retweeting, or replying to tweets, prioritizing candidates with higher probabilities in the user's home feed. Following candidate sourcing and ranking, he mentions a filtering step and a blending step."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:07:16.492",
+    "end": "00:07:48.329",
+    "audio_caption": "The clip features a male speaker explaining a process involving \"filtering\" after \"ranking\". He mentions applying heuristics and filters to \"filter out tweets from blocked or muted users\", emphasizing the aim to avoid repetitive content. At the final stage, the system \"blends together tweets\" with other content like \"ads or follow recommendations\", ultimately displaying this combined information to the user. The speech is delivered in an explanatory tone."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:07:48.329",
+    "end": "00:08:16.721",
+    "audio_caption": "The audio clip features one male speaker, sharing insights into how the recommendation system at Twitter operates. He details the process of retrieving and sourcing data from in and out networks, followed by a ranking and filtering stage, incorporating heuristics, blending with ads and other recommendations, and finally displaying it on the user's home feed. The speaker maintains an informative and enthusiastic tone. He concludes with a call to action, encouraging listeners to like, subscribe, and stay tuned for further updates."
+  }
+]

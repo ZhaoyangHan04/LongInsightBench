@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "science_explainers_53_q1",
+    "model_answer": "Answer: A: By feeding real photos to a perceptual discriminator to learn realism and using a perceptual loss on rendered images to retain their structure.\n\nThe audio describes a method that enhances photorealism in game graphics while preserving image structure. This is achieved by using a convolutional network that produces images frame by frame. The network is trained on real photos to learn what realistic images look like, and then it is applied to the game's rendered images to enhance their realism. Additionally, a perceptual loss is used to ensure that the enhanced images retain the structure of the original images. This approach combines machine learning with traditional image processing techniques to achieve high-quality photorealistic images while maintaining the integrity of the underlying structures.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "science_explainers_53_q2",
+    "model_answer": "The correct answer is B: Because the left side uses WCT2, which washes out colors when no suitable reference is provided.\nIn the video, the speaker mentions that the left side of the image uses the Warped Color Transform (WCT) algorithm, which can cause colors to be washed out when there is no suitable reference image available. This means that the colors in the left side of the image may appear muted or greenish because they have been altered in such a way that their natural colors are lost. In contrast, the right side of the image uses their own method, which produces more natural-looking colors.",
+    "choices": [
+      "B"
+    ]
+  }
+]

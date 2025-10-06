@@ -1,0 +1,18 @@
+[
+  {
+    "question_id": "software_tutorials_183_q1",
+    "model_answer": "The correct answer is A, B, and C.\n\nEvent 9 involves setting up the bake target by adding a new material and an Image Texture node, creating a black background with alpha 0, which is essential for baking textures onto the new mesh. Event 8 ensures that the OBJ file has proper texture coordinates and a clean UV map, which is necessary for accurate baking. Event 10 configures the bake settings in Cycles, including selecting the diffuse channel and adjusting ray distance and margin settings, which are crucial for the baking process to work correctly. Event 3 deleting all materials from the object is not relevant to the baking process and would likely cause issues if done before baking.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_183_q2",
+    "model_answer": "The correct answer is A: Event 11 — Executing the bake after selecting the new image texture and target mesh, then Ctrl-selecting the original mesh and pressing Bake.\n\nThis step directly follows the process described in the question, where the instructor connects the baked image to the Principled BSDF material, which results in the texture being mapped successfully onto the cleaned geometry. The other events mentioned in the options do not directly relate to the process of baking textures and applying them to the mesh.",
+    "choices": [
+      "A"
+    ]
+  }
+]

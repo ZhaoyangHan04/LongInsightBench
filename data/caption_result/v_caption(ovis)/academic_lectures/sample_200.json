@@ -1,0 +1,68 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:40.885",
+    "video_caption": "The video begins with a dark background featuring abstract shapes in orange and blue, accompanied by the text \"Hello Friends!\" in white. This is followed by another frame with the same background and text, but with the addition of \"DBMS KEYS\" in larger white letters and \"PRIMARY, FOREIGN, SUPER, CANDIDATE ETC WITH EXAMPLES\" in smaller yellow letters below. The scene then transitions to a person standing in a field, wearing a light-colored shirt, with a blurred background of greenery and hills. The next frame shows a person in a dark setting, wearing a dark shirt, gesturing with their hands. The video then shifts to a person in a dark shirt, holding their head with both hands, surrounded by a starry background. This is followed by another person in a dark shirt, also holding their head with both hands, with a similar starry background. The video concludes with a dark background featuring abstract shapes in orange and blue, with the text \"Why we need DBMS Keys?\" in white."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:40.885",
+    "end": "00:01:46.310",
+    "video_caption": "The video begins with a slide titled \"WHAT ARE DBMS KEYS?\" featuring a definition of a DBMS Key as an attribute or set of attributes that uniquely identify a record or row of data in a relation (table). The slide is adorned with abstract shapes in orange and blue. It then transitions to a slide titled \"SIMPLE EXAMPLE\" with a table labeled \"Student Records,\" containing columns for Sid, SName, SBranch, and SEmail, and rows of sample data. The table is highlighted with a blue header and alternating blue and white rows. The video then shows the same table with the columns Sid and SEmail highlighted in orange, accompanied by the text \"Sid and SEmail are Keys for Student Table,\" indicating that these columns uniquely identify each record in the table. The background remains consistent with abstract shapes in blue and orange throughout the video."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:46.310",
+    "end": "00:02:34.519",
+    "video_caption": "The video begins with a slide titled \"WHY WE NEED DBMS KEYS?\" in bold, black text on a white background, accompanied by a blue wave design in the top right corner. Below the title, a bullet point explains that DBMS keys are needed \"For identifying any row of data in a table uniquely.\" The scene transitions to a slide labeled \"SIMPLE EXAMPLE\" with a table titled \"Student Records.\" The table has columns labeled \"Sid,\" \"SName,\" \"SBranch,\" and \"SEmail,\" with rows containing sample data. A red arrow points to the name \"Adam\" in the second row, highlighting the issue of duplicate names. The next slide reiterates the initial title and bullet point, adding another point: \"We can force identity of data and ensure integrity of data is maintained.\" The following slide shows the same table with an additional note stating \"Sid is mandatory,\" emphasizing the importance of a unique identifier. The video then returns to the title slide, now with three bullet points, including the new point about establishing relationships between tables. The final slide reiterates the title and bullet points, reinforcing the necessity of DBMS keys for data integrity and relationship establishment. Throughout the video, the background remains consistent with a white backdrop and blue wave design, maintaining a clean and professional presentation style."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:34.519",
+    "end": "00:03:08.373",
+    "video_caption": "The video presents a slide titled \"Types of DBMS Keys,\" which lists seven different types of keys used in database management systems. The keys are numbered and include Super Key, Candidate Key, Primary Key, Foreign Key, Composite & Compound Key, Alternate Key, and Surrogate Key. Each key is accompanied by a circular orange icon with a white number inside, and the text is in black font on a white background. The slide features a decorative orange design in the top right corner. Throughout the video, a black cursor arrow points to each key in sequence, starting with Super Key, then moving to Candidate Key, Primary Key, Foreign Key, Composite & Compound Key, Alternate Key, and finally Surrogate Key. The cursor's movement highlights each key individually, emphasizing their importance in the context of database management systems. The background remains consistent, with no changes in the environment or additional elements introduced."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:03:08.373",
+    "end": "00:03:47.789",
+    "video_caption": "The video begins with a dark background featuring abstract shapes in orange and blue, with the text \"Super Key\" prominently displayed in the center. The scene transitions to a white background with a blue wave-like design in the top right corner, introducing the term \"SUPER KEY\" in bold letters. A bullet point follows, explaining that a super key is a key understood from the beginning. The video then presents a table labeled \"Student Table,\" listing student information such as BID, REG_ID, NAME, BRANCH, and EMAIL. Below the table, the keys are listed as SID, REG_ID, and EMAIL. The video continues to elaborate on the concept of super keys by showing additional combinations of these keys, such as SID + REG_ID, REG_ID + EMAIL, and EMAIL + SID. The final frame reiterates the definition of a super key, emphasizing that it is an attribute or set of attributes that can identify a row of data in a table. The video maintains a clean and educational presentation style throughout, focusing on the concept of super keys in database management."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:47.789",
+    "end": "00:05:25.592",
+    "video_caption": "The video begins with a slide titled \"CANDIDATE KEY,\" explaining that a candidate key is a minimal subset of a super key. The slide features a blue wave design in the top right corner. The next slide displays a \"Student Table\" with columns for BID, REG_ID, NAME, BRANCH, and EMAIL, listing four students with their respective details. Below the table, a list of keys is shown, including SID, REG_ID, EMAIL, and combinations thereof. The slide emphasizes that any one of these can be chosen as a candidate key. The video then revisits the \"CANDIDATE KEY\" slide, adding a new point about proper subsets of super keys not being candidate keys. Following this, the video returns to the \"Student Table\" slide, highlighting additional keys like SID + EMAIL and REG_ID + EMAIL + SID. The final slide reiterates the candidate keys and notes that certain combinations cannot be candidate keys, marked with a red cross. Throughout the video, the background remains consistent with a white backdrop and blue wave design, maintaining a clean and educational presentation style."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:05:25.592",
+    "end": "00:05:49.673",
+    "video_caption": "The video begins with a slide titled \"PRIMARY KEY,\" explaining that a primary key is a candidate key chosen to uniquely identify each row of data in a table. It emphasizes that no two rows can have the same primary key value, the primary key value cannot be NULL, and every row must have a primary key. The slide has a white background with a blue wave design in the top right corner. The video then transitions to a slide showing a \"Student Table\" with columns labeled \"SID,\" \"REG_ID,\" \"NAME,\" \"BRANCH,\" and \"EMAIL,\" containing data for four students. Below the table, \"Candidate Keys\" are listed as \"SID,\" \"REG_ID,\" and \"EMAIL.\" The slide instructs viewers to \"Pick any one as Primary Key,\" with the text in red. The background remains white with the blue wave design in the top right corner. The video maintains a consistent visual style throughout, focusing on educational content related to database management."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:05:49.673",
+    "end": "00:06:31.363",
+    "video_caption": "The video begins with a slide displaying a table titled \"Student Table,\" which lists student information including BID, REG_ID, NAME, BRANCH, and EMAIL. Below the table, there is a section labeled \"Find Student Interface\" with a search bar asking \"SID or REG_ID?\" and a green \"Search\" button. The interface is designed to allow users to search for a student by either their Student ID (SID) or Registration ID (REG_ID). The background of the slide is white with a blue cloud-like shape in the top right corner. The video then transitions to a frame where the REG_ID column in the table is highlighted with a red border, and a red arrow points to it, emphasizing its importance. The search bar now displays \"REG_ID\" as the input, indicating that the user has selected to search by REG_ID. The final frame of the video presents a slide with bullet points explaining the concept of primary and alternate keys in a database. It states that if REG_ID is chosen as the primary key, then SID and EMAIL will become alternate keys. The background remains white with the blue cloud-like shape in the top right corner, maintaining a consistent visual theme throughout the video."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:06:31.363",
+    "end": "00:07:05.551",
+    "video_caption": "The video begins with a slide titled \"FOREIGN KEY,\" explaining that it is an attribute in a table used to define its relationship with another table and helps maintain data integrity for tables in relationship. The slide has a white background with a blue wave design in the top right corner. The scene then transitions to a dark background with colorful abstract shapes and the text \"Let's add another table to our example\" in white, indicating a shift to a new topic. Following this, a table labeled \"Branch Table\" is displayed, featuring columns for \"BRANCH_CODE,\" \"BRANCH_NAME,\" and \"HOD,\" with entries such as \"CS\" for Computer Science and \"John Mayer\" as the HOD. The table has a blue header and white rows, with a blue wave design in the top right corner. The video then shows the same \"Branch Table\" with a cursor pointing to the \"HOD\" column, highlighting the importance of the HOD (Head of Department) in the context of the table. The background remains consistent with the blue wave design, maintaining a cohesive visual theme throughout the video."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:07:05.551",
+    "end": "00:07:50.874",
+    "video_caption": "The video begins with a slide titled \"Student Table,\" displaying a table with columns labeled SID, REG_ID, NAME, BRANCH_CODE, and EMAIL, containing entries for four students. A red arrow points to the BRANCH_CODE column, indicating a foreign key relationship with the Branch Table. The slide then introduces a new entry for a student named Shelly with a BRANCH_CODE of 'EIC,' which is not allowed by the database as there is no corresponding entry in the Branch Table for 'EIC.' The video then transitions to a slide showing the Branch Table with columns BRANCH_CODE, BRANCH_NAME, and HOD, listing entries for CS, ME, IT, and ECE. A red arrow points to the Branch Table, indicating that an entry in the Student Table is being updated, but a DB error occurs due to the absence of 'EIC' in the Branch Table. The video concludes with a slide stating \"Data Integrity in relationship is maintained,\" emphasizing the importance of maintaining data integrity in database relationships. The background of the slides features abstract shapes in blue and orange, adding a visual element to the presentation."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:07:50.874",
+    "end": "00:09:15.305",
+    "video_caption": "The video begins with a dark background featuring abstract shapes in orange and blue, accompanied by the text \"Let's move on...\" in white, signaling a transition to new content. It then shifts to a white background with a blue wave design in the top right corner, introducing the concept of a \"COMPOSITE KEY\" with bullet points explaining that a composite key consists of more than one attribute and provides examples such as (SID, REG_ID), (REG_ID, EMAIL), and (EMAIL, SID). Following this, the video explains the \"COMPOUND KEY,\" defining it as a composite key with at least one foreign key attribute, using (REG_ID, BRANCH_CODE) as an example. The next segment focuses on the \"SURROGATE KEY,\" detailing its purpose in identifying data when no existing attribute can do so, emphasizing its role in uniquely identifying rows in a table without adding meaning to the data. The video then presents a list titled \"Types of DBMS Keys,\" enumerating seven key types: Super Key, Candidate Key, Primary Key, Foreign Key, Composite & Compound Key, Alternate Key, and Surrogate Key, each marked with a numbered orange circle. The final frame returns to the dark background with abstract shapes, displaying the text \"The End...\" in white, indicating the conclusion of the presentation."
+  }
+]

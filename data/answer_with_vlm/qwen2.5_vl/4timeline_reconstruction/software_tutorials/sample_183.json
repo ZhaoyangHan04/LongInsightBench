@@ -1,0 +1,19 @@
+[
+  {
+    "question_id": "software_tutorials_183_q1",
+    "model_answer": "Answer: D: 2 -> 1 -> 4 -> 3 -> 5\n\nExplanation: The events described in the video follow this sequence:\n\n1. The speaker duplicates the object using Shift+D and hides the original in the outliner (Event 2).\n2. The speaker executes a Python script to remove all materials from the selected city mesh, which results in a deletion sound (Event 1).\n3. The speaker initiates baking with selected-to-active, which triggers a progress bar and a whooshing sound (Event 4).\n4. The speaker starts a Smart UV Project unwrapping, which causes a UV pop-up and updates the UV map after applying (Event 3).\n5. Finally, the baked color is connected to the Principled BSDF, and the speaker saves the image as a texture before thanking viewers (Event 5).\n\nThe given options match this sequence, so the correct answer is D: 2 -> 1 -> 4 -> 3 -> 5.",
+    "choices": [
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_183_q2",
+    "model_answer": "Answer: A: 2 -> 1 -> 3 -> 4 -> 5 -> 6\n\nReasoning: The sequence provided in option A aligns with the logical steps described in the tutorial. It begins with exporting the object to OBJ and opening it in MeshLab for texture parameterization, followed by applying the filter and observing the grid overlay. Then, the processed OBJ is imported back into Blender with texture coordinates enabled, where a gridded UV map is visible. After this, a new material and image texture node are added in the shader editor, and finally, baking settings are configured and baking starts. This sequence matches the events described in the tutorial.",
+    "choices": [
+      "A",
+      "A"
+    ]
+  }
+]

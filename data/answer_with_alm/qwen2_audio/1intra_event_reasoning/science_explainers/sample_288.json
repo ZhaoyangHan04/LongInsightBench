@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "science_explainers_288_q1",
+    "model_answer": "The correct answer is A: Because those wavelengths reflect strongly off vegetation that the lidar is scanning. \n\nLidars use lasers to measure distances by emitting light in different wavelengths and measuring how much of that light is reflected back. The Earth's surface scatters sunlight in all directions, but it scatters shorter (blue and violet) wavelengths more than longer (red and infrared) wavelengths. This means that when lidars emit light at 532 nm (green) and 1064 nm (near-infrared), they will be reflected more strongly off surfaces like trees and other vegetation, which makes it easier to detect and map them. \n\nTherefore, the combination of green and near-infrared wavelengths allows lidars to create detailed maps of the Earth's surface, including vegetation, buildings, and other features. The fact that these colors are also visible to humans helps make the data more accessible and easier to interpret.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "science_explainers_288_q2",
+    "model_answer": "Answer: A: It tracks the aircraft’s motion (yaw, pitch, and roll) affected by turbulence so these angles can be accounted for when computing height.\n\nThe IMU (inertial measurement unit) plays a crucial role in calculating the aircraft's height during flight. As the aircraft moves through the air, it experiences various motions such as yaw (side-to-side rotation), pitch (up-and-down movement), and roll (rotation around the vertical axis). These motions can affect the accuracy of height calculations. The IMU continuously measures the aircraft's orientation relative to gravity, which helps the onboard computer compensate for these movements and accurately determine the aircraft's position and height above the ground.",
+    "choices": [
+      "A"
+    ]
+  }
+]

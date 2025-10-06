@@ -1,0 +1,68 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:40.885",
+    "audio_caption": "The audio begins with an enthusiastic male speaker welcoming listeners to a YouTube channel and introducing the topic of DBMS keys, acknowledging the confusion students often face. This is followed by a segment with prominent ambient sounds of traffic, suggesting an outdoor recording or close proximity to a busy street. The male speaker then resumes, outlining the topics that will be covered: the definition of database keys, their purpose, and different types of DBMS keys."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:40.885",
+    "end": "00:01:46.310",
+    "audio_caption": "The audio begins with a male speaker explaining the purpose of database keys, describing them as attributes that uniquely identify records or rows in a table. He uses an example table with student details to illustrate the concept, emphasizing the need for unique identifiers when attributes like name or branch are not sufficient. He then transitions to discussing the importance of keys in relational databases. The audio ends with silence."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:46.310",
+    "end": "00:02:34.519",
+    "audio_caption": "The audio clip begins with a male speaker presenting the first reason regarding DBMS keys, stating, \"The first reason is pretty much obvious. Without a DBMS key, you cannot access the rows of data stored in the table uniquely.\" He elaborates that without a key, users may receive multiple or incorrect rows of data. He then describes another important reason which is an extension of the first, which enables the user to \"force identity of data and ensure integrity of data\". He further explains that, “making an attribute a key” ensures that anything inserted into the table is identifiable. Finally, the speaker highlights that, “we can establish a relationship between tables using keys.\" He transitions into the main topic, \"types of DBMS keys”."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:34.519",
+    "end": "00:03:08.373",
+    "audio_caption": "The audio begins with a male speaker introducing eight different types of database keys, characterizing super keys as \"like the default key\" and composite and compound keys as \"like cousin sisters\". He outlines the order in which these keys will be discussed, starting with super keys, then candidate keys, primary and alternate keys. He then mentions that they will cover a foreign key, which he describes as being different and serving a unique purpose. Finally, the speaker states that he will cover composite, compound, and surrogate keys to finish."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:03:08.373",
+    "end": "00:03:47.789",
+    "audio_caption": "The audio begins with a single male speaker discussing the concept of a \"superkey,\" defining it as a \"set of keys\" and providing examples involving IDs and email addresses. The speaker's tone is informative and explanatory.  Next, the speaker offers a more generalized definition stating that it is an \"attribute, or a set of attributes\" used to identify records. The clip concludes with a brief, neutral sound effect."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:47.789",
+    "end": "00:05:25.592",
+    "audio_caption": "The clip begins with a male speaker calmly explaining candidate keys, describing them as \"the minimal set of super keys\". He notes that many super keys \"are formed by unnecessary pairing of keys\", giving email, SID, and registration ID as examples, each of which can \"uniquely identify a row of data\". He further elaborates on the bookish language of candidate keys and then tries to further clarify the concept. The male speaker then transitions to discussing primary and alternate keys."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:05:25.592",
+    "end": "00:05:49.673",
+    "audio_caption": "The audio clip begins with a single speaker, who appears to be male, explaining that \"a primary key is a candidate key\", which can \"uniquely identify every row of data in a table.\" His tone is instructional. Continuing on the same point, he notes that \"you must be thinking that we have three candidate keys\" and that they could all do that. Then, he claims that in such a situation, \"you can make anyone a primary key,\" adding that \"this is generally done by database administrator\" in order to \"set a candidate key as a primary key.\""
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:05:49.673",
+    "end": "00:06:31.363",
+    "audio_caption": "The audio starts with a male speaker discussing the creation of a user interface for searching student information. He weighs the pros and cons of using student ID, which is automatically incremented, versus registration ID, which students know and is more meaningful for administration, suggesting the latter as a primary key. He then defines alternate keys as the candidate keys not selected as the primary key. Continuing, he moves to the subject of foreign keys. The audio is clear and concise."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:06:31.363",
+    "end": "00:07:05.551",
+    "audio_caption": "The clip begins with a male speaker explaining what a foreign key is, mentioning its purpose in creating a relationship between tables. He continues, stating that using foreign keys helps maintain data integrity for relationships, requiring another table in the example.  He proceeds to describe a table of branches within colleges, including a unique branch code and branch-related information."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:07:05.551",
+    "end": "00:07:50.874",
+    "audio_caption": "The audio clip features a single male speaker explaining how in a \"student's table\", the \"branch code can be made a foreign key\" to create a \"relationship\" between \"student and branch\". He states that this avoids wrong branch names, while DB returns errors if branches are deleted or updated in the branch table. He suggests that \"the database returns error\" when modifying a column \"which is used as a foreign key in some other table\". The speaker ends by asserting that using foreign keys maintains \"integrity of data\"."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:07:50.874",
+    "end": "00:09:15.305",
+    "audio_caption": "The audio clip begins with a male speaker proceeding onto the \"remaining keys.\" He describes a \"composite key\" as having \"multiple attributes,\" going on to explain composite keys further. Continuing on, he defines a \"compound key\" and moves onto the \"surrogate key.\" The male speaker then describes how, sometimes, relations or tables \"have no attribute\" and therefore a \"surrogate key\" is created. He then continues on, mentioning all the DBMS keys, hoping that the clip provided a better understanding of what \"DBMS keys are, why they are required, and the various different types\" of them. He ends the clip with a call to action to like, share, and subscribe to his YouTube channel."
+  }
+]

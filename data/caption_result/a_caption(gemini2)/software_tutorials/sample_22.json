@@ -1,0 +1,92 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:45.840",
+    "audio_caption": "The audio begins with calm music, likely for entertainment purposes, setting a relaxed mood with a focus on synthesized instruments and drums. Transitioning smoothly, a male speaker's voice introduces the topic, suggesting the discussion of a system for saving progress in video games and criticizing the built-in 'player prefs' as insufficient for complex games. After, he welcomes the audience to \"Game Dev Guide\" and transitions back to the calm music."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:45.840",
+    "end": "00:01:26.971",
+    "audio_caption": "The clip begins with a male speaker introducing a project involving binary formatting and a safe game system. He outlines a three-part approach, involving game classes with data, a save game class for holding the data, and a serialization system. The speaker's tone is instructional and enthusiastic. The clip transitions into instrumental music with a techno style, creating an energetic mood, playing in the background as the male speaker continues talking."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:26.971",
+    "end": "00:02:04.242",
+    "audio_caption": "The clip begins with a male speaker explaining how to create a serialization script. He describes the process of creating a new folder and a new C# class. He then moves on to discuss writing a save method, explaining that it will take a save name string and the object that needs to be saved. The speaker mentions that the method will return a boolean value to confirm if the save was successful. Next, he mentions a separate method that will define a binary formatter, which will allow the speaker to define serialization surrogates for the formatter to use. The speaker mentions discussing this in more detail later, but for now, will return the binary formatter."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:04.242",
+    "end": "00:02:59.199",
+    "audio_caption": "The clip begins with a male speaker discussing saving in a game, focusing on defining the path, creating a safe folder, and using a custom extension. He suggests using persistent data and then demonstrates how to create a file stream and use a binary formatter to serialize the object, followed by closing the file stream. A short pause is followed by the speaker beginning to describe a method called load, discussing how to check if the path exists and open a file stream. He details attempting to open the file, returning the saved object if it works, and implementing error catching to prevent code failure, returning a null object as an alternative."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:59.199",
+    "end": "00:03:10.591",
+    "audio_caption": "The clip begins with someone announcing the completion of a task and proposing the next one: \"With that finished, let's move on to the star of our show\". The speaker, who sounds male, continues by suggesting creating a new C# class and naming it \"safe data\"."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:10.591",
+    "end": "00:03:40.520",
+    "audio_caption": "A single male speaker begins by defining a design pattern, specifically mentioning how to make it a singleton and create a reference. He moves on to discuss a save system, emphasizing that saved classes must be marked as \"serializable\". The speaker mentions adding the \"serializable attribute\" to the class header, indicating that anything in the save file should be serializable by the binary formatter. He concludes by saying that additional classes created with data stored will also need to be marked as serializable. The tone is informative and instructional."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:03:40.520",
+    "end": "00:04:10.068",
+    "audio_caption": "The audio begins with a male speaker outlining a plan to create a new class called \"player profile.\" He describes the class' purpose, stating it will \"hold some information about the player,\" such as their \"profile name,\" \"money,\" and \"experience level.\" He continues, explaining how the \"save data class\" will include a \"public player profile called profile,\" as well as some \"resources.\" The speaker supposes \"the player can buy toy cars and toy dolls with their currency\" and expresses a desire to \"keep track of how many of each toy they have.\" His tone is informative and instructional throughout."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:10.068",
+    "end": "00:04:38.095",
+    "audio_caption": "The audio clip begins with a male speaker describing a UI he has built for a game, mentioning features like starting a new game or loading a save. He explains the process of inputting a player's name when starting a new game, which gets saved to the profile data along with default variables. The speaker details the second screen where players can view their name and has buttons to buy toys or work. The sound of a gentle, simple, possibly electronic-based track plays softly. The speaker continues to explain how clicking the work button grants currency and experience, while buying toys spends currency and gains a toy. He concludes by stating that the data is being tracked in the UI."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:04:38.095",
+    "end": "00:05:04.169",
+    "audio_caption": "The audio clip begins with a male speaker explaining that pressing buttons updates data in their save system. He continues, describing the save and load functions, mentioning how the load button \"simply replaces the save data class\" and updates the UI. He concludes by stating that the save system seems to be working as expected. The overall speaking tone is informative and relatively neutral."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:05:04.169",
+    "end": "00:05:32.806",
+    "audio_caption": "The clip begins with a male speaker saying, \"But we're not done yet,\" followed by, \"Right.\" He continues explaining that he's taken a toy box analogy further, and the prototype has toys that can be spawned and moved around. He discusses wanting the save system to remember which toy to save and where it is in the play space, acknowledging the increasing complexity. He notes that the binary formatter doesn't support Unity classes such as game objects, transforms, or Vector3s out of the box, which means the system cannot simply save a list of game objects. The speaker sounds calm and informative throughout the clip."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:05:32.806",
+    "end": "00:06:04.232",
+    "audio_caption": "The clip starts with someone explaining that they've created a custom class for their toys and added a list of them to their save data. The speaker, a male, mentions the class is marked as serializable and has an enum for the toy type, a string ID, a vector 3 for position, and a quaternion for rotation, giving it an ID so other objects that rely on it can get a reference upon loading again. He then explains that he stores position and rotation because they're going to need the serialization surrogates mentioned earlier. The clip ends with a short indistinct noise."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:06:04.232",
+    "end": "00:06:54.498",
+    "audio_caption": "The clip begins with a male speaker describing a \"serialization surrogate,\" explaining its use to instruct binary formatters on how to serialize classes that aren't naturally serializable. He goes on to mention the need to create surrogates for vector 3s and quaternions, utilizing the \"I Serialization Surrogate interface.\" The male speaker further elaborates on handling data for each type and adding the surrogates to a list. He then specifies instructing the binary formatter to use the surrogates. The speaker says it could be possible to extend this further to create surrogates for all of the properties of a monobehaviour to make it completely serializable. However, he states that he tries to limit the data he handles as much as possible."
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:06:54.498",
+    "end": "00:07:47.946",
+    "audio_caption": "The clip starts with a male speaker who has a friendly and informative tone. He talks about telling toys to add themselves to save data when they are spawned and about the game object destroying itself when the load event is called. He also mentions updating their data when they are interacted with and how the game will spawn each toy based on its enum, placing it in its save position and rotation when loaded. He then says \"If we try it out,\" and a subtle musical background begins to play, which sounds like a mellow, ambient track. The speaker then goes on to say \"you can see our system successfully saves and loads our more complex toy data, thanks to our serialization surrogates.\""
+  },
+  {
+    "chunk_id": 13,
+    "start": "00:07:47.946",
+    "end": "00:09:00.677",
+    "audio_caption": "The clip begins with a male speaker discussing a technical problem with a \"current system\" that handles a \"single save file at a time.\" He explains that it is ideal to support multiple save files, then outlines how to create a \"save manager class.\" The male speaker continues to describe the save manager class, explaining that it will need a UI. He ends by saying that multi-file saving is \"easy with just a few more simple steps.\" The male speaker summarizes the information, stating that the process is a flexible way to handle saving in a game."
+  },
+  {
+    "chunk_id": 14,
+    "start": "00:09:00.677",
+    "end": "00:09:40.058",
+    "audio_caption": "The audio clip begins with a male speaker discussing the redesign of data management in a code base and its benefits over writing code for individual data points. He expresses hope that the listener finds the information useful and encourages them to share new learnings and potential applications in their game. He then encourages subscribing for game dev tips and tutorials, invites exploring other videos on the channel, and expresses gratitude for listening, promising a return next time."
+  }
+]

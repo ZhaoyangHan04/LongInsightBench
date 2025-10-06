@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:56.073",
+    "audio_caption": "The clip starts with a male speaker introducing \"Game Dev Guide\", announcing the episode's topic about custom event systems. He then transitions into talking about singletons and dependencies, defining singletons as a design pattern that restricts us to having one singular instance of an object. He notes that the design of the engine expects only one of these classes to be active at any given time in your project, and that we can get a reference to it with a simple call. Following this, there is a distinct sci-fi sound effect."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:56.073",
+    "end": "00:02:04.130",
+    "audio_caption": "The clip begins with a single male speaker with a conversational tone, introducing the topic of dependencies. He describes a typical scenario in Unity, explaining how developers rely on public properties or singletons to access data, often resulting in spaghetti code, especially in large projects. The speaker emphasizes the importance of mitigating dependencies. The clip concludes with an instruction to turn to a custom event system."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:02:04.130",
+    "end": "00:02:46.638",
+    "audio_caption": "The clip begins with a male speaker describing a custom event system as a form of an observer pattern, where an object maintains a list of its dependents and notifies them upon a state change. The speaker explains that the event system will allow scripts to subscribe and listen, and dispatch events when certain things happen in the game. He notes similarities to Unity actions and event triggers. The tone is informative."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:46.638",
+    "end": "00:03:01.452",
+    "audio_caption": "The clip begins with a male speaker describing a scene with a cube, a wall, and a door. He states that he wants the door to open when the cube enters a trigger area and indicates that this will be done using an event system, emphasizing that no object will depend on another's existence."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:03:01.452",
+    "end": "00:03:35.177",
+    "audio_caption": "The clip begins with a male speaker introducing the creation of a new game object and a script called \"Game Events.\" He continues by explaining that he will be making a static singleton reference to the script. He then defines the first event, which will come from a trigger point, creating a public event action called \"on doorway trigger enter.\" He then creates a public method called \"doorway trigger enter\" to check if the action isn't null before invoking it. The male speaker concludes by stating the need to get objects to subscribe to the event."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:35.177",
+    "end": "00:04:24.974",
+    "audio_caption": "The audio clip begins with a male speaker providing a technical explanation, discussing methods on a door that listen to an event and open when dispatched. His tone is informative and instructional. He continues to describe how to call the event system to access an on-doorway trigger interaction, using the plus-equals operator to add to a list of subscribed events. Then, he transitions to explaining how to trigger the event itself, adding an on-trigger-enter method and telling the event system to dispatch the event. At the end, he describes how, the event system triggered, and the door opened."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:04:24.974",
+    "end": "00:04:57.613",
+    "audio_caption": "The clip begins with a male speaker, in a calm and informative tone, suggesting that the listener repeats a process by \"adding another event into our event system.\" The speaker then mentions something about the door closing when a trigger is exited and notes how the system is working \"with only the event system as our single dependency.\" Following this statement, the speaker points out that \"everything will still carry on running smoothly\" even if elements are removed or deleted."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:57.613",
+    "end": "00:05:18.794",
+    "audio_caption": "The audio clip starts with a male speaker discussing duplicating a door and a trigger in a game development context, stating that it's handled automatically by the event system. He then anticipates a question about linking a door to a specific trigger, speaking in an enthusiastic and helpful tone. The clip ends with the speaker saying, \"Let me show you.\""
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:05:18.794",
+    "end": "00:05:37.398",
+    "audio_caption": "A male speaker begins by highlighting the \"beauty of our custom event system\" as the ability to pass parameters into actions. He suggests adding an integer into the actions and enforcing its passing by the methods. He further states, with a slightly apologetic tone, that updating the subscriber and listener methods in the scripts to match the change is necessary, and that \"we can't escape all dependencies\"."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:05:37.398",
+    "end": "00:06:02.567",
+    "audio_caption": "The clip starts with a male speaker instructing someone to set up an \"index ID property\" and then to check if \"the ID that's passed by the method, matches the one on the door.\" He continues by saying \"open sesame.\" He concludes by mentioning that they now have events that are still agnostic, but using parameters to handle behavior locally. A brief musical interlude follows, featuring an upbeat, lighthearted tune, primarily utilizing piano."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:06:02.567",
+    "end": "00:06:57.756",
+    "audio_caption": "The clip starts with a calm, instructive voice of a male speaker emphasizing the importance of unsubscribing from the event system. He illustrates his point using an example of deleting a door during the game, which triggers null pointer errors. The speaker advises clean code for such systems, stressing vigilance. Transitioning to a side note, the speaker touches on the possibility of events having a return type using the funk class, recommending limiting such funk events. The clip ends with an abrupt, unclear vocalization, possibly an interjection or a brief utterance from the same male speaker."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:06:57.756",
+    "end": "00:08:00.421",
+    "audio_caption": "The clip starts with a calm, informative male voice concluding a tutorial by summarizing its content and providing additional context. Then a brief and uplifting tune that sounds like video game background music plays, with an optimistic and motivational tone. This transitions back into the male speaker's voice, who ends the tutorial with encouragement and a call to action to like, comment, subscribe, and stay tuned for the next video. The clip ends with a pleasant and brief melody with video game-style instruments."
+  }
+]

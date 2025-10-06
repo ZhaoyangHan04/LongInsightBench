@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "science_explainers_53_q1",
+    "model_answer": "The correct timeline is option B: 1 -> 2 -> 3 -> 4 -> 5 -> 6.\n\nThe first event is the title screen with authors appearing as the speaker introduces photorealism enhancement. This is followed by a split-screen labeled “CUT” vs “Ours” showing street scenes, where the speaker criticizes CUT's instability and hallucinations. The third event is the diagram introducing G-buffers feeding a G-buffer encoder as the speaker explains G-buffers and the encoder. Fourthly, there is a flowchart adding a perceptual discriminator that outputs a realism score while the speaker mentions feeding real photos and using perceptual loss. Fifthly, a GTA V vs Ours bus-following scene appears as the speaker says, “Let us now look at more results.” Finally, there is a side-by-side “Color Transfer” vs “Ours” comparison shown, where the speaker notes color transfer matches GTA to Cityscapes and is temporally stable.",
+    "choices": [
+      "B"
+    ]
+  },
+  {
+    "question_id": "science_explainers_53_q2",
+    "model_answer": "The correct timeline is option D: 4 -> 5 -> 1 -> 2 -> 3.\n\nThe first event discussed in the audio is related to the use of a perceptual discriminator and a segmentation network to evaluate the realism of images. This is described in detail in slide 4.\n\nThe second event involves comparing the performance of different methods on the Cut and T-Set datasets. These methods are referred to as Ours and are compared against the performance of CUT and T-Set. This is discussed in slides 2 and 3.\n\nThe third event involves the use of the Mapillary Vistas dataset for training the photo style transfer method. This is mentioned in slide 3.\n\nFinally, the last event involves demonstrating how the field of view of the discriminator can be decreased while still maintaining good performance on the Cityscapes and GTA V datasets. This is discussed in slide 5.\n\nTherefore, the sequence of events is as follows:\n\nEvent 1: Introduction of perceptual discriminator and segmentation network (slide 4)\nEvent 2: Comparison of methods on Cut and T-Set datasets (slides 2 and 3)\nEvent 3: Training on the Mapillary Vistas dataset (slide 3)\nEvent 4: Decreasing the field of",
+    "choices": [
+      "D"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_383_q1",
+    "model_answer": "The answer must have occurred after step 3 but before step 5. The only option that fits this criteria is B: Setting up the firewall “Applications, Pinholes and DMZ” to forward traffic to the home router’s IP and saving the change (event 5, before going to Wi-Fi). This step involves configuring the firewall to allow traffic from the internet to the home router, which is necessary for the home router to function properly. Disabling the AT&T U-verse gateway's DHCP server would have been done as part of setting up the home router, but it is not listed as an action taken before moving to Wi-Fi.",
+    "choices": [
+      "B"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_383_q2",
+    "model_answer": "The required configuration was obtained by powerizing down/unplugging the AT&T unit as instructed and logging into the ASUS admin interface to begin its configuration (event 6). This allowed the access to the ASUS router's configuration page where theStatic WAN settings could be applied. The steps mentioned after that were part of configuring the ASUS router for a static IP address, which included restrictions on the AT&T DHCP allocation, disabling Wi-Fi radios, and configuring firewalls. However, these actions were not directly responsible for obtaining the initial configuration data needed for the static setup. Therefore, the correct answer is D: Powering down/unplugging the AT&T unit as instructed and logging into the ASUS admin interface to begin its configuration.",
+    "choices": [
+      "D"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "question_id": "software_tutorials_81_q1",
+    "model_answer": "The correct answer is B: Writing main.cpp to create QApplication, instantiate MainWindow, and call show().\nExplanation: Building and running the GUI application in event 12 creates a MainWindow with a button labeled \"Hello\". This is made possible by writing the code for the main function in main.cpp, which creates an instance of QApplication, MainWindow, and calls the show() method on the MainWindow object. Option A is incorrect because adding the button and setting its text is done after the window has already been created. Option C is incorrect because it involves connecting a signal to a slot, which is unrelated to creating the window. Option D is incorrect because choosing QMainWindow as the base class for the window does not directly enable the appearance of the \"Hello\" button.",
+    "choices": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_81_q2",
+    "model_answer": "The answer is C: Selecting QMainWindow as the base class during class setup so the main window’s close() slot is available (events 1–2).\n\nIn step 2 of the tutorial, the user is instructed to select QMainWindow as the base class when creating the GUI application. This selection sets up the main window's close() slot, which will be triggered when the user clicks the \"Close\" button in the main window. The other options do not directly relate to setting up the behavior of closing the main window upon clicking the \"Close\" button.",
+    "choices": [
+      "C"
+    ]
+  }
+]

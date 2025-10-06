@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "software_tutorials_22_q1",
+    "model_answer": "The correct order of events is option D: 1 -> 2 -> 4 -> 3 -> 6 -> 5.\n\nFirstly, the speaker greets the audience and mentions PlayerPrefs before introducing the topic of building a save system, which is event 1. Then, event 2 occurs where a title card appears explaining the purpose of the guide. \n\nEvent 3 follows where the serialization manager is opened in the editor and the speaker describes the Save method. This is followed by event 4 where the speaker explains how to define the save path and folder in the BinarySerializer.cs file.\n\nEvent 5 occurs when the speaker concludes discussing the Save method and moves on to the main topic of the guide, which is the SaveData class. Finally, event 6 takes place where the SaveData.cs script is edited and marked as [System.Serializable].",
+    "choices": [
+      "D"
+    ]
+  },
+  {
+    "question_id": "software_tutorials_22_q2",
+    "model_answer": "The correct order of events is:\n\n1. The player starts a new profile named \"Matt,\" then uses Work and Buy Doll; the speaker explains the UI tracks currency/XP and toy counts.\n2. The speaker says pressing buttons updates SaveData and that Load replaces the save data and updates the UI.\n3. The speaker says \"But we're not done yet,\" showing a room where toys move; on-screen text warns the Binary Formatter doesn't serialize Unity classes.\n4. Code shows a Serializable ToyData with id, toyType, Vector3 position, Quaternion rotation; the speaker explains giving an ID and storing position/rotation for surrogates.\n5. The code adds Vector3 and Quaternion serialization surrogates in GetBinaryFormatter; the speaker explains telling the formatter to use them.\n6. The speaker says \"If we try it out,\" mellow music plays; toys spawn at saved positions and load correctly.\n\nTherefore, the correct order is option A: 5 -> 1 -> 3 -> 6 -> 2 -> 4.",
+    "choices": [
+      "A"
+    ]
+  }
+]

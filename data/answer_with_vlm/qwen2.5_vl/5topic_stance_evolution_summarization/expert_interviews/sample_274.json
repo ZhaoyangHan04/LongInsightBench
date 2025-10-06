@@ -1,0 +1,20 @@
+[
+  {
+    "question_id": "expert_interviews_274_q1",
+    "model_answer": "The correct answer is A: The presenter opens by announcing the split brain problem and intent to explain it, with a bold slide and diagram framing HDFS HA (event 0). He then details the consequences on a static slide—both NameNodes active, data corruption, and cluster division—while verbally emphasizing the risks (events 1–3). Next, he adds historical context and HA architecture (pre-Hadoop 2 single point of failure, then Active/Standby with quorum components) and finally demonstrates fencing configuration and methods like sshfence and shell before signing off with a visual and spoken closing (events 4, 7–9).\n\nThis option accurately reflects the sequence of events in the video as described in the audio. The presenter starts by introducing the split brain problem, explaining its consequences, and then delves into the historical context and HA architecture. Finally, he demonstrates the fencing configuration and closes the presentation. Option B is incorrect because it suggests the video begins with fencing scripts and command snippets without introducing the problem first. Option C is incorrect because it implies the video avoids verbal explanations and relies solely on animated diagrams to infer the issue. Option D is incorrect because it suggests the presenter asserts ZooKeeper alone solves all split brain scenarios and discourages using fencing.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question_id": "expert_interviews_274_q2",
+    "model_answer": "The correct answer is C: He frames split brain as dangerous, using a bullet slide and verbal examples of metadata corruption (events 1–3). He places this in historical context, showing that Hadoop 2's HA architecture addresses single points of failure, then advocates configuring fencing with visible code snippets and example methods (events 4, 7–8). The tone shifts from cautionary to prescriptive as he moves from problem to concrete enforcement mechanisms.\n\nExplanation: The presenter starts by emphasizing the danger of split brain, using a bullet slide and verbal examples of metadata corruption (events 1-3). This indicates that he views it as a significant issue. He then provides historical context, mentioning how Hadoop 2's HA architecture addresses single points of failure (event 4), which suggests that he acknowledges the problem but also highlights the improvements made in newer versions. Finally, he advocates for configuring fencing with visible code snippets and example methods (events 7-8), indicating a shift towards providing practical solutions rather than just warning about the problem. Therefore, the correct answer is C.",
+    "choices": [
+      "C",
+      "C"
+    ]
+  }
+]

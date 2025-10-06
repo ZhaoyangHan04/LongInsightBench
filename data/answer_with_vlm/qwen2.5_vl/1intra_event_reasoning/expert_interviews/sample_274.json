@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "expert_interviews_274_q1",
+    "model_answer": "The audio discusses the split brain problem in Hadoop's High Availability architecture and explains that rapid failover is achieved by keeping the Standby NameNode's state up to date, including block locations, while DataNodes are configured to send block information to both NameNodes simultaneously. This ensures that if the Active NameNode fails, the Standby NameNode can quickly take over and continue serving client requests.\n\nTherefore, the correct answer is:\n\nA: By keeping the Standby NameNode’s state up to date (including block locations) while DataNodes are configured to send block information to both NameNodes simultaneously.",
+    "choices": [
+      "A"
+    ]
+  },
+  {
+    "question_id": "expert_interviews_274_q2",
+    "model_answer": "The segment discusses the use of JournalNodes to prevent a split-brain during failover. It mentions that only one writer is allowed at a time, which helps in resolving the issue. Additionally, it references the configuration of `dfs.ha.fencing.methods` in `hdfs-site.xml`, allowing scripts or Java classes to fence the errant NameNode by killing or shutting it down. Therefore, the correct answer is:\n\nAnswer: A",
+    "choices": [
+      "A"
+    ]
+  }
+]

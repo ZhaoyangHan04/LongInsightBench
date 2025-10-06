@@ -1,0 +1,86 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:42.550",
+    "audio_caption": "The audio clip begins with the sound of an engine revving, possibly an industrial engine. This is followed by a single, male speaker, who sounds confident and excited about the subject, introducing \"GDB, the GNU Project Debugger\" as a \"powerful debugging tool\" for C, saying it allows you to \"poke around inside your C programs.\" The speaker explains that GDB is free software that runs on different systems, and that pros \"have a much easier time tracking down bugs\"."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:42.550",
+    "end": "00:01:12.395",
+    "audio_caption": "The audio begins with a single male speaker describing a command-line tool, explaining its use in a terminal with keyboard commands rather than a mouse. He gives instructions on how to start up GDB by typing \"GDB\" at the prompt, describing the output on the screen and the GDB prompt indicating readiness for commands."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:12.395",
+    "end": "00:01:24.472",
+    "audio_caption": "The audio clip starts with a male speaker explaining that knowing how to quit is the most important thing. He describes the quit command and notes that \"Q\" can be used as a shortcut. He ends the clip with \"And\" said softly."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:24.472",
+    "end": "00:02:07.640",
+    "audio_caption": "A male speaker begins, stating his intention to use GDB to debug a program and introducing a program, factorial.c, designed to compute the factorial of an integer. He then explains what the factorial of a number is, providing examples with 3 and 4, and touches upon the edge cases of 0 and negative integers."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:07.640",
+    "end": "00:02:19.673",
+    "audio_caption": "The audio features a male speaker discussing a \"factorial program\" and debugging it using \"GDB\" due to \"weird numbers\". The speaker's tone is conversational and slightly concerned."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:02:19.673",
+    "end": "00:03:10.708",
+    "audio_caption": "The audio begins with a male speaker explaining how GDB operates, mentioning \"executable files,\" \"source code files,\" and the concept of running it instead on \"factorial.\" He notes that if a program required command-line arguments, that would be the place to specify them. He continues by explaining how to start the factorial program running and how to interact with the GDB prompt. He then repeats the process and explains how GDB provides junk that cannot be accessed once the program has finished."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:03:10.708",
+    "end": "00:03:54.256",
+    "audio_caption": "The clip features a single male speaker in an informative tone, explaining debugging techniques using GDB, particularly focusing on breakpoints. He details how breakpoints pause the program to examine its state and how to set one at the beginning of the \"main\" function using the \"break\" command, which can be abbreviated as \"b\". The speaker reiterates how the program is now poised at the beginning of \"main\" and the \"printf\" line is the next to be executed."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:03:54.256",
+    "end": "00:05:47.099",
+    "audio_caption": "The clip features a male speaker who is discussing how to use GDB. He mentions using the \"next\" command, describes how operating systems suppress writing to the screen, talks about looking at the source code with the \"list\" command, and explains how to use the \"print\" command to check variable values. The speaker's tone is informative and instructional."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:05:47.099",
+    "end": "00:06:41.107",
+    "audio_caption": "A male speaker continues debugging by going through a loop bit by bit. He mentions, \"rather than typing N each time, we can also just hit enter\", saying the debugger will repeat the previous command. The speaker observes that it looks like the loop has gone through four times as intended. Something is not right as he gets a huge number. When printing the value of factorial, it contains a massive number. He says that at this point it's too late to fix anything, so restarts the program."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:06:41.107",
+    "end": "00:07:14.665",
+    "audio_caption": "The clip begins with a male speaker suggesting a breakpoint in a program's main function, noting that \"everything seems to be fine with reading in the int\" and proposing to either jump ahead or set a breakpoint after a do-while loop. The speaker then decides to set the breakpoint after the loop. They specify setting a breakpoint at a line number, emphasizing the importance of including the file name to avoid confusion, especially when working with multiple files. They introduce the \"continue\" or \"C\" command to move ahead to the breakpoint. The clip ends with the same male speaker saying \"Okay.\" The speaker's tone throughout the clip is informative and instructional."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:07:14.665",
+    "end": "00:07:47.519",
+    "audio_caption": "A male speaker begins, speaking in a clear, instructional tone, setting the scene at a \"for loop\". He suggests going another line into the loop and \"printing variables\" to assess the situation, wanting to confirm if a variable 'i' is indeed one.  After confirming that is \"all good,\" he asks about a variable \"factorial\". His tone changes to one of concern and says something is \"no good\" because they have a \"big negative number\". He wonders aloud how that happened. Upon reviewing the code, the speaker realizes they \"never initialized it\" and suggests that trash data is likely the culprit, which will \"definitely throw off our calculation\"."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:07:47.519",
+    "end": "00:08:29.886",
+    "audio_caption": "The clip features a single male speaker with a clear, explanatory tone discussing debugging techniques. He mentions initializing values, fixing code later, and using print commands. He then references setting variables and continuing the program. He says he wants to make sure \"everything's where it's supposed to be\", checking variable values. He then introduces the \"info locals\" command to print local variables."
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:08:29.886",
+    "end": "00:08:46.906",
+    "audio_caption": "Two male speakers engage in a conversation about a programming loop. One speaker seems to be checking something, and the other responds positively and then mentions the \"continue command\". The first speaker expresses satisfaction by saying \"sweet\", and then notes the result of a calculation \"4 factorial printed out 24, as expected\"."
+  },
+  {
+    "chunk_id": 13,
+    "start": "00:08:46.906",
+    "end": "00:09:49.810",
+    "audio_caption": "The clip features a male speaker in an instructional tone discussing debugging code and using GDB. He mentions \"quitting out of GDB,\" recompiling an executable, the \"disable command,\" and restarting a program. The speaker describes that it is a \"helpful tool\" and that with \"a little bit of practice\" it can be easy. The clip concludes with the speaker giving their name and identifying the audio as \"CS50\"."
+  }
+]

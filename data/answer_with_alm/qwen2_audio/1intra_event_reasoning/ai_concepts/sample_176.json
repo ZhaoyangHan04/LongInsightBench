@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": "ai_concepts_176_q1",
+    "model_answer": "The correct answer is C: Because the Point Transformer operates only on 2D inputs, forcing the pipeline to render in 2D.\nNePu performs rendering directly in 2D after projecting features and keypoints because the Point Transformer model requires 2D inputs. This means that the pipeline must process and render data in 2D to be compatible with this particular model. The other options may be true, but they are not directly related to the necessity of rendering in 2D by NePu.",
+    "choices": [
+      "C"
+    ]
+  },
+  {
+    "question_id": "ai_concepts_176_q2",
+    "model_answer": "We refer to Wikipedia articles on computer vision for help. To infer 3D keypoints from silhouettes, they optimize a latent vector z by minimizing binary cross-entropy between observed and rendered silhouettes across cameras, with a regularization term.\n\nTherefore, the answer is (A).",
+    "choices": [
+      "A"
+    ]
+  }
+]
