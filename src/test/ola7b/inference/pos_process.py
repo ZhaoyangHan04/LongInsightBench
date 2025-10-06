@@ -81,7 +81,7 @@ if __name__ == "__main__":
     model_name = "ola7b"
     for current_task in current_tasks:
         print(f"===== 处理任务: {model_name}, {current_task} =====")
-        input_file = f"/data1/lianghao/hzy/lqh/experiment_frames_raw/{model_name}_raw/32/{current_task}.json"
-        output_file = f"/data1/lianghao/hzy/lqh/experiment_frames/{model_name}/32/{current_task}.json"
+        input_file = f"./experiment_frames_raw/{model_name}_raw/32/{current_task}.json"
+        output_file = f"./experiment_frames/{model_name}/32/{current_task}.json"
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
         process_file(input_file, output_file)
