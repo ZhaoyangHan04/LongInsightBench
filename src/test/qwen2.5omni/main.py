@@ -12,7 +12,7 @@ import subprocess
 
 
 # ====== 初始化模型 ======
-MODEL_PATH = "/data0/models/Qwen2.5-Omni-7B"
+MODEL_PATH = "./models/Qwen2.5-Omni-7B"
 model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
     MODEL_PATH, dtype="auto", device_map="auto"
 )
@@ -23,9 +23,9 @@ USE_AUDIO_IN_VIDEO = True
 current_tasks = ["1intra_event_reasoning", "3audio_visual_alignment", "5topic_stance_evolution_summarization", "4timeline_reconstruction", "6cross_event_causality", "2multimodal_temporal_localization"]
 
 for current_task in current_tasks:
-    INPUT_FILE = f"/data0/hzy/lqh/final_qa_subset/{current_task}.json"
-    OUTPUT_FILE = f"/data0/hzy/lqh/experiment/qwen2.5_omni7b/{current_task}.json"
-    VIDEO_ROOT = "/data0/hzy/lqh/videos"
+    INPUT_FILE = f"./final_qa_subset/{current_task}.json"
+    OUTPUT_FILE = f"./experiment/qwen2.5_omni7b/{current_task}.json"
+    VIDEO_ROOT = "./videos"
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     # ====== 读取已有结果 ======
