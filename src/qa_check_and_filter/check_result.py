@@ -59,9 +59,9 @@ for current_task in current_tasks:
 
     for category in categories:
         print(f"\n=== Processing category: {category} ===")
-        pred_dir = f"/data1/lianghao/hzy/lqh/{dir_name}/{model_name}/{current_task}/{category}"
-        gold_dir = f"/data1/lianghao/hzy/lqh/qa_result/{current_task}/{category}"
-        results_dir = f"/data1/lianghao/hzy/lqh/qa_correct/{dir_name}/{model_name}/{current_task}/{category}"
+        pred_dir = f"./{dir_name}/{model_name}/{current_task}/{category}"
+        gold_dir = f"./qa_result/{current_task}/{category}"
+        results_dir = f"./qa_correct/{dir_name}/{model_name}/{current_task}/{category}"
         os.makedirs(results_dir, exist_ok=True)
 
         for fname in os.listdir(pred_dir):
@@ -84,7 +84,7 @@ for current_task in current_tasks:
             print(f"✅ {fname}: {correct}/{total} 正确 → {result_path}")
 
     # ===== 保存该 task 的大文件 =====
-    task_result_dir = f"/data1/lianghao/hzy/lqh/qa_correct/{dir_name}/{model_name}/{current_task}"
+    task_result_dir = f"./qa_correct/{dir_name}/{model_name}/{current_task}"
     os.makedirs(task_result_dir, exist_ok=True)
 
     big_correct_file = os.path.join(task_result_dir, "all_correct_qids.json")
