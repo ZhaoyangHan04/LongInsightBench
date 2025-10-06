@@ -145,8 +145,8 @@ if __name__ == "__main__":
     for current_task in current_tasks:
         print(f"===== 处理任务: {current_task} =====")
     
-        input_path = f"/data1/lianghao/hzy/lqh/experiment_subset/ovis/{current_task}.json"
-        output_path = f"/data1/lianghao/hzy/lqh/experiment_subset/ovis/{current_task}_parsed.json"
+        input_path = f"./experiment_subset/ovis/{current_task}.json"
+        output_path = f"./experiment_subset/ovis/{current_task}_parsed.json"
     
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         process_file(input_path, output_path)
