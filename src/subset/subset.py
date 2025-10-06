@@ -4,8 +4,8 @@ import math
 import random
 
 # ====== 配置 ======
-DATA_DIR = "/data1/lianghao/hzy/lqh/final_qa"          # 原始数据文件夹
-OUTPUT_DIR = "/data1/lianghao/hzy/lqh/final_qa_subset" # 子集保存文件夹
+DATA_DIR = "./final_qa"          # 原始数据文件夹
+OUTPUT_DIR = "./final_qa_subset" # 子集保存文件夹
 CATEGORY_MAP = {  # 文件名前缀 -> 类别缩写
     "1intra_event_reasoning": "IER",
     "2multimodal_temporal_localization": "MTL",
