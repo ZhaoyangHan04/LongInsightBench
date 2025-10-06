@@ -2,7 +2,7 @@ import os
 import json
 
 # 指定主文件夹路径
-root_folder = "/data1/lianghao/hzy/lqh/datasets/finevideo/metadata"
+root_folder = "./datasets/finevideo/metadata"
 
 count_duration = 0
 count_scenes = 0
