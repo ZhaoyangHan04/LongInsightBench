@@ -76,8 +76,8 @@ def split_text_by_borders_aligned(text, borders, threshold=60):
 
 
 def main():
-    base_chunking_dir = "/data1/lianghao/hzy/lqh/datasets/finevideo/chunking"
-    base_metadata_dir = "/data1/lianghao/hzy/lqh/datasets/finevideo/metadata"
+    base_chunking_dir = "./datasets/finevideo/chunking"
+    base_metadata_dir = "./datasets/finevideo/metadata"
 
     index_file = os.path.join(base_chunking_dir, "border_no_chunk_border_ge3.json")
 
