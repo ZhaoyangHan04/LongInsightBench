@@ -9,7 +9,7 @@ from transformers import AutoProcessor, Qwen2AudioForConditionalGeneration
 # -----------------------------
 # 模型初始化
 # -----------------------------
-audio_model_path = "/data1/lianghao/models/Qwen2-Audio-7B-Instruct"
+audio_model_path = "./models/Qwen2-Audio-7B-Instruct"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 processor = AutoProcessor.from_pretrained(audio_model_path)
@@ -100,9 +100,9 @@ if __name__ == "__main__":
     
     for category in categories:
         print(f"\n=== Processing category: {category} ===")
-        audio_dir = f"/data1/lianghao/hzy/lqh/clean_data_for_caption/audios/{category}"
-        qa_dir = f"/data1/lianghao/hzy/lqh/qa_result/{current_task}/{category}"
-        out_dir = f"/data1/lianghao/hzy/lqh/answer_with_alm/qwen2_audio/{current_task}/{category}"
+        audio_dir = f"./clean_data_for_caption/audios/{category}"
+        qa_dir = f"./qa_result/{current_task}/{category}"
+        out_dir = f"./answer_with_alm/qwen2_audio/{current_task}/{category}"
         os.makedirs(out_dir, exist_ok=True)
 
         audio_files = sorted(glob.glob(os.path.join(audio_dir, "sample_*.wav")))
