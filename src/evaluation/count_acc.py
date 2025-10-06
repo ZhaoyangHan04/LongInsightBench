@@ -53,8 +53,8 @@ if __name__ == "__main__":
 
     print("===== 各类任务 Accuracy 分数 =====")
     for task in tasks:
-        qa_file = f"/data1/lianghao/hzy/lqh/final_qa/{task}.json"
-        model_file = f"/data1/lianghao/hzy/lqh/experiment_final/{model_name}/{task}.json"
+        qa_file = f"./final_qa/{task}.json"
+        model_file = f"./experiment_final/{model_name}/{task}.json"
 
         avg_acc, total_acc, count = compute_task_accuracy(qa_file, model_file)
         print(f"{task}: 平均 Accuracy = {avg_acc:.4f} (题数 {count})")
