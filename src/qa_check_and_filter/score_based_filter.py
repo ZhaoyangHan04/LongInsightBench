@@ -33,11 +33,3 @@ if __name__ == "__main__":
 
     filter_scored_json(args.input, args.output, args.sub_th, args.overall_th)
 
-"""
-python /data1/lianghao/hzy/lqh/code/finevideo/qa_check_and_filter/score_based_filter.py \
-  --input /data1/lianghao/hzy/lqh/qa_scored/6cross_event_causality.json \
-  --output /data1/lianghao/hzy/lqh/final_qa/6cross_event_causality.json \
-  --sub-th 1.0 \
-  --overall-th 1.0
-"""
-
