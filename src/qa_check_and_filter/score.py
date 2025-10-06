@@ -44,9 +44,9 @@ SCORE_JSON_SCHEMA = {
 }
 
 current_task = "3audio_visual_alignment"
-qa_file = f"/data1/lianghao/hzy/lqh/qa_alm_filtered/{current_task}.json"
-event_root = f"/data1/lianghao/hzy/lqh/event_lists"
-output_file = f"/data1/lianghao/hzy/lqh/qa_scored/{current_task}.json"
+qa_file = f"./qa_alm_filtered/{current_task}.json"
+event_root = f"./event_lists"
+output_file = f"./qa_scored/{current_task}.json"
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
 # 读取QA数据
