@@ -44,8 +44,8 @@ for category in categories:
     print(f"🚀 开始处理类别: {category}")
 
     # 输入/输出路径
-    input_dir = f"/data1/lianghao/hzy/lqh/event_lists/{category}"
-    output_dir = f"/data1/lianghao/hzy/lqh/qa_try/qa_try_gpt2/{current_task}/{category}"
+    input_dir = f"./event_lists/{category}"
+    output_dir = f"./qa_try/qa_try_gpt2/{current_task}/{category}"
     os.makedirs(output_dir, exist_ok=True)
 
     # 遍历所有文件
@@ -78,7 +78,7 @@ for category in categories:
 
         # 模型推理
         response = client.chat.completions.create(
-            model="gpt-5",
+            model="gpt-4o",
             response_format={
                 "type": "json_schema",
                 "json_schema": {
