@@ -57,5 +57,5 @@ def analyze_videos_in_folder(root_dir, video_exts=(".mp4", ".avi", ".mov", ".mkv
 
 
 if __name__ == "__main__":
-    root_dir = "/data1/lianghao/hzy/lqh/clean_data_for_caption/videos"  # 修改为视频主文件夹路径
+    root_dir = "./clean_data_for_caption/videos"  # 修改为视频主文件夹路径
     analyze_videos_in_folder(root_dir)
