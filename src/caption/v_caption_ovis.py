@@ -8,7 +8,7 @@ import torch
 from transformers import AutoModelForCausalLM
 
 
-MODEL_PATH = "/data1/lianghao/models/Ovis2.5-9B"
+MODEL_PATH = "./models/Ovis2.5-9B"
 enable_thinking = False
 enable_thinking_budget = False
 max_new_tokens = 512
@@ -125,20 +125,13 @@ def generate_captions(video_path, chunks_json_path, num_frames=8):
 
 if __name__ == "__main__":
     model_name = "ovis"
-    base_video_dir = "/data1/lianghao/hzy/lqh/clean_data_for_caption/videos"
-    base_json_dir  = "/data1/lianghao/hzy/lqh/clean_data_for_caption/clean_chunks"
-    base_out_dir   = f"/data1/lianghao/hzy/lqh/caption_result/v_caption/{model_name}"
-
+    base_video_dir = "./clean_data_for_caption/videos"
+    base_json_dir  = "./clean_data_for_caption/clean_chunks"
+    base_out_dir   = f"./caption_result/v_caption/{model_name}"
     
-    #categories = ["political_interviews", "science_explainers"] #che - 5
-    #categories = ["ted_talks", "sports_talk_shows"] #ted - 0
-    #categories = ["camping", "celebrity_interviews"] #cam - 1
-    #categories = ["travel_vlogs", "hiking"] #tra - 2
-    #categories = ["chemistry", "expert_interviews", "film_trailers"] #pol - 3
-    #categories = ["physics", "biology"] #phy - 4
-    #categories = ["academic_lectures", "astronomy"] #aca - 6
-    categories = ["software_tutorials", "ai_concepts"] #sof - 7
-    
+    categories = ["political_interviews", "science_explainers", "ted_talks", "sports_talk_shows", "camping", 
+                  "celebrity_interviews", "travel_vlogs", "hiking", "chemistry", "expert_interviews", 
+                  "film_trailers", "physics", "biology", "academic_lectures", "astronomy", "software_tutorials", "ai_concepts"]
 
     for category in categories:
         video_dir = os.path.join(base_video_dir, category)
@@ -160,6 +153,3 @@ if __name__ == "__main__":
             results = generate_captions(video_path, chunks_json_path, num_frames=8)
             with open(out_path, "w", encoding="utf-8") as f:
                 json.dump(results, f, ensure_ascii=False, indent=2)
-
-# import torch
-# print(torch._C._GLIBCXX_USE_CXX11_ABI)
