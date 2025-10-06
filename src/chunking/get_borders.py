@@ -69,8 +69,8 @@ def process_file(path):
 
 
 if __name__ == "__main__":
-    folder_path = "/data1/lianghao/hzy/lqh/datasets/finevideo/chunking_try/travel_vlogs"
-    success_folder = "/data1/lianghao/hzy/lqh/datasets/finevideo/chunking_success/travel_vlogs"
+    folder_path = "./datasets/finevideo/chunking_try/travel_vlogs"
+    success_folder = "./datasets/finevideo/chunking_success/travel_vlogs"
     os.makedirs(success_folder, exist_ok=True)
     
     cnt = 0
