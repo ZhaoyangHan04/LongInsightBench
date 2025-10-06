@@ -143,8 +143,8 @@ def split_video_by_borders(idx, json_dir, video_dir, num_prefix_words=6, device=
 
 if __name__ == "__main__":
     idx = 2  # 可以修改为任何你想测试的 idx
-    json_dir = "/data1/lianghao/hzy/lqh/datasets/finevideo/chunking_success/academic_lectures/"
-    video_dir = "/data1/lianghao/hzy/lqh/datasets/finevideo/videos/academic_lectures/"
+    json_dir = "./datasets/finevideo/chunking_success/academic_lectures/"
+    video_dir = "./datasets/finevideo/videos/academic_lectures/"
 
     chunks = split_video_whisperx_offline(idx, json_dir, video_dir)
     for i, ch in enumerate(chunks):
