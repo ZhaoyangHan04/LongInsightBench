@@ -3,6 +3,10 @@ This repository accompanies our paper ***LongInsightBench: A Comprehensive Bench
 
 It includes the benchmark data, source code for benchmark construction and experiments, as well as experimental results.
 
+<p align="center">
+<img src="./overview.jpg" alt="Benchmark Overview" width="80%">
+</p>
+
 
 ## 🗂️ Repository Structure
 
