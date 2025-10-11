@@ -1,9 +1,10 @@
-# LongInsightBench
-This repository accompanies our paper LongInsightBench: A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding.
+# 🎬 LongInsightBench
+This repository accompanies our paper ***LongInsightBench: A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding***.
+
 It includes the benchmark data, source code for benchmark construction and experiments, as well as experimental results.
 
 
-🗂️ Repository Structure
+## 🗂️ Repository Structure
 
 - ```benchmark_qa/```: The main benchmark data.
   - ```qa/```: Full benchmark, organized into 6 JSON files (one per task).
@@ -11,7 +12,7 @@ It includes the benchmark data, source code for benchmark construction and exper
 
 - ```data/```: Intermediate data generated during the benchmark construction process.
   - ```caption_result/```: Visual & audio captions generated during preprocessing.
-  - ```event_lists/```: Corresponding .json files that provide semantic segmentation summaries (an overall video summary, and timestamps & captions of ecah segment) of each video.
+  - ```event_lists/```: Corresponding .json files that provide semantic segmentation summaries (an overall video summary, and timestamps & captions of each segment) of each video.
   - ```answer_with_alm/```: Answers produced with Qwen2-audio (ALM), which used for filtering the benchmark QAs.
   - ```answer_with_vlm/```: Answers produced with Qwen2.5-VL (VLM), which used for filtering the benchmark QAs.
 
@@ -31,7 +32,7 @@ It includes the benchmark data, source code for benchmark construction and exper
   - ```evaluation/```: Computes accuracy for model answers.
 
 
-⚙️ Usage
+## ⚙️ Usage
 
 Before running the code, please **modify all input and output paths** in each script according to your local setup.
 Use the examples in the source files as references for expected directory structures and file formats.
@@ -43,7 +44,7 @@ If you are running model-based experiments, make sure to:
 For experiments in the ```test/``` directory, run either  ```inference/main.py``` (for Ola-7B) or ```main.py``` (for others) after environment setup.
 
 
-🧠 AI Assistance Disclosure
+## 🧠 AI Assistance Disclosure
 
 In accordance with ARR's official guidelines, we utilized generative AI tools like ChatGPT to assist with minor language refinement and the creation of low-novelty text. 
 We ensured that all generated content adhered strictly to ethical standards, maintaining transparency, accuracy, and alignment with research integrity throughout the process.
