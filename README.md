@@ -48,7 +48,4 @@ If you are running model-based experiments, make sure to:
 For experiments in the ```test/``` directory, run either  ```inference/main.py``` (for Ola-7B) or ```main.py``` (for others) after environment setup.
 
 
-## 🧠 AI Assistance Disclosure
 
-In accordance with ARR's official guidelines, we utilized generative AI tools like ChatGPT to assist with minor language refinement and the creation of low-novelty text. 
-We ensured that all generated content adhered strictly to ethical standards, maintaining transparency, accuracy, and alignment with research integrity throughout the process.
