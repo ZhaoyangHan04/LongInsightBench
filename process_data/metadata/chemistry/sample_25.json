@@ -1,0 +1,438 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [],
+    "description": "This video is a screen recording that explains how to determine the activation energy of a reaction using spreadsheet software and the Arrhenius equation. There are no characters in this video as it is a screen recording with voice-over narration.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The units are not specified in the video.",
+        "question": "What units are the k values presented in the table?"
+      },
+      {
+        "answer": "8.314 J/(L*atm)",
+        "question": "What is the ideal gas constant value used in the calculation?"
+      },
+      {
+        "answer": "It allows you to quickly calculate the activation energy using different pairs of temperature and rate constant values and then determine the average and standard deviation of the results to assess the consistency.",
+        "question": "What is the advantage of using a spreadsheet to calculate the activation energy in the second method?"
+      },
+      {
+        "answer": "The Arrhenius equation has a negative sign in front of the activation energy term, leading to a negative slope when plotting ln(k) vs. 1/Temp.",
+        "question": "Why is the slope of the line in the graph negative?"
+      },
+      {
+        "answer": "The small standard deviation indicates that the calculated activation energies using different data pairs are very close to each other, suggesting consistency in the result.",
+        "question": "What does the standard deviation of 0.8 tell us about the calculated activation energies in the spreadsheet?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Text on screen describing the problem and a table with temperature and k values.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text on screen describing the process of taking the reciprocal of the temperature and the natural log of the k values.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sets up the problem and introduces the necessary data.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Curious) - The visuals are basic and informative, focusing on the data and the problem. The audio is a straightforward explanation of the process, prompting curiosity about the solution.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Problem is stated",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Introduction of the steps required to solve the problem",
+            "timestamp": "00:00:15.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Tables with data",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Chemistry, Arrhenius Equation, Activation Energy",
+        "timestamps": {
+          "end_timestamp": "00:00:40.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Problem Setup",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "A graph of ln(k) vs. 1/Temp is displayed and the equation of the line is highlighted.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:40.033"
+            }
+          },
+          {
+            "description": "The slope of the line is explained as -Ea/R.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:40.033"
+            }
+          },
+          {
+            "description": "Calculation of Ea using the slope and ideal gas constant is shown.",
+            "timestamp": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          },
+          {
+            "description": "The result of the calculation is presented in Joules and kilojoules.",
+            "timestamp": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene walks through the solution process using the graph and Arrhenius equation.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Pensive) - The focus on calculations and equations prompts a more thoughtful and analytical mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Graph of ln(k) vs. 1/Temp is presented.",
+            "timestamp": "00:00:40.033"
+          },
+          {
+            "description": "Calculation of Ea begins",
+            "timestamp": "00:01:06.000"
+          },
+          {
+            "description": "Result of the calculation is displayed.",
+            "timestamp": "00:01:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Graph",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:40.033"
+            }
+          },
+          {
+            "name": "Equations",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:40.033"
+            }
+          },
+          {
+            "name": "Calculation steps",
+            "timestamp": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Graphing, Slope Calculation, Arrhenius Equation",
+        "timestamps": {
+          "end_timestamp": "00:01:17.000",
+          "start_timestamp": "00:00:40.033"
+        },
+        "title": "Solution via Graphical Method",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The rearranged Arrhenius equation to solve for activation energy is presented.",
+            "timestamp": {
+              "end_timestamp": "00:01:39.000",
+              "start_timestamp": "00:01:17.033"
+            }
+          },
+          {
+            "description": "Table of temperature and k values is shown again.",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:39.000"
+            }
+          },
+          {
+            "description": "Equation with substituted values from the table is displayed and calculation result (47.2 kJ) is presented.",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:39.000"
+            }
+          },
+          {
+            "description": "Spreadsheet with different calculations using various temperature and k value pairs is displayed.",
+            "timestamp": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          },
+          {
+            "description": "The average and standard deviation of the calculated activation energies are shown.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "An alternative method to solve for activation energy is presented and performed.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Content) - The scene successfully demonstrates an alternative method to solve the problem, providing a sense of satisfaction and completeness.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Rearranged Arrhenius equation is shown.",
+            "timestamp": "00:01:17.033"
+          },
+          {
+            "description": "Calculation using specific temperature and k values is done.",
+            "timestamp": "00:01:39.000"
+          },
+          {
+            "description": "Spreadsheet with multiple calculations is presented.",
+            "timestamp": "00:02:05.000"
+          },
+          {
+            "description": "Average and standard deviation of the calculated activation energies are given.",
+            "timestamp": "00:02:19.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Equation",
+            "timestamp": {
+              "end_timestamp": "00:01:39.000",
+              "start_timestamp": "00:01:17.033"
+            }
+          },
+          {
+            "name": "Table",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:39.000"
+            }
+          },
+          {
+            "name": "Calculation steps",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:39.000"
+            }
+          },
+          {
+            "name": "Spreadsheet",
+            "timestamp": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Alternative Solution Method, Spreadsheet Calculations, Statistical Analysis",
+        "timestamps": {
+          "end_timestamp": "00:02:28.733",
+          "start_timestamp": "00:01:17.033"
+        },
+        "title": "Alternative Method using Arrhenius Equation and Spreadsheet",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Both methods converge to consistent results for activation energy.",
+        "timestamp": "00:02:19.000"
+      },
+      "description": "The video explains methods to determine activation energy using spreadsheet software and the Arrhenius equation, divided into graphical and direct substitution methods.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Determining Activation Energy using Spreadsheet and Arrhenius Equation",
+    "trimmingSuggestions": [
+      {
+        "description": "Condense the spreadsheet calculations in Scene 3 to briefly highlight the idea and jump to the final average and standard deviation.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 149,
+  "original_json_filename": "vu4-dABlYw8.json",
+  "original_video_filename": "vu4-dABlYw8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "here we'll determine the activation energy for a reaction using K values determined at different temperatures We Begin by taking the reciprocal of the temperature in Kelvin so we must first convert the temperature to Kelvin then reciprocate those values then take the natural log of the K values once we've done that then we could plot the data and determine the slope of the line the plot is a straight line the equation gives us the slope value - 5,638 according to the uranous equation the slope is equal to the negative activation energy divided by the ideal gas law constant in this case we'll set 5,638 equal to EA over R the double negatives cancel and solving for the activation energy and converting it to KJ we end up with 46.9 kles we could also determine the activation energy by substituting values of temperature and rate constants into the ranous equation solving for the activation energy the rearranged Uranus equation looks like this now we could pick any pair of temperature and rate constant values and substitute them into the equation I picked the first two and came up with 47.2 K we could also pick other Pairs and determine that the activation energy is very close to 47. two I prepared a spreadsheet to show this picking the possible combinations or pairs of temperature and rate constants I come up with six slightly different activation energies but the average of V6 is 46.9 K with the standard deviation of only8",
+  "text_to_speech_word_count": 253,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.200",
+      "start": "00:00:00.000",
+      "text": " Here we will determine the activation energy for a reaction using k values determined"
+    },
+    {
+      "end": "00:00:16.267",
+      "start": "00:00:10.200",
+      "text": " at different temperatures."
+    },
+    {
+      "end": "00:00:23.000",
+      "start": "00:00:16.267",
+      "text": " We begin by taking the reciprocal of the temperature in Kelvin."
+    },
+    {
+      "end": "00:00:28.533",
+      "start": "00:00:23.000",
+      "text": " So we must first convert the temperature to Kelvin, then reciprocate those values."
+    },
+    {
+      "end": "00:00:33.533",
+      "start": "00:00:28.533",
+      "text": " Then take the natural log of the k values."
+    },
+    {
+      "end": "00:00:39.533",
+      "start": "00:00:33.533",
+      "text": " Once we've done that, then we could plot the data and determine the slope of the line."
+    },
+    {
+      "end": "00:00:42.533",
+      "start": "00:00:39.533",
+      "text": " The plot is a straight line."
+    },
+    {
+      "end": "00:00:47.533",
+      "start": "00:00:42.533",
+      "text": " The equation gives us the slope value, negative 5,638."
+    },
+    {
+      "end": "00:00:53.533",
+      "start": "00:00:47.533",
+      "text": " According to the Uranus equation, the slope is equal to the negative activation energy"
+    },
+    {
+      "end": "00:00:57.533",
+      "start": "00:00:53.533",
+      "text": " divided by the ideal gas law constant."
+    },
+    {
+      "end": "00:01:06.533",
+      "start": "00:00:57.533",
+      "text": " In this case, we'll set negative 5,638 equal to negative EA over R."
+    },
+    {
+      "end": "00:01:12.533",
+      "start": "00:01:06.533",
+      "text": " The double negatives cancel and solving for the activation energy and converting it to kilojoules."
+    },
+    {
+      "end": "00:01:19.533",
+      "start": "00:01:12.533",
+      "text": " We end up with 46.9 kilojoules."
+    },
+    {
+      "end": "00:01:26.533",
+      "start": "00:01:19.533",
+      "text": " We could also determine the activation energy by substituting values of temperature and rate constants"
+    },
+    {
+      "end": "00:01:31.533",
+      "start": "00:01:26.533",
+      "text": " into the Uranus equation."
+    },
+    {
+      "end": "00:01:39.533",
+      "start": "00:01:31.533",
+      "text": " Solving for the activation energy, the rearranged Uranus equation looks like this."
+    },
+    {
+      "end": "00:01:47.533",
+      "start": "00:01:39.533",
+      "text": " Now we could pick any pair of temperature and rate constant values and substitute them into the equation."
+    },
+    {
+      "end": "00:01:53.533",
+      "start": "00:01:47.533",
+      "text": " I picked the first two and came up with 47.2 kilojoules."
+    },
+    {
+      "end": "00:02:01.533",
+      "start": "00:01:53.533",
+      "text": " We could also pick other pairs and determine that the activation energy is very close to 47.2."
+    },
+    {
+      "end": "00:02:06.533",
+      "start": "00:02:01.533",
+      "text": " I prepared a spreadsheet to show this."
+    },
+    {
+      "end": "00:02:12.533",
+      "start": "00:02:06.533",
+      "text": " Ficking the possible combinations or pairs of temperature and rate constants."
+    },
+    {
+      "end": "00:02:17.533",
+      "start": "00:02:12.533",
+      "text": " I come up with six slightly different activation energies."
+    },
+    {
+      "end": "00:02:26.533",
+      "start": "00:02:17.533",
+      "text": " But the average of the V6 is 46.9 kilojoules with a standard deviation of only 0.8."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Gino Romeo",
+  "youtube_channel_follower_count": 737,
+  "youtube_comment_count": 0,
+  "youtube_description": "Determining the Activation Energy using the Arrhenius Equation",
+  "youtube_like_count": 4,
+  "youtube_tags": [
+    "Activation Energy graphical",
+    "Arrenhius Equation"
+  ],
+  "youtube_title": "Determining the Activation Energy using the Arrhenius Equation",
+  "youtube_upload_date": "20140208",
+  "youtube_view_count": 1307
+}

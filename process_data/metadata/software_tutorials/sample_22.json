@@ -1,0 +1,1365 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "aladdin",
+        "description": "A dark haired man wearing white clothes, appearing in retro game jumping with a curved sword.",
+        "name": "Aladdin"
+      },
+      {
+        "characterId": "sonic",
+        "description": "A blue hedgehog with red shoes running in a platformer level.",
+        "name": "Sonic"
+      },
+      {
+        "characterId": "narrator",
+        "description": "Male voice speaking with a British accent, not visually present.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video explaining how to create a custom game saving system in Unity using binary formatting to overcome the limitations of PlayerPrefs.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "PlayerPrefs is inefficient for complex games requiring large data storage.",
+        "question": "What specific problem does the narrator mention about using Unity's built-in PlayerPrefs for saving game data?"
+      },
+      {
+        "answer": "Using Serialization Surrogates for serialization and deserialization.",
+        "question": "How does the narrator suggest handling the saving of Unity classes like Vector3 and Quaternion?"
+      },
+      {
+        "answer": "To store information about each toy, including ID, type, position, and rotation.",
+        "question": "What is the purpose of the ToyData class?"
+      },
+      {
+        "answer": "Allows for multiple game states to be saved, instead of one.",
+        "question": "What advantage does the multi-file saving system provide?"
+      },
+      {
+        "answer": "Neutral and informative with a focus on technical guidance.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Aladdin jumps in a retro game.",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Sonic runs in a platformer.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "The Narrator talks about saving systems.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Aladdin",
+          "Sonic"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Discusses evolution from no save to different save systems in games.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from gameplay to storage devices, shifting mood from Excited to Curious.",
+              "timestamp": "00:00:08.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces saving systems concept.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Explains saving necessity in complex games.",
+            "timestamp": "00:00:08.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Genie's lamp",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Hard drive and memory card",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "name": "Save menu",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Importance of saving systems, evolution of game data storage.",
+        "timestamps": {
+          "end_timestamp": "00:00:14.233",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction - The need for saving systems",
+        "videoEditingDetails": [
+          {
+            "description": "Fast cuts between gameplays.",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator's voice overlay.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides background on existing tech and its limitations.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "PlayerPrefs limitations discussion.",
+            "timestamp": "00:00:14.267"
+          },
+          {
+            "description": "Intro to Game Dev Guide.",
+            "timestamp": "00:00:40.000"
+          },
+          {
+            "description": "Plan for custom save system using binary formatting.",
+            "timestamp": "00:00:45.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Game Dev Guide logo",
+            "timestamp": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "name": "C# Save Game logo",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Custom save system, binary formatting advantages.",
+        "timestamps": {
+          "end_timestamp": "00:00:50.000",
+          "start_timestamp": "00:00:14.267"
+        },
+        "title": "Introducing binary formatting",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to clean background.",
+            "timestamps": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:14.267"
+            }
+          },
+          {
+            "description": "Static visuals and text explanations.",
+            "timestamps": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:14.267"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Coding a Serialization Manager class in C#",
+            "timestamp": {
+              "end_timestamp": "00:02:59.000",
+              "start_timestamp": "00:00:50.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Showing practical coding for saving system.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "New C# script for Serialization Manager.",
+            "timestamp": "00:00:50.033"
+          },
+          {
+            "description": "Coding Save and Load methods.",
+            "timestamp": "00:01:38.000"
+          },
+          {
+            "description": "Binary Formatter method creation.",
+            "timestamp": "00:02:00.000"
+          },
+          {
+            "description": "Save game path and file stream setup.",
+            "timestamp": "00:02:18.000"
+          },
+          {
+            "description": "Loading data logic implementation.",
+            "timestamp": "00:02:40.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unity IDE",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:00:50.033"
+            }
+          },
+          {
+            "name": "Code Editor",
+            "timestamp": {
+              "end_timestamp": "00:02:59.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Code implementation and technical explanation.",
+        "timestamps": {
+          "end_timestamp": "00:02:59.000",
+          "start_timestamp": "00:00:50.033"
+        },
+        "title": "Building the Serialization Manager",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to Unity IDE.",
+            "timestamps": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:50.033"
+            }
+          },
+          {
+            "description": "Screen recording of code writing with zooms.",
+            "timestamps": {
+              "end_timestamp": "00:02:59.000",
+              "start_timestamp": "00:00:50.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Coding SaveData class to store game data.",
+            "timestamp": {
+              "end_timestamp": "00:03:20.000",
+              "start_timestamp": "00:02:59.033"
+            }
+          },
+          {
+            "description": "Creating PlayerProfile class.",
+            "timestamp": {
+              "end_timestamp": "00:03:54.000",
+              "start_timestamp": "00:03:43.000"
+            }
+          },
+          {
+            "description": "UI building for save/load system.",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Develops core components of saving system.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from UI to 3D scene, creating a visually curious shift.",
+              "timestamp": "00:04:56.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "New script for SaveData class.",
+            "timestamp": "00:02:59.033"
+          },
+          {
+            "description": "Serializable SaveData class.",
+            "timestamp": "00:03:20.000"
+          },
+          {
+            "description": "PlayerProfile class creation.",
+            "timestamp": "00:03:43.000"
+          },
+          {
+            "description": "UI creation for saving/loading.",
+            "timestamp": "00:03:55.000"
+          },
+          {
+            "description": "Implementing player input UI.",
+            "timestamp": "00:04:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code Editor",
+            "timestamp": {
+              "end_timestamp": "00:03:54.000",
+              "start_timestamp": "00:02:59.033"
+            }
+          },
+          {
+            "name": "Unity IDE with UI buttons and inputs",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:55.000"
+            }
+          },
+          {
+            "name": "UI screen showing player data.",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:23.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Data structure, saving player progress, UI interaction.",
+        "timestamps": {
+          "end_timestamp": "00:04:56.767",
+          "start_timestamp": "00:02:59.033"
+        },
+        "title": "Creating the Save Data Class",
+        "videoEditingDetails": [
+          {
+            "description": "Recording of code writing and UI building.",
+            "timestamps": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:02:59.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Coding to save/load 3D toy objects.",
+            "timestamp": {
+              "end_timestamp": "00:07:47.000",
+              "start_timestamp": "00:04:56.800"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Addresses complex data saving challenges.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Save/load toys in 3D.",
+            "timestamp": "00:04:56.800"
+          },
+          {
+            "description": "Binary Formatter limitations explained.",
+            "timestamp": "00:05:20.000"
+          },
+          {
+            "description": "Creation of ToyData class.",
+            "timestamp": "00:05:33.000"
+          },
+          {
+            "description": "Surrogates for Vector3 and Quaternion.",
+            "timestamp": "00:06:01.000"
+          },
+          {
+            "description": "Adding ToyData to save system.",
+            "timestamp": "00:07:10.000"
+          },
+          {
+            "description": "Loading toys from saved data.",
+            "timestamp": "00:07:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unity IDE with toy objects",
+            "timestamp": {
+              "end_timestamp": "00:05:20.000",
+              "start_timestamp": "00:04:56.800"
+            }
+          },
+          {
+            "name": "Code Editor for ToyData and Surrogates.",
+            "timestamp": {
+              "end_timestamp": "00:07:47.000",
+              "start_timestamp": "00:05:20.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Serialization surrogates, saving/loading complex data.",
+        "timestamps": {
+          "end_timestamp": "00:07:47.767",
+          "start_timestamp": "00:04:56.800"
+        },
+        "title": "Saving and Loading Toy Data",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to 3D toy scene with recording.",
+            "timestamps": {
+              "end_timestamp": "00:07:47.000",
+              "start_timestamp": "00:04:56.800"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Adding multi-file save functionality.",
+            "timestamp": {
+              "end_timestamp": "00:08:55.000",
+              "start_timestamp": "00:07:47.800"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Improves user control over save data.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains single file limitation.",
+            "timestamp": "00:07:47.800"
+          },
+          {
+            "description": "SaveManager class creation.",
+            "timestamp": "00:08:00.000"
+          },
+          {
+            "description": "Get and display save files in UI.",
+            "timestamp": "00:08:07.000"
+          },
+          {
+            "description": "Showcase UI with multiple saves option.",
+            "timestamp": "00:08:27.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code Editor for SaveManager.",
+            "timestamp": {
+              "end_timestamp": "00:08:19.000",
+              "start_timestamp": "00:07:47.800"
+            }
+          },
+          {
+            "name": "Unity IDE with multi-save UI menu.",
+            "timestamp": {
+              "end_timestamp": "00:08:55.000",
+              "start_timestamp": "00:08:19.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Multi-file saving, user experience enhancement.",
+        "timestamps": {
+          "end_timestamp": "00:08:55.000",
+          "start_timestamp": "00:07:47.800"
+        },
+        "title": "Saving multiple files",
+        "videoEditingDetails": [
+          {
+            "description": "Recording of code writing, UI changes.",
+            "timestamps": {
+              "end_timestamp": "00:08:55.000",
+              "start_timestamp": "00:07:47.800"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Reviews tutorial content and encourages application.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Recaps tutorial benefits of binary formatter.",
+            "timestamp": "00:08:55.033"
+          },
+          {
+            "description": "Highlights simplicity vs. PlayerPrefs.",
+            "timestamp": "00:08:59.000"
+          },
+          {
+            "description": "Encourages viewer application and sharing.",
+            "timestamp": "00:09:19.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 7,
+        "thematicElements": "Summary of key learnings.",
+        "timestamps": {
+          "end_timestamp": "00:09:40.000",
+          "start_timestamp": "00:08:55.033"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Clean background transition with text.",
+            "timestamps": {
+              "end_timestamp": "00:09:30.000",
+              "start_timestamp": "00:08:55.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Toys successfully loaded from save data in correct states.",
+        "timestamp": "00:07:29.000"
+      },
+      "description": "Building a custom saving system in Unity using binary formatting.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Building a Custom Game Saving System in Unity: A Step-by-Step Tutorial",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten static visuals and text explanations.",
+        "timestamps": {
+          "end_timestamp": "00:08:55.033",
+          "start_timestamp": "00:08:55.033"
+        }
+      },
+      {
+        "description": "Trim generic call-to-action for concise summary.",
+        "timestamps": {
+          "end_timestamp": "00:09:30.000",
+          "start_timestamp": "00:08:55.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 580,
+  "original_json_filename": "5roZtuqZyuw.json",
+  "original_video_filename": "5roZtuqZyuw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "unless you're making a retro game and trying to infuriate players by throwing them back into the error before hard drives or memory cards you're probably going to want to let your players save their progress in your game if you're working in unity you've probably searched for ways to write a safe system and found numerous results showing you to use the built-in player prefs feature you've then probably realized that this is fine for small games or projects that don't need to store a lot of data but if like me you're building a fairly complex game with lots of data you want to store you're going to want a more functional solution than writing hundreds upon hundreds of entries into the player pressure system so let's do it a different way hi there i'm matt and welcome to game dev guide today we're going to use binary formatting to build an extremely flexible safe game system the plan here is to build a custom safe game class that holds all of the data we want to store then when we want to save our game we'll write our safe game class to a text file and when we want to load the game we go the other way casting back from the text file to our custom class so there's three main components here firstly there's our game classes that need data stored secondly there's our save game class that will hold the data and finally a serialization system to actually handle the saving and loading of the text file with that in mind let's get started the first thing we'll do is create our serialization script let's create a new folder called serialization and a new c-sharp class could serialization manager the first thing we'll do is write our save method this will take in a save name string and the object we want to save will also return a boolean to confirm that the save was successful in a separate method we'll define our binary formatter this method will create will eventually allow us to define serialization surrogates for our formatter to use more on that a bit later for now though we'll just return our binary formatter back in our save method we'll define the path for our save game you could define anywhere on the system but I'm a fan of using the persistent data path and creating a safe folder in there with the save name and a custom extension which will just call dot save for now then we'll create a far stream at our path and use our binary formatter to serialize the object then close the file stream and that's the saving handled we'll write another static method called load which will take in a path to load from well then check that the path exists get our binary formatter again and open a file stream add our path will attempt to open the file and if it works will return the saved object and just in case we've accidentally passed the wrong path into our loading system we'll make sure our whole code base doesn't implode by catching it with an error and returning a null object instead with that finished let's move on to the star of our show our save data class let's create a new C sharp class and call it safe data we'll make it a singleton and create a new reference to it if one doesn't already exist the key to our safe system working is that classes we want saved are marked as serializable we do this by adding the serializable attribute to the class header anything within our save file should be serializable by the binary formatter so any additional classes we create that wish to have their data stored will also need to be marked as serializable to demonstrate this and to test if our safe system works let's create a new class could play a profile this will hold some information about the player such as their profile name how much money they currently have and their experience level in our saved data class we'll create a public player profile called profile and we'll also add some resources let's suppose the player can buy toy cars and toy dolls with their currency and we want to keep track of how many of each toy they have to test this out I've built some UI where the player can either click a button to start a new game or load a previous save if they start a new game they're asked to input their name and this is saved to the profile data as well as some default variables they're then taken to a second screen which shows their name and has a button to buy toys or work if they click the work button they gained some currency and experience if they buy toys they spend some of the currency and gain a toy as you can see we're tracking this data in the UI when any of these buttons are pressed we're updating the data in our save system if I choose to save make some more changes and then hit the load button to go back to that save the load button simply replaces the save data class and tells our UI to update restoring the state from our save and the same thing happens if we restart the game and choose to load so that's great it looks like our save system works but we're not done yet right so as you can see I've taken the toy box analogy further our prototype has developed a bit now and we've got toys we can spawn and move around I want our save system to remember which exact toy to save and where it is in our play space so things are a bit more complicated the binary formatter doesn't support unity classes such as game objects transforms or vector 3s out of the box which means that we can't just create a list of game objects and expect our system to save them instead I've created a custom class for our toys and and a list of them to our save data this class is marked as serializable and it has an enum for the toy type a string ID a vector3 for its position and a quaternion for its rotation we give it an ID so that any other object that relies on it can get a reference to it upon loading again you're probably also wondering why I'm storing position and rotation when I literally just told you that both of these things aren't serializable by the system well that's because we're going to need the serialization surrogates I mentioned earlier a serialization surrogate is essentially used to tell our binary formatter how to serialize classes that aren't natively serializable so for the case of vector threes and quaternions we need to create a serialization surrogate we do this using the AI serialization surrogate interface and then tell our interface how to handle the data for each type we then add this to our list of surrogates until our binary formatter to use them it's worth noting you could probably extend this further and create surrogates for all of the properties of a mana behavior to make it completely serializable but I try to limit the data I handle as much as possible anyway with our setup let's tell our toys to add themselves to our save data when they're spawned if they don't already exist we'll also make the game object destroy itself when the load event is called in case it needs to be replaced and to update their data when they're interacted with then when we load we'll tell our game to go through the data set and spawn each toy based on its enum placing it in a safe position and rotation if we try it out you can see our system successfully saves and loads are more complex toy data thanks to our sterilization surrogates the only problem with our current system is that it's pretty old-school as it only handles a single save file at a time we ideally want to support multiple save files fortunately that's actually a pretty straightforward modification to make to our system let's create a save manager class this class will act as a buffer between saving and loading our game in our save manager will tell it to get a list of all of the files at a specific directory and store them in an array [Music] then all we need to do is build a UI for it like so when the player saves they're asked to define a save name which our save manager users to save the game when they choose to load the save manager displays the list of files from the directory in the UI and when the player chooses the night um in the list we call the load method passing in the index of the item they've selected and there you have it easy multi file saving with just a few more simple steps as you can see this is an extremely useful and flexible way to handle saving in your game you're mostly just redesigning the way that you handle data management in your codebase rather than writing numerous lines of code for each individual data point you want to save so hopefully there's something useful in there for you let me know if you've learned anything new and how you might use a system like this in your game below also be sure to subscribe for more game dev tips tricks and tutorials and if you're interested why not check out some of these other videos across the channel as always thank you very much for watching and I'll see you again next time",
+  "text_to_speech_word_count": 1661,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.233",
+      "start": "00:00:00.000",
+      "text": " Unless you're making a retro game and trying to infuriate players by throwing them back"
+    },
+    {
+      "end": "00:00:12.067",
+      "start": "00:00:08.233",
+      "text": " into the era before hard drives or memory cards, you're probably going to want to let your"
+    },
+    {
+      "end": "00:00:15.667",
+      "start": "00:00:12.067",
+      "text": " players save their progress in your game."
+    },
+    {
+      "end": "00:00:19.467",
+      "start": "00:00:15.667",
+      "text": " If you're working in Unity, you've probably searched for ways to write a save system and"
+    },
+    {
+      "end": "00:00:23.500",
+      "start": "00:00:19.467",
+      "text": " found numerous results showing you to use the built in Player Press feature."
+    },
+    {
+      "end": "00:00:26.600",
+      "start": "00:00:23.500",
+      "text": " You've then probably realised that this is fine for small games or projects that don't"
+    },
+    {
+      "end": "00:00:30.800",
+      "start": "00:00:26.600",
+      "text": " need to store a lot of data, but if like me, you're building a fairly complex game with"
+    },
+    {
+      "end": "00:00:34.900",
+      "start": "00:00:30.800",
+      "text": " lots of data you want to store, you're going to want a more functional solution than writing"
+    },
+    {
+      "end": "00:00:40.700",
+      "start": "00:00:34.900",
+      "text": " hundreds upon hundreds of entries into the Player Press system."
+    },
+    {
+      "end": "00:00:42.633",
+      "start": "00:00:40.700",
+      "text": " So let's do it a different way."
+    },
+    {
+      "end": "00:00:45.667",
+      "start": "00:00:42.633",
+      "text": " Hi there, I'm Matt and welcome to Game Dev Guide."
+    },
+    {
+      "end": "00:00:51.267",
+      "start": "00:00:45.667",
+      "text": " Today, we're going to use binary formatting to build an extremely flexible save game system."
+    },
+    {
+      "end": "00:00:55.700",
+      "start": "00:00:51.267",
+      "text": " The plan here is to build a custom save game class that holds all of the data we want"
+    },
+    {
+      "end": "00:00:57.600",
+      "start": "00:00:55.700",
+      "text": " to store."
+    },
+    {
+      "end": "00:01:03.133",
+      "start": "00:00:57.600",
+      "text": " Then, when we want to save our game, we'll write our save game class to a text file."
+    },
+    {
+      "end": "00:01:07.200",
+      "start": "00:01:03.133",
+      "text": " And when we want to load the game, we go the other way, casting back from the text file"
+    },
+    {
+      "end": "00:01:10.500",
+      "start": "00:01:07.200",
+      "text": " to our custom class."
+    },
+    {
+      "end": "00:01:12.433",
+      "start": "00:01:10.500",
+      "text": " So there's three main components here."
+    },
+    {
+      "end": "00:01:15.300",
+      "start": "00:01:12.433",
+      "text": " Firstly, there's our game classes that need data stored."
+    },
+    {
+      "end": "00:01:19.667",
+      "start": "00:01:15.300",
+      "text": " Secondly, there's our save game class that will hold the data and finally, our serialisation"
+    },
+    {
+      "end": "00:01:23.933",
+      "start": "00:01:19.667",
+      "text": " system to actually handle the saving and loading of the text file."
+    },
+    {
+      "end": "00:01:27.000",
+      "start": "00:01:23.933",
+      "text": " With that in mind, let's get started."
+    },
+    {
+      "end": "00:01:30.233",
+      "start": "00:01:27.000",
+      "text": " The first thing we'll do is create our serialisation script."
+    },
+    {
+      "end": "00:01:38.833",
+      "start": "00:01:30.233",
+      "text": " Let's create a new folder called serialisation and a new C-shop class called serialisation manager."
+    },
+    {
+      "end": "00:01:41.367",
+      "start": "00:01:38.833",
+      "text": " The first thing we'll do is write our save method."
+    },
+    {
+      "end": "00:01:44.933",
+      "start": "00:01:41.367",
+      "text": " This will take in a save name string and the object we want to save."
+    },
+    {
+      "end": "00:01:50.633",
+      "start": "00:01:44.933",
+      "text": " We'll also return a Boolean to confirm that the save was successful."
+    },
+    {
+      "end": "00:01:54.133",
+      "start": "00:01:50.633",
+      "text": " And a separate method will define our binary formatter."
+    },
+    {
+      "end": "00:01:58.033",
+      "start": "00:01:54.133",
+      "text": " This method will create will eventually allow us to define serialisation surrogates for"
+    },
+    {
+      "end": "00:01:59.700",
+      "start": "00:01:58.033",
+      "text": " our formatter to use."
+    },
+    {
+      "end": "00:02:04.267",
+      "start": "00:01:59.700",
+      "text": " More on that a bit later, for now though, we'll just return our binary formatter."
+    },
+    {
+      "end": "00:02:07.800",
+      "start": "00:02:04.267",
+      "text": " Back in our save method, we'll define the path for our save game."
+    },
+    {
+      "end": "00:02:11.800",
+      "start": "00:02:07.800",
+      "text": " You could define anywhere on the system, but I'm a fan of using the persistent data path"
+    },
+    {
+      "end": "00:02:16.167",
+      "start": "00:02:11.800",
+      "text": " and creating a save folder in there with the save name and a custom extension, which"
+    },
+    {
+      "end": "00:02:19.500",
+      "start": "00:02:16.167",
+      "text": " we'll just call .save for now."
+    },
+    {
+      "end": "00:02:24.400",
+      "start": "00:02:19.500",
+      "text": " Then we'll create a file stream at our path and use our binary formatter to serialise the"
+    },
+    {
+      "end": "00:02:26.267",
+      "start": "00:02:24.400",
+      "text": " object."
+    },
+    {
+      "end": "00:02:28.133",
+      "start": "00:02:26.267",
+      "text": " Then close the file stream."
+    },
+    {
+      "end": "00:02:29.633",
+      "start": "00:02:28.133",
+      "text": " And that's the saving handled."
+    },
+    {
+      "end": "00:02:34.200",
+      "start": "00:02:29.633",
+      "text": " We'll write another static method called load, which we'll take in a path to load from."
+    },
+    {
+      "end": "00:02:38.333",
+      "start": "00:02:34.200",
+      "text": " We'll then check that the path exists, get our binary formatter again and open a file stream"
+    },
+    {
+      "end": "00:02:40.500",
+      "start": "00:02:38.333",
+      "text": " at our path."
+    },
+    {
+      "end": "00:02:46.633",
+      "start": "00:02:40.500",
+      "text": " We'll attempt to open the file."
+    },
+    {
+      "end": "00:02:49.867",
+      "start": "00:02:46.633",
+      "text": " And if it works, we'll return the saved object."
+    },
+    {
+      "end": "00:02:53.667",
+      "start": "00:02:49.867",
+      "text": " And just in case we've accidentally passed the wrong path into our loading system, we'll"
+    },
+    {
+      "end": "00:02:56.867",
+      "start": "00:02:53.667",
+      "text": " make sure our whole codebase doesn't implode by catching it with an error and returning"
+    },
+    {
+      "end": "00:02:59.267",
+      "start": "00:02:56.867",
+      "text": " a null object instead."
+    },
+    {
+      "end": "00:03:03.300",
+      "start": "00:02:59.267",
+      "text": " With that finished, let's move on to the star of our show, our save data class."
+    },
+    {
+      "end": "00:03:10.633",
+      "start": "00:03:03.300",
+      "text": " Let's create a new C-shop class and call it save data."
+    },
+    {
+      "end": "00:03:14.267",
+      "start": "00:03:10.633",
+      "text": " We'll make it a singleton and create a new reference to it if one doesn't already"
+    },
+    {
+      "end": "00:03:22.333",
+      "start": "00:03:14.267",
+      "text": " exist."
+    },
+    {
+      "end": "00:03:27.633",
+      "start": "00:03:22.333",
+      "text": " The key to our save system working is that classes we want saved are marked as serializable."
+    },
+    {
+      "end": "00:03:31.067",
+      "start": "00:03:27.633",
+      "text": " We do this by adding the serializable attribute to the class header."
+    },
+    {
+      "end": "00:03:34.533",
+      "start": "00:03:31.067",
+      "text": " Anything within our save file should be serializable by the binary formatter."
+    },
+    {
+      "end": "00:03:38.533",
+      "start": "00:03:34.533",
+      "text": " So any additional classes we create that wish to have their data stored will also need"
+    },
+    {
+      "end": "00:03:40.500",
+      "start": "00:03:38.533",
+      "text": " to be marked as serializable."
+    },
+    {
+      "end": "00:03:44.633",
+      "start": "00:03:40.500",
+      "text": " To demonstrate this and to test if our save system works, let's create a new class called"
+    },
+    {
+      "end": "00:03:47.400",
+      "start": "00:03:44.633",
+      "text": " player profile."
+    },
+    {
+      "end": "00:03:51.067",
+      "start": "00:03:47.400",
+      "text": " This will hold some information about the player, such as their profile name, how much money"
+    },
+    {
+      "end": "00:03:55.833",
+      "start": "00:03:51.067",
+      "text": " they currently have, and their experience level."
+    },
+    {
+      "end": "00:04:00.667",
+      "start": "00:03:55.833",
+      "text": " In our save data class, we'll create a public player profile called profile, and we'll also"
+    },
+    {
+      "end": "00:04:02.833",
+      "start": "00:04:00.667",
+      "text": " add some resources."
+    },
+    {
+      "end": "00:04:06.500",
+      "start": "00:04:02.833",
+      "text": " Let's suppose the player can buy toy cars and toy dolls with their currency, and we want"
+    },
+    {
+      "end": "00:04:10.133",
+      "start": "00:04:06.500",
+      "text": " to keep track of how many of each toy they have."
+    },
+    {
+      "end": "00:04:13.767",
+      "start": "00:04:10.133",
+      "text": " To test this out, I built some UI where the player can either click a button to start"
+    },
+    {
+      "end": "00:04:16.533",
+      "start": "00:04:13.767",
+      "text": " a new game or load a previous save."
+    },
+    {
+      "end": "00:04:19.900",
+      "start": "00:04:16.533",
+      "text": " If they start a new game, they are asked to input their name, and this is saved to the"
+    },
+    {
+      "end": "00:04:23.367",
+      "start": "00:04:19.900",
+      "text": " profile data as well as some default variables."
+    },
+    {
+      "end": "00:04:26.867",
+      "start": "00:04:23.367",
+      "text": " They're then taken to a second screen, which shows their name and has a button to buy"
+    },
+    {
+      "end": "00:04:27.867",
+      "start": "00:04:26.867",
+      "text": " toys or work."
+    },
+    {
+      "end": "00:04:32.367",
+      "start": "00:04:27.867",
+      "text": " If they click the work button, they gain some currency and experience, if they buy toys,"
+    },
+    {
+      "end": "00:04:35.133",
+      "start": "00:04:32.367",
+      "text": " they spend some of the currency and gain a toy."
+    },
+    {
+      "end": "00:04:38.200",
+      "start": "00:04:35.133",
+      "text": " As you can see, we're tracking this data in the UI."
+    },
+    {
+      "end": "00:04:45.500",
+      "start": "00:04:38.200",
+      "text": " In any of these buttons are pressed, we're updating the data in our save system."
+    },
+    {
+      "end": "00:04:49.267",
+      "start": "00:04:45.500",
+      "text": " If I choose to save, make some more changes, and then hit the load button to go back to"
+    },
+    {
+      "end": "00:04:54.733",
+      "start": "00:04:49.267",
+      "text": " that save, the load button simply replaces the save data class and tells our UI to update,"
+    },
+    {
+      "end": "00:04:57.267",
+      "start": "00:04:54.733",
+      "text": " restoring the state from our save."
+    },
+    {
+      "end": "00:05:01.233",
+      "start": "00:04:57.267",
+      "text": " And the same thing happens if we restart the game and choose to load."
+    },
+    {
+      "end": "00:05:04.267",
+      "start": "00:05:01.233",
+      "text": " So that's great, it looks like our save system works."
+    },
+    {
+      "end": "00:05:05.933",
+      "start": "00:05:04.267",
+      "text": " But we're not done yet."
+    },
+    {
+      "end": "00:05:07.467",
+      "start": "00:05:05.933",
+      "text": " Right."
+    },
+    {
+      "end": "00:05:11.033",
+      "start": "00:05:07.467",
+      "text": " So as you can see, I've taken the toy box analogy further."
+    },
+    {
+      "end": "00:05:15.633",
+      "start": "00:05:11.033",
+      "text": " Our prototype has developed a bit now, and we've got toys we can spawn and move around."
+    },
+    {
+      "end": "00:05:19.600",
+      "start": "00:05:15.633",
+      "text": " I want our save system to remember which exact toy to save and where it is in our play"
+    },
+    {
+      "end": "00:05:22.533",
+      "start": "00:05:19.600",
+      "text": " space, so things are a bit more complicated."
+    },
+    {
+      "end": "00:05:26.233",
+      "start": "00:05:22.533",
+      "text": " The binary formatted doesn't support Unity classes, such as GameObjects, Transforms,"
+    },
+    {
+      "end": "00:05:30.300",
+      "start": "00:05:26.233",
+      "text": " or Vector3s out of the box, which means that we can't just create a list of GameObjects"
+    },
+    {
+      "end": "00:05:33.033",
+      "start": "00:05:30.300",
+      "text": " and expect our system to save them."
+    },
+    {
+      "end": "00:05:37.633",
+      "start": "00:05:33.033",
+      "text": " Instead, I've created a custom class for our toys and added a list of them to our save"
+    },
+    {
+      "end": "00:05:38.833",
+      "start": "00:05:37.633",
+      "text": " data."
+    },
+    {
+      "end": "00:05:43.800",
+      "start": "00:05:38.833",
+      "text": " This class is marked as serializable, and it has an enum for the toy type, a string ID,"
+    },
+    {
+      "end": "00:05:47.100",
+      "start": "00:05:43.800",
+      "text": " Vector3 for its position, and a Quaternion for its rotation."
+    },
+    {
+      "end": "00:05:50.633",
+      "start": "00:05:47.100",
+      "text": " We give it an ID so that any other object that relies on it can get a reference to it"
+    },
+    {
+      "end": "00:05:52.333",
+      "start": "00:05:50.633",
+      "text": " upon loading again."
+    },
+    {
+      "end": "00:05:56.233",
+      "start": "00:05:52.333",
+      "text": " You're probably also wondering why I'm storing position and rotation when I literally"
+    },
+    {
+      "end": "00:05:59.900",
+      "start": "00:05:56.233",
+      "text": " just told you that both of these things aren't serializable by the system."
+    },
+    {
+      "end": "00:06:04.133",
+      "start": "00:05:59.900",
+      "text": " Well, that's because we're going to need the serialization surrogates I mentioned earlier."
+    },
+    {
+      "end": "00:06:08.333",
+      "start": "00:06:04.133",
+      "text": " A serialization surrogate is essentially used to tell our binary formatted how to serialize"
+    },
+    {
+      "end": "00:06:11.200",
+      "start": "00:06:08.333",
+      "text": " classes that aren't natively serializable."
+    },
+    {
+      "end": "00:06:16.667",
+      "start": "00:06:11.200",
+      "text": " So, for the case of Vector3s and Quaternions, we need to create a serialization surrogate."
+    },
+    {
+      "end": "00:06:24.633",
+      "start": "00:06:16.667",
+      "text": " We do this using the i-surrealization surrogate interface, and then tell our interface how"
+    },
+    {
+      "end": "00:06:32.933",
+      "start": "00:06:24.633",
+      "text": " to handle the data for each type."
+    },
+    {
+      "end": "00:06:42.300",
+      "start": "00:06:32.933",
+      "text": " We then add this to our list of surrogates, and tell our binary formatted to use them."
+    },
+    {
+      "end": "00:06:46.700",
+      "start": "00:06:42.300",
+      "text": " It's worth noting you could probably extend this further and create surrogates for all"
+    },
+    {
+      "end": "00:06:51.300",
+      "start": "00:06:46.700",
+      "text": " of the properties of a monobahavior to make it completely serializable, but I try to"
+    },
+    {
+      "end": "00:06:54.567",
+      "start": "00:06:51.300",
+      "text": " limit the data I handle as much as possible."
+    },
+    {
+      "end": "00:06:58.433",
+      "start": "00:06:54.600",
+      "text": " Anyway, with our setup, let's tell our toys to add themselves to our save data when they're"
+    },
+    {
+      "end": "00:07:01.333",
+      "start": "00:06:58.433",
+      "text": " spawned if they don't already exist."
+    },
+    {
+      "end": "00:07:05.400",
+      "start": "00:07:01.333",
+      "text": " We'll also make the game object destroy itself when the load event is called, in case it"
+    },
+    {
+      "end": "00:07:08.133",
+      "start": "00:07:05.400",
+      "text": " needs to be replaced."
+    },
+    {
+      "end": "00:07:13.033",
+      "start": "00:07:08.133",
+      "text": " And to update their data when they're interacted with."
+    },
+    {
+      "end": "00:07:17.633",
+      "start": "00:07:13.033",
+      "text": " Then when we load, we'll tell our game to go through the data set and spawn each toy,"
+    },
+    {
+      "end": "00:07:31.233",
+      "start": "00:07:17.633",
+      "text": " based on its enum, placing it in its save position and rotation."
+    },
+    {
+      "end": "00:07:44.733",
+      "start": "00:07:31.233",
+      "text": " If we try it out, you can see our system successfully saves and loads our more complex"
+    },
+    {
+      "end": "00:07:47.933",
+      "start": "00:07:44.733",
+      "text": " toy data thanks to our surrogates."
+    },
+    {
+      "end": "00:07:51.500",
+      "start": "00:07:47.933",
+      "text": " The only problem with our current system is that it's pretty old school as it only handles"
+    },
+    {
+      "end": "00:07:53.700",
+      "start": "00:07:51.500",
+      "text": " a single save file at a time."
+    },
+    {
+      "end": "00:07:56.200",
+      "start": "00:07:53.700",
+      "text": " We ideally want to support multiple save files."
+    },
+    {
+      "end": "00:08:00.333",
+      "start": "00:07:56.200",
+      "text": " Fortunately, that's actually a pretty straightforward modification to make to our system."
+    },
+    {
+      "end": "00:08:02.333",
+      "start": "00:08:00.333",
+      "text": " Let's create a save manager class."
+    },
+    {
+      "end": "00:08:07.900",
+      "start": "00:08:02.333",
+      "text": " This class will act as a buffer between saving and loading our game."
+    },
+    {
+      "end": "00:08:12.133",
+      "start": "00:08:07.900",
+      "text": " In our save manager, we'll tell it to get a list of all of the files at a specific directory"
+    },
+    {
+      "end": "00:08:20.133",
+      "start": "00:08:12.133",
+      "text": " and store them in an array."
+    },
+    {
+      "end": "00:08:27.633",
+      "start": "00:08:20.133",
+      "text": " Then all we need to do is build a UI for it like so."
+    },
+    {
+      "end": "00:08:32.000",
+      "start": "00:08:27.633",
+      "text": " When the player saves, they're asked to define a save name which our save manager uses to"
+    },
+    {
+      "end": "00:08:35.933",
+      "start": "00:08:32.000",
+      "text": " save the game."
+    },
+    {
+      "end": "00:08:40.067",
+      "start": "00:08:35.933",
+      "text": " When they choose to load, the save manager displays the list of files from the directory in the"
+    },
+    {
+      "end": "00:08:41.067",
+      "start": "00:08:40.067",
+      "text": " UI."
+    },
+    {
+      "end": "00:08:45.433",
+      "start": "00:08:41.067",
+      "text": " When the player chooses the item in the list, we call the load method passing in the index"
+    },
+    {
+      "end": "00:08:50.000",
+      "start": "00:08:45.433",
+      "text": " of the item they've selected."
+    },
+    {
+      "end": "00:08:55.867",
+      "start": "00:08:50.000",
+      "text": " And there you have it, easy, multi-file saving with just a few more simple steps."
+    },
+    {
+      "end": "00:08:59.800",
+      "start": "00:08:55.867",
+      "text": " As you can see, this is an extremely useful and flexible way to handle saving in your"
+    },
+    {
+      "end": "00:09:00.800",
+      "start": "00:08:59.800",
+      "text": " game."
+    },
+    {
+      "end": "00:09:04.533",
+      "start": "00:09:00.800",
+      "text": " You're mostly just redesigning the way that you handle data management in your code base"
+    },
+    {
+      "end": "00:09:11.867",
+      "start": "00:09:04.533",
+      "text": " rather than writing numerous lines of code for each individual data point you want to save."
+    },
+    {
+      "end": "00:09:14.467",
+      "start": "00:09:11.867",
+      "text": " So hopefully there's something useful in there for you."
+    },
+    {
+      "end": "00:09:17.833",
+      "start": "00:09:14.467",
+      "text": " Let me know if you've learned anything new and how you might use a system like this in"
+    },
+    {
+      "end": "00:09:18.833",
+      "start": "00:09:17.833",
+      "text": " your game below."
+    },
+    {
+      "end": "00:09:23.833",
+      "start": "00:09:18.833",
+      "text": " Also, be sure to subscribe for more Game Dev tips, tricks and tutorials."
+    },
+    {
+      "end": "00:09:27.900",
+      "start": "00:09:23.833",
+      "text": " And if you're interested, why not check out some of these other videos across the channel."
+    },
+    {
+      "end": "00:09:30.867",
+      "start": "00:09:27.900",
+      "text": " As always, thank you very much for watching and I'll see you again next time."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Game Dev Guide",
+  "youtube_channel_follower_count": 113000,
+  "youtube_comment_count": 342,
+  "youtube_description": "In this video we take a look at how to use the Binary Formatter to build a fast and flexible save system in Unity. We also take a look at how get around some of the limitations by using Serialization Surrogates.\n\nEnjoyed this video? Be sure to SUBSCRIBE and share it!\n\nSocials:\nTwitter - http://www.twitter.com/GameDevGuideYT\nFacebook - http://www.facebook.com/GameDevGuideYT",
+  "youtube_like_count": 6966,
+  "youtube_tags": [
+    "unity",
+    "learn",
+    "games",
+    "gamedev",
+    "how to",
+    "making games in unity",
+    "tutorial",
+    "unity tutorial",
+    "learning unity",
+    "unity3d tutorial",
+    "programming",
+    "making games",
+    "saving",
+    "loading",
+    "save system",
+    "player prefs",
+    "serialization",
+    "binary formatter",
+    "c# save",
+    "save manager",
+    "load manager"
+  ],
+  "youtube_title": "How to Build A Save System in Unity",
+  "youtube_upload_date": "20190527",
+  "youtube_view_count": 171328
+}

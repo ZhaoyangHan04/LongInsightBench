@@ -1,0 +1,640 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice guiding the viewer through the steps. We don't see him.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "This tutorial provides step-by-step instructions for setting up a microphone in TeamSpeak 3, addressing common connection issues.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The key used is 'Control.'",
+        "question": "What is the key used for 'Push to Talk' in the narrator's TeamSpeak 3 settings?"
+      },
+      {
+        "answer": "The default device is marked with a green checkmark.",
+        "question": "What color checkmark indicates the default sound device in the Windows Sound window?"
+      },
+      {
+        "answer": "The narrator recommends plugging in the analog headset before opening the application.",
+        "question": "What does the narrator recommend doing with an analog headset before opening TeamSpeak 3?"
+      },
+      {
+        "answer": "The video maintains a neutral, informative, and helpful tone throughout, focusing on providing clear instructions and solutions.",
+        "question": "What is the overall tone of the video?"
+      },
+      {
+        "answer": "TeamSpeak 3 sometimes fails to recognize or properly use the default sound devices set at the operating system level. Checking the Windows Sound settings ensures that the intended microphone is active and recognized as the default recording device.",
+        "question": "Why does the narrator suggest checking the Windows Sound settings even after configuring TeamSpeak 3?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction to the issue of microphone connection problems in TeamSpeak 3",
+            "timestamp": {
+              "end_timestamp": "00:00:10.033",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.1,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator addresses the audience about common microphone issues."
+          }
+        ],
+        "contextualRelevance": "Introduces the problem of microphone connection in TeamSpeak 3, a popular communication tool for gamers.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral, informative.",
+          "keyMoments": [
+            {
+              "changeDescription": "The plain desktop background and lack of visuals, combined with the straightforward voiceover, contribute to a neutral and informative tone.",
+              "timestamp": "00:00:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Sets the context by addressing the common problem of microphone connection issues.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Desktop background with ASUS logo",
+            "timestamp": {
+              "end_timestamp": "00:00:10.033",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technical guidance",
+        "timestamps": {
+          "end_timestamp": "00:00:10.033",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects, basic screen recording.",
+            "timestamps": {
+              "end_timestamp": "00:00:10.033",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstrating the microphone settings within TeamSpeak 3.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "Checks 'Push to Talk' setting and explains the bound key (Control).",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "description": "Explains 'Capture Mode' and 'Capture Device' settings.",
+            "timestamp": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Emphasizes the importance of verifying settings and suggests additional troubleshooting.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights how to configure microphone settings inside TeamSpeak 3.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral, instructional.",
+          "keyMoments": [
+            {
+              "changeDescription": "The clear narration and the highlighted menus focus on providing specific instructions, maintaining a neutral and practical mood.",
+              "timestamp": "00:00:27.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Guides the viewer through TeamSpeak 3 settings relevant to the microphone.",
+            "timestamp": "00:00:12.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "TeamSpeak 3 application window",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "name": "Various settings menus",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical guidance",
+        "timestamps": {
+          "end_timestamp": "00:01:23.000",
+          "start_timestamp": "00:00:10.067"
+        },
+        "title": "TeamSpeak 3 Settings",
+        "videoEditingDetails": [
+          {
+            "description": "Basic screen recording, mouse cursor highlights selected items.",
+            "timestamps": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Navigating to Windows Sound settings and configuring default devices.",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "description": "Points out the default playback device (headset).",
+            "timestamp": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "description": "Shows the default recording device (headset microphone).",
+            "timestamp": {
+              "end_timestamp": "00:01:53.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "description": "Demonstrates that the microphone is active by speaking.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          },
+          {
+            "description": "Shows how to set a different device as the default recording device.",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:01:56.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates configuration of microphone settings at the OS level to ensure compatibility with TeamSpeak 3.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral, instructional.",
+          "keyMoments": [
+            {
+              "changeDescription": "Similar to Scene 2, the mood remains neutral and instructional, with a focus on guiding the viewer through the process.",
+              "timestamp": "00:01:24.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shows how to configure microphone settings from the Windows operating system level.",
+            "timestamp": "00:01:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows Control Panel",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "name": "Sound window",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "name": "Various sound device options",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Technical guidance",
+        "timestamps": {
+          "end_timestamp": "00:02:23.000",
+          "start_timestamp": "00:01:23.033"
+        },
+        "title": "Windows Sound Settings",
+        "videoEditingDetails": [
+          {
+            "description": "Basic screen recording, mouse cursor highlights selected items.",
+            "timestamps": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:01:23.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Final advice and closing remarks.",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:02:26.000"
+            }
+          },
+          {
+            "description": "Offers further assistance and closes the tutorial.",
+            "timestamp": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.1,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Reinforces key points and offers additional help, closing the tutorial with a helpful tone.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral, helpful.",
+          "keyMoments": [
+            {
+              "changeDescription": "The concluding remarks maintain the neutral and helpful tone established throughout the tutorial.",
+              "timestamp": "00:02:26.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Summarizes the key takeaway and encourages viewers to seek further assistance if needed.",
+            "timestamp": "00:02:26.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "TeamSpeak 3 application window",
+            "timestamp": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:24.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Technical guidance conclusion",
+        "timestamps": {
+          "end_timestamp": "00:02:51.200",
+          "start_timestamp": "00:02:23.033"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Basic screen recording.",
+            "timestamps": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:24.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Setting the correct device as the default recording device in Windows Sound settings.",
+        "timestamp": "00:01:56.000"
+      },
+      "description": "Troubleshooting Microphone Connection Issues in TeamSpeak 3",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "TeamSpeak 3 Microphone Setup Tutorial",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove redundant actions of clicking 'OK' and exiting menu in Scene 2.",
+        "timestamps": {
+          "end_timestamp": "00:02:23.033",
+          "start_timestamp": "00:02:23.033"
+        }
+      },
+      {
+        "description": "Trim segment showing the narrator closing windows in Scene 3 without adding value.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.000",
+          "start_timestamp": "00:02:23.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 171,
+  "original_json_filename": "fuFM8VPBTEg.json",
+  "original_video_filename": "fuFM8VPBTEg.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "several people complain that you can't get their mic to connect so I'm going to give you a quick tutorial of how to make sure your microphone is connected in teamspeak 3 first thing we're gonna do is going to open up teamspeak 3 and then we're going to go to the Settings tab we're going down to options and then we're going to make sure we're on the capture tab the capture tab is your microphone now next thing we're going to go over here and check is we're going to check the push the talk is on then we're going to check that the key that you have bound is correct which is control I don't know if you use control or not but that's the key that I use now the capture mode you want to set it to automatically use best mode and then the capture device this is where you got to make sure you have the right settings set up sometimes teamspeak likes to change this whenever you close out the program and then reopen it so you're going to look in here and say which one of your settings you have and if you have a USB headset like it says your launch deck USB headset you check that if you have a microphone which is usually the either the built-in mic that's in a laptop or a microphone that's plugged in through this standard analog jack on your computer now if that's all set right and you're pretty sure you have it right and it's still not working we can check one more thing we can come out of here come out of teamspeak that's not going to be the same for everybody computer but it's pretty close we're going to go to the control panel and then we're going to go into hardware and sound and then we're going to go to sound now as you see the headset right now is the default since it has the green checkmark next to it that is for your playback now your recording tab as you see mine says the headset is set up and you can see I'm talking now if it wasn't the default device the microphone would be now if you're having a problem getting your mic to work and you have an analog headset or an analog mic only you'd want to make sure you right-click this and set this as a default device basically coming in here and looking at this is going to show you what is the active device right now so like I said make sure that whatever device you're using is set under default and that is the one that's active for some reason though teamspeak using analog headsets whenever you want to open teamspeak up and use the application you need to make sure that you plug in your analog headset before opening the teamspeak application that usually gets rid of a lot of the problems with being able to use your headset so if you have any other questions just contact me in-game and I'll be more than happy to help you",
+  "text_to_speech_word_count": 530,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.000",
+      "start": "00:00:00.000",
+      "text": " Several people complain that you can't get their mic to connect."
+    },
+    {
+      "end": "00:00:09.500",
+      "start": "00:00:05.000",
+      "text": " So I want to give you a quick tutorial of how to make sure your microphone is connected"
+    },
+    {
+      "end": "00:00:11.733",
+      "start": "00:00:09.500",
+      "text": " in TeamSpeak 3."
+    },
+    {
+      "end": "00:00:16.133",
+      "start": "00:00:11.733",
+      "text": " First thing we're going to do is open up TeamSpeak 3."
+    },
+    {
+      "end": "00:00:17.733",
+      "start": "00:00:16.133",
+      "text": " And then we're going to go to the Settings tab."
+    },
+    {
+      "end": "00:00:20.733",
+      "start": "00:00:17.733",
+      "text": " We're going to go down to Options."
+    },
+    {
+      "end": "00:00:24.667",
+      "start": "00:00:20.733",
+      "text": " And then we're going to make sure we're on the Capture tab."
+    },
+    {
+      "end": "00:00:27.267",
+      "start": "00:00:24.667",
+      "text": " The Capture tab is your microphone."
+    },
+    {
+      "end": "00:00:29.933",
+      "start": "00:00:27.267",
+      "text": " Now next thing we're going to go over here and check is we're going to check the push"
+    },
+    {
+      "end": "00:00:31.733",
+      "start": "00:00:29.933",
+      "text": " the talk is on."
+    },
+    {
+      "end": "00:00:36.500",
+      "start": "00:00:31.733",
+      "text": " Then we're going to check that the key that you have bound is correct, which is Control."
+    },
+    {
+      "end": "00:00:39.933",
+      "start": "00:00:36.500",
+      "text": " I don't know if you use Control or not, but that's the key that I use."
+    },
+    {
+      "end": "00:00:43.600",
+      "start": "00:00:39.933",
+      "text": " Now the Capture mode you want to set it to automatically use Best Mode, and then the"
+    },
+    {
+      "end": "00:00:45.100",
+      "start": "00:00:43.600",
+      "text": " Capture device."
+    },
+    {
+      "end": "00:00:48.200",
+      "start": "00:00:45.100",
+      "text": " This is where you got to make sure you have the right setting set up."
+    },
+    {
+      "end": "00:00:51.800",
+      "start": "00:00:48.200",
+      "text": " Sometimes TeamSpeak likes to change this whenever you close out the program and then reopen"
+    },
+    {
+      "end": "00:00:52.867",
+      "start": "00:00:51.800",
+      "text": " it."
+    },
+    {
+      "end": "00:00:59.500",
+      "start": "00:00:52.867",
+      "text": " So you're going to look in here and see which one of your settings you have."
+    },
+    {
+      "end": "00:01:04.867",
+      "start": "00:00:59.833",
+      "text": " If you have a USB headset, like it says here, Launcheduck USB headset, you check that."
+    },
+    {
+      "end": "00:01:09.533",
+      "start": "00:01:04.867",
+      "text": " If you have a microphone, which is usually either the built-in mic that's in a laptop or"
+    },
+    {
+      "end": "00:01:16.433",
+      "start": "00:01:09.533",
+      "text": " a microphone that's plugged in through the standard analog jack on your computer."
+    },
+    {
+      "end": "00:01:20.500",
+      "start": "00:01:16.433",
+      "text": " Now if that's all set right and you're pretty sure you have it right, and it's still"
+    },
+    {
+      "end": "00:01:24.200",
+      "start": "00:01:20.500",
+      "text": " not working, we can check one more thing."
+    },
+    {
+      "end": "00:01:26.200",
+      "start": "00:01:24.200",
+      "text": " We can come out of here, come out of TeamSpeak."
+    },
+    {
+      "end": "00:01:30.400",
+      "start": "00:01:27.033",
+      "text": " Now it's not going to be the same for everybody's computer, but it's pretty close."
+    },
+    {
+      "end": "00:01:35.867",
+      "start": "00:01:30.400",
+      "text": " We're going to go to the control panel, and then we're going to go into Hardware and Sound,"
+    },
+    {
+      "end": "00:01:38.467",
+      "start": "00:01:35.867",
+      "text": " and then we're going to go to Sound."
+    },
+    {
+      "end": "00:01:44.133",
+      "start": "00:01:38.467",
+      "text": " Now as you see, the headset right now is the default since it has the green check mark"
+    },
+    {
+      "end": "00:01:45.533",
+      "start": "00:01:44.133",
+      "text": " next to it."
+    },
+    {
+      "end": "00:01:47.633",
+      "start": "00:01:45.533",
+      "text": " That is for your playback."
+    },
+    {
+      "end": "00:01:49.800",
+      "start": "00:01:47.633",
+      "text": " Now you're recording tab."
+    },
+    {
+      "end": "00:01:54.033",
+      "start": "00:01:49.800",
+      "text": " As you see, mine says the headset is set up, and you can see I'm talking."
+    },
+    {
+      "end": "00:01:58.233",
+      "start": "00:01:54.100",
+      "text": " Now if it wasn't the default device, the microphone would be."
+    },
+    {
+      "end": "00:02:02.733",
+      "start": "00:01:58.233",
+      "text": " Now if you're having a problem getting your mic to work and you have an analog headset"
+    },
+    {
+      "end": "00:02:07.500",
+      "start": "00:02:02.733",
+      "text": " or an analog mic only, you'd want to make sure you right-click this and set this as the"
+    },
+    {
+      "end": "00:02:11.067",
+      "start": "00:02:07.500",
+      "text": " default device."
+    },
+    {
+      "end": "00:02:14.133",
+      "start": "00:02:11.067",
+      "text": " Basically coming in here and looking at this is going to show you what is the active"
+    },
+    {
+      "end": "00:02:16.067",
+      "start": "00:02:14.133",
+      "text": " device right now."
+    },
+    {
+      "end": "00:02:20.633",
+      "start": "00:02:16.067",
+      "text": " So like I said, make sure that whatever device you're using is set on the default, and that"
+    },
+    {
+      "end": "00:02:25.867",
+      "start": "00:02:20.633",
+      "text": " is the one that's active."
+    },
+    {
+      "end": "00:02:29.933",
+      "start": "00:02:25.867",
+      "text": " For some reason, though, TeamSpeak using analog headsets."
+    },
+    {
+      "end": "00:02:34.500",
+      "start": "00:02:29.933",
+      "text": " Whenever you want to open TeamSpeak up and use the application, you need to make sure"
+    },
+    {
+      "end": "00:02:40.067",
+      "start": "00:02:34.500",
+      "text": " that you plug in your analog headset before opening the TeamSpeak application, that usually"
+    },
+    {
+      "end": "00:02:44.467",
+      "start": "00:02:40.067",
+      "text": " gets rid of a lot of the problems with being able to use your headset."
+    },
+    {
+      "end": "00:02:48.900",
+      "start": "00:02:44.467",
+      "text": " So if you have any other questions, just contact me and game, and I'll be more than happy"
+    },
+    {
+      "end": "00:02:49.900",
+      "start": "00:02:48.900",
+      "text": " to help you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Gaming"
+  ],
+  "youtube_channel": "robpruey",
+  "youtube_channel_follower_count": 190,
+  "youtube_comment_count": 169,
+  "youtube_description": "Help with your teamspeak3 mic, Guild needed help with mic problems. Teamspeak3 does not see analog jacks all the time for some reason unless the os is set to use as default.",
+  "youtube_like_count": 506,
+  "youtube_tags": [
+    "teamspeak",
+    "mic",
+    "setup"
+  ],
+  "youtube_title": "teamspeak mic setup",
+  "youtube_upload_date": "20110213",
+  "youtube_view_count": 226860
+}

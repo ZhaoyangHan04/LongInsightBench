@@ -1,0 +1,1767 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "c1",
+        "description": "A male with short brown hair and a beard. Wears a white sweatshirt.",
+        "name": "Presenter"
+      }
+    ],
+    "description": "An informative video that explains Jakarta Persistence, its functionality, concepts, and benefits, focusing on its use within the Jakarta EE ecosystem.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Jakarta Persistence, Jakarta Persistence API, JPA.",
+        "question": "What are the different names for Jakarta Persistence?"
+      },
+      {
+        "answer": "It specifies the name of the database table associated with the entity class.",
+        "question": "What is the purpose of the @Table annotation in an entity class?"
+      },
+      {
+        "answer": "Eager and lazy.",
+        "question": "What are the two 'fetch type' options for entity relationships?"
+      },
+      {
+        "answer": "By configuring properties in the persistence.xml file.",
+        "question": "How does Jakarta Persistence generate database schema objects?"
+      },
+      {
+        "answer": "StoredProcedureQuery.",
+        "question": "What interface is used to invoke stored procedures in Jakarta Persistence?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Presenter introduces the topic of Jakarta Persistence.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Explains the different names for Jakarta Persistence.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "description": "Discusses the purpose and functionality of Jakarta Persistence.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "Shows a diagram of Jakarta EE platforms and profiles.",
+            "timestamp": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "Explains Jakarta Persistence's inclusion in the platforms and profiles.",
+            "timestamp": {
+              "end_timestamp": "00:00:46.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Provides an overview of Jakarta Persistence, its purpose, and context within Jakarta EE.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious. The presenter's enthusiastic tone and clear explanations pique the viewer's interest in learning about Jakarta Persistence.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic and its different names.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Explanation of the purpose and functionality of Jakarta Persistence.",
+            "timestamp": "00:00:14.000"
+          },
+          {
+            "description": "Contextualization of Jakarta Persistence within the Jakarta EE ecosystem.",
+            "timestamp": "00:00:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram representing Jakarta Persistence APIs and databases.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "name": "Animated text boxes with keywords: Data Control, Data Persistence, Object Mapping, C.R.U.D.",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "name": "Diagram of Jakarta EE Platform, Web Profile, and Core Profile.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Curious and informative introduction to Jakarta Persistence.",
+        "timestamps": {
+          "end_timestamp": "00:00:57.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with Jakarta EE logo and 'Jakarta Persistence Explained' text.",
+            "timestamps": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to a blue background with connecting lines.",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "description": "Transition to diagram of Jakarta EE platforms.",
+            "timestamps": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter explains how database tables map to Java objects.",
+            "timestamp": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Introduces the concept of entity classes and POJOs.",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:01:05.000"
+            }
+          },
+          {
+            "description": "Explains the mapping of tables and columns to entity classes and fields.",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          },
+          {
+            "description": "Mentions advanced mapping scenarios and the use of annotations.",
+            "timestamp": {
+              "end_timestamp": "00:01:21.000",
+              "start_timestamp": "00:01:19.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Detailed explanation of how database tables are mapped to Java objects using entity classes.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative. The presenter uses code examples and visualizations to clearly demonstrate the mapping process between database tables and Java entities.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the concept of mapping database tables to Java objects.",
+            "timestamp": "00:00:57.040"
+          },
+          {
+            "description": "Explanation of entity classes, POJOs, and their relationship to database tables.",
+            "timestamp": "00:01:05.000"
+          },
+          {
+            "description": "Discussion of how tables and columns map to entity classes and fields.",
+            "timestamp": "00:01:10.000"
+          },
+          {
+            "description": "Brief mention of advanced mapping techniques and the use of annotations.",
+            "timestamp": "00:01:19.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code snippet showing a Java class (entity class) and a database table structure.",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Explanation of mapping concepts in Jakarta Persistence.",
+        "timestamps": {
+          "end_timestamp": "00:01:54.160",
+          "start_timestamp": "00:00:57.040"
+        },
+        "title": "Mapping Entities",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Mapping Entities' text.",
+            "timestamps": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:57.040"
+            }
+          },
+          {
+            "description": "Split screen showing code snippet and database table.",
+            "timestamps": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter discusses relational databases and their structure.",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          },
+          {
+            "description": "Introduces the concept of joining tables and how it relates to entity relationships.",
+            "timestamp": {
+              "end_timestamp": "00:02:12.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          },
+          {
+            "description": "Explains different types of entity relationships: one-to-one, one-to-many, many-to-one, many-to-many.",
+            "timestamp": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:02:25.000"
+            }
+          },
+          {
+            "description": "Discusses the use of annotations for defining entity relationships.",
+            "timestamp": {
+              "end_timestamp": "00:02:40.000",
+              "start_timestamp": "00:02:37.000"
+            }
+          },
+          {
+            "description": "Mentions the use of attributes for specifying database columns and fetching data.",
+            "timestamp": {
+              "end_timestamp": "00:03:00.000",
+              "start_timestamp": "00:02:55.000"
+            }
+          },
+          {
+            "description": "Explains the 'fetch type' concept and its options: eager and lazy.",
+            "timestamp": {
+              "end_timestamp": "00:03:15.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          },
+          {
+            "description": "Discusses primary key creation and the use of generators for auto-generating values.",
+            "timestamp": {
+              "end_timestamp": "00:03:20.000",
+              "start_timestamp": "00:03:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Detailed coverage of entity relationships and their mappings in Jakarta Persistence.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative. The presenter uses diagrams and code snippets to explain the complex concepts of relational databases, table joining, and entity relationships in a clear and concise manner.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Overview of relational database structure and the concept of tables.",
+            "timestamp": "00:01:54.200"
+          },
+          {
+            "description": "Explanation of table joining and its relationship to entity relationships.",
+            "timestamp": "00:02:05.000"
+          },
+          {
+            "description": "Introduction to different types of entity relationships and their representations using annotations.",
+            "timestamp": "00:02:25.000"
+          },
+          {
+            "description": "Discussion of fetch types and primary key generation.",
+            "timestamp": "00:02:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating relational database structure with multiple tables.",
+            "timestamp": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          },
+          {
+            "name": "Diagram showing tables A and B and their joined result.",
+            "timestamp": {
+              "end_timestamp": "00:02:22.000",
+              "start_timestamp": "00:02:17.000"
+            }
+          },
+          {
+            "name": "Diagram showing different types of entity relationships: one-to-one, one-to-many, many-to-one, many-to-many.",
+            "timestamp": {
+              "end_timestamp": "00:02:34.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          },
+          {
+            "name": "Code snippets showing different generation types: AUTO, IDENTITY, SEQUENCE, TABLE, UUID.",
+            "timestamp": {
+              "end_timestamp": "00:03:19.000",
+              "start_timestamp": "00:03:15.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Explanation of entity relationships and their significance.",
+        "timestamps": {
+          "end_timestamp": "00:03:24.000",
+          "start_timestamp": "00:01:54.200"
+        },
+        "title": "Entity Relationships",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Entity Relationships' text.",
+            "timestamps": {
+              "end_timestamp": "00:01:55.000",
+              "start_timestamp": "00:01:54.200"
+            }
+          },
+          {
+            "description": "Transition to diagram illustrating table joining.",
+            "timestamps": {
+              "end_timestamp": "00:02:06.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          },
+          {
+            "description": "Transition to diagram showing different types of entity relationships.",
+            "timestamps": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          },
+          {
+            "description": "Transition to code snippets for primary key generation.",
+            "timestamps": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:03:15.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter explains the role of the entity manager in Jakarta Persistence.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:03:27.000"
+            }
+          },
+          {
+            "description": "Discusses the persistence context and its configuration.",
+            "timestamp": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:03:31.000"
+            }
+          },
+          {
+            "description": "Explains the injection of the entity manager into a resource.",
+            "timestamp": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:42.000"
+            }
+          },
+          {
+            "description": "Describes the CRUD operations performed by the entity manager.",
+            "timestamp": {
+              "end_timestamp": "00:03:52.000",
+              "start_timestamp": "00:03:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Explains how the entity manager facilitates CRUD operations and their configuration.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative. The presenter continues to provide technical details about Jakarta Persistence, focusing on the crucial role of the entity manager in handling database operations.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the entity manager and its purpose.",
+            "timestamp": "00:03:24.040"
+          },
+          {
+            "description": "Explanation of the persistence context and how it relates to the entity manager.",
+            "timestamp": "00:03:31.000"
+          },
+          {
+            "description": "Discussion of how the entity manager is injected and used within a resource.",
+            "timestamp": "00:03:42.000"
+          },
+          {
+            "description": "Description of CRUD operations facilitated by the entity manager.",
+            "timestamp": "00:03:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code snippet showing a persistence.xml file.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:03:27.000"
+            }
+          },
+          {
+            "name": "Code snippet showing a Java class with the @PersistenceContext annotation.",
+            "timestamp": {
+              "end_timestamp": "00:03:34.000",
+              "start_timestamp": "00:03:31.000"
+            }
+          },
+          {
+            "name": "Code snippet showing methods like persist, merge, remove.",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:49.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Role of the entity manager in managing database operations.",
+        "timestamps": {
+          "end_timestamp": "00:03:58.160",
+          "start_timestamp": "00:03:24.040"
+        },
+        "title": "Entity Manager",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Entity Manager' text.",
+            "timestamps": {
+              "end_timestamp": "00:03:25.000",
+              "start_timestamp": "00:03:24.040"
+            }
+          },
+          {
+            "description": "Split screen showing code snippet (persistence.xml) and presenter.",
+            "timestamps": {
+              "end_timestamp": "00:03:28.000",
+              "start_timestamp": "00:03:27.000"
+            }
+          },
+          {
+            "description": "Transition to code snippet with @PersistenceContext annotation.",
+            "timestamps": {
+              "end_timestamp": "00:03:32.000",
+              "start_timestamp": "00:03:31.000"
+            }
+          },
+          {
+            "description": "Transition to code snippet with entity manager methods.",
+            "timestamps": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:49.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter introduces the Metamodel API and its function in obtaining metadata about entities.",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:04:01.000"
+            }
+          },
+          {
+            "description": "Explains the automatic creation of metamodel classes for each entity class.",
+            "timestamp": {
+              "end_timestamp": "00:04:13.000",
+              "start_timestamp": "00:04:11.000"
+            }
+          },
+          {
+            "description": "Describes the structure of metamodel classes and their attributes corresponding to entity fields.",
+            "timestamp": {
+              "end_timestamp": "00:04:21.000",
+              "start_timestamp": "00:04:18.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Details how the Metamodel API facilitates access to metadata about entity classes.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative. The presenter delves into another aspect of Jakarta Persistence, the Metamodel API, highlighting its role in providing metadata about entity classes and fields.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the Metamodel API and its purpose in accessing entity metadata.",
+            "timestamp": "00:03:58.200"
+          },
+          {
+            "description": "Explanation of how metamodel classes are automatically generated for each entity class.",
+            "timestamp": "00:04:11.000"
+          },
+          {
+            "description": "Description of the structure and content of metamodel classes.",
+            "timestamp": "00:04:18.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram showing two entity classes and their corresponding metamodel classes.",
+            "timestamp": {
+              "end_timestamp": "00:04:14.000",
+              "start_timestamp": "00:04:11.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Exploration of the Metamodel API's capabilities.",
+        "timestamps": {
+          "end_timestamp": "00:04:27.000",
+          "start_timestamp": "00:03:58.200"
+        },
+        "title": "Metamodel API",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Metamodel API' text.",
+            "timestamps": {
+              "end_timestamp": "00:03:59.000",
+              "start_timestamp": "00:03:58.200"
+            }
+          },
+          {
+            "description": "Transition to diagram illustrating the API's function.",
+            "timestamps": {
+              "end_timestamp": "00:04:02.000",
+              "start_timestamp": "00:04:01.000"
+            }
+          },
+          {
+            "description": "Transition to diagram showcasing metamodel class creation.",
+            "timestamps": {
+              "end_timestamp": "00:04:12.000",
+              "start_timestamp": "00:04:11.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter discusses CRUD operations: create, read, update, delete.",
+            "timestamp": {
+              "end_timestamp": "00:04:33.000",
+              "start_timestamp": "00:04:30.000"
+            }
+          },
+          {
+            "description": "Mentions the repetitive nature of writing code for CRUD operations.",
+            "timestamp": {
+              "end_timestamp": "00:04:40.000",
+              "start_timestamp": "00:04:38.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Reiterates the importance of CRUD operations in data management and their repetitive coding challenges.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative. The presenter revisits the concept of CRUD operations, emphasizing their significance in data persistence and their repetitive nature in code.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of CRUD operations and their importance in data persistence.",
+            "timestamp": "00:04:30.000"
+          },
+          {
+            "description": "Mention of the challenges associated with writing repetitive code for CRUD operations.",
+            "timestamp": "00:04:38.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated text boxes for each CRUD operation: Create, Read, Update, Delete.",
+            "timestamp": {
+              "end_timestamp": "00:04:35.000",
+              "start_timestamp": "00:04:33.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Revisiting the concepts of CRUD operations.",
+        "timestamps": {
+          "end_timestamp": "00:04:51.000",
+          "start_timestamp": "00:04:27.040"
+        },
+        "title": "C.R.U.D.",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'C.R.U.D.' text.",
+            "timestamps": {
+              "end_timestamp": "00:04:28.000",
+              "start_timestamp": "00:04:27.040"
+            }
+          },
+          {
+            "description": "Transition to animated text boxes representing CRUD operations.",
+            "timestamps": {
+              "end_timestamp": "00:04:34.000",
+              "start_timestamp": "00:04:33.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter explains how entity classes can be used to create new database records.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:04:54.000"
+            }
+          },
+          {
+            "description": "Describes the steps involved in creating a record: instantiation, population, persistence.",
+            "timestamp": {
+              "end_timestamp": "00:05:05.000",
+              "start_timestamp": "00:05:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Walkthrough of the process for creating new database records using entity classes.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative. The presenter provides a practical example of how Jakarta Persistence is used to create database records, outlining the simple steps involved.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of how entity classes facilitate the creation of database records.",
+            "timestamp": "00:04:54.000"
+          },
+          {
+            "description": "Detailed description of the three-step process for creating records: instantiation, population, and persistence.",
+            "timestamp": "00:05:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram showing an entity class, database table, and the @PersistenceContext annotation.",
+            "timestamp": {
+              "end_timestamp": "00:04:58.000",
+              "start_timestamp": "00:04:55.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Practical demonstration of creating database records.",
+        "timestamps": {
+          "end_timestamp": "00:05:12.000",
+          "start_timestamp": "00:04:51.040"
+        },
+        "title": "Creating Database Records",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Creating Database Records' text.",
+            "timestamps": {
+              "end_timestamp": "00:04:52.000",
+              "start_timestamp": "00:04:51.040"
+            }
+          },
+          {
+            "description": "Transition to diagram illustrating record creation process.",
+            "timestamps": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:54.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter discusses the retrieval of data from entity classes using queries.",
+            "timestamp": {
+              "end_timestamp": "00:05:18.000",
+              "start_timestamp": "00:05:15.000"
+            }
+          },
+          {
+            "description": "Explains the basic syntax of a query: SELECT, FROM, WHERE clauses.",
+            "timestamp": {
+              "end_timestamp": "00:05:22.000",
+              "start_timestamp": "00:05:19.000"
+            }
+          },
+          {
+            "description": "Introduces different approaches for constructing queries: JPQL, Criteria API, Named Queries.",
+            "timestamp": {
+              "end_timestamp": "00:05:30.000",
+              "start_timestamp": "00:05:27.000"
+            }
+          },
+          {
+            "description": "Describes JPQL and its SQL-like syntax.",
+            "timestamp": {
+              "end_timestamp": "00:05:39.000",
+              "start_timestamp": "00:05:37.000"
+            }
+          },
+          {
+            "description": "Explains the Criteria API and its components: CriteriaBuilder, compound selections, expressions, predicates, orderings.",
+            "timestamp": {
+              "end_timestamp": "00:05:47.000",
+              "start_timestamp": "00:05:45.000"
+            }
+          },
+          {
+            "description": "Discusses Named Queries and their association with static JPQL queries.",
+            "timestamp": {
+              "end_timestamp": "00:05:57.000",
+              "start_timestamp": "00:05:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "In-depth explanation of writing queries using various approaches in Jakarta Persistence.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative. The presenter provides a comprehensive overview of how queries are written in Jakarta Persistence, covering various options and their functionalities.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the concept of retrieving data using queries.",
+            "timestamp": "00:05:15.000"
+          },
+          {
+            "description": "Explanation of basic query syntax and different query construction approaches.",
+            "timestamp": "00:05:19.000"
+          },
+          {
+            "description": "Detailed description of JPQL, Criteria API, and Named Queries.",
+            "timestamp": "00:05:27.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text showing the basic syntax of a query: SELECT, FROM, WHERE.",
+            "timestamp": {
+              "end_timestamp": "00:05:23.000",
+              "start_timestamp": "00:05:21.000"
+            }
+          },
+          {
+            "name": "Animated text boxes for each query construction approach: JPQL, Criteria API, Named Queries.",
+            "timestamp": {
+              "end_timestamp": "00:05:33.000",
+              "start_timestamp": "00:05:30.000"
+            }
+          },
+          {
+            "name": "Code snippet showing a JPQL query example.",
+            "timestamp": {
+              "end_timestamp": "00:05:38.000",
+              "start_timestamp": "00:05:37.000"
+            }
+          },
+          {
+            "name": "Animated text boxes for components of the Criteria API: CriteriaBuilder, compound selections, expressions, predicates, orderings.",
+            "timestamp": {
+              "end_timestamp": "00:05:46.000",
+              "start_timestamp": "00:05:45.000"
+            }
+          },
+          {
+            "name": "Code snippet showcasing Named Queries within an entity class.",
+            "timestamp": {
+              "end_timestamp": "00:05:56.000",
+              "start_timestamp": "00:05:55.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Explanation of query writing techniques in Jakarta Persistence.",
+        "timestamps": {
+          "end_timestamp": "00:06:06.000",
+          "start_timestamp": "00:05:12.040"
+        },
+        "title": "Writing Queries",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Writing Queries' text.",
+            "timestamps": {
+              "end_timestamp": "00:05:13.000",
+              "start_timestamp": "00:05:12.040"
+            }
+          },
+          {
+            "description": "Transition to text showing query syntax.",
+            "timestamps": {
+              "end_timestamp": "00:05:22.000",
+              "start_timestamp": "00:05:21.000"
+            }
+          },
+          {
+            "description": "Transition to animated text boxes representing different query approaches.",
+            "timestamps": {
+              "end_timestamp": "00:05:28.000",
+              "start_timestamp": "00:05:27.000"
+            }
+          },
+          {
+            "description": "Transition to code snippet for JPQL query example.",
+            "timestamps": {
+              "end_timestamp": "00:05:38.000",
+              "start_timestamp": "00:05:37.000"
+            }
+          },
+          {
+            "description": "Transition to animated text boxes for Criteria API components.",
+            "timestamps": {
+              "end_timestamp": "00:05:46.000",
+              "start_timestamp": "00:05:45.000"
+            }
+          },
+          {
+            "description": "Transition to code snippet for Named Queries.",
+            "timestamps": {
+              "end_timestamp": "00:05:56.000",
+              "start_timestamp": "00:05:55.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter explains the need for SQL result set mapping when queries return specific fields instead of entire objects.",
+            "timestamp": {
+              "end_timestamp": "00:06:12.000",
+              "start_timestamp": "00:06:09.000"
+            }
+          },
+          {
+            "description": "Introduces the @SqlResultSetMapping annotation and its role in mapping query results correctly.",
+            "timestamp": {
+              "end_timestamp": "00:06:25.000",
+              "start_timestamp": "00:06:22.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Details the importance of SQL result set mapping for accurate data retrieval.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative. The presenter addresses a specific challenge in query handling, highlighting the solution offered by Jakarta Persistence for mapping query results that do not map directly to entity objects.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of scenarios where SQL result set mapping is required.",
+            "timestamp": "00:06:09.000"
+          },
+          {
+            "description": "Introduction to the @SqlResultSetMapping annotation and its function in enabling precise result mapping.",
+            "timestamp": "00:06:22.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Two circles, one representing 'Fields' and the other 'Object,' with a cross mark between them.",
+            "timestamp": {
+              "end_timestamp": "00:06:15.000",
+              "start_timestamp": "00:06:13.000"
+            }
+          },
+          {
+            "name": "Diagram showing two database tables connected by a line representing result set mapping.",
+            "timestamp": {
+              "end_timestamp": "00:06:24.000",
+              "start_timestamp": "00:06:22.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Challenge and solution of SQL result set mapping.",
+        "timestamps": {
+          "end_timestamp": "00:06:29.000",
+          "start_timestamp": "00:06:06.040"
+        },
+        "title": "SQL Result Set Mapping",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'SQL Result Set Mapping' text.",
+            "timestamps": {
+              "end_timestamp": "00:06:07.000",
+              "start_timestamp": "00:06:06.040"
+            }
+          },
+          {
+            "description": "Transition to circles representing fields and object with a cross mark.",
+            "timestamps": {
+              "end_timestamp": "00:06:14.000",
+              "start_timestamp": "00:06:13.000"
+            }
+          },
+          {
+            "description": "Transition to diagram illustrating result set mapping.",
+            "timestamps": {
+              "end_timestamp": "00:06:23.000",
+              "start_timestamp": "00:06:22.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter explains how entity managers facilitate updates and deletions on entities.",
+            "timestamp": {
+              "end_timestamp": "00:06:36.000",
+              "start_timestamp": "00:06:33.000"
+            }
+          },
+          {
+            "description": "Describes the process of modifying an entity and persisting the changes using the merge method.",
+            "timestamp": {
+              "end_timestamp": "00:06:42.000",
+              "start_timestamp": "00:06:37.000"
+            }
+          },
+          {
+            "description": "Explains how to delete an entity using the remove method.",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:06:45.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Explanation of update and delete operations using the entity manager.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative. The presenter provides a clear and concise explanation of how the entity manager handles updates and deletions, reinforcing its central role in managing database interactions.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Continuation of the discussion on the entity manager's capabilities, focusing on updates and deletions.",
+            "timestamp": "00:06:29.040"
+          },
+          {
+            "description": "Description of the steps involved in modifying and removing entities using the merge and remove methods.",
+            "timestamp": "00:06:37.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "An orange square representing the 'Entity Manager'.",
+            "timestamp": {
+              "end_timestamp": "00:06:34.000",
+              "start_timestamp": "00:06:33.000"
+            }
+          },
+          {
+            "name": "Text inside the 'Entity Manager' square indicating 'Set new Values' and an arrow pointing to 'manager merge() method'",
+            "timestamp": {
+              "end_timestamp": "00:06:39.000",
+              "start_timestamp": "00:06:37.000"
+            }
+          },
+          {
+            "name": "A square labeled 'Modified Entity' added to the diagram.",
+            "timestamp": {
+              "end_timestamp": "00:06:46.000",
+              "start_timestamp": "00:06:45.000"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Entity manager capabilities for updates and deletions.",
+        "timestamps": {
+          "end_timestamp": "00:06:53.000",
+          "start_timestamp": "00:06:29.040"
+        },
+        "title": "Performing Updates and Deletes",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Performing Updates & Deletes' text.",
+            "timestamps": {
+              "end_timestamp": "00:06:30.000",
+              "start_timestamp": "00:06:29.040"
+            }
+          },
+          {
+            "description": "Transition to diagram with 'Entity Manager' box.",
+            "timestamps": {
+              "end_timestamp": "00:06:34.000",
+              "start_timestamp": "00:06:33.000"
+            }
+          },
+          {
+            "description": "Text and arrow added to the diagram to represent the update process.",
+            "timestamps": {
+              "end_timestamp": "00:06:38.000",
+              "start_timestamp": "00:06:37.000"
+            }
+          },
+          {
+            "description": "'Modified Entity' square added to the diagram.",
+            "timestamps": {
+              "end_timestamp": "00:06:46.000",
+              "start_timestamp": "00:06:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter explains the schema generation capabilities of Jakarta Persistence.",
+            "timestamp": {
+              "end_timestamp": "00:07:00.000",
+              "start_timestamp": "00:06:57.000"
+            }
+          },
+          {
+            "description": "Discusses configuring schema generation and data loading during application deployment and destruction.",
+            "timestamp": {
+              "end_timestamp": "00:07:05.000",
+              "start_timestamp": "00:07:02.000"
+            }
+          },
+          {
+            "description": "Mentions the usefulness of this feature for demonstration purposes.",
+            "timestamp": {
+              "end_timestamp": "00:07:12.000",
+              "start_timestamp": "00:07:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Highlights the capabilities of schema generation during application lifecycle stages.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative. The presenter introduces the powerful feature of automatic schema generation and data loading, highlighting its benefits and potential use cases.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to schema generation capabilities in Jakarta Persistence.",
+            "timestamp": "00:06:57.000"
+          },
+          {
+            "description": "Explanation of how to configure schema generation and data loading actions during deployment and destruction.",
+            "timestamp": "00:07:02.000"
+          },
+          {
+            "description": "Discussion of potential applications, particularly for demonstration scenarios.",
+            "timestamp": "00:07:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code snippet showing a persistence.xml file with properties for schema generation.",
+            "timestamp": {
+              "end_timestamp": "00:07:00.000",
+              "start_timestamp": "00:06:57.000"
+            }
+          }
+        ],
+        "sceneId": 11,
+        "thematicElements": "Schema generation and data loading features.",
+        "timestamps": {
+          "end_timestamp": "00:07:16.920",
+          "start_timestamp": "00:06:53.040"
+        },
+        "title": "Generating Database Schemas",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Generating Database Schemas' text.",
+            "timestamps": {
+              "end_timestamp": "00:06:54.000",
+              "start_timestamp": "00:06:53.040"
+            }
+          },
+          {
+            "description": "Split screen showing code snippet (persistence.xml) and presenter.",
+            "timestamps": {
+              "end_timestamp": "00:06:59.000",
+              "start_timestamp": "00:06:57.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter explains stored procedures and their execution within a relational database.",
+            "timestamp": {
+              "end_timestamp": "00:07:25.000",
+              "start_timestamp": "00:07:21.000"
+            }
+          },
+          {
+            "description": "Introduces the StoredProcedureQuery interface for invoking stored procedures.",
+            "timestamp": {
+              "end_timestamp": "00:07:32.000",
+              "start_timestamp": "00:07:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Describes the process of handling stored procedures with specific interfaces provided by Jakarta Persistence.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative. The presenter continues to expand on Jakarta Persistence's capabilities, focusing on how it handles interactions with stored procedures within databases.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of stored procedures and their function.",
+            "timestamp": "00:07:21.000"
+          },
+          {
+            "description": "Introduction to the StoredProcedureQuery interface and its role in invoking stored procedures from within a Jakarta Persistence application.",
+            "timestamp": "00:07:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram showing a database icon and text lines representing stored procedures.",
+            "timestamp": {
+              "end_timestamp": "00:07:24.000",
+              "start_timestamp": "00:07:21.000"
+            }
+          },
+          {
+            "name": "Diagram showing a 'StoredProcedureQuery' box connected to both the database and a webpage icon.",
+            "timestamp": {
+              "end_timestamp": "00:07:31.000",
+              "start_timestamp": "00:07:29.000"
+            }
+          }
+        ],
+        "sceneId": 12,
+        "thematicElements": "Interaction with stored procedures using Jakarta Persistence.",
+        "timestamps": {
+          "end_timestamp": "00:08:12.000",
+          "start_timestamp": "00:07:16.960"
+        },
+        "title": "Stored Procedures",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with 'Stored Procedures' text.",
+            "timestamps": {
+              "end_timestamp": "00:07:25.000",
+              "start_timestamp": "00:07:17.000"
+            }
+          },
+          {
+            "description": "Transition to diagram illustrating stored procedures within a database.",
+            "timestamps": {
+              "end_timestamp": "00:07:22.000",
+              "start_timestamp": "00:07:21.000"
+            }
+          },
+          {
+            "description": "Transition to diagram showing the 'StoredProcedureQuery' interface and its connections.",
+            "timestamps": {
+              "end_timestamp": "00:07:30.000",
+              "start_timestamp": "00:07:29.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter provides a final summary of Jakarta Persistence and its benefits.",
+            "timestamp": {
+              "end_timestamp": "00:08:14.000",
+              "start_timestamp": "00:08:12.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": ""
+          }
+        ],
+        "contextualRelevance": "Wraps up the video by summarizing the benefits of Jakarta Persistence and providing resources for further learning.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative, Positive. The presenter concludes with a positive note, emphasizing the ease and effectiveness of Jakarta Persistence in simplifying data persistence tasks.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Summary of Jakarta Persistence and its key features and benefits.",
+            "timestamp": "00:08:12.040"
+          },
+          {
+            "description": "Encouragement to learn more about the specification by visiting the website.",
+            "timestamp": "00:08:12.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Three icons representing stored procedures, databases, and tables connected to 'Jakarta Persistence'.",
+            "timestamp": {
+              "end_timestamp": "00:08:14.000",
+              "start_timestamp": "00:08:12.040"
+            }
+          },
+          {
+            "name": "A website URL 'https://jakarta.ee/specifications/persistence/' for more information.",
+            "timestamp": {
+              "end_timestamp": "00:08:14.000",
+              "start_timestamp": "00:08:12.040"
+            }
+          }
+        ],
+        "sceneId": 13,
+        "thematicElements": "Closing remarks on Jakarta Persistence's benefits and further resources.",
+        "timestamps": {
+          "end_timestamp": "00:08:14.320",
+          "start_timestamp": "00:08:12.040"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a final screen summarizing Jakarta Persistence.",
+            "timestamps": {
+              "end_timestamp": "00:08:14.000",
+              "start_timestamp": "00:08:12.040"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "As an informational video, it does not have a clear climax but follows a structured flow covering essential aspects of Jakarta Persistence.",
+        "timestamp": "00:08:12.000"
+      },
+      "description": "The video provides a comprehensive overview of Jakarta Persistence, focusing on its functionality, concepts, and benefits within the Jakarta EE ecosystem, presented through interconnected scenes covering core topics, practical tasks, and extending functionalities.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "title": "Jakarta Persistence Explained",
+    "trimmingSuggestions": [
+      {
+        "description": "This scene briefly reiterates CRUD operations, which have already been discussed earlier. It could be condensed or integrated into other scenes.",
+        "timestamps": {
+          "end_timestamp": "00:08:12.040",
+          "start_timestamp": "00:08:12.040"
+        }
+      },
+      {
+        "description": "The concluding scene could be shortened and made more impactful by focusing on the most significant benefits of Jakarta Persistence.",
+        "timestamps": {
+          "end_timestamp": "00:08:14.000",
+          "start_timestamp": "00:08:12.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 494,
+  "original_json_filename": "fzMdP7SxfSw.json",
+  "original_video_filename": "fzMdP7SxfSw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this video we'll be looking at the Jakarta persistent specification the Jakarta persistence specification also known as Jakarta persistance API or jpa consists of multiple apis facilitating data management in relational databases it offers developers a powerful solution for mapping Java classes to database tables enabling easy creation reading updating and deletion of data this video will provide a brief overview and you're encouraged to look at the full specification documentation for each of the apis Jakarta persistence is included in the Jakarta e platform and Jakarta e web profile if using the full platform or web profile there is no need to add Jakarta persistence as a separate dependency however if adding individual specifications the Jakarta persistence API artifact ID should be added as a maven dependency database tables can be mapped directly to plain old Java objects otherwise known as pojos that contain special annotations for Jakarta persistence these classes are called entity classes a single table typically maps to a single entity class and The Columns of a table map to the fields declared within the entity class however in advanced cases it is possible to map entities in different ways to make the data more flexible there are a large number of annotations that can be used to customize entity classes in order to achieve the dat datase mapping solution to suit the needs of the task an entity class should contain the at entity annotation as well as an at table annotation which specifies the name of the associated database table using its name attribute each column of the table then contains a corresponding field declaration in the class and an at column annotation with an optional name attribute to designate the name of the associated database [Music] column relational databases are built around the idea of breaking down data types into their simplest form possible and creating tables to hold the data since tables correlate to simple form also known as first normal form often times it takes more than one table to store the data Associated along with corresponding attribute data relating tables to each other is also known as joining the tables usually by providing a column to hold the keys for the related tables entity classes can also provide relationships to other entities in a similar manner there are a number of ways to relate Jakarta persistence entity classes to each other typically using one of the following relationship annotations at 1: one at one to many at many to one or at many to many applying these annotations on entity class Fields enables one to join entity classes to each other and thereby obtain access to related data via the use of accessor methods typically when using these annotations attributes are used to specify the database columns which to use to store the keys for the related table it's important to note that one may specify a fetch type with the entity relationship annotations which dictates how the data from related tables is retrieved fetch type options are eager and lazy jakara persistence facilitates primary key creation for database tables through generators allowing entity classes to autogenerate values an entity manager must be obtained from with within an application resource and is responsible for executing queries and returning data the persistence context contains configuration for a persistence unit after a persistence unit has been configured an entity manager can be injected into a resource via the at persistence context annotation after an entity manager has been injected into a resource it can be called upon to create return update and delete database records working directly with the entity classes Jakarta persistence also specifies an API that can be used to obtain metadata regarding entities that are managed by a persistence unit for each entity class that belongs to a particular package a metamodel class is automatically created by Jakarta persistence which has the same name as the entity class along with a trailing underscore The Meta model class contains attributes that correspond to the fields of the entity class the most common operations used in applications that persist data are create read update and delete or crud operations crud operations are commonly associated with relational databases but can be applied to any persistence mechanisms writing code for these operations is usually repetitive work consisting mostly of boilerplate code AS entity classes map to database tables they can be used to create new records creating a record is as easy as instantiating a new entity class populating it with data and persisting it by calling upon the entity manager create method and passing the new object toata persistence enables the ability to retrieve data from entity classes the basic semantics of a query consist of the select Clause the from clause and an optional wear Clause Jakarta persistence offers a few different ways to constru queries those being Jakarta persistence query language criteria API and named queries using Jakarta persistence query language one can develop SQL like queries to obtain data from the database through the use of entity classes the quiteria query API enables developers to use a criteria Builder to construct queries compound selections Expressions predicates and orderings lastly named queries allow one to associate static Jakarta persistent query language query to a name and then call upon that name using an entity manager to execute often times queries need to return distinct Fields rather than entire objects when the fields are being returned from a query do not correspond to the object relational mapping metadata SQL result set mapping must be used this solution allows explicit field mapping to be provided to enable the persistence provider to map the results correctly [Music] entity managers make it easy to perform updates on an entity to modify an entity simply set the new values using the entity class accessor methods and then pass the updated entity to The Entity manager merge method to remove an entity Associated to a record from a database pass the entity to The Entity manager remove method Jakarta persistance provides the capability to generate database schema objects when an application is deployed it can also be configured to load data into objects and remove the schema objects once the application is destroyed this may be useful if an application is being used for a demo and the database should be recreated with each new deployment to The Container a stored procedure is a code construct that is stored within a relational database when invoked the stored procedure will execute and can optionally return and outcome Jakarta persistence provides the stored procedure query interface to enable the invocation of database stored procedures in conclusion Jakarta persistence is a widely used specification which is required for accessing relational data within a Jakarta e application the use of Jakarta persistance can also be quite simplistic depending upon the requirements of the application Jakarta persistence makes it easy to work with Java objects to create read and update and delete data from a relational database using pure Java for more information about the Jakarta persistent specification please visit our website [Music]",
+  "text_to_speech_word_count": 1193,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.920",
+      "start": "00:00:00.000",
+      "text": " In this video, we'll be looking at the Jakarta Persistent Specification."
+    },
+    {
+      "end": "00:00:13.800",
+      "start": "00:00:07.920",
+      "text": " The Jakarta Persistent Specification, also known as Jakarta Persistent API or JPA,"
+    },
+    {
+      "end": "00:00:19.520",
+      "start": "00:00:13.800",
+      "text": " consists of multiple APIs facilitating data management in relational databases."
+    },
+    {
+      "end": "00:00:24.560",
+      "start": "00:00:19.520",
+      "text": " It offers developers a powerful solution for mapping Java classes to database tables,"
+    },
+    {
+      "end": "00:00:28.600",
+      "start": "00:00:24.560",
+      "text": " enabling easy creation, reading, updating, and deletion of data."
+    },
+    {
+      "end": "00:00:35.600",
+      "start": "00:00:28.600",
+      "text": " This video will provide a brief overview and you'll encourage to look at the full specification documentation for each of the APIs."
+    },
+    {
+      "end": "00:00:41.600",
+      "start": "00:00:35.600",
+      "text": " Jakarta Persistence is included in the Jakarta EE platform and Jakarta EE web profile."
+    },
+    {
+      "end": "00:00:47.600",
+      "start": "00:00:41.600",
+      "text": " If using the full platform or web profile, there is no need to add Jakarta Persistence as a separate dependency."
+    },
+    {
+      "end": "00:00:57.600",
+      "start": "00:00:47.600",
+      "text": " However, if adding individual specifications, the Jakarta Persistence API artifact ID should be added as a maven dependency."
+    },
+    {
+      "end": "00:01:05.560",
+      "start": "00:00:59.600",
+      "text": " Database tables can be mapped directly to plain old Java objects, otherwise known as Pojos,"
+    },
+    {
+      "end": "00:01:08.560",
+      "start": "00:01:05.560",
+      "text": " that contain special annotations for Jakarta Persistence."
+    },
+    {
+      "end": "00:01:11.560",
+      "start": "00:01:08.560",
+      "text": " These classes are called Entity classes."
+    },
+    {
+      "end": "00:01:18.560",
+      "start": "00:01:11.560",
+      "text": " A single table typically maps to a single Entity class and the columns of a table map to the field declared within the Entity class."
+    },
+    {
+      "end": "00:01:24.600",
+      "start": "00:01:18.560",
+      "text": " However, in advanced cases, it is possible to map entities in different ways to make the data more flexible."
+    },
+    {
+      "end": "00:01:32.600",
+      "start": "00:01:24.600",
+      "text": " There are a large number of annotations that can be used to customize entity classes in order to achieve the database mapping solution to suit the needs of the task."
+    },
+    {
+      "end": "00:01:42.600",
+      "start": "00:01:32.600",
+      "text": " An entity class should contain the ATT Entity annotation, as well as an ATT table annotation, which specifies the name of the associated database table using its name attribute."
+    },
+    {
+      "end": "00:01:53.600",
+      "start": "00:01:42.600",
+      "text": " Each column of the table then contains a corresponding field declaration in the class and an ATT column annotation with an optional name attribute to designate the name of the associated database column."
+    },
+    {
+      "end": "00:02:05.600",
+      "start": "00:01:53.600",
+      "text": " Relational databases are built around the idea of breaking down data types into their simplest form possible and creating tables to hold the data."
+    },
+    {
+      "end": "00:02:16.600",
+      "start": "00:02:05.600",
+      "text": " Since tables correlate to simple form, also known as a first normal form, oftentimes it takes more than one table to store the data associated along with corresponding attribute data."
+    },
+    {
+      "end": "00:02:24.600",
+      "start": "00:02:16.600",
+      "text": " Relating tables to each other is also known as joining the tables, usually by providing a column to hold the keys for the related tables."
+    },
+    {
+      "end": "00:02:37.600",
+      "start": "00:02:24.600",
+      "text": " Entity classes can also provide relationships to other entities in a similar manner. There are a number of ways to relate Jakarta persistence entity classes to each other, typically using one of the following relationship annotations."
+    },
+    {
+      "end": "00:02:54.600",
+      "start": "00:02:37.600",
+      "text": " At 1 to 1, at 1 to many, at many to 1, or at many to many. Applying these annotations on entity class fields enables one to join entity classes to each other and thereby obtain access to related data via the use of excesser methods."
+    },
+    {
+      "end": "00:03:02.600",
+      "start": "00:02:54.600",
+      "text": " Typically, when using these annotations, attributes are used to specify the database columns which are used to store the keys for the related table."
+    },
+    {
+      "end": "00:03:12.600",
+      "start": "00:03:02.600",
+      "text": " It's important to note that one may specify a fetch type with the entity relationship annotations which dictates how the data from related tables is retrieved."
+    },
+    {
+      "end": "00:03:26.600",
+      "start": "00:03:12.600",
+      "text": " Fetch type options are eager and lazy. Jakarta persistence facilitates primary key creation for database tables through generators, allowing entity classes to auto generate values."
+    },
+    {
+      "end": "00:03:34.600",
+      "start": "00:03:26.600",
+      "text": " An entity manager must be obtained from within an application resource and it is responsible for executing queries and returning data."
+    },
+    {
+      "end": "00:03:47.600",
+      "start": "00:03:34.600",
+      "text": " The persistence context contains configuration for a persistence unit. After a persistence unit has been configured, an entity manager can be injected into a resource via the at persistence context annotation."
+    },
+    {
+      "end": "00:03:58.600",
+      "start": "00:03:47.600",
+      "text": " After an entity manager has been injected into a resource, it can be called upon to create, return, update and delete database records working directly with the entity classes."
+    },
+    {
+      "end": "00:04:09.600",
+      "start": "00:04:00.600",
+      "text": " Jakarta persistence also specifies an API that can be used to obtain metadata regarding entities that are managed by a persistence unit."
+    },
+    {
+      "end": "00:04:21.600",
+      "start": "00:04:09.600",
+      "text": " For each entity class that belongs to a particular package, a meta model class is automatically created by Jakarta persistence which has the same name as the entity class along with a trailing underscore."
+    },
+    {
+      "end": "00:04:26.600",
+      "start": "00:04:21.600",
+      "text": " The meta model class contains attributes that correspond to the fields of the entity class."
+    },
+    {
+      "end": "00:04:38.600",
+      "start": "00:04:26.600",
+      "text": " The most common operations used in applications that persist data are create, read, update and delete or crud operations."
+    },
+    {
+      "end": "00:04:45.600",
+      "start": "00:04:38.600",
+      "text": " Crud operations are commonly associated with relational databases but can be applied to any persistence mechanisms."
+    },
+    {
+      "end": "00:04:50.600",
+      "start": "00:04:45.600",
+      "text": " Writing code for these operations is usually repetitive work consisting mostly of boilerplate code."
+    },
+    {
+      "end": "00:04:59.600",
+      "start": "00:04:50.600",
+      "text": " As entity classes map to database tables, it can be used to create new records."
+    },
+    {
+      "end": "00:05:11.600",
+      "start": "00:04:59.600",
+      "text": " Creating a record is as easy as instantiating a new entity class, populating it with data and persisting it by calling upon the entity manager, create method and passing the new object."
+    },
+    {
+      "end": "00:05:19.600",
+      "start": "00:05:11.600",
+      "text": " Jakarta persistence enables the ability to retrieve data from entity classes."
+    },
+    {
+      "end": "00:05:26.600",
+      "start": "00:05:19.600",
+      "text": " The basic semantics of a query consist of the select clause, the from clause and an optional where clause."
+    },
+    {
+      "end": "00:05:36.600",
+      "start": "00:05:26.600",
+      "text": " Jakarta persistence offers a few different ways to construct queries, those being Jakarta persistence query language, criteria API and named queries."
+    },
+    {
+      "end": "00:05:45.600",
+      "start": "00:05:36.600",
+      "text": " Using Jakarta persistence query language, one can develop SQL like queries to obtain data from the database through the use of entity classes."
+    },
+    {
+      "end": "00:05:55.600",
+      "start": "00:05:45.600",
+      "text": " The criteria query API enables developers to use a criteria builder to construct queries, compound selections, expressions, predicates and orderings."
+    },
+    {
+      "end": "00:06:06.600",
+      "start": "00:05:55.600",
+      "text": " Lastly, named queries allow one to associate a static Jakarta persistence query language query to a name and then call upon that name using an entity manager to execute."
+    },
+    {
+      "end": "00:06:14.600",
+      "start": "00:06:09.600",
+      "text": " Oftentimes queries need to return distinct fields rather than entire objects."
+    },
+    {
+      "end": "00:06:22.600",
+      "start": "00:06:14.600",
+      "text": " When the fields are being returned from a query do not correspond to the object relational mapping metadata, SQL results set mapping must be used."
+    },
+    {
+      "end": "00:06:29.600",
+      "start": "00:06:22.600",
+      "text": " This solution allows explicit field mapping to be provided to enable the persistence provider to map the results correctly."
+    },
+    {
+      "end": "00:06:44.600",
+      "start": "00:06:32.600",
+      "text": " Entity managers make it easy to perform updates on an entity to modify an entity, simply set the new values using the entity class successor methods and then pass the updated entity to the entity manager merge method."
+    },
+    {
+      "end": "00:06:52.600",
+      "start": "00:06:44.600",
+      "text": " To remove an entity associated to a record from a database pass the entity to the entity manager remove method."
+    },
+    {
+      "end": "00:07:01.600",
+      "start": "00:06:56.600",
+      "text": " Jakarta persistence provides the capability to generate database schema objects when an application is deployed."
+    },
+    {
+      "end": "00:07:08.600",
+      "start": "00:07:01.600",
+      "text": " It can also be configured to load data into objects and remove the schema objects once the application is destroyed."
+    },
+    {
+      "end": "00:07:15.600",
+      "start": "00:07:08.600",
+      "text": " This may be useful if an application is being used for a demo and the database should be recreated with each new deployment to the container."
+    },
+    {
+      "end": "00:07:29.600",
+      "start": "00:07:20.600",
+      "text": " A stored procedure is a code construct that is stored within a relational database when in-vote the stored procedure will execute and can optionally return an outcome."
+    },
+    {
+      "end": "00:07:35.600",
+      "start": "00:07:29.600",
+      "text": " Jakarta persistence provides the stored procedure query interface to enable the invocation of database stores procedures."
+    },
+    {
+      "end": "00:07:44.600",
+      "start": "00:07:36.600",
+      "text": " In conclusion Jakarta persistence is a widely used specification which is required for accessing relational data within a Jakarta EE application."
+    },
+    {
+      "end": "00:07:50.600",
+      "start": "00:07:44.600",
+      "text": " The use of Jakarta persistence can also be quite simplistic depending upon the requirements of the application."
+    },
+    {
+      "end": "00:07:59.600",
+      "start": "00:07:50.600",
+      "text": " Jakarta persistence makes it easy to work with Java objects to create, read and update and delete data from a relational database using pure Java."
+    },
+    {
+      "end": "00:08:04.600",
+      "start": "00:07:59.600",
+      "text": " For more information about the Jakarta persistence specification please visit our website."
+    },
+    {
+      "end": "00:08:10.600",
+      "start": "00:08:05.600",
+      "text": " www. Jakarta persistence.com"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Jakarta EE",
+  "youtube_channel_follower_count": 4250,
+  "youtube_comment_count": 4,
+  "youtube_description": "The Jakarta Persistence specification, also known as Jakarta Persistence API or JPA, encompasses a number of APIs that facilitate the creation, reading, updating, and deletion of data within relational databases. \n\nLearn more about Jakarta EE: https://bit.ly/3IPrxOq \nJakarta EE Tutorial: https://jakarta.ee/learn/docs/jakartaee-tutorial/current/index.html\nStarter for Jakarta EE: https://start.jakarta.ee/\n\nFollow us on Twitter: https://twitter.com/home\nFollow us on LinkedIn: https://www.linkedin.com/showcase/jakartaee/ \nLike us on Facebook: https://www.facebook.com/JakartaEE/",
+  "youtube_like_count": 7699,
+  "youtube_tags": [],
+  "youtube_title": "Jakarta Persistence Explained",
+  "youtube_upload_date": "20240423",
+  "youtube_view_count": 312844
+}

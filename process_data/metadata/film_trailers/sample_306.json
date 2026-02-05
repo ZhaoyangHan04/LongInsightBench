@@ -1,0 +1,590 @@
+{
+  "content_fine_category": "Film Trailers",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Man in a suit and sunglasses talking on the phone while driving a car.",
+        "name": "James"
+      },
+      {
+        "characterId": "2",
+        "description": "Man in a blue suit interviewing a prisoner.",
+        "name": "Lawyer"
+      },
+      {
+        "characterId": "3",
+        "description": "Man in an orange jumpsuit, restrained at a table, being interrogated.",
+        "name": "Prisoner/Edward"
+      },
+      {
+        "characterId": "4",
+        "description": "Bald man in a suit, talking outdoors.",
+        "name": "Warden"
+      },
+      {
+        "characterId": "5",
+        "description": "Threatening male voice on the phone.",
+        "name": "Voice"
+      }
+    ],
+    "description": "A detailed analysis of a dramatic video featuring complex character interactions and mysterious events.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Although not explicitly said, the visuals suggest he might be a lawyer, given his attire and his subsequent appearance in a prison setting.",
+        "question": "What is the profession of the man who receives the phone call at the beginning?"
+      },
+      {
+        "answer": "11 pm.",
+        "question": "What time is the execution scheduled for?"
+      },
+      {
+        "answer": "A demon.",
+        "question": "What does the prisoner claim to be?"
+      },
+      {
+        "answer": "\"We own him.\"",
+        "question": "What does the Lawyer say that suggests a larger conspiracy is at play?"
+      },
+      {
+        "answer": "A jump scare sound effect.",
+        "question": "What sound effect is used to make the prisoner's claim more impactful?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Drone shot of a prison",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Cut to black, phone rings",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "James answers the phone.",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Voice speaks to James.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Cut to black",
+            "timestamp": {
+              "end_timestamp": "00:00:14.533",
+              "start_timestamp": "00:00:14.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "James",
+          "Voice"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "James",
+              "Voice"
+            ],
+            "description": "James listens fearfully to the threatening voice on the other end of the phone. The interaction is one-sided, with James as the listener and the unseen Voice holding power."
+          }
+        ],
+        "contextualRelevance": "The ominous tone and the focus on the prison suggest that James is in danger due to something connected to the prison or its inmates.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Anxious. The sudden cut to black and the ringing phone create tension. The voice's dialogue is threatening and ominous, contributing to the anxious mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "James receives a threatening phone call.",
+            "timestamp": "00:00:03.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Prison building (exterior)",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Phone",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Justice, consequences, power dynamics, fear",
+        "timestamps": {
+          "end_timestamp": "00:00:14.533",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1",
+        "videoEditingDetails": [
+          {
+            "description": "Slow zoom in on prison from a drone shot.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Cut to black, phone ringing sound effect.",
+            "timestamps": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Close-up on James answering a phone call, voiceover with threatening dialogue.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Cut to black. This cut could be faster to increase dynamism.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.533",
+              "start_timestamp": "00:00:14.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Guard stands on prison watchtower.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "description": "Execution scheduled for 11 pm.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          },
+          {
+            "description": "Lawyer enters prison.",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "description": "Prisoner is in a cell.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          },
+          {
+            "description": "Lawyer approaches the prisoner.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Lawyer",
+          "Prisoner/Edward",
+          "Warden"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The Lawyer's demeanor suggests a moral conflict, hinting at his internal struggle regarding the execution and his role in it.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Tense, suspenseful, shifting towards somber.",
+          "keyMoments": [
+            {
+              "changeDescription": "The initial tense atmosphere transitions to a more serious and somber mood as the Lawyer enters the prison and approaches the Prisoner.",
+              "timestamp": "00:00:17.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The time of the execution is revealed.",
+            "timestamp": "00:00:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Watchtower",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "name": "Prison cell",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Justice, death penalty, morality, desperation",
+        "timestamps": {
+          "end_timestamp": "00:00:26.367",
+          "start_timestamp": "00:00:14.567"
+        },
+        "title": "Scene 2",
+        "videoEditingDetails": [
+          {
+            "description": "Quick cuts between prison exterior shots, a guard on a watchtower, and James driving, accompanied by fast-paced, suspenseful music.",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "description": "Transition to slower cuts as the Lawyer enters the prison and approaches the Prisoner. Music becomes less intense, shifting to a more somber and dramatic tone.",
+            "timestamps": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Lawyer questions the prisoner.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "description": "The prisoner claims to be a demon.",
+            "timestamp": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "\"This April\" appears on a black screen.",
+            "timestamp": {
+              "end_timestamp": "00:00:44.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          },
+          {
+            "description": "The Lawyer questions the prisoner's sanity.",
+            "timestamp": {
+              "end_timestamp": "00:00:46.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          },
+          {
+            "description": "The Lawyer says, \"We own him.\"",
+            "timestamp": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          },
+          {
+            "description": "The prisoner laughs.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "description": "Someone presses a button.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Lawyer",
+          "Prisoner/Edward"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lawyer",
+              "Prisoner/Edward"
+            ],
+            "description": "Intense interrogation. The Lawyer is skeptical, while the Prisoner remains calm and unnerving with his claims."
+          }
+        ],
+        "contextualRelevance": "The Prisoner's calmness suggests his claims might be true, planting doubt in viewers' minds. The \"We own him\" statement hints at a more powerful force manipulating the situation.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Tense, unsettling, suspenseful, mysterious",
+          "keyMoments": [
+            {
+              "changeDescription": "Shifts from tense to unsettling with the jump scare and the Prisoner's claim.",
+              "timestamp": "00:00:35.000"
+            },
+            {
+              "changeDescription": "Shifts to suspenseful anticipation with the \"This April\" title card.",
+              "timestamp": "00:00:42.000"
+            },
+            {
+              "changeDescription": "Becomes more mysterious as quick cuts introduce new visuals and questions.",
+              "timestamp": "00:00:44.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Prisoner claims to be a demon.",
+            "timestamp": "00:00:35.000"
+          },
+          {
+            "description": "\"We own him\" suggests a conspiracy.",
+            "timestamp": "00:00:46.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Prison interrogation room table and chairs",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "Files",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "Button panel",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Sanity vs. Insanity, supernatural, manipulation, truth and deception",
+        "timestamps": {
+          "end_timestamp": "00:01:00.000",
+          "start_timestamp": "00:00:26.400"
+        },
+        "title": "Scene 3",
+        "videoEditingDetails": [
+          {
+            "description": "Close-up shots of the Lawyer and the Prisoner during their intense exchange, emphasizing their expressions and creating a claustrophobic atmosphere.",
+            "timestamps": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:26.400"
+            }
+          },
+          {
+            "description": "A jump scare with a loud sound effect coincides with the Prisoner's claim of being a demon.",
+            "timestamps": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "Cut to black with \"This April\" appearing in white text, signifying the upcoming release of the film and building anticipation.",
+            "timestamps": {
+              "end_timestamp": "00:00:44.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          },
+          {
+            "description": "Quick cuts between different scenes, including the interrogation, a house-like structure, and the Lawyer's thoughtful expressions, building suspense and leaving the audience with unanswered questions.",
+            "timestamps": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is implied and yet to come. The scenes build anticipation for unfolding mysteries and conflicts.",
+        "timestamp": "00:01:00.000"
+      },
+      "description": "James receives a threatening phone call, setting the stage for a confrontation involving him and a mysterious voice. Meanwhile, the Lawyer enters the prison to visit Prisoner Edward, who claims to be a demon, adding layers of suspense and complexity to an impending execution.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten or remove the guard shot at 0:15 to maintain dynamic pacing.",
+        "timestamps": {
+          "end_timestamp": "00:00:26.400",
+          "start_timestamp": "00:00:26.400"
+        }
+      },
+      {
+        "description": "Consider reducing the \"This April\" title card duration for a faster flow.",
+        "timestamps": {
+          "end_timestamp": "00:00:44.000",
+          "start_timestamp": "00:00:42.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Entertainment",
+  "duration_seconds": 60,
+  "original_json_filename": "aXDO54iMEuQ.json",
+  "original_video_filename": "aXDO54iMEuQ.mp4",
+  "resolution": "360x640",
+  "text_to_speech": "hello James [Music] execution scheduled for 11 p.m but he's trying to convince us he's gone insane and therefore incapable of being executed I need you to prove he's Faking It Edward let me ask you some questions I'm not an Edward I'm a demon demons aren't really a thing [Music] what happened we own him the master manipulator you have your head so twisted around you think you're the killer not him and give me something to make him believe you",
+  "text_to_speech_word_count": 82,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.000",
+      "start": "00:00:00.000",
+      "text": " Hello?"
+    },
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:03.000",
+      "text": " You should have accepted my offer."
+    },
+    {
+      "end": "00:00:07.000",
+      "start": "00:00:06.000",
+      "text": " James."
+    },
+    {
+      "end": "00:00:11.000",
+      "start": "00:00:07.000",
+      "text": " He's here."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:11.000",
+      "text": " He's here."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:15.000",
+      "text": " Execution schedule for 11 p.m."
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:19.000",
+      "text": " It is trying to convince us he's gone insane."
+    },
+    {
+      "end": "00:00:27.000",
+      "start": "00:00:24.000",
+      "text": " And therefore incapable being a kid."
+    },
+    {
+      "end": "00:00:31.000",
+      "start": "00:00:28.000",
+      "text": " I need you to prove he's faking it."
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:31.000",
+      "text": " Edward?"
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:32.000",
+      "text": " I'm gonna ask you some questions."
+    },
+    {
+      "end": "00:00:39.000",
+      "start": "00:00:35.000",
+      "text": " Edward, I'm a demon."
+    },
+    {
+      "end": "00:00:42.000",
+      "start": "00:00:39.000",
+      "text": " Demons aren't really a thing."
+    },
+    {
+      "end": "00:00:45.000",
+      "start": "00:00:44.000",
+      "text": " What happened to that?"
+    },
+    {
+      "end": "00:00:47.000",
+      "start": "00:00:45.000",
+      "text": " We own him."
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:47.000",
+      "text": " We?"
+    },
+    {
+      "end": "00:00:52.000",
+      "start": "00:00:50.000",
+      "text": " We's a master manipulator."
+    },
+    {
+      "end": "00:00:55.000",
+      "start": "00:00:52.000",
+      "text": " You have your head so twisted around you think you're the killer?"
+    },
+    {
+      "end": "00:00:57.000",
+      "start": "00:00:55.000",
+      "text": " Not him."
+    },
+    {
+      "end": "00:00:59.000",
+      "start": "00:00:57.000",
+      "text": " Give me something to make me believe you."
+    },
+    {
+      "end": "00:01:01.000",
+      "start": "00:00:59.000",
+      "text": " Prove it."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "nefarious movie",
+  "youtube_channel_follower_count": 4760,
+  "youtube_comment_count": 22,
+  "youtube_description": "",
+  "youtube_like_count": 671,
+  "youtube_tags": [],
+  "youtube_title": "Nefarious | Only In Theaters, April 14 #nefariousmovie #horror #thriller #supernatural",
+  "youtube_upload_date": "20230309",
+  "youtube_view_count": 14018
+}

@@ -1,0 +1,215 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male with short brown hair, glasses, wearing a Google t-shirt, positioned in front of a green screen.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "A video tutorial on the simplified CSS container styling technique aimed at providing an efficient and modern approach to coding.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Lime green.",
+        "question": "What color is the border of the container in the example?"
+      },
+      {
+        "answer": "It allows for setting both a minimum and maximum width within a single property, simplifying the CSS and improving responsiveness.",
+        "question": "What is the benefit of using `min` for the container width?"
+      },
+      {
+        "answer": "`margin-inline` specifically targets the left and right margins, ensuring consistent spacing on those sides without affecting the top and bottom margins.",
+        "question": "Why is `margin-inline` used instead of regular `margin`?"
+      },
+      {
+        "answer": "600 pixels.",
+        "question": "What is the maximum width applied to the container?"
+      },
+      {
+        "answer": "The video maintains a positive and helpful tone, aiming to educate viewers on a practical CSS technique. The speaker's enthusiasm contributes to the engaging and informative nature of the content.",
+        "question": "What is the overall mood and tone of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explaining CSS",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Coding",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker directly addresses the viewers, creating an engaging learning experience."
+          }
+        ],
+        "contextualRelevance": "Emphasis on adopting updated coding practices for cleaner and more maintainable codebases.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces CSS containers and typical styling.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Simplifies container width using `min` and adjusts spacing with `margin-inline`.",
+            "timestamp": "00:00:06.000"
+          },
+          {
+            "description": "Explains benefits of simplified code and dynamic centering.",
+            "timestamp": "00:00:16.000"
+          },
+          {
+            "description": "Adds `max-width` constraint for responsiveness.",
+            "timestamp": "00:00:29.000"
+          },
+          {
+            "description": "Recap of solution and efficiency.",
+            "timestamp": "00:00:40.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code editor",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Webpage display",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Efficiency in coding, modern CSS techniques.",
+        "timestamps": {
+          "end_timestamp": "00:00:50.200",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Simplifying CSS Containers",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom in on code",
+            "timestamps": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Cursor movement highlighting code changes",
+            "timestamps": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs when the final code is in place, demonstrating the effectiveness of the simplified solution.",
+        "timestamp": "00:00:40.000"
+      },
+      "description": "Simplifying CSS Containers",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Video Analysis: Simplifying CSS Container Styles",
+    "trimmingSuggestions": [
+      {
+        "description": "The introduction could be shortened by directly showcasing the simplified code and then briefly mentioning the traditional approach for a snappier start.",
+        "timestamps": {
+          "end_timestamp": "00:00:06.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 50,
+  "original_json_filename": "SGlpOnIgk1w.json",
+  "original_video_filename": "SGlpOnIgk1w.mp4",
+  "resolution": "202x360",
+  "text_to_speech": "i'm sure you've had a container look something like this without a border but this is a bunch of css that we could actually simplify and just do a width and use some modern css so i could actually say 100 minus 2 rem so it's one rem on each side and just doing that you'll notice that it's off the side there and so we can fix that by saying a margin in line which is only going to do the left and the right one so i don't reset on the top and the bottom and now you can see that's always staying centered but we do have the problem of it you know we need a max width on there but because we're using a min width on here i can just come put a comma and then set the same thing we had before which was 600 pixels and hit save on there and now we have exactly what we had before we have all that spacing around it grows it shrinks everything works really well and with just two lines of css",
+  "text_to_speech_word_count": 187,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.000",
+      "start": "00:00:00.000",
+      "text": " I'm sure you've had a container look something like this without a borders, but this is a bunch of CSS that we could actually simplify and just do a width and use some modern CSS."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:10.000",
+      "text": " So I could actually say 100% minus 2 rem. So it's one rem on each side."
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:15.000",
+      "text": " And just doing that, you'll notice that it's off the side there."
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:18.000",
+      "text": " And so we can fix that by saying a margin in line, which is only going to do the left and the right one."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:24.000",
+      "text": " So I don't reset on the top and the bottom. And now you can see that's always staying centered."
+    },
+    {
+      "end": "00:00:41.000",
+      "start": "00:00:29.000",
+      "text": " But we do have the problem of it, you know, we need a max width on there, but because we're using a min width on here, I can just come, put a comma and then set the same thing we had before, which was 600 pixels and it's save on there."
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:41.000",
+      "text": " And now we've exactly what we had before. We have all that spacing around it grows, it shrinks, everything works really well and with just two lines of CSS."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Kevin Powell",
+  "youtube_channel_follower_count": 934000,
+  "youtube_comment_count": 396,
+  "youtube_description": "A look at using the min() function and a logical property for our margin to create a nice, simple container.\n\n#Shorts\n\nCome hang out with other dev's in my Discord Community\n💬 https://discord.gg/nTYCvrK\n\nKeep up to date with everything I'm up to\n✉ https://www.kevinpowell.co/newsletter\n\nCome hang out with me live every Monday on Twitch!\n📺 https://www.twitch.tv/kevinpowellcss\n\n---\n\nHelp support my channel\n👨‍🎓 Get a course: https://www.kevinpowell.co/courses\n👕 Buy a shirt: https://teespring.com/stores/making-the-internet-awesome\n💖 Support me on Patreon: https://www.patreon.com/kevinpowell\n\n---\n\nMy editor: VS Code - https://code.visualstudio.com/\n\n---\n\nI'm on some other places on the internet too!\n\nIf you'd like a behind the scenes and previews of what's coming up on my YouTube channel, make sure to follow me on Instagram and Twitter.\n\nTwitter: https://twitter.com/KevinJPowell\nCodepen: https://codepen.io/kevinpowell/\nGithub: https://github.com/kevin-powell\n\n---\n\nAnd whatever you do, don't forget to keep on making your corner of the internet just a little bit more awesome!",
+  "youtube_like_count": 65566,
+  "youtube_tags": [
+    "HTML",
+    "CSS"
+  ],
+  "youtube_title": "Modern CSS is magic",
+  "youtube_upload_date": "20220406",
+  "youtube_view_count": 971453
+}

@@ -1,0 +1,781 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The lecturer is a man with a black sweater, light skin tone, and brown hair. He holds a marker in his hand and writes on a whiteboard.",
+        "name": "Lecturer"
+      }
+    ],
+    "description": "A tutorial that explains the derivation of the Fermi-Dirac occupancy function, a key concept in quantum statistics.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The topic of tutorial number 31 is the Fermi-Dirac distribution function, specifically maximizing the occupancy function or finding the most probable distribution for fermions.",
+        "question": "What is the topic of tutorial number 31?"
+      },
+      {
+        "answer": "Stirling's approximation is used to simplify the factorial terms in the probability function for fermions, making it easier to work with mathematically.",
+        "question": "What is Stirling's approximation used for in the derivation?"
+      },
+      {
+        "answer": "The two constraints are the total number of particles being constant and the total energy of the system being constant.",
+        "question": "What are the two constraints considered in the derivation?"
+      },
+      {
+        "answer": "Alpha and beta are Lagrange multipliers introduced to incorporate the constraints into the maximization process.",
+        "question": "What are alpha and beta in the final formula?"
+      },
+      {
+        "answer": "The final formula represents the Fermi-Dirac occupancy function, which gives the average number of fermions occupying a particular energy state in a system at thermal equilibrium.",
+        "question": "What does the final formula represent?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The lecturer explains the fermi dirac distribution function",
+            "timestamp": {
+              "end_timestamp": "00:00:01.033",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The lecturer writes down mathematical equations on the whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:00:09.333",
+              "start_timestamp": "00:00:01.033"
+            }
+          },
+          {
+            "description": "The lecturer draws a box around the final formula and explains what it means",
+            "timestamp": {
+              "end_timestamp": "00:00:10.400",
+              "start_timestamp": "00:00:09.333"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The lecturer introduces the topic of the fermi dirac distribution function",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The lecturer begins writing down and explaining the mathematical equations",
+            "timestamp": "00:00:01.033"
+          },
+          {
+            "description": "The lecturer concludes by highlighting and explaining the final formula, the fermi dirac occupancy function",
+            "timestamp": "00:00:09.333"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:00:10.400",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Marker",
+            "timestamp": {
+              "end_timestamp": "00:00:10.400",
+              "start_timestamp": "00:00:01.033"
+            }
+          },
+          {
+            "name": "Eraser",
+            "timestamp": {
+              "end_timestamp": "00:00:10.400",
+              "start_timestamp": "00:00:02.433"
+            }
+          }
+        ],
+        "sceneId": 0,
+        "thematicElements": "Quantum Statistics, Fermi-Dirac Distribution Function, Occupancy Function, Lagrange Multipliers, Density of States, Stirling's Approximation",
+        "timestamps": {
+          "end_timestamp": "00:10:41.167",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to the Fermi-Dirac Distribution Function",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The lecturer concludes by highlighting and explaining the final formula, the fermi dirac occupancy function",
+        "timestamp": "00:00:09.333"
+      },
+      "description": "The lecturer derives the Fermi-Dirac occupancy function, a key concept in quantum statistics, using Stirling's approximation and the method of Lagrange multipliers. He explains the formula and its components, including the density of states and the occupancy function.",
+      "scenes": [
+        0
+      ]
+    },
+    "title": "Derivation of the Fermi-Dirac Occupancy Function",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial segment where the lecturer discusses previous videos could be trimmed to start directly with the derivation. This would make the video more focused on the main topic.",
+        "timestamps": {
+          "end_timestamp": "00:00:00.500",
+          "start_timestamp": "00:00:00.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 641,
+  "original_json_filename": "60VE2Ckh62E.json",
+  "original_video_filename": "60VE2Ckh62E.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "okay in this video i'm going to continue on with my tutorials on quantum statistics this is tutorial number 31 and i'm going to discuss the fermi dirac distribution which is uh we're going to maximize the occupancy function or make the most probable distribution i also like to note that i have a website now university physics tutorials dot com so the previous videos to this are number 30 where i worked out the bose einstein distribution function number 29 where i showed what the values for alpha and beta are at 28 for the maxwell boltzmann distribution now this is the most detailed of the last so i suggest go back to here if you don't understand what i'm doing in this video and i've done others in lagrange multipliers and optimizing or maximizing the multiplicity because this is the last time we've done this or this is the last function to be maximized i'm going to do it pretty quickly because at this stage you've seen it a few times so we're talking about fermions so in a previous video i proved that the probability for fermions as a function of the number of particles in each macrobox is multiplication over s of the number of states in each macro box factorial then we have g sub s minus n sub s factorial we have n sub s factorial okay what we're going to do now is follow the usual procedure so we're trying to maximize this function so before we maximize the function what we need to do is make this look a bit better so sterling's approximation says the natural logarithm of a factorial is equal to a natural logarithm of a minus a we also know that the logarithm of a b is equal to log a plus log b and we know that the natural logarithm of a over b is equal to natural logarithm of a minus the natural logarithm of b so look very quickly at what we have here well this is a product so that's a plus b and this in general here is a quotient that's a minus b so we're going to get the log of g sub s factorial sorry we're going to get um sorry before we don't need that excuse me it's difficult to maximize this function but it's more easy or easier excuse me to maximize the log of it so i'm going to take the log of this whole thing and then make it look nicer so when we take the log bit we're going to have first of all a quotient so we have a minus b but the the denominator is also going to have its own product a plus b and then i'm going to apply sterling's approximation and all the factorials all right so i'm just going to do it reasonably quickly because the algebra is isn't that difficult it's just just a bit of a pain in the face i suppose you could say all right so once you do all those that i that i said the natural algorithm of p okay we have g sub s log g sub s minus g sub s so that's the sterling's approximation here then we have minus g sub s minus n sub s log g sub s minus n sub s that's another and that's another stirrings approximation okay and then we have minus n sub s log n sub s plus n sub s so that's just applying the bits and bobs that it did there you can do some cancellation with this guy and finally with these two here and what we find is the natural logarithm of the probability function for fermions is equal to g sub s log g sub s minus g sub s minus n sub s log g sub s minus n sub s minus n sub s log of n sub s okay it still looks like a bit of a p in the face but definitely it's definitely cleaner than what we had it so that is the logarithm of the probability function for fermions now what we're trying to do is maximize this subject to constraints so let's just remind ourselves what the constraints are the first constraint is that the total number of particles is equal to the sum over s of n sub s okay and that means that the that that means that when we have the um the change of that is going to be equal to zero so what we can say is that dn is equal to the sum over s of delta n sub s is equal to 0 that's the first constraint i'm going to call it constraint one and then with a constraint on the energy for that d e is equal to sum over s epsilon delta n sub s is equal to zero this is constraint number two okay so going back to our method of lagrange multipliers we need to have the gradient of our function is equal to alpha times the gradient of constraint one plus beta times the gradient of constraint number two all right so alpha and beta are our lagrange multipliers and the the logarithm of the probability function is is the is our function which we're trying to maximize so what we need to do then is get well what is the gradient of the log of p and the gradient of the log of p is going to be equal to the following you're going to have plus one plus log g sub s minus n sub s when i have minus one minus log of n sub s okay so it just the let's do the differentiation or write the the differentials here just for clarity even though i've already written down the answer del del n sub s of the log of g sub s minus n sub s is equal to one over g sub s minus n sub s times minus one bear with me now so del del n sub s of the log of g sub s minus n sub s minus is equal to plus one all right and that's the plus one up here all right so that's just the more difficult term now we need to get the derivatives of our constrained functions so putting them all together we're going to get the following we're going to get del del n sub s of the log of p is equal to alpha delta n sub s times n plus beta del del n sub s operating on e okay so we're going to get the sum over s the natural logarithm g sub s minus n sub s minus the logarithm of n sub s the reason we can do that is because the minus and the plus here cancel all right and well that's going to be equal to our constraint functions which is the sum over s and write it this way because it's just easier alpha plus beta epsilon or we'll say instead of e you're going to call it epsilon all right now so if i bring this over becomes zero and the only way this this equation be satisfied the only way this equation will be satisfied is if the logarithm of g sub s minus n sub s minus the logarithm of n sub s is equal to alpha plus beta epsilon okay both sides then we're going to get this like that and finally if we rearrange it rearrange and divide across by n sub s you're going to get that n sub s is equal to g sub s divided by e to the alpha plus beta epsilon plus one okay and that is the fermi dirac occupancy function so we know at this stage we know what um we know what all the components are so let's remind us of those you know this is the density of states and this here that's the ferment that's the occupancy function f of e and this is n of e if i suppose we're talking about a continuum of energy states so the way we could write this is that n of e is equal to g of e times f of e like that all right so we know that alpha for fermions is there a yes for fermions um we have a chemical potential fermi and i i um actually i'll have to think about that but anyway beta is one over kt as i've done in a previous video okay so that's all i've got to say about that thanks for watching please pass around your friends subscribe to my channel and you might also have a look at university physics tutorials dot com thank you",
+  "text_to_speech_word_count": 1486,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.667",
+      "start": "00:00:00.000",
+      "text": " Okay in this video I'm going to continue on with my tutorials and content statistics."
+    },
+    {
+      "end": "00:00:10.600",
+      "start": "00:00:05.667",
+      "text": " This is tutorial number 31 and I'm going to discuss the Fermi-Dirach distribution which"
+    },
+    {
+      "end": "00:00:15.833",
+      "start": "00:00:10.600",
+      "text": " is we're going to maximize the occupancy function or make the most probable distribution."
+    },
+    {
+      "end": "00:00:22.200",
+      "start": "00:00:15.833",
+      "text": " I also like to note that I have a website now, universityphysicstorials.com."
+    },
+    {
+      "end": "00:00:28.033",
+      "start": "00:00:22.200",
+      "text": " So the previous videos to this are number 30 where I worked out the Bose Einstein distribution"
+    },
+    {
+      "end": "00:00:33.533",
+      "start": "00:00:28.033",
+      "text": " function, number 29 where I showed what the values for alpha and beta are, 28 were the"
+    },
+    {
+      "end": "00:00:34.533",
+      "start": "00:00:33.533",
+      "text": " Maxwell-Boltz-M distribution."
+    },
+    {
+      "end": "00:00:37.067",
+      "start": "00:00:34.533",
+      "text": " Now this is the most detailed of the last."
+    },
+    {
+      "end": "00:00:41.800",
+      "start": "00:00:37.067",
+      "text": " So I suggest go back to here if you don't understand what I'm doing in this video and"
+    },
+    {
+      "end": "00:00:48.667",
+      "start": "00:00:41.800",
+      "text": " if denodder is an leverage multiplier is not optimizing or maximizing the multiplicity."
+    },
+    {
+      "end": "00:00:54.233",
+      "start": "00:00:48.667",
+      "text": " Because this is the last time we've done this or this is the last function to be maximized"
+    },
+    {
+      "end": "00:00:59.433",
+      "start": "00:00:54.233",
+      "text": " I'm going to do it pretty quickly because of this stage you've seen it a few times."
+    },
+    {
+      "end": "00:01:02.000",
+      "start": "00:00:59.433",
+      "text": " So we're talking about fermions."
+    },
+    {
+      "end": "00:01:08.733",
+      "start": "00:01:02.000",
+      "text": " So in a previous video I proved that the probability for fermions as a function of the number of"
+    },
+    {
+      "end": "00:01:17.467",
+      "start": "00:01:08.733",
+      "text": " particles in each macro box is the multiplication over s of the number of states in each macro"
+    },
+    {
+      "end": "00:01:18.467",
+      "start": "00:01:17.467",
+      "text": " box factorial."
+    },
+    {
+      "end": "00:01:22.433",
+      "start": "00:01:18.467",
+      "text": " Now you have g sub s minus n sub s factorial."
+    },
+    {
+      "end": "00:01:26.033",
+      "start": "00:01:22.433",
+      "text": " I have n sub s factorial."
+    },
+    {
+      "end": "00:01:29.467",
+      "start": "00:01:26.033",
+      "text": " Okay, what we're going to do now is follow the usual procedure."
+    },
+    {
+      "end": "00:01:32.700",
+      "start": "00:01:29.467",
+      "text": " So we're trying to maximize this function."
+    },
+    {
+      "end": "00:01:36.933",
+      "start": "00:01:32.700",
+      "text": " So before we maximize the function what we need to do is make this look a bit better."
+    },
+    {
+      "end": "00:01:42.733",
+      "start": "00:01:36.933",
+      "text": " So starting this approximation says the natural logarithm of a factorial is equal to a natural"
+    },
+    {
+      "end": "00:01:45.000",
+      "start": "00:01:42.733",
+      "text": " logarithm of a minus a."
+    },
+    {
+      "end": "00:01:51.200",
+      "start": "00:01:45.000",
+      "text": " We also know that the logarithm of a b is equal to log a plus log b."
+    },
+    {
+      "end": "00:01:57.200",
+      "start": "00:01:51.200",
+      "text": " Now we know that the natural logarithm of a over b is equal to the natural logarithm"
+    },
+    {
+      "end": "00:02:00.867",
+      "start": "00:01:57.200",
+      "text": " of a minus the natural logarithm of b."
+    },
+    {
+      "end": "00:02:02.667",
+      "start": "00:02:00.867",
+      "text": " So look very quickly at what we have here."
+    },
+    {
+      "end": "00:02:07.667",
+      "start": "00:02:02.667",
+      "text": " Well this is a product so that's a plus b and this in general here is a caution that's"
+    },
+    {
+      "end": "00:02:08.667",
+      "start": "00:02:07.667",
+      "text": " a minus b."
+    },
+    {
+      "end": "00:02:12.467",
+      "start": "00:02:08.667",
+      "text": " So we're going to get the log of g sub s factorial."
+    },
+    {
+      "end": "00:02:19.433",
+      "start": "00:02:12.467",
+      "text": " Sorry before we don't need that, excuse me, it's difficult to maximize this function."
+    },
+    {
+      "end": "00:02:23.633",
+      "start": "00:02:19.433",
+      "text": " It's more easy or easy to maximize the log of it."
+    },
+    {
+      "end": "00:02:27.700",
+      "start": "00:02:23.633",
+      "text": " So I'm going to take the log of this whole thing and then make it look nicer."
+    },
+    {
+      "end": "00:02:30.633",
+      "start": "00:02:27.700",
+      "text": " So when we take the log bit we're going to have first of all a cautioned, so when I have"
+    },
+    {
+      "end": "00:02:38.000",
+      "start": "00:02:30.633",
+      "text": " a minus b, but the denominator is also going to have its own product, a plus b."
+    },
+    {
+      "end": "00:02:42.100",
+      "start": "00:02:38.000",
+      "text": " And then I'm going to apply sterins approximation and all the factorials."
+    },
+    {
+      "end": "00:02:47.667",
+      "start": "00:02:42.100",
+      "text": " Alright, so I'm just going to do it reasonably quickly because the algebra isn't that difficult."
+    },
+    {
+      "end": "00:02:50.533",
+      "start": "00:02:47.667",
+      "text": " It's just a bit of a pain in the face I suppose you could say."
+    },
+    {
+      "end": "00:03:04.200",
+      "start": "00:02:50.533",
+      "text": " Alright, so once you do all those that I said, the natural logarithm of p, okay with g"
+    },
+    {
+      "end": "00:03:11.900",
+      "start": "00:03:04.200",
+      "text": " sub s, log g sub s minus g sub s, that's the sterins approximation here."
+    },
+    {
+      "end": "00:03:23.233",
+      "start": "00:03:11.900",
+      "text": " Then we have minus g sub s minus n sub s, log g sub s minus n sub s, that's another, and"
+    },
+    {
+      "end": "00:03:25.533",
+      "start": "00:03:23.233",
+      "text": " that's another sterins approximation."
+    },
+    {
+      "end": "00:03:42.500",
+      "start": "00:03:26.533",
+      "text": " That's a plus here, okay, and then we have minus n sub s, log n sub s plus n sub s."
+    },
+    {
+      "end": "00:03:45.900",
+      "start": "00:03:42.500",
+      "text": " So that's just applying the bit to the bobs that I did there."
+    },
+    {
+      "end": "00:03:53.867",
+      "start": "00:03:45.900",
+      "text": " You can do some cancellation with this guy, with this guy, and finally with these two here."
+    },
+    {
+      "end": "00:04:00.733",
+      "start": "00:03:53.867",
+      "text": " And what we find is the natural logarithm of the probability function for fermions is equal"
+    },
+    {
+      "end": "00:04:18.633",
+      "start": "00:04:00.733",
+      "text": " to g sub s, log g sub s minus g sub s minus n sub s, log g sub s minus n sub s, minus n sub"
+    },
+    {
+      "end": "00:04:21.867",
+      "start": "00:04:18.633",
+      "text": " s, log of n sub s."
+    },
+    {
+      "end": "00:04:27.900",
+      "start": "00:04:21.867",
+      "text": " Okay, it still looks like a bit of a pain in the face, but it's definitely cleaner"
+    },
+    {
+      "end": "00:04:29.800",
+      "start": "00:04:27.900",
+      "text": " than what we had it."
+    },
+    {
+      "end": "00:04:34.700",
+      "start": "00:04:29.800",
+      "text": " So that is the logarithm of the probability function for fermions."
+    },
+    {
+      "end": "00:04:38.867",
+      "start": "00:04:34.700",
+      "text": " Now what we're trying to do is maximize this subject to constraints."
+    },
+    {
+      "end": "00:04:44.233",
+      "start": "00:04:38.867",
+      "text": " So let's just remind ourselves what the constraints are."
+    },
+    {
+      "end": "00:04:51.200",
+      "start": "00:04:44.233",
+      "text": " The first constraint is that the total number of particles is equal to the sum over s of"
+    },
+    {
+      "end": "00:04:52.200",
+      "start": "00:04:51.233",
+      "text": " n sub s."
+    },
+    {
+      "end": "00:05:02.133",
+      "start": "00:04:52.200",
+      "text": " Okay, and that means that when we have the change of that is going to be equal to zero."
+    },
+    {
+      "end": "00:05:10.533",
+      "start": "00:05:02.133",
+      "text": " So what we can say is that dn is equal to the sum over s of delta n sub s is equal to zero."
+    },
+    {
+      "end": "00:05:13.733",
+      "start": "00:05:10.533",
+      "text": " That's the first constraint, I'm going to call it constraint one."
+    },
+    {
+      "end": "00:05:25.400",
+      "start": "00:05:13.733",
+      "text": " And then we have a constraint on the energy for that dE is equal to sum over s epsilon"
+    },
+    {
+      "end": "00:05:28.000",
+      "start": "00:05:25.400",
+      "text": " delta n sub s is equal to zero."
+    },
+    {
+      "end": "00:05:30.800",
+      "start": "00:05:28.000",
+      "text": " This is constraint number two."
+    },
+    {
+      "end": "00:05:36.500",
+      "start": "00:05:30.800",
+      "text": " Okay, so going back to our method of Lagrange multipliers, we need to have the gradient of"
+    },
+    {
+      "end": "00:05:43.033",
+      "start": "00:05:36.500",
+      "text": " our function is equal to alpha times the gradient of constraint one plus beta times the gradient"
+    },
+    {
+      "end": "00:05:45.333",
+      "start": "00:05:43.033",
+      "text": " of constraint number two."
+    },
+    {
+      "end": "00:05:52.400",
+      "start": "00:05:45.333",
+      "text": " All right, so alpha and beta are our Lagrange multipliers and the logarithm of the probability"
+    },
+    {
+      "end": "00:05:57.000",
+      "start": "00:05:52.400",
+      "text": " function is our function which we're trying to maximize."
+    },
+    {
+      "end": "00:06:05.700",
+      "start": "00:05:57.000",
+      "text": " So what we need to do then is get what what is the gradient of the log of p."
+    },
+    {
+      "end": "00:06:08.833",
+      "start": "00:06:05.700",
+      "text": " The gradient of the log of p is going to equal to the following."
+    },
+    {
+      "end": "00:06:18.767",
+      "start": "00:06:09.133",
+      "text": " You're going to have plus one plus Lagg sub s minus n sub s, when I have minus one minus"
+    },
+    {
+      "end": "00:06:21.033",
+      "start": "00:06:18.767",
+      "text": " Lagg of n sub s."
+    },
+    {
+      "end": "00:06:27.300",
+      "start": "00:06:21.033",
+      "text": " Okay, so it just, I'll just do the differentiation right there, the differentials here just for"
+    },
+    {
+      "end": "00:06:35.467",
+      "start": "00:06:27.300",
+      "text": " clarity even I've already written down the answer, del del n sub s of the Lagg of g sub s"
+    },
+    {
+      "end": "00:06:47.533",
+      "start": "00:06:35.467",
+      "text": " minus n sub s is equal to one over g sub s minus n sub s times minus one."
+    },
+    {
+      "end": "00:07:01.100",
+      "start": "00:06:47.533",
+      "text": " Okay, and we have there with me now, so del del n sub s of the log of g sub s minus n sub"
+    },
+    {
+      "end": "00:07:16.100",
+      "start": "00:07:01.100",
+      "text": " s, we have g sub s minus n sub s is equal to plus one."
+    },
+    {
+      "end": "00:07:19.500",
+      "start": "00:07:16.100",
+      "text": " All right, and that's the plus one up here."
+    },
+    {
+      "end": "00:07:23.200",
+      "start": "00:07:19.500",
+      "text": " All right, so that's just the more difficult term."
+    },
+    {
+      "end": "00:07:28.533",
+      "start": "00:07:23.200",
+      "text": " Now we need to get the derivatives of our constraint functions, so put them all together,"
+    },
+    {
+      "end": "00:07:38.433",
+      "start": "00:07:28.533",
+      "text": " we're going to get the following, we're going to get del del n sub s of the log of p is"
+    },
+    {
+      "end": "00:07:50.900",
+      "start": "00:07:38.433",
+      "text": " equal to alpha del del n sub s times n plus beta del del n sub s, operating i e."
+    },
+    {
+      "end": "00:07:58.467",
+      "start": "00:07:50.900",
+      "text": " Okay, so we're going to get the sum over s."
+    },
+    {
+      "end": "00:08:06.700",
+      "start": "00:07:58.467",
+      "text": " Natural logarithm g sub s minus n sub s minus the logarithm of n sub s."
+    },
+    {
+      "end": "00:08:10.300",
+      "start": "00:08:06.700",
+      "text": " The reason we can do that is because the minus and the plus here cancel."
+    },
+    {
+      "end": "00:08:16.267",
+      "start": "00:08:10.300",
+      "text": " All right, now we're going to be equal to our constraint functions, which is the sum"
+    },
+    {
+      "end": "00:08:23.233",
+      "start": "00:08:16.267",
+      "text": " over s and write it this way because it's just easier alpha plus beta epsilon or it would"
+    },
+    {
+      "end": "00:08:26.033",
+      "start": "00:08:23.233",
+      "text": " say instead of e you want to call it epsilon."
+    },
+    {
+      "end": "00:08:35.833",
+      "start": "00:08:26.033",
+      "text": " Now, so if I bring this over becomes zero and the only way this equation will be satisfied,"
+    },
+    {
+      "end": "00:08:43.467",
+      "start": "00:08:35.833",
+      "text": " the only way this equation will be satisfied is if the logarithm of g sub s minus n sub s"
+    },
+    {
+      "end": "00:08:50.833",
+      "start": "00:08:43.467",
+      "text": " minus the logarithm of n sub s is equal to alpha plus beta epsilon."
+    },
+    {
+      "end": "00:08:55.600",
+      "start": "00:08:50.833",
+      "text": " Okay, rearrange that."
+    },
+    {
+      "end": "00:09:10.933",
+      "start": "00:08:55.600",
+      "text": " Okay, so if we expedient it both sides then we're going to get this."
+    },
+    {
+      "end": "00:09:13.133",
+      "start": "00:09:10.933",
+      "text": " Like that."
+    },
+    {
+      "end": "00:09:20.333",
+      "start": "00:09:13.133",
+      "text": " And finally if we rearrange it and divide it across by n sub s, you're going to get that"
+    },
+    {
+      "end": "00:09:31.067",
+      "start": "00:09:20.333",
+      "text": " n sub s is equal to g sub s divided by e to the alpha plus beta epsilon plus one."
+    },
+    {
+      "end": "00:09:36.333",
+      "start": "00:09:31.067",
+      "text": " Okay, and that is the Fermi-Dirach occupancy function."
+    },
+    {
+      "end": "00:09:42.633",
+      "start": "00:09:36.333",
+      "text": " So we know at this stage we know what we know all the components are, so that's the"
+    },
+    {
+      "end": "00:09:45.133",
+      "start": "00:09:42.633",
+      "text": " minus of those."
+    },
+    {
+      "end": "00:09:53.900",
+      "start": "00:09:45.133",
+      "text": " You know that this is the density of states."
+    },
+    {
+      "end": "00:09:58.400",
+      "start": "00:09:53.900",
+      "text": " And this here, that's the Fermi-Dirach occupancy function f of e."
+    },
+    {
+      "end": "00:10:03.867",
+      "start": "00:09:58.400",
+      "text": " And this is n of e if I suppose we're talking about a continuum of energy states."
+    },
+    {
+      "end": "00:10:14.033",
+      "start": "00:10:03.867",
+      "text": " So we could write this as n of e is equal to g of e times f of e."
+    },
+    {
+      "end": "00:10:15.233",
+      "start": "00:10:14.033",
+      "text": " Like that."
+    },
+    {
+      "end": "00:10:18.533",
+      "start": "00:10:15.233",
+      "text": " Alright."
+    },
+    {
+      "end": "00:10:21.900",
+      "start": "00:10:18.533",
+      "text": " So we know that alpha for Fermions is there e?"
+    },
+    {
+      "end": "00:10:26.900",
+      "start": "00:10:21.900",
+      "text": " Yes, for Fermions we have a chemical potential Fermions."
+    },
+    {
+      "end": "00:10:29.400",
+      "start": "00:10:26.900",
+      "text": " I'm actually, I'll have to think about that."
+    },
+    {
+      "end": "00:10:31.900",
+      "start": "00:10:29.400",
+      "text": " But any of beta is one of the KT's I've done in the previous video."
+    },
+    {
+      "end": "00:10:33.900",
+      "start": "00:10:31.900",
+      "text": " Okay, so that's all I've got to say about that."
+    },
+    {
+      "end": "00:10:34.900",
+      "start": "00:10:33.900",
+      "text": " Thanks for watching."
+    },
+    {
+      "end": "00:10:35.900",
+      "start": "00:10:34.900",
+      "text": " Please pass out your friends."
+    },
+    {
+      "end": "00:10:36.900",
+      "start": "00:10:35.900",
+      "text": " Subscribe to my channel."
+    },
+    {
+      "end": "00:10:39.900",
+      "start": "00:10:36.900",
+      "text": " And you might also have a look at University Physics Tutorials.com."
+    },
+    {
+      "end": "00:10:40.900",
+      "start": "00:10:39.900",
+      "text": " Thank you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Alan Beary",
+  "youtube_channel_follower_count": 32500,
+  "youtube_comment_count": 2,
+  "youtube_description": "In this video I continue with my series of tutorial videos on Quantum Statistics. This is intended to be part of both my Quantum Physics/Mechanics and Thermodynamics/Statistical-Mechanics tutorial courses. It's pitched at undergraduate level.\nI prove have two 'takes' at quantum statistics, one is grinding the formulae from multiplicity functions and the second (more elegant) is a thermodynamic argument focusing on the all important partition function.\n\nThank you for watching and I hope that this matches your requirements. Please feel free to provide feedback via comments and share with your friends.\n\nSee my website for more: www.universityphysicstutorials.com",
+  "youtube_like_count": 31,
+  "youtube_tags": [
+    "physics",
+    "maths",
+    "mathematics",
+    "quantum",
+    "optics",
+    "electromagnetism",
+    "electromagnetics",
+    "electrodynamics",
+    "teach",
+    "learn",
+    "help",
+    "show",
+    "how",
+    "prove",
+    "derive",
+    "derivation",
+    "proof",
+    "solid",
+    "state",
+    "optoelectronics",
+    "wave",
+    "light",
+    "university",
+    "kahn",
+    "academy",
+    "patrickjmt",
+    "patrick",
+    "jmt",
+    "fourier",
+    "thermodynamics",
+    "gauss",
+    "euler",
+    "statistics",
+    "gas",
+    "electron",
+    "free",
+    "sommerfeld",
+    "fermi",
+    "dirac",
+    "maxwell",
+    "boltzmann",
+    "bose",
+    "einstein",
+    "energy",
+    "blackbody",
+    "heat",
+    "capacity",
+    "well",
+    "harmonic",
+    "oscillator",
+    "LHO",
+    "partition",
+    "function",
+    "vrms"
+  ],
+  "youtube_title": "Quantum Statistics 31 : Fermi Dirac Distribution 1/3",
+  "youtube_upload_date": "20130816",
+  "youtube_view_count": 6585
+}

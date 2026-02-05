@@ -1,0 +1,889 @@
+{
+  "content_fine_category": "Astronomy",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice speaking in English.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "The video explains how telescopes enhance our perception of celestial objects by analyzing the apparent size of things and their angular size.",
+    "fps": 16.0,
+    "qAndA": [
+      {
+        "answer": "Coin-operated binoculars commonly found at tourist locations.",
+        "question": "In the first scene, what kind of binoculars are shown?"
+      },
+      {
+        "answer": "A penny.",
+        "question": "What coin is used to block the Moon in the angular size demonstration?"
+      },
+      {
+        "answer": "Radians.",
+        "question": "What is the unit of measurement used for angular size in the provided formula?"
+      },
+      {
+        "answer": "Half a degree.",
+        "question": "Approximately what is the angular size of the Moon from Earth?"
+      },
+      {
+        "answer": "A solar eclipse.",
+        "question": "What astronomical phenomenon is used to illustrate the coincidence of the Moon and Sun's angular sizes?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction of the topic",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduces telescopes' relevance to perception of size.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the topic of the video - understanding what makes telescopes special.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The narrator sets the stage for the video's exploration of how telescopes impact our perception of size and detail.",
+            "timestamp": "00:00:12.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Coin-operated binoculars at a pier overlooking a beach",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Curiosity and exploration of perceptions.",
+        "timestamps": {
+          "end_timestamp": "00:00:26.500",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with text 'About telescopes: The apparent size of things'",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Fade out transition to next scene",
+            "timestamps": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Comparing moon images",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Differences in observation with and without a telescope.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the two Moon images, one taken with a telescope and the other with the naked eye.",
+            "timestamp": "00:00:27.000"
+          },
+          {
+            "description": "Explanation that the difference lies in the detail captured by the telescope, not in the physical size of the image.",
+            "timestamp": "00:00:38.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of the Moon taken with a telescope",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "Image of the Moon as seen with the naked eye",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "name": "Text labels 'Telescope' and 'Eye' below the images",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Comparison of perception via tools.",
+        "timestamps": {
+          "end_timestamp": "00:01:15.000",
+          "start_timestamp": "00:00:26.562"
+        },
+        "title": "Moon Comparison",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene",
+            "timestamps": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining the concept of angular size",
+            "timestamp": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Understanding how angular size is crucial to telescopic observations.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator links the previous Moon comparison to the concept of objects appearing smaller with distance.",
+            "timestamp": "00:01:16.000"
+          },
+          {
+            "description": "Introduction of angular size using the example of a person looking at the Moon and a coin.",
+            "timestamp": "00:01:28.000"
+          },
+          {
+            "description": "Explanation of how angles are measured in radians using a circle diagram.",
+            "timestamp": "00:01:58.000"
+          },
+          {
+            "description": "Simplification of the angle measurement for small angles, highlighting its relevance to astronomical observations.",
+            "timestamp": "00:02:34.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of a railroad bridge",
+            "timestamp": {
+              "end_timestamp": "00:01:22.000",
+              "start_timestamp": "00:01:21.000"
+            }
+          },
+          {
+            "name": "Sketch of a person looking at the Moon with lines of sight",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:28.000"
+            }
+          },
+          {
+            "name": "Coin superimposed on the lines of sight",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:41.000"
+            }
+          },
+          {
+            "name": "Diagram showing angle measurement in radians",
+            "timestamp": {
+              "end_timestamp": "00:02:26.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Diagram zoomed in to show a small angle",
+            "timestamp": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:34.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Mathematical exploration in astronomy.",
+        "timestamps": {
+          "end_timestamp": "00:02:51.000",
+          "start_timestamp": "00:01:15.062"
+        },
+        "title": "Angular Size",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene",
+            "timestamps": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          },
+          {
+            "description": "Rapid visual transitions between diagrams and sketches",
+            "timestamps": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:01:28.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Calculating the angular size of the Moon",
+            "timestamp": {
+              "end_timestamp": "00:03:54.000",
+              "start_timestamp": "00:02:52.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Calculate practical examples of angular size.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious, Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Application of the angular size formula to the Moon.",
+            "timestamp": "00:02:52.000"
+          },
+          {
+            "description": "Emphasis on using radians for the calculation.",
+            "timestamp": "00:03:09.000"
+          },
+          {
+            "description": "Engaging viewers to estimate the angular size of the Moon, providing lower and upper bounds.",
+            "timestamp": "00:03:18.000"
+          },
+          {
+            "description": "Revealing the answer: approximately half a degree.",
+            "timestamp": "00:03:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Sketch of a person looking at the Moon",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:02:52.000"
+            }
+          },
+          {
+            "name": "Text labels 'diameter' and 'distance' on the sketch",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:03:00.000"
+            }
+          },
+          {
+            "name": "Formula for calculating angular size: θ = diameter/distance",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          },
+          {
+            "name": "Image of the Moon with its angular size labeled",
+            "timestamp": {
+              "end_timestamp": "00:03:54.000",
+              "start_timestamp": "00:03:49.000"
+            }
+          },
+          {
+            "name": "Red question mark",
+            "timestamp": {
+              "end_timestamp": "00:03:48.000",
+              "start_timestamp": "00:03:18.000"
+            }
+          },
+          {
+            "name": "Text 'Angular size of the Moon in degrees?'",
+            "timestamp": {
+              "end_timestamp": "00:03:48.000",
+              "start_timestamp": "00:03:18.000"
+            }
+          },
+          {
+            "name": "Text 'Take a guess!'",
+            "timestamp": {
+              "end_timestamp": "00:03:48.000",
+              "start_timestamp": "00:03:25.000"
+            }
+          },
+          {
+            "name": "Text 'Then estimate a lower bound and an upper bound'",
+            "timestamp": {
+              "end_timestamp": "00:03:48.000",
+              "start_timestamp": "00:03:27.000"
+            }
+          },
+          {
+            "name": "Pause button",
+            "timestamp": {
+              "end_timestamp": "00:03:48.000",
+              "start_timestamp": "00:03:44.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Interactive astronomical calculation.",
+        "timestamps": {
+          "end_timestamp": "00:03:55.438",
+          "start_timestamp": "00:02:51.062"
+        },
+        "title": "Moon's Angular Size",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene",
+            "timestamps": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:02:52.000"
+            }
+          },
+          {
+            "description": "Text overlays on the sketch",
+            "timestamps": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:03:00.000"
+            }
+          },
+          {
+            "description": "Cut transition to an image of a solar eclipse",
+            "timestamps": {
+              "end_timestamp": "00:03:55.000",
+              "start_timestamp": "00:03:55.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Discussing the significance of the Moon and Sun's similar angular size",
+            "timestamp": {
+              "end_timestamp": "00:04:09.000",
+              "start_timestamp": "00:03:55.500"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Understanding eclipses through angular concept.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious, Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains that the Moon's ability to block out the Sun during a solar eclipse is due to their nearly identical angular sizes.",
+            "timestamp": "00:03:55.500"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of a solar eclipse",
+            "timestamp": {
+              "end_timestamp": "00:04:09.000",
+              "start_timestamp": "00:03:55.500"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Exploration of astronomical coincidences.",
+        "timestamps": {
+          "end_timestamp": "00:04:09.125",
+          "start_timestamp": "00:03:55.500"
+        },
+        "title": "Solar Eclipse",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene",
+            "timestamps": {
+              "end_timestamp": "00:03:55.500",
+              "start_timestamp": "00:03:55.500"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Recap and transition to the next video",
+            "timestamp": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Understanding continuation to imaging instruments.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator reiterates the key takeaway - telescopes enable us to see features with much smaller angular sizes than the naked eye.",
+            "timestamp": "00:04:10.000"
+          },
+          {
+            "description": "The narrator transitions to the next video, which will delve into the workings of imaging instruments in general.",
+            "timestamp": "00:04:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of the Moon taken with a telescope",
+            "timestamp": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:10.000"
+            }
+          },
+          {
+            "name": "Image of the Moon as seen with the naked eye",
+            "timestamp": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:10.000"
+            }
+          },
+          {
+            "name": "Text labels 'Telescope' and 'Eye' below the images",
+            "timestamp": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:10.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Reflection on telescopic power and continuation of exploration.",
+        "timestamps": {
+          "end_timestamp": "00:04:38.750",
+          "start_timestamp": "00:04:09.188"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene",
+            "timestamps": {
+              "end_timestamp": "00:04:10.000",
+              "start_timestamp": "00:04:10.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Revelation of the surprisingly small angular size of the Moon.",
+        "timestamp": "00:03:49.000"
+      },
+      "description": "Understanding the special ability of telescopes to reveal detail in celestial objects.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "About Telescopes: The apparent size of things",
+    "trimmingSuggestions": [
+      {
+        "description": "The introductory scene (Scene 1) could be shortened, as the image of the binoculars is not directly relevant to the core concept of angular size.",
+        "timestamps": {
+          "end_timestamp": "00:04:09.188",
+          "start_timestamp": "00:04:09.188"
+        }
+      },
+      {
+        "description": "The final scene (Scene 6) could transition more quickly to the next video's topic, potentially by using a visual cue related to imaging instruments.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 279,
+  "original_json_filename": "3n4YgEhMHTo.json",
+  "original_video_filename": "3n4YgEhMHTo.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "what does a telescope do that is so special intuitively we know or we think we know that we can see much better or much farther with a telescope than just with our eyes in this video we will explore this question and try to make it more precise here's an image of the Moon taken Within 8 in diameter telescope and next to it for comparison is a picture of the Moon as you might see it with the naked eye although we usually think of telescopes as making things look bigger and there is a reason for that that we'll talk about later in fact the size of the image is irrelevant after all we can blow up or Shrink an image to any size we want in this illustration the two images that we're comparing are exactly the same size the difference is that the telescope image contains a lot more detail than the naked eye image if you compare similar regions in both you will see a lot of small features in the telescope image that are nowhere to be found in the naked eye picture in other words the telescope image contains a lot more information to understand this let's begin by considering what small and large means we know that objects that are identical in size appear smaller with distance if I look at the Moon and and I imagine two lines of sight from my eye to the upper and lower Edge what determines how big the moon appears is the angle between the two lines I know this because a much smaller but closer object that forms the same angle will appear just as big the angle formed by either object is known as its angular size so a penny can block the moon why not try it before we continue a word about how we measure angles say we want to measure this angle Theta so first draw a circle of any radius centered at the vertex of the angle now the angle cuts off an arc of the circle of length s and the ratio of s to the radius R is always the same for any given angle whatever the radius R is so this is a good measure of the angle Theta we say in this case that the angle is measured in radians although really it's dimensionless because it's just a ratio of two lengths if the angle is very small and this will always be the case in astronomical applications the arc S can be approximated as a very tiny straight line so now we're looking at an isoceles triangle measuring the angle as the ratio of the base to the height to measure the angular of size of a distant object then we imagine a triangle formed by the lines of sight to its extremes and the diameter of the object itself the ratio of its diameter to the distance is the angular size remember that this formula gives Theta in radians if you want it in some other angular measure like Arc seconds you have to do the conversion so what is the angular size of the moon for an observer on the earth before you do the calculation take a guess also try to estimate a lower bound that you're sure the moon cannot possibly be smaller than this as well as an upper bound that you're sure the moon cannot possibly exceed now hit pause look up the necessary information and see if the value Falls within your bounds the answer is about half a degree that is perhaps surprisingly small what is perhaps even more surprising is that by a strange fluke the angular size of the sun from the earth is almost the same as the angular size of the moon so that in a solar eclipse the moon blocks out the sun almost exactly so to return to our original question what does a telescope do that is so special and how does it do it we can State this a bit more precisely the angular size of the smallest features that we can see with a telescope is much smaller than what we can see with the eye alone but how does a telescope do this in the next video we will explore how Imaging instruments work in general to begin to answer that question",
+  "text_to_speech_word_count": 737,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:13.625",
+      "start": "00:00:00.000",
+      "text": " What does a telescope do that is so special?"
+    },
+    {
+      "end": "00:00:18.688",
+      "start": "00:00:13.625",
+      "text": " Intrusively we know or we think we know that we can see much better or much farther with"
+    },
+    {
+      "end": "00:00:21.688",
+      "start": "00:00:18.688",
+      "text": " the telescope than just with our eyes."
+    },
+    {
+      "end": "00:00:28.125",
+      "start": "00:00:21.688",
+      "text": " In this video we will explore this question and try to make it more precise."
+    },
+    {
+      "end": "00:00:34.062",
+      "start": "00:00:28.125",
+      "text": " There is an image of the moon taken with an 8 inch diameter telescope and next to it for"
+    },
+    {
+      "end": "00:00:39.250",
+      "start": "00:00:34.062",
+      "text": " comparison is a picture of the moon as you might see it with the naked eye."
+    },
+    {
+      "end": "00:00:43.062",
+      "start": "00:00:39.250",
+      "text": " Although we usually think of telescopes as making things look bigger and there is a reason"
+    },
+    {
+      "end": "00:00:45.312",
+      "start": "00:00:43.062",
+      "text": " for that that we will talk about later."
+    },
+    {
+      "end": "00:00:47.750",
+      "start": "00:00:45.312",
+      "text": " In fact the size of the image is irrelevant."
+    },
+    {
+      "end": "00:00:51.750",
+      "start": "00:00:47.750",
+      "text": " After all we can blow up or shrink an image to any size we want."
+    },
+    {
+      "end": "00:00:56.875",
+      "start": "00:00:51.750",
+      "text": " In this illustration the two images that we are comparing are exactly the same size."
+    },
+    {
+      "end": "00:01:00.688",
+      "start": "00:00:56.875",
+      "text": " The difference is that the telescope image contains a lot more detail than the naked"
+    },
+    {
+      "end": "00:01:02.062",
+      "start": "00:01:00.688",
+      "text": " eye image."
+    },
+    {
+      "end": "00:01:07.000",
+      "start": "00:01:02.062",
+      "text": " If you compare similar regions in both you will see a lot of small features in the telescope"
+    },
+    {
+      "end": "00:01:11.312",
+      "start": "00:01:07.000",
+      "text": " image that are nowhere to be found in the naked eye picture."
+    },
+    {
+      "end": "00:01:15.750",
+      "start": "00:01:11.312",
+      "text": " In other words the telescope image contains a lot more information."
+    },
+    {
+      "end": "00:01:22.750",
+      "start": "00:01:15.750",
+      "text": " To understand this let's begin by considering what small and large means."
+    },
+    {
+      "end": "00:01:28.750",
+      "start": "00:01:22.750",
+      "text": " We know that objects that are identical in size appear smaller with distance."
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:28.750",
+      "text": " If I look at the moon and I imagine two lines of sight from my eye to the upper and lower"
+    },
+    {
+      "end": "00:01:41.500",
+      "start": "00:01:34.000",
+      "text": " edge what determines how big the moon appears is the angle between the two lines."
+    },
+    {
+      "end": "00:01:46.500",
+      "start": "00:01:41.500",
+      "text": " I know this because a much smaller but closer object that forms the same angle will appear"
+    },
+    {
+      "end": "00:01:48.250",
+      "start": "00:01:46.500",
+      "text": " just as big."
+    },
+    {
+      "end": "00:01:53.312",
+      "start": "00:01:48.250",
+      "text": " The angle formed by either object is known as its angular size."
+    },
+    {
+      "end": "00:01:55.812",
+      "start": "00:01:53.312",
+      "text": " So a penny can block the moon."
+    },
+    {
+      "end": "00:01:58.688",
+      "start": "00:01:55.812",
+      "text": " Why not try it?"
+    },
+    {
+      "end": "00:02:02.188",
+      "start": "00:01:58.688",
+      "text": " Before we continue a word about how we measure angles."
+    },
+    {
+      "end": "00:02:05.188",
+      "start": "00:02:02.188",
+      "text": " Say we want to measure this angle theta."
+    },
+    {
+      "end": "00:02:11.062",
+      "start": "00:02:05.188",
+      "text": " So first draw a circle of any radius centered at the vertex of the angle."
+    },
+    {
+      "end": "00:02:17.750",
+      "start": "00:02:11.062",
+      "text": " Now the angle cuts off an arc of the circle of length S and the ratio of S to the radius"
+    },
+    {
+      "end": "00:02:23.062",
+      "start": "00:02:17.750",
+      "text": " R is always the same for any given angle, whatever the radius R is."
+    },
+    {
+      "end": "00:02:27.062",
+      "start": "00:02:23.062",
+      "text": " So this is a good measure of the angle theta."
+    },
+    {
+      "end": "00:02:31.062",
+      "start": "00:02:27.062",
+      "text": " We say in this case that the angle is measured in radians although really it's dimensionless"
+    },
+    {
+      "end": "00:02:34.938",
+      "start": "00:02:31.062",
+      "text": " because it's just a ratio of two lengths."
+    },
+    {
+      "end": "00:02:39.750",
+      "start": "00:02:34.938",
+      "text": " If the angle is very small and this will always be the case in astronomical applications the"
+    },
+    {
+      "end": "00:02:44.125",
+      "start": "00:02:39.750",
+      "text": " arc S can be approximated as a very tiny straight line."
+    },
+    {
+      "end": "00:02:49.062",
+      "start": "00:02:44.125",
+      "text": " So now we're looking at an isosceles triangle measuring the angle as a ratio of the base"
+    },
+    {
+      "end": "00:02:53.312",
+      "start": "00:02:49.062",
+      "text": " to the height."
+    },
+    {
+      "end": "00:02:57.812",
+      "start": "00:02:53.312",
+      "text": " To measure the angular size of a distant object then we imagine a triangle formed by lines"
+    },
+    {
+      "end": "00:03:02.188",
+      "start": "00:02:57.812",
+      "text": " of side to its extremes and the diameter of the object itself."
+    },
+    {
+      "end": "00:03:08.562",
+      "start": "00:03:02.188",
+      "text": " The ratio of its diameter to the distance is the angular size."
+    },
+    {
+      "end": "00:03:12.062",
+      "start": "00:03:08.562",
+      "text": " Remember that this formula gives theta in radians."
+    },
+    {
+      "end": "00:03:19.000",
+      "start": "00:03:12.062",
+      "text": " If you want it in some other angular measure like arc seconds you have to do the conversion."
+    },
+    {
+      "end": "00:03:23.750",
+      "start": "00:03:19.000",
+      "text": " So what is the angular size of the moon for an observer on the earth?"
+    },
+    {
+      "end": "00:03:27.875",
+      "start": "00:03:23.750",
+      "text": " Before you do the calculation take a guess."
+    },
+    {
+      "end": "00:03:32.188",
+      "start": "00:03:27.875",
+      "text": " Also try to estimate a lower bound that you're sure the moon cannot possibly be smaller than"
+    },
+    {
+      "end": "00:03:38.000",
+      "start": "00:03:32.188",
+      "text": " this as well as an upper bound that you're sure the moon cannot possibly exceed."
+    },
+    {
+      "end": "00:03:49.750",
+      "start": "00:03:38.000",
+      "text": " Now hit pause, look up the necessary information and see if the value falls within your bounds."
+    },
+    {
+      "end": "00:03:52.562",
+      "start": "00:03:49.750",
+      "text": " The answer is about half a degree."
+    },
+    {
+      "end": "00:03:56.000",
+      "start": "00:03:52.562",
+      "text": " That is perhaps surprisingly small."
+    },
+    {
+      "end": "00:04:00.562",
+      "start": "00:03:56.000",
+      "text": " What is perhaps even more surprising is that by a strange fluke the angular size of the"
+    },
+    {
+      "end": "00:04:05.500",
+      "start": "00:04:00.562",
+      "text": " sun from the earth is almost the same as the angular size of the moon so that in a solar"
+    },
+    {
+      "end": "00:04:10.062",
+      "start": "00:04:05.500",
+      "text": " eclipse the moon blocks out the sun almost exactly."
+    },
+    {
+      "end": "00:04:15.500",
+      "start": "00:04:10.062",
+      "text": " So to return to our original question what does a telescope do that is so special and how"
+    },
+    {
+      "end": "00:04:17.062",
+      "start": "00:04:15.500",
+      "text": " does it do it?"
+    },
+    {
+      "end": "00:04:19.688",
+      "start": "00:04:17.062",
+      "text": " We can state this a bit more precisely."
+    },
+    {
+      "end": "00:04:24.875",
+      "start": "00:04:19.688",
+      "text": " The angular size of the smallest features that we can see with the telescope is much smaller"
+    },
+    {
+      "end": "00:04:28.062",
+      "start": "00:04:24.875",
+      "text": " than what we can see with the eye alone."
+    },
+    {
+      "end": "00:04:30.688",
+      "start": "00:04:28.062",
+      "text": " But how does a telescope do this?"
+    },
+    {
+      "end": "00:04:35.875",
+      "start": "00:04:30.688",
+      "text": " In the next video we will explore how imaging instruments work in general to begin to answer"
+    },
+    {
+      "end": "00:04:36.562",
+      "start": "00:04:35.875",
+      "text": " that question."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "drlouro",
+  "youtube_channel_follower_count": 1,
+  "youtube_comment_count": 0,
+  "youtube_description": "1st of 3 videos on the subject of telescopes, and how they work.",
+  "youtube_like_count": 3,
+  "youtube_tags": [
+    "astronomy",
+    "optics"
+  ],
+  "youtube_title": "About telescopes - the apparent size of things",
+  "youtube_upload_date": "20111005",
+  "youtube_view_count": 375
+}

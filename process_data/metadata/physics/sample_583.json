@@ -1,0 +1,379 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A person with fair skin, wearing a black shirt and holding a black marker.",
+        "name": "Narrator/Teacher"
+      }
+    ],
+    "description": "An instructional video explaining the potential divider/voltage divider concept, with circuit diagrams and example problems.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "10 ohms.",
+        "question": "What is the resistance of R2 in the example problem?"
+      },
+      {
+        "answer": "V = IR (Voltage = Current x Resistance).",
+        "question": "What is the formula for Ohm's Law?"
+      },
+      {
+        "answer": "The ratio of the voltages across two components is equal to the ratio of their resistances.",
+        "question": "How does the voltage divider formula relate the voltages and resistances in a series circuit?"
+      },
+      {
+        "answer": "To create a specific voltage output from a larger supply voltage.",
+        "question": "What is the purpose of a potential divider circuit?"
+      },
+      {
+        "answer": "Yes, the current is the same at all points in a series circuit.",
+        "question": "Is the current the same throughout a series circuit?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Drawing a circuit diagram",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Writing formulas and explaining concepts",
+            "timestamp": {
+              "end_timestamp": "00:04:17.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator/Teacher"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator/Teacher"
+            ],
+            "description": "The narrator is the only character, interacting with the viewer through explanations and problem-solving."
+          }
+        ],
+        "contextualRelevance": "Education, Science, Physics",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the potential divider/voltage divider circuit",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Explanation of current flow in a series circuit",
+            "timestamp": "00:00:27.000"
+          },
+          {
+            "description": "Explanation of voltage distribution in a series circuit",
+            "timestamp": "00:00:45.000"
+          },
+          {
+            "description": "Introduction of Ohm's Law",
+            "timestamp": "00:01:23.000"
+          },
+          {
+            "description": "Derivation of the voltage divider formula",
+            "timestamp": "00:01:38.000"
+          },
+          {
+            "description": "Application of the formula to a specific problem",
+            "timestamp": "00:03:06.000"
+          },
+          {
+            "description": "Solution to the problem",
+            "timestamp": "00:04:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:04:23.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:04:23.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Electricity, Circuit analysis, Potential dividers/voltage dividers",
+        "timestamps": {
+          "end_timestamp": "00:04:34.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Explanation of the Potential Divider/Voltage Divider",
+        "videoEditingDetails": [
+          {
+            "description": "Title 'Potential divider / Voltage divider'",
+            "timestamps": {
+              "end_timestamp": "00:04:23.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Simple transitions between drawing and writing",
+            "timestamps": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "description": "The final few seconds could be trimmed as they show a blank whiteboard",
+            "timestamps": {
+              "end_timestamp": "00:04:23.000",
+              "start_timestamp": "00:04:17.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Solution to the problem",
+        "timestamp": "00:04:17.000"
+      },
+      "description": "Explanation and application of the potential divider/voltage divider formula.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Potential Divider / Voltage Divider",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the final few seconds as they show a blank whiteboard.",
+        "timestamps": {
+          "end_timestamp": "00:04:23.000",
+          "start_timestamp": "00:04:17.000"
+        }
+      },
+      {
+        "description": "Some pauses in the narrator's speech could be shortened for a more dynamic flow.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 274,
+  "original_json_filename": "Mn2i3DPI-a4.json",
+  "original_video_filename": "Mn2i3DPI-a4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "here's a simple circuit containing two resistors r1 and r2 in series we can use this circuit as a potential divider or a voltage divider let's write down what we know about this circuit already it's a series circuit so the current through the circuit is the same at all places so the current through r1 I is the same as the current through r2 I and that's the same as the current that returns to the battery and now the voltage the voltage of the supply I'll call BS the voltage across r1 I'll call v1 and v2 for the voltage across r2 we know for a series circuit that the voltages of the components add up to the voltage of the supply so vs is equal to v1 plus v2 for any component the voltage across that component is equal to the current through that component multiplied by its resistance V equals IR let's use this to examine the voltages in these components v1 is equal to the current through r1 which is I multiplied by its resistance and v2 equals same current I multiplied by r2 with potential divider circuits were interested in the ratio of the voltages v1 / v2 v1 is equal to I times R 1 and V 2 is I times R 2 you can see both top and bottom we're multiplying by I so we can cancel the eyes that gives me the result that I want V 1 divided by V 2 is equal to R 1 divided by R 2 so in a potential divider circuit the ratio of the voltages is equal to the ratio of the resistances let's use that to solve this problem I've got a resistor with 10 ohms with 6 volts across it and an unknown resistor with 9 volts across it in a series circuit as a potential divider here's the formula that I'm going to use v1 over v2 is equal to r1 over r2 v1 is 9 volts and v2 is 6 volts r1 is the unknown and r2 is 10 ohms let's rearrange that r1 equals 9 divided by 6 multiplied by 10 which equals 15 ohms you",
+  "text_to_speech_word_count": 367,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.000",
+      "start": "00:00:00.000",
+      "text": " Here's a simple circuit containing two resistors, R1 and R2 in series."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:07.000",
+      "text": " We can use this circuit as a potential divider or a voltage divider."
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:15.000",
+      "text": " Let's write down what we know about this circuit already."
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:18.000",
+      "text": " It's a series circuit, so the current through the circuit is the same at all places."
+    },
+    {
+      "end": "00:00:37.000",
+      "start": "00:00:27.000",
+      "text": " So the current through R1, I, is the same as the current through R2, I,"
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:37.000",
+      "text": " and that's the same as the current that returns to the battery."
+    },
+    {
+      "end": "00:00:45.000",
+      "start": "00:00:43.000",
+      "text": " And now the voltage."
+    },
+    {
+      "end": "00:00:52.000",
+      "start": "00:00:45.000",
+      "text": " The voltage of the supply I'll call VS."
+    },
+    {
+      "end": "00:01:05.000",
+      "start": "00:00:52.000",
+      "text": " The voltage across R1, I'll call V1 and V2 for the voltage across R2."
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:05.000",
+      "text": " We know for a series circuit that the voltages of the components add up to the voltage of the supply."
+    },
+    {
+      "end": "00:01:23.000",
+      "start": "00:01:13.000",
+      "text": " So VS is equal to V1 plus V2."
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:23.000",
+      "text": " For any component, the voltage across that component is equal to the current through that component multiplied by its resistance."
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:34.000",
+      "text": " V equals IR."
+    },
+    {
+      "end": "00:01:46.000",
+      "start": "00:01:38.000",
+      "text": " Let's use this to examine the voltages in these components."
+    },
+    {
+      "end": "00:01:57.000",
+      "start": "00:01:46.000",
+      "text": " V1 is equal to the current through R1, which is I, multiplied by its resistance."
+    },
+    {
+      "end": "00:02:07.000",
+      "start": "00:01:57.000",
+      "text": " And V2 equals the same current I multiplied by R2."
+    },
+    {
+      "end": "00:02:12.000",
+      "start": "00:02:07.000",
+      "text": " With potential divider circuits, we're interested in the ratio of the voltages."
+    },
+    {
+      "end": "00:02:18.000",
+      "start": "00:02:12.000",
+      "text": " V1 divided by V2."
+    },
+    {
+      "end": "00:02:25.000",
+      "start": "00:02:18.000",
+      "text": " V1 is equal to I times R1."
+    },
+    {
+      "end": "00:02:31.000",
+      "start": "00:02:25.000",
+      "text": " And V2 is I times R2."
+    },
+    {
+      "end": "00:02:36.000",
+      "start": "00:02:31.000",
+      "text": " You can see both top and bottom with multiplying by I."
+    },
+    {
+      "end": "00:02:41.000",
+      "start": "00:02:36.000",
+      "text": " So we can cancel the I's."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:41.000",
+      "text": " That gives me the result that I want."
+    },
+    {
+      "end": "00:02:55.000",
+      "start": "00:02:48.000",
+      "text": " V1 divided by V2 is equal to R1 divided by R2."
+    },
+    {
+      "end": "00:03:06.000",
+      "start": "00:02:55.000",
+      "text": " So in a potential divider circuit, the ratio of the voltages is equal to the ratio of the resistances."
+    },
+    {
+      "end": "00:03:15.000",
+      "start": "00:03:06.000",
+      "text": " Let's use that to solve this problem."
+    },
+    {
+      "end": "00:03:22.000",
+      "start": "00:03:15.000",
+      "text": " I've got a resistor with 10 ohms, with 6 volts across it,"
+    },
+    {
+      "end": "00:03:32.000",
+      "start": "00:03:22.000",
+      "text": " and an unknown resistor with 9 volts across it, in a series circuit as a potential divider."
+    },
+    {
+      "end": "00:03:34.000",
+      "start": "00:03:32.000",
+      "text": " Here's the formula that I'm going to use."
+    },
+    {
+      "end": "00:03:45.000",
+      "start": "00:03:34.000",
+      "text": " V1 over V2 is equal to R1 over R2."
+    },
+    {
+      "end": "00:03:52.000",
+      "start": "00:03:45.000",
+      "text": " V1 is 9 volts, and V2 is 6 volts."
+    },
+    {
+      "end": "00:04:01.000",
+      "start": "00:03:52.000",
+      "text": " R1 is the unknown, and R2 is 10 ohms."
+    },
+    {
+      "end": "00:04:04.000",
+      "start": "00:04:01.000",
+      "text": " Let's rearrange that."
+    },
+    {
+      "end": "00:04:12.000",
+      "start": "00:04:04.000",
+      "text": " R1 equals 9 divided by 6 multiplied by 10,"
+    },
+    {
+      "end": "00:04:23.000",
+      "start": "00:04:12.000",
+      "text": " which equals 15 ohms."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Alom Shaha",
+  "youtube_channel_follower_count": 3370,
+  "youtube_comment_count": 27,
+  "youtube_description": "Physics teacher Ronan McDonald demonstrates how two resistors in a series circuit can be used as a potential divider",
+  "youtube_like_count": 283,
+  "youtube_tags": [
+    "electricity",
+    "circuits",
+    "A-level",
+    "Physics GCE Advanced Level"
+  ],
+  "youtube_title": "Potential Divider 1",
+  "youtube_upload_date": "20111228",
+  "youtube_view_count": 37676
+}

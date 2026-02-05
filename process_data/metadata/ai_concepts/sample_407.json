@@ -1,0 +1,823 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice, not visually present in the video, who explains the process of installing Anaconda and related libraries for deep learning.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A detailed analysis of a video focusing on installing Anaconda and related libraries for deep learning, including character interactions, scenes, thematic elements, and narrative progression.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Python 3.6",
+        "question": "What version of Python does the narrator recommend downloading with Anaconda?"
+      },
+      {
+        "answer": "Spyder IDE",
+        "question": "What IDE is demonstrated for writing Python code in Anaconda?"
+      },
+      {
+        "answer": "conda",
+        "question": "Which package manager is used to install TensorFlow and SciPy?"
+      },
+      {
+        "answer": "Keras requires SciPy as a dependency, even though it's installed using pip.",
+        "question": "Why does the narrator need to install SciPy before installing Keras?"
+      },
+      {
+        "answer": "TensorFlow.",
+        "question": "What backend is Keras confirmed to be using at the end of the tutorial?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Discussing the previous video and the goal of this one (Installing Anaconda).",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Demonstrating the Anaconda download page.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "description": "Showing the downloaded installation file.",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:39.000"
+            }
+          },
+          {
+            "description": "Starting the installation process.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Going through the installation steps (license agreement, installation type, destination folder).",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator directly addresses the viewer, providing instructions."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative and instructional. The narrator's calm and clear voice, combined with the straightforward visual demonstration, creates a helpful and instructive atmosphere.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the purpose of the video, guides the viewer through downloading and installing Anaconda step-by-step.",
+            "timestamp": "00:00:04.000"
+          },
+          {
+            "description": "Anaconda installation successfully completes.",
+            "timestamp": "00:01:20.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows File Explorer window.",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "name": "Anaconda download page in a web browser.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "Anaconda installation file in File Explorer.",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:39.000"
+            }
+          },
+          {
+            "name": "Anaconda installation setup wizard windows.",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Setting up the necessary environment for deep learning projects using Anaconda.",
+        "timestamps": {
+          "end_timestamp": "00:01:29.800",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction & Anaconda Installation",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with the speaker's name appearing.",
+            "timestamps": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to desktop screen recording.",
+            "timestamps": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Closing installation windows.",
+            "timestamps": {
+              "end_timestamp": "00:01:24.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "description": "Transition back to the Anaconda download page in a web browser.",
+            "timestamps": {
+              "end_timestamp": "00:01:29.800",
+              "start_timestamp": "00:01:29.800"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Opening Anaconda Navigator.",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          },
+          {
+            "description": "Launching Spyder IDE.",
+            "timestamp": {
+              "end_timestamp": "00:01:46.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          },
+          {
+            "description": "Navigating to Environments in Anaconda Navigator.",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:02:23.000"
+            }
+          },
+          {
+            "description": "Opening Terminal from the root environment.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          },
+          {
+            "description": "Installing TensorFlow and SciPy using conda commands.",
+            "timestamp": {
+              "end_timestamp": "00:02:40.000",
+              "start_timestamp": "00:02:40.000"
+            }
+          },
+          {
+            "description": "Installing Keras using pip command.",
+            "timestamp": {
+              "end_timestamp": "00:03:36.000",
+              "start_timestamp": "00:03:36.000"
+            }
+          },
+          {
+            "description": "Testing TensorFlow and Keras installation in Spyder.",
+            "timestamp": {
+              "end_timestamp": "00:03:49.000",
+              "start_timestamp": "00:03:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator guides the viewer through the installation steps."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Primarily instructional, with moments of problem-solving. The narrator's tone remains patient and helpful even when encountering minor issues.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the Spyder IDE, then focuses on installing TensorFlow, SciPy, and Keras. Finally, confirms successful installation.",
+            "timestamp": "00:01:46.000"
+          },
+          {
+            "description": "Completion of TensorFlow installation.",
+            "timestamp": "00:02:55.000"
+          },
+          {
+            "description": "SciPy installation completes.",
+            "timestamp": "00:03:31.000"
+          },
+          {
+            "description": "Keras installation completes.",
+            "timestamp": "00:03:46.000"
+          },
+          {
+            "description": "Confirmation that Keras is using TensorFlow backend.",
+            "timestamp": "00:03:56.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Anaconda Navigator window.",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          },
+          {
+            "name": "Spyder IDE window.",
+            "timestamp": {
+              "end_timestamp": "00:01:46.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          },
+          {
+            "name": "Anaconda Navigator Environments tab.",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:02:23.000"
+            }
+          },
+          {
+            "name": "Terminal window.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Installing essential deep learning libraries (TensorFlow, Keras, SciPy) within the Anaconda environment.",
+        "timestamps": {
+          "end_timestamp": "00:04:36.533",
+          "start_timestamp": "00:01:29.833"
+        },
+        "title": "Introduction to Spyder IDE & Installing Libraries",
+        "videoEditingDetails": [
+          {
+            "description": "Brief pause while Spyder launches.",
+            "timestamps": {
+              "end_timestamp": "00:01:46.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          },
+          {
+            "description": "Repeating installation command for SciPy due to an interruption.",
+            "timestamps": {
+              "end_timestamp": "00:03:19.000",
+              "start_timestamp": "00:03:19.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Encouraging viewers to like, subscribe, and check out other videos.",
+            "timestamp": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:37.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Direct address to the viewer."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Positive and encouraging. The narrator's upbeat tone invites continued engagement with his content.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the tutorial, prompting viewer interaction for future content.",
+            "timestamp": "00:04:37.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Outro screen with the speaker's name.",
+            "timestamp": {
+              "end_timestamp": "00:04:36.567",
+              "start_timestamp": "00:04:36.567"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Building community and promoting further learning.",
+        "timestamps": {
+          "end_timestamp": "00:04:56.533",
+          "start_timestamp": "00:04:36.567"
+        },
+        "title": "Outro",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to the outro screen.",
+            "timestamps": {
+              "end_timestamp": "00:04:36.567",
+              "start_timestamp": "00:04:36.567"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Confirmation that Keras uses TensorFlow as backend, signifying successful setup for deep learning.",
+        "timestamp": "00:03:56.000"
+      },
+      "description": "Installing Anaconda and Essential Deep Learning Libraries.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Deep Dive into Deep Learning Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "The closing of installation windows could be sped up.",
+        "timestamps": {
+          "end_timestamp": "00:04:36.567",
+          "start_timestamp": "00:04:36.567"
+        }
+      },
+      {
+        "description": "The repeated SciPy installation command could be trimmed.",
+        "timestamps": {
+          "end_timestamp": "00:04:36.567",
+          "start_timestamp": "00:04:36.567"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 297,
+  "original_json_filename": "PG4gCxIelrs.json",
+  "original_video_filename": "PG4gCxIelrs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in the last video we installed Python and created our first neural network from scratch and while it is good to do at least once from this point onward we're going to be using libraries to make it easier on us I've decided to use the environment called anaconda to do all of this so that's what this episode's going to be about just installing that installing tensorflow and caris so it can be up and running for the next few episodes okay so to get started all you need to do is download the Python 3.6 version or if you prefer Python 2.7 version but if you want to be following exactly I would recommend doing 3.6 so once you've downloaded that you'll have the download installation file so to get started you just need to double click on it so fairly straightforward installation once it's open just press run okay so you're going to be going with the pretty straightforward example just most of the recommended stuff choose where you want to download it to or install it I will go into my Python folder create a new subfolder called anaconda and that'll do next you don't want to add that to your Python environment variable okay now that that's installed we'll just continue on so next and finish and then everything is installed and we'll be moving on to the next part okay so all you want to do now is type anaconda and should bring up anaconda Navigator make sure it starts up okay so now that it's started up the first thing we're going to do is go into environments and actually I think before we do that I'll show you the environment that we're going to be working in so it's called spider okay so this is the navigator or the IDE actually this spider IDE it's running Python 3.6 so it's really up to date and this is where everything's gonna be done similar to idle you've got your code you've got you you've got your console I mean um this is a Python console so it's a bit different the other things that it's just better integrate pretty much so now I've actually actual installing PI again you just want to go back into the navigator and we're going to go into environment and click on the root play button let's click on it then right click and press open terminal okay so first what you're going to do is just type Condor install tensorflow so Condor is the package manager for anaconda installed just means install and tensorflow which is what we're going to be installing okay now that's done and for some reason when you're installing carrots it it needs to install Syfy which is the scientific library I guess and all it does is just cause narrow you can't until Paris with pip without installing sci-fi beforehand either way I found to do that is just to Condor install sci-fi okay some reason didn't finish last time so I'm going to try that again so Condor install the T install so high okay so it's done it was already installed now there's one more step you just need to do it this time which is just the default - equivalent of Condor so if its installed caris okay so that's installed now let's just see if that works cause it says it's installed with piano which is not only one we want it to instead install with tensorflow so let's just see if it has actually decided to use tents let's get back end and the way we do that is we go into spider and we just do import first we'll check if tensorflow works actually that might cause nero so we'll just check if Kerris works what curious okay so it is using the tensorflow back in which is exactly what we want so that means that tensorflow is installed correctly and both also Kerris is installed correctly which means that we are totally ready to go for the coming videos i in another video later on might show you how to install the temp supplied GPU it's a bit of an annoying process but it can be worthwhile thanks for watching if you enjoyed this video make sure to leave a like and check out some of my other videos if you haven't already subscribe button able notifications so you can know whenever I upload see you in the next video you",
+  "text_to_speech_word_count": 756,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.867",
+      "start": "00:00:00.000",
+      "text": " In the last video, we installed Python and created our first neural network from scratch."
+    },
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:08.867",
+      "text": " And while it is good to do at least once, from this point on, we're going to be using"
+    },
+    {
+      "end": "00:00:14.833",
+      "start": "00:00:12.000",
+      "text": " libraries to make it easier on us."
+    },
+    {
+      "end": "00:00:19.333",
+      "start": "00:00:14.833",
+      "text": " I've decided to use the environment called Anaconda to do all of this."
+    },
+    {
+      "end": "00:00:23.300",
+      "start": "00:00:19.333",
+      "text": " So that's what this episode is going to be about, just installing that, installing TensorFlow"
+    },
+    {
+      "end": "00:00:27.067",
+      "start": "00:00:23.300",
+      "text": " and Keras so we can be up and running for the next few episodes."
+    },
+    {
+      "end": "00:00:32.733",
+      "start": "00:00:27.567",
+      "text": " OK, so to get started, all you need to do is download the Python 3.6 version, or if"
+    },
+    {
+      "end": "00:00:36.567",
+      "start": "00:00:32.733",
+      "text": " you prefer Python 2.7 version, but if you want to be following exactly, I would recommend"
+    },
+    {
+      "end": "00:00:38.667",
+      "start": "00:00:36.567",
+      "text": " doing 3.6."
+    },
+    {
+      "end": "00:00:43.133",
+      "start": "00:00:38.667",
+      "text": " So once you've downloaded that, you'll have the installation file."
+    },
+    {
+      "end": "00:00:46.300",
+      "start": "00:00:43.133",
+      "text": " So to get started, you just need to double click on it."
+    },
+    {
+      "end": "00:00:49.733",
+      "start": "00:00:46.300",
+      "text": " It's fairly straightforward installation."
+    },
+    {
+      "end": "00:00:51.900",
+      "start": "00:00:49.733",
+      "text": " Once it's open, just press Run."
+    },
+    {
+      "end": "00:00:58.333",
+      "start": "00:00:52.900",
+      "text": " OK, so you're going to be going with the pretty straightforward example, just most"
+    },
+    {
+      "end": "00:01:00.533",
+      "start": "00:00:58.333",
+      "text": " of the recommended stuff."
+    },
+    {
+      "end": "00:01:03.833",
+      "start": "00:01:00.533",
+      "text": " Choose where you want to download it to or install it."
+    },
+    {
+      "end": "00:01:10.333",
+      "start": "00:01:03.833",
+      "text": " I will go into my Python folder, create a new subfolder called Anaconda."
+    },
+    {
+      "end": "00:01:13.233",
+      "start": "00:01:10.333",
+      "text": " And that'll do."
+    },
+    {
+      "end": "00:01:18.400",
+      "start": "00:01:13.233",
+      "text": " Next, you don't want to add that to your Python environment variable."
+    },
+    {
+      "end": "00:01:23.400",
+      "start": "00:01:19.400",
+      "text": " OK, now that that's installed, we'll just continue on."
+    },
+    {
+      "end": "00:01:25.400",
+      "start": "00:01:23.400",
+      "text": " So next, and finish."
+    },
+    {
+      "end": "00:01:30.400",
+      "start": "00:01:25.400",
+      "text": " And then everything is installed, and we'll be moving on to the next part."
+    },
+    {
+      "end": "00:01:40.400",
+      "start": "00:01:34.400",
+      "text": " OK, so all you want to do now is type up Anaconda, and it should bring up Anaconda Navigator."
+    },
+    {
+      "end": "00:01:44.400",
+      "start": "00:01:42.400",
+      "text": " Just make sure it starts up."
+    },
+    {
+      "end": "00:01:50.400",
+      "start": "00:01:45.400",
+      "text": " OK, so now that it's started up, the first thing we're going to do is go into environments."
+    },
+    {
+      "end": "00:01:56.400",
+      "start": "00:01:50.400",
+      "text": " And actually, I think before we do that, I'll show you the environment that we're going to be working in."
+    },
+    {
+      "end": "00:01:59.400",
+      "start": "00:01:56.400",
+      "text": " So it's called spider."
+    },
+    {
+      "end": "00:02:02.400",
+      "start": "00:01:59.400",
+      "text": " OK, so this is the Navigator or the IDE."
+    },
+    {
+      "end": "00:02:05.400",
+      "start": "00:02:02.400",
+      "text": " Actually, the spider IDE."
+    },
+    {
+      "end": "00:02:08.400",
+      "start": "00:02:05.400",
+      "text": " It's running Python 3.6, so it's fully up to date."
+    },
+    {
+      "end": "00:02:10.400",
+      "start": "00:02:08.400",
+      "text": " And this is where everything's going to be done."
+    },
+    {
+      "end": "00:02:13.400",
+      "start": "00:02:10.400",
+      "text": " Similar to idle, you've got your code, you've got your."
+    },
+    {
+      "end": "00:02:19.400",
+      "start": "00:02:14.400",
+      "text": " I mean, this is an I Python console, so it's a bit different."
+    },
+    {
+      "end": "00:02:22.400",
+      "start": "00:02:19.400",
+      "text": " But it's just better and everybody pretty much."
+    },
+    {
+      "end": "00:02:26.400",
+      "start": "00:02:22.400",
+      "text": " So now back to the actual installing part again, you just want to go back into the Navigator."
+    },
+    {
+      "end": "00:02:29.400",
+      "start": "00:02:26.400",
+      "text": " And we're going to go into environments."
+    },
+    {
+      "end": "00:02:33.400",
+      "start": "00:02:29.400",
+      "text": " And click on the root play button."
+    },
+    {
+      "end": "00:02:37.400",
+      "start": "00:02:33.400",
+      "text": " Left click on it, right click, and press open terminal."
+    },
+    {
+      "end": "00:02:45.400",
+      "start": "00:02:38.400",
+      "text": " OK, so first, what you're going to do is just type conda install TensorFlow."
+    },
+    {
+      "end": "00:02:53.400",
+      "start": "00:02:45.400",
+      "text": " So conda is the package manager for an economy install, just means install and TensorFlow, which is what we're going to be installing."
+    },
+    {
+      "end": "00:02:55.400",
+      "start": "00:02:53.400",
+      "text": " OK, now that's done."
+    },
+    {
+      "end": "00:03:03.400",
+      "start": "00:02:55.400",
+      "text": " And for some reason, when you're installing carousel, it needs to install a sci-fi, which is the scientific library, I guess."
+    },
+    {
+      "end": "00:03:06.400",
+      "start": "00:03:03.400",
+      "text": " And all it does is just cause an error."
+    },
+    {
+      "end": "00:03:11.400",
+      "start": "00:03:06.400",
+      "text": " You can't install carousel with pip without installing sci-fi beforehand."
+    },
+    {
+      "end": "00:03:18.400",
+      "start": "00:03:11.400",
+      "text": " And the only way I found it to that is just do conda install sci-fi."
+    },
+    {
+      "end": "00:03:20.400",
+      "start": "00:03:18.400",
+      "text": " OK, for some reason, it didn't finish last time."
+    },
+    {
+      "end": "00:03:21.400",
+      "start": "00:03:20.400",
+      "text": " So I'm going to try that again."
+    },
+    {
+      "end": "00:03:24.400",
+      "start": "00:03:21.400",
+      "text": " So conda install."
+    },
+    {
+      "end": "00:03:31.400",
+      "start": "00:03:24.400",
+      "text": " I'm going to install sci-fi."
+    },
+    {
+      "end": "00:03:33.400",
+      "start": "00:03:31.400",
+      "text": " OK, so that's done."
+    },
+    {
+      "end": "00:03:35.400",
+      "start": "00:03:33.400",
+      "text": " It was already installed."
+    },
+    {
+      "end": "00:03:38.400",
+      "start": "00:03:35.400",
+      "text": " Now there's one more step you just need to do."
+    },
+    {
+      "end": "00:03:43.400",
+      "start": "00:03:38.400",
+      "text": " PIP this time, which is just the default Python equivalent of conda."
+    },
+    {
+      "end": "00:03:46.400",
+      "start": "00:03:43.400",
+      "text": " So pip install carousel."
+    },
+    {
+      "end": "00:03:48.400",
+      "start": "00:03:46.400",
+      "text": " OK, so that's installed."
+    },
+    {
+      "end": "00:03:53.400",
+      "start": "00:03:48.400",
+      "text": " Now let's just see if that works because it says it's installed with the anno, which is not all you want."
+    },
+    {
+      "end": "00:03:55.400",
+      "start": "00:03:53.400",
+      "text": " We want it to instead install with TensorFlow."
+    },
+    {
+      "end": "00:03:59.400",
+      "start": "00:03:55.400",
+      "text": " So let's just see if it has actually decided to use TensorFlow as the back end."
+    },
+    {
+      "end": "00:04:01.400",
+      "start": "00:03:59.400",
+      "text": " And the way we do that is we go into spider."
+    },
+    {
+      "end": "00:04:03.400",
+      "start": "00:04:01.400",
+      "text": " And we just do import."
+    },
+    {
+      "end": "00:04:06.400",
+      "start": "00:04:03.400",
+      "text": " First we'll check if TensorFlow works."
+    },
+    {
+      "end": "00:04:08.400",
+      "start": "00:04:06.400",
+      "text": " Actually, that might cause an error."
+    },
+    {
+      "end": "00:04:11.400",
+      "start": "00:04:08.400",
+      "text": " So we'll just check if carous works."
+    },
+    {
+      "end": "00:04:12.400",
+      "start": "00:04:11.400",
+      "text": " And put carousel."
+    },
+    {
+      "end": "00:04:16.367",
+      "start": "00:04:12.400",
+      "text": " OK, so it is using the TensorFlow back end, which is exactly what we want."
+    },
+    {
+      "end": "00:04:18.367",
+      "start": "00:04:16.367",
+      "text": " So that means that TensorFlow is installed correctly."
+    },
+    {
+      "end": "00:04:25.367",
+      "start": "00:04:18.367",
+      "text": " And both also carousels installed correctly, which means that we are totally ready to go for the coming videos."
+    },
+    {
+      "end": "00:04:30.367",
+      "start": "00:04:25.367",
+      "text": " I in another video later on, I might show you how to install the TensorFlow GPU."
+    },
+    {
+      "end": "00:04:36.400",
+      "start": "00:04:30.367",
+      "text": " It's a bit of an annoying process, but it can be worthwhile."
+    },
+    {
+      "end": "00:04:37.400",
+      "start": "00:04:36.400",
+      "text": " Thanks for watching."
+    },
+    {
+      "end": "00:04:41.400",
+      "start": "00:04:37.400",
+      "text": " If you enjoyed this video, make sure to leave a like and check out some of my other videos."
+    },
+    {
+      "end": "00:04:45.400",
+      "start": "00:04:41.400",
+      "text": " If you haven't already, subscribe and enable notifications so you can know whenever I upload."
+    },
+    {
+      "end": "00:04:48.400",
+      "start": "00:04:45.400",
+      "text": " See you in the next video."
+    },
+    {
+      "end": "00:04:56.400",
+      "start": "00:04:55.400",
+      "text": " Bye."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Lochie Westfall",
+  "youtube_channel_follower_count": 851,
+  "youtube_comment_count": 10,
+  "youtube_description": "In this episode of road to AI we install the necessary software for creating neural networks.\nAnaconda - https://www.continuum.io/downloads",
+  "youtube_like_count": 51,
+  "youtube_tags": [
+    "Unity",
+    "gaming",
+    "lochie",
+    "westfall",
+    "2017",
+    "developement",
+    "teenager",
+    "14",
+    "c#",
+    "tutorial",
+    "showcase",
+    "video",
+    "htc",
+    "vive",
+    "vr",
+    "cool",
+    "demo",
+    "inventory",
+    "explanation",
+    "hard",
+    "anaconda",
+    "python",
+    "installatio",
+    "how to"
+  ],
+  "youtube_title": "Road To AI 6 - Installing Anaconda, Tensorflow and Keras",
+  "youtube_upload_date": "20170729",
+  "youtube_view_count": 3741
+}

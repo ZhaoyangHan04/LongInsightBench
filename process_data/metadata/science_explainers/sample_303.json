@@ -1,0 +1,786 @@
+{
+  "content_fine_category": "Science Explainers",
+  "content_metadata": {
+    "characterList": [],
+    "description": "An analysis of a video discussing the development and potential of an AI-based tsunami prediction model, highlighting its speed, effectiveness, and societal impact.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The S-net (Seafloor Observation Network for Earthquakes and Tsunamis) provides real-world data that was crucial for training and testing the AI model, making its predictions more realistic and applicable to real-world scenarios.",
+        "question": "What is the significance of the 'S-net' observation network shown in the video?"
+      },
+      {
+        "answer": "The video also mentions 'flow depth,' which measures how high a tsunami rises above ground level.",
+        "question": "Besides 'inundation height,' what other metric does the video mention to evaluate the accuracy of the models?"
+      },
+      {
+        "answer": "The AI model's speed comes from its extensive training on thousands of scenarios, eliminating the need to solve complex fluid dynamics equations in real time.",
+        "question": "What is the primary reason for the significant speed advantage of the AI model over the conventional model?"
+      },
+      {
+        "answer": "The video starts with the text '45 minutes' and visuals of a tsunami wave rapidly approaching the shore, accompanied by a ticking clock sound, creating a sense of immediacy and impending danger.",
+        "question": "How does the video attempt to evoke a sense of urgency and concern at the beginning?"
+      },
+      {
+        "answer": "The video uses the visual metaphor of a smartphone displaying flood risk areas and a helicopter providing aid, suggesting the model's potential for enabling faster evacuation and emergency response.",
+        "question": "What visual metaphor does the video use to illustrate the potential societal impact of the AI model?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Animated representation of a tsunami wave traveling from earthquake epicenter to shore.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduces the pressing need for advancements in tsunami prediction systems.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Anxious due to visuals of the tsunami wave and mention of the 2011 Tohoku tsunami.",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition to a darker blue background suggesting a shift to a more informative tone.",
+              "timestamp": "00:00:18.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Establishes the context of tsunami warning systems and highlights the 45-minute average time it took for the 2011 Tohoku tsunami to reach shore.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Raises the need for improvement in warning systems.",
+            "timestamp": "00:00:18.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Clock animation",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Stylized wave animation",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Stylized houses on a hill",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Text: '45 minutes,' '2011 Tohoku tsunami'",
+            "timestamp": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Tsunami warning systems, natural disasters, urgency, technological advancements.",
+        "timestamps": {
+          "end_timestamp": "00:00:19.280",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay with title and authors.",
+            "timestamps": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Smooth transition to a darker blue background.",
+            "timestamps": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:18.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Display of a computer monitor showing a map of Japan with an animated earthquake and clock.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:19.320"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights the inefficiencies in current tsunami prediction methods.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral, moving towards Curious as the video explains the current limitations of tsunami prediction models.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the time-consuming nature of conventional tsunami prediction models (30 minutes to run the model + 35 minutes to determine the source = 65 minutes total).",
+            "timestamp": "00:00:19.320"
+          },
+          {
+            "description": "Emphasizes the need for faster prediction methods.",
+            "timestamp": "00:00:19.320"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer monitor animation",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:19.320"
+            }
+          },
+          {
+            "name": "Map of Japan with animated earthquake epicenter",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:19.320"
+            }
+          },
+          {
+            "name": "Clock animations",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:19.320"
+            }
+          },
+          {
+            "name": "Text: '30 minutes,' '35 minutes,' '65 minutes'",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:19.320"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Computational limitations, time constraints, need for innovation.",
+        "timestamps": {
+          "end_timestamp": "00:00:36.200",
+          "start_timestamp": "00:00:19.320"
+        },
+        "title": "Current Limitations",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay explaining the limitations of traditional tsunami prediction models.",
+            "timestamps": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:19.320"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Animation of a neural network with a clock.",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:36.240"
+            }
+          },
+          {
+            "description": "Display of a map of Japan with points representing the S-net observation network.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          },
+          {
+            "description": "Zoom into a specific area on the map showing tsunami-affected regions.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Showcases the transformative impact of AI on tsunami prediction.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited, generated by the visuals of the neural network and the potential for a significantly faster prediction system.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the AI-based machine learning model as a solution.",
+            "timestamp": "00:00:36.240"
+          },
+          {
+            "description": "Highlights the potential for reducing modeling time by up to 99%.",
+            "timestamp": "00:00:43.000"
+          },
+          {
+            "description": "Explains the model's training on real-world data from Japan's S-net observation network.",
+            "timestamp": "00:00:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Neural network animation",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:36.240"
+            }
+          },
+          {
+            "name": "Clock animations",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:36.240"
+            }
+          },
+          {
+            "name": "Map of Japan with S-net observation points",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          },
+          {
+            "name": "Text: '<1 second,' 'RIKEN,' 'Cluster for Pioneering Research,' 'Center for Advanced Intelligence Project,' 'Center for Computational Science'",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:36.240"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Artificial intelligence, machine learning, data-driven solutions, efficiency.",
+        "timestamps": {
+          "end_timestamp": "00:01:08.320",
+          "start_timestamp": "00:00:36.240"
+        },
+        "title": "AI Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay explaining the AI-based solution.",
+            "timestamps": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:36.240"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Illustration of the model training process with hypothetical earthquake scenarios.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:08.360"
+            }
+          },
+          {
+            "description": "Display of two maps comparing the conventional model and the AI model predictions.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "description": "Comparison of the prediction times using clock animations.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates the efficiency and accuracy of the AI model for real-world application.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Proud, stemming from the successful results of the AI model testing.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Details the model's training process on hypothetical earthquake scenarios.",
+            "timestamp": "00:01:08.360"
+          },
+          {
+            "description": "Presents the results of the AI model compared to the conventional model.",
+            "timestamp": "00:01:30.000"
+          },
+          {
+            "description": "Shows the drastic reduction in prediction time: 30 minutes (conventional) vs. 0.05 seconds (AI).",
+            "timestamp": "00:01:48.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating megathrust and outer-rise earthquakes",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:08.360"
+            }
+          },
+          {
+            "name": "Two maps showing flood predictions from both models",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "name": "Clock animations",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "name": "Text: 'Model Training,' '> 3000 hypothetical scenarios,' 'Megathrust event (Mw 8.0-9.1),' 'Outer-rise earthquakes (Mw 7.0-8.7),' 'Conventional physics-based model,' 'New machine learning-based model,' '30 minutes,' '0.05 seconds'",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:08.360"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Data analysis, model validation, accuracy, speed, groundbreaking achievement.",
+        "timestamps": {
+          "end_timestamp": "00:01:56.000",
+          "start_timestamp": "00:01:08.360"
+        },
+        "title": "Model Testing and Results",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay explaining the testing process and results.",
+            "timestamps": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:08.360"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Animation of a hand holding a smartphone with a map showing flood risk areas.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:01:56.040"
+            }
+          },
+          {
+            "description": "Animation of a helicopter landing on a hill with stylized houses.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:01:56.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Illustrates the practical benefits of AI in disaster management.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Hopeful, fueled by the potential of the AI model to improve tsunami warning systems and save lives.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Emphasizes the potential benefits of faster prediction, including timely evacuation and efficient resource allocation.",
+            "timestamp": "00:01:56.040"
+          },
+          {
+            "description": "Mentions ongoing work to address sources of uncertainty and improve model accuracy.",
+            "timestamp": "00:02:02.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Smartphone animation",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:01:56.040"
+            }
+          },
+          {
+            "name": "Map on smartphone with flood risk areas",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:01:56.040"
+            }
+          },
+          {
+            "name": "Helicopter animation",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          },
+          {
+            "name": "Stylized houses on a hill",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          },
+          {
+            "name": "Mathematical equations overlay",
+            "timestamp": {
+              "end_timestamp": "00:02:06.000",
+              "start_timestamp": "00:02:02.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Real-world applications, disaster preparedness, societal impact, future research.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.000",
+          "start_timestamp": "00:01:56.040"
+        },
+        "title": "Potential Impact and Future Work",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay describing the potential impact and future work.",
+            "timestamps": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:01:56.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Animated tsunami wave approaching a hill with stylized houses.",
+            "timestamp": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:28.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Wraps up the narrative, emphasizing technology's role in mitigating natural disasters.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Content, but also Pensive, leaving the viewer with a sense of optimism about the future of tsunami prediction while acknowledging the ongoing challenges.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes by reinforcing the importance of preparedness and the role of technology in mitigating the impact of natural disasters.",
+            "timestamp": "00:02:28.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stylized tsunami wave animation",
+            "timestamp": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:28.040"
+            }
+          },
+          {
+            "name": "Stylized houses on a hill",
+            "timestamp": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:28.040"
+            }
+          },
+          {
+            "name": "Text: 'Research Square'",
+            "timestamp": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:28.040"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Hope, resilience, technological progress.",
+        "timestamps": {
+          "end_timestamp": "00:02:59.120",
+          "start_timestamp": "00:02:28.040"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a darker background.",
+            "timestamps": {
+              "end_timestamp": "00:02:28.040",
+              "start_timestamp": "00:02:28.040"
+            }
+          },
+          {
+            "description": "Text overlay with credits and disclaimer.",
+            "timestamps": {
+              "end_timestamp": "00:02:58.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs in Scene 4 (1:48-1:56) when the video reveals the remarkable speed of the AI model compared to the conventional model. This underscores the transformative potential of the new technology.",
+        "timestamp": "00:01:48.000"
+      },
+      "description": "The video presents a single primary storyline focused on the development and potential of an AI-based tsunami prediction model. All scenes contribute to this central narrative.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Machine Learning for Tsunami Prediction",
+    "trimmingSuggestions": [
+      {
+        "description": "Scene 2 could be trimmed by shortening the static computer monitor animation, as it might feel slightly repetitive and less dynamic.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.040",
+          "start_timestamp": "00:02:28.040"
+        }
+      },
+      {
+        "description": "The final wave animation could be shortened slightly to avoid redundancy and maintain audience interest.",
+        "timestamps": {
+          "end_timestamp": "00:02:53.000",
+          "start_timestamp": "00:02:28.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 179,
+  "original_json_filename": "ReS46TzLh2k.json",
+  "original_video_filename": "ReS46TzLh2k.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Forty-five minutes. That’s how long it took, on average, for the 2011 Tōhoku tsunami to go from earthquake to Japan’s most destructive natural disaster. While that was enough time to signal a warning to those in most imminent danger, flood scientists say warning systems have to do better. Here’s why. A standard computer takes about 30 minutes to run a conventional physics-based flood model. Depending on the dataset used, forecasters must also determine the source of a tsunami—which can take up to 35 minutes. Add that up and it’s clear that there is room for improvement. That’s inspired researchers from Japan to look to AI for a solution, which they say could cut modeling time by up to 99%. The team is led by researchers from three RIKEN Centers in Japan: the Cluster for Pioneering Research, the Center for Advanced Intelligence Project, and the Center for Computational Science. Together, they’ve designed a machine learning algorithm that takes in real-world data from Japan’s Seafloor Observation Network for Earthquakes and Tsunamis, or S-net, and outputs realistic predictions of tsunami-caused flooding. The model was trained on more than 3000 hypothetical scenarios ranging from megathrust events, like the one that gave rise to the 2011 tsunami, to less-intense outer-rise earthquakes. The team then tested the model using two sets of scenarios: a collection of 480 earthquakes of varying magnitude, and 3 real, historical tsunami events. The model results compared well with those produced by a conventional physics-based model. These included metrics such as inundation height, how high a tsunami stands above sea level, and flow depth, how high a tsunami rises above ground level. The difference, of course, was how long the models took to produce those results. The physics-based model delivered its predictions in approximately 30 minutes. The machine learning model: in a mere five-hundredths of a second. This tremendous cut in time cost is due in part to the machine learning model’s intensive training. Instead of having to solve the fluid dynamics equations that predict flooding on the fly, the model relies on its massive knowledge of real and hypothetical events to venture a prediction. The caveat here is understanding sources of uncertainty. Any error in how data are measured by the S-net observational network or in how they’re input into the model itself will undoubtedly affect the results. Dampening these sources of uncertainty is the goal of future and ongoing work. But the merits are undeniable. Being able to predict flooding fast could give citizens more time to make decisions about their safety. And it could give first-responders the opportunity to mobilize faster and cover more ground. While natural disasters like tsunamis will likely never be preventable, there is reason to hope that there will always be ways to ensure that people are prepared for and informed of what’s to come.",
+  "text_to_speech_word_count": 470,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.760",
+      "start": "00:00:00.000",
+      "text": " 45 minutes. That's how long it took on average for the 2011 to Hoku tsunami to go from"
+    },
+    {
+      "end": "00:00:11.120",
+      "start": "00:00:06.760",
+      "text": " earthquake to Japan's most destructive natural disaster."
+    },
+    {
+      "end": "00:00:15.760",
+      "start": "00:00:11.120",
+      "text": " While that was enough time to signal a warning to those in most imminent danger, flood scientists"
+    },
+    {
+      "end": "00:00:22.040",
+      "start": "00:00:15.760",
+      "text": " say warning systems have to do better. Here's why. A standard computer takes about 30 minutes"
+    },
+    {
+      "end": "00:00:27.440",
+      "start": "00:00:22.040",
+      "text": " to run a conventional physics-based flood model. Depending on the dataset used, forecasters"
+    },
+    {
+      "end": "00:00:32.520",
+      "start": "00:00:27.440",
+      "text": " must also determine the source of a tsunami, which can take up to 35 minutes. Add that"
+    },
+    {
+      "end": "00:00:37.840",
+      "start": "00:00:32.520",
+      "text": " up, and it's clear that there is room for improvement. That's inspired researchers from Japan"
+    },
+    {
+      "end": "00:00:44.320",
+      "start": "00:00:37.840",
+      "text": " to look to AI for a solution, which they say could cut modeling time by up to 99%. The"
+    },
+    {
+      "end": "00:00:49.240",
+      "start": "00:00:44.320",
+      "text": " team is led by researchers from three ReCAN centers in Japan. The cluster for pioneering"
+    },
+    {
+      "end": "00:00:53.760",
+      "start": "00:00:49.240",
+      "text": " research, the Center for Advanced Intelligence Project, and the Center for Computational"
+    },
+    {
+      "end": "00:00:58.920",
+      "start": "00:00:53.760",
+      "text": " Science. Together, they've designed a machine learning algorithm that takes in real-world"
+    },
+    {
+      "end": "00:01:04.800",
+      "start": "00:00:58.920",
+      "text": " data from Japan's C-floor observation network for earthquakes and tsunamis, or SNET, and"
+    },
+    {
+      "end": "00:01:09.520",
+      "start": "00:01:04.800",
+      "text": " outputs realistic predictions of tsunami-caused flooding. The model was trained on more than"
+    },
+    {
+      "end": "00:01:14.720",
+      "start": "00:01:09.520",
+      "text": " 3,000 hypothetical scenarios, ranging from mega-thrust events like the one that gave rise"
+    },
+    {
+      "end": "00:01:20.560",
+      "start": "00:01:14.720",
+      "text": " to the 2011 tsunami to less intense outer-rise earthquakes. The team then tested the model"
+    },
+    {
+      "end": "00:01:26.080",
+      "start": "00:01:20.560",
+      "text": " using two sets of scenarios, a collection of 480 earthquakes of varying magnitude, and"
+    },
+    {
+      "end": "00:01:31.800",
+      "start": "00:01:26.080",
+      "text": " three real historical tsunami events. The model results compared well with those produced"
+    },
+    {
+      "end": "00:01:37.320",
+      "start": "00:01:31.800",
+      "text": " by a conventional physics-based model. These included metrics such as inundation height,"
+    },
+    {
+      "end": "00:01:42.080",
+      "start": "00:01:37.320",
+      "text": " how high a tsunami stands above sea level, and flow depth, how high a tsunami rises above"
+    },
+    {
+      "end": "00:01:46.560",
+      "start": "00:01:42.080",
+      "text": " ground level. The difference, of course, was how long the models took to produce those"
+    },
+    {
+      "end": "00:01:52.240",
+      "start": "00:01:46.560",
+      "text": " results. The physics-based model delivered its predictions in approximately 30 minutes,"
+    },
+    {
+      "end": "00:01:58.040",
+      "start": "00:01:52.240",
+      "text": " the machine learning model, in a mere 500s of a second. This tremendous cut in time-cost"
+    },
+    {
+      "end": "00:02:02.440",
+      "start": "00:01:58.040",
+      "text": " is due in part to the machine learning model's intensive training. Instead of having to"
+    },
+    {
+      "end": "00:02:07.000",
+      "start": "00:02:02.440",
+      "text": " solve the fluid dynamics equations that predict flooding on the fly, the model relies on"
+    },
+    {
+      "end": "00:02:12.640",
+      "start": "00:02:07.000",
+      "text": " its massive knowledge of real and hypothetical events to venture a prediction. A caveat here"
+    },
+    {
+      "end": "00:02:17.240",
+      "start": "00:02:12.600",
+      "text": " is understanding sources of uncertainty. Any error in how data are measured by the"
+    },
+    {
+      "end": "00:02:22.320",
+      "start": "00:02:17.240",
+      "text": " SNED observational network, or in how their input into the model itself will undoubtedly"
+    },
+    {
+      "end": "00:02:27.320",
+      "start": "00:02:22.320",
+      "text": " affect the results. Dampening these sources of uncertainty is the goal of future and"
+    },
+    {
+      "end": "00:02:33.360",
+      "start": "00:02:27.320",
+      "text": " ongoing work. But the merits are undeniable. Being able to predict flooding fast could"
+    },
+    {
+      "end": "00:02:38.440",
+      "start": "00:02:33.360",
+      "text": " give citizens more time to make decisions about their safety, and it could give first responders"
+    },
+    {
+      "end": "00:02:43.600",
+      "start": "00:02:38.440",
+      "text": " the opportunity to mobilize faster and cover more ground. While natural disasters like"
+    },
+    {
+      "end": "00:02:48.040",
+      "start": "00:02:43.600",
+      "text": " tsunamis will likely never be preventable, there is reason to hope that there will always"
+    },
+    {
+      "end": "00:02:52.200",
+      "start": "00:02:48.040",
+      "text": " be ways to ensure that people are prepared for and informed of what's to come."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Research Square",
+  "youtube_channel_follower_count": 12700,
+  "youtube_comment_count": 0,
+  "youtube_description": "Read the article: https://doi.org/10.1038/s41467-022-33253-5\n\nMulia, et al. \"Machine learning-based tsunami inundation prediction derived from offshore observations.\" Nature Communications (2022)\n\nVideo produced by https://www.researchsquare.com",
+  "youtube_like_count": 8,
+  "youtube_tags": [
+    "Nature Communications",
+    "RIKEN",
+    "Japan Trench",
+    "tsunami",
+    "flooding prediction",
+    "inundation",
+    "megathrust",
+    "earthquake",
+    "Tohoku-oki",
+    "Seafloor Observation Network for Earthquakes and Tsunamis",
+    "S-net",
+    "shallow-water equations",
+    "machine learning",
+    "neural network",
+    "physics-based modeling",
+    "flow depth",
+    "inundation height",
+    "misfit",
+    "uncertainty",
+    "hydrodynamics"
+  ],
+  "youtube_title": "Machine learning model slashes prediction time for tsunami caused flooding",
+  "youtube_upload_date": "20230306",
+  "youtube_view_count": 323502
+}

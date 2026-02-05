@@ -1,0 +1,605 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "An unseen male voice that guides the viewer through the tutorial.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video guiding viewers on how to separate numbers from text in an Excel spreadsheet using formulas.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The FIND function is used to find the position of a digit within a cell.",
+        "question": "What is the function used to find the position of a digit within a cell?"
+      },
+      {
+        "answer": "The array formula in cell D3 extracts the text part from the combined text and number string in cell C3.",
+        "question": "What does the array formula in cell D3 achieve?"
+      },
+      {
+        "answer": "Ctrl + Shift + Return",
+        "question": "What is the shortcut key combination to execute the array formula?"
+      },
+      {
+        "answer": "The text portion, extracted by the array formula in cell D3, is being replaced with an empty string.",
+        "question": "In the SUBSTITUTE formula, what is being replaced with an empty string (\"\")?"
+      },
+      {
+        "answer": "The overall mood is positive and informative. The narrator's clear and encouraging tone, coupled with the successful demonstration of the solution, contributes to a sense of accomplishment for viewers.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The narrator introduces the topic of the tutorial",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The narrator provides context and explains the problem to be solved",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious. The narrator presents the topic in a clear and concise manner, piquing the viewer's interest in learning the solution.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The problem is introduced, setting the stage for the solution.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Example data shown to further illustrate the problem.",
+            "timestamp": "00:00:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Excel spreadsheet",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "name": "Column D and E labeled \"Text\" and \"Number\"",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Data cleaning, Excel, separating data.",
+        "timestamps": {
+          "end_timestamp": "00:00:27.067",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with website address at the top",
+            "timestamps": {
+              "end_timestamp": "00:00:27.067",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Red arrow pointing to the title \"How To Separate Numbers From Text In Excel\"",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Red rectangle encompassing the sample data in the Excel spreadsheet",
+            "timestamps": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "description": "\"Subscribe to our channel\" text at the bottom",
+            "timestamps": {
+              "end_timestamp": "00:00:27.067",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains how to apply the array formula to extract the text",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:27.100"
+            }
+          },
+          {
+            "description": "The narrator walks through the steps of entering the formula",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "The narrator explains how to execute the array formula",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Focused. The narrator maintains a clear and deliberate tone, guiding the viewer through the technical steps with precision.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Formula input begins.",
+            "timestamp": "00:00:40.000"
+          },
+          {
+            "description": "Formula completion and execution instruction.",
+            "timestamp": "00:02:15.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Excel spreadsheet with the array formula in cell D3",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:00:27.100"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Array formulas, Excel functions (FIND, IFERROR, MIN, LEFT).",
+        "timestamps": {
+          "end_timestamp": "00:02:24.000",
+          "start_timestamp": "00:00:27.100"
+        },
+        "title": "Applying the Array Formula",
+        "videoEditingDetails": [
+          {
+            "description": "Text box with \"ARRAY FORMULA\" in red",
+            "timestamps": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          },
+          {
+            "description": "Formula is typed in cell D3",
+            "timestamps": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "The formula '=LEFT(C3,MIN(IFERROR(FIND({0,1,2,3,4,5,6,7,8,9},C3),\"\")))-1)' is shown enlarged on screen",
+            "timestamps": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:14.000"
+            }
+          },
+          {
+            "description": "Text box with \"Ctrl + Shift + Return\" in blue",
+            "timestamps": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:16.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains how to use the SUBSTITUTE formula to extract the number",
+            "timestamp": {
+              "end_timestamp": "00:02:50.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          },
+          {
+            "description": "The narrator demonstrates the formula input and execution",
+            "timestamp": {
+              "end_timestamp": "00:03:05.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Relieved. The solution is coming together, instilling a sense of accomplishment in the viewer.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Second formula input begins.",
+            "timestamp": "00:02:37.000"
+          },
+          {
+            "description": "Formula execution and successful extraction of the number.",
+            "timestamp": "00:02:50.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Excel spreadsheet with the completed array formula results in column D and the SUBSTITUTE formula being inputted in cell E3",
+            "timestamp": {
+              "end_timestamp": "00:03:05.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Excel functions (SUBSTITUTE).",
+        "timestamps": {
+          "end_timestamp": "00:03:05.000",
+          "start_timestamp": "00:02:24.033"
+        },
+        "title": "Applying the SUBSTITUTE formula",
+        "videoEditingDetails": [
+          {
+            "description": "Formula is typed in cell E3",
+            "timestamps": {
+              "end_timestamp": "00:02:50.000",
+              "start_timestamp": "00:02:37.000"
+            }
+          },
+          {
+            "description": "The formula '=SUBSTITUTE(C3,D3,\"\")' is shown enlarged on screen",
+            "timestamps": {
+              "end_timestamp": "00:02:50.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator summarizes the tutorial",
+            "timestamp": {
+              "end_timestamp": "00:03:11.000",
+              "start_timestamp": "00:03:05.033"
+            }
+          },
+          {
+            "description": "The narrator encourages viewers to like, share, comment, and subscribe",
+            "timestamp": {
+              "end_timestamp": "00:03:22.000",
+              "start_timestamp": "00:03:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Happy. The narrator expresses satisfaction with the completed tutorial and encourages further engagement with the channel.",
+          "keyMoments": [
+            {
+              "changeDescription": "The transition from the tutorial's conclusion to viewer engagement elements, providing a lighter, more engaging end to the video.",
+              "timestamp": "00:03:11.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Recap of the successful data separation.",
+            "timestamp": "00:03:05.033"
+          },
+          {
+            "description": "Call to action for viewers to engage with the channel.",
+            "timestamp": "00:03:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Excel spreadsheet showing the final results in columns D and E",
+            "timestamp": {
+              "end_timestamp": "00:03:11.000",
+              "start_timestamp": "00:03:05.033"
+            }
+          },
+          {
+            "name": "\"Like & Share\" thumbnail",
+            "timestamp": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          },
+          {
+            "name": "\"Subscribe\" thumbnail",
+            "timestamp": {
+              "end_timestamp": "00:03:22.000",
+              "start_timestamp": "00:03:17.000"
+            }
+          },
+          {
+            "name": "DP Tutorials logo",
+            "timestamp": {
+              "end_timestamp": "00:03:22.000",
+              "start_timestamp": "00:03:19.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Success, data cleaning, learning Excel.",
+        "timestamps": {
+          "end_timestamp": "00:03:37.067",
+          "start_timestamp": "00:03:05.033"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Fade transition from spreadsheet to \"Like & Share\" thumbnail",
+            "timestamps": {
+              "end_timestamp": "00:03:11.000",
+              "start_timestamp": "00:03:11.000"
+            }
+          },
+          {
+            "description": "Fade transition to \"Subscribe\" thumbnail",
+            "timestamps": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:03:17.000"
+            }
+          },
+          {
+            "description": "Fade transition to DP Tutorials logo",
+            "timestamps": {
+              "end_timestamp": "00:03:19.000",
+              "start_timestamp": "00:03:19.000"
+            }
+          },
+          {
+            "description": "End screen with social media links",
+            "timestamps": {
+              "end_timestamp": "00:03:22.000",
+              "start_timestamp": "00:03:22.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The successful execution of the SUBSTITUTE formula to extract the number marks the climax of the tutorial, showcasing the complete solution to the problem.",
+        "timestamp": "00:02:50.000"
+      },
+      "description": "The tutorial provides a clear method for separating numbers from text in Excel using formulas.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "How to Separate Numbers From Text in Excel",
+    "trimmingSuggestions": [
+      {
+        "description": "The \"Like & Share\" and \"Subscribe\" thumbnails could be shortened or combined for a more concise ending.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The DP Tutorials logo could appear for a shorter duration.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 217,
+  "original_json_filename": "39QXSQ5KQjM.json",
+  "original_video_filename": "39QXSQ5KQjM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello friends welcome to DB tutorials in this tutorial let us learn how to separate numbers from text in Excel this is a very common data cleaning task that you would be facing while using the Excel consider this example now and let us try to separate numbers from text when the number is at the end of text in column D we will be extracting the text and in the column E the name bar here I would be using an area formula so kindly absorb carefully in cell d3 I enter the formula as equal to find open the bracket open the flower bracket type 0 comma 1 comma 2 comma 3 comma 4 and till type till 9 and close the flower bracket comma C 3 now close the bracket so here you are finding the digits in this cell from the cells c3 okay once you're done with typing of this fine formula cover this formula on left by if ever open the bracket and on the right side type comma Alchemist then close the bracket so what you are doing here is that you are avoiding the errors okay now cover this on left by min function okay min open the bracket and to the right side close the bracket and finally and enter left on the left side of the string open the bracket C 3 comma and leave the formula as it is and go to towards the right side and type minus 1 and close the bracket now you're done with the formula now press Shift + ctrl + Enter as this is an arrow formula now you can see the name as the gun which is completely in the text format okay once this is done it is very easy to fetch the number in the column II I type the formula in cell III as equal to substitute open the bracket C 3 comma D 3 comma give inverted quotes and close the bracket and press Enter you will see the result as a member for difference now just drag the formula in this both columns C and D till the bottom of the table to see the results like this as design got it so friends this is how one can separate numbers from text string in Excel I hope you have enjoyed this tutorial if yes please do give me a like share and commit for from the more interesting videos please do subscribe D B tutorials thank you friends thanks for watching [Music]",
+  "text_to_speech_word_count": 426,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.400",
+      "start": "00:00:00.000",
+      "text": " Hello friends, welcome to Dbit tutorials. In this tutorial let us learn how to separate"
+    },
+    {
+      "end": "00:00:14.300",
+      "start": "00:00:07.400",
+      "text": " numbers from text in Excel. This is a very common data cleaning task that you would be"
+    },
+    {
+      "end": "00:00:21.467",
+      "start": "00:00:14.300",
+      "text": " facing while using the Excel. Consider this example now and let us try to separate numbers"
+    },
+    {
+      "end": "00:00:29.800",
+      "start": "00:00:21.467",
+      "text": " from text when the number is at the end of text. In column D we will be extracting"
+    },
+    {
+      "end": "00:00:37.200",
+      "start": "00:00:29.800",
+      "text": " the text and in the column E the number. Here I would be using an array formula so kindly"
+    },
+    {
+      "end": "00:00:49.333",
+      "start": "00:00:37.200",
+      "text": " observe carefully. In Excel D3 I enter the formula as equal to find, open the bracket, open"
+    },
+    {
+      "end": "00:01:07.200",
+      "start": "00:00:49.333",
+      "text": " the flower bracket, type 0, 1, 2, 3, 4 and type 9 and close the flower bracket,"
+    },
+    {
+      "end": "00:01:18.433",
+      "start": "00:01:07.200",
+      "text": " C3. Now close the bracket. Here you are finding the digits in the cell from the cell C3."
+    },
+    {
+      "end": "00:01:26.767",
+      "start": "00:01:18.433",
+      "text": " Once you are done with typing of this find formula, cover this formula on left by if error,"
+    },
+    {
+      "end": "00:01:34.633",
+      "start": "00:01:26.767",
+      "text": " open the bracket and on the right side type comma and come us and close the bracket. So"
+    },
+    {
+      "end": "00:01:44.300",
+      "start": "00:01:34.633",
+      "text": " what you are doing here is that you are avoiding the errors. Now cover this on left by min"
+    },
+    {
+      "end": "00:01:54.533",
+      "start": "00:01:44.300",
+      "text": " function. min, open the bracket and to the right side close the bracket and finally"
+    },
+    {
+      "end": "00:02:05.400",
+      "start": "00:01:54.533",
+      "text": " enter left on the left side of the string. Open the bracket, C3, comma and leave the formula"
+    },
+    {
+      "end": "00:02:15.367",
+      "start": "00:02:05.400",
+      "text": " as it is and go towards the right side and type minus 1 and close the bracket. Now you"
+    },
+    {
+      "end": "00:02:22.267",
+      "start": "00:02:15.367",
+      "text": " are done with the formula. Now press shift plus control plus enter as this is an error"
+    },
+    {
+      "end": "00:02:31.133",
+      "start": "00:02:22.267",
+      "text": " formula. Now you can see the name as doger which is completely in the text format. Okay,"
+    },
+    {
+      "end": "00:02:36.867",
+      "start": "00:02:31.133",
+      "text": " once this is done it is very easy to fetch the number in the column E. I type the formula"
+    },
+    {
+      "end": "00:02:48.600",
+      "start": "00:02:36.867",
+      "text": " in cell E3 as equal to substitute open the bracket C3, D3, give inverted quotes and close"
+    },
+    {
+      "end": "00:02:57.000",
+      "start": "00:02:48.600",
+      "text": " the bracket and press enter you will see the result as a number. Got it friends? Now just drag"
+    },
+    {
+      "end": "00:03:02.733",
+      "start": "00:02:57.000",
+      "text": " the formula in this both columns C and D to the bottom of the table to see the results"
+    },
+    {
+      "end": "00:03:10.267",
+      "start": "00:03:02.733",
+      "text": " like this as design. Got it? So friends this is how one can separate numbers from text"
+    },
+    {
+      "end": "00:03:15.767",
+      "start": "00:03:10.267",
+      "text": " string in Excel. I hope you have enjoyed this tutorial. If yes please do give me a like,"
+    },
+    {
+      "end": "00:03:20.500",
+      "start": "00:03:15.767",
+      "text": " share and comment. For further more interesting videos please do subscribe DB tutorials. Thank"
+    },
+    {
+      "end": "00:03:27.500",
+      "start": "00:03:20.500",
+      "text": " you friends. Thanks for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "dptutorials",
+  "youtube_channel_follower_count": 34000,
+  "youtube_comment_count": 292,
+  "youtube_description": "In this tutorial, let us learn How To Separate Numbers From Text In Excel\n\nThis is a very common data cleaning task that you would be facing while using the excel.\n\nDON'T CLICK THIS: ➡️ https://bit.ly/3sPIZvD\n\nYou can support me by: ➡️ https://www.buymeacoffee.com/dptutorials\n\nLink to download the exercise file: ➡️ https://bit.ly/3rHXOQd\n\nBest Laptops to use for better speed: \n1️⃣ https://amzn.to/3lf8zYU\n2️⃣ https://amzn.to/3xejpAW\n3️⃣ https://amzn.to/379OqeL\n\nBest Equipment & Tools for YouTube Channel : ➡️ https://bit.ly/3inKa1P\n\nConsider this example now and let us try to Separate numbers from text when the number is at the end of text.\n\nIn column D we will be extracting the text and in the column E the number.\nHere I would be using an array formula, so kindly observe carefully.\n\nI enter the formula in cell D3 as =LEFT(C3,MIN(IFERROR(FIND({0,1,2,3,4,5,6,7,8,9},C3),\"\"))-1) and press SHIFT+CTRL+ENTER as this is an array formula.\nNow you see the name as Durga which is completely in the text format.\nOnce this is done, it is very easy to fetch the number in the column E\nI type the formula in cell E3 as =substitute(c3,d3,””) and press enter to see the result\n\nNow drag the formulae in columns C and D till the bottom of the table to see the results as desired.\n\nSo, friends this is how one can Separate Numbers From Text In Excel \n\nI hope you have enjoyed this tutorial, If yes, please do give me a like, share and comment.\nFor more interesting videos, please do subscribe dptutorials.\n\nOur Recommendations\n***************************************************************\nOracle Primavera Tutorials : https://bit.ly/3fn9PFH\nMicrosoft Excel Tutorials : https://bit.ly/2V5de5l\nMicrosoft Project Tutorials : https://bit.ly/37guNl7\n\nFor Personalized detail learning, write to dptutorials15@gmail.com\n\nIf you found this video valuable, give it a like. If you know someone who needs to see it, share it. Leave a comment below with your thoughts. Add it to a playlist if you want to watch it later.\n\n***********************************************\n★ My Online Tutorials ► https://www.dptutorials.com\n\n⚡️LEARNING RESOURCES I Recommend: https://www.dptutorials.com/resources\n\n⚡️Subscribe for more Awesome Tutorials: http://goo.gl/NyAtg2 \n\n⚡️Support the Channel via shopping: https://amzn.to/2ZRfTOZ   http://ift.tt/2jH38PR   \n\n***********************************************\n\n⚡️You Can Connect with Me at:\n***********************************************\nYouTube: http://www.youtube.com/c/dptutorials\nInstagram: https://www.instagram.com/dptutorials/\nG+: http://ift.tt/2kAOpa6\nTwitter: https://twitter.com/dptutorials15\nFacebook: http://ift.tt/2kfRnDi\nBlogSpot: http://ift.tt/2kB14dh\nWebsites: http://www.dptutorials.com & http://www.askplanner.blogspot.com\n\n#dptutorials  #Exceltraining #ExcelTricks #ExcelTips #ExcelFreeTraining #ExcelFreeLearning\n\n⚡️Tags: -\nexcel formulas in English, excel in English, excel tutorial in English,ms excel in English,ms excel tutorial in English, learn excel in English,vlookup in excel in English, learn ms excel in English, excel training, excel tutorial, Microsoft Excel 2007, learn excel,tutorial excel, ms excel tutorial, excel tutorials,ms excel 2007,Microsoft Excel training,learn excel online,learning excel,free excel training,online excel training,advanced excel tutorial,excel tutorial, excel formulas and functions, excel formulas, excel tutorial in Hindi, excel formulas and functions in Hindi, excel tricks, excel in Hindi, excel shortcut keys, excel vlookup, excel formulas in Hindi, excel for beginners, excel for accounting, excel formulas and functions tutorial, Excel Sum Formula, Sum Formula series,,google,sheets,excel,excel course,excel tutorial,excel for beginners,exsel, excel attendance sheet, excel salary sheet, excel stock maintain, excel data entry, advanced excel tutorial,excel formulas,excel tutorial,vlookup excel,excel accounting,excel for beginners,excel shortcut keys,excel sum formula,excel training,excel training online,excel tricks,free excel training,learn excel,learn excel online,microsoft excel training,attendance sheet in excel,excel data entry,excel formulas and functions,microsoft excel 2007, ms excel tutorial, excel formulas",
+  "youtube_like_count": 4230,
+  "youtube_tags": [
+    "primavera project management",
+    "dptutorials",
+    "extract [ seperate ] numbers fom text in exce",
+    "excel",
+    "microsoft excel (software)",
+    "extract",
+    "only",
+    "numbers",
+    "from",
+    "text",
+    "string",
+    "array",
+    "formula",
+    "indirect",
+    "seperate name and number",
+    "separate numbers and letters",
+    "numbers (software)",
+    "extract numbers from text",
+    "extract letters from text",
+    "deepak",
+    "vlookup in excel",
+    "excel tips and tricks",
+    "deepak eduworld",
+    "ms excel tutorial",
+    "seperate numbers only",
+    "excel getnumber formula",
+    "function",
+    "Extract [ Seperate",
+    "tips"
+  ],
+  "youtube_title": "How To Separate Numbers From Text In Excel || Excel Tips & Tricks || dptutorials",
+  "youtube_upload_date": "20191025",
+  "youtube_view_count": 530540
+}

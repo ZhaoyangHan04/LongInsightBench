@@ -1,0 +1,1494 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "An orange cat with a white muzzle, big eyes, and a playful expression. Always seen walking or running, often with a big smile.",
+        "name": "Scratch Cat"
+      }
+    ],
+    "description": "A step-by-step tutorial on getting started with the Scratch programming language, showcasing basic concepts, downloading process, interface introduction, and simple programming examples.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "100 (demonstrated at 2:52).",
+        "question": "What number was entered in the 'move' function to make the cat move further across the stage?"
+      },
+      {
+        "answer": "\"wait 1 secs\" (introduced at 5:06).",
+        "question": "What function was used to create a pause between each movement and turn of the cat?"
+      },
+      {
+        "answer": "By clicking on the 'Stage' tab and then importing a background image from the 'Nature' category (demonstrated at 8:23 and 8:29).",
+        "question": "How did the presenter change the stage background from a plain white to a desert scene?"
+      },
+      {
+        "answer": "A square (visually observed throughout Scene 8).",
+        "question": "What geometric shape did the cat draw when the 'turn' function was set to 90 degrees?"
+      },
+      {
+        "answer": "By using the \"go to x: y:\" function set to (0, 0) and the \"point in direction\" function set to 90 degrees (demonstrated at 7:27 and 7:40).",
+        "question": "How did the presenter reset the cat to its original position and direction after it moved and turned?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the video topic and series.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Second title slide presents the video as Part 1 of a series focusing on basic concepts.",
+            "timestamp": "00:00:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide: 'An Introduction to the Scratch Programming Language'",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Title slide: 'Getting Started with Scratch Programming Language, Part 1: Basic Concepts'",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to computer programming and Scratch.",
+        "timestamps": {
+          "end_timestamp": "00:00:19.300",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Blue animated background with fading squares",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Blue background with wave pattern at the bottom",
+            "timestamps": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Providing information about Scratch.",
+            "timestamp": "00:00:19.333"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide: 'What is \"Scratch\"?'",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:19.333"
+            }
+          },
+          {
+            "name": "Bullet points describing Scratch: computer programming language, designed for education, easy to use, for any age, no prior experience needed, visual and colorful, Lego approach, connect blocks to create programs, fun",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:19.333"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Definition and characteristics of Scratch.",
+        "timestamps": {
+          "end_timestamp": "00:00:41.000",
+          "start_timestamp": "00:00:19.333"
+        },
+        "title": "What is Scratch?",
+        "videoEditingDetails": [
+          {
+            "description": "Blue background with wave pattern at the bottom",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:19.333"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Curious, Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explaining how to obtain Scratch.",
+            "timestamp": "00:00:41.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide: 'Where Do I Get \"Scratch\"?'",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          },
+          {
+            "name": "Bullet points about obtaining Scratch: from MIT Media Lab, developed by Lifelong Kindergarten group, downloadable from the web, available on Windows, Apple, and Linux",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Accessibility and availability of Scratch across different platforms.",
+        "timestamps": {
+          "end_timestamp": "00:01:05.000",
+          "start_timestamp": "00:00:41.033"
+        },
+        "title": "Where to Get Scratch",
+        "videoEditingDetails": [
+          {
+            "description": "Blue background with wave pattern at the bottom",
+            "timestamps": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Downloading Scratch",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:05.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Step-by-step guide to downloading Scratch.",
+            "timestamp": "00:01:05.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide: 'Downloading Scratch (1)'",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:01:05.033"
+            }
+          },
+          {
+            "name": "Screenshot of the Scratch website homepage",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:01:05.033"
+            }
+          },
+          {
+            "name": "Title slide: 'Downloading Scratch (2)'",
+            "timestamp": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          },
+          {
+            "name": "Screenshot of the Scratch download form",
+            "timestamp": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          },
+          {
+            "name": "Title slide: 'Downloading Scratch (3)'",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          },
+          {
+            "name": "Screenshot of the Scratch download page with operating system options",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Practical steps to get started with Scratch.",
+        "timestamps": {
+          "end_timestamp": "00:01:35.000",
+          "start_timestamp": "00:01:05.033"
+        },
+        "title": "Downloading Scratch",
+        "videoEditingDetails": [
+          {
+            "description": "Blue background with wave pattern at the bottom",
+            "timestamps": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:05.033"
+            }
+          },
+          {
+            "description": "Transitions between screenshots are basic cuts",
+            "timestamps": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:05.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Starting Scratch",
+            "timestamp": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:35.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Guide on how to launch Scratch.",
+            "timestamp": "00:01:35.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide: 'Starting Scratch'",
+            "timestamp": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:35.033"
+            }
+          },
+          {
+            "name": "Screenshot of Scratch desktop icon",
+            "timestamp": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "name": "Screenshot of the Windows Start menu with Scratch highlighted",
+            "timestamp": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:43.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Practical steps for launching Scratch.",
+        "timestamps": {
+          "end_timestamp": "00:01:48.000",
+          "start_timestamp": "00:01:35.033"
+        },
+        "title": "Starting Scratch",
+        "videoEditingDetails": [
+          {
+            "description": "Blue background with wave pattern at the bottom",
+            "timestamps": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:35.033"
+            }
+          },
+          {
+            "description": "Transitions between screenshots are basic cuts",
+            "timestamps": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:35.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstrating the Scratch interface",
+            "timestamp": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:01:48.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scratch Cat"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Scratch Cat"
+            ],
+            "description": "Scratch Cat serves as the visual representation of a Sprite controlled by the program."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Curious, Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing the Scratch interface and its elements.",
+            "timestamp": "00:01:48.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch programming environment: stage, Sprite (Scratch Cat), scripts area, function blocks",
+            "timestamp": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:01:48.033"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Overview of the visual programming environment in Scratch.",
+        "timestamps": {
+          "end_timestamp": "00:02:30.000",
+          "start_timestamp": "00:01:48.033"
+        },
+        "title": "Introduction to the Scratch Interface",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to the Scratch programming environment is a basic cut",
+            "timestamps": {
+              "end_timestamp": "00:01:49.000",
+              "start_timestamp": "00:01:48.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Creating a simple program to move Scratch Cat",
+            "timestamp": {
+              "end_timestamp": "00:04:04.000",
+              "start_timestamp": "00:02:30.033"
+            }
+          },
+          {
+            "description": "Dragging function blocks to create a script",
+            "timestamp": {
+              "end_timestamp": "00:04:04.000",
+              "start_timestamp": "00:02:42.000"
+            }
+          },
+          {
+            "description": "Clicking on the script to run the program",
+            "timestamp": {
+              "end_timestamp": "00:04:04.000",
+              "start_timestamp": "00:02:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scratch Cat"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Scratch Cat"
+            ],
+            "description": "Scratch Cat responds to the program commands, moving and turning based on the script."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Curious, Engaged)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating basic programming in Scratch with a simple movement example.",
+            "timestamp": "00:02:30.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch programming environment: stage, Sprite (Scratch Cat), scripts area, function blocks: 'move 10 steps', 'turn 15 degrees', 'turn 90 degrees'",
+            "timestamp": {
+              "end_timestamp": "00:04:04.000",
+              "start_timestamp": "00:02:30.033"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Introduction to visual programming, script creation, and execution.",
+        "timestamps": {
+          "end_timestamp": "00:04:04.000",
+          "start_timestamp": "00:02:30.033"
+        },
+        "title": "First Program: Making Scratch Cat Move",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Using the 'repeat' function to control repetitions",
+            "timestamp": {
+              "end_timestamp": "00:05:19.000",
+              "start_timestamp": "00:04:04.033"
+            }
+          },
+          {
+            "description": "Adding a 'wait' function for a pause between actions",
+            "timestamp": {
+              "end_timestamp": "00:05:19.000",
+              "start_timestamp": "00:05:06.000"
+            }
+          },
+          {
+            "description": "Introducing the 'pen down' function for drawing",
+            "timestamp": {
+              "end_timestamp": "00:05:19.000",
+              "start_timestamp": "00:05:19.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scratch Cat"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Scratch Cat"
+            ],
+            "description": "Scratch Cat moves, turns, and draws in response to the looped commands and added 'wait' function."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Engaged, Focused)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing the 'repeat' function to create loops and enhance program efficiency.",
+            "timestamp": "00:04:04.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch programming environment: stage, Sprite (Scratch Cat), scripts area, function blocks: 'repeat', 'move 100 steps', 'turn 90 degrees', 'wait 1 secs', 'pen down'",
+            "timestamp": {
+              "end_timestamp": "00:05:19.000",
+              "start_timestamp": "00:04:04.033"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Looping, program efficiency, timing, and drawing capabilities.",
+        "timestamps": {
+          "end_timestamp": "00:05:19.000",
+          "start_timestamp": "00:04:04.033"
+        },
+        "title": "Introducing the 'Repeat' Function",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Experimenting with different angles in the 'turn' function",
+            "timestamp": {
+              "end_timestamp": "00:06:43.000",
+              "start_timestamp": "00:05:19.033"
+            }
+          },
+          {
+            "description": "Using the 'clear' function to erase drawings",
+            "timestamp": {
+              "end_timestamp": "00:06:43.000",
+              "start_timestamp": "00:05:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scratch Cat"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Scratch Cat"
+            ],
+            "description": "Scratch Cat moves and draws based on the modified turn angle, creating a visually different pattern."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Engaged, Experimentative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcasing the ability to modify parameters and create different visual outputs.",
+            "timestamp": "00:05:19.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch programming environment: stage, Sprite (Scratch Cat), scripts area, function blocks: 'repeat', 'move 100 steps', 'turn 105 degrees', 'clear'",
+            "timestamp": {
+              "end_timestamp": "00:06:43.000",
+              "start_timestamp": "00:05:19.033"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Geometric shapes, angle manipulation, and clearing the canvas.",
+        "timestamps": {
+          "end_timestamp": "00:06:43.000",
+          "start_timestamp": "00:05:19.033"
+        },
+        "title": "Exploring Different Shapes and Angles",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Using the 'go to x: y:' function to return Scratch Cat to the origin",
+            "timestamp": {
+              "end_timestamp": "00:07:57.000",
+              "start_timestamp": "00:06:43.033"
+            }
+          },
+          {
+            "description": "Demonstrating stage coordinates",
+            "timestamp": {
+              "end_timestamp": "00:07:23.000",
+              "start_timestamp": "00:07:00.000"
+            }
+          },
+          {
+            "description": "Adding a 'point in direction' function to reset Scratch Cat's orientation",
+            "timestamp": {
+              "end_timestamp": "00:07:57.000",
+              "start_timestamp": "00:07:40.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scratch Cat"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Scratch Cat"
+            ],
+            "description": "Scratch Cat instantly moves to the specified coordinates and changes its orientation based on the script."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Informative, Problem-Solving)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing new functions to control the Sprite's position and direction.",
+            "timestamp": "00:06:43.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch programming environment: stage, Sprite (Scratch Cat), scripts area, function blocks: 'go to x: y:', 'clear', 'repeat', 'move 100 steps', 'turn 105 degrees', 'point in direction'",
+            "timestamp": {
+              "end_timestamp": "00:07:57.000",
+              "start_timestamp": "00:06:43.033"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Coordinate systems, absolute positioning, resetting Sprite state.",
+        "timestamps": {
+          "end_timestamp": "00:07:57.000",
+          "start_timestamp": "00:06:43.033"
+        },
+        "title": "Returning Scratch Cat to the Starting Point",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Changing the stage background",
+            "timestamp": {
+              "end_timestamp": "00:08:43.000",
+              "start_timestamp": "00:07:57.033"
+            }
+          },
+          {
+            "description": "Importing a desert background from the Scratch library",
+            "timestamp": {
+              "end_timestamp": "00:08:43.000",
+              "start_timestamp": "00:08:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scratch Cat"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Scratch Cat"
+            ],
+            "description": "Scratch Cat remains on the stage, now against the imported desert background."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Engaged, Creative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating how to personalize the stage with different backgrounds.",
+            "timestamp": "00:07:57.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch programming environment: stage, Sprite (Scratch Cat), scripts area, backgrounds tab, background import window",
+            "timestamp": {
+              "end_timestamp": "00:08:43.000",
+              "start_timestamp": "00:07:57.033"
+            }
+          }
+        ],
+        "sceneId": 11,
+        "thematicElements": "Customization, visual design, background selection.",
+        "timestamps": {
+          "end_timestamp": "00:08:43.000",
+          "start_timestamp": "00:07:57.033"
+        },
+        "title": "Changing the Stage Background",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Deleting a Sprite",
+            "timestamp": {
+              "end_timestamp": "00:09:04.000",
+              "start_timestamp": "00:09:00.000"
+            }
+          },
+          {
+            "description": "Painting a new Sprite",
+            "timestamp": {
+              "end_timestamp": "00:09:34.000",
+              "start_timestamp": "00:09:25.000"
+            }
+          },
+          {
+            "description": "Importing a Sprite from a file",
+            "timestamp": {
+              "end_timestamp": "00:09:48.000",
+              "start_timestamp": "00:09:36.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scratch Cat",
+          "Blue square Sprite",
+          "Bat Sprite"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Scratch Cat",
+              "Blue square Sprite",
+              "Bat Sprite"
+            ],
+            "description": "Multiple Sprites are introduced, showing the potential for interaction between characters within a Scratch project."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Engaged, Creative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcasing different methods for adding and managing Sprites.",
+            "timestamp": "00:08:43.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch programming environment: stage, Sprite (Scratch Cat, blue square, bat), scripts area, new Sprite options: paint, import",
+            "timestamp": {
+              "end_timestamp": "00:09:55.000",
+              "start_timestamp": "00:08:43.033"
+            }
+          }
+        ],
+        "sceneId": 12,
+        "thematicElements": "Sprite customization, character creation, and import options.",
+        "timestamps": {
+          "end_timestamp": "00:09:56.733",
+          "start_timestamp": "00:08:43.033"
+        },
+        "title": "Changing and Creating Sprites",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Ending the video with contact information and a glimpse of the company's broader offerings.",
+            "timestamp": "00:09:56.767"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide: 'For more information about Prevailing Technology, please visit us at...'",
+            "timestamp": {
+              "end_timestamp": "00:10:02.000",
+              "start_timestamp": "00:09:56.767"
+            }
+          },
+          {
+            "name": "Prevailing Technology website address: www.prevailing-technology.com",
+            "timestamp": {
+              "end_timestamp": "00:10:02.000",
+              "start_timestamp": "00:09:56.767"
+            }
+          },
+          {
+            "name": "Title slide: 'Company Services'",
+            "timestamp": {
+              "end_timestamp": "00:10:17.600",
+              "start_timestamp": "00:10:02.000"
+            }
+          },
+          {
+            "name": "Bullet points listing company services: Define, Design, Develop, Document, Deploy",
+            "timestamp": {
+              "end_timestamp": "00:10:17.600",
+              "start_timestamp": "00:10:02.000"
+            }
+          }
+        ],
+        "sceneId": 13,
+        "thematicElements": "Contact information, company services.",
+        "timestamps": {
+          "end_timestamp": "00:10:17.600",
+          "start_timestamp": "00:09:56.767"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Blue background with wave pattern at the bottom",
+            "timestamps": {
+              "end_timestamp": "00:10:17.600",
+              "start_timestamp": "00:09:56.767"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Creation of a complex geometric pattern by changing the angle in the 'turn' function, showcasing the potential of simple commands in Scratch.",
+        "timestamp": "00:06:42.000"
+      },
+      "description": "Introduction to Scratch Programming",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "title": "Getting Started with Scratch Programming Language",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim intro slides by consolidating bullet points or using concise language for Scenes 1, 2, and 3.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Condense the downloading process in Scene 4 with fewer screenshots or faster screen recording.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Optimize starting instructions by combining Scene 5 with Scene 6 to introduce the interface and starting methods within the Scratch environment.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 618,
+  "original_json_filename": "4y6J2jXjU34.json",
+  "original_video_filename": "4y6J2jXjU34.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Hello and welcome to getting started with Scratch. Scratch is a programming language available from the MIT Media Lab. So, what is Scratch? Scratch&nbsp;is a programming language ... but it's specifically designed for education. Consequently, it's easy&nbsp; to use and it's designed for people of any age or experience level. It is designed to be visual,&nbsp; colorful, and graphical ... and it uses kind of a Lego® blocks approach ... where you connect different&nbsp; blocks together to build a program. It's all mostly designed to be fun. So where do you&nbsp;get Scratch? Well Scratch is available from the MIT Media Lab ... and it was actually developed by&nbsp; a group that has the fun name of the Lifelong Kindergarten Group. You can download it [Scratch] directly&nbsp; from their website at ... scratch.mit.edu and it's available on a number of different operating&nbsp; systems including ... Windows, Apple, and Linux. So, to download Scratch ... first open your browser and&nbsp; point it to scratch.mit.edu ... and click the Download Scratch button. You will then see a form, which you&nbsp; should fill out and ... by the way, if you're under 13 [years old], DO NOT fill out your email address information ... and&nbsp;then finally click Continue with Scratch Download. This will take you to a new screen where you can&nbsp;... choose which one of the operating systems you want to use. Just click on the program to download it&nbsp;to your computer. After you download and install Scratch, ... you can start it by double-clicking the&nbsp; desktop icon ... or by clicking these program from your Start menu. So let's get started. When you&nbsp;first start Scratch this is what you'll see on the screen. So you'll see the little Scratch character&nbsp;... and Scratch tends to call this a \"sprite\" although I tend to call it an \"actor\" ... and the actor works&nbsp; on a stage--this big white area here. This empty area is where we're going to write a script and&nbsp;... we create that script using the functions shown on the far left. So we can change how the actor&nbsp; the actor moves, ... what he looks like ... the sound he makes ... control various functions ... and then there's more&nbsp; advanced capabilities that I'll talk about later. But let's do something really simple. So let's&nbsp;say that I want the actor to move on the stage. So come over to Motion ... and one of the functions I&nbsp;have here is move ten steps. So what I can do is just click my mouse, ... and drag it over here to my&nbsp;script ... and by default, it says \"Move ten steps.\" But let's say I wanted to move 100 steps. There. I've just written a program. Now the great thing about Scratch is .... you can build things and test&nbsp; them ... and you don't have to worry about hurting anything. So, if I want to try making my actor move&nbsp;here ... all I have to do to run my program is click on it. And if you notice on the stage, ... my actor moved off the stage so I'm just going to drag them back on here for a second. So, I don't want to&nbsp;move it all the way off the stage ... so let's say that every time it moves 100 steps, ... I want him to&nbsp;turn 90 degrees. So in this case, I'm going to turn clockwise or to the right ... and to make it 90 degrees,&nbsp; I just change it to \"90\" ... and there, again, I click on it I can make them move 90 degrees. Now if I wanted&nbsp;to move, and then go to 90 degrees, ... all I have to do is drag this block into this block and see how it&nbsp; lights up? and it will automatically snap together just like Legos. So every time I click on it, my&nbsp; little actor moves 100 steps turn 90 degrees ... and again and again. Now instead of having to click to&nbsp; have them do that every time ... I can control how he does that. So here's my little control features ... and&nbsp;I'm going to grab a block here called Repeat. Now Repeat says how many times I want to do something. So I want him to move and turn four times. Notice there's a space here and in that space&nbsp;... I'm going to take my existing program ... and I'm going to drag and drop it into here ... and notice&nbsp;how the control box automatically surrounds the function that I created. So now let's watch what&nbsp; happens when I click on that function. Got to look fast because he moves too quickly. That's&nbsp;probably too fast, so let's make a modification to our program. Now in order to grab this little&nbsp; piece again I just click and drag. Notice I can just take it right out of there . I'm going&nbsp;to put a little function in here so I'm going to drag this one down ... and what I want the program&nbsp; to do is, move 100 steps ... and then I want it to wait one second. So again, I'm just going to hook these&nbsp; together. Now I grab this entire block, put it back on Repeat ... now watch what happens. So, I get a nice&nbsp;little wait [period] in there so I can see what's going on. And, to make things a little more interesting&nbsp;... I can also add a pen. So, I'm going to say Pen Down and ... now when I run my program look what happens. It creates a little box. Now, if I'm playing around, I might mess things up a little bit ... and&nbsp;that's okay because I can also create a function to make things all nice and neat. So, I can clear&nbsp;my screen. We'll add a little more complexity to that in a second. So let's say that I want to&nbsp; make something a little more complex. I'm going to keep moving 100 hundred steps. I'm going&nbsp;to take this entire program out for a second ... and I'm going to remove the Wait function. And if I&nbsp;want to delete something, I just right-click the mouse button and hit delete ... and I'm going to put this back&nbsp; in here ... so we're going to move 100 steps and instead of turning 90 degrees I'm going to do&nbsp;something a little bit different. I'm going to go 105 degrees and I'm going to have them do this,&nbsp; let's say 5 times. Now watch what happens. So, now he's kind of turned off in a strange direction. I&nbsp;keep running this [program] over and over again it makes a nice little geometric pattern. But now if I&nbsp;hit Clear, the actor stays at the same angle ... and in the strange position that he's in. So let's&nbsp;see if we can't fix that a little bit. Let's go back to Motion ... and one of the things I can do is&nbsp; say, I want him to go to a specific location on the stage. Now the stage ... the middle of stage ... is&nbsp;at location (0, 0). So, this is the X-direction and it goes from minus about 240 to plus 240 .... and up&nbsp;and down is the Y-direction and again goes from minus but I guess about 180 to plus 180 ... and you&nbsp;can see where that the mouse is pointing at any point in time down there, okay? So I want my actor&nbsp;to return home to location (0, 0) ,,, Yeah, oops! We've got a little line here so I probably want to do my clear&nbsp; after I do that. And I want the Actor to point in the direction of 90 degrees. So, let's see what&nbsp;happens when I run that and so he's back to normal. So I can run my function as many times as I want&nbsp;... and always return home. Now I can also clean up my script ... just by again right-clicking on the mouse.&nbsp;clicking Clean Up. and it'll make everything nice&nbsp;and pretty. So again, this is my actor or my sprite&nbsp; back here is the stage ... and down here it shows you the different actors that are on the stage and&nbsp;the stage. So instead of a boring stage it's all just a plain white field ... what I can do is change&nbsp;the background. So I clicked on stage and again&nbsp;... I can write a script for that if I want and I&nbsp;will go over here to Backgrounds and ... &nbsp; I'm going&nbsp;to import a picture from those available inside&nbsp;Scratch. So let's add something from nature ... and let's give it a desert scene. And now I can go&nbsp;back to my sprite, ... go back to my scripts and I can run my little function there ... and again I clean&nbsp;up afterwards. Now you can also change the sprite or add a new one if you like. So, for example, on&nbsp;this one, I can delete this actor and notice it also deletes the scripts, so remember that ... and I can&nbsp;pick a new sprite from a file, so for example, I can ... pick one of the animals so let's say that I really&nbsp;like buffalo. So there we have a buffalo in our on&nbsp;our stage. Now, if it's not something that I like, I&nbsp; can pick something new so I can actually paint my&nbsp;own sprite if I want. So, you can use all kinds of&nbsp;drawing tools and make your own or you can import&nbsp;a sprite from someplace else in your system. So&nbsp;again, Scratch has a large number of sprites as&nbsp;part of its system. And that's kind of a quick and&nbsp; dirty introduction to the Scratch developed system. www.prevailing-technology.com Prevailing Over Technology",
+  "text_to_speech_word_count": 1616,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:16.500",
+      "start": "00:00:00.000",
+      "text": " Hello and welcome to Getting Started with Scratch. Scratch is a programming language available"
+    },
+    {
+      "end": "00:00:24.133",
+      "start": "00:00:16.500",
+      "text": " from the MIT Media Lab. So what is Scratch? Scratch is a programming language, but it's specifically"
+    },
+    {
+      "end": "00:00:28.867",
+      "start": "00:00:24.133",
+      "text": " designed for education. Consequently, it's easy to use and is designed for people of any"
+    },
+    {
+      "end": "00:00:34.433",
+      "start": "00:00:28.867",
+      "text": " age or experience level. It's designed to be visual, colorful, and graphical, and it uses kind"
+    },
+    {
+      "end": "00:00:39.233",
+      "start": "00:00:34.433",
+      "text": " of a legal blocks approach where you connect different blocks together to build a program. And it's"
+    },
+    {
+      "end": "00:00:46.667",
+      "start": "00:00:39.233",
+      "text": " mostly designed to be fun. So what do you get Scratch? Scratch is available from the MIT Media Lab,"
+    },
+    {
+      "end": "00:00:50.933",
+      "start": "00:00:46.667",
+      "text": " and it was actually developed by a group that has the fun name of the lifelong kindergarten group."
+    },
+    {
+      "end": "00:01:00.000",
+      "start": "00:00:50.933",
+      "text": " You can download it directly from their website at scratch.mit.edu and it's available on a number"
+    },
+    {
+      "end": "00:01:07.767",
+      "start": "00:01:00.000",
+      "text": " of different operating systems including Windows, Apple, and Linux. So to download Scratch, first"
+    },
+    {
+      "end": "00:01:16.133",
+      "start": "00:01:07.767",
+      "text": " open your browser and point it to scratch.mit.edu and click the download scratch button. You'll then see a"
+    },
+    {
+      "end": "00:01:21.800",
+      "start": "00:01:16.133",
+      "text": " form which you should fill out. And by the way, if you're under 13, don't fill out your email address"
+    },
+    {
+      "end": "00:01:28.267",
+      "start": "00:01:21.800",
+      "text": " information. And then finally, click continue with Scratch Download. This will take you to a new screen"
+    },
+    {
+      "end": "00:01:32.600",
+      "start": "00:01:28.267",
+      "text": " where you can choose which one of the operating systems you want to use. Just click on the program to"
+    },
+    {
+      "end": "00:01:40.400",
+      "start": "00:01:32.600",
+      "text": " download it to your computer. After you download in the install scratch, you can start it by double"
+    },
+    {
+      "end": "00:01:51.467",
+      "start": "00:01:40.400",
+      "text": " clicking the desktop icon or by clicking the program from your start menu. So let's get started. When you"
+    },
+    {
+      "end": "00:01:55.733",
+      "start": "00:01:51.467",
+      "text": " first start scratch, this is what you'll see on the screen. So you'll see the little scratch"
+    },
+    {
+      "end": "00:02:03.700",
+      "start": "00:01:55.733",
+      "text": " character. And Scratch tends to call this a sprite, although I tend to call it an actor. And the"
+    },
+    {
+      "end": "00:02:12.933",
+      "start": "00:02:03.700",
+      "text": " actor works on a stage, this big white area here. This empty area is where we're going to write a script. And we"
+    },
+    {
+      "end": "00:02:20.400",
+      "start": "00:02:12.933",
+      "text": " create that script using the functions shown on the far left. So we can change what the actor, how the actor moves,"
+    },
+    {
+      "end": "00:02:27.500",
+      "start": "00:02:20.400",
+      "text": " what he looks like, the sound he makes, control, various functions, and then there's more advanced"
+    },
+    {
+      "end": "00:02:32.500",
+      "start": "00:02:27.500",
+      "text": " capabilities that I'll talk about later. But let's do something really simple. So let's say I want the"
+    },
+    {
+      "end": "00:02:42.800",
+      "start": "00:02:32.500",
+      "text": " actor to move on the stage. So I'll come over to Motion. And one of the functions I have here is move 10 steps. So what I can do is just"
+    },
+    {
+      "end": "00:02:52.933",
+      "start": "00:02:42.800",
+      "text": " click my mouse and drag it over here to my script. And by default it says move 10 steps. But let's say I wanted to move a hundred steps."
+    },
+    {
+      "end": "00:03:00.167",
+      "start": "00:02:52.933",
+      "text": " There, I've just written a program. Now the great thing about Scratch is you can build things and test them and you"
+    },
+    {
+      "end": "00:03:08.333",
+      "start": "00:03:00.167",
+      "text": " don't have to worry about hurting anything. So if I want to try making my actor move here, all I have to do to run my program is click on it."
+    },
+    {
+      "end": "00:03:15.533",
+      "start": "00:03:08.333",
+      "text": " And if you notice on the stage, my actors moved off the stage. So I'm just going to drag them back on here for a second."
+    },
+    {
+      "end": "00:03:25.133",
+      "start": "00:03:15.533",
+      "text": " So I don't want to move it all the way off the stage. So let's say that every time you move a hundred steps, I want them to turn 90 degrees."
+    },
+    {
+      "end": "00:03:37.767",
+      "start": "00:03:25.700",
+      "text": " So in this case I'm going to turn clockwise or to the right. And to make it 90 degrees, I just change it to 90. And there again, I click on it."
+    },
+    {
+      "end": "00:03:49.767",
+      "start": "00:03:37.767",
+      "text": " I can make a move 90 degrees. Now if I wanted to move and then go 90 degrees, all I have to do is drag this block into this block and see how it lights up."
+    },
+    {
+      "end": "00:04:01.533",
+      "start": "00:03:49.933",
+      "text": " And it will automatically snap together just like ligas. So every time I click on it, my little actor move a hundred steps and turn 90 degrees."
+    },
+    {
+      "end": "00:04:10.100",
+      "start": "00:04:01.533",
+      "text": " And again, and again. Now instead of having to click to have him do that every time, I can control how he does that."
+    },
+    {
+      "end": "00:04:16.500",
+      "start": "00:04:10.100",
+      "text": " So here's my little control features. And I'm going to grab a block here called repeat."
+    },
+    {
+      "end": "00:04:26.100",
+      "start": "00:04:16.500",
+      "text": " Now repeat says how many times I want to do something. So I want him to move and turn four times. Notice there's a space here."
+    },
+    {
+      "end": "00:04:39.833",
+      "start": "00:04:26.100",
+      "text": " And in that space, I'm going to take my existing program and I'm going to drag and drop it into here. And notice how the control box automatically surrounds the function that I created."
+    },
+    {
+      "end": "00:04:44.400",
+      "start": "00:04:39.833",
+      "text": " So now let's watch what happens when I click on that function."
+    },
+    {
+      "end": "00:04:49.200",
+      "start": "00:04:44.400",
+      "text": " Good luck fast because you move quickly. That's probably too fast."
+    },
+    {
+      "end": "00:04:56.100",
+      "start": "00:04:49.200",
+      "text": " So let's make a modification to our program. Now in order to grab this little piece, again, I just click and drag."
+    },
+    {
+      "end": "00:05:01.367",
+      "start": "00:04:56.100",
+      "text": " Notice I can just take it right out of there. And I'm going to put a little function in here. So I'm going to drag this one down."
+    },
+    {
+      "end": "00:05:10.967",
+      "start": "00:05:01.367",
+      "text": " And what I want the program to do is move 100 steps. And then I want it to wait one second. So again, I'm just going to have to hook these together."
+    },
+    {
+      "end": "00:05:17.833",
+      "start": "00:05:10.967",
+      "text": " Now I grab this entire block, put it back and repeat. Now watch what happens."
+    },
+    {
+      "end": "00:05:21.600",
+      "start": "00:05:17.833",
+      "text": " So I get a nice little weight in there so I can see what's going on."
+    },
+    {
+      "end": "00:05:26.733",
+      "start": "00:05:21.600",
+      "text": " And to make things a little more interesting, I can also add a pen."
+    },
+    {
+      "end": "00:05:31.533",
+      "start": "00:05:26.733",
+      "text": " So I'm going to say, pen down."
+    },
+    {
+      "end": "00:05:37.033",
+      "start": "00:05:31.533",
+      "text": " And now when I run my program, look what happens."
+    },
+    {
+      "end": "00:05:44.633",
+      "start": "00:05:37.033",
+      "text": " So it creates a little box. Now, if I'm playing around, I might mess things up a little bit."
+    },
+    {
+      "end": "00:05:49.833",
+      "start": "00:05:44.633",
+      "text": " And that's okay because I can also create a function to make things all nice and neat."
+    },
+    {
+      "end": "00:05:53.300",
+      "start": "00:05:49.833",
+      "text": " So I can clear my screen."
+    },
+    {
+      "end": "00:05:56.400",
+      "start": "00:05:53.433",
+      "text": " We'll add a little more complexity to that in a second."
+    },
+    {
+      "end": "00:06:00.000",
+      "start": "00:05:56.400",
+      "text": " So let's say that I want to make something a little more complex."
+    },
+    {
+      "end": "00:06:06.000",
+      "start": "00:06:00.000",
+      "text": " I'm going to keep moving 100 steps. I'm going to take this entire program out for a second."
+    },
+    {
+      "end": "00:06:13.033",
+      "start": "00:06:06.000",
+      "text": " And I'm going to remove the weight function. And if I want to delete something, I just right click the mouse button and hit delete."
+    },
+    {
+      "end": "00:06:21.033",
+      "start": "00:06:15.033",
+      "text": " I'm going to put this back in here. So we're going to move 100 steps and then turn 90 degrees."
+    },
+    {
+      "end": "00:06:25.600",
+      "start": "00:06:21.033",
+      "text": " I'm going to do something a little bit different. I'm going to go 105 degrees."
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:25.600",
+      "text": " And I'm going to have him do this, let's say, five times."
+    },
+    {
+      "end": "00:06:34.000",
+      "start": "00:06:30.000",
+      "text": " Now watch what happens."
+    },
+    {
+      "end": "00:06:38.733",
+      "start": "00:06:34.000",
+      "text": " So now he's going to turn off in a strange direction."
+    },
+    {
+      "end": "00:06:43.200",
+      "start": "00:06:38.733",
+      "text": " If I keep running this over and over again, it makes a nice little geometric pattern."
+    },
+    {
+      "end": "00:06:49.033",
+      "start": "00:06:43.200",
+      "text": " But now if I hit clear, the actor stays at the same angle in the strange position that he's in."
+    },
+    {
+      "end": "00:06:51.833",
+      "start": "00:06:49.033",
+      "text": " So let's see if we can't fix that a little bit."
+    },
+    {
+      "end": "00:06:54.167",
+      "start": "00:06:51.833",
+      "text": " Let's go back to motion."
+    },
+    {
+      "end": "00:06:59.033",
+      "start": "00:06:54.167",
+      "text": " And one of the things I can do is say I want him to go to a specific location on the stage."
+    },
+    {
+      "end": "00:07:02.900",
+      "start": "00:06:59.033",
+      "text": " Now the stage, the middle of stage is at location 0, 0."
+    },
+    {
+      "end": "00:07:09.533",
+      "start": "00:07:02.900",
+      "text": " So this is the x direction and it goes from minus about 240 to plus 240."
+    },
+    {
+      "end": "00:07:11.133",
+      "start": "00:07:09.533",
+      "text": " And up and down is the y direction."
+    },
+    {
+      "end": "00:07:17.033",
+      "start": "00:07:11.133",
+      "text": " And it goes from minus, I guess about 180 to plus 180."
+    },
+    {
+      "end": "00:07:22.167",
+      "start": "00:07:17.033",
+      "text": " And you can see where the mouse is pointing at any point in time."
+    },
+    {
+      "end": "00:07:24.167",
+      "start": "00:07:22.167",
+      "text": " Down there."
+    },
+    {
+      "end": "00:07:33.133",
+      "start": "00:07:24.167",
+      "text": " So I want my actor to return home to location 0, 0."
+    },
+    {
+      "end": "00:07:34.733",
+      "start": "00:07:33.133",
+      "text": " Oops, he got a little line here."
+    },
+    {
+      "end": "00:07:39.133",
+      "start": "00:07:34.733",
+      "text": " So I probably want to do my clear after I do that."
+    },
+    {
+      "end": "00:07:46.167",
+      "start": "00:07:39.133",
+      "text": " And I want the actor to point in the direction of 90 degrees."
+    },
+    {
+      "end": "00:07:49.367",
+      "start": "00:07:46.233",
+      "text": " So let's see what happens when I run that."
+    },
+    {
+      "end": "00:07:50.800",
+      "start": "00:07:49.367",
+      "text": " And so he's back to normal."
+    },
+    {
+      "end": "00:07:58.500",
+      "start": "00:07:50.800",
+      "text": " So I can run my function as many times as I want and always return home."
+    },
+    {
+      "end": "00:08:04.233",
+      "start": "00:07:58.500",
+      "text": " I can also clean up my script just by again right clicking on the mouse,"
+    },
+    {
+      "end": "00:08:08.233",
+      "start": "00:08:04.233",
+      "text": " clicking clean up and it'll make everything nice and pretty."
+    },
+    {
+      "end": "00:08:10.900",
+      "start": "00:08:08.233",
+      "text": " So again, this is my actor or my sprite."
+    },
+    {
+      "end": "00:08:12.633",
+      "start": "00:08:10.900",
+      "text": " Back here is the stage."
+    },
+    {
+      "end": "00:08:15.700",
+      "start": "00:08:12.633",
+      "text": " And down here it shows you the different actors that are on the stage"
+    },
+    {
+      "end": "00:08:17.700",
+      "start": "00:08:15.700",
+      "text": " and the stage."
+    },
+    {
+      "end": "00:08:21.767",
+      "start": "00:08:17.700",
+      "text": " So instead of a boring stage, it's all just a plain white field."
+    },
+    {
+      "end": "00:08:23.367",
+      "start": "00:08:21.767",
+      "text": " What I can do is change the background."
+    },
+    {
+      "end": "00:08:25.133",
+      "start": "00:08:23.367",
+      "text": " So I've clicked on stage."
+    },
+    {
+      "end": "00:08:27.300",
+      "start": "00:08:25.133",
+      "text": " And again, I can write a script for that if I want."
+    },
+    {
+      "end": "00:08:29.700",
+      "start": "00:08:27.300",
+      "text": " And I'm going to go over here to backgrounds."
+    },
+    {
+      "end": "00:08:34.733",
+      "start": "00:08:29.700",
+      "text": " And I'm going to import a picture from those available inside scratch."
+    },
+    {
+      "end": "00:08:37.600",
+      "start": "00:08:34.733",
+      "text": " So let's add something from nature."
+    },
+    {
+      "end": "00:08:41.033",
+      "start": "00:08:37.600",
+      "text": " And let's give it a desert scene."
+    },
+    {
+      "end": "00:08:44.733",
+      "start": "00:08:41.033",
+      "text": " And now I can go back to my sprite."
+    },
+    {
+      "end": "00:08:46.733",
+      "start": "00:08:44.733",
+      "text": " I can go back to my scripts."
+    },
+    {
+      "end": "00:08:50.500",
+      "start": "00:08:46.733",
+      "text": " And I can run my little function there."
+    },
+    {
+      "end": "00:08:52.800",
+      "start": "00:08:50.500",
+      "text": " And again, I can clean up afterwards."
+    },
+    {
+      "end": "00:08:57.433",
+      "start": "00:08:52.800",
+      "text": " Now you can also change the sprite or add a new one if you like."
+    },
+    {
+      "end": "00:09:04.233",
+      "start": "00:08:57.433",
+      "text": " So for example, on this one, I can delete this actor."
+    },
+    {
+      "end": "00:09:06.233",
+      "start": "00:09:04.233",
+      "text": " And notice it also deletes the script."
+    },
+    {
+      "end": "00:09:08.100",
+      "start": "00:09:06.233",
+      "text": " So remember that."
+    },
+    {
+      "end": "00:09:10.500",
+      "start": "00:09:08.100",
+      "text": " And I can pick a new sprite from a file."
+    },
+    {
+      "end": "00:09:13.200",
+      "start": "00:09:10.500",
+      "text": " So for example, I can pick one of the animals."
+    },
+    {
+      "end": "00:09:16.133",
+      "start": "00:09:13.300",
+      "text": " So let's say that I really like Buffalo."
+    },
+    {
+      "end": "00:09:21.133",
+      "start": "00:09:16.133",
+      "text": " So there we have a Buffalo on our stage."
+    },
+    {
+      "end": "00:09:23.333",
+      "start": "00:09:21.133",
+      "text": " Now if it's not something that I like,"
+    },
+    {
+      "end": "00:09:26.167",
+      "start": "00:09:23.333",
+      "text": " I can pick something new so I can actually"
+    },
+    {
+      "end": "00:09:28.433",
+      "start": "00:09:26.167",
+      "text": " paint my own sprite if I want."
+    },
+    {
+      "end": "00:09:35.333",
+      "start": "00:09:28.433",
+      "text": " So you can use all kinds of drawing tools and make your own."
+    },
+    {
+      "end": "00:09:41.167",
+      "start": "00:09:35.333",
+      "text": " Or you can import a sprite from someplace else in your system."
+    },
+    {
+      "end": "00:09:50.967",
+      "start": "00:09:41.167",
+      "text": " So again, a large number of sprites is part of its system."
+    },
+    {
+      "end": "00:09:52.833",
+      "start": "00:09:50.967",
+      "text": " And that's kind of a quick and dirty introduction"
+    },
+    {
+      "end": "00:09:56.767",
+      "start": "00:09:52.833",
+      "text": " to the scratch development system."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "PrevailingTechnology",
+  "youtube_channel_follower_count": 903,
+  "youtube_comment_count": 106,
+  "youtube_description": "Provides an overview of the Scratch programming language developed by the MIT Media Lab.  Describes where to download the program and how to create a very basic introductory application.",
+  "youtube_like_count": 1475,
+  "youtube_tags": [
+    "Scratch",
+    "introduction",
+    "demonstration",
+    "programming",
+    "computers",
+    "education",
+    "mit",
+    "media lab",
+    "Prevailing Technology",
+    "Educational Programming Language",
+    "Programming Language (Software Genre)",
+    "Intro"
+  ],
+  "youtube_title": "An Introduction to the Scratch Programming Language for Education",
+  "youtube_upload_date": "20110801",
+  "youtube_view_count": 335240
+}

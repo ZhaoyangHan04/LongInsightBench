@@ -1,0 +1,461 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A voiceover explaining the Gradient Theorem. Not visually identifiable.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "An explanatory video detailing the Gradient Theorem using a scalar function as an example.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The video doesn't specify what physical quantity \"T\" represents. It uses a generic scalar function to illustrate the mathematical concept.",
+        "question": "What does the scalar function \"T\" represent in this video?"
+      },
+      {
+        "answer": "They represent the gradient vector field of the scalar function T.",
+        "question": "What do the black arrows that appear at 0:07 represent?"
+      },
+      {
+        "answer": "The line integral becomes zero.",
+        "question": "What happens to the line integral when the path from A to B becomes a closed loop?"
+      },
+      {
+        "answer": "The Gradient Theorem is fundamental in physics. One example is calculating the work done by a force field (like gravity) on an object moving along a path.",
+        "question": "Besides the example in the video, what is another real-world scenario where the Gradient Theorem might be applied?"
+      },
+      {
+        "answer": "Neutral and informative. The video aims to clearly explain a mathematical concept, so it doesn't evoke strong emotions.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "A scalar function \"T\" is displayed.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Two identical 3D coordinate systems appear.",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Sets the foundation for understanding gradient and line integral.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Curious) - The visuals are simple and informative, prompting curiosity about the upcoming explanation.",
+          "keyMoments": [
+            {
+              "changeDescription": "Introduction of the mathematical equation sparks curiosity.",
+              "timestamp": "00:00:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene sets the stage by introducing the concept of a scalar function and visually representing it.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Two identical 3D coordinate systems are shown, implying a comparison or change.",
+            "timestamp": "00:00:01.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D coordinate systems",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "Mathematical equation representing the scalar function T",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction of a mathematical concept using visuals.",
+        "timestamps": {
+          "end_timestamp": "00:00:07.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction of the Scalar Function",
+        "videoEditingDetails": [
+          {
+            "description": "Text appears on the screen: \"T = 1 + 2x + y²\"",
+            "timestamps": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The camera zooms into the origin of the coordinate systems.",
+            "timestamps": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Black arrows appear, representing the gradient vector field.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:07.033"
+            }
+          },
+          {
+            "description": "A point \"A\" is marked, and a small purple arrow indicates a small distance.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "Point \"B\" is marked, and a path is drawn connecting A to B.",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Builds upon the introduction to explore the gradient concept and line integrals.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Pensive) - The increasingly complex visuals encourage a focused and contemplative mood as the viewer tries to grasp the concept.",
+          "keyMoments": [
+            {
+              "changeDescription": "The emergence of arrows representing the gradient vector field increases complexity, leading to a more pensive mood.",
+              "timestamp": "00:00:07.033"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The gradient vector field is visualized, connecting to the scalar function from the previous scene.",
+            "timestamp": "00:00:07.033"
+          },
+          {
+            "description": "A small change in position (\"dl\") is introduced, and its relation to the gradient is explained.",
+            "timestamp": "00:00:08.000"
+          },
+          {
+            "description": "The concept of moving from point A to B and adding up small changes is presented, hinting towards the line integral.",
+            "timestamp": "00:00:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D coordinate systems",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:07.033"
+            }
+          },
+          {
+            "name": "Arrows (gradient vectors)",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:07.033"
+            }
+          },
+          {
+            "name": "Points A and B",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "name": "Purple path",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Exploration of gradient and line integral concepts.",
+        "timestamps": {
+          "end_timestamp": "00:00:20.000",
+          "start_timestamp": "00:00:07.033"
+        },
+        "title": "Gradient and Line Integral",
+        "videoEditingDetails": [
+          {
+            "description": "Appearance of vector field arrows.",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:07.033"
+            }
+          },
+          {
+            "description": "Points A and a small purple arrow are added to the scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "Point B is added, and a dotted purple line connects A to B.",
+            "timestamps": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The line integral formula appears.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:20.033"
+            }
+          },
+          {
+            "description": "The right-hand side of the equation appears: T(b) - T(a).",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "description": "The path changes to a closed loop.",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Clarifies the mathematical concept by showing the Gradient Theorem in action.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Content) - The scene provides a sense of resolution as the theorem is stated and its implications are visually demonstrated.",
+          "keyMoments": [
+            {
+              "changeDescription": "Presenting the complete formula provides a sense of resolution and understanding.",
+              "timestamp": "00:00:24.000"
+            },
+            {
+              "changeDescription": "Transitioning to a closed loop offers a clear visual representation of a specific case, further contributing to a sense of content.",
+              "timestamp": "00:00:43.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The line integral is formally linked to the change in the function value.",
+            "timestamp": "00:00:20.033"
+          },
+          {
+            "description": "The Gradient Theorem is explicitly stated, equating the line integral to the difference in the function at points A and B.",
+            "timestamp": "00:00:24.000"
+          },
+          {
+            "description": "The focus shifts to a closed loop, highlighting that the line integral is zero in this case.",
+            "timestamp": "00:00:43.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D coordinate systems",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:20.033"
+            }
+          },
+          {
+            "name": "Line integral formula",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:20.033"
+            }
+          },
+          {
+            "name": "Points A and B",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "name": "Path",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Presentation and implications of the Gradient Theorem.",
+        "timestamps": {
+          "end_timestamp": "00:00:54.167",
+          "start_timestamp": "00:00:20.033"
+        },
+        "title": "Gradient Theorem and its Implications",
+        "videoEditingDetails": [
+          {
+            "description": "The line integral formula is shown:  ∫(from a to b) ∇T ⋅ dl",
+            "timestamps": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:20.033"
+            }
+          },
+          {
+            "description": "The formula is completed: ∫(from a to b) ∇T ⋅ dl = T(b) - T(a)",
+            "timestamps": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "description": "The path connecting A and B transforms into a closed loop.",
+            "timestamps": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The Gradient Theorem equation is presented.",
+        "timestamp": "00:00:24.000"
+      },
+      "description": "Explanation of the Gradient Theorem",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Gradient Theorem",
+    "trimmingSuggestions": [
+      {
+        "description": "The zoom-in at the beginning of the video could be shortened.",
+        "timestamps": {
+          "end_timestamp": "00:00:20.033",
+          "start_timestamp": "00:00:20.033"
+        }
+      },
+      {
+        "description": "The transition between points A and B could be made more dynamic, perhaps by showing the path being drawn faster or using a more visually appealing animation.",
+        "timestamps": {
+          "end_timestamp": "00:00:20.033",
+          "start_timestamp": "00:00:20.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 54,
+  "original_json_filename": "GUwbBp9RBxU.json",
+  "original_video_filename": "GUwbBp9RBxU.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "say we have a scalar function T if we start at a point a and move a small distance the function will change by an amount given by the gradient of that function along the distance if we now move to point B in the same manner and add all these small changes together we've effectively taken the line integral of the gradient of T from A to B along some path but since we've only calculated the relative change from A to B we might as well look at the difference between the values of the scalar function at the start and end points this is the gradient theorem since the right side of this equation is independent of the path taken evidently the line integral on the left hand side is also independent of the path taken from A to B and in the case if you end up where start the closed line integral must be equal to zero the gradient theorem plays an important role in electric potential and other Maxwell equations",
+  "text_to_speech_word_count": 176,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.733",
+      "start": "00:00:00.000",
+      "text": " Say we have a scalar function t. If we started a point A and move a small distance, the"
+    },
+    {
+      "end": "00:00:10.800",
+      "start": "00:00:05.733",
+      "text": " function will change by an amount given by the gradient of that function along that distance."
+    },
+    {
+      "end": "00:00:15.367",
+      "start": "00:00:10.800",
+      "text": " If we now move the point B in the same manner and add all these small changes together,"
+    },
+    {
+      "end": "00:00:19.833",
+      "start": "00:00:15.367",
+      "text": " we've effectively taken the line integral of the gradient of t from A to B along some"
+    },
+    {
+      "end": "00:00:25.033",
+      "start": "00:00:19.833",
+      "text": " path. But since we've only calculated the relative change from A to B, we might as"
+    },
+    {
+      "end": "00:00:29.033",
+      "start": "00:00:25.033",
+      "text": " well look at the difference between the values of the scalar function at the start and end"
+    },
+    {
+      "end": "00:00:35.933",
+      "start": "00:00:29.033",
+      "text": " points. This is the gradient theorem. Since the right side of this equation is independent"
+    },
+    {
+      "end": "00:00:41.100",
+      "start": "00:00:35.933",
+      "text": " of the path taken, evidently the line integral on the left hand side is also independent of"
+    },
+    {
+      "end": "00:00:45.933",
+      "start": "00:00:41.100",
+      "text": " the path taken from A to B. And in the case if you end up where you start, the close line"
+    },
+    {
+      "end": "00:00:51.067",
+      "start": "00:00:45.933",
+      "text": " integral must be equal to zero. The gradient theorem plays an important role in the electrical"
+    },
+    {
+      "end": "00:00:53.167",
+      "start": "00:00:51.067",
+      "text": " potential and other Maxwell equations."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "ICTO-FNWI",
+  "youtube_channel_follower_count": 482,
+  "youtube_comment_count": 0,
+  "youtube_description": "",
+  "youtube_like_count": 17,
+  "youtube_tags": [],
+  "youtube_title": "Gradient Theorem",
+  "youtube_upload_date": "20170125",
+  "youtube_view_count": 2144
+}

@@ -1,0 +1,924 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A tall, thin man with long brown hair and a light blue shirt",
+        "name": "Professor"
+      }
+    ],
+    "description": "A video lecture focusing on the physics and mathematics concepts related to the moment of inertia, specifically focusing on calculating it for a rod about different axes.",
+    "fps": 23.976023976023978,
+    "qAndA": [
+      {
+        "answer": "The linear mass density, denoted by lambda, is the mass of the rod divided by its length.",
+        "question": "What is the linear mass density of a uniform rod?"
+      },
+      {
+        "answer": "The moment of inertia is calculated by integrating the product of lambda, r squared, and dx, where r is the distance of each mass element dm from the axis of rotation.",
+        "question": "What is the formula used to calculate the moment of inertia?"
+      },
+      {
+        "answer": "The moment of inertia is larger when calculated about an axis at the end of the rod because there is more mass farther away from the axis in that configuration.",
+        "question": "Why is the moment of inertia different when calculated about an axis at the end of the rod compared to an axis at the center?"
+      },
+      {
+        "answer": "The mood of the video is primarily educational and curious. The professor is engaging with the concept and explaining it clearly, encouraging viewers to learn and understand.",
+        "question": "What is the mood of the video?"
+      },
+      {
+        "answer": "The professor emphasizes placing the origin on the axis to simplify the calculations. By doing so, the distance 'r' of each mass element from the axis is simply its x-coordinate, making the integration easier.",
+        "question": "What is the significance of the professor's emphasis on placing the origin on the axis of rotation?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "writing on a blackboard",
+            "timestamp": {
+              "end_timestamp": "00:00:29.988",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "talking",
+            "timestamp": {
+              "end_timestamp": "00:07:03.882",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "drawing a diagram",
+            "timestamp": {
+              "end_timestamp": "00:00:20.020",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "description": "explaining math equations",
+            "timestamp": {
+              "end_timestamp": "00:05:00.008",
+              "start_timestamp": "00:00:17.017"
+            }
+          },
+          {
+            "description": "solving a math equation",
+            "timestamp": {
+              "end_timestamp": "00:07:03.882",
+              "start_timestamp": "00:01:49.985"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video focuses on concepts of moment of inertia and rotational dynamics in physics, using calculus to solve equations, aimed at teaching students.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The professor starts by writing 'Moment of a rod, length L, mass M' on the blackboard.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "He draws a diagram of a rod on the blackboard.",
+            "timestamp": "00:00:05.005"
+          },
+          {
+            "description": "He begins to explain how to calculate the moment of a rod, introducing the concept of linear mass density.",
+            "timestamp": "00:00:17.017"
+          },
+          {
+            "description": "He then proceeds to solve a math equation, demonstrating how to calculate the moment of a rod about its center.",
+            "timestamp": "00:01:49.985"
+          },
+          {
+            "description": "He solves the equation by integrating from -L/2 to L/2.",
+            "timestamp": "00:07:03.882"
+          },
+          {
+            "description": "He calculates the moment of the rod about an axis at the end of the rod.",
+            "timestamp": "00:07:03.882"
+          }
+        ],
+        "props": [
+          {
+            "name": "blackboard",
+            "timestamp": {
+              "end_timestamp": "00:07:03.882",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "chalk",
+            "timestamp": {
+              "end_timestamp": "00:07:03.882",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "name": "paper",
+            "timestamp": {
+              "end_timestamp": "00:07:03.882",
+              "start_timestamp": "00:07:03.882"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Physics, Mathematics, Education",
+        "timestamps": {
+          "end_timestamp": "00:07:03.882",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Professor's Lecture on Moment of Inertia",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "He completes the detailed explanation and calculation for the moment of the rod about its center axis.",
+        "timestamp": "00:07:01.004"
+      },
+      "description": "The storyline involves the calculation of the moment of inertia of a rod about different axes, utilizing physics concepts.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Calculating the Moment of Inertia of a Rod",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment could be trimmed as it involves detailed calculations that could be summarized or left for the students to work out.",
+        "timestamps": {
+          "end_timestamp": "00:05:50.016",
+          "start_timestamp": "00:05:00.008"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 424,
+  "original_json_filename": "3gD5N4dCYC4.json",
+  "original_video_filename": "3gD5N4dCYC4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "just like kinematics let's start in 1d because it's easiest so let's calculate the moment of a rod and moments by the way is how cool people say moment of inertia is a moment the moment of a rod length L mass m we all for that formula we're gonna need the mass density right so we're gonna be the linear mass density lambda that's just the mass per unit length if it's a uniform often it'll problem like this we'll say a uniform rod like that and all they're saying is that it's this constant mass density the masses evenly distributed across the whole length so we can just get the constant mass density as mass per unit length all right so now are we ready to calculate the moment no we're not ready to tell you at the moment we got to know where the axis is right that's the whole you can't just an object doesn't have a moment of inertia you also have to have where the accident so now we're gonna say about its center so here's your axis as a right and middle now can we calculate the moment of inertia no because that's not an axis now if they tell you that it's probably implied that the axis is perpendicular to the rod so you could probably guess that's what they mean but in principle that could have been this axis down the road okay so but let's say yes we're going about the center about an axis perpendicular to the rod now we have everything we need to know we can say the moment is the integral of lambda R squared and in this case this is our axis but we integrate along the geometry of the object all right so we're gonna put an x axis like this that yeah if we have an X s is like that I would strongly recommend that you put the origin on the axis so the origin of the x axis it's right in the middle of the rod which means we're out to set up an interval integral so you better realize though this is an L over two and this isn't - no / - yeah we're probably to meet all that so let's see lambda we know R squared and then DX like that all right so let's start plugging in things we know so we have Big M over L M over L and then our in this case what is our our is the different the distance of any little DM there's a DM to the axis so it's really just the exposition as we add up all these other little these little DMS to do the integral each one is at a distance X sum over to distance negative X but it's going to get squared so it doesn't matter so we'll just call that X squared because in this case its exposition basically equals R once you square it to not deal with worry about the negative and then this is DX and the limits of the integral are from minus L over 2 to L over 2 minus L over tuned and L over 2 all right so now we just integrate so let's see let's pull out the constants the integral of x squared is 1/3 X cubed and that's evaluated from minus L over 2 to L over 2 so now we remember how to evaluate limits M over 3 L and you plug in L over 2 that's L cubed over 8 L over 2 cubed minus and then negative L over 2 cubed is negative L cubed over 8 get all those - sun-dried for this to work out you don't want to get in zero or something worse let's see so those are gonna add so that's gonna make this a four right so it's equal to M over three L times L cubed over four and that goes to that and you get 1/12 ml squared 1/12 ml squared oh good is the moment of the run and a quick check you can do on these is remember a moment of inertia if you go back to your original definition it's always a mass times it's always kilograms times meters squared so you should make sure that all the canceling you did ended up with a mass and a distance squared so that's a ride around that axis let's check it from another angle as well so we did a axis here but why don't we do the axis here just to see what happens just so you see difference we didn't clean up what C so now we're gonna do real quick the rod like this right there same rod mass length all that's the same it's just we're gonna rotate around that axis let's see what that would do so the moment would be the integral of lambda R squared DX just like before but now let's think about what's gonna happen lambda is the same M over L and now you'd want to put the origin here because you always want the origin on your axis that way wherever you are in X that's the same as R if you following all that right so if the origin is here then we're talking about taking X out to the point L so the limits of our integral for adding up all the little mass elements from 0 to L so 0 to L each mass elements distance from the axis is just its x value where it is an X so R again just becomes x squared DX so you might notice it's the same integral it's just different limits so let's see if that affects the answer let's see so this is M over L x squared is 1/3 X cubed evaluated from 0 to L so the limits are going to affect the answer because we're going to get I equals M over 3 L times L cubed minus 0 and what do we get one-third ml squared so much larger moment 1/3 as opposed to 1/12 and that makes sense because when you hold it this way the mass is there's a lot more mass a lot farther from the axis than if you hold it in the middle and if you spin a rod think about it and manipulating one around it'll be less work to hold it in the middle less torque than it will be to hold it on the end but it's interesting it's the same integral the same set up just different limits",
+  "text_to_speech_word_count": 1114,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.046",
+      "start": "00:00:00.000",
+      "text": " Just like kinematics, let's start in 1D because it's easiest."
+    },
+    {
+      "end": "00:00:08.008",
+      "start": "00:00:04.046",
+      "text": " So let's calculate the moment of a rod."
+    },
+    {
+      "end": "00:00:10.010",
+      "start": "00:00:08.008",
+      "text": " And moment, by the way, is how cool people say,"
+    },
+    {
+      "end": "00:00:12.429",
+      "start": "00:00:10.010",
+      "text": " moment of inertia, just say moment."
+    },
+    {
+      "end": "00:00:16.934",
+      "start": "00:00:12.429",
+      "text": " The moment of a rod, length L mass m."
+    },
+    {
+      "end": "00:00:18.936",
+      "start": "00:00:16.934",
+      "text": " Well, from that formula, we're going to need the mass"
+    },
+    {
+      "end": "00:00:19.770",
+      "start": "00:00:18.936",
+      "text": " density, right?"
+    },
+    {
+      "end": "00:00:22.814",
+      "start": "00:00:19.770",
+      "text": " So we're going to need the linear mass density, lambda."
+    },
+    {
+      "end": "00:00:24.858",
+      "start": "00:00:22.814",
+      "text": " That's just the mass-prenant length."
+    },
+    {
+      "end": "00:00:29.613",
+      "start": "00:00:24.858",
+      "text": " If it's uniform, often, it'll"
+    },
+    {
+      "end": "00:00:30.113",
+      "start": "00:00:29.613",
+      "text": " come like this."
+    },
+    {
+      "end": "00:00:35.577",
+      "start": "00:00:30.113",
+      "text": " It'll say a uniform rod like that."
+    },
+    {
+      "end": "00:00:38.664",
+      "start": "00:00:35.577",
+      "text": " And all they're saying is that it's this constant mass"
+    },
+    {
+      "end": "00:00:39.581",
+      "start": "00:00:38.664",
+      "text": " density."
+    },
+    {
+      "end": "00:00:42.334",
+      "start": "00:00:39.581",
+      "text": " The mass is evenly distributed across the whole length,"
+    },
+    {
+      "end": "00:00:45.128",
+      "start": "00:00:42.334",
+      "text": " so we can just get the constant mass density as mass-prenant"
+    },
+    {
+      "end": "00:00:45.921",
+      "start": "00:00:45.128",
+      "text": " length."
+    },
+    {
+      "end": "00:00:46.463",
+      "start": "00:00:45.921",
+      "text": " All right."
+    },
+    {
+      "end": "00:00:51.093",
+      "start": "00:00:46.463",
+      "text": " So now, are we ready to calculate the moment?"
+    },
+    {
+      "end": "00:00:52.177",
+      "start": "00:00:51.093",
+      "text": " No."
+    },
+    {
+      "end": "00:00:53.387",
+      "start": "00:00:52.177",
+      "text": " We're not ready to calculate the moment."
+    },
+    {
+      "end": "00:00:54.972",
+      "start": "00:00:53.387",
+      "text": " We've got to know where the axis is."
+    },
+    {
+      "end": "00:00:55.472",
+      "start": "00:00:54.972",
+      "text": " That's the whole."
+    },
+    {
+      "end": "00:00:56.640",
+      "start": "00:00:55.472",
+      "text": " You can't just an object."
+    },
+    {
+      "end": "00:00:58.100",
+      "start": "00:00:56.640",
+      "text": " It doesn't have a moment of inertia."
+    },
+    {
+      "end": "00:01:01.186",
+      "start": "00:00:58.100",
+      "text": " You also have to have where the axis is."
+    },
+    {
+      "end": "00:01:06.400",
+      "start": "00:01:01.186",
+      "text": " So now we're going to say about its center."
+    },
+    {
+      "end": "00:01:11.113",
+      "start": "00:01:06.400",
+      "text": " So here's your axis as a right and middle."
+    },
+    {
+      "end": "00:01:13.240",
+      "start": "00:01:11.113",
+      "text": " Now can we calculate the moment of inertia?"
+    },
+    {
+      "end": "00:01:14.241",
+      "start": "00:01:13.240",
+      "text": " No."
+    },
+    {
+      "end": "00:01:15.784",
+      "start": "00:01:14.241",
+      "text": " Because that's not an axis."
+    },
+    {
+      "end": "00:01:19.621",
+      "start": "00:01:15.784",
+      "text": " Now, if they tell you that, it's probably implied"
+    },
+    {
+      "end": "00:01:22.749",
+      "start": "00:01:19.621",
+      "text": " that the axis is perpendicular to the rod."
+    },
+    {
+      "end": "00:01:24.584",
+      "start": "00:01:22.749",
+      "text": " So you can probably guess that's what they mean."
+    },
+    {
+      "end": "00:01:27.879",
+      "start": "00:01:24.584",
+      "text": " But in principle, that could have been this axis down the road."
+    },
+    {
+      "end": "00:01:29.673",
+      "start": "00:01:28.588",
+      "text": " So let's say yes."
+    },
+    {
+      "end": "00:01:32.092",
+      "start": "00:01:29.673",
+      "text": " We're going about the center, about an axis perpendicular"
+    },
+    {
+      "end": "00:01:32.843",
+      "start": "00:01:32.092",
+      "text": " to the rod."
+    },
+    {
+      "end": "00:01:34.720",
+      "start": "00:01:32.843",
+      "text": " Now, we have everything we need to know."
+    },
+    {
+      "end": "00:01:39.516",
+      "start": "00:01:34.720",
+      "text": " We can say in a moment is the integral of lambda r squared."
+    },
+    {
+      "end": "00:01:43.103",
+      "start": "00:01:39.516",
+      "text": " In this case, this is our axis, but we"
+    },
+    {
+      "end": "00:01:45.647",
+      "start": "00:01:43.103",
+      "text": " integrate along the geometry of the object."
+    },
+    {
+      "end": "00:01:49.568",
+      "start": "00:01:45.647",
+      "text": " So we're going to put an x-axis like this."
+    },
+    {
+      "end": "00:01:50.152",
+      "start": "00:01:49.568",
+      "text": " That."
+    },
+    {
+      "end": "00:01:50.652",
+      "start": "00:01:50.152",
+      "text": " Yes."
+    },
+    {
+      "end": "00:01:52.779",
+      "start": "00:01:50.652",
+      "text": " And if we have an axis like that, I would strongly"
+    },
+    {
+      "end": "00:01:56.408",
+      "start": "00:01:52.779",
+      "text": " recommend that you put the origin on the axis."
+    },
+    {
+      "end": "00:01:59.661",
+      "start": "00:01:56.408",
+      "text": " So the origin of the x-axis is right in the middle of the rod,"
+    },
+    {
+      "end": "00:02:02.039",
+      "start": "00:01:59.661",
+      "text": " which means we're about to set up an integral."
+    },
+    {
+      "end": "00:02:04.666",
+      "start": "00:02:02.039",
+      "text": " So you better realize, oh, this is an L over 2,"
+    },
+    {
+      "end": "00:02:07.836",
+      "start": "00:02:04.666",
+      "text": " and this is a minus L over 2."
+    },
+    {
+      "end": "00:02:10.088",
+      "start": "00:02:07.836",
+      "text": " Yeah, we're probably going to need all that."
+    },
+    {
+      "end": "00:02:15.677",
+      "start": "00:02:10.088",
+      "text": " So let's see, lambda, we know r squared, and then dx, like that."
+    },
+    {
+      "end": "00:02:18.013",
+      "start": "00:02:15.677",
+      "text": " All right, so let's start plugging in things we know."
+    },
+    {
+      "end": "00:02:26.063",
+      "start": "00:02:18.013",
+      "text": " So we have big m over L, m over L, and then r in this case,"
+    },
+    {
+      "end": "00:02:27.022",
+      "start": "00:02:26.063",
+      "text": " what is r?"
+    },
+    {
+      "end": "00:02:34.696",
+      "start": "00:02:27.022",
+      "text": " r is the distance of any little dm to the axis."
+    },
+    {
+      "end": "00:02:36.365",
+      "start": "00:02:34.696",
+      "text": " So truly, just the x-position."
+    },
+    {
+      "end": "00:02:40.327",
+      "start": "00:02:36.365",
+      "text": " As we add up all these other little dms to do the integral,"
+    },
+    {
+      "end": "00:02:42.245",
+      "start": "00:02:40.327",
+      "text": " each one is at a distance x."
+    },
+    {
+      "end": "00:02:44.039",
+      "start": "00:02:42.245",
+      "text": " Some of them are at a distance negative x,"
+    },
+    {
+      "end": "00:02:45.457",
+      "start": "00:02:44.039",
+      "text": " but it's going to get squared."
+    },
+    {
+      "end": "00:02:46.375",
+      "start": "00:02:45.457",
+      "text": " So it doesn't matter."
+    },
+    {
+      "end": "00:02:48.377",
+      "start": "00:02:46.375",
+      "text": " So we'll just call that x squared."
+    },
+    {
+      "end": "00:02:51.963",
+      "start": "00:02:48.377",
+      "text": " Because in this case, its x-position basically equals r."
+    },
+    {
+      "end": "00:02:54.883",
+      "start": "00:02:51.963",
+      "text": " Once you square it to not deal with worry about the negative."
+    },
+    {
+      "end": "00:02:57.135",
+      "start": "00:02:54.883",
+      "text": " And then it's just dx."
+    },
+    {
+      "end": "00:02:59.846",
+      "start": "00:02:57.135",
+      "text": " And the limits of the integral are from minus L over 2"
+    },
+    {
+      "end": "00:03:04.684",
+      "start": "00:02:59.846",
+      "text": " to L over 2, minus L over 2 to L over 2."
+    },
+    {
+      "end": "00:03:07.604",
+      "start": "00:03:04.684",
+      "text": " All right, so now we just integrate."
+    },
+    {
+      "end": "00:03:11.066",
+      "start": "00:03:07.604",
+      "text": " So let's see, let's pull out the constants."
+    },
+    {
+      "end": "00:03:14.319",
+      "start": "00:03:11.066",
+      "text": " The integral of x squared is 1 third x cubed."
+    },
+    {
+      "end": "00:03:22.244",
+      "start": "00:03:17.155",
+      "text": " And that's evaluated from minus L over 2 to L over 2."
+    },
+    {
+      "end": "00:03:27.833",
+      "start": "00:03:22.244",
+      "text": " So now we remember how to evaluate limits M over 3L."
+    },
+    {
+      "end": "00:03:32.712",
+      "start": "00:03:31.211",
+      "text": " And you plug in L over 2."
+    },
+    {
+      "end": "00:03:36.800",
+      "start": "00:03:32.712",
+      "text": " That's L cubed over 8."
+    },
+    {
+      "end": "00:03:44.474",
+      "start": "00:03:39.719",
+      "text": " L over 2 cubed minus."
+    },
+    {
+      "end": "00:03:49.896",
+      "start": "00:03:44.474",
+      "text": " And then negative L over 2 cubed is negative L cubed over 8."
+    },
+    {
+      "end": "00:03:55.318",
+      "start": "00:03:53.275",
+      "text": " I think it all is minus sign right for this to work out."
+    },
+    {
+      "end": "00:03:58.572",
+      "start": "00:03:55.318",
+      "text": " You don't want to get zero or something worse."
+    },
+    {
+      "end": "00:04:00.615",
+      "start": "00:03:58.572",
+      "text": " Let's see, so those are going to add."
+    },
+    {
+      "end": "00:04:02.492",
+      "start": "00:04:00.615",
+      "text": " So that's going to make this a 4."
+    },
+    {
+      "end": "00:04:10.917",
+      "start": "00:04:02.492",
+      "text": " So it's equal to M over 3L times L cubed over 4."
+    },
+    {
+      "end": "00:04:12.961",
+      "start": "00:04:10.917",
+      "text": " And then that goes to that."
+    },
+    {
+      "end": "00:04:18.175",
+      "start": "00:04:12.961",
+      "text": " And you get 112 mL squared."
+    },
+    {
+      "end": "00:04:22.429",
+      "start": "00:04:18.175",
+      "text": " 112 mL squared."
+    },
+    {
+      "end": "00:04:24.097",
+      "start": "00:04:22.429",
+      "text": " Oh, good."
+    },
+    {
+      "end": "00:04:27.434",
+      "start": "00:04:24.097",
+      "text": " Is the moment of the run."
+    },
+    {
+      "end": "00:04:29.394",
+      "start": "00:04:27.434",
+      "text": " And a quick check you can do on these"
+    },
+    {
+      "end": "00:04:31.354",
+      "start": "00:04:29.394",
+      "text": " is remember a moment of inertia."
+    },
+    {
+      "end": "00:04:32.898",
+      "start": "00:04:31.354",
+      "text": " If you go back to your original definition,"
+    },
+    {
+      "end": "00:04:37.486",
+      "start": "00:04:32.898",
+      "text": " it's always a mass times, it's always"
+    },
+    {
+      "end": "00:04:39.154",
+      "start": "00:04:37.486",
+      "text": " kilograms times meter squared."
+    },
+    {
+      "end": "00:04:40.655",
+      "start": "00:04:39.154",
+      "text": " So you should make sure that all the canceling you"
+    },
+    {
+      "end": "00:04:44.201",
+      "start": "00:04:40.655",
+      "text": " did ended up with a mass in a distance squared."
+    },
+    {
+      "end": "00:04:47.204",
+      "start": "00:04:44.201",
+      "text": " So that's a run around that axis."
+    },
+    {
+      "end": "00:04:49.956",
+      "start": "00:04:47.287",
+      "text": " Let's check it from another angle as well."
+    },
+    {
+      "end": "00:04:52.250",
+      "start": "00:04:49.956",
+      "text": " So we did an axis here."
+    },
+    {
+      "end": "00:04:54.836",
+      "start": "00:04:52.250",
+      "text": " But why don't we do the axis here just to see what happens?"
+    },
+    {
+      "end": "00:04:58.089",
+      "start": "00:04:54.836",
+      "text": " Just so you see a difference."
+    },
+    {
+      "end": "00:04:58.924",
+      "start": "00:04:58.089",
+      "text": " Let's see."
+    },
+    {
+      "end": "00:05:00.467",
+      "start": "00:04:58.924",
+      "text": " Whoops."
+    },
+    {
+      "end": "00:05:02.719",
+      "start": "00:05:00.467",
+      "text": " We didn't clean up."
+    },
+    {
+      "end": "00:05:03.094",
+      "start": "00:05:02.719",
+      "text": " Let's see."
+    },
+    {
+      "end": "00:05:08.141",
+      "start": "00:05:03.094",
+      "text": " So now we're going to do real quick a run like this."
+    },
+    {
+      "end": "00:05:11.228",
+      "start": "00:05:08.141",
+      "text": " Same rod, mass, length, all that's the same."
+    },
+    {
+      "end": "00:05:13.480",
+      "start": "00:05:11.228",
+      "text": " It's just we're going to rotate around that axis."
+    },
+    {
+      "end": "00:05:15.232",
+      "start": "00:05:13.480",
+      "text": " Let's see what that would do."
+    },
+    {
+      "end": "00:05:21.196",
+      "start": "00:05:15.232",
+      "text": " The moment would be the integral of lambda r squared dx"
+    },
+    {
+      "end": "00:05:22.239",
+      "start": "00:05:21.196",
+      "text": " just like before."
+    },
+    {
+      "end": "00:05:25.116",
+      "start": "00:05:22.239",
+      "text": " But now let's think about what's going to happen."
+    },
+    {
+      "end": "00:05:29.204",
+      "start": "00:05:25.116",
+      "text": " Lambda is the same, m over l."
+    },
+    {
+      "end": "00:05:31.957",
+      "start": "00:05:29.204",
+      "text": " And now you'd want to put the origin here."
+    },
+    {
+      "end": "00:05:35.085",
+      "start": "00:05:31.957",
+      "text": " Because you always want the origin on your axis that way,"
+    },
+    {
+      "end": "00:05:38.713",
+      "start": "00:05:35.085",
+      "text": " wherever you are in x, that's the same as r."
+    },
+    {
+      "end": "00:05:40.257",
+      "start": "00:05:38.713",
+      "text": " If you follow all that."
+    },
+    {
+      "end": "00:05:44.052",
+      "start": "00:05:40.257",
+      "text": " So if the origin is here, then we're talking about taking x"
+    },
+    {
+      "end": "00:05:46.429",
+      "start": "00:05:44.135",
+      "text": " out to the point l."
+    },
+    {
+      "end": "00:05:50.058",
+      "start": "00:05:46.429",
+      "text": " So the limits of our integral for adding up"
+    },
+    {
+      "end": "00:05:52.519",
+      "start": "00:05:50.058",
+      "text": " all the little mass elements from 0 to l."
+    },
+    {
+      "end": "00:05:58.066",
+      "start": "00:05:52.519",
+      "text": " So 0 to l, each mass elements distance from the axis"
+    },
+    {
+      "end": "00:06:00.235",
+      "start": "00:05:58.066",
+      "text": " is just its x value, where it is an x."
+    },
+    {
+      "end": "00:06:04.072",
+      "start": "00:06:00.235",
+      "text": " So r again just becomes x squared dx."
+    },
+    {
+      "end": "00:06:05.991",
+      "start": "00:06:04.072",
+      "text": " So you might notice it's the same integral."
+    },
+    {
+      "end": "00:06:07.450",
+      "start": "00:06:05.991",
+      "text": " It's just different limits."
+    },
+    {
+      "end": "00:06:09.661",
+      "start": "00:06:07.450",
+      "text": " So let's see if that affects the answer."
+    },
+    {
+      "end": "00:06:10.245",
+      "start": "00:06:09.661",
+      "text": " Let's see."
+    },
+    {
+      "end": "00:06:12.872",
+      "start": "00:06:10.245",
+      "text": " So this is m over l."
+    },
+    {
+      "end": "00:06:18.545",
+      "start": "00:06:12.872",
+      "text": " x squared is 1 third x cubed evaluated from 0 to l."
+    },
+    {
+      "end": "00:06:20.714",
+      "start": "00:06:18.545",
+      "text": " So the limits are going to affect the answer."
+    },
+    {
+      "end": "00:06:28.972",
+      "start": "00:06:20.714",
+      "text": " Because we're going to get i equals m over 3 l times l"
+    },
+    {
+      "end": "00:06:30.599",
+      "start": "00:06:28.972",
+      "text": " cubed minus 0."
+    },
+    {
+      "end": "00:06:35.186",
+      "start": "00:06:33.560",
+      "text": " And what do we get?"
+    },
+    {
+      "end": "00:06:39.608",
+      "start": "00:06:35.186",
+      "text": " 1 third m l squared."
+    },
+    {
+      "end": "00:06:41.693",
+      "start": "00:06:40.108",
+      "text": " So a much larger moment."
+    },
+    {
+      "end": "00:06:43.612",
+      "start": "00:06:41.693",
+      "text": " 1 third is supposed to 1 12."
+    },
+    {
+      "end": "00:06:46.448",
+      "start": "00:06:43.612",
+      "text": " And that makes sense because when you hold it this way,"
+    },
+    {
+      "end": "00:06:49.743",
+      "start": "00:06:46.448",
+      "text": " the mass is a lot more mass farther from the axis"
+    },
+    {
+      "end": "00:06:51.119",
+      "start": "00:06:49.743",
+      "text": " than if you hold it in the middle."
+    },
+    {
+      "end": "00:06:52.871",
+      "start": "00:06:51.119",
+      "text": " And if you spin a rod, think about it,"
+    },
+    {
+      "end": "00:06:55.457",
+      "start": "00:06:52.871",
+      "text": " manipulating one around, it'll be less work to hold it"
+    },
+    {
+      "end": "00:06:57.626",
+      "start": "00:06:55.457",
+      "text": " in the middle, less torque than it will be to hold it"
+    },
+    {
+      "end": "00:06:59.002",
+      "start": "00:06:57.626",
+      "text": " on the end."
+    },
+    {
+      "end": "00:06:59.586",
+      "start": "00:06:59.002",
+      "text": " But it's interesting."
+    },
+    {
+      "end": "00:07:02.505",
+      "start": "00:06:59.586",
+      "text": " It's the same integral, the same setup, just different"
+    },
+    {
+      "end": "00:07:03.882",
+      "start": "00:07:02.505",
+      "text": " limits."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Professor Hafner",
+  "youtube_channel_follower_count": 26800,
+  "youtube_comment_count": 0,
+  "youtube_description": "How to set up and solve the integral for the moment of inertia of a uniform rod around two different axes.\n-----Rotational Motion Playlist - https://www.youtube.com/playlist?list=PL9_sR6QqqcylMYFs0tz6uDI9_HKi4Fatt \n-----Use the channel, or take the courses at edX - https://www.edx.org/course?search_query=hafner+ricex \n-----This material was produced by Rice Online - http://online.rice.edu",
+  "youtube_like_count": 11,
+  "youtube_tags": [
+    "physics",
+    "mechanics",
+    "rotational motion",
+    "moment of intertia",
+    "moment",
+    "rod"
+  ],
+  "youtube_title": "PHYS 101 | Moment of Interia 4 - Moment of a Rod",
+  "youtube_upload_date": "20200314",
+  "youtube_view_count": 465
+}

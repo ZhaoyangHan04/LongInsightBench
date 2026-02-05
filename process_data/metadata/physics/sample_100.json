@@ -1,0 +1,1364 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "narrator",
+        "description": "A male voice, not visually present in the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "This video presents an introduction to harmonic oscillators, focusing on demonstrating anti-phase synchronization in a system of coupled pendulums, and employs GNU Octave for mathematical modeling. It progresses from simple to complex systems, applying models to real-world data.",
+    "fps": 29.586,
+    "qAndA": [
+      {
+        "answer": "The rollers allow the platform to move freely, simulating a system where the pendulums are coupled through their shared base's motion.",
+        "question": "Why are there PVC pipe rollers used under the wooden frame?"
+      },
+      {
+        "answer": "Anti-phase synchronization refers to a state where the pendulums swing in opposite directions, canceling out each other's forces on the platform, resulting in no net movement of the platform.",
+        "question": "What is the meaning of \"anti-phase synchronization\"?"
+      },
+      {
+        "answer": "The \"nudge\" parameter represents the force exerted by one pendulum on the others through the platform, simulating the transfer of energy between the pendulums.",
+        "question": "Why does the narrator introduce a \"nudge\" parameter in the Octave code?"
+      },
+      {
+        "answer": "The graph shows the angles of the two pendulums over time. The lines representing their angles move in opposite directions, mirroring each other, which indicates anti-phase synchronization.",
+        "question": "How does the graph in Scene 6 demonstrate anti-phase synchronization?"
+      },
+      {
+        "answer": "The narrator suggests measuring the actual angles of the pendulums in the physical system over time and then using those data points to solve for the unknown parameters (k and n) in the mathematical model, making it more accurate.",
+        "question": "What does the narrator suggest doing in Scene 9 to improve the model's accuracy?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Demonstrates pendulum contraption with stationary base.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.007",
+              "start_timestamp": "00:00:10.005"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious. The narrator's introduction sparks curiosity about the system of harmonic oscillators. The visual demonstration of the pendulum contraption further piques interest.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concept of finding solutions for harmonic oscillators and presents a physical model of a pendulum system.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Narrator presents the first version of the pendulum contraption.",
+            "timestamp": "00:00:10.005"
+          }
+        ],
+        "props": [
+          {
+            "name": "Wooden pendulum contraption",
+            "timestamp": {
+              "end_timestamp": "00:00:15.007",
+              "start_timestamp": "00:00:10.005"
+            }
+          },
+          {
+            "name": "Two PVC pipe rollers",
+            "timestamp": {
+              "end_timestamp": "00:00:22.984",
+              "start_timestamp": "00:00:20.990"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to harmonic oscillators, demonstration of a basic pendulum system.",
+        "timestamps": {
+          "end_timestamp": "00:00:22.984",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Contraption Demo",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with text 'Using GNU Octave to numerically find a solution for a system of harmonic oscillators' overlaid on an image of the pendulum contraption and a graph.",
+            "timestamps": {
+              "end_timestamp": "00:00:05.002",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Cut to video of the pendulum contraption.",
+            "timestamps": {
+              "end_timestamp": "00:00:15.007",
+              "start_timestamp": "00:00:10.005"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Places contraption on rollers.",
+            "timestamp": {
+              "end_timestamp": "00:00:30.014",
+              "start_timestamp": "00:00:25.012"
+            }
+          },
+          {
+            "description": "Starts one pendulum swinging.",
+            "timestamp": {
+              "end_timestamp": "00:00:49.990",
+              "start_timestamp": "00:00:46.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, intriguing. The addition of rollers creates a new dynamic, raising questions about how the pendulums will interact.",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from stationary pendulum contraption to one on rollers increases visual dynamism and intrigue.",
+              "timestamp": "00:00:25.012"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concept of a coupled pendulum system on a movable base.",
+            "timestamp": "00:00:25.012"
+          },
+          {
+            "description": "Narrator sets the contraption on rollers.",
+            "timestamp": "00:00:46.001"
+          },
+          {
+            "description": "Narrator sets one pendulum in motion.",
+            "timestamp": "00:00:58.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Wooden pendulum contraption with PVC rollers",
+            "timestamp": {
+              "end_timestamp": "00:00:30.014",
+              "start_timestamp": "00:00:25.012"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Coupled oscillators, anti-phase synchronization, transfer of energy.",
+        "timestamps": {
+          "end_timestamp": "00:01:01.009",
+          "start_timestamp": "00:00:23.018"
+        },
+        "title": "Pendulums on Rollers",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to video of the pendulum contraption on rollers.",
+            "timestamps": {
+              "end_timestamp": "00:00:30.014",
+              "start_timestamp": "00:00:25.012"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presents differential equation for a single pendulum.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.999",
+              "start_timestamp": "00:01:06.011"
+            }
+          },
+          {
+            "description": "Discusses the equation and its properties.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.004",
+              "start_timestamp": "00:01:16.996"
+            }
+          },
+          {
+            "description": "Introduces change of variables.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.009",
+              "start_timestamp": "00:01:25.987"
+            }
+          },
+          {
+            "description": "Shows Octave code for approximating the solution.",
+            "timestamp": {
+              "end_timestamp": "00:01:49.984",
+              "start_timestamp": "00:01:45.016"
+            }
+          },
+          {
+            "description": "Explains the concept of friction parameter.",
+            "timestamp": {
+              "end_timestamp": "00:01:57.995",
+              "start_timestamp": "00:01:54.987"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Informative, analytical. The focus shifts from visual demonstration to a more mathematical and technical explanation.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift to white screen with equations creates a less dynamic, more focused visual.",
+              "timestamp": "00:01:04.997"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the mathematical model behind the single pendulum's motion and introduces numerical methods for approximating solutions.",
+            "timestamp": "00:01:06.011"
+          },
+          {
+            "description": "Narrator introduces the differential equation for a single pendulum.",
+            "timestamp": "00:01:16.996"
+          },
+          {
+            "description": "Narrator explains the type of equation and its meaning.",
+            "timestamp": "00:01:25.987"
+          },
+          {
+            "description": "Narrator explains the need for a change of variables.",
+            "timestamp": "00:01:45.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Differential equation displayed on screen.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.999",
+              "start_timestamp": "00:01:06.011"
+            }
+          },
+          {
+            "name": "Change of variables equations displayed on screen.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.009",
+              "start_timestamp": "00:01:27.001"
+            }
+          },
+          {
+            "name": "Octave code displayed on screen.",
+            "timestamp": {
+              "end_timestamp": "00:01:49.984",
+              "start_timestamp": "00:01:45.016"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Mathematical modeling, differential equations, numerical methods, change of variables, 'ode45' function.",
+        "timestamps": {
+          "end_timestamp": "00:01:59.989",
+          "start_timestamp": "00:01:01.042"
+        },
+        "title": "Mathematical Model",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to white screen with the differential equation.",
+            "timestamps": {
+              "end_timestamp": "00:01:09.999",
+              "start_timestamp": "00:01:04.997"
+            }
+          },
+          {
+            "description": "Transition to change of variables equations.",
+            "timestamps": {
+              "end_timestamp": "00:01:30.009",
+              "start_timestamp": "00:01:27.001"
+            }
+          },
+          {
+            "description": "Transition to Octave code.",
+            "timestamps": {
+              "end_timestamp": "00:01:49.984",
+              "start_timestamp": "00:01:45.016"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Discusses initial conditions and using 'ode45' for approximation.",
+            "timestamp": {
+              "end_timestamp": "00:02:09.994",
+              "start_timestamp": "00:02:08.000"
+            }
+          },
+          {
+            "description": "Shows graph of the solution.",
+            "timestamp": {
+              "end_timestamp": "00:02:25.001",
+              "start_timestamp": "00:02:19.999"
+            }
+          },
+          {
+            "description": "Explains the graph and its meaning in terms of the pendulum's motion.",
+            "timestamp": {
+              "end_timestamp": "00:02:30.240",
+              "start_timestamp": "00:02:28.989"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informative, insightful. The presentation of the graph provides a visual understanding of the mathematical solution.",
+          "keyMoments": [
+            {
+              "changeDescription": "The appearance of the graph increases visual interest and provides a clearer picture of the pendulum's behavior.",
+              "timestamp": "00:02:19.999"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents the approximated solution for the single pendulum's motion as calculated by Octave.",
+            "timestamp": "00:02:08.000"
+          },
+          {
+            "description": "Narrator reiterates the system of equations and initial conditions.",
+            "timestamp": "00:02:19.999"
+          }
+        ],
+        "props": [
+          {
+            "name": "System of equations displayed on screen.",
+            "timestamp": {
+              "end_timestamp": "00:02:09.994",
+              "start_timestamp": "00:02:08.000"
+            }
+          },
+          {
+            "name": "Graph of the approximated solution displayed on screen.",
+            "timestamp": {
+              "end_timestamp": "00:02:25.001",
+              "start_timestamp": "00:02:19.999"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Numerical solutions, graphical representation of pendulum's motion, understanding of 'ode45' output.",
+        "timestamps": {
+          "end_timestamp": "00:02:30.240",
+          "start_timestamp": "00:02:00.023"
+        },
+        "title": "Single Pendulum Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to white screen with the system of equations.",
+            "timestamps": {
+              "end_timestamp": "00:02:09.994",
+              "start_timestamp": "00:02:00.023"
+            }
+          },
+          {
+            "description": "Transition to graph of the solution.",
+            "timestamps": {
+              "end_timestamp": "00:02:25.001",
+              "start_timestamp": "00:02:19.999"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Returns to the pendulum contraption with two pendulums.",
+            "timestamp": {
+              "end_timestamp": "00:02:35.006",
+              "start_timestamp": "00:02:30.274"
+            }
+          },
+          {
+            "description": "Sets one pendulum in motion.",
+            "timestamp": {
+              "end_timestamp": "00:02:50.013",
+              "start_timestamp": "00:02:45.991"
+            }
+          },
+          {
+            "description": "Shows Octave code for the two pendulum system.",
+            "timestamp": {
+              "end_timestamp": "00:03:09.008",
+              "start_timestamp": "00:03:04.006"
+            }
+          },
+          {
+            "description": "Explains the \"nudge\" parameter.",
+            "timestamp": {
+              "end_timestamp": "00:03:29.998",
+              "start_timestamp": "00:03:26.010"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, analytical. The return to the physical demonstration combined with the introduction of new code keeps the viewer engaged and intrigued.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift back to the pendulum contraption creates a visually dynamic scene.",
+              "timestamp": "00:02:30.274"
+            },
+            {
+              "changeDescription": "Transition to Octave code reduces the visual dynamism.",
+              "timestamp": "00:03:04.006"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the anti-phase synchronization of two coupled pendulums and presents the code for modeling this system.",
+            "timestamp": "00:02:30.274"
+          },
+          {
+            "description": "Narrator focuses on the system with two pendulums.",
+            "timestamp": "00:02:45.991"
+          },
+          {
+            "description": "Narrator introduces Octave code for the two pendulum system.",
+            "timestamp": "00:03:26.010"
+          }
+        ],
+        "props": [
+          {
+            "name": "Wooden pendulum contraption with two pendulums and PVC rollers.",
+            "timestamp": {
+              "end_timestamp": "00:02:35.006",
+              "start_timestamp": "00:02:30.274"
+            }
+          },
+          {
+            "name": "Octave code for the two pendulum system.",
+            "timestamp": {
+              "end_timestamp": "00:03:09.008",
+              "start_timestamp": "00:03:04.006"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Coupled pendulum system, anti-phase synchronization, mathematical modeling, 'nudge' parameter representing energy transfer.",
+        "timestamps": {
+          "end_timestamp": "00:03:35.000",
+          "start_timestamp": "00:02:30.274"
+        },
+        "title": "Coupled Pendulums Revisited",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to video of the pendulum contraption with two pendulums.",
+            "timestamps": {
+              "end_timestamp": "00:02:35.006",
+              "start_timestamp": "00:02:30.274"
+            }
+          },
+          {
+            "description": "Cut to Octave code.",
+            "timestamps": {
+              "end_timestamp": "00:03:09.008",
+              "start_timestamp": "00:03:04.006"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Discusses anti-phase synchronization in the solution.",
+            "timestamp": {
+              "end_timestamp": "00:03:40.003",
+              "start_timestamp": "00:03:35.034"
+            }
+          },
+          {
+            "description": "Shows a graph of the two-pendulum solution.",
+            "timestamp": {
+              "end_timestamp": "00:03:40.003",
+              "start_timestamp": "00:03:35.034"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informative, confirmatory. The graph visually confirms the narrator's explanation of anti-phase synchronization.",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition to the graph provides a visual representation of the pendulum behavior.",
+              "timestamp": "00:03:35.034"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents the numerical solution for the two-pendulum system, highlighting the anti-phase synchronization.",
+            "timestamp": "00:03:35.034"
+          }
+        ],
+        "props": [
+          {
+            "name": "Graph of the two pendulum system solution.",
+            "timestamp": {
+              "end_timestamp": "00:03:40.003",
+              "start_timestamp": "00:03:35.034"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Anti-phase synchronization, graphical representation of the solution, confirmation of the mathematical model.",
+        "timestamps": {
+          "end_timestamp": "00:03:57.984",
+          "start_timestamp": "00:03:35.034"
+        },
+        "title": "Two Pendulums Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to a graph of the solution.",
+            "timestamps": {
+              "end_timestamp": "00:03:40.003",
+              "start_timestamp": "00:03:35.034"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Introduces the system with three pendulums.",
+            "timestamp": {
+              "end_timestamp": "00:04:02.006",
+              "start_timestamp": "00:03:58.018"
+            }
+          },
+          {
+            "description": "Presents Octave code for the three pendulum system.",
+            "timestamp": {
+              "end_timestamp": "00:04:24.010",
+              "start_timestamp": "00:04:19.008"
+            }
+          },
+          {
+            "description": "Discusses the \"nudge\" parameter and how the force is distributed among the pendulums.",
+            "timestamp": {
+              "end_timestamp": "00:04:34.995",
+              "start_timestamp": "00:04:29.012"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative, concluding. The presentation of the final system and its code brings the video to a logical conclusion.",
+          "keyMoments": [
+            {
+              "changeDescription": "The visual shift back to the contraption creates a more dynamic feel.",
+              "timestamp": "00:03:58.018"
+            },
+            {
+              "changeDescription": "Transition to Octave code lowers the dynamism.",
+              "timestamp": "00:04:19.008"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Expands the concept to three pendulums and shows how the mathematical model and code adapt to the increased complexity.",
+            "timestamp": "00:03:58.018"
+          },
+          {
+            "description": "Narrator shifts focus to the three pendulum system.",
+            "timestamp": "00:03:58.018"
+          }
+        ],
+        "props": [
+          {
+            "name": "Wooden pendulum contraption with three pendulums and PVC rollers.",
+            "timestamp": {
+              "end_timestamp": "00:04:02.006",
+              "start_timestamp": "00:03:58.018"
+            }
+          },
+          {
+            "name": "Octave code for the three pendulum system.",
+            "timestamp": {
+              "end_timestamp": "00:04:24.010",
+              "start_timestamp": "00:04:19.008"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Three pendulum system, anti-phase synchronization, force distribution, adapting the mathematical model and code for complex systems.",
+        "timestamps": {
+          "end_timestamp": "00:04:48.481",
+          "start_timestamp": "00:03:58.018"
+        },
+        "title": "Three Pendulum System",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to video of the pendulum contraption with three pendulums.",
+            "timestamps": {
+              "end_timestamp": "00:04:02.006",
+              "start_timestamp": "00:03:58.018"
+            }
+          },
+          {
+            "description": "Cut to Octave code for the three pendulum system.",
+            "timestamps": {
+              "end_timestamp": "00:04:24.010",
+              "start_timestamp": "00:04:19.008"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presents the graph for the three pendulum system.",
+            "timestamp": {
+              "end_timestamp": "00:04:51.996",
+              "start_timestamp": "00:04:48.515"
+            }
+          },
+          {
+            "description": "Explains the anti-phase synchronization shown in the graph.",
+            "timestamp": {
+              "end_timestamp": "00:04:53.990",
+              "start_timestamp": "00:04:50.002"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informative, concluding. The graph provides visual confirmation of the three pendulum system's behavior.",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition to the graph adds visual interest.",
+              "timestamp": "00:04:48.515"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the demonstration by showing the anti-phase synchronization of the three pendulum system.",
+            "timestamp": "00:04:48.515"
+          }
+        ],
+        "props": [
+          {
+            "name": "Graph of the solution for the three pendulum system.",
+            "timestamp": {
+              "end_timestamp": "00:04:51.996",
+              "start_timestamp": "00:04:48.515"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Anti-phase synchronization, graphical representation of the solution, final confirmation of the mathematical model's accuracy.",
+        "timestamps": {
+          "end_timestamp": "00:05:00.007",
+          "start_timestamp": "00:04:48.515"
+        },
+        "title": "Three Pendulum Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to graph of the solution.",
+            "timestamps": {
+              "end_timestamp": "00:04:51.996",
+              "start_timestamp": "00:04:48.515"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explains the possibility of measuring actual parameters from the physical system.",
+            "timestamp": {
+              "end_timestamp": "00:05:02.001",
+              "start_timestamp": "00:05:00.041"
+            }
+          },
+          {
+            "description": "Shows a list of useful links related to the video.",
+            "timestamp": {
+              "end_timestamp": "00:05:58.007",
+              "start_timestamp": "00:05:24.985"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Informative, helpful. The narrator provides additional information and resources related to the topic.",
+          "keyMoments": [
+            {
+              "changeDescription": "The visual shift to the slide with links provides a clear and organized way to access resources.",
+              "timestamp": "00:05:24.985"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the video by offering suggestions for further exploration and providing useful links for the viewer.",
+            "timestamp": "00:05:00.041"
+          },
+          {
+            "description": "Narrator presents a list of useful links for further learning.",
+            "timestamp": "00:05:24.985"
+          }
+        ],
+        "props": [
+          {
+            "name": "Screen with a list of useful links.",
+            "timestamp": {
+              "end_timestamp": "00:05:58.007",
+              "start_timestamp": "00:05:24.985"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Real-world application, data analysis, further learning resources.",
+        "timestamps": {
+          "end_timestamp": "00:08:02.086",
+          "start_timestamp": "00:05:00.041"
+        },
+        "title": "Closing and Useful Links",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to a black screen.",
+            "timestamps": {
+              "end_timestamp": "00:05:02.001",
+              "start_timestamp": "00:05:00.041"
+            }
+          },
+          {
+            "description": "Cut to a slide with the heading \"Useful Links\" and a list of links.",
+            "timestamps": {
+              "end_timestamp": "00:05:58.007",
+              "start_timestamp": "00:05:24.985"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The three-pendulum system reaches anti-phase synchronization, visually confirming the predictions of the mathematical model.",
+        "timestamp": "00:04:46.994"
+      },
+      "description": "Demonstrating anti-phase synchronization in a system of coupled pendulums, both physically and through mathematical modeling using GNU Octave.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "Exploring Anti-Phase Synchronization in Coupled Pendulums with GNU Octave",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened by simplifying the change of variables explanation or moving it to an appendix.",
+        "timestamps": {
+          "end_timestamp": "00:05:00.041",
+          "start_timestamp": "00:05:00.041"
+        }
+      },
+      {
+        "description": "The explanation of obtaining real-world data could be condensed or made more visually engaging.",
+        "timestamps": {
+          "end_timestamp": "00:08:02.086",
+          "start_timestamp": "00:05:00.041"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 482,
+  "original_json_filename": "31wVu8zzApA.json",
+  "original_video_filename": "31wVu8zzApA.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this video I'd like to tell you about how I use gnu octave to find approximate solutions to systems of differential equations by using numerical methods first though check out this contraption I made in the shed I hope you can anticipate that me moving this one pendulum won't affect the others in any noticeable way but what happens if I sit the whole wooden thing on some rollers this is now a system of pendulums you might have seen videos where a series of metronomes are set on a plank and then the plank is set on some cans and they end up being synchronized this wooden Contraption I made is also a series of harmonic oscillators like the metronomes let's see what happens when I let one go they become synchronized but they are not in Phase synchronized like the metronomes they are anti-phased synchronized it seems that this system has a stable state where the platform doesn't move let's now introduce a differential equation to understand what's going on let's think about just one pendulum to begin with and then we can expand on that later this is a second order homogeneous differential equation that governs the movement of a simple harmonic oscillator deriving that equation isn't the focus of this video but if you would like to see how to do it then consider watching a video on the channel physics with Elliot that talks about how to do that I found the video really helpful and the link is in the description before we can use this in gnu octave we should rearrange this second order differential equation to be a system of two first order equations by using a change of variables we should be able to do this for any second order differential equation so let's substitute these new variables into the equation and so we have this system of equations so far the system of equations represents a simple harmonic oscillator simple here means the oscillator has no friction acting upon it simple harmonic oscillators can be modified to include friction and other sources of dampening here K is the friction parameter then given some initial conditions for x sub 1 and x sub 2 we can get the octave function ode45 to approximate the solution as far as I can tell the function in Matlab and in octave behaves the same oda45 is a Runge cutter method and I think the most basic example of this family of methods is Euler's method before you can use oda45 in octave you should install the ocl package via Forge the first step is to define a function that is the system of differential equations so that octave can use it let's take a look at the function named Dynamics pendulum it's convenient to Define these parameters locally like k for friction L for the pendulum arm and G for the gravitational constant note that here the value of K was arbitrarily chosen but I give an explanation for this at the end of the video we must Define the independent variable we take time to be the independent variable x0 is the initial condition vector you then pass the function of equations the independent variable and the initial conditions to the ode45 method the Ada 45 method iterates over the points in the independent variable and passes those and the approximated point for each equation to your function of equations those are substituted into the equations and then those substitutions are returned to oda45 it will then know how to approximate the next values in a similar way to Euler's method there are other solvers but the Matlab documentation says that rda45 is usually the one that you want to use a link to that documentation on how to choose a solver is in the notes then we graph the result and look what we get these are approximated values for x sub 1 or Theta and for x sub 2 or the returning Force at every point of t so far so good but that was just one pendulum isolated from the others now let's sit a system of two pendula on a shared platform on some rollers to see what happens What's Happening Here is the dominant pendulum forces the platform very slightly but the pendulum at rest has inertia by the time the formerly steady pendulum catches up to its rest position on the platform the platform is already heading in the opposite direction this continues until the pendula are in anti-phase synchronization which means the platform will no longer move recall that the former equation determined the angle of the single pendulum we can use that again but we can make a small change to say that each pendulum dampens every other pendulum let's define a nudge parameter for each pendulum to achieve that dampening effect on the other pendulum for a pendulum to nudge another pendulum causes it to lose energy so a pendulum's total loss of energy is that nudge plus friction this chart shows a system of two equations which represent the two pendula and this shows the pendula do end up with anti-phase synchronization now for the initial problem the platform with three pendula which we can model with a system of three equations this is essentially the same as the system of two equations but there's a slight difference the force that each pendulum gives to the platform is absorbed by the other two pendula the force that a pendulum gains from the system is the average of the force exerted by every other pendulum and the chart for this one shows that each of the other pendula that were initially at rest or very close to at rest will each move to counteract half of the force that the dominant pendulum exerts on the system I should note that I chose the values for the parameters K and N arbitrarily since we have a physical system that we can play around with which is this wooden thing on rollers that I made then we could measure the actual angles of the pendulum at every point of time and then use those data points to solve for the unknown parameters I imagine it would involve filming the pendula on the platform and then measuring the angle Theta at regular intervals if you check the description you will find links covering how to derive the differential equation of a pendulum how to set up Jupiter notebook to run using gnu octave documentation about how to choose a numerical method the script and code to find these Solutions in this video and how to install the ocl package so that you can use ode solvers in gnu octave please leave a comment to share what you found interesting or surprising or if you have any feedback thanks for watching",
+  "text_to_speech_word_count": 1154,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.185",
+      "start": "00:00:00.000",
+      "text": " In this video I'd like to tell you about how I use Gnu Octave to find approximate solutions"
+    },
+    {
+      "end": "00:00:10.782",
+      "start": "00:00:06.185",
+      "text": " to systems of differential equations by using numerical methods."
+    },
+    {
+      "end": "00:00:14.534",
+      "start": "00:00:10.782",
+      "text": " First though, check out this contraption I made in the shed."
+    },
+    {
+      "end": "00:00:19.469",
+      "start": "00:00:14.534",
+      "text": " I hope you can anticipate that me moving this one pendulum won't affect the others in any"
+    },
+    {
+      "end": "00:00:21.632",
+      "start": "00:00:19.469",
+      "text": " noticeable way."
+    },
+    {
+      "end": "00:00:27.141",
+      "start": "00:00:21.632",
+      "text": " But what happens if I sit the whole wooden thing on some rollers?"
+    },
+    {
+      "end": "00:00:30.183",
+      "start": "00:00:27.141",
+      "text": " This is now a system of pendulums."
+    },
+    {
+      "end": "00:00:34.712",
+      "start": "00:00:30.183",
+      "text": " You might have seen videos where a series of metronomes are set on a plank and then the"
+    },
+    {
+      "end": "00:00:39.918",
+      "start": "00:00:34.712",
+      "text": " plank is set on some cans and they end up being synchronized."
+    },
+    {
+      "end": "00:00:45.832",
+      "start": "00:00:39.918",
+      "text": " This wooden contraption I made is also a series of harmonic oscillators like the metronomes."
+    },
+    {
+      "end": "00:00:50.226",
+      "start": "00:00:45.832",
+      "text": " Let's see what happens when I let one go."
+    },
+    {
+      "end": "00:00:56.141",
+      "start": "00:00:50.226",
+      "text": " They become synchronized but they are not in-phase synchronized like the metronomes."
+    },
+    {
+      "end": "00:01:00.873",
+      "start": "00:00:56.141",
+      "text": " They are anti-phase synchronized."
+    },
+    {
+      "end": "00:01:06.518",
+      "start": "00:01:00.873",
+      "text": " It seems that this system has a stable state where the platform doesn't move."
+    },
+    {
+      "end": "00:01:11.689",
+      "start": "00:01:06.518",
+      "text": " Let's now introduce a differential equation to understand what's going on."
+    },
+    {
+      "end": "00:01:18.618",
+      "start": "00:01:11.689",
+      "text": " Let's think about just one pendulum to begin with and then we can expand on that later."
+    },
+    {
+      "end": "00:01:24.905",
+      "start": "00:01:18.618",
+      "text": " This is a second order homogenous differential equation that governs the movement of a simple"
+    },
+    {
+      "end": "00:01:27.879",
+      "start": "00:01:24.905",
+      "text": " harmonic oscillator."
+    },
+    {
+      "end": "00:01:32.104",
+      "start": "00:01:27.879",
+      "text": " Deriving that equation isn't the focus of this video but if you would like to see how"
+    },
+    {
+      "end": "00:01:36.938",
+      "start": "00:01:32.104",
+      "text": " to do it then consider watching a video on the channel, physics with Elliott that talks"
+    },
+    {
+      "end": "00:01:43.089",
+      "start": "00:01:36.938",
+      "text": " about how to do that, I found the video really helpful and the link is in the description."
+    },
+    {
+      "end": "00:01:48.768",
+      "start": "00:01:43.089",
+      "text": " Before we can use this in GnuOctave we should rearrange this second order differential equation"
+    },
+    {
+      "end": "00:01:52.418",
+      "start": "00:01:48.768",
+      "text": " to be a system of two first order equations."
+    },
+    {
+      "end": "00:01:57.319",
+      "start": "00:01:52.452",
+      "text": " By using a change of variables we should be able to do this for any second order differential"
+    },
+    {
+      "end": "00:02:00.260",
+      "start": "00:01:57.319",
+      "text": " equation."
+    },
+    {
+      "end": "00:02:05.938",
+      "start": "00:02:00.260",
+      "text": " So let's substitute these new variables into the equation and so we have this system of"
+    },
+    {
+      "end": "00:02:08.946",
+      "start": "00:02:05.938",
+      "text": " equations."
+    },
+    {
+      "end": "00:02:14.151",
+      "start": "00:02:08.946",
+      "text": " So far the system of equations represents a simple harmonic oscillator."
+    },
+    {
+      "end": "00:02:19.661",
+      "start": "00:02:14.151",
+      "text": " Simple here means the oscillator has no friction acting upon it."
+    },
+    {
+      "end": "00:02:24.460",
+      "start": "00:02:19.661",
+      "text": " Simple harmonic oscillators can be modified to include friction and other sources of"
+    },
+    {
+      "end": "00:02:25.474",
+      "start": "00:02:24.460",
+      "text": " dampening."
+    },
+    {
+      "end": "00:02:30.984",
+      "start": "00:02:25.474",
+      "text": " Here K is the friction parameter."
+    },
+    {
+      "end": "00:02:38.386",
+      "start": "00:02:30.984",
+      "text": " Then given some initial conditions for X sub 1 and X sub 2 we can get the Octave function"
+    },
+    {
+      "end": "00:02:42.509",
+      "start": "00:02:38.386",
+      "text": " ODE 45 to approximate the solution."
+    },
+    {
+      "end": "00:02:47.714",
+      "start": "00:02:42.509",
+      "text": " As far as I can tell the function in MATLAB and in Octave behaves the same."
+    },
+    {
+      "end": "00:02:53.427",
+      "start": "00:02:47.714",
+      "text": " ODE 45 is a RUNGE CUTAR method and I think the most basic example of this family of methods"
+    },
+    {
+      "end": "00:02:55.759",
+      "start": "00:02:53.427",
+      "text": " is Euler's method."
+    },
+    {
+      "end": "00:03:03.296",
+      "start": "00:02:55.759",
+      "text": " Before you can use ODE 45 in Octave you should install the OCL package via Forge."
+    },
+    {
+      "end": "00:03:08.941",
+      "start": "00:03:03.296",
+      "text": " The first step is to define a function that is the system of differential equations so"
+    },
+    {
+      "end": "00:03:11.847",
+      "start": "00:03:08.941",
+      "text": " that Octave can use it."
+    },
+    {
+      "end": "00:03:16.579",
+      "start": "00:03:11.847",
+      "text": " Let's take a look at the function named Dynamics Pendulum."
+    },
+    {
+      "end": "00:03:21.954",
+      "start": "00:03:16.579",
+      "text": " It's convenient to define these parameters locally like K for friction, L for the pendulum"
+    },
+    {
+      "end": "00:03:26.314",
+      "start": "00:03:21.954",
+      "text": " arm and G for the gravitational constant."
+    },
+    {
+      "end": "00:03:31.654",
+      "start": "00:03:26.314",
+      "text": " Note that here the value of K was arbitrarily chosen but I give an explanation for this"
+    },
+    {
+      "end": "00:03:34.460",
+      "start": "00:03:31.654",
+      "text": " at the end of the video."
+    },
+    {
+      "end": "00:03:37.299",
+      "start": "00:03:34.460",
+      "text": " We must define the independent variable."
+    },
+    {
+      "end": "00:03:41.050",
+      "start": "00:03:37.299",
+      "text": " We take time to be the independent variable."
+    },
+    {
+      "end": "00:03:45.208",
+      "start": "00:03:41.050",
+      "text": " X zero is the initial condition vector."
+    },
+    {
+      "end": "00:03:51.393",
+      "start": "00:03:45.208",
+      "text": " And then pass the function of equations, the independent variable and the initial conditions"
+    },
+    {
+      "end": "00:03:54.976",
+      "start": "00:03:51.393",
+      "text": " to the ODE 45 method."
+    },
+    {
+      "end": "00:04:01.263",
+      "start": "00:03:54.976",
+      "text": " The ODE 45 method iterates over the points in the independent variable and passes those"
+    },
+    {
+      "end": "00:04:06.941",
+      "start": "00:04:01.263",
+      "text": " and the approximated point for each equation to your function of equations."
+    },
+    {
+      "end": "00:04:11.876",
+      "start": "00:04:06.941",
+      "text": " Those are substituted into the equations and then those substitutions are returned to"
+    },
+    {
+      "end": "00:04:14.715",
+      "start": "00:04:11.876",
+      "text": " ODE 45."
+    },
+    {
+      "end": "00:04:21.475",
+      "start": "00:04:14.783",
+      "text": " It will then know how to approximate the next values in a similar way to OILAs method."
+    },
+    {
+      "end": "00:04:27.728",
+      "start": "00:04:21.475",
+      "text": " There are other solvers but the MATLAB documentation says that ODE 45 is usually the one that you"
+    },
+    {
+      "end": "00:04:28.742",
+      "start": "00:04:27.728",
+      "text": " want to use."
+    },
+    {
+      "end": "00:04:34.860",
+      "start": "00:04:28.742",
+      "text": " A link to that documentation on how to choose the solver is in the notes."
+    },
+    {
+      "end": "00:04:38.307",
+      "start": "00:04:34.860",
+      "text": " Then we graph the result and look what we get."
+    },
+    {
+      "end": "00:04:45.473",
+      "start": "00:04:38.307",
+      "text": " These are approximated values for X sub 1 or theta and for X sub 2 or the returning force"
+    },
+    {
+      "end": "00:04:49.427",
+      "start": "00:04:45.473",
+      "text": " at every point of T. So far so good."
+    },
+    {
+      "end": "00:04:53.010",
+      "start": "00:04:49.427",
+      "text": " But that was just one pendulum isolated from the others."
+    },
+    {
+      "end": "00:04:58.351",
+      "start": "00:04:53.010",
+      "text": " Now let's sit a system of two pendula on a shared platform on some rollers to see what"
+    },
+    {
+      "end": "00:05:00.514",
+      "start": "00:04:58.351",
+      "text": " happens."
+    },
+    {
+      "end": "00:05:05.550",
+      "start": "00:05:00.514",
+      "text": " What's happening here is the dominant pendulum forces the platform very slightly but the"
+    },
+    {
+      "end": "00:05:08.491",
+      "start": "00:05:05.550",
+      "text": " pendulum at rest has inertia."
+    },
+    {
+      "end": "00:05:14.000",
+      "start": "00:05:08.491",
+      "text": " By the time the formally steady pendulum catches up to its rest position on the platform, the"
+    },
+    {
+      "end": "00:05:18.022",
+      "start": "00:05:14.000",
+      "text": " platform is already heading in the opposite direction."
+    },
+    {
+      "end": "00:05:23.633",
+      "start": "00:05:18.022",
+      "text": " This continues until the pendulum are in anti-phase synchronization which means the platform"
+    },
+    {
+      "end": "00:05:26.371",
+      "start": "00:05:23.633",
+      "text": " will no longer move."
+    },
+    {
+      "end": "00:05:32.184",
+      "start": "00:05:26.371",
+      "text": " Recall that the former equation determined the angle of the single pendulum."
+    },
+    {
+      "end": "00:05:37.220",
+      "start": "00:05:32.184",
+      "text": " We can use that again but we can make a small change to say that each pendulum dampens"
+    },
+    {
+      "end": "00:05:40.127",
+      "start": "00:05:37.220",
+      "text": " every other pendulum."
+    },
+    {
+      "end": "00:05:44.893",
+      "start": "00:05:40.127",
+      "text": " Let's define a nudge parameter for each pendulum to achieve that dampening effect on the"
+    },
+    {
+      "end": "00:05:47.901",
+      "start": "00:05:44.893",
+      "text": " other pendulum."
+    },
+    {
+      "end": "00:05:53.681",
+      "start": "00:05:47.901",
+      "text": " For a pendulum to nudge another pendulum causes it to lose energy so a pendulum's total"
+    },
+    {
+      "end": "00:05:58.818",
+      "start": "00:05:53.681",
+      "text": " loss of energy is that nudge plus friction."
+    },
+    {
+      "end": "00:06:04.902",
+      "start": "00:05:58.818",
+      "text": " This chart shows a system of two equations which represent the two pendula in this shows"
+    },
+    {
+      "end": "00:06:10.614",
+      "start": "00:06:04.902",
+      "text": " the pendulum do end up with anti-phase synchronization."
+    },
+    {
+      "end": "00:06:16.597",
+      "start": "00:06:10.614",
+      "text": " Now for the initial problem, the platform with three pendula which we can model with a system"
+    },
+    {
+      "end": "00:06:19.774",
+      "start": "00:06:16.597",
+      "text": " of three equations."
+    },
+    {
+      "end": "00:06:27.143",
+      "start": "00:06:19.774",
+      "text": " This is essentially the same as the system of two equations but there's a slight difference."
+    },
+    {
+      "end": "00:06:34.173",
+      "start": "00:06:27.143",
+      "text": " The force that each pendulum gives to the platform is absorbed by the other two pendula."
+    },
+    {
+      "end": "00:06:39.412",
+      "start": "00:06:34.173",
+      "text": " The force that a pendulum gains from the system is the average of the force exerted by every"
+    },
+    {
+      "end": "00:06:41.879",
+      "start": "00:06:39.412",
+      "text": " other pendulum."
+    },
+    {
+      "end": "00:06:46.510",
+      "start": "00:06:41.879",
+      "text": " And the chart for this one shows that each of the other pendula that were initially at"
+    },
+    {
+      "end": "00:06:52.290",
+      "start": "00:06:46.510",
+      "text": " rest or they're close to at rest will each move to counteract half of the force that"
+    },
+    {
+      "end": "00:06:56.785",
+      "start": "00:06:52.290",
+      "text": " the dominant pendulum exerts on the system."
+    },
+    {
+      "end": "00:07:02.869",
+      "start": "00:06:56.785",
+      "text": " I should note that I chose the values for the parameters k and n arbitrarily."
+    },
+    {
+      "end": "00:07:06.553",
+      "start": "00:07:02.869",
+      "text": " Since we have a physical system that we can play around with which is this wooden thing"
+    },
+    {
+      "end": "00:07:11.623",
+      "start": "00:07:06.553",
+      "text": " on rollers that I made, then we could measure the actual angles of the pendulum at every"
+    },
+    {
+      "end": "00:07:17.876",
+      "start": "00:07:11.623",
+      "text": " point of time and then use those data points to solve for the unknown parameters."
+    },
+    {
+      "end": "00:07:22.878",
+      "start": "00:07:17.876",
+      "text": " I imagine it would involve filming the pendulum on the platform and then measuring the angle"
+    },
+    {
+      "end": "00:07:25.785",
+      "start": "00:07:22.878",
+      "text": " theta at regular intervals."
+    },
+    {
+      "end": "00:07:30.855",
+      "start": "00:07:25.785",
+      "text": " If you check the description you will find links covering how to derive the differential"
+    },
+    {
+      "end": "00:07:37.514",
+      "start": "00:07:30.855",
+      "text": " equation of a pendulum, how to set up Jupyter Notebook to run using GnuWokTave, documentation"
+    },
+    {
+      "end": "00:07:42.888",
+      "start": "00:07:37.514",
+      "text": " about how to choose a numerical method, the script and code to find these solutions in"
+    },
+    {
+      "end": "00:07:51.473",
+      "start": "00:07:42.888",
+      "text": " this video, and how to install the OCL package so that you can use ODE solvers in GnuWokTave."
+    },
+    {
+      "end": "00:07:55.191",
+      "start": "00:07:51.473",
+      "text": " Please leave a comment to share what you found interesting or surprising or if you have"
+    },
+    {
+      "end": "00:07:56.171",
+      "start": "00:07:55.191",
+      "text": " any feedback."
+    },
+    {
+      "end": "00:07:57.185",
+      "start": "00:07:56.171",
+      "text": " Thanks for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "jason thomas",
+  "youtube_channel_follower_count": 0,
+  "youtube_comment_count": 1,
+  "youtube_description": "_Notes:_ \n- At 1:25, I say that the governing equation for a pendulum is a simple harmonic oscillator. This is only true at small angles.\n- The metronomes are similar but not entirely analogous. Sometimes metronomes end up in anti-phase sync.\n- This video is the sum of my understanding as an undergraduate, so I might have gotten a detail or two wrong. Please comment if you can see any issues.\n\n---\n\nI talk about how I use GNU Octave to find approximate solutions to systems of differential equations by using numerical techniques.\n\n---\n\n*Links to elsewhere*\n\n- Deriving the second order DE of a single pendulum: Physics with Elliot, https://www.youtube.com/watch?v=0q0L7Fj4dk8\n\n- Choosing an ODE solver: Matlab documentation, https://au.mathworks.com/help/matlab/math/choose-an-ode-solver.html\n\n- Setting up Gnu Octave to run with Jupyter Notebook, https://www.jason-thomas.xyz/post?postNum=20\n\n- The video script, code to find solutions, and all files used to make the video,  https://github.com/JasonThomasData/mathsVideos/blob/master/GnuOctaveNumericalSolutions/script%20and%20code.ipynb\n\n- Install the OCL package, https://gnu-octave.github.io/packages/ocl/\n\n- Video sample of metronomes in-phase sync, https://www.youtube.com/watch?v=8VNzffu914A",
+  "youtube_like_count": 4,
+  "youtube_tags": [],
+  "youtube_title": "Using GNU Octave to numerically find a solution for a system of harmonic oscillators",
+  "youtube_upload_date": "20230625",
+  "youtube_view_count": 93
+}

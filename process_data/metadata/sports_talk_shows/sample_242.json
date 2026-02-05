@@ -1,0 +1,279 @@
+{
+  "content_fine_category": "Sports Talk Shows",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Man in a grey sweatshirt and black pants, wearing a white baseball cap, actively hitting a golf ball.",
+        "name": "Golfer"
+      },
+      {
+        "characterId": "2",
+        "description": "Man in a black jacket and white baseball cap, standing to the right of the golfer, giving him instructions and information. Partially obscured.",
+        "name": "Instructor"
+      },
+      {
+        "characterId": "3",
+        "description": "Likely the one speaking in the background, expressing his amazement at the golfer's potential shot. Not visible.",
+        "name": "Camera Operator"
+      }
+    ],
+    "description": "A golfer attempts a challenging shot under the guidance of his instructor, leading to confusion and disbelief.",
+    "fps": 24.0,
+    "qAndA": [
+      {
+        "answer": "A four iron.",
+        "question": "What club is the golfer using?"
+      },
+      {
+        "answer": "218 yards, with a carry of 147 yards.",
+        "question": "What distance does the instructor initially tell the golfer to hit the ball?"
+      },
+      {
+        "answer": "He overhears the instructor telling the golfer to hit the ball 153 yards with a four iron, a much shorter distance than the previous instructions.",
+        "question": "Why is the camera operator surprised?"
+      },
+      {
+        "answer": "A high draw.",
+        "question": "What type of shot is the golfer attempting?"
+      },
+      {
+        "answer": "A mix of excitement, anticipation, and then confusion or light-hearted tension.",
+        "question": "What is the overall tone of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Golfer prepares to hit the ball.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Instructor gives directions for the shot.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Golfer swings and hits the ball.",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Golfer",
+          "Instructor",
+          "Camera Operator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Instructor",
+              "Golfer"
+            ],
+            "description": "The Instructor directs the Golfer, establishing a coach-student dynamic."
+          },
+          {
+            "characters": [
+              "Camera Operator"
+            ],
+            "description": "The Camera Operator's comment suggests a shared understanding of the difficulty of the shot."
+          }
+        ],
+        "contextualRelevance": "The specific numbers (yardage, club selection) highlight the technical aspects of golf.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Excited, anticipatory. The Instructor's specific directions and the Camera Operator's comment about it being impressive if he hits the target create a sense of anticipation.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Setup of the shot – where it needs to land and how it should fly.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Execution of the shot, leaving the outcome unknown.",
+            "timestamp": "00:00:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Golf club",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Golf ball",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Alignment stick",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Skill, precision in golf, challenge.",
+        "timestamps": {
+          "end_timestamp": "00:00:16.542",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Setup and Execution",
+        "videoEditingDetails": [
+          {
+            "description": "No significant transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Natural sound from the environment.",
+            "timestamps": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Camera Operator expresses disbelief and questions the previous instruction.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:16.583"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Camera Operator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Camera Operator",
+              "Instructor"
+            ],
+            "description": "The Camera Operator directly addresses the Instructor, challenging his instruction."
+          }
+        ],
+        "contextualRelevance": "The scene implies that the Instructor might have miscalculated the distance, creating a humorous tension.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Confused, incredulous. The abrupt jump cut and the Camera Operator's questioning tone contribute to this mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The Camera Operator's reaction suggests a discrepancy between the intended shot and the actual distance.",
+            "timestamp": "00:00:16.583"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Doubt, questioning authority, potential error.",
+        "timestamps": {
+          "end_timestamp": "00:00:23.750",
+          "start_timestamp": "00:00:16.583"
+        },
+        "title": "Surprise and Disbelief",
+        "videoEditingDetails": [
+          {
+            "description": "Jump cut from the previous scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:16.583"
+            }
+          },
+          {
+            "description": "Natural sound continues.",
+            "timestamps": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:16.583"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is unclear as the video cuts off before revealing the outcome of the shot or resolving the questioning of the instruction.",
+        "timestamp": null
+      },
+      "description": "A golfer is attempting a challenging shot under the guidance of his instructor.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Challenging Golf Shot",
+    "trimmingSuggestions": [
+      {
+        "description": "The video could benefit from showing the result of the shot and the reactions of the Instructor and Golfer. This would create a more satisfying conclusion and enhance the humor or tension established in the second scene.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Sports",
+  "duration_seconds": 24,
+  "original_json_filename": "enV4KgRoA_A.json",
+  "original_video_filename": "enV4KgRoA_A.mp4",
+  "resolution": "270x480",
+  "text_to_speech": "Jordan how far should I hit this four iron 87 28 drop it like a feather High draw that carries 147 this is really impressive if I fly at 87 yards let's see a middle one here 153 153 with the four iron yeah he's gave you 87 what the hell's wrong with you guys",
+  "text_to_speech_word_count": 55,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.542",
+      "start": "00:00:00.000",
+      "text": " Shorten how far should I hit this forearm? 87. 2.18 drop it like a feather."
+    },
+    {
+      "end": "00:00:10.208",
+      "start": "00:00:06.542",
+      "text": " High draw that carries 147."
+    },
+    {
+      "end": "00:00:20.625",
+      "start": "00:00:13.917",
+      "text": " This is really impressive if I fly 87 yards. Let's see a middle one here. 153. 153 with the forearm."
+    },
+    {
+      "end": "00:00:23.583",
+      "start": "00:00:20.625",
+      "text": " Yeah. He's gave you 87. Isn't that how wrong with you guys?"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "Titleist",
+  "youtube_channel_follower_count": 128000,
+  "youtube_comment_count": 19,
+  "youtube_description": "Justin Thomas and @NoLayingUp's D.J. Piehowski (with a surprise cameo by Jordan) talk shotmaking under pressure, JT's favorite ball-striking drill and more: https://bit.ly/3vhv6eO",
+  "youtube_like_count": 7888,
+  "youtube_tags": [],
+  "youtube_title": "Jordan Spieth calls the shots 😂",
+  "youtube_upload_date": "20231230",
+  "youtube_view_count": 338309
+}

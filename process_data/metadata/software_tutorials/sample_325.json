@@ -1,0 +1,869 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short blonde hair, blue eyes, and fair skin. He wears a blue T-shirt and has a bearded dragon sitting on his shoulder. He is the video's presenter, talking enthusiastically about the new Blender update.",
+        "name": "Southern Shotty"
+      }
+    ],
+    "description": "Analysis of the video review for the Blender 3.2 update, covering character details, scene breakdowns, storylines, and improvements.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Shadow Caustics can be used to create realistic underwater light effects or eye caustics.",
+        "question": "What is one example of how Shadow Caustics can be used in Blender 3.2?"
+      },
+      {
+        "answer": "Sculpt Paint mode offers existing sculpting tools like masking and blending options, making it more versatile. It's also much faster and capable of handling millions of polygons.",
+        "question": "How does the new 'Sculpt Paint' mode improve upon existing tools?"
+      },
+      {
+        "answer": "WebP images provide faster saving and smaller file sizes compared to PNGs, improving workflow efficiency.",
+        "question": "What's the benefit of using WebP images in Blender?"
+      },
+      {
+        "answer": "You can now name, lock, and mute individual channels in the Video Sequencer, making it easier to manage complex projects.",
+        "question": "What are some usability improvements made to the Video Sequencer?"
+      },
+      {
+        "answer": "Proxies were removed because the 'Library Override' feature now provides a more flexible and powerful solution for handling complex animations.",
+        "question": "Why were 'Proxies' removed from the animation system?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Southern Shotty introduces himself, the topic of the video (Blender 3.2 update), and the time limit (less than 5 minutes). He gestures with his hand while speaking.",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Southern Shotty"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Southern Shotty"
+            ],
+            "description": "Southern Shotty directly addresses the viewers, engaging them with his enthusiasm for the new update."
+          }
+        ],
+        "contextualRelevance": "Sets the stage for discussing Blender 3.2 updates.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "The presenter's enthusiastic tone and fast-paced speech create an exciting and happy mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Southern Shotty introduces himself and the topic of the video.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Microphone",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Bearded dragon",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to the Blender 3.2 update and engaging viewers.",
+        "timestamps": {
+          "end_timestamp": "00:00:09.033",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "The scene is shot in a room with pink and purple lighting, creating a vibrant atmosphere. No transitions, effects, or music are used. This scene could be slightly trimmed by starting directly with Southern Shotty's greeting and removing the initial hand gesture, making it more concise.",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Showcases various new features and improvements of Blender 3.2 through screen recordings and voice-over narration by Southern Shotty.",
+            "timestamp": {
+              "end_timestamp": "00:04:34.600",
+              "start_timestamp": "00:00:09.067"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates the practical uses of the new Blender features.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "The scene is purely informative, focusing on presenting new features and improvements objectively.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of Light Groups and Cycles",
+            "timestamp": "00:00:09.067"
+          },
+          {
+            "description": "Introduction of Shadow Caustics",
+            "timestamp": "00:00:18.000"
+          },
+          {
+            "description": "Introduction of Volume Motion Blur",
+            "timestamp": "00:00:39.000"
+          },
+          {
+            "description": "Introduction of AMD GPU Rendering for Linux",
+            "timestamp": "00:00:47.000"
+          },
+          {
+            "description": "Introduction of Cycles render output color management override and other updates",
+            "timestamp": "00:00:52.000"
+          },
+          {
+            "description": "Introduction of Sculpt Paint features",
+            "timestamp": "00:01:03.000"
+          },
+          {
+            "description": "Introduction of Color Attributes",
+            "timestamp": "00:01:21.000"
+          },
+          {
+            "description": "Introduction of Geometry Nodes updates",
+            "timestamp": "00:01:31.000"
+          },
+          {
+            "description": "Introduction of Grease Pencil updates",
+            "timestamp": "00:02:11.000"
+          },
+          {
+            "description": "Introduction of Curve Pen Tool",
+            "timestamp": "00:02:28.000"
+          },
+          {
+            "description": "Introduction of Modeling updates",
+            "timestamp": "00:02:34.000"
+          },
+          {
+            "description": "Introduction of Library Overrides updates",
+            "timestamp": "00:02:47.000"
+          },
+          {
+            "description": "Introduction of Collection Asset updates",
+            "timestamp": "00:03:02.000"
+          },
+          {
+            "description": "Introduction of OBJ I/O updates",
+            "timestamp": "00:03:07.000"
+          },
+          {
+            "description": "Introduction of WebP Support",
+            "timestamp": "00:03:12.000"
+          },
+          {
+            "description": "Introduction of Video Sequencer updates",
+            "timestamp": "00:03:17.000"
+          },
+          {
+            "description": "Introduction of Virtual Reality updates",
+            "timestamp": "00:03:28.000"
+          },
+          {
+            "description": "Introduction of GLTF export updates",
+            "timestamp": "00:03:33.000"
+          },
+          {
+            "description": "Introduction of FBX updates",
+            "timestamp": "00:03:37.000"
+          },
+          {
+            "description": "Introduction of Animation updates",
+            "timestamp": "00:03:43.000"
+          },
+          {
+            "description": "Introduction of Eevee updates",
+            "timestamp": "00:04:14.000"
+          },
+          {
+            "description": "Introduction of Python updates",
+            "timestamp": "00:04:34.600"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:04:34.600",
+              "start_timestamp": "00:00:09.067"
+            }
+          },
+          {
+            "name": "3D models",
+            "timestamp": {
+              "end_timestamp": "00:04:34.600",
+              "start_timestamp": "00:00:09.067"
+            }
+          },
+          {
+            "name": "Graphic user interface elements",
+            "timestamp": {
+              "end_timestamp": "00:04:34.600",
+              "start_timestamp": "00:00:09.067"
+            }
+          },
+          {
+            "name": "Animation timeline",
+            "timestamp": {
+              "end_timestamp": "00:04:34.600",
+              "start_timestamp": "00:00:09.067"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Highlights of Blender 3.2's new features.",
+        "timestamps": {
+          "end_timestamp": "00:04:34.600",
+          "start_timestamp": "00:00:09.067"
+        },
+        "title": "Feature Highlights",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlays with the name of each feature are used throughout the scene. Fast cuts between different software demonstrations keep the pace dynamic. Some demonstrations could be trimmed slightly without sacrificing clarity, especially if multiple examples of the same feature are shown.",
+            "timestamps": {
+              "end_timestamp": "00:04:34.600",
+              "start_timestamp": "00:00:09.067"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Southern Shotty concludes the video by urging viewers to support Blender by joining the Development Fund.",
+            "timestamp": {
+              "end_timestamp": "00:04:54.900",
+              "start_timestamp": "00:04:35.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Emphasizes the importance of community support for ongoing development of Blender.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "The scene shifts to a grateful tone, highlighting the importance of supporting the open-source development of Blender.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Call to action to support Blender Development Fund.",
+            "timestamp": "00:04:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:04:54.900",
+              "start_timestamp": "00:04:35.000"
+            }
+          },
+          {
+            "name": "Blender Foundation website screenshot",
+            "timestamp": {
+              "end_timestamp": "00:04:54.900",
+              "start_timestamp": "00:04:35.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Encouragement to support Blender through the Development Fund.",
+        "timestamps": {
+          "end_timestamp": "00:04:54.900",
+          "start_timestamp": "00:04:34.633"
+        },
+        "title": "Conclusion & Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions, effects, or music are used. The scene is short and focused on the call to action.",
+            "timestamps": {
+              "end_timestamp": "00:04:54.900",
+              "start_timestamp": "00:04:35.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 2 showcases the most significant and exciting updates.",
+        "timestamp": "00:00:09.000"
+      },
+      "description": "An overview of the new features and improvements introduced in Blender 3.2 update.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Blender 3.2 Update Review Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "Removing the initial hand gesture and jumping right to Southern Shotty's greeting makes the start more dynamic.",
+        "timestamps": {
+          "end_timestamp": "00:04:34.633",
+          "start_timestamp": "00:04:34.633"
+        }
+      },
+      {
+        "description": "Some feature demonstrations, especially those with multiple examples, can be trimmed slightly to maintain a quick pace without losing crucial information.",
+        "timestamps": {
+          "end_timestamp": "00:04:35.000",
+          "start_timestamp": "00:04:34.633"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 295,
+  "original_json_filename": "TnX4_BcFY54.json",
+  "original_video_filename": "TnX4_BcFY54.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi i'm southern chatty and today we have a new blender 3.2 update which means we're going to go through all the new features in less than five minutes with that being said let's get started a long requested feature is finally here we have light groups and cycles this allows you to group collections of lights to use in lighting passes this opens up a ton of creative potential for lighting artists in the compositor we now have true shadow caustics in blender example uses are underwater caustics and icostic this is based on manifold next event estimation a method developed for production rendering where precision and performance are important it's intended to be used on few selected objects in your scene and this first implementation has some technical limitations such as no reflective caustics and check out these release notes for more details another big addition is volumes now support motion blur it works by using the speed attributes from volumes made in blender or external open vdb files imported from other software amd gpu rendering is now supported on linux for rdna and rdna 2 graphic cards you can override color management settings on the render output now some other changes include support using adapted sampling with scrambling distance alpha outputs on the object info node and finally you can now bake two udm tiles apparently being the cool sculpting tool in blender wasn't enough because now you can paint and sculpt mode with existing tools such as the various masking options this makes it an advantageous option the painting mode is now much faster and able to handle up to millions of polygons plus new tools to modulate wet paint there's a smear brush color filters to modify existing colors and you can mask by colors vertex colors are now called color attributes they've been refactored into more generic attributes that are faster play better with geometry nodes and support 8-bit and 32-bit colors in vertex or face corner domains geometry node curves got some hefty improvements across most nodes with some seeing up to 13 times performance boost other nodes had been improved as well full list in the release notes we have a new node called the duplicate elements which can duplicate points edges faces instances and curves named attributes are back last seen in blender 2.93 lts support for naming attributes was removed in 3.0 to make room for the field system they are now back as three nodes to get set and remove named attributes the geometry nodes modifier now shows which attributes are used and a new overlay shows which named attributes are used even inside node groups the new faces planar node can tell when the triangles of an ngon don't lie on the same plane there have been many minor adjustments to the ui as well for readability we got a cool new grease pencil modifier the envelope modifier draws a line between points for a pretty neat sketch like effect the dot dash modifier can now cycle the generated strokes the build modifier has a new face mode and the smooth modifier can keep shape and got a much improved smoothing algorithm playback speed has been approved for grease pencil objects sharing the same data we have a new curve pen tool in curve edit mode that can be used to be rapidly edit and create curves you can now apply modifiers on objects with multiple users as well as applying location rotation or scale finally addressing a long overdue request by the community select vertices with similar crease values and nurbs curves knots generation have been improved library overrides saw big performance boosts resyncing libraries is now over 10 times faster depending on the project adjusting library overrides is now much easier thanks to the new properties view in the outliner displaying all overridden properties at once plus the hierarchy view that shows relationships between properties collection assets are now supported an automatic preview image is generated when marking them as an asset we got a new experimental obg importer and exporter written in c plus which is much faster than the previous importer blender now supports webp which is similar to png but saves faster and generates smaller file sizes the sequencer continues to be polished with the ability to name channels as well as lock or mute an entire channel handling of animated strips has also been improved with better filter method on transform and many more usability improvements virtual reality now supports more view options and htc vive focus 3 controllers the glt fx border has seen huge improvements across the board and has been refactored completely fbx now has support for camera depth of field f curves group by bones and other small improvements animation has had lots of little user experience quality with life tweaks including discontinuity filter is now available in the dope sheet bake action is available from the edit menu motion paths now select more sensible frame ranges by default and provide more options such as selected keyframes or all keyframes markers are easier to select and can be renamed with f2 now the same way you can rename nla strips you can enter nla tweak mode now without disabling all other tracks proxies have been removed for good in this release and blender will do its best to replace existing proxies with the much more flexible library override if you saw some minor under the hood changes including plugging in a bump without height is now optimized a shader compilation info has been moved to the viewport materials using shader to rgb no longer receive screen space reflections or subsurface scattering effects displacement bumps now affects image texture's box projection mode bigger under the hood changes for ev are playing for the coming releases so be looking forward to that python exceptions from the text editor are now displayed in the info editor as well as the usual additions and deprecations in the python api these are a bit too technical to list out so check the notes for exact details as usual there are hundreds of bug fixes minor features and improvements which of course can be seen at the link in the description below if you like what you see go support blender by joining the development fund",
+  "text_to_speech_word_count": 1062,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.200",
+      "start": "00:00:00.000",
+      "text": " Hi, I'm Southern Chaudy, and today we have a new Belender 3.2 update, which means we're"
+    },
+    {
+      "end": "00:00:07.433",
+      "start": "00:00:04.200",
+      "text": " going to go through all the new features in less than five minutes."
+    },
+    {
+      "end": "00:00:09.467",
+      "start": "00:00:07.433",
+      "text": " With that being said, let's get started."
+    },
+    {
+      "end": "00:00:12.300",
+      "start": "00:00:09.467",
+      "text": " Along requested features finally here, we have Light Groups and Cycles."
+    },
+    {
+      "end": "00:00:15.233",
+      "start": "00:00:12.300",
+      "text": " This allows you to group collections of lights to use in Lighting Passive."
+    },
+    {
+      "end": "00:00:18.700",
+      "start": "00:00:15.233",
+      "text": " This opens up a ton of creative potential for Lighting artists in the Composer."
+    },
+    {
+      "end": "00:00:21.200",
+      "start": "00:00:18.700",
+      "text": " We now have true shadow costics in Belender."
+    },
+    {
+      "end": "00:00:23.933",
+      "start": "00:00:21.200",
+      "text": " Example uses are Underwater Costics and Eye Costics."
+    },
+    {
+      "end": "00:00:27.800",
+      "start": "00:00:23.933",
+      "text": " This is based on Manifold Next Event Estimation, a method developed for production rendering"
+    },
+    {
+      "end": "00:00:29.867",
+      "start": "00:00:27.800",
+      "text": " where precision and performance are important."
+    },
+    {
+      "end": "00:00:33.533",
+      "start": "00:00:29.867",
+      "text": " It's intended to be used on few selected objects in your scene, and this first implementation"
+    },
+    {
+      "end": "00:00:37.833",
+      "start": "00:00:33.533",
+      "text": " has some technical limitations such as no reflective costics, and check out these release notes"
+    },
+    {
+      "end": "00:00:39.267",
+      "start": "00:00:37.833",
+      "text": " for more details."
+    },
+    {
+      "end": "00:00:41.467",
+      "start": "00:00:39.267",
+      "text": " Another big addition is Volumes Now Support Motion Blur."
+    },
+    {
+      "end": "00:00:45.100",
+      "start": "00:00:41.467",
+      "text": " It works by using the Speed Attributes from Volumes Made in Blender or External Open"
+    },
+    {
+      "end": "00:00:47.500",
+      "start": "00:00:45.100",
+      "text": " VDB Files in Ported From Other Software."
+    },
+    {
+      "end": "00:00:52.433",
+      "start": "00:00:47.500",
+      "text": " AMD GPU Rendering is now supported on Linux for RDNA and RDNA2 graphic cards."
+    },
+    {
+      "end": "00:00:55.467",
+      "start": "00:00:52.433",
+      "text": " You can override color management settings on the render output now."
+    },
+    {
+      "end": "00:00:58.900",
+      "start": "00:00:55.467",
+      "text": " Some other changes include support using Adaptive Sampling with Scramble Distance, Alpha"
+    },
+    {
+      "end": "00:01:03.300",
+      "start": "00:00:58.933",
+      "text": " Outputs on the Objective Pinot, and finally, you can now bake two Udium tiles."
+    },
+    {
+      "end": "00:01:06.233",
+      "start": "00:01:03.300",
+      "text": " Apparently being the cool sculpting tool in Blender wasn't enough because now you can"
+    },
+    {
+      "end": "00:01:10.033",
+      "start": "00:01:06.233",
+      "text": " paint in sculpt mode, with existing tools such as the various massing options this makes"
+    },
+    {
+      "end": "00:01:11.867",
+      "start": "00:01:10.033",
+      "text": " it an advantageous option."
+    },
+    {
+      "end": "00:01:15.267",
+      "start": "00:01:11.867",
+      "text": " The painting mode is now much faster and able to handle up to millions of polygons plus"
+    },
+    {
+      "end": "00:01:17.267",
+      "start": "00:01:15.267",
+      "text": " new tools to modulate wet paint."
+    },
+    {
+      "end": "00:01:21.633",
+      "start": "00:01:17.267",
+      "text": " There's a smear brush, color filters to modify existing colors, and you can mask by colors."
+    },
+    {
+      "end": "00:01:23.667",
+      "start": "00:01:21.633",
+      "text": " Vertex colors are now called Color Attributes."
+    },
+    {
+      "end": "00:01:27.433",
+      "start": "00:01:23.667",
+      "text": " They've been refactored into more generic attributes that are faster, play better with geometry"
+    },
+    {
+      "end": "00:01:31.867",
+      "start": "00:01:27.433",
+      "text": " nodes and support A-bit and 32-bit colors in Vertex or Face Corner domains."
+    },
+    {
+      "end": "00:01:35.933",
+      "start": "00:01:31.867",
+      "text": " Geometry node curves got some hefty improvements across most nodes with some seeing up to 13"
+    },
+    {
+      "end": "00:01:37.533",
+      "start": "00:01:35.933",
+      "text": " times performance boost."
+    },
+    {
+      "end": "00:01:40.667",
+      "start": "00:01:37.533",
+      "text": " Other nodes have been improved as well, full list in the Releases nodes."
+    },
+    {
+      "end": "00:01:44.600",
+      "start": "00:01:40.667",
+      "text": " We have a new node called the Duplicate Elements which can duplicate points, edges, faces,"
+    },
+    {
+      "end": "00:01:46.333",
+      "start": "00:01:44.600",
+      "text": " instances, and curves."
+    },
+    {
+      "end": "00:01:47.333",
+      "start": "00:01:46.333",
+      "text": " Named Attributes are back."
+    },
+    {
+      "end": "00:01:52.433",
+      "start": "00:01:47.333",
+      "text": " Last scene in Blender 2.93 LTS, support for naming attributes was removed in 3.0 to make"
+    },
+    {
+      "end": "00:01:53.833",
+      "start": "00:01:52.433",
+      "text": " room for the field system."
+    },
+    {
+      "end": "00:01:57.533",
+      "start": "00:01:53.833",
+      "text": " They are now back as 3 nodes to get, set, and removed named attributes."
+    },
+    {
+      "end": "00:02:01.400",
+      "start": "00:01:57.533",
+      "text": " The geometry nodes modifier now shows which attributes are used and a new overlay shows"
+    },
+    {
+      "end": "00:02:04.467",
+      "start": "00:02:01.400",
+      "text": " which named attributes are used even inside node groups."
+    },
+    {
+      "end": "00:02:07.400",
+      "start": "00:02:04.467",
+      "text": " The new faces player node can tell when the triangles of an in-gone don't lie in the"
+    },
+    {
+      "end": "00:02:08.400",
+      "start": "00:02:07.400",
+      "text": " same plane."
+    },
+    {
+      "end": "00:02:11.433",
+      "start": "00:02:08.400",
+      "text": " There have been many minor adjustments to the UI as well for readability."
+    },
+    {
+      "end": "00:02:13.100",
+      "start": "00:02:11.433",
+      "text": " We got a cool new grease pencil modifier."
+    },
+    {
+      "end": "00:02:16.867",
+      "start": "00:02:13.100",
+      "text": " The envelope modifier draws a line between points for a pretty neat sketch like effect."
+    },
+    {
+      "end": "00:02:19.467",
+      "start": "00:02:16.867",
+      "text": " The dot dash modifier can now cycle the generated strokes."
+    },
+    {
+      "end": "00:02:23.500",
+      "start": "00:02:19.467",
+      "text": " The build modifier has a new face mode and the smooth modifier can keep shape and got"
+    },
+    {
+      "end": "00:02:25.333",
+      "start": "00:02:23.500",
+      "text": " a much improved smoothing algorithm."
+    },
+    {
+      "end": "00:02:28.467",
+      "start": "00:02:25.333",
+      "text": " Playback Speed has been improved for grease pencil objects sharing the same data."
+    },
+    {
+      "end": "00:02:32.633",
+      "start": "00:02:28.467",
+      "text": " We have a new curve pen tool in curve edit mode that can be used to be rapidly edit and"
+    },
+    {
+      "end": "00:02:33.833",
+      "start": "00:02:32.633",
+      "text": " create curves."
+    },
+    {
+      "end": "00:02:38.000",
+      "start": "00:02:33.833",
+      "text": " You can now apply modifiers on objects, multiple users, as well as applying location, rotation,"
+    },
+    {
+      "end": "00:02:41.667",
+      "start": "00:02:38.000",
+      "text": " or scale, finally addressing a long overdue request by the community."
+    },
+    {
+      "end": "00:02:46.000",
+      "start": "00:02:41.667",
+      "text": " Select vertices with similar crease values and nerves, curves, knots, generation have been"
+    },
+    {
+      "end": "00:02:47.000",
+      "start": "00:02:46.000",
+      "text": " improved."
+    },
+    {
+      "end": "00:02:48.867",
+      "start": "00:02:47.000",
+      "text": " Library Overrides saw a big performance boost."
+    },
+    {
+      "end": "00:02:52.300",
+      "start": "00:02:48.867",
+      "text": " Re-sinking libraries is not over 10 times faster depending on the project."
+    },
+    {
+      "end": "00:02:55.267",
+      "start": "00:02:52.300",
+      "text": " Re-sinking library overrides is now much easier thanks to the new properties view in the"
+    },
+    {
+      "end": "00:02:58.400",
+      "start": "00:02:55.267",
+      "text": " outliner displaying all overwritten properties at once."
+    },
+    {
+      "end": "00:03:02.233",
+      "start": "00:02:58.400",
+      "text": " Plus the hierarchy view that shows relationships between properties."
+    },
+    {
+      "end": "00:03:03.767",
+      "start": "00:03:02.233",
+      "text": " Collection assets are now supported."
+    },
+    {
+      "end": "00:03:07.033",
+      "start": "00:03:03.767",
+      "text": " An automatic preview image is generated when marking them as an asset."
+    },
+    {
+      "end": "00:03:11.633",
+      "start": "00:03:07.033",
+      "text": " We got a new experimental OBG importer and anxporter written in C++ which is much faster than"
+    },
+    {
+      "end": "00:03:12.933",
+      "start": "00:03:11.633",
+      "text": " the previous importer."
+    },
+    {
+      "end": "00:03:17.067",
+      "start": "00:03:12.933",
+      "text": " Blender now supports WebP which is similar to PNG but saves faster and generates smaller"
+    },
+    {
+      "end": "00:03:18.100",
+      "start": "00:03:17.067",
+      "text": " file sizes."
+    },
+    {
+      "end": "00:03:21.700",
+      "start": "00:03:18.100",
+      "text": " The sequencer continues to be paused with the ability to name channels as well as lock or"
+    },
+    {
+      "end": "00:03:23.233",
+      "start": "00:03:21.700",
+      "text": " mute an entire channel."
+    },
+    {
+      "end": "00:03:27.200",
+      "start": "00:03:23.233",
+      "text": " Handling of animated strips has also been improved with better filter method on transform"
+    },
+    {
+      "end": "00:03:29.133",
+      "start": "00:03:27.200",
+      "text": " and many more usability improvements."
+    },
+    {
+      "end": "00:03:33.800",
+      "start": "00:03:29.133",
+      "text": " Virtual reality now supports more view options and HDC Vive focus through controllers."
+    },
+    {
+      "end": "00:03:38.200",
+      "start": "00:03:33.800",
+      "text": " The GLTFx board has seen huge improvements across the board and has been refactored completely."
+    },
+    {
+      "end": "00:03:42.633",
+      "start": "00:03:38.200",
+      "text": " FVX now has support for camera depth of field, F curves grouped by bones, and other small"
+    },
+    {
+      "end": "00:03:43.633",
+      "start": "00:03:42.633",
+      "text": " improvements."
+    },
+    {
+      "end": "00:03:47.433",
+      "start": "00:03:43.633",
+      "text": " Animation has had lots of little user experience quad of life tweaks including discount"
+    },
+    {
+      "end": "00:03:49.933",
+      "start": "00:03:47.433",
+      "text": " and nudie filter, is now available in the dope sheet."
+    },
+    {
+      "end": "00:03:53.667",
+      "start": "00:03:49.933",
+      "text": " Fake action is available from the edit menu, motion paths now select more sensible frame"
+    },
+    {
+      "end": "00:03:58.233",
+      "start": "00:03:53.667",
+      "text": " ranges by default and provide more options such as selected keyframes or all keyframes."
+    },
+    {
+      "end": "00:04:02.033",
+      "start": "00:03:58.233",
+      "text": " Markers are easier to select and can be renamed with F2 now, the same way you can rename"
+    },
+    {
+      "end": "00:04:03.233",
+      "start": "00:04:02.033",
+      "text": " NLA strips."
+    },
+    {
+      "end": "00:04:07.333",
+      "start": "00:04:03.233",
+      "text": " You can enter NLA tweak mode now without disabling all other tracks."
+    },
+    {
+      "end": "00:04:10.600",
+      "start": "00:04:07.333",
+      "text": " Proxies have been removed for good in this release and Blender will do its best to replace"
+    },
+    {
+      "end": "00:04:14.233",
+      "start": "00:04:10.600",
+      "text": " existing proxies with the much more flexible library override."
+    },
+    {
+      "end": "00:04:18.033",
+      "start": "00:04:14.233",
+      "text": " ED saw some minor under the hood changes including plugging and a bump without height is"
+    },
+    {
+      "end": "00:04:19.033",
+      "start": "00:04:18.033",
+      "text": " now optimized."
+    },
+    {
+      "end": "00:04:22.633",
+      "start": "00:04:19.200",
+      "text": " A shader compilation info has been moved to the viewport."
+    },
+    {
+      "end": "00:04:27.067",
+      "start": "00:04:22.633",
+      "text": " Materials using shader to RGB no longer receive screen space reflections or subsurface scattering"
+    },
+    {
+      "end": "00:04:31.500",
+      "start": "00:04:27.067",
+      "text": " effects and displacement bumps now affects image textures box projection mode."
+    },
+    {
+      "end": "00:04:35.133",
+      "start": "00:04:31.500",
+      "text": " Figure under the hood changes for EVR plane for the coming releases so be looking forward"
+    },
+    {
+      "end": "00:04:36.133",
+      "start": "00:04:35.133",
+      "text": " to that."
+    },
+    {
+      "end": "00:04:39.067",
+      "start": "00:04:36.133",
+      "text": " Python exceptions from the tech center are now displayed in the info editor as well as"
+    },
+    {
+      "end": "00:04:42.067",
+      "start": "00:04:39.067",
+      "text": " the usual additions and deprecations in the Python API."
+    },
+    {
+      "end": "00:04:45.933",
+      "start": "00:04:42.067",
+      "text": " These are a bit too technical to list out so check the notes for exact details."
+    },
+    {
+      "end": "00:04:49.467",
+      "start": "00:04:45.933",
+      "text": " As usual there are hundreds of bug fixes, minor features and improvements which of course"
+    },
+    {
+      "end": "00:04:51.533",
+      "start": "00:04:49.467",
+      "text": " can be seen at the link in the description below."
+    },
+    {
+      "end": "00:04:54.700",
+      "start": "00:04:51.533",
+      "text": " If you like what you see go support Blender by joining the development button."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Film & Animation"
+  ],
+  "youtube_channel": "Blender",
+  "youtube_channel_follower_count": 1150000,
+  "youtube_comment_count": 489,
+  "youtube_description": "Read the full list of new features at https://www.blender.org/download/releases/3-2/\n\nSupport the future of Blender: https://fund.blender.org\n\nVideo by @SouthernShotty \n\n--\n\nFollow Blender:\n* Twitter: https://twitter.com/blender\n* Instagram: https://instagram.com/blender.official\n* YouTube: https://youtube.com/BlenderFoundation\n* Facebook: https://facebook.com/YourOwn3DSoftware\n* TikTok: https://www.tiktok.com/@blender_org",
+  "youtube_like_count": 11585,
+  "youtube_tags": [
+    "blender",
+    "b3d",
+    "blender 3d",
+    "2.8",
+    "2.80",
+    "blender 2.8",
+    "blender foundation",
+    "Blender 2.9",
+    "Blender 2.90",
+    "tutorial",
+    "training",
+    "free",
+    "open source",
+    "animation",
+    "grease pencil",
+    "eevee",
+    "3d",
+    "2d"
+  ],
+  "youtube_title": "Blender 3.2 New Features in LESS than Five Minutes",
+  "youtube_upload_date": "20220608",
+  "youtube_view_count": 359509
+}

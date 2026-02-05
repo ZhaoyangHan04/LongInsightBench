@@ -1,0 +1,448 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "narrator",
+        "description": "Male voice-over, not visually present.",
+        "name": "Narrator"
+      },
+      {
+        "characterId": "piers_morgan",
+        "description": "Middle-aged man with short brown hair, wearing a black suit, white shirt, and blue tie. He is seated at a news desk in a studio.",
+        "name": "Piers Morgan"
+      },
+      {
+        "characterId": "mo_gawdat",
+        "description": "Bald, middle-aged black man with glasses and a short beard. He is wearing a black t-shirt. He appears in a video call inside Piers Morgan's show.",
+        "name": "Mo Gawdat"
+      },
+      {
+        "characterId": "stephen_hawking",
+        "description": "Deceased physicist, shown in an archival video clip. He uses a speech synthesizer and is seated in his wheelchair.",
+        "name": "Stephen Hawking"
+      }
+    ],
+    "description": "An interview segment featuring Piers Morgan and Mo Gawdat, discussing the implications of AI development and related concerns.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The video mentions 'hundreds of the biggest names in tech' but doesn't specify them.",
+        "question": "Who, besides Elon Musk, has signed the open letter calling for a pause in AI development?"
+      },
+      {
+        "answer": "The book is called 'Scary Smart.'",
+        "question": "What is the name of the book written by Mo Gawdat about AI?"
+      },
+      {
+        "answer": "He was the Chief Business Officer at Google X.",
+        "question": "Where was Mo Gawdat a Chief Business Officer?"
+      },
+      {
+        "answer": "Stephen Hawking expresses concern about mass unemployment as machines increasingly replace humans in the workforce.",
+        "question": "What is Stephen Hawking's main concern about AI in the clip shown?"
+      },
+      {
+        "answer": "The first scene uses fast-paced cuts, zooms on text, and alarming text overlays in red and yellow to create a sense of urgency and anxiety.",
+        "question": "How does the video visually represent the urgency of the situation in the first scene?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the open letter signed by Elon Musk and others calling for a pause in AI development.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator mentions Mo Gawdat, former Chief Business Officer at Google X, raised the alarm about AI.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.920",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Narrator",
+          "Mo Gawdat"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The use of phrases like 'unstoppable growth' and 'beyond emergency' hints at a potential loss of control and the gravity of the situation.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Anxious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Open letter calling for a pause in AI development is presented.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Mo Gawdat is introduced as an early voice of concern about AI.",
+            "timestamp": "00:00:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Open letter",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technological advancement, potential dangers of AI, urgency for caution.",
+        "timestamps": {
+          "end_timestamp": "00:00:19.920",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to AI Concerns",
+        "videoEditingDetails": [
+          {
+            "description": "Fast-paced cuts and zooms on text.",
+            "timestamps": {
+              "end_timestamp": "00:00:19.920",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlays highlighting key points.",
+            "timestamps": {
+              "end_timestamp": "00:00:19.920",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Upbeat background music.",
+            "timestamps": {
+              "end_timestamp": "00:00:19.920",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Piers Morgan welcomes Mo Gawdat to the show.",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "description": "Piers asks Mo about his time at Google X and his early concerns about AI.",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "description": "Piers asks Mo what specifically concerned him about AI.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:36.000"
+            }
+          },
+          {
+            "description": "Piers mentions Stephen Hawking's warnings about AI and shows a clip.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Stephen Hawking speaks about the fears of mass unemployment due to AI replacing humans.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Piers Morgan",
+          "Mo Gawdat",
+          "Stephen Hawking"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Piers Morgan",
+              "Mo Gawdat"
+            ],
+            "description": "Piers Morgan interviews Mo Gawdat, seeking to understand his viewpoint on the potential dangers of AI."
+          }
+        ],
+        "contextualRelevance": "The inclusion of Stephen Hawking's clip implies that the potential dangers of AI are not new and that even brilliant minds have expressed concerns about it.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Piers Morgan sets the context of Mo Gawdat's involvement in AI development.",
+            "timestamp": "00:00:20.000"
+          },
+          {
+            "description": "The focus shifts to understanding the specific reasons behind Mo Gawdat's early warnings.",
+            "timestamp": "00:00:36.000"
+          },
+          {
+            "description": "Stephen Hawking's past warnings about AI are introduced, highlighting the longstanding nature of these concerns.",
+            "timestamp": "00:00:40.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Piers Morgan's news desk",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "name": "Stephen Hawking archival footage",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Potential threats of AI, ethical responsibility in technological development, long-term consequences of AI.",
+        "timestamps": {
+          "end_timestamp": "00:00:54.440",
+          "start_timestamp": "00:00:19.960"
+        },
+        "title": "Discussion on AI and its Implications",
+        "videoEditingDetails": [
+          {
+            "description": "Slower pace compared to Scene 1, focusing on the dialogue.",
+            "timestamps": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "description": "Cut to Stephen Hawking's clip.",
+            "timestamps": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Text overlay for 'Piers Morgan Uncensored.'",
+            "timestamps": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is spread across the video, with the initial presentation of the open letter in Scene 1 and the shift to a deeper discussion in Scene 2.",
+        "timestamp": "00:00:00.000"
+      },
+      "description": "Concerns about AI development, featuring discussions by experts like Mo Gawdat and archival insights from Stephen Hawking.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "AI Concerns: Piers Morgan Interviews Mo Gawdat",
+    "trimmingSuggestions": [
+      {
+        "description": "The repetitive text overlays in Scene 1 could be reduced to maintain visual interest.",
+        "timestamps": {
+          "end_timestamp": "00:00:20.000",
+          "start_timestamp": "00:00:19.960"
+        }
+      },
+      {
+        "description": "The transition to Stephen Hawking's clip could be made smoother, potentially by having Piers Morgan briefly introduce the context before the clip plays.",
+        "timestamps": {
+          "end_timestamp": "00:00:45.000",
+          "start_timestamp": "00:00:40.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 55,
+  "original_json_filename": "wKNnak2GgoY.json",
+  "original_video_filename": "wKNnak2GgoY.mp4",
+  "resolution": "270x480",
+  "text_to_speech": "it follows an open letter signed by Elon Musk and hundreds of the biggest names in Tech calling for an urgent pause in the development of AI well Mo Gat who's a former Chief business officer at Google X was among the first to raise the alarm he says the situation is beyond emergency Mo author of scary smart which is a scarily smart book by the way joins me now Mo great to see you thank you much you were part of this uh quite secretive Google X Group which I presume you would your job was to think the unthinkable about stuff like AI and you very quickly were out of the traps to warn people look this is serious very what was it that you saw where you thought okay we've got to be really careful now he said well actually let me show you the clip we've got it here I think ever since the start of the Industrial Revolution there have been fears of mass unemployment as machines replaced humans",
+  "text_to_speech_word_count": 175,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:02.040",
+      "start": "00:00:00.000",
+      "text": " as it follows no but another sign by Elon Musk"
+    },
+    {
+      "end": "00:00:03.840",
+      "start": "00:00:02.040",
+      "text": " and hum just the biggest name to tech."
+    },
+    {
+      "end": "00:00:07.080",
+      "start": "00:00:03.840",
+      "text": " Calling for an urgent pause in the development of AI."
+    },
+    {
+      "end": "00:00:09.600",
+      "start": "00:00:07.080",
+      "text": " Well, Mo Gaudat, who's a former chief business officer"
+    },
+    {
+      "end": "00:00:12.400",
+      "start": "00:00:09.600",
+      "text": " at Google X was among the first to raise the alarm."
+    },
+    {
+      "end": "00:00:15.080",
+      "start": "00:00:12.400",
+      "text": " He says the situation is beyond emergency."
+    },
+    {
+      "end": "00:00:18.280",
+      "start": "00:00:15.080",
+      "text": " Mo, author of Scary Smart, which is a scary smart book,"
+    },
+    {
+      "end": "00:00:19.480",
+      "start": "00:00:18.280",
+      "text": " by the way, joins me now."
+    },
+    {
+      "end": "00:00:20.760",
+      "start": "00:00:19.480",
+      "text": " Mo, great to see you."
+    },
+    {
+      "end": "00:00:21.800",
+      "start": "00:00:20.760",
+      "text": " Thank you so much."
+    },
+    {
+      "end": "00:00:25.600",
+      "start": "00:00:21.800",
+      "text": " You were part of this quite secretive Google X group,"
+    },
+    {
+      "end": "00:00:27.520",
+      "start": "00:00:25.600",
+      "text": " which I presume you were your job"
+    },
+    {
+      "end": "00:00:30.480",
+      "start": "00:00:27.520",
+      "text": " to think the other thing about stuff like AI."
+    },
+    {
+      "end": "00:00:33.680",
+      "start": "00:00:30.480",
+      "text": " And you very quickly were out of the traps to warn people."
+    },
+    {
+      "end": "00:00:35.400",
+      "start": "00:00:33.680",
+      "text": " Look, this is serious."
+    },
+    {
+      "end": "00:00:36.400",
+      "start": "00:00:35.400",
+      "text": " Very."
+    },
+    {
+      "end": "00:00:38.760",
+      "start": "00:00:36.400",
+      "text": " What was it that you saw where you thought, OK,"
+    },
+    {
+      "end": "00:00:40.480",
+      "start": "00:00:38.760",
+      "text": " we've got to be really careful now."
+    },
+    {
+      "end": "00:00:41.240",
+      "start": "00:00:40.480",
+      "text": " He said..."
+    },
+    {
+      "end": "00:00:42.240",
+      "start": "00:00:41.240",
+      "text": " I'm going to tell you just..."
+    },
+    {
+      "end": "00:00:43.400",
+      "start": "00:00:42.240",
+      "text": " Well, actually, let me show you the clip."
+    },
+    {
+      "end": "00:00:45.200",
+      "start": "00:00:43.400",
+      "text": " We've got to hear, I think."
+    },
+    {
+      "end": "00:00:48.600",
+      "start": "00:00:45.200",
+      "text": " Ever since the start of the industrial revolution,"
+    },
+    {
+      "end": "00:00:51.720",
+      "start": "00:00:48.600",
+      "text": " there have been fears of mass unemployment"
+    },
+    {
+      "end": "00:00:54.560",
+      "start": "00:00:51.720",
+      "text": " as machines replaced humans."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Personal Growth Hub",
+  "youtube_channel_follower_count": 20,
+  "youtube_comment_count": 0,
+  "youtube_description": "A channel dedicated to personal growth and self-improvement, offering practical tips, advice, and inspiration for individuals seeking to enhance their lives and reach their full potential.\n\n\nMotivation\n Self-improvement\nProductivity\nSuccess\nHabit formation\nMindset\n Overcoming anxiety\n Goal-setting\n Time management\n Personal growth\nConfidence building\n Stress management\nMindfulness\nHappiness\n Leadership development\nCommunication skills\nEmotional intelligence\n Career development\nResilience\n Positive thinking",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "goalsetting",
+    "selfcare",
+    "resilience",
+    "wellness",
+    "mentalhealth",
+    "confidence",
+    "gratitude",
+    "positivity",
+    "mindfulness",
+    "habits",
+    "productivity",
+    "lifegoals",
+    "growthmindset",
+    "successmindset",
+    "mindset",
+    "inspiration",
+    "motivation",
+    "selfimprovement",
+    "personaldevelopment",
+    "selfdevelopment"
+  ],
+  "youtube_title": "Former Google Exec Uncovers Disturbing Truth About AI",
+  "youtube_upload_date": "20231115",
+  "youtube_view_count": 1
+}

@@ -1,0 +1,533 @@
+{
+  "content_fine_category": "Political Interviews",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Man with short, dark hair and a suit. He is on the left side of the screen.",
+        "name": "Interviewer"
+      },
+      {
+        "characterId": "2",
+        "description": "Older man with white hair wearing a suit and a blue tie. He is on the right side of the screen.",
+        "name": "Joe Biden"
+      },
+      {
+        "characterId": "3",
+        "description": "Man with short, dark hair, wearing a suit and a blue tie. He appears briefly walking down a hallway.",
+        "name": "Michael Flynn"
+      },
+      {
+        "characterId": "4",
+        "description": "Man with white hair wearing a suit and a red tie. He appears briefly sitting at a desk.",
+        "name": "Mike Pence"
+      },
+      {
+        "characterId": "5",
+        "description": "Man with short, dark hair and a beard, wearing a suit and a blue tie. He appears briefly speaking at a podium.",
+        "name": "Sean Spicer"
+      }
+    ],
+    "description": "A detailed analysis of a video interview involving Joe Biden and an interviewer, focusing on the investigation of Michael Flynn.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "He is wearing a suit and a blue tie.",
+        "question": "What is Michael Flynn wearing when he is shown walking down a hallway?"
+      },
+      {
+        "answer": "He is wearing a red tie.",
+        "question": "What color tie is Mike Pence wearing when he is shown sitting at a desk?"
+      },
+      {
+        "answer": "He is speaking at a podium, likely addressing the press.",
+        "question": "What is Sean Spicer doing when he is shown on the screen?"
+      },
+      {
+        "answer": "He repeatedly claims that the entire issue is a diversion tactic to distract from more pressing matters.",
+        "question": "What is Joe Biden's primary defense against the interviewer's allegations?"
+      },
+      {
+        "answer": "The video begins with a neutral tone of inquiry but transitions into frustration and anxiety as the interviewer presses Joe Biden on his involvement. The conclusion leaves a sense of confusion and unanswered questions.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Interviewer asking questions, Joe Biden listening and responding.",
+            "timestamp": {
+              "end_timestamp": "00:00:03.003",
+              "start_timestamp": "00:00:01.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Interviewer",
+          "Joe Biden"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Interviewer",
+              "Joe Biden"
+            ],
+            "description": "The interviewer is pressing Joe Biden for information while Joe Biden is evasive in his answers."
+          }
+        ],
+        "contextualRelevance": "The repetition of 'Diversion' underscores Biden's strategy to avoid direct answers.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Curious/Indifferent) transitioning to Negative (Angry).",
+          "keyMoments": [
+            {
+              "changeDescription": "Mood shift from Neutral to Negative as interviewer's questioning intensifies.",
+              "timestamp": "00:00:33.100"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The interviewer asks Joe Biden about his involvement in the investigation of Michael Flynn.",
+            "timestamp": "00:00:01.001"
+          },
+          {
+            "description": "Joe Biden denies any involvement in the investigation.",
+            "timestamp": "00:00:30.998"
+          }
+        ],
+        "props": [
+          {
+            "name": "Bookcase behind Joe Biden",
+            "timestamp": {
+              "end_timestamp": "00:00:03.003",
+              "start_timestamp": "00:00:02.002"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Political investigation, accountability, denial.",
+        "timestamps": {
+          "end_timestamp": "00:00:33.100",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Initial Questioning",
+        "videoEditingDetails": [
+          {
+            "description": "Split-screen showing the interviewer on the left and Joe Biden on the right.",
+            "timestamps": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:01.001"
+            }
+          },
+          {
+            "description": "A brief clip of Michael Flynn walking is inserted.",
+            "timestamps": {
+              "end_timestamp": "00:00:33.100",
+              "start_timestamp": "00:00:33.100"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Interviewer asking questions, Joe Biden responding, Mike Pence listening.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:35.002"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Interviewer",
+          "Joe Biden",
+          "Mike Pence"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Interviewer",
+              "Joe Biden"
+            ],
+            "description": "The interviewer persists in questioning while Joe Biden is dismissive and frustrated."
+          }
+        ],
+        "contextualRelevance": "Mike Pence's presence hints at internal political dynamics.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Negative (Angry/Anxious)",
+          "keyMoments": [
+            {
+              "changeDescription": "Joe Biden's tone grows more agitated as he repeats 'Diversion'.",
+              "timestamp": "00:00:42.009"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Joe Biden continues to deny any knowledge of the investigation into Michael Flynn, attributing to diversion tactics.",
+            "timestamp": "00:00:36.003"
+          }
+        ],
+        "props": [
+          {
+            "name": "Bookcase behind Joe Biden",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "name": "Desk where Mike Pence is sitting",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:42.009"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Political maneuvering, deflection, frustration.",
+        "timestamps": {
+          "end_timestamp": "00:01:02.396",
+          "start_timestamp": "00:00:33.133"
+        },
+        "title": "Heightened Tension",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen, with Joe Biden on the right and a clip of Mike Pence at a desk on the left.",
+            "timestamps": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:42.009"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Interviewer asking questions, Joe Biden responding, Sean Spicer speaking at a podium.",
+            "timestamp": {
+              "end_timestamp": "00:01:32.993",
+              "start_timestamp": "00:01:09.002"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Interviewer",
+          "Joe Biden",
+          "Sean Spicer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Interviewer",
+              "Joe Biden"
+            ],
+            "description": "The interviewer challenges Biden's statements, and Biden tries to clarify his position."
+          }
+        ],
+        "contextualRelevance": "Sean Spicer's inclusion signifies narrative control on political issues.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Confused/Pensive)",
+          "keyMoments": [
+            {
+              "changeDescription": "Biden admits knowing about an investigation, creating confusion over previous denials.",
+              "timestamp": "00:01:25.986"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The interviewer presses Biden on his presence at a meeting concerning Flynn.",
+            "timestamp": "00:01:09.002"
+          },
+          {
+            "description": "Biden claims awareness of a request for investigation, but denies further involvement.",
+            "timestamp": "00:01:25.986"
+          }
+        ],
+        "props": [
+          {
+            "name": "Bookcase behind Joe Biden",
+            "timestamp": {
+              "end_timestamp": "00:01:32.993",
+              "start_timestamp": "00:01:09.002"
+            }
+          },
+          {
+            "name": "Podium where Sean Spicer is speaking.",
+            "timestamp": {
+              "end_timestamp": "00:01:32.993",
+              "start_timestamp": "00:01:28.989"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Political strategy, ambiguity, memory.",
+        "timestamps": {
+          "end_timestamp": "00:02:12.299",
+          "start_timestamp": "00:01:02.429"
+        },
+        "title": "Clarification and Confusion",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen with Joe Biden on the right and Sean Spicer speaking at a podium on the left.",
+            "timestamps": {
+              "end_timestamp": "00:01:32.993",
+              "start_timestamp": "00:01:28.989"
+            }
+          },
+          {
+            "description": "Fade to black at the end of the scene.",
+            "timestamps": {
+              "end_timestamp": "00:01:32.993",
+              "start_timestamp": "00:01:32.993"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The disclosure of a meeting where Biden was reportedly briefed about Flynn, heightening the interview's tension.",
+        "timestamp": "00:01:09.002"
+      },
+      "description": "A critical exploration of Joe Biden's responses to questions about the Michael Flynn investigation.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Interview Analysis featuring Joe Biden",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten repetition of 'This is all about diversion' to sustain engagement.",
+        "timestamps": {
+          "end_timestamp": "00:01:02.429",
+          "start_timestamp": "00:01:02.429"
+        }
+      },
+      {
+        "description": "Trim Biden's comments on the President's actions to maintain focus on Flynn investigation.",
+        "timestamps": {
+          "end_timestamp": "00:01:02.429",
+          "start_timestamp": "00:01:02.429"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "News & Politics",
+  "duration_seconds": 132,
+  "original_json_filename": "n-YHfK1iN3M.json",
+  "original_video_filename": "n-YHfK1iN3M.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "I do want to ask you about Michael Flynn the former national security adviser to President Trump and the move by the just front last week to dismiss the case against him for lying to the FBI the president said yesterday there that move is justified because President Obama targeted Flynn he called it quote the biggest political crime in US history your former Senate colleague Charles Grassley is out of it Flynn was entrapped and asked on the Senate floor what did Obama and Biden know when did they know it so what did you know about those moves to investigate Michael Flynn and was there anything improper done I know nothing about those moves to investigate number one number two this is all about diversion this is all about diversion this is all about diversion you say you didn't know anything about it but you were reported to be in at January 5th 2017 meeting where you and the president were briefed on the FBI's plan to question Michael Michael Flynn over those conversations he had with the Russian ambassador kiss lyac no I thought you asked me whether or not I had anything to do with him being prosecuted okay I'm sorry I was aware that there was that there they asked for an investigation but that's all I know about it and I don't think anything else look so what did you know about those moves to investigate Michael Flint I know nothing about those moves to investigate Michael Flynn number one number two press that you say you didn't know anything about it but you were reported to be in at January 5th 2017 meeting no I thought you asked me whether or not I had anything to do with him being prosecuted okay I'm sorry I was aware that there was that there they had asked for an investigation but that's all I know about it and I don't think anything else look I think I know nothing about those moves to investigate Michael Flynn number one no I thought you asked me whether or not I had anything to do with him being prosecuted okay I'm sorry ah",
+  "text_to_speech_word_count": 365,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:02.769",
+      "start": "00:00:00.000",
+      "text": " I do want to ask you about Michael Flynn, the former National Security"
+    },
+    {
+      "end": "00:00:05.672",
+      "start": "00:00:02.769",
+      "text": " Advisor to President Trump, and the move by the Justice Department last week to"
+    },
+    {
+      "end": "00:00:10.377",
+      "start": "00:00:05.672",
+      "text": " dismiss the case against him for lying to the FBI. The president said yesterday"
+    },
+    {
+      "end": "00:00:14.147",
+      "start": "00:00:10.377",
+      "text": " that that move is justified because President Obama targeted Flynn. He called it"
+    },
+    {
+      "end": "00:00:18.552",
+      "start": "00:00:14.147",
+      "text": " quote, the biggest political crime in US history. Your former Senate colleague"
+    },
+    {
+      "end": "00:00:21.822",
+      "start": "00:00:18.552",
+      "text": " Charles Grassley is out of that Flynn was entrapped and asked on the"
+    },
+    {
+      "end": "00:00:26.159",
+      "start": "00:00:21.822",
+      "text": " Senate floor, what did Obama and Biden know when did they know it? So what"
+    },
+    {
+      "end": "00:00:30.230",
+      "start": "00:00:26.159",
+      "text": " did you know about those moves to investigate Michael Flynn and was there"
+    },
+    {
+      "end": "00:00:35.035",
+      "start": "00:00:30.230",
+      "text": " anything improper done? I know nothing about those moves to investigate"
+    },
+    {
+      "end": "00:00:39.339",
+      "start": "00:00:35.035",
+      "text": " Michael Flynn number one number two. This is all about diversion. This is all"
+    },
+    {
+      "end": "00:00:43.010",
+      "start": "00:00:39.339",
+      "text": " about diversion. This is all about diversion. This is a game of stuff right all the time."
+    },
+    {
+      "end": "00:00:45.579",
+      "start": "00:00:43.010",
+      "text": " The country is in crisis. We're in economic crisis. How crisis? We're in real trouble."
+    },
+    {
+      "end": "00:00:47.915",
+      "start": "00:00:45.579",
+      "text": " You should stop trying always divert attention from the real concerns of the"
+    },
+    {
+      "end": "00:00:50.050",
+      "start": "00:00:47.915",
+      "text": " American people. The American people are right with good reason. He has"
+    },
+    {
+      "end": "00:00:52.786",
+      "start": "00:00:50.050",
+      "text": " acting irresponsibly from the very beginning. He continues acting responsibly. He"
+    },
+    {
+      "end": "00:00:55.355",
+      "start": "00:00:52.786",
+      "text": " hasn't done his job. This is all about the verdict attention from the"
+    },
+    {
+      "end": "00:00:57.758",
+      "start": "00:00:55.355",
+      "text": " horrible way which he is acting. He's not the, he's not the, we don't have a"
+    },
+    {
+      "end": "00:01:00.127",
+      "start": "00:00:57.758",
+      "text": " kind of eyes because of him. But we have to get a statement that because of his"
+    },
+    {
+      "end": "00:01:02.462",
+      "start": "00:01:00.127",
+      "text": " lack of policy. That is lack of action. I don't like diversion. I don't"
+    },
+    {
+      "end": "00:01:05.499",
+      "start": "00:01:02.462",
+      "text": " press that. You say you didn't know anything about it, but you were reported to be at a"
+    },
+    {
+      "end": "00:01:11.271",
+      "start": "00:01:05.499",
+      "text": " January 5th 2017 meeting where you and the president were briefed on the FBI's"
+    },
+    {
+      "end": "00:01:16.610",
+      "start": "00:01:11.271",
+      "text": " planned a question. Michael Flynn over those conversations he had with the"
+    },
+    {
+      "end": "00:01:21.915",
+      "start": "00:01:16.610",
+      "text": " Russian Ambassador Kislyak. Now I thought you asked me whether or not I had"
+    },
+    {
+      "end": "00:01:27.654",
+      "start": "00:01:21.915",
+      "text": " anything to do with him being prosecuted. I'm sorry. I was aware that there was,"
+    },
+    {
+      "end": "00:01:31.258",
+      "start": "00:01:27.654",
+      "text": " that there, that they asked for an investigation. But that's all I know about it."
+    },
+    {
+      "end": "00:01:36.530",
+      "start": "00:01:31.258",
+      "text": " And I don't think anything else. It's, look. So what did you know about those moves"
+    },
+    {
+      "end": "00:01:41.335",
+      "start": "00:01:36.530",
+      "text": " to investigate Michael Flynn? I know nothing about those moves to investigate"
+    },
+    {
+      "end": "00:01:44.705",
+      "start": "00:01:41.335",
+      "text": " Michael Flynn number one. Number one. You said you didn't know anything about it,"
+    },
+    {
+      "end": "00:01:48.542",
+      "start": "00:01:44.705",
+      "text": " but you were reported to be at a January 5th 2017 meeting."
+    },
+    {
+      "end": "00:01:52.713",
+      "start": "00:01:48.542",
+      "text": " Now I thought you asked me whether or not I had anything to do with him being prosecuted."
+    },
+    {
+      "end": "00:01:57.651",
+      "start": "00:01:52.713",
+      "text": " Okay. I'm sorry. I was aware that there was, that there, that they asked for an"
+    },
+    {
+      "end": "00:02:01.588",
+      "start": "00:01:57.651",
+      "text": " investigation. But that's all I know about it. And I don't think anything else. Look,"
+    },
+    {
+      "end": "00:02:05.892",
+      "start": "00:02:02.389",
+      "text": " I know nothing about those moves to investigate Michael Flynn number one."
+    },
+    {
+      "end": "00:02:10.063",
+      "start": "00:02:05.892",
+      "text": " Now I thought you asked me whether or not I had anything to do with him being prosecuted."
+    },
+    {
+      "end": "00:02:11.665",
+      "start": "00:02:10.063",
+      "text": " Okay. I'm sorry."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "cLAW🔧",
+  "youtube_channel_follower_count": 488,
+  "youtube_comment_count": 5,
+  "youtube_description": "Joe Biden Interview with George Snuffleupagus about his knowledge of President Obama's investigation into Michael Flynn during the President Elect Trump Transition.\nBiden for president!\ngeorge stephanopoulos inteview",
+  "youtube_like_count": 4,
+  "youtube_tags": [
+    "nasa",
+    "science",
+    "flat earth",
+    "photography",
+    "time lapse",
+    "iis",
+    "international space station",
+    "bible",
+    "christiantiy"
+  ],
+  "youtube_title": "Joe Biden reacts to questions about Michael Flynn",
+  "youtube_upload_date": "20200516",
+  "youtube_view_count": 196
+}

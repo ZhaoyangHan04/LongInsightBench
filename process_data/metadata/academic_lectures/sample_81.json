@@ -1,0 +1,570 @@
+{
+  "content_fine_category": "Academic Lectures",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A woman with white blond hair wearing a white shirt with black polka dots",
+        "name": "Professor"
+      }
+    ],
+    "description": "A lecture on maximum likelihood estimation and its mathematical concepts.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The symbol used to represent the unknown parameter is theta (θ).",
+        "question": "What is the symbol used to represent the unknown parameter in maximum likelihood estimation?"
+      },
+      {
+        "answer": "Once the data is collected, it becomes fixed and known. In maximum likelihood estimation, we're interested in finding the value of the parameter that best explains this observed data.",
+        "question": "Why is the data considered constant in maximum likelihood estimation?"
+      },
+      {
+        "answer": "The likelihood function measures the plausibility of different values of the parameter theta, given the observed data. It tells us how likely it is that we would have observed the data if theta had a particular value.",
+        "question": "What does the likelihood function measure?"
+      },
+      {
+        "answer": "The log likelihood function is easier to work with mathematically, especially when taking derivatives. Because the logarithm is a monotone function, maximizing the log likelihood is equivalent to maximizing the likelihood.",
+        "question": "Why is the log likelihood function often used instead of the likelihood function?"
+      },
+      {
+        "answer": "Calculus is used to find the value of theta that maximizes the likelihood function (or log likelihood function). We take the derivative of the function with respect to theta, set it equal to zero, and solve for theta. Then we use the second derivative to ensure that this value is indeed a maximum point.",
+        "question": "How is calculus used to find the maximum likelihood estimator?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explaining mathematical concepts related to maximum likelihood",
+            "timestamp": {
+              "end_timestamp": "00:00:00.067",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Writing on a blackboard",
+            "timestamp": {
+              "end_timestamp": "00:00:01.100",
+              "start_timestamp": "00:00:00.067"
+            }
+          },
+          {
+            "description": "Walking",
+            "timestamp": {
+              "end_timestamp": "00:00:00.067",
+              "start_timestamp": "00:00:00.067"
+            }
+          },
+          {
+            "description": "Talking",
+            "timestamp": {
+              "end_timestamp": "00:00:01.100",
+              "start_timestamp": "00:00:00.067"
+            }
+          },
+          {
+            "description": "Drawing a graph on the blackboard",
+            "timestamp": {
+              "end_timestamp": "00:00:02.133",
+              "start_timestamp": "00:00:01.100"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The deeper meaning highlights the distinction between probability and statistics and the utility of log transformation.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The professor introduces the concept of maximum likelihood and parameter theta.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The professor discusses data collection and random samples.",
+            "timestamp": "00:00:00.167"
+          },
+          {
+            "description": "The transition from probability to mathematical statistics is emphasized.",
+            "timestamp": "00:00:00.400"
+          },
+          {
+            "description": "The professor defines a likelihood function and its purpose.",
+            "timestamp": "00:00:01.100"
+          },
+          {
+            "description": "The formula for calculating the likelihood function is presented.",
+            "timestamp": "00:00:02.133"
+          },
+          {
+            "description": "The concept of the maximum likelihood estimator (MLE) is introduced.",
+            "timestamp": "00:00:03.400"
+          },
+          {
+            "description": "The professor explains the use of log likelihood.",
+            "timestamp": "00:00:05.200"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blackboard",
+            "timestamp": {
+              "end_timestamp": "00:00:06.300",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Marker",
+            "timestamp": {
+              "end_timestamp": "00:00:02.133",
+              "start_timestamp": "00:00:00.067"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Maximum Likelihood Estimation, Statistical Inference, Calculus in Statistics",
+        "timestamps": {
+          "end_timestamp": "00:06:32.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Maximum Likelihood",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The concept of the maximum likelihood estimator (MLE) is introduced.",
+        "timestamp": "00:00:03.567"
+      },
+      "description": "The lecture progresses through explaining maximum likelihood estimation with the climax at the introduction of the MLE.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Maximum Likelihood Estimation Lecture",
+    "trimmingSuggestions": []
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 392,
+  "original_json_filename": "93fPFOf547Q.json",
+  "original_video_filename": "93fPFOf547Q.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "to start off with maximum likelihood we first need to think about our parameter Theta so this is a parameter that's unknown and we're trying to figure stuff out about it so even though Theta is unknown what we could do is go out into the world and collect some data so we would collect X1 through xn so n measurements and if they're independent and identically distributed then we'd have a random sample so we have X1 through xn that's a random sample of size n from our pmf or PDF F ofx given Theta all right so now we've collected our data we need to think of that data as constant there's no more variability anymore now we're in math stat world where our data are collected and they're constant so we have this independent identically distributed set of data and now we're trying to figure out what is a good value for us to Guess that Theta would be um a likely a good answer would be well what is the most likely value that Theta could be given the data that we have observed so we need to define something called a likelihood function and this is just a function of our parameter given the data that we've observed so we holding constant X1 through xn and now we're seeing if we plug in different values of theta what likelihood do we get out so maybe we could plot it and our likelihood function might look something like that so if we had a value of theta like here then our likelihood would be this so maybe that looks pretty high in comparison to this value of theta which gives a pretty low likelihood so the higher the likelihood is the more likely that parameter value is given the data that we have observed all right so now we have an idea of what that likelihood function is how do we actually get that likelihood function so our likelihood function is just the joint pmf or PDF of our random sample so we have X1 through xn given Theta but we know that they're independent so we can split this up into the product of univariant okay so most of the time we can just write it like this so it's just the product of each of these univariate pmf or PDFs okay so again we in Mass stat world are thinking of the data as fixed and we're looking at different VAR different values of theta but to get our joint pmf or PDF we write down the product of univariant PDFs and of course these PDFs are given Theta plug in different values of X so it's a function of X with the value of theta held constant okay so here's our likelihood function again it's a function of theta given the data Health constant so if we look back to this little picture of our likelihood function a logical thing to do would be follow this uphill and try to find the most likely value of theta so we're wondering what is this value here of theta that maximizes the likelihood function so that value that maximizer is called the maximum likelihood estimator and we write mle for short all right so our maximum likelihood estimator again is the value of theta that maximizes the likelihood function all right so if we have some experiences calculus and if this likelihood function is pretty nice then we can just go ahead and use calculus to you know take derivatives and find the maximizer um for the stuff that we're doing in this class it will be usually pretty much that simple as just using calculus there are cases where it is harder to find the maximizer um but we'll either save that for later or not talk about it at all okay so we're looking for this maximum likelihood estimator and that's again the maximizer of our likelihood function and remember that um log is a monotone function so lots of times actually we'll be talking about the log likelihood and that's just the log of the likelihood function and in this class whenever we're talking about log we always mean natural log so we're using this um log likelihood because it's a monotone function so if we're maximizing the log likelihood that's the same thing as maximizing the likelihood and it's just a lot easier to use log because remember if we're taking the log [Music] of a product that's just the sum of the logs so it's a lot easier to take the derivative of a sum than it is to take the derivative of a product like this so most of the time we want to write down the likelihood then take the log and then we can take our first derivative set that equal to zero find that maximizer and then take the second derivative to make sure that we actually have a maximizer not a minimizer",
+  "text_to_speech_word_count": 837,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.600",
+      "start": "00:00:00.000",
+      "text": " To start off with maximum likelihood, we first need to think about our parameter theta."
+    },
+    {
+      "end": "00:00:12.533",
+      "start": "00:00:07.600",
+      "text": " So this is a parameter that's unknown and we're trying to figure stuff out about it."
+    },
+    {
+      "end": "00:00:16.733",
+      "start": "00:00:12.533",
+      "text": " So even though theta is unknown, what we could do is go out into the world and collect"
+    },
+    {
+      "end": "00:00:17.833",
+      "start": "00:00:16.733",
+      "text": " some data."
+    },
+    {
+      "end": "00:00:22.600",
+      "start": "00:00:17.833",
+      "text": " So we would collect x1 through xn, so n measurements."
+    },
+    {
+      "end": "00:00:27.600",
+      "start": "00:00:22.600",
+      "text": " And if they're independent and identically distributed, then we'd have a random sample."
+    },
+    {
+      "end": "00:00:35.467",
+      "start": "00:00:27.600",
+      "text": " So we have x1 through xn, that's a random sample of size n from our PMF or PDF, f of x given"
+    },
+    {
+      "end": "00:00:37.467",
+      "start": "00:00:35.467",
+      "text": " theta."
+    },
+    {
+      "end": "00:00:40.067",
+      "start": "00:00:37.467",
+      "text": " All right, so now we've collected our data."
+    },
+    {
+      "end": "00:00:42.433",
+      "start": "00:00:40.067",
+      "text": " We need to think of that data as constant."
+    },
+    {
+      "end": "00:00:44.133",
+      "start": "00:00:42.433",
+      "text": " There's no more variability anymore."
+    },
+    {
+      "end": "00:00:48.633",
+      "start": "00:00:44.133",
+      "text": " Now we're in math stat world where our data are collected and they're constant."
+    },
+    {
+      "end": "00:00:52.100",
+      "start": "00:00:48.633",
+      "text": " So we have this independent identically distributed set of data."
+    },
+    {
+      "end": "00:00:56.667",
+      "start": "00:00:52.100",
+      "text": " And now we're trying to figure out what is a good value for us to guess that theta would"
+    },
+    {
+      "end": "00:00:58.667",
+      "start": "00:00:56.667",
+      "text": " be."
+    },
+    {
+      "end": "00:01:06.667",
+      "start": "00:00:58.667",
+      "text": " A good answer would be, well, what is the most likely value that theta could be given"
+    },
+    {
+      "end": "00:01:09.067",
+      "start": "00:01:06.667",
+      "text": " the data that we have observed?"
+    },
+    {
+      "end": "00:01:16.000",
+      "start": "00:01:09.067",
+      "text": " So we need to find something called a likelihood function."
+    },
+    {
+      "end": "00:01:25.100",
+      "start": "00:01:16.000",
+      "text": " And this is just a function of our parameter given the data that we've observed."
+    },
+    {
+      "end": "00:01:28.067",
+      "start": "00:01:25.100",
+      "text": " So we're holding constant x1 through xn."
+    },
+    {
+      "end": "00:01:33.500",
+      "start": "00:01:28.067",
+      "text": " And now we're seeing if we plug in different values of theta, what likelihood do we get"
+    },
+    {
+      "end": "00:01:34.500",
+      "start": "00:01:33.500",
+      "text": " out?"
+    },
+    {
+      "end": "00:01:40.700",
+      "start": "00:01:34.500",
+      "text": " So maybe we could plot it and our likelihood function might look something like that."
+    },
+    {
+      "end": "00:01:50.433",
+      "start": "00:01:40.700",
+      "text": " So if we had a value of theta like here, then our likelihood would be this."
+    },
+    {
+      "end": "00:01:55.533",
+      "start": "00:01:50.433",
+      "text": " So maybe that looks pretty high in comparison to this value of theta, which gives a pretty"
+    },
+    {
+      "end": "00:01:57.067",
+      "start": "00:01:55.533",
+      "text": " low likelihood."
+    },
+    {
+      "end": "00:02:04.233",
+      "start": "00:01:57.067",
+      "text": " So the higher the likelihood is, the more likely that parameter value is given the data"
+    },
+    {
+      "end": "00:02:05.933",
+      "start": "00:02:04.233",
+      "text": " that we have observed."
+    },
+    {
+      "end": "00:02:07.133",
+      "start": "00:02:05.933",
+      "text": " All right."
+    },
+    {
+      "end": "00:02:10.267",
+      "start": "00:02:07.133",
+      "text": " So now we have an idea of what that likelihood function is."
+    },
+    {
+      "end": "00:02:13.400",
+      "start": "00:02:10.267",
+      "text": " How do we actually get that likelihood function?"
+    },
+    {
+      "end": "00:02:23.400",
+      "start": "00:02:13.400",
+      "text": " So our likelihood function is just the joint PMF or PDF of our random sample."
+    },
+    {
+      "end": "00:02:29.067",
+      "start": "00:02:23.400",
+      "text": " So we have x1 through xn given theta."
+    },
+    {
+      "end": "00:02:34.600",
+      "start": "00:02:29.067",
+      "text": " But we know that they're independent so we can split this up into the product of univariate."
+    },
+    {
+      "end": "00:02:35.600",
+      "start": "00:02:34.600",
+      "text": " Okay."
+    },
+    {
+      "end": "00:02:52.833",
+      "start": "00:02:35.600",
+      "text": " So, most of the time we can just write it like this."
+    },
+    {
+      "end": "00:02:58.633",
+      "start": "00:02:52.833",
+      "text": " So it's just the product of each of these univariate PMF or PDFs."
+    },
+    {
+      "end": "00:02:59.633",
+      "start": "00:02:58.633",
+      "text": " Okay."
+    },
+    {
+      "end": "00:03:06.100",
+      "start": "00:02:59.633",
+      "text": " So again, we in math stat world are thinking of the data as fixed and we're looking at"
+    },
+    {
+      "end": "00:03:09.667",
+      "start": "00:03:06.100",
+      "text": " different very different values of theta."
+    },
+    {
+      "end": "00:03:16.433",
+      "start": "00:03:09.667",
+      "text": " But to get our joint PMF or PDF, we write down the product of univariate PDFs."
+    },
+    {
+      "end": "00:03:21.767",
+      "start": "00:03:16.433",
+      "text": " And of course, these PDFs are given theta plug in different values of x."
+    },
+    {
+      "end": "00:03:26.767",
+      "start": "00:03:21.767",
+      "text": " So it's a function of x with the value of theta held constant."
+    },
+    {
+      "end": "00:03:27.767",
+      "start": "00:03:26.767",
+      "text": " Okay."
+    },
+    {
+      "end": "00:03:29.100",
+      "start": "00:03:27.800",
+      "text": " Here's our likelihood function."
+    },
+    {
+      "end": "00:03:35.700",
+      "start": "00:03:29.100",
+      "text": " Again, it's a function of theta given the data held constant."
+    },
+    {
+      "end": "00:03:40.633",
+      "start": "00:03:35.700",
+      "text": " So if we look back to this little picture of our likelihood function, a logical thing"
+    },
+    {
+      "end": "00:03:47.033",
+      "start": "00:03:40.633",
+      "text": " to do would be follow this uphill and try to find the most likely value of theta."
+    },
+    {
+      "end": "00:03:53.600",
+      "start": "00:03:47.033",
+      "text": " So we're wondering, what is this value here of theta that maximizes the likelihood function?"
+    },
+    {
+      "end": "00:04:10.033",
+      "start": "00:03:53.600",
+      "text": " So that value, that maximizer is called the maximum likelihood estimator."
+    },
+    {
+      "end": "00:04:12.867",
+      "start": "00:04:10.033",
+      "text": " And we write mLE for short."
+    },
+    {
+      "end": "00:04:13.867",
+      "start": "00:04:12.867",
+      "text": " All right."
+    },
+    {
+      "end": "00:04:19.367",
+      "start": "00:04:13.867",
+      "text": " So our maximum likelihood estimator again is the value of theta that maximizes the likelihood"
+    },
+    {
+      "end": "00:04:22.367",
+      "start": "00:04:19.367",
+      "text": " function."
+    },
+    {
+      "end": "00:04:29.367",
+      "start": "00:04:22.367",
+      "text": " All right."
+    },
+    {
+      "end": "00:04:42.500",
+      "start": "00:04:29.367",
+      "text": " So if we have some experiences calculus and if this likelihood function is pretty nice,"
+    },
+    {
+      "end": "00:04:50.067",
+      "start": "00:04:42.500",
+      "text": " then we can just go ahead and use calculus to take derivatives and find the maximizer."
+    },
+    {
+      "end": "00:04:53.200",
+      "start": "00:04:50.067",
+      "text": " For the stuff that we're doing in this class, it will be usually pretty much that simple"
+    },
+    {
+      "end": "00:04:54.867",
+      "start": "00:04:53.200",
+      "text": " as just using calculus."
+    },
+    {
+      "end": "00:05:00.133",
+      "start": "00:04:54.867",
+      "text": " There are cases where it is harder to find the maximizer, but we'll either save that"
+    },
+    {
+      "end": "00:05:03.100",
+      "start": "00:05:00.133",
+      "text": " for later or not talk about it at all."
+    },
+    {
+      "end": "00:05:04.100",
+      "start": "00:05:03.100",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:10.067",
+      "start": "00:05:04.100",
+      "text": " So we're looking for this maximum likelihood estimator and that's again the maximizer of our"
+    },
+    {
+      "end": "00:05:11.067",
+      "start": "00:05:10.067",
+      "text": " likelihood function."
+    },
+    {
+      "end": "00:05:16.633",
+      "start": "00:05:11.067",
+      "text": " And remember that log is a monotone function."
+    },
+    {
+      "end": "00:05:25.033",
+      "start": "00:05:16.633",
+      "text": " And a lot of times actually we'll be talking about the log likelihood."
+    },
+    {
+      "end": "00:05:31.200",
+      "start": "00:05:25.033",
+      "text": " And that's just the log of the likelihood function."
+    },
+    {
+      "end": "00:05:36.400",
+      "start": "00:05:31.200",
+      "text": " And in this class, whenever we're talking about log, we always mean natural log."
+    },
+    {
+      "end": "00:05:41.000",
+      "start": "00:05:36.400",
+      "text": " So we're using this log likelihood because it's a monotone function."
+    },
+    {
+      "end": "00:05:47.233",
+      "start": "00:05:41.000",
+      "text": " So if we're maximizing the log likelihood, that's the same thing as maximizing the likelihood."
+    },
+    {
+      "end": "00:05:58.333",
+      "start": "00:05:47.233",
+      "text": " And it's just a lot easier to use log because remember if we're taking the log of a product,"
+    },
+    {
+      "end": "00:06:02.033",
+      "start": "00:05:58.333",
+      "text": " that's just the sum of the logs."
+    },
+    {
+      "end": "00:06:08.600",
+      "start": "00:06:02.033",
+      "text": " So it's a lot easier to take the derivative of a sum than is to take the derivative of"
+    },
+    {
+      "end": "00:06:10.000",
+      "start": "00:06:08.600",
+      "text": " a product like this."
+    },
+    {
+      "end": "00:06:14.733",
+      "start": "00:06:10.000",
+      "text": " So the most of the time we want to write down the likelihood, then take the log and then"
+    },
+    {
+      "end": "00:06:20.433",
+      "start": "00:06:14.733",
+      "text": " we can take our first derivative, set that equal to zero, find that maximizer, and then"
+    },
+    {
+      "end": "00:06:25.467",
+      "start": "00:06:20.433",
+      "text": " take the second derivative to make sure that we actually have a maximizer and not a minimizer."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "Christina Knudson",
+  "youtube_channel_follower_count": 23900,
+  "youtube_comment_count": 32,
+  "youtube_description": "Maximum likelihood is a method of point estimation. This video covers the basic idea of ML.",
+  "youtube_like_count": 3465,
+  "youtube_tags": [
+    "statistics",
+    "mathematical statistics",
+    "statistical theory",
+    "maximum likelihood",
+    "likelihood",
+    "MLE",
+    "maximum likelihood estimation",
+    "point estimation"
+  ],
+  "youtube_title": "1. Maximum Likelihood Estimation Basics",
+  "youtube_upload_date": "20170810",
+  "youtube_view_count": 269775
+}

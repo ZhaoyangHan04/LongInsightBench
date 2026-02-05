@@ -1,0 +1,506 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male, wears a purple shirt, glasses, and dark pants. Standing in front of a large touchscreen display.",
+        "name": "Professor"
+      }
+    ],
+    "description": "A mathematical instructional video where a Professor explains the concept of orthogonal projections using an example problem.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "u1 = [1 1 0] and u2 = [1 -1 1].",
+        "question": "What are the two vectors that span the subspace W?"
+      },
+      {
+        "answer": "y = [2 2 6].",
+        "question": "What is the vector y that the Professor is projecting onto W?"
+      },
+      {
+        "answer": "y-hat = [4 0 2].",
+        "question": "What is the final result for y-hat (the projection of y onto W)?"
+      },
+      {
+        "answer": "It shows that y-hat is the closest point in the plane W to the point y, and that the vector z (y - y-hat) is orthogonal to the plane W.",
+        "question": "What does the graphical interpretation of the solution illustrate?"
+      },
+      {
+        "answer": "He checks that y-hat + z equals the original vector y, and he also verifies that y-hat and z are orthogonal by computing their dot product.",
+        "question": "How does the Professor check his results?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Professor introduces the topic, orthogonal projections.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Explains the example problem.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          },
+          {
+            "description": "Solves for y-hat (projection).",
+            "timestamp": {
+              "end_timestamp": "00:01:32.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Solves for z (orthogonal component).",
+            "timestamp": {
+              "end_timestamp": "00:02:09.000",
+              "start_timestamp": "00:01:32.000"
+            }
+          },
+          {
+            "description": "Checks the results.",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:02:09.000"
+            }
+          },
+          {
+            "description": "Provides a graphical interpretation of the solution.",
+            "timestamp": {
+              "end_timestamp": "00:03:44.000",
+              "start_timestamp": "00:02:52.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Professor"
+            ],
+            "description": "The Professor is the only character in the scene, and he interacts directly with the viewers by explaining the mathematical concepts and working through the example."
+          }
+        ],
+        "contextualRelevance": "Focuses on the method to calculate orthogonal projections, providing insights into the mathematical procedure.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "The Professor's calm demeanor and clear explanations create a neutral and curious mood. The lack of visual aids other than the blackboard limits the visual dynamism, but the mathematical content keeps the viewers engaged.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of orthogonal projections.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Example problem presented.",
+            "timestamp": "00:00:17.000"
+          },
+          {
+            "description": "Solution for y-hat obtained.",
+            "timestamp": "00:01:28.000"
+          },
+          {
+            "description": "Solution for z obtained.",
+            "timestamp": "00:01:58.000"
+          },
+          {
+            "description": "Verification of results.",
+            "timestamp": "00:02:09.000"
+          },
+          {
+            "description": "Graphical interpretation of the solution.",
+            "timestamp": "00:02:52.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Touchscreen display with mathematical formulas and a graph.",
+            "timestamp": {
+              "end_timestamp": "00:03:44.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Mathematical concepts of orthogonal projections, vector decomposition, and distance in vector spaces.",
+        "timestamps": {
+          "end_timestamp": "00:03:44.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Orthogonal Projections",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions, effects, or music.",
+            "timestamps": {
+              "end_timestamp": "00:03:44.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The Professor verifies the results of the calculations.",
+        "timestamp": "00:02:09.000"
+      },
+      "description": "This storyline focuses on explaining the concept of orthogonal projections and how to calculate them using an example.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Orthogonal Projections Explained",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial introduction could be shortened.",
+        "timestamps": {
+          "end_timestamp": "00:00:17.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "The 'check' section could be condensed.",
+        "timestamps": {
+          "end_timestamp": "00:02:52.000",
+          "start_timestamp": "00:02:09.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 225,
+  "original_json_filename": "TvsHi0Jdm9Y.json",
+  "original_video_filename": "TvsHi0Jdm9Y.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "the formula to compute my hat looked kind of complicated is it's difficult to work with in an explicit example well only one way to find out let us try so here we have an example w span of two vectors u1 due to explicitly given C u 1 and u 2 are terminal to each other so they from orthogonal basis of W and I have some Y 2 2 6 and then the question is find y hat and find zet so how do we find y hat we have an explicit formula y hat equals projection on u1 plus the projection when you to projection on u 1 u 1 in y equals 2 plus 2 was four over u 1 and u 1 1 plus 1 equals 2 times u 1 1 0 over there and then you to invite 2 minus 2 plus 6 because 6 over u 2n u 2 1 plus 1 plus 1 equal 3 times 1 minus 1 1 so ever to and two over there 2 plus 2 equals 4 2 minus 2 equals 0 and 0 plus 2 equals 2 so there we have our Y hat now that is fine set to we know y equals y hat plus set so that means that the set equals y minus y hat we have already computed my hat you know that so we get 2 - 6 - 4 0 2 it shields minus 2 a 2 and a 4 I remember do not change this into 1 minus 1 1 2 or whatever that's not the same said equals -2 - 4 let's check whether the answer is correct to be completely sure so Y hat placet has to equal Y so let's see Y hat anisette we get a 2 2 2 + 4 equals 6 goes by so that's indeed correct would be very stupid if it would be wrong by the way because we computed set like my mind so I had but okay and then check Y hat in jet has to be 0 have to be orthogonal to each other you get minus 8 plus 0 plus 8 equals 0 so that's fine ok so that's a check how can we use this for example what's the interpretation well interpretation between quotes it's quite hard to draw the plane through u 1 and u 2 correctly so I just pretended it was the XY plane just to make the sketch a bit easier and then the Y is somewhere over there the way I had as the vector in the plane closest to Y to the point P Prime so we can for example use the Y hat to compute a distance from W to I it's the same as the distance from P to P prime which is the same as the length of set Seba we have set the length of set equals 16 + 4 + 4 24 so the distance equals square root of 24 so that's thank you how you can use this",
+  "text_to_speech_word_count": 515,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.520",
+      "start": "00:00:00.000",
+      "text": " The formula to compute via hat looked kind of complicated."
+    },
+    {
+      "end": "00:00:13.320",
+      "start": "00:00:09.520",
+      "text": " Is it difficult to work with in an explicit example?"
+    },
+    {
+      "end": "00:00:18.240",
+      "start": "00:00:13.320",
+      "text": " Well, only one way to find out that is try."
+    },
+    {
+      "end": "00:00:20.560",
+      "start": "00:00:18.240",
+      "text": " So here we have an example."
+    },
+    {
+      "end": "00:00:22.840",
+      "start": "00:00:20.560",
+      "text": " A w span of two vectors."
+    },
+    {
+      "end": "00:00:26.680",
+      "start": "00:00:22.840",
+      "text": " You want a q2 explicitly given."
+    },
+    {
+      "end": "00:00:29.560",
+      "start": "00:00:26.680",
+      "text": " See, you want a u2 or a tonal to each other."
+    },
+    {
+      "end": "00:00:33.120",
+      "start": "00:00:29.560",
+      "text": " So they form an orthogonal basis of w."
+    },
+    {
+      "end": "00:00:35.440",
+      "start": "00:00:33.120",
+      "text": " And I have some y to two six."
+    },
+    {
+      "end": "00:00:39.720",
+      "start": "00:00:35.440",
+      "text": " And then the question is find y hat and find z."
+    },
+    {
+      "end": "00:00:43.120",
+      "start": "00:00:39.720",
+      "text": " So how do we find y hat?"
+    },
+    {
+      "end": "00:00:44.800",
+      "start": "00:00:43.120",
+      "text": " We have an explicit formula."
+    },
+    {
+      "end": "00:00:49.720",
+      "start": "00:00:44.800",
+      "text": " y hat equals projection on u1 plus the projection on u2."
+    },
+    {
+      "end": "00:00:56.120",
+      "start": "00:00:49.720",
+      "text": " Projection on u1, u1 in y equals 2 plus 2 plus 4."
+    },
+    {
+      "end": "00:00:59.080",
+      "start": "00:00:56.120",
+      "text": " Over u1 in u1, 1 plus 1 equals 2."
+    },
+    {
+      "end": "00:01:02.000",
+      "start": "00:00:59.080",
+      "text": " times q1, 1 on 0 over there."
+    },
+    {
+      "end": "00:01:10.840",
+      "start": "00:01:02.000",
+      "text": " And then u2 in y2 minus 2 plus 6 equals 6 over u2 in u2, 1"
+    },
+    {
+      "end": "00:01:15.000",
+      "start": "00:01:10.840",
+      "text": " plus 1 plus 1 equals 3 times 1 minus 1, 1."
+    },
+    {
+      "end": "00:01:24.920",
+      "start": "00:01:15.000",
+      "text": " So we have 2 over there, 2 plus 2 equals 4, 2 minus 2 equals 0."
+    },
+    {
+      "end": "00:01:28.520",
+      "start": "00:01:24.920",
+      "text": " And 0 plus 2 equals 2."
+    },
+    {
+      "end": "00:01:30.800",
+      "start": "00:01:28.520",
+      "text": " So there we have our y hat."
+    },
+    {
+      "end": "00:01:32.280",
+      "start": "00:01:30.800",
+      "text": " Now, let us find z2."
+    },
+    {
+      "end": "00:01:42.160",
+      "start": "00:01:36.440",
+      "text": " We know y equals y hat plus z."
+    },
+    {
+      "end": "00:01:46.160",
+      "start": "00:01:42.160",
+      "text": " So that means that z equals y minus y hat."
+    },
+    {
+      "end": "00:01:48.040",
+      "start": "00:01:46.160",
+      "text": " We have already computed my hat."
+    },
+    {
+      "end": "00:01:49.040",
+      "start": "00:01:48.040",
+      "text": " We know z."
+    },
+    {
+      "end": "00:01:53.080",
+      "start": "00:01:49.040",
+      "text": " So we get 2, 2, 6 minus 4, 0, 2."
+    },
+    {
+      "end": "00:02:00.120",
+      "start": "00:01:53.080",
+      "text": " It shields minus 2, 2, and a 4."
+    },
+    {
+      "end": "00:02:04.800",
+      "start": "00:02:00.120",
+      "text": " I remember, do not changes into 1 minus 1, 1, 2, or whatever."
+    },
+    {
+      "end": "00:02:06.600",
+      "start": "00:02:04.800",
+      "text": " That's not the same."
+    },
+    {
+      "end": "00:02:10.000",
+      "start": "00:02:06.600",
+      "text": " z equals minus 2, 2, 4."
+    },
+    {
+      "end": "00:02:13.400",
+      "start": "00:02:10.000",
+      "text": " Let's check whether the answer is correct to be completely"
+    },
+    {
+      "end": "00:02:13.720",
+      "start": "00:02:13.400",
+      "text": " sure."
+    },
+    {
+      "end": "00:02:18.960",
+      "start": "00:02:16.600",
+      "text": " So y hat plus z has to equal y."
+    },
+    {
+      "end": "00:02:21.680",
+      "start": "00:02:18.960",
+      "text": " So let's see y hat and z."
+    },
+    {
+      "end": "00:02:27.880",
+      "start": "00:02:21.680",
+      "text": " We get 2 plus y equals 6 equals y."
+    },
+    {
+      "end": "00:02:29.800",
+      "start": "00:02:27.880",
+      "text": " So that's indeed correct."
+    },
+    {
+      "end": "00:02:32.480",
+      "start": "00:02:29.800",
+      "text": " But we very stupid if it would be wrong, by the way,"
+    },
+    {
+      "end": "00:02:36.880",
+      "start": "00:02:32.480",
+      "text": " because we computed z like y minus y hat."
+    },
+    {
+      "end": "00:02:41.840",
+      "start": "00:02:36.880",
+      "text": " And then z hat has to be 0, have to be orthogonal to each other."
+    },
+    {
+      "end": "00:02:45.000",
+      "start": "00:02:41.840",
+      "text": " We get minus 8 plus 0 plus 8 equals 0."
+    },
+    {
+      "end": "00:02:46.200",
+      "start": "00:02:45.000",
+      "text": " So that's fine."
+    },
+    {
+      "end": "00:02:47.080",
+      "start": "00:02:46.200",
+      "text": " OK."
+    },
+    {
+      "end": "00:02:49.040",
+      "start": "00:02:47.080",
+      "text": " So let's check."
+    },
+    {
+      "end": "00:02:50.840",
+      "start": "00:02:49.040",
+      "text": " How can we use this, for example?"
+    },
+    {
+      "end": "00:02:54.800",
+      "start": "00:02:50.840",
+      "text": " It's the interpretation."
+    },
+    {
+      "end": "00:02:57.160",
+      "start": "00:02:54.800",
+      "text": " Well, interpretation, between quotes,"
+    },
+    {
+      "end": "00:02:59.480",
+      "start": "00:02:57.160",
+      "text": " it's quite hard to draw the plane through you."
+    },
+    {
+      "end": "00:03:00.520",
+      "start": "00:02:59.480",
+      "text": " One and you two, correct?"
+    },
+    {
+      "end": "00:03:03.120",
+      "start": "00:03:00.520",
+      "text": " These are just pretend that it was the x, y plane,"
+    },
+    {
+      "end": "00:03:05.520",
+      "start": "00:03:03.120",
+      "text": " just to make the sketch a bit easier."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:03:05.520",
+      "text": " And then the y is somewhere over there."
+    },
+    {
+      "end": "00:03:15.280",
+      "start": "00:03:09.000",
+      "text": " The y hat is the factor in the plane closest to y, to 0.p prime."
+    },
+    {
+      "end": "00:03:18.280",
+      "start": "00:03:15.280",
+      "text": " So we can, for example, use the y hat"
+    },
+    {
+      "end": "00:03:21.600",
+      "start": "00:03:18.280",
+      "text": " to compute the distance from w to y."
+    },
+    {
+      "end": "00:03:24.440",
+      "start": "00:03:21.600",
+      "text": " It's the same as the distance from p to p prime,"
+    },
+    {
+      "end": "00:03:27.400",
+      "start": "00:03:24.440",
+      "text": " which is the same as the length of z, c."
+    },
+    {
+      "end": "00:03:32.440",
+      "start": "00:03:27.400",
+      "text": " We have z, the length of z equals 16 plus 4 plus 4, 24."
+    },
+    {
+      "end": "00:03:37.000",
+      "start": "00:03:32.440",
+      "text": " So the distance equals the square root of 24."
+    },
+    {
+      "end": "00:03:39.560",
+      "start": "00:03:37.000",
+      "text": " So that's how you can use this."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "MatheMagician",
+  "youtube_channel_follower_count": 4720,
+  "youtube_comment_count": 5,
+  "youtube_description": "",
+  "youtube_like_count": 18,
+  "youtube_tags": [
+    "orthogonal decomposition",
+    "example",
+    "computation"
+  ],
+  "youtube_title": "Orthogonal decomposition - example",
+  "youtube_upload_date": "20161102",
+  "youtube_view_count": 3931
+}

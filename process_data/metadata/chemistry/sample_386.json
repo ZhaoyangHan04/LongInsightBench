@@ -1,0 +1,783 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A person wearing a white lab coat and purple gloves. They demonstrate the use of the IR machine.",
+        "name": "Scientist"
+      }
+    ],
+    "description": "A step-by-step instructional video on how to use the Bruker Alpha IR machine to obtain and interpret an IR spectrum, focusing on information and procedure.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The sample liquid is dark brown. This is visible in Scene 4 when the Scientist opens the vial and pipettes the sample.",
+        "question": "What color is the sample liquid being analyzed?"
+      },
+      {
+        "answer": "The video mentions running a total of 24 scans.",
+        "question": "How many scans are used to create the final spectrum?"
+      },
+      {
+        "answer": "The x-axis uses 'wavenumber' as the unit, which is expressed in reciprocal centimeters (cm⁻¹).",
+        "question": "What units are used for the x-axis of the IR spectrum?"
+      },
+      {
+        "answer": "The background scan takes an IR signature of the molecules present in the atmosphere. This information is then subtracted from the sample scan, ensuring that the resulting spectrum represents only the sample itself.",
+        "question": "Why is it important to run a background scan before analyzing a sample?"
+      },
+      {
+        "answer": " 'Interactive Peak Picking' allows the user to manually adjust the threshold for identifying peaks, giving them more control over which peaks are labeled on the spectrum. This can be helpful in cases where the automatic peak picking algorithm misses important peaks or labels peaks that are not relevant.",
+        "question": "Why is 'Interactive Peak Picking' useful?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Indifferent (purely informational)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic of the video.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Infrared Spectroscopy.",
+        "timestamps": {
+          "end_timestamp": "00:00:03.036",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with text 'Infrared Spectroscopy using Bruker Alpha', NC State logo, stylized molecule graphic on a red background.",
+            "timestamps": {
+              "end_timestamp": "00:00:03.003",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Scientist points to the IR window.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.991",
+              "start_timestamp": "00:00:22.990"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral - Curious (instructional tone)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the necessity of running a background scan before analyzing a sample.",
+            "timestamp": "00:00:03.070"
+          }
+        ],
+        "props": [
+          {
+            "name": "Bruker Alpha IR machine",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:03.070"
+            }
+          },
+          {
+            "name": "IR window (part of the machine)",
+            "timestamp": {
+              "end_timestamp": "00:00:23.991",
+              "start_timestamp": "00:00:22.990"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Background scans in IR spectroscopy.",
+        "timestamps": {
+          "end_timestamp": "00:00:27.861",
+          "start_timestamp": "00:00:03.070"
+        },
+        "title": "Running the Background",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'BACKGROUND'",
+            "timestamps": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:14.014"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Clicking 'Measurement' button in the software.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.996",
+              "start_timestamp": "00:00:27.995"
+            }
+          },
+          {
+            "description": "Clicking 'Start Background Measurement'",
+            "timestamp": {
+              "end_timestamp": "00:00:36.003",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "description": "Clicking 'Start Sample Measurement'",
+            "timestamp": {
+              "end_timestamp": "00:00:51.985",
+              "start_timestamp": "00:00:50.984"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious (instructional tone continues)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates how to run the background and sample scans using the IR software.",
+            "timestamp": "00:00:27.995"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen showing IR software interface",
+            "timestamp": {
+              "end_timestamp": "00:00:52.986",
+              "start_timestamp": "00:00:27.995"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "IR software usage, background and sample measurements.",
+        "timestamps": {
+          "end_timestamp": "00:00:54.955",
+          "start_timestamp": "00:00:27.895"
+        },
+        "title": "Software Demonstration (Background and Sample)",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Opening a sample vial.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:54.988"
+            }
+          },
+          {
+            "description": "Using a pipette to place a drop of liquid on the IR window.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:54.988"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Emphasizes on wearing gloves when handling samples (safety precaution).",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral - Curious (still instructional)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains and shows how to load a liquid sample onto the IR window.",
+            "timestamp": "00:00:54.988"
+          }
+        ],
+        "props": [
+          {
+            "name": "Vial containing a liquid sample",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:54.988"
+            }
+          },
+          {
+            "name": "Pipette",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:54.988"
+            }
+          },
+          {
+            "name": "IR window (part of the machine)",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:54.988"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Sample preparation for IR analysis.",
+        "timestamps": {
+          "end_timestamp": "00:00:49.850",
+          "start_timestamp": "00:00:54.988"
+        },
+        "title": "Loading the Sample",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'SAMPLE'",
+            "timestamps": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:54.988"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Clicking 'Start Measurement' button.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.990",
+              "start_timestamp": "00:00:55.989"
+            }
+          },
+          {
+            "description": "Changing display from 'Absorbance' to 'Transmittance'.",
+            "timestamp": {
+              "end_timestamp": "00:01:01.995",
+              "start_timestamp": "00:01:00.994"
+            }
+          },
+          {
+            "description": "Adjusting the y-axis using the 'Scale' button.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "description": "Selecting 'Peak Picking' from the 'Evaluate' tab.",
+            "timestamp": {
+              "end_timestamp": "00:01:14.007",
+              "start_timestamp": "00:01:13.006"
+            }
+          },
+          {
+            "description": "Using 'Interactive Peak Picking' for more control.",
+            "timestamp": {
+              "end_timestamp": "00:01:27.988",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "description": "Adjusting the peak picking threshold.",
+            "timestamp": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:01:35.996"
+            }
+          },
+          {
+            "description": "Clicking 'Store' to save the spectrum with labels.",
+            "timestamp": {
+              "end_timestamp": "00:01:44.004",
+              "start_timestamp": "00:01:43.003"
+            }
+          },
+          {
+            "description": "Checking the 'Print' and 'Unload' buttons.",
+            "timestamp": {
+              "end_timestamp": "00:01:47.007",
+              "start_timestamp": "00:01:46.006"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral - Curious (Instructional, but becomes slightly more complex as more features are introduced).",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates how to analyze the IR spectrum using the software, including changing the display, peak picking, and printing.",
+            "timestamp": "00:00:52.986"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen displaying the IR spectrum and software interface",
+            "timestamp": {
+              "end_timestamp": "00:01:48.008",
+              "start_timestamp": "00:00:52.986"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "IR data analysis, peak picking, data interpretation.",
+        "timestamps": {
+          "end_timestamp": "00:01:49.977",
+          "start_timestamp": "00:00:49.883"
+        },
+        "title": "Software Demonstration (Spectrum Analysis)",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'PEAK PICKING'",
+            "timestamps": {
+              "end_timestamp": "00:01:12.005",
+              "start_timestamp": "00:01:11.004"
+            }
+          },
+          {
+            "description": "Text overlay: 'PRINT'",
+            "timestamps": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The printed spectrum comes out of a printer.",
+            "timestamp": {
+              "end_timestamp": "00:01:53.013",
+              "start_timestamp": "00:01:50.010"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.6,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Content (Successful completion of a task).",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The printed spectrum signifies the output of the IR analysis process.",
+            "timestamp": "00:01:50.010"
+          }
+        ],
+        "props": [
+          {
+            "name": "Printer",
+            "timestamp": {
+              "end_timestamp": "00:01:50.010",
+              "start_timestamp": "00:01:50.010"
+            }
+          },
+          {
+            "name": "Printed IR spectrum",
+            "timestamp": {
+              "end_timestamp": "00:01:53.013",
+              "start_timestamp": "00:01:52.012"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Obtaining a tangible representation of the IR data.",
+        "timestamps": {
+          "end_timestamp": "00:01:53.146",
+          "start_timestamp": "00:01:50.010"
+        },
+        "title": "Printing the Spectrum",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Wiping the IR window with a cloth.",
+            "timestamp": {
+              "end_timestamp": "00:01:54.014",
+              "start_timestamp": "00:01:53.180"
+            }
+          },
+          {
+            "description": "Using a wash bottle to rinse the window.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.986",
+              "start_timestamp": "00:01:57.985"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Content (Emphasizes good lab practices).",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlights the importance of cleaning the IR machine after use.",
+            "timestamp": "00:01:53.180"
+          }
+        ],
+        "props": [
+          {
+            "name": "IR machine",
+            "timestamp": {
+              "end_timestamp": "00:01:59.987",
+              "start_timestamp": "00:01:53.180"
+            }
+          },
+          {
+            "name": "Cloth",
+            "timestamp": {
+              "end_timestamp": "00:01:54.014",
+              "start_timestamp": "00:01:53.180"
+            }
+          },
+          {
+            "name": "Wash bottle with cleaning solvent",
+            "timestamp": {
+              "end_timestamp": "00:01:58.986",
+              "start_timestamp": "00:01:57.985"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Laboratory etiquette, instrument maintenance.",
+        "timestamps": {
+          "end_timestamp": "00:02:00.721",
+          "start_timestamp": "00:01:53.180"
+        },
+        "title": "Cleaning the IR Machine",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'CLEAN'",
+            "timestamps": {
+              "end_timestamp": "00:01:54.014",
+              "start_timestamp": "00:01:53.180"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Curious (Instructional, explanatory).",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of how to read and interpret the printed IR spectrum, linking peaks to functional groups.",
+            "timestamp": "00:02:00.754"
+          }
+        ],
+        "props": [
+          {
+            "name": "Printed IR spectrum",
+            "timestamp": {
+              "end_timestamp": "00:02:25.012",
+              "start_timestamp": "00:02:00.754"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "IR data interpretation, identifying functional groups.",
+        "timestamps": {
+          "end_timestamp": "00:02:25.912",
+          "start_timestamp": "00:02:00.754"
+        },
+        "title": "Printed Spectrum Explanation",
+        "videoEditingDetails": [
+          {
+            "description": "Arrows are overlaid on the spectrum pointing to specific parts (y-axis, x-axis, peaks).",
+            "timestamps": {
+              "end_timestamp": "00:02:25.012",
+              "start_timestamp": "00:02:00.754"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Indifferent (purely informational)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Credits for the video creators.",
+            "timestamp": "00:02:26.013"
+          }
+        ],
+        "props": [],
+        "sceneId": 9,
+        "thematicElements": "Acknowledgement of contributors.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.882",
+          "start_timestamp": "00:02:25.946"
+        },
+        "title": "Credits",
+        "videoEditingDetails": [
+          {
+            "description": "White background with text listing students, faculty, and staff involved in the video. NC State logo at the top.",
+            "timestamps": {
+              "end_timestamp": "00:02:28.015",
+              "start_timestamp": "00:02:26.013"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The interpretation of the printed spectrum is the culmination of the process demonstrated throughout the video.",
+        "timestamp": "00:01:59.987"
+      },
+      "description": "How to use the Bruker Alpha IR machine to obtain and interpret an IR spectrum.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "title": "Infrared Spectroscopy",
+    "trimmingSuggestions": [
+      {
+        "description": "The software demonstration for running the background and sample scans could be sped up slightly to reduce the time spent watching the mouse cursor.",
+        "timestamps": {
+          "end_timestamp": "00:02:25.946",
+          "start_timestamp": "00:02:25.946"
+        }
+      },
+      {
+        "description": "The software demonstration of spectrum analysis could also be slightly sped up, especially the parts where the mouse cursor is moving between different menus and buttons.",
+        "timestamps": {
+          "end_timestamp": "00:02:25.946",
+          "start_timestamp": "00:02:25.946"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 149,
+  "original_json_filename": "4IYMNSRCqy0.json",
+  "original_video_filename": "4IYMNSRCqy0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "This video demonstrates the use of Infrared Spectroscopy, also known as IR. IR is used to assist in identifying functional groups in organic molecules. Before you can run an IR spectrum, a background must be run. The background takes an IR signature for the molecules present in the atmosphere. Before you run the background scan, make sure there is no liquid or solid on the IR window. This is how you run the background: Click the “Measurement” button on the left corner of the screen. From there, you have two options. Click “Start Background Measurement” to start the background scan. Once it tells you that it is finished, you can load the sample. To load the sample, place one drop on the window. Note: Always remember to wear gloves. Now you can click “Start Sample Measurement”. If you want it to continue through all twenty four scans, click “Start Measurement” on the bottom left corner of the screen. Once all scans have been completed, change the display from Absorbance to Transmittance using the button on the left. To adjust the y-axis, click the Scale button on the top menu. If you want to do Peak Picking, click the Evaluate tab on the left corner of the screen and click Peak Picking. Peak Peaking shows you the wavenumbers for each peak. If your spectrum does not show all the wavenumbers you want, choose the arrow beside Peak Picking and choose Interactive Peak Picking. In order for it to work, right click somewhere on the spectrum and left click on the cursor so you can change the threshold. If you want to print your spectrum with the labels, click Store. You can now print your spectrum by checking the Print button and clicking Go. The Unload button should also be checked so that the display is cleared for the next person. After you have finished taking your spectrum, remember to properly clean the IR for the next student to use. This is our printed spectrum. The amount of light transmitted is plotted on the y-axis and frequency, in units of cycles, is plotted on the x-axis. The peaks on the spectrum help us to identify the different functional groups in the molecule. Each peak is associated with a different wavenumber. These wavenumbers correspond to the energies needed to stretch and bend the bonds of the molecule in question.",
+  "text_to_speech_word_count": 396,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.976",
+      "start": "00:00:00.000",
+      "text": " This video demonstrates the use of infrared spectroscopy, also known as IR."
+    },
+    {
+      "end": "00:00:13.981",
+      "start": "00:00:08.976",
+      "text": " IR is used to assist in identifying functional groups and organic molecules."
+    },
+    {
+      "end": "00:00:17.985",
+      "start": "00:00:13.981",
+      "text": " Before you can run an IR spectrum, a background must be run."
+    },
+    {
+      "end": "00:00:21.989",
+      "start": "00:00:17.985",
+      "text": " The background takes an IR signature for the molecules present in the atmosphere."
+    },
+    {
+      "end": "00:00:27.995",
+      "start": "00:00:21.989",
+      "text": " Before you run the background scan, make sure there is no liquid or solid on the IR window."
+    },
+    {
+      "end": "00:00:29.997",
+      "start": "00:00:27.995",
+      "text": " This is how you run the background."
+    },
+    {
+      "end": "00:00:33.000",
+      "start": "00:00:29.997",
+      "text": " Click the Measurement button on the left corner of the screen."
+    },
+    {
+      "end": "00:00:34.968",
+      "start": "00:00:33.000",
+      "text": " From there, you have two options."
+    },
+    {
+      "end": "00:00:37.971",
+      "start": "00:00:34.968",
+      "text": " Click Start Background Measurement to start the background scan."
+    },
+    {
+      "end": "00:00:42.976",
+      "start": "00:00:37.971",
+      "text": " Once it tells you that it is finished, you can load the sample."
+    },
+    {
+      "end": "00:00:45.979",
+      "start": "00:00:42.976",
+      "text": " To load the sample, place one drop on the window."
+    },
+    {
+      "end": "00:00:48.982",
+      "start": "00:00:45.979",
+      "text": " Note, always remember to wear gloves."
+    },
+    {
+      "end": "00:00:52.986",
+      "start": "00:00:48.982",
+      "text": " Now you can click Start Sample Measurement."
+    },
+    {
+      "end": "00:00:58.992",
+      "start": "00:00:52.986",
+      "text": " If you wanted to continue through all 24 scans, click Start Measurement on the bottom left corner of the screen."
+    },
+    {
+      "end": "00:01:05.999",
+      "start": "00:00:58.992",
+      "text": " Once all scans have been completed, change the display from Absorbence to Transmense using the button on the left."
+    },
+    {
+      "end": "00:01:10.971",
+      "start": "00:01:05.999",
+      "text": " To adjust the Y-axis, click the Scale button on the top menu."
+    },
+    {
+      "end": "00:01:17.978",
+      "start": "00:01:10.971",
+      "text": " If you want to do peak picking, click the Evaluate tab on the left corner of the screen and click Peak Picking."
+    },
+    {
+      "end": "00:01:21.982",
+      "start": "00:01:17.978",
+      "text": " Peak Picking shows you the wave numbers for each peak."
+    },
+    {
+      "end": "00:01:30.991",
+      "start": "00:01:21.982",
+      "text": " If your spectrum does not show all the wave numbers you want, choose the arrow besides Peak Picking and choose Interactive Peak Picking."
+    },
+    {
+      "end": "00:01:40.000",
+      "start": "00:01:30.991",
+      "text": " In order for it to work, right-click somewhere on the spectrum and left-click on the cursor so you can change the threshold."
+    },
+    {
+      "end": "00:01:43.971",
+      "start": "00:01:40.000",
+      "text": " If you want to print your spectrum with the labels, click Store."
+    },
+    {
+      "end": "00:01:47.975",
+      "start": "00:01:43.971",
+      "text": " You can now print your spectrum by checking the Print button and clicking Go."
+    },
+    {
+      "end": "00:01:52.980",
+      "start": "00:01:47.975",
+      "text": " The Unbottom button should also be checked so that the display is cleared for the next person."
+    },
+    {
+      "end": "00:01:59.987",
+      "start": "00:01:52.980",
+      "text": " After you have finished taking your spectrum, remember to properly clean the IR for the next student to use."
+    },
+    {
+      "end": "00:02:01.989",
+      "start": "00:01:59.987",
+      "text": " This is our printed spectrum."
+    },
+    {
+      "end": "00:02:09.997",
+      "start": "00:02:01.989",
+      "text": " The amount of light transmitted is plotted on the Y-axis and the frequency in units of cycles is plotted on the X-axis."
+    },
+    {
+      "end": "00:02:14.968",
+      "start": "00:02:09.997",
+      "text": " The peaks on the spectrum help us to identify the different functional groups in the molecule."
+    },
+    {
+      "end": "00:02:18.972",
+      "start": "00:02:15.969",
+      "text": " Each peak is associated with a different wave number."
+    },
+    {
+      "end": "00:02:25.979",
+      "start": "00:02:18.972",
+      "text": " These wave numbers correspond to the energies needed to stretch and bend the bonds of the molecule in question."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "NC State Undergraduate Organic Chemistry Teaching Laboratories - S.M.A.R.T. Lab Videos",
+  "youtube_channel_follower_count": 3800,
+  "youtube_comment_count": 0,
+  "youtube_description": "Introduction to basic organic laboratory equipment and techniques.\nhttp://www.ncsu.edu/chemistry/",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "organic chemistry chem university online education nc north carolina ncsu"
+  ],
+  "youtube_title": "Infrared Spectroscopy using Bruker Alpha",
+  "youtube_upload_date": "20160819",
+  "youtube_view_count": 24897
+}

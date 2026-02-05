@@ -1,0 +1,482 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A hand holding a black marker, with its left fingers visible on screen, writing on a white board with black text already written on it. The hand is light-skinned and has hair on its knuckles and fingers. The marker has the text 'Pilot V Board Master' printed on it.",
+        "name": "Daniel Nino"
+      }
+    ],
+    "description": "This video explores the validity of the perturbation series expansion in quantum mechanics, focusing on the convergence of Taylor series expansions of energy eigenvalues.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The video discusses the validity of the perturbation series expansion in quantum mechanics.",
+        "question": "What is the topic of the video?"
+      },
+      {
+        "answer": "The energy scales associated with the perturbation must be much smaller than the energy scales associated with the original Hamiltonian.",
+        "question": "What is the condition for perturbation theory to be valid?"
+      },
+      {
+        "answer": "A two-state quantum mechanical system with a perturbation term.",
+        "question": "What is the specific example discussed in the video?"
+      },
+      {
+        "answer": "The absolute value of the perturbation term divided by the difference in unperturbed energies must be less than 1.",
+        "question": "What is the condition for the Taylor series expansion of the energy eigenvalues to converge?"
+      },
+      {
+        "answer": "The video presents non-narrative information, focusing on explaining concepts related to perturbation theory.",
+        "question": "What type of information is presented in the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Writing",
+            "timestamp": {
+              "end_timestamp": "00:09:31.400",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video focuses on the validity of perturbation theory in quantum mechanics, specifically regarding the convergence of Taylor series expansions of energy eigenvalues.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The hand holding a black marker starts writing on a white board with black text already written on it.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "White board",
+            "timestamp": {
+              "end_timestamp": "00:09:31.400",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:09:31.400",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Quantum mechanics",
+        "timestamps": {
+          "end_timestamp": "00:09:31.400",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Exploration of Perturbation Series",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax of the video is reached at the end of the scene, discussing the condition for the Taylor series expansion of energy eigenvalues to converge.",
+        "timestamp": "00:15:31.000"
+      },
+      "description": "Exploration of the validity of perturbation series expansion in quantum mechanics.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Quantum Mechanics Perturbation Theory",
+    "trimmingSuggestions": [
+      {
+        "description": "The video is already quite concise and focused on explaining the concept. There are no specific segments that stand out as being overly long or repetitive, so trimming may not be necessary.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 571,
+  "original_json_filename": "IoHiYioStqA.json",
+  "original_video_filename": "IoHiYioStqA.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this video i'd like to explore the validity of the perturbation series expansion that we've been using uh to correct for the energy and the state of a model hamiltonian in the presence of a perturbation so intuitively by then the name uh it's clear that perturbation theory should be valid if the energy scales that are associated with our perturbation delta h hat are much smaller than the scales the energy scales associated with our original model hamiltonian it turns out however that this is not a sufficient condition to ensure that our perturbation series expansion that we used in the previous videos is valid and to see that we're going to consider a two-state system a two-state quantum mechanical system with the following hamiltonian this has a part that we know the solution to h naught and a perturbative term knowing the solution of the schrodinger equation for a given hamiltonian is equivalent to having the hamiltonian in a diagonal form when it can be represented by a matrix because this trivially satisfies an eigenvalue equation and then we have our perturbation uh we're going to call the energies bc and they're off diagonal meaning that they're coupling the two levels together and for this to be hermitian for the perturbation hamilton to be hermitian this term has to be equal to the complex conjugate of this term this is because delta h must be hermitian so we can write this out in a single matrix and here e1 0 is the energy of the first state and e2 0 is the energy of the second state and now the perturbation couples them together in some way and what we're interested in then is to find the eigenvalues of this new hamiltonian that's what it means to solve the schrodinger equation right so to solve the time independent shorter equation for example we want to diagonalize this new hamiltonian and to do that we need to find the eigenvalues and eigenvectors we're just going to focus on the eigenvalues of this new hamiltonian these will be given by the following expression it will be a function of lambda you'll get two distinct eigenvalues we'll denote it by e plus and e minus and this will be the new energy of the two levels of our system so this plus or minus differentiates the two energy levels okay so these are the eigenvalues of this new hamiltonian notice that there is no first order term in lambda because there's no diagonal contributions from the perturbation and for future simplicity we're going to call this term that occurs over here and over here we're going to call it delta e naught over two so this is our exact solution to this new uh two level system if we were to think about this in in a perturbation series this that would be equivalent to being able to expand this radical to all orders and that series converging so perturbation theory implies in this case a taylor expansion of these energy eigenvalues converging so we're going to do that we're going to see what condition needs to be satisfied for this taylor series to converge and for that we're going to focus on the reticle which we're going to note by shorthand is 1 plus x squared and this will be some function of x so what we're interested in is the taylor series expansion of this function square root of one plus x squared so the taylor series of that starts with 1 plus x squared over 2 minus x to the 4 over 8 plus x to the 6 over 16 minus infinitely many terms and one of the conditions for this taylor series to expand to all orders so for the taylor series to converge to all orders we need that x or the absolute value of x has to be smaller than one okay put another way if we substitute back in all of our variables this would mean that lambda vc over delta e naught over two has to be smaller than one uh absolute value over here yeah yep or equivalently that the perturbation has to be smaller than the difference of energy between the two states approximately up to a constant factor so what this model showed is that the perturbation not only has to be smaller than the energy associated with the original hamiltonian but the perturbation also has to be smaller than the difference in energies of the original hamiltonian",
+  "text_to_speech_word_count": 759,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.440",
+      "start": "00:00:00.000",
+      "text": " In this video, I'd like to explore the validity of the perturbation series expansion that we've"
+    },
+    {
+      "end": "00:00:15.840",
+      "start": "00:00:06.440",
+      "text": " been using to correct for the energy and the state of a monol Hamiltonian in the presence"
+    },
+    {
+      "end": "00:00:18.400",
+      "start": "00:00:15.840",
+      "text": " of a perturbation."
+    },
+    {
+      "end": "00:00:26.480",
+      "start": "00:00:18.400",
+      "text": " So intuitively by the name, it's clear that perturbation theory should be valid if the energy scales"
+    },
+    {
+      "end": "00:00:33.760",
+      "start": "00:00:26.480",
+      "text": " that are associated with our perturbation delta H hat are much smaller than the scales,"
+    },
+    {
+      "end": "00:00:38.480",
+      "start": "00:00:33.760",
+      "text": " the energy scales associated with our original monol Hamiltonian."
+    },
+    {
+      "end": "00:00:44.920",
+      "start": "00:00:38.480",
+      "text": " It turns out, however, that this is not a sufficient condition to ensure that our perturbation"
+    },
+    {
+      "end": "00:00:51.560",
+      "start": "00:00:44.920",
+      "text": " series expansion that we used in the previous videos is valid."
+    },
+    {
+      "end": "00:01:00.880",
+      "start": "00:00:51.560",
+      "text": " And to see that, we're going to consider a two-state system, a two-state quantum mechanical"
+    },
+    {
+      "end": "00:01:09.960",
+      "start": "00:01:00.880",
+      "text": " system with the following Hamiltonian."
+    },
+    {
+      "end": "00:01:26.160",
+      "start": "00:01:09.920",
+      "text": " This has a part that we know the solution to, H0, and a perturbative term."
+    },
+    {
+      "end": "00:01:33.280",
+      "start": "00:01:26.160",
+      "text": " And knowing the solution of the Schrodinger equation for a given Hamiltonian is equivalent"
+    },
+    {
+      "end": "00:01:43.000",
+      "start": "00:01:33.280",
+      "text": " to having the Hamiltonian in a diagonal form when it can be represented by a matrix, because"
+    },
+    {
+      "end": "00:01:50.840",
+      "start": "00:01:43.000",
+      "text": " this trivially satisfies an eigenvalue equation."
+    },
+    {
+      "end": "00:01:55.000",
+      "start": "00:01:50.840",
+      "text": " And then we have our perturbation."
+    },
+    {
+      "end": "00:02:05.160",
+      "start": "00:01:55.000",
+      "text": " We're going to call the energies at Vc, and they're off the diagonal, meaning that they're"
+    },
+    {
+      "end": "00:02:09.160",
+      "start": "00:02:05.160",
+      "text": " coupling the two levels together."
+    },
+    {
+      "end": "00:02:16.720",
+      "start": "00:02:09.160",
+      "text": " And for this to be Hermitian, for the perturbation Hamiltonian to be Hermitian, this term has to"
+    },
+    {
+      "end": "00:02:23.840",
+      "start": "00:02:16.720",
+      "text": " be equal to the complex conjugate of this term."
+    },
+    {
+      "end": "00:02:35.160",
+      "start": "00:02:23.840",
+      "text": " This is because delta H must be Hermitian."
+    },
+    {
+      "end": "00:02:46.600",
+      "start": "00:02:35.160",
+      "text": " So we can write this out in a single matrix."
+    },
+    {
+      "end": "00:02:55.440",
+      "start": "00:02:46.600",
+      "text": " And here E1-0 is the energy of the first state, and E2-0 is the energy of the second state."
+    },
+    {
+      "end": "00:02:59.120",
+      "start": "00:02:55.440",
+      "text": " And now the perturbation couples them together in some way."
+    },
+    {
+      "end": "00:03:05.280",
+      "start": "00:02:59.120",
+      "text": " And what we're interested in then is to find the eigenvalues of this new Hamiltonian."
+    },
+    {
+      "end": "00:03:10.760",
+      "start": "00:03:05.280",
+      "text": " That's what it means to solve the Schrodinger equation."
+    },
+    {
+      "end": "00:03:13.120",
+      "start": "00:03:11.600",
+      "text": " Right?"
+    },
+    {
+      "end": "00:03:30.080",
+      "start": "00:03:13.120",
+      "text": " So to solve the time independent Schrodinger equation, for example, we want to diagonalize this"
+    },
+    {
+      "end": "00:03:33.200",
+      "start": "00:03:30.080",
+      "text": " new Hamiltonian."
+    },
+    {
+      "end": "00:03:40.200",
+      "start": "00:03:33.200",
+      "text": " And to do that, we need to find the eigenvalues and eigenvectors."
+    },
+    {
+      "end": "00:03:46.520",
+      "start": "00:03:40.200",
+      "text": " We're just going to focus on the eigenvalues of this new Hamiltonian."
+    },
+    {
+      "end": "00:03:50.080",
+      "start": "00:03:46.520",
+      "text": " These will be given by following expression."
+    },
+    {
+      "end": "00:03:53.760",
+      "start": "00:03:50.080",
+      "text": " It will be a function of lambda."
+    },
+    {
+      "end": "00:04:06.080",
+      "start": "00:03:53.760",
+      "text": " You'll get two distinct eigenvalues, well denoted by E plus and E minus."
+    },
+    {
+      "end": "00:04:15.480",
+      "start": "00:04:06.080",
+      "text": " And this will be the new energy of the two levels of our system."
+    },
+    {
+      "end": "00:04:19.000",
+      "start": "00:04:15.480",
+      "text": " So this plus or minus differentiates the two energy levels."
+    },
+    {
+      "end": "00:04:50.240",
+      "start": "00:04:36.080",
+      "text": " Okay, so these are the eigenvalues of this new Hamiltonian."
+    },
+    {
+      "end": "00:04:58.560",
+      "start": "00:04:50.240",
+      "text": " Notice that there is no first order term in lambda because there's no diagonal contributions"
+    },
+    {
+      "end": "00:05:03.560",
+      "start": "00:04:58.560",
+      "text": " from the perturbation."
+    },
+    {
+      "end": "00:05:13.880",
+      "start": "00:05:03.600",
+      "text": " And for future simplicity, we're going to call this term that occurs over here and over"
+    },
+    {
+      "end": "00:05:14.880",
+      "start": "00:05:13.880",
+      "text": " here."
+    },
+    {
+      "end": "00:05:26.800",
+      "start": "00:05:14.880",
+      "text": " We're going to call it delta E naught over two."
+    },
+    {
+      "end": "00:05:33.920",
+      "start": "00:05:26.800",
+      "text": " So this is our exact solution to this new two level system."
+    },
+    {
+      "end": "00:05:40.800",
+      "start": "00:05:33.920",
+      "text": " If we're to think about this in a perturbation series, this will that would be equivalent"
+    },
+    {
+      "end": "00:05:53.880",
+      "start": "00:05:40.800",
+      "text": " to being able to expand this radical to all orders and that series converging."
+    },
+    {
+      "end": "00:06:18.920",
+      "start": "00:05:53.880",
+      "text": " So perturbation theory implies in this case a Taylor expansion of these energy eigenvalues"
+    },
+    {
+      "end": "00:06:22.880",
+      "start": "00:06:18.920",
+      "text": " converging."
+    },
+    {
+      "end": "00:06:24.240",
+      "start": "00:06:22.880",
+      "text": " So we're going to do that."
+    },
+    {
+      "end": "00:06:31.920",
+      "start": "00:06:24.240",
+      "text": " We're going to see what condition needs to be satisfied for this Taylor series to converge."
+    },
+    {
+      "end": "00:06:41.960",
+      "start": "00:06:31.920",
+      "text": " And for that, we're going to focus on the radical."
+    },
+    {
+      "end": "00:06:54.960",
+      "start": "00:06:41.960",
+      "text": " Which we're going to know by sure, and it's one plus x squared."
+    },
+    {
+      "end": "00:06:59.040",
+      "start": "00:06:54.960",
+      "text": " This will be some function of x."
+    },
+    {
+      "end": "00:07:05.880",
+      "start": "00:06:59.040",
+      "text": " So what we're interested in is the Taylor series expansion of this function squared of"
+    },
+    {
+      "end": "00:07:12.040",
+      "start": "00:07:05.920",
+      "text": " one plus x squared."
+    },
+    {
+      "end": "00:07:15.520",
+      "start": "00:07:12.040",
+      "text": " So the Taylor series of that."
+    },
+    {
+      "end": "00:07:29.040",
+      "start": "00:07:15.520",
+      "text": " So there's one plus x squared over two minus x to the four over eight plus x to the six"
+    },
+    {
+      "end": "00:07:35.840",
+      "start": "00:07:29.040",
+      "text": " over sixteen minus infinitely many terms."
+    },
+    {
+      "end": "00:07:47.840",
+      "start": "00:07:35.840",
+      "text": " And one of the conditions for this Taylor series to expand to all orders."
+    },
+    {
+      "end": "00:08:01.520",
+      "start": "00:07:47.840",
+      "text": " So for the Taylor series to converge to all orders, we need that x or the absolute value"
+    },
+    {
+      "end": "00:08:08.560",
+      "start": "00:08:01.560",
+      "text": " of x has to be smaller than one."
+    },
+    {
+      "end": "00:08:20.840",
+      "start": "00:08:08.560",
+      "text": " I put another way if we substitute back in all of our variables."
+    },
+    {
+      "end": "00:08:31.520",
+      "start": "00:08:20.840",
+      "text": " This won't mean that lambda BC over delta E naught over two has to be smaller than one."
+    },
+    {
+      "end": "00:08:38.520",
+      "start": "00:08:31.520",
+      "text": " So, absolute value over here."
+    },
+    {
+      "end": "00:08:46.520",
+      "start": "00:08:38.520",
+      "text": " Or."
+    },
+    {
+      "end": "00:08:56.520",
+      "start": "00:08:46.520",
+      "text": " And value."
+    },
+    {
+      "end": "00:09:03.960",
+      "start": "00:08:56.520",
+      "text": " Or equivalently that the perturbation has to be smaller than the difference of energy"
+    },
+    {
+      "end": "00:09:09.280",
+      "start": "00:09:03.960",
+      "text": " between the two states approximately up to a constant factor."
+    },
+    {
+      "end": "00:09:18.280",
+      "start": "00:09:09.280",
+      "text": " So what this model showed is that the perturbation not only has to be smaller than the energy"
+    },
+    {
+      "end": "00:09:23.040",
+      "start": "00:09:18.280",
+      "text": " associated with the original Hamiltonian."
+    },
+    {
+      "end": "00:09:29.400",
+      "start": "00:09:23.080",
+      "text": " And the perturbation also has to be smaller than the difference in energies of the original"
+    },
+    {
+      "end": "00:09:30.160",
+      "start": "00:09:29.400",
+      "text": " Hamiltonian."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "Daniel Nino",
+  "youtube_channel_follower_count": 240,
+  "youtube_comment_count": 0,
+  "youtube_description": "Shows that a small perturbation relative to the main energy scale in not sufficient for perturbation theory to be valid.",
+  "youtube_like_count": 2,
+  "youtube_tags": [],
+  "youtube_title": "2.10 Validity of perturbation theory",
+  "youtube_upload_date": "20210527",
+  "youtube_view_count": 166
+}

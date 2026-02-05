@@ -1,0 +1,1777 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice narrating the video, unseen.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "An exploration of the Neural Puppeteer (NePu) method for keypoint-based neural rendering and pose estimation.",
+    "fps": 24.0,
+    "qAndA": [
+      {
+        "answer": "NePu relies on an efficient rendering pipeline that learns the relationship between 3D keypoints and various image properties, making it independent of texture. This allows NePu to estimate poses from silhouettes alone, without relying on the appearance of specific body parts.",
+        "question": "What is the primary advantage of NePu's approach to pose estimation compared to traditional methods?"
+      },
+      {
+        "answer": "NePu utilizes synthetic data. The researchers generated high-quality synthetic datasets for cows, giraffes, pigeons, and humans, providing ground truth 3D keypoint locations, RGB images, depth maps, and masks. This synthetic data allows for robust training and evaluation of NePu.",
+        "question": "How does NePu overcome the issue of limited datasets for animal pose estimation?"
+      },
+      {
+        "answer": "While AniNeRF leverages volumetric rendering, which is computationally expensive, NePu employs a single-evaluation 2D rendering formulation, resulting in significant speed improvements. NePu performs rendering directly in 2D image space, making it more efficient for real-time applications.",
+        "question": "What is the key difference between NePu's rendering pipeline and methods like AniNeRF?"
+      },
+      {
+        "answer": "NePu demonstrates good view consistency in the rendered outputs. Even though the rendering process occurs in 2D, the model captures sufficient 3D information to produce consistent representations across different viewpoints.",
+        "question": "Despite rendering in 2D, what surprising property does NePu exhibit in its rendered outputs?"
+      },
+      {
+        "answer": "NePu's latent space encodes meaningful information about the relationships between different poses. This allows for smooth and natural interpolation between poses by traversing the latent space, demonstrating that NePu captures the underlying structure of the pose variations.",
+        "question": "How does NePu's latent space contribute to the smooth transitions between poses observed in the 'Latent Space Interpolation' scene?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction of the topic, 'Neural Puppeteer,' a keypoint-based neural rendering approach.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Title of the presentation and names of the authors are displayed.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The speaker introduces 'Neural Puppeteer.'",
+            "timestamp": "00:00:01.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Giraffe image with keypoints",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Keypoint-based neural rendering, dynamic shapes.",
+        "timestamps": {
+          "end_timestamp": "00:00:08.542",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Title Slide - Neural Puppeteer",
+        "videoEditingDetails": [
+          {
+            "description": "Static slide with a title and an image.",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Humans dancing",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:08.583"
+            }
+          },
+          {
+            "description": "Birds walking",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "Insects moving",
+            "timestamp": {
+              "end_timestamp": "00:00:21.542",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explanation of the importance of pose estimation in computer vision.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains that pose estimation is a fundamental problem in computer vision.",
+            "timestamp": "00:00:08.583"
+          },
+          {
+            "description": "Examples of pose estimation applications are provided (sports, human-computer interaction, collective behavior).",
+            "timestamp": "00:00:15.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Pose estimation, computer vision, applications of pose estimation.",
+        "timestamps": {
+          "end_timestamp": "00:00:21.542",
+          "start_timestamp": "00:00:08.583"
+        },
+        "title": "Pose Estimation",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Pose Estimation for Humans and Animals.'",
+            "timestamps": {
+              "end_timestamp": "00:00:08.583",
+              "start_timestamp": "00:00:08.583"
+            }
+          },
+          {
+            "description": "Multiple images illustrating pose estimation in various scenarios.",
+            "timestamps": {
+              "end_timestamp": "00:00:21.542",
+              "start_timestamp": "00:00:10.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Various everyday activities performed by humans",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "description": "Birds perched and in flight",
+            "timestamp": {
+              "end_timestamp": "00:00:46.000",
+              "start_timestamp": "00:00:36.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Overview of available datasets for training pose estimation models for both humans and animals.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker highlights the availability of various datasets for human pose estimation.",
+            "timestamp": "00:00:22.000"
+          },
+          {
+            "description": "The speaker mentions the increasing availability of datasets for animal pose estimation, covering various species.",
+            "timestamp": "00:00:36.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images showcasing humans and birds in different poses",
+            "timestamp": {
+              "end_timestamp": "00:00:46.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Datasets, human pose estimation, animal pose estimation, species variation.",
+        "timestamps": {
+          "end_timestamp": "00:00:47.042",
+          "start_timestamp": "00:00:21.583"
+        },
+        "title": "Datasets",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to new slides.",
+            "timestamps": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "description": "First Slide Title: 'Available Human Datasets for Pose Estimation'",
+            "timestamps": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "description": "Second Slide Title: 'Available Animal Datasets for Pose Estimation'",
+            "timestamps": {
+              "end_timestamp": "00:00:46.000",
+              "start_timestamp": "00:00:36.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Giraffes walking",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:00:47.083"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction of NePu and its approach to rendering different image properties from 3D key points.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker introduces NePu as an efficient and flexible rendering pipeline.",
+            "timestamp": "00:00:47.083"
+          },
+          {
+            "description": "The speaker explains how NePu renders image properties like occupancy, depth, and texture given 3D key points.",
+            "timestamp": "00:00:54.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Keypoint skeleton",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:00:47.083"
+            }
+          },
+          {
+            "name": "Images showing silhouette, depth map, and RGB image of a giraffe",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "name": "Diagrams illustrating NePu's neural rendering process",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Neural rendering pipeline, keypoints, image properties (occupancy, depth, texture).",
+        "timestamps": {
+          "end_timestamp": "00:01:05.167",
+          "start_timestamp": "00:00:47.083"
+        },
+        "title": "Neural Puppeteer (NePu)",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Neural Puppeteer (NePu).",
+            "timestamps": {
+              "end_timestamp": "00:00:47.083",
+              "start_timestamp": "00:00:47.083"
+            }
+          },
+          {
+            "description": "Diagrams and images used to illustrate the concept and process of NePu.",
+            "timestamps": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explanation of how NePu can be used for inverse rendering and how it connects to pose estimation.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker introduces the concept of inverse rendering using NePu.",
+            "timestamp": "00:01:05.208"
+          },
+          {
+            "description": "Explanation of how NePu can estimate 3D key points from multi-view silhouettes, making it independent of texture.",
+            "timestamp": "00:01:12.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagrams illustrating the concept of inverse rendering",
+            "timestamp": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:05.208"
+            }
+          },
+          {
+            "name": "3D point cloud image with a heatmap",
+            "timestamp": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Inverse rendering, multi-view silhouettes, texture independence, 3D keypoint estimation.",
+        "timestamps": {
+          "end_timestamp": "00:01:27.167",
+          "start_timestamp": "00:01:05.208"
+        },
+        "title": "Inverse Rendering",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Inverse Rendering with Neural Puppeteer.'",
+            "timestamps": {
+              "end_timestamp": "00:01:05.208",
+              "start_timestamp": "00:01:05.208"
+            }
+          },
+          {
+            "description": "Diagrams and images used to explain the concept.",
+            "timestamps": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Detailed explanation of NePu's differentiable forward rendering process, focusing on the encoder and its use of point cloud processing with attention.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Technical)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Speaker clarifies that following slides will dive into how NePu works step-by-step",
+            "timestamp": "00:01:27.208"
+          },
+          {
+            "description": "The speaker explains the first step - encoding 3D key points into a latent variable 'z' using methods from deep learning on point clouds.",
+            "timestamp": "00:01:53.000"
+          },
+          {
+            "description": "Description of the Vector Self Attention operator from PointTransformer and its role in NePu's encoder.",
+            "timestamp": "00:02:03.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagrams illustrating the encoder and decoder steps in NePu",
+            "timestamp": {
+              "end_timestamp": "00:02:22.000",
+              "start_timestamp": "00:01:27.208"
+            }
+          },
+          {
+            "name": "Mathematical formulas",
+            "timestamp": {
+              "end_timestamp": "00:02:22.000",
+              "start_timestamp": "00:01:40.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Encoder, latent variable, point cloud processing, attention mechanism, deep learning.",
+        "timestamps": {
+          "end_timestamp": "00:02:22.000",
+          "start_timestamp": "00:01:27.208"
+        },
+        "title": "Keypoint-Based Neural Rendering with NePu - Encoder",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering with NePu: Encoder.'",
+            "timestamps": {
+              "end_timestamp": "00:01:27.208",
+              "start_timestamp": "00:01:27.208"
+            }
+          },
+          {
+            "description": "Step-by-step diagrammatic representation of the process.",
+            "timestamps": {
+              "end_timestamp": "00:02:22.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Detailed explanation of NePu's decoder, which decompresses the latent vector into key points and local features for further refinement.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Technical)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains how the decoder decompresses the latent vector into key points and local features.",
+            "timestamp": "00:02:22.042"
+          },
+          {
+            "description": "Explanation of the purpose of local features and the use of the attention operator for refining these features.",
+            "timestamp": "00:02:36.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating the decoder step in NePu",
+            "timestamp": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:02:22.042"
+            }
+          },
+          {
+            "name": "Mathematical formulas",
+            "timestamp": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Decoder, decompression, local features, feature refinement.",
+        "timestamps": {
+          "end_timestamp": "00:02:46.000",
+          "start_timestamp": "00:02:22.042"
+        },
+        "title": "Keypoint-Based Neural Rendering with NePu - Decoder",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering with NePu: Decoder.'",
+            "timestamps": {
+              "end_timestamp": "00:02:22.042",
+              "start_timestamp": "00:02:22.042"
+            }
+          },
+          {
+            "description": "Diagrammatic representation of the decoder.",
+            "timestamps": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:02:25.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explanation of the projection of 3D key points and features into 2D image space with camera parameters for efficient rendering.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Technical)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker introduces the projection of 3D keypoints and features to 2D image space, incorporating camera parameters.",
+            "timestamp": "00:02:46.042"
+          },
+          {
+            "description": "Discussion of the final refinement using attention in 2D space and the cost-effectiveness compared to volumetric rendering.",
+            "timestamp": "00:03:01.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagrams illustrating the 2D projection step in NePu",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:02:46.042"
+            }
+          },
+          {
+            "name": "Mathematical formulas",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          },
+          {
+            "name": "Camera icon",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:03:00.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "2D projection, camera parameters, rendering efficiency, view consistency.",
+        "timestamps": {
+          "end_timestamp": "00:03:40.000",
+          "start_timestamp": "00:02:46.042"
+        },
+        "title": "Keypoint-Based Neural Rendering with NePu - Projection to 2D",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering with NePu: Projection to 2D.'",
+            "timestamps": {
+              "end_timestamp": "00:02:46.042",
+              "start_timestamp": "00:02:46.042"
+            }
+          },
+          {
+            "description": "Diagrams used to visualize the process.",
+            "timestamps": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Description of how NePu aggregates information from local features for a query pixel to render final predictions for each modality (RGB, depth, occupancy).",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Technical)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains how image information for a query pixel is obtained by gathering surrounding local features.",
+            "timestamp": "00:03:40.042"
+          },
+          {
+            "description": "Description of the cross-attention mechanism from AIR-Nets for aggregating information and making final predictions.",
+            "timestamp": "00:03:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagrams illustrating the final rendering step in NePu",
+            "timestamp": {
+              "end_timestamp": "00:04:10.667",
+              "start_timestamp": "00:03:40.042"
+            }
+          },
+          {
+            "name": "Mathematical formulas",
+            "timestamp": {
+              "end_timestamp": "00:04:10.667",
+              "start_timestamp": "00:03:45.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Rendering, query pixel, cross-attention, multi-layer perceptron heads, modality-specific predictions.",
+        "timestamps": {
+          "end_timestamp": "00:04:10.667",
+          "start_timestamp": "00:03:40.042"
+        },
+        "title": "Keypoint-Based Neural Rendering with NePu - Rendering",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering with NePu: Rendering.'",
+            "timestamps": {
+              "end_timestamp": "00:03:40.042",
+              "start_timestamp": "00:03:40.042"
+            }
+          },
+          {
+            "description": "Diagrammatic illustration of the rendering process.",
+            "timestamps": {
+              "end_timestamp": "00:04:10.667",
+              "start_timestamp": "00:03:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explanation of NePu's training process, including the loss function used to optimize network parameters.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Technical)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker states that all network parameters are trained jointly using a loss function.",
+            "timestamp": "00:04:11.000"
+          },
+          {
+            "description": "The speaker details the three parts of the loss function (key point reconstruction, rendering loss, and regularization of latent variables).",
+            "timestamp": "00:04:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating NePu's training process",
+            "timestamp": {
+              "end_timestamp": "00:04:36.000",
+              "start_timestamp": "00:04:11.000"
+            }
+          },
+          {
+            "name": "Mathematical formulas representing the loss function",
+            "timestamp": {
+              "end_timestamp": "00:04:36.000",
+              "start_timestamp": "00:04:17.000"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Training, loss function, keypoint reconstruction, rendering loss, regularization, latent variable distribution.",
+        "timestamps": {
+          "end_timestamp": "00:04:37.000",
+          "start_timestamp": "00:04:10.708"
+        },
+        "title": "Training",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Training.'",
+            "timestamps": {
+              "end_timestamp": "00:04:11.000",
+              "start_timestamp": "00:04:11.000"
+            }
+          },
+          {
+            "description": "Diagram and mathematical formula used to depict the training process.",
+            "timestamps": {
+              "end_timestamp": "00:04:36.000",
+              "start_timestamp": "00:04:15.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cow grazing",
+            "timestamp": {
+              "end_timestamp": "00:04:42.000",
+              "start_timestamp": "00:04:37.042"
+            }
+          },
+          {
+            "description": "Giraffe walking",
+            "timestamp": {
+              "end_timestamp": "00:04:48.000",
+              "start_timestamp": "00:04:42.000"
+            }
+          },
+          {
+            "description": "Pigeon standing",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:48.000"
+            }
+          },
+          {
+            "description": "Human figure standing",
+            "timestamp": {
+              "end_timestamp": "00:05:05.000",
+              "start_timestamp": "00:04:56.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explanation of the need for synthetic data due to the limitations of existing animal datasets and presentation of the generated synthetic data for different species.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains why synthetic data is used (limitations of real datasets).",
+            "timestamp": "00:04:37.042"
+          },
+          {
+            "description": "The speaker describes the generated data, including the four species used (cows, giraffes, pigeons, and humans) and the high-quality information provided.",
+            "timestamp": "00:04:46.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images showing synthetic data for each character",
+            "timestamp": {
+              "end_timestamp": "00:05:05.000",
+              "start_timestamp": "00:04:37.042"
+            }
+          }
+        ],
+        "sceneId": 11,
+        "thematicElements": "Synthetic data, data generation, species variation, ground truth information.",
+        "timestamps": {
+          "end_timestamp": "00:05:05.667",
+          "start_timestamp": "00:04:37.042"
+        },
+        "title": "Synthetic Data",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Synthetic Data.'",
+            "timestamps": {
+              "end_timestamp": "00:04:37.042",
+              "start_timestamp": "00:04:37.042"
+            }
+          },
+          {
+            "description": "Textual information and illustrative images showcasing the generated data.",
+            "timestamps": {
+              "end_timestamp": "00:05:05.000",
+              "start_timestamp": "00:04:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Horse performing a kneeling action",
+            "timestamp": {
+              "end_timestamp": "00:06:25.000",
+              "start_timestamp": "00:05:05.708"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Deep dive into how NePu is used for inverse rendering to infer 3D keypoint positions from multi-view silhouettes, with an emphasis on the reliance on the learned prior distribution and optimization process.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Technical)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker reiterates the goal of inferring 3D key points from multi-view silhouettes.",
+            "timestamp": "00:05:05.708"
+          },
+          {
+            "description": "Explanation of the reliance on occupancy masks for observations, leading to texture and illumination independence.",
+            "timestamp": "00:05:12.000"
+          },
+          {
+            "description": "Description of the optimization process to find the latent vector that minimizes error between observed and rendered masks.",
+            "timestamp": "00:05:27.000"
+          },
+          {
+            "description": "Mentioning the use of multiple runs with different initializations to avoid local minima.",
+            "timestamp": "00:06:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Silhouette images of a horse in different views",
+            "timestamp": {
+              "end_timestamp": "00:06:25.000",
+              "start_timestamp": "00:05:10.000"
+            }
+          },
+          {
+            "name": "Mathematical formulas",
+            "timestamp": {
+              "end_timestamp": "00:06:25.000",
+              "start_timestamp": "00:05:15.000"
+            }
+          },
+          {
+            "name": "Heatmap diagram representing the latent space",
+            "timestamp": {
+              "end_timestamp": "00:06:25.000",
+              "start_timestamp": "00:05:20.000"
+            }
+          }
+        ],
+        "sceneId": 12,
+        "thematicElements": "Inverse rendering, multi-view silhouettes, occupancy masks, texture independence, illumination independence, optimization process, latent vector, regularization.",
+        "timestamps": {
+          "end_timestamp": "00:06:25.792",
+          "start_timestamp": "00:05:05.708"
+        },
+        "title": "Inverse Rendering",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Inverse Rendering with NePu.'",
+            "timestamps": {
+              "end_timestamp": "00:05:05.708",
+              "start_timestamp": "00:05:05.708"
+            }
+          },
+          {
+            "description": "Images and formulas used to illustrate the inverse rendering process.",
+            "timestamps": {
+              "end_timestamp": "00:06:25.000",
+              "start_timestamp": "00:05:10.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The human figure's pose is optimized from an initial distorted shape to a final standing pose.",
+            "timestamp": {
+              "end_timestamp": "00:06:42.000",
+              "start_timestamp": "00:06:25.833"
+            }
+          },
+          {
+            "description": "The pigeon's pose is optimized from an initial distorted shape to a final perched pose.",
+            "timestamp": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:06:35.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Visual demonstration of NePu's ability to optimize poses from silhouettes.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Demonstrative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains that the animation shows the pose optimization process using silhouette images.",
+            "timestamp": "00:06:25.833"
+          },
+          {
+            "description": "Emphasis on zero-shot synthetic-to-real world transfer, indicating NePu's ability to generalize.",
+            "timestamp": "00:06:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Silhouette images of the human figure and the pigeon",
+            "timestamp": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:06:25.833"
+            }
+          },
+          {
+            "name": "3D models of the figures undergoing pose optimization",
+            "timestamp": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:06:35.000"
+            }
+          }
+        ],
+        "sceneId": 13,
+        "thematicElements": "Pose optimization, silhouette-based inference, zero-shot learning, synthetic-to-real transfer.",
+        "timestamps": {
+          "end_timestamp": "00:06:58.875",
+          "start_timestamp": "00:06:25.833"
+        },
+        "title": "Pose Optimization Animation",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Inverse Rendering with NePu.'",
+            "timestamps": {
+              "end_timestamp": "00:06:25.833",
+              "start_timestamp": "00:06:25.833"
+            }
+          },
+          {
+            "description": "Animation showcasing the pose optimization process for both human and pigeon figures.",
+            "timestamps": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:06:30.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Figures are standing in a static pose",
+            "timestamp": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:06:58.917"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Presentation of quantitative and qualitative results of NePu's performance in 3D keypoint and pose estimation.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Results-oriented)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker states that the results demonstrate the good performance of NePu in pose estimation.",
+            "timestamp": "00:06:58.917"
+          },
+          {
+            "description": "The speaker highlights the visual representation of key points and their accuracy compared to the ground truth.",
+            "timestamp": "00:07:26.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models of the figures with key points overlaid",
+            "timestamp": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:06:58.917"
+            }
+          },
+          {
+            "name": "Tables comparing NePu's performance with other methods",
+            "timestamp": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:07:10.000"
+            }
+          }
+        ],
+        "sceneId": 14,
+        "thematicElements": "Quantitative results, qualitative results, 3D keypoint accuracy, pose estimation accuracy, comparison with other methods (LToHP).",
+        "timestamps": {
+          "end_timestamp": "00:07:49.375",
+          "start_timestamp": "00:06:58.917"
+        },
+        "title": "3D Keypoint and Pose Estimation Results",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to new slides with the titles '3D Keypoint and Pose Estimation' and '3D Keypoint and Pose Estimation Results'.",
+            "timestamps": {
+              "end_timestamp": "00:06:58.917",
+              "start_timestamp": "00:06:58.917"
+            }
+          },
+          {
+            "description": "Tables and 3D models with key points to visualize the results.",
+            "timestamps": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:07:02.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Presentation of NePu's performance in forward differentiable neural rendering, comparing it to Light Field Networks, highlighting the effectiveness of local conditioning.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Results-oriented)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker mentions that NePu's forward differentiable rendering pipeline works well, outperforming Light Field Networks in terms of PSNR and MAE.",
+            "timestamp": "00:07:49.417"
+          },
+          {
+            "description": "The speaker emphasizes the importance of local conditioning for detailed and accurate results.",
+            "timestamp": "00:08:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Rendered images of the figures from different viewpoints",
+            "timestamp": {
+              "end_timestamp": "00:09:26.000",
+              "start_timestamp": "00:07:49.417"
+            }
+          },
+          {
+            "name": "Tables comparing NePu's performance with Light Field Networks (LFN*)",
+            "timestamp": {
+              "end_timestamp": "00:09:26.000",
+              "start_timestamp": "00:08:00.000"
+            }
+          }
+        ],
+        "sceneId": 15,
+        "thematicElements": "Forward differentiable rendering, novel view synthesis, peak signal-to-noise ratio (PSNR), mean absolute error (MAE), comparison with Light Field Networks, local conditioning.",
+        "timestamps": {
+          "end_timestamp": "00:09:27.042",
+          "start_timestamp": "00:07:49.417"
+        },
+        "title": "Keypoint-Based Neural Rendering - Novel View + Novel Pose Comparison",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to new slides with the titles 'Keypoint-Based Neural Rendering' and 'Keypoint-Based Neural Rendering - Novel View + Novel Pose Comparison.'",
+            "timestamps": {
+              "end_timestamp": "00:07:49.417",
+              "start_timestamp": "00:07:49.417"
+            }
+          },
+          {
+            "description": "Tables and images used to present the results.",
+            "timestamps": {
+              "end_timestamp": "00:09:26.000",
+              "start_timestamp": "00:07:52.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Human figure performing the Macarena dance",
+            "timestamp": {
+              "end_timestamp": "00:10:09.000",
+              "start_timestamp": "00:09:27.083"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Showcase of NePu's ability to render novel views and poses based on keypoints from motion capture data, demonstrating its versatility.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Demonstrative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains that the rendering pipeline is applied to key points from motion capture data (AMASS dataset).",
+            "timestamp": "00:09:27.083"
+          },
+          {
+            "description": "Playful observation: 'Wow, NePu can even dance Macarena!' showcasing the successful pose synthesis.",
+            "timestamp": "00:09:34.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Rendered images of the figure in various poses",
+            "timestamp": {
+              "end_timestamp": "00:10:09.000",
+              "start_timestamp": "00:09:30.000"
+            }
+          }
+        ],
+        "sceneId": 16,
+        "thematicElements": "Motion capture data, novel pose synthesis, versatility of NePu.",
+        "timestamps": {
+          "end_timestamp": "00:10:09.000",
+          "start_timestamp": "00:09:27.083"
+        },
+        "title": "Keypoint-Based Neural Rendering - Novel View + Novel Pose Synthesis",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering - Novel View + Novel Pose Synthesis.'",
+            "timestamps": {
+              "end_timestamp": "00:09:27.083",
+              "start_timestamp": "00:09:27.083"
+            }
+          },
+          {
+            "description": "Still images used to showcase the synthesized views and poses.",
+            "timestamps": {
+              "end_timestamp": "00:10:09.000",
+              "start_timestamp": "00:09:30.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Giraffe walking",
+            "timestamp": {
+              "end_timestamp": "00:10:09.042",
+              "start_timestamp": "00:10:09.042"
+            }
+          },
+          {
+            "description": "Cow grazing",
+            "timestamp": {
+              "end_timestamp": "00:10:09.000",
+              "start_timestamp": "00:10:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstration of NePu's ability to perform 3D reconstruction of captured shapes using 2D depth estimations.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Demonstrative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains that NePu's 2D depth estimations can be used to create 3D reconstructions.",
+            "timestamp": "00:10:09.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D point cloud reconstructions of the giraffe and the cow",
+            "timestamp": {
+              "end_timestamp": "00:10:09.042",
+              "start_timestamp": "00:10:09.042"
+            }
+          }
+        ],
+        "sceneId": 17,
+        "thematicElements": "3D reconstruction, depth estimation, point cloud representation.",
+        "timestamps": {
+          "end_timestamp": "00:10:09.000",
+          "start_timestamp": "00:10:09.042"
+        },
+        "title": "3D Point Cloud Reconstruction",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering - 3D Point Cloud Reconstruction.'",
+            "timestamps": {
+              "end_timestamp": "00:10:09.042",
+              "start_timestamp": "00:10:09.042"
+            }
+          },
+          {
+            "description": "3D models showcasing the reconstructed point clouds.",
+            "timestamps": {
+              "end_timestamp": "00:10:09.000",
+              "start_timestamp": "00:10:09.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Human figure walking and sitting",
+            "timestamp": {
+              "end_timestamp": "00:10:09.042",
+              "start_timestamp": "00:10:09.042"
+            }
+          },
+          {
+            "description": "Cow grazing",
+            "timestamp": {
+              "end_timestamp": "00:10:10.000",
+              "start_timestamp": "00:10:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Showcase of NePu's good view consistency despite rendering in 2D, demonstrating the effectiveness of the approach in capturing 3D information.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Demonstrative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains that although NePu renders in 2D, it still achieves good view consistency.",
+            "timestamp": "00:10:09.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "Rendered 3D models of the figures in various poses viewed from different angles",
+            "timestamp": {
+              "end_timestamp": "00:10:10.000",
+              "start_timestamp": "00:10:09.042"
+            }
+          }
+        ],
+        "sceneId": 18,
+        "thematicElements": "View consistency, 2D rendering, 3D information capture.",
+        "timestamps": {
+          "end_timestamp": "00:10:10.000",
+          "start_timestamp": "00:10:09.042"
+        },
+        "title": "View Consistency",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering - View Consistency.'",
+            "timestamps": {
+              "end_timestamp": "00:10:09.042",
+              "start_timestamp": "00:10:09.042"
+            }
+          },
+          {
+            "description": "Still images showcasing various viewpoints of the rendered models.",
+            "timestamps": {
+              "end_timestamp": "00:10:10.000",
+              "start_timestamp": "00:10:10.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Human figure transitioning between different poses",
+            "timestamp": {
+              "end_timestamp": "00:10:12.000",
+              "start_timestamp": "00:10:10.042"
+            }
+          },
+          {
+            "description": "Cow transitioning from standing to grazing",
+            "timestamp": {
+              "end_timestamp": "00:10:16.000",
+              "start_timestamp": "00:10:12.000"
+            }
+          },
+          {
+            "description": "Pigeon transitioning from perched to standing",
+            "timestamp": {
+              "end_timestamp": "00:10:20.000",
+              "start_timestamp": "00:10:16.000"
+            }
+          },
+          {
+            "description": "Giraffe transitioning from lying down to standing",
+            "timestamp": {
+              "end_timestamp": "00:10:23.708",
+              "start_timestamp": "00:10:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Visual demonstration of the structured and meaningful latent space learned by NePu, enabling smooth transitions between poses.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Demonstrative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker highlights the latent space interpolation ability of NePu.",
+            "timestamp": "00:10:10.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "Rendered 3D models of the figures transitioning between different poses.",
+            "timestamp": {
+              "end_timestamp": "00:10:23.708",
+              "start_timestamp": "00:10:10.042"
+            }
+          }
+        ],
+        "sceneId": 19,
+        "thematicElements": "Latent space, interpolation, pose transitions, meaningful information encoding.",
+        "timestamps": {
+          "end_timestamp": "00:10:23.708",
+          "start_timestamp": "00:10:10.042"
+        },
+        "title": "Latent Space Interpolation",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a new slide with the title 'Keypoint-Based Neural Rendering - Latent Space Interpolation.'",
+            "timestamps": {
+              "end_timestamp": "00:10:10.042",
+              "start_timestamp": "00:10:10.042"
+            }
+          },
+          {
+            "description": "Smooth transitions between different poses, illustrating the interpolation in the latent space.",
+            "timestamps": {
+              "end_timestamp": "00:10:23.708",
+              "start_timestamp": "00:10:12.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Conclusion of the presentation, encouraging viewers to visit the project page for more details.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral (Call to action)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker encourages viewers to visit the NePu project page for code, the synthetic dataset, and further results by scanning the QR code.",
+            "timestamp": "00:10:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "QR code and text encouraging viewers to scan it for more information.",
+            "timestamp": {
+              "end_timestamp": "00:10:38.000",
+              "start_timestamp": "00:10:24.000"
+            }
+          }
+        ],
+        "sceneId": 20,
+        "thematicElements": "Project page, code availability, dataset access.",
+        "timestamps": {
+          "end_timestamp": "00:10:38.000",
+          "start_timestamp": "00:10:23.750"
+        },
+        "title": "Project QR Code",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Cut to a final slide with a QR code.",
+            "timestamps": {
+              "end_timestamp": "00:10:24.000",
+              "start_timestamp": "00:10:24.000"
+            }
+          },
+          {
+            "description": "Static slide with a call to action.",
+            "timestamps": {
+              "end_timestamp": "00:10:38.000",
+              "start_timestamp": "00:10:25.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The animated pose optimization visually demonstrates the effectiveness of NePu in a captivating manner.",
+        "timestamp": "00:06:25.000"
+      },
+      "description": "Introduction and explanation of the NePu method for keypoint-based neural rendering and pose estimation.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "title": "Neural Puppeteer",
+    "trimmingSuggestions": [
+      {
+        "description": "Scenes 6-9 focus on technical details that might be condensed for a broader audience. Consider summarizing the encoder, decoder, 2D projection, and rendering processes or presenting them in a more visually engaging manner.",
+        "timestamps": {
+          "end_timestamp": "00:10:23.750",
+          "start_timestamp": "00:10:23.750"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 638,
+  "original_json_filename": "n-gFLg3YWAg.json",
+  "original_video_filename": "n-gFLg3YWAg.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this work we present the key Point based neural rendering approach for dynamic shapes called neural puppeteer post estimation is one of the fundamental problems in computer vision and The crucial task in many Vision applications ranging from Sports to human compute interaction to the study of collective Behavior existing models learn how joints look like among other things they learn the texture of the joints to drain such models a huge amount of data with different texture is available for humans data sets for animals have been published too recently these data sets cover an increasingly wide range of species ranging from mice to monkeys to birds our approach called neural Puppeteer on the other hand is based on an efficient and flexible rendering pipeline that renders image properties like occupancy depth and texture given 3D key points case you are wondering how neural rendering and post-estimation connect the answer is inverse rendering in case of Nepal we can even estimate 3D key points from World diffuse Silhouettes only making our post estimation method independent of texture let us now take a closer look at how Nepal Works step by step for our inverse rendering solution it is crucial to learn the relations of holes defined by 3D keypoint positions and resulting to the image properties such as RGB Silhouettes and depth once such a prior is learned we can later use it to infer 3D key points from given to the observations in the next slides we explain our differentiable forward rendering step by step the first part of our model encodes 3D key points in the latent variable set using methods from Deep learning on point clouds namely we rely on the vector self-attention operator proposed in point Transformer from a high level perspective the vector self-attention mechanism facilitates information exchange between nearby key points therefore it serves a similar purpose as convolutions and cnns our decoder first decompresses the signal latent Vector into key points and local features in two separate branches the purpose of the local features is to describe the surroundings locally we then refine the features using the same attention operator as before we incorporate camera parameters of the rendering procedure by projecting three key points into image space alongside the local features in 2D we facilitate the final round of attention for further refinement importantly we perform rendering directly in 2D since volumetric rendering is too costly for our application scenarios for example a neural Radiance field it is common to perform 64 to 128 Network queries per array while we only need a single query as we will later see our model still learns good view consistency despite the projection of key points is a much weaker view consistency constraint than a volumetric rendering formulation finally image information for a query pixel position queue is obtained by first gathering information from surrounding local features for this we rely on the cross-attention mechanism introduced in airnets to aggregate nearby information from which the final predictions are made our model has three multi-layer perceptron heads one for each different modality in our case we have one rendering head for RGB one for depth and one for occupancy all Network parameters are trained jointly using a loss consisting of three parts first we have a key Point reconstruction part second we have a rendering loss between the color depth and occupancy masks and additionally we regularized latent variables in the norm which roughly encourages a zero mean gaussian latent distribution since available data sets for animals do not provide all the necessary information we decide to explore our method on synthetic data for this purpose we generated high quality data for four different specimens cows giraffes pigeons and humans our data set has 24 post cameras with high quality ground truth RGB depth and masks and time synchronized 3D key Point locations Universe rendering experiments we aim to infer 3D keypoint positions from multi-pure silhouettes since our end goal would be an easy domain transfer from synthetic to real we only rely onto the occupancy masks as observations which makes our 3D keypoint detector invariant to texture and illumination changes to solve this highly complex inverse rendering problem we heavily rely on the prior distribution that mapu learned over the relations of 2D image properties and 3D key points using this prior we aim to find the latent Vector Z hat that minimizes the binary cross entropy over all cameras and pixels between the observed and rendered masks additionally we include a regularization term on that in order to arrive at the more likely and therefore more well-behaved solution using our decoder we can ultimately infer the 3D key points from that head since our optimization sometimes gets stuck in local Minima if the initialization is too far away from the true latent variable we perform multiple runs with different initializations and take the one with the highest intersection over Union between the rendered and ground truth masks this animation shows the process of post-optimization from the initialization to the final pose given the silhouette please note that these are two of our zero shot synthetic to real world experiments where we train napu on our synthetic data and then inferred on real world images here we see some more real world examples for giraffes and the cow our inverse rendering for post estimation works very well and we achieve a better average mean per joint Precision error and median over all objects than learnable triangulation of human pose our qualitative results reflect the overall good quality of Nepal for post estimation we show projected key points where color-coded dots indicate a location and a 3D arrow to the ground truth red dots indicate a high Green Dots a low 3D error our forward differentiable rendering pipeline works very well too and we achieve a better average Peak signal to noise ratio and mean absolute error over all objects than light field Networks our qualitative results reflect the overall good quality of nipple for forward differentiable neural rendering comparing the results shows the importance of the local conditioning the results obtained with Nepal are much more detailed with more precise boundaries we also compare an apple to any nerve our results look promising but cannot meet the quality of any nerve please note that our rendering formulation is fundamentally different while any nerve leverages the simple parameters to restrict the problems to Computing plant weights Nepal has to solve a more complex problem in addition nerve-based approaches typically rely on time and memory intensive volumetric rendering in contrast we propose a single evaluation rendering formulation that is closer to the formulation of light field Networks this fundamental difference in our rendering pipeline results in a significant speed increase of 50 to 200 times at an image resolution of 512 times 512 pixels compared to Nerf based approaches furthermore we applied our rendering pipeline to key points from motion capture data from the amas data set wow nipple can even dance Macarena also the 2D depth estimations from Nepal can be used to perform 3D reconstruction of the captured shape although neepu renders into D which means that we do not have a guaranteed consistency between the generated views we observe a very good view consistency and last but not least the structure of napus latent space encodes meaningful information about how individual poses are related to each other for code our synthetic data set and further results please visit our project Page by scanning the QR code",
+  "text_to_speech_word_count": 1264,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.000",
+      "start": "00:00:00.000",
+      "text": " In this work, we present the key point-based neural rendering approach for dynamic shapes called Neural Puppeteer."
+    },
+    {
+      "end": "00:00:16.000",
+      "start": "00:00:08.000",
+      "text": " Post-Systemation is one of the fundamental problems in computer vision and the crucial task in many vision applications,"
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:16.000",
+      "text": " ranging from sports to human computer interaction to the study of collective behavior."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:22.000",
+      "text": " Existing models learn how joints look like. Among other things, they learn the texture of the joints."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:29.000",
+      "text": " To drain such models, a huge amount of data with different textures is available for humans."
+    },
+    {
+      "end": "00:00:47.000",
+      "start": "00:00:35.000",
+      "text": " Data sets for animals have been published too. Recently, these data sets cover an increasingly wide range of species ranging from mice to monkeys to birds."
+    },
+    {
+      "end": "00:01:04.000",
+      "start": "00:00:47.000",
+      "text": " Our approach called Neural Puppeteer on the other hand is based on an efficient and flexible rendering pipeline that renders image properties like occupancy, depth, and texture given 3D key points."
+    },
+    {
+      "end": "00:01:11.000",
+      "start": "00:01:04.000",
+      "text": " In case you are wondering how Neural rendering and post-Systemation connect the answer is inverse rendering."
+    },
+    {
+      "end": "00:01:22.000",
+      "start": "00:01:12.000",
+      "text": " In case of Neppu, we can even estimate 3D key points from multi-fuse silhouettes only, making our post-Systemation method independent of texture."
+    },
+    {
+      "end": "00:01:27.000",
+      "start": "00:01:22.000",
+      "text": " Let us now take a closer look at how Neppu works step by step."
+    },
+    {
+      "end": "00:01:40.000",
+      "start": "00:01:27.000",
+      "text": " For our inverse rendering solution, it is crucial to learn the relations of cores, defined by 3D key point positions, and resulting to the image properties such as RGB, silhouettes, and depth."
+    },
+    {
+      "end": "00:01:47.000",
+      "start": "00:01:40.000",
+      "text": " Once such a prior is learned, we can later use it to infer 3D key points from given to the observations."
+    },
+    {
+      "end": "00:01:54.000",
+      "start": "00:01:47.000",
+      "text": " In the next slides, we explain our differentiable forward rendering step by step."
+    },
+    {
+      "end": "00:02:02.000",
+      "start": "00:01:54.000",
+      "text": " The first part of our model encodes 3D key points in the latent variable Z using methods from deep learning on point clouds."
+    },
+    {
+      "end": "00:02:09.000",
+      "start": "00:02:02.000",
+      "text": " Namely, we rely on the vector self-attention operator proposed in point transformer."
+    },
+    {
+      "end": "00:02:16.000",
+      "start": "00:02:09.000",
+      "text": " From a high level perspective, the vector self-attention mechanism facilitates information exchange between nearby key points."
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:16.000",
+      "text": " Therefore, it solves a similar purpose as convolutions and CNNs."
+    },
+    {
+      "end": "00:02:35.000",
+      "start": "00:02:22.000",
+      "text": " Our decoder first decompresses the single latent vector into key points and local features in two separate branches."
+    },
+    {
+      "end": "00:02:40.000",
+      "start": "00:02:36.000",
+      "text": " The purpose of the local features is to describe the surroundings locally."
+    },
+    {
+      "end": "00:02:47.000",
+      "start": "00:02:40.000",
+      "text": " We then refine the features using the same attention operator as before."
+    },
+    {
+      "end": "00:03:01.000",
+      "start": "00:02:47.000",
+      "text": " We incorporate camera parameters of the rendering procedure by projecting 3D key points into image space alongside the local features."
+    },
+    {
+      "end": "00:03:06.000",
+      "start": "00:03:01.000",
+      "text": " In Tudy, we facilitate the final round of attention for further refinement."
+    },
+    {
+      "end": "00:03:14.000",
+      "start": "00:03:06.000",
+      "text": " Importantly, we perform rendering directly in Tudy since volumetric renderings took costly for our application scenarios."
+    },
+    {
+      "end": "00:03:26.000",
+      "start": "00:03:14.000",
+      "text": " For example, a neural radiance field, it is common to perform 64 to 128 network queries per array, while we only need a single query."
+    },
+    {
+      "end": "00:03:39.000",
+      "start": "00:03:26.000",
+      "text": " As we will later see, our model still learns good view consistency, despite the projection of key points as a much weaker view consistency constraint than a volumetric rendering formulation."
+    },
+    {
+      "end": "00:03:48.000",
+      "start": "00:03:39.000",
+      "text": " Finally, image information for our query pixel position queue is obtained by first gathering information from surrounding local features."
+    },
+    {
+      "end": "00:03:58.000",
+      "start": "00:03:49.000",
+      "text": " For this, we rely on the cross-attention mechanism introduced in ANATS to aggregate nearby information from which the final predictions are made."
+    },
+    {
+      "end": "00:04:03.000",
+      "start": "00:03:58.000",
+      "text": " Our model has three multi-layer perceptron heads, one for each different modality."
+    },
+    {
+      "end": "00:04:10.000",
+      "start": "00:04:03.000",
+      "text": " In our case, we have one rendering head for RGB, one for depth, and one for occupancy."
+    },
+    {
+      "end": "00:04:17.000",
+      "start": "00:04:11.000",
+      "text": " All network parameters are trained jointly using a loss consisting of three parts."
+    },
+    {
+      "end": "00:04:20.000",
+      "start": "00:04:17.000",
+      "text": " First, we have a key point reconstruction part."
+    },
+    {
+      "end": "00:04:28.000",
+      "start": "00:04:22.000",
+      "text": " Second, we have a rendering loss between the color, depth, and occupancy masks."
+    },
+    {
+      "end": "00:04:36.000",
+      "start": "00:04:28.000",
+      "text": " And additionally, we regularized latent variables in the norm, which roughly encourages a zero-mean Gaussian latent distribution."
+    },
+    {
+      "end": "00:04:45.000",
+      "start": "00:04:36.000",
+      "text": " Since available data sets for animals do not provide all the necessary information, we decide to explore our method on synthetic data."
+    },
+    {
+      "end": "00:04:54.000",
+      "start": "00:04:45.000",
+      "text": " For this purpose, we generated high-quality data for four different specimens, cows, giraffes, pigeons, and humans."
+    },
+    {
+      "end": "00:05:05.000",
+      "start": "00:04:54.000",
+      "text": " Our data set has 24 post-camera with high-quality ground truth, RGB, depth, and masks, and time synchronized 3D key point locations."
+    },
+    {
+      "end": "00:05:12.000",
+      "start": "00:05:05.000",
+      "text": " In our inverse rendering experiments, we aim to infer 3D key point positions from multiple silhouettes."
+    },
+    {
+      "end": "00:05:27.000",
+      "start": "00:05:13.000",
+      "text": " Since our end goal would be an easy domain transfer from synthetic to real, we only rely on 2D occupancy masks as observations, which makes our 3D key point detector invariant to texture and illumination changes."
+    },
+    {
+      "end": "00:05:39.000",
+      "start": "00:05:28.000",
+      "text": " To solve this highly complex inverse rendering problem, we heavily rely on the prior distribution that may be learned over the relations of 2D image properties and 3D key points."
+    },
+    {
+      "end": "00:05:52.000",
+      "start": "00:05:40.000",
+      "text": " Using this prior, we aim to find a latent vector z-hat that minimizes the binary cross entropy over all cameras and pixels between the observed and rendered masks."
+    },
+    {
+      "end": "00:06:01.000",
+      "start": "00:05:52.000",
+      "text": " Additionally, we include a regularization term on z in order to arrive at the more likely and therefore more well-behaved solution."
+    },
+    {
+      "end": "00:06:06.000",
+      "start": "00:06:01.000",
+      "text": " Using our decoder, we can ultimately infer the 3D key points from z-hat."
+    },
+    {
+      "end": "00:06:25.000",
+      "start": "00:06:07.000",
+      "text": " Since our optimization sometimes gets stuck in local minima, if the initialization is too far away from the true latent variable, we perform multiple runs with different initializations and take the one with the highest intersection over union between the rendered and ground truth masks."
+    },
+    {
+      "end": "00:06:34.000",
+      "start": "00:06:25.000",
+      "text": " This animation shows the process of post-optimization from the initialization to the final post given the silhouette."
+    },
+    {
+      "end": "00:06:54.000",
+      "start": "00:06:36.000",
+      "text": " Please note that these are two of our zero-shot synthetic to real-world experiments where we train NAPO on our synthetic data and then inferred on real-world images."
+    },
+    {
+      "end": "00:07:04.000",
+      "start": "00:06:58.000",
+      "text": " Here we see some more real-world examples for giraffes and the cow."
+    },
+    {
+      "end": "00:07:23.000",
+      "start": "00:07:07.000",
+      "text": " Our inverse rendering for post-estimation works very well and we achieve a better average mean-per-joint position error and median over all objects than learnable triangulation of human posts."
+    },
+    {
+      "end": "00:07:32.000",
+      "start": "00:07:24.000",
+      "text": " Our qualitative results reflect the overall good quality of NAPO for post-estimation."
+    },
+    {
+      "end": "00:07:40.000",
+      "start": "00:07:32.000",
+      "text": " We show projected key points where color-coded dots indicate a location and a 3D error to the ground truth."
+    },
+    {
+      "end": "00:07:44.000",
+      "start": "00:07:40.000",
+      "text": " Red dots indicate a high, green dots allow 3D error."
+    },
+    {
+      "end": "00:08:05.000",
+      "start": "00:07:45.000",
+      "text": " Our forward-differentiable rendering pipeline works very well too and we achieve a better average peak signal to noise ratio and mean absolute error over all objects than light field networks."
+    },
+    {
+      "end": "00:08:14.000",
+      "start": "00:08:06.000",
+      "text": " Our qualitative results reflect the overall good quality of NAPO for a forward-differentiable neural rendering."
+    },
+    {
+      "end": "00:08:19.000",
+      "start": "00:08:14.000",
+      "text": " Comparing the results shows the importance of the local conditioning."
+    },
+    {
+      "end": "00:08:25.000",
+      "start": "00:08:19.000",
+      "text": " The results obtained with NAPO are much more detailed with more precise boundaries."
+    },
+    {
+      "end": "00:08:31.000",
+      "start": "00:08:26.000",
+      "text": " We also compare NAPO to ANI-NIRF."
+    },
+    {
+      "end": "00:08:36.000",
+      "start": "00:08:31.000",
+      "text": " Our results look promising but cannot meet the quality of ANI-NIRF."
+    },
+    {
+      "end": "00:08:40.000",
+      "start": "00:08:36.000",
+      "text": " Please note that our rendering formulation is fundamentally different."
+    },
+    {
+      "end": "00:08:50.000",
+      "start": "00:08:40.000",
+      "text": " While ANI-NIRF leverages the simple parameters to restrict the problems to computing plant weights, NAPO has to solve a more complex problem."
+    },
+    {
+      "end": "00:08:58.000",
+      "start": "00:08:51.000",
+      "text": " In addition, NIRF based approaches typically rely on time and memory intensive volumetric rendering."
+    },
+    {
+      "end": "00:09:06.000",
+      "start": "00:08:58.000",
+      "text": " In contrast, we propose a single evaluation rendering formulation that is closer to the formulation of light field networks."
+    },
+    {
+      "end": "00:09:19.000",
+      "start": "00:09:06.000",
+      "text": " This fundamental difference in our rendering pipeline results in a significant speed increase of 50 to 200 times at an image resolution of 5 on the 12 times 5 on the 12 pixels"
+    },
+    {
+      "end": "00:09:27.000",
+      "start": "00:09:19.000",
+      "text": " compared to NIRF based approaches."
+    },
+    {
+      "end": "00:09:34.000",
+      "start": "00:09:27.000",
+      "text": " Furthermore, we applied our rendering pipeline to key points from motion capture data from the AMAS dataset."
+    },
+    {
+      "end": "00:09:42.000",
+      "start": "00:09:34.000",
+      "text": " Wow, NAPO can even dance Macarena."
+    },
+    {
+      "end": "00:09:55.000",
+      "start": "00:09:42.000",
+      "text": " Also, the 2D depth estimations from NAPO can be used to perform 3D reconstruction of the capture shape."
+    },
+    {
+      "end": "00:10:11.000",
+      "start": "00:09:55.000",
+      "text": " Although NAPO renders into D, which means that we do not have a guaranteed consistency between the generated views, we observe a very good view consistency."
+    },
+    {
+      "end": "00:10:25.000",
+      "start": "00:10:11.000",
+      "text": " And last but not least, the structure of NAPO's latent space and codes meaningful information about how individual poses are related to each other."
+    },
+    {
+      "end": "00:10:38.000",
+      "start": "00:10:25.000",
+      "text": " For code, our synthetic dataset and further results, please visit our project page by scanning the QR code."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Urs Waldmann",
+  "youtube_channel_follower_count": 2,
+  "youtube_comment_count": 0,
+  "youtube_description": "This is an introduction to Neural Puppeteer, presented at the 16th Asian Conference on Computer Vision (ACCV2022) in Macau SAR, China.\n\nNePu project page: https://urs-waldmann.github.io/NePu/\nACCV 2022: https://www.accv2022.org/en/\n\nAuthors:\nSimon Giebenhain: https://simongiebenhain.github.io/\nUrs Waldmann: https://urs-waldmann.de/computer-vision/\nOle Johannsen: https://www.cvia.uni-konstanz.de/members/research-staff/dipl-math-ole-johannsen/\nBastian Goldluecke: https://www.cvia.uni-konstanz.de/members/prof-dr-bastian-goldluecke/",
+  "youtube_like_count": 5,
+  "youtube_tags": [],
+  "youtube_title": "Neural Puppeteer: Keypoint-Based Neural Rendering of Dynamic Shapes (ACCV 2022)",
+  "youtube_upload_date": "20221117",
+  "youtube_view_count": 373
+}

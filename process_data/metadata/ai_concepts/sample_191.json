@@ -1,0 +1,786 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "C1",
+        "description": "A young man with short, curly dark brown hair, wearing a white hoodie throughout the video.",
+        "name": "George Hotz"
+      }
+    ],
+    "description": "George Hotz explores Tinygrad, highlighting its technical advantages and potential in the deep learning landscape.",
+    "fps": 24.0,
+    "qAndA": [
+      {
+        "answer": "Tinygrad",
+        "question": "What is the name of the deep learning library George Hotz is discussing?"
+      },
+      {
+        "answer": "97.69%",
+        "question": "What is the accuracy achieved by the 'beautiful_emnist' example?"
+      },
+      {
+        "answer": "Unaryops, Binaryops, Ternaryops, and Reduceops",
+        "question": "What are the four basic operation categories Tinygrad breaks down complex networks into?"
+      },
+      {
+        "answer": "Tinygrad factorizes complex operations into a minimal set of basic operations, reducing code redundancy and complexity.",
+        "question": "How does Tinygrad achieve code simplicity compared to PyTorch?"
+      },
+      {
+        "answer": "By passing the argument 'debug=2,' Tinygrad shows the real kernels being launched to the GPU.",
+        "question": "What debugging feature does Tinygrad offer for analyzing kernel executions?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction of self and project.",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Demonstration of Tinygrad's 'beautiful_emnist' example.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          },
+          {
+            "description": "Explanation of Tinygrad library and the company behind it.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          },
+          {
+            "description": "Comparison of Tinygrad with PyTorch and discussion of benefits.",
+            "timestamp": {
+              "end_timestamp": "00:02:26.000",
+              "start_timestamp": "00:01:31.000"
+            }
+          },
+          {
+            "description": "Explanation of Tinygrad's Matmul and convolution implementations.",
+            "timestamp": {
+              "end_timestamp": "00:03:26.000",
+              "start_timestamp": "00:02:27.000"
+            }
+          },
+          {
+            "description": "Deep dive into Tinygrad's code structure and efficiency.",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:03:27.000"
+            }
+          },
+          {
+            "description": "Discussion of PyTorch's implementation and Tinygrad's advantage in code maintainability.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:04:06.000"
+            }
+          },
+          {
+            "description": "Demonstration of Tinygrad's debugging features and graph visualization.",
+            "timestamp": {
+              "end_timestamp": "00:06:41.000",
+              "start_timestamp": "00:04:58.000"
+            }
+          },
+          {
+            "description": "Discussion of Tinygrad's potential to surpass other deep learning libraries in the future.",
+            "timestamp": {
+              "end_timestamp": "00:07:21.208",
+              "start_timestamp": "00:06:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "George Hotz"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Hotz jokingly compares the deep learning library field to self-driving cars, adding humor and self-confidence. Expresses belief in Tinygrad's potential to surpass others.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of Tinygrad deep learning library.",
+            "timestamp": "00:00:09.000"
+          },
+          {
+            "description": "Introduction of Tinycorp, the company behind Tinygrad.",
+            "timestamp": "00:01:15.000"
+          },
+          {
+            "description": "Comparison of Tinygrad and PyTorch.",
+            "timestamp": "00:01:31.000"
+          },
+          {
+            "description": "Deep dive into Tinygrad's implementation of key operations.",
+            "timestamp": "00:02:51.000"
+          },
+          {
+            "description": "Demonstration of Tinygrad's debugging features.",
+            "timestamp": "00:04:58.000"
+          },
+          {
+            "description": "Discussion of Tinygrad's potential future dominance.",
+            "timestamp": "00:06:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen showing code",
+            "timestamp": {
+              "end_timestamp": "00:07:21.208",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Efficiency in deep learning libraries, code maintainability and simplicity, potential for future advancements in deep learning.",
+        "timestamps": {
+          "end_timestamp": "00:07:21.208",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Tinygrad",
+        "videoEditingDetails": [
+          {
+            "description": "The segment showing the 'beautiful_emnist' example could be trimmed as it only shows the code running without adding much to the discussion.",
+            "timestamps": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Hotz expressing his belief in Tinygrad's future dominance.",
+        "timestamp": "00:07:04.000"
+      },
+      "description": "Introducing and promoting Tinygrad.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Deep Dive into Tinygrad with George Hotz",
+    "trimmingSuggestions": [
+      {
+        "description": "The 'beautiful_emnist' example could be trimmed as it doesn't significantly contribute to the main discussion.",
+        "timestamps": {
+          "end_timestamp": "00:01:08.000",
+          "start_timestamp": "00:00:40.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 442,
+  "original_json_filename": "fq__NqceKVs.json",
+  "original_video_filename": "fq__NqceKVs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so hello uh welcome new people uh my name is George Hots uh I am working on a deep learning library called tiny grad um so you can get tiny grad on GitHub on your friendly neighborhood GitHub and this is Tiny grad uh it has 22,000 Stars so it can't be too bad think about it like pytorch it's very similar to pytorch maybe the best example to start with is this example called beautiful mest um so beautiful mest this is an mest example and unlike a lot of mest examples it gets you 98% um so we can go over here to my Mac and we can actually run it um so let's just update to the latest master and then let's give it a try examples beautiful mest uh so it's actually pretty fast uh it's training an nness model now and it got nice 9 7.69% you're like oh this is a boring oh we'll let the non Subs talk we'll let the non Subs talk that's a good point uh we'll let the non Subs talk so this is Tiny grad tiny grad is my deep learning library um it's actually a company uh we are the tiny Corp tinyg um so you're like oh well why would you use this instead of pytorch right and pytorch is actually good software uh unlike self-driving cars where everyone else is an idiot uh pytorch is actually pretty good software Jax is pretty good software what are the differences between tiny grad and the other uh Frameworks the whole difference is this these are the only operations that tiny grad compiles to so we have unary Ops binary Ops and ternary Ops those are all examples of element wise Ops we have reduce Ops which can reduce an access like a sum Max uh we have buffer Ops which deal with actual physical buffers on the device we have movement Ops which deal with different ways to look at buffers and then we have load Ops and load Ops are just like contiguous copy very boring things so the only thing that really exists is element wise Ops reduce Ops and movement Ops and you're like but George how do you get a convolution how do you get a matrix multiplication I'll show you how you get a matrix multiplication so this is Tiny grad's map mall right here and we can run it and it's not that fast right there you're only getting 2.4 but it's a small Matrix if you make it a big Matrix it will be a lot faster but that's still 2.4 teraflops which are pretty good so how does this work well look at this code one way to think about a matrix multiply is to think about your two matrices that you're multiplying putting them squares on faces of a cube doing the N cubed multiply and then doing an N cubed sum and the last face of the cube is your multiplied Matrix in tiny grad you can actually write it like that so we reshape and multiply together and then it's broadcasted to be the cube and then we sum across this axis of the cube and we are left with a matrix multiply um you can also do convolutions like this so if we go in tensor Pi which is the front end for tiny grad we can go check out the conf code um so there is winegrad in the conf code here this is winegrad but if you don't want to use winegrad this is the convolution it's very simple um it's really just a bunch of movement Ops uh I think it's pretty good to look at this one called pool uh it's kind of confusing to read but when you understand what it's doing you realize that you can express convolutions Matrix multiplies all in terms of these absolute minimum set of operations uh element wise oposite reduce Ops and movement Ops so that is kind of the power of tiny grad um whereas pytorch will have a com 2D transpose on Cuda in U and 8 and have a specific set of code to implement that the problem with that is you have your operations multiplied by your run times multiplied by your types uh because of those multiplies the amount of code you have to maintain is huge um in tiny grad we factorize those Concepts pretty well so the amount of code you have to maintain you replace those multiplies with plus we have code that implements D types and our code that implements D types is completely independent of our code that implements convolutions if you add another dtype here this dtype will work for all convolutions all Matrix multiplies all Max pools all everything then you say how do we actually make it fast well we believe in the bitter lesson so we have a search machine here which does a beam search to search over a bunch of permutations you can do on a kernel and the permutations are defined right here um all these different operations you can do to like mess with the kernels to keep the compute the same but to make it actually fast so where are we right now in practice uh tiny grad is faster than P torch stable diffusion on Mac um for a bunch of things where the fastest on uh AMD we're less competitive on Nvidia but only because the world has put tons and tons and tons of effort into Nvidia uh we're working on getting there and that's kind of where we are right now um something else that's really cool about tiny grab you can pass in this argument debug equals 2 and it will show you the real kernels that it's launching to the GPU um so you can see these kernels are batched because we're using the uh graph API on metal but these are the actual kernels um we have a cool argument here called jit graph equals 1 and that will graph whatever we put in tiny grads jit and then I can go over here to net. SVG and we can actually see what this looks like so this is the mest uh kernel sorry well this is the mest net um expressed in its simplest things so like you can see this sum is actually a convolution after some Matrix ups and does these then it does the backwards pass and then you'll see that this these are backwards passes and then this big here is the atom Optimizer um can you add convolution as a custom op so you don't need that why why do you think the convolutions in here are very fast um the convolution is automatically generated from movement Ops and reduce Ops uh so that is what tiny grad is and my belief is that eventually we will pass all the other deep learning libraries because of this as they start to collapse under the weight of their own complexity because they have multiplies in there we have ads and that's a different algorithmic order of complexity uh we end up winning uh deep learning okay",
+  "text_to_speech_word_count": 1213,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.500",
+      "start": "00:00:00.000",
+      "text": " So hello, welcome new people. My name is George Hots. I am working on a deep learning library called Tiny Grad."
+    },
+    {
+      "end": "00:00:15.125",
+      "start": "00:00:10.500",
+      "text": " So you can get Tiny Grad on GitHub on your friendly neighborhood GitHub."
+    },
+    {
+      "end": "00:00:18.667",
+      "start": "00:00:16.667",
+      "text": " And this is Tiny Grad."
+    },
+    {
+      "end": "00:00:22.208",
+      "start": "00:00:19.875",
+      "text": " It has 22,000 stars, so it can't be too bad."
+    },
+    {
+      "end": "00:00:26.292",
+      "start": "00:00:23.250",
+      "text": " Think about it like PyTorch. It's very similar to PyTorch."
+    },
+    {
+      "end": "00:00:30.875",
+      "start": "00:00:26.292",
+      "text": " Maybe the best example to start with is this example called Beautiful MNIST."
+    },
+    {
+      "end": "00:00:38.083",
+      "start": "00:00:30.875",
+      "text": " So Beautiful MNIST, this is an MNIST example. And unlike a lot of MNIST examples, it gets you 98%."
+    },
+    {
+      "end": "00:00:42.333",
+      "start": "00:00:38.083",
+      "text": " So we can go over here to my Mac, and we can actually run it."
+    },
+    {
+      "end": "00:00:46.875",
+      "start": "00:00:42.333",
+      "text": " So let's just update the latest master."
+    },
+    {
+      "end": "00:00:48.917",
+      "start": "00:00:46.875",
+      "text": " And then let's give it a try."
+    },
+    {
+      "end": "00:00:51.333",
+      "start": "00:00:48.917",
+      "text": " Examples of Beautiful MNIST."
+    },
+    {
+      "end": "00:00:54.125",
+      "start": "00:00:51.333",
+      "text": " So it's actually pretty fast."
+    },
+    {
+      "end": "00:00:57.125",
+      "start": "00:00:55.125",
+      "text": " It's training an MNIST model now."
+    },
+    {
+      "end": "00:01:02.125",
+      "start": "00:00:58.125",
+      "text": " And it got 97.69%."
+    },
+    {
+      "end": "00:01:05.125",
+      "start": "00:01:02.125",
+      "text": " You're like, oh, this is a boring, oh, we'll let the non-substalk."
+    },
+    {
+      "end": "00:01:07.125",
+      "start": "00:01:05.125",
+      "text": " We'll let the non-substalk. That's a good point."
+    },
+    {
+      "end": "00:01:12.125",
+      "start": "00:01:07.125",
+      "text": " We'll let the non-substalk. So this is Tiny Grad. Tiny Grad is my deep learning library."
+    },
+    {
+      "end": "00:01:18.125",
+      "start": "00:01:14.125",
+      "text": " It's actually a company. We are the TinyCorp, the TinyGrad.org."
+    },
+    {
+      "end": "00:01:23.125",
+      "start": "00:01:18.125",
+      "text": " We have, and we have two people working full time at the TinyCorp."
+    },
+    {
+      "end": "00:01:28.125",
+      "start": "00:01:23.125",
+      "text": " We have some interns that we're very excited about starting soon."
+    },
+    {
+      "end": "00:01:33.125",
+      "start": "00:01:28.125",
+      "text": " So yeah. So you're like, oh, well, why would you use this instead of PyTorch, right?"
+    },
+    {
+      "end": "00:01:35.125",
+      "start": "00:01:33.125",
+      "text": " And PyTorch is actually good software."
+    },
+    {
+      "end": "00:01:38.125",
+      "start": "00:01:35.125",
+      "text": " Unlike self-driving cars where everyone else is an idiot,"
+    },
+    {
+      "end": "00:01:41.125",
+      "start": "00:01:38.125",
+      "text": " PyTorch is actually pretty good software."
+    },
+    {
+      "end": "00:01:48.125",
+      "start": "00:01:41.125",
+      "text": " Jax is pretty good software. What are the differences between TinyGrad and the other frameworks?"
+    },
+    {
+      "end": "00:01:50.125",
+      "start": "00:01:48.125",
+      "text": " The whole difference is this."
+    },
+    {
+      "end": "00:01:54.125",
+      "start": "00:01:50.125",
+      "text": " These are the only operations that TinyGrad compiles to."
+    },
+    {
+      "end": "00:01:56.125",
+      "start": "00:01:54.125",
+      "text": " So we have unary ops, binary ops, and turnary ops."
+    },
+    {
+      "end": "00:01:58.125",
+      "start": "00:01:56.125",
+      "text": " Those are all examples of element-wise ops."
+    },
+    {
+      "end": "00:02:03.125",
+      "start": "00:01:58.125",
+      "text": " We have reduce ops, which can reduce an axis like a somewhere in Max."
+    },
+    {
+      "end": "00:02:07.125",
+      "start": "00:02:03.125",
+      "text": " We have buffer ops, which deal with actual physical buffers on the device."
+    },
+    {
+      "end": "00:02:13.125",
+      "start": "00:02:07.125",
+      "text": " We have movement ops, which deal with different ways to look at buffers."
+    },
+    {
+      "end": "00:02:19.125",
+      "start": "00:02:13.125",
+      "text": " And then we have load ops. And load ops are just like contiguous copy, very boring things."
+    },
+    {
+      "end": "00:02:25.125",
+      "start": "00:02:19.125",
+      "text": " So the only thing that really exists is element-wise ops, reduce ops, and movement ops."
+    },
+    {
+      "end": "00:02:28.125",
+      "start": "00:02:25.125",
+      "text": " And you're like, but George, how do you get a convolution?"
+    },
+    {
+      "end": "00:02:30.125",
+      "start": "00:02:28.125",
+      "text": " How do you get a matrix multiplication?"
+    },
+    {
+      "end": "00:02:34.125",
+      "start": "00:02:30.125",
+      "text": " Ha! I'll show you how you get a matrix multiplication."
+    },
+    {
+      "end": "00:02:37.125",
+      "start": "00:02:34.125",
+      "text": " So this is TinyGrad's map wall right here."
+    },
+    {
+      "end": "00:02:39.125",
+      "start": "00:02:37.125",
+      "text": " And we go right."
+    },
+    {
+      "end": "00:02:43.125",
+      "start": "00:02:39.125",
+      "text": " And it's not that fast. Right there, you're only getting 2.4, but it's a small matrix."
+    },
+    {
+      "end": "00:02:46.125",
+      "start": "00:02:43.125",
+      "text": " If you make it a big matrix, it will be a lot faster."
+    },
+    {
+      "end": "00:02:50.125",
+      "start": "00:02:46.125",
+      "text": " But that's still 2.4, tariff locks, which are pretty good."
+    },
+    {
+      "end": "00:02:52.125",
+      "start": "00:02:50.125",
+      "text": " So how does this work?"
+    },
+    {
+      "end": "00:02:55.125",
+      "start": "00:02:52.125",
+      "text": " Well, look at this code."
+    },
+    {
+      "end": "00:02:59.125",
+      "start": "00:02:55.125",
+      "text": " One way to think about a matrix multiply is to think about your two matrices that you're multiplying,"
+    },
+    {
+      "end": "00:03:03.125",
+      "start": "00:02:59.125",
+      "text": " putting them squares on faces of a cube, doing the N cubed to multiply,"
+    },
+    {
+      "end": "00:03:06.125",
+      "start": "00:03:03.125",
+      "text": " and then doing an N cubed sum."
+    },
+    {
+      "end": "00:03:09.125",
+      "start": "00:03:06.125",
+      "text": " And the last face of the cube is your multiplied matrix."
+    },
+    {
+      "end": "00:03:11.125",
+      "start": "00:03:09.125",
+      "text": " In TinyGrad, you can actually write it like that."
+    },
+    {
+      "end": "00:03:15.125",
+      "start": "00:03:12.125",
+      "text": " So you re-shape and multiply it together."
+    },
+    {
+      "end": "00:03:17.125",
+      "start": "00:03:15.125",
+      "text": " And then it's broadcasted to be the cube."
+    },
+    {
+      "end": "00:03:20.125",
+      "start": "00:03:17.125",
+      "text": " And then we sum across this axis of the cube."
+    },
+    {
+      "end": "00:03:22.125",
+      "start": "00:03:20.125",
+      "text": " And we are left with a matrix multiply."
+    },
+    {
+      "end": "00:03:25.125",
+      "start": "00:03:22.125",
+      "text": " You can also do convolutions like this."
+    },
+    {
+      "end": "00:03:28.125",
+      "start": "00:03:25.125",
+      "text": " So if we go in TensorFlow.py, which is the front end for TinyGrad,"
+    },
+    {
+      "end": "00:03:31.125",
+      "start": "00:03:28.125",
+      "text": " we can go check out the conv code."
+    },
+    {
+      "end": "00:03:34.125",
+      "start": "00:03:31.125",
+      "text": " So there is Winigrad in the conv code here."
+    },
+    {
+      "end": "00:03:38.125",
+      "start": "00:03:34.125",
+      "text": " This is Winigrad. But if you don't want to use Winigrad, this is the convolution."
+    },
+    {
+      "end": "00:03:42.125",
+      "start": "00:03:38.125",
+      "text": " It's very simple. It's really just a bunch of movement tops."
+    },
+    {
+      "end": "00:03:46.125",
+      "start": "00:03:42.125",
+      "text": " I think it's pretty good to look at this one called pool."
+    },
+    {
+      "end": "00:03:48.125",
+      "start": "00:03:46.125",
+      "text": " It's kind of confusing to read."
+    },
+    {
+      "end": "00:03:52.125",
+      "start": "00:03:48.125",
+      "text": " But when you understand what it's doing, you realize that you can express convolutions,"
+    },
+    {
+      "end": "00:03:58.125",
+      "start": "00:03:52.125",
+      "text": " matrix multiplies, all in terms of these absolute minimum set of operations."
+    },
+    {
+      "end": "00:04:00.125",
+      "start": "00:03:58.125",
+      "text": " Element-wise ops."
+    },
+    {
+      "end": "00:04:03.125",
+      "start": "00:04:00.125",
+      "text": " Reduce ops and movement ops."
+    },
+    {
+      "end": "00:04:06.125",
+      "start": "00:04:03.125",
+      "text": " So that is kind of the power of TinyGrad."
+    },
+    {
+      "end": "00:04:17.125",
+      "start": "00:04:07.125",
+      "text": " Whereas PyTorch will have a conv2D transpose on CUDA in Uint-8."
+    },
+    {
+      "end": "00:04:21.125",
+      "start": "00:04:17.125",
+      "text": " And have a specific set of code to implement that."
+    },
+    {
+      "end": "00:04:27.125",
+      "start": "00:04:21.125",
+      "text": " The problem with that is you have your operations multiplied by your runtimes,"
+    },
+    {
+      "end": "00:04:30.125",
+      "start": "00:04:27.125",
+      "text": " multiplied by your D-types."
+    },
+    {
+      "end": "00:04:35.125",
+      "start": "00:04:30.125",
+      "text": " Because of those multiplies, the amount of code you have to maintain is huge."
+    },
+    {
+      "end": "00:04:39.125",
+      "start": "00:04:36.125",
+      "text": " In TinyGrad, we factorize those concepts pretty well."
+    },
+    {
+      "end": "00:04:43.125",
+      "start": "00:04:39.125",
+      "text": " So the amount of code you have to maintain, you replace those multiplies with plus."
+    },
+    {
+      "end": "00:04:45.125",
+      "start": "00:04:43.125",
+      "text": " We have code that implements D-types."
+    },
+    {
+      "end": "00:04:50.125",
+      "start": "00:04:45.125",
+      "text": " And our code that implements D-types is completely independent of our code that implements convolutions."
+    },
+    {
+      "end": "00:04:55.125",
+      "start": "00:04:50.125",
+      "text": " If you add another D-type here, this D-type will work for all convolutions, all matrix multiplies,"
+    },
+    {
+      "end": "00:04:57.125",
+      "start": "00:04:55.125",
+      "text": " all max pools, all everything."
+    },
+    {
+      "end": "00:05:01.125",
+      "start": "00:04:57.125",
+      "text": " Then you say, how do we actually make it fast? Well, we believe in the bit of a lesson."
+    },
+    {
+      "end": "00:05:04.125",
+      "start": "00:05:01.125",
+      "text": " So we have a search machine here, which does a beam search."
+    },
+    {
+      "end": "00:05:09.125",
+      "start": "00:05:04.125",
+      "text": " To search over a bunch of permutations, you can do on a kernel."
+    },
+    {
+      "end": "00:05:12.125",
+      "start": "00:05:09.125",
+      "text": " And the permutations are defined right here."
+    },
+    {
+      "end": "00:05:16.125",
+      "start": "00:05:12.125",
+      "text": " All these different operations you can do to mess with the kernels, to keep the compute the same,"
+    },
+    {
+      "end": "00:05:18.125",
+      "start": "00:05:16.125",
+      "text": " but to make it actually fast."
+    },
+    {
+      "end": "00:05:21.125",
+      "start": "00:05:18.125",
+      "text": " So where are we right now in practice?"
+    },
+    {
+      "end": "00:05:25.125",
+      "start": "00:05:21.125",
+      "text": " TinyGrad is faster than PyTorch, stable diffusion on Mac."
+    },
+    {
+      "end": "00:05:31.125",
+      "start": "00:05:26.125",
+      "text": " For a bunch of things, we're the fastest on AMD."
+    },
+    {
+      "end": "00:05:37.125",
+      "start": "00:05:31.125",
+      "text": " We're less competitive on Nvidia, but only because the world has put tons and tons and tons of effort into Nvidia."
+    },
+    {
+      "end": "00:05:39.125",
+      "start": "00:05:37.125",
+      "text": " We're working on getting there."
+    },
+    {
+      "end": "00:05:41.125",
+      "start": "00:05:39.125",
+      "text": " And that's kind of where we are right now."
+    },
+    {
+      "end": "00:05:43.125",
+      "start": "00:05:41.125",
+      "text": " Something else that's really cool about TinyGrad."
+    },
+    {
+      "end": "00:05:50.125",
+      "start": "00:05:43.125",
+      "text": " You can pass in this argument debug equals two, and it will show you the real kernels that it's launching to the GPU."
+    },
+    {
+      "end": "00:05:55.125",
+      "start": "00:05:50.125",
+      "text": " So you can see these kernels are batched because we're using the graph API on metal."
+    },
+    {
+      "end": "00:05:57.125",
+      "start": "00:05:55.125",
+      "text": " But these are the actual kernels."
+    },
+    {
+      "end": "00:06:01.125",
+      "start": "00:05:57.125",
+      "text": " We have a cool argument here called GIT Graph equals one."
+    },
+    {
+      "end": "00:06:04.125",
+      "start": "00:06:01.125",
+      "text": " And that will graph whatever we put in TinyGrad's GIT."
+    },
+    {
+      "end": "00:06:08.125",
+      "start": "00:06:04.125",
+      "text": " And then I can go over here to net.svg."
+    },
+    {
+      "end": "00:06:11.125",
+      "start": "00:06:08.125",
+      "text": " And we can actually see what this looks like."
+    },
+    {
+      "end": "00:06:17.125",
+      "start": "00:06:11.125",
+      "text": " So this is the MNIST kernel."
+    },
+    {
+      "end": "00:06:20.125",
+      "start": "00:06:18.125",
+      "text": " Sorry, well, this is the MNIST net."
+    },
+    {
+      "end": "00:06:25.125",
+      "start": "00:06:20.125",
+      "text": " Expressing its simplest things."
+    },
+    {
+      "end": "00:06:32.125",
+      "start": "00:06:25.125",
+      "text": " So like you can see, this sum is actually a convolution after some matrix ups."
+    },
+    {
+      "end": "00:06:35.125",
+      "start": "00:06:32.125",
+      "text": " And does these, then it does the backwards pass."
+    },
+    {
+      "end": "00:06:38.125",
+      "start": "00:06:35.125",
+      "text": " And then you'll see that this, these are backwards passes."
+    },
+    {
+      "end": "00:06:42.125",
+      "start": "00:06:38.125",
+      "text": " And then this big shit here is the atom optimizer."
+    },
+    {
+      "end": "00:06:45.125",
+      "start": "00:06:42.125",
+      "text": " Can you add convolution as a custom op?"
+    },
+    {
+      "end": "00:06:47.125",
+      "start": "00:06:45.125",
+      "text": " So you don't need that."
+    },
+    {
+      "end": "00:06:51.125",
+      "start": "00:06:47.125",
+      "text": " Why do you think the convolutions in here are very fast?"
+    },
+    {
+      "end": "00:06:57.125",
+      "start": "00:06:51.125",
+      "text": " The convolution is automatically generated from movement ops and reduce ops."
+    },
+    {
+      "end": "00:07:00.125",
+      "start": "00:06:57.125",
+      "text": " So that is what TinyGrad is."
+    },
+    {
+      "end": "00:07:08.125",
+      "start": "00:07:00.125",
+      "text": " And my belief is that eventually we will pass all the other deep learning libraries because of this."
+    },
+    {
+      "end": "00:07:14.125",
+      "start": "00:07:08.125",
+      "text": " As they start to collapse under the weight of their own complexity because they have multiplies in there, we have ads."
+    },
+    {
+      "end": "00:07:17.125",
+      "start": "00:07:14.125",
+      "text": " So that's a different algorithmic order of complexity."
+    },
+    {
+      "end": "00:07:20.125",
+      "start": "00:07:17.125",
+      "text": " We end up winning."
+    },
+    {
+      "end": "00:07:21.125",
+      "start": "00:07:20.125",
+      "text": " Deep learning."
+    },
+    {
+      "end": "00:07:22.125",
+      "start": "00:07:21.125",
+      "text": " Okay."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "George Hotz Films",
+  "youtube_channel_follower_count": 1040,
+  "youtube_comment_count": 46,
+  "youtube_description": "Editor: Thuan Tan Pham (https://brokenricefilms.pages.dev)\n---\nThis is a fan channel. Not George Hotz personal YouTube channel.\nAnd\nDon't buy a Sony, Axel Nix, (sue George Hotz and your name can get added here)",
+  "youtube_like_count": 619,
+  "youtube_tags": [
+    "geohot"
+  ],
+  "youtube_title": "George Hotz explains tinygrad's approach to winning at deep learning",
+  "youtube_upload_date": "20240420",
+  "youtube_view_count": 32366
+}

@@ -1,0 +1,1064 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The primary focus of the video, showcasing the enhanced photorealistic elements within the game.",
+        "name": "Cars, Buildings, Environments"
+      }
+    ],
+    "description": "This video presents a technical method for enhancing the photorealism of Grand Theft Auto 5 (GTA 5) graphics, using visual comparisons to demonstrate its effectiveness.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "G-buffers contain geometric information (surface normals, distance to camera) and material information (albedo, glossiness) about the rendered scene, which is used to modulate the features and enhance realism.",
+        "question": "What is the primary purpose of the 'G-buffers' used in the method?"
+      },
+      {
+        "answer": "They decrease the field of view during training and show the network corresponding scenes from both the real-world dataset (like Cityscapes) and the rendered images from GTA V, ensuring that the network learns to compare similar content and avoid hallucinating objects.",
+        "question": "How does their method address the 'scene layout' problem during training?"
+      },
+      {
+        "answer": "Training on VGG features allows the network to learn a model of realism at multiple perceptual levels, capturing a richer understanding of the visual characteristics that contribute to realism.",
+        "question": "Why does the method train on VGG features instead of directly on images when training the perceptual discriminator?"
+      },
+      {
+        "answer": "Color transfer only matches the color distribution between the game graphics and the real-world images; it does not modify the underlying synthetic appearance of objects like roads and trees.",
+        "question": "What are the limitations of the 'Color Transfer' approach mentioned in the video?"
+      },
+      {
+        "answer": "Their method does not require a reference photo for each frame, which makes it more robust to scene changes and avoids the temporal instability that can arise when the rendered images deviate from the fixed reference photo.",
+        "question": "How does their method differ from prior work that relies on a reference photo for style transfer?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "A car is driving through a street in GTA V.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene introduces the topic – enhancing photorealism in video games, and sets the context by showing footage from GTA V.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "The screen splits, visually introducing the output of their method, creating anticipation and curiosity.",
+              "timestamp": "00:00:14.014"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The title card announces the focus on enhancing photorealism enhancement.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Footage from GTA V is shown, serving as a baseline for comparison.",
+            "timestamp": "00:00:03.003"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars, Buildings, Street, Traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Photorealism in video games, Computer graphics, Image enhancement",
+        "timestamps": {
+          "end_timestamp": "00:00:16.984",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with title and authors, Transition to GTA V footage, Text overlay 'GTA V', Split screen transition with text overlay 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A car is driving through a street, now showing the improved version on the right.",
+            "timestamp": {
+              "end_timestamp": "00:00:33.800",
+              "start_timestamp": "00:00:17.017"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene explains their method, highlighting its key features and how it translates the visuals of GTA V into a more realistic style based on the Cityscapes dataset.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The split screen visually showcases the difference between the original GTA V footage and the output of their method. The narration mentions the method being a convolutional network capable of real-time processing.",
+            "timestamp": "00:00:17.017"
+          },
+          {
+            "description": "The narration emphasizes the training data being the Cityscapes dataset.",
+            "timestamp": "00:00:28.996"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars, Buildings, Street, Traffic lights, Greenery",
+            "timestamp": {
+              "end_timestamp": "00:00:33.800",
+              "start_timestamp": "00:00:17.017"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Image processing, Convolutional networks, Training data, Realism",
+        "timestamps": {
+          "end_timestamp": "00:00:33.800",
+          "start_timestamp": "00:00:17.017"
+        },
+        "title": "Explaining the Method",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen comparison with text overlays: 'GTA V' and 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:00:33.800",
+              "start_timestamp": "00:00:17.017"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene briefly introduces the Cityscapes dataset, which is used as the training data for their method.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Still images from the Cityscapes dataset are shown, providing visual context for the training data.",
+            "timestamp": "00:00:35.002"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images of streets, buildings, cars, traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:00:43.010",
+              "start_timestamp": "00:00:35.002"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Data-driven approach, Real-world imagery",
+        "timestamps": {
+          "end_timestamp": "00:00:43.777",
+          "start_timestamp": "00:00:33.834"
+        },
+        "title": "Cityscapes Dataset",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to still image montage showcasing Cityscapes dataset, Text overlay: 'The Cityscapes dataset', Transition back to split-screen video comparison",
+            "timestamps": {
+              "end_timestamp": "00:00:43.777",
+              "start_timestamp": "00:00:34.001"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A car is driving through different streets, showing the improved version on the right.",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:00:44.011"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This lengthy scene demonstrates the results of their method and compares it to existing state-of-the-art techniques, highlighting the advantages of their approach in terms of temporal stability and reduced artifacts.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "The comparison shifts from a general overview to comparing their method to specific state-of-the-art approaches ('CUT' and 'TSIT'), likely creating heightened interest.",
+              "timestamp": "00:01:07.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The split screen continues showcasing the enhanced visuals, focusing on various aspects like road textures, car glossiness, and greenery.",
+            "timestamp": "00:00:44.011"
+          },
+          {
+            "description": "The comparison shifts to specific state-of-the-art method 'CUT'.",
+            "timestamp": "00:01:07.000"
+          },
+          {
+            "description": "The narration points out the issues with 'CUT,' such as temporal instability and object hallucinations.",
+            "timestamp": "00:01:17.010"
+          },
+          {
+            "description": "The comparison shifts to another state-of-the-art method 'TSIT'.",
+            "timestamp": "00:01:23.984"
+          },
+          {
+            "description": "The narration highlights the drawbacks of 'TSIT' similar to 'CUT' and additional artifacts.",
+            "timestamp": "00:01:28.989"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars, Buildings, Street, Traffic lights, Greenery, Palm trees, Trucks, Motorcycles",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:00:44.011"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Visual fidelity, Temporal stability, Artifacts, Comparison with existing methods",
+        "timestamps": {
+          "end_timestamp": "00:01:41.802",
+          "start_timestamp": "00:00:43.810"
+        },
+        "title": "Results and Comparison",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen comparison with text overlays: 'GTA V' and 'Ours', 'GTA V' and 'CUT', 'TSIT' and 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:00:44.011"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene dives deeper into the technical aspects of their method, illustrating the flow of information and the role of various components, including G-buffers, encoders, enhancement networks, and discriminators.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "The scene zooms into the G-buffer encoder, transitioning from a high-level overview to a detailed explanation, likely triggering further curiosity.",
+              "timestamp": "00:02:43.997"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The diagram presents a visual overview of the method's workflow, explaining each component's role in enhancing photorealism.",
+            "timestamp": "00:01:43.003"
+          },
+          {
+            "description": "The diagram introduces G-Buffers and their function in providing geometric and material information, and the flow of G-Buffers through an encoder to produce feature tensors.",
+            "timestamp": "00:01:51.011"
+          },
+          {
+            "description": "The training process involving a perceptual discriminator and use of real photos as training data is detailed.",
+            "timestamp": "00:02:20.007"
+          },
+          {
+            "description": "The scene zooms in on the G-buffer encoder, explaining the use of multiple convolutional network streams for different object types.",
+            "timestamp": "00:02:43.997"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram showing the method, images of G-Buffers, labels for different components (Rendered Image, G-Buffers, G-Buffer Encoder, Image Enhancement Network, Enhanced Image, Perceptual Discriminator, Realism Score, LPIPS, LPIPS Score, Real Image, Conv1, ReLU, Conv2, RAD, GroupNorm, Conv P, CGL Block, CLC Layer, Embedding, Label map, Class Label map, Stream 0, Stream 1, Stream C, Mask 0, Mask 1, Mask C, Residual Block, 128, 1, ½, ¼, ⅛, 256, e, s, y, z)",
+            "timestamp": {
+              "end_timestamp": "00:03:58.004",
+              "start_timestamp": "00:01:43.003"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Technical details, Convolutional networks, Feature extraction, Perceptual learning, G-buffers, Discriminators",
+        "timestamps": {
+          "end_timestamp": "00:03:59.973",
+          "start_timestamp": "00:01:41.835"
+        },
+        "title": "Method Details",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a schematic diagram of their method, Zoom in and out animations within the diagram",
+            "timestamps": {
+              "end_timestamp": "00:03:58.004",
+              "start_timestamp": "00:01:41.835"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene explains how the perceptual discriminator works to evaluate realism, emphasizing the use of a robust segmentation network and VGG-16 for feature extraction. It also highlights the challenge of scene layout differences between rendered and real images.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "The scene transitions to a montage of image patches, demonstrating the challenge of scene layout differences between the datasets, likely creating a sense of intrigue.",
+              "timestamp": "00:04:49.990"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The focus shifts to the inner workings of the perceptual discriminator, emphasizing the use of a robust segmentation network and VGG-16 for feature extraction, and challenges of scene layout differences.",
+            "timestamp": "00:04:00.006"
+          },
+          {
+            "description": "The importance of passing both rendered and real images through the segmentation network for consistency in object classes is explained.",
+            "timestamp": "00:04:32.005"
+          },
+          {
+            "description": "The scene shifts to image patches from Cityscapes and GTA V, showcasing the different scene layouts.",
+            "timestamp": "00:04:49.990"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram, Images of the city, cars, cyclists, buildings, trees, pedestrian, street.",
+            "timestamp": {
+              "end_timestamp": "00:04:55.295",
+              "start_timestamp": "00:04:00.006"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Perceptual discrimination, Segmentation networks, Feature extraction, Scene layout differences",
+        "timestamps": {
+          "end_timestamp": "00:04:55.295",
+          "start_timestamp": "00:04:00.006"
+        },
+        "title": "Discriminatory Network",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom in on the Perceptual Discriminator part of the diagram, Montage of image patches from Cityscapes and GTA V",
+            "timestamps": {
+              "end_timestamp": "00:04:55.295",
+              "start_timestamp": "00:04:00.006"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A car is driving through a street.",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:55.996"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene introduces a sampling strategy to address the scene layout problem and continues showcasing the results and comparing them to different techniques, including color transfer.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "A different comparison method (color transfer) is introduced, likely keeping the viewer engaged and curious about the nuances between the techniques.",
+              "timestamp": "00:06:02.996"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the sampling strategy to address the scene layout problem, reducing field of view during training and showing corresponding scenes from both datasets.",
+            "timestamp": "00:04:55.996"
+          },
+          {
+            "description": "The split screen now compares their method with 'Color Transfer' approach, explaining its limitations in modifying only colors.",
+            "timestamp": "00:06:02.996"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars, bus, buildings, street, trees, garbage bin, pedestrian.",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:55.996"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Sampling strategies, Field of view, Color transfer, Realism",
+        "timestamps": {
+          "end_timestamp": "00:06:10.670",
+          "start_timestamp": "00:04:55.328"
+        },
+        "title": "Sampling Strategy and More Results",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen comparison with text overlays: 'GTA V' and 'Ours', 'Color Transfer' and 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:55.996"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A car is driving through a street.",
+            "timestamp": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:06:11.004"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene showcases additional results and further emphasizes the improvements achieved by their method in comparison to three other state-of-the-art techniques: WCT2, CUT, and TSIT.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The comparison shifts to 'WCT2,' 'CUT,' and 'TSIT,' explaining each method's strengths and weaknesses, emphasizing their temporal instability and object hallucinations.",
+            "timestamp": "00:06:11.004"
+          },
+          {
+            "description": "Reiteration of the need for a favorable reference photo for 'TSIT' and the potential for artifacts and instability.",
+            "timestamp": "00:07:27.013"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars, buildings, street, trees, pedestrian",
+            "timestamp": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:06:11.004"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Visual comparisons, State-of-the-art techniques, Temporal stability, Artifacts",
+        "timestamps": {
+          "end_timestamp": "00:07:41.528",
+          "start_timestamp": "00:06:10.704"
+        },
+        "title": "WCT2 Comparison and More Results",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen comparison with text overlays: 'WCT2' and 'Ours', 'CUT' and 'Ours', 'TSIT' and 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:06:11.004"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A car is driving through a street.",
+            "timestamp": {
+              "end_timestamp": "00:08:31.011",
+              "start_timestamp": "00:07:41.561"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene concludes by showcasing their method trained on a different dataset (Mapillary Vistas) and demonstrates its ability to generalize across diverse real-world imagery.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcasing results from their method trained on Mapillary Vistas dataset, mentioning Vistas' diverse images captured with different cameras from around the world.",
+            "timestamp": "00:07:41.561"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars, buildings, street, traffic lights, hills, pedestrian.",
+            "timestamp": {
+              "end_timestamp": "00:08:31.011",
+              "start_timestamp": "00:07:41.561"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Generalization, Diverse datasets, Photorealistic style transfer",
+        "timestamps": {
+          "end_timestamp": "00:08:33.013",
+          "start_timestamp": "00:07:41.561"
+        },
+        "title": "Mapillary Vistas and Final Results",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen comparison with text overlays: 'GTA V' and 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:08:31.011",
+              "start_timestamp": "00:07:41.561"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is likely spread throughout Scene 4 where the results of their method are prominently showcased and initially compared to state-of-the-art methods, providing the strongest visual evidence of their achievements.",
+        "timestamp": "00:00:44.011"
+      },
+      "description": "Enhancing Photorealism in GTA V",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "title": "Enhancing Photorealism in GTA V",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened or integrated into Scene 2 to maintain a faster pace.",
+        "timestamps": {
+          "end_timestamp": "00:07:41.561",
+          "start_timestamp": "00:07:41.561"
+        }
+      },
+      {
+        "description": "While the most visually compelling, certain segments could be trimmed slightly to avoid repetition and keep the comparisons concise.",
+        "timestamps": {
+          "end_timestamp": "00:07:41.561",
+          "start_timestamp": "00:07:41.561"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 513,
+  "original_json_filename": "R7xsm0M76to.json",
+  "original_video_filename": "R7xsm0M76to.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this work we are enhancing&nbsp; photo realism enhancement&nbsp;&nbsp; to understand what that means let us have a look&nbsp; at some footage from the game grand theft auto&nbsp;&nbsp; 5. the game looks great but it is not quite&nbsp; photorealistic let us now turn on our method&nbsp;&nbsp; our method modifies the images from the game&nbsp; to look more realistic it is a convolutional&nbsp;&nbsp; network which produces images frame by&nbsp; frame and can be run at interactive rates this model was trained to translate&nbsp; gta 5 to the cityscapes dataset cityscapes contains mostly images of german&nbsp; cities recorded with an automotive grade camera&nbsp;&nbsp; here are a few examples from the dataset with the model of reality induced by cityscapes&nbsp; our method paves the roads with smoother asphalt&nbsp;&nbsp; increases the glossiness of car paint and&nbsp; greens the sun-dried hills of gta's california&nbsp;&nbsp; the results are geometrically&nbsp; and semantically consistent&nbsp;&nbsp; with the input images and temporally stable let us have a look at the state of the&nbsp; art in comparison to our work here is&nbsp;&nbsp; contrastive unpaired image to image translation&nbsp; or cut for short cut is less temporally stable&nbsp;&nbsp; and hallucinates objects such as trees in the&nbsp; sky or mercedes stars on the hood of the car&nbsp;&nbsp; here's another state-of-the-art&nbsp; approach similar to cut&nbsp;&nbsp; t-set is less temporally stable and&nbsp; adds many artifacts to the images let us now look at our method&nbsp; in detail to understand why&nbsp;&nbsp; it is more stable and produces less artifacts our method takes a rendered image from the game&nbsp; and passes it through an image enhancement network&nbsp;&nbsp; to produce an enhanced image we further extract a&nbsp; set of rendering buffers called g buffers produced&nbsp;&nbsp; by the game engine g buffers contain geometric&nbsp; information such as surface normals or distance&nbsp;&nbsp; to the camera material information such as albedo&nbsp; or glossiness they may also contain information&nbsp;&nbsp; about the lighting in a scene we pass the buffers&nbsp; through a g-buffer encoder network to produce&nbsp;&nbsp; feature tensors at multiple scales the tensors&nbsp; encode the information about the rendered scene&nbsp;&nbsp; to train our networks for enhancing realism&nbsp; we employ a perceptual discriminator for each&nbsp;&nbsp; image it takes in it produces a realism score to&nbsp; make it understand what the real world looks like&nbsp;&nbsp; we also feed it real photos to ensure that our&nbsp; networks retain the structure of rendered images&nbsp;&nbsp; we further add them to the discriminator&nbsp; inputs and employ a perceptual loss&nbsp;&nbsp; let us now zoom in on the g buffer encoder&nbsp; from the g buffers we can derive a semantic&nbsp;&nbsp; class label map which assigns an object id&nbsp; to every pixel we pass the g buffers through&nbsp;&nbsp; multiple convolutional network streams and&nbsp; fuse the streams again based on the object ids&nbsp;&nbsp; this allows the encoder to learn different ways&nbsp; of processing for each type of object for example&nbsp;&nbsp; trees will be treated differently from cars the&nbsp; resulting feature tensors are further processed by&nbsp;&nbsp; residual blocks which output tensors at multiple&nbsp; scales let us now look at the image enhancement&nbsp;&nbsp; network to see what we can do with these&nbsp; multi-scale tensors the enhancement network is&nbsp;&nbsp; based on hr net which processes images at multiple&nbsp; scales in parallel each scale of the feature&nbsp;&nbsp; tensors matches a scale in the network the network&nbsp; consists of many residual blocks at each scale&nbsp;&nbsp; within the residual blocks we replace the&nbsp; batch normalization layers with our own&nbsp;&nbsp; rendering aware denormalization blocks or rad for&nbsp; short the rad layers modulate features based on&nbsp;&nbsp; the rendering information in the g buffer feature&nbsp; tensors for more details we refer to our paper let us now look at how the perceptual&nbsp; discriminator works the discriminator contains a&nbsp;&nbsp; robust semantic segmentation network and a network&nbsp; for extracting perceptual features in this case&nbsp;&nbsp; a vgg-16 we extract features from the vgg&nbsp; at multiple levels and pass them through&nbsp;&nbsp; a convolutional network this differs from prior&nbsp; work that trains discriminators directly on images&nbsp;&nbsp; training on vgg features allows our&nbsp; network to quickly learn a model of realism&nbsp;&nbsp; at multiple perceptual levels we further pass the&nbsp; unmodified rendered image as well as real images&nbsp;&nbsp; through the segmentation network to obtain a&nbsp; label map for each the label map is used to&nbsp;&nbsp; specialize the discriminator on individual&nbsp; object classes since we use a pre-trained&nbsp;&nbsp; robust segmentation network the object classes&nbsp; are consistent for rendered and real images&nbsp;&nbsp; for more details we refer to our paper there is&nbsp; one more thing for training discriminator networks&nbsp;&nbsp; the common choice is to take in as much of an&nbsp; image as possible the reasoning is that the more&nbsp;&nbsp; context of a scene the network sees the better we&nbsp; started with this strategy as well and found it&nbsp;&nbsp; to be sub-optimal because scene layouts between&nbsp; real and rendered images can be quite different&nbsp;&nbsp; here we see the probabilities for each&nbsp; pixel to contain a certain type of object&nbsp;&nbsp; the top row shows cityscapes the bottom gta 5.&nbsp; images from gta contain much more sky at the top&nbsp;&nbsp; where cityscapes images contain vegetation images&nbsp; from cityscapes have a mercedes star at the bottom&nbsp;&nbsp; if we train our network with full images&nbsp; from both data sets it will start adding&nbsp;&nbsp; mercedes stars and place trees in the sky we&nbsp; observe this effect in many other approaches&nbsp;&nbsp; one part of our solution is to decrease the field&nbsp; of view for the network and show it corresponding&nbsp;&nbsp; scenes from both data sets when training our&nbsp; network we sample rendered and real image patches&nbsp;&nbsp; that roughly contain the same things this is done&nbsp; automatically and requires no access to semantic&nbsp;&nbsp; label maps more details can be found in our paper&nbsp; let us now look at more results and comparisons&nbsp;&nbsp; here we see gta again and on the right&nbsp; the results produced by our method here we see the results from classic color&nbsp; transfer color transfer matches the color&nbsp;&nbsp; distribution of gta to cityscapes but it does not&nbsp; modify images beyond the colors roads and trees&nbsp;&nbsp; keep their synthetic appearance unlike many other&nbsp; approaches color transfer is temporally stable&nbsp;&nbsp; here is wct2 a state-of-the-art photo style&nbsp; transfer approach wct2 requires a reference&nbsp;&nbsp; photo it can become temporally unstable if&nbsp; rendered images and the reference diverge&nbsp;&nbsp; here we see again results from cut cut commonly&nbsp; hallucinates objects like trees in the sky&nbsp;&nbsp; and the star on the hood the sampling strategy&nbsp; of our approach alleviates such artifacts here we see t-set an image&nbsp; to image translation approach&nbsp;&nbsp; tcit also requires a favorable&nbsp; reference photo which may cause&nbsp;&nbsp; artifacts and temporal instability if&nbsp; rendered images and the reference diverge finally let us look at gta again and here's our method trained&nbsp; on the mapillary vistas data set&nbsp;&nbsp; vistas features diverse images from around the&nbsp; world recorded with different types of cameras&nbsp;&nbsp; our method captures the style of&nbsp; this data set with its vibrant colors&nbsp;&nbsp; while keeping the semantic and&nbsp; geometric content of the underlying game you",
+  "text_to_speech_word_count": 1148,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.570",
+      "start": "00:00:00.000",
+      "text": " In this work, we are enhancing photo realism enhancement."
+    },
+    {
+      "end": "00:00:08.976",
+      "start": "00:00:03.570",
+      "text": " To understand what that means, let us have a look at some footage from the game Grand Theft Auto 5."
+    },
+    {
+      "end": "00:00:12.980",
+      "start": "00:00:08.976",
+      "text": " The game looks great, but it is not quite photo realistic."
+    },
+    {
+      "end": "00:00:14.982",
+      "start": "00:00:12.980",
+      "text": " Let us now turn on our method."
+    },
+    {
+      "end": "00:00:18.986",
+      "start": "00:00:14.982",
+      "text": " Our method modifies the images from the game to look more realistic."
+    },
+    {
+      "end": "00:00:24.992",
+      "start": "00:00:18.986",
+      "text": " It is a convolutional network which produces images frame by frame and can be run at interactive rates."
+    },
+    {
+      "end": "00:00:31.999",
+      "start": "00:00:24.992",
+      "text": " This model was trained to translate GTA 5 to the cityscapes dataset."
+    },
+    {
+      "end": "00:00:39.973",
+      "start": "00:00:31.999",
+      "text": " Cityscapes contains mostly images of German cities recorded with an automotive grade camera."
+    },
+    {
+      "end": "00:00:42.976",
+      "start": "00:00:39.973",
+      "text": " Here are a few examples from the dataset."
+    },
+    {
+      "end": "00:00:51.985",
+      "start": "00:00:42.976",
+      "text": " With a model of reality induced by cityscapes, our method paves the roads with smoother asphalt,"
+    },
+    {
+      "end": "00:00:57.991",
+      "start": "00:00:51.985",
+      "text": " increases the glossiness of car paint and greens the sun-dried hills of GTA's California."
+    },
+    {
+      "end": "00:01:03.997",
+      "start": "00:00:57.991",
+      "text": " The results are geometrically and semantically consistent with the input images and temporally stable."
+    },
+    {
+      "end": "00:01:10.971",
+      "start": "00:01:06.967",
+      "text": " Let us have a look at the state of the art in comparison to our work."
+    },
+    {
+      "end": "00:01:15.976",
+      "start": "00:01:10.971",
+      "text": " Here is contrastive, unpaired image to image translation, or cut for short."
+    },
+    {
+      "end": "00:01:24.985",
+      "start": "00:01:16.977",
+      "text": " Cut is less temporally stable and hallucinates objects, such as trees in the sky or Mercedes stars on the hood of the car."
+    },
+    {
+      "end": "00:01:26.987",
+      "start": "00:01:24.985",
+      "text": " Here is another state of the art approach."
+    },
+    {
+      "end": "00:01:34.995",
+      "start": "00:01:26.987",
+      "text": " Similar to cut, T-set is less temporally stable and adds many artifacts to the images."
+    },
+    {
+      "end": "00:01:42.970",
+      "start": "00:01:34.995",
+      "text": " Let us now look at our method in detail to understand why it is more stable and produces less artifacts."
+    },
+    {
+      "end": "00:01:49.977",
+      "start": "00:01:42.970",
+      "text": " Our method takes a rendered image from the game and passes it through an image enhancement network to produce an enhanced image."
+    },
+    {
+      "end": "00:01:55.983",
+      "start": "00:01:49.977",
+      "text": " We further extract a set of rendering buffers called G-Buffers produced by the game engine."
+    },
+    {
+      "end": "00:02:04.992",
+      "start": "00:01:55.983",
+      "text": " G-Buffers contain geometric information, such as surface normals or distance to the camera, material information such as albedo or glossiness."
+    },
+    {
+      "end": "00:02:08.996",
+      "start": "00:02:04.992",
+      "text": " They may also contain information about the lighting in a scene."
+    },
+    {
+      "end": "00:02:15.969",
+      "start": "00:02:09.997",
+      "text": " We pass the buffers through a G-Buffer and Coder network to produce feature tensors at multiple scales."
+    },
+    {
+      "end": "00:02:19.973",
+      "start": "00:02:15.969",
+      "text": " The tensors encode the information about the rendered scene."
+    },
+    {
+      "end": "00:02:24.978",
+      "start": "00:02:19.973",
+      "text": " To train our networks for enhancing realism, we employ a perceptual discriminator."
+    },
+    {
+      "end": "00:02:28.982",
+      "start": "00:02:24.978",
+      "text": " For each image it takes in, it produces a realism score."
+    },
+    {
+      "end": "00:02:33.987",
+      "start": "00:02:28.982",
+      "text": " To make it understand what the real world looks like, we also feed it real photos."
+    },
+    {
+      "end": "00:02:43.997",
+      "start": "00:02:34.988",
+      "text": " To ensure that our networks retain the structure of rendered images, we further add them to the discriminator inputs and employ a perceptual loss."
+    },
+    {
+      "end": "00:02:46.967",
+      "start": "00:02:43.997",
+      "text": " Let us now zoom in on the G-Buffer encoder."
+    },
+    {
+      "end": "00:02:53.974",
+      "start": "00:02:46.967",
+      "text": " From the G-Buffers, we can derive a semantic class label map, which assigns an object ID to every pixel."
+    },
+    {
+      "end": "00:03:01.982",
+      "start": "00:02:53.974",
+      "text": " We pass the G-Buffers through multiple convolutional network streams and fuse the streams again based on the object IDs."
+    },
+    {
+      "end": "00:03:06.987",
+      "start": "00:03:01.982",
+      "text": " This allows the encoder to learn different ways of processing for each type of object."
+    },
+    {
+      "end": "00:03:09.990",
+      "start": "00:03:06.987",
+      "text": " For example, trees will be treated differently from cars."
+    },
+    {
+      "end": "00:03:16.997",
+      "start": "00:03:09.990",
+      "text": " The resulting feature tensors are further processed by residual blocks, which output tensors at multiple scales."
+    },
+    {
+      "end": "00:03:22.969",
+      "start": "00:03:16.997",
+      "text": " Let us now look at the Image Enhancement Network to see what we can do with these multi-scale tensors."
+    },
+    {
+      "end": "00:03:29.976",
+      "start": "00:03:22.969",
+      "text": " The Enhancement Network is based on HRNet, which processes images at multiple scales in parallel."
+    },
+    {
+      "end": "00:03:33.980",
+      "start": "00:03:29.976",
+      "text": " Each scale of the feature tensors matches a scale in the network."
+    },
+    {
+      "end": "00:03:37.984",
+      "start": "00:03:33.980",
+      "text": " The network consists of many residual blocks at each scale."
+    },
+    {
+      "end": "00:03:47.994",
+      "start": "00:03:37.984",
+      "text": " Within the residual blocks, we replace the batch normalization layers with our own rendering-aware denormalization blocks, or RAD for short."
+    },
+    {
+      "end": "00:03:53.967",
+      "start": "00:03:47.994",
+      "text": " The RAD layers modulate features based on the rendering information in the G-Buffer feature tensors."
+    },
+    {
+      "end": "00:03:56.970",
+      "start": "00:03:53.967",
+      "text": " For more details, we refer to our paper."
+    },
+    {
+      "end": "00:04:02.976",
+      "start": "00:03:57.971",
+      "text": " Let us now look at how the perceptual discriminator works."
+    },
+    {
+      "end": "00:04:12.986",
+      "start": "00:04:02.976",
+      "text": " The discriminator contains a robust semantic segmentation network and a network for extracting perceptual features, in this case a VGG-16."
+    },
+    {
+      "end": "00:04:19.993",
+      "start": "00:04:12.986",
+      "text": " We extract features from the VGG at multiple levels and pass them through a convolutional network."
+    },
+    {
+      "end": "00:04:23.997",
+      "start": "00:04:19.993",
+      "text": " This differs from prior work that trains discriminators directly on images."
+    },
+    {
+      "end": "00:04:31.972",
+      "start": "00:04:24.998",
+      "text": " Training on VGG features allows our network to quickly learn a model of realism at multiple perceptual levels."
+    },
+    {
+      "end": "00:04:39.980",
+      "start": "00:04:31.972",
+      "text": " We further pass the unmodified rendered image, as well as real images, through the segmentation network to obtain a label map for each."
+    },
+    {
+      "end": "00:04:44.985",
+      "start": "00:04:39.980",
+      "text": " The label map is used to specialize the discriminator on individual object classes."
+    },
+    {
+      "end": "00:04:52.993",
+      "start": "00:04:44.985",
+      "text": " Since we use a pre-trained, robust segmentation network, the object classes are consistent for rendered and real images."
+    },
+    {
+      "end": "00:04:55.996",
+      "start": "00:04:52.993",
+      "text": " For more details, we refer to our paper."
+    },
+    {
+      "end": "00:04:57.998",
+      "start": "00:04:55.996",
+      "text": " There is one more thing."
+    },
+    {
+      "end": "00:05:03.970",
+      "start": "00:04:57.998",
+      "text": " For training discriminator networks, the common choice is to take in as much of an image as possible."
+    },
+    {
+      "end": "00:05:08.975",
+      "start": "00:05:03.970",
+      "text": " The reasoning is that the more context of a scene the network sees, the better."
+    },
+    {
+      "end": "00:05:16.983",
+      "start": "00:05:08.975",
+      "text": " We started with this strategy as well and found it to be suboptimal because scene layouts between real and rendered images can be quite different."
+    },
+    {
+      "end": "00:05:21.988",
+      "start": "00:05:17.984",
+      "text": " Here we see the probabilities for each pixel to contain a certain type of object."
+    },
+    {
+      "end": "00:05:26.993",
+      "start": "00:05:21.988",
+      "text": " The top row shows cityscapes, the bottom GTA 5."
+    },
+    {
+      "end": "00:05:33.967",
+      "start": "00:05:26.993",
+      "text": " Images from GTA contain much more sky at the top, where cityscapes images contain vegetation."
+    },
+    {
+      "end": "00:05:37.971",
+      "start": "00:05:33.967",
+      "text": " Images from cityscapes have a Mercedes star at the bottom."
+    },
+    {
+      "end": "00:05:44.978",
+      "start": "00:05:37.971",
+      "text": " If we train our network with full images from both datasets, it will start adding Mercedes stars and place trees in the sky."
+    },
+    {
+      "end": "00:05:47.981",
+      "start": "00:05:44.978",
+      "text": " We observe this effect in many other approaches."
+    },
+    {
+      "end": "00:05:55.989",
+      "start": "00:05:47.981",
+      "text": " One part of our solution is to decrease the field of view for the network and show it corresponding scenes from both datasets."
+    },
+    {
+      "end": "00:06:02.996",
+      "start": "00:05:55.989",
+      "text": " When training our network, we sample rendered and real image patches that roughly contain the same things."
+    },
+    {
+      "end": "00:06:07.968",
+      "start": "00:06:02.996",
+      "text": " This is done automatically and requires no access to semantic label maps."
+    },
+    {
+      "end": "00:06:10.971",
+      "start": "00:06:07.968",
+      "text": " More details can be found in our paper."
+    },
+    {
+      "end": "00:06:14.975",
+      "start": "00:06:11.972",
+      "text": " Let us now look at more results and comparisons."
+    },
+    {
+      "end": "00:06:16.977",
+      "start": "00:06:14.975",
+      "text": " Here we see GTA again."
+    },
+    {
+      "end": "00:06:19.980",
+      "start": "00:06:16.977",
+      "text": " And on the right, the results produced by our method."
+    },
+    {
+      "end": "00:06:29.990",
+      "start": "00:06:19.980",
+      "text": " Here we see the results from classic color transfer."
+    },
+    {
+      "end": "00:06:34.995",
+      "start": "00:06:29.990",
+      "text": " Color transfer matches the color distribution of GTA to cityscapes."
+    },
+    {
+      "end": "00:06:37.998",
+      "start": "00:06:34.995",
+      "text": " But it does not modify images beyond the colors."
+    },
+    {
+      "end": "00:06:40.967",
+      "start": "00:06:37.998",
+      "text": " Roads and trees keep their synthetic appearance."
+    },
+    {
+      "end": "00:06:44.971",
+      "start": "00:06:40.967",
+      "text": " Unlike many other colors, we see the results from classic color transfer."
+    },
+    {
+      "end": "00:06:48.975",
+      "start": "00:06:44.971",
+      "text": " Color transfer matches the color distribution of GTA to cityscapes."
+    },
+    {
+      "end": "00:06:53.980",
+      "start": "00:06:48.975",
+      "text": " Unlike many other approaches, color transfer is temporarily stable."
+    },
+    {
+      "end": "00:06:58.985",
+      "start": "00:06:53.980",
+      "text": " Here is WCT2, a state-of-the-art photo-style transfer approach."
+    },
+    {
+      "end": "00:07:01.988",
+      "start": "00:06:58.985",
+      "text": " WCT2 requires a reference photo."
+    },
+    {
+      "end": "00:07:06.993",
+      "start": "00:07:01.988",
+      "text": " It can become temporarily unstable if rendered images and the reference diverge."
+    },
+    {
+      "end": "00:07:09.996",
+      "start": "00:07:06.993",
+      "text": " Here we see again results from cut."
+    },
+    {
+      "end": "00:07:14.968",
+      "start": "00:07:09.996",
+      "text": " Cut commonly hallucinates objects like trees in the sky and the star on the hood."
+    },
+    {
+      "end": "00:07:21.975",
+      "start": "00:07:14.968",
+      "text": " The sampling strategy of our approach alleviates such artifacts."
+    },
+    {
+      "end": "00:07:26.980",
+      "start": "00:07:21.975",
+      "text": " Here we see T-SIT, an image-to-image translation approach."
+    },
+    {
+      "end": "00:07:33.987",
+      "start": "00:07:26.980",
+      "text": " T-SIT also requires a favorable reference photo, which may cause artifacts and temporal instability"
+    },
+    {
+      "end": "00:07:42.996",
+      "start": "00:07:33.987",
+      "text": " if rendered images and the reference diverge."
+    },
+    {
+      "end": "00:07:47.000",
+      "start": "00:07:42.996",
+      "text": " Finally, let us look at GTA again."
+    },
+    {
+      "end": "00:07:50.971",
+      "start": "00:07:47.000",
+      "text": " And here is our method trained on the Mapillary Vista's data set."
+    },
+    {
+      "end": "00:07:55.976",
+      "start": "00:07:50.971",
+      "text": " Vista's features diverse images from around the world recorded with different types of cameras."
+    },
+    {
+      "end": "00:07:59.980",
+      "start": "00:07:55.976",
+      "text": " Our method captures the style of this data set with its vibrant colors"
+    },
+    {
+      "end": "00:08:04.985",
+      "start": "00:07:59.980",
+      "text": " while keeping the semantic and geometric content of the underlying game."
+    },
+    {
+      "end": "00:08:15.995",
+      "start": "00:08:12.993",
+      "text": " Thanks for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Alejandro Franceschi",
+  "youtube_channel_follower_count": 645,
+  "youtube_comment_count": 0,
+  "youtube_description": "Intel: Intelligent Systems Lab | Enhancing #Videogame Graphics with #AI\n\nThis video isdistilled from the keynote on the same topic. In short, what is happening is that Intel recorded a lot of high-resolution, #hdr video footage of Europe, and fed all of that data into a specialty #artificialintelligence. \n\nIt then took all of that data, and learned to not only understand what was being generated by the #gameengine #tech in #realtime, but to #enhance it, not entirely unlike a #deepfake, only here it is #interactively replacing the game engine graphics with the samplings of the hdr video #realitycapture. This enhances the level of #photorealistic #rendering because it is sampled from reality. \n\nLook at the details from the edges of curbs, the grass, sky, leaves, relfections, materials, etc., and you'll note the differences. This is all still very new, but I have no doubt that not only will it become better, others will imitate it to make their own systems, or it is possible that Intel might eventually have it become a #SaaS for #videogame #developers, since it has such a high stake in the #streaming #videogame market. \n\nFROM: \n#Intel ISM #Eurographics #Keynote: Enhancing Photorealism Enhancement:\nhttps://youtu.be/oU-2Y-5FZ5I\n\nKeynote for Eurographics 2021\nMay 5, 2021\nhttps://conferences.eg.org/eg2021/\n\nYou can also check out my breakdown in an article I posted on #LinkedIn:\nhttps://www.linkedin.com/pulse/enhancing-photorealism-enhancement-alejandro-franceschi/\n\nSTABLE VIEW SYNTHESIS:\nWhitepaper: http://vladlen.info/papers/SVS.pdf\nWhitepaper (on Slideshare): \nhttps://www.slideshare.net/AlejandroFranceschi/intel-intelligent-systems-lab-syable-view-synthesis-whitepaper\nVideo: https://youtu.be/gqgXIY09htI\nCode, Data and Project page: https://github.com/isl-org/PhotorealismEnhancement\n\nENHANCING PHOTOREALISM ENHANCEMENT:\nPaper: https://arxiv.org/abs/2105.04619\nVideo: https://youtu.be/P1IcaBn3ej0\nCode, Data and Project page: https://github.com/isl-org/PhotorealismEnhancement\n\nLicense Creative Commons Attribution license (reuse allowed)",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "videogame",
+    "videogames",
+    "video game",
+    "video games",
+    "ai",
+    "artificial intelligence",
+    "game engine",
+    "tech",
+    "photorealism",
+    "photorealistic",
+    "whitepaper"
+  ],
+  "youtube_title": "Intel: Intelligent Systems Lab | Enhancing Videogame Graphics with AI",
+  "youtube_upload_date": "20210621",
+  "youtube_view_count": 132
+}

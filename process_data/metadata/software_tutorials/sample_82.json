@@ -1,0 +1,1122 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short brown hair, wearing a light blue, long-sleeved shirt. He is standing against a white background.",
+        "name": "Nate Hardison"
+      }
+    ],
+    "description": "A video tutorial on using GDB to debug a simple C program that calculates factorials.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "GNU Project Debugger.",
+        "question": "What is the full name of GDB?"
+      },
+      {
+        "answer": "quit or q.",
+        "question": "What command is used to exit GDB?"
+      },
+      {
+        "answer": "The variable factorial was not initialized before being used in the for loop.",
+        "question": "What was the bug in the factorial.c program?"
+      },
+      {
+        "answer": "break or b.",
+        "question": "Which GDB command is used to set a breakpoint?"
+      },
+      {
+        "answer": "info locals.",
+        "question": "What command did Nate use to view the values of all the local variables at a specific point in the program's execution?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Nate Hardison explains what GDB is.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.996",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Nate explains how to launch GDB.",
+            "timestamp": {
+              "end_timestamp": "00:00:55.989",
+              "start_timestamp": "00:00:49.016"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Nate Hardison"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Curious. Nate's straightforward explanation and neutral tone creates a sense of curiosity about the GDB tool.",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to a black screen with code, signaling the transition from general information to a practical demonstration, creating a more focused mood.",
+              "timestamp": "00:00:51.985"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Nate introduces GDB as a debugging tool and describes its key features.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Nate demonstrates how to launch GDB in the terminal.",
+            "timestamp": "00:00:49.016"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Introduction to debugging, the importance of understanding program behavior.",
+        "timestamps": {
+          "end_timestamp": "00:00:57.958",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to GDB",
+        "videoEditingDetails": [
+          {
+            "description": "Intro sequence with black text animations on white background.",
+            "timestamps": {
+              "end_timestamp": "00:00:06.006",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay with the name 'GNU Project Debugger' appears when Nate starts speaking about GDB.",
+            "timestamps": {
+              "end_timestamp": "00:00:10.010",
+              "start_timestamp": "00:00:08.008"
+            }
+          },
+          {
+            "description": "Cut to black screen with terminal code typing 'gdb' and response.",
+            "timestamps": {
+              "end_timestamp": "00:00:55.989",
+              "start_timestamp": "00:00:51.985"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Nate explains how to exit GDB.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.016",
+              "start_timestamp": "00:00:57.991"
+            }
+          },
+          {
+            "description": "Nate introduces a factorial.c program.",
+            "timestamp": {
+              "end_timestamp": "00:02:06.994",
+              "start_timestamp": "00:01:23.016"
+            }
+          },
+          {
+            "description": "Nate runs and debugs the program.",
+            "timestamp": {
+              "end_timestamp": "00:02:54.007",
+              "start_timestamp": "00:02:06.994"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Nate Hardison"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious. Nate's explanation continues to foster a sense of curiosity and introduces a problem to be solved, adding a layer of intrigue.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Nate explains how to exit GDB.",
+            "timestamp": "00:00:57.991"
+          },
+          {
+            "description": "Nate introduces a C program that calculates factorials and highlights a bug in its output.",
+            "timestamp": "00:01:23.016"
+          },
+          {
+            "description": "Nate starts debugging the program using GDB by running it and observing its output.",
+            "timestamp": "00:02:06.994"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code displayed on screen",
+            "timestamp": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:01:32.993"
+            }
+          },
+          {
+            "name": "Code displayed on screen",
+            "timestamp": {
+              "end_timestamp": "00:02:15.002",
+              "start_timestamp": "00:02:09.997"
+            }
+          },
+          {
+            "name": "Code displayed on screen",
+            "timestamp": {
+              "end_timestamp": "00:02:54.007",
+              "start_timestamp": "00:02:31.985"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Hands-on debugging, identifying program errors, stepping through code execution.",
+        "timestamps": {
+          "end_timestamp": "00:02:55.976",
+          "start_timestamp": "00:00:57.991"
+        },
+        "title": "Exiting GDB and Introducing Factorial Program",
+        "videoEditingDetails": [
+          {
+            "description": "Cuts between Nate speaking and black screen with terminal code",
+            "timestamps": {
+              "end_timestamp": "00:02:54.007",
+              "start_timestamp": "00:00:57.991"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Nate continues to debug the program using various commands and finds the bug.",
+            "timestamp": {
+              "end_timestamp": "00:09:24.998",
+              "start_timestamp": "00:02:56.009"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Nate Hardison"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Confused transitioning to Positive - Happy",
+          "keyMoments": [
+            {
+              "changeDescription": "Initial confusion due to the unexpected program behavior, followed by a sense of satisfaction as the bug is identified and solved.",
+              "timestamp": "00:02:56.009"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Nate sets a breakpoint, steps through the program line by line, examines variables, and pinpoints the problem – an uninitialized variable.",
+            "timestamp": "00:02:56.009"
+          },
+          {
+            "description": "Nate demonstrates how to use GDB to set the value of the uninitialized variable to 1, fixing the bug, and successfully running the program.",
+            "timestamp": "00:07:30.984"
+          }
+        ],
+        "props": [
+          {
+            "name": "Code displayed on screen",
+            "timestamp": {
+              "end_timestamp": "00:09:24.998",
+              "start_timestamp": "00:02:56.009"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "The power of debugging tools, logical deduction in problem-solving, the importance of careful code analysis.",
+        "timestamps": {
+          "end_timestamp": "00:09:49.689",
+          "start_timestamp": "00:02:56.009"
+        },
+        "title": "Debugging with GDB",
+        "videoEditingDetails": [
+          {
+            "description": "Cuts between Nate speaking and black screen with terminal code",
+            "timestamps": {
+              "end_timestamp": "00:09:24.998",
+              "start_timestamp": "00:02:56.009"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs when Nate identifies the bug – an uninitialized variable 'factorial'.",
+        "timestamp": "00:07:30.984"
+      },
+      "description": "The main storyline revolves around the process of using GDB to debug a simple C program that calculates factorials.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "GDB Debugging",
+    "trimmingSuggestions": [
+      {
+        "description": "Shortening the initial demonstration of running the program without GDB to maintain a faster pace.",
+        "timestamps": {
+          "end_timestamp": "00:02:56.009",
+          "start_timestamp": "00:02:56.009"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 590,
+  "original_json_filename": "sCtY--xRUyI.json",
+  "original_video_filename": "sCtY--xRUyI.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] GDB the project debugger is a powerful debugging tool for C along with many other languages it allows you to poke around inside your C programs while they're executing and it also gives you the opportunity to see exactly what happens when your program crashes it's pretty nifty right GDB is free software and it runs on many popular Unix and windows-based operating systems so though it's a very widespread tool you should learn to love it GDB Pros have a much easier time tracking down bugs than those who muddle through using guesses and infinite amounts of printf statements GDB is a command line tool which means you interact with it in a terminal issuing commands via the keyboard instead of clicking buttons with your mouse to start up GDB you literally just type GDB at the prompt and hit enter you'll see some lines printed out to the screen showing you the version of GDB that you're running and it's copyright information and at the end you'll see the GDB prompt open parenthesis GDB close parenthesis this lets you know that GDB is ready for commands at this point the most important thing to know how to do is quit fortunately this is pretty simple the quit command does just that as a shortcut you can just use Q too as fun as booting up GDB and then promptly quitting is let's now talk about using GDB to help debug a program to start I've got a program here in factorial. C that gets an INT and attempts to compute its factorial in case you haven't seen factorials before or don't remember them the factorial of a number n is equal to the product of n n minus 1 n minus 2 and so on until you hit one therefore the factorial of three is 3 * 2 * 1 or six and the factorial of 4 is 4 * 3 * 2 * 1 or 24 for the factorial of zero is an odd case it's one and the factorials of negative integers aren't defined anyway something about my factorial program is funky when I run it it prints out weird numbers that have nothing to do with factorials so we can use GDB to help figure out what's going on GDB operates on executable files which are the binary files produced by the compilation process that is we can't run GDB on our C orh source code files like factorial. C we want to run it on just factorial instead if the program required any command line arguments this is where we'd specify them in this case factorial doesn't require any command line arguments so we just type run or R for short this will start the factorial program running when the program stops running I'll get my GDB prompt back okay let's try the same thing again factorial of four all right we see that we're getting the same kind of junk here in GDB now that the program has finished we can't go in and access any of its state so we'll need to start it running again before we can see what's happening however we need a way to stop it while it's in the middle of its run to do that we use what's called a breakpoint breakpoints tell GDB to pause the program at a particular function or source code line so that we can examine the state of the program the values of variables and the state of memory and such at that point since I don't really know where things are going wrong I just want to start debugging right at the very beginning right when main begins we'll set a break point at the beginning of main using the break command we can also use B to abbreviate break now let's start the program running again here we are at the beginning of main just like GDB tells us the line of code that's about to execute but hasn't yet is the printf line we can tell GDB to execute this line of code and go to the next line with the next or n command all right now GDB tells us that we're on the get in line I know that it seems like the printf line didn't run since we don't see entra positive integer print out on the screen but it did actually run what we're seeing is the operating system suppress writing anything to the screen until it absolutely has to which is why debugging with printfs can sometimes seem unreliable anyway let's again go to the next line of code and enter in an INT again let's type four hm so this looks weird we're on line 12 according to GDB but the next line that's about to execute is just a curly brace that just means we're at the end of a loop or do while loop in fact and GDB is telling us that the termination condition namely num less than zero we'll execute next if this ever gets a little confusing we can pull up the source code in GDB with the list or L command this prints out the source code that's centered around the line that we're currently on if we type list or L again we'll see the next set of lines print out we can do this until we hit the end of the file to get back to where we were we can supply list with a line number in this case line 12 anyway let's move on now we're on the for Loop let's make sure that our numb variable contains four we do this with the print or P command so GDB tells us that num is indeed storing four as we expected the dollar one that GDB prints out is a special GDB variable that is now set to store the number four as well you can ignore this for now but these GDB variables come in super handy in more advanced cases when you want to recall what you've done in the past anyway moving on with next we see that we start moving through the for Loop let's keep going through here with n bit by bit rather than typing n each time we can also just hit enter when you hit enter without typing anything GDB just repeats the previous command so now we've hit the print F call it looks like we've indeed gone through our for Loop four times which is what we want to do in order to multiply by 1 2 3 and four everything seems like it's working except when we hit next again we get this huge number instead of 24 if we print out the value of factorial using p we see that factorial does have this massive number in it something's definitely going wrong at at this point though we are almost at the end of the program and it's too late to fix anything however we can restart the program by typing R again and then y to confirm now we're back at our breakpoint at the beginning of main we know that everything seems to be fine with reading in the int so we can jump ahead with n alternatively we can set a new breakpoint after the do while loop and jump there let's do that looks like line 14 comes just after the loop let's set a breakpoint there it's good practice to specify the file name in this breakpoint command since GDB can get confused if you're working with multiple files to move ahead to this breakpoint we'll use the continue or C command okay here we are at the for Loop let's go one more line into the for Loop and then we'll start printing variables to see what's going on let's make sure that I is indeed one as expected yep that's all good what about fact tutorial though whoa that's no good we've got a big negative number here how'd that happen well if we look back at the code we see that we never initialized it so we've just got trash in there that'll definitely throw off our calculation fortunately we don't have to leave GDB to fix this we can initialize it right here and fix it in the code later using the print command we'll initialize it to one since the factorials of zero and one are both one and if we initialized it to zero then we'd always end up with zero as our result you can set any variable this way which is super handy now let's continue our program let's make sure everything's where it's supposed to be num should be four I should be one and factorial should be one two we can shortcut this process and print all of our local variables with the super helpful command infol locals which prints out all of our in scope local variables anyway it looks like everything's good to go let's do another go around of the loop just to make sure okay everything looks great now we can use the continue command to go to the end sweet four factorial printed out 24 as expected now we can go fix this in our code rather than quit out of GDB we'll use another terminal tab to do this going back to our GDB tab we now need to recompile our executable one of the best things about GDB is that you don't need to leave GDB to run make so that we don't keep hitting the old break points let's disable them with the you guessed it disable command this will disable all of our break points now we can restart the program with r and make sure everything's okay looks like everything's good to go factorial of four prints out 24 just like we thought GDB is one of the most helpful tools you've got in your toolbox there are a ton of more things you can do with GDB far more than you can with simple printfs next time your program isn't doing what you'd like try running GDB to figure out what's going on inside with a little bit of practice you'll be able to drill down right on your bug in no time my name is Nate Hardison this is cs50",
+  "text_to_speech_word_count": 1739,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:13.547",
+      "start": "00:00:00.000",
+      "text": " GDB, the GNU project debugger, is a powerful debugging tool for C, along with many other"
+    },
+    {
+      "end": "00:00:14.548",
+      "start": "00:00:13.547",
+      "text": " languages."
+    },
+    {
+      "end": "00:00:18.552",
+      "start": "00:00:14.548",
+      "text": " It allows you to poke around inside your C programs while they're executing, and it also"
+    },
+    {
+      "end": "00:00:22.389",
+      "start": "00:00:18.552",
+      "text": " gives you the opportunity to see exactly what happens when your program crashes."
+    },
+    {
+      "end": "00:00:24.658",
+      "start": "00:00:22.389",
+      "text": " It's pretty nifty, right?"
+    },
+    {
+      "end": "00:00:29.930",
+      "start": "00:00:24.658",
+      "text": " GDB is free software, and it runs on many popular unix and Windows-based operating systems."
+    },
+    {
+      "end": "00:00:32.532",
+      "start": "00:00:29.930",
+      "text": " So it's a very widespread tool."
+    },
+    {
+      "end": "00:00:34.034",
+      "start": "00:00:32.532",
+      "text": " You should learn to love it."
+    },
+    {
+      "end": "00:00:38.639",
+      "start": "00:00:34.034",
+      "text": " GDB pros have a much easier time tracking down bugs than those who muddle through using"
+    },
+    {
+      "end": "00:00:42.009",
+      "start": "00:00:38.639",
+      "text": " guesses and infinite amounts of print-f statements."
+    },
+    {
+      "end": "00:00:46.813",
+      "start": "00:00:42.009",
+      "text": " GDB is a command-line tool, which means you interact with it in a terminal, issuing commands"
+    },
+    {
+      "end": "00:00:50.417",
+      "start": "00:00:46.813",
+      "text": " via the keyboard instead of clicking buttons with your mouse."
+    },
+    {
+      "end": "00:00:56.790",
+      "start": "00:00:50.417",
+      "text": " To start up GDB, you literally just type GDB at the prompt and hit Enter."
+    },
+    {
+      "end": "00:01:00.193",
+      "start": "00:00:56.790",
+      "text": " You'll see some lines printed out to the screen showing you the version of GDB that you're"
+    },
+    {
+      "end": "00:01:02.296",
+      "start": "00:01:00.193",
+      "text": " running, and it's copyright information."
+    },
+    {
+      "end": "00:01:08.235",
+      "start": "00:01:02.296",
+      "text": " And at the end, you'll see the GDB prompt, OpenParenthesis, GDB CloseParenthesis."
+    },
+    {
+      "end": "00:01:12.372",
+      "start": "00:01:08.235",
+      "text": " This lets you know that GDB is ready for commands."
+    },
+    {
+      "end": "00:01:15.876",
+      "start": "00:01:12.372",
+      "text": " At this point, the most important thing to know how to do is quit."
+    },
+    {
+      "end": "00:01:17.911",
+      "start": "00:01:15.876",
+      "text": " Fortunately, this is pretty simple."
+    },
+    {
+      "end": "00:01:20.180",
+      "start": "00:01:17.911",
+      "text": " The quit command does just that."
+    },
+    {
+      "end": "00:01:24.451",
+      "start": "00:01:20.180",
+      "text": " As a shortcut, you can just use Q2."
+    },
+    {
+      "end": "00:01:30.057",
+      "start": "00:01:24.451",
+      "text": " As fun as booting up GDB and promptly quitting is, let's now talk about using GDB to help"
+    },
+    {
+      "end": "00:01:31.959",
+      "start": "00:01:30.057",
+      "text": " debug a program."
+    },
+    {
+      "end": "00:01:36.663",
+      "start": "00:01:31.959",
+      "text": " To start, I've got a program here in factorial.c that gets an int and attempts to compute"
+    },
+    {
+      "end": "00:01:38.265",
+      "start": "00:01:36.663",
+      "text": " its factorial."
+    },
+    {
+      "end": "00:01:41.735",
+      "start": "00:01:38.265",
+      "text": " In case you haven't seen factorials before, don't remember them."
+    },
+    {
+      "end": "00:01:47.507",
+      "start": "00:01:41.735",
+      "text": " The factorial of a number n is equal to the product of n, n minus 1, n minus 2, and so"
+    },
+    {
+      "end": "00:01:49.710",
+      "start": "00:01:47.507",
+      "text": " on until you hit 1."
+    },
+    {
+      "end": "00:01:57.618",
+      "start": "00:01:49.710",
+      "text": " Therefore, the factorial of 3 is 3 times 2 times 1 or 6, and the factorial of 4 is 4 times"
+    },
+    {
+      "end": "00:02:00.887",
+      "start": "00:01:57.618",
+      "text": " 3 times 2 times 1 or 24."
+    },
+    {
+      "end": "00:02:03.023",
+      "start": "00:02:00.887",
+      "text": " The factorial of 0 is an odd case."
+    },
+    {
+      "end": "00:02:04.558",
+      "start": "00:02:03.023",
+      "text": " It's 1."
+    },
+    {
+      "end": "00:02:07.594",
+      "start": "00:02:04.558",
+      "text": " And the factorials of negative integers aren't defined."
+    },
+    {
+      "end": "00:02:11.031",
+      "start": "00:02:07.594",
+      "text": " Anyway, something about my factorial program is funky."
+    },
+    {
+      "end": "00:02:16.503",
+      "start": "00:02:11.031",
+      "text": " When I run it, it prints out weird numbers that have nothing to do with factorials."
+    },
+    {
+      "end": "00:02:19.673",
+      "start": "00:02:16.503",
+      "text": " So we can use GDB to help figure out what's going on."
+    },
+    {
+      "end": "00:02:23.777",
+      "start": "00:02:19.673",
+      "text": " GDB operates on executable files, which are the binary files produced by the compilation"
+    },
+    {
+      "end": "00:02:25.278",
+      "start": "00:02:23.777",
+      "text": " process."
+    },
+    {
+      "end": "00:02:31.818",
+      "start": "00:02:25.278",
+      "text": " That is, we can't run GDB on our .c or .h source code files like factorial.c."
+    },
+    {
+      "end": "00:02:36.156",
+      "start": "00:02:31.818",
+      "text": " We want to run it on just factorial instead."
+    },
+    {
+      "end": "00:02:40.827",
+      "start": "00:02:36.156",
+      "text": " If the program required any command line arguments, this is where we'd specify them."
+    },
+    {
+      "end": "00:02:45.699",
+      "start": "00:02:40.827",
+      "text": " In this case, factorial doesn't require any command line arguments, so we just type run"
+    },
+    {
+      "end": "00:02:48.635",
+      "start": "00:02:45.699",
+      "text": " or r for short."
+    },
+    {
+      "end": "00:02:51.104",
+      "start": "00:02:48.635",
+      "text": " This will start the factorial program running."
+    },
+    {
+      "end": "00:02:54.541",
+      "start": "00:02:51.104",
+      "text": " When the program stops running, I'll get my GDB prompt back."
+    },
+    {
+      "end": "00:02:58.612",
+      "start": "00:02:54.541",
+      "text": " Okay, let's try the same thing again, factorial of 4."
+    },
+    {
+      "end": "00:03:03.383",
+      "start": "00:02:58.612",
+      "text": " All right, we see that we're getting the same kind of junk here in GDB."
+    },
+    {
+      "end": "00:03:07.254",
+      "start": "00:03:03.383",
+      "text": " Now that the program has finished, we can't go in and access any of its state, so we'll"
+    },
+    {
+      "end": "00:03:10.424",
+      "start": "00:03:07.254",
+      "text": " need to start it running again before we can see what's happening."
+    },
+    {
+      "end": "00:03:14.795",
+      "start": "00:03:10.424",
+      "text": " However, we need a way to stop it while it's in the middle of its run."
+    },
+    {
+      "end": "00:03:17.631",
+      "start": "00:03:14.795",
+      "text": " To do that, we use what's called a break point."
+    },
+    {
+      "end": "00:03:22.135",
+      "start": "00:03:17.631",
+      "text": " Breakpoints tell GDB to pause the program at a particular function or source code line"
+    },
+    {
+      "end": "00:03:26.139",
+      "start": "00:03:22.135",
+      "text": " so that we can examine the state of the program, the values of variables and the state of memory"
+    },
+    {
+      "end": "00:03:28.508",
+      "start": "00:03:26.139",
+      "text": " and such, at that point."
+    },
+    {
+      "end": "00:03:32.212",
+      "start": "00:03:28.508",
+      "text": " Since I don't really know where things are going wrong, I just want to start debugging"
+    },
+    {
+      "end": "00:03:35.715",
+      "start": "00:03:32.212",
+      "text": " right at the very beginning, right when main begins."
+    },
+    {
+      "end": "00:03:39.953",
+      "start": "00:03:35.715",
+      "text": " We'll set a break point at the beginning of main, using the break command."
+    },
+    {
+      "end": "00:03:43.423",
+      "start": "00:03:39.953",
+      "text": " We can also use b to abbreviate break."
+    },
+    {
+      "end": "00:03:45.392",
+      "start": "00:03:43.423",
+      "text": " Now let's start the program running again."
+    },
+    {
+      "end": "00:03:48.995",
+      "start": "00:03:45.392",
+      "text": " Here we are at the beginning of main, just like GDB tells us."
+    },
+    {
+      "end": "00:03:54.301",
+      "start": "00:03:48.995",
+      "text": " The line of code that's about to execute, but hasn't yet, is the printf line."
+    },
+    {
+      "end": "00:03:58.538",
+      "start": "00:03:54.301",
+      "text": " We can tell GDB to execute this line of code and go to the next line with the next or"
+    },
+    {
+      "end": "00:03:59.940",
+      "start": "00:03:58.538",
+      "text": " n command."
+    },
+    {
+      "end": "00:04:04.711",
+      "start": "00:03:59.940",
+      "text": " All right, now GDB tells us that we're on the get-int line."
+    },
+    {
+      "end": "00:04:08.548",
+      "start": "00:04:04.711",
+      "text": " I know that it seems like the printf line didn't run since we don't see enter a positive"
+    },
+    {
+      "end": "00:04:12.652",
+      "start": "00:04:08.548",
+      "text": " integer printout on the screen, but it did actually run."
+    },
+    {
+      "end": "00:04:16.256",
+      "start": "00:04:12.652",
+      "text": " What we're seeing is the operating system suppress writing anything to the screen until"
+    },
+    {
+      "end": "00:04:22.195",
+      "start": "00:04:16.256",
+      "text": " it absolutely has to, which is why debugging with printfs can sometimes seem unreliable."
+    },
+    {
+      "end": "00:04:26.833",
+      "start": "00:04:22.195",
+      "text": " Anyway, let's again go to the next line of code and enter in an int."
+    },
+    {
+      "end": "00:04:29.903",
+      "start": "00:04:26.833",
+      "text": " Again, let's type four."
+    },
+    {
+      "end": "00:04:32.305",
+      "start": "00:04:29.903",
+      "text": " Hmm, so this looks weird."
+    },
+    {
+      "end": "00:04:36.676",
+      "start": "00:04:32.305",
+      "text": " We're on line 12 according to GDB, but the next line that's about to execute is just"
+    },
+    {
+      "end": "00:04:38.478",
+      "start": "00:04:36.676",
+      "text": " a curly brace."
+    },
+    {
+      "end": "00:04:43.016",
+      "start": "00:04:38.478",
+      "text": " That just means where the end of a loop are due while loop, in fact, and GDB is telling"
+    },
+    {
+      "end": "00:04:48.822",
+      "start": "00:04:43.016",
+      "text": " us that the termination condition, namely, none less than zero, will execute next."
+    },
+    {
+      "end": "00:04:52.859",
+      "start": "00:04:48.822",
+      "text": " If this ever gets a little confusing, we can pull up the source code in GDB with the"
+    },
+    {
+      "end": "00:04:55.996",
+      "start": "00:04:52.859",
+      "text": " list or l command."
+    },
+    {
+      "end": "00:04:59.733",
+      "start": "00:04:55.996",
+      "text": " This prints out the source code that's centered around the line that we're currently on."
+    },
+    {
+      "end": "00:05:04.104",
+      "start": "00:04:59.733",
+      "text": " If we type list or l again, we'll see the next set of lines print out."
+    },
+    {
+      "end": "00:05:07.374",
+      "start": "00:05:04.104",
+      "text": " We can do this until we hit the end of the file."
+    },
+    {
+      "end": "00:05:12.779",
+      "start": "00:05:07.374",
+      "text": " To get back to where we were, we can supply list with a line number, in this case, line"
+    },
+    {
+      "end": "00:05:13.780",
+      "start": "00:05:12.779",
+      "text": " 12."
+    },
+    {
+      "end": "00:05:17.050",
+      "start": "00:05:13.780",
+      "text": " Anyway, let's move on."
+    },
+    {
+      "end": "00:05:18.852",
+      "start": "00:05:17.050",
+      "text": " Now we're on the for loop."
+    },
+    {
+      "end": "00:05:22.022",
+      "start": "00:05:18.852",
+      "text": " Let's make sure that our num variable contains four."
+    },
+    {
+      "end": "00:05:26.660",
+      "start": "00:05:22.022",
+      "text": " We do this with the print or p command."
+    },
+    {
+      "end": "00:05:31.698",
+      "start": "00:05:26.660",
+      "text": " So GDB tells us that num is indeed storing four, as we expected."
+    },
+    {
+      "end": "00:05:36.570",
+      "start": "00:05:31.698",
+      "text": " The dollar one that GDB prints out is a special GDB variable that is now set to store the"
+    },
+    {
+      "end": "00:05:38.338",
+      "start": "00:05:36.570",
+      "text": " number four as well."
+    },
+    {
+      "end": "00:05:42.776",
+      "start": "00:05:38.338",
+      "text": " You can ignore this for now, but these GDB variables come in super handy in more advanced"
+    },
+    {
+      "end": "00:05:46.546",
+      "start": "00:05:42.776",
+      "text": " cases when you want to recall what you've done in the past."
+    },
+    {
+      "end": "00:05:52.152",
+      "start": "00:05:46.546",
+      "text": " Anyway, moving on with next, we see that we start moving through the for loop."
+    },
+    {
+      "end": "00:05:55.622",
+      "start": "00:05:52.152",
+      "text": " Let's keep going through here with n bit by bit."
+    },
+    {
+      "end": "00:05:58.892",
+      "start": "00:05:55.622",
+      "text": " Rather than typing n each time, we can also just hit enter."
+    },
+    {
+      "end": "00:06:04.431",
+      "start": "00:05:58.892",
+      "text": " When you hit enter without typing anything, GDB just repeats the previous command."
+    },
+    {
+      "end": "00:06:06.499",
+      "start": "00:06:04.431",
+      "text": " So now we've hit the print def call."
+    },
+    {
+      "end": "00:06:10.370",
+      "start": "00:06:06.499",
+      "text": " It looks like we've indeed gone through our for loop four times, which is what we want"
+    },
+    {
+      "end": "00:06:14.507",
+      "start": "00:06:10.370",
+      "text": " to do in order to multiply by one, two, three, and four."
+    },
+    {
+      "end": "00:06:18.311",
+      "start": "00:06:14.507",
+      "text": " Everything seems like it's working, except when we hit next again, we get this huge number"
+    },
+    {
+      "end": "00:06:20.513",
+      "start": "00:06:18.311",
+      "text": " instead of 24."
+    },
+    {
+      "end": "00:06:25.619",
+      "start": "00:06:20.513",
+      "text": " If we print out the value of factorial using p, we see that factorial does have this massive"
+    },
+    {
+      "end": "00:06:26.953",
+      "start": "00:06:25.619",
+      "text": " number in it."
+    },
+    {
+      "end": "00:06:29.422",
+      "start": "00:06:26.953",
+      "text": " Something's definitely going wrong."
+    },
+    {
+      "end": "00:06:33.827",
+      "start": "00:06:29.422",
+      "text": " At this point though, we are almost at the end of the program, and it's too late to fix"
+    },
+    {
+      "end": "00:06:34.828",
+      "start": "00:06:33.860",
+      "text": " anything."
+    },
+    {
+      "end": "00:06:41.101",
+      "start": "00:06:34.828",
+      "text": " However, we can restart the program by typing r again and then y to confirm."
+    },
+    {
+      "end": "00:06:43.937",
+      "start": "00:06:41.101",
+      "text": " Now we're back at our break point at the beginning of main."
+    },
+    {
+      "end": "00:06:47.574",
+      "start": "00:06:43.937",
+      "text": " We know that everything seems to be fine with reading in the end, so we can jump ahead"
+    },
+    {
+      "end": "00:06:48.909",
+      "start": "00:06:47.574",
+      "text": " with n."
+    },
+    {
+      "end": "00:06:53.913",
+      "start": "00:06:48.909",
+      "text": " Alternatively, we can set a new break point after the do while loop and jump there."
+    },
+    {
+      "end": "00:06:56.149",
+      "start": "00:06:53.913",
+      "text": " Let's do that."
+    },
+    {
+      "end": "00:06:59.386",
+      "start": "00:06:56.149",
+      "text": " Looks like line 14 comes just after the loop."
+    },
+    {
+      "end": "00:07:01.888",
+      "start": "00:06:59.386",
+      "text": " Let's set a break point there."
+    },
+    {
+      "end": "00:07:06.159",
+      "start": "00:07:01.888",
+      "text": " It's good practice to specify the file name in this break point command, since gdb can"
+    },
+    {
+      "end": "00:07:09.129",
+      "start": "00:07:06.159",
+      "text": " get confused if you're working with multiple files."
+    },
+    {
+      "end": "00:07:13.967",
+      "start": "00:07:09.129",
+      "text": " To move ahead to this break point, we'll use the continue or c command."
+    },
+    {
+      "end": "00:07:16.970",
+      "start": "00:07:13.967",
+      "text": " Okay, here we are at the for loop."
+    },
+    {
+      "end": "00:07:20.573",
+      "start": "00:07:16.970",
+      "text": " Let's go one more line into the for loop, and then we'll start printing variables to see"
+    },
+    {
+      "end": "00:07:23.009",
+      "start": "00:07:20.573",
+      "text": " what's going on."
+    },
+    {
+      "end": "00:07:26.579",
+      "start": "00:07:23.009",
+      "text": " Let's make sure that i is indeed one, as expected."
+    },
+    {
+      "end": "00:07:28.949",
+      "start": "00:07:26.579",
+      "text": " Yep, that's all good."
+    },
+    {
+      "end": "00:07:31.851",
+      "start": "00:07:28.949",
+      "text": " What about factorial though?"
+    },
+    {
+      "end": "00:07:34.187",
+      "start": "00:07:31.851",
+      "text": " Whoa, that's no good."
+    },
+    {
+      "end": "00:07:36.489",
+      "start": "00:07:34.187",
+      "text": " We've got a big negative number here."
+    },
+    {
+      "end": "00:07:38.158",
+      "start": "00:07:36.489",
+      "text": " How'd that happen?"
+    },
+    {
+      "end": "00:07:43.396",
+      "start": "00:07:38.158",
+      "text": " Well, if we look back at the code, we see that we never initialized it, so we've just"
+    },
+    {
+      "end": "00:07:45.031",
+      "start": "00:07:43.396",
+      "text": " got trash in there."
+    },
+    {
+      "end": "00:07:47.167",
+      "start": "00:07:45.031",
+      "text": " That'll definitely throw off our calculation."
+    },
+    {
+      "end": "00:07:50.370",
+      "start": "00:07:47.167",
+      "text": " Fortunately, we don't have to leave gdb to fix this."
+    },
+    {
+      "end": "00:07:55.575",
+      "start": "00:07:50.370",
+      "text": " We can initialize it right here and fix it in the code later using the print command."
+    },
+    {
+      "end": "00:08:00.113",
+      "start": "00:07:55.575",
+      "text": " We'll initialize it to one since the factorials of zero and one are both one."
+    },
+    {
+      "end": "00:08:05.218",
+      "start": "00:08:00.113",
+      "text": " If we initialized it to zero, then we'd always end up with zero as our result."
+    },
+    {
+      "end": "00:08:08.688",
+      "start": "00:08:05.218",
+      "text": " You can set any variable this way, which is super handy."
+    },
+    {
+      "end": "00:08:11.758",
+      "start": "00:08:08.688",
+      "text": " Now let's continue our program."
+    },
+    {
+      "end": "00:08:14.394",
+      "start": "00:08:11.758",
+      "text": " Let's make sure everything's where it's supposed to be."
+    },
+    {
+      "end": "00:08:20.867",
+      "start": "00:08:14.394",
+      "text": " NUM should be four, i should be one, and factorial should be one two."
+    },
+    {
+      "end": "00:08:25.105",
+      "start": "00:08:20.867",
+      "text": " We can shortcut this process and print all of our local variables with the super helpful"
+    },
+    {
+      "end": "00:08:29.676",
+      "start": "00:08:25.105",
+      "text": " command info locals, which prints out all of our in scope local variables."
+    },
+    {
+      "end": "00:08:32.512",
+      "start": "00:08:29.709",
+      "text": " Anyway, it looks like everything's good to go."
+    },
+    {
+      "end": "00:08:35.949",
+      "start": "00:08:32.512",
+      "text": " Let's do another go around of the loop just to make sure."
+    },
+    {
+      "end": "00:08:39.386",
+      "start": "00:08:35.949",
+      "text": " Okay, everything looks great."
+    },
+    {
+      "end": "00:08:42.489",
+      "start": "00:08:39.386",
+      "text": " Now we can use the continue command to go to the end."
+    },
+    {
+      "end": "00:08:46.893",
+      "start": "00:08:42.489",
+      "text": " Sweet, four factorial printed out 24, as expected."
+    },
+    {
+      "end": "00:08:49.529",
+      "start": "00:08:46.893",
+      "text": " Now we can go fix this in our code."
+    },
+    {
+      "end": "00:08:54.100",
+      "start": "00:08:49.529",
+      "text": " Rather than quit out of gdb, we'll use another terminal tab to do this."
+    },
+    {
+      "end": "00:08:58.972",
+      "start": "00:08:54.100",
+      "text": " Going back to our gdb tab, we now need to recompile our executable."
+    },
+    {
+      "end": "00:09:04.210",
+      "start": "00:08:58.972",
+      "text": " One of the best things about gdb is that you don't need to leave gdb to run make."
+    },
+    {
+      "end": "00:09:08.715",
+      "start": "00:09:04.210",
+      "text": " So that we don't keep hitting the old break points, let's disable them with you guessed"
+    },
+    {
+      "end": "00:09:11.384",
+      "start": "00:09:08.715",
+      "text": " it, disable command."
+    },
+    {
+      "end": "00:09:13.820",
+      "start": "00:09:11.384",
+      "text": " This will disable all of our break points."
+    },
+    {
+      "end": "00:09:19.793",
+      "start": "00:09:13.820",
+      "text": " Now we can restart the program with r and make sure everything's okay."
+    },
+    {
+      "end": "00:09:21.828",
+      "start": "00:09:19.793",
+      "text": " Looks like everything's good to go."
+    },
+    {
+      "end": "00:09:25.832",
+      "start": "00:09:21.828",
+      "text": " Factorial of four prints out 24, just like we thought."
+    },
+    {
+      "end": "00:09:29.469",
+      "start": "00:09:25.832",
+      "text": " gdb is one of the most helpful tools you've got in your toolbox."
+    },
+    {
+      "end": "00:09:33.640",
+      "start": "00:09:29.469",
+      "text": " There are a ton of more things you can do with gdb, far more than you can with simple print"
+    },
+    {
+      "end": "00:09:34.607",
+      "start": "00:09:33.640",
+      "text": " fs."
+    },
+    {
+      "end": "00:09:38.578",
+      "start": "00:09:34.607",
+      "text": " Next time your program isn't doing what you'd like, try running gdb to figure out what's"
+    },
+    {
+      "end": "00:09:40.280",
+      "start": "00:09:38.578",
+      "text": " going on inside."
+    },
+    {
+      "end": "00:09:44.984",
+      "start": "00:09:40.280",
+      "text": " With a little bit of practice, you'll be able to drill down right on your bug in no time."
+    },
+    {
+      "end": "00:09:46.519",
+      "start": "00:09:44.984",
+      "text": " My name is Nate Harterson."
+    },
+    {
+      "end": "00:09:47.787",
+      "start": "00:09:46.519",
+      "text": " This is CS50."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "loveuala",
+  "youtube_channel_follower_count": 819,
+  "youtube_comment_count": 105,
+  "youtube_description": "I had to upload this video even though it's already on tube cuz the actual up loader doesn't concern about description so it's hard to find in top rank.\nThis is CS50 video on GDB . for more info visit cs50.tv",
+  "youtube_like_count": 4106,
+  "youtube_tags": [
+    "GDB",
+    "debugging C",
+    "introduction to GDB",
+    "best simple video on GDB",
+    "Great GDB tutorial",
+    "How to use GDB",
+    "novice GDB tutorial",
+    "GDB for newbie"
+  ],
+  "youtube_title": "introduction to GDB a tutorial - Harvard CS50",
+  "youtube_upload_date": "20130328",
+  "youtube_view_count": 245334
+}

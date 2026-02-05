@@ -1,0 +1,1123 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A middle-aged white man with short grey hair. He is wearing a black T-shirt that reads \"Edmonton is pretty okay.\"",
+        "name": "Professor"
+      }
+    ],
+    "description": "The video provides a detailed guide on conducting and analyzing a laboratory experiment focused on measuring the magnetic field of a dipole magnet.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The video mentions using any refrigerator magnet or a similar magnet.",
+        "question": "What type of magnet is used for the experiment?"
+      },
+      {
+        "answer": "The professor indicates that in his phone, the sensor is in the upper right-hand corner.",
+        "question": "Where is the magnetometer sensor located in the professor's phone?"
+      },
+      {
+        "answer": "The background field is measured by moving the magnet far away from the phone and recording the magnetometer reading.",
+        "question": "How is the background magnetic field measured?"
+      },
+      {
+        "answer": "Linearization allows for easier analysis of the data and determination of the inverse cubic relationship's slope, which should be -3.",
+        "question": "Why is the relationship between the magnetic field and distance linearized using natural logarithms?"
+      },
+      {
+        "answer": "When the field lines are closer together, it indicates a stronger magnetic field, and when they spread out, it indicates a weaker magnetic field.",
+        "question": "How does the visual representation of the magnetic field lines reflect the strength of the magnetic field?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduces the lab",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "description": "Explains the lab's objective",
+            "timestamp": {
+              "end_timestamp": "00:00:07.007",
+              "start_timestamp": "00:00:07.007"
+            }
+          },
+          {
+            "description": "Discusses using a smartphone magnetometer",
+            "timestamp": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:15.015"
+            }
+          },
+          {
+            "description": "Lists the required materials",
+            "timestamp": {
+              "end_timestamp": "00:00:22.990",
+              "start_timestamp": "00:00:22.990"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The professor sets the stage for the lab by introducing its purpose.",
+            "timestamp": "00:00:04.004"
+          },
+          {
+            "description": "The professor further prepares viewers for the lab by outlining the necessary equipment.",
+            "timestamp": "00:00:22.990"
+          }
+        ],
+        "props": [
+          {
+            "name": "Magnet",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "name": "Ruler",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "name": "Phone",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "name": "Plastic container",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:04.004"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:38.505",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Black screen with title card (University of Alberta - Phys 126: Mapping a Dipole Magnetic Field)",
+            "timestamps": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Shows a visual representation of a bar magnet's field lines using iron filings.",
+            "timestamp": {
+              "end_timestamp": "00:00:39.006",
+              "start_timestamp": "00:00:39.006"
+            }
+          },
+          {
+            "description": "Shows an animated representation of a bar magnet's field lines.",
+            "timestamp": {
+              "end_timestamp": "00:00:53.987",
+              "start_timestamp": "00:00:53.987"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concept of magnetic field lines using a visual aid.",
+            "timestamp": "00:00:39.006"
+          },
+          {
+            "description": "Further explains the use of field lines as a representation of field direction and strength.",
+            "timestamp": "00:00:53.987"
+          }
+        ],
+        "props": [
+          {
+            "name": "Still image of a bar magnet with iron filings",
+            "timestamp": {
+              "end_timestamp": "00:00:39.006",
+              "start_timestamp": "00:00:39.006"
+            }
+          },
+          {
+            "name": "Animated graphic of a bar magnet with field lines",
+            "timestamp": {
+              "end_timestamp": "00:00:53.987",
+              "start_timestamp": "00:00:53.987"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:40.167",
+          "start_timestamp": "00:00:38.538"
+        },
+        "title": "Magnetic Field Theory",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a black and white image of iron filings around a bar magnet.",
+            "timestamps": {
+              "end_timestamp": "00:00:39.006",
+              "start_timestamp": "00:00:39.006"
+            }
+          },
+          {
+            "description": "Transition to a colored animated graphic of a bar magnet with field lines.",
+            "timestamps": {
+              "end_timestamp": "00:00:53.987",
+              "start_timestamp": "00:00:53.987"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Opens the \"phyphox\" app.",
+            "timestamp": {
+              "end_timestamp": "00:01:43.003",
+              "start_timestamp": "00:01:43.003"
+            }
+          },
+          {
+            "description": "Navigates to the magnetometer sensor data within the app.",
+            "timestamp": {
+              "end_timestamp": "00:01:49.009",
+              "start_timestamp": "00:01:49.009"
+            }
+          },
+          {
+            "description": "Starts collecting data by pressing the play button.",
+            "timestamp": {
+              "end_timestamp": "00:01:59.987",
+              "start_timestamp": "00:01:59.987"
+            }
+          },
+          {
+            "description": "Switches to the \"Simple\" setting to view raw numerical data.",
+            "timestamp": {
+              "end_timestamp": "00:02:16.003",
+              "start_timestamp": "00:02:16.003"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the data collection phase of the lab.",
+            "timestamp": "00:01:40.200"
+          },
+          {
+            "description": "Guides viewers through the process of finding the magnetometer sensor within the app.",
+            "timestamp": "00:01:49.009"
+          },
+          {
+            "description": "Highlights the importance of using the \"Simple\" setting for raw data analysis.",
+            "timestamp": "00:02:16.003"
+          }
+        ],
+        "props": [
+          {
+            "name": "Phone with the \"phyphox\" app open",
+            "timestamp": {
+              "end_timestamp": "00:01:40.200",
+              "start_timestamp": "00:01:40.200"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:02:31.585",
+          "start_timestamp": "00:01:40.200"
+        },
+        "title": "Data Collection with phyphox App",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a black screen with the title \"COLLECTING DATA.\"",
+            "timestamps": {
+              "end_timestamp": "00:01:40.200",
+              "start_timestamp": "00:01:40.200"
+            }
+          },
+          {
+            "description": "Transition to a phone screen showing various apps.",
+            "timestamps": {
+              "end_timestamp": "00:01:42.002",
+              "start_timestamp": "00:01:42.002"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Calibrates the magnetometer.",
+            "timestamp": {
+              "end_timestamp": "00:02:31.985",
+              "start_timestamp": "00:02:31.985"
+            }
+          },
+          {
+            "description": "Places the phone and covers it.",
+            "timestamp": {
+              "end_timestamp": "00:02:44.998",
+              "start_timestamp": "00:02:44.998"
+            }
+          },
+          {
+            "description": "Holds a magnet above the phone and finds the point of strongest magnetic field reading.",
+            "timestamp": {
+              "end_timestamp": "00:02:51.004",
+              "start_timestamp": "00:02:51.004"
+            }
+          },
+          {
+            "description": "Measures distances from the phone to the magnet at various vertical positions.",
+            "timestamp": {
+              "end_timestamp": "00:03:12.993",
+              "start_timestamp": "00:03:12.993"
+            }
+          },
+          {
+            "description": "Measures the background magnetic field with the magnet far away.",
+            "timestamp": {
+              "end_timestamp": "00:03:42.989",
+              "start_timestamp": "00:03:42.989"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative, Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Begins the practical demonstration of the vertical measurements.",
+            "timestamp": "00:02:31.618"
+          },
+          {
+            "description": "Emphasizes finding the point of strongest magnetic field reading as a reference point.",
+            "timestamp": "00:02:51.004"
+          },
+          {
+            "description": "Outlines the process of collecting data at different vertical distances.",
+            "timestamp": "00:03:12.993"
+          },
+          {
+            "description": "Explains the significance of measuring the background magnetic field.",
+            "timestamp": "00:03:42.989"
+          }
+        ],
+        "props": [
+          {
+            "name": "Phone",
+            "timestamp": {
+              "end_timestamp": "00:02:31.618",
+              "start_timestamp": "00:02:31.618"
+            }
+          },
+          {
+            "name": "Magnet",
+            "timestamp": {
+              "end_timestamp": "00:02:31.618",
+              "start_timestamp": "00:02:31.618"
+            }
+          },
+          {
+            "name": "Plastic container",
+            "timestamp": {
+              "end_timestamp": "00:02:31.618",
+              "start_timestamp": "00:02:31.618"
+            }
+          },
+          {
+            "name": "Ruler",
+            "timestamp": {
+              "end_timestamp": "00:02:31.618",
+              "start_timestamp": "00:02:31.618"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:03:56.436",
+          "start_timestamp": "00:02:31.618"
+        },
+        "title": "Vertical Measurements",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a black screen with the title \"PART 1 - VERTICAL MEASUREMENTS.\"",
+            "timestamps": {
+              "end_timestamp": "00:02:31.618",
+              "start_timestamp": "00:02:31.618"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Shows a diagram of the phone's coordinate system.",
+            "timestamp": {
+              "end_timestamp": "00:03:57.003",
+              "start_timestamp": "00:03:57.003"
+            }
+          },
+          {
+            "description": "Explains the correction for background magnetic field.",
+            "timestamp": {
+              "end_timestamp": "00:04:11.985",
+              "start_timestamp": "00:04:11.985"
+            }
+          },
+          {
+            "description": "Shows the formula for calculating the total magnetic field.",
+            "timestamp": {
+              "end_timestamp": "00:04:34.007",
+              "start_timestamp": "00:04:34.007"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the coordinate system used in the phone and the need for correction.",
+            "timestamp": "00:03:57.003"
+          },
+          {
+            "description": "Details the process of subtracting the background field from the measured values.",
+            "timestamp": "00:04:11.985"
+          },
+          {
+            "description": "Presents the formula for calculating the total magnetic field.",
+            "timestamp": "00:04:34.007"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram of phone coordinate system with formulas",
+            "timestamp": {
+              "end_timestamp": "00:03:56.470",
+              "start_timestamp": "00:03:56.470"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:04:50.791",
+          "start_timestamp": "00:03:56.470"
+        },
+        "title": "Data Analysis",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a slide showing the phone's coordinate system and relevant formulas.",
+            "timestamps": {
+              "end_timestamp": "00:03:56.470",
+              "start_timestamp": "00:03:56.470"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Introduces the theoretical relationship between magnetic field strength and distance.",
+            "timestamp": {
+              "end_timestamp": "00:04:51.992",
+              "start_timestamp": "00:04:51.992"
+            }
+          },
+          {
+            "description": "Shows a graph illustrating the inverse cubic relationship.",
+            "timestamp": {
+              "end_timestamp": "00:05:05.005",
+              "start_timestamp": "00:05:05.005"
+            }
+          },
+          {
+            "description": "Explains the use of natural logarithms to linearize the relationship.",
+            "timestamp": {
+              "end_timestamp": "00:05:15.015",
+              "start_timestamp": "00:05:15.015"
+            }
+          },
+          {
+            "description": "Discusses the value of B0 and r0 in the context of the lab.",
+            "timestamp": {
+              "end_timestamp": "00:05:50.016",
+              "start_timestamp": "00:05:50.016"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative, Analytical",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the inverse cubic relationship between magnetic field strength and distance for a dipole magnet.",
+            "timestamp": "00:04:51.992"
+          },
+          {
+            "description": "Provides a visual representation of the relationship using a graph.",
+            "timestamp": "00:05:05.005"
+          },
+          {
+            "description": "Bridges the theory to the lab's context by explaining how B0 and r0 are determined.",
+            "timestamp": "00:05:50.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Graphs and formulas related to magnetic field and distance",
+            "timestamp": {
+              "end_timestamp": "00:04:50.824",
+              "start_timestamp": "00:04:50.824"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:06:11.638",
+          "start_timestamp": "00:04:50.824"
+        },
+        "title": "Magnetic Field Theory and Analysis",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a slide showing formulas and graphs related to the dipole magnet's field.",
+            "timestamps": {
+              "end_timestamp": "00:04:50.824",
+              "start_timestamp": "00:04:50.824"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Transitions to horizontal measurements.",
+            "timestamp": {
+              "end_timestamp": "00:06:16.009",
+              "start_timestamp": "00:06:16.009"
+            }
+          },
+          {
+            "description": "Demonstrates horizontal measurements along the table.",
+            "timestamp": {
+              "end_timestamp": "00:06:21.014",
+              "start_timestamp": "00:06:21.014"
+            }
+          },
+          {
+            "description": "Measures the background magnetic field.",
+            "timestamp": {
+              "end_timestamp": "00:06:33.994",
+              "start_timestamp": "00:06:33.994"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative, Practical",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Signals the shift from vertical to horizontal measurements.",
+            "timestamp": "00:06:16.009"
+          },
+          {
+            "description": "Provides a visual demonstration of how to take horizontal measurements using a ruler.",
+            "timestamp": "00:06:21.014"
+          },
+          {
+            "description": "Reinforces the need for background magnetic field measurements.",
+            "timestamp": "00:06:33.994"
+          }
+        ],
+        "props": [
+          {
+            "name": "Magnet",
+            "timestamp": {
+              "end_timestamp": "00:06:11.671",
+              "start_timestamp": "00:06:11.671"
+            }
+          },
+          {
+            "name": "Ruler",
+            "timestamp": {
+              "end_timestamp": "00:06:11.671",
+              "start_timestamp": "00:06:11.671"
+            }
+          },
+          {
+            "name": "Phone",
+            "timestamp": {
+              "end_timestamp": "00:06:11.671",
+              "start_timestamp": "00:06:11.671"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:06:55.148",
+          "start_timestamp": "00:06:11.671"
+        },
+        "title": "Horizontal Measurements",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a black screen with the title \"PART 2 - HORIZONTAL MEASUREMENTS.\"",
+            "timestamps": {
+              "end_timestamp": "00:06:11.671",
+              "start_timestamp": "00:06:11.671"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "This is where the core experimental procedure is demonstrated.",
+        "timestamp": "00:03:42.989"
+      },
+      "description": "The video follows a single, primary storyline focusing on how to conduct and analyze a lab experiment measuring the magnetic field of a dipole magnet.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Dipole Magnet Lab Experiment",
+    "trimmingSuggestions": [
+      {
+        "description": "The iron filings visualization could be shortened as the subsequent animation more effectively illustrates the concept of field lines.",
+        "timestamps": {
+          "end_timestamp": "00:06:11.671",
+          "start_timestamp": "00:06:11.671"
+        }
+      },
+      {
+        "description": "The detailed explanation of the background field correction could be condensed, as the formula shown at 4:34 effectively summarizes the process.",
+        "timestamps": {
+          "end_timestamp": "00:06:11.671",
+          "start_timestamp": "00:06:11.671"
+        }
+      },
+      {
+        "description": "The discussion of natural logarithms could be streamlined, focusing primarily on its relevance to linearizing the relationship and determining the slope.",
+        "timestamps": {
+          "end_timestamp": "00:06:11.671",
+          "start_timestamp": "00:06:11.671"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 415,
+  "original_json_filename": "mY_ql_ftVX4.json",
+  "original_video_filename": "mY_ql_ftVX4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi everyone for this physics 126 lab we'll be measuring the strength of an ordinary magnet as it gets closer and farther from a magnetometer we're going to use the magnetometer that's in your smartphone and an app that allows us to read that data directly for this lab you will need a magnet any refrigerator magnet or other magnet will do your phone something to measure distance with you only need a few centimeters and if your klutz like me you need something to protect your phone from dropping a magnet on it you've probably seen the magnetic field around a bar magnet as represented by iron filings placed down near the magnet and then the filings align with the pole of magnetic field locally we use magnetic field lines as a representation of both the direction and strength of the magnetic fields here is a stylized representation of a bar magnet with the field lines around it the lines when they are closer together indicate a stronger magnetic field and the direction that they are pointing indicate the direction that the magnetic field is oriented in this lab we will be mapping out the magnetic field of an object very much like this you'll notice that near the poles of the magnet the field lines are closer together so the field should be stronger and when you get far away the field lines spread out so the field should be weaker this is the behavior we are expected to start collecting data you will want to open up the Firefox app on your phone when you do so it shows you all the sensors that the app has access to on your phone you will want to go and find the magnetometer data which is useful in navigation to start collecting data simply hit the play button this begins collecting a time series of data from each of the magnetometer sensors in the three different directions horizontal vertical and out through the POW phone corresponding to x y&amp;z the set reading that we'll want to use is actually the simple setting this will give us raw numerical values for each of the magnetometer directions including units in micro Tesla okay now that you're collecting data with your magnetometer the first thing that you're going to want to do is rotate the fun around in three dimensions this calibrates the magnetometer for the magnetic field inside the phone then place it on a flat non-magnetic surface and cover it you'll want to take the magnet and hold it about ten centimeters above the phone and move it around until you find the point where the magnetic field reading is the strongest at that point the magnet is directly above the magnetometer sensor in the phone in my phone it's in the upper right hand corner here so then what you need to do is measure distances from that point in your phone to the magnet at different vertical directions you'll want to hold it at a single distance record the distance the magnetometer values off the phone record the distance and then repeat this measurement for five other distances or a total of six then go back and repeat the measurements for those same six distances once you're finished with that take the magnet place it far away from the phone without touching the phone measure what the background magnetic field is and that's just the measurement when the magnet is far away from the phone to understand our measurements we'll need to know what the coordinate system for our phone is this diagram from the Firefox website shows the XY and z directions for a phone given each individual measurement you will need to calculate the real magnetic field from the magnet by subtracting off the component of the magnetic field in that direction so for the X Direction here we take our measured value and subtract off the background magnetic field in the x-direction to get the value we want to use once you've calculated the corrected magnetic field in all three directions you can calculate the total magnetic field by using the Pythagorean theorem and calculating the square root of the sum of the squares of the three directions the theory that we'll use is a magnetic field of a dipole magnet this is shown in a scaled relationship here where the magnetic field relative to a fundamental measurement drops off like the separation between the dipole magnet and the magnetometer raised the negative three power or an inverse cubic relationship in the lower left hand corner you see a graph of this relationship where small values of R over R naught represent when the phone is near the magnet and large values of R over R naught is when the phone is far from the back net the magnetic field should it be dropping off in our lab we will be analyzing the linearized form of this relationship where we calculate the natural log of both axes log R over R naught on the horizontal axis and log B over B naught on the vertical axis the important thing here is what is the value of V naught in our case all we are going to do is to assume that V naught and R naught are the measurements when your field when your magnet is closest to your phone so for the smallest values of R that's the value of r-not once you've completed your study of the vertical displacement of the magnetic field go ahead and measure horizontally from the sensor in this case measure flat along the table using the ruler to indicate the distance between the magnet and the magnetometer in the phone try it again for six different distances and each distance you should measure twice separated by some other distances when you're done with that again remove the magnet and the ruler and go ahead and measure the background magnetic field again",
+  "text_to_speech_word_count": 1003,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.339",
+      "start": "00:00:00.000",
+      "text": " Hi everyone."
+    },
+    {
+      "end": "00:00:11.478",
+      "start": "00:00:05.339",
+      "text": " For this Physics 126 Lab, we'll be measuring the strength of an ordinary magnet as it gets"
+    },
+    {
+      "end": "00:00:14.314",
+      "start": "00:00:11.478",
+      "text": " closer and farther from a magnetometer."
+    },
+    {
+      "end": "00:00:19.253",
+      "start": "00:00:14.314",
+      "text": " We're going to use the magnetometer that's in your smartphone and an app that allows"
+    },
+    {
+      "end": "00:00:21.488",
+      "start": "00:00:19.253",
+      "text": " us to read that data directly."
+    },
+    {
+      "end": "00:00:27.794",
+      "start": "00:00:21.488",
+      "text": " For this lab, you will need a magnet, any refrigerator magnet or other magnet will do."
+    },
+    {
+      "end": "00:00:33.567",
+      "start": "00:00:27.794",
+      "text": " For your phone, something to measure distance with, you only need a few centimeters."
+    },
+    {
+      "end": "00:00:38.038",
+      "start": "00:00:33.567",
+      "text": " And if your clots like me, you need something to protect your phone from dropping a magnet"
+    },
+    {
+      "end": "00:00:39.640",
+      "start": "00:00:38.038",
+      "text": " on it."
+    },
+    {
+      "end": "00:00:46.580",
+      "start": "00:00:39.640",
+      "text": " You've probably seen the magnetic field around a bar magnet as represented by iron filings"
+    },
+    {
+      "end": "00:00:54.821",
+      "start": "00:00:46.580",
+      "text": " placed down near the magnet and then the filings align with the magnetic field locally."
+    },
+    {
+      "end": "00:01:00.627",
+      "start": "00:00:54.821",
+      "text": " We use magnetic field lines as a representation of both the direction and strength of the"
+    },
+    {
+      "end": "00:01:02.396",
+      "start": "00:01:00.627",
+      "text": " magnetic fields."
+    },
+    {
+      "end": "00:01:08.468",
+      "start": "00:01:02.396",
+      "text": " Here is a stylized representation of a bar magnet with the field lines around it."
+    },
+    {
+      "end": "00:01:14.074",
+      "start": "00:01:08.468",
+      "text": " The lines when they are closer together indicate a stronger magnetic field and the direction"
+    },
+    {
+      "end": "00:01:19.880",
+      "start": "00:01:14.074",
+      "text": " that they are pointing indicate the direction that the magnetic field is oriented."
+    },
+    {
+      "end": "00:01:25.719",
+      "start": "00:01:19.880",
+      "text": " In this lab, we will be mapping out the magnetic field of an object very much like this."
+    },
+    {
+      "end": "00:01:30.290",
+      "start": "00:01:25.719",
+      "text": " You'll notice that near the poles of the magnet, the field lines are closer together,"
+    },
+    {
+      "end": "00:01:35.429",
+      "start": "00:01:30.290",
+      "text": " so the field should be stronger and when you get far away, the field lines spread out,"
+    },
+    {
+      "end": "00:01:37.297",
+      "start": "00:01:35.429",
+      "text": " so the field should be weaker."
+    },
+    {
+      "end": "00:01:43.670",
+      "start": "00:01:37.297",
+      "text": " This is the behavior we are expecting."
+    },
+    {
+      "end": "00:01:48.742",
+      "start": "00:01:43.670",
+      "text": " To start collecting data, you will want to open up the Firefox app on your phone."
+    },
+    {
+      "end": "00:01:54.314",
+      "start": "00:01:48.742",
+      "text": " When you do so, it shows you all the sensors that the app has access to on your phone."
+    },
+    {
+      "end": "00:02:00.420",
+      "start": "00:01:54.314",
+      "text": " You'll want to go and find the magnetometer data, which is useful in navigation."
+    },
+    {
+      "end": "00:02:03.657",
+      "start": "00:02:00.420",
+      "text": " To start collecting data, simply hit the play button."
+    },
+    {
+      "end": "00:02:08.829",
+      "start": "00:02:03.657",
+      "text": " This begins collecting a time series of data from each of the magnetometer sensors in the"
+    },
+    {
+      "end": "00:02:14.368",
+      "start": "00:02:08.829",
+      "text": " three different directions, horizontal, vertical and out through the phone corresponding to"
+    },
+    {
+      "end": "00:02:16.637",
+      "start": "00:02:14.368",
+      "text": " x, y and z."
+    },
+    {
+      "end": "00:02:21.375",
+      "start": "00:02:16.637",
+      "text": " The reading that we want to use is actually the simple setting."
+    },
+    {
+      "end": "00:02:26.847",
+      "start": "00:02:21.375",
+      "text": " This will give us raw numerical values for each of the magnetometer directions, including"
+    },
+    {
+      "end": "00:02:30.450",
+      "start": "00:02:26.847",
+      "text": " units in micro Tesla."
+    },
+    {
+      "end": "00:02:35.689",
+      "start": "00:02:30.450",
+      "text": " Okay, now that you're collecting data with your magnetometer, the first thing that you're"
+    },
+    {
+      "end": "00:02:39.826",
+      "start": "00:02:35.689",
+      "text": " going to want to do is rotate the phone around in three dimensions."
+    },
+    {
+      "end": "00:02:45.432",
+      "start": "00:02:39.826",
+      "text": " This calibrates the magnetometer for the magnetic field inside the phone."
+    },
+    {
+      "end": "00:02:51.038",
+      "start": "00:02:45.432",
+      "text": " Then place it on a flat non-magnetic surface and cover it."
+    },
+    {
+      "end": "00:02:56.109",
+      "start": "00:02:51.038",
+      "text": " You'll want to take the magnet and hold it about 10 centimeters above the phone and move"
+    },
+    {
+      "end": "00:03:01.715",
+      "start": "00:02:56.109",
+      "text": " it around until you find the point where the magnetic field reading is the strongest."
+    },
+    {
+      "end": "00:03:07.554",
+      "start": "00:03:01.715",
+      "text": " At that point, the magnet is directly above the magnetometer sensor in the phone."
+    },
+    {
+      "end": "00:03:11.858",
+      "start": "00:03:07.554",
+      "text": " In my phone, it's in the upper right hand corner here."
+    },
+    {
+      "end": "00:03:19.466",
+      "start": "00:03:11.858",
+      "text": " So then, what you need to do is measure distances from that point in your phone to the magnet"
+    },
+    {
+      "end": "00:03:21.702",
+      "start": "00:03:19.466",
+      "text": " at different vertical directions."
+    },
+    {
+      "end": "00:03:28.308",
+      "start": "00:03:21.702",
+      "text": " You'll want to hold it at a single distance, record the magnetometer values off the phone,"
+    },
+    {
+      "end": "00:03:34.381",
+      "start": "00:03:28.308",
+      "text": " record the distance, and then repeat this measurement for five other distances, or a total"
+    },
+    {
+      "end": "00:03:35.982",
+      "start": "00:03:34.381",
+      "text": " of six."
+    },
+    {
+      "end": "00:03:41.788",
+      "start": "00:03:35.982",
+      "text": " Then, go back and repeat the measurements for those same six distances."
+    },
+    {
+      "end": "00:03:47.394",
+      "start": "00:03:41.788",
+      "text": " Once you're finished with that, take the magnet, place it far away from the phone without"
+    },
+    {
+      "end": "00:03:52.265",
+      "start": "00:03:47.394",
+      "text": " touching the phone, measure what the background magnetic field is."
+    },
+    {
+      "end": "00:03:57.838",
+      "start": "00:03:52.265",
+      "text": " And that's just the measurement when the magnet is far away from the phone."
+    },
+    {
+      "end": "00:04:02.709",
+      "start": "00:03:57.838",
+      "text": " To understand our measurements, we'll need to know what the coordinate system for our phone"
+    },
+    {
+      "end": "00:04:03.777",
+      "start": "00:04:02.709",
+      "text": " is."
+    },
+    {
+      "end": "00:04:11.751",
+      "start": "00:04:03.777",
+      "text": " This diagram from the Firefox website shows the x, y, and z directions for a phone."
+    },
+    {
+      "end": "00:04:16.656",
+      "start": "00:04:11.751",
+      "text": " Given each individual measurement, you will need to calculate the real magnetic field"
+    },
+    {
+      "end": "00:04:23.697",
+      "start": "00:04:16.656",
+      "text": " from the magnet by subtracting off the component of the magnetic field in that direction."
+    },
+    {
+      "end": "00:04:29.769",
+      "start": "00:04:23.697",
+      "text": " So for the x direction here, we take our measured value and subtract off the background magnetic"
+    },
+    {
+      "end": "00:04:35.075",
+      "start": "00:04:29.769",
+      "text": " field in the x direction to get the value we want to use."
+    },
+    {
+      "end": "00:04:40.413",
+      "start": "00:04:35.075",
+      "text": " Once you've calculated the corrected magnetic field in all three directions, you can calculate"
+    },
+    {
+      "end": "00:04:46.419",
+      "start": "00:04:40.413",
+      "text": " the total magnetic field by using the Pythagorean theorem and calculating the square root of"
+    },
+    {
+      "end": "00:04:53.193",
+      "start": "00:04:46.419",
+      "text": " the sum of the squares of the three directions."
+    },
+    {
+      "end": "00:04:58.431",
+      "start": "00:04:53.193",
+      "text": " The theory that we'll use is the magnetic field of a dipole magnet."
+    },
+    {
+      "end": "00:05:04.104",
+      "start": "00:04:58.431",
+      "text": " This is shown in a scaled relationship here where the magnetic field relative to a fundamental"
+    },
+    {
+      "end": "00:05:10.210",
+      "start": "00:05:04.104",
+      "text": " measurement drops off like the separation between the dipole magnet and the magnetometer"
+    },
+    {
+      "end": "00:05:15.849",
+      "start": "00:05:10.210",
+      "text": " raised to the negative three power or an inverse cubic relationship."
+    },
+    {
+      "end": "00:05:20.954",
+      "start": "00:05:15.849",
+      "text": " In the lower left hand corner, you see a graph of this relationship where small values"
+    },
+    {
+      "end": "00:05:28.829",
+      "start": "00:05:20.954",
+      "text": " of r over r0 represent when the phone is near the magnet and large values of r over r0"
+    },
+    {
+      "end": "00:05:31.398",
+      "start": "00:05:28.829",
+      "text": " is when the phone is far from the magnet."
+    },
+    {
+      "end": "00:05:34.901",
+      "start": "00:05:31.398",
+      "text": " The magnetic field should be dropping off."
+    },
+    {
+      "end": "00:05:40.507",
+      "start": "00:05:34.901",
+      "text": " In our lab, we will be analyzing the linearized form of this relationship where we calculate"
+    },
+    {
+      "end": "00:05:43.476",
+      "start": "00:05:40.507",
+      "text": " the natural log of both axes."
+    },
+    {
+      "end": "00:05:50.217",
+      "start": "00:05:43.476",
+      "text": " Log r over r0 on the horizontal axis and log b over b0 on the vertical axis."
+    },
+    {
+      "end": "00:05:54.654",
+      "start": "00:05:50.217",
+      "text": " The important thing here is what is the value of b0?"
+    },
+    {
+      "end": "00:06:01.494",
+      "start": "00:05:54.654",
+      "text": " In our case, all we are going to do is to assume that b0 and r0 are the measurements"
+    },
+    {
+      "end": "00:06:05.899",
+      "start": "00:06:01.494",
+      "text": " when your magnet is closest to your phone."
+    },
+    {
+      "end": "00:06:15.875",
+      "start": "00:06:05.899",
+      "text": " So for the smallest values of r, that's the value of r0."
+    },
+    {
+      "end": "00:06:21.982",
+      "start": "00:06:15.875",
+      "text": " Once you've completed your study of the vertical displacement of the magnetic field, go ahead"
+    },
+    {
+      "end": "00:06:25.118",
+      "start": "00:06:21.982",
+      "text": " and measure horizontally from the sensor."
+    },
+    {
+      "end": "00:06:30.857",
+      "start": "00:06:25.118",
+      "text": " In this case, measure flat along the table using the ruler to indicate the distance between"
+    },
+    {
+      "end": "00:06:34.494",
+      "start": "00:06:30.857",
+      "text": " the magnet and the magnet'someter in the phone."
+    },
+    {
+      "end": "00:06:39.799",
+      "start": "00:06:34.494",
+      "text": " Try it again for six different distances and each distance you should measure twice"
+    },
+    {
+      "end": "00:06:42.302",
+      "start": "00:06:39.799",
+      "text": " separated by some other distances."
+    },
+    {
+      "end": "00:06:48.408",
+      "start": "00:06:42.302",
+      "text": " When you're done with that, again, remove the magnet and the ruler and go ahead and measure"
+    },
+    {
+      "end": "00:06:50.210",
+      "start": "00:06:48.408",
+      "text": " the background magnetic field again."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Erik Rosolowsky",
+  "youtube_channel_follower_count": 465,
+  "youtube_comment_count": 0,
+  "youtube_description": "This describes how to measure the magnetic field of a dipole",
+  "youtube_like_count": 0,
+  "youtube_tags": [],
+  "youtube_title": "PHYS126 - Magnetic Dipoles",
+  "youtube_upload_date": "20200315",
+  "youtube_view_count": 2142
+}

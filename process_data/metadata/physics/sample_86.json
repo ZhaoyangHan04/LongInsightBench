@@ -1,0 +1,730 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "An elderly man with gray hair and glasses wearing a maroon long sleeve shirt, and sitting down while talking.",
+        "name": "John Bowers"
+      }
+    ],
+    "description": "A presentation by John Bowers on the UCSB-AIM research directions and achievements, focusing on high-capacity optical interconnects, wavelength-selective photonic switches, and quantum dot lasers on silicon.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The research focuses on four main directions: high capacity interconnects, wavelength-selective photonic switches, inverse design, and quantum dot lasers on silicon.",
+        "question": "What is the focus of the UCSB-AIM research?"
+      },
+      {
+        "answer": "The data transmission rate achieved is 1 Terabit per second.",
+        "question": "What is the data transmission rate achieved in the 1 Tbps transceiver?"
+      },
+      {
+        "answer": "They allow for increased capacity by enabling the routing of different wavelengths through a single switch.",
+        "question": "What is the advantage of using wavelength-selective photonic switches?"
+      },
+      {
+        "answer": "The high density of rings and the multiple layers of metal require precise fabrication processes to ensure performance and yield.",
+        "question": "What is the challenge in fabricating the 8x4 switch with L=2?"
+      },
+      {
+        "answer": "They integrate wavelength monitors on all the waveguides, enabling them to monitor the alignment of the ring resonators and adjust them accordingly.",
+        "question": "How does UCSB-AIM achieve on-chip wavelength monitoring?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Talking about the UCSB-AIM Research Directions",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "John Bowers"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Overview of research efforts in high-capacity interconnects, wavelength-selective photonic switches, inverse design, and quantum dot lasers on silicon.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "John Bowers welcomes the audience and begins to explain the UCSB-AIM research direction, highlighting four main projects.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "John Bowers lists the four main directions the UCSB-AIM team focused on.",
+            "timestamp": "00:00:17.000"
+          },
+          {
+            "description": "John Bowers points out that he doesn't have much time to delve into details but the information is available on his website and online.",
+            "timestamp": "00:00:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Slide with research directions",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "UCSB-AIM research directions",
+        "timestamps": {
+          "end_timestamp": "00:00:17.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Overview",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking about the high capacity optical interconnect",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          },
+          {
+            "description": "Talking about the 8x4 switch with L = 2",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "John Bowers"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Discussion of a 1 Tbps transceiver chip fabricated with Analog Photonics and analysis of variations in resonant wavelengths.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "John Bowers delves into the project with Analog Photonics, focusing on a 1 terabit per second transceiver chip.",
+            "timestamp": "00:00:18.000"
+          },
+          {
+            "description": "John Bowers elaborates on wavelength-selective photonic switches, discussing how they can change the optical path based on wavelength.",
+            "timestamp": "00:00:24.000"
+          },
+          {
+            "description": "John Bowers points out that the path loss through the switch is dependent on the routing path, with the loss per element being less than 1dB.",
+            "timestamp": "00:00:36.000"
+          },
+          {
+            "description": "John Bowers illustrates that the variation in resonant wavelengths across chips is tightly grouped, allowing for small tuning adjustments.",
+            "timestamp": "00:00:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Slide with information about 1 Tbps High Capacity Optical Interconnect",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          },
+          {
+            "name": "Slide with information about the Channel Distribution within Demonstrators",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          },
+          {
+            "name": "Slide with information about the NxNxM switches",
+            "timestamp": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          },
+          {
+            "name": "Slide with information about the NxMxL Wavelength Selective Switches",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "name": "Slide with information about the 8x4 Switch with L=2",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "name": "Slide with information about Path Loss and Through Loss",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          },
+          {
+            "name": "Slide with information about Fabrication Variation",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          },
+          {
+            "name": "Slide with information about 60 GigaBaud-PAM4 Data Transmission",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "High-capacity optical interconnects, wavelength-selective photonic switches, fabrication variation, data transmission performance.",
+        "timestamps": {
+          "end_timestamp": "00:00:55.000",
+          "start_timestamp": "00:00:17.033"
+        },
+        "title": "High-Capacity Optical Interconnects",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Giving a summary of the UCSB-AIM Research Directions",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:55.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "John Bowers"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Recap of successful fabrication of complex PICs, performance of the PDK, data transmission rates, and a demonstration of a 1 Tbps transceiver.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "John Bowers concludes his talk with a summary of the key achievements in the UCSB-AIM research.",
+            "timestamp": "00:00:55.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Slide with the summary",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:55.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Summary of research",
+        "timestamps": {
+          "end_timestamp": "00:05:57.200",
+          "start_timestamp": "00:00:55.033"
+        },
+        "title": "Summary of Research Directions",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Summary of key achievements in the UCSB-AIM research.",
+        "timestamp": "00:00:55.000"
+      },
+      "description": "UCSB-AIM Research Directions",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "UCSB-AIM Research Presentation",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the long list of publications on the first slide to make the introduction more concise and engaging.",
+        "timestamps": {
+          "end_timestamp": "00:00:55.033",
+          "start_timestamp": "00:00:55.033"
+        }
+      },
+      {
+        "description": "Shorten transitions between slides to improve the overall pace of the video.",
+        "timestamps": {
+          "end_timestamp": "00:00:55.033",
+          "start_timestamp": "00:00:55.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 357,
+  "original_json_filename": "ekQn_ZJsZik.json",
+  "original_video_filename": "ekQn_ZJsZik.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "thank you chandra i'm john bowers director of the institute for energy efficiency and i'd like to talk about some ways that ucsb has been using the mpw process within aim a number of professors listed here and students and it's a collaboration of a bunch of us there's been four main directions we focused on the first is very high capacity interconnects to collaboration with suny analog in siena and there's several papers listed here and i don't really have time to go into much detail so you can find these on on my website or or online second project is wavelength selective photonic switches again several generations we've designed in the mpw process then the last two we haven't had time to describe here today but one is inverse design with stanford professor rukovic's group and again they came up with a novel design and we laid it out in the mpw process and it worked perfectly the final project is quantum dot lasers on silicon so this is a longer term project where we're trying to integrate lasers and soas into the standard sunni process and this will hopefully be an offering in the future so here's the first chip that we have fabricated with analog photonics it's a fairly complicated chip it's a one terabit per second transceiver so as you can see here there's you know 20 ring modulators 10 you know in a row so you need very low loss very high uniformity of the rings combined with interleavers wavelength division multiplexers and and polarization multiplexers there's a transmit side and a received side then this is mated with 3d bonding to an electronic ic that that drives the circuit so it's fairly complex this shows a picture of that chip and uh there's lots of wire bonds there's you know hundreds of devices the ring residences are tightly controlled you can see in the right side the variation across the wafer of how the resonances say for all ring one across the wafer they're actually quite tightly grouped and you can see as you go from channel one through channel 20 how that varies in the lower right you can see a eic that's bonded onto this pick in a 3d manner supposed to drive it so again there's hundreds of electrical connections it's a very high speed connections and they're very low capacitance and so it's a it's a challenging process the the ring power consumption is very low just 18 femtojoules per bit and the bump density is very high 36 microns so it's kind of beyond a typical pick you could buy from anywhere else the second project i want to talk about are large switches typically crossbar switches end by end by some number of wavelengths and typically uh you get a lot more capacity by by having wdm multiplexing on here so rather than a single wavelength switch on the left you go to a fat switch with wdm on it on in the middle but on the right is what's really valuable the ability to change some number of wavelengths off each of these channels from one to the other now you can show that actually having ability to change just two wavelengths per cross point is is sufficient at almost all real applications that gives you low latency and low blocking in the switch so again uh the number of rings here can be quite large as as n by n gets large and the number of wavelengths gets large in this case we have two rings per per cross bar and that's per wavelength and that's because we want flat tops and steep slopes in the side we've also integrated here our wavelength monitors on all the waveguides and so that allows us to monitor how the rings are aligned with uh the wavelength resonances so again it's self-standing that we don't need an external wavelength source to do that here's a picture of what one of those chips looks like so again very dense array of rings in the center here uh three levels of metal and pads that are on the outside and again it was fabricated in aim came out in standard time on time and with actually quite high yield and this shows one of these picks packaged up over here inside so again the path through here depending upon which one you go out gets longer and longer and so you see the path off increase and then as you go back to the shorter path that goes down the really important point here is that the loss per element is quite low less than a db so again it's very very high quality structures what you can see in this slide is the variation for instance in resonant wavelength across the uh different chips and again quite tight grouping of the resonance wavelengths which means we only need very small tuning to put them on on resonance this shows the experiments where we put sixty gigabyte data through this optical switch and uh so it's again you know it's pam four so it's aggregate 111 gigabit per second and again we can get below the hard effect limit uh with this structure so to summarize we're making really very complex picks with hundreds of devices integrated together pdk performed as expected flawlessly delivery was on time performance is actually quite good 60 gigabyte per second from modulators and detectors and we've used this to integrate together to achieve a one terabit per second transceiver thank you it's been my pleasure to to work in this mpw project",
+  "text_to_speech_word_count": 948,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.000",
+      "start": "00:00:00.000",
+      "text": " Thank you, Shandra."
+    },
+    {
+      "end": "00:00:09.267",
+      "start": "00:00:05.000",
+      "text": " I'm John Bowers, Director of the Institute for Energy Efficiency, and I'd like to talk about"
+    },
+    {
+      "end": "00:00:14.700",
+      "start": "00:00:09.267",
+      "text": " some ways that UCSV has been using the MPW process within AIM."
+    },
+    {
+      "end": "00:00:19.633",
+      "start": "00:00:14.700",
+      "text": " There's a number of professors listed here in students and it's a collaboration of a"
+    },
+    {
+      "end": "00:00:20.633",
+      "start": "00:00:19.633",
+      "text": " bunch of us."
+    },
+    {
+      "end": "00:00:24.933",
+      "start": "00:00:20.633",
+      "text": " There have been four main directions we focused on."
+    },
+    {
+      "end": "00:00:29.933",
+      "start": "00:00:24.933",
+      "text": " The first is very high capacity interconnects to collaboration with SUNY and Logan Siena,"
+    },
+    {
+      "end": "00:00:31.833",
+      "start": "00:00:29.933",
+      "text": " and there are several papers listed here."
+    },
+    {
+      "end": "00:00:38.200",
+      "start": "00:00:31.833",
+      "text": " And I don't really have time to go into much detail, so you can find these on my website"
+    },
+    {
+      "end": "00:00:41.667",
+      "start": "00:00:38.200",
+      "text": " or online."
+    },
+    {
+      "end": "00:00:44.667",
+      "start": "00:00:41.667",
+      "text": " Second project is WebLink Selective Photonics Witches."
+    },
+    {
+      "end": "00:00:49.233",
+      "start": "00:00:44.667",
+      "text": " Again, several generations we've designed in the MPW process."
+    },
+    {
+      "end": "00:00:54.433",
+      "start": "00:00:49.233",
+      "text": " Then the last two, we haven't had time to describe here today, but one is inverse design"
+    },
+    {
+      "end": "00:00:57.733",
+      "start": "00:00:54.433",
+      "text": " with Stanford, Professor Rookovic's group."
+    },
+    {
+      "end": "00:01:03.433",
+      "start": "00:00:57.733",
+      "text": " And again, they came up with a novel design and we laid it out in the MPW process and"
+    },
+    {
+      "end": "00:01:05.233",
+      "start": "00:01:03.433",
+      "text": " it worked perfectly."
+    },
+    {
+      "end": "00:01:08.333",
+      "start": "00:01:05.233",
+      "text": " The final project is Quantum Bat Lasers on Silicon."
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:08.333",
+      "text": " So this is a longer term project where we're trying to integrate lasers and S.O.A.'s into"
+    },
+    {
+      "end": "00:01:17.733",
+      "start": "00:01:13.000",
+      "text": " the standard SUNY process, and this will hopefully be an offering in the future."
+    },
+    {
+      "end": "00:01:24.833",
+      "start": "00:01:18.733",
+      "text": " So here's the first chip that we have fabricated with analog photonics."
+    },
+    {
+      "end": "00:01:26.300",
+      "start": "00:01:24.833",
+      "text": " It's a fairly complicated chip."
+    },
+    {
+      "end": "00:01:28.700",
+      "start": "00:01:26.300",
+      "text": " It's a one-terribute per second transceiver."
+    },
+    {
+      "end": "00:01:34.467",
+      "start": "00:01:28.700",
+      "text": " So as you can see here, there's 20 ring modulators, 10 in a row."
+    },
+    {
+      "end": "00:01:40.633",
+      "start": "00:01:34.467",
+      "text": " So you need very low loss, very high uniformity of the rings, combined with interleavers,"
+    },
+    {
+      "end": "00:01:45.600",
+      "start": "00:01:40.633",
+      "text": " WebLink division multiplexers, and polarization multiplexers."
+    },
+    {
+      "end": "00:01:48.800",
+      "start": "00:01:46.167",
+      "text": " There's a transmit side and a receive side."
+    },
+    {
+      "end": "00:01:54.800",
+      "start": "00:01:48.800",
+      "text": " Then this is mated with 3D bonding to an electronic IC that drives this circuit."
+    },
+    {
+      "end": "00:01:56.167",
+      "start": "00:01:54.800",
+      "text": " So it's fairly complex."
+    },
+    {
+      "end": "00:02:01.333",
+      "start": "00:01:57.367",
+      "text": " This shows a picture of that chip and sort of lots of wire bonds."
+    },
+    {
+      "end": "00:02:03.500",
+      "start": "00:02:01.333",
+      "text": " There's hundreds of devices."
+    },
+    {
+      "end": "00:02:06.267",
+      "start": "00:02:03.500",
+      "text": " The ring residences are tightly controlled."
+    },
+    {
+      "end": "00:02:11.600",
+      "start": "00:02:06.267",
+      "text": " You can see in the right-hand side, the variation across the wafer of how the resonance is"
+    },
+    {
+      "end": "00:02:15.900",
+      "start": "00:02:11.600",
+      "text": " a for all ring one across the wafer, they're actually quite tightly grouped."
+    },
+    {
+      "end": "00:02:20.233",
+      "start": "00:02:15.900",
+      "text": " You can see as you go from channel one through channel 20, how that varies."
+    },
+    {
+      "end": "00:02:29.333",
+      "start": "00:02:21.533",
+      "text": " On the lower right you can see a EIC that's bonded onto this pick in a 3D manner, so it's"
+    },
+    {
+      "end": "00:02:30.333",
+      "start": "00:02:29.333",
+      "text": " to drive it."
+    },
+    {
+      "end": "00:02:32.133",
+      "start": "00:02:30.333",
+      "text": " Again, there's hundreds of lot-quick connections."
+    },
+    {
+      "end": "00:02:36.133",
+      "start": "00:02:32.133",
+      "text": " It's a very high-speed connections and they're very low capacitance."
+    },
+    {
+      "end": "00:02:38.700",
+      "start": "00:02:36.700",
+      "text": " It's a challenging process."
+    },
+    {
+      "end": "00:02:43.667",
+      "start": "00:02:38.700",
+      "text": " The ring power consumption is very low, just 18 femtage-jules per bit."
+    },
+    {
+      "end": "00:02:46.700",
+      "start": "00:02:43.667",
+      "text": " The bump density is very high, 36 microns."
+    },
+    {
+      "end": "00:02:52.067",
+      "start": "00:02:46.700",
+      "text": " It's beyond a typical pick you could buy from anywhere else."
+    },
+    {
+      "end": "00:02:59.333",
+      "start": "00:02:54.133",
+      "text": " The second project I want to talk about are large switches, typically cross-bar switches,"
+    },
+    {
+      "end": "00:03:02.467",
+      "start": "00:02:59.333",
+      "text": " N by N by some number of wavelengths."
+    },
+    {
+      "end": "00:03:09.667",
+      "start": "00:03:02.533",
+      "text": " Typically, you get a lot more capacity by having WDM multiplexion on here."
+    },
+    {
+      "end": "00:03:14.633",
+      "start": "00:03:09.667",
+      "text": " Rather than a single wavelength switch in the left, you go to a fast switch with WDM on"
+    },
+    {
+      "end": "00:03:16.067",
+      "start": "00:03:15.100",
+      "text": " in the middle."
+    },
+    {
+      "end": "00:03:17.833",
+      "start": "00:03:16.067",
+      "text": " On the right is what's really valuable."
+    },
+    {
+      "end": "00:03:22.933",
+      "start": "00:03:17.833",
+      "text": " The ability to change some number of wavelengths off each of these channels from one to the other."
+    },
+    {
+      "end": "00:03:28.933",
+      "start": "00:03:24.300",
+      "text": " You can show that actually having ability to change just two wavelengths per cross-point"
+    },
+    {
+      "end": "00:03:33.200",
+      "start": "00:03:29.667",
+      "text": " is sufficient at almost all real applications."
+    },
+    {
+      "end": "00:03:36.400",
+      "start": "00:03:33.200",
+      "text": " That gives you low latency and low walking in the switch."
+    },
+    {
+      "end": "00:03:42.467",
+      "start": "00:03:38.467",
+      "text": " The number of rings here could be quite large as N by N gets large."
+    },
+    {
+      "end": "00:03:44.467",
+      "start": "00:03:42.467",
+      "text": " And the number of wavelengths gets large."
+    },
+    {
+      "end": "00:03:49.733",
+      "start": "00:03:44.467",
+      "text": " In this case, we have two rings per cross-bar and that's per wavelength."
+    },
+    {
+      "end": "00:03:53.333",
+      "start": "00:03:49.733",
+      "text": " That's because we want flat tops and steep slopes in the side."
+    },
+    {
+      "end": "00:03:58.233",
+      "start": "00:03:54.000",
+      "text": " We've also integrated here our wavelength monitors on all the waveguides."
+    },
+    {
+      "end": "00:04:04.933",
+      "start": "00:03:58.300",
+      "text": " And so that allows us to monitor how the rings are aligned with the wavelength"
+    },
+    {
+      "end": "00:04:05.900",
+      "start": "00:04:04.933",
+      "text": " presidencies."
+    },
+    {
+      "end": "00:04:09.433",
+      "start": "00:04:05.900",
+      "text": " So again, it's self-standing that we don't need an external wavelength source to do that."
+    },
+    {
+      "end": "00:04:12.933",
+      "start": "00:04:10.533",
+      "text": " Here's a picture of what one of those chips looks like."
+    },
+    {
+      "end": "00:04:16.000",
+      "start": "00:04:12.933",
+      "text": " Again, very dense array of rings in the center here."
+    },
+    {
+      "end": "00:04:20.700",
+      "start": "00:04:17.033",
+      "text": " Three levels of metal and pads on the outside."
+    },
+    {
+      "end": "00:04:26.800",
+      "start": "00:04:21.733",
+      "text": " And again, it was fabricated in name, came out in standard time on time."
+    },
+    {
+      "end": "00:04:29.333",
+      "start": "00:04:27.333",
+      "text": " And with actually quite high yield."
+    },
+    {
+      "end": "00:04:34.533",
+      "start": "00:04:29.333",
+      "text": " And this shows one of these picks packaged up over here inside."
+    },
+    {
+      "end": "00:04:38.400",
+      "start": "00:04:35.600",
+      "text": " So again, the path through here, depending upon which one you go out,"
+    },
+    {
+      "end": "00:04:40.633",
+      "start": "00:04:39.033",
+      "text": " gets longer and longer."
+    },
+    {
+      "end": "00:04:42.300",
+      "start": "00:04:40.633",
+      "text": " And so you see the path often increased."
+    },
+    {
+      "end": "00:04:45.500",
+      "start": "00:04:42.300",
+      "text": " And then as you go back to the shorter path that goes down,"
+    },
+    {
+      "end": "00:04:51.033",
+      "start": "00:04:45.500",
+      "text": " the really important point here is that the loss per element is quite low less than a dB."
+    },
+    {
+      "end": "00:04:54.400",
+      "start": "00:04:51.033",
+      "text": " So again, it's very, very high quality structures."
+    },
+    {
+      "end": "00:05:00.700",
+      "start": "00:04:54.933",
+      "text": " What you can see in this slide is the variation, for instance, in resident wavelengths across"
+    },
+    {
+      "end": "00:05:02.300",
+      "start": "00:05:00.700",
+      "text": " the different chips."
+    },
+    {
+      "end": "00:05:09.200",
+      "start": "00:05:02.300",
+      "text": " And again, quite tight grouping of the residence wavelengths, which means we only need very small"
+    },
+    {
+      "end": "00:05:11.567",
+      "start": "00:05:09.200",
+      "text": " tuning to put them on residents."
+    },
+    {
+      "end": "00:05:17.833",
+      "start": "00:05:13.567",
+      "text": " This shows the experiment where we put 60 gigaball data through this optical switch."
+    },
+    {
+      "end": "00:05:22.467",
+      "start": "00:05:18.633",
+      "text": " And so it's, again, it's Pam 4, so it's aggregate,"
+    },
+    {
+      "end": "00:05:24.633",
+      "start": "00:05:22.633",
+      "text": " 111 gigabit per second."
+    },
+    {
+      "end": "00:05:29.100",
+      "start": "00:05:24.633",
+      "text": " And again, we can get below the hard fact limit with this structure."
+    },
+    {
+      "end": "00:05:35.433",
+      "start": "00:05:30.700",
+      "text": " So to summarize, we're making really very complex picks with hundreds of devices"
+    },
+    {
+      "end": "00:05:36.400",
+      "start": "00:05:35.433",
+      "text": " integrated together."
+    },
+    {
+      "end": "00:05:41.100",
+      "start": "00:05:36.933",
+      "text": " BDK performed as expected flawlessly, delivery was on time."
+    },
+    {
+      "end": "00:05:46.533",
+      "start": "00:05:41.833",
+      "text": " Format is actually quite good, 60 gigabod per second from modulators and detectors."
+    },
+    {
+      "end": "00:05:50.467",
+      "start": "00:05:46.533",
+      "text": " And we've used this to integrate together to achieve a one terabyte per second transceiver."
+    },
+    {
+      "end": "00:05:56.067",
+      "start": "00:05:50.467",
+      "text": " Thank you. It's been my pleasure to work in this MPW project."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "AIM Photonics",
+  "youtube_channel_follower_count": 390,
+  "youtube_comment_count": 0,
+  "youtube_description": "AIM Photonics develops and creates the ways integrated photonics will improve and change our lives in the 21st century.",
+  "youtube_like_count": 4,
+  "youtube_tags": [],
+  "youtube_title": "AIM Photonics Testimonial.  Dr. John Bowers, Deputy CEO AIM, and Distinguished Professor UCSB.",
+  "youtube_upload_date": "20210526",
+  "youtube_view_count": 176
+}

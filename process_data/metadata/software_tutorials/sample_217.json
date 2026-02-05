@@ -1,0 +1,965 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with dark hair and glasses, wearing a blue shirt. He is the narrator and presenter of the video.",
+        "name": "Amit Agarwal"
+      }
+    ],
+    "description": "An instructional video demonstrating the creation and use of Twitter bots using a specific application, presented by Amit Agarwal.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "Read, write, and direct messages. (Visual confirmation at 1:57)",
+        "question": "What is the access level required for a Twitter application to send Direct Messages?"
+      },
+      {
+        "answer": "Screen name followed by a slash, then the slug of the Twitter list. (Visual confirmation at 4:28)",
+        "question": "What is the syntax for specifying a Twitter list within the bot configuration?"
+      },
+      {
+        "answer": "5 favorites. (Visual confirmation at 4:11)",
+        "question": "What is the minimum number of favorites required for a tweet to be considered by the \"life hacks\" bot?"
+      },
+      {
+        "answer": "Every 15 minutes. (Audio confirmation at 5:57)",
+        "question": "How often do the created bots run automatically?"
+      },
+      {
+        "answer": "Twitter Archiver. (Visual confirmation at 6:53)",
+        "question": "What is the name of the tool recommended at the end of the video for archiving tweets?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Amit introduces himself and the topic of Twitter bots.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.005",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Amit discusses common misconceptions about bot creation.",
+            "timestamp": {
+              "end_timestamp": "00:00:13.013",
+              "start_timestamp": "00:00:06.006"
+            }
+          },
+          {
+            "description": "Amit introduces the Twitter Bots application and its key features.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.994",
+              "start_timestamp": "00:00:14.014"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Amit Agarwal"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene emphasizes the democratization of bot creation, making it accessible to a wider audience.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious. The introduction piques interest about Twitter bots and the application being presented. ",
+          "keyMoments": [
+            {
+              "changeDescription": "Introduction of the speaker and the topic.",
+              "timestamp": "00:00:00.000"
+            },
+            {
+              "changeDescription": "Mood shifts from Curious to Excited as Amit emphasizes the ease of creating bots with the application.",
+              "timestamp": "00:00:14.014"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the speaker and the topic.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Introduction of the Twitter Bots application.",
+            "timestamp": "00:00:14.014"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Automation, ease of use, Twitter, social media.",
+        "timestamps": {
+          "end_timestamp": "00:00:27.494",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Twitter Bots",
+        "videoEditingDetails": [
+          {
+            "description": "Simple title card with text overlay for introduction.",
+            "timestamps": {
+              "end_timestamp": "00:00:26.994",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The disclaimers reinforce responsible bot usage and compliance with Twitter's rules.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Outlines the capabilities and limitations of the Twitter bots application.",
+            "timestamp": "00:00:27.995"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen listing Twitter bot capabilities and disclaimers.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.003",
+              "start_timestamp": "00:00:27.995"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Twitter bot functionality, social media etiquette, spam prevention.",
+        "timestamps": {
+          "end_timestamp": "00:01:11.171",
+          "start_timestamp": "00:00:27.527"
+        },
+        "title": "Capabilities and Disclaimers",
+        "videoEditingDetails": [
+          {
+            "description": "Static text slide.",
+            "timestamps": {
+              "end_timestamp": "00:01:10.003",
+              "start_timestamp": "00:00:27.995"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Navigating to apps.twitter.com and creating a new Twitter application.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.016",
+              "start_timestamp": "00:01:17.010"
+            }
+          },
+          {
+            "description": "Filling in application details.",
+            "timestamp": {
+              "end_timestamp": "00:01:33.994",
+              "start_timestamp": "00:01:23.984"
+            }
+          },
+          {
+            "description": "Agreeing to developer terms.",
+            "timestamp": {
+              "end_timestamp": "00:01:42.002",
+              "start_timestamp": "00:01:34.995"
+            }
+          },
+          {
+            "description": "Modifying application permissions.",
+            "timestamp": {
+              "end_timestamp": "00:02:04.992",
+              "start_timestamp": "00:01:43.003"
+            }
+          },
+          {
+            "description": "Generating keys and access tokens.",
+            "timestamp": {
+              "end_timestamp": "00:02:24.011",
+              "start_timestamp": "00:02:05.993"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene highlights the technical foundation required for bot creation.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Instructional)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Visit apps.twitter.com",
+            "timestamp": "00:01:17.010"
+          },
+          {
+            "description": "Fill in application details.",
+            "timestamp": "00:01:23.984"
+          },
+          {
+            "description": "Accept developer terms.",
+            "timestamp": "00:01:34.995"
+          },
+          {
+            "description": "Adjust app permissions.",
+            "timestamp": "00:01:43.003"
+          },
+          {
+            "description": "Generate keys and tokens.",
+            "timestamp": "00:02:05.993"
+          }
+        ],
+        "props": [
+          {
+            "name": "Twitter application creation form",
+            "timestamp": {
+              "end_timestamp": "00:02:24.011",
+              "start_timestamp": "00:01:22.015"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Twitter API, application development, access permissions.",
+        "timestamps": {
+          "end_timestamp": "00:02:54.274",
+          "start_timestamp": "00:01:11.204"
+        },
+        "title": "Setting up Twitter Application",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with no transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:02:53.006",
+              "start_timestamp": "00:01:11.204"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Entering Twitter app keys into the Twitter Bots application.",
+            "timestamp": {
+              "end_timestamp": "00:02:59.012",
+              "start_timestamp": "00:02:54.307"
+            }
+          },
+          {
+            "description": "Creating and configuring five different Twitter bots.",
+            "timestamp": {
+              "end_timestamp": "00:06:03.997",
+              "start_timestamp": "00:03:00.013"
+            }
+          },
+          {
+            "description": "Demonstrating the \"Show Logs\" and \"Stop\" buttons.",
+            "timestamp": {
+              "end_timestamp": "00:06:23.016",
+              "start_timestamp": "00:06:04.998"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The \"misspelling bot\" example adds a humorous touch, showcasing the potential for creative and unconventional bot functions.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Instructional), with a brief moment of amusement in the \"misspelling bot\" example.",
+          "keyMoments": [
+            {
+              "changeDescription": "Amusement in the 'misspelling bot' example.",
+              "timestamp": "00:03:30.010"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Inputting Twitter app keys.",
+            "timestamp": "00:02:54.307"
+          },
+          {
+            "description": "Defining bot search terms and actions (Favorite Tweet, Public Reply, Add to Twitter List, DM New Followers).",
+            "timestamp": "00:03:00.013"
+          },
+          {
+            "description": "Highlighting the \"Show Logs\" and \"Stop\" buttons.",
+            "timestamp": "00:06:04.998"
+          }
+        ],
+        "props": [
+          {
+            "name": "Twitter Bots application interface",
+            "timestamp": {
+              "end_timestamp": "00:06:23.016",
+              "start_timestamp": "00:02:54.307"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Bot functionality, Twitter search operators, automated tasks.",
+        "timestamps": {
+          "end_timestamp": "00:06:24.684",
+          "start_timestamp": "00:02:54.307"
+        },
+        "title": "Configuring Bots using Application",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with no transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:06:23.016",
+              "start_timestamp": "00:02:54.307"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Showcasing a \"misspelling bot\" tweet correcting a misspelled word.",
+            "timestamp": {
+              "end_timestamp": "00:06:32.993",
+              "start_timestamp": "00:06:24.718"
+            }
+          },
+          {
+            "description": "Showcasing a tweet favorited by the \"green energy\" bot.",
+            "timestamp": {
+              "end_timestamp": "00:06:45.005",
+              "start_timestamp": "00:06:33.994"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Reinforces the effectiveness of the Twitter Bots application and the real-world impact of the created bots.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Demonstrative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The \"misspelling bot\" in action.",
+            "timestamp": "00:06:24.718"
+          },
+          {
+            "description": "The \"green energy\" bot in action.",
+            "timestamp": "00:06:33.994"
+          }
+        ],
+        "props": [
+          {
+            "name": "Twitter interface showcasing bot activity",
+            "timestamp": {
+              "end_timestamp": "00:06:45.005",
+              "start_timestamp": "00:06:24.718"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Bot activity, Twitter automation, visual confirmation.",
+        "timestamps": {
+          "end_timestamp": "00:06:46.139",
+          "start_timestamp": "00:06:24.718"
+        },
+        "title": "Demonstrating Bots in Action",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with no transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:06:45.005",
+              "start_timestamp": "00:06:24.718"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene encourages viewers to explore other resources and tools offered by the creator.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the video by summarizing the ease of bot creation and recommending another tool, \"Twitter Archiver\".",
+            "timestamp": "00:06:46.172"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen recommending \"Twitter Archiver\", another application by Amit Agarwal.",
+            "timestamp": {
+              "end_timestamp": "00:07:08.995",
+              "start_timestamp": "00:06:46.172"
+            }
+          },
+          {
+            "name": "Contact information for Amit Agarwal.",
+            "timestamp": {
+              "end_timestamp": "00:07:08.995",
+              "start_timestamp": "00:06:46.172"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Bot creation, additional tools, website promotion, contact information.",
+        "timestamps": {
+          "end_timestamp": "00:07:09.596",
+          "start_timestamp": "00:06:46.172"
+        },
+        "title": "Conclusion and Additional Resources",
+        "videoEditingDetails": [
+          {
+            "description": "Simple text slides.",
+            "timestamps": {
+              "end_timestamp": "00:07:08.995",
+              "start_timestamp": "00:06:46.172"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Where the bots are visually demonstrated in action.",
+        "timestamp": "00:06:23.984"
+      },
+      "description": "Creating and using Twitter Bots",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Twitter Bots",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened by combining all text onto a single slide.",
+        "timestamps": {
+          "end_timestamp": "00:06:46.172",
+          "start_timestamp": "00:06:46.172"
+        }
+      },
+      {
+        "description": "Could be sped up in sections where the setup process is straightforward.",
+        "timestamps": {
+          "end_timestamp": "00:06:46.172",
+          "start_timestamp": "00:06:46.172"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 430,
+  "original_json_filename": "_TMNURI1klM.json",
+  "original_video_filename": "_TMNURI1klM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello this is Amit from digital inspiration and this is a demo of Twitter Bots now when you think of bots and when you think of creating a bot what is the first thing that comes to your mind code right you need to write a program that will act as a bot now this Twitter Bots application helps you create Bots visually so you don't have to worry about writing any code you don't have to be a programmer all you have to do is describe your B in plain English and it will do the rest so here are some of the capabilities of the twitterbots application it can retweet and favorite tweets it can follow users who tweet on particular topics it can send DMS or direct messages to your new followers it can reply to tweets with a public reply or even a DM and finally it can add users who tweet on particular topics to one of your Twitter lists the other interesting feature of the Twitter BBS application is that you can specify the time period for which the B should run so for instance if you're offline during evening or late night you can instruct The Bard to only run between 6:00 p.m. to 9:00 a.m. when you're are usually offline okay now that you know what the Bots can do it's time to create a Twitter bot so the first thing you need to do is go to apps. twitter.com and create a new Twitter application now this is the easy part all you have to do is fill in the ttor bot's name a unique description and your website address now remember to put the full website address including the HTTP part uh finally agree to the developer terms and conditions and create your [Music] application the bot has been created successfully but if you look at the access level it is set as read and write what that essentially means is that your Bot can read tweets and it can write tweets it cannot however send DMS so for that what we'll do is we'll modify the app permissions and set set the access level as read write and access [Music] DMS our Twitter application is almost ready now the last thing we need to do is generate the keys and access tokens and use that in our Twitter [Music] Bots next go to labnol.org sbots to access the twitterbots application and here copy paste the Twitter keys that we have just [Music] generated so we are all set it is now time to create the Bots so writing a bot is simple you specify the search term you specify the action and the bot is ready so for the first bot let's say we are trying to uh capture all tweets that mention the # green energy and that have been um retweeted at least 10 number of times if you find any such tweets the bot should automatically favorite that [Music] tweet [Music] for the second bot let's have some fun so we'll try to find tweets that have misspellings of common word and in case somebody has misspelled that word we'll try to U send them a tweet a public reply saying that the correct spelling is this now they're definitely not going to like this but this is just to demonstrate the capabilities of the [Music] bot for the next bot I'm trying to to find out interesting users who tweet about life hacks and I'm trying to add them to a tutor list that I've already created so for that what I will do is I'll specify the search term as hash life hacks Min faves 5 now this is a search operator that will only return tweets that have been favorited at least five times now the important thing to note here is that when you are specifying a Twitter list one this Twitter list should already exist and second the way you should specify the Twitter list is mention your screen name follow by a slash and followed by the slug of the Twitter list let's now switch to the fourth bot it is not important that you create all the bots in one go but for this demo let's do that what I want the fourth B to do is send a DM to someone who follows a particular user so in this case whenever somebody follows labnol a DM will be sent so you specify the username in the search field and the message that should go out as the DM in the reply [Music] field [Music] so it's time to create the final bot and this is an interesting one because unlike other boards that are always running this will only run during certain [Music] hours [Music] so what I'm trying to do is set up an out of office reply bot that will reply to tweets that come when I'm offline so the Bots have been described and it's time to create an unleash those bots so how do you do that simple just click the create button so when you click the create button what it does is it creates a background process that runs every 15 minutes so your Bots will auto run every 15 minutes they will find all the matching tweets and perform the associated actions against those tweets there are two other important buttons on this page that you should know about one is the show logs button and this comes handy if you're trying to know what the bot is doing in the background and if the bot is not working what could be the possible reason then you have the stop button and as obvious this helps you stop all the ttor bots in one go so let's see what the bot is doing in the background now here is a tweet that the bot has sent uh fixing asking somebody to fix their misspelling obviously a fun bot and this is the next tweet that the bot has favorite so if you remember we had a Bard that would favorite all green energy # tweets with minimum number of favorites as 10 so it has done that so creating bards is very simple the only thing you need to take care of is play by the Twitter rules you should also check out Twitter archiver it helps you save Tweets in a Google sheet forever [Music]",
+  "text_to_speech_word_count": 1085,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.073",
+      "start": "00:00:00.000",
+      "text": " Hello, this is Amit from Digital Inspiration and this is the demo of Tritterbots."
+    },
+    {
+      "end": "00:00:09.543",
+      "start": "00:00:06.073",
+      "text": " Now when you think of bots and when you think of creating a bot, what is the first thing"
+    },
+    {
+      "end": "00:00:10.878",
+      "start": "00:00:09.543",
+      "text": " that comes to your mind?"
+    },
+    {
+      "end": "00:00:11.879",
+      "start": "00:00:10.878",
+      "text": " Code, right?"
+    },
+    {
+      "end": "00:00:15.048",
+      "start": "00:00:11.879",
+      "text": " You need to write a program that will act as a bot."
+    },
+    {
+      "end": "00:00:18.785",
+      "start": "00:00:15.048",
+      "text": " Now this Tritterbots application helps you create bots visually."
+    },
+    {
+      "end": "00:00:23.156",
+      "start": "00:00:18.785",
+      "text": " So you don't have to worry about writing any code, you don't have to be a programmer."
+    },
+    {
+      "end": "00:00:26.927",
+      "start": "00:00:23.156",
+      "text": " All you have to do is describe your bot in plain English and will do the rest."
+    },
+    {
+      "end": "00:00:35.068",
+      "start": "00:00:30.864",
+      "text": " So here are some of the capabilities of the Tritterbots application."
+    },
+    {
+      "end": "00:00:37.471",
+      "start": "00:00:35.068",
+      "text": " It can retweet and favor it to its."
+    },
+    {
+      "end": "00:00:41.074",
+      "start": "00:00:37.471",
+      "text": " It can follow users who tweet on particular topics."
+    },
+    {
+      "end": "00:00:44.912",
+      "start": "00:00:41.074",
+      "text": " It can send DMs or direct messages to your new followers."
+    },
+    {
+      "end": "00:00:49.016",
+      "start": "00:00:44.912",
+      "text": " It can reply to tweets with a public reply or even a DM."
+    },
+    {
+      "end": "00:00:54.621",
+      "start": "00:00:49.016",
+      "text": " And finally, it can add users who tweet on particular topics to one of your Twitter lists."
+    },
+    {
+      "end": "00:00:58.492",
+      "start": "00:00:54.621",
+      "text": " The other interesting feature of the Tritterbots application is that you can specify the time"
+    },
+    {
+      "end": "00:01:00.494",
+      "start": "00:00:58.492",
+      "text": " period for which the bots should run."
+    },
+    {
+      "end": "00:01:04.531",
+      "start": "00:01:00.494",
+      "text": " So for instance, if you're offline during evening or late night, you can instruct the"
+    },
+    {
+      "end": "00:01:09.570",
+      "start": "00:01:04.531",
+      "text": " bot to only run between 6 pm to 9 pm when you are usually offline."
+    },
+    {
+      "end": "00:01:15.809",
+      "start": "00:01:11.572",
+      "text": " Okay, now that you know what the bots can do, it's time to create a Tritterbot."
+    },
+    {
+      "end": "00:01:23.417",
+      "start": "00:01:15.809",
+      "text": " So the first thing you need to do is go to apps.tritter.com and create a new Tritter application."
+    },
+    {
+      "end": "00:01:24.651",
+      "start": "00:01:23.417",
+      "text": " Now this is the easy part."
+    },
+    {
+      "end": "00:01:29.289",
+      "start": "00:01:24.651",
+      "text": " All you have to do is fill in the Tritterbots name, a unique description and your website"
+    },
+    {
+      "end": "00:01:30.290",
+      "start": "00:01:29.289",
+      "text": " address."
+    },
+    {
+      "end": "00:01:34.294",
+      "start": "00:01:30.290",
+      "text": " Now remember to put the full website address including the HTTP part."
+    },
+    {
+      "end": "00:01:38.599",
+      "start": "00:01:34.294",
+      "text": " Finally, agree to the developer terms and conditions and create your application."
+    },
+    {
+      "end": "00:01:47.874",
+      "start": "00:01:44.071",
+      "text": " The bot has been created successfully, but if you look at the access level, it is set"
+    },
+    {
+      "end": "00:01:49.476",
+      "start": "00:01:47.874",
+      "text": " as read and write."
+    },
+    {
+      "end": "00:01:53.780",
+      "start": "00:01:49.476",
+      "text": " What that essentially means is that your bot can read tweets and it can write tweets."
+    },
+    {
+      "end": "00:01:56.617",
+      "start": "00:01:53.780",
+      "text": " It cannot however send DMs."
+    },
+    {
+      "end": "00:02:00.854",
+      "start": "00:01:56.617",
+      "text": " So for that what we'll do is we'll modify the app permissions and set the access level"
+    },
+    {
+      "end": "00:02:02.856",
+      "start": "00:02:00.854",
+      "text": " as read, write and access DMs."
+    },
+    {
+      "end": "00:02:12.666",
+      "start": "00:02:10.297",
+      "text": " Our Tritter application is almost ready now."
+    },
+    {
+      "end": "00:02:16.670",
+      "start": "00:02:12.666",
+      "text": " The last thing we need to do is generate the keys and access tokens and use that in our"
+    },
+    {
+      "end": "00:02:17.671",
+      "start": "00:02:16.670",
+      "text": " Tritterbots."
+    },
+    {
+      "end": "00:02:30.550",
+      "start": "00:02:24.778",
+      "text": " Next, go to labnol.org slash bots to access the Tritterbots application and here copy"
+    },
+    {
+      "end": "00:02:33.220",
+      "start": "00:02:30.550",
+      "text": " paste the Tritter keys that we have just generated."
+    },
+    {
+      "end": "00:02:59.880",
+      "start": "00:02:54.775",
+      "text": " So we are all set, it is now time to create the bots."
+    },
+    {
+      "end": "00:03:01.648",
+      "start": "00:02:59.880",
+      "text": " So writing a bot is simple."
+    },
+    {
+      "end": "00:03:06.720",
+      "start": "00:03:01.648",
+      "text": " You specify the search term, you specify the action and the bot is ready."
+    },
+    {
+      "end": "00:03:11.858",
+      "start": "00:03:06.720",
+      "text": " So for the first bot, let's say we are trying to capture all tweets that mention the hashtag"
+    },
+    {
+      "end": "00:03:17.397",
+      "start": "00:03:11.858",
+      "text": " green energy and that have been retweeted at least 10 number of times."
+    },
+    {
+      "end": "00:03:21.234",
+      "start": "00:03:17.397",
+      "text": " If you find any such tweets, the bot should automatically favorite that tweet."
+    },
+    {
+      "end": "00:03:36.450",
+      "start": "00:03:23.770",
+      "text": " For the second bot, let's have some fun."
+    },
+    {
+      "end": "00:03:41.788",
+      "start": "00:03:36.450",
+      "text": " So we'll try to find tweets that have misspellings of common word and in case somebody has misspell"
+    },
+    {
+      "end": "00:03:46.359",
+      "start": "00:03:41.788",
+      "text": " that word, we'll try to send them a tweet, a public reply saying that the correct spelling"
+    },
+    {
+      "end": "00:03:47.327",
+      "start": "00:03:46.359",
+      "text": " is this."
+    },
+    {
+      "end": "00:03:51.465",
+      "start": "00:03:47.327",
+      "text": " Now they are definitely not going to like this but this is just to demonstrate the capabilities"
+    },
+    {
+      "end": "00:03:52.466",
+      "start": "00:03:51.465",
+      "text": " of the bot."
+    },
+    {
+      "end": "00:04:03.143",
+      "start": "00:03:53.767",
+      "text": " For the next bot, I'm trying to find out interesting users who tweet about life hacks and I'm trying"
+    },
+    {
+      "end": "00:04:06.146",
+      "start": "00:04:03.143",
+      "text": " to add them to a Twitter list that I've already created."
+    },
+    {
+      "end": "00:04:11.751",
+      "start": "00:04:06.146",
+      "text": " So for that, whatever I'll do is I'll specify the search term as hash life hacks minfaves5."
+    },
+    {
+      "end": "00:04:15.956",
+      "start": "00:04:11.751",
+      "text": " Now this is a search operator that will only return tweets that have been favorited at"
+    },
+    {
+      "end": "00:04:18.291",
+      "start": "00:04:15.956",
+      "text": " least 5 times."
+    },
+    {
+      "end": "00:04:22.429",
+      "start": "00:04:18.291",
+      "text": " Now the important thing to note here is that when you are specifying a Twitter list,"
+    },
+    {
+      "end": "00:04:27.033",
+      "start": "00:04:22.429",
+      "text": " when this Twitter list should already exist and second, the way you should specify the"
+    },
+    {
+      "end": "00:04:31.772",
+      "start": "00:04:27.033",
+      "text": " Twitter list is mention your screen name, followed by a slash and followed by the slug of"
+    },
+    {
+      "end": "00:04:33.940",
+      "start": "00:04:31.772",
+      "text": " the Twitter list."
+    },
+    {
+      "end": "00:04:35.909",
+      "start": "00:04:33.940",
+      "text": " Let's now switch to the fourth bot."
+    },
+    {
+      "end": "00:04:39.880",
+      "start": "00:04:35.909",
+      "text": " It is not important that you create all the bots in one go but for this demo, let's do"
+    },
+    {
+      "end": "00:04:40.947",
+      "start": "00:04:39.880",
+      "text": " that."
+    },
+    {
+      "end": "00:04:45.619",
+      "start": "00:04:40.947",
+      "text": " What I want the fourth bot to do is send a DM to someone who follows a particular user."
+    },
+    {
+      "end": "00:04:49.890",
+      "start": "00:04:45.619",
+      "text": " So in this case, whenever somebody follows LabNol, a DM will be sent."
+    },
+    {
+      "end": "00:04:53.894",
+      "start": "00:04:49.890",
+      "text": " So you specify the user name in the search field and the message that should go out as"
+    },
+    {
+      "end": "00:05:05.639",
+      "start": "00:04:53.894",
+      "text": " the DM in the reply field."
+    },
+    {
+      "end": "00:05:09.910",
+      "start": "00:05:05.639",
+      "text": " So it's time to create the final bot and this is an interesting one because unlike other"
+    },
+    {
+      "end": "00:05:34.668",
+      "start": "00:05:09.910",
+      "text": " bots that are always running, this will only run during certain hours."
+    },
+    {
+      "end": "00:05:39.139",
+      "start": "00:05:34.668",
+      "text": " So what I'm trying to do is set up an out of office reply bot that will reply to tweets"
+    },
+    {
+      "end": "00:05:42.876",
+      "start": "00:05:39.139",
+      "text": " that come when I'm offline."
+    },
+    {
+      "end": "00:05:46.680",
+      "start": "00:05:42.876",
+      "text": " So the bots have been described and it's time to create and unleash those bots."
+    },
+    {
+      "end": "00:05:47.647",
+      "start": "00:05:46.680",
+      "text": " So how do you do that?"
+    },
+    {
+      "end": "00:05:48.648",
+      "start": "00:05:47.647",
+      "text": " Simple."
+    },
+    {
+      "end": "00:05:50.517",
+      "start": "00:05:48.648",
+      "text": " Just click the create button."
+    },
+    {
+      "end": "00:05:54.654",
+      "start": "00:05:50.517",
+      "text": " So when you click the create button, what it does is it creates a background process that"
+    },
+    {
+      "end": "00:05:56.456",
+      "start": "00:05:54.654",
+      "text": " runs every 15 minutes."
+    },
+    {
+      "end": "00:05:59.192",
+      "start": "00:05:56.456",
+      "text": " So your bots will auto run every 15 minutes."
+    },
+    {
+      "end": "00:06:03.797",
+      "start": "00:05:59.192",
+      "text": " They will find all the matching tweets and perform the associated actions against those"
+    },
+    {
+      "end": "00:06:05.632",
+      "start": "00:06:03.797",
+      "text": " tweets."
+    },
+    {
+      "end": "00:06:08.868",
+      "start": "00:06:05.632",
+      "text": " There are two other important buttons on this page that you should know about."
+    },
+    {
+      "end": "00:06:12.839",
+      "start": "00:06:08.902",
+      "text": " One is the show logs button and this comes handy if you're trying to know what the bot"
+    },
+    {
+      "end": "00:06:16.610",
+      "start": "00:06:12.839",
+      "text": " is doing in the background and if the bot is not working, what could be their possible"
+    },
+    {
+      "end": "00:06:17.944",
+      "start": "00:06:16.610",
+      "text": " reason."
+    },
+    {
+      "end": "00:06:21.815",
+      "start": "00:06:17.944",
+      "text": " Then you have the stop button and as obvious, this helps you stop all the twitter bots"
+    },
+    {
+      "end": "00:06:25.018",
+      "start": "00:06:21.815",
+      "text": " in one go."
+    },
+    {
+      "end": "00:06:27.554",
+      "start": "00:06:25.018",
+      "text": " So let's see what the bot is doing in the background."
+    },
+    {
+      "end": "00:06:32.692",
+      "start": "00:06:27.554",
+      "text": " Now here is a tweet that the bot has sent, fixing, asking somebody to fix their misspelling,"
+    },
+    {
+      "end": "00:06:34.394",
+      "start": "00:06:32.692",
+      "text": " obviously a fun bot."
+    },
+    {
+      "end": "00:06:36.897",
+      "start": "00:06:34.394",
+      "text": " And this is the next tweet that the bot has favorited."
+    },
+    {
+      "end": "00:06:40.233",
+      "start": "00:06:36.897",
+      "text": " So if you remember, we had a bot that would favor it all."
+    },
+    {
+      "end": "00:06:44.237",
+      "start": "00:06:40.233",
+      "text": " Green energy hashtag tweets with minimum number of favorites as 10."
+    },
+    {
+      "end": "00:06:46.172",
+      "start": "00:06:44.237",
+      "text": " So it has done that."
+    },
+    {
+      "end": "00:06:48.909",
+      "start": "00:06:46.172",
+      "text": " So creating bots is very simple."
+    },
+    {
+      "end": "00:06:54.147",
+      "start": "00:06:48.909",
+      "text": " The only thing you need to take care of is play by the twitter rules."
+    },
+    {
+      "end": "00:06:56.449",
+      "start": "00:06:54.147",
+      "text": " You should also check out twitter archiveer."
+    },
+    {
+      "end": "00:06:58.952",
+      "start": "00:06:56.449",
+      "text": " It helps you save tweets in a Google sheet forever."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "Digital Inspiration",
+  "youtube_channel_follower_count": 91500,
+  "youtube_comment_count": 211,
+  "youtube_description": "Create Twitter bots at digitalinspiration.com/bots\n\nLearn how to create your own twitter bots that can:\n\n1. Auto Reply to Tweets\n2. Retweet Tweets\n3. Follow Users\n4. Add Users to Twitter List\n5. Search users by profile\n6. DM New Followers\n7. Set out-of-office auto reply tweets\n\nNo programming required.\n\nTutorial https://www.labnol.org/internet/write-twitter-bot/27902/\n\nTwitter: http://twitter.com/labnol\nFacebook: http://facebook.com/digital.inspiration",
+  "youtube_like_count": 2357,
+  "youtube_tags": [
+    "labnol",
+    "screencast",
+    "twitter"
+  ],
+  "youtube_title": "How to Create Twitter Bots",
+  "youtube_upload_date": "20160407",
+  "youtube_view_count": 187440
+}

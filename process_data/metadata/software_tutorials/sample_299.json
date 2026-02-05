@@ -1,0 +1,1196 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The speaker in the video, not visually present.",
+        "name": "Matt (Narrator)"
+      }
+    ],
+    "description": "The video is a tutorial guide on building custom event systems for Unity game development.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The cube is green.",
+        "question": "What color is the cube in the Unity demonstration?"
+      },
+      {
+        "answer": "The easing used for the door closing animation is 'EaseInQuad.'",
+        "question": "What type of easing is used to animate the door closing?"
+      },
+      {
+        "answer": "The video warns about 'Null Pointer Exceptions,' which occur when a script tries to access an object that has been destroyed but is still being referenced.",
+        "question": "What type of error does the video warn about if you don't unsubscribe events correctly?"
+      },
+      {
+        "answer": "Custom event systems help to organize code and reduce dependencies, making it easier to manage larger projects and avoid spaghetti code.",
+        "question": "Why is a custom event system beneficial for larger Unity projects?"
+      },
+      {
+        "answer": "The video explains that you can use the 'Func' class in C# to define an action that can return a value, allowing for more complex event interactions.",
+        "question": "How does the video suggest you can create an event that returns a value?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction to the topic of the video: building a custom event system for games.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Matt (Narrator)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sets the stage for the topic by introducing custom event systems in game development.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Matt's enthusiastic voice and the straightforward presentation of the topic pique the viewer's curiosity.",
+              "timestamp": "00:00:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concept of a custom event system and the benefits it offers.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Matt introduces himself and the topic.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The title 'Custom Event System for your game' appears.",
+            "timestamp": "00:00:05.000"
+          },
+          {
+            "description": "The topics to be covered in the guide are listed.",
+            "timestamp": "00:00:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GameDev Guide logo",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Game development, coding, event systems.",
+        "timestamps": {
+          "end_timestamp": "00:00:14.633",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlays for titles and key points. Simple fade-in transition.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explanation of Singletons and their use in Unity.",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "description": "Explaining the problem of dependencies in code and how Singletons can contribute to it.",
+            "timestamp": {
+              "end_timestamp": "00:01:54.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Matt (Narrator)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights the issues of code dependency in Unity, setting context for the need for custom event systems.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Pensive to Confused",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from Singleton explanation to the issue of dependencies, marked by a shift in tone and visuals.",
+              "timestamp": "00:00:57.000"
+            },
+            {
+              "changeDescription": "The meme visually emphasizes the frustration developers can experience with excessive dependencies.",
+              "timestamp": "00:01:27.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains Singletons and their purpose, then transitions to the drawbacks of overusing them and the resulting dependency issues.",
+            "timestamp": "00:00:19.000"
+          },
+          {
+            "description": "Matt introduces the concept of Singletons.",
+            "timestamp": "00:00:19.000"
+          },
+          {
+            "description": "Example of Singletons in Unity (Camera.main).",
+            "timestamp": "00:00:40.000"
+          },
+          {
+            "description": "Matt transitions to explaining dependencies and their potential problems.",
+            "timestamp": "00:00:57.000"
+          },
+          {
+            "description": "Screenshot of errors in Unity Console illustrates the consequences of poorly managed dependencies.",
+            "timestamp": "00:01:36.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagrams illustrating Singleton pattern",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "name": "Code snippet with Camera.main and EventSystem.current",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          },
+          {
+            "name": "Meme illustrating overuse of Singletons",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          },
+          {
+            "name": "Screenshot of Unity Console showing errors due to unassigned references",
+            "timestamp": {
+              "end_timestamp": "00:01:36.000",
+              "start_timestamp": "00:01:36.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Code organization, software design patterns, dependency injection, code maintainability.",
+        "timestamps": {
+          "end_timestamp": "00:01:55.067",
+          "start_timestamp": "00:00:14.667"
+        },
+        "title": "Singletons and Dependencies",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlays, diagrams, and code snippets. Fast cuts to meme and error messages for emphasis.",
+            "timestamps": {
+              "end_timestamp": "00:01:54.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenting the custom event system as a solution to dependency problems.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:01:55.100"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Matt (Narrator)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduces the solution to the dependency problem established in Scene 2, building on the narrative.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Matt's introduction of the custom event system brings a renewed sense of curiosity, offering a potential solution to the previously discussed problems.",
+              "timestamp": "00:01:55.100"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents a custom event system as an effective way to manage dependencies and improve code organization.",
+            "timestamp": "00:01:55.100"
+          },
+          {
+            "description": "Matt introduces the custom event system as a way to mitigate dependencies.",
+            "timestamp": "00:01:55.100"
+          },
+          {
+            "description": "The concept of the Observer pattern is explained.",
+            "timestamp": "00:02:04.000"
+          },
+          {
+            "description": "Matt highlights the similarity between the custom event system and Unity's built-in event triggers.",
+            "timestamp": "00:02:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagrams illustrating the Observer pattern",
+            "timestamp": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          },
+          {
+            "name": "Unity editor screen showing Event Trigger component",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Software design, decoupling, event-driven programming.",
+        "timestamps": {
+          "end_timestamp": "00:02:29.000",
+          "start_timestamp": "00:01:55.100"
+        },
+        "title": "Introducing the Custom Event System",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlays and diagrams. Brief demonstration within the Unity Editor.",
+            "timestamps": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:01:55.100"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Building a custom event system in Unity. Coding the event system and related scripts.",
+            "timestamp": {
+              "end_timestamp": "00:04:46.000",
+              "start_timestamp": "00:02:29.033"
+            }
+          },
+          {
+            "description": "Demonstration of the custom event system in action within the Unity game environment.",
+            "timestamp": {
+              "end_timestamp": "00:06:28.000",
+              "start_timestamp": "00:04:46.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Matt (Narrator)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Focuses on practical implementation of the event system, showcasing its strengths and complexities.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift from code implementation to a visual demonstration of the working system, marked by a more enthusiastic tone from Matt.",
+              "timestamp": "00:04:46.000"
+            },
+            {
+              "changeDescription": "Introduction of the importance of unsubscribing events, adding a note of caution to prevent potential errors.",
+              "timestamp": "00:06:17.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Matt guides viewers through the steps of creating and implementing a basic custom event system, demonstrating its functionality in a simple game scenario.",
+            "timestamp": "00:02:29.033"
+          },
+          {
+            "description": "The basic scene setup is described.",
+            "timestamp": "00:02:46.000"
+          },
+          {
+            "description": "The coding of the 'GameEvents' script begins.",
+            "timestamp": "00:03:01.000"
+          },
+          {
+            "description": "The first event, 'onDoorwayTriggerEnter,' is defined.",
+            "timestamp": "00:03:13.000"
+          },
+          {
+            "description": "The 'DoorController' script is written to handle the door opening.",
+            "timestamp": "00:03:35.000"
+          },
+          {
+            "description": "The 'TriggerArea' script is created to dispatch the event.",
+            "timestamp": "00:04:09.000"
+          },
+          {
+            "description": "The game is run, and the cube entering the trigger area successfully opens the door.",
+            "timestamp": "00:04:46.000"
+          },
+          {
+            "description": "A more complex scene with multiple doors and triggers is demonstrated.",
+            "timestamp": "00:05:55.000"
+          },
+          {
+            "description": "Matt highlights the need to unsubscribe events to avoid null pointer errors.",
+            "timestamp": "00:06:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "A simple game scene in Unity with a cube, a door, and a trigger area.",
+            "timestamp": {
+              "end_timestamp": "00:06:28.000",
+              "start_timestamp": "00:02:29.033"
+            }
+          },
+          {
+            "name": "Code snippets demonstrating event subscription, dispatching, and handling.",
+            "timestamp": {
+              "end_timestamp": "00:06:28.000",
+              "start_timestamp": "00:02:29.033"
+            }
+          },
+          {
+            "name": "Visual demonstration of the door opening and closing in response to the cube entering and exiting the trigger area.",
+            "timestamp": {
+              "end_timestamp": "00:06:28.000",
+              "start_timestamp": "00:04:46.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Practical application of coding concepts, problem-solving, game mechanics, modular design.",
+        "timestamps": {
+          "end_timestamp": "00:06:28.000",
+          "start_timestamp": "00:02:29.033"
+        },
+        "title": "Demonstrating the Custom Event System",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recordings of coding within the Unity Editor and gameplay within the Unity environment. Fast cuts between coding and gameplay to showcase the implementation process. Slow-motion and close-ups during the demonstration for better visibility.",
+            "timestamps": {
+              "end_timestamp": "00:06:28.000",
+              "start_timestamp": "00:02:29.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Summarizing the benefits of using custom event systems.",
+            "timestamp": {
+              "end_timestamp": "00:07:28.000",
+              "start_timestamp": "00:06:28.033"
+            }
+          },
+          {
+            "description": "Encouraging viewers to like, comment, subscribe.",
+            "timestamp": {
+              "end_timestamp": "00:07:42.000",
+              "start_timestamp": "00:07:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Matt (Narrator)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Wraps up the video by summarizing points made and inviting viewer interaction.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Content",
+          "keyMoments": [
+            {
+              "changeDescription": "The successful demonstration and a clear summary of the concept leave viewers feeling content and well-informed.",
+              "timestamp": "00:06:28.033"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the guide by reinforcing the benefits of custom event systems and prompting viewer engagement.",
+            "timestamp": "00:06:28.033"
+          },
+          {
+            "description": "Matt reiterates the advantages of using a custom event system.",
+            "timestamp": "00:06:28.033"
+          },
+          {
+            "description": "A summary of the steps involved in building the system is presented.",
+            "timestamp": "00:07:01.000"
+          },
+          {
+            "description": "Matt encourages viewers to like, comment, and subscribe.",
+            "timestamp": "00:07:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Recap of the steps for building a custom event system",
+            "timestamp": {
+              "end_timestamp": "00:07:01.000",
+              "start_timestamp": "00:07:01.000"
+            }
+          },
+          {
+            "name": "Like, comment, subscribe icons and button animation",
+            "timestamp": {
+              "end_timestamp": "00:07:40.000",
+              "start_timestamp": "00:07:28.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Code organization, reducing dependencies, improving game logic.",
+        "timestamps": {
+          "end_timestamp": "00:08:00.400",
+          "start_timestamp": "00:06:28.033"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlays. Outro sequence with branding and call to action.",
+            "timestamps": {
+              "end_timestamp": "00:07:42.000",
+              "start_timestamp": "00:06:28.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The door successfully opens when the cube enters the trigger area, signifying the effectiveness of the custom event system.",
+        "timestamp": "00:04:46.000"
+      },
+      "description": "The video is structured around the creation of a custom event system, emphasizing its benefits in game development.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Creating a Custom Event System in Unity",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove the bullet point list summarizing the guide's content; it's redundant as these points have already been presented.",
+        "timestamps": {
+          "end_timestamp": "00:06:28.033",
+          "start_timestamp": "00:06:28.033"
+        }
+      },
+      {
+        "description": "Shorten the explanation about Unity's built-in triggers, as the demo itself will illustrate the concept effectively.",
+        "timestamps": {
+          "end_timestamp": "00:06:28.033",
+          "start_timestamp": "00:06:28.033"
+        }
+      },
+      {
+        "description": "Condense the concluding remarks and the summary of steps, as these have been covered in detail throughout the video.",
+        "timestamps": {
+          "end_timestamp": "00:07:01.000",
+          "start_timestamp": "00:06:28.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 480,
+  "original_json_filename": "gx0Lt4tCDE0.json",
+  "original_video_filename": "gx0Lt4tCDE0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hey there i'm matt and welcome to game dev guide this week we're taking a look at building a custom event system for your game we'll look at how to build one and why doing so might be useful but first we're going to have to take a small diversion and talk about Singleton's and dependencies if you're not already aware a singleton is a design pattern that restricts us to having one singular instance of an object if another object in our code needs some data from that object we call upon the singleton instance to refer to it Singleton's are incredibly useful for getting access to classes that you know you're only going to have one instance of this is most notable in unity when you call code like camera main or event system current the design of the engine expects only one of these classes to be active at any given time in your project so we can get a reference to it with a simple call like this with that in mind let's talk about dependencies let me explain a typical scenario and see if you fall somewhere into one of these two categories in unity you're probably relying on one of two things to be able to access data from another class or object you've either got a bunch of public properties in mono behaviors that you can assign in the inspector to get a reference to something or you're using a plethora of Singleton's frequently in your code to get the data you need for your various components and objects in your game odds are that most of us would usually fit somewhere in that spectrum regardless of where you are positioned you're sitting in a big bowl of dependency flavored spaghetti code and the moment you tweak remove or refactor one of those scripts you're probably having a bad time this is especially the case on large projects where bloats a real problem code can spiral out of control quickly and dependencies can stack faster than the professional cup stacking champion yes that's a real thing look it up it should be pretty clear from this that anything we can do to mitigate dependencies in our code base is a good thing so this is why we turn to a custom event system a custom event system is a form of observer pattern this is where an object also known as the subject maintains a list of its dependents known as observers then if a state has changed the subject notifies all of the observers offset change usually by calling their methods so for our event system we're going to create methods that are scripts can subscribe and listen to then in our game whenever something happens that our observers are listening for will tell the event system to dispatch that event if you've ever used a Unity action or the event trigger components in the inspector these are using a very similar methodology just that our event system will be a single object for all of our code to point and talk to rather than being spread across multiple components I've got a scene here with a little cue and I've got a wall and the door that I want to open when our cube enters the trigger area we're going to do all of this using our event system meaning that none of these objects will depend on one other existing for any of this to work let's start by making a new game object and adding a new script called game events with the script open we'll start by making a static singleton reference to the script yes I'm aware of the irony now we'll define our first event which will be one that comes from a trigger point beside the door so we'll create a public event action called on doorway trigger enter will then create a public method called doorway trigger enter and we'll check to make sure that the action isn't null before invoking it next we'll need to get our objects to subscribe to the event first let's create a method on our door that listens to the event and opens when it's dispatched from the start method we'll call the event system and will access the on doorway trigger interaction like this as you can see because we've defined the action as an event we can't just equate a single method to it it will only allow our methods to be subscribed and removed so we use the plus equals operator instead which basically just means add me to your list of subscribed events then we'll simply tween our door upwards when the event is triggered so now that we have the event listening we need to trigger the event itself over on our door trigger we'll add an on trigger enter method then we'll simply call the event system and tell it to dispatch the event we can see that the event system is triggered and the door opens let's repeat the whole process by adding another event into our event system that will tween our door to closed again if the trigger is exited and as you can see we've managed this with only the event system as our single dependency if I remove or delete any of these elements everything will still carry on running smoothly similarly if we duplicate our door and trigger a few times to make a series of rooms we can see that we don't need to do anything extra to get this to work it's handled by our event system automatically but now this causes all the doors to open you might be saying what if I want to link a door to a specific trigger well that's a great question friend let me show you the beauty of our custom event system is the ability to pass parameters into actions so let's add an integer into our actions and force this to be passed by the methods we need to go through and update our subscribe and listener methods in our scripts to match this change unfortunately we can't escape all dependencies we'll also need to set up an index ID property on our trigger and door and then we'll check that if the ID that's passed by the method matches the one on the door Open Sesame [Music] and there we have it we've now got events that are still agnostic but they're using parameters passed into them to handle their behavior locally one final thing it's really important to unsubscribe the event from the event system when the object is no longer needed or when it's destroyed otherwise you'll be running into a large number of null pointer errors and as you can see here if I delete this door while the game is running and then walk into its trigger it's not pretty so let's go into our code and add a method to our door that unsubscribes from our event system when it's destroyed clean code is important especially with systems like this so just be vigilant and try to remember to stay on top of it on a side note you might be wondering if it's possible to give events a return type using the func class you can have an action give either a return type or a return type and parameters for instance if you want to return a list of doors that are currently in the game it would probably look something like this I would recommend limiting func events like this as much as possible and you probably want to have a single script subscribing to the event to avoid any issues but for the sake of the topic that's how you'd approach it and that's about all there is to it when it comes to building a custom event system simply create an event system class and have it hold events relevant to your game logic then whenever you need scripts to talk to one another subscribe and dispatch the event system it's a much cleaner and much more flexible solution to passing data between objects in your game ultimately there's nothing wrong with using multiple Singleton's in your codebase however building an event system like this should help you cut down on unnecessary singleton instances and reduce heavy dependencies within your code if you've enjoyed this video and found it useful be sure to hit the like button and let me know what you think in the comments below and of course if you're interested in more game dev tips tricks and tutorials be sure to subscribe I'll see you next time thanks for watching you",
+  "text_to_speech_word_count": 1461,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:00.000",
+      "text": " Hey there, I'm Matt and welcome to Game Dev Guide."
+    },
+    {
+      "end": "00:00:10.333",
+      "start": "00:00:06.000",
+      "text": " This week we're taking a look at building a custom event system for your game."
+    },
+    {
+      "end": "00:00:14.067",
+      "start": "00:00:10.333",
+      "text": " We'll look at how to build one and why doing so might be useful."
+    },
+    {
+      "end": "00:00:20.433",
+      "start": "00:00:14.067",
+      "text": " But first, we're going to have to take a small diversion and talk about singletons and dependencies."
+    },
+    {
+      "end": "00:00:24.700",
+      "start": "00:00:20.433",
+      "text": " If you're not already aware, a singleton is a design pattern that restricts us to having"
+    },
+    {
+      "end": "00:00:27.900",
+      "start": "00:00:24.700",
+      "text": " one singular instance of an object."
+    },
+    {
+      "end": "00:00:32.300",
+      "start": "00:00:27.900",
+      "text": " If another object in our code needs some data from that object, we call upon the singleton"
+    },
+    {
+      "end": "00:00:35.067",
+      "start": "00:00:32.300",
+      "text": " instance to refer to it."
+    },
+    {
+      "end": "00:00:38.833",
+      "start": "00:00:35.067",
+      "text": " Singletons are incredibly useful for getting access to classes that you know you're only"
+    },
+    {
+      "end": "00:00:41.033",
+      "start": "00:00:38.833",
+      "text": " going to have one instance of."
+    },
+    {
+      "end": "00:00:47.400",
+      "start": "00:00:41.033",
+      "text": " This is most notable in Unity when you call code like camera.main or eventsystem.current."
+    },
+    {
+      "end": "00:00:51.233",
+      "start": "00:00:47.400",
+      "text": " The design of the engine expects only one of these classes to be active at any given"
+    },
+    {
+      "end": "00:00:52.733",
+      "start": "00:00:51.233",
+      "text": " time in your project."
+    },
+    {
+      "end": "00:00:56.233",
+      "start": "00:00:52.733",
+      "text": " So we can get a reference to it with a simple call like this."
+    },
+    {
+      "end": "00:00:59.067",
+      "start": "00:00:56.233",
+      "text": " With that in mind, let's talk about dependencies."
+    },
+    {
+      "end": "00:01:05.100",
+      "start": "00:00:59.067",
+      "text": " Let me explain a typical scenario and see if you fall somewhere into one of these two categories."
+    },
+    {
+      "end": "00:01:09.500",
+      "start": "00:01:05.100",
+      "text": " In Unity, you're probably relying on one of two things to be able to access data from"
+    },
+    {
+      "end": "00:01:11.533",
+      "start": "00:01:09.500",
+      "text": " another class or object."
+    },
+    {
+      "end": "00:01:15.900",
+      "start": "00:01:11.533",
+      "text": " You've either got a bunch of public properties in mono behaviors that you can assign in the"
+    },
+    {
+      "end": "00:01:21.200",
+      "start": "00:01:15.900",
+      "text": " inspector to get a reference to something, or you're using a plethora of singletons"
+    },
+    {
+      "end": "00:01:25.133",
+      "start": "00:01:21.200",
+      "text": " frequently in your code to get the data you need for your various components and objects"
+    },
+    {
+      "end": "00:01:26.933",
+      "start": "00:01:25.133",
+      "text": " in your game."
+    },
+    {
+      "end": "00:01:31.233",
+      "start": "00:01:26.933",
+      "text": " Odds are that most of us would usually fit somewhere in that spectrum."
+    },
+    {
+      "end": "00:01:35.033",
+      "start": "00:01:31.233",
+      "text": " Regardless of where you are positioned, you're sitting in a big bowl of dependency-flavored"
+    },
+    {
+      "end": "00:01:40.733",
+      "start": "00:01:35.033",
+      "text": " spaghetti code, and the moment you tweak, remove or refactor one of those scripts."
+    },
+    {
+      "end": "00:01:42.900",
+      "start": "00:01:40.733",
+      "text": " You're probably having a bad time."
+    },
+    {
+      "end": "00:01:47.133",
+      "start": "00:01:42.900",
+      "text": " This is especially the case on large projects where bloats are a real problem."
+    },
+    {
+      "end": "00:01:50.900",
+      "start": "00:01:47.133",
+      "text": " Code can spiral out of control quickly, and dependencies can stack faster than the professional"
+    },
+    {
+      "end": "00:01:51.900",
+      "start": "00:01:50.900",
+      "text": " cop stacking champion."
+    },
+    {
+      "end": "00:01:54.200",
+      "start": "00:01:51.900",
+      "text": " Yes, that's a real thing."
+    },
+    {
+      "end": "00:01:55.500",
+      "start": "00:01:54.200",
+      "text": " Look it up."
+    },
+    {
+      "end": "00:01:59.300",
+      "start": "00:01:55.500",
+      "text": " It should be pretty clear from this that anything we can do to mitigate dependencies in our code"
+    },
+    {
+      "end": "00:02:00.933",
+      "start": "00:01:59.300",
+      "text": " base is a good thing."
+    },
+    {
+      "end": "00:02:04.067",
+      "start": "00:02:00.933",
+      "text": " So this is why we turn to a custom event system."
+    },
+    {
+      "end": "00:02:07.233",
+      "start": "00:02:04.067",
+      "text": " A custom event system is a form of observer pattern."
+    },
+    {
+      "end": "00:02:11.300",
+      "start": "00:02:07.233",
+      "text": " This is where an object, also known as the subject, maintains a list of its dependents"
+    },
+    {
+      "end": "00:02:13.333",
+      "start": "00:02:11.300",
+      "text": " known as observers."
+    },
+    {
+      "end": "00:02:18.700",
+      "start": "00:02:13.333",
+      "text": " Then if a state has changed, the subject notifies all of the observers of said change usually"
+    },
+    {
+      "end": "00:02:20.833",
+      "start": "00:02:18.700",
+      "text": " by calling their methods."
+    },
+    {
+      "end": "00:02:24.500",
+      "start": "00:02:20.833",
+      "text": " So for our event system, we're going to create methods that our scripts can subscribe"
+    },
+    {
+      "end": "00:02:25.500",
+      "start": "00:02:24.500",
+      "text": " and listen to."
+    },
+    {
+      "end": "00:02:29.800",
+      "start": "00:02:25.500",
+      "text": " Then, in our game, whenever something happens that our observers are listening for, we'll"
+    },
+    {
+      "end": "00:02:32.467",
+      "start": "00:02:29.800",
+      "text": " tell the event system to dispatch that event."
+    },
+    {
+      "end": "00:02:37.067",
+      "start": "00:02:32.467",
+      "text": " If you've ever used a Unity action or the event trigger components in the inspector, these"
+    },
+    {
+      "end": "00:02:41.533",
+      "start": "00:02:37.067",
+      "text": " are using a very similar methodology, just that our event system will be a single object"
+    },
+    {
+      "end": "00:02:46.100",
+      "start": "00:02:41.533",
+      "text": " for all of our code to point and talk to, rather than being spread across multiple components."
+    },
+    {
+      "end": "00:02:50.400",
+      "start": "00:02:46.100",
+      "text": " I've got a scene here with a little cube, and I've got a wall and a door that I want"
+    },
+    {
+      "end": "00:02:53.433",
+      "start": "00:02:50.400",
+      "text": " to open when our cube enters the trigger area."
+    },
+    {
+      "end": "00:02:57.900",
+      "start": "00:02:53.433",
+      "text": " We're going to do all of this using our event system, meaning that none of these objects"
+    },
+    {
+      "end": "00:03:01.033",
+      "start": "00:02:57.900",
+      "text": " will depend on one another existing for any of this to work."
+    },
+    {
+      "end": "00:03:06.100",
+      "start": "00:03:01.033",
+      "text": " Let's start by making a new game object and adding a new script called Game Events."
+    },
+    {
+      "end": "00:03:10.467",
+      "start": "00:03:06.100",
+      "text": " With the script open, we'll start by making a static Singleton reference to the script."
+    },
+    {
+      "end": "00:03:13.133",
+      "start": "00:03:10.467",
+      "text": " Yes, I'm aware of the irony."
+    },
+    {
+      "end": "00:03:17.000",
+      "start": "00:03:13.133",
+      "text": " Now we'll define our first event, which will be one that comes from a trigger point beside"
+    },
+    {
+      "end": "00:03:18.000",
+      "start": "00:03:17.000",
+      "text": " the door."
+    },
+    {
+      "end": "00:03:22.533",
+      "start": "00:03:18.000",
+      "text": " So we'll create a public event action called on-doorwaytriggerenter."
+    },
+    {
+      "end": "00:03:26.667",
+      "start": "00:03:22.533",
+      "text": " We'll then create a public method called doorway triggerenter, and we'll check to make"
+    },
+    {
+      "end": "00:03:30.400",
+      "start": "00:03:26.667",
+      "text": " sure that the action isn't null before invoking it."
+    },
+    {
+      "end": "00:03:34.800",
+      "start": "00:03:30.400",
+      "text": " Next, we'll need to get our objects to subscribe to the event."
+    },
+    {
+      "end": "00:03:39.233",
+      "start": "00:03:34.800",
+      "text": " First, let's create a method on our door that listens to the event and opens when it's"
+    },
+    {
+      "end": "00:03:40.700",
+      "start": "00:03:39.233",
+      "text": " dispatched."
+    },
+    {
+      "end": "00:03:45.200",
+      "start": "00:03:40.700",
+      "text": " From the start method, we'll call the event system and we'll access the on-doorway trigger"
+    },
+    {
+      "end": "00:03:47.233",
+      "start": "00:03:45.200",
+      "text": " interaction like this."
+    },
+    {
+      "end": "00:03:51.400",
+      "start": "00:03:47.233",
+      "text": " As you can see, because we define the action as an event, we can't just equate a single"
+    },
+    {
+      "end": "00:03:52.400",
+      "start": "00:03:51.400",
+      "text": " method to it."
+    },
+    {
+      "end": "00:03:57.233",
+      "start": "00:03:52.400",
+      "text": " It will only allow methods to be subscribed and removed, so we use the plus equals operator"
+    },
+    {
+      "end": "00:04:02.033",
+      "start": "00:03:57.233",
+      "text": " instead, which basically just means add me to your list of subscribed events."
+    },
+    {
+      "end": "00:04:08.400",
+      "start": "00:04:02.033",
+      "text": " Then, we'll simply tween our door upwards when the event is triggered."
+    },
+    {
+      "end": "00:04:13.067",
+      "start": "00:04:08.400",
+      "text": " So now that we have the event listening, we need to trigger the event itself."
+    },
+    {
+      "end": "00:04:17.400",
+      "start": "00:04:13.067",
+      "text": " From on our door trigger, we'll add an on-triggerenter method, then we'll simply call the event"
+    },
+    {
+      "end": "00:04:20.800",
+      "start": "00:04:17.400",
+      "text": " system until it to dispatch the event."
+    },
+    {
+      "end": "00:04:25.033",
+      "start": "00:04:20.800",
+      "text": " We can see that the event system is triggered and the door opens."
+    },
+    {
+      "end": "00:04:28.733",
+      "start": "00:04:25.033",
+      "text": " Let's repeat the whole process by adding another event into our event system that will"
+    },
+    {
+      "end": "00:04:31.433",
+      "start": "00:04:28.733",
+      "text": " tween our door to close again if the trigger is exited."
+    },
+    {
+      "end": "00:04:52.467",
+      "start": "00:04:43.467",
+      "text": " And as you can see, we've managed this with only the event system as our single dependency."
+    },
+    {
+      "end": "00:04:57.400",
+      "start": "00:04:52.467",
+      "text": " If I remove or delete any of these elements, everything will still carry on running smoothly."
+    },
+    {
+      "end": "00:05:02.733",
+      "start": "00:04:57.400",
+      "text": " Similarly, if we duplicate our door and trigger a few times to make a series of rooms, we"
+    },
+    {
+      "end": "00:05:05.733",
+      "start": "00:05:02.733",
+      "text": " can see that we don't need to do anything extra to get this to work."
+    },
+    {
+      "end": "00:05:09.100",
+      "start": "00:05:05.733",
+      "text": " It's handled by our event system automatically."
+    },
+    {
+      "end": "00:05:12.900",
+      "start": "00:05:09.100",
+      "text": " But Matt, this causes all the doors to open, you might be saying."
+    },
+    {
+      "end": "00:05:15.667",
+      "start": "00:05:12.900",
+      "text": " What if I want to link a door to a specific trigger?"
+    },
+    {
+      "end": "00:05:17.700",
+      "start": "00:05:15.667",
+      "text": " Well, that's a great question, friend."
+    },
+    {
+      "end": "00:05:18.733",
+      "start": "00:05:17.700",
+      "text": " Let me show you."
+    },
+    {
+      "end": "00:05:23.333",
+      "start": "00:05:18.733",
+      "text": " The beauty of our custom event system is the ability to pass parameters into actions."
+    },
+    {
+      "end": "00:05:30.533",
+      "start": "00:05:23.333",
+      "text": " So let's add an integer into our actions and force this to be passed by the methods."
+    },
+    {
+      "end": "00:05:33.833",
+      "start": "00:05:30.533",
+      "text": " We need to go through and update our subscribe and listen methods in our scripts to match this"
+    },
+    {
+      "end": "00:05:34.833",
+      "start": "00:05:33.833",
+      "text": " change."
+    },
+    {
+      "end": "00:05:37.433",
+      "start": "00:05:34.833",
+      "text": " Unfortunately, we can't escape all dependencies."
+    },
+    {
+      "end": "00:05:41.600",
+      "start": "00:05:37.433",
+      "text": " We'll also need to set up an index ID property on our trigger and door."
+    },
+    {
+      "end": "00:05:45.000",
+      "start": "00:05:41.600",
+      "text": " And then we'll check that if the ID that's passed by the method matches the one on the"
+    },
+    {
+      "end": "00:05:55.433",
+      "start": "00:05:45.000",
+      "text": " door, open Sesame."
+    },
+    {
+      "end": "00:05:56.433",
+      "start": "00:05:55.433",
+      "text": " And there we have it."
+    },
+    {
+      "end": "00:06:00.467",
+      "start": "00:05:56.433",
+      "text": " We've now got events that are still agnostic, but they're using parameters passed into them"
+    },
+    {
+      "end": "00:06:02.600",
+      "start": "00:06:00.467",
+      "text": " to handle their behavior locally."
+    },
+    {
+      "end": "00:06:06.667",
+      "start": "00:06:02.600",
+      "text": " One final thing, it's really important to unsubscribe the event from the event system"
+    },
+    {
+      "end": "00:06:09.633",
+      "start": "00:06:06.667",
+      "text": " when the object is no longer needed or when it's destroyed."
+    },
+    {
+      "end": "00:06:12.733",
+      "start": "00:06:09.633",
+      "text": " Otherwise you'll be running into a large number of null pointer errors."
+    },
+    {
+      "end": "00:06:15.667",
+      "start": "00:06:12.733",
+      "text": " And as you can see here, if I delete this door while the game is running and then walk"
+    },
+    {
+      "end": "00:06:18.900",
+      "start": "00:06:15.667",
+      "text": " into its trigger, it's not pretty."
+    },
+    {
+      "end": "00:06:22.700",
+      "start": "00:06:18.900",
+      "text": " So let's go into our code and add a method to our door that unsubscribe from our event"
+    },
+    {
+      "end": "00:06:24.733",
+      "start": "00:06:22.700",
+      "text": " system when it's destroyed."
+    },
+    {
+      "end": "00:06:29.133",
+      "start": "00:06:24.733",
+      "text": " Clean code is important, especially with systems like this, so just be vigilant and try to remember"
+    },
+    {
+      "end": "00:06:31.300",
+      "start": "00:06:29.133",
+      "text": " to stay on top of it."
+    },
+    {
+      "end": "00:06:35.200",
+      "start": "00:06:31.300",
+      "text": " On a side note, you might be wondering if it's possible to give events a return type."
+    },
+    {
+      "end": "00:06:39.833",
+      "start": "00:06:35.200",
+      "text": " Using the funk class, you can have an action give either a return type or a return type"
+    },
+    {
+      "end": "00:06:41.267",
+      "start": "00:06:39.833",
+      "text": " and parameters."
+    },
+    {
+      "end": "00:06:45.067",
+      "start": "00:06:41.267",
+      "text": " For instance, if you want to return a list of doors that are currently in the game, it"
+    },
+    {
+      "end": "00:06:47.233",
+      "start": "00:06:45.067",
+      "text": " would probably look something like this."
+    },
+    {
+      "end": "00:06:50.800",
+      "start": "00:06:47.233",
+      "text": " I would recommend limiting funk events like this as much as possible, and you probably"
+    },
+    {
+      "end": "00:06:54.833",
+      "start": "00:06:50.800",
+      "text": " want to have a single script subscribing to the event to avoid any issues, but for the"
+    },
+    {
+      "end": "00:06:57.833",
+      "start": "00:06:54.833",
+      "text": " sake of the topic, that's how you approach it."
+    },
+    {
+      "end": "00:07:02.000",
+      "start": "00:06:57.833",
+      "text": " And that's about all there is to it when it comes to building a custom event system."
+    },
+    {
+      "end": "00:07:06.200",
+      "start": "00:07:02.000",
+      "text": " Simply create an event system class and have it hold events relevant to your game logic."
+    },
+    {
+      "end": "00:07:09.867",
+      "start": "00:07:06.200",
+      "text": " Then whenever you need scripts to talk to one another, subscribe and dispatch the event"
+    },
+    {
+      "end": "00:07:10.867",
+      "start": "00:07:09.867",
+      "text": " system."
+    },
+    {
+      "end": "00:07:15.100",
+      "start": "00:07:10.867",
+      "text": " It's a much cleaner and much more flexible solution to passing data between objects in"
+    },
+    {
+      "end": "00:07:16.100",
+      "start": "00:07:15.100",
+      "text": " your game."
+    },
+    {
+      "end": "00:07:20.267",
+      "start": "00:07:16.100",
+      "text": " Ultimately, there's nothing wrong with using multiple singletons in your code base."
+    },
+    {
+      "end": "00:07:24.700",
+      "start": "00:07:20.267",
+      "text": " However, building an event system like this should help you cut down on unnecessary singleton"
+    },
+    {
+      "end": "00:07:28.833",
+      "start": "00:07:24.700",
+      "text": " instances and reduce heavy dependencies within your code."
+    },
+    {
+      "end": "00:07:32.333",
+      "start": "00:07:28.833",
+      "text": " If you've enjoyed this video and found it useful, be sure to hit the like button and"
+    },
+    {
+      "end": "00:07:34.567",
+      "start": "00:07:32.333",
+      "text": " let me know what you think in the comments below."
+    },
+    {
+      "end": "00:07:39.333",
+      "start": "00:07:34.567",
+      "text": " And of course, if you're interested in more game dev tips, tricks and tutorials, be sure"
+    },
+    {
+      "end": "00:07:40.333",
+      "start": "00:07:39.333",
+      "text": " to subscribe."
+    },
+    {
+      "end": "00:07:41.900",
+      "start": "00:07:40.333",
+      "text": " I'll see you next time."
+    },
+    {
+      "end": "00:07:42.567",
+      "start": "00:07:41.900",
+      "text": " Thanks for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Game Dev Guide",
+  "youtube_channel_follower_count": 113000,
+  "youtube_comment_count": 515,
+  "youtube_description": "In this video we take a look at how to build a Custom Event System in Unity. We look at why a Custom Event System might be useful for your game, and the advantages that building one might have over using singletons, or relying on dependencies in the inspector.\n\nBe sure to LIKE and SUBSCRIBE if you enjoyed this guide! Share the video for extra love!\n\n--------------------------------------------------------------------------------\nWant to support the channel? \n\nGet the GameDevGuide mug and other merch! ☕ - http://www.gamedevguide.store\n\nUse these links to grab some cool assets from the asset store:\n\nGet the Must Have Assets! - https://assetstore.unity.com/top-assets/top-download?aid=1101la6X4\nFree Unity Assets! - https://assetstore.unity.com/top-assets/top-free?aid=1101la6X4\nNew on the Asset Store! - https://assetstore.unity.com/top-assets/top-new?aid=1101la6X4\nTop Paid Asset Store Packages - https://assetstore.unity.com/top-assets/top-paid?aid=1101la6X4\nAsset Store Partners - https://assetstore.unity.com/lists/asset-store-partners-6?aid=1101la6X4\n\n--------------------------------------------------------------------------------\nSocials and Other Stuff:\n\n• Subscribe - https://www.youtube.com/gamedevguide?sub_confirmation=1\n• Join the Discord - http://www.discord.gg/yYcww7U\n• Twitter - http://www.twitter.com/GameDevGuideYT\n• Facebook - http://www.facebook.com/GameDevGuideYT\n• Instagram - http://www.instagram.com/GameDevGuideYT",
+  "youtube_like_count": 15673,
+  "youtube_tags": [
+    "unity",
+    "learn",
+    "games",
+    "gamedev",
+    "how to",
+    "making games in unity",
+    "tutorial",
+    "unity tutorial",
+    "learning unity",
+    "unity3d tutorial",
+    "programming",
+    "making games",
+    "software",
+    "game engine",
+    "event system"
+  ],
+  "youtube_title": "How To Build An Event System in Unity",
+  "youtube_upload_date": "20190506",
+  "youtube_view_count": 409604
+}

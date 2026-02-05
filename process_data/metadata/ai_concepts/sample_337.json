@@ -1,0 +1,927 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A voice that guides us through the presentation",
+        "name": "Narrator"
+      },
+      {
+        "characterId": "2",
+        "description": "A person wearing a mask and full-body protective gear inspecting a food factory.",
+        "name": "Food Safety Inspector"
+      },
+      {
+        "characterId": "3",
+        "description": "Two people in a laboratory setting working with a computer. They are wearing masks and lab coats.",
+        "name": "People in Clean Room"
+      },
+      {
+        "characterId": "4",
+        "description": "A hand holding a document with chemical declaration data.",
+        "name": "Hand holding a document"
+      }
+    ],
+    "description": "A presentation on using AI and chemical declaration data to detect illicit food factories, featuring the GraphCAR AI framework.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "24% (36 out of 149).",
+        "question": "What percentage of the inspected food factories were identified as illicit?"
+      },
+      {
+        "answer": "Excessive use of preservatives, drug residues, and undeclared allergens.",
+        "question": "What are some examples of chemical hazards in food?"
+      },
+      {
+        "answer": "Limited data on illicit factories and class imbalance lead to poor performance.",
+        "question": "Why are supervised learning methods unsatisfactory for this task?"
+      },
+      {
+        "answer": "It maps food factories and their declared chemicals as nodes in a bipartite graph to analyze relationships and identify anomalies.",
+        "question": "How does GraphCAR use a bipartite graph?"
+      },
+      {
+        "answer": "Unsupervised learning doesn't require labeled examples, allowing it to discover hidden patterns and identify illicit activities even with limited data on known violators.",
+        "question": "What is the key advantage of using an unsupervised learning approach for illicit food factory detection?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The narrator introduces the title of the work and the authors.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the research topic and the team behind it.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The narrator introduces the authors and their affiliation.",
+            "timestamp": "00:00:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with title, author names, university affiliation, and email address.",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:16.867",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Research Topic",
+        "videoEditingDetails": [
+          {
+            "description": "Still image of presentation slide for the entire duration of the scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator discusses the rise in food production facilities and the concern of illicit activities.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Anxious",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual change to slides with news articles and images, shifting the mood from curiosity to anxiousness.",
+              "timestamp": "00:00:17.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlighting the growing need for better food safety monitoring due to the increase in food factories and the potential for illicit practices.",
+            "timestamp": "00:00:17.000"
+          },
+          {
+            "description": "The narrator highlights the concerns of illicit activities within the food industry.",
+            "timestamp": "00:00:26.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides with news articles and images related to food safety issues.",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:37.000",
+          "start_timestamp": "00:00:16.900"
+        },
+        "title": "Food Production Facilities and Illicit Activities",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new slide with examples of food safety issues.",
+            "timestamps": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains the importance of chemical declaration and the prevalence of chemical hazards in food safety issues.",
+            "timestamp": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Pensive",
+          "keyMoments": [
+            {
+              "changeDescription": "The presentation of factual information about chemical hazards in food safety encourages thoughtful reflection.",
+              "timestamp": "00:00:37.033"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Emphasizing the significance of chemical data in identifying food safety violations.",
+            "timestamp": "00:00:37.033"
+          },
+          {
+            "description": "The narrator emphasizes the significant portion of food safety issues linked to chemical hazards.",
+            "timestamp": "00:00:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with a pie chart on types of hazards in food safety and examples of chemical hazards.",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:53.667",
+          "start_timestamp": "00:00:37.033"
+        },
+        "title": "Importance of Chemical Declaration",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new slide showing a pie chart on food safety hazards.",
+            "timestamps": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator highlights the FDA's efforts in evaluating the safety of chemicals in food supply and the need for effective methods to detect illicit food factories.",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Calm",
+          "keyMoments": [
+            {
+              "changeDescription": "The focus on regulations and safety checks evokes a sense of calm and reassurance.",
+              "timestamp": "00:00:54.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the existing efforts to ensure food safety and setting the stage for introducing AI as a potential solution.",
+            "timestamp": "00:00:54.000"
+          },
+          {
+            "description": "The narrator reiterates the need for effective methods to detect illicit food factories.",
+            "timestamp": "00:01:04.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide showing FDA website on food safety and chemicals.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:06.700",
+          "start_timestamp": "00:00:53.700"
+        },
+        "title": "FDA’s Role and Need for AI",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a slide showcasing the FDA's website and its focus on evaluating chemicals in the food supply.",
+            "timestamps": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator discusses the limitations of human inspection and how AI can enhance food safety by identifying potential illicit factories.",
+            "timestamp": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator",
+          "Food Safety Inspector",
+          "People in Clean Room"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Food Safety Inspector",
+              "People in Clean Room"
+            ],
+            "description": "The images of the Food Safety Inspector and People in Clean Room represent different aspects of the food safety inspection process."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Hopeful",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to a slide discussing AI's potential, shifting the mood to hopeful.",
+              "timestamp": "00:01:07.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing AI as a solution to the limitations of human inspection, emphasizing its potential to enhance food safety.",
+            "timestamp": "00:01:07.000"
+          },
+          {
+            "description": "The narrator proposes AI as a solution to improve food safety and target inspections more effectively.",
+            "timestamp": "00:01:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide outlining challenges of human inspection, an image of a food safety inspector in a factory, an image of people in a laboratory setting.",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:27.633",
+          "start_timestamp": "00:01:06.733"
+        },
+        "title": "Human Inspection Limits and AI Solutions",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a slide highlighting challenges and potential AI solutions. Transition to two separate images showcasing human inspection and AI analysis.",
+            "timestamps": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator describes the collaboration with local authorities to access chemical declaration data and mentions the limitations of supervised learning approaches.",
+            "timestamp": {
+              "end_timestamp": "00:01:34.000",
+              "start_timestamp": "00:01:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator",
+          "Hand holding a document"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": [
+            {
+              "changeDescription": "The focus is on presenting the data and the challenges encountered, without strong emotional connotations.",
+              "timestamp": "00:01:28.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Describing the data used for the research and acknowledging the limitations of traditional machine learning methods.",
+            "timestamp": "00:01:28.000"
+          },
+          {
+            "description": "The narrator transitions to discuss the limitations of traditional supervised learning approaches.",
+            "timestamp": "00:01:34.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide summarizing the data collected from 149 food factories, an image of a hand holding a chemical declaration document.",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:28.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:40.667",
+          "start_timestamp": "00:01:27.667"
+        },
+        "title": "Chemical Data Collaboration and Challenges",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a slide outlining the dataset of chemical declarations.",
+            "timestamps": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:28.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains the challenges of supervised learning and introduces the research goal of unsupervised learning for anomaly detection in food factories.",
+            "timestamp": {
+              "end_timestamp": "00:01:53.000",
+              "start_timestamp": "00:01:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Determined",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual change to a slide showing the limitations of supervised learning, indicating a shift in the approach.",
+              "timestamp": "00:01:41.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Acknowledging the challenges of supervised learning and introducing the research goal of using unsupervised learning for anomaly detection.",
+            "timestamp": "00:01:41.000"
+          },
+          {
+            "description": "The narrator introduces the research goal of unsupervised learning for anomaly ranking.",
+            "timestamp": "00:01:53.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with a table showing unsatisfactory results of supervised learning, presentation slide outlining the research goal and methodology of unsupervised learning.",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:01:41.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:59.000",
+          "start_timestamp": "00:01:40.700"
+        },
+        "title": "Supervised Learning Challenges and Unsupervised Goals",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new slide demonstrating the unsatisfactory performance of supervised learning methods. Transition to a slide outlining the research goal and a diagram of the unsupervised learning process.",
+            "timestamps": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:01:41.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains the challenges of detecting illicit food factories, including scarce data, vast range of chemicals, noisy data, and subtle illicit activities.",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Anxious",
+          "keyMoments": [
+            {
+              "changeDescription": "The detailed description of the challenges involved in detecting illicit activities increases the sense of concern about food safety.",
+              "timestamp": "00:02:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Delving into the specific challenges faced in detecting illicit food factories using chemical declaration data.",
+            "timestamp": "00:02:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide listing the challenges of detecting illicit food factories and an image of a food factory.",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:02:20.633",
+          "start_timestamp": "00:01:59.033"
+        },
+        "title": "Challenges in Detecting Illicit Activities",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new slide listing the specific challenges of detecting illicit food factories.",
+            "timestamps": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator introduces the proposed solution, GraphCAR, and its unique approach of mapping food factories and their chemical declarations into a bipartite graph for analysis.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Hopeful",
+          "keyMoments": [
+            {
+              "changeDescription": "The visual shift to the GraphCAR framework and its explanation brings back a sense of hopefulness.",
+              "timestamp": "00:02:21.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presenting the proposed AI solution and outlining its key functionalities.",
+            "timestamp": "00:02:21.000"
+          },
+          {
+            "description": "The narrator explains the function of GraphCAR, highlighting its use of a bipartite graph for mapping food factories and chemical declarations.",
+            "timestamp": "00:02:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide depicting the GraphCAR framework and its components.",
+            "timestamp": {
+              "end_timestamp": "00:02:43.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:02:43.767",
+          "start_timestamp": "00:02:20.667"
+        },
+        "title": "Introducing GraphCAR",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a slide illustrating the architecture of GraphCAR, including a diagram of its data processing pipeline.",
+            "timestamps": {
+              "end_timestamp": "00:02:43.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator highlights the promising performance of GraphCAR and encourages viewers to learn more at the Web Conference 2024.",
+            "timestamp": {
+              "end_timestamp": "00:02:55.000",
+              "start_timestamp": "00:02:44.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Proud",
+          "keyMoments": [
+            {
+              "changeDescription": "The visual transition to a slide showing promising outcomes of GraphCAR evokes a sense of pride in the research.",
+              "timestamp": "00:02:44.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concluding the presentation by summarizing the key achievements and inviting the audience to further engage with the research.",
+            "timestamp": "00:02:44.000"
+          },
+          {
+            "description": "The narrator invites viewers to learn more about the work at the Web Conference 2024.",
+            "timestamp": "00:02:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide showing promising results of GraphCAR compared to other methods. Final presentation slide with the title, author details, and conference information.",
+            "timestamp": {
+              "end_timestamp": "00:02:58.000",
+              "start_timestamp": "00:02:44.000"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:02:59.467",
+          "start_timestamp": "00:02:43.800"
+        },
+        "title": "GraphCAR's Promising Outcomes",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a slide showing promising outcomes of GraphCAR, followed by a transition back to the initial title slide.",
+            "timestamps": {
+              "end_timestamp": "00:02:58.000",
+              "start_timestamp": "00:02:44.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 10 where the positive results of GraphCAR are presented.",
+        "timestamp": "00:02:44.000"
+      },
+      "description": "This presentation covers two main storylines. The first addresses the challenges in food safety and how AI, specifically GraphCAR, can provide solutions. The second focuses on the details and promising outcomes of the GraphCAR framework. Scene 1 serves as an introduction to these.",
+      "scenes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "title": "Detecting Illicit Food Factories from Chemical Declaration Data",
+    "trimmingSuggestions": [
+      {
+        "description": "Scene 1 could be shortened or integrated with the following scene to enhance dynamism.",
+        "timestamps": {
+          "end_timestamp": "00:02:43.800",
+          "start_timestamp": "00:02:43.800"
+        }
+      },
+      {
+        "description": "Remove any redundancies in the explanation of challenges and solutions.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 180,
+  "original_json_filename": "kcsoyh-OzR0.json",
+  "original_video_filename": "kcsoyh-OzR0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello this is the promotion for our work on AI food safety titled detecting illicit food factories from chemical declaration data via graph aware self-supervised contrastive anomaly ranking this work is done by Shing fangang and Ching T from National Ching Kung University Taiwan as appetites for varied and unique Cuisines have increased we've seen a significant rise in the number of food production facilities many maintain high standards and prioritize consumer safety yet there exists a concerning segment that resorts to to elicit activities such actions pose risks to Public Health and erode confidence in the food sector regulatory authorities mandate that factories disclose the chemicals used in food processing chemical hazards represent a significant portion of food safety issues examples include the excessive application of preservatives drug residues and the presence of Undeclared allergens indeed the FDA has evaluated the safety of chemical exposure within our food supply this EV valuation encompasses ingredients deemed generally recognized as safe along with food additives and contaminants this highlights the urgent need for Effective methods to detect illicit food factories based on their use of chemicals while existing human inspections suffer issues such as limited Manpower and funding We Believe AI can help through accurate learning to detect we plan to use AI to spot likely elicit food factories for targeted physical checks by human inspectors working alongside local authorities we we've gained access to a data set of chemical declarations from food factories our analysis draws from inspection records of regulatory agencies responsible for Food and Drug oversight an intuitive way to AI detection is supervised learning based on Declaration tabular data however well-known predictors such as tree-based models and MLP produce unsatisfying results we resort to unsupervised learning because it can operate without labeled examples and has the potential to uncover hidden patterns and anomalies given food factories each is associated with a set of declared chemicals and labels are absent our goal is to learn to score illicit factories we face big hurdles in detection scarce data on violators a vast array of reported chemicals error filled and inconsistent data and subtle signs of illegal activities hidden among legal ones we've developed graph car graph car Maps food factories and their chemical declarations into a bipartite graph processed by a graph autoencoder to understand hidden patterns it uses self-supervised contrastive learning on Factory representations to spot unusual patterns effectively highlighting factories likely engaging in elicit activities by focusing on deviations in chemical usage the performance of graph car is promising it consistently outperforms all soda unsupervised anomaly detection models want to learn more about the details please visit us at the Web Conference 2024 thank you so much",
+  "text_to_speech_word_count": 450,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.133",
+      "start": "00:00:00.000",
+      "text": " Hello, this is the promotion for our work on AI Food Safety, titled,"
+    },
+    {
+      "end": "00:00:07.400",
+      "start": "00:00:04.133",
+      "text": " Detecting a Lizard Food Factories from Chemical Declaration Data via"
+    },
+    {
+      "end": "00:00:10.933",
+      "start": "00:00:07.400",
+      "text": " Graphware Self-Supervised Contrastive Anomaly Ranking."
+    },
+    {
+      "end": "00:00:14.233",
+      "start": "00:00:10.933",
+      "text": " This work is done by Xingfeng Yang and Qingte Li from National"
+    },
+    {
+      "end": "00:00:16.867",
+      "start": "00:00:14.233",
+      "text": " Qing Kong University, Taiwan."
+    },
+    {
+      "end": "00:00:20.000",
+      "start": "00:00:16.867",
+      "text": " As appetites for varied and unique cuisines have increased,"
+    },
+    {
+      "end": "00:00:24.067",
+      "start": "00:00:20.000",
+      "text": " we've seen a significant rise in the number of food production facilities."
+    },
+    {
+      "end": "00:00:27.500",
+      "start": "00:00:24.067",
+      "text": " Many maintain high standards and prioritize consumer safety,"
+    },
+    {
+      "end": "00:00:31.833",
+      "start": "00:00:27.500",
+      "text": " yet there exists a concerning segment that resorts to illicit activities."
+    },
+    {
+      "end": "00:00:37.033",
+      "start": "00:00:31.833",
+      "text": " Such actions pose risks to public health and erode confidence in the food sector."
+    },
+    {
+      "end": "00:00:42.467",
+      "start": "00:00:37.033",
+      "text": " Regulatory authorities mandate that factories disclose the chemicals used in food processing."
+    },
+    {
+      "end": "00:00:46.800",
+      "start": "00:00:42.467",
+      "text": " Chemical hazards represent a significant portion of food safety issues."
+    },
+    {
+      "end": "00:00:50.933",
+      "start": "00:00:46.800",
+      "text": " Examples include the excessive application of preservatives, drug residues,"
+    },
+    {
+      "end": "00:00:53.733",
+      "start": "00:00:50.933",
+      "text": " and the presence of undeclared allergens."
+    },
+    {
+      "end": "00:00:59.433",
+      "start": "00:00:53.733",
+      "text": " Indeed, the FDA has evaluated the safety of chemical exposure within our food supply."
+    },
+    {
+      "end": "00:01:03.667",
+      "start": "00:00:59.433",
+      "text": " This evaluation encompasses ingredients deemed generally recognized as safe,"
+    },
+    {
+      "end": "00:01:06.800",
+      "start": "00:01:03.667",
+      "text": " along with food additives, and contaminants."
+    },
+    {
+      "end": "00:01:10.933",
+      "start": "00:01:06.800",
+      "text": " This highlights the urgent need for effective methods to detect illicit food factories"
+    },
+    {
+      "end": "00:01:13.200",
+      "start": "00:01:10.933",
+      "text": " based on their use of chemicals."
+    },
+    {
+      "end": "00:01:17.500",
+      "start": "00:01:13.200",
+      "text": " While existing human inspections suffer issues such as limited manpower and funding,"
+    },
+    {
+      "end": "00:01:21.200",
+      "start": "00:01:17.500",
+      "text": " we believe AI can help through accurate learning to detect."
+    },
+    {
+      "end": "00:01:26.233",
+      "start": "00:01:21.200",
+      "text": " We plan to use AI to spot likely illicit food factories for targeted physical checks by human"
+    },
+    {
+      "end": "00:01:31.900",
+      "start": "00:01:26.233",
+      "text": " inspectors. Working alongside local authorities, we've gained access to a data set of chemical"
+    },
+    {
+      "end": "00:01:37.267",
+      "start": "00:01:31.900",
+      "text": " declarations from food factories. Our analysis draws from inspection records of regulatory"
+    },
+    {
+      "end": "00:01:43.333",
+      "start": "00:01:37.267",
+      "text": " agencies responsible for food and drug oversight. An intuitive way to AI detection is supervised"
+    },
+    {
+      "end": "00:01:48.800",
+      "start": "00:01:43.333",
+      "text": " learning based on declaration tabular data. However, well-known predictors such as tree-based"
+    },
+    {
+      "end": "00:01:54.933",
+      "start": "00:01:48.800",
+      "text": " models and MLP produce unsatisfying results. We resort to unsupervised learning because it can"
+    },
+    {
+      "end": "00:01:59.433",
+      "start": "00:01:54.933",
+      "text": " operate without labeled examples and has the potential to uncover hidden patterns and anomalies."
+    },
+    {
+      "end": "00:02:04.300",
+      "start": "00:02:00.300",
+      "text": " Given food factories, each is associated with a set of declared chemicals,"
+    },
+    {
+      "end": "00:02:08.067",
+      "start": "00:02:04.300",
+      "text": " and labels are absent, our goal is to learn to score illicit factories."
+    },
+    {
+      "end": "00:02:14.633",
+      "start": "00:02:08.933",
+      "text": " We face big hurdles in detection, scarce data on violators, a vast array of reported chemicals,"
+    },
+    {
+      "end": "00:02:19.733",
+      "start": "00:02:14.633",
+      "text": " error-filled, and inconsistent data, and subtle signs of illegal activities hidden among legal ones."
+    },
+    {
+      "end": "00:02:25.267",
+      "start": "00:02:20.633",
+      "text": " We've developed graph-car. Graph-car maps food factories and their chemical"
+    },
+    {
+      "end": "00:02:30.633",
+      "start": "00:02:25.267",
+      "text": " declarations into a bipartite graph, processed by a graph autoencoder to understand hidden patterns."
+    },
+    {
+      "end": "00:02:36.867",
+      "start": "00:02:31.433",
+      "text": " It uses self-supervised contrastive learning on factory representations to spot unusual patterns,"
+    },
+    {
+      "end": "00:02:41.833",
+      "start": "00:02:36.867",
+      "text": " effectively highlighting factories likely engaging in illicit activities by focusing on deviations"
+    },
+    {
+      "end": "00:02:48.067",
+      "start": "00:02:41.833",
+      "text": " in chemical usage. The performance of graph-car is promising. It consistently outperforms"
+    },
+    {
+      "end": "00:02:53.267",
+      "start": "00:02:48.067",
+      "text": " all soda unsupervised anomaly detection models. Want to learn more about the details?"
+    },
+    {
+      "end": "00:02:58.467",
+      "start": "00:02:54.067",
+      "text": " Please visit us at the web conference 2024. Thank you so much."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "ACM SIGWEB",
+  "youtube_channel_follower_count": 882,
+  "youtube_comment_count": 0,
+  "youtube_description": "\"Detecting Illicit Food Factories from Chemical Declaration Data via Graph-aware Self-supervised Contrastive Anomaly Ranking\n\nSheng-Fang Yang and Cheng-Te Li\"",
+  "youtube_like_count": 0,
+  "youtube_tags": [],
+  "youtube_title": "[w4g0013] Detecting Illicit Food Factories from Chemical Declaration Data via Graph-aware Self-super",
+  "youtube_upload_date": "20240320",
+  "youtube_view_count": 31
+}

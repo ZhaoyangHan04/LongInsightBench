@@ -1,0 +1,554 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A female voice, not visually present in the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video that guides viewers through creating a dropdown list in Excel using named ranges.",
+    "fps": 15.0,
+    "qAndA": [
+      {
+        "answer": "The name of the Excel file is not mentioned in the video.",
+        "question": "What is the name of the Excel file used in the tutorial?"
+      },
+      {
+        "answer": "The narrator defines the named range 'EmpList' to reference the entire table column containing employee names. This ensures that the list will dynamically expand if more names are added to the column.",
+        "question": "How does the narrator ensure the dropdown list will update if more employees are added?"
+      },
+      {
+        "answer": "The narrator uses the F3 key to open the 'Paste Name' window, displaying all defined names in the workbook.",
+        "question": "What keyboard shortcut does the narrator use to display a list of defined names in the workbook?"
+      },
+      {
+        "answer": "The 'Data Validation' option under the 'Data' tab is used to create the dropdown list.",
+        "question": "What menu option is used to create the dropdown list?"
+      },
+      {
+        "answer": "The website mentioned is www.contextures.com.",
+        "question": "What is the website mentioned by the narrator at the end of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction: The narrator introduces the scenario of assigning staff members to specific weeks in an Excel workbook.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Sheet Switch: The narrator switches to a sheet with a list of employee names.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          },
+          {
+            "description": "Naming List: The narrator highlights the list of names titled 'Employees.'",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator introduces and explains the initial setup of the Excel workbook."
+          }
+        ],
+        "contextualRelevance": "This scene establishes the context for the tutorial by introducing the task and necessary data.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious - The narrator sets up the problem and introduces the data needed for the solution, sparking curiosity in the viewer.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Problem Introduction: The narrator explains the task at hand - assigning staff to weeks.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Data Introduction: The narrator introduces the list of employee names as part of the solution.",
+            "timestamp": "00:00:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Excel Workbook",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Excel Workbook (Employees Sheet)",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Instructional, Excel, Data Management",
+        "timestamps": {
+          "end_timestamp": "00:00:17.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Data Setup",
+        "videoEditingDetails": [
+          {
+            "description": "Cut/Transition: Transition from the 'Week/Staff' table to the 'Employees' list.",
+            "timestamps": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Creating Named Table: The narrator creates a named table for the 'Employees' list using the 'Insert Table' function.",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:18.000"
+            }
+          },
+          {
+            "description": "Naming the Range: The narrator assigns the name 'EmpList' to the range of cells containing the employee names using the 'Define Name' function.",
+            "timestamp": {
+              "end_timestamp": "00:01:54.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains and demonstrates the process of creating a named table and range."
+          }
+        ],
+        "contextualRelevance": "Key steps needed to set up data for dynamic dropdown lists in Excel.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Content - The narrator meticulously demonstrates the steps, fostering a focused and attentive mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Creating Table: Setting the foundation for the dropdown list by creating a named table.",
+            "timestamp": "00:00:18.000"
+          },
+          {
+            "description": "Naming Range: Defining a specific name for the range of employee names for use in the dropdown list.",
+            "timestamp": "00:00:50.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Excel Workbook (Employees Sheet)",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:00:18.000"
+            }
+          },
+          {
+            "name": "Create Table Window",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          },
+          {
+            "name": "Table Name Box",
+            "timestamp": {
+              "end_timestamp": "00:00:46.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          },
+          {
+            "name": "Define Name Window",
+            "timestamp": {
+              "end_timestamp": "00:01:54.000",
+              "start_timestamp": "00:01:02.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Excel, Tutorial, Data Management",
+        "timestamps": {
+          "end_timestamp": "00:01:58.000",
+          "start_timestamp": "00:00:17.067"
+        },
+        "title": "Creating Named Table and Range",
+        "videoEditingDetails": [
+          {
+            "description": "Highlighting the selected range for the table.",
+            "timestamps": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          },
+          {
+            "description": "Zoomed In: Zooms in on the 'Refers to' box in the Define Name window.",
+            "timestamps": {
+              "end_timestamp": "00:01:44.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Creating Drop Down List: The narrator creates the dropdown list in the 'Staff' column of the original table using data validation and referencing the named range 'EmpList.'",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:01:59.000"
+            }
+          },
+          {
+            "description": "Testing Drop Down List: The narrator demonstrates how the dropdown list works by selecting names from the list for each week.",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          },
+          {
+            "description": "Call to Action: The narrator encourages viewers to download the sample file and visit the website for more tutorials.",
+            "timestamp": {
+              "end_timestamp": "00:02:58.000",
+              "start_timestamp": "00:02:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator demonstrates and finalizes the implementation of the dropdown list."
+          }
+        ],
+        "contextualRelevance": "Demonstrates the final steps and testing of the dropdown functionality in Excel.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Content/Happy - The narrator successfully completes the task, creating a sense of accomplishment and satisfaction for both the narrator and the viewer.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Implementing Solution: The previously defined name 'EmpList' is used to create the dropdown list, solving the initial problem.",
+            "timestamp": "00:01:59.000"
+          },
+          {
+            "description": "Solution Demonstration: The narrator visually shows the dropdown list in action, solidifying the viewer's understanding.",
+            "timestamp": "00:02:30.000"
+          },
+          {
+            "description": "Concluding Remarks: The narrator wraps up the tutorial and encourages viewers to explore more resources.",
+            "timestamp": "00:02:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Excel Workbook (Week/Staff Table)",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:01:59.000"
+            }
+          },
+          {
+            "name": "Data Validation Window",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          },
+          {
+            "name": "Drop Down List",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:36.000"
+            }
+          },
+          {
+            "name": "Website Address",
+            "timestamp": {
+              "end_timestamp": "00:02:58.000",
+              "start_timestamp": "00:02:55.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Instructional, Problem Solving, Excel",
+        "timestamps": {
+          "end_timestamp": "00:02:59.000",
+          "start_timestamp": "00:01:58.067"
+        },
+        "title": "Implementing and Testing Drop Down List",
+        "videoEditingDetails": [
+          {
+            "description": "Cut/Transition: Transition from the 'Employees' sheet back to the 'Week/Staff' table.",
+            "timestamps": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:01:59.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Demonstration of the working dropdown list, showing successful implementation of the solution.",
+        "timestamp": "00:02:30.000"
+      },
+      "description": "Main storyline focuses on guiding viewers through creating a dynamic dropdown list in Excel using named ranges.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Excel Tutorial - Drop Down List",
+    "trimmingSuggestions": [
+      {
+        "description": "This segment showing the table name in the table name box could be shortened as it doesn't add significant information.",
+        "timestamps": {
+          "end_timestamp": "00:01:58.067",
+          "start_timestamp": "00:01:58.067"
+        }
+      },
+      {
+        "description": "The zoomed-in view of the 'Refers to' box could be shortened as the narrator's voiceover explains the action clearly.",
+        "timestamps": {
+          "end_timestamp": "00:01:58.067",
+          "start_timestamp": "00:01:58.067"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 180,
+  "original_json_filename": "xU-q1-dtGxI.json",
+  "original_video_filename": "xU-q1-dtGxI.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "in this workbook we have a list where we're going to assign staff members to each week and I'd like a drop-down list in this cell so it's easy to select a name on another sheet in the file I've created a list of names with the title employees at the top the first step will be to create a named table and to do that I'll go to the ribbon and click the insert tab then click table and here's the create table window and it's already selected the range where my list is I'm going to say yes there are headers because this cell is a header so check that box and click OK so we now have a table and if I click somewhere in that table I can see its name up here in the table name box I'm going to use these employee names in my drop-down list so the next step will be to give an Excel name to the range of cells where the employee names are I'm going up to the ribbon and on the formula tab in this defined names group I'll click define name and I'm going to call this e MP list the short version of employee list the scope will be the workbook I'm going to be able to use this name anywhere in the workbook I won't add a comment and right now it's just showing the cell I have selected on the worksheet I'm going to delete that and for the refers to I want it to refer to this table so I'm going to click an equal sign and click this button to go to the worksheet and if I move my pointer just to the top of the column and click there it picks up that table and shows the name of the column so this is Table one and the employee's column click the button to go back into the dialog box so this name is going to be equal to whatever is in that column and as the column grows or shrinks it's going to keep track of it for us click OK and we now have a name in our workbook that we can use in a drop-down list so I'm going back to the other sheet and these are the cells where we want the drop-down list so I'll select all of those cells and on the ribbon go to the data tab and click data validation instead of just any value we want to allow a list and in this source box I'm going to type an equal sign and on your keyboard press the f3 key and that opens up a list with names so there's the name I created I'll select that and click OK and it puts it in for us when I click OK now I've got data validation so each cell that I click on you'll see the drop down arrow I can select any one of the names go down and assign an employee to each week without trying to remember all the names it creates that list so the data entry is easy for us to download the sample file for this video or to see more excel tips and tutorials please visit my website at wwlp.com",
+  "text_to_speech_word_count": 555,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:00.000",
+      "text": " In this workbook we have a list where we're going to assign staff members to each week."
+    },
+    {
+      "end": "00:00:10.000",
+      "start": "00:00:06.000",
+      "text": " I'd like a drop-down list in this cell so it's easy to select a name."
+    },
+    {
+      "end": "00:00:17.000",
+      "start": "00:00:10.000",
+      "text": " On another sheet in the file, I've created a list of names with the title employees at the top."
+    },
+    {
+      "end": "00:00:20.000",
+      "start": "00:00:17.000",
+      "text": " The first step will be to create a named table."
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:20.000",
+      "text": " To do that, I'll go to the Ribbon and click the Insert tab."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:24.000",
+      "text": " Then click Table and here's to create Table Window and it's already selected the range."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:29.000",
+      "text": " Where my list is, I'm going to say yes, there are headers because this cell is a header."
+    },
+    {
+      "end": "00:00:38.000",
+      "start": "00:00:35.000",
+      "text": " So check that box and click OK."
+    },
+    {
+      "end": "00:00:46.000",
+      "start": "00:00:38.000",
+      "text": " So we now have a table and if I click somewhere in that table, I can see its name up here in the Table Name box."
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:46.000",
+      "text": " I'm going to use these employee names in my drop-down list."
+    },
+    {
+      "end": "00:00:56.000",
+      "start": "00:00:50.000",
+      "text": " So the next step will be to give an Excel name to the range of cells where the employee names are."
+    },
+    {
+      "end": "00:01:03.000",
+      "start": "00:00:56.000",
+      "text": " I'm going up to the Ribbon and on the Formula tab, in this defined names group, I'll click Define Name."
+    },
+    {
+      "end": "00:01:09.000",
+      "start": "00:01:03.000",
+      "text": " And I'm going to call this EMP list, the short version of employee list."
+    },
+    {
+      "end": "00:01:14.000",
+      "start": "00:01:09.000",
+      "text": " The scope will be the workbook. I want to be able to use this name anywhere in the workbook."
+    },
+    {
+      "end": "00:01:19.000",
+      "start": "00:01:14.000",
+      "text": " I won't add a comment. And right now it's just showing the cell I have selected on the worksheet."
+    },
+    {
+      "end": "00:01:26.000",
+      "start": "00:01:19.000",
+      "text": " I'm going to delete that and for the refers to, I want it to refer to this table."
+    },
+    {
+      "end": "00:01:30.000",
+      "start": "00:01:26.000",
+      "text": " So I'm going to click an equal sign and click this button to go to the worksheet."
+    },
+    {
+      "end": "00:01:39.000",
+      "start": "00:01:30.000",
+      "text": " And if I move my pointer just to the top of the column and click there, it picks up that table and shows the name of the column."
+    },
+    {
+      "end": "00:01:43.000",
+      "start": "00:01:39.000",
+      "text": " So this is Table 1 and the Employees column."
+    },
+    {
+      "end": "00:01:46.000",
+      "start": "00:01:43.000",
+      "text": " Click the button to go back into the dialog box."
+    },
+    {
+      "end": "00:01:53.000",
+      "start": "00:01:46.000",
+      "text": " So this name is going to be equal to whatever is in that column. And as the column grows or shrinks, it's going to keep track of it for us."
+    },
+    {
+      "end": "00:01:59.000",
+      "start": "00:01:53.000",
+      "text": " Click OK. And we now have a name in our workbook that we can use in a drop-down list."
+    },
+    {
+      "end": "00:02:04.000",
+      "start": "00:01:59.000",
+      "text": " So I'm going back to the other sheet. And these are the cells where we want the drop-down list."
+    },
+    {
+      "end": "00:02:11.000",
+      "start": "00:02:04.000",
+      "text": " So I'll select all of those cells. And on the Ribbon, go to the Data tab and click Data Validation."
+    },
+    {
+      "end": "00:02:20.000",
+      "start": "00:02:11.000",
+      "text": " Instead of just any value, we want to allow a list. And in this Source box, I'm going to type an equal sign."
+    },
+    {
+      "end": "00:02:27.000",
+      "start": "00:02:20.000",
+      "text": " And on your keyboard, press the F3 key. And that opens up a list with names. So there's the name I created."
+    },
+    {
+      "end": "00:02:34.000",
+      "start": "00:02:27.000",
+      "text": " I'll select that and click OK. And it puts it in for us. When I click OK now, I've got Data Validation."
+    },
+    {
+      "end": "00:02:37.000",
+      "start": "00:02:34.000",
+      "text": " So each cell that I click on, you'll see the drop-down arrow."
+    },
+    {
+      "end": "00:02:44.000",
+      "start": "00:02:37.000",
+      "text": " I can select any one of the names, go down, and assign an employee to each week without trying to remember all the names."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:44.000",
+      "text": " It creates that list so the data entry is easy for us."
+    },
+    {
+      "end": "00:02:58.000",
+      "start": "00:02:48.000",
+      "text": " To download the sample file for this video or to see more Excel tips and tutorials, please visit my website at www.contextures.com."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Contextures Inc.",
+  "youtube_channel_follower_count": 63400,
+  "youtube_comment_count": 204,
+  "youtube_description": "To make data entry easy, and help prevent errors, make an in cell drop down list in Excel. First, create a list of items in an Excel table. Then use Excel data validation to make the drop down list with those items. People can quickly select from your list, instead of typing.\n\nGo to my website to get the free Excel workbook. \nhttp://www.contextures.com/xlDataVal01.html \n\nInstructor: Debra Dalgleish, Contextures Inc.\nGet Debra's weekly Excel tips: http://www.contextures.com/signup01\nMore Excel Tips and Tutorials: http://www.contextures.com/tiptech.html\nSubscribe to Contextures YouTube: https://www.youtube.com/user/contextures?sub_confirmation=1\n\n'----------------------\nTranscript for How to Make a Cell Drop Down List in Excel 2010\n\nIn this workbook, we have a list where we're going to assign staff members to each week. \nI'd like a drop down list in this cell so it's easy to select a name.\n\nOn another sheet in the file, I've created a list of names with the title Employees at the top.\n\nThe first step will be to create a Named Table, and to do that, I'll go to the ribbon, and click the Insert tab, then click Table. Here's the Create Table window, and it's already selected the range where my list is.\n\nI'm going to say yes there are headers because this cell is a header, so check that box and click OK.\n\nWe now have a table and if I click somewhere in that table, I can see its name up here in the Table Name box. I'm going to use these employee names in my drop down list.\n\nThe next step will be to give an Excel name to the range of cells where the employee names are. I'm going up to the ribbon, and on the Formula tab and in this Defined Names group, I'll click Define Name.\n\nI'm going to call this EmpList, the short version of Employee List. The scope will be the workbook, I want to be able to use this name anywhere in the workbook.\n\nI won't add a comment, and right now it's just showing the cell I have selected on the worksheet. I'm going to delete that.\n\nFor the Refers To, I want it to refer to this table. I'm going to click an =, and click this button to go to the worksheet.\n\nIf I move my pointer just to the top of the column, and click there, it picks up that table and shows the name of the column. This is Table 1 and the Employees column.\n\nClick the button to go back into the Dialog box. This name is going to be equal to whatever is in that column and as the column grows or shrinks, it's going to keep track of it for us.\n\nClick OK and we now have a name in our workbook that we can use in a drop down list.\n\nI'm going back to the other sheet. These are the cells where we want the drop down list. I'll select all of those cells, and on the ribbon, go to the Data tab, and click Data Validation.\n\nInstead of just any value, we want to allow a list. In this source box, I'm going to type an =.\n\nOn your keyboard, press the F3 key, and that opens up a list with names. There's the name I created. I'll select that and click OK, and it puts it in for us.\n\nWhen I click OK now, I've got data validation. So each cell that I click on, you'll see the drop down arrow.\n\nI can select anyone of the names, go down, and assign an employee to each week without trying to remember all the names. It creates that list so the data entry is easy for us.\n\nTo download the sample file for this video, or to see more Excel tips and tutorials, please visit my website at www.contextures.com.\n\n#ContexturesExcelTips",
+  "youtube_like_count": 2481,
+  "youtube_tags": [
+    "Make a Cell Drop Down List in Excel",
+    "Contextures Inc.",
+    "Contextures",
+    "Debra Dalgleish",
+    "Excel tutorial",
+    "Excel video tutorial",
+    "#mstips",
+    "Excel tips",
+    "Excel",
+    "in cell drop down",
+    "drop down list in cell",
+    "Excel data entry",
+    "Excel cell list",
+    "cell drop down",
+    "Data Validation",
+    "Excel drop down list",
+    "Excel drop down",
+    "Excel validation",
+    "Excel data validation",
+    "Cell Drop Down List in Excel",
+    "Drop Down List in Excel",
+    "Cell Drop Down List"
+  ],
+  "youtube_title": "Make a Cell Drop Down List in Excel for Easy Data Entry",
+  "youtube_upload_date": "20120803",
+  "youtube_view_count": 857457
+}

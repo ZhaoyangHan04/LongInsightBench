@@ -1,0 +1,897 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "c1",
+        "description": "A male voice providing commentary throughout the video.",
+        "name": "Narrator"
+      },
+      {
+        "characterId": "c2",
+        "description": "A young woman with brown hair, wearing a black sports bra and gray sweatpants, posing for a photo in what appears to be a bedroom. This is a stock image unrelated to the topic of the video.",
+        "name": "Woman in Sportswear"
+      }
+    ],
+    "description": "A video comparing the outputs of OpenAI's text-to-video generator Sora with existing AI platforms using a puppy video example, highlighting the progress and challenges of AI text-to-video generation.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The puppies' heads are consistently positioned close-up, facing directly into the camera, showcasing Sora's ability to maintain coherence throughout the video.",
+        "question": "In the Sora video, what detail is mentioned about the puppies' positioning that makes the AI generation impressive?"
+      },
+      {
+        "answer": "$1.75 per hour.",
+        "question": "How much does the narrator pay per hour to run generations on RunDiffusion's 'large' hardware?"
+      },
+      {
+        "answer": "The narrator wants to ensure the same sampling method, 'DPM++ SDE Karras,' is used in both AnimateDiff and Mage.space for a more accurate comparison.",
+        "question": "Why does the narrator change the 'Scheduler' setting on Mage.space?"
+      },
+      {
+        "answer": "The narrator adds 'close-up' to focus on the puppies' faces and changes 'puppies' to 'puppy' to generate an image of a single puppy.",
+        "question": "How does the narrator alter the original prompt when generating images on Mage.space?"
+      },
+      {
+        "answer": "The narrator is excited and optimistic about the future of AI, anticipating significant advancements in the coming weeks and months.",
+        "question": "What is the narrator's overall tone regarding the future of AI text-to-video generation?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces OpenAI's text-to-video generator, Sora, and mentions a previous video showing its capabilities.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator decides to compare Sora's output with existing AI methods using a specific example featuring puppies in the snow.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "Narrator copies the prompt used by Sora and highlights the challenge of achieving coherence in AI-generated videos.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video appeals to viewers interested in AI technology and its advancements.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious. The narrator's tone is inquisitive and invites the viewer to explore the capabilities of OpenAI's Sora.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the video's focus - comparing Sora's advanced text-to-video capabilities with existing AI methods using a puppy video example.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "YouTube page displaying a video titled \"OpenAI Sora show | Text-to-Video AI.\"",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "OpenAI's webpage for Sora.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "name": "OpenAI's Sora video showcasing golden retriever puppies playing in the snow.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The rapid advancement of AI technology, particularly in the realm of text-to-video generation. The focus is on the challenge of coherence in AI-generated videos.",
+        "timestamps": {
+          "end_timestamp": "00:00:59.300",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to OpenAI's Sora",
+        "videoEditingDetails": [
+          {
+            "description": "Jump cuts between different websites and webpages.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Direct playback of Sora's puppy video.",
+            "timestamps": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the AI platform RunDiffusion and its text-to-image/animation tool, Automatic1111.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Narrator selects checkpoint model and sampler settings within Automatic1111.",
+            "timestamp": {
+              "end_timestamp": "00:02:22.000",
+              "start_timestamp": "00:01:23.000"
+            }
+          },
+          {
+            "description": "Narrator enters the prompt from Sora's video and generates images and animations using AnimateDiff.",
+            "timestamp": {
+              "end_timestamp": "00:04:54.000",
+              "start_timestamp": "00:02:22.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator",
+          "Woman in Sportswear"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Serves as an informative segment on current AI capabilities compared to advanced models like Sora.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Focused. The narrator's tone becomes more technical and concentrates on explaining the functionalities and limitations of Automatic1111 and AnimateDiff.",
+          "keyMoments": [
+            {
+              "changeDescription": "The narrator projects a potential shift in AI generation tools.",
+              "timestamp": "00:01:28.000"
+            },
+            {
+              "changeDescription": "The narrator addresses AI's current capability gaps.",
+              "timestamp": "00:04:47.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstration of the first method, AnimateDiff, for generating images and animations from the same prompt used by Sora. The scene highlights the complexities and challenges of using this method.",
+            "timestamp": "00:01:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "RunDiffusion webpage.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "name": "Automatic1111 user interface.",
+            "timestamp": {
+              "end_timestamp": "00:04:54.000",
+              "start_timestamp": "00:01:23.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "The complexities and current limitations of AI text-to-image generation methods.",
+        "timestamps": {
+          "end_timestamp": "00:04:55.467",
+          "start_timestamp": "00:00:59.333"
+        },
+        "title": "Demonstration of RunDiffusion's Automatic1111",
+        "videoEditingDetails": [
+          {
+            "description": "Jump cuts between RunDiffusion homepage and Automatic1111 loading screen.",
+            "timestamps": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Screen recording of Automatic1111 interface showcasing various settings and the generation process.",
+            "timestamps": {
+              "end_timestamp": "00:04:54.000",
+              "start_timestamp": "00:01:23.000"
+            }
+          },
+          {
+            "description": "Fast-forwarding of the AnimateDiff generation process.",
+            "timestamps": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:04:35.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator edits the prompt, adding \"close-up\" and generates another animation using AnimateDiff.",
+            "timestamp": {
+              "end_timestamp": "00:05:22.000",
+              "start_timestamp": "00:04:55.500"
+            }
+          },
+          {
+            "description": "Narrator introduces Mage.space platform, selects base model and settings, and generates images using the same prompt.",
+            "timestamp": {
+              "end_timestamp": "00:06:46.000",
+              "start_timestamp": "00:05:22.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides insight into new AI text-to-image generation options beyond AnimateDiff.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral. The scene maintains a factual and demonstrative tone, showcasing the capabilities of Mage.space.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstration of the second method, Mage.space, for generating images from the prompt. This scene highlights the comparative ease and speed of using Mage.space compared to AnimateDiff.",
+            "timestamp": "00:04:55.500"
+          }
+        ],
+        "props": [
+          {
+            "name": "Automatic1111 user interface.",
+            "timestamp": {
+              "end_timestamp": "00:05:22.000",
+              "start_timestamp": "00:04:55.500"
+            }
+          },
+          {
+            "name": "Mage.space website.",
+            "timestamp": {
+              "end_timestamp": "00:06:46.000",
+              "start_timestamp": "00:05:23.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Comparative ease and speed of AI platforms relative to one another.",
+        "timestamps": {
+          "end_timestamp": "00:06:46.000",
+          "start_timestamp": "00:04:55.500"
+        },
+        "title": "Introducing Mage.space",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Automatic1111 interface showing prompt editing and the generation process.",
+            "timestamps": {
+              "end_timestamp": "00:05:22.000",
+              "start_timestamp": "00:04:55.500"
+            }
+          },
+          {
+            "description": "Jump cuts between Mage.space platform's homepage and generated images.",
+            "timestamps": {
+              "end_timestamp": "00:06:46.000",
+              "start_timestamp": "00:05:22.000"
+            }
+          },
+          {
+            "description": "Fast forwarding through the image generation process.",
+            "timestamps": {
+              "end_timestamp": "00:06:07.000",
+              "start_timestamp": "00:06:02.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator presents final results from AnimateDiff and Mage.space, comparing them to OpenAI's Sora output and anticipating the arrival of even more advanced AI technologies.",
+            "timestamp": {
+              "end_timestamp": "00:07:22.800",
+              "start_timestamp": "00:06:47.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights the state of the art in AI generation technologies and teases future advancements.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Excited. The narrator expresses anticipation and excitement about the future of AI technology.",
+          "keyMoments": [
+            {
+              "changeDescription": "The narrator gives credit to existing technologies.",
+              "timestamp": "00:06:51.000"
+            },
+            {
+              "changeDescription": "The narrator hints at future advancements in AI.",
+              "timestamp": "00:07:10.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Conclusion of the video, highlighting the progress of AI text-to-video generation, its current limitations, and the potential for future advancements.",
+            "timestamp": "00:06:47.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "AnimateDiff generated animation of puppies in the snow.",
+            "timestamp": {
+              "end_timestamp": "00:07:10.000",
+              "start_timestamp": "00:06:47.000"
+            }
+          },
+          {
+            "name": "Mage.space generated images of puppies in the snow.",
+            "timestamp": {
+              "end_timestamp": "00:07:22.800",
+              "start_timestamp": "00:07:10.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "The ongoing evolution of AI, emphasizing the rapid pace of development and the exciting possibilities for the future.",
+        "timestamps": {
+          "end_timestamp": "00:07:22.800",
+          "start_timestamp": "00:06:46.033"
+        },
+        "title": "Comparison and Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Direct playback of AI-generated animations and images.",
+            "timestamps": {
+              "end_timestamp": "00:07:22.800",
+              "start_timestamp": "00:06:47.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator thanks the viewer for watching and encourages them to subscribe.",
+            "timestamp": {
+              "end_timestamp": "00:07:32.000",
+              "start_timestamp": "00:07:23.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Contributes to user engagement by prompting interaction with the channel.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral. The scene focuses on standard YouTube outro conventions.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "End of the video, providing a call to action for the viewers.",
+            "timestamp": "00:07:23.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "YouTube channel end screen with subscription, like, comment, and share buttons.",
+            "timestamp": {
+              "end_timestamp": "00:07:32.000",
+              "start_timestamp": "00:07:23.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Standard YouTube outro.",
+        "timestamps": {
+          "end_timestamp": "00:07:32.867",
+          "start_timestamp": "00:07:22.833"
+        },
+        "title": "Video Outro",
+        "videoEditingDetails": [
+          {
+            "description": "Static display of the YouTube end screen.",
+            "timestamps": {
+              "end_timestamp": "00:07:32.000",
+              "start_timestamp": "00:07:23.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is reached when the narrator reveals the final results and emphasizes the rapid evolution of AI, leading to a sense of anticipation for future technological breakthroughs.",
+        "timestamp": "00:06:47.000"
+      },
+      "description": "This video showcases the current capabilities of AI in text-to-video generation by comparing the output of two existing methods, AnimateDiff and Mage.space, to OpenAI's advanced Sora generator. The storyline follows a progression from introduction to demonstration and finally, a conclusion with anticipation for future advancements.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Exploring AI Text-to-Video Generators: Comparing OpenAI's Sora with Existing Methods",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten the demonstration of selecting settings within Automatic1111. This section could be condensed to highlight only the essential parameters and avoid lengthy interface navigation.",
+        "timestamps": {
+          "end_timestamp": "00:07:22.833",
+          "start_timestamp": "00:07:22.833"
+        }
+      },
+      {
+        "description": "Further shorten the fast-forwarding of the AnimateDiff generation process. While fast forwarding is helpful, this segment could be further trimmed to maintain a more dynamic pace.",
+        "timestamps": {
+          "end_timestamp": "00:07:22.833",
+          "start_timestamp": "00:07:22.833"
+        }
+      },
+      {
+        "description": "Eliminate the fast forwarding of the image generation process on Mage.space. Since this platform is faster than AnimateDiff, the fast-forwarding feels less necessary.",
+        "timestamps": {
+          "end_timestamp": "00:07:22.833",
+          "start_timestamp": "00:07:22.833"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 453,
+  "original_json_filename": "AbRLmqWuWvs.json",
+  "original_video_filename": "AbRLmqWuWvs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi 10 days ago we were introduced to open ai's text to video generator Sora it's not available yet but you can see their presentation in my video or on their web page open AI Sora I decided to do a comparison on one of their presentation videos the one with the puppies in the snow let's find it again and take another look here it is and it's amazing AI generated I'll C The Prompt directly and see what we can generate with it now it says a litter of Golden Retriever puppies playing in the snow their heads pop out of the snow covered in I will use this in animate diff and on Mage space and you can follow along okay copy that you can download the video yourself if you want let's watch it again notice how the puppy heads are directly close up facing into to the camera and how everything is constantly coherent which is really one of the biggest challenges at the moment because AI can't figure out how to sustain coherency yet but it's now clearly improved with the next generation of text to video okay so now we'll first take a look at what animate diff can do I will run it on my account at run diffusion it's kind of funny because I already know that this method probably will be obsolete within a few weeks anyhow I will fire up automatic 1111 web user interface which is a generator for stable diffusion images and animations through animate diff this is $1.75 per hour for running Generations on very heavy top-notch GPU Hardware there's no way I can run this locally on my own computer okay loading up automatic 1111 here we are first I will set the checkpoint model and there's a lot to choose from depending on what you want to generate this is not easy and straightforward at all you need to know the differences between these models and they do also depend on which other models you will use to animate I choose this one realistic Vision V5 okay so now it's loading in done and then we're ready to take a look at the generation settings and I have already animate diff installed here so might as well open it up right away by the way this picture over here has nothing to do with me just a warm welcome I guess then I'll just quickly do the settings that I want to use this is a motion module stable diffusion 1.5 version 2 it generates the Motions then we also need to set the sampling method and here I'll choose the DPM sde Caris sampler which I usually have good experience with so now let's insert the prompt a litter of Golden Retriever puppies playing in the snow their heads pop out of the snow covered in right and we will not use any negative prompt then I set the sampling steps to 30 and the CFG scale to 10 then we need to set our desired image size and today we want a 16 to9 ratio so I will have the 1920 to 1080 make it 960 to 540 pixels then we can upscale later right and in the animate diff we need to put in a frame rate I will run 48 frames with 30 frames per second and I want a batch size of 24 because it's half of my 48 frames then I want an interpolation on three and activated it as film now I have not enabled the animation yet because I want to run an image first and we do that by just clicking generate so and here you see how it's generating an image seven puppies in a row so at least it understands our prompt now let's enable the animate diff with the motion module to generate an animation with the puppies in motion and we're off it says here that it takes about 20 minutes but the actual time is about half that somewhere just under 10 minutes I'll save you that and jump ahead you can see the images that are being generated while this is happening so here it is download and open it clearly needs some more brightness I'll fix that in my editor and then there's a typical AI error here where the rear end turns into a head I'll cut that out later okay I'll edit the prompt a bit and add close up let's generate again down here below you can see all parameters for the latest generation including seed and the generation time so while I'm generating this I'll just fast forward and then I'll make a few more that you can see clip together in a bit in the meantime let's jump over to Mage space and do a few similar animations I have a pro user subscription here it's cheap and Limitless and highly recommendable now again we will choose stable diffusion 1.5 and then we will choose absolute reality as our checkpoint model in the settings we'll choose the 16 to9 image ratio 30 steps and leave the guidance scale we'll click the animate button and passed in the prompt just check in the model again all good let's hit generate all right and again fast forward and here it is looking good we can then click rerun here to make some more and here one more then I want to change the scheduler it's default on DD IM and I want it on DPM SD and with the caras enabled just like in animate diff right let's generate again okay looking better with the DPM SD caras it's more clear and steady then now I will again alter The Prompt and add closeup and change plural to singular meaning one puppy so while I'm finishing up here we'll jump straight to the final result and here we are well it's definitely not as good as open AI but it's not bad either sure we can generate puppies in the snow they look real and they are cute the thing is that this is kind of second generation AI text to video animate and we have had access to this for several months since mid last year rumors are now saying that the next third generation will be available within a few weeks so we really have something to look forward to and that also applies on this channel regardless if you are into puppies or fine ladies Etc thanks for watching and don't forget to subscribe",
+  "text_to_speech_word_count": 1102,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.633",
+      "start": "00:00:00.000",
+      "text": " Hi. Ten days ago we were introduced to OpenAI's text to video generator Sora."
+    },
+    {
+      "end": "00:00:13.833",
+      "start": "00:00:06.633",
+      "text": " It's not available yet, but you can see their presentation in my video or on their webpage OpenAI Sora."
+    },
+    {
+      "end": "00:00:20.800",
+      "start": "00:00:15.100",
+      "text": " I decided to do a comparison on one of their presentation videos, the one with the puppies in the snow."
+    },
+    {
+      "end": "00:00:23.733",
+      "start": "00:00:21.600",
+      "text": " Let's find it again and take another look."
+    },
+    {
+      "end": "00:00:28.933",
+      "start": "00:00:25.500",
+      "text": " Here it is and it's amazing. AI generated."
+    },
+    {
+      "end": "00:00:33.333",
+      "start": "00:00:29.500",
+      "text": " I'll copy the prompt directly and see what we can generate with it now."
+    },
+    {
+      "end": "00:00:38.533",
+      "start": "00:00:33.900",
+      "text": " It says, a litter of golden retriever puppies playing in the snow."
+    },
+    {
+      "end": "00:00:40.867",
+      "start": "00:00:38.533",
+      "text": " Their heads pop out of the snow covered in."
+    },
+    {
+      "end": "00:00:45.833",
+      "start": "00:00:41.433",
+      "text": " I will use this in animate diff and on mage space and you can follow along."
+    },
+    {
+      "end": "00:00:48.400",
+      "start": "00:00:46.933",
+      "text": " Okay, copy that."
+    },
+    {
+      "end": "00:00:54.067",
+      "start": "00:00:51.733",
+      "text": " You can download the video yourself if you want."
+    },
+    {
+      "end": "00:01:00.933",
+      "start": "00:00:54.800",
+      "text": " Let's watch it again. Notice how the puppies' heads are directly close up facing into the camera"
+    },
+    {
+      "end": "00:01:06.700",
+      "start": "00:01:00.933",
+      "text": " and how everything is constantly coherent, which is really one of the biggest challenges at the"
+    },
+    {
+      "end": "00:01:11.433",
+      "start": "00:01:06.700",
+      "text": " moment because AI can't figure out how to sustain coherency yet."
+    },
+    {
+      "end": "00:01:16.000",
+      "start": "00:01:12.000",
+      "text": " But it's now clearly improved with the next generation of text to video."
+    },
+    {
+      "end": "00:01:20.533",
+      "start": "00:01:16.633",
+      "text": " Okay, so now we'll first take a look at what animate diff can do."
+    },
+    {
+      "end": "00:01:23.333",
+      "start": "00:01:20.533",
+      "text": " I will run it on my account at run diffusion."
+    },
+    {
+      "end": "00:01:29.433",
+      "start": "00:01:23.333",
+      "text": " It's kind of funny because I already know that this method probably will be obsolete within a few weeks."
+    },
+    {
+      "end": "00:01:36.400",
+      "start": "00:01:29.433",
+      "text": " Anyhow, I will fire up automatic 1111 web user interface, which is a generator for stable diffusion"
+    },
+    {
+      "end": "00:01:44.133",
+      "start": "00:01:36.400",
+      "text": " images and animations through animate diff. This is $1.75 per hour for running generations on very"
+    },
+    {
+      "end": "00:01:49.900",
+      "start": "00:01:44.133",
+      "text": " heavy top notch GPU hardware. There's no way I can run this locally on my own computer."
+    },
+    {
+      "end": "00:01:53.733",
+      "start": "00:01:50.133",
+      "text": " Okay, loading up automatic 1111. Here we are."
+    },
+    {
+      "end": "00:01:59.600",
+      "start": "00:01:54.867",
+      "text": " First, I will set the checkpoint model and there's a lot to choose from depending on what you"
+    },
+    {
+      "end": "00:02:05.667",
+      "start": "00:01:59.600",
+      "text": " want to generate. This is not easy and straightforward at all. You need to know the differences between"
+    },
+    {
+      "end": "00:02:10.467",
+      "start": "00:02:05.667",
+      "text": " these models and they do also depend on which other models you will use to animate."
+    },
+    {
+      "end": "00:02:14.533",
+      "start": "00:02:11.100",
+      "text": " I choose this one, Realistic Vision V5."
+    },
+    {
+      "end": "00:02:17.900",
+      "start": "00:02:15.833",
+      "text": " Okay, so now it's loading in."
+    },
+    {
+      "end": "00:02:24.367",
+      "start": "00:02:20.467",
+      "text": " Done. And then we're ready to take a look at the generation settings."
+    },
+    {
+      "end": "00:02:29.267",
+      "start": "00:02:24.367",
+      "text": " And I have already animate diff installed here, so might as well open it up right away."
+    },
+    {
+      "end": "00:02:36.133",
+      "start": "00:02:30.000",
+      "text": " By the way, this picture over here has nothing to do with me. Just a warm welcome, I guess."
+    },
+    {
+      "end": "00:02:38.767",
+      "start": "00:02:36.133",
+      "text": " Then I'll just quickly do the settings that I want to use."
+    },
+    {
+      "end": "00:02:46.067",
+      "start": "00:02:39.900",
+      "text": " This is a motion module stable diffusion 1.5 version 2. It generates the motions."
+    },
+    {
+      "end": "00:02:52.800",
+      "start": "00:02:46.867",
+      "text": " Then we also need to set the sampling method. And here I'll choose the DPM, SDE,"
+    },
+    {
+      "end": "00:02:56.133",
+      "start": "00:02:52.800",
+      "text": " Carous Sampler, which I usually have good experience with."
+    },
+    {
+      "end": "00:03:04.700",
+      "start": "00:02:58.800",
+      "text": " So now let's insert the prompt. A litter of golden retriever puppies playing in the snow."
+    },
+    {
+      "end": "00:03:12.000",
+      "start": "00:03:05.267",
+      "text": " Their heads pop out of the snow covered in. Right, and we will not use any negative prompt."
+    },
+    {
+      "end": "00:03:15.267",
+      "start": "00:03:12.933",
+      "text": " Then I set the sampling steps to 30."
+    },
+    {
+      "end": "00:03:18.800",
+      "start": "00:03:16.700",
+      "text": " And the CFG scale to 10."
+    },
+    {
+      "end": "00:03:26.800",
+      "start": "00:03:20.867",
+      "text": " Then we need to set our desired image size. And today we want a 16 to 9 ratio."
+    },
+    {
+      "end": "00:03:34.867",
+      "start": "00:03:26.800",
+      "text": " So I will have the 1920 to 1080 and make it 960 to 540 pixels. Then we can upscale later."
+    },
+    {
+      "end": "00:03:40.300",
+      "start": "00:03:35.900",
+      "text": " Right. And in the animate diff we need to put in a frame rate."
+    },
+    {
+      "end": "00:03:44.000",
+      "start": "00:03:40.633",
+      "text": " I will run 48 frames with 30 frames per second."
+    },
+    {
+      "end": "00:03:50.867",
+      "start": "00:03:45.733",
+      "text": " And I want a batch size of 24 because it's half of my 48 frames."
+    },
+    {
+      "end": "00:03:57.200",
+      "start": "00:03:52.400",
+      "text": " Then I want an interpolation on 3 and activated it as film."
+    },
+    {
+      "end": "00:04:03.267",
+      "start": "00:03:58.300",
+      "text": " Now I have not enabled the animation yet because I want to run an image first."
+    },
+    {
+      "end": "00:04:05.833",
+      "start": "00:04:03.267",
+      "text": " And we do that by just clicking Generate."
+    },
+    {
+      "end": "00:04:10.533",
+      "start": "00:04:06.467",
+      "text": " So, and here you see how it's generating an image."
+    },
+    {
+      "end": "00:04:14.633",
+      "start": "00:04:10.533",
+      "text": " Seven puppies in a row so at least it understands our prompt."
+    },
+    {
+      "end": "00:04:21.733",
+      "start": "00:04:15.833",
+      "text": " Now let's enable the animate diff with the motion module to generate an animation with the puppies in motion."
+    },
+    {
+      "end": "00:04:24.067",
+      "start": "00:04:23.267",
+      "text": " And we're off."
+    },
+    {
+      "end": "00:04:31.100",
+      "start": "00:04:25.500",
+      "text": " It says here that it takes about 20 minutes, but the actual time is about half that."
+    },
+    {
+      "end": "00:04:34.800",
+      "start": "00:04:31.100",
+      "text": " Somewhere just under 10 minutes. I'll save you that and jump ahead."
+    },
+    {
+      "end": "00:04:38.700",
+      "start": "00:04:35.267",
+      "text": " You can see the images that are being generated while this is happening."
+    },
+    {
+      "end": "00:04:42.133",
+      "start": "00:04:40.233",
+      "text": " So here it is. Download and open."
+    },
+    {
+      "end": "00:04:46.867",
+      "start": "00:04:43.100",
+      "text": " It clearly needs some more brightness. I'll fix that in my editor."
+    },
+    {
+      "end": "00:04:51.667",
+      "start": "00:04:46.867",
+      "text": " And then there's a typical AI error here where the rear end turns into a head."
+    },
+    {
+      "end": "00:04:53.200",
+      "start": "00:04:51.667",
+      "text": " I'll cut that out later."
+    },
+    {
+      "end": "00:04:55.833",
+      "start": "00:04:55.433",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:59.900",
+      "start": "00:04:56.633",
+      "text": " I'll edit the prompt a bit and add close up."
+    },
+    {
+      "end": "00:05:02.700",
+      "start": "00:05:01.500",
+      "text": " Let's generate again."
+    },
+    {
+      "end": "00:05:11.667",
+      "start": "00:05:05.833",
+      "text": " Down here below you can see all parameters for the latest generation, including seed and the"
+    },
+    {
+      "end": "00:05:19.200",
+      "start": "00:05:11.667",
+      "text": " generation time. So while I'm generating this, I'll just fast forward and then I'll make a few more"
+    },
+    {
+      "end": "00:05:25.100",
+      "start": "00:05:19.200",
+      "text": " that you can see clip together in a bit. In the meantime, let's jump over to Mage Space and do"
+    },
+    {
+      "end": "00:05:31.833",
+      "start": "00:05:25.100",
+      "text": " a few similar animations. I have a pro user subscription here. It's cheap and limitless and highly"
+    },
+    {
+      "end": "00:05:40.467",
+      "start": "00:05:31.833",
+      "text": " recommendable. Now again, we will choose stable diffusion 1.5 and then we will choose absolute"
+    },
+    {
+      "end": "00:05:49.433",
+      "start": "00:05:40.467",
+      "text": " reality as our checkpoint model. In the settings, we'll choose the 16-9 image ratio, 30 steps,"
+    },
+    {
+      "end": "00:05:54.467",
+      "start": "00:05:49.500",
+      "text": " and leave the guidance scale. We'll click the animate button and past in the prompt."
+    },
+    {
+      "end": "00:06:01.100",
+      "start": "00:05:57.733",
+      "text": " Just checking the model again, all good. Let's hit generate."
+    },
+    {
+      "end": "00:06:08.800",
+      "start": "00:06:01.900",
+      "text": " All right. And again, fast forward. And here it is. Looking good. We can then click rerun here to"
+    },
+    {
+      "end": "00:06:17.500",
+      "start": "00:06:08.800",
+      "text": " make some more. And here one more. Then I want to change the scheduler. It's default on DDIM"
+    },
+    {
+      "end": "00:06:25.733",
+      "start": "00:06:17.500",
+      "text": " and I wanted on DPM, SDE, and with the caras enabled just like an animate diff. Right. Let's generate"
+    },
+    {
+      "end": "00:06:35.733",
+      "start": "00:06:25.733",
+      "text": " again. Okay. Looking better with the DPM SDE caras. It's more clear and steady. Then now I will"
+    },
+    {
+      "end": "00:06:41.900",
+      "start": "00:06:35.733",
+      "text": " again alter the prompt and add close up and change plural to singular, meaning one puppy."
+    },
+    {
+      "end": "00:06:46.533",
+      "start": "00:06:42.800",
+      "text": " So while I'm finishing up here, we'll jump straight to the final result."
+    },
+    {
+      "end": "00:06:54.533",
+      "start": "00:06:48.233",
+      "text": " And here we are. Well, it's definitely not as good as open AIs, but it's not bad either. Sure,"
+    },
+    {
+      "end": "00:07:01.267",
+      "start": "00:06:54.533",
+      "text": " we can generate puppies in the snow. They look real and they are cute. The thing is that this is"
+    },
+    {
+      "end": "00:07:07.500",
+      "start": "00:07:01.267",
+      "text": " kind of second generation AI text to video animate. And we have had access to this for several"
+    },
+    {
+      "end": "00:07:13.900",
+      "start": "00:07:07.500",
+      "text": " months since mid last year. Rumors are now saying that the next third generation will be available"
+    },
+    {
+      "end": "00:07:20.467",
+      "start": "00:07:13.900",
+      "text": " within a few weeks. So we really have something to look forward to. And that also applies on this"
+    },
+    {
+      "end": "00:07:27.900",
+      "start": "00:07:20.467",
+      "text": " channel regardless if you are into puppies or fine ladies, etc. Thanks for watching. And don't"
+    },
+    {
+      "end": "00:07:32.633",
+      "start": "00:07:27.900",
+      "text": " forget to subscribe. Bye."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Film & Animation"
+  ],
+  "youtube_channel": "BP Video Syd | AI by BP",
+  "youtube_channel_follower_count": 1640,
+  "youtube_comment_count": 0,
+  "youtube_description": "A quick tour through AnimateDiff and Mage.space to generate cute puppies in snow and compare them to Open AI's Sora puppies. Voiceover from Elevenlabs. \nRunDiffusion - Automatic1111 WebUI - AnimateDiff:  https://rundiffusion.com/\nMage.space:  https://www.mage.space/\nOpenAI Sora: https://openai.com/sora\n\n0:00 Intro and idea of comparison\n1:16 AnimateDiff at RunDiffusion with Automatic1111 WebUI\n5:22 Mage.space\n6:46 Final result\n\n#aianimation  #automatic1111  #openaisora  #stablediffusionanimation  #puppies",
+  "youtube_like_count": 4,
+  "youtube_tags": [],
+  "youtube_title": "Sora's Puppies vs. AnimateDiff & Mage.space | AI animation",
+  "youtube_upload_date": "20240225",
+  "youtube_view_count": 147
+}

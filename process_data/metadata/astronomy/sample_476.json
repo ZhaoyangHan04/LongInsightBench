@@ -1,0 +1,693 @@
+{
+  "content_fine_category": "Astronomy",
+  "content_metadata": {
+    "characterList": [],
+    "description": "A detailed exploration of the methods and technologies used to capture the first image of a black hole.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The angular size of the M87 black hole on the sky is 43 microarcseconds.",
+        "question": "What is the angular size of the M87 black hole on the sky?"
+      },
+      {
+        "answer": "The EHT network has a much larger effective baseline, close to the diameter of the Earth, allowing for significantly higher resolving power and the ability to observe the black hole's emission ring.",
+        "question": "What is the main advantage of the EHT network over other telescopes like Hubble and ESO VLTI?"
+      },
+      {
+        "answer": "The first challenge is the sparsity of the collected data due to limited observation time. The second challenge is the large amplitude calibration uncertainties in the measured visibilities.",
+        "question": "What are the two main challenges faced by the EHT team in processing the data?"
+      },
+      {
+        "answer": "The CLEAN algorithm helps to clean 'dirty' radio images by removing noise and artifacts, resulting in a clearer and more accurate representation of the observed object.",
+        "question": "What is the purpose of the CLEAN algorithm in radio astronomy?"
+      },
+      {
+        "answer": "Incorporating general relativity into the RML algorithm helped to constrain the possible solutions and produce images that are consistent with Einstein's theory, ultimately leading to a more accurate image of the black hole.",
+        "question": "Why was it important to incorporate general relativity into the RML algorithm?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explanation of black hole size and telescope resolving power",
+            "timestamp": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides foundational context about the challenges of observing black holes with telescopes.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Curious - The visuals of the black hole and the equations spark curiosity about the topic.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the size of the M87 black hole and its angular size in the sky.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Explanation of telescope resolving power.",
+            "timestamp": "00:00:12.012"
+          },
+          {
+            "description": "Calculation of resolving power for Hubble and ESO VLTI, highlighting their limitations in observing the black hole.",
+            "timestamp": "00:00:20.988"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of a black hole with annotations",
+            "timestamp": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Mathematical equations for telescope resolution",
+            "timestamp": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Exploration of scientific concepts related to observing black holes.",
+        "timestamps": {
+          "end_timestamp": "00:00:27.995",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Understanding Black Hole Size and Telescope Resolving Power",
+        "videoEditingDetails": [
+          {
+            "description": "Static image with text overlay and annotations",
+            "timestamps": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explanation of the Event Horizon Telescope (EHT) network",
+            "timestamp": {
+              "end_timestamp": "00:01:56.984",
+              "start_timestamp": "00:00:28.996"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Details the global scientific collaboration needed to observe black holes.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative - The visual aids and clear explanations create an informative tone.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the EHT network and its global scale.",
+            "timestamp": "00:00:28.996"
+          },
+          {
+            "description": "Comparison of the resolving power of EHT with Hubble and ESO VLTI.",
+            "timestamp": "00:00:45.012"
+          },
+          {
+            "description": "Specific locations of EHT telescopes.",
+            "timestamp": "00:01:09.002"
+          },
+          {
+            "description": "Explanation of baseline lengths and effective combined baseline.",
+            "timestamp": "00:01:33.994"
+          },
+          {
+            "description": "Showcase of individual EHT telescopes and data collection process.",
+            "timestamp": "00:01:57.684"
+          }
+        ],
+        "props": [
+          {
+            "name": "World map with locations of EHT telescopes",
+            "timestamp": {
+              "end_timestamp": "00:01:56.984",
+              "start_timestamp": "00:00:28.996"
+            }
+          },
+          {
+            "name": "Annotations and mathematical calculations",
+            "timestamp": {
+              "end_timestamp": "00:01:56.984",
+              "start_timestamp": "00:00:28.996"
+            }
+          },
+          {
+            "name": "Example of collected data",
+            "timestamp": {
+              "end_timestamp": "00:01:57.684",
+              "start_timestamp": "00:01:57.684"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Description of collaborative international scientific efforts.",
+        "timestamps": {
+          "end_timestamp": "00:01:57.684",
+          "start_timestamp": "00:00:28.028"
+        },
+        "title": "Exploring the Event Horizon Telescope Network",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom into world map",
+            "timestamps": {
+              "end_timestamp": "00:00:28.996",
+              "start_timestamp": "00:00:28.996"
+            }
+          },
+          {
+            "description": "Transition to images of the EHT telescopes",
+            "timestamps": {
+              "end_timestamp": "00:01:57.684",
+              "start_timestamp": "00:01:57.684"
+            }
+          },
+          {
+            "description": "Diagram showcasing data flow between telescopes and processing centers",
+            "timestamps": {
+              "end_timestamp": "00:01:57.684",
+              "start_timestamp": "00:01:57.684"
+            }
+          },
+          {
+            "description": "Example of data",
+            "timestamps": {
+              "end_timestamp": "00:01:57.684",
+              "start_timestamp": "00:01:57.684"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explanation of the inverse problem in science",
+            "timestamp": {
+              "end_timestamp": "00:02:48.001",
+              "start_timestamp": "00:02:30.984"
+            }
+          },
+          {
+            "description": "Demonstration of radio astronomy CLEAN algorithm",
+            "timestamp": {
+              "end_timestamp": "00:03:46.993",
+              "start_timestamp": "00:03:39.986"
+            }
+          },
+          {
+            "description": "Introduction of the RML imaging algorithm",
+            "timestamp": {
+              "end_timestamp": "00:04:53.994",
+              "start_timestamp": "00:04:19.993"
+            }
+          },
+          {
+            "description": "Explanation of the final black hole image",
+            "timestamp": {
+              "end_timestamp": "00:05:35.001",
+              "start_timestamp": "00:05:07.007"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Illustrates the scientific methodology and technological advancements required for imaging black holes.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious - The visuals of the abstract concepts and complex processes evoke a sense of curiosity about the workings of the universe.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the inverse problem in science.",
+            "timestamp": "00:02:30.984"
+          },
+          {
+            "description": "Example of an inverse problem solved by the ESO VLTI.",
+            "timestamp": "00:02:49.002"
+          },
+          {
+            "description": "Shift to EHT data and the specific inverse problem it poses.",
+            "timestamp": "00:03:14.995"
+          },
+          {
+            "description": "Introduction of the CLEAN algorithm for cleaning radio data.",
+            "timestamp": "00:03:39.986"
+          },
+          {
+            "description": "Introduction of the RML algorithm for addressing limitations in EHT data.",
+            "timestamp": "00:04:10.016"
+          },
+          {
+            "description": "Showcase of the final black hole image, highlighting its significance.",
+            "timestamp": "00:05:07.007"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating the inverse problem",
+            "timestamp": {
+              "end_timestamp": "00:02:48.001",
+              "start_timestamp": "00:02:30.984"
+            }
+          },
+          {
+            "name": "Image of star S2 orbiting Sag A*",
+            "timestamp": {
+              "end_timestamp": "00:03:08.989",
+              "start_timestamp": "00:03:00.013"
+            }
+          },
+          {
+            "name": "Sample data",
+            "timestamp": {
+              "end_timestamp": "00:03:39.986",
+              "start_timestamp": "00:02:30.984"
+            }
+          },
+          {
+            "name": "Example of dirty and cleaned radio astronomy images",
+            "timestamp": {
+              "end_timestamp": "00:03:46.993",
+              "start_timestamp": "00:03:39.986"
+            }
+          },
+          {
+            "name": "Library of RML-generated black hole images",
+            "timestamp": {
+              "end_timestamp": "00:05:07.007",
+              "start_timestamp": "00:04:10.016"
+            }
+          },
+          {
+            "name": "Final image of the black hole",
+            "timestamp": {
+              "end_timestamp": "00:05:35.001",
+              "start_timestamp": "00:05:07.007"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Advancement in imaging technology and scientific algorithms.",
+        "timestamps": {
+          "end_timestamp": "00:05:35.936",
+          "start_timestamp": "00:01:57.718"
+        },
+        "title": "Data Analysis and Imaging Algorithms",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to diagram illustrating the inverse problem",
+            "timestamps": {
+              "end_timestamp": "00:02:30.984",
+              "start_timestamp": "00:02:30.984"
+            }
+          },
+          {
+            "description": "Zoom into image of star S2 orbiting Sag A*",
+            "timestamps": {
+              "end_timestamp": "00:03:00.013",
+              "start_timestamp": "00:03:00.013"
+            }
+          },
+          {
+            "description": "Transition to example of dirty and cleaned images",
+            "timestamps": {
+              "end_timestamp": "00:03:39.986",
+              "start_timestamp": "00:03:39.986"
+            }
+          },
+          {
+            "description": "Animation of multiple RML-generated images",
+            "timestamps": {
+              "end_timestamp": "00:04:10.016",
+              "start_timestamp": "00:04:10.016"
+            }
+          },
+          {
+            "description": "Fade to the final black hole image",
+            "timestamps": {
+              "end_timestamp": "00:05:07.007",
+              "start_timestamp": "00:05:07.007"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The reveal of the final black hole image, which supports Einstein's theory of relativity.",
+        "timestamp": "00:05:07.007"
+      },
+      "description": "The video explains the process of creating the first image of a black hole, focusing on challenges, technological advancements, and scientific methods. The climax reveals the black hole image supporting Einstein's theory of relativity.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Black Hole Imaging Techniques",
+    "trimmingSuggestions": [
+      {
+        "description": "The section showing the example data could be shortened or removed to keep the focus on the scientific concepts.",
+        "timestamps": {
+          "end_timestamp": "00:02:30.017",
+          "start_timestamp": "00:01:57.985"
+        }
+      },
+      {
+        "description": "The explanation of the inverse problem could be condensed or simplified for a wider audience.",
+        "timestamps": {
+          "end_timestamp": "00:02:48.001",
+          "start_timestamp": "00:02:30.984"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 336,
+  "original_json_filename": "Evs-a0pdqtw.json",
+  "original_video_filename": "Evs-a0pdqtw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "the diameter of the m87 black hole Domitian ring 50 4.8 million light years away is 43 million of an arc second the resolving power of a telescope is the smallest angular distance between two objects that can be seen as separate objects a telescopes resolving power is limited by its baseline the diameter of its lens point four meter Hubble Space Telescope has the resolving power to see down close to 50 milliseconds the m87 black hole is over a thousand times too small for Hubble to see 120 meter ESO Very Large Telescope interferometer used to study sag a-star as the resolving power to see down to two Miller arcseconds the m87 black hole is almost 50 times too small for ESO VLT i2c to get down to the micro arc second level and much bigger telescope is needed in order to get a telescope baseline large enough the EHT team upgraded and connected a worldwide network of eight pre-existing radio telescopes deployed at a variety of high-altitude sites these locations included volcanoes in Hawaii and Mexico Mountains in Arizona Spain and Chile and one in Antarctica lengths between telescopes vary but the resulting effective combined baseline is close to the diameter of the earth this results in an array with a resolution limit of around 21 micro arc seconds this is enough to see the m87 black holes emission ring with its shadow dopes are not physically connected they are able to synchronize their recorded data with atomic clocks which precisely time their observations each telescope produce roughly 350 terabytes of data per day stored on high-performance hard drives and flown to highly specialized supercomputers at the MIT haystack observatory and the Max Planck Institute for Radio Astronomy where the data was combined in science the universe problem is the process of calculating from a set of observables back to the causal factors that produced them it is always a challenge to figure out what was actually happening at the source of the collected data for example the ESO VLT interferometer team reconstructed the motion of s2 around sag a star in the uv-plane 26,000 light-years away by applying interferometry techniques to images captured by the telescope in the observation plane here on earth the EHT the we measured the radio brightness distribution on the sky called visibilities inverse problem is to calculate what caused this distribution and produce an image radio data is normally quite dirty one of the primary Radio Astronomy interferometry techniques is a cleaning algorithm called clean it can take this dirty image and do this however there were two challenging issues with the EHT data first samples were limited to only a few hours a day for four days because the source plane is only sparsely sampled the inverse problem is under constrained that is the number of potential causes that can lead to these visibilities expands dramatically and second the visibility's had large amplitude calibration uncertainties to address these challenges a new imaging algorithm was developed that incorporated additional assumptions and constraints designed to produce images that are physically plausible while remaining consistent with the data the algorithm is called regularized maximum-likelihood rml for short it searches for an image that is not only consistent with the observed data but also favours specific image properties like smoothness and compactness library of tens of thousands of images was created with different parameter combinations associated with general relativistic magneto hydrodynamics using both clean and RMT on the visibility's this image was developed general theory of relativity in part because it assumed general relativity in order to get the image have been explained by some other theory relativity they just produced static you",
+  "text_to_speech_word_count": 619,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.309",
+      "start": "00:00:00.000",
+      "text": " The diameter of the M87 black hole emission ring, 54.8 million light years away, is 43"
+    },
+    {
+      "end": "00:00:12.112",
+      "start": "00:00:09.309",
+      "text": " millions of an arc second."
+    },
+    {
+      "end": "00:00:18.118",
+      "start": "00:00:12.112",
+      "text": " The resolving power of a telescope is the smallest angular distance between two objects"
+    },
+    {
+      "end": "00:00:20.821",
+      "start": "00:00:18.118",
+      "text": " that can be seen as separate objects."
+    },
+    {
+      "end": "00:00:29.596",
+      "start": "00:00:20.821",
+      "text": " A telescope's resolving power is limited by its baseline, the diameter of its lens."
+    },
+    {
+      "end": "00:00:35.736",
+      "start": "00:00:29.596",
+      "text": " The 2.4 meter Hubble Space Telescope has the resolving power to see down close to 50"
+    },
+    {
+      "end": "00:00:37.938",
+      "start": "00:00:35.736",
+      "text": " milli arc seconds."
+    },
+    {
+      "end": "00:00:44.878",
+      "start": "00:00:37.938",
+      "text": " The M87 black hole is over a thousand times too small for Hubble to see."
+    },
+    {
+      "end": "00:00:52.319",
+      "start": "00:00:44.878",
+      "text": " The 120 meter ESO, very large telescope into Pharometer, used to study SAG ASTAR, has"
+    },
+    {
+      "end": "00:00:56.590",
+      "start": "00:00:52.319",
+      "text": " the resolving power to see down to two milli arc seconds."
+    },
+    {
+      "end": "00:01:03.030",
+      "start": "00:00:56.590",
+      "text": " The M87 black hole is almost 50 times too small for ESOVLTI to see."
+    },
+    {
+      "end": "00:01:10.270",
+      "start": "00:01:03.030",
+      "text": " To get down to the micro arc second level, a much bigger telescope is needed."
+    },
+    {
+      "end": "00:01:16.743",
+      "start": "00:01:10.270",
+      "text": " In order to get a telescope baseline large enough, the EHT team upgraded and connected a worldwide"
+    },
+    {
+      "end": "00:01:24.718",
+      "start": "00:01:16.743",
+      "text": " network of eight pre-existing radio telescopes deployed at a variety of high altitude sites."
+    },
+    {
+      "end": "00:01:30.157",
+      "start": "00:01:24.718",
+      "text": " These locations included volcanoes in Hawaii and Mexico, mountains in Arizona, Spain and"
+    },
+    {
+      "end": "00:01:34.695",
+      "start": "00:01:30.157",
+      "text": " Chile, and one in Antarctica."
+    },
+    {
+      "end": "00:01:40.233",
+      "start": "00:01:34.695",
+      "text": " Baseline lengths between telescopes vary, but the resulting effective combined baseline is"
+    },
+    {
+      "end": "00:01:44.071",
+      "start": "00:01:40.233",
+      "text": " close to the diameter of the Earth."
+    },
+    {
+      "end": "00:01:51.078",
+      "start": "00:01:44.071",
+      "text": " This results in an array with a resolution limit of around 21 micro arc seconds."
+    },
+    {
+      "end": "00:01:58.518",
+      "start": "00:01:51.078",
+      "text": " This is enough to see the M87 black hole's emission ring with its shadow."
+    },
+    {
+      "end": "00:02:03.390",
+      "start": "00:01:58.518",
+      "text": " Although the telescopes are not physically connected, they are able to synchronize their"
+    },
+    {
+      "end": "00:02:09.863",
+      "start": "00:02:03.390",
+      "text": " recorded data with atomic clocks which precisely time their observations."
+    },
+    {
+      "end": "00:02:16.169",
+      "start": "00:02:09.863",
+      "text": " Each telescope produced roughly 350 terabytes of data per day."
+    },
+    {
+      "end": "00:02:20.807",
+      "start": "00:02:16.169",
+      "text": " This data was stored on high performance hard drives and flown to highly specialized"
+    },
+    {
+      "end": "00:02:28.649",
+      "start": "00:02:20.807",
+      "text": " supercomputers at the MIT Haystack Observatory and the Max Planck Institute for Radio Astronomy,"
+    },
+    {
+      "end": "00:02:33.020",
+      "start": "00:02:28.649",
+      "text": " where the data was combined."
+    },
+    {
+      "end": "00:02:39.059",
+      "start": "00:02:33.020",
+      "text": " In science, the inverse problem is the process of calculating from a set of observables back"
+    },
+    {
+      "end": "00:02:42.662",
+      "start": "00:02:39.059",
+      "text": " to the causal factors that produced them."
+    },
+    {
+      "end": "00:02:47.134",
+      "start": "00:02:42.662",
+      "text": " It is always a challenge to figure out what was actually happening at the source of the"
+    },
+    {
+      "end": "00:02:49.469",
+      "start": "00:02:47.134",
+      "text": " collected data."
+    },
+    {
+      "end": "00:02:58.078",
+      "start": "00:02:49.469",
+      "text": " For example, the ESOVLT interferometer team reconstructed the motion of S2 around SAG-A"
+    },
+    {
+      "end": "00:03:06.953",
+      "start": "00:02:58.078",
+      "text": " star in the UV plane 26,000 light years away by applying interferometry techniques to"
+    },
+    {
+      "end": "00:03:15.996",
+      "start": "00:03:06.953",
+      "text": " images captured by the telescope in the observation plane here on Earth."
+    },
+    {
+      "end": "00:03:24.337",
+      "start": "00:03:15.996",
+      "text": " The EHT directly measured the radio brightness distribution on the sky called visibilities."
+    },
+    {
+      "end": "00:03:32.512",
+      "start": "00:03:24.337",
+      "text": " The inverse problem is to calculate what caused this distribution and produce an image."
+    },
+    {
+      "end": "00:03:35.916",
+      "start": "00:03:32.512",
+      "text": " Radio data is normally quite dirty."
+    },
+    {
+      "end": "00:03:42.823",
+      "start": "00:03:35.916",
+      "text": " One of the primary radio astronomy interferometry techniques is a clean algorithm called clean."
+    },
+    {
+      "end": "00:03:47.027",
+      "start": "00:03:42.823",
+      "text": " It can take this dirty image and do this."
+    },
+    {
+      "end": "00:03:52.032",
+      "start": "00:03:47.027",
+      "text": " However, there were two challenging issues with the EHT data."
+    },
+    {
+      "end": "00:03:57.137",
+      "start": "00:03:52.032",
+      "text": " First samples were limited to only a few hours a day for four days."
+    },
+    {
+      "end": "00:04:02.676",
+      "start": "00:03:57.137",
+      "text": " Because the source plane is only sparsely sampled, the inverse problem is under constrained."
+    },
+    {
+      "end": "00:04:10.751",
+      "start": "00:04:02.676",
+      "text": " That is, the number of potential causes that can lead to these visibilities expands dramatically."
+    },
+    {
+      "end": "00:04:18.992",
+      "start": "00:04:10.751",
+      "text": " And second, the measured visibilities had large amplitude calibration uncertainties."
+    },
+    {
+      "end": "00:04:24.431",
+      "start": "00:04:18.992",
+      "text": " To address these challenges, a new imaging algorithm was developed that incorporated additional"
+    },
+    {
+      "end": "00:04:31.037",
+      "start": "00:04:24.431",
+      "text": " assumptions and constraints designed to produce images that are physically plausible,"
+    },
+    {
+      "end": "00:04:35.575",
+      "start": "00:04:31.037",
+      "text": " while remaining consistent with the data."
+    },
+    {
+      "end": "00:04:43.116",
+      "start": "00:04:35.575",
+      "text": " The algorithm is called regularized maximum likelihood, RML for short."
+    },
+    {
+      "end": "00:04:48.355",
+      "start": "00:04:43.116",
+      "text": " It searches for an image that is not only consistent with the observed data, but also"
+    },
+    {
+      "end": "00:04:55.095",
+      "start": "00:04:48.355",
+      "text": " favors specific image properties like smoothness and compactness."
+    },
+    {
+      "end": "00:05:00.967",
+      "start": "00:04:55.095",
+      "text": " A library of tens of thousands of images was created with different parameter combinations"
+    },
+    {
+      "end": "00:05:07.908",
+      "start": "00:05:00.967",
+      "text": " associated with general relativistic magneto hydrodynamics."
+    },
+    {
+      "end": "00:05:14.514",
+      "start": "00:05:07.908",
+      "text": " Using both clean and RMT on the visibilities, this image was developed."
+    },
+    {
+      "end": "00:05:21.087",
+      "start": "00:05:14.514",
+      "text": " It supports Einstein's general theory of relativity, in part because it assumed general relativity"
+    },
+    {
+      "end": "00:05:24.057",
+      "start": "00:05:21.087",
+      "text": " in order to get the image."
+    },
+    {
+      "end": "00:05:29.930",
+      "start": "00:05:24.057",
+      "text": " The visibilities could have been explained by some other theory, but without relativity,"
+    },
+    {
+      "end": "00:05:31.665",
+      "start": "00:05:29.930",
+      "text": " they just produced static."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "David Butler",
+  "youtube_channel_follower_count": 176000,
+  "youtube_comment_count": 5,
+  "youtube_description": "Text at http://howfarawayisit.com/documents/\n\nThis is the How Far Away Is It video book 2019 review. It was yet another interesting year. We’ll see a comet from another solar system passing through ours. We’ll take a close look at the Southern Crab Nebula. We’ll identify Blue Straggler stars in a giant globular cluster in the Large Magellanic Cloud. We’ll cover a unique Milky Way image created by the Pan-Starr Sky Survey. And we’ll examine the space between two colliding galaxies. This past year, Hubble accidentally discovered a new relatively nearby galaxy. We’ll take a look. We’ll see a galaxy that’s losing all of its gas. And we’ll see a rare Ring galaxy and cover how rings like it are created.  We’ll also cover one of the most powerful Gamma Ray Burst ever detected. And we’ll see a distant galaxy that appears as an arc in a closer giant galaxy cluster.\n\nBut the biggest news this past year was the release of a black hole image in the giant elliptical M87 galaxy produced by the Event Horizon Telescope team. We’ll do a deep dive into both what they are showing, how they got it and some of the theoretical difficulties associated with interpreting radio wave data and the implications for Einstein’s General Theory of Relativity.\n\nIn the credits, I’ll show you the link to a wonderful new free online Astronomy textbook, and a link to the new How Far Way Is It Wiki where you can engage in discussions on the topics in this or any How Far Away Is It video. I trust you’ll find it all interesting and informative.",
+  "youtube_like_count": 171,
+  "youtube_tags": [
+    "STEM",
+    "Astronomy",
+    "stars",
+    "EHT",
+    "Black Hole Image",
+    "Event Horizon Telescope"
+  ],
+  "youtube_title": "Classroom Aid - Event Horizon Telescope",
+  "youtube_upload_date": "20200124",
+  "youtube_view_count": 8555
+}

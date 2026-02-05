@@ -1,0 +1,1305 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The narrator is an off-screen voice that explains the system and its capabilities.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "The video introduces a system that allows users to manipulate visual content naturally and realistically using Generative Adversarial Networks (GANs) and the Natural Image Manifold.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Gray",
+        "question": "In the handbag example, what color was used to sketch the desired shape?"
+      },
+      {
+        "answer": "Warping brush",
+        "question": "What type of brush tool was used to slim down the tongue of the black shoe?"
+      },
+      {
+        "answer": "White",
+        "question": "During the generation of the outdoor scene, what color was used to create the snow on the mountain?"
+      },
+      {
+        "answer": "The system utilizes Generative Adversarial Networks (GANs) to learn and adhere to the principles of the Natural Image Manifold, ensuring that the generated images remain within the realm of realistic possibilities.",
+        "question": "How does the system ensure that the generated images remain realistic?"
+      },
+      {
+        "answer": "Generative Image Transformation produces smoother transitions between images with fewer artifacts, resulting in more visually pleasing and realistic morphing sequences.",
+        "question": "What is the advantage of Generative Image Transformation over traditional optical flow-based morphing?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introducing the system and its capabilities",
+            "timestamp": {
+              "end_timestamp": "00:00:06.533",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator introduces the system."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": [
+            {
+              "changeDescription": "The initial screen is factual.",
+              "timestamp": "00:00:00.000"
+            },
+            {
+              "changeDescription": "The narrative sets up the video’s main goal.",
+              "timestamp": "00:00:01.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator introduces the system, highlighting its ability to allow users to manipulate visual content naturally and realistically.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "ECCV'16 logo",
+            "timestamp": {
+              "end_timestamp": "00:00:06.533",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Berkeley logo",
+            "timestamp": {
+              "end_timestamp": "00:00:06.533",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Adobe logo",
+            "timestamp": {
+              "end_timestamp": "00:00:06.533",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Image manipulation, Generative image editing, Natural Image Manifold",
+        "timestamps": {
+          "end_timestamp": "00:00:06.533",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to the System",
+        "videoEditingDetails": [
+          {
+            "description": "Black background with white text",
+            "timestamps": {
+              "end_timestamp": "00:00:06.533",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of image manipulation challenges.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.867",
+              "start_timestamp": "00:00:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral, transitioning to Frustration",
+          "keyMoments": [
+            {
+              "changeDescription": "Initial neutrality due to static imagery.",
+              "timestamp": "00:00:07.000"
+            },
+            {
+              "changeDescription": "Frustration emerges from editing failure.",
+              "timestamp": "00:00:08.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene demonstrates how traditional image editing can be difficult and often leads to unrealistic outputs, emphasizing the need for a more intuitive system.",
+            "timestamp": "00:00:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black handbag",
+            "timestamp": {
+              "end_timestamp": "00:00:19.867",
+              "start_timestamp": "00:00:07.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Challenges of traditional image editing, Need for natural and realistic image manipulation",
+        "timestamps": {
+          "end_timestamp": "00:00:19.867",
+          "start_timestamp": "00:00:06.567"
+        },
+        "title": "Challenges in Traditional Image Editing",
+        "videoEditingDetails": [
+          {
+            "description": "Black background with white text and image of handbag. 2x speed",
+            "timestamps": {
+              "end_timestamp": "00:00:19.867",
+              "start_timestamp": "00:00:07.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of the system's capabilities using a handbag example.",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains the system's functions while the video demonstrates its use."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Curiosity is piqued by new interface.",
+              "timestamp": "00:00:20.000"
+            },
+            {
+              "changeDescription": "The process demonstration generates interest.",
+              "timestamp": "00:00:26.000"
+            },
+            {
+              "changeDescription": "Realism maintained through automated adjustment.",
+              "timestamp": "00:00:31.000"
+            },
+            {
+              "changeDescription": "Exploration is encouraged by slider feature.",
+              "timestamp": "00:00:36.000"
+            },
+            {
+              "changeDescription": "Reliance on GANs ensures naturalism, intriguing viewers.",
+              "timestamp": "00:00:42.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene introduces the system's user interface and showcases its intuitive nature through a handbag manipulation example.",
+            "timestamp": "00:00:20.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black handbag",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "name": "image editing software interface",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Intuitive user interface, Sketch-based shape manipulation, GAN-based realism, Natural Image Manifold",
+        "timestamps": {
+          "end_timestamp": "00:00:49.733",
+          "start_timestamp": "00:00:19.900"
+        },
+        "title": "Demonstration of System's Capabilities",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the image editing software. Text overlays explaining the steps",
+            "timestamps": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Overview of the system's workflow.",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:00:49.767"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": [
+            {
+              "changeDescription": "Neutral mood as information is disseminated.",
+              "timestamp": "00:00:49.767"
+            },
+            {
+              "changeDescription": "Projection step explained in detail.",
+              "timestamp": "00:00:50.000"
+            },
+            {
+              "changeDescription": "Editing process with brush tools is shown.",
+              "timestamp": "00:00:57.000"
+            },
+            {
+              "changeDescription": "Edit Transfer step concludes the workflow overview.",
+              "timestamp": "00:01:02.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene provides a concise overview of the system's workflow, emphasizing its key steps and underlying concept.",
+            "timestamp": "00:00:49.767"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black shoe",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:00:49.767"
+            }
+          },
+          {
+            "name": "diagrams and illustrations",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:00:49.767"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Projection onto GAN manifold, Brush-based editing tools, Edit transfer",
+        "timestamps": {
+          "end_timestamp": "00:01:07.333",
+          "start_timestamp": "00:00:49.767"
+        },
+        "title": "Overview of the System's Workflow",
+        "videoEditingDetails": [
+          {
+            "description": "Animated diagrams explaining the workflow",
+            "timestamps": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:00:49.767"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of the system's interface for image manipulation.",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:07.367"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains the brush tools and editing process."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Initial curiosity by showcasing interface.",
+              "timestamp": "00:01:09.000"
+            },
+            {
+              "changeDescription": "Current state information piques interest.",
+              "timestamp": "00:01:10.000"
+            },
+            {
+              "changeDescription": "Curiosity maintained as tools are described.",
+              "timestamp": "00:01:14.000"
+            },
+            {
+              "changeDescription": "GAN demonstration provides further insight.",
+              "timestamp": "00:01:30.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene details the system's user interface, explaining the functions of the various brush tools for image manipulation.",
+            "timestamp": "00:01:07.367"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black shoe image",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          },
+          {
+            "name": "image editing software interface",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "User Interface explanation, Functionality of brush tools: coloring, sketching, warping, GAN embedding visualization",
+        "timestamps": {
+          "end_timestamp": "00:01:37.000",
+          "start_timestamp": "00:01:07.367"
+        },
+        "title": "Demonstration of Image Manipulation Interface",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the image editing software. Text overlay highlighting the \"Brush Tools\" section",
+            "timestamps": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of the system's features for image manipulation using a shoe example.",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator guides the audience through the editing process, explaining each step and tool used."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Introduction to editing tools creates curiosity.",
+              "timestamp": "00:01:37.033"
+            },
+            {
+              "changeDescription": "Demonstration of warping creates interest.",
+              "timestamp": "00:01:47.000"
+            },
+            {
+              "changeDescription": "Exploration fosters engagement.",
+              "timestamp": "00:01:53.000"
+            },
+            {
+              "changeDescription": "Exploration continues with coloring tool use.",
+              "timestamp": "00:02:04.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene demonstrates the system's capabilities by editing a black shoe image, showcasing the warping and coloring brush tools.",
+            "timestamp": "00:01:37.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black shoe",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          },
+          {
+            "name": "image editing software interface",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          },
+          {
+            "name": "color picker",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:02:04.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Practical application of warping and coloring brush tools, Interactive exploration of editing options, Real-time visual feedback during editing",
+        "timestamps": {
+          "end_timestamp": "00:02:18.700",
+          "start_timestamp": "00:01:37.033"
+        },
+        "title": "Shoe Editing Demonstration",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the image editing software. Text overlays describing the edits",
+            "timestamps": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Introduction to interactive image generation capabilities.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:18.733"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator introduces the concept of interactive image generation."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": [
+            {
+              "changeDescription": "Background provides neutral atmosphere for dialogue.",
+              "timestamp": "00:02:18.733"
+            },
+            {
+              "changeDescription": "Features of the system are visually demonstrated.",
+              "timestamp": "00:02:22.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene shifts focus to the system's ability to generate images from scratch based on user inputs.",
+            "timestamp": "00:02:18.733"
+          }
+        ],
+        "props": [],
+        "sceneId": 7,
+        "thematicElements": "Interactive image generation, User-driven image creation",
+        "timestamps": {
+          "end_timestamp": "00:02:30.300",
+          "start_timestamp": "00:02:18.733"
+        },
+        "title": "Introduction to Interactive Image Generation",
+        "videoEditingDetails": [
+          {
+            "description": "Black background with white text",
+            "timestamps": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:18.733"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of interactive image generation using an outdoor scene example.",
+            "timestamp": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:02:30.333"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains the process of generating the scene while the video demonstrates the tool usage and resulting image evolution."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": [
+            {
+              "changeDescription": "Expectation set with blank canvas and UI.",
+              "timestamp": "00:02:30.333"
+            },
+            {
+              "changeDescription": "Excitement peaks as grassland generates.",
+              "timestamp": "00:02:44.000"
+            },
+            {
+              "changeDescription": "Structuring generates interest.",
+              "timestamp": "00:02:57.000"
+            },
+            {
+              "changeDescription": "Skies are created to enhance realism.",
+              "timestamp": "00:03:04.000"
+            },
+            {
+              "changeDescription": "Realism and complexity enhanced with snow.",
+              "timestamp": "00:03:13.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene showcases the system's ability to create a new image based on brush strokes and color selections, demonstrating the process of generating an outdoor scene.",
+            "timestamp": "00:02:30.333"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image editing software interface",
+            "timestamp": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:02:30.333"
+            }
+          },
+          {
+            "name": "color picker",
+            "timestamp": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:02:43.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Image generation from scratch, Building complex scenes with multiple elements, Real-time feedback and image adaptation based on user input",
+        "timestamps": {
+          "end_timestamp": "00:03:27.000",
+          "start_timestamp": "00:02:30.333"
+        },
+        "title": "Outdoor Scene Image Generation",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the image editing software. Text overlay highlighting \"Generated Image\" and \"Multiple Modes\"",
+            "timestamps": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:02:30.333"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of interactive image generation for shoe design.",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:27.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator guides the audience through the design process, explaining the steps involved in creating the desired shoe."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": [
+            {
+              "changeDescription": "Excitement with UI showcasing variety options.",
+              "timestamp": "00:03:27.033"
+            },
+            {
+              "changeDescription": "Outline stroke interaction encourages experimentation.",
+              "timestamp": "00:03:29.000"
+            },
+            {
+              "changeDescription": "Exciting color and texture variations generated.",
+              "timestamp": "00:03:34.000"
+            },
+            {
+              "changeDescription": "Customizable features create dynamic value.",
+              "timestamp": "00:03:38.000"
+            },
+            {
+              "changeDescription": "Detailed customization.",
+              "timestamp": "00:03:47.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene shifts the focus to designing products like shoes using the interactive image generation features.",
+            "timestamp": "00:03:27.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image editing software interface",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:27.033"
+            }
+          },
+          {
+            "name": "color picker",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:38.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Product design using image generation, Exploring different color and texture options, Adding details and refinements using sketching tools",
+        "timestamps": {
+          "end_timestamp": "00:03:50.000",
+          "start_timestamp": "00:03:27.033"
+        },
+        "title": "Shoe Design Image Generation",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the image editing software. Green box highlighting the selected image",
+            "timestamps": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:27.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Introduction of Generative Image Transformation.",
+            "timestamp": {
+              "end_timestamp": "00:04:09.000",
+              "start_timestamp": "00:03:50.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator introduces the concept of Generative Image Transformation."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": [
+            {
+              "changeDescription": "Concept introduction.",
+              "timestamp": "00:03:50.033"
+            },
+            {
+              "changeDescription": "Informative exposition.",
+              "timestamp": "00:03:53.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces a new concept called Generative Image Transformation, building on the previous demonstration of image generation.",
+            "timestamp": "00:03:50.033"
+          }
+        ],
+        "props": [],
+        "sceneId": 10,
+        "thematicElements": "Generative Image Transformation, Image morphing",
+        "timestamps": {
+          "end_timestamp": "00:04:10.500",
+          "start_timestamp": "00:03:50.033"
+        },
+        "title": "Introduction to Generative Image Transformation",
+        "videoEditingDetails": [
+          {
+            "description": "Black background with white text",
+            "timestamps": {
+              "end_timestamp": "00:04:09.000",
+              "start_timestamp": "00:03:50.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of Generative Image Transformation using different product examples.",
+            "timestamp": {
+              "end_timestamp": "00:04:34.000",
+              "start_timestamp": "00:04:10.533"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains the transformation process while the video showcases the morphing sequence."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Curiosity maintains as transformation is shown.",
+              "timestamp": "00:04:10.533"
+            },
+            {
+              "changeDescription": "Challenge of handling patterns intrigues.",
+              "timestamp": "00:04:18.000"
+            },
+            {
+              "changeDescription": "Smooth transformations captivate viewers.",
+              "timestamp": "00:04:27.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene demonstrates the concept of Generative Image Transformation by morphing one product image into another, showcasing its ability to handle changes in shape and color.",
+            "timestamp": "00:04:10.533"
+          }
+        ],
+        "props": [
+          {
+            "name": "Pairs of source, morphed, and target images: boots, shirts, handbags",
+            "timestamp": {
+              "end_timestamp": "00:04:34.000",
+              "start_timestamp": "00:04:10.533"
+            }
+          }
+        ],
+        "sceneId": 11,
+        "thematicElements": "Automatic image transformation, Preservation of realism and detail during morphing, Versatility in handling different product categories",
+        "timestamps": {
+          "end_timestamp": "00:04:34.500",
+          "start_timestamp": "00:04:10.533"
+        },
+        "title": "Demonstration of Generative Image Transformation",
+        "videoEditingDetails": [
+          {
+            "description": "Three images are presented side-by-side, representing the source, morphed, and target images. Text overlays label the images as \"Source Image,\" \"Morphing,\" and \"Target Image\"",
+            "timestamps": {
+              "end_timestamp": "00:04:34.000",
+              "start_timestamp": "00:04:10.533"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Comparison of Generative Image Transformation with an optical flow baseline.",
+            "timestamp": {
+              "end_timestamp": "00:04:44.000",
+              "start_timestamp": "00:04:34.533"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator compares the two morphing methods, highlighting the advantages."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": [
+            {
+              "changeDescription": "Neutrality present as methods are compared.",
+              "timestamp": "00:04:34.533"
+            },
+            {
+              "changeDescription": "Comparison provides balanced information.",
+              "timestamp": "00:04:37.000"
+            },
+            {
+              "changeDescription": "Clarity ensues as advantages are highlighted.",
+              "timestamp": "00:04:40.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene compares the Generative Image Transformation with a traditional optical flow-based morphing method, highlighting the advantages of the presented approach.",
+            "timestamp": "00:04:34.533"
+          }
+        ],
+        "props": [
+          {
+            "name": "Pairs of source, morphed (using both methods), and target images of handbags",
+            "timestamp": {
+              "end_timestamp": "00:04:44.000",
+              "start_timestamp": "00:04:37.000"
+            }
+          }
+        ],
+        "sceneId": 12,
+        "thematicElements": "Comparison with traditional morphing techniques, Smoother and more realistic transformations, Reduction of artifacts",
+        "timestamps": {
+          "end_timestamp": "00:04:45.033",
+          "start_timestamp": "00:04:34.533"
+        },
+        "title": "Comparison with Optical Flow",
+        "videoEditingDetails": [
+          {
+            "description": "Four images are presented side-by-side, representing the source image, the morphed image using the presented method, the morphed image using an optical flow baseline, and the target image. Text overlays label the images accordingly",
+            "timestamps": {
+              "end_timestamp": "00:04:44.000",
+              "start_timestamp": "00:04:37.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Closing remarks and call to action.",
+            "timestamp": {
+              "end_timestamp": "00:04:49.000",
+              "start_timestamp": "00:04:45.067"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator provides closing remarks and directs viewers to the website."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": [
+            {
+              "changeDescription": "Connection with viewer through gratitude.",
+              "timestamp": "00:04:45.067"
+            },
+            {
+              "changeDescription": "Engagement driven by further information.",
+              "timestamp": "00:04:46.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene concludes the video by thanking the viewers and providing a website address for further information.",
+            "timestamp": "00:04:45.067"
+          }
+        ],
+        "props": [],
+        "sceneId": 13,
+        "thematicElements": "Call to action, Invitation to learn more",
+        "timestamps": {
+          "end_timestamp": "00:04:50.033",
+          "start_timestamp": "00:04:45.067"
+        },
+        "title": "Closing Remarks and Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "Black background with white text displaying the closing remarks and website information",
+            "timestamps": {
+              "end_timestamp": "00:04:49.000",
+              "start_timestamp": "00:04:45.067"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The video focuses on showcasing the system's capabilities and introducing various concepts related to generative image editing.",
+        "timestamp": "00:04:09.000"
+      },
+      "description": "The video introduces and demonstrates an interactive image editing system that uses GANs and the Natural Image Manifold.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "title": "Generative Visual Manipulation on the Natural Image Manifold",
+    "trimmingSuggestions": [
+      {
+        "description": "Scene 2 could be shortened by removing some of the repetitive dragging actions, focusing more on the unrealistic outcome.",
+        "timestamps": {
+          "end_timestamp": "00:04:45.067",
+          "start_timestamp": "00:04:45.067"
+        }
+      },
+      {
+        "description": "Scene 5 could be condensed by presenting the brush tool explanations more concisely.",
+        "timestamps": {
+          "end_timestamp": "00:04:45.067",
+          "start_timestamp": "00:04:45.067"
+        }
+      },
+      {
+        "description": "Scenes 11 and 12 could be combined, showcasing the Generative Image Transformation and the comparison with the optical flow baseline in a single, more dynamic sequence.",
+        "timestamps": {
+          "end_timestamp": "00:04:45.067",
+          "start_timestamp": "00:04:45.067"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 290,
+  "original_json_filename": "9c4z6YsBGQ0.json",
+  "original_video_filename": "9c4z6YsBGQ0.mp4",
+  "resolution": "540x360",
+  "text_to_speech": "we present an interactive system that allows the user to manipulate visual content in a natural and realistic way without artistic skills image editing can be a difficult task even with the best software it's easy to mess up and make the output look completely unrealistic our system attempts to guard against us keeping the image natural as it is being edited by the user with our intuitive interface the user can simply sketch the shape of the handbag in her mind and our system is able to automatically adjust the handbag keeping all edits as realistic as possible a user can further drag the slider to see all the intermediate results and choose the one she likes we propose to use the channel of adversarial networks can to keep image editing within the natural image manifold here is an overview of our system we first protects the original photo onto low dimensional latent representation by regenerating it using game we can use various brush tools to modify the color and shape of the generated image finally we apply the same modifications to the original photo to achieve the final result here is our interface based on this idea on the top left we showed a current edited photo on the bottom left we provide three brush tools to edit the photo in different aspects coloring brush for changing the color of a specific region sketching brush for outlining the shape and a warping brush for modifying the shape more explicitly on the right we show the images in our embedding space generated by the generative adversarial Network now let's try out these tools suppose you're looking for shoes and you found one that almost suits you but you would like it to be a bit slimmer you can simply use our warping tool to drag down the shoe tongue a user can then adjust the slider to see shoes with different degrees of slimness now the color seems somewhat boring let's make it exciting by adding some color strokes you what happens if there is no image to begin with and all we have are the users brushstrokes our interface can also be used to create new images that best satisfy the user edits here is our interface for image generation the window on the Left shows the generated image that best fits the users edits the display on the right is showing thumbnails of other modes that fit the edits let's draw an outdoor scene we first create grassland by painting something greenish in the bottom we can see different samples all with grassland let's sketch a mountain let's add some blue sky and finally let's put some snow in the mountain for a perfect scene you we can use our drawing interface to design products as well the user sketches some desired shape now we can browse different shoes with the same shape but different color and texture how about a shoe with a red vamp and white outsole finally we can add fine details like shoelaces with our sketching tool in our editing process the sequence of intermediate generated images can be seen as a new kind of image morphing we call it generative transformation we use this sequence to transform the shape and color of one image to look like another image completely automatically here the source on the left is transformed to have the same shape and color as a target image on the right and then transformed back we compare our morphing results to the optical flow based interpolation method implemented in Adobe Premiere Pro we can see our method produces smoother transitions between two images with less sort effect thank you for watching for more information please visit our project website",
+  "text_to_speech_word_count": 629,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.533",
+      "start": "00:00:00.000",
+      "text": " We present an interactive system that allows the user to manipulate visual content in a natural and realistic way."
+    },
+    {
+      "end": "00:00:12.533",
+      "start": "00:00:07.200",
+      "text": " Without artistic skills, image editing can be a difficult task, even with the best software."
+    },
+    {
+      "end": "00:00:17.833",
+      "start": "00:00:13.433",
+      "text": " It's easy to mess up and make the output look completely unrealistic."
+    },
+    {
+      "end": "00:00:25.833",
+      "start": "00:00:19.833",
+      "text": " Our system attempts to guard against this, keeping the image natural as it is being edited by the user."
+    },
+    {
+      "end": "00:00:30.700",
+      "start": "00:00:25.900",
+      "text": " With our intuitive interface, the user can simply sketch the shape of the handbag in her mind,"
+    },
+    {
+      "end": "00:00:36.400",
+      "start": "00:00:30.700",
+      "text": " and our system is able to automatically adjust the handbag, keeping all edits as realistic as possible."
+    },
+    {
+      "end": "00:00:42.300",
+      "start": "00:00:36.400",
+      "text": " A user can further drag the slider to see all the intermediate results and choose the one she likes."
+    },
+    {
+      "end": "00:00:49.667",
+      "start": "00:00:42.300",
+      "text": " We propose to use the generative adversarial networks again to keep image editing within the natural image manifold."
+    },
+    {
+      "end": "00:00:54.800",
+      "start": "00:00:49.667",
+      "text": " Here is an overview of our system. We first protect the original photo onto a low-dimensional latent"
+    },
+    {
+      "end": "00:01:02.233",
+      "start": "00:00:54.800",
+      "text": " representation by regenerating it using GAN. We can use various brush tools to modify the color and shape of the generated image."
+    },
+    {
+      "end": "00:01:07.500",
+      "start": "00:01:02.233",
+      "text": " Finally, we apply the same modifications to the original photo to achieve the final result."
+    },
+    {
+      "end": "00:01:13.333",
+      "start": "00:01:07.500",
+      "text": " Here is our interface based on this idea. On the top left, we show the current edited photo."
+    },
+    {
+      "end": "00:01:19.667",
+      "start": "00:01:14.067",
+      "text": " On the bottom left, we provide three brush tools to edit the photo in different aspects,"
+    },
+    {
+      "end": "00:01:23.033",
+      "start": "00:01:19.733",
+      "text": " coloring brush for changing the color for a specific region,"
+    },
+    {
+      "end": "00:01:30.233",
+      "start": "00:01:23.733",
+      "text": " sketching brush for outlining the shape, and a warping brush for modifying the shape more explicitly."
+    },
+    {
+      "end": "00:01:36.700",
+      "start": "00:01:31.200",
+      "text": " On the right, we show the images in our embedding space generated by the generative adversarial network."
+    },
+    {
+      "end": "00:01:44.533",
+      "start": "00:01:37.500",
+      "text": " Now let's try out these tools. Suppose you're looking for shoes and you found one that almost suits you,"
+    },
+    {
+      "end": "00:01:51.267",
+      "start": "00:01:44.533",
+      "text": " but you would like it to be a bit slimmer. You can simply use our warping tool to drag down the shoe tongue."
+    },
+    {
+      "end": "00:01:59.100",
+      "start": "00:01:54.000",
+      "text": " A user can then adjust the slider to see shoes with different degrees of slimness."
+    },
+    {
+      "end": "00:02:07.733",
+      "start": "00:02:01.733",
+      "text": " Now the color seems somewhat boring. Let's make it exciting by adding some color strokes."
+    },
+    {
+      "end": "00:02:23.333",
+      "start": "00:02:15.433",
+      "text": " What happens if there is no image to begin with? And all we have are the user's brush strokes."
+    },
+    {
+      "end": "00:02:28.467",
+      "start": "00:02:23.333",
+      "text": " Our interface can also be used to create new images that best satisfy the user edits."
+    },
+    {
+      "end": "00:02:35.833",
+      "start": "00:02:30.067",
+      "text": " Here is our interface for image generation. The window on the left shows the generated image"
+    },
+    {
+      "end": "00:02:41.667",
+      "start": "00:02:35.833",
+      "text": " that best fits the user's edits. The display on the right is showing thumbnails of other modes"
+    },
+    {
+      "end": "00:02:48.800",
+      "start": "00:02:41.733",
+      "text": " that fit the edits. Let's draw an outdoor scene. We first create grassland by painting something"
+    },
+    {
+      "end": "00:02:54.400",
+      "start": "00:02:48.800",
+      "text": " greenish in the bottom. We can see different samples all with grassland."
+    },
+    {
+      "end": "00:02:58.533",
+      "start": "00:02:57.433",
+      "text": " Let's sketch a mountain."
+    },
+    {
+      "end": "00:03:06.300",
+      "start": "00:03:05.033",
+      "text": " Let's add some blue sky."
+    },
+    {
+      "end": "00:03:16.067",
+      "start": "00:03:12.533",
+      "text": " And finally, let's put some snow in the mountain for a perfect scene."
+    },
+    {
+      "end": "00:03:33.200",
+      "start": "00:03:27.833",
+      "text": " We can use our drawing interface to design products as well. The user sketches some desired shape."
+    },
+    {
+      "end": "00:03:38.400",
+      "start": "00:03:33.733",
+      "text": " Now we can browse different shoes with the same shape but different color and texture."
+    },
+    {
+      "end": "00:03:41.900",
+      "start": "00:03:38.467",
+      "text": " How about a shoe with a red vamp and white outsole?"
+    },
+    {
+      "end": "00:03:54.800",
+      "start": "00:03:50.400",
+      "text": " Finally, we can add fine details like shoe laces with our sketching tool."
+    },
+    {
+      "end": "00:04:06.133",
+      "start": "00:04:00.467",
+      "text": " In our editing process, the sequence of intermediate generated images can be seen as a new"
+    },
+    {
+      "end": "00:04:12.700",
+      "start": "00:04:06.133",
+      "text": " kind of image morphing. We call it generative transformation. We use the sequence to transform"
+    },
+    {
+      "end": "00:04:17.900",
+      "start": "00:04:12.700",
+      "text": " the shape and color of one image to look like another image completely automatically."
+    },
+    {
+      "end": "00:04:25.600",
+      "start": "00:04:19.900",
+      "text": " Here the source on the left is transformed to have the same shape and color as the target image"
+    },
+    {
+      "end": "00:04:27.833",
+      "start": "00:04:25.600",
+      "text": " on the right and then transformed back."
+    },
+    {
+      "end": "00:04:39.833",
+      "start": "00:04:28.000",
+      "text": " We compare our morphing results to the optical flow-based interpolation method implemented in Adobe Premiere Pro."
+    },
+    {
+      "end": "00:04:44.933",
+      "start": "00:04:39.833",
+      "text": " We can see our method produces smoother transitions between two images with less solid effects."
+    },
+    {
+      "end": "00:04:49.567",
+      "start": "00:04:44.933",
+      "text": " Thank you for watching. For more information, please visit our project website."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Jun-Yan Zhu",
+  "youtube_channel_follower_count": 654,
+  "youtube_comment_count": 39,
+  "youtube_description": "Project: https://people.eecs.berkeley.edu/~junyanz/projects/gvm\nGithub: https://github.com/junyanz/iGAN. \n\n\"Generative Visual Manipulation on the Natural Image Manifold\", Jun-Yan Zhu, Philipp Krähenbühl, Eli Shechtman and Alexei A. Efros.  In European Conference on Computer Vision (ECCV). 2016.",
+  "youtube_like_count": 988,
+  "youtube_tags": [
+    "computer vision",
+    "image editing",
+    "deep learning",
+    "generative adversarial networks",
+    "computer graphics"
+  ],
+  "youtube_title": "Generative Visual Manipulation on the Natural Image Manifold",
+  "youtube_upload_date": "20160913",
+  "youtube_view_count": 119056
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:33.118",
+    "audio_caption": "The clip starts with a male speaker, in a friendly and conversational tone, discussing tiling textures in game art and their potential negative impact when poorly done. He then states, \"you have come to the right place,\" and introduces himself as Shane from Game Dev Academy, promising four pro techniques for breaking up the tiling in textures. A brief, upbeat electronic music snippet with a positive mood plays in the background as the speaker presents the content of the upcoming class."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:33.118",
+    "end": "00:01:33.082",
+    "audio_caption": "The clip begins with a male speaker describing how to identify and fix tiled textures by ensuring the texture is seamless. His tone is instructional. He contrasts a tiled texture example, noting its obvious seams. He then searches for a seamless texture and downloads it, planning to use that in an unreal engine. He creates a new material, adding color and normal textures. His speech emphasizes the ease of the process. The male speaker concludes by highlighting the effect of using seamless textures."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:33.082",
+    "end": "00:02:02.372",
+    "audio_caption": "The clip features a single male speaker with an instructional tone who claims the modified tile already looks better than the original. He plans to add variation to break up the tiling, and introduces the steps he'll take, like using a \"texture coordinate node\" and multiplying it by a \"scalar parameter\". He then adjusts the parameters to optimize the result."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:02.372",
+    "end": "00:03:00.101",
+    "audio_caption": "The clip starts with a male speaker describing how he's adding the ability to add a tint to a color using a vector parameter, which he's calling \"microtint\". He states that he'll multiply this parameter by the texture for the base color and that he'll set the default color to white, so it won't change the color unless he changes the value. The speaker continues to describe that he'll put all of this into a comment, then copy and paste everything. He states that he'll change the name in the comment to \"micro color variation\", then he'll replace the scalar parameter and call the new one \"micro variation tiling\". He mentions that he should also have changed the default value of this parameter to 0.5, but he forgot to do this when he was recording the video. Now he says that he needs to change the name of the vector parameter to \"micro variation tint\", and then he'll take the green channel of the grass texture to multiply this by. He then states that he can change the value of the micro variation tint to a pale yellow color."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:03:00.101",
+    "end": "00:03:42.378",
+    "audio_caption": "The audio begins with a male speaker explaining how to create a microcolor and microcolor variation in unreal engine, stating that they need a pleasing way to blend the two. The speaker then discusses creating a new texture sample and texture coordinate node. The speaker instructs on how to multiply this by a scalar, which they will name, adding that the default value for this will be set. The speaker begins discussing blend and adds a linear interpolate node and the plugging in of the red channel."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:42.378",
+    "end": "00:04:08.313",
+    "audio_caption": "The audio clip features a male speaker, who begins by explaining a process of setting and manipulating microcolor and variation. He suggests plugging the result into a base color. His tone is instructional and informative. He describes saving the result, saying the tiling is \"broken up by the difference between the two variations\". He mentions using a material instance to change color, \"to keep the transition from being too jarring.\""
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:04:08.313",
+    "end": "00:05:48.015",
+    "audio_caption": "The audio clip features a single male speaker in a thoughtful and instructive tone. He comments on visual improvements, stating \"this looks better again,\" discussing how to add noise to the material in the form of \"darker patches of the grass.\" He explains creating texture samples and adjusting brightness using red channels, scalar parameters, and alerps. The speaker notes how he can compare the new result to his previous work. Throughout the speech, there is soft, non-descript music playing in the background."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:05:48.015",
+    "end": "00:06:05.691",
+    "audio_caption": "The audio begins with a male speaker explaining how, at the current stage, it's hard to tell that a material is made up of the same tiling texture. He continues, mentioning that even with added variation, textures can still look tiled from a distance. He then states he has created a long strip of landscape to illustrate this issue, speaking in a calm, explanatory tone."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:06:05.691",
+    "end": "00:08:11.633",
+    "audio_caption": "The audio begins with a male speaker explaining a solution to a problem, \"tiling of the material... when it's further away from the camera\". The speaker continues, describing steps involving material manipulation, copying, pasting, and renaming parameters. The tone is instructional and technical. The speaker proceeds to discuss scaling, alpha tiling, and tinting. The speaker mentions alert creation and connection, and the need to show near textures up close while blending the far textures smoothly. To achieve that, he talks about creating a pixel depth node, subtracting, and creating a divide. The speaker then mentions creating a clamp and sticking the material into a comment to show what it does. The audio fades out."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:08:11.633",
+    "end": "00:09:13.931",
+    "audio_caption": "The audio clip features one male speaker discussing color gradients and textures relative to a camera, explaining how black will represent near textures, and white, far textures. He describes setting up a material by putting everything back as it was, creating a new lerp, plugging results into different points, and saving the material. He notes that he is matching up the colors to get a better comparison and then using the material instance to adjust the far distance and fade amount parameters to achieve a desired result."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:09:13.931",
+    "end": "00:09:45.445",
+    "audio_caption": "A male speaker concludes a lesson, hoping it was useful and encouraging viewers to like the video and support his work on Patreon. He mentions considering creating a devlog for a PS1-style horror game and asks for feedback. He expresses gratitude and signs off."
+  }
+]

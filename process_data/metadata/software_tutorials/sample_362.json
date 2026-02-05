@@ -1,0 +1,709 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male character with gray hair and a beard, wearing a white lab coat and holding a paintbrush and palette. He represents a traditional view updating the DOM directly.",
+        "name": "View"
+      },
+      {
+        "characterId": "2",
+        "description": "A green robot with a screen for a face, two arms with a paintbrush in each hand, and tank treads for mobility. Represents the React library and its virtual DOM approach.",
+        "name": "React"
+      }
+    ],
+    "description": "A detailed analysis of a video demonstrating direct DOM manipulation versus using React and its virtual DOM.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Blue.",
+        "question": "What color was the circle in the initial view?"
+      },
+      {
+        "answer": "React only updated the color of the circle, changing it from blue to red.",
+        "question": "What part of the Real DOM did React update after View gave it the second sketch?"
+      },
+      {
+        "answer": "View collapsed because he had to keep track of too many DOM nodes and update rules, becoming overwhelmed by the complexity.",
+        "question": "Why did View collapse in Scene 1?"
+      },
+      {
+        "answer": "The music starts cheerful, but becomes faster and more frantic as View receives more updates, mirroring his increasing stress. It stops abruptly when View gives up, emphasizing his despair.",
+        "question": "How does the music change to reflect View's mood in Scene 1?"
+      },
+      {
+        "answer": "The video highlights the inefficiency of direct DOM manipulation and presents React and its virtual DOM as a more efficient solution for handling dynamic updates in complex UIs.",
+        "question": "What is the overall message of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "View paints the DOM.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "description": "View receives data from Model and paints the initial view.",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "View receives updated username and updates the DOM directly.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          },
+          {
+            "description": "View receives updated points and updates the DOM.",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "description": "View receives updated color and updates the DOM.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.000",
+              "start_timestamp": "00:01:05.000"
+            }
+          },
+          {
+            "description": "View receives more update rules and struggles to keep up.",
+            "timestamp": {
+              "end_timestamp": "00:01:36.000",
+              "start_timestamp": "00:01:19.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "View"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "View"
+            ],
+            "description": "View interacts with an unseen Model, receiving data and updates."
+          }
+        ],
+        "contextualRelevance": "The increasing number of update rules and DOM nodes View needs to track highlight the inefficiency of his approach. View's collapse emphasizes the challenges of handling dynamic updates in a complex UI.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Initially **Happy**, transitioning to **Anxious** and finally **Sad**.",
+          "keyMoments": [
+            {
+              "changeDescription": "**Happy** to **Anxious** as the pace of updates increases.",
+              "timestamp": null
+            },
+            {
+              "changeDescription": "**Anxious** to **Sad** as View gives up.",
+              "timestamp": null
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of View and his task of painting the DOM.",
+            "timestamp": "00:00:07.000"
+          },
+          {
+            "description": "Establishment of the Model providing data to View.",
+            "timestamp": "00:00:14.000"
+          },
+          {
+            "description": "Introduction of updates and View's need to manage them.",
+            "timestamp": "00:00:32.000"
+          },
+          {
+            "description": "The frequency and complexity of updates overwhelm View.",
+            "timestamp": "00:01:19.000"
+          },
+          {
+            "description": "View collapses, symbolizing the limitations of direct DOM manipulation.",
+            "timestamp": "00:01:36.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Easel, paintbrush, palette.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "User Model (paper with data)",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "name": "Initial View (box with username, points, and a blue circle)",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "name": "Updated username (paper with data)",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Complexity of DOM manipulation. The need for efficient update mechanisms.",
+        "timestamps": {
+          "end_timestamp": "00:01:41.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transitions between data updates.",
+            "timestamps": {
+              "end_timestamp": "00:01:36.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "description": "Emphasis on View's increasing frustration through facial expressions and increasingly frantic painting.",
+            "timestamps": {
+              "end_timestamp": "00:01:36.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "View and React work together to paint the DOM.",
+            "timestamp": {
+              "end_timestamp": "00:01:53.000",
+              "start_timestamp": "00:01:49.000"
+            }
+          },
+          {
+            "description": "Model provides data, View sketches the Virtual DOM, React paints the Real DOM.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          },
+          {
+            "description": "Model provides updated data, View sketches, React analyzes and updates only the changed part of the Real DOM.",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          },
+          {
+            "description": "View and React continue their collaboration.",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:40.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "View",
+          "React"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "View",
+              "React"
+            ],
+            "description": "View and React work collaboratively, with View sketching the Virtual DOM and React managing the Real DOM."
+          }
+        ],
+        "contextualRelevance": "React's ability to remember the previous DOM state and quickly identify differences highlights its efficiency. View's focus on sketching without worrying about DOM nodes emphasizes the simplification React brings.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "**Happy**",
+          "keyMoments": [
+            {
+              "changeDescription": "**Sad** to **Happy** as View meets React and the music returns.",
+              "timestamp": null
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "View meets React, signifying the introduction of a new approach.",
+            "timestamp": "00:01:41.033"
+          },
+          {
+            "description": "They work together, establishing the Virtual DOM concept.",
+            "timestamp": "00:01:49.000"
+          },
+          {
+            "description": "React efficiently updates only the changed part of the Real DOM, highlighting the benefits of the virtual DOM.",
+            "timestamp": "00:02:28.000"
+          },
+          {
+            "description": "View and React continue their collaboration, symbolizing a successful partnership.",
+            "timestamp": "00:03:40.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Easel, paintbrush, palette.",
+            "timestamp": {
+              "end_timestamp": "00:01:53.000",
+              "start_timestamp": "00:01:41.033"
+            }
+          },
+          {
+            "name": "User Model, Virtual DOM (paper held by View), Real DOM (easel painted by React).",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Efficiency of the virtual DOM approach. The division of labor between rendering (View) and updating (React).",
+        "timestamps": {
+          "end_timestamp": "00:03:50.100",
+          "start_timestamp": "00:01:41.033"
+        },
+        "title": "Scene 2",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transitions between sketching and painting phases.",
+            "timestamps": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          },
+          {
+            "description": "Focus on the collaboration between View and React.",
+            "timestamps": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The introduction of React and the collaborative update approach.",
+        "timestamp": "00:02:28.000"
+      },
+      "description": "A comparative narrative of direct DOM manipulation versus using React and its virtual DOM, highlighting the inefficiencies and efficiencies of each approach.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Lispcast React and the Virtual DOM Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial painting sequence in Scene 1 could be shortened to move more quickly to the introduction of updates.",
+        "timestamps": {
+          "end_timestamp": "00:01:41.033",
+          "start_timestamp": "00:01:41.033"
+        }
+      },
+      {
+        "description": "The repeated updates in Scene 1 could be condensed to avoid redundancy and maintain a faster pace.",
+        "timestamps": {
+          "end_timestamp": "00:01:41.033",
+          "start_timestamp": "00:01:41.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 230,
+  "original_json_filename": "BYbgopx44vo.json",
+  "original_video_filename": "BYbgopx44vo.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "this is the story of react and the virtual Dom once upon a time there was a view he was very happy painting the dom sometimes the model would give some nice data to paint he knew really well how to paint a UI given all the data a user named the points and a colored shape piece of cake and fun too but then the model sent the view an updated username he had to know how to change his painting to show the new username to do that he had to keep track of a username div he dutifully updated the Dom directly then the model sent to view another update this time it was the points the view added another update rule and started tracking the points div again he updated the Dom in place next the model sent the view a new color if you remembered yet another update rule and kept track of another Dom node then he changed the color right there on the Dom the view thought that that might be the end of the update rules but they just kept adding up he had to keep track of so much and sometimes the order of the updates events mattered it was all too much after a while he gave up he could not continue but then the view met a friend the friend was called react they worked together to paint the dom the model would hand the view a complete piece of data the view knew how to render this username points and colored shape he would draw a quick but accurate sketch then he would bring it to react who would scan it react had very accurate and fast memory banks it could remember exactly what was already painted in the real dom new painting at first the dom was empty so it knew to paint the whole thing it could paint very fast because it was a robot then whenever the data may have changed the model gave the view all the data again the view like this because he was really good at sketching an entire picture but not very good at remembering all of those dom nodes when he was done he gave it to react who scanned it difference detected blue circle is now red it quickly made a short list of all of the differences that it painted each and every difference but no more when the model would bring him data the view didn't really know what was on the real dom and he didn't want to know he just sketched the picture as it was supposed to look then passed it to react react would quickly figure out that there were no differences no differences everything was already painted correctly the view was so happy with his new friend react his mind was clear and free he could sketch the way he liked to and not worry about all of those updates react liked figuring out how few changes needed to be made to the dom because it tickled its memory banks they were good friends and they lived happily ever after",
+  "text_to_speech_word_count": 529,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.867",
+      "start": "00:00:00.000",
+      "text": " This is the story of React and the virtual DOM."
+    },
+    {
+      "end": "00:00:10.600",
+      "start": "00:00:06.867",
+      "text": " Once upon a time, there was a view."
+    },
+    {
+      "end": "00:00:14.300",
+      "start": "00:00:10.600",
+      "text": " He was very happy painting the DOM."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:14.300",
+      "text": " Sometimes the model would give some nice data to paint."
+    },
+    {
+      "end": "00:00:22.867",
+      "start": "00:00:19.000",
+      "text": " He knew really well how to paint a UI given all the data."
+    },
+    {
+      "end": "00:00:28.200",
+      "start": "00:00:23.267",
+      "text": " A username, the points, and a colored shape."
+    },
+    {
+      "end": "00:00:31.533",
+      "start": "00:00:28.200",
+      "text": " Piece of cake and fun too."
+    },
+    {
+      "end": "00:00:35.333",
+      "start": "00:00:31.533",
+      "text": " But then the model sent the view an updated username."
+    },
+    {
+      "end": "00:00:40.700",
+      "start": "00:00:35.333",
+      "text": " He had to know how to change his painting to show the new username."
+    },
+    {
+      "end": "00:00:45.300",
+      "start": "00:00:40.700",
+      "text": " To do that, he had to keep track of a username div."
+    },
+    {
+      "end": "00:00:49.400",
+      "start": "00:00:45.300",
+      "text": " He dutifully updated the DOM directly."
+    },
+    {
+      "end": "00:00:52.333",
+      "start": "00:00:49.400",
+      "text": " Then the model sent the view another update."
+    },
+    {
+      "end": "00:00:55.533",
+      "start": "00:00:52.333",
+      "text": " This time, it was the points."
+    },
+    {
+      "end": "00:01:00.400",
+      "start": "00:00:55.533",
+      "text": " The view added another update rule and started tracking the points div."
+    },
+    {
+      "end": "00:01:04.933",
+      "start": "00:01:00.400",
+      "text": " Again, he updated the DOM in place."
+    },
+    {
+      "end": "00:01:09.000",
+      "start": "00:01:04.933",
+      "text": " Next, the model sent the view a new color."
+    },
+    {
+      "end": "00:01:11.267",
+      "start": "00:01:09.000",
+      "text": " The view remembered yet another update rule"
+    },
+    {
+      "end": "00:01:13.800",
+      "start": "00:01:11.267",
+      "text": " and kept track of another DOM node."
+    },
+    {
+      "end": "00:01:18.267",
+      "start": "00:01:13.800",
+      "text": " Then he changed the color right there on the DOM."
+    },
+    {
+      "end": "00:01:21.933",
+      "start": "00:01:18.267",
+      "text": " The view thought that that might be the end of the update rules."
+    },
+    {
+      "end": "00:01:24.467",
+      "start": "00:01:22.067",
+      "text": " But they just kept adding up."
+    },
+    {
+      "end": "00:01:26.900",
+      "start": "00:01:24.467",
+      "text": " He had to keep track of so much."
+    },
+    {
+      "end": "00:01:30.900",
+      "start": "00:01:26.900",
+      "text": " And sometimes the order of the updates event mattered."
+    },
+    {
+      "end": "00:01:35.533",
+      "start": "00:01:34.100",
+      "text": " It was all too much."
+    },
+    {
+      "end": "00:01:37.233",
+      "start": "00:01:35.533",
+      "text": " After a while, he gave up."
+    },
+    {
+      "end": "00:01:38.833",
+      "start": "00:01:37.233",
+      "text": " He could not continue."
+    },
+    {
+      "end": "00:01:44.667",
+      "start": "00:01:42.100",
+      "text": " But then the view met a friend."
+    },
+    {
+      "end": "00:01:48.033",
+      "start": "00:01:45.667",
+      "text": " The friend was called React."
+    },
+    {
+      "end": "00:01:51.533",
+      "start": "00:01:49.033",
+      "text": " They worked together to paint the DOM."
+    },
+    {
+      "end": "00:01:57.867",
+      "start": "00:01:53.067",
+      "text": " The model would hand the view a complete piece of data."
+    },
+    {
+      "end": "00:01:59.467",
+      "start": "00:01:57.867",
+      "text": " The view knew how to render this."
+    },
+    {
+      "end": "00:02:03.200",
+      "start": "00:01:59.467",
+      "text": " Username, points, and colored shape."
+    },
+    {
+      "end": "00:02:05.933",
+      "start": "00:02:03.200",
+      "text": " He would draw a quick but accurate sketch."
+    },
+    {
+      "end": "00:02:08.033",
+      "start": "00:02:05.933",
+      "text": " Then he would bring it to React."
+    },
+    {
+      "end": "00:02:09.100",
+      "start": "00:02:08.033",
+      "text": " It would scan it."
+    },
+    {
+      "end": "00:02:13.200",
+      "start": "00:02:09.100",
+      "text": " React had very accurate and fast memory banks."
+    },
+    {
+      "end": "00:02:17.267",
+      "start": "00:02:13.200",
+      "text": " It could remember exactly what was already painted in the real DOM."
+    },
+    {
+      "end": "00:02:19.433",
+      "start": "00:02:17.400",
+      "text": " New painting."
+    },
+    {
+      "end": "00:02:21.700",
+      "start": "00:02:19.433",
+      "text": " At first the DOM was empty."
+    },
+    {
+      "end": "00:02:24.400",
+      "start": "00:02:21.700",
+      "text": " So it knew to paint the whole thing."
+    },
+    {
+      "end": "00:02:27.867",
+      "start": "00:02:24.400",
+      "text": " It could paint very fast because it was a robot."
+    },
+    {
+      "end": "00:02:30.933",
+      "start": "00:02:27.867",
+      "text": " Then whenever the data may have changed,"
+    },
+    {
+      "end": "00:02:34.800",
+      "start": "00:02:30.933",
+      "text": " the model gave the view all the data again."
+    },
+    {
+      "end": "00:02:36.867",
+      "start": "00:02:34.800",
+      "text": " The view liked this because he was really good"
+    },
+    {
+      "end": "00:02:39.067",
+      "start": "00:02:36.867",
+      "text": " at sketching an entire picture."
+    },
+    {
+      "end": "00:02:43.233",
+      "start": "00:02:39.067",
+      "text": " But not very good at remembering all of those DOM nodes."
+    },
+    {
+      "end": "00:02:48.233",
+      "start": "00:02:43.233",
+      "text": " When it was done, he gave it to React, who scanned it."
+    },
+    {
+      "end": "00:02:50.033",
+      "start": "00:02:48.233",
+      "text": " Difference detected."
+    },
+    {
+      "end": "00:02:52.267",
+      "start": "00:02:50.033",
+      "text": " Blue circle is now red."
+    },
+    {
+      "end": "00:02:56.900",
+      "start": "00:02:53.267",
+      "text": " It quickly made a short list of all of the differences."
+    },
+    {
+      "end": "00:03:00.267",
+      "start": "00:02:56.900",
+      "text": " Then it painted each and every difference, but no more."
+    },
+    {
+      "end": "00:03:03.800",
+      "start": "00:03:01.833",
+      "text": " When the model would bring him data,"
+    },
+    {
+      "end": "00:03:07.233",
+      "start": "00:03:03.800",
+      "text": " the view didn't really know what was on the real DOM."
+    },
+    {
+      "end": "00:03:08.867",
+      "start": "00:03:07.233",
+      "text": " And he didn't want to know."
+    },
+    {
+      "end": "00:03:12.867",
+      "start": "00:03:08.867",
+      "text": " He just sketched the picture as it was supposed to look."
+    },
+    {
+      "end": "00:03:15.333",
+      "start": "00:03:12.867",
+      "text": " Then passed it to React."
+    },
+    {
+      "end": "00:03:19.300",
+      "start": "00:03:15.333",
+      "text": " React would quickly figure out that there were no differences."
+    },
+    {
+      "end": "00:03:21.300",
+      "start": "00:03:19.300",
+      "text": " No differences."
+    },
+    {
+      "end": "00:03:23.933",
+      "start": "00:03:21.300",
+      "text": " Everything was already painted correctly."
+    },
+    {
+      "end": "00:03:28.533",
+      "start": "00:03:25.033",
+      "text": " The view was so happy with his new friend React."
+    },
+    {
+      "end": "00:03:31.467",
+      "start": "00:03:28.533",
+      "text": " His mind was clear and free."
+    },
+    {
+      "end": "00:03:33.733",
+      "start": "00:03:31.467",
+      "text": " He could sketch the way he liked to"
+    },
+    {
+      "end": "00:03:37.133",
+      "start": "00:03:33.733",
+      "text": " and not worry about all of those updates."
+    },
+    {
+      "end": "00:03:40.500",
+      "start": "00:03:37.133",
+      "text": " React liked figuring out how few changes"
+    },
+    {
+      "end": "00:03:42.433",
+      "start": "00:03:40.500",
+      "text": " needed to be made to the DOM."
+    },
+    {
+      "end": "00:03:45.300",
+      "start": "00:03:42.433",
+      "text": " Because it tickled its memory banks."
+    },
+    {
+      "end": "00:03:50.067",
+      "start": "00:03:45.300",
+      "text": " They were good friends and they lived happily ever after."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "PurelyFunctional tv",
+  "youtube_channel_follower_count": 2200,
+  "youtube_comment_count": 180,
+  "youtube_description": "A fairytale about an unhappy View who meets a robotic friend.\n\nhttp://www.lispcast.com/what-is-react for more information\n\n#Clojure #FunctionalProgramming #React",
+  "youtube_like_count": 5262,
+  "youtube_tags": [
+    "React",
+    "Document Object Model (API)",
+    "clojure",
+    "clojurescript",
+    "web",
+    "javascript",
+    "functional programming java",
+    "functional programming tutorial",
+    "functional programming languages",
+    "functional programming in javascript",
+    "functional programming course",
+    "functional programming clojure",
+    "functional programming explanation",
+    "theory of functional programming",
+    "functional programming",
+    "functional programming haskell",
+    "functional programming advantages",
+    "functional programming benefits"
+  ],
+  "youtube_title": "React and the Virtual DOM",
+  "youtube_upload_date": "20150914",
+  "youtube_view_count": 250530
+}

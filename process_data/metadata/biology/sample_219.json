@@ -1,0 +1,875 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "An unseen character providing the voice-over narration.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "An educational video explaining the process of DNA replication.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "This occurs because DNA strands are antiparallel, meaning they run in opposite directions. DNA polymerase III can only synthesize a new strand in the 5' to 3' direction, requiring it to move in opposite directions on the two template strands.",
+        "question": "In Scene 3, the diagram shows DNA polymerase III moving in opposite directions on the two strands. Why does this happen?"
+      },
+      {
+        "answer": "Primase helps DNA polymerase III locate where to start replication by placing down primers, which are short segments of DNA that act as starting points for DNA polymerase III to build a new strand.",
+        "question": "What is the function of primase, as explained in Scene 5?"
+      },
+      {
+        "answer": "The lagging strand forms because DNA polymerase III can only synthesize a new strand in the 5' to 3' direction. Since the two template strands run in opposite directions, one strand allows continuous synthesis (leading strand), while the other necessitates replication in short fragments (lagging strand) that are later joined together.",
+        "question": "In Scene 6, what causes the formation of a lagging strand during DNA replication?"
+      },
+      {
+        "answer": "DNA replication is essential for cell division, which is the foundation of growth and development. Every time a cell divides, it must replicate its DNA to ensure that each daughter cell receives a complete set of genetic instructions. Without DNA replication, cells would not be able to multiply, and growth would be impossible.",
+        "question": "Why is DNA replication crucial for the growth of a baby into an adult, as mentioned in Scene 1?"
+      },
+      {
+        "answer": "The video maintains a primarily informative mood, aiming to educate viewers about the process of DNA replication. However, it also evokes a sense of wonder and appreciation for the intricacy and elegance of this fundamental biological process.",
+        "question": "Overall, what is the mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the topic of DNA replication and poses questions to engage viewers.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.612",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.2,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sparks curiosity by framing DNA replication as a crucial process for growth and maintaining genetic information across generations.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious. The narrator asks questions, prompting viewers to think about the process of DNA replication.",
+          "keyMoments": [
+            {
+              "changeDescription": "The narrator poses questions about how a baby becomes an adult and the vast number of cell divisions involved.",
+              "timestamp": "00:00:00.000"
+            },
+            {
+              "changeDescription": "The narrator highlights the mystery of maintaining the same DNA despite continuous cell division.",
+              "timestamp": "00:00:04.004"
+            },
+            {
+              "changeDescription": "The narrator introduces DNA replication as the solution to this biological process.",
+              "timestamp": "00:00:09.009"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator sets the stage by asking how babies grow into adults and how cells maintain the same DNA despite countless divisions, leading to the introduction of DNA replication.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Growth, cell division, DNA inheritance",
+        "timestamps": {
+          "end_timestamp": "00:00:11.612",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the basic definition and importance of DNA replication.",
+            "timestamp": {
+              "end_timestamp": "00:00:38.005",
+              "start_timestamp": "00:00:16.016"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.6,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene emphasizes the precision and elegance of DNA replication, highlighting its reliance on the unique chemical properties of DNA.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative. The narrator provides a clear and concise explanation of DNA replication.",
+          "keyMoments": [
+            {
+              "changeDescription": "The title 'DNA Replication Basics' appears with an illustration of the DNA double helix.",
+              "timestamp": "00:00:13.013"
+            },
+            {
+              "changeDescription": "The narrator defines DNA replication as the process of copying an entire genome within a cell to produce two identical copies.",
+              "timestamp": "00:00:16.016"
+            },
+            {
+              "changeDescription": "The narrator explains that DNA replication must occur before cell division to ensure functional daughter cells.",
+              "timestamp": "00:00:25.993"
+            },
+            {
+              "changeDescription": "The narrator highlights that weak hydrogen bonds between DNA strands facilitate their separation for replication.",
+              "timestamp": "00:00:31.999"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene defines DNA replication, emphasizes its necessity before cell division, and highlights the role of weak hydrogen bonds in the process.",
+            "timestamp": "00:00:13.013"
+          }
+        ],
+        "props": [
+          {
+            "name": "DNA double helix illustration",
+            "timestamp": {
+              "end_timestamp": "00:00:38.005",
+              "start_timestamp": "00:00:13.013"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "DNA structure, cell division, hydrogen bonds",
+        "timestamps": {
+          "end_timestamp": "00:00:39.973",
+          "start_timestamp": "00:00:11.645"
+        },
+        "title": "DNA Replication Basics",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the semi-conservative nature of DNA replication.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.984",
+              "start_timestamp": "00:00:40.007"
+            }
+          },
+          {
+            "description": "Narrator describes the role of DNA polymerase III.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.993",
+              "start_timestamp": "00:00:52.986"
+            }
+          },
+          {
+            "description": "Narrator defines and explains the concept of antiparallel strands in DNA.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:01:00.994"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene reveals the intricate mechanism that ensures accurate DNA copying, emphasizing the role of complementary base pairing and the directional specificity of DNA polymerase III.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative. The narration focuses on explaining specific aspects of DNA replication.",
+          "keyMoments": [
+            {
+              "changeDescription": "The title 'Semi-Conservative Replication' appears with a diagram illustrating the process.",
+              "timestamp": "00:00:40.007"
+            },
+            {
+              "changeDescription": "The narrator explains that DNA replication is semi-conservative, meaning each new DNA molecule consists of one old strand and one newly synthesized strand.",
+              "timestamp": "00:00:40.007"
+            },
+            {
+              "changeDescription": "The narrator explains that DNA polymerase III utilizes the old strand as a template to synthesize a new strand.",
+              "timestamp": "00:00:52.986"
+            },
+            {
+              "changeDescription": "The narrator introduces the concept of antiparallel strands, explaining that they run parallel to each other but in opposite directions.",
+              "timestamp": "00:01:00.994"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene delves into the semi-conservative mechanism of replication, highlighting the involvement of DNA polymerase III and the significance of antiparallel strands.",
+            "timestamp": "00:00:40.007"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram of semi-conservative replication",
+            "timestamp": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:00:40.007"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Semi-conservative replication, DNA polymerase III, antiparallel strands",
+        "timestamps": {
+          "end_timestamp": "00:01:09.670",
+          "start_timestamp": "00:00:40.007"
+        },
+        "title": "Semi-Conservative Replication",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator provides a detailed explanation of the antiparallel nature of DNA strands, focusing on the carbon numbering in the sugar molecules.",
+            "timestamp": {
+              "end_timestamp": "00:01:53.013",
+              "start_timestamp": "00:01:11.004"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene underscores the significance of the antiparallel nature of DNA in dictating the directionality of replication, a fundamental aspect of DNA replication.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative. The narration dives deeper into the chemical basis of antiparallel strands.",
+          "keyMoments": [
+            {
+              "changeDescription": "The title 'How is DNA Antiparallel?' appears with a diagram of a DNA strand and a magnified view of the sugar molecule.",
+              "timestamp": "00:01:09.703"
+            },
+            {
+              "changeDescription": "The narrator explains that the antiparallel nature stems from the sugar molecules in the DNA backbone, which have five carbons, four in a ring and one attached. The carbons are numbered, and phosphates are attached to the third and fifth carbons.",
+              "timestamp": "00:01:11.004"
+            },
+            {
+              "changeDescription": "The narrator defines the 3' end (third carbon in the ring) and the 5' end (fifth carbon attached to the ring).",
+              "timestamp": "00:01:24.985"
+            },
+            {
+              "changeDescription": "The narrator demonstrates the antiparallel arrangement in the diagram, showing one strand running from 3' to 5' and the other from 5' to 3'.",
+              "timestamp": "00:01:33.994"
+            },
+            {
+              "changeDescription": "The narrator emphasizes the importance of this characteristic as replication only occurs in the 5' to 3' direction, which will be discussed further.",
+              "timestamp": "00:01:44.004"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene focuses on explaining the antiparallel arrangement of DNA strands based on the carbon numbering within the sugar molecules of the DNA backbone.",
+            "timestamp": "00:01:09.703"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram of DNA strand with a magnified view of the sugar molecule",
+            "timestamp": {
+              "end_timestamp": "00:01:53.013",
+              "start_timestamp": "00:01:09.703"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "DNA structure, antiparallel strands, carbon numbering, directionality of replication",
+        "timestamps": {
+          "end_timestamp": "00:01:53.213",
+          "start_timestamp": "00:01:09.703"
+        },
+        "title": "How is DNA Antiparallel?",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator describes the functions of three key enzymes involved in DNA replication: DNA helicase, DNA polymerase III, and primase.",
+            "timestamp": {
+              "end_timestamp": "00:02:21.008",
+              "start_timestamp": "00:01:55.015"
+            }
+          },
+          {
+            "description": "Narrator mentions that these are just a few of the many enzymes involved.",
+            "timestamp": {
+              "end_timestamp": "00:02:27.014",
+              "start_timestamp": "00:02:22.009"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene showcases the collaborative nature of biological processes, emphasizing the need for multiple enzymes with specialized roles working together for successful DNA replication.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative. The focus is on presenting the roles of key enzymes in a clear and concise manner.",
+          "keyMoments": [
+            {
+              "changeDescription": "The title 'DNA Replication Enzymes' appears along with a table listing enzymes and their functions, and a diagram illustrating DNA polymerase III action.",
+              "timestamp": "00:01:53.246"
+            },
+            {
+              "changeDescription": "The narrator describes the function of DNA helicase as unwinding the two DNA strands, exposing the nucleotide bases.",
+              "timestamp": "00:01:55.015"
+            },
+            {
+              "changeDescription": "The narrator explains that DNA polymerase III reads the strands and builds a new strand using the exposed bases as a template.",
+              "timestamp": "00:02:07.995"
+            },
+            {
+              "changeDescription": "The narrator describes the function of primase as assisting DNA polymerase III by placing down primers, which are short chains of DNA, to indicate the starting point for replication.",
+              "timestamp": "00:02:13.000"
+            },
+            {
+              "changeDescription": "The narrator mentions that there are many other enzymes involved in DNA replication, implying the complexity of the process.",
+              "timestamp": "00:02:22.009"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene introduces three crucial enzymes involved in DNA replication, explaining their specific functions in the process.",
+            "timestamp": "00:01:53.246"
+          }
+        ],
+        "props": [
+          {
+            "name": "Table listing enzymes and their functions",
+            "timestamp": {
+              "end_timestamp": "00:02:27.014",
+              "start_timestamp": "00:01:53.246"
+            }
+          },
+          {
+            "name": "Diagram illustrating DNA polymerase III action",
+            "timestamp": {
+              "end_timestamp": "00:02:27.014",
+              "start_timestamp": "00:01:53.246"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "DNA replication enzymes, functions of enzymes, complexity of biological processes",
+        "timestamps": {
+          "end_timestamp": "00:02:28.982",
+          "start_timestamp": "00:01:53.246"
+        },
+        "title": "DNA Replication Enzymes",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator summarizes the entire process of DNA replication, pointing out key features and highlighting leading and lagging strands.",
+            "timestamp": {
+              "end_timestamp": "00:03:15.996",
+              "start_timestamp": "00:02:29.016"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene demonstrates the coordinated and complex nature of DNA replication, highlighting how the antiparallel nature of DNA strands and the limitations of DNA polymerase III necessitate distinct mechanisms for leading and lagging strand replication.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative and Summarizing. The narration consolidates the information about DNA replication presented in previous scenes.",
+          "keyMoments": [
+            {
+              "changeDescription": "The title 'The Process' appears with a comprehensive diagram of DNA replication.",
+              "timestamp": "00:02:29.016"
+            },
+            {
+              "changeDescription": "The narrator introduces the diagram as summarizing the key points of DNA replication.",
+              "timestamp": "00:02:29.016"
+            },
+            {
+              "changeDescription": "The narrator points out DNA polymerase III in yellow, moving along the DNA strands and producing two identical strands.",
+              "timestamp": "00:02:33.987"
+            },
+            {
+              "changeDescription": "The narrator highlights the semi-conservative nature of replication, where DNA polymerase III uses the old strand as a template.",
+              "timestamp": "00:02:40.994"
+            },
+            {
+              "changeDescription": "The narrator points out helicase unwinding the DNA strands.",
+              "timestamp": "00:02:49.002"
+            },
+            {
+              "changeDescription": "The narrator emphasizes that both new strands are synthesized in the 5' to 3' direction. This leads to a leading strand with continuous replication and a lagging strand with fragmented replication, which is later stitched together.",
+              "timestamp": "00:02:52.005"
+            },
+            {
+              "changeDescription": "The narrator defines the leading and lagging strands based on their replication mechanisms.",
+              "timestamp": "00:03:06.987"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene provides a comprehensive overview of DNA replication, integrating the previously explained concepts into a visual representation of the entire process.",
+            "timestamp": "00:02:29.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Comprehensive diagram of DNA replication",
+            "timestamp": {
+              "end_timestamp": "00:03:15.996",
+              "start_timestamp": "00:02:29.016"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "DNA replication process, leading strand, lagging strand, directionality of replication",
+        "timestamps": {
+          "end_timestamp": "00:03:16.430",
+          "start_timestamp": "00:02:29.016"
+        },
+        "title": "The Process",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator provides a concise bullet-point summary of the key concepts covered about DNA replication.",
+            "timestamp": {
+              "end_timestamp": "00:03:42.989",
+              "start_timestamp": "00:03:17.998"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene reiterates the essential concepts of DNA replication, ensuring viewers understand the fundamental principles and mechanisms of this crucial biological process.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informative and Conclusive. The narration provides a clear and brief recap of the essential information.",
+          "keyMoments": [
+            {
+              "changeDescription": "The title 'What has been covered?' appears with a list of key concepts and a DNA strand diagram.",
+              "timestamp": "00:03:16.463"
+            },
+            {
+              "changeDescription": "The narrator summarizes that DNA replication is semi-conservative and that DNA strands are antiparallel.",
+              "timestamp": "00:03:17.998"
+            },
+            {
+              "changeDescription": "The narrator lists the enzymes involved in replication: DNA helicase, DNA polymerase III, and primase.",
+              "timestamp": "00:03:25.005"
+            },
+            {
+              "changeDescription": "The narrator concludes by summarizing the concept of leading and lagging strands, arising from the directional limitations of DNA polymerase III.",
+              "timestamp": "00:03:33.013"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene reinforces the key learnings about DNA replication covered in the video, serving as a concluding summary.",
+            "timestamp": "00:03:16.463"
+          }
+        ],
+        "props": [
+          {
+            "name": "List of key concepts covered",
+            "timestamp": {
+              "end_timestamp": "00:03:42.989",
+              "start_timestamp": "00:03:16.463"
+            }
+          },
+          {
+            "name": "Diagram of DNA strand",
+            "timestamp": {
+              "end_timestamp": "00:03:42.989",
+              "start_timestamp": "00:03:16.463"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "DNA replication summary, semi-conservative replication, antiparallel strands, enzymes, leading and lagging strands",
+        "timestamps": {
+          "end_timestamp": "00:03:47.828",
+          "start_timestamp": "00:03:16.463"
+        },
+        "title": "Summary",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The video does not have a traditional climax; it systematically presents DNA replication as a continuous process to be understood in its entirety.",
+        "timestamp": null
+      },
+      "description": "This video focuses on a single storyline: explaining the process of DNA replication. There isn't a traditional narrative structure with a climax. Instead, it presents a series of interconnected facts and concepts about DNA replication. All the scenes contribute to this single storyline, progressively building upon the information presented in the previous scene.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "DNA Replication",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten by condensing the detailed chemical explanations.",
+        "timestamps": {
+          "end_timestamp": "00:03:16.463",
+          "start_timestamp": "00:03:16.463"
+        }
+      },
+      {
+        "description": "Replace some of the static visuals with animations or more dynamic representations.",
+        "timestamps": {
+          "end_timestamp": "00:03:16.463",
+          "start_timestamp": "00:03:16.463"
+        }
+      },
+      {
+        "description": "Integrate Scene 7 (Summary) into Scene 6 (The Process) by summarizing the key points while still referencing the comprehensive diagram, eliminating the need for a separate summary slide.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 228,
+  "original_json_filename": "4nekp9Hc-r8.json",
+  "original_video_filename": "4nekp9Hc-r8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "have you ever thought about how a baby becomes an adult how do so many cell divisions occur yet all cells still contain the same DNA well the body ensures this through DNA replication so what is this process when does it occur and why is it important DNA replication is the process of copying an entire genome in a cell to produce two exact copies the entire genome's DNA must be replicated before cell division in order to produce functional daughter cells this can be done relatively easily due to weak hydrogen bonds between strands that allow them to be separated so let's explore the way that DNA is replicated it is replicated semi-conservatively meaning that the resulting two strands of DNA consist of one old Strand and one newly synthesized strand we can observe this in this simplified diagram of replication where an enzyme known as DNA polymerase 3 uses old strands as a template to synthesize new strands also note that the strands are anti-parallel meaning that they are running parallel to each other but are going in opposite directions so how is DNA anti-parallel well it has to do with the sugars in the backbone of DNA which contain five carbons four of which are found in a ring these carbons are assigned numbers one to five and phosphates are attached to the third carbon and the fifth carbon the third carbon or the three prime end is one of the carbons found in the ring the fifth carbon however or the five Prime end is the carbon attached to the ring we can see this in the diagram on the right in DNA one strand runs from the three prime to five Prime end and another runs from the five Prime to three prime end this characteristic is important to note because replication can only occur in the five Prime to three prime Direction and we will investigate the impacts of this later so let's have a look at some of the enzymes involved in the process of DNA replication we have DNA helicase which helps unwind two strands of DNA which in turn exposes the nucleotide bases DNA polymerase 3 then comes in and reads the strands and synthesizes a new one primase actually helps the DNA polymerase locate where to start by placing down primers which are short chains of DNA now remember that these are just a couple of many enzymes involved in this process now this slide puts together all of the things that we have learned today about replication we can see the DNA polymerase 3 in yellow moving along the strands of DNA producing two identical DNA strands note the semi-conservative nature of this replication where the DNA polymerase is replicating using the old strand as a template we can also see how the case unwinding the strands the most important thing to notice is that both new strands are synthesized in a five Prime to three prime Direction meaning that the top strand here can be replicated continuously whereas the bottom strain has to be replicated in short fragments that are stitched together later this is what makes a leading strand with continuous replication and a lagging strand with fragmented replication so in summary today we learned about how DNA replication is semi-conservative and we learned about how DNA strands are anti-parallel we also talked about some of the enzymes involved in this process such as DNA helicase DNA polymerase 3 and primase lastly we discuss leading and lagging strands and how these occur because of DNA polymerase's limitation in synthesizing a new strand only in a five Prime to three prime Direction foreign",
+  "text_to_speech_word_count": 616,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.438",
+      "start": "00:00:00.000",
+      "text": " Have you ever thought about how a baby becomes an adult?"
+    },
+    {
+      "end": "00:00:09.409",
+      "start": "00:00:04.438",
+      "text": " How do so many cell divisions occur, yet all cells still contain the same DNA?"
+    },
+    {
+      "end": "00:00:13.647",
+      "start": "00:00:09.409",
+      "text": " Well, the body ensures this through DNA replication."
+    },
+    {
+      "end": "00:00:17.851",
+      "start": "00:00:13.647",
+      "text": " So, what is this process?"
+    },
+    {
+      "end": "00:00:20.554",
+      "start": "00:00:17.851",
+      "text": " When does it occur and why is it important?"
+    },
+    {
+      "end": "00:00:25.158",
+      "start": "00:00:20.554",
+      "text": " DNA replication is the process of copying an entire genome in a cell to produce two exact"
+    },
+    {
+      "end": "00:00:26.159",
+      "start": "00:00:25.158",
+      "text": " copies."
+    },
+    {
+      "end": "00:00:31.198",
+      "start": "00:00:26.393",
+      "text": " The entire genome's DNA must be replicated before cell division in order to produce functional"
+    },
+    {
+      "end": "00:00:32.499",
+      "start": "00:00:31.198",
+      "text": " daughter cells."
+    },
+    {
+      "end": "00:00:36.770",
+      "start": "00:00:32.499",
+      "text": " This can be done relatively easily due to weak hydrogen bonds between strands that allow"
+    },
+    {
+      "end": "00:00:40.774",
+      "start": "00:00:36.770",
+      "text": " them to be separated."
+    },
+    {
+      "end": "00:00:43.911",
+      "start": "00:00:40.774",
+      "text": " So let's explore the way that DNA is replicated."
+    },
+    {
+      "end": "00:00:48.215",
+      "start": "00:00:43.911",
+      "text": " It is replicated semi-concerbedively, meaning that the resulting two strands of DNA consist"
+    },
+    {
+      "end": "00:00:52.219",
+      "start": "00:00:48.215",
+      "text": " of one old strand and one newly synthesized strand."
+    },
+    {
+      "end": "00:00:55.956",
+      "start": "00:00:52.219",
+      "text": " We can observe this in this simplified diagram of replication, where an enzyme,"
+    },
+    {
+      "end": "00:01:01.128",
+      "start": "00:00:55.956",
+      "text": " known as DNA polymerase-3, uses old strands as a template to synthesize new strands."
+    },
+    {
+      "end": "00:01:05.432",
+      "start": "00:01:01.128",
+      "text": " Also, note that the strands are anti-parallel, meaning that they are running parallel to"
+    },
+    {
+      "end": "00:01:11.538",
+      "start": "00:01:05.432",
+      "text": " each other but are going in opposite directions."
+    },
+    {
+      "end": "00:01:13.974",
+      "start": "00:01:11.538",
+      "text": " So how is DNA anti-parallel?"
+    },
+    {
+      "end": "00:01:18.779",
+      "start": "00:01:13.974",
+      "text": " Well, it has to do with the sugars in the backbone of DNA, which contain five carbons, four"
+    },
+    {
+      "end": "00:01:20.647",
+      "start": "00:01:18.779",
+      "text": " of which are found in a ring."
+    },
+    {
+      "end": "00:01:23.984",
+      "start": "00:01:20.647",
+      "text": " These carbons are assigned numbers one to five, and phosphates are attached to the third"
+    },
+    {
+      "end": "00:01:25.919",
+      "start": "00:01:23.984",
+      "text": " carbon and the fifth carbon."
+    },
+    {
+      "end": "00:01:30.357",
+      "start": "00:01:25.919",
+      "text": " The third carbon or the three prime end is one of the carbons found in the ring."
+    },
+    {
+      "end": "00:01:34.594",
+      "start": "00:01:30.357",
+      "text": " The fifth carbon, however, or the five prime end is the carbon attached to the ring."
+    },
+    {
+      "end": "00:01:37.731",
+      "start": "00:01:34.594",
+      "text": " We can see this in the diagram of the rack."
+    },
+    {
+      "end": "00:01:42.169",
+      "start": "00:01:37.731",
+      "text": " In DNA, one strand runs from the three prime to five prime end, and another runs from"
+    },
+    {
+      "end": "00:01:44.438",
+      "start": "00:01:42.169",
+      "text": " the five prime to three prime end."
+    },
+    {
+      "end": "00:01:48.075",
+      "start": "00:01:44.438",
+      "text": " This characteristic is important to note because replication can only occur in the five"
+    },
+    {
+      "end": "00:01:51.945",
+      "start": "00:01:48.075",
+      "text": " prime to three prime direction, and we will investigate the impacts of this later."
+    },
+    {
+      "end": "00:02:00.821",
+      "start": "00:01:54.982",
+      "text": " So, let's have a look at some of the enzymes involved in the process of DNA replication."
+    },
+    {
+      "end": "00:02:06.627",
+      "start": "00:02:00.821",
+      "text": " We have DNA helicase, which helps unwind two strands of DNA, which in turn exposes the"
+    },
+    {
+      "end": "00:02:08.829",
+      "start": "00:02:06.627",
+      "text": " nucleotide bases."
+    },
+    {
+      "end": "00:02:14.434",
+      "start": "00:02:08.829",
+      "text": " DNA polymerase three then comes in and reads the strands and synthesizes a new one."
+    },
+    {
+      "end": "00:02:19.740",
+      "start": "00:02:14.434",
+      "text": " Primase actually helps the DNA polymerase locate where to start by placing down primers,"
+    },
+    {
+      "end": "00:02:22.409",
+      "start": "00:02:19.740",
+      "text": " which are shortchains of DNA."
+    },
+    {
+      "end": "00:02:30.250",
+      "start": "00:02:22.409",
+      "text": " Now remember that these are just a couple of many enzymes involved in this process."
+    },
+    {
+      "end": "00:02:34.488",
+      "start": "00:02:30.250",
+      "text": " Now this slide puts together all of the things that we have learnt today about replication."
+    },
+    {
+      "end": "00:02:39.292",
+      "start": "00:02:34.488",
+      "text": " We can see the DNA polymerase three in yellow moving along the strands of DNA producing"
+    },
+    {
+      "end": "00:02:41.995",
+      "start": "00:02:39.292",
+      "text": " two identical DNA strands."
+    },
+    {
+      "end": "00:02:46.867",
+      "start": "00:02:41.995",
+      "text": " Note the semi-conservative nature of this replication, where the DNA polymerase is replicating using"
+    },
+    {
+      "end": "00:02:49.669",
+      "start": "00:02:46.867",
+      "text": " the old strand as a template."
+    },
+    {
+      "end": "00:02:53.473",
+      "start": "00:02:49.669",
+      "text": " We can also see helicase unwinding the strands."
+    },
+    {
+      "end": "00:02:57.310",
+      "start": "00:02:53.473",
+      "text": " The most important thing to notice is that both new strands are synthesized in a five"
+    },
+    {
+      "end": "00:03:02.649",
+      "start": "00:02:57.310",
+      "text": " prime to three prime direction, meaning that the top strand here can be replicated continuously,"
+    },
+    {
+      "end": "00:03:06.520",
+      "start": "00:03:02.649",
+      "text": " whereas the bottom strand has to be replicated in short fragments that are stitched together"
+    },
+    {
+      "end": "00:03:08.055",
+      "start": "00:03:06.520",
+      "text": " later."
+    },
+    {
+      "end": "00:03:12.692",
+      "start": "00:03:08.055",
+      "text": " This is what makes a leading strand with continuous replication and a lagging strand with"
+    },
+    {
+      "end": "00:03:16.229",
+      "start": "00:03:12.692",
+      "text": " fragmented replication."
+    },
+    {
+      "end": "00:03:22.703",
+      "start": "00:03:17.230",
+      "text": " So, in summary today we learnt about how DNA replication is semi-conservative and we"
+    },
+    {
+      "end": "00:03:25.439",
+      "start": "00:03:22.703",
+      "text": " learnt about how DNA strands are anti-parallel."
+    },
+    {
+      "end": "00:03:30.277",
+      "start": "00:03:25.439",
+      "text": " We also talked about some of the enzymes involved in this process, such as DNA helicase,"
+    },
+    {
+      "end": "00:03:33.080",
+      "start": "00:03:30.277",
+      "text": " DNA polymerase three and primase."
+    },
+    {
+      "end": "00:03:38.452",
+      "start": "00:03:33.080",
+      "text": " Lastly, we discussed leading and lagging strands and how these occur because of DNA polymerase's"
+    },
+    {
+      "end": "00:03:42.889",
+      "start": "00:03:38.452",
+      "text": " limitation in synthesizing a new strand only in a five prime to three prime direction."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "meriSTEM Education",
+  "youtube_channel_follower_count": 1210,
+  "youtube_comment_count": 0,
+  "youtube_description": "This video is part of the Year 11 and 12 MeriSTEM Biology Course - DNA, Genes and Inheritance https://bit.ly/meriSTEMgenetics. \n\nIn this video you will learn about the process of DNA replication and how the antiparrallel DNA structure allows for replication. You will also learn about the different enzymes involved in DNA replication, such as DNA polymerase, helicase and primase and how the DNA can only be synthesised in a 5' to 3' direction. \n\nFor practice questions after each video, register an account to access our free senior science courses at https://courses.meristem.anu.edu.au. Teachers can access free lesson plans and in-class activities by joining our teacher community via https://meristem.weblogs.anu.edu.au/index.php/new-to-meristem/teacher-registration.\n\nThis video is part of meriSTEM Australian senior science educational resources (CC BY-NC-SA 4.0). Email the team (contact.meristem@anu.edu.au) for further information, course access and curriculum links.",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "meriSTEM",
+    "science",
+    "biology",
+    "Year 11",
+    "Year 12",
+    "high school",
+    "senior",
+    "secondary",
+    "semi conservative",
+    "3 prime",
+    "5 prime",
+    "Helicase",
+    "polymerase",
+    "primase",
+    "leading strand",
+    "lagging strand",
+    "anti parallel",
+    "dna replication",
+    "dNA",
+    "dna polymerase",
+    "double helix",
+    "5' to 3' DNA"
+  ],
+  "youtube_title": "DNA replication | DNA, genes and inheritance | meriSTEM",
+  "youtube_upload_date": "20230507",
+  "youtube_view_count": 80
+}

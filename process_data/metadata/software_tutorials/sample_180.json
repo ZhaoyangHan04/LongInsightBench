@@ -1,0 +1,488 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male, curly blond hair, wearing a dark V-neck shirt. He points and gestures as he explains the visualization tool.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "An informative video analysis exploring the functionality of a deep visualization toolbox used for understanding neural networks.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The network recognizes school buses, zebras, dog breeds like Maltese and Yorkshire Terriers.",
+        "question": "What are some of the examples of objects the network can recognize?"
+      },
+      {
+        "answer": "It responds to light to dark edges.",
+        "question": "In the first layer shown, what kind of edges does the neuron in the center respond to?"
+      },
+      {
+        "answer": "He uses artificially created optimized images, images from the training set that activate the neuron, and pixels highlighted through the deconvolution technique.",
+        "question": "What three different types of information does the narrator use to analyze the neuron that responds to faces?"
+      },
+      {
+        "answer": "The neuron was actually detecting wrinkles in fabric.",
+        "question": "What did the neuron that was initially thought to detect clothing actually detect?"
+      },
+      {
+        "answer": "This signifies the emergent property of neural networks where they can learn complex concepts independently as a consequence of learning to perform the overall task. It hints at their potential to develop sophisticated understandings of the world without direct human guidance.",
+        "question": "What is the significance of the network learning features like text and faces without explicit labeling?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction of neural networks and their ability to see and understand the world. Examples shown are a school bus, zebra, Maltese dog, and Yorkshire terrier.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.994",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Explanation of the interactive deep visualization toolbox and its purpose to explore neural network processes. Shows input images, activations in a layer, and a specific neuron responding to light-dark edges.",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:00:26.994"
+            }
+          },
+          {
+            "description": "Demonstration of synthetic image generation to understand what neurons are looking for. Scrolling through different layers (convolution, pooling, normalization).",
+            "timestamp": {
+              "end_timestamp": "00:01:23.984",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "description": "Analysis of a neuron responding to faces in the fifth convolutional layer. Shows optimized images, training images, and deconvolution to identify specific features that trigger the neuron.",
+            "timestamp": {
+              "end_timestamp": "00:02:19.006",
+              "start_timestamp": "00:01:23.984"
+            }
+          },
+          {
+            "description": "Analysis of a neuron responding to wrinkles using backpropagation and deconvolution. Shows input images and activations.",
+            "timestamp": {
+              "end_timestamp": "00:02:54.007",
+              "start_timestamp": "00:02:19.006"
+            }
+          },
+          {
+            "description": "Analysis of a neuron responding to printed text. Shows input images and activations. Discusses the emergent property of the network learning text detection without explicit labeling.",
+            "timestamp": {
+              "end_timestamp": "00:03:33.013",
+              "start_timestamp": "00:02:54.007"
+            }
+          },
+          {
+            "description": "Conclusion, summarizing the toolbox's features and encouraging exploration. Provides URL and hashtag for sharing findings.",
+            "timestamp": {
+              "end_timestamp": "00:03:48.995",
+              "start_timestamp": "00:03:33.013"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video subtly hints at the power of neural networks to learn complex concepts independently, raising questions about the future of AI and its potential to surpass human understanding.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, informative. The narrator's calm and clear explanation combined with the visual exploration of the tool creates a sense of curiosity and learning.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Establishes the context of neural networks and their ability to understand visual information.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Introduces and demonstrates the deep visualization toolbox, highlighting its key features and functionality.",
+            "timestamp": "00:00:26.994"
+          },
+          {
+            "description": "Concludes the demonstration, summarizing the tool's benefits and encouraging further exploration.",
+            "timestamp": "00:03:33.013"
+          }
+        ],
+        "props": [
+          {
+            "name": "School bus image",
+            "timestamp": {
+              "end_timestamp": "00:00:05.005",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "name": "Zebra image",
+            "timestamp": {
+              "end_timestamp": "00:00:09.009",
+              "start_timestamp": "00:00:08.008"
+            }
+          },
+          {
+            "name": "Maltese dog image",
+            "timestamp": {
+              "end_timestamp": "00:00:11.011",
+              "start_timestamp": "00:00:10.010"
+            }
+          },
+          {
+            "name": "Yorkshire terrier image",
+            "timestamp": {
+              "end_timestamp": "00:00:13.013",
+              "start_timestamp": "00:00:12.012"
+            }
+          },
+          {
+            "name": "Computer screen showing the visualization tool",
+            "timestamp": {
+              "end_timestamp": "00:03:33.013",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:00:50.984",
+              "start_timestamp": "00:00:50.017"
+            }
+          },
+          {
+            "name": "Book with black and white cover",
+            "timestamp": {
+              "end_timestamp": "00:00:52.986",
+              "start_timestamp": "00:00:51.985"
+            }
+          },
+          {
+            "name": "Pictures of children",
+            "timestamp": {
+              "end_timestamp": "00:01:38.999",
+              "start_timestamp": "00:01:37.998"
+            }
+          },
+          {
+            "name": "Cat image",
+            "timestamp": {
+              "end_timestamp": "00:02:17.004",
+              "start_timestamp": "00:02:16.003"
+            }
+          },
+          {
+            "name": "T-shirts",
+            "timestamp": {
+              "end_timestamp": "00:02:34.988",
+              "start_timestamp": "00:02:33.987"
+            }
+          },
+          {
+            "name": "Books",
+            "timestamp": {
+              "end_timestamp": "00:03:03.016",
+              "start_timestamp": "00:03:02.015"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Understanding the inner workings of neural networks. The emergence of complex features learned by the network without explicit training. The potential for using deep visualization tools to enhance our understanding of AI.",
+        "timestamps": {
+          "end_timestamp": "00:03:53.366",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Deep Visualization Toolbox",
+        "videoEditingDetails": [
+          {
+            "description": "Fades in and out to transition between different input images and layers.",
+            "timestamps": {
+              "end_timestamp": "00:00:28.996",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Simple text overlays to highlight key concepts and URL.",
+            "timestamps": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:28.996"
+            }
+          },
+          {
+            "description": "No music or special effects.",
+            "timestamps": {
+              "end_timestamp": "00:03:30.010",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "description": "Potential Trimming: The introductory image sequence could be shortened to quickly jump into the toolbox demonstration.",
+            "timestamps": {
+              "end_timestamp": "00:00:26.994",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The moment when the narrator reveals that the network learned to detect text and faces without explicit labeling.",
+        "timestamp": "00:03:00.013"
+      },
+      "description": "Informative demonstration of the deep visualization toolbox explaining its usage and significance in neural network analysis.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Video Analysis: Deep Visualization Toolbox",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten the introductory sequence of images to directly introduce the visualization tool.",
+        "timestamps": {
+          "end_timestamp": "00:00:26.994",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "Consider condensing some of the layer demonstrations (1:07 - 1:24) to focus more on the analysis of specific neurons.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 233,
+  "original_json_filename": "AgkfIQ4IGaM.json",
+  "original_video_filename": "AgkfIQ4IGaM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "recent advances in neural networks have enabled computers to better see and understand the world they can recognize school buses and zebras and can tell the difference between Maltese terriers and Yorkshire Terriers we now know what it takes to train these neural networks well but we don't know so much about how they're actually computing their final answers we developed this interactive deep visualization tool box to shine light into these black boxes show you what happens inside of neural Nets in the top left corner we show the input to the network which can be a still image or video from a webcam these black squares in the middle show the activations on a single layer of a network in this case the popular deep neural network called Alex net running in cafe by interacting with the network we can see what some of the neurons are doing for example on this first layer the unit in the centre responds strongly to light to dark edges its neighbour one neuron over responds to edges in the opposite direction dark to light using optimization we can synthetically produce images that light up each neuron on this layer to see what each neuron is looking for we can scroll through every layer in the network to see what it does including convolution pooling and normalization layers we can switch back and forth between showing the actual activations and showing images synthesized to produce high activation by the time we get to the fifth convolutional layer the feeder is being computed represent abstract concepts for example this neuron seems to respond to faces we can further investigate this neuron by showing a few different types of information first we can artificially create optimized images using new regularization techniques that are described in our paper these synthetic images show that this neuron fires in response to a face on children's we can also plot the images from the training set that activate this neuron the most as well as pixels from those images most responsible for the high activations computed via the deconvolution technique this feature responds to multiple faces in different locations and by looking at the decom we can see that it would respond more strongly if we had even darker eyes and rosy lips we can also confirm that it cares about the head and shoulders that ignores the arms and torso we can even see that it fires to some extent for cat faces using back prop or decom we can see that this unit depends most strongly on a couple units in the previous layer kana for and on about a dozen or so in con 3 now let's look at another neuron on this layer so what's this unit doing from the top 9 images we might conclude that it fires 4 different types of clothing but examining the synthetic images shows that it may be detecting not clothing per se but wrinkles in the live plot we can see that it's activated by my shirt and smoothing out half of my shirt causes that hack of the activations to decrease finally here's another interesting neuron this one has learned to look for printed text in a variety of sizes colors and fonts this is pretty cool because we never asked the network to look for wrinkles or text or faces the only label we provided were at the very last layer so the only reason the network learned features like texts and faces in the middle was to support final decisions at that last layer for example the text detector may provide good evidence that a rectangle is in fact a book seen on edge and detecting many books next to each other might be a good way of detecting a bookcase which was one of the categories we trained the net to recognize in this video we've shown some of the features of the deep viz toolbox and a few of the things we've learned by using it you can download the toolbox of this URL and explore for yourself if you'd like to share what you find you can use the hashtag deep viz thanks for listening and we look forward to seeing what you discover",
+  "text_to_speech_word_count": 713,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.973",
+      "start": "00:00:00.000",
+      "text": " Recent advances in neural networks have enabled computers to better see and understand the world."
+    },
+    {
+      "end": "00:00:12.980",
+      "start": "00:00:05.973",
+      "text": " They can recognize school buses and zebras and can tell the difference between multi-stereers and your absurd terriers."
+    },
+    {
+      "end": "00:00:18.986",
+      "start": "00:00:12.980",
+      "text": " We now know what it takes to train these neural networks well, but we don't know so much about how they're actually computing their final answers."
+    },
+    {
+      "end": "00:00:26.994",
+      "start": "00:00:18.986",
+      "text": " We developed this interactive deep visualization toolbox to shine light into these black boxes, showing what happens inside of neural nets."
+    },
+    {
+      "end": "00:00:33.000",
+      "start": "00:00:26.994",
+      "text": " In the top left corner, we show the input to the network, which can be a still image or video from a webcam."
+    },
+    {
+      "end": "00:00:40.974",
+      "start": "00:00:33.000",
+      "text": " These black squares in the middle show the activations on a single layer of a network, in this case the popular deep neural network called AlexNet running in cafe."
+    },
+    {
+      "end": "00:00:44.978",
+      "start": "00:00:40.974",
+      "text": " By interacting with the network, we can see what some of the neurons are doing."
+    },
+    {
+      "end": "00:00:51.985",
+      "start": "00:00:44.978",
+      "text": " For example, on this first layer, a unit in the center responds strongly to light dark edges."
+    },
+    {
+      "end": "00:00:58.992",
+      "start": "00:00:52.986",
+      "text": " Its neighbor, one neuron over, responds to edges in the opposite direction, dark to light."
+    },
+    {
+      "end": "00:01:06.967",
+      "start": "00:00:58.992",
+      "text": " Using optimization, we can synthetically produce images that light up each neuron on this layer to see what each neuron is looking for."
+    },
+    {
+      "end": "00:01:13.974",
+      "start": "00:01:06.967",
+      "text": " We can scroll through every layer in the network to see what it does, including convolution, pooling, and normalization layers."
+    },
+    {
+      "end": "00:01:20.981",
+      "start": "00:01:14.975",
+      "text": " We can switch back and forth between showing the actual activations and showing images synthesized to produce high activation."
+    },
+    {
+      "end": "00:01:29.990",
+      "start": "00:01:23.984",
+      "text": " But the time we get to the fifth convolutional layer, the features being computed represent abstract concepts."
+    },
+    {
+      "end": "00:01:37.998",
+      "start": "00:01:30.991",
+      "text": " For example, this neuron seems to respond to faces. We can further investigate this neuron by showing a few different types of information."
+    },
+    {
+      "end": "00:01:43.971",
+      "start": "00:01:38.999",
+      "text": " First, we can artificially create optimized images using new regularization techniques that are described in our paper."
+    },
+    {
+      "end": "00:01:48.976",
+      "start": "00:01:43.971",
+      "text": " These synthetic images show that this neuron fires in response to a face and shoulders."
+    },
+    {
+      "end": "00:01:55.983",
+      "start": "00:01:48.976",
+      "text": " We can also plot the images from the training set that activate this neuron the most, as well as pixels from those images most responsible for the high activations,"
+    },
+    {
+      "end": "00:01:58.986",
+      "start": "00:01:55.983",
+      "text": " computed via the decongolution technique."
+    },
+    {
+      "end": "00:02:01.989",
+      "start": "00:01:58.986",
+      "text": " This feature responds to multiple faces in different locations."
+    },
+    {
+      "end": "00:02:06.994",
+      "start": "00:02:01.989",
+      "text": " And by looking at the decong, we can see that it would respond more strongly if we had to see the decong,"
+    },
+    {
+      "end": "00:02:09.997",
+      "start": "00:02:06.994",
+      "text": " more strongly if we had even darker eyes and rose your lips."
+    },
+    {
+      "end": "00:02:14.968",
+      "start": "00:02:09.997",
+      "text": " We can also confirm that it carries about the head and shoulders that ignores the arms and torso."
+    },
+    {
+      "end": "00:02:18.972",
+      "start": "00:02:15.969",
+      "text": " We can even see that it fires to some extent for cat faces."
+    },
+    {
+      "end": "00:02:26.980",
+      "start": "00:02:19.973",
+      "text": " Using back prop or decong, we can see that this unit depends most strongly on a couple units in the previous layer con 4,"
+    },
+    {
+      "end": "00:02:29.983",
+      "start": "00:02:26.980",
+      "text": " and on about a dozen or so in con 3."
+    },
+    {
+      "end": "00:02:32.986",
+      "start": "00:02:29.983",
+      "text": " Now let's look at another neuron on this layer."
+    },
+    {
+      "end": "00:02:34.988",
+      "start": "00:02:32.986",
+      "text": " So what's this unit doing?"
+    },
+    {
+      "end": "00:02:38.992",
+      "start": "00:02:34.988",
+      "text": " From the top 9 images, we might conclude that it fires for different types of clothing."
+    },
+    {
+      "end": "00:02:44.998",
+      "start": "00:02:38.992",
+      "text": " But examining the synthetic images shows that it may be detecting not clothing per se, but wrinkles."
+    },
+    {
+      "end": "00:02:53.974",
+      "start": "00:02:44.998",
+      "text": " In the live plot, we can see that it's activated by my shirt, and, smoothing out half of my shirt, causes that hack of the activations to decrease."
+    },
+    {
+      "end": "00:02:56.977",
+      "start": "00:02:53.974",
+      "text": " Finally, here's another interesting neuron."
+    },
+    {
+      "end": "00:03:02.983",
+      "start": "00:02:57.978",
+      "text": " This one has learned to look for printed text in a variety of sizes, colors, and fonts."
+    },
+    {
+      "end": "00:03:07.988",
+      "start": "00:03:03.984",
+      "text": " This is pretty cool because we never asked the network to look for wrinkles or text or faces."
+    },
+    {
+      "end": "00:03:17.998",
+      "start": "00:03:07.988",
+      "text": " The only labels we provided were at the very last layer, so the only reason the network learned features like text and faces in the middle was to support final decisions at that last layer."
+    },
+    {
+      "end": "00:03:23.970",
+      "start": "00:03:17.998",
+      "text": " For example, the text detector may provide good evidence that a rectangle is in fact a book seen on edge,"
+    },
+    {
+      "end": "00:03:32.979",
+      "start": "00:03:24.971",
+      "text": " and detecting many books next to each other might be a good way of detecting a bookcase, which was one of the categories we trained in that to recognize."
+    },
+    {
+      "end": "00:03:38.985",
+      "start": "00:03:32.979",
+      "text": " In this video, we've shown some of the features of the DeepViz toolbox, and a few of the things we've learned by using it."
+    },
+    {
+      "end": "00:03:41.988",
+      "start": "00:03:38.985",
+      "text": " You can download the toolbox of this URL and explore for yourself."
+    },
+    {
+      "end": "00:03:44.991",
+      "start": "00:03:41.988",
+      "text": " If you'd like to share what you find, you can use the hashtag deepviz."
+    },
+    {
+      "end": "00:03:48.995",
+      "start": "00:03:44.991",
+      "text": " Thanks for listening, and we look forward to seeing what you discover."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Jason Yosinski",
+  "youtube_channel_follower_count": 1660,
+  "youtube_comment_count": 89,
+  "youtube_description": "Code and more info: http://yosinski.com/deepvis",
+  "youtube_like_count": 4177,
+  "youtube_tags": [
+    "Neural Network (Field Of Study)",
+    "Computer Vision (Field Of Study)",
+    "Machine Learning (Software Genre)",
+    "Deep Neural Networks",
+    "Caffe",
+    "Python (Programming Language)"
+  ],
+  "youtube_title": "Deep Visualization Toolbox",
+  "youtube_upload_date": "20150707",
+  "youtube_view_count": 260169
+}

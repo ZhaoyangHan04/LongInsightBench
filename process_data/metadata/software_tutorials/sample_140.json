@@ -1,0 +1,1247 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "0",
+        "description": "The narrator is not visible in the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "This video tutorial provides a comprehensive step-by-step guide on renaming a user's folder in Windows 10, addressing technical details and security practices.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The command is: \"net user administrator /active:yes\"",
+        "question": "What is the first command you need to type in the command prompt?"
+      },
+      {
+        "answer": "You should select the option: \"Rename\"",
+        "question": "What option do you need to select when right-clicking on the username in Computer Management?"
+      },
+      {
+        "answer": "Open the section \"ProfileList\"",
+        "question": "Which section do you need to open in the registry editor after navigating to HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion?"
+      },
+      {
+        "answer": "You need to go to those locations and rename the folder in those values to match the new name",
+        "question": "What should you do if the search in the registry editor returns results containing the old folder name?"
+      },
+      {
+        "answer": "It is a security best practice as it is a powerful account and should only be enabled when needed",
+        "question": "What is the purpose of disabling the built-in Administrator account?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator introduces the topic of the video.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Keyboard",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Mobile phone",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Gameboy",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Rubik's cube",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Sunglasses",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Cup",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Speakers",
+            "timestamp": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 0,
+        "thematicElements": "Technical tutorial, Windows 10, File management",
+        "timestamps": {
+          "end_timestamp": "00:00:04.700",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: HETMAN / SOFTWARE",
+            "timestamps": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Fade out",
+            "timestamps": {
+              "end_timestamp": "00:00:04.700",
+              "start_timestamp": "00:00:04.700"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:00:31.500",
+              "start_timestamp": "00:00:05.500"
+            }
+          },
+          {
+            "description": "Right-clicking on the Start menu",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          },
+          {
+            "description": "Selecting Command Prompt (Admin)",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "description": "Typing a command in the Command Prompt",
+            "timestamp": {
+              "end_timestamp": "00:00:31.500",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "description": "Pressing Enter",
+            "timestamp": {
+              "end_timestamp": "00:00:31.500",
+              "start_timestamp": "00:00:31.500"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains the first step of the process, which is activating the Administrator account.",
+            "timestamp": "00:00:05.500"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:00:31.500",
+              "start_timestamp": "00:00:05.500"
+            }
+          },
+          {
+            "name": "Start menu",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          },
+          {
+            "name": "Command Prompt window",
+            "timestamp": {
+              "end_timestamp": "00:00:31.500",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Step-by-step instructions, Technical terminology",
+        "timestamps": {
+          "end_timestamp": "00:00:31.500",
+          "start_timestamp": "00:00:04.733"
+        },
+        "title": "Administrator Activation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:00:47.333",
+              "start_timestamp": "00:00:31.533"
+            }
+          },
+          {
+            "description": "Logging off",
+            "timestamp": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Logging in",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains the second step of the process, which is logging off the current account and logging in with the newly activated Administrator account.",
+            "timestamp": "00:00:31.533"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:00:47.333",
+              "start_timestamp": "00:00:31.533"
+            }
+          },
+          {
+            "name": "Login screen",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "User accounts, Security",
+        "timestamps": {
+          "end_timestamp": "00:00:47.333",
+          "start_timestamp": "00:00:31.533"
+        },
+        "title": "Logging in as Administrator",
+        "videoEditingDetails": [
+          {
+            "description": "Fade out",
+            "timestamps": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          },
+          {
+            "description": "Fade in",
+            "timestamps": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:02:03.500",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "description": "Right-clicking on the Start menu",
+            "timestamp": {
+              "end_timestamp": "00:02:01.000",
+              "start_timestamp": "00:01:59.000"
+            }
+          },
+          {
+            "description": "Selecting Computer Management",
+            "timestamp": {
+              "end_timestamp": "00:02:03.000",
+              "start_timestamp": "00:02:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains the second and third step of the process, which involves renaming the user folder from the Computer Management window.",
+            "timestamp": "00:00:48.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:02:03.500",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "name": "Local Disk (C:)",
+            "timestamp": {
+              "end_timestamp": "00:02:01.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Users folder",
+            "timestamp": {
+              "end_timestamp": "00:02:03.500",
+              "start_timestamp": "00:02:01.000"
+            }
+          },
+          {
+            "name": "Start menu",
+            "timestamp": {
+              "end_timestamp": "00:02:01.000",
+              "start_timestamp": "00:01:59.000"
+            }
+          },
+          {
+            "name": "Computer Management Window",
+            "timestamp": {
+              "end_timestamp": "00:02:03.500",
+              "start_timestamp": "00:02:02.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Computer Management tool, File system",
+        "timestamps": {
+          "end_timestamp": "00:02:03.500",
+          "start_timestamp": "00:00:47.367"
+        },
+        "title": "Renaming User Folder in Computer Management",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:02:26.500",
+              "start_timestamp": "00:02:03.533"
+            }
+          },
+          {
+            "description": "Clicking Users in Computer Management window",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          },
+          {
+            "description": "Right-clicking on the user name",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          },
+          {
+            "description": "Selecting Rename",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:02:18.000"
+            }
+          },
+          {
+            "description": "Renaming the folder",
+            "timestamp": {
+              "end_timestamp": "00:02:25.000",
+              "start_timestamp": "00:02:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator demonstrates renaming the user folder from the Computer Management window",
+            "timestamp": "00:02:03.533"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:02:26.500",
+              "start_timestamp": "00:02:03.533"
+            }
+          },
+          {
+            "name": "Computer Management window",
+            "timestamp": {
+              "end_timestamp": "00:02:26.500",
+              "start_timestamp": "00:02:03.533"
+            }
+          },
+          {
+            "name": "Users folder",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "User interface navigation, File permissions",
+        "timestamps": {
+          "end_timestamp": "00:02:26.500",
+          "start_timestamp": "00:02:03.533"
+        },
+        "title": "User Folder Renaming in File Explorer",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:26.533"
+            }
+          },
+          {
+            "description": "Opening Local Disk (C:)",
+            "timestamp": {
+              "end_timestamp": "00:02:38.000",
+              "start_timestamp": "00:02:34.000"
+            }
+          },
+          {
+            "description": "Opening Users folder",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:39.000"
+            }
+          },
+          {
+            "description": "Renaming the user folder",
+            "timestamp": {
+              "end_timestamp": "00:02:55.000",
+              "start_timestamp": "00:02:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains the third step of the process, which involves renaming the user folder from Local Disk (C:)",
+            "timestamp": "00:02:26.533"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:03:39.000",
+              "start_timestamp": "00:02:26.533"
+            }
+          },
+          {
+            "name": "Local Disk (C:)",
+            "timestamp": {
+              "end_timestamp": "00:02:38.000",
+              "start_timestamp": "00:02:34.000"
+            }
+          },
+          {
+            "name": "Users folder",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:39.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "File explorer, File renaming",
+        "timestamps": {
+          "end_timestamp": "00:03:39.000",
+          "start_timestamp": "00:02:26.533"
+        },
+        "title": "Renaming User Folder from Local Disk",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:07:30.000",
+              "start_timestamp": "00:03:39.033"
+            }
+          },
+          {
+            "description": "Searching for Registry Editor",
+            "timestamp": {
+              "end_timestamp": "00:03:47.000",
+              "start_timestamp": "00:03:39.033"
+            }
+          },
+          {
+            "description": "Opening Registry Editor",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:47.000"
+            }
+          },
+          {
+            "description": "Navigating through Registry Editor keys",
+            "timestamp": {
+              "end_timestamp": "00:05:07.000",
+              "start_timestamp": "00:03:50.000"
+            }
+          },
+          {
+            "description": "Finding the corresponding identifier",
+            "timestamp": {
+              "end_timestamp": "00:05:18.000",
+              "start_timestamp": "00:05:07.000"
+            }
+          },
+          {
+            "description": "Double-clicking the value",
+            "timestamp": {
+              "end_timestamp": "00:05:20.000",
+              "start_timestamp": "00:05:18.000"
+            }
+          },
+          {
+            "description": "Renaming the value",
+            "timestamp": {
+              "end_timestamp": "00:05:50.000",
+              "start_timestamp": "00:05:20.000"
+            }
+          },
+          {
+            "description": "Searching for the old folder name",
+            "timestamp": {
+              "end_timestamp": "00:06:49.000",
+              "start_timestamp": "00:05:52.000"
+            }
+          },
+          {
+            "description": "Renaming the folder to match the new name",
+            "timestamp": {
+              "end_timestamp": "00:07:03.000",
+              "start_timestamp": "00:06:49.000"
+            }
+          },
+          {
+            "description": "Repeating the search and renaming process",
+            "timestamp": {
+              "end_timestamp": "00:07:30.000",
+              "start_timestamp": "00:07:03.000"
+            }
+          },
+          {
+            "description": "Logging off the Administrator account",
+            "timestamp": {
+              "end_timestamp": "00:07:30.500",
+              "start_timestamp": "00:07:30.000"
+            }
+          },
+          {
+            "description": "Disabling the Administrator account",
+            "timestamp": {
+              "end_timestamp": "00:07:30.500",
+              "start_timestamp": "00:07:30.500"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains the fourth step of the process, which involves modifying the registry entries related to the user folder.",
+            "timestamp": "00:03:39.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:07:30.500",
+              "start_timestamp": "00:03:39.033"
+            }
+          },
+          {
+            "name": "Registry Editor window",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:47.000"
+            }
+          },
+          {
+            "name": "Identifier list",
+            "timestamp": {
+              "end_timestamp": "00:05:18.000",
+              "start_timestamp": "00:05:07.000"
+            }
+          },
+          {
+            "name": "Value data",
+            "timestamp": {
+              "end_timestamp": "00:05:20.000",
+              "start_timestamp": "00:05:18.000"
+            }
+          },
+          {
+            "name": "Search field",
+            "timestamp": {
+              "end_timestamp": "00:06:49.000",
+              "start_timestamp": "00:05:52.000"
+            }
+          },
+          {
+            "name": "Folder name",
+            "timestamp": {
+              "end_timestamp": "00:07:03.000",
+              "start_timestamp": "00:06:49.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Registry editing, System configuration, Data integrity",
+        "timestamps": {
+          "end_timestamp": "00:07:30.500",
+          "start_timestamp": "00:03:39.033"
+        },
+        "title": "Modifying Registry Entries",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrating",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:07:30.533"
+            }
+          },
+          {
+            "description": "Logging off",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          },
+          {
+            "description": "Logging in",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          },
+          {
+            "description": "Opening command prompt",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          },
+          {
+            "description": "Disabling administrator account",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          },
+          {
+            "description": "Opening file explorer",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator verifies that the folder has been renamed and concludes the video",
+            "timestamp": "00:07:30.533"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:07:30.533"
+            }
+          },
+          {
+            "name": "Login screen",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          },
+          {
+            "name": "Command Prompt",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          },
+          {
+            "name": "File Explorer",
+            "timestamp": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Verification, Security best practices",
+        "timestamps": {
+          "end_timestamp": "00:05:58.000",
+          "start_timestamp": "00:07:30.533"
+        },
+        "title": "Verification and Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Fade out",
+            "timestamps": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          },
+          {
+            "description": "Fade in",
+            "timestamps": {
+              "end_timestamp": "00:05:58.000",
+              "start_timestamp": "00:05:58.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The narrator verifies that the folder has been renamed and concludes the video.",
+        "timestamp": "00:08:56.000"
+      },
+      "description": "A step-by-step guide on how to rename a user's folder in Windows 10.",
+      "scenes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "How to Rename a User's Folder in Windows 10",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the initial scene (0-5.5 seconds) as it only shows a static image with text overlay.",
+        "timestamps": {
+          "end_timestamp": "00:07:30.533",
+          "start_timestamp": "00:07:30.533"
+        }
+      },
+      {
+        "description": "Shorten parts of scenes 1, 2, 3, and 5 where the narrator is simply reading instructions, focusing on the screen recording.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Remove part of scene 5 showing a blank screen.",
+        "timestamps": {
+          "end_timestamp": "00:05:58.000",
+          "start_timestamp": "00:05:58.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 358,
+  "original_json_filename": "J_rTOA4gXJI.json",
+  "original_video_filename": "J_rTOA4gXJI.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Hello everybody! This video will show you how to rename the user’s folder in Windows 10, which can be found in C:\\Users. In my case, it is “Maxim,” and I want to rename it into “Max.” Note. If you are not an expert user, I wouldn’t recommend that you do it. Let’s begin. Here is the first step. Right-click on the Start menu and select Command Prompt (Administrator). Type in the command “net user Administrator/active:yes” and press “Enter” Note. If your operating system was initially in English, and then you changed the language, the word “administrator” should be typed in Latin letters. The command is successful. Now log off the current account and log in with the account we have just activated. We are logged in with the built-in account, “Administrator” Here is the second step. Note. If you have Windows 10 Professional or Enterprise, you should do everything I show in this step; but if you have Windows 10 Home, you should skip it. Right-click on the Start menu and select “Computer Management.” Open “Local Users and Groups” and then “Users.” Right-click on the username for which you are going to change the folder name and select “Rename.” Make changes. Ready. Here is the third step. Note. This step is good for Windows 10 Professional, Enterprise or Home. Open disk “C” (the operating system is supposed to be there), go to the folder “Users” and rename a corresponding folder, just as you did it in the previous step. Ready. Here is the fourth step. Enter “regedit” in the search field. Press Enter. The Registry Editor starts. Now go to “HKEY LOCAL MACHINE” - “SOFTWARE” - “MICROSOFT” - “WINDOWS NT” - “CURRENTVERSION” - \"ProfileList\" In the list of identifiers, find the one corresponding to your account the name of which you are trying to change. Double-click on the value and rename it. Note. For Windows 10 Professional or Enterprise, these actions will be enough, but if you skipped the second step (supposing you have Windows 10 Home), you need to take the following actions (even if you have Windows 10 Professional or Enterprise, this can be done just to be on the safe side): - Highlight the upper line in the Registry Editor. - In the menu, click on “Edit” - “Find” - Enter “C:\\Users\\” and the old name of the user’s folder into the search field. - Search for it. If the search shows you any results, go to those locations to rename the folder so that it has the new name. After you have done it, click “Edit” - “Find Next” (or just press F3). In this manner, go on searching and renaming. You should repeat this action until the search shows you no results. Note. I have Windows 10 Professional, so this action did not have the result described above. Ready. Log off the administrator account and disable it again. To do it, log in, this time with your account. Start “Command Prompt (Administrator) and enter: “net user Administrator /active:no” Run it. All is correct. The folder has been renamed, and there are no problems. Everything will waork just as it did before all the actions I have shown in this video. Thank you for your attention and good luck. If you liked this video, click the Like button below and subscribe to our channel to see more.",
+  "text_to_speech_word_count": 561,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.700",
+      "start": "00:00:00.000",
+      "text": " Hello everybody, this video will show you how to rename the users folder in Windows 10,"
+    },
+    {
+      "end": "00:00:14.633",
+      "start": "00:00:10.700",
+      "text": " which can be found in the C, column slash fuzors."
+    },
+    {
+      "end": "00:00:18.333",
+      "start": "00:00:14.633",
+      "text": " In my case it is Maxim and I want to rename it into Max."
+    },
+    {
+      "end": "00:00:22.900",
+      "start": "00:00:18.333",
+      "text": " Note, if you are not an expert user I wouldn't recommend that you do it."
+    },
+    {
+      "end": "00:00:27.933",
+      "start": "00:00:22.900",
+      "text": " Let's begin, here is the first step, right click on the start menu and select command prompt"
+    },
+    {
+      "end": "00:00:28.933",
+      "start": "00:00:27.933",
+      "text": " administrator."
+    },
+    {
+      "end": "00:00:37.033",
+      "start": "00:00:29.433",
+      "text": " Type in the command, net user administrator slash active column, yes and presenter."
+    },
+    {
+      "end": "00:00:40.400",
+      "start": "00:00:37.033",
+      "text": " The command is successful."
+    },
+    {
+      "end": "00:00:44.867",
+      "start": "00:00:40.400",
+      "text": " Now log off the current account and log in with the account we have just activated."
+    },
+    {
+      "end": "00:01:08.100",
+      "start": "00:00:58.933",
+      "text": " We are logged in with the built in account administrator."
+    },
+    {
+      "end": "00:01:09.733",
+      "start": "00:01:08.100",
+      "text": " Here is the second step."
+    },
+    {
+      "end": "00:01:14.067",
+      "start": "00:01:09.733",
+      "text": " Note, if you have Windows 10 professional or enterprise you should do everything I"
+    },
+    {
+      "end": "00:01:19.333",
+      "start": "00:01:14.067",
+      "text": " show in this step, but if you have Windows 10 home you should skip it."
+    },
+    {
+      "end": "00:01:25.900",
+      "start": "00:01:19.333",
+      "text": " Right click on the start menu and select computer management."
+    },
+    {
+      "end": "00:01:34.200",
+      "start": "00:01:25.900",
+      "text": " Then local users and groups and then users."
+    },
+    {
+      "end": "00:01:38.400",
+      "start": "00:01:34.200",
+      "text": " Right click on the user name for which you are going to change the folder name and select"
+    },
+    {
+      "end": "00:01:40.600",
+      "start": "00:01:38.400",
+      "text": " rename."
+    },
+    {
+      "end": "00:01:42.600",
+      "start": "00:01:40.600",
+      "text": " Make changes."
+    },
+    {
+      "end": "00:01:44.067",
+      "start": "00:01:42.600",
+      "text": " Ready."
+    },
+    {
+      "end": "00:01:48.733",
+      "start": "00:01:44.067",
+      "text": " Here is the third step."
+    },
+    {
+      "end": "00:01:54.733",
+      "start": "00:01:48.733",
+      "text": " Note, this step is good for Windows 10 professional enterprise a home."
+    },
+    {
+      "end": "00:02:01.000",
+      "start": "00:01:54.733",
+      "text": " Open disk c, the operating system is supposed to be there."
+    },
+    {
+      "end": "00:02:10.233",
+      "start": "00:02:01.000",
+      "text": " Go to the folder users and rename a corresponding folder just as you did in the previous step."
+    },
+    {
+      "end": "00:02:22.467",
+      "start": "00:02:10.233",
+      "text": " Right click on the first step, the first step and to record it in the search field."
+    },
+    {
+      "end": "00:02:30.667",
+      "start": "00:02:22.467",
+      "text": " Click on it."
+    },
+    {
+      "end": "00:02:33.433",
+      "start": "00:02:30.667",
+      "text": " The register added a stance."
+    },
+    {
+      "end": "00:02:51.200",
+      "start": "00:02:33.433",
+      "text": " Now go to hkey local machine software Microsoft."
+    },
+    {
+      "end": "00:02:54.900",
+      "start": "00:02:51.200",
+      "text": " Windows and team."
+    },
+    {
+      "end": "00:03:00.767",
+      "start": "00:02:54.900",
+      "text": " Current version."
+    },
+    {
+      "end": "00:03:07.733",
+      "start": "00:03:00.767",
+      "text": " And profile list."
+    },
+    {
+      "end": "00:03:13.867",
+      "start": "00:03:07.733",
+      "text": " In the list of identifiers find the one corresponding to your account to your account, the name of"
+    },
+    {
+      "end": "00:03:19.500",
+      "start": "00:03:13.867",
+      "text": " which you are trying to change."
+    },
+    {
+      "end": "00:03:27.733",
+      "start": "00:03:19.500",
+      "text": " Click on the value and rename it."
+    },
+    {
+      "end": "00:03:32.600",
+      "start": "00:03:27.733",
+      "text": " Note, Windows 10 professional enterprise, these actions will be enough."
+    },
+    {
+      "end": "00:03:37.133",
+      "start": "00:03:32.600",
+      "text": " But if you skip the second step, suppose you have Windows 10 home, you need to take the"
+    },
+    {
+      "end": "00:03:41.700",
+      "start": "00:03:37.133",
+      "text": " folder actions, even if you have Windows 10 professional or enterprise, this can be"
+    },
+    {
+      "end": "00:03:44.633",
+      "start": "00:03:41.700",
+      "text": " down just to be on the safe side."
+    },
+    {
+      "end": "00:03:46.833",
+      "start": "00:03:44.633",
+      "text": " Highlight the upper point."
+    },
+    {
+      "end": "00:03:52.900",
+      "start": "00:03:46.833",
+      "text": " In the register editor, in the menu click on edit find."
+    },
+    {
+      "end": "00:03:59.900",
+      "start": "00:03:52.900",
+      "text": " Enter c, column slash users slash and the old name of the users folder into the search"
+    },
+    {
+      "end": "00:04:02.233",
+      "start": "00:03:59.900",
+      "text": " field."
+    },
+    {
+      "end": "00:04:05.067",
+      "start": "00:04:02.233",
+      "text": " Search for it."
+    },
+    {
+      "end": "00:04:10.200",
+      "start": "00:04:05.067",
+      "text": " If the search shows you any results, go to those locations to rename the folder so that"
+    },
+    {
+      "end": "00:04:23.533",
+      "start": "00:04:10.200",
+      "text": " it has the new name."
+    },
+    {
+      "end": "00:04:30.633",
+      "start": "00:04:23.533",
+      "text": " After you have done it, click edit find next."
+    },
+    {
+      "end": "00:04:32.567",
+      "start": "00:04:30.633",
+      "text": " Or just press F3."
+    },
+    {
+      "end": "00:04:35.567",
+      "start": "00:04:32.567",
+      "text": " In this manner go on searching and renaming."
+    },
+    {
+      "end": "00:04:39.600",
+      "start": "00:04:35.600",
+      "text": " You should repeat this action until the search shows you no results."
+    },
+    {
+      "end": "00:04:46.100",
+      "start": "00:04:39.600",
+      "text": " Note, I have Windows 10 professional, so this action did not have the result described"
+    },
+    {
+      "end": "00:04:48.100",
+      "start": "00:04:46.100",
+      "text": " about."
+    },
+    {
+      "end": "00:04:49.100",
+      "start": "00:04:48.100",
+      "text": " Ready?"
+    },
+    {
+      "end": "00:04:54.800",
+      "start": "00:04:49.100",
+      "text": " Log on the administrator account and disable it again."
+    },
+    {
+      "end": "00:05:19.400",
+      "start": "00:05:05.600",
+      "text": " To do it, log in this time with your account."
+    },
+    {
+      "end": "00:05:27.000",
+      "start": "00:05:19.400",
+      "text": " Start command prompt administrator and enter net user administrator slash active column"
+    },
+    {
+      "end": "00:05:29.000",
+      "start": "00:05:27.000",
+      "text": " no."
+    },
+    {
+      "end": "00:05:31.733",
+      "start": "00:05:29.000",
+      "text": " Run it."
+    },
+    {
+      "end": "00:05:42.533",
+      "start": "00:05:31.733",
+      "text": " All is correct."
+    },
+    {
+      "end": "00:05:46.000",
+      "start": "00:05:42.533",
+      "text": " The folder has been renamed and there are no problems."
+    },
+    {
+      "end": "00:05:50.400",
+      "start": "00:05:46.000",
+      "text": " Everything will work just as it did before all the actions I have shown in this video."
+    },
+    {
+      "end": "00:05:53.133",
+      "start": "00:05:50.400",
+      "text": " Thank you for your attention and good luck."
+    },
+    {
+      "end": "00:05:57.400",
+      "start": "00:05:53.133",
+      "text": " If you like this video, click the like button below and subscribe to our channel to see"
+    },
+    {
+      "end": "00:05:57.733",
+      "start": "00:05:57.400",
+      "text": " more."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Hetman Software: Data Recovery for Windows",
+  "youtube_channel_follower_count": 40600,
+  "youtube_comment_count": 619,
+  "youtube_description": "👍 Watch how to rename the user’s folder in Windows 10, which can be found in C:\\Users. In my case, it is “Maxim,” and I want to rename it into “Max.” Note. If you are not an expert user, I wouldn’t recommend that you do it.\n\nWindows System Files: Where They Are Stored, How to Display or Restore Them: https://hetmanrecovery.com/recovery_news/what-does-windows-system-file-mean.htm\n\nContents:\n00:00 - Intro;\n0:24 - First Step How to Rename Windows 10 User Folder;\n1:07- Second step;\n1:46 - Third step;\n2:14 - Fourth step;\n3:26 - Note;\n\nLet’s begin. Here is the first step.\nRight-click on the Start menu and select Command Prompt (Administrator).\nType in the command “net user Administrator/active:yes” and press “Enter”\nNote. If your operating system was initially in English, and then you changed the language, the word “administrator” should be typed in Latin letters.\nThe command is successful.\nNow log off the current account and log in with the account we have just activated.\nWe are logged in with the built-in account, “Administrator”\n\nHere is the second step.\nNote. If you have Windows 10 Professional or Enterprise, you should do everything I show in this step; but if you have Windows 10 Home, you should skip it.\nRight-click on the Start menu and select “Computer Management.”\nOpen “Local Users and Groups” and then “Users.”\nRight-click on the username for which you are going to change the folder name and select “Rename.”\nMake changes. Ready. \n\nHere is the third step.\nNote. This step is good for Windows 10 Professional, Enterprise or Home. \nOpen disk “C” (the operating system is supposed to be there), go to the folder “Users” and rename a corresponding folder, just as you did it in the previous step.\nReady.\n\nHere is the fourth step.\nEnter “regedit” in the search field.\nPress Enter.\nThe Registry Editor starts.\nNow go to “HKEY LOCAL MACHINE” - “SOFTWARE” - “MICROSOFT” - “WINDOWS NT” - “CURRENTVERSION” - \"ProfileList\"\nIn the list of identifiers, find the one corresponding to your account the name of which you are trying to change. \nDouble-click on the value and rename it. \n\nNote. For Windows 10 Professional or Enterprise, these actions will be enough, but if you skipped the second step (supposing you have Windows 10 Home), you need to take the following actions (even if you have Windows 10 Professional or Enterprise, this can be done just to be on the safe side):\n- Highlight the upper line in the Registry Editor. \n- In the menu, click on “Edit” - “Find”\n- Enter “C:\\Users\\” and the old name of the user’s folder into the search field. \n- Search for it. \nIf the search shows you any results, go to those locations to rename the folder so that it has the new name. \nAfter you have done it, click “Edit” - “Find Next” (or just press F3).\nIn this manner, go on searching and renaming. You should repeat this action until the search shows you no results.\n\nNote. I have Windows 10 Professional, so this action did not have the result described above. \nReady. Log off the administrator account and disable it again.\nTo do it, log in, this time with your  account.\nStart “Command Prompt (Administrator) and enter: “net user Administrator /active:no” \nRun it.\nAll is correct. The folder has been renamed, and there are no problems.  Everything will waork just as it did before all the actions I have shown in this video. \n\nThank you for your attention and good luck. If you liked this video, click the Like button below and subscribe to our channel to see more.\n\nOther videos: #WindowsUser, #UserFolder, #Windows10, #Setup, #Admin, #RenameFolder.\n\nPlaylist: Tuning and Adjusting Windows 10: Restore Points, Resetting Passwords, Backup, Defragmentation, Compatibility Mode - https://www.youtube.com/playlist?list=PLWfvrWYvsWiIIvLGyaCgBbwreA08y_ycT.",
+  "youtube_like_count": 2664,
+  "youtube_tags": [
+    "Windows 10",
+    "change",
+    "c:\\users",
+    "rename",
+    "local user",
+    "disk",
+    "administrator",
+    "net user",
+    "copying user data",
+    "moving user data",
+    "command prompt",
+    "regedit",
+    "user folder",
+    "backup",
+    "Windows installation",
+    "delete",
+    "user",
+    "another drive",
+    "profile",
+    "access",
+    "how to rename the user's folder in windows 10",
+    "how to change the name of the user's folder",
+    "rename the user's folder windows 10",
+    "how to rename the user's folder windows 10",
+    "how to change the user's folder name in windows 10"
+  ],
+  "youtube_title": "👨‍🎓 How to Rename the User’s Folder in Windows 10 (2021)",
+  "youtube_upload_date": "20170210",
+  "youtube_view_count": 396699
+}

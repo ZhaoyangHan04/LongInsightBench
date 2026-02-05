@@ -1,0 +1,594 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male with short, dark hair, wearing glasses and a light blue and white plaid shirt.",
+        "name": "Professor"
+      }
+    ],
+    "description": "A video analysis of a one-dimensional inelastic collision example, focusing on the conservation of linear momentum to solve for the final velocity of the objects involved.",
+    "fps": 29.97,
+    "qAndA": [
+      {
+        "answer": "The first object is initially at rest, meaning its velocity is zero. Since momentum is the product of mass and velocity, its initial momentum is also zero.",
+        "question": "Why is the initial momentum of the first object zero?"
+      },
+      {
+        "answer": "The second object is moving to the left, which is defined as the negative x-direction according to the chosen coordinate system.",
+        "question": "Why is a negative sign used for the initial velocity of the second object?"
+      },
+      {
+        "answer": "In an inelastic collision, kinetic energy is not conserved. The objects may deform or stick together, resulting in a loss of kinetic energy.",
+        "question": "What does it mean for a collision to be inelastic?"
+      },
+      {
+        "answer": "Yes, in an elastic collision, both momentum and kinetic energy are conserved. This would result in a different final speed for the objects compared to an inelastic collision.",
+        "question": "If the collision were elastic, would the final speed be different?"
+      },
+      {
+        "answer": "No, momentum is a vector quantity, meaning it has both magnitude and direction. A coordinate system is necessary to assign signs to the velocities and ensure the correct calculation of the total momentum.",
+        "question": "Could you solve this problem without defining a coordinate system?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Professor introduces the topic: a one-dimensional inelastic collision example.",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "description": "Professor explains the initial conditions of the two objects.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.010",
+              "start_timestamp": "00:00:10.010"
+            }
+          },
+          {
+            "description": "Professor describes the collision and the resulting motion of the objects.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.992",
+              "start_timestamp": "00:00:24.992"
+            }
+          },
+          {
+            "description": "Professor poses the question: What is the final common speed of the objects?",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Professor"
+            ],
+            "description": "The professor directly addresses the viewers, explaining the problem and engaging them in the thought process."
+          }
+        ],
+        "contextualRelevance": "Setting up the problem and explaining the initial setup and question.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The title of the problem is introduced.",
+            "timestamp": "00:00:04.004"
+          },
+          {
+            "description": "The initial conditions of the objects are detailed.",
+            "timestamp": "00:00:10.010"
+          },
+          {
+            "description": "The collision and the final state of the objects are described.",
+            "timestamp": "00:00:24.992"
+          },
+          {
+            "description": "The central question of the problem is posed.",
+            "timestamp": "00:00:33.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with drawings of two rectangular objects, arrows indicating motion, and equations.",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to the concept of conservation of linear momentum in the context of inelastic collisions.",
+        "timestamps": {
+          "end_timestamp": "00:00:34.968",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Problem Setup",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor states that linear momentum is conserved.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "description": "Professor writes the equation for conservation of momentum (Pf = Pi).",
+            "timestamp": {
+              "end_timestamp": "00:00:47.014",
+              "start_timestamp": "00:00:47.014"
+            }
+          },
+          {
+            "description": "Professor emphasizes the vector nature of the equation and the need for a coordinate system.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.990",
+              "start_timestamp": "00:00:56.990"
+            }
+          },
+          {
+            "description": "Professor defines the positive x direction to the right.",
+            "timestamp": {
+              "end_timestamp": "00:01:01.995",
+              "start_timestamp": "00:01:01.995"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Professor"
+            ],
+            "description": "The professor continues to directly engage the viewers, guiding them through the solution process."
+          }
+        ],
+        "contextualRelevance": "Explaining and applying the concept of momentum conservation in the given scenario.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The concept of conserved momentum is highlighted.",
+            "timestamp": "00:00:35.002"
+          },
+          {
+            "description": "The fundamental equation for momentum conservation is introduced.",
+            "timestamp": "00:00:47.014"
+          },
+          {
+            "description": "The importance of a coordinate system for vector quantities is emphasized.",
+            "timestamp": "00:00:56.990"
+          },
+          {
+            "description": "The positive x-direction is established, solidifying the frame of reference.",
+            "timestamp": "00:01:01.995"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with drawings and equations.",
+            "timestamp": {
+              "end_timestamp": "00:01:05.999",
+              "start_timestamp": "00:00:35.002"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Application of the conservation of linear momentum principle to the collision problem.",
+        "timestamps": {
+          "end_timestamp": "00:01:07.968",
+          "start_timestamp": "00:00:35.002"
+        },
+        "title": "Applying Conservation of Momentum",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor translates the vector equation into scalar form in the x-direction.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:01:08.001"
+            }
+          },
+          {
+            "description": "Professor writes the equation for final momentum in the x-direction.",
+            "timestamp": {
+              "end_timestamp": "00:01:11.004",
+              "start_timestamp": "00:01:11.004"
+            }
+          },
+          {
+            "description": "Professor writes the equation for initial momentum in the x-direction.",
+            "timestamp": {
+              "end_timestamp": "00:01:21.014",
+              "start_timestamp": "00:01:21.014"
+            }
+          },
+          {
+            "description": "Professor substitutes the given values into the equation.",
+            "timestamp": {
+              "end_timestamp": "00:01:33.994",
+              "start_timestamp": "00:01:33.994"
+            }
+          },
+          {
+            "description": "Professor explains the negative sign for the initial velocity of the second object.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.984",
+              "start_timestamp": "00:01:56.984"
+            }
+          },
+          {
+            "description": "Professor explains the negative sign for the final velocity based on the chosen drawing.",
+            "timestamp": {
+              "end_timestamp": "00:02:08.996",
+              "start_timestamp": "00:02:08.996"
+            }
+          },
+          {
+            "description": "Professor simplifies the equation and solves for the final velocity.",
+            "timestamp": {
+              "end_timestamp": "00:02:21.008",
+              "start_timestamp": "00:02:21.008"
+            }
+          },
+          {
+            "description": "Professor emphasizes that the final speed is 0.5 meters per second.",
+            "timestamp": {
+              "end_timestamp": "00:02:54.007",
+              "start_timestamp": "00:02:54.007"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Professor"
+            ],
+            "description": "The professor continues to directly guide the viewers, providing detailed explanations of each step."
+          }
+        ],
+        "contextualRelevance": "Detailed explanation and calculation of the final velocity of the objects involved.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The vector equation is broken down into scalar components.",
+            "timestamp": "00:01:08.001"
+          },
+          {
+            "description": "The final momentum is expressed in terms of the unknown final velocity.",
+            "timestamp": "00:01:11.004"
+          },
+          {
+            "description": "The initial momentum is expressed considering the velocities of both objects.",
+            "timestamp": "00:01:21.014"
+          },
+          {
+            "description": "Numerical values are substituted into the equation.",
+            "timestamp": "00:01:33.994"
+          },
+          {
+            "description": "The sign convention for velocities is explained.",
+            "timestamp": "00:01:56.984"
+          },
+          {
+            "description": "The negative sign for final velocity is justified based on the drawing.",
+            "timestamp": "00:02:08.996"
+          },
+          {
+            "description": "The equation is simplified, leading to the solution for final velocity.",
+            "timestamp": "00:02:21.008"
+          },
+          {
+            "description": "The final answer for the speed is stated clearly.",
+            "timestamp": "00:02:54.007"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with equations.",
+            "timestamp": {
+              "end_timestamp": "00:02:57.010",
+              "start_timestamp": "00:01:08.001"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Demonstration of the mathematical application of conservation of momentum to find the final velocity of objects after an inelastic collision.",
+        "timestamps": {
+          "end_timestamp": "00:02:58.979",
+          "start_timestamp": "00:01:08.001"
+        },
+        "title": "Solving for Final Velocity",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor reiterates the final speed of 0.5 meters per second.",
+            "timestamp": {
+              "end_timestamp": "00:02:59.012",
+              "start_timestamp": "00:02:59.012"
+            }
+          },
+          {
+            "description": "Professor clarifies the final velocity as 0.5 meters per second to the left.",
+            "timestamp": {
+              "end_timestamp": "00:03:00.013",
+              "start_timestamp": "00:03:00.013"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Professor"
+            ],
+            "description": "The professor directly addresses the viewers, ensuring they understand the final answer."
+          }
+        ],
+        "contextualRelevance": "Summarizing and confirming the results of the calculation.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The final speed is restated for emphasis.",
+            "timestamp": "00:02:59.012"
+          },
+          {
+            "description": "The final velocity is presented, including its direction, offering a complete solution.",
+            "timestamp": "00:03:00.013"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with final answer.",
+            "timestamp": {
+              "end_timestamp": "00:03:04.985",
+              "start_timestamp": "00:02:59.012"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Conclusion of the problem, highlighting the final speed and velocity of the objects after the collision.",
+        "timestamps": {
+          "end_timestamp": "00:03:05.919",
+          "start_timestamp": "00:02:59.012"
+        },
+        "title": "Conclusion and Final Answer",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Final speed is calculated and stated.",
+        "timestamp": "00:02:54.007"
+      },
+      "description": "Solving for the final common speed and velocity of two objects after a one-dimensional inelastic collision.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Conservation of Linear Momentum - 1D Inelastic Collision Example",
+    "trimmingSuggestions": [
+      {
+        "description": "To enhance dynamism, Scene 3 (Solving for Final Velocity) could be slightly condensed by simplifying some of the explanations, assuming the audience has basic physics knowledge.",
+        "timestamps": {
+          "end_timestamp": "00:02:59.012",
+          "start_timestamp": "00:02:59.012"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 186,
+  "original_json_filename": "ym2c6k09YY4.json",
+  "original_video_filename": "ym2c6k09YY4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "here we have an example of one-dimensional inelastic collision now let's assume that we have two objects one object which is initially not moving and another object which is initially moving towards the first object at the speed of 1 m/s those two objects are colliding and if the collision is hundred percent inelastic then at the end they will travel together so the question is what is the final common speed of those objects now to solve this we're going to use that linear momentum is conserved therefore at the momentum final must be equal to the momentum initial this is a vector equation therefore we should specify our coordinate system so let's assume that to the right as usual is plus X so in X Direction this one will - slate in to that mass one plus mass two traveling together at some final velocity is equal to mass one times its velocity initial plus mass two times its velocity initial now if I plug in the numbers for the right side I'm gonna have zero for my initial momentum of object one so I only have Tormentum of object two so I have 1 kilogram times - because I'm going against my x coordinate system 1 meter per second and on the left side I have my total mass so one kilogram plus 2 kilogram is 2 kilogram times now according to my drawing the V file is to the left therefore I would have to choose minus the final here according my coordinate system so what do I get I get minus one kilogram meters per second is equal to two kilograms times V final and negative so I divide by the minus two kilograms and I get the final the final speed is one kilogram meters per second divided by two kilograms the minus cancel each other the kilogram cancels each other so I get 0.5 meters per second as my final speed and if I was asked what is the final velocity I would have to say 0.5 meters per second to the left",
+  "text_to_speech_word_count": 350,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.143",
+      "start": "00:00:00.000",
+      "text": " Here we have an example of one dimensional inelastic collision."
+    },
+    {
+      "end": "00:00:16.116",
+      "start": "00:00:10.143",
+      "text": " Now let's assume that we have two objects, one object which is initially not moving and"
+    },
+    {
+      "end": "00:00:22.789",
+      "start": "00:00:16.116",
+      "text": " an object which is initially moving towards the first object at the speed of one meters"
+    },
+    {
+      "end": "00:00:24.558",
+      "start": "00:00:22.789",
+      "text": " per second."
+    },
+    {
+      "end": "00:00:30.797",
+      "start": "00:00:24.558",
+      "text": " Those two objects are colliding and if the collision is 100% inelastic then at the end"
+    },
+    {
+      "end": "00:00:33.033",
+      "start": "00:00:30.797",
+      "text": " they will travel together."
+    },
+    {
+      "end": "00:00:41.475",
+      "start": "00:00:33.033",
+      "text": " So the question is what is the final common speed of those objects?"
+    },
+    {
+      "end": "00:00:46.313",
+      "start": "00:00:41.475",
+      "text": " To solve this we're going to use that linear momentum is conserved."
+    },
+    {
+      "end": "00:00:57.558",
+      "start": "00:00:46.313",
+      "text": " Therefore at the momentum final must be equal to the momentum initial."
+    },
+    {
+      "end": "00:01:01.428",
+      "start": "00:00:57.558",
+      "text": " This is a vector equation therefore we should specify our coordinate system."
+    },
+    {
+      "end": "00:01:06.466",
+      "start": "00:01:01.428",
+      "text": " So let's assume that to the right as usual is plus x."
+    },
+    {
+      "end": "00:01:15.909",
+      "start": "00:01:06.466",
+      "text": " So in x direction this one will to slate into that mass 1 plus mass 2 traveling together"
+    },
+    {
+      "end": "00:01:30.224",
+      "start": "00:01:16.143",
+      "text": " at some final velocity is equal to mass 1 times its velocity initial plus mass 2 times"
+    },
+    {
+      "end": "00:01:33.794",
+      "start": "00:01:30.224",
+      "text": " its velocity initial."
+    },
+    {
+      "end": "00:01:41.168",
+      "start": "00:01:33.794",
+      "text": " I've had plug in the numbers for the right side and going to have zero for my initial"
+    },
+    {
+      "end": "00:01:42.836",
+      "start": "00:01:41.168",
+      "text": " momentum of object 1."
+    },
+    {
+      "end": "00:01:51.512",
+      "start": "00:01:42.836",
+      "text": " So I only have the momentum of object 2 so I have 1 kilogram times minus because I'm"
+    },
+    {
+      "end": "00:01:58.118",
+      "start": "00:01:51.512",
+      "text": " going against my x coordinate system 1 meter per second."
+    },
+    {
+      "end": "00:02:06.994",
+      "start": "00:01:58.118",
+      "text": " On the left side I have my total mass so 1 kilogram plus 2 kilogram is 2 kilogram times."
+    },
+    {
+      "end": "00:02:14.268",
+      "start": "00:02:06.994",
+      "text": " Now according to my drawing the v final is to the left therefore I would have to choose"
+    },
+    {
+      "end": "00:02:19.873",
+      "start": "00:02:14.268",
+      "text": " minus v final here according to my coordinate system."
+    },
+    {
+      "end": "00:02:20.874",
+      "start": "00:02:19.873",
+      "text": " So what do I get?"
+    },
+    {
+      "end": "00:02:33.187",
+      "start": "00:02:20.874",
+      "text": " I get minus 1 kilogram meters per second is equal to 2 kilograms times v final and negative."
+    },
+    {
+      "end": "00:02:42.796",
+      "start": "00:02:33.187",
+      "text": " So I divide by the minus 2 kilograms and I get the final the final speed is 1 kilogram"
+    },
+    {
+      "end": "00:02:49.703",
+      "start": "00:02:42.796",
+      "text": " meters per second divided by 2 kilograms the minus cancel each other."
+    },
+    {
+      "end": "00:02:59.546",
+      "start": "00:02:49.703",
+      "text": " The kilogram cancel each other so I get 0.5 meters per second as my final speed and if"
+    },
+    {
+      "end": "00:03:05.385",
+      "start": "00:02:59.546",
+      "text": " I was asked what is the final velocity I would have to say 0.5 meters per second to the"
+    },
+    {
+      "end": "00:03:05.719",
+      "start": "00:03:05.385",
+      "text": " left."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Stefan Bracher",
+  "youtube_channel_follower_count": 830,
+  "youtube_comment_count": 0,
+  "youtube_description": "Example of conservation of linear momentume in a 1D inelastic collision.",
+  "youtube_like_count": 2,
+  "youtube_tags": [
+    "NYA",
+    "inelastic collision",
+    "linear momentum",
+    "conservation of linear momentum",
+    "example",
+    "1D",
+    "mechanics",
+    "physics"
+  ],
+  "youtube_title": "1D Inelastic Collision Example",
+  "youtube_upload_date": "20191130",
+  "youtube_view_count": 211
+}

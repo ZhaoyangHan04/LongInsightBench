@@ -1,0 +1,207 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [],
+    "description": "The video presents a research project on Zero-Shot Learning via Visual Abstraction. It highlights the challenge of finding training images for specific categories and proposes using abstract illustrations for training instead of textual descriptions. The researchers created a custom interface for generating illustrations and tested their model on real images, demonstrating its effectiveness.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The main challenge is the difficulty in finding sufficient training images for those specific categories.",
+        "question": "What is the main challenge in training models for fine-grained categories?"
+      },
+      {
+        "answer": "The video proposes using abstract illustrations instead of textual descriptions for training models.",
+        "question": "What alternative approach is proposed in the video?"
+      },
+      {
+        "answer": "They developed a custom clipart interface and had Amazon Mechanical Turk workers create illustrations depicting various interactions.",
+        "question": "How did the researchers generate these abstract illustrations?"
+      },
+      {
+        "answer": "The models trained on abstract illustrations outperformed both random and attribute-based baselines.",
+        "question": "What were the results of testing the trained models on real images?"
+      },
+      {
+        "answer": "The project webpage, the URL is displayed on the last slide of the video.",
+        "question": "Where can one find more details about the project?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Neutral",
+        "timestamps": {
+          "end_timestamp": "00:00:06.900",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Challenge",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Neutral",
+        "timestamps": {
+          "end_timestamp": "00:00:22.000",
+          "start_timestamp": "00:00:06.933"
+        },
+        "title": "Proposed Approach: Abstract Illustrations",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Neutral",
+        "timestamps": {
+          "end_timestamp": "00:00:59.867",
+          "start_timestamp": "00:00:22.033"
+        },
+        "title": "Testing and Results",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "N/A",
+        "timestamp": null
+      },
+      "description": "The video presents a research project on Zero-Shot Learning via Visual Abstraction. It highlights the challenge of finding training images for specific categories and proposes using abstract illustrations for training instead of textual descriptions. The researchers created a custom interface for generating illustrations and tested their model on real images, demonstrating its effectiveness.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Research Project on Zero-Shot Learning via Visual Abstraction",
+    "trimmingSuggestions": [
+      {
+        "description": "The entire video could be made more dynamic by incorporating video footage of the researchers explaining their work, demonstrating their interface, and showcasing the results on real-world examples. Additionally, adding background music and transitions between sections would enhance the overall flow and engagement.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 60,
+  "original_json_filename": "EWOmSeVmDrc.json",
+  "original_video_filename": "EWOmSeVmDrc.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "It is hard to find training images for fine-grained categories. For some visual concepts, such as American Goldfinch, a supervisor can provide an attribute- or text-based description, such as \"it has a yellow body and has black wings,\" to train a model without requiring training images. This is called Zero-Shot Learning. But other concepts, such as dancing, are hard to describe via text. We propose using abstract illustrations, instead of textual descriptions, for Zero-Shot Learning. We made a custom clipart interface and then had MTurk workers create illustrations depicting various interactions between two people. We train models of these interactions using just these illustrations. We then test these models on real images, beating both random and attribute baselines. More experiments and details can be found on the project webpage.",
+  "text_to_speech_word_count": 129,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.000",
+      "start": "00:00:00.000",
+      "text": " It is hard to find training images for fine-grained categories."
+    },
+    {
+      "end": "00:00:13.000",
+      "start": "00:00:07.000",
+      "text": " For some visual concepts, such as American Gold Finch, a supervisor can provide an attribute"
+    },
+    {
+      "end": "00:00:18.200",
+      "start": "00:00:13.000",
+      "text": " or text-based description such as, it has a yellow body and has black wings, the train"
+    },
+    {
+      "end": "00:00:21.200",
+      "start": "00:00:18.200",
+      "text": " to model without requiring training images."
+    },
+    {
+      "end": "00:00:23.800",
+      "start": "00:00:21.200",
+      "text": " This is called zero-shot learning."
+    },
+    {
+      "end": "00:00:29.600",
+      "start": "00:00:23.800",
+      "text": " But other concepts, such as dancing, are hard to describe by a text."
+    },
+    {
+      "end": "00:00:34.100",
+      "start": "00:00:29.600",
+      "text": " We propose using abstract illustrations instead of textual descriptions for zero-shot"
+    },
+    {
+      "end": "00:00:36.300",
+      "start": "00:00:34.100",
+      "text": " learning."
+    },
+    {
+      "end": "00:00:40.633",
+      "start": "00:00:36.300",
+      "text": " We may have to custom-clip our interface and then had mTORC workers create illustrations"
+    },
+    {
+      "end": "00:00:43.900",
+      "start": "00:00:40.633",
+      "text": " depicting various interactions between two people."
+    },
+    {
+      "end": "00:00:48.067",
+      "start": "00:00:43.900",
+      "text": " We train models of these interactions who suggest these illustrations."
+    },
+    {
+      "end": "00:00:54.100",
+      "start": "00:00:48.067",
+      "text": " We then test these models on real images, beating both random and attribute baselines."
+    },
+    {
+      "end": "00:00:56.900",
+      "start": "00:00:54.100",
+      "text": " More experiments and details can be found on a project webpage."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Stanislaw Antol",
+  "youtube_channel_follower_count": 9,
+  "youtube_comment_count": 0,
+  "youtube_description": "This is the spotlight video for the ECCV 2014 paper \"Zero-Shot Learning via Visual Abstraction\" by Stanislaw Antol, Larry Zitnick, and Devi Parikh.",
+  "youtube_like_count": 0,
+  "youtube_tags": [],
+  "youtube_title": "Zero-Shot Learning via Visual Abstraction ECCV 2014 Spotlight",
+  "youtube_upload_date": "20141010",
+  "youtube_view_count": 1219
+}

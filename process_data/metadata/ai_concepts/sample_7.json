@@ -1,0 +1,391 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male voice, not visually present.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "A video presenting research on Alzheimer's disease using structural connectivity and explainable AI techniques.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "MRI images from the ADNI dataset.",
+        "question": "What type of data was used in this research?"
+      },
+      {
+        "answer": "BrainNetCNN was adapted and trained on the constructed DWI-MRI tractography.",
+        "question": "What specific AI model architecture was adapted for this study?"
+      },
+      {
+        "answer": "The entorhinal region showed the most significant difference between Alzheimer's patients and healthy controls.",
+        "question": "Can you explain the significance of the \"entorhinal\" region mentioned in the findings?"
+      },
+      {
+        "answer": "It helps researchers understand which specific brain regions and connections the AI model prioritizes for its predictions, leading to a deeper understanding of Alzheimer's.",
+        "question": "Why is \"explainable AI\" crucial in this context?"
+      },
+      {
+        "answer": "The research successfully uses explainable AI to achieve high accuracy in predicting Alzheimer's and identifies key brain regions (entorhinal and hippocampus) associated with the disease.",
+        "question": "What is the overall takeaway message of this research?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaker introduces himself",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Speaker introduces the research topic",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the research topic and its relevance.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Speaker introduces himself.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Speaker states the research question.",
+            "timestamp": "00:00:02.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with title, authors, university affiliation, and date",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Alzheimer's disease, structural connectivity, explainable AI.",
+        "timestamps": {
+          "end_timestamp": "00:00:08.133",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Static slide",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker explains the research methodology.",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:08.167"
+            }
+          },
+          {
+            "description": "Speaker presents the key findings.",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious, transitions to Content as results are presented.",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to a table with positive results, likely leading to a sense of satisfaction.",
+              "timestamp": "00:00:29.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlights the lack of tools for understanding Alzheimer's connectivity with AI and the need for explainable AI.",
+            "timestamp": "00:00:08.167"
+          },
+          {
+            "description": "Visual explanation of the method using MRI images, tractography, and AI models.",
+            "timestamp": "00:00:21.000"
+          },
+          {
+            "description": "Presentation of classification results, showcasing high accuracy in predicting Alzheimer's.",
+            "timestamp": "00:00:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with bullet points outlining the research problem",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:08.167"
+            }
+          },
+          {
+            "name": "Presentation slide with a diagram of the methodology and key elements",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          },
+          {
+            "name": "Presentation slide with a table showing classification results",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Machine learning, deep learning algorithms, MRI, tractography, ADNI dataset, classification performance.",
+        "timestamps": {
+          "end_timestamp": "00:00:37.000",
+          "start_timestamp": "00:00:08.167"
+        },
+        "title": "Methodology & Results",
+        "videoEditingDetails": [
+          {
+            "description": "Slide transitions",
+            "timestamps": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:08.167"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker emphasizes the use of explainable AI techniques.",
+            "timestamp": {
+              "end_timestamp": "00:00:44.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          },
+          {
+            "description": "Speaker summarizes the experiments and their interpretations.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious, transitions to Pensive during the analysis discussion.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift to a slide focused on analysis, suggesting a move towards reflection and interpretation of the findings.",
+              "timestamp": "00:00:44.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Focus on using features visualization and ablation analysis for interpretation.",
+            "timestamp": "00:00:37.033"
+          },
+          {
+            "description": "Investigating the impact of changing connectivity strength between brain regions.",
+            "timestamp": "00:00:40.000"
+          },
+          {
+            "description": "Highlights the role of multiple cortical regions, the importance of the entorhinal region and hippocampus, and the correlation with existing Alzheimer's literature.",
+            "timestamp": "00:00:44.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide illustrating the \"explainable AI\" concept with visualizations.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          },
+          {
+            "name": "Presentation slide detailing regions and connections in the brain.",
+            "timestamp": {
+              "end_timestamp": "00:00:44.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "name": "Presentation slide summarizing the experiment analysis and key findings",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Explainable AI, feature visualization, saliency maps, ablation analysis, entorhinal region, hippocampus.",
+        "timestamps": {
+          "end_timestamp": "00:00:54.167",
+          "start_timestamp": "00:00:37.033"
+        },
+        "title": "Explainable AI & Experiments",
+        "videoEditingDetails": [
+          {
+            "description": "Slide transitions",
+            "timestamps": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The revelation of specific brain regions (entorhinal and hippocampus) as key areas impacted by Alzheimer's.",
+        "timestamp": "00:00:44.000"
+      },
+      "description": "Research on Alzheimer's Connectivity",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Understanding Alzheimer disease's structural connectivity through explainable AI",
+    "trimmingSuggestions": [
+      {
+        "description": "To enhance dynamism, consider shortening the static slide durations, especially in Scenes 1 and 2.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Replacing some text-heavy slides with visuals or animations could further engage the audience.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 54,
+  "original_json_filename": "7zsARrGGV34.json",
+  "original_video_filename": "7zsARrGGV34.mp4",
+  "resolution": "638x360",
+  "text_to_speech": "hi everyone my name is ashraf sumeri and i will work understanding alzheimer's disease structural connectivity through expandable ai we use machine learning algorithms and machine learning interpretability and explainability in order to understand dementia it's a new work perspective of using explainable ai instead of developing new complex algorithm by training adapted version of branded sending over constructed dui emulatorgraphy over mri images from adding dataset we could achieve a very good performance of classification while fine-tuning the model's hyper parameters meanwhile we use features visualization techniques and ablation analysis in order to interpret the model's prediction and classification for better understanding of responsible regions of dementia thank you",
+  "text_to_speech_word_count": 110,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:02.933",
+      "start": "00:00:00.000",
+      "text": " Hi everyone, my name is Ashnaf Esumini."
+    },
+    {
+      "end": "00:00:08.000",
+      "start": "00:00:02.933",
+      "text": " I will work understanding on the MSDZ Structural Open Activities through Expendable AI."
+    },
+    {
+      "end": "00:00:12.900",
+      "start": "00:00:08.000",
+      "text": " We use machine learning algorithms and machine learning interpretability and"
+    },
+    {
+      "end": "00:00:15.533",
+      "start": "00:00:12.900",
+      "text": " explainability in order to understand dementia."
+    },
+    {
+      "end": "00:00:21.600",
+      "start": "00:00:15.533",
+      "text": " It's a new work perspective of using Expendable AI instead of developing new complex algorithms."
+    },
+    {
+      "end": "00:00:25.533",
+      "start": "00:00:21.600",
+      "text": " By train and a perversion of branded send in over-constacted DIY MRI"
+    },
+    {
+      "end": "00:00:32.533",
+      "start": "00:00:25.533",
+      "text": " and data set, we could achieve a very good performance of classification while"
+    },
+    {
+      "end": "00:00:36.533",
+      "start": "00:00:32.533",
+      "text": " fine-tuning the model's hyperparameters."
+    },
+    {
+      "end": "00:00:40.533",
+      "start": "00:00:36.533",
+      "text": " Meanwhile, we use features visualization techniques and"
+    },
+    {
+      "end": "00:00:46.533",
+      "start": "00:00:40.533",
+      "text": " ablation analysis in order to interpret the model's prediction and classification"
+    },
+    {
+      "end": "00:00:52.533",
+      "start": "00:00:46.533",
+      "text": " for better understanding of responsible regions of dementia."
+    },
+    {
+      "end": "00:00:53.533",
+      "start": "00:00:52.533",
+      "text": " Thank you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "MIDL Society",
+  "youtube_channel_follower_count": 894,
+  "youtube_comment_count": 0,
+  "youtube_description": "P304 - Understanding Alzheimer disease’s structural connectivity through explainable AI\n\nAchraf Essemlali, Etienne St-Onge, Jean Christophe Houde, Pierre Marc Jodoin, Maxime Descoteaux",
+  "youtube_like_count": 1,
+  "youtube_tags": [],
+  "youtube_title": "P304 - Understanding Alzheimer disease’s structural connectivity through explainable AI",
+  "youtube_upload_date": "20210628",
+  "youtube_view_count": 70
+}

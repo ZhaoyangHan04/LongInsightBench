@@ -1,0 +1,1353 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Bald man with a beard, wearing a light beige t-shirt with a cartoon character printed on it.",
+        "name": "Jarred Sumner"
+      },
+      {
+        "characterId": "2",
+        "description": "Young man with curly hair and glasses, wearing a light green t-shirt.",
+        "name": "Dave Caruso"
+      },
+      {
+        "characterId": "3",
+        "description": "Young man with short dark hair, clean-shaven, wearing a blue long-sleeved shirt.",
+        "name": "Ashcon Partovi"
+      }
+    ],
+    "description": "Analysis of a video introducing the new features and improvements in Bun 1.1.",
+    "fps": 23.976023976023978,
+    "qAndA": [
+      {
+        "answer": "Bun.Install is 18 times faster than both yarn and pnpm on Windows.",
+        "question": "How much faster is Bun.Install compared to yarn and pnpm on Windows?"
+      },
+      {
+        "answer": "Bun eliminates the 'Terminate batch job' prompt when sending a Ctrl+C signal in Windows.",
+        "question": "What annoying prompt does Bun fix when interrupting a running process on Windows?"
+      },
+      {
+        "answer": "The Bun shell API, imported as '$' from 'bun,' allows this functionality.",
+        "question": "What new API allows you to use JavaScript variables as arguments in shell commands within JavaScript code?"
+      },
+      {
+        "answer": "To prevent execution of arbitrary scripts from untrusted NPM packages, ensuring safer dependency management.",
+        "question": "What is the main reason for introducing the 'trustedDependencies' list in Bun's package manager?"
+      },
+      {
+        "answer": "Bun automatically migrates 'package-lock.json' to 'bun.lockb' during the first 'bun install' in a repository.",
+        "question": "How does Bun facilitate the migration from projects using NPM or yarn to Bun?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jarred Sumner"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jarred Sumner"
+            ],
+            "description": "Speaks directly to the viewer, establishing a friendly and informative tone."
+          }
+        ],
+        "contextualRelevance": "Introduction to key updates in Bun 1.1.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Excited - Jarred Sumner expresses enthusiasm about the new update, with upbeat music and bright lighting.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of Bun 1.1 and its significance.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Overview of Bun's purpose and improvements.",
+            "timestamp": "00:00:07.007"
+          },
+          {
+            "description": "Mention of new APIs and Windows support.",
+            "timestamp": "00:00:13.013"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stuffed bun character",
+            "timestamp": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Guitar case",
+            "timestamp": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Picture frame",
+            "timestamp": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Houseplant",
+            "timestamp": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Wooden staircase",
+            "timestamp": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Innovation, Enthusiasm",
+        "timestamps": {
+          "end_timestamp": "00:00:22.689",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1: Introduction by Jarred Sumner",
+        "videoEditingDetails": [
+          {
+            "description": "Fade in from black",
+            "timestamps": {
+              "end_timestamp": "00:00:02.002",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Static shot of Jarred Sumner",
+            "timestamps": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:02.002"
+            }
+          },
+          {
+            "description": "Lower third graphic appears",
+            "timestamps": {
+              "end_timestamp": "00:00:22.689",
+              "start_timestamp": "00:00:02.002"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to the camera, walking across the room",
+            "timestamp": {
+              "end_timestamp": "00:01:18.912",
+              "start_timestamp": "00:00:22.981"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Dave Caruso"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dave Caruso"
+            ],
+            "description": "Speaks directly to the viewer, showcasing excitement for new features."
+          }
+        ],
+        "contextualRelevance": "Highlights Bun's improvements specific to Windows.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited - Emphasis on significant speed improvements and improved developer experience on Windows.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of Windows support.",
+            "timestamp": "00:00:22.981"
+          },
+          {
+            "description": "Focus on performance advantages and developer experience.",
+            "timestamp": "00:00:28.987"
+          },
+          {
+            "description": "Transition to installation instructions for Windows.",
+            "timestamp": "00:01:07.985"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stuffed bun character",
+            "timestamp": {
+              "end_timestamp": "00:01:18.912",
+              "start_timestamp": "00:00:22.981"
+            }
+          },
+          {
+            "name": "Couch",
+            "timestamp": {
+              "end_timestamp": "00:01:18.912",
+              "start_timestamp": "00:00:22.981"
+            }
+          },
+          {
+            "name": "Houseplant",
+            "timestamp": {
+              "end_timestamp": "00:01:18.912",
+              "start_timestamp": "00:00:22.981"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Performance, Accessibility",
+        "timestamps": {
+          "end_timestamp": "00:01:18.912",
+          "start_timestamp": "00:00:22.731"
+        },
+        "title": "Scene 2: Performance Improvements by Dave Caruso",
+        "videoEditingDetails": [
+          {
+            "description": "Static shot of Dave Caruso",
+            "timestamps": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:22.981"
+            }
+          },
+          {
+            "description": "Screen split with performance comparisons",
+            "timestamps": {
+              "end_timestamp": "00:01:18.912",
+              "start_timestamp": "00:00:28.987"
+            }
+          },
+          {
+            "description": "Lower third graphic appears",
+            "timestamps": {
+              "end_timestamp": "00:01:18.912",
+              "start_timestamp": "00:00:22.981"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to the camera, gesturing with hands",
+            "timestamp": {
+              "end_timestamp": "00:02:12.007",
+              "start_timestamp": "00:01:18.996"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Ashcon Partovi"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Ashcon Partovi"
+            ],
+            "description": "Interacts directly with the viewer, conveying excitement for new capabilities."
+          }
+        ],
+        "contextualRelevance": "Introduces significant Bun shell advancements.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited - Highlights the innovative features and ease of using the Bun shell.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Focus on new cross-platform Bun shell and advantages.",
+            "timestamp": "00:01:18.996"
+          },
+          {
+            "description": "Demonstration of Bun shell within JavaScript.",
+            "timestamp": "00:01:53.989"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stuffed bun character",
+            "timestamp": {
+              "end_timestamp": "00:02:12.007",
+              "start_timestamp": "00:01:18.996"
+            }
+          },
+          {
+            "name": "Kitchen countertop",
+            "timestamp": {
+              "end_timestamp": "00:02:12.007",
+              "start_timestamp": "00:01:18.996"
+            }
+          },
+          {
+            "name": "Dining table",
+            "timestamp": {
+              "end_timestamp": "00:02:12.007",
+              "start_timestamp": "00:01:18.996"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Innovation, Flexibility",
+        "timestamps": {
+          "end_timestamp": "00:02:12.716",
+          "start_timestamp": "00:01:18.954"
+        },
+        "title": "Scene 3: Bun Shell Introduction by Ashcon Partovi",
+        "videoEditingDetails": [
+          {
+            "description": "Static shot of Ashcon Partovi",
+            "timestamps": {
+              "end_timestamp": "00:01:29.006",
+              "start_timestamp": "00:01:18.996"
+            }
+          },
+          {
+            "description": "Screen split with code examples",
+            "timestamps": {
+              "end_timestamp": "00:02:12.007",
+              "start_timestamp": "00:01:29.006"
+            }
+          },
+          {
+            "description": "Lower third graphic appears",
+            "timestamps": {
+              "end_timestamp": "00:02:12.007",
+              "start_timestamp": "00:01:18.996"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:02:41.995",
+              "start_timestamp": "00:02:13.008"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Dave Caruso"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dave Caruso"
+            ],
+            "description": "Encourages viewer participation and feedback."
+          }
+        ],
+        "contextualRelevance": "Focuses on compatibility improvements and community involvement.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative - Neutral tone presenting updates and encouraging feedback.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Announcement of improved Node.js compatibility and supported packages.",
+            "timestamp": "00:02:13.008"
+          },
+          {
+            "description": "Highlight of WebSocket and web standard API improvements.",
+            "timestamp": "00:02:23.018"
+          },
+          {
+            "description": "Call for user feedback on GitHub.",
+            "timestamp": "00:02:32.986"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stuffed bun character",
+            "timestamp": {
+              "end_timestamp": "00:02:41.995",
+              "start_timestamp": "00:02:13.008"
+            }
+          },
+          {
+            "name": "Couch",
+            "timestamp": {
+              "end_timestamp": "00:02:41.995",
+              "start_timestamp": "00:02:13.008"
+            }
+          },
+          {
+            "name": "Houseplant",
+            "timestamp": {
+              "end_timestamp": "00:02:41.995",
+              "start_timestamp": "00:02:13.008"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Compatibility, User Engagement",
+        "timestamps": {
+          "end_timestamp": "00:02:42.746",
+          "start_timestamp": "00:02:12.758"
+        },
+        "title": "Scene 4: Node.js Compatibility by Dave Caruso",
+        "videoEditingDetails": [
+          {
+            "description": "Static shot of Dave Caruso",
+            "timestamps": {
+              "end_timestamp": "00:02:22.017",
+              "start_timestamp": "00:02:13.008"
+            }
+          },
+          {
+            "description": "Screen split with code examples",
+            "timestamps": {
+              "end_timestamp": "00:02:31.985",
+              "start_timestamp": "00:02:23.018"
+            }
+          },
+          {
+            "description": "URL for Bun's GitHub issues page appears",
+            "timestamps": {
+              "end_timestamp": "00:02:41.995",
+              "start_timestamp": "00:02:37.991"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to the camera, gesturing with hands",
+            "timestamp": {
+              "end_timestamp": "00:03:17.989",
+              "start_timestamp": "00:02:42.996"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Ashcon Partovi"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Ashcon Partovi"
+            ],
+            "description": "Addresses the viewer directly, emphasizing speed advancements."
+          }
+        ],
+        "contextualRelevance": "Emphasizes significant speed improvements in Bun 1.1.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited - Showcases speed improvements through data comparisons.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Reiteration of Bun's speed improvements.",
+            "timestamp": "00:02:42.996"
+          },
+          {
+            "description": "Presentation of performance comparisons.",
+            "timestamp": "00:02:48.001"
+          },
+          {
+            "description": "Transition back to Jarred Sumner.",
+            "timestamp": "00:03:12.984"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stuffed bun character",
+            "timestamp": {
+              "end_timestamp": "00:03:17.989",
+              "start_timestamp": "00:02:42.996"
+            }
+          },
+          {
+            "name": "Kitchen countertop",
+            "timestamp": {
+              "end_timestamp": "00:03:17.989",
+              "start_timestamp": "00:02:42.996"
+            }
+          },
+          {
+            "name": "Dining table",
+            "timestamp": {
+              "end_timestamp": "00:03:17.989",
+              "start_timestamp": "00:02:42.996"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Performance, Innovation",
+        "timestamps": {
+          "end_timestamp": "00:03:18.448",
+          "start_timestamp": "00:02:42.788"
+        },
+        "title": "Scene 5: Performance Highlights by Ashcon Partovi",
+        "videoEditingDetails": [
+          {
+            "description": "Static shot of Ashcon Partovi",
+            "timestamps": {
+              "end_timestamp": "00:02:47.000",
+              "start_timestamp": "00:02:42.996"
+            }
+          },
+          {
+            "description": "Screen split with performance comparisons",
+            "timestamps": {
+              "end_timestamp": "00:03:17.989",
+              "start_timestamp": "00:02:48.001"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:05:41.007",
+              "start_timestamp": "00:03:18.490"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Jarred Sumner"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jarred Sumner"
+            ],
+            "description": "Concludes with a personable and inviting approach."
+          }
+        ],
+        "contextualRelevance": "Summarizes Bun's advancements and invites collaboration.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative and Excited - Concludes with a positive outlook on Bun's future.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Transition from performance to new features in Bun 1.1.",
+            "timestamp": "00:03:18.490"
+          },
+          {
+            "description": "Introduction of Bun.Glob and Bun.Semver.",
+            "timestamp": "00:03:25.997"
+          },
+          {
+            "description": "Enhanced test runner and package manager overview.",
+            "timestamp": "00:03:48.019"
+          },
+          {
+            "description": "Installation instructions for Bun.",
+            "timestamp": "00:04:30.020"
+          },
+          {
+            "description": "Closing remarks and call to action.",
+            "timestamp": "00:05:29.996"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stuffed bun character",
+            "timestamp": {
+              "end_timestamp": "00:05:41.007",
+              "start_timestamp": "00:03:18.490"
+            }
+          },
+          {
+            "name": "Guitar case",
+            "timestamp": {
+              "end_timestamp": "00:05:41.007",
+              "start_timestamp": "00:03:18.490"
+            }
+          },
+          {
+            "name": "Picture frame",
+            "timestamp": {
+              "end_timestamp": "00:05:41.007",
+              "start_timestamp": "00:03:18.490"
+            }
+          },
+          {
+            "name": "Houseplant",
+            "timestamp": {
+              "end_timestamp": "00:05:41.007",
+              "start_timestamp": "00:03:18.490"
+            }
+          },
+          {
+            "name": "Wooden staircase",
+            "timestamp": {
+              "end_timestamp": "00:05:41.007",
+              "start_timestamp": "00:03:18.490"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Innovation, Future Outlook",
+        "timestamps": {
+          "end_timestamp": "00:05:42.551",
+          "start_timestamp": "00:03:18.490"
+        },
+        "title": "Scene 6: Conclusion by Jarred Sumner",
+        "videoEditingDetails": [
+          {
+            "description": "Static shot of Jarred Sumner",
+            "timestamps": {
+              "end_timestamp": "00:03:30.001",
+              "start_timestamp": "00:03:18.490"
+            }
+          },
+          {
+            "description": "Screen split with code and performance examples",
+            "timestamps": {
+              "end_timestamp": "00:05:28.995",
+              "start_timestamp": "00:03:31.002"
+            }
+          },
+          {
+            "description": "URL for Bun's Careers page appears",
+            "timestamps": {
+              "end_timestamp": "00:05:41.007",
+              "start_timestamp": "00:05:29.996"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Showcases the most impressive performance comparisons.",
+        "timestamp": "00:02:48.001"
+      },
+      "description": "The video showcases the latest features, improvements, and excitement surrounding Bun 1.1, with a focus on speed, compatibility, and innovative tools.",
+      "scenes": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Bun 1.1 is here! Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "Shortening this segment can create a smoother transition to Scene 2.",
+        "timestamps": {
+          "end_timestamp": "00:03:18.490",
+          "start_timestamp": "00:03:18.490"
+        }
+      },
+      {
+        "description": "Condense this demonstration for a brisker pace.",
+        "timestamps": {
+          "end_timestamp": "00:03:18.490",
+          "start_timestamp": "00:03:18.490"
+        }
+      },
+      {
+        "description": "Make this segment concise by focusing on key benefits.",
+        "timestamps": {
+          "end_timestamp": "00:03:18.490",
+          "start_timestamp": "00:03:18.490"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 343,
+  "original_json_filename": "yXTFOeGly9o.json",
+  "original_video_filename": "yXTFOeGly9o.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "bun 1.1 is finally here and it's a huge update JavaScript is complicated bun exists to make JavaScript less complicated more fun and more productive we've made bun faster more reliable and reduced memory usage but we've also added new apis and after many months of hard work we've addressed the number one feature request window support we're really excited for Windows developers to see the speed and developer experience of bun Bon install is 18 times faster than yarn and pmpm and 30 times faster than mpm on Windows and BN run and Bun X are over 11 times faster than mpm run on Windows we've also implemented optimizations for node.js apis FS Reeder is 58% faster on bun compared to nodejs on Windows Bond on Windows has the same great developer experience as you would expect on Mac OS and Linux here we're saving a file on each keystroke and you can see how fast bun is rerunning the changes to the test we've also fix that annoying terminate batch job prompt when you send control C to the process in bun this just works to install bun on Windows run the following command in your terminal in bun 1.1 bun is now a crossplatform shell like bash different shells have slightly different syntaxes rules and commands on which Windows rm-rf doesn't work instead you have to download the rim Raff mpm package and environment variables don't work on windows before the command to fix this you have to download and install the cross M mpm package with the bun shell the need for these dependencies is gone you can just write a script using bash syntax and expect it to work on any platform and you can use the shell directly from JavaScript the API uses string templating which means you use JavaScript variables is arguments in your commands it's great for writing quick scripts in your project where you don't want to worry about things like compatibility issues and it's faster than the existing shells while bun has a lot of new apis we've also made significant progress towards better node.js compatibility in bun 1.1 the following mpm packages now work in bun we've also added and fixed various web standard apis in bun 1.1 websocket now passes the industry standard autobond performance test suite and is now stable if you find an mpm package that doesn't work in bun please let us know by opening an issue in bun geta repository if it works in node.js but not in bun it's a bug in bun bun is fast in bun 1.1 we've made it even faster command line tools like TSC start two times faster than in bun 1.0 es build starts 11 times faster and V and prettier both start faster in bun 1.1 1 we've also optimized a ton of node.js apis in bun 1.1 the node HTTP server is 29% faster than in bun 1.0 and using FS rodor to list files in a directory is 22 times faster than in OJs but we didn't just make bun faster in bun 1.1 we've added new apis to make your life easier as a developer bun glob is a fast API for matching strings and files using glob patterns it's similar to popular npm packages like Fast glob except it can match up to three times faster we've also added bun sver a built-in API for parsing and sorting sver strings bun sver is up to 20 times faster than the popular node sver package one of the ways we validate that bun is efficient and correct is by using its built-in testr runner in bun 1.1 we've made it even easier to switch from just and vest to bun we've implemented dozens more expect matchers we've also added module mocking which supports both commonjs and esm Bun is able to update mocks on the Fly even in the middle of a test before you can run code you need to install dependencies that's why bun is also a package manager in bun 1.1 we added support for dependency life cycle scripts unlike npm bun will only run scripts from packages that are in The Trusted dependencies list in your package Json the 500 most dependent on packages on npm like es build are already trusted by bun and will will just work we've also made it even easier to migrate from npm install to bun install when you run bun install for the first time in a repository bun automatically migrates from package lock Json to buns lock file bun lock b we want developers who use npm or yarn to feel at home when they switch to bun in bun 1.1 we've also made a lot of improvements to Bun's developer experience we've simplified stack traces so it's easier to find the context that matters most to you we've also added syntax highlight ting to the snippet of code above errors for better readability that's it that's bun 1.1 bun is faster more reliable and has tons of new apis and Bug fixes most importantly bun now supports Windows to get started with bun rent any of the following install commands in your terminal we fixed over 900 bugs since bun 1.0 and stability is our number one priority if you encounter a bug that we still haven't fixed don't forget to upload the GitHub isue or create a new one and if you want to join our team check out our careers page we're hiring systems Engineers to help us shape the future of JavaScript bun 1.1 is still just the beginning",
+  "text_to_speech_word_count": 942,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.132",
+      "start": "00:00:00.000",
+      "text": " Bun 1.1 is finally here, and it's a huge update."
+    },
+    {
+      "end": "00:00:08.759",
+      "start": "00:00:07.132",
+      "text": " JavaScript is complicated."
+    },
+    {
+      "end": "00:00:11.220",
+      "start": "00:00:08.759",
+      "text": " Bun exists to make JavaScript less complicated,"
+    },
+    {
+      "end": "00:00:13.388",
+      "start": "00:00:11.220",
+      "text": " more fun, and more productive."
+    },
+    {
+      "end": "00:00:15.557",
+      "start": "00:00:13.388",
+      "text": " We've made Bun faster, more reliable,"
+    },
+    {
+      "end": "00:00:17.184",
+      "start": "00:00:15.557",
+      "text": " and reduced memory usage."
+    },
+    {
+      "end": "00:00:19.686",
+      "start": "00:00:17.184",
+      "text": " But we've also added new APIs, and after many months"
+    },
+    {
+      "end": "00:00:23.273",
+      "start": "00:00:19.686",
+      "text": " of hard work, we've addressed the number one feature request."
+    },
+    {
+      "end": "00:00:24.983",
+      "start": "00:00:23.273",
+      "text": " Windows support."
+    },
+    {
+      "end": "00:00:26.985",
+      "start": "00:00:24.983",
+      "text": " We're really excited for Windows developers"
+    },
+    {
+      "end": "00:00:30.447",
+      "start": "00:00:26.985",
+      "text": " to see the speed and developer experience of Bun."
+    },
+    {
+      "end": "00:00:35.285",
+      "start": "00:00:30.447",
+      "text": " Bun install is 18 times faster than Yarn and PMPM,"
+    },
+    {
+      "end": "00:00:39.164",
+      "start": "00:00:35.285",
+      "text": " and 30 times faster than MPM on Windows."
+    },
+    {
+      "end": "00:00:43.710",
+      "start": "00:00:39.164",
+      "text": " And Bun Run and Bun X are over 11 times faster than MPM"
+    },
+    {
+      "end": "00:00:45.671",
+      "start": "00:00:43.710",
+      "text": " run on Windows."
+    },
+    {
+      "end": "00:00:49.800",
+      "start": "00:00:45.671",
+      "text": " We've also implemented optimizations for Node.js APIs."
+    },
+    {
+      "end": "00:00:55.514",
+      "start": "00:00:49.800",
+      "text": " FS Reader is 58% faster on Bun compared to Node.js on Windows."
+    },
+    {
+      "end": "00:00:58.308",
+      "start": "00:00:55.514",
+      "text": " Bun on Windows has the same great developer experience"
+    },
+    {
+      "end": "00:01:00.769",
+      "start": "00:00:58.308",
+      "text": " as you would expect on Mac OS and Linux."
+    },
+    {
+      "end": "00:01:03.605",
+      "start": "00:01:00.769",
+      "text": " Here, we're saving a file on each keystroke,"
+    },
+    {
+      "end": "00:01:06.400",
+      "start": "00:01:03.605",
+      "text": " and you can see how fast Bun is rerunning the changes"
+    },
+    {
+      "end": "00:01:07.359",
+      "start": "00:01:06.400",
+      "text": " to the test."
+    },
+    {
+      "end": "00:01:10.654",
+      "start": "00:01:07.359",
+      "text": " We've also fixed that annoying, terminate batch job prompt"
+    },
+    {
+      "end": "00:01:13.073",
+      "start": "00:01:10.654",
+      "text": " when you send control C to the process."
+    },
+    {
+      "end": "00:01:15.158",
+      "start": "00:01:13.073",
+      "text": " In Bun, this just works."
+    },
+    {
+      "end": "00:01:17.744",
+      "start": "00:01:15.158",
+      "text": " To install Bun on Windows, run the following command"
+    },
+    {
+      "end": "00:01:19.454",
+      "start": "00:01:17.744",
+      "text": " in your terminal."
+    },
+    {
+      "end": "00:01:24.668",
+      "start": "00:01:19.454",
+      "text": " In Bun 1.1, Bun is now a cross-platform shell, like Bash."
+    },
+    {
+      "end": "00:01:27.879",
+      "start": "00:01:24.668",
+      "text": " Different shells have slightly different syntaxes,"
+    },
+    {
+      "end": "00:01:29.715",
+      "start": "00:01:27.879",
+      "text": " rules, and commands."
+    },
+    {
+      "end": "00:01:33.176",
+      "start": "00:01:29.715",
+      "text": " On Windows, RM-RF doesn't work."
+    },
+    {
+      "end": "00:01:36.847",
+      "start": "00:01:33.176",
+      "text": " Instead, you have to download the RimRaff and PM package."
+    },
+    {
+      "end": "00:01:38.807",
+      "start": "00:01:36.847",
+      "text": " And environment variables don't work on Windows"
+    },
+    {
+      "end": "00:01:40.434",
+      "start": "00:01:38.807",
+      "text": " before the command."
+    },
+    {
+      "end": "00:01:43.145",
+      "start": "00:01:40.434",
+      "text": " To fix this, you have to download and install the cross-nth"
+    },
+    {
+      "end": "00:01:44.771",
+      "start": "00:01:43.145",
+      "text": " and PM package."
+    },
+    {
+      "end": "00:01:47.816",
+      "start": "00:01:44.771",
+      "text": " With the Bun shell, the need for these dependencies is gone."
+    },
+    {
+      "end": "00:01:50.444",
+      "start": "00:01:47.816",
+      "text": " You can just write a script using Bash syntax"
+    },
+    {
+      "end": "00:01:53.572",
+      "start": "00:01:50.444",
+      "text": " and expect it to work on any platform."
+    },
+    {
+      "end": "00:01:57.242",
+      "start": "00:01:53.572",
+      "text": " And you can use the shell directly from JavaScript."
+    },
+    {
+      "end": "00:01:59.453",
+      "start": "00:01:57.242",
+      "text": " The API uses string templating, which"
+    },
+    {
+      "end": "00:02:01.747",
+      "start": "00:01:59.453",
+      "text": " means you can use JavaScript variables"
+    },
+    {
+      "end": "00:02:03.957",
+      "start": "00:02:01.747",
+      "text": " as arguments in your commands."
+    },
+    {
+      "end": "00:02:06.877",
+      "start": "00:02:03.957",
+      "text": " It's great for writing quick scripts in your project"
+    },
+    {
+      "end": "00:02:08.378",
+      "start": "00:02:06.877",
+      "text": " where you don't want to worry about things"
+    },
+    {
+      "end": "00:02:10.255",
+      "start": "00:02:08.378",
+      "text": " like compatibility issues."
+    },
+    {
+      "end": "00:02:13.008",
+      "start": "00:02:10.255",
+      "text": " And it's faster than the existing shells."
+    },
+    {
+      "end": "00:02:15.010",
+      "start": "00:02:13.008",
+      "text": " While Bun has a lot of new APIs,"
+    },
+    {
+      "end": "00:02:16.720",
+      "start": "00:02:15.010",
+      "text": " we've also made significant progress"
+    },
+    {
+      "end": "00:02:19.097",
+      "start": "00:02:16.720",
+      "text": " towards better Node.js compatibility."
+    },
+    {
+      "end": "00:02:21.641",
+      "start": "00:02:19.097",
+      "text": " In Bun 1.1, the following MPM packages"
+    },
+    {
+      "end": "00:02:23.435",
+      "start": "00:02:21.641",
+      "text": " now work in Bun."
+    },
+    {
+      "end": "00:02:27.105",
+      "start": "00:02:23.435",
+      "text": " We've also added and fixed various web standard APIs."
+    },
+    {
+      "end": "00:02:30.650",
+      "start": "00:02:27.105",
+      "text": " In Bun 1.1, WebSocken now passes the industry standard"
+    },
+    {
+      "end": "00:02:33.403",
+      "start": "00:02:30.650",
+      "text": " Autobahn conformance test suite and is now stable."
+    },
+    {
+      "end": "00:02:36.031",
+      "start": "00:02:33.403",
+      "text": " If you find an MPM package that doesn't work in Bun,"
+    },
+    {
+      "end": "00:02:38.200",
+      "start": "00:02:36.031",
+      "text": " please let us know by opening an issue in Bun's GitHub"
+    },
+    {
+      "end": "00:02:39.117",
+      "start": "00:02:38.200",
+      "text": " repository."
+    },
+    {
+      "end": "00:02:41.328",
+      "start": "00:02:39.117",
+      "text": " If it works in Node.js, but not in Bun,"
+    },
+    {
+      "end": "00:02:42.913",
+      "start": "00:02:41.328",
+      "text": " it's a bug in Bun."
+    },
+    {
+      "end": "00:02:44.331",
+      "start": "00:02:42.913",
+      "text": " Bun is fast."
+    },
+    {
+      "end": "00:02:48.043",
+      "start": "00:02:44.331",
+      "text": " In Bun 1.1, we've made it even faster."
+    },
+    {
+      "end": "00:02:52.005",
+      "start": "00:02:48.043",
+      "text": " Command line tools like TSC start two times faster"
+    },
+    {
+      "end": "00:02:53.840",
+      "start": "00:02:52.005",
+      "text": " than in Bun 1.0."
+    },
+    {
+      "end": "00:02:57.928",
+      "start": "00:02:53.840",
+      "text": " ES build starts 11 times faster, and V and Pridier both"
+    },
+    {
+      "end": "00:03:00.847",
+      "start": "00:02:57.928",
+      "text": " start faster in Bun 1.1."
+    },
+    {
+      "end": "00:03:05.143",
+      "start": "00:03:00.847",
+      "text": " We've also optimized a ton of Node.js APIs."
+    },
+    {
+      "end": "00:03:11.900",
+      "start": "00:03:05.143",
+      "text": " In Bun 1.1, the Node HTTP server is 29% faster than in Bun 1.0."
+    },
+    {
+      "end": "00:03:15.362",
+      "start": "00:03:11.900",
+      "text": " And using FS Reader to list files in a directory"
+    },
+    {
+      "end": "00:03:18.657",
+      "start": "00:03:15.362",
+      "text": " is 22 times faster than in Node.js."
+    },
+    {
+      "end": "00:03:20.951",
+      "start": "00:03:18.657",
+      "text": " But we didn't just make Bun faster."
+    },
+    {
+      "end": "00:03:24.496",
+      "start": "00:03:20.951",
+      "text": " In Bun 1.1, we've added new APIs to make your life easier"
+    },
+    {
+      "end": "00:03:25.956",
+      "start": "00:03:24.496",
+      "text": " as a developer."
+    },
+    {
+      "end": "00:03:29.251",
+      "start": "00:03:25.956",
+      "text": " Bun glob is a fast API for matching strings and files"
+    },
+    {
+      "end": "00:03:31.002",
+      "start": "00:03:29.251",
+      "text": " using glob patterns."
+    },
+    {
+      "end": "00:03:34.047",
+      "start": "00:03:31.002",
+      "text": " It's similar to popular MPM packages like FastGlob,"
+    },
+    {
+      "end": "00:03:37.968",
+      "start": "00:03:34.047",
+      "text": " except it can match up to three times faster."
+    },
+    {
+      "end": "00:03:40.470",
+      "start": "00:03:37.968",
+      "text": " We've also added BunSember, a built in API"
+    },
+    {
+      "end": "00:03:43.306",
+      "start": "00:03:40.470",
+      "text": " for parsing and sorting Sember strings."
+    },
+    {
+      "end": "00:03:46.685",
+      "start": "00:03:43.306",
+      "text": " BunSember is up to 20 times faster than the popular Node"
+    },
+    {
+      "end": "00:03:47.894",
+      "start": "00:03:46.685",
+      "text": " Sember package."
+    },
+    {
+      "end": "00:03:50.605",
+      "start": "00:03:47.894",
+      "text": " One of the ways we validate that Bun is efficient and correct"
+    },
+    {
+      "end": "00:03:52.774",
+      "start": "00:03:50.605",
+      "text": " is by using its built in test runner."
+    },
+    {
+      "end": "00:03:55.360",
+      "start": "00:03:52.774",
+      "text": " In Bun 1.1, we've made it even easier"
+    },
+    {
+      "end": "00:03:57.863",
+      "start": "00:03:55.360",
+      "text": " to switch from just invite test to Bun."
+    },
+    {
+      "end": "00:04:00.490",
+      "start": "00:03:57.863",
+      "text": " We've implemented dozens more expect matches."
+    },
+    {
+      "end": "00:04:02.576",
+      "start": "00:04:00.490",
+      "text": " We've also added module mocking, which"
+    },
+    {
+      "end": "00:04:05.162",
+      "start": "00:04:02.576",
+      "text": " supports both common.js and ESM."
+    },
+    {
+      "end": "00:04:08.248",
+      "start": "00:04:05.162",
+      "text": " Bun is able to update Mox on the fly even in the middle"
+    },
+    {
+      "end": "00:04:09.082",
+      "start": "00:04:08.248",
+      "text": " of a test."
+    },
+    {
+      "end": "00:04:12.502",
+      "start": "00:04:09.082",
+      "text": " Before you can run code, you need to install dependencies."
+    },
+    {
+      "end": "00:04:14.588",
+      "start": "00:04:12.502",
+      "text": " That's why Bun is also a package manager."
+    },
+    {
+      "end": "00:04:17.841",
+      "start": "00:04:14.588",
+      "text": " In Bun 1.1, we added support for dependency lifecycle"
+    },
+    {
+      "end": "00:04:18.842",
+      "start": "00:04:17.841",
+      "text": " scripts."
+    },
+    {
+      "end": "00:04:20.594",
+      "start": "00:04:18.842",
+      "text": " Unlike NPM, Bun will only"
+    },
+    {
+      "end": "00:04:23.221",
+      "start": "00:04:20.594",
+      "text": " run scripts from packages that are in the trusted dependencies"
+    },
+    {
+      "end": "00:04:24.973",
+      "start": "00:04:23.221",
+      "text": " list in your package JSON."
+    },
+    {
+      "end": "00:04:27.642",
+      "start": "00:04:24.973",
+      "text": " The 500 most dependent on packages on NPM like ES"
+    },
+    {
+      "end": "00:04:30.437",
+      "start": "00:04:27.642",
+      "text": " build are already trusted by Bun and will just work."
+    },
+    {
+      "end": "00:04:32.689",
+      "start": "00:04:30.437",
+      "text": " We've also made it even easier to migrate from NPM"
+    },
+    {
+      "end": "00:04:34.232",
+      "start": "00:04:32.689",
+      "text": " install to Bun install."
+    },
+    {
+      "end": "00:04:37.444",
+      "start": "00:04:34.232",
+      "text": " When you run Bun install for the first time in a repository,"
+    },
+    {
+      "end": "00:04:39.529",
+      "start": "00:04:37.444",
+      "text": " Bun automatically migrates from package lock"
+    },
+    {
+      "end": "00:04:42.449",
+      "start": "00:04:39.529",
+      "text": " JSON to Bun's lock file, Bun lock B."
+    },
+    {
+      "end": "00:04:45.869",
+      "start": "00:04:42.449",
+      "text": " We want developers who use NPM or Yarn to feel at home"
+    },
+    {
+      "end": "00:04:47.120",
+      "start": "00:04:45.869",
+      "text": " when they switch to Bun."
+    },
+    {
+      "end": "00:04:50.290",
+      "start": "00:04:47.120",
+      "text": " In Bun 1.1, we've also made a lot of improvements"
+    },
+    {
+      "end": "00:04:52.501",
+      "start": "00:04:50.290",
+      "text": " to Bun's developer experience."
+    },
+    {
+      "end": "00:04:54.920",
+      "start": "00:04:52.501",
+      "text": " We've simplified stack traces, so it's easier"
+    },
+    {
+      "end": "00:04:57.714",
+      "start": "00:04:54.920",
+      "text": " to find the context that matters most to you."
+    },
+    {
+      "end": "00:04:59.966",
+      "start": "00:04:57.714",
+      "text": " We've also added syntax highlighting"
+    },
+    {
+      "end": "00:05:03.887",
+      "start": "00:04:59.966",
+      "text": " to the snippet of code above errors for better readability."
+    },
+    {
+      "end": "00:05:05.096",
+      "start": "00:05:03.887",
+      "text": " That's it."
+    },
+    {
+      "end": "00:05:06.848",
+      "start": "00:05:05.096",
+      "text": " That's Bun 1.1."
+    },
+    {
+      "end": "00:05:09.851",
+      "start": "00:05:06.848",
+      "text": " Bun is faster, more reliable, and has"
+    },
+    {
+      "end": "00:05:12.354",
+      "start": "00:05:09.851",
+      "text": " tons of new APIs in bug fixes."
+    },
+    {
+      "end": "00:05:15.398",
+      "start": "00:05:12.354",
+      "text": " Most importantly, Bun now supports Windows."
+    },
+    {
+      "end": "00:05:18.193",
+      "start": "00:05:15.398",
+      "text": " To get started with Bun, run any of the following install"
+    },
+    {
+      "end": "00:05:19.236",
+      "start": "00:05:18.193",
+      "text": " commands in your terminal."
+    },
+    {
+      "end": "00:05:22.113",
+      "start": "00:05:19.319",
+      "text": " We fix over 900 bugs since Bun 1.0."
+    },
+    {
+      "end": "00:05:24.783",
+      "start": "00:05:22.113",
+      "text": " Instability is our number one priority."
+    },
+    {
+      "end": "00:05:27.285",
+      "start": "00:05:24.783",
+      "text": " If you encounter a bug that we still haven't fixed,"
+    },
+    {
+      "end": "00:05:30.080",
+      "start": "00:05:27.285",
+      "text": " don't forget to upvote the GitHub issue or create a new one."
+    },
+    {
+      "end": "00:05:33.124",
+      "start": "00:05:30.080",
+      "text": " And if you want to join our team, check out our careers page."
+    },
+    {
+      "end": "00:05:36.086",
+      "start": "00:05:33.124",
+      "text": " We're hiring systems engineers to help us shape the future"
+    },
+    {
+      "end": "00:05:37.295",
+      "start": "00:05:36.086",
+      "text": " of JavaScript."
+    },
+    {
+      "end": "00:05:40.215",
+      "start": "00:05:37.295",
+      "text": " Bun 1.1 is still just the beginning."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Bun",
+  "youtube_channel_follower_count": 34800,
+  "youtube_comment_count": 742,
+  "youtube_description": "Bun 1.1 adds Windows support! Bun is a fast JavaScript runtime, package manager, test runner, and bundler all-in-one. JavaScript is complicated. Bun exists to make JavaScript simpler.\n\nhttps://bun.sh/",
+  "youtube_like_count": 10131,
+  "youtube_tags": [
+    "bun",
+    "javascript",
+    "node",
+    "node.js",
+    "bun.js",
+    "typescript",
+    "bundler",
+    "runtime"
+  ],
+  "youtube_title": "Bun 1.1: Bundows is here",
+  "youtube_upload_date": "20240401",
+  "youtube_view_count": 185285
+}

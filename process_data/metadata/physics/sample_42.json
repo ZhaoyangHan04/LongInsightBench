@@ -1,0 +1,583 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Lecturer. Not visible on screen, only his name appears in the title card.",
+        "name": "Dr. Michael Groves"
+      },
+      {
+        "characterId": "2",
+        "description": "Physicist. Appears in a black and white photo, elderly, with light hair, wearing a suit and tie.",
+        "name": "Max Born"
+      }
+    ],
+    "description": "A lecture video explaining the time-independent Schrödinger Equation, its derivation, and the interpretation of the wave function ψ(x).",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The video focuses on the time-independent version, which describes the steady state of a system, while the time-dependent version incorporates changes over time.",
+        "question": "What is the difference between the time-dependent and time-independent Schrödinger Equations?"
+      },
+      {
+        "answer": "It uses a solution method for the wave equation, based on separating variables, as a starting point to arrive at the Schrödinger Equation.",
+        "question": "How does the video relate the wave equation to the Schrödinger Equation?"
+      },
+      {
+        "answer": "It indicates the complex conjugate of the wave function ψ(x).",
+        "question": "What does the asterisk denote in the equation \"I ∝ ψ*(x)ψ(x)\"?"
+      },
+      {
+        "answer": "He interpreted the intensity, calculated from the wave function, as a probability distribution function, which is a key concept in quantum mechanics.",
+        "question": "How does Max Born contribute to understanding the wave function?"
+      },
+      {
+        "answer": "It illustrates the wave-like behavior of particles and suggests that the wave function describes the amplitude of this wave, which is then linked to the probability of finding a particle at a specific location.",
+        "question": "How does the video's explanation of the double-slit experiment connect to the wave function?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dr. Michael Groves"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral (Content). The title card presents factual information about the lecture.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the topic and the lecturer.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title card with the lecture title, course name, lecturer's name, department, and university.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.800",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:14.800",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Title Card",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral (Content).  Presents factual information about the structure of the lecture.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Outlines the key topics that will be covered in the lecture.",
+            "timestamp": "00:00:15.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text outlining the table of contents for the lecture.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:35.000",
+          "start_timestamp": "00:00:14.833"
+        },
+        "title": "Table of Contents",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Curious). The lecturer explains complex scientific concepts in an engaging manner, encouraging curiosity.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift in focus to the main subject of the equation.",
+              "timestamp": "00:00:35.033"
+            },
+            {
+              "changeDescription": "Commences the mathematical derivation by revisiting fundamental concepts.",
+              "timestamp": "00:00:42.000"
+            },
+            {
+              "changeDescription": "Solving the equation by proposing a methodical approach.",
+              "timestamp": "00:00:49.000"
+            },
+            {
+              "changeDescription": "Simplifying the equation by omitting certain variables.",
+              "timestamp": "00:01:08.000"
+            },
+            {
+              "changeDescription": "Concludes the derivation with the time-independent form of the equation.",
+              "timestamp": "00:01:57.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the time-independent Schrödinger Equation and how it is derived from the wave equation.",
+            "timestamp": "00:00:35.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text explaining the time-independent Schrödinger Equation and its derivation. Mathematical formulas and equations are presented.",
+            "timestamp": {
+              "end_timestamp": "00:02:32.000",
+              "start_timestamp": "00:00:35.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Wave-particle duality, quantum mechanics, energy of a system, potential energy.",
+        "timestamps": {
+          "end_timestamp": "00:02:32.900",
+          "start_timestamp": "00:00:35.033"
+        },
+        "title": "Time-Independent Schrödinger Equation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Max Born"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Max Born"
+            ],
+            "description": "Max Born is presented as a key figure in interpreting the wave function."
+          }
+        ],
+        "contextualRelevance": "Highlights the shift in thinking from deterministic classical mechanics to probabilistic quantum mechanics.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Pensive). The scene shifts to a more philosophical interpretation of the equation, prompting reflection on the nature of quantum mechanics.",
+          "keyMoments": [
+            {
+              "changeDescription": "Discusses the physical meaning of the wave function component.",
+              "timestamp": "00:02:39.000"
+            },
+            {
+              "changeDescription": "Contrasts classical with quantum interpretations.",
+              "timestamp": "00:02:57.000"
+            },
+            {
+              "changeDescription": "Elaborates on quantum interpretation differences.",
+              "timestamp": "00:03:09.000"
+            },
+            {
+              "changeDescription": "Max Born's perspective adds probabilistic view to quantum mechanics.",
+              "timestamp": "00:03:24.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the meaning of the wave function ψ(x) and its interpretation as a probability distribution function.",
+            "timestamp": "00:02:32.933"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text explaining the meaning of ψ(x) in the Schrödinger Equation. A black and white photograph of Max Born. Mathematical formulas related to probability distribution.",
+            "timestamp": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:02:32.933"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Wave function, probability distribution, quantum mechanics vs. classical mechanics, the Copenhagen Interpretation.",
+        "timestamps": {
+          "end_timestamp": "00:03:58.633",
+          "start_timestamp": "00:02:32.933"
+        },
+        "title": "What is ψ(x)?",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The most significant moment is the arrival at the time-independent Schrödinger Equation and its interpretation by Max Born.",
+        "timestamp": "00:03:24.000"
+      },
+      "description": "The video follows a single storyline focusing on explaining the time-independent Schrödinger Equation, its derivation, and the interpretation of the wave function ψ(x).",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "The Schrödinger Equation",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened significantly, perhaps just displaying the lecture title and lecturer's name briefly.",
+        "timestamps": {
+          "end_timestamp": "00:02:32.933",
+          "start_timestamp": "00:02:32.933"
+        }
+      },
+      {
+        "description": "Could be removed entirely, as the lecturer already explains the structure verbally.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Some of the mathematical derivation could be summarized or moved to supplementary material to keep the pace faster.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 239,
+  "original_json_filename": "flS_scz85W8.json",
+  "original_video_filename": "flS_scz85W8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "welcome to lecture six in today's preparation lecture we will put together several concepts we have already covered to solve the particle in a box problem and use it to quantify real physical systems this lecture is broken down into two parts the first part introduces the Schrodinger equation well the second part applies it to the particle in a box problem by looking at this problem we can practice calculating some important quantum mechanical properties and even apply it to conjugated double bonds to get a reasonable estimation of their emission spectra in this course we will focus on the time independent Schrodinger equation one way it can be derived as as such think back to the activity where we examined solutions to the wave equation to solve the wave equation we used a solution where u of X of T is equal to capital X of x times capital T of T meaning that it was a function totally of positionned times a function totally of time the separable nature of the wave equation allows us to examine the spatial part being the X part and ignore the temporal part being the T component for instance pretend that T of T is equal to cosine Omega T now this isn't a big stretch because we know that it will be a combination of sine and cosine functions the solution to that part of the differential equation at this point however we don't know what X of X is but instead of writing it as a capital X let's just the write it as a sigh of X therefore the solution to the wave equation U of X of T is equal to C of X times cosine Omega T if we plug this into the wave equation then the time part can be multiplied out and we were left with d squared C by DX squared plus Omega squared over V squared Phi of x equals to 0 using the de Broglie relation and assuming the total energy of a particle is the sum of its kinetic and potential energy yields negative H bar squared divided by 2m times d squared side by DX squared plus U of x sy of X is equal to e sy of X this is called the time independent Schrodinger equation and it describes the steady state of a system H bar is call the reduced Planck's constant and is just H divided by 2 pi e is the total energy of the system and used the potential that a particle of mass M is moving in there's a time-dependent version of this equation however many problems can be solved by looking solely at the steady state solutions so what is sigh of X what does it represent according to de Broglie particles connect as waves and one way that this was demonstrated was doing this double slit experiment where when a stream of particles was shot through to narrow slits we had an interference pattern that appeared on the screen in front of it Cybex represents the amplitude of the wave that represents a particle classically if one were to take the square of the amplitude of a wave then one gets the intensity of the wave and this means that this is the power that is delivered by the wave over an area per cycle however for quantum mechanics this interpretation is different basically this this intensity is written as I is proportional to size star side meaning side times its complex conjugate Max Born who is pictured on the right interpreted this intensity when multiplied by a spatial zone as the probability of finding a particle between X and X plus DX this is the widely accepted view and it means that the intensity of a particle described by the Schrodinger equation is actually a probability distribution function this means that for a given scenario we can solve the Schrodinger equation and get a wave function which describes our particle and then apply probabilistic theories to extract measurable quantities regarding our particle",
+  "text_to_speech_word_count": 683,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.500",
+      "start": "00:00:00.000",
+      "text": " Welcome to Lecture 6."
+    },
+    {
+      "end": "00:00:09.333",
+      "start": "00:00:05.500",
+      "text": " In today's preparation lecture, we will put together several concepts we have already"
+    },
+    {
+      "end": "00:00:15.300",
+      "start": "00:00:09.333",
+      "text": " covered to solve the particle-in-a-box problem and use it to quantify real physical systems."
+    },
+    {
+      "end": "00:00:17.733",
+      "start": "00:00:15.300",
+      "text": " This lecture is broken down into two parts."
+    },
+    {
+      "end": "00:00:21.867",
+      "start": "00:00:17.733",
+      "text": " The first part introduces the Schrodinger equation, while the second part applies it to the"
+    },
+    {
+      "end": "00:00:23.900",
+      "start": "00:00:21.867",
+      "text": " particle-in-a-box problem."
+    },
+    {
+      "end": "00:00:28.000",
+      "start": "00:00:23.900",
+      "text": " By looking at this problem, we can practice calculating some important quantum mechanical"
+    },
+    {
+      "end": "00:00:33.767",
+      "start": "00:00:28.000",
+      "text": " properties and even apply it to conjugated double bonds to get a reasonable estimation"
+    },
+    {
+      "end": "00:00:35.833",
+      "start": "00:00:33.767",
+      "text": " of their emission spectra."
+    },
+    {
+      "end": "00:00:40.000",
+      "start": "00:00:35.833",
+      "text": " In this course, we will focus on the time-independent Schrodinger equation."
+    },
+    {
+      "end": "00:00:42.200",
+      "start": "00:00:40.000",
+      "text": " One way it can be derived is as such."
+    },
+    {
+      "end": "00:00:46.200",
+      "start": "00:00:42.200",
+      "text": " Think back to the activity where we examine solutions to the wave equation."
+    },
+    {
+      "end": "00:00:51.467",
+      "start": "00:00:46.200",
+      "text": " To solve the wave equation, we use the solution where u of x of t is equal to capital X of"
+    },
+    {
+      "end": "00:00:56.600",
+      "start": "00:00:51.467",
+      "text": " x times capital T of t, meaning that it was a function totally of position times a function"
+    },
+    {
+      "end": "00:00:58.467",
+      "start": "00:00:56.600",
+      "text": " totally of time."
+    },
+    {
+      "end": "00:01:03.767",
+      "start": "00:00:58.467",
+      "text": " The separable nature of the wave equation allows us to examine the spatial part being the"
+    },
+    {
+      "end": "00:01:07.933",
+      "start": "00:01:03.767",
+      "text": " x part and ignore the temporal part being the t component."
+    },
+    {
+      "end": "00:01:13.467",
+      "start": "00:01:07.933",
+      "text": " For instance, pretend that t of t is equal to cosine omega t."
+    },
+    {
+      "end": "00:01:17.500",
+      "start": "00:01:13.467",
+      "text": " Now this isn't a big stretch because we know that it will be a combination of sine and"
+    },
+    {
+      "end": "00:01:22.200",
+      "start": "00:01:17.500",
+      "text": " cosine functions, the solution to that part of the differential equation."
+    },
+    {
+      "end": "00:01:26.033",
+      "start": "00:01:22.200",
+      "text": " At this point, however, we don't know what x of x is, but instead of writing it as a"
+    },
+    {
+      "end": "00:01:29.700",
+      "start": "00:01:26.033",
+      "text": " capital X, let's just rewrite it as a psi of x."
+    },
+    {
+      "end": "00:01:35.433",
+      "start": "00:01:29.700",
+      "text": " Therefore, the solution to the wave equation u of x of t is equal to psi of x times cosine"
+    },
+    {
+      "end": "00:01:37.233",
+      "start": "00:01:35.433",
+      "text": " omega t."
+    },
+    {
+      "end": "00:01:42.067",
+      "start": "00:01:37.233",
+      "text": " If we plug this into the wave equation, then the time part can be multiplied out and"
+    },
+    {
+      "end": "00:01:48.633",
+      "start": "00:01:42.067",
+      "text": " we were left with d squared psi by dx squared plus omega squared over v squared psi of x equals"
+    },
+    {
+      "end": "00:01:50.067",
+      "start": "00:01:48.633",
+      "text": " to zero."
+    },
+    {
+      "end": "00:01:54.100",
+      "start": "00:01:50.067",
+      "text": " Using the de Broglie relation and assuming the total energy of a particle is the sum of"
+    },
+    {
+      "end": "00:02:01.300",
+      "start": "00:01:54.200",
+      "text": " its kinetic and potential energy yields negative h bar squared divided by 2m times d squared"
+    },
+    {
+      "end": "00:02:07.667",
+      "start": "00:02:01.300",
+      "text": " psi by dx squared plus u of x psi of x is equal to e psi of x."
+    },
+    {
+      "end": "00:02:11.500",
+      "start": "00:02:07.667",
+      "text": " This is called the time independent Schrodinger equation and it describes the steady state"
+    },
+    {
+      "end": "00:02:12.833",
+      "start": "00:02:11.500",
+      "text": " of a system."
+    },
+    {
+      "end": "00:02:18.100",
+      "start": "00:02:12.833",
+      "text": " H bar is called the reduced Planck's constant and is just h divided by 2 pi."
+    },
+    {
+      "end": "00:02:22.867",
+      "start": "00:02:18.100",
+      "text": " E is the total energy of the system and use the potential that a particle of mass m is"
+    },
+    {
+      "end": "00:02:23.867",
+      "start": "00:02:22.867",
+      "text": " moving in."
+    },
+    {
+      "end": "00:02:28.833",
+      "start": "00:02:23.867",
+      "text": " There is a time dependent version of this equation, however many problems can be solved"
+    },
+    {
+      "end": "00:02:33.533",
+      "start": "00:02:28.833",
+      "text": " by looking solely at the steady state solutions."
+    },
+    {
+      "end": "00:02:35.667",
+      "start": "00:02:33.533",
+      "text": " So what is psi of x?"
+    },
+    {
+      "end": "00:02:37.600",
+      "start": "00:02:35.667",
+      "text": " What does it represent?"
+    },
+    {
+      "end": "00:02:41.867",
+      "start": "00:02:37.600",
+      "text": " According to De Broglie, particles connect as waves and one way that this was demonstrated"
+    },
+    {
+      "end": "00:02:46.267",
+      "start": "00:02:41.867",
+      "text": " was doing this double slit experiment where when a stream of particles was shot through"
+    },
+    {
+      "end": "00:02:51.600",
+      "start": "00:02:46.267",
+      "text": " two narrow slits, we had an interference pattern that appeared on the screen in front of"
+    },
+    {
+      "end": "00:02:52.600",
+      "start": "00:02:51.600",
+      "text": " it."
+    },
+    {
+      "end": "00:02:58.733",
+      "start": "00:02:52.600",
+      "text": " So psi of x represents the amplitude of the wave that represents a particle."
+    },
+    {
+      "end": "00:03:02.233",
+      "start": "00:02:58.733",
+      "text": " Classically if one were to take the square of the amplitude of a wave, then one gets the"
+    },
+    {
+      "end": "00:03:04.433",
+      "start": "00:03:02.233",
+      "text": " intensity of the wave."
+    },
+    {
+      "end": "00:03:08.500",
+      "start": "00:03:04.433",
+      "text": " And this means that this is the power that is delivered by the wave over an area per"
+    },
+    {
+      "end": "00:03:09.500",
+      "start": "00:03:08.500",
+      "text": " cycle."
+    },
+    {
+      "end": "00:03:13.533",
+      "start": "00:03:09.500",
+      "text": " However, for quantum mechanics, this interpretation is different."
+    },
+    {
+      "end": "00:03:21.633",
+      "start": "00:03:13.533",
+      "text": " Basically, this intensity is written as i as proportional to psi star psi, meaning psi"
+    },
+    {
+      "end": "00:03:24.333",
+      "start": "00:03:21.633",
+      "text": " times its complex conjugate."
+    },
+    {
+      "end": "00:03:29.933",
+      "start": "00:03:24.333",
+      "text": " Max Boren, who is pictured on the right, interpreted this intensity when multiplied by a spatial"
+    },
+    {
+      "end": "00:03:35.700",
+      "start": "00:03:29.933",
+      "text": " zone as the probability of finding a particle between x and x plus dx."
+    },
+    {
+      "end": "00:03:40.400",
+      "start": "00:03:35.700",
+      "text": " This is the widely accepted view, and it means that the intensity of a particle, described"
+    },
+    {
+      "end": "00:03:45.267",
+      "start": "00:03:40.400",
+      "text": " by the Schrodinger equation, is actually a probability distribution function."
+    },
+    {
+      "end": "00:03:49.433",
+      "start": "00:03:45.267",
+      "text": " This means that for a given scenario, we can solve the Schrodinger equation and get"
+    },
+    {
+      "end": "00:03:54.867",
+      "start": "00:03:49.433",
+      "text": " a wave function which describes our particle and then apply probabilistic theories to extract"
+    },
+    {
+      "end": "00:03:57.433",
+      "start": "00:03:54.867",
+      "text": " measurable quantities regarding our particle."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "Michael Groves",
+  "youtube_channel_follower_count": 629,
+  "youtube_comment_count": 0,
+  "youtube_description": "",
+  "youtube_like_count": 2,
+  "youtube_tags": [
+    "CHEM 361B"
+  ],
+  "youtube_title": "Lecture 6 (1 of 6) - The Schrödinger Equation",
+  "youtube_upload_date": "20190123",
+  "youtube_view_count": 908
+}

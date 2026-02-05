@@ -1,0 +1,831 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The speaker, providing a voiceover without visual presence in the video.",
+        "name": "Denchi"
+      }
+    ],
+    "description": "A video analysis on implementing a Linux kernel within Scratch.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "RISC-V architecture.",
+        "question": "What architecture is being emulated in the Scratch project?"
+      },
+      {
+        "answer": "Ducktape.",
+        "question": "What program is used to run JavaScript files within the emulated Linux environment?"
+      },
+      {
+        "answer": "It is stored in a list called 'RISCV.ROM.'",
+        "question": "How is the Linux kernel data stored within the Scratch project?"
+      },
+      {
+        "answer": "It appears to be implemented using Scratch sprites to represent characters on the display.",
+        "question": "How does the terminal interface work within Scratch?"
+      },
+      {
+        "answer": "TurboWarp.",
+        "question": "What tool is used to run the Scratch project faster than the native engine?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Denchi introduces the topic - a Linux kernel implementation in Scratch.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [
+          "Denchi"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Sets the stage for showcasing the impressive Scratch project.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Denchi starts by mentioning previous impressive Scratch projects.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Denchi highlights the Linux kernel as the most impressive he’s seen.",
+            "timestamp": "00:00:14.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "The power and versatility of Scratch, the unexpected nature of the project.",
+        "timestamps": {
+          "end_timestamp": "00:00:28.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Running and booting the Linux kernel in Scratch.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "description": "Exploring the terminal interface and running basic commands.",
+            "timestamp": {
+              "end_timestamp": "00:01:42.000",
+              "start_timestamp": "00:01:31.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Denchi"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Excited, transitioning to Curious as Denchi explores the system.",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from boot messages to an active terminal prompt.",
+              "timestamp": "00:01:31.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the functionality of the Linux kernel within Scratch.",
+            "timestamp": "00:00:28.033"
+          },
+          {
+            "description": "Denchi mentions the risk-five architecture being emulated.",
+            "timestamp": "00:00:30.000"
+          },
+          {
+            "description": "Full terminal interface is shown.",
+            "timestamp": "00:01:11.000"
+          },
+          {
+            "description": "The log shows a 1 GHz processor emulation.",
+            "timestamp": "00:01:20.000"
+          },
+          {
+            "description": "The system successfully boots to a login prompt.",
+            "timestamp": "00:01:29.000"
+          },
+          {
+            "description": "Denchi confirms the system is ‘Linux from Scratch’.",
+            "timestamp": "00:01:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch project interface displaying a terminal with Linux kernel boot messages.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "The technical details of emulation, the surprising level of functionality.",
+        "timestamps": {
+          "end_timestamp": "00:01:42.000",
+          "start_timestamp": "00:00:28.033"
+        },
+        "title": "Running the Linux Kernel",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Running commands (ls, cat) to check file system contents.",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:01:42.033"
+            }
+          },
+          {
+            "description": "Discussing available tools like ed editor, ducktape, and coremark.",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:02:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Denchi"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlights the features and limitations of the Linux installation in Scratch.",
+            "timestamp": "00:01:42.033"
+          },
+          {
+            "description": "Discovery of JavaScript program and readme file.",
+            "timestamp": "00:01:54.000"
+          },
+          {
+            "description": "Denchi reads the readme file explaining the system.",
+            "timestamp": "00:02:11.000"
+          },
+          {
+            "description": "Running the FizzBuzz JavaScript program using ducktape.",
+            "timestamp": "00:02:41.000"
+          },
+          {
+            "description": "Running the coremark benchmarking utility.",
+            "timestamp": "00:02:58.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch project interface displaying a terminal with command outputs.",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:01:42.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Exploration of system utilities, basic functionality demonstration, limitations of the bare-bones system.",
+        "timestamps": {
+          "end_timestamp": "00:03:16.000",
+          "start_timestamp": "00:01:42.033"
+        },
+        "title": "Exploring Capabilities",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Exploring the Scratch code implementing the risk-five emulation and Linux kernel.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:03:16.033"
+            }
+          },
+          {
+            "description": "Discussing the impressive nature of running Linux within Scratch and the ingenuity of its implementation.",
+            "timestamp": {
+              "end_timestamp": "00:06:50.000",
+              "start_timestamp": "00:04:58.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Denchi"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Excited and Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Provides a glimpse into the technical implementation and Denchi’s reaction to its complexity.",
+            "timestamp": "00:03:16.033"
+          },
+          {
+            "description": "Denchi expresses curiosity about the backend implementation in Scratch.",
+            "timestamp": "00:03:16.033"
+          },
+          {
+            "description": "The Scratch code implementing the risk-five instruction set is shown.",
+            "timestamp": "00:04:15.000"
+          },
+          {
+            "description": "Denchi emphasizes the technical feat of emulating a CPU in Scratch.",
+            "timestamp": "00:05:00.000"
+          },
+          {
+            "description": "Explanation of how a copy of Linux is uploaded to the ‘ROM’ within Scratch.",
+            "timestamp": "00:05:18.000"
+          },
+          {
+            "description": "Displaying the ‘RISCV.ROM’ list containing the Linux kernel data.",
+            "timestamp": "00:05:57.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch project interface showing the code blocks used for emulation.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:03:16.033"
+            }
+          },
+          {
+            "name": "'RISCV.ROM' list in Scratch, displaying data representing the Linux kernel.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:03:57.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Complexity of the emulation, ingenuity of using Scratch for such a project.",
+        "timestamps": {
+          "end_timestamp": "00:06:50.533",
+          "start_timestamp": "00:03:16.033"
+        },
+        "title": "Behind the Scenes",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Denchi concludes the video, thanking the creator and mentioning TurboWarp.",
+            "timestamp": {
+              "end_timestamp": "00:07:19.000",
+              "start_timestamp": "00:06:50.567"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Denchi"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Grateful and Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Wraps up the video, emphasizing the project’s significance and giving credit to the creator.",
+            "timestamp": "00:06:50.567"
+          },
+          {
+            "description": "Denchi thanks the creator, ‘Billman66’, for the project.",
+            "timestamp": "00:06:50.567"
+          },
+          {
+            "description": "Mention of TurboWarp used for faster execution.",
+            "timestamp": "00:06:57.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Scratch project interface showing the project name and creator.",
+            "timestamp": {
+              "end_timestamp": "00:07:19.000",
+              "start_timestamp": "00:06:50.567"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Acknowledgment of the creator's work, importance of community projects.",
+        "timestamps": {
+          "end_timestamp": "00:07:19.067",
+          "start_timestamp": "00:06:50.567"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Demonstrating the ingenuity of the project by revealing the Scratch code and the ‘ROM’ containing the Linux kernel.",
+        "timestamp": "00:03:16.000"
+      },
+      "description": "The showcase of the Linux kernel implementation in Scratch.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Linux in Scratch",
+    "trimmingSuggestions": [
+      {
+        "description": "The introductory section (Scene 1) could be shortened to jump into the demonstration faster.",
+        "timestamps": {
+          "end_timestamp": "00:06:50.567",
+          "start_timestamp": "00:06:50.567"
+        }
+      },
+      {
+        "description": "The exploration of system capabilities (Scene 3) could be condensed by focusing on the key features (FizzBuzz and coremark) and omitting less interesting commands.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 439,
+  "original_json_filename": "OJbO1A1Znws.json",
+  "original_video_filename": "OJbO1A1Znws.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi I'm Deni so if you've seen my previous videos on scratch you'll know that people make a lot of various impressive programs in it uh everything from 3D games to physics simulators stuff like that and today what I'm looking at is probably the most impressive thing I've seen so far which is a full implementation of the Linux kernel 6.1.4 here it is right there in scratch so the way this is accomplished from what I know of course I haven't sat down and looked through the entire source code for this yet because it's massive but basically what it does is it emulates the risk 5 architecture this is running not on x86 or arm as most devices are running Linux nowadays this is a risk 5 Linux kernel which is one of the Linux kernels available and what this does is it emulates a risk 5 processor in scratch and runs the Linux kernel we'll have a closer look at what's going on in the background later but first let's actually run it and see what it can do I'm really curious I have tried it before but I've not I've not really looked into it too deeply so let's go all right here we go so it it does have a full terminal interface we can see the kernel starting up right there so we're at 64 bits at 1,000 Kilz so it's a 1 GHz processor in in scratch at least according to the log here if I'm reading the log right it's starting the init system and here we are uh so we're logged in on Linux from scratch setup apparently and uh we we're just thrown into a terminal so I'm going to try running a few commands and see what happens so first of all I want to see if it can clear the screen so I'll try running clear and okay yeah I guess that's not included um I tried to control L there but that didn't work I'll try doing LS to see what the sort of contents of the drive are cuz I know there is something yeah here we are there is something on here there's a JavaScript program and readme.txt so I'll I'll try I'll try to cat out one of these files so readme do or sorry I'm doing it wrong I tried to press tab but I'm running this there's no tab completion in scratch uh read me.txt let's see what happens all right here we are welcome to Linux on on scratch this is overall a pretty barebones Linux installation for risk 5 but there's a few cool things installed so you can use the add text editor so I was thinking maybe there's like Vim included but no there's there's no Vim or VI or anything like that it just comes with the Ed editor which is one of those really rudimentary ones if I'm not sure I don't think this is the one from Plan 9 but it's it's one of those really rudimentary editors where you're editing the text like line by line in a really weird way I don't I don't know how to use it so I'm not going to try using it you can use duct tape to run JavaScript files so it wants us to run fb. JS with that okay so I guess we'll do the duct tape and then fizzbuzz uh. JS see what it does it's not really oh here we are okay so I ran fizzbuzz up to 100 huh well there you go it works I guess I'll cat the read me I I tried doing control I'll cat the read me again because there was more information in there didn't read there's a benchmarking utility installed called core Mark which can be used to test the speed of the risk 5 emulation okay let's try that so core Mark so I realized that when you press enter it kind of takes a little while for it to process it uh so I just got kind of have to wait cuz it takes a second so I'm currently yeah there you go it B bench marked scratch so it says the core Mark size is wow that's a that's quite a coincident number does it come with like PWD and okay we're in Ru um it comes with ls uh if I try to list like our binary programs what what is there okay so there's a few things so this is running busy box okay so busy box is the base utilities you'd find in distributions like Aline and kiss Linux okay so touch is included RM so like all the basic utilities are there I guess that's that's a testament to how flexible Linux is that it will run on literally anything including an emulated risk 5 processor on Scratch and I don't know if you can hear that but that's my computer my computer fan spinning up as it tries to run this uh recompiled scratch program okay so obviously all this will be linked in the description but what I'm curious about now is what this actually looks like in the back how this was accomplished in scratch we're going to click the C inside button and hopefully it won't crash our browser uh okay uh there's there's a few things going on so this is presumably just like a blank Sprite what's what's this then this is probably good what I just clicked on probably has a bunch of code okay yeah ooh a bitwise and a set a to that's a lot of embedded stuff and it's like a tiny Minature little scroll fure and you can scroll between so this is like okay this is like all the I guess these are the this is the implementation of the entire risk five instruction set I'm assuming I mean it's crazy that this is done in scratch right but at the same time it is technically just running like instructions which were made into like a physical processor like a physical instruction set at least I'm assuming I'm not a hardware architect I can't give you the details here but it's basically emulating a real CPU in scratch which is just crazy and so what it does is it from from what I understood they copy like a copy of Linux into this they upload a copy of Linux into the ROM and then it can just run Linux and I'm assuming the terminal works by just having a bunch of Sprites and there's a pen tool as well so which is weird cuz I know that scratch has like a text tool so I'm I'm surprised that's not being used but I guess not I guess it's like emulating a display or something so what's this this is the oh these are all the different key events so key events and then those go into the processor okay and then your's like the Run button which actually starts the program uh the risk five ROM okay if we if we do show the list we can actually look through the ROM um so if I do show showlist risk 5 ROM I believe this entire thing is the whole Linux kernel like address by address this is the ROM for this full install not just the Linux kernel but the full installation of Linux from scratch that is currently running in SC the the getting over this mental image of scratch right next to an emulated Linux system is just that's messing with me right now but what you're seeing in this tiny little risk 5 ROM menu that's that's all the data I'm I'm assuming because I mean what would be in the ROM so I'm waiting for the moment people start getting exor grunning on Scratch and the moment we start getting like maybe not XR but more advanced distributions maybe start getting like a package Manager work I'm assuming probably not a package manager because that would require some kind of Internet IO but maybe something like Vim running in scratch stuff like that that will be interesting to see I want to thank the creator of this project Bill man 66 for creating this amazingly impressive program in scratch of course all of this will be l in the description I'm running this using turbo warp which is a recompiler for scratch recompile scratch to JavaScript and it runs it it basically runs your scratch projects a lot faster than the native scratch engine and it's basically impossible to run this without having turbo warp so yeah I hope everybody enjoyed this video and I've been Deni goodbye",
+  "text_to_speech_word_count": 1468,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.300",
+      "start": "00:00:00.000",
+      "text": " Hi, I'm Denchie. So if you've seen my previous videos on Scratch, you'll know that people make a lot of various"
+    },
+    {
+      "end": "00:00:12.400",
+      "start": "00:00:06.633",
+      "text": " impressive programs in it, everything from 3D games to physics simulators, stuff like that."
+    },
+    {
+      "end": "00:00:17.733",
+      "start": "00:00:12.400",
+      "text": " And today what I'm looking at is probably the most impressive thing I've seen so far,"
+    },
+    {
+      "end": "00:00:23.267",
+      "start": "00:00:17.733",
+      "text": " which is a full implementation of the Linux kernel."
+    },
+    {
+      "end": "00:00:27.500",
+      "start": "00:00:23.267",
+      "text": " 6.1.14 year-old is right there in Scratch."
+    },
+    {
+      "end": "00:00:32.700",
+      "start": "00:00:27.567",
+      "text": " So the way this is accomplished from what I know, of course I haven't sat down and looked through"
+    },
+    {
+      "end": "00:00:38.467",
+      "start": "00:00:32.700",
+      "text": " the entire source code for this yet because it's massive. But basically what it does is it emulates"
+    },
+    {
+      "end": "00:00:47.733",
+      "start": "00:00:38.467",
+      "text": " the risk-five architecture. This is running not on x86 or ARM as most devices are running Linux nowadays."
+    },
+    {
+      "end": "00:00:52.300",
+      "start": "00:00:47.733",
+      "text": " This is a risk-five Linux kernel, which is one of the Linux kernels available."
+    },
+    {
+      "end": "00:00:57.733",
+      "start": "00:00:52.400",
+      "text": " And what this does is it emulates a risk-five processor in Scratch and runs the Linux kernel."
+    },
+    {
+      "end": "00:01:02.400",
+      "start": "00:00:57.733",
+      "text": " We'll have a closer look at what's going on in the background later. But first let's actually run it"
+    },
+    {
+      "end": "00:01:07.200",
+      "start": "00:01:02.400",
+      "text": " and see what it can do. I'm really curious. I have tried it before but I've not, I've not really"
+    },
+    {
+      "end": "00:01:12.533",
+      "start": "00:01:07.200",
+      "text": " looked into it too deeply, so let's go. All right, here we go. So it does have a full terminal"
+    },
+    {
+      "end": "00:01:19.733",
+      "start": "00:01:12.533",
+      "text": " interface. We can see the kernel starting up right there. So we're 64 bits at 1000 Kilohertz. So"
+    },
+    {
+      "end": "00:01:26.133",
+      "start": "00:01:19.733",
+      "text": " it's a one gigahertz processor in Scratch, at least according to the log here. If I'm reading the"
+    },
+    {
+      "end": "00:01:34.400",
+      "start": "00:01:26.133",
+      "text": " log right, it's starting the init system. And here we are. So we're logged in on the Linux from"
+    },
+    {
+      "end": "00:01:40.400",
+      "start": "00:01:34.400",
+      "text": " Scratch set up apparently. And we're just throwing it to a terminal. So I'm going to try running"
+    },
+    {
+      "end": "00:01:44.300",
+      "start": "00:01:40.400",
+      "text": " a few commands and see what happens. So first of all, I want to see if it can clear the screen. So"
+    },
+    {
+      "end": "00:01:49.600",
+      "start": "00:01:44.300",
+      "text": " try running clear. And okay, yeah, I guess that's not included. I tried to control L there but"
+    },
+    {
+      "end": "00:01:54.000",
+      "start": "00:01:49.600",
+      "text": " didn't work. I'll try doing LS to see what the sort of contents of the drive are because I know"
+    },
+    {
+      "end": "00:01:57.733",
+      "start": "00:01:54.000",
+      "text": " there is something. Yeah, here we are. There is something on here. There's a JavaScript program"
+    },
+    {
+      "end": "00:02:04.133",
+      "start": "00:01:57.733",
+      "text": " and readme.txt. So I'll try, I'll try to cat out one of these files. So readme. Sorry, I'm doing"
+    },
+    {
+      "end": "00:02:08.467",
+      "start": "00:02:04.133",
+      "text": " wrong. I tried to press tab, but I'm running this. There's no tab completion in Scratch."
+    },
+    {
+      "end": "00:02:13.267",
+      "start": "00:02:08.467",
+      "text": " Readme.txt. I'll see what happens. All right, here we are. Welcome to Linux on on Scratch. This is"
+    },
+    {
+      "end": "00:02:18.067",
+      "start": "00:02:13.267",
+      "text": " overall a pretty bare bones Linux installation for risk five. But there's a few cool things installed."
+    },
+    {
+      "end": "00:02:22.633",
+      "start": "00:02:18.067",
+      "text": " So you can use the ed text editor. So I was thinking maybe there's like them included, but no,"
+    },
+    {
+      "end": "00:02:27.500",
+      "start": "00:02:22.633",
+      "text": " there's no VIM or VI or anything like that. It just comes with the ed editor, which is one of those"
+    },
+    {
+      "end": "00:02:32.400",
+      "start": "00:02:27.500",
+      "text": " really rudimentary ones. If I'm not sure, I don't think this is the one from plan nine, but it's"
+    },
+    {
+      "end": "00:02:37.100",
+      "start": "00:02:32.700",
+      "text": " it's one of those really rudimentary editors where you're editing the text like line by line in a"
+    },
+    {
+      "end": "00:02:41.100",
+      "start": "00:02:37.100",
+      "text": " really weird way. I don't know how to use it. So I'm not going to try using it. You can use duck tape"
+    },
+    {
+      "end": "00:02:46.700",
+      "start": "00:02:41.200",
+      "text": " to run JavaScript files. So I want this to run fizzbus.js with that. Okay. So I guess we'll do that."
+    },
+    {
+      "end": "00:02:58.467",
+      "start": "00:02:46.700",
+      "text": " Duck tape and then fizzbus.js. See what it does. It's not really. Oh, here we are. Okay. So I ran"
+    },
+    {
+      "end": "00:03:04.633",
+      "start": "00:02:58.467",
+      "text": " fizzbus up to 100. Well, there we go. It works. I guess I'll cat the readme. I tried doing"
+    },
+    {
+      "end": "00:03:08.933",
+      "start": "00:03:04.633",
+      "text": " control. I got cat the readme again because there was more information in there than a read."
+    },
+    {
+      "end": "00:03:13.433",
+      "start": "00:03:08.933",
+      "text": " There's a benchmarking utility installed called core mark, which can be used to test a speed"
+    },
+    {
+      "end": "00:03:19.200",
+      "start": "00:03:13.433",
+      "text": " of the risk five emulation. Okay. Let's try that. So core mark. So I realized that when you press"
+    },
+    {
+      "end": "00:03:25.433",
+      "start": "00:03:19.200",
+      "text": " enter, it kind of takes a little while for it to process it. So I just got to kind of have to wait"
+    },
+    {
+      "end": "00:03:31.900",
+      "start": "00:03:26.067",
+      "text": " because it takes a second. So I'm currently, yeah, there you go. A benchmarked scratch that says,"
+    },
+    {
+      "end": "00:03:38.533",
+      "start": "00:03:31.900",
+      "text": " the core mark size is, wow, that's quite a coincident number. Does it come with like PWD? And okay,"
+    },
+    {
+      "end": "00:03:47.267",
+      "start": "00:03:38.633",
+      "text": " we're in root. It comes with LS. If I try to list like our binary programs, what is there?"
+    },
+    {
+      "end": "00:03:52.067",
+      "start": "00:03:47.267",
+      "text": " Okay. So there's a few things. So this is running busybox. Okay. So busybox is the basic utilities"
+    },
+    {
+      "end": "00:03:57.733",
+      "start": "00:03:52.067",
+      "text": " you'd find in distributions like Alpine and Kislinix. Okay. So touch is included. RM. So all the"
+    },
+    {
+      "end": "00:04:02.700",
+      "start": "00:03:57.733",
+      "text": " basic utilities are there. I guess that's the testament to how flexible Linux is that it'll run"
+    },
+    {
+      "end": "00:04:08.000",
+      "start": "00:04:02.700",
+      "text": " on literally anything, including an emulated risk five process scratch. And I don't know if you can"
+    },
+    {
+      "end": "00:04:12.467",
+      "start": "00:04:08.000",
+      "text": " hear that, but that's my computer. My computer fans spinning up as it tries to run this"
+    },
+    {
+      "end": "00:04:17.500",
+      "start": "00:04:13.100",
+      "text": " recompiled scratch program. Okay. So obviously all this will be linked in the description. But what"
+    },
+    {
+      "end": "00:04:22.000",
+      "start": "00:04:17.500",
+      "text": " I'm curious about now is what this actually looks like in the back. How this was accomplished"
+    },
+    {
+      "end": "00:04:25.733",
+      "start": "00:04:22.000",
+      "text": " scratch. We're going to click the scene side button and hopefully it won't crash our browser."
+    },
+    {
+      "end": "00:04:33.433",
+      "start": "00:04:27.200",
+      "text": " Okay. There's a few things going on. So this is presumably just like a blank sprite. What's"
+    },
+    {
+      "end": "00:04:37.500",
+      "start": "00:04:33.900",
+      "text": " this then? This is probably good. What I just clicked on probably has a bunch of code. Okay."
+    },
+    {
+      "end": "00:04:45.333",
+      "start": "00:04:37.500",
+      "text": " Yeah. Ooh. Bitwise and A, B. Set A to. That's a lot of embedded stuff. And it's like a tiny"
+    },
+    {
+      "end": "00:04:50.400",
+      "start": "00:04:45.333",
+      "text": " miniature little scroll figure and you can scroll between. So this is like, okay, this is like all"
+    },
+    {
+      "end": "00:04:55.833",
+      "start": "00:04:50.400",
+      "text": " the... I guess these are the... This is the implementation of the entire risk five instruction set I'm"
+    },
+    {
+      "end": "00:05:00.400",
+      "start": "00:04:55.833",
+      "text": " assuming. I mean, it's crazy that this is done in scratch, right? But at the same time, it is"
+    },
+    {
+      "end": "00:05:05.267",
+      "start": "00:05:00.400",
+      "text": " technically just running the instructions which were made into like a physical processor,"
+    },
+    {
+      "end": "00:05:09.200",
+      "start": "00:05:05.267",
+      "text": " like a physical instruction set. At least I'm a sinner. I'm not a part where architect. I can't"
+    },
+    {
+      "end": "00:05:15.033",
+      "start": "00:05:09.200",
+      "text": " give you the details here. But it's basically emulating a real CPU in scratch, which is just crazy."
+    },
+    {
+      "end": "00:05:21.500",
+      "start": "00:05:15.033",
+      "text": " And so what it does is it from what I understood, they copy like a copy of Linux into this. They"
+    },
+    {
+      "end": "00:05:26.767",
+      "start": "00:05:21.500",
+      "text": " upload a copy of Linux into the ROM and then it can just run Linux. And I'm assuming the terminal"
+    },
+    {
+      "end": "00:05:31.833",
+      "start": "00:05:26.800",
+      "text": " works by just having a bunch of sprites. And there's a pen tool as well. So which is weird,"
+    },
+    {
+      "end": "00:05:36.300",
+      "start": "00:05:31.833",
+      "text": " because I know that scratch has like a text tool. So I'm surprised that's not being used. But"
+    },
+    {
+      "end": "00:05:40.300",
+      "start": "00:05:36.300",
+      "text": " I guess not. I guess it's like emulating a display or something. So what's this? This is the..."
+    },
+    {
+      "end": "00:05:44.933",
+      "start": "00:05:40.300",
+      "text": " These are all the different key events. So key events and those go into the process. Okay."
+    },
+    {
+      "end": "00:05:49.900",
+      "start": "00:05:44.933",
+      "text": " At end years like the run button which actually starts the program, the risk five ROM. Okay."
+    },
+    {
+      "end": "00:05:56.633",
+      "start": "00:05:49.900",
+      "text": " If we do show the list, we can actually look through the ROM. So if I do show... Show less"
+    },
+    {
+      "end": "00:06:05.033",
+      "start": "00:05:56.633",
+      "text": " risk five ROM, I believe this entire thing is the whole Linux kernel like addressed by address."
+    },
+    {
+      "end": "00:06:10.467",
+      "start": "00:06:05.033",
+      "text": " This is the ROM for this full install. Not just the Linux kernel, but the full installation of"
+    },
+    {
+      "end": "00:06:17.267",
+      "start": "00:06:10.467",
+      "text": " Linux from scratch that is currently running its credits. The getting over this mental image of"
+    },
+    {
+      "end": "00:06:23.100",
+      "start": "00:06:17.267",
+      "text": " scratch right next to it emulated Linux system is just that's messing with me right now. But"
+    },
+    {
+      "end": "00:06:28.400",
+      "start": "00:06:23.200",
+      "text": " what you're seeing in this tiny little risk five ROM menu, that's all the data. I'm assuming"
+    },
+    {
+      "end": "00:06:32.867",
+      "start": "00:06:28.400",
+      "text": " because I mean what also being the ROM. So I'm waiting for the moment people start getting"
+    },
+    {
+      "end": "00:06:39.333",
+      "start": "00:06:32.867",
+      "text": " XORG rather go on scratch. And the moment we start getting like maybe not XORG with more advanced"
+    },
+    {
+      "end": "00:06:42.933",
+      "start": "00:06:39.333",
+      "text": " distributions, maybe start getting like a package manager work. I'm assuming probably not a"
+    },
+    {
+      "end": "00:06:47.500",
+      "start": "00:06:42.933",
+      "text": " package manager because that would require some kind of internet IO, but maybe something like"
+    },
+    {
+      "end": "00:06:50.933",
+      "start": "00:06:47.500",
+      "text": " VIM running in scratch, stuff like that. That would be interesting to see. I want to thank the"
+    },
+    {
+      "end": "00:06:56.633",
+      "start": "00:06:51.033",
+      "text": " creator of this project Billman 66 for creating this amazingly impressive program in scratch."
+    },
+    {
+      "end": "00:07:00.633",
+      "start": "00:06:56.633",
+      "text": " Of course all of this will be in the description. I'm running this using TurboWarp, which is a"
+    },
+    {
+      "end": "00:07:05.100",
+      "start": "00:07:00.633",
+      "text": " recompiler for scratch, recompiles scratch, the JavaScript and it runs it, but basically runs"
+    },
+    {
+      "end": "00:07:09.500",
+      "start": "00:07:05.100",
+      "text": " our scratch projects a lot faster than the native scratch engine and it's basically impossible to"
+    },
+    {
+      "end": "00:07:16.300",
+      "start": "00:07:09.500",
+      "text": " run this without having TurboWarp. So yeah, I hope everybody enjoyed this video and I've been"
+    },
+    {
+      "end": "00:07:19.833",
+      "start": "00:07:16.300",
+      "text": " d변씨. Goodbye!"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "DenshiVideo",
+  "youtube_channel_follower_count": 36000,
+  "youtube_comment_count": 495,
+  "youtube_description": "You've heard of Linux *from* Scratch, but what about running Linux... on Scratch?\n\nProject Link: https://turbowarp.org/892602496\nCORRECTION: 1000 KHz is 1 Mhz, not 1 GHz.\n\n•Site: https://denshi.org",
+  "youtube_like_count": 10487,
+  "youtube_tags": [
+    "Denshi",
+    "DenshiVideo",
+    "scratch",
+    "scratch.mit.edu",
+    "scratch linux",
+    "linux on scratch",
+    "scratch games",
+    "scratch 2d games",
+    "scratch impressive projects",
+    "impressive scratch projects",
+    "impressive scratch games",
+    "scratch impressive games"
+  ],
+  "youtube_title": "They actually DID IT... Linux on SCRATCH",
+  "youtube_upload_date": "20231004",
+  "youtube_view_count": 342442
+}

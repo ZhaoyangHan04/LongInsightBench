@@ -1,0 +1,672 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "C1",
+        "description": "A male voice providing instructions and explanations, not visible in the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A detailed tutorial on how to import a raster image into AutoCAD, adjust its contrast, and scale it accurately for tracing purposes.",
+    "fps": 24.0,
+    "qAndA": [
+      {
+        "answer": "The narrator selects the \"AutoCAD ISO\" template.",
+        "question": "What template does the narrator choose for the new AutoCAD file?"
+      },
+      {
+        "answer": "The narrator uses the dimension tool to measure the length indicated on the provided scale within the image.",
+        "question": "How does the narrator measure the scale in the imported image?"
+      },
+      {
+        "answer": "The narrator reduces the contrast to make the image lines less bright and improve the visibility of the cursor and future linework.",
+        "question": "Why does the narrator adjust the image contrast?"
+      },
+      {
+        "answer": "The line serves as a reference for scaling the image. The narrator aims to make the scale in the image match the length of this reference line.",
+        "question": "What is the purpose of the 5-meter long line the narrator draws?"
+      },
+      {
+        "answer": "The narrator uses the \"Scale by Reference\" function, selecting a point on the image scale and the corresponding point on the 5-meter reference line. This scales the entire image proportionally.",
+        "question": "How does the narrator ensure the image is scaled accurately?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the tutorial topic",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator opens a new AutoCAD file",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "description": "Narrator selects the AutoCAD ISO template",
+            "timestamp": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          },
+          {
+            "description": "Narrator checks drawing units",
+            "timestamp": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction and setup for an AutoCAD tutorial.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Curious, Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Tutorial topic introduced",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "New file opened with appropriate settings",
+            "timestamp": "00:00:15.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "AutoCAD interface",
+            "timestamp": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Dialog boxes",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "name": "Dialog boxes",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "name": "Dialog boxes",
+            "timestamp": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Computer-aided design, software tutorials, technical instructions.",
+        "timestamps": {
+          "end_timestamp": "00:00:52.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and File Setup",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator imports a raster image",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:00:53.000"
+            }
+          },
+          {
+            "description": "Narrator navigates through import options",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "description": "Narrator discusses alternative import method",
+            "timestamp": {
+              "end_timestamp": "00:02:27.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstration of importing images into AutoCAD for further use.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Informative, Focused)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Raster image imported using 'Attach' function",
+            "timestamp": "00:00:53.000"
+          },
+          {
+            "description": "Alternative method ('Xref') explained",
+            "timestamp": "00:01:57.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "AutoCAD interface",
+            "timestamp": {
+              "end_timestamp": "00:02:27.000",
+              "start_timestamp": "00:00:52.042"
+            }
+          },
+          {
+            "name": "Raster image of a building section",
+            "timestamp": {
+              "end_timestamp": "00:02:27.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "name": "Dialog boxes",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          },
+          {
+            "name": "Dialog boxes",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          },
+          {
+            "name": "Dialog boxes",
+            "timestamp": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:04.000"
+            }
+          },
+          {
+            "name": "Dialog boxes",
+            "timestamp": {
+              "end_timestamp": "00:02:27.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Image import, data integration, file referencing.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.000",
+          "start_timestamp": "00:00:52.042"
+        },
+        "title": "Importing the Raster Image",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator adjusts image contrast",
+            "timestamp": {
+              "end_timestamp": "00:03:06.000",
+              "start_timestamp": "00:02:37.000"
+            }
+          },
+          {
+            "description": "Narrator measures scale in the image",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:03:06.000"
+            }
+          },
+          {
+            "description": "Narrator creates reference line",
+            "timestamp": {
+              "end_timestamp": "00:04:46.000",
+              "start_timestamp": "00:03:43.000"
+            }
+          },
+          {
+            "description": "Narrator scales image using reference",
+            "timestamp": {
+              "end_timestamp": "00:07:07.000",
+              "start_timestamp": "00:04:46.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Preparation of an image for accurate tracing in AutoCAD.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Focused, Methodical)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Image contrast adjusted for better visibility",
+            "timestamp": "00:02:37.000"
+          },
+          {
+            "description": "Image scale measured using provided scale",
+            "timestamp": "00:03:06.000"
+          },
+          {
+            "description": "Reference line drawn to represent actual 5-meter length",
+            "timestamp": "00:03:43.000"
+          },
+          {
+            "description": "Image scaled using reference line",
+            "timestamp": "00:04:46.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "AutoCAD interface",
+            "timestamp": {
+              "end_timestamp": "00:07:07.000",
+              "start_timestamp": "00:02:27.042"
+            }
+          },
+          {
+            "name": "Raster image of a building section",
+            "timestamp": {
+              "end_timestamp": "00:07:07.000",
+              "start_timestamp": "00:02:27.042"
+            }
+          },
+          {
+            "name": "Dimension line for measurement",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:03:18.000"
+            }
+          },
+          {
+            "name": "Reference line",
+            "timestamp": {
+              "end_timestamp": "00:04:46.000",
+              "start_timestamp": "00:04:12.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Image editing, precise scaling, preparing for tracing.",
+        "timestamps": {
+          "end_timestamp": "00:07:07.708",
+          "start_timestamp": "00:02:27.042"
+        },
+        "title": "Adjusting Image Contrast and Scaling",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs at 6:51 in Scene 3 when the image is successfully scaled to the desired size using a reference line.",
+        "timestamp": "00:06:51.000"
+      },
+      "description": "A tutorial demonstrating how to import a raster image into AutoCAD, adjust its contrast, and accurately scale it for tracing.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "AutoCAD Raster Image Import and Scaling Tutorial",
+    "trimmingSuggestions": [
+      {
+        "description": "Verifying units could be omitted as it's assumed in the chosen template. This assumes the audience has basic AutoCAD knowledge.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.042",
+          "start_timestamp": "00:02:27.042"
+        }
+      },
+      {
+        "description": "The 'Xref' method explanation could be moved to a separate, optional video for users interested in advanced referencing.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.042",
+          "start_timestamp": "00:02:27.042"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 428,
+  "original_json_filename": "R6vCwEtsPIs.json",
+  "original_video_filename": "R6vCwEtsPIs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this tutorial I will show you how to import a raster image into AutoCAD and then scale it so that you can begin to trace over the image and create Vector Line work based on a raster image I can start by opening a new file from the templates I'll choose the acat ISO this should automatically open a blank file which has the units preset to millimeters I can double check that by clicking on the AutoCAD icon in the upper left corner and then going down to drawing utilities and units and here we can see our units are set to millimeters everything else looks fine as well we say okay so I'm going to start off by importing my raster image click on the insert tab at the top and then go to attach and then this will ask me to basically navigate to my to my image once you find your image you'll get this dialog box which has a few options in this pane you have a preview of your image under path type you have a few options either full path or relative path or no path insertion point we can check this and then we can place it wherever we want we leave it unchecked it would just place it at the origin zero zero zero which is fine scale we don't need to adjust because we will do that once we import the image rotation should be fine as well so we'll just say okay and then if we zoom out we can see the image here at our orig the other way we could have imported that is by typing xref and hitting enter and then we get this dialog box and if you click on this a tool down next to the DWG icon which allows you to change to your attach image and a few other options as well so if we attach image we basically get the same same options of navigating towards our towards our image so now we have our image the first problem is it's quite bright I can barely see my cursor over top of it so to fix that I'm going to select the image and AutoCAD automatically switches to the image tab where I can adjust this Vader basically turn down the the contrast in this image allowing me to see my cursor and Line work on top of it much easier so next we will try to figure out how big this image is we can use this scale here in the bottom of the image we can go ahead and measure it typing distance and click one end of the scale and then click near the other end of the scale and that says 69.2 millimeters so that is very small in comparison to what we actually want which is five meters or five thousand millimeters so rather than doing the math and multiplying this image by a specific number we can scale by reference so what I would do first is create a line of reference basically a a line that's 5000 millimeters long or five meters long which is what I want this part of the image to be when it's all scaled accurately so I will get as close as I can to one end of the the scale in the image then I will draw a line that is five meters long or five thousand millimeters and if I zoom out I'll hit enter to complete the command you can see this line represents actually five meters so next all we have to do is scale up this image so that the scale in the image matches the five meter long line so I will select the image and then go back to my home tab at the top in the modify tools you'll find scale if I click on that down at the bottom here it's asking me to select my object and I want to scale my image so I will select the image and hit enter and now at the bottom it's asking at the bottom it's asking me to specify a base point that's basically the point around which I want to scale the object so I will use the starting point of my line and which is also the starting point of the scale in the image I'll click there once and now it's saying specify specify specify scale factor and then in parentheses it says copy or reference in those brackets those are my two additional options I can choose to scale this as a copy which I do not want to do this time or I can scale it with reference which which is what I want so in order to activate one or the other of those commands I could type c for copy or R for reference so I will type R for reference and hit enter now it's asking me for reference length my reference length is the length of the scale in the drawing first I have a quick one end of my scale which is also the base point of my whole scaling operation now it's asking for the reference length which is the length of the scale in the raster image so I will get as close as I can to the other end of this scale and click a second time now you'll see it's asking for a new length and the new length is the length of my five meter long line so I will snap to the end of that line and now as you can see my five meter long line and my five meter scale in the image are exactly the same and from here I can set up a few layers and then begin to trace over this image and recreate this as an AutoCAD drawing",
+  "text_to_speech_word_count": 990,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.208",
+      "start": "00:00:00.000",
+      "text": " In this tutorial I will show you how to import a raster image into AutoCAD and then"
+    },
+    {
+      "end": "00:00:11.667",
+      "start": "00:00:07.208",
+      "text": " scale it so that you can begin to trace over the image and create vector line"
+    },
+    {
+      "end": "00:00:20.958",
+      "start": "00:00:11.667",
+      "text": " work based on a raster image. You can start by opening on a new file. From the"
+    },
+    {
+      "end": "00:00:28.333",
+      "start": "00:00:20.958",
+      "text": " templates I'll choose the A CAD ISO. This should automatically open a blank file"
+    },
+    {
+      "end": "00:00:34.750",
+      "start": "00:00:28.333",
+      "text": " which has the units preset to millimeters. I can double check that by clicking"
+    },
+    {
+      "end": "00:00:40.417",
+      "start": "00:00:34.750",
+      "text": " on the AutoCAD icon in the upper left corner and then going down to drawing"
+    },
+    {
+      "end": "00:00:48.542",
+      "start": "00:00:40.417",
+      "text": " utilities and units. And here we can see our units are set to millimeters."
+    },
+    {
+      "end": "00:00:54.833",
+      "start": "00:00:48.542",
+      "text": " Everything else looks fine as well. Let's say okay. So I'm going to start off by"
+    },
+    {
+      "end": "00:01:02.042",
+      "start": "00:00:54.833",
+      "text": " importing my raster image. Click on the insert tab to the top and then go to"
+    },
+    {
+      "end": "00:01:12.708",
+      "start": "00:01:02.042",
+      "text": " attach. And then this will ask me to basically navigate to my to my image. Once"
+    },
+    {
+      "end": "00:01:18.583",
+      "start": "00:01:12.708",
+      "text": " you find your image you'll get this dialog box which has a few options. In"
+    },
+    {
+      "end": "00:01:23.667",
+      "start": "00:01:18.583",
+      "text": " this pane you have a preview of your image. Under Path type you have a few"
+    },
+    {
+      "end": "00:01:32.667",
+      "start": "00:01:23.667",
+      "text": " options either full path or relative path or no path. In search and point we"
+    },
+    {
+      "end": "00:01:36.667",
+      "start": "00:01:32.667",
+      "text": " can check this and then we can place it wherever we want. We leave it unchecked."
+    },
+    {
+      "end": "00:01:42.792",
+      "start": "00:01:36.667",
+      "text": " It would just place it at the origin 0 0 0. Which is fine. Scale. We don't need to"
+    },
+    {
+      "end": "00:01:47.708",
+      "start": "00:01:42.792",
+      "text": " adjust because we would do that once we import the image. Rotation should be"
+    },
+    {
+      "end": "00:01:54.833",
+      "start": "00:01:47.708",
+      "text": " fine as well. So we'll just say okay. And then if we zoom out we can see the"
+    },
+    {
+      "end": "00:02:00.167",
+      "start": "00:01:54.833",
+      "text": " image here at our origin. The other way we could have imported that is by"
+    },
+    {
+      "end": "00:02:08.042",
+      "start": "00:02:00.167",
+      "text": " typing x-ref and hitting enter. And then we get this dialog box. And if you"
+    },
+    {
+      "end": "00:02:14.875",
+      "start": "00:02:08.042",
+      "text": " click on this, I told them next to the twg icon which allows you to change to"
+    },
+    {
+      "end": "00:02:20.833",
+      "start": "00:02:14.875",
+      "text": " attach image and a few other options as well. So if we attach image we basically"
+    },
+    {
+      "end": "00:02:31.417",
+      "start": "00:02:20.833",
+      "text": " get the same options of navigating towards our image. So now we have our image."
+    },
+    {
+      "end": "00:02:35.875",
+      "start": "00:02:31.417",
+      "text": " The first problem is it's quite bright. I can barely see my cursor over top of"
+    },
+    {
+      "end": "00:02:42.000",
+      "start": "00:02:35.875",
+      "text": " it. So to fix that I'm going to select the image and AutoCAD automatically"
+    },
+    {
+      "end": "00:02:48.958",
+      "start": "00:02:42.000",
+      "text": " switches to the image tab where I can adjust this fader. Basically turn down"
+    },
+    {
+      "end": "00:02:54.875",
+      "start": "00:02:48.958",
+      "text": " the contrast in this image allowing me to see my cursor and line work on top of"
+    },
+    {
+      "end": "00:03:05.375",
+      "start": "00:02:54.875",
+      "text": " it much easier. So next we will try to figure out how big this image is. We can use"
+    },
+    {
+      "end": "00:03:09.917",
+      "start": "00:03:05.375",
+      "text": " this scale here in the bottom of the image. We can go ahead and measure it."
+    },
+    {
+      "end": "00:03:19.542",
+      "start": "00:03:10.042",
+      "text": " typing distance. Click one end of the scale and then click near the other end of"
+    },
+    {
+      "end": "00:03:27.833",
+      "start": "00:03:19.542",
+      "text": " the scale. And that says 69.2 millimeters. So that is very small in comparison to"
+    },
+    {
+      "end": "00:03:34.250",
+      "start": "00:03:27.833",
+      "text": " what we actually want which is 5 millimeters or 5,000 millimeters. So rather than"
+    },
+    {
+      "end": "00:03:41.000",
+      "start": "00:03:34.250",
+      "text": " doing the math and multiplying this image by a specific number we can scale"
+    },
+    {
+      "end": "00:03:47.458",
+      "start": "00:03:41.000",
+      "text": " by reference. So what I would do first is create a line of reference. Basically a"
+    },
+    {
+      "end": "00:03:52.625",
+      "start": "00:03:47.458",
+      "text": " line that's 5,000 millimeters long or 5 meters long which is what I want this"
+    },
+    {
+      "end": "00:03:58.167",
+      "start": "00:03:52.625",
+      "text": " part of the image to be when it's all scaled accurately. So I will get as"
+    },
+    {
+      "end": "00:04:05.792",
+      "start": "00:03:58.167",
+      "text": " close to I can to one end of the scale in the image. Then I will draw a line"
+    },
+    {
+      "end": "00:04:17.958",
+      "start": "00:04:05.792",
+      "text": " that is 5 meters long or 5,000 millimeters. If I zoom out I enter to complete"
+    },
+    {
+      "end": "00:04:26.333",
+      "start": "00:04:17.958",
+      "text": " command. You can see this line represents actually 5 meters. So next all we"
+    },
+    {
+      "end": "00:04:33.875",
+      "start": "00:04:26.333",
+      "text": " have to do is scale up this image so that the scale in the image matches the"
+    },
+    {
+      "end": "00:04:41.000",
+      "start": "00:04:33.875",
+      "text": " 5 meter long line. So I will select the image and then go back to my home tab at"
+    },
+    {
+      "end": "00:04:50.500",
+      "start": "00:04:41.000",
+      "text": " the top. In the modify tools you'll find scale. If I click on that down at the"
+    },
+    {
+      "end": "00:04:57.083",
+      "start": "00:04:50.500",
+      "text": " bottom here it's asking me to select my object and I want to scale my image. So I"
+    },
+    {
+      "end": "00:05:03.708",
+      "start": "00:04:57.083",
+      "text": " will select the image and hit enter and now the bottom it's asking the bottom"
+    },
+    {
+      "end": "00:05:09.083",
+      "start": "00:05:03.708",
+      "text": " it's asking me to specify a base point. That's basically the point around which I"
+    },
+    {
+      "end": "00:05:16.375",
+      "start": "00:05:09.083",
+      "text": " want to scale the object. So I will use the starting point of my line and which"
+    },
+    {
+      "end": "00:05:23.875",
+      "start": "00:05:16.375",
+      "text": " is also the starting point of the scale in the image. Now I'll click there once and"
+    },
+    {
+      "end": "00:05:33.750",
+      "start": "00:05:23.875",
+      "text": " now it's saying specify specify scale factor and then in parentheses it says copy or reference."
+    },
+    {
+      "end": "00:05:40.375",
+      "start": "00:05:33.750",
+      "text": " In those brackets those are my two additional options. I can choose to scale this as a copy"
+    },
+    {
+      "end": "00:05:46.833",
+      "start": "00:05:40.375",
+      "text": " which I do not want to do this time or I can scale it with reference which is what I want."
+    },
+    {
+      "end": "00:05:51.000",
+      "start": "00:05:46.833",
+      "text": " So in order to activate one or the other of those commands I could type C for copy or"
+    },
+    {
+      "end": "00:05:59.167",
+      "start": "00:05:51.000",
+      "text": " R for reference. So I will type R for reference and hit enter. Now it's asking me for reference"
+    },
+    {
+      "end": "00:06:06.958",
+      "start": "00:05:59.167",
+      "text": " length. My reference length is the length of the scale in the drawing. First I will click"
+    },
+    {
+      "end": "00:06:16.042",
+      "start": "00:06:06.958",
+      "text": " on end of my scale which is also the base point of my whole scaling operation. Now it's"
+    },
+    {
+      "end": "00:06:23.417",
+      "start": "00:06:16.042",
+      "text": " asking for the reference length which is the length of the scale in the raster image."
+    },
+    {
+      "end": "00:06:29.917",
+      "start": "00:06:23.417",
+      "text": " So I will get as close as I can to the other end of this scale and click a second time."
+    },
+    {
+      "end": "00:06:40.042",
+      "start": "00:06:29.917",
+      "text": " Now you'll see it's asking for a new length and the new length is the length of my 5 meter long line."
+    },
+    {
+      "end": "00:06:54.750",
+      "start": "00:06:40.042",
+      "text": " So I will snap to the end of that line and now as you can see my 5 meter long line and my 5 meter scale in the image are exactly the same."
+    },
+    {
+      "end": "00:07:06.917",
+      "start": "00:06:54.750",
+      "text": " And from here I can set up a few layers and then begin to trace over this image and recreate this as an AutoCAD drawing."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Jason D",
+  "youtube_channel_follower_count": 717,
+  "youtube_comment_count": 64,
+  "youtube_description": "How to reference a raster image and then scale it to be 1:1.  This allows you to trace over the image and recreate the raster image as an AutoCAD dwg.\n\nThe image used in this example is of MVRDV's Plot 12 House in Borneo Sporenburg.\n\nAutoCAD 2012 was used here.",
+  "youtube_like_count": 1515,
+  "youtube_tags": [
+    "AutoCAD",
+    "raster image",
+    "trace",
+    "xref"
+  ],
+  "youtube_title": "AutoCAD - Import Raster Image & Scale for Tracing (AUTOCAD 2012)",
+  "youtube_upload_date": "20140218",
+  "youtube_view_count": 405256
+}

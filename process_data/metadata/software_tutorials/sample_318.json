@@ -1,0 +1,1084 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with a shaved head and tattoos on his arms, wearing a white t-shirt.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "An educational video exploring the evolution of rendering methods in computer graphics, focusing on light, ray-tracing, and path-tracing.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Eyes.",
+        "question": "What is the name of the ultimate human sensor for light mentioned in the video?"
+      },
+      {
+        "answer": "The specific software used is not mentioned, but the narrator demonstrates the ray-tracing process visually.",
+        "question": "What 3D software was used to demonstrate ray-tracing in the video?"
+      },
+      {
+        "answer": "Path-tracing considers the size and surface area of light sources, allowing for more realistic soft shadows and color bleeding effects.",
+        "question": "What is the primary benefit of path-tracing over ray-tracing?"
+      },
+      {
+        "answer": "Unreal Engine.",
+        "question": "What game engine is mentioned in the video that showcases real-time ray-tracing capabilities?"
+      },
+      {
+        "answer": "The demo evokes a sense of excitement and wonder by showcasing the potential of real-time ray-tracing in creating highly realistic visuals. It leaves the viewer curious about the future possibilities of rendering technology.",
+        "question": "How does the Unreal Engine ray-tracing demo contribute to the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the topic and the goal of the video",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious. The narrator's friendly demeanor and the interesting topic he is introducing contribute to a sense of curiosity. The fast cuts in the opening sequence add a slight touch of excitement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator sets up the topic of rendering methods and promises to explain how they work.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Bookshelf with books and plants",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "World map on the wall",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Darth Vader and stormtrooper figurines on the wall",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:22.360",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Opening sequence with fast cuts and text overlays",
+            "timestamps": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the importance of light in photography and real-world rendering",
+            "timestamp": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:22.400"
+            }
+          },
+          {
+            "description": "Narrator gives an example of how light works in his room",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious. The narrator continues with a clear explanation, and his enthusiasm regarding the topic maintains the sense of curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains how light bounces in the real world and how this creates realism.",
+            "timestamp": "00:00:22.400"
+          }
+        ],
+        "props": [
+          {
+            "name": "Light source",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:20.000",
+          "start_timestamp": "00:00:22.400"
+        },
+        "title": "Light in Photography and Cinematography",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator discusses limitations of computer rendering",
+            "timestamp": {
+              "end_timestamp": "00:01:42.000",
+              "start_timestamp": "00:01:20.040"
+            }
+          },
+          {
+            "description": "Narrator lists several rendering methods",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:42.000"
+            }
+          },
+          {
+            "description": "Narrator explains rasterization",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          },
+          {
+            "description": "Narrator uses a 3D object to demonstrate rasterization",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:02:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious. The introduction of visual aids and the more technical explanation further enhance curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator transitions to discussing rendering methods used in computer graphics, starting with rasterization.",
+            "timestamp": "00:01:20.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D object",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:02:31.000"
+            }
+          },
+          {
+            "name": "Virtual camera",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:02:51.000"
+            }
+          },
+          {
+            "name": "Virtual screen",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:03:16.600",
+          "start_timestamp": "00:01:20.040"
+        },
+        "title": "Rendering Methods",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a dark background with a 3D model",
+            "timestamps": {
+              "end_timestamp": "00:02:31.000",
+              "start_timestamp": "00:02:31.000"
+            }
+          },
+          {
+            "description": "Virtual camera and screen introduced",
+            "timestamps": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:51.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator talks about rasterization as a rendering method",
+            "timestamp": {
+              "end_timestamp": "00:03:26.000",
+              "start_timestamp": "00:03:16.640"
+            }
+          },
+          {
+            "description": "Narrator introduces ray-casting",
+            "timestamp": {
+              "end_timestamp": "00:03:46.000",
+              "start_timestamp": "00:03:26.000"
+            }
+          },
+          {
+            "description": "Narrator explains ray-casting with a 3D scene example",
+            "timestamp": {
+              "end_timestamp": "00:04:27.000",
+              "start_timestamp": "00:03:46.000"
+            }
+          },
+          {
+            "description": "Narrator talks about the limitations of ray-casting and the introduction of ray-tracing",
+            "timestamp": {
+              "end_timestamp": "00:05:12.000",
+              "start_timestamp": "00:04:27.000"
+            }
+          },
+          {
+            "description": "Narrator explains ray-tracing with the same 3D scene",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:05:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious. The more detailed explanations of ray-casting and ray-tracing, along with the visual examples, continue to fuel the viewer's curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains ray-casting and its limitations, then introduces ray-tracing as a more advanced method.",
+            "timestamp": "00:03:16.640"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D scene with two apples and a table",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:03:51.000"
+            }
+          },
+          {
+            "name": "Virtual camera",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:03:51.000"
+            }
+          },
+          {
+            "name": "Light sources",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:05:29.000"
+            }
+          },
+          {
+            "name": "Bottle",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:06:00.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:06:29.000",
+          "start_timestamp": "00:03:16.640"
+        },
+        "title": "Ray-Casting and Ray-Tracing",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a 3D scene with a camera",
+            "timestamps": {
+              "end_timestamp": "00:03:51.000",
+              "start_timestamp": "00:03:51.000"
+            }
+          },
+          {
+            "description": "Introduction of light sources and shadows in the scene",
+            "timestamps": {
+              "end_timestamp": "00:05:29.000",
+              "start_timestamp": "00:05:29.000"
+            }
+          },
+          {
+            "description": "Close-ups of the apples",
+            "timestamps": {
+              "end_timestamp": "00:06:25.000",
+              "start_timestamp": "00:06:22.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains how ray-tracing evolved into real-time rendering",
+            "timestamp": {
+              "end_timestamp": "00:07:09.000",
+              "start_timestamp": "00:06:29.040"
+            }
+          },
+          {
+            "description": "Narrator shows Unreal Engine ray-tracing demo",
+            "timestamp": {
+              "end_timestamp": "00:07:37.000",
+              "start_timestamp": "00:07:09.000"
+            }
+          },
+          {
+            "description": "Narrator introduces path-tracing",
+            "timestamp": {
+              "end_timestamp": "00:08:23.000",
+              "start_timestamp": "00:07:37.000"
+            }
+          },
+          {
+            "description": "Narrator explains path-tracing with a 3D scene example",
+            "timestamp": {
+              "end_timestamp": "00:09:09.000",
+              "start_timestamp": "00:08:23.000"
+            }
+          },
+          {
+            "description": "Narrator talks about the future of path-tracing and GPUs",
+            "timestamp": {
+              "end_timestamp": "00:09:30.000",
+              "start_timestamp": "00:09:09.000"
+            }
+          },
+          {
+            "description": "Narrator talks about noise reduction in path-tracing",
+            "timestamp": {
+              "end_timestamp": "00:09:41.000",
+              "start_timestamp": "00:09:30.000"
+            }
+          },
+          {
+            "description": "Narrator encourages viewers to ask questions, subscribe, and concludes the video",
+            "timestamp": {
+              "end_timestamp": "00:10:02.000",
+              "start_timestamp": "00:09:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious. The video concludes with an exciting glimpse into the future of rendering, maintaining the viewer's curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator continues to describe the evolution of rendering methods, culminating in path-tracing and its future potential.",
+            "timestamp": "00:06:29.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D scene with a bottle, apple, and light source",
+            "timestamp": {
+              "end_timestamp": "00:09:09.000",
+              "start_timestamp": "00:08:07.000"
+            }
+          },
+          {
+            "name": "Virtual camera",
+            "timestamp": {
+              "end_timestamp": "00:09:09.000",
+              "start_timestamp": "00:08:07.000"
+            }
+          },
+          {
+            "name": "Unreal Engine ray-tracing demo",
+            "timestamp": {
+              "end_timestamp": "00:07:37.000",
+              "start_timestamp": "00:07:09.000"
+            }
+          },
+          {
+            "name": "Stormtrooper figurines on the wall",
+            "timestamp": {
+              "end_timestamp": "00:07:37.000",
+              "start_timestamp": "00:07:09.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:10:21.760",
+          "start_timestamp": "00:06:29.040"
+        },
+        "title": "Path-Tracing and The Future",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a 3D scene",
+            "timestamps": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:08:07.000"
+            }
+          },
+          {
+            "description": "Video overlay of Unreal Engine ray-tracing demo",
+            "timestamps": {
+              "end_timestamp": "00:07:37.000",
+              "start_timestamp": "00:07:09.000"
+            }
+          },
+          {
+            "description": "Close-up of the apple",
+            "timestamps": {
+              "end_timestamp": "00:08:55.000",
+              "start_timestamp": "00:08:55.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 5 (7:09-7:37) with the introduction of the Star Wars Unreal Engine ray-tracing demo, showcasing the impressive advancements in real-time rendering.",
+        "timestamp": "00:07:09.000"
+      },
+      "description": "An educational video exploring the evolution of rendering methods in computer graphics, focusing on light, ray-tracing, and path-tracing.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Understanding Rendering Methods: Light, Ray-Tracing and Beyond",
+    "trimmingSuggestions": [
+      {
+        "description": "Scene 2 could be trimmed slightly by removing some of the narrator's repetitive explanations of light bouncing. The scene could start directly with the example in his room and quickly transition to the discussion of rendering methods.",
+        "timestamps": {
+          "end_timestamp": "00:06:29.040",
+          "start_timestamp": "00:06:29.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 622,
+  "original_json_filename": "LAsnQoBUG4Q.json",
+  "original_video_filename": "LAsnQoBUG4Q.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in a lot of my videos I say that software doesn't matter it is you and the knowledge about the software that matters today we're going deep gentlemen after this video you will understand how the magic behind your renders works fun [Music] [Applause] the more you know about these deep processes the more control you have over everything over the look of your 3d scene and more importantly over the time it takes to render your 3d scene first in my talk about render engines I briefly mentioned the light in photography and cinematography is briefly get back to that topic photos and videos a result of our camera recording light humans have an ultimate sensor called eyes that's why the light is the most important aspect and it defines the look they feel the quality of your photos and videos I have a big light source on my right the race this light emits are scattered across my room and reflected by other objects I have here each ray from this light source gets bounced billions of times before it gets to my camera sensor and gets recorded you can imagine how many rays are there in this room right now bouncing trillions of times this is why real life looks so good good models textures materials eternal variety of elements and enormous amount of light bounces captured by our eyes or camera one of the most popular topics is the hardware we use in our work and it makes sense because opposed to real world computers have limits of what they can calculate in real life eyes are capturing uncountable amount of data non-stop computers are far away from that kind of processing power and clever people came up with the different rendering methods there are several rendering method rasterization ray casting ray tracing and path tracing there are also subgroups for these but we won't go that deep let's start with the restoration this is what was possible in the beginning of computer era and it is what all computer games are using till this day this method doesn't use any race it simply helps to display geometry on your screen basically rasterization takes vector data and transforms it into pixels it refers to both primitives like polygons and 3d models to make it simpler 3d model consists of polygons polygons are formed with points points are placed in space using different math 3d scenes are using XYZ coordinates remember geometry is cool but your screen is flat to the XY plane for example here is our camera imagine that this is our screen with pixels in it the rasterizer takes the points from every polygon and calculates where to put them on screen then it's processing the space between the points and turns the shape into a group of pixels after all polygons are processed the computer is able to show you that 2d representation of your 3d object rasterization is what our 3d softwares are using to display our scene in the viewport and it's still the most popular way of producing 3d graphics in real time it is extremely fast because it's simply a process of transforming our scene geometry into pixels this doesn't really sound like actual rendering does it indeed looking at your scene in a viewport is also a rendering method the second method back in a days when computers just appeared was rendering using ray casting I prepared a 3d scene that will help me to demonstrate everything the rays are casted from the camera one through every pixel when the objects in the scene are intersected by the Ray the computer records the closest point to the camera and its color value that can be determined from a texture let's say we want our image to be thousand by thousand pixels resolution this means the computer have to cast 1 million race each ray calculation is tens if not hundreds of lines of code to process I think you guessed how challenging it was back to 70s a massive amount of calculations for the computers to do this method also limits everything creatively as it's only a texture that defines the color of geometry as the Rays going one direction only it means no reflections or shadows possible does that remind you something this flat look started to change in 1980 when a man called Turner Whitted turned Ray casting into something different something revolutionary previously witted made researches for a nuclear power industry and he was studying the behavior of light photons in space so this clever man knew exactly how light behaves in real life let's look at our sample 3d scene again with it introduced what we know as Ray bounces the ray tracing method with this method the computer is also sending a ray through every pixel but when the Ray hits an object instead of recording the data straight away the computer sends more rays one to each light source from this intersection point to find out how these lights are affecting the color or brightness of this point the point could now have shading an illumination data calculated if that ray did meet another geometry on its way to light source it means there is something blocking the light and our intersection point should be darker as it lies in the shadow if the object was reflective the computer sent a new ray forward at a certain angle to check if there is another object which should be reflected in our intersection point and so on until the ray meets a light source this was revolutionary because artists could finally art direct the scene they could dictate the behavior of the race by setting up the materials a material dictates how light should be reflected or maybe it's absorbed or maybe the light goes through the material there are billions of these bounces drawing our scene appearance over the years this method got modified and improved but still it wasn't a simulation of reality these calculations simulated only a reflection refraction and hard shadows hard shadows because the light and this method is a point in space which rays are travelling to get soft shadows who have to cheat to get global illumination we have to cheat and so on it was a huge jump towards a photorealistic renders that we are familiar with nowadays though ray tracing has been promised for years as a ultimate gaming experience but even today's computers are too slow for this method to be calculated at 60fps technology is constantly evolving and what we see in real-time renders nowadays is truly impressive just this year we have seen the Star Wars real-time ray tracing them or released by Unreal Engine and was powered by NVIDIA sir RTX technology still required a computer which costs fifty thousand dollars to run at 24 frames per second but it is a perfect example of how realistic real-time rendering can be with good skills and time spent on cheating ray tracing is good for everything including now real time engines but what about let's say VFX where image has to be flawless in order to be believable there is a purely offline rendering method that is not suitable for real-time engines just yet due to calculations needed and it's called path tracing once again it sounds raised through pixels but when the ray hits an object instead of tracing new race to the points of light sources it keeps bouncing the same ray between scene objects as many times as necessary to get to light source this allows to gather information about the objects that are close to each other find out what color they are and if that color effects the previous object in simple words the Rays are acting like light in a real world this is why the path racing engines care about size of the light not the position because every individual ray can hit a surface of their life it is no longer restricted to a point you will have your soft shadows calculated properly in color bleeding like let's say if colored object is intensely lit caustics like fancy light reflections through the bottle nowadays GPUs are getting more and more advanced powering path tracing engines and you can add many GPUs in one system more than processors this means you can render realistic scenes in the matter of seconds but everything always depends on a lot of factors for instance I'm waiting for octane for to be ready for production use because they're introducing the the noise system noise in path tracing render engines is one of the most painful topics and looks like octane for eliminated that problem but this is a topic for another video how does it feel now when you know exactly what's going on behind your renders and how they are born if you guys still have questions feel free to use comment section thumbs up if that lecture was interesting to you subscribe if CG and VFX is something you're into thanks for watching guys see you soon peace [Music]",
+  "text_to_speech_word_count": 1533,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.600",
+      "start": "00:00:00.000",
+      "text": " In a lot of my videos I say that software doesn't matter."
+    },
+    {
+      "end": "00:00:06.960",
+      "start": "00:00:03.600",
+      "text": " It is you and the knowledge about the software that matters."
+    },
+    {
+      "end": "00:00:09.120",
+      "start": "00:00:06.960",
+      "text": " Today we're going deep gentlemen."
+    },
+    {
+      "end": "00:00:13.920",
+      "start": "00:00:09.120",
+      "text": " After this video you will understand how the magic behind your renders works."
+    },
+    {
+      "end": "00:00:14.400",
+      "start": "00:00:13.920",
+      "text": " Fun!"
+    },
+    {
+      "end": "00:00:27.200",
+      "start": "00:00:22.320",
+      "text": " The more you know about these deep processes, the more control you have over everything,"
+    },
+    {
+      "end": "00:00:33.680",
+      "start": "00:00:27.240",
+      "text": " over the look of your 3D scene and more importantly over the time it takes to render your 3D scene."
+    },
+    {
+      "end": "00:00:40.320",
+      "start": "00:00:33.680",
+      "text": " First, in my talk about render engines I briefly mentioned the light in photography and cinematography."
+    },
+    {
+      "end": "00:00:42.320",
+      "start": "00:00:40.320",
+      "text": " Let's briefly get back to that topic."
+    },
+    {
+      "end": "00:00:46.720",
+      "start": "00:00:42.320",
+      "text": " Photos and videos are a result of our camera recording light."
+    },
+    {
+      "end": "00:00:50.640",
+      "start": "00:00:46.720",
+      "text": " Humans have an ultimate sensor called eyes."
+    },
+    {
+      "end": "00:00:55.200",
+      "start": "00:00:50.640",
+      "text": " That's why the light is the most important aspect and it defines the look,"
+    },
+    {
+      "end": "00:00:58.320",
+      "start": "00:00:55.200",
+      "text": " the feel, the quality of your photos and videos."
+    },
+    {
+      "end": "00:01:01.040",
+      "start": "00:00:58.320",
+      "text": " I have a big light source on my right."
+    },
+    {
+      "end": "00:01:07.520",
+      "start": "00:01:01.040",
+      "text": " The rays this light emits are scattered across my room and reflected by other objects I have here."
+    },
+    {
+      "end": "00:01:13.680",
+      "start": "00:01:07.520",
+      "text": " Each ray from this light source gets bounced billions of times before it gets to my camera sensor"
+    },
+    {
+      "end": "00:01:14.800",
+      "start": "00:01:13.680",
+      "text": " and gets recorded."
+    },
+    {
+      "end": "00:01:20.240",
+      "start": "00:01:14.800",
+      "text": " You can imagine how many rays are there in this room right now bouncing trillions of times."
+    },
+    {
+      "end": "00:01:22.240",
+      "start": "00:01:20.280",
+      "text": " This is why real life looks so good."
+    },
+    {
+      "end": "00:01:29.040",
+      "start": "00:01:22.240",
+      "text": " Good models, textures, materials, eternal variety of elements and the enormous amount of light"
+    },
+    {
+      "end": "00:01:32.080",
+      "start": "00:01:29.040",
+      "text": " bounces captured by our eyes or camera."
+    },
+    {
+      "end": "00:01:37.160",
+      "start": "00:01:32.080",
+      "text": " One of the most popular topics is the hardware we use in our work and it makes sense"
+    },
+    {
+      "end": "00:01:42.720",
+      "start": "00:01:37.880",
+      "text": " because opposed to real world computers have limits of what they can calculate."
+    },
+    {
+      "end": "00:01:47.760",
+      "start": "00:01:42.720",
+      "text": " In real life, eyes are capturing an uncomfortable amount of data non-stop."
+    },
+    {
+      "end": "00:01:53.920",
+      "start": "00:01:47.760",
+      "text": " Computers are far away from that kind of processing power and clever people came up with different"
+    },
+    {
+      "end": "00:02:01.040",
+      "start": "00:01:53.920",
+      "text": " rendering methods. There are several rendering methods. Restoration, ray casting, ray tracing and"
+    },
+    {
+      "end": "00:02:05.680",
+      "start": "00:02:01.040",
+      "text": " path tracing. There are also subgroups for these but we won't go that deep."
+    },
+    {
+      "end": "00:02:10.720",
+      "start": "00:02:05.680",
+      "text": " Let's start with the restoration. This is what was possible in the beginning of computer"
+    },
+    {
+      "end": "00:02:14.400",
+      "start": "00:02:10.720",
+      "text": " era and it is what all computer games are using till this day."
+    },
+    {
+      "end": "00:02:19.840",
+      "start": "00:02:14.400",
+      "text": " This method doesn't use any rays. It simply helps to display geometry on your screen."
+    },
+    {
+      "end": "00:02:25.360",
+      "start": "00:02:19.840",
+      "text": " Basically, restoration takes vector data and transforms it into pixels."
+    },
+    {
+      "end": "00:02:29.920",
+      "start": "00:02:25.360",
+      "text": " It refers to both. Primitives like polygons and 3D models."
+    },
+    {
+      "end": "00:02:37.360",
+      "start": "00:02:29.920",
+      "text": " To make it simpler, 3D models consist of polygons. Polygons are formed with points."
+    },
+    {
+      "end": "00:02:40.400",
+      "start": "00:02:37.360",
+      "text": " Points are placed in space using different math."
+    },
+    {
+      "end": "00:02:45.600",
+      "start": "00:02:41.040",
+      "text": " 3D scenes are using XYZ coordinates. Remember geometry in school?"
+    },
+    {
+      "end": "00:02:52.160",
+      "start": "00:02:46.480",
+      "text": " But your screen is flat to the XY plane. For example, here is our camera."
+    },
+    {
+      "end": "00:02:59.600",
+      "start": "00:02:52.880",
+      "text": " Imagine that this is our screen with pixels in it. The rust riser takes the points from every polygon"
+    },
+    {
+      "end": "00:03:05.200",
+      "start": "00:02:59.600",
+      "text": " and calculates where to put them on screen. Then it's processing the space between the points"
+    },
+    {
+      "end": "00:03:11.920",
+      "start": "00:03:05.520",
+      "text": " and turns the shape into a group of pixels. After all polygons are processed, the computer is"
+    },
+    {
+      "end": "00:03:16.160",
+      "start": "00:03:11.920",
+      "text": " able to show you the 2D representation of your 3D object."
+    },
+    {
+      "end": "00:03:21.600",
+      "start": "00:03:16.160",
+      "text": " Restarization is what our 3D softwares are using to display our scene in the viewport."
+    },
+    {
+      "end": "00:03:26.640",
+      "start": "00:03:21.600",
+      "text": " And it's still the most popular way of producing 3D graphics in real time."
+    },
+    {
+      "end": "00:03:32.800",
+      "start": "00:03:26.640",
+      "text": " It is extremely fast because it's simply a process of transforming our scene geometry into pixels."
+    },
+    {
+      "end": "00:03:38.400",
+      "start": "00:03:32.800",
+      "text": " This doesn't really sound like actual rendering, does it? Indeed, looking at your scene in a viewport"
+    },
+    {
+      "end": "00:03:44.160",
+      "start": "00:03:38.400",
+      "text": " is also a rendering method. The second method back in a day is when computers just appeared"
+    },
+    {
+      "end": "00:03:51.120",
+      "start": "00:03:44.160",
+      "text": " was rendering using ray casting. I prepared a 3D scene that will help me to demonstrate everything."
+    },
+    {
+      "end": "00:03:57.520",
+      "start": "00:03:51.120",
+      "text": " The rays are casted from the camera one through every pixel. When the objects in this scene are"
+    },
+    {
+      "end": "00:04:03.600",
+      "start": "00:03:57.520",
+      "text": " intersected by the ray, the computer records the closest point to the camera and its color value"
+    },
+    {
+      "end": "00:04:10.880",
+      "start": "00:04:03.600",
+      "text": " that can be determined from a texture. Let's say we want our image to be 1000 by 1000 pixels resolution."
+    },
+    {
+      "end": "00:04:17.200",
+      "start": "00:04:10.880",
+      "text": " This means the computer have to cast 1 million rays. Each ray calculation is tense,"
+    },
+    {
+      "end": "00:04:22.880",
+      "start": "00:04:17.200",
+      "text": " if not hundreds of lines of code to process. I think you guessed how challenging it was back to"
+    },
+    {
+      "end": "00:04:29.240",
+      "start": "00:04:22.880",
+      "text": " 70s. A massive amount of calculations for the computers to do. This method also limits everything"
+    },
+    {
+      "end": "00:04:35.120",
+      "start": "00:04:29.240",
+      "text": " creatively, as it's only a texture that defines the color of geometry. As the rays going one direction"
+    },
+    {
+      "end": "00:04:40.080",
+      "start": "00:04:35.120",
+      "text": " only, it means no reflections or shadows possible. Does that remind you something?"
+    },
+    {
+      "end": "00:04:53.120",
+      "start": "00:04:40.920",
+      "text": " This flat looks started to change in 1980 when a man called Turner Whitted turned ray casting"
+    },
+    {
+      "end": "00:05:00.000",
+      "start": "00:04:53.120",
+      "text": " into something different, something revolutionary. Previously Whitted made researches for a nuclear"
+    },
+    {
+      "end": "00:05:06.560",
+      "start": "00:05:00.000",
+      "text": " power industry and he was studying the behavior of light photons in space. So this clever man"
+    },
+    {
+      "end": "00:05:12.800",
+      "start": "00:05:06.560",
+      "text": " knew exactly how light behaves in real life. Let's look at our sample 3D scene again. Whitted"
+    },
+    {
+      "end": "00:05:19.760",
+      "start": "00:05:12.800",
+      "text": " introduced what we know as ray bounces, the ray tracing method. With this method the computer is"
+    },
+    {
+      "end": "00:05:25.600",
+      "start": "00:05:19.760",
+      "text": " also sending a ray through every pixel, but when the ray hits an object instead of recording the"
+    },
+    {
+      "end": "00:05:32.000",
+      "start": "00:05:25.600",
+      "text": " data straight away, the computer sends more rays. One to each light source from this intersection"
+    },
+    {
+      "end": "00:05:37.680",
+      "start": "00:05:32.240",
+      "text": " to find out how these lights are affecting the color or brightness of this point. The point could"
+    },
+    {
+      "end": "00:05:45.280",
+      "start": "00:05:37.680",
+      "text": " now have shading and illumination data calculated. If that ray did meet another geometry on its"
+    },
+    {
+      "end": "00:05:50.720",
+      "start": "00:05:45.280",
+      "text": " weight light source, it means there is something blocking the light and our intersection point should"
+    },
+    {
+      "end": "00:05:57.360",
+      "start": "00:05:50.720",
+      "text": " be darker as it lights in the shadow. If the object was reflective, the computer sent a new ray"
+    },
+    {
+      "end": "00:06:02.880",
+      "start": "00:05:57.360",
+      "text": " forward at a certain angle to check if there is another object which should be reflected in our"
+    },
+    {
+      "end": "00:06:09.840",
+      "start": "00:06:02.880",
+      "text": " intersection point and so on until the ray meets a light source. This was revolutionary because"
+    },
+    {
+      "end": "00:06:16.560",
+      "start": "00:06:09.840",
+      "text": " artists could finally art direct the scene. They could dictate the behavior of the rays by setting"
+    },
+    {
+      "end": "00:06:23.280",
+      "start": "00:06:16.560",
+      "text": " up the materials. A material dictates how light should be reflected or maybe it's absorbed or"
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:23.320",
+      "text": " maybe the light goes through the material. There are billions of these bounces drawing our scene"
+    },
+    {
+      "end": "00:06:37.280",
+      "start": "00:06:30.000",
+      "text": " appearance. Over the years this method got modified and improved, but still it wasn't a simulation of"
+    },
+    {
+      "end": "00:06:43.840",
+      "start": "00:06:37.280",
+      "text": " reality. These calculations simulated only a reflection, a reflection and hard shadows."
+    },
+    {
+      "end": "00:06:50.080",
+      "start": "00:06:43.840",
+      "text": " Hard shadows because the light in this method is a point in space to which rays are traveling."
+    },
+    {
+      "end": "00:06:55.760",
+      "start": "00:06:50.080",
+      "text": " To get soft shadows we have to cheat to get global illumination, we have to cheat and so on."
+    },
+    {
+      "end": "00:07:01.600",
+      "start": "00:06:55.760",
+      "text": " It was a huge jump towards a photo realistic renders that we are familiar with nowadays though."
+    },
+    {
+      "end": "00:07:08.240",
+      "start": "00:07:01.600",
+      "text": " Ray Tracing has been promised for years as a ultimate gaming experience, but even today's"
+    },
+    {
+      "end": "00:07:16.160",
+      "start": "00:07:08.240",
+      "text": " computers are too slow for this method to be calculated at 60 FPS. Technology is constantly evolving"
+    },
+    {
+      "end": "00:07:22.080",
+      "start": "00:07:16.320",
+      "text": " and what we see in real-time renders nowadays is truly impressive. Just this year we have seen the"
+    },
+    {
+      "end": "00:07:29.280",
+      "start": "00:07:22.080",
+      "text": " Star Wars real-time ray tracing demo released by Unreal Engine. It was powered by NVIDIA's RTX"
+    },
+    {
+      "end": "00:07:36.080",
+      "start": "00:07:29.280",
+      "text": " technology. Still required a computer which costs $50,000 to run at 24 frames per second,"
+    },
+    {
+      "end": "00:07:43.360",
+      "start": "00:07:36.080",
+      "text": " but that is a perfect example of how realistic real-time rendering can be. With good skills and time"
+    },
+    {
+      "end": "00:07:50.480",
+      "start": "00:07:43.360",
+      "text": " to spend on cheating, ray tracing is good for everything including now real-time engines."
+    },
+    {
+      "end": "00:07:56.960",
+      "start": "00:07:50.480",
+      "text": " But what about let's say VFX where image has to be flawless in order to be believable?"
+    },
+    {
+      "end": "00:08:03.280",
+      "start": "00:07:56.960",
+      "text": " There is a purely offline rendering method that is not suitable for real-time engines just yet due"
+    },
+    {
+      "end": "00:08:10.320",
+      "start": "00:08:03.280",
+      "text": " to calculations needed and it's called path tracing. Once again, it sends rays through pixels,"
+    },
+    {
+      "end": "00:08:16.320",
+      "start": "00:08:10.320",
+      "text": " but when the ray hits an object instead of tracing new rays to the points of light sources,"
+    },
+    {
+      "end": "00:08:23.520",
+      "start": "00:08:16.320",
+      "text": " it keeps bouncing the same ray between scene objects as many times as necessary to get to light source."
+    },
+    {
+      "end": "00:08:28.640",
+      "start": "00:08:23.520",
+      "text": " This allows to gather information about the objects that are close to each other,"
+    },
+    {
+      "end": "00:08:35.600",
+      "start": "00:08:28.640",
+      "text": " find out what color they are and if that color affects the previous object. In simple words,"
+    },
+    {
+      "end": "00:08:41.520",
+      "start": "00:08:35.600",
+      "text": " the rays are acting like light in a real world. This is why the path tracing engines care about"
+    },
+    {
+      "end": "00:08:48.320",
+      "start": "00:08:41.520",
+      "text": " size of the light, not only the position. Because every individual ray can hit a surface of their light."
+    },
+    {
+      "end": "00:08:54.160",
+      "start": "00:08:48.320",
+      "text": " It is no longer restricted to a point. You will have your soft shadows calculated properly,"
+    },
+    {
+      "end": "00:09:02.400",
+      "start": "00:08:54.160",
+      "text": " color bleeding like let's say if a colored object is intensely lit. Costics like fancy light"
+    },
+    {
+      "end": "00:09:09.040",
+      "start": "00:09:02.400",
+      "text": " reflections through the bottle. Nowadays GPUs are getting more and more advanced powering path"
+    },
+    {
+      "end": "00:09:15.760",
+      "start": "00:09:09.040",
+      "text": " tracing engines and you can add many GPUs in one system more than processors. This means you can"
+    },
+    {
+      "end": "00:09:22.880",
+      "start": "00:09:15.760",
+      "text": " render realistic scenes in the matter of seconds. But everything always depends on a lot of factors."
+    },
+    {
+      "end": "00:09:28.160",
+      "start": "00:09:22.880",
+      "text": " For instance, I'm waiting for Octane 4 to be ready for production use because they're"
+    },
+    {
+      "end": "00:09:35.400",
+      "start": "00:09:28.160",
+      "text": " introducing the noise system. Noise in path tracing render engines is one of the most painful"
+    },
+    {
+      "end": "00:09:41.600",
+      "start": "00:09:35.400",
+      "text": " topics and looks like Octane 4 eliminated that problem. But this is a topic for another video."
+    },
+    {
+      "end": "00:09:47.520",
+      "start": "00:09:41.600",
+      "text": " How does it feel now when you know exactly what's going on behind your renders and how they are born?"
+    },
+    {
+      "end": "00:09:53.600",
+      "start": "00:09:47.520",
+      "text": " If you guys still have questions feel free to use comment section. Thumbs up if that lecture was"
+    },
+    {
+      "end": "00:09:59.920",
+      "start": "00:09:53.600",
+      "text": " interesting to you. Subscribe if CG and VFX is something you're into. Thanks for watching guys."
+    },
+    {
+      "end": "00:10:01.200",
+      "start": "00:09:59.920",
+      "text": " See you soon. Peace!"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Film & Animation"
+  ],
+  "youtube_channel": "Andrey Lebrov",
+  "youtube_channel_follower_count": 231000,
+  "youtube_comment_count": 903,
+  "youtube_description": "In this video, I talk about Rendering methods from rasterization to path-tracing. You will find out how the rendering process actually happens from the inside. \n\n13 High-Resolution decks textures used in this video: https://sellfy.com/p/mqFx/\n\n-----------------------------------------------------------------------------\n\nBUY MY CG ASSETS: https://goo.gl/8y5znz\n\n-----------------------------------------------------------------------------\n\nFOLLOW ME:\nInstagram: https://www.instagram.com/andreylebrov\nVimeo: https://vimeo.com/andreylebrov\nBehance: https://www.behance.net/anmeko\n\nLinkedIn: https://www.linkedin.com/in/andrey-lebrov-68b72296/\nFacebook: https://www.facebook.com/andreylebrov\n\nwww.lebrov.com\n\nMusic from artlist.io and/or by David Cutter music.",
+  "youtube_like_count": 15046,
+  "youtube_tags": [
+    "lebrov",
+    "cg",
+    "vfx",
+    "tutorial",
+    "how to",
+    "learning",
+    "filmmaking",
+    "step up",
+    "master",
+    "rendering",
+    "rasterizer",
+    "ray tracing",
+    "path tracing",
+    "ray casting",
+    "turner whitted",
+    "light rays",
+    "explained",
+    "render methods",
+    "RTX",
+    "RTX 2018",
+    "RTX2080",
+    "real time ray tracing",
+    "optix",
+    "denoising"
+  ],
+  "youtube_title": "RAY TRACING and other RENDERING METHODS",
+  "youtube_upload_date": "20180801",
+  "youtube_view_count": 263822
+}

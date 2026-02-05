@@ -1,0 +1,852 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "Chemist",
+        "description": "Female chemist in a teal shirt and dark top, wearing a watch and a ring on her left hand.",
+        "name": "Chemist"
+      }
+    ],
+    "description": "This schema describes the breakdown of a titration experiment featuring a female chemist who demonstrates the proper titration procedure using various equipment and indicators.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "Red, as indicated by the addition of the universal indicator to the acidic solution.",
+        "question": "What color is the solution at the beginning of the titration?"
+      },
+      {
+        "answer": "The conical shape of the Erlenmeyer flask prevents the liquid from splashing out during swirling.",
+        "question": "Why is an Erlenmeyer flask used for titration instead of a beaker?"
+      },
+      {
+        "answer": "Purple, indicating a basic pH.",
+        "question": "What color does the solution turn when too much base is added?"
+      },
+      {
+        "answer": "The solution turns green, indicating a neutral pH of 7.",
+        "question": "What happens when the solution reaches the desired endpoint?"
+      },
+      {
+        "answer": "Adding water doesn't affect the number of moles of acid or base reacting, and it helps ensure proper mixing and visibility of color changes.",
+        "question": "Why is water added to the flask during titration?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Chemist shows and explains the burette, how it works, and the labels 'acid' and 'base'.",
+            "timestamp": {
+              "end_timestamp": "00:00:13.013",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Chemist explains how to read the burette and its numbering system.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.993",
+              "start_timestamp": "00:00:14.014"
+            }
+          },
+          {
+            "description": "Chemist demonstrates reading the burette using black paper and records the initial volumes in a data table.",
+            "timestamp": {
+              "end_timestamp": "00:01:32.993",
+              "start_timestamp": "00:01:00.994"
+            }
+          },
+          {
+            "description": "Chemist emphasizes recording the reading with two digits past the decimal point.",
+            "timestamp": {
+              "end_timestamp": "00:01:50.477",
+              "start_timestamp": "00:01:33.994"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Chemist"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Chemist"
+            ],
+            "description": "The chemist directly addresses the viewer, guiding them through the equipment and procedures."
+          }
+        ],
+        "contextualRelevance": "Introduces the essential tool for the titration process, ensuring the audience understands its importance and proper use.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious. The chemist's clear and concise explanation, combined with close-up visuals of the equipment, fosters a sense of learning and engagement.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shifts from a wide shot to a closer shot of the burette reading.",
+              "timestamp": "00:01:00.994"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The chemist introduces the primary tool for titration (the burette) and how to accurately read and record its measurements.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Burettes (filled with acid and base)",
+            "timestamp": {
+              "end_timestamp": "00:01:50.477",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Blue burette clamp",
+            "timestamp": {
+              "end_timestamp": "00:01:50.477",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Black paper",
+            "timestamp": {
+              "end_timestamp": "00:01:50.477",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Data table",
+            "timestamp": {
+              "end_timestamp": "00:01:50.477",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Pen",
+            "timestamp": {
+              "end_timestamp": "00:01:50.477",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Focus on precision and accuracy in scientific measurements.",
+        "timestamps": {
+          "end_timestamp": "00:01:50.477",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introducing the Burette",
+        "videoEditingDetails": [
+          {
+            "description": "Could trim some of the initial demonstration of holding the black paper, as it's repeated later with more clarity.",
+            "timestamps": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:00:59.993"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Chemist introduces the Erlenmeyer flask and wash bottle, explaining their purposes in titration.",
+            "timestamp": {
+              "end_timestamp": "00:02:11.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "description": "Chemist shows the universal indicator and explains its function.",
+            "timestamp": {
+              "end_timestamp": "00:02:24.011",
+              "start_timestamp": "00:02:13.000"
+            }
+          },
+          {
+            "description": "Chemist demonstrates using the indicator color card to match pH levels and colors.",
+            "timestamp": {
+              "end_timestamp": "00:02:54.007",
+              "start_timestamp": "00:02:25.012"
+            }
+          },
+          {
+            "description": "Chemist adds acid to the flask and rinses the burette tip and flask sides with the wash bottle.",
+            "timestamp": {
+              "end_timestamp": "00:03:20.000",
+              "start_timestamp": "00:02:55.008"
+            }
+          },
+          {
+            "description": "Chemist adds universal indicator to the flask, explains the reaction, and starts adding base from the burette while swirling the flask.",
+            "timestamp": {
+              "end_timestamp": "00:04:17.991",
+              "start_timestamp": "00:03:21.001"
+            }
+          },
+          {
+            "description": "Chemist continues adding base, slows down the process when she sees a color change, and shows a green solution indicating a neutral pH.",
+            "timestamp": {
+              "end_timestamp": "00:05:08.008",
+              "start_timestamp": "00:04:18.992"
+            }
+          },
+          {
+            "description": "Chemist demonstrates adding too much base, resulting in a purple solution, then adds acid to correct the pH and achieve a green color again. She reads the final volumes from both burettes and records them in the data table.",
+            "timestamp": {
+              "end_timestamp": "00:06:26.987",
+              "start_timestamp": "00:05:09.009"
+            }
+          },
+          {
+            "description": "Chemist explains that the final step is to subtract initial from final volumes and use the data to calculate the unknown molarity.",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:06:27.988"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Chemist"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Chemist"
+            ],
+            "description": "The chemist continues directly addressing the viewer, providing a step-by-step walkthrough of the titration procedure."
+          }
+        ],
+        "contextualRelevance": "Highlights the complete titration process, emphasizing the significance of each piece of equipment and the transition of the solution to neutral pH.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Focused, Informative. The chemist's actions become more deliberate as she performs the titration, demonstrating a focused approach.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shifts focus from equipment to the actual titration process.",
+              "timestamp": "00:03:21.001"
+            },
+            {
+              "changeDescription": "Closer shot of the flask as color changes become crucial.",
+              "timestamp": "00:04:18.992"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The chemist introduces the remaining equipment, explains the titration procedure, and carries out the titration while highlighting key observations and adjustments.",
+            "timestamp": "00:01:53.013"
+          }
+        ],
+        "props": [
+          {
+            "name": "Erlenmeyer flask",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "name": "Wash bottle",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "name": "Universal indicator bottle",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "name": "Indicator color card",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "name": "Burettes",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "name": "Data table",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "name": "Pen",
+            "timestamp": {
+              "end_timestamp": "00:06:38.999",
+              "start_timestamp": "00:01:53.013"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Practical application of chemical knowledge, careful observation, and the importance of achieving a neutral solution through titration.",
+        "timestamps": {
+          "end_timestamp": "00:06:39.032",
+          "start_timestamp": "00:01:50.510"
+        },
+        "title": "Additional Equipment and Titration Procedure",
+        "videoEditingDetails": [
+          {
+            "description": "Could trim the chemist's comment about liking the new color better, as it doesn't significantly add to the explanation.",
+            "timestamps": {
+              "end_timestamp": "00:05:16.016",
+              "start_timestamp": "00:05:13.013"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Achieving the green neutral solution, indicating successful titration.",
+        "timestamp": "00:05:06.006"
+      },
+      "description": "Demonstration of a titration procedure.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Titration Experiment Breakdown",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim some of the initial black paper demonstration.",
+        "timestamps": {
+          "end_timestamp": "00:01:50.510",
+          "start_timestamp": "00:01:50.510"
+        }
+      },
+      {
+        "description": "Remove the chemist's comment about liking the new color.",
+        "timestamps": {
+          "end_timestamp": "00:05:16.016",
+          "start_timestamp": "00:05:13.013"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 399,
+  "original_json_filename": "bXAsKV5WSfQ.json",
+  "original_video_filename": "bXAsKV5WSfQ.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "I'm gonna demonstrate a titration for you before we titrate I need to show you the burette so this is the equipment that we're going to use today one is filled with an acid and one is filled with a base so it's basically like a long glass straw and at the bottom it has a valve and the valve works very much like the gas jet when the handle is parallel to the table or the floor it's closed and if we turn it to the left or the right any way so that it's not parallel to the table or the floor then liquid will either stream out if the handle is straight up and down or it'll drop out little by little depending on where you position it and I'll show you that in just a minute so they're both attached to this blue burette clamp which is labeled four this one is the acid and this one is the base and the very first thing that we have to do is read the burette and record that on the data table so these are pieces of equipment that are made to dispense liquid not contain it and so as a result they're numbered from the top down so when it's filled all the way to the top we would write down zero because zero milliliters have been dispensed so what I'm gonna do is hold a piece of black paper so it's a little bit easier to see the numbers and if the meniscus was right here it would be 18 and if it was right here it would be 19 but it looks to me like it's right in the middle so I'm gonna call that 18 point five zero and then I'm going to use that same technique over here to read this one and this one looks to me to be 20 point six so I'm gonna record those on my data table down here as my initial volume and notice that I'm going to digits past the decimal point because that's the accuracy that we should use whenever our equipment is graduated in the tenth of a milliliter let me show you some of the other equipment that we're going to use today when you titrate you're always going to use an Erlenmeyer flask and that's because its shape is especially suited for this we're gonna be doing a lot of swirling as we titrate and the liquid could slosh out if we were using something that had straight sides like a beaker so you want to make sure you're using an Erlenmeyer flask and then this is called a wash bottle and we're going to use this to rinse the tip of the burette and also sometimes we'll rinse the insides of the flask to make sure all of the things in our reaction mixture get mixed together well and we're going to use universal indicator when we titrate today so we can monitor the pH of our solutions as we mix them and we have this indicator card that shows us what color Universal indicator is every pH unit or half unit between four and ten so you can see as I hold it on the white paper that at a pH of four or below it's red and at 10 or higher it's purple and then it changes just like the rainbow colors between there so when we're doing our titration of a strong acid and strong base this pH of seven this nice green color is what we're going for so what I'm going to titrate today is hydrochloric acid and sodium hydroxide and I know that my hydrochloric acid concentration is 0.1 molar and I'm going to use it to figure out my concentration of sodium hydroxide so the procedure is very easy I'm gonna start by putting a small amount of the acid or base it really doesn't matter which one you start with into the flask so I'm gonna go ahead and do that it doesn't matter how much you start with you can pick any quantity so you just want to put some in there and then I'll use the wash bottle to rinse the tip of the burette to make sure I got all the acid that I dispensed in there and then rinse the sides of the flask while you titrate it's perfectly fine to add as much water as you want because that's not going to change the number of moles of acid or base that are in there and reacting the next thing that I'm going to do is add the universal indicator and that's so I can monitor the pH while the titration takes place when an acid-base react they make water and a salt and since those are both clear like an acid base we wouldn't have the typical signs of chemical change like a precipitate forming or a gas being released so the pH change is how we're going to know that we have reached what we call our endpoint which is when we get to that green neutral color so now I'm going to hold the flask underneath the base burette and I'm going to start to add it a little bit at a time and I'm gonna swirl the flask while I do just to keep it all mixing and what I'm looking for as I do this is a color change to happen that lasts a little bit longer each time in the flask so as I add it when I'm looking straight down on it I can see that there's a little bit of a color change happening but I'm gonna look for sort of a splash of purple that sticks around and when I see that I'm gonna slow down the rate that I'm adding the base so that I don't go too far and go past the endpoint so you can see this is a green for sure and if I was titrating for the first time well now I'm starting to like the color a little bit better when I first saw it I felt like it was a little bit too blue so remember you have that indicator color card and you can compare to see you know how do you think you did so I actually feel like this is pretty good but just to show you what might happen if you go too far I'm gonna add a little bit too much base and now you can see that it's purple but that's okay because now I'll just do the same thing and put it underneath the acid burette and add a little bit of acid so that yellow is a pH that's a little bit too low so I'm gonna try a trick which is to rinse the tip of the base burette and rinse the insides of the flask and hope that that's enough for me to get to green and I like that green so I'm gonna go ahead and stop there so now the thing that I would do next is reasonably rats one last time so I'm going to hold that black paper up and that looks to me to be twenty point nine zero which I'm going to record in the data table and then in the base burette I think it is twenty three point three zero and then you would subtract these quantities to figure out how much acid and base you used and then once you know that you can complete stoichiometric calculations to determine them charity",
+  "text_to_speech_word_count": 1279,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.971",
+      "start": "00:00:00.000",
+      "text": " I'm going to demonstrate a titration for you."
+    },
+    {
+      "end": "00:00:06.974",
+      "start": "00:00:03.971",
+      "text": " Before we titrate, I need to show you the burette."
+    },
+    {
+      "end": "00:00:09.977",
+      "start": "00:00:06.974",
+      "text": " So this is the equipment that we're going to use today."
+    },
+    {
+      "end": "00:00:12.980",
+      "start": "00:00:09.977",
+      "text": " One is filled with an acid and one is filled with a base."
+    },
+    {
+      "end": "00:00:16.984",
+      "start": "00:00:12.980",
+      "text": " So it's basically like a long glass straw, and at the bottom it has a valve,"
+    },
+    {
+      "end": "00:00:19.987",
+      "start": "00:00:16.984",
+      "text": " and the valve works very much like the gas jet."
+    },
+    {
+      "end": "00:00:23.991",
+      "start": "00:00:19.987",
+      "text": " When the handle is parallel to the table or the floor, it's closed."
+    },
+    {
+      "end": "00:00:26.994",
+      "start": "00:00:23.991",
+      "text": " And if we turn it to the left or the right,"
+    },
+    {
+      "end": "00:00:30.998",
+      "start": "00:00:26.994",
+      "text": " any way so that it's not parallel to the table or the floor,"
+    },
+    {
+      "end": "00:00:34.968",
+      "start": "00:00:30.998",
+      "text": " then liquid will either stream out if the handle is straight up and down,"
+    },
+    {
+      "end": "00:00:38.972",
+      "start": "00:00:34.968",
+      "text": " or it'll drop out little by little, depending on where you position it."
+    },
+    {
+      "end": "00:00:40.974",
+      "start": "00:00:38.972",
+      "text": " And I'll show you that in just a minute."
+    },
+    {
+      "end": "00:00:43.977",
+      "start": "00:00:40.974",
+      "text": " So they're both attached to this blue burette clamp,"
+    },
+    {
+      "end": "00:00:46.980",
+      "start": "00:00:43.977",
+      "text": " which is labeled for this one as the acid and this one as the base."
+    },
+    {
+      "end": "00:00:51.985",
+      "start": "00:00:46.980",
+      "text": " And the very first thing that we have to do is read the burette and record that on the data table."
+    },
+    {
+      "end": "00:00:56.990",
+      "start": "00:00:51.985",
+      "text": " So these are pieces of equipment that are made to dispense liquid, not contain it."
+    },
+    {
+      "end": "00:00:59.993",
+      "start": "00:00:56.990",
+      "text": " And so as a result, they're numbered from the top down."
+    },
+    {
+      "end": "00:01:03.997",
+      "start": "00:00:59.993",
+      "text": " So when it's filled all the way to the top, we would write down zero"
+    },
+    {
+      "end": "00:01:06.967",
+      "start": "00:01:03.997",
+      "text": " because zero milliliters have been dispensed."
+    },
+    {
+      "end": "00:01:09.970",
+      "start": "00:01:06.967",
+      "text": " So what I'm going to do is hold a piece of black paper,"
+    },
+    {
+      "end": "00:01:11.972",
+      "start": "00:01:09.970",
+      "text": " so it's a little bit easier to see the numbers."
+    },
+    {
+      "end": "00:01:15.976",
+      "start": "00:01:11.972",
+      "text": " And if the meniscus was right here, it would be 18."
+    },
+    {
+      "end": "00:01:18.979",
+      "start": "00:01:15.976",
+      "text": " And if it was right here, it would be 19."
+    },
+    {
+      "end": "00:01:20.981",
+      "start": "00:01:18.979",
+      "text": " But it looks to me like it's right in the middle."
+    },
+    {
+      "end": "00:01:23.984",
+      "start": "00:01:20.981",
+      "text": " So I'm going to call that 18.50."
+    },
+    {
+      "end": "00:01:27.988",
+      "start": "00:01:23.984",
+      "text": " And then I'm going to use that same technique over here to read this one."
+    },
+    {
+      "end": "00:01:30.991",
+      "start": "00:01:27.988",
+      "text": " And this one looks to me to be 20.6."
+    },
+    {
+      "end": "00:01:36.997",
+      "start": "00:01:30.991",
+      "text": " So I'm going to record those on my data table down here as my initial volume."
+    },
+    {
+      "end": "00:01:44.972",
+      "start": "00:01:40.968",
+      "text": " And notice that I'm going to digits past the decimal point,"
+    },
+    {
+      "end": "00:01:48.976",
+      "start": "00:01:44.972",
+      "text": " because that's the accuracy that we should use whenever our equipment is graduated"
+    },
+    {
+      "end": "00:01:51.979",
+      "start": "00:01:48.976",
+      "text": " in the tenth of a milliliter."
+    },
+    {
+      "end": "00:01:54.982",
+      "start": "00:01:51.979",
+      "text": " Let me show you some of the other equipment that we're going to use today."
+    },
+    {
+      "end": "00:01:57.985",
+      "start": "00:01:54.982",
+      "text": " When you titrate, you're always going to use an Erlinmeyer flask."
+    },
+    {
+      "end": "00:02:01.989",
+      "start": "00:01:57.985",
+      "text": " And that's because its shape is especially suited for this."
+    },
+    {
+      "end": "00:02:04.992",
+      "start": "00:02:01.989",
+      "text": " We're going to be doing a lot of swirling as we titrate."
+    },
+    {
+      "end": "00:02:08.996",
+      "start": "00:02:04.992",
+      "text": " And the liquid could slosh out if we were using something that had straight sides like a beaker."
+    },
+    {
+      "end": "00:02:11.999",
+      "start": "00:02:08.996",
+      "text": " So you want to make sure you're using an Erlinmeyer flask."
+    },
+    {
+      "end": "00:02:14.968",
+      "start": "00:02:13.000",
+      "text": " And then this is called a wash bottle."
+    },
+    {
+      "end": "00:02:17.971",
+      "start": "00:02:14.968",
+      "text": " And we're going to use this to rinse the tip of the burette."
+    },
+    {
+      "end": "00:02:21.975",
+      "start": "00:02:17.971",
+      "text": " And also sometimes we'll rinse the insides of the flask to make sure all of the things"
+    },
+    {
+      "end": "00:02:24.978",
+      "start": "00:02:21.975",
+      "text": " in our reaction mixture get mixed together well."
+    },
+    {
+      "end": "00:02:28.982",
+      "start": "00:02:24.978",
+      "text": " And we're going to use universal indicator when we titrate today."
+    },
+    {
+      "end": "00:02:31.985",
+      "start": "00:02:28.982",
+      "text": " So we can monitor the pH of our solutions as we mix them."
+    },
+    {
+      "end": "00:02:37.991",
+      "start": "00:02:31.985",
+      "text": " And we have this indicator card that shows us what color universal indicator is."
+    },
+    {
+      "end": "00:02:42.996",
+      "start": "00:02:37.991",
+      "text": " Every pH unit or half unit between 4 and 10."
+    },
+    {
+      "end": "00:02:48.969",
+      "start": "00:02:42.996",
+      "text": " So you can see as I hold it on the white paper that at a pH of 4 or below, it's red."
+    },
+    {
+      "end": "00:02:50.971",
+      "start": "00:02:48.969",
+      "text": " And at 10 or higher, it's purple."
+    },
+    {
+      "end": "00:02:53.974",
+      "start": "00:02:50.971",
+      "text": " And then it changes just like the rainbow colors between there."
+    },
+    {
+      "end": "00:02:57.978",
+      "start": "00:02:53.974",
+      "text": " So when we're doing our titration of a strong acid and strong base,"
+    },
+    {
+      "end": "00:03:01.982",
+      "start": "00:02:57.978",
+      "text": " this pH of 7, this nice green color is what we're going for."
+    },
+    {
+      "end": "00:03:07.988",
+      "start": "00:03:02.983",
+      "text": " So what I'm going to titrate today is hydrochloric acid and sodium hydroxide."
+    },
+    {
+      "end": "00:03:11.992",
+      "start": "00:03:07.988",
+      "text": " And I know that my hydrochloric acid concentration is .1 molar."
+    },
+    {
+      "end": "00:03:15.996",
+      "start": "00:03:11.992",
+      "text": " And I'm going to use it to figure out my concentration of sodium hydroxide."
+    },
+    {
+      "end": "00:03:17.998",
+      "start": "00:03:15.996",
+      "text": " So the procedure is very easy."
+    },
+    {
+      "end": "00:03:21.968",
+      "start": "00:03:17.998",
+      "text": " I'm going to start by putting a small amount of the acid or base."
+    },
+    {
+      "end": "00:03:25.972",
+      "start": "00:03:21.968",
+      "text": " It really doesn't matter which one you start with into the flask."
+    },
+    {
+      "end": "00:03:28.975",
+      "start": "00:03:25.972",
+      "text": " So I'm going to go ahead and do that."
+    },
+    {
+      "end": "00:03:32.979",
+      "start": "00:03:29.976",
+      "text": " It doesn't matter how much you start with, you can pick any quantity."
+    },
+    {
+      "end": "00:03:34.981",
+      "start": "00:03:32.979",
+      "text": " So you just want to put some in there."
+    },
+    {
+      "end": "00:03:40.987",
+      "start": "00:03:34.981",
+      "text": " And then I'll use the wash bottle to rinse the tip of the burette to make sure I got all the acid that I dispensed in there."
+    },
+    {
+      "end": "00:03:42.989",
+      "start": "00:03:40.987",
+      "text": " And then rinse the sides of the flask."
+    },
+    {
+      "end": "00:03:46.993",
+      "start": "00:03:42.989",
+      "text": " While you titrate, it's perfectly fine to add as much water as you want,"
+    },
+    {
+      "end": "00:03:51.998",
+      "start": "00:03:46.993",
+      "text": " because that's not going to change the number of moles of acid or base that are in there and reacting."
+    },
+    {
+      "end": "00:03:54.968",
+      "start": "00:03:51.998",
+      "text": " The next thing that I'm going to do is add the universal indicator."
+    },
+    {
+      "end": "00:03:58.972",
+      "start": "00:03:54.968",
+      "text": " And that's so I can monitor the pH while the titration takes place."
+    },
+    {
+      "end": "00:04:01.975",
+      "start": "00:03:58.972",
+      "text": " When an acid base reacts, they make water and assault."
+    },
+    {
+      "end": "00:04:05.979",
+      "start": "00:04:01.975",
+      "text": " And since those are both clear, like an acid base,"
+    },
+    {
+      "end": "00:04:10.984",
+      "start": "00:04:05.979",
+      "text": " we wouldn't have the typical signs of chemical change, like a precipitate forming or a gas being released."
+    },
+    {
+      "end": "00:04:15.989",
+      "start": "00:04:10.984",
+      "text": " So the pH change is how we're going to know that we have reached what we call our endpoint,"
+    },
+    {
+      "end": "00:04:17.991",
+      "start": "00:04:15.989",
+      "text": " which is when we get to that green neutral color."
+    },
+    {
+      "end": "00:04:21.995",
+      "start": "00:04:17.991",
+      "text": " So now I'm going to hold the flask underneath the base burette."
+    },
+    {
+      "end": "00:04:25.999",
+      "start": "00:04:21.995",
+      "text": " And I'm going to start to add it a little bit at a time."
+    },
+    {
+      "end": "00:04:29.970",
+      "start": "00:04:25.999",
+      "text": " And I'm going to swirl the flask while I do just to keep it all mixing."
+    },
+    {
+      "end": "00:04:38.979",
+      "start": "00:04:29.970",
+      "text": " And what I'm looking for as I do this is a color change to happen that lasts a little bit longer each time in the flask."
+    },
+    {
+      "end": "00:04:41.982",
+      "start": "00:04:38.979",
+      "text": " So as I add it when I'm looking straight down on it,"
+    },
+    {
+      "end": "00:04:44.985",
+      "start": "00:04:41.982",
+      "text": " I can see that there's a little bit of a color change happening."
+    },
+    {
+      "end": "00:04:48.989",
+      "start": "00:04:44.985",
+      "text": " But I'm going to look for sort of a splash of purple that sticks around."
+    },
+    {
+      "end": "00:04:53.994",
+      "start": "00:04:48.989",
+      "text": " And when I see that, I'm going to slow down the rate that I'm adding the base"
+    },
+    {
+      "end": "00:05:00.967",
+      "start": "00:04:53.994",
+      "text": " so that I don't go too far and go past the endpoint."
+    },
+    {
+      "end": "00:05:08.975",
+      "start": "00:05:04.971",
+      "text": " So you can see this is a green for sure."
+    },
+    {
+      "end": "00:05:13.980",
+      "start": "00:05:08.975",
+      "text": " And if I was titrating for the first time, well now I'm starting to like the color a little bit better."
+    },
+    {
+      "end": "00:05:15.982",
+      "start": "00:05:13.980",
+      "text": " When I first saw it, I felt like it was a little bit too blue."
+    },
+    {
+      "end": "00:05:21.988",
+      "start": "00:05:15.982",
+      "text": " So remember you have that indicator color card and you can compare to see how do you think you did."
+    },
+    {
+      "end": "00:05:24.991",
+      "start": "00:05:21.988",
+      "text": " So I actually feel like this is pretty good."
+    },
+    {
+      "end": "00:05:27.994",
+      "start": "00:05:24.991",
+      "text": " But just to show you what might happen if you go too far,"
+    },
+    {
+      "end": "00:05:29.996",
+      "start": "00:05:27.994",
+      "text": " I'm going to add a little bit too much base."
+    },
+    {
+      "end": "00:05:31.998",
+      "start": "00:05:29.996",
+      "text": " And now you can see that it's purple."
+    },
+    {
+      "end": "00:05:38.972",
+      "start": "00:05:31.998",
+      "text": " But that's okay because now I'll just do the same thing and put it underneath the acid burette and add a little bit of acid."
+    },
+    {
+      "end": "00:05:45.979",
+      "start": "00:05:38.972",
+      "text": " So that yellow is a pH that's a little bit too low."
+    },
+    {
+      "end": "00:05:52.986",
+      "start": "00:05:45.979",
+      "text": " So I'm going to try a trick which is to rinse the tip of the base burette and rinse the insides of the flask"
+    },
+    {
+      "end": "00:05:55.989",
+      "start": "00:05:52.986",
+      "text": " and hope that that's enough for me to get to green."
+    },
+    {
+      "end": "00:05:59.993",
+      "start": "00:05:55.989",
+      "text": " And I like that green so I'm going to go ahead and stop there."
+    },
+    {
+      "end": "00:06:02.996",
+      "start": "00:05:59.993",
+      "text": " So now the thing that I would do next is read the burette's one last time."
+    },
+    {
+      "end": "00:06:11.972",
+      "start": "00:06:02.996",
+      "text": " So I'm going to hold that black paper up and that looks to me to be 20.90"
+    },
+    {
+      "end": "00:06:15.976",
+      "start": "00:06:11.972",
+      "text": " which I'm going to record in the data table."
+    },
+    {
+      "end": "00:06:23.984",
+      "start": "00:06:15.976",
+      "text": " And then in the base burette, I think it is 23.30."
+    },
+    {
+      "end": "00:06:31.992",
+      "start": "00:06:23.984",
+      "text": " And then you would subtract these quantities to figure out how much acid and base you used."
+    },
+    {
+      "end": "00:06:37.998",
+      "start": "00:06:31.992",
+      "text": " And then once you know that, you can complete stoichiometric calculations to determine the molarity."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Amy Roediger",
+  "youtube_channel_follower_count": 41,
+  "youtube_comment_count": 0,
+  "youtube_description": "Here is a titration of HCl with NaOH using universal indicator.",
+  "youtube_like_count": 13,
+  "youtube_tags": [],
+  "youtube_title": "Acid Base Titration Demo",
+  "youtube_upload_date": "20160504",
+  "youtube_view_count": 2229
+}

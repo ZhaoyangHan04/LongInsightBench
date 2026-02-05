@@ -1,0 +1,755 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A 3D model of a human head, with a metallic skin partially revealing the circuitry beneath.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A video exploring the capabilities of the Go-Explore algorithm in mastering difficult Atari games and its potential applications beyond gaming.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "1,731,645",
+        "question": "What is the highest score achieved by Go-Explore in the game \"Montezuma's Revenge\"?"
+      },
+      {
+        "answer": "Training a neural network to replicate the function of save points.",
+        "question": "What is one potential way to improve Go-Explore's ability to learn complex tasks?"
+      },
+      {
+        "answer": "Placing a cup onto a specific shelf out of four possible options.",
+        "question": "In the robotic arm simulation, what was the specific task Go-Explore successfully completed?"
+      },
+      {
+        "answer": "It requires a complex series of actions to achieve rewards, making learning difficult for traditional AI algorithms.",
+        "question": "Why is \"Montezuma's Revenge\" considered a challenging game for AI?"
+      },
+      {
+        "answer": "The video has a neutral and informative tone, fostering curiosity about the Go-Explore algorithm and its potential for real-world applications.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The narrator introduces itself and the topic of the video: AI mastering the hardest Atari games.",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator addresses the audience directly."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the topic of the video: AI mastering difficult Atari games.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Digital Background",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "AI, video games, learning from rewards",
+        "timestamps": {
+          "end_timestamp": "00:00:08.167",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "The narrator disappears and the title 'Montezuma's Revenge' appears on a black screen.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Various Atari game footage is shown, illustrating the narrator's explanation of AI learning through rewards and introducing the Go-Explore algorithm.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.233",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator continues to address the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Content/Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene explains how AI can learn to play games through rewards and introduces the Go-Explore algorithm.",
+            "timestamp": "00:00:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Atari Game Footage",
+            "timestamp": {
+              "end_timestamp": "00:00:27.233",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "AI, deep reinforcement learning, sparse rewards, Atari games, Go-Explore algorithm",
+        "timestamps": {
+          "end_timestamp": "00:00:27.233",
+          "start_timestamp": "00:00:08.200"
+        },
+        "title": "AI Learning and Go-Explore Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Game names and scores for 'Human', 'SOTA', and 'Go-Explore' are displayed over the footage.",
+            "timestamps": {
+              "end_timestamp": "00:00:27.233",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "More Atari game footage is shown, this time illustrating the challenges of sparse rewards in complex games.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator continues to address the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Content/Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene focuses on the challenge of sparse rewards in complex games and how AI struggles to learn from them.",
+            "timestamp": "00:00:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Atari Game Footage",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "AI, sparse rewards, Atari games, real-world application of AI",
+        "timestamps": {
+          "end_timestamp": "00:01:08.000",
+          "start_timestamp": "00:00:27.267"
+        },
+        "title": "Challenges of Sparse Rewards",
+        "videoEditingDetails": [
+          {
+            "description": "Game names and scores for 'Human', 'SOTA', and 'Go-Explore' are displayed over the footage.",
+            "timestamps": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "More Atari game footage is shown, showcasing Go-Explore's ability to overcome the sparse reward problem using save points.",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:08.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator continues to address the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Content/Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene explains how Go-Explore uses a save-point system to overcome the sparse reward challenge, successfully mastering difficult Atari games.",
+            "timestamp": "00:01:08.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Atari Game Footage",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:08.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "AI, Go-Explore algorithm, save points, sparse rewards, Atari games, overcoming challenges",
+        "timestamps": {
+          "end_timestamp": "00:01:45.000",
+          "start_timestamp": "00:01:08.033"
+        },
+        "title": "Overcoming Sparse Rewards",
+        "videoEditingDetails": [
+          {
+            "description": "Game names and scores for 'Human', 'SOTA', and 'Go-Explore' are displayed over the footage.",
+            "timestamps": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:08.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Atari and robotic arm simulation footage is shown, highlighting Go-Explore's success in mastering complex tasks with sparse rewards.",
+            "timestamp": {
+              "end_timestamp": "00:02:12.233",
+              "start_timestamp": "00:01:45.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator continues to address the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Content/Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene expands on Go-Explore's success, demonstrating its effectiveness in both digital games and simulated robotic tasks.",
+            "timestamp": "00:01:45.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Atari Game Footage",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:45.033"
+            }
+          },
+          {
+            "name": "Robotic Arm Simulation",
+            "timestamp": {
+              "end_timestamp": "00:02:12.233",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "AI, Go-Explore algorithm, sparse rewards, real-world applications, robotic arm simulations",
+        "timestamps": {
+          "end_timestamp": "00:02:12.233",
+          "start_timestamp": "00:01:45.033"
+        },
+        "title": "Digital and Robotic Success",
+        "videoEditingDetails": [
+          {
+            "description": "Game names and scores for 'Human', 'SOTA', and 'Go-Explore' are displayed over the footage.",
+            "timestamps": {
+              "end_timestamp": "00:02:12.233",
+              "start_timestamp": "00:01:45.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Footage from Atari games like 'Berserk' and 'Bowling', demonstrating Go-Explore's success.",
+            "timestamp": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator continues to address the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Content/Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene focuses on how Go-Explore efficiently learns complex tasks with sparse rewards, even surpassing human capabilities.",
+            "timestamp": "00:02:13.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Atari Game Footage",
+            "timestamp": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "AI, Go-Explore algorithm, sparse rewards, Atari games, surpassing human performance",
+        "timestamps": {
+          "end_timestamp": "00:02:51.000",
+          "start_timestamp": "00:02:12.267"
+        },
+        "title": "Surpassing Human Performance",
+        "videoEditingDetails": [
+          {
+            "description": "Game names and scores for 'Human', 'SOTA', and 'Go-Explore' are displayed over the footage.",
+            "timestamps": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Atari game footage is shown, illustrating future improvements for Go-Explore.",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:51.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator continues to address the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene looks to the future, proposing ways to enhance Go-Explore's learning capabilities and performance.",
+            "timestamp": "00:02:51.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Atari Game Footage",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:51.033"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "AI, Go-Explore algorithm, neural networks, future advancements, imitation learning",
+        "timestamps": {
+          "end_timestamp": "00:03:29.000",
+          "start_timestamp": "00:02:51.033"
+        },
+        "title": "Future Improvements",
+        "videoEditingDetails": [
+          {
+            "description": "Game names and scores for 'Human', 'SOTA', and 'Go-Explore' are displayed over the footage.",
+            "timestamps": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:51.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator summarizes the potential of Go-Explore and bids farewell.",
+            "timestamp": {
+              "end_timestamp": "00:04:13.000",
+              "start_timestamp": "00:03:29.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator addresses the audience directly."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene concludes the video by emphasizing the potential impact of Go-Explore on real-world applications.",
+            "timestamp": "00:03:29.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Digital Background",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:03:29.033"
+            }
+          },
+          {
+            "name": "Images of Researchers",
+            "timestamp": {
+              "end_timestamp": "00:04:13.000",
+              "start_timestamp": "00:04:05.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "AI, Go-Explore algorithm, real-world applications, potential impact",
+        "timestamps": {
+          "end_timestamp": "00:04:13.033",
+          "start_timestamp": "00:03:29.033"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "The black screen changes back to the digital background with the narrator. Text: 'Domain knowledge further improves performance.'",
+            "timestamps": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:03:29.033"
+            }
+          },
+          {
+            "description": "The narrator disappears and 'First return, then explore' appears on a black screen along with images of the researchers.",
+            "timestamps": {
+              "end_timestamp": "00:04:13.000",
+              "start_timestamp": "00:04:05.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The narrator showcases Go-Explore's remarkable ability to surpass human performance in various Atari games.",
+        "timestamp": "00:02:13.000"
+      },
+      "description": "This storyline focuses on the development and capabilities of the Go-Explore algorithm, its ability to overcome sparse reward challenges, and its potential for real-world applications.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "AI Masters Atari Games with Go-Explore",
+    "trimmingSuggestions": [
+      {
+        "description": "The 'coffee making' analogy could be shortened or removed for better focus.",
+        "timestamps": {
+          "end_timestamp": "00:03:29.033",
+          "start_timestamp": "00:03:29.033"
+        }
+      },
+      {
+        "description": "Consider shortening some of the gameplay footage to keep the video dynamic and engaging.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 253,
+  "original_json_filename": "ETOQHYRz9u0.json",
+  "original_video_filename": "ETOQHYRz9u0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello world i'm imagination in this video i'm&nbsp; going to talk about how this ai thrashes the&nbsp;&nbsp; hardest atari games by memorizing its best moves&nbsp; learning from rewards seems like the simplest&nbsp;&nbsp; thing i make coffee i sip coffee i'm happy my&nbsp; brain registers brewing coffee as an action&nbsp;&nbsp; that leads to a reward that's the guiding&nbsp; insight behind deep reinforcement learning&nbsp;&nbsp; a family of algorithms that famously&nbsp; smashed most of atari's gaming catalog&nbsp;&nbsp; and triumphed over humans in strategy games&nbsp; like go here an ai agent explores the game&nbsp;&nbsp; trying out different actions and registering&nbsp; ones that let it win except it's not that simple&nbsp;&nbsp; brewing coffee isn't one action it's a series&nbsp; of actions spanning several minutes where you're&nbsp;&nbsp; only rewarded at the very end by just tasting&nbsp; the final product how do you learn to fine-tune&nbsp;&nbsp; grind coarseness water to coffee ratio brewing&nbsp; temperature and a gazillion other factors that&nbsp;&nbsp; result in the reward tasty perk me up coffee&nbsp; that's the problem with sparse rewards which&nbsp;&nbsp; are ironically very abundant in our messy complex&nbsp; world we don't immediately get feedback from our&nbsp;&nbsp; actions no video game style dings or points for&nbsp; just grinding coffee beans yet somehow we're&nbsp;&nbsp; able to learn and perform an entire sequence&nbsp; of arm and hand movements while half asleep&nbsp;&nbsp; this week researchers from uber ai and openai&nbsp; teamed up to bestow this talent on ai the trick&nbsp;&nbsp; is to encourage ai agents to return to a previous&nbsp; step one that's promising for a winning solution&nbsp;&nbsp; the agent then keeps a record of that&nbsp; state reloads it and branches out again&nbsp;&nbsp; to intentionally explore other solutions that&nbsp; may have been left behind on the first go-around&nbsp;&nbsp; video gamers are likely familiar with this idea&nbsp; live die reload a saved point try something else&nbsp;&nbsp; repeat for a perfect run through the new family of&nbsp; algorithms appropriately dubbed go explore smashed&nbsp;&nbsp; notoriously difficult atari games like montezuma's&nbsp; revenge that were previously unsolvable by its&nbsp;&nbsp; ai predecessors while trouncing human performance&nbsp; along the way it's not just games and digital fun&nbsp;&nbsp; in a computer simulation of a robotic arm the&nbsp; team found that installing go explore as its brain&nbsp;&nbsp; allowed it to solve a challenging series of&nbsp; actions when given very sparse rewards because&nbsp;&nbsp; the overarching idea is so simple the authors say&nbsp; it can be adapted and expanded to other real world&nbsp;&nbsp; problems such as drug design or language learning&nbsp; it also crushed games previously unbeatable by ai&nbsp;&nbsp; montezuma's revenge for example requires you&nbsp; to move pedro the blocky protagonist through&nbsp;&nbsp; a labyrinth of underground temples while evading&nbsp; obstacles such as traps and enemies and gathering&nbsp;&nbsp; jewels one bad jump could derail the path to&nbsp; the next level it's a perfect example of sparse&nbsp;&nbsp; rewards you need a series of good actions to get&nbsp; to the reward advancing onward similar to the real&nbsp;&nbsp; world the digital robot arm was only rewarded&nbsp; when it placed a cup onto the correct shelf&nbsp;&nbsp; out of four possible shelves when pitted against&nbsp; another algorithm go explore quickly figured out&nbsp;&nbsp; the movements needed to place the cup while&nbsp; its competitor struggled with even reliably&nbsp;&nbsp; picking the cup up by itself the first return then&nbsp; explore idea behind go explore is already powerful&nbsp;&nbsp; the team thinks it can do even better one idea is&nbsp; to change the mechanics of save points rather than&nbsp;&nbsp; reloading saved states through the emulator it's&nbsp; possible to train a neural network to do the same&nbsp;&nbsp; without needing to relaunch a saved state it's&nbsp; a potential way to make the ai even smarter&nbsp;&nbsp; the team said because it can learn to overcome&nbsp; one obstacle once instead of solving the same&nbsp;&nbsp; problem again and again the downside it's much&nbsp; more computationally intensive another idea is&nbsp;&nbsp; to combine go explore with an alternative&nbsp; form of learning called imitation learning&nbsp;&nbsp; here an ai observes human behavior and&nbsp; mimics it through a series of actions&nbsp;&nbsp; combined with go explore said study author adrian&nbsp; akoffit this could make more robust robots capable&nbsp;&nbsp; of handling all the complexity and messiness in&nbsp; the real world to the team the implications go far&nbsp;&nbsp; beyond go explore the concept of first return then&nbsp; explore seems to be especially powerful suggesting&nbsp;&nbsp; it may be a fundamental feature of learning in&nbsp; general the team said harnessing these insights&nbsp;&nbsp; may be essential to create generally intelligent&nbsp; agents that's all for today thanks for watching",
+  "text_to_speech_word_count": 735,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.200",
+      "start": "00:00:00.000",
+      "text": " Hello world, I'm imagination. In this video, I'm going to talk about how this AI thrashes the hardest Atari games by memorizing its best moves."
+    },
+    {
+      "end": "00:00:15.200",
+      "start": "00:00:09.200",
+      "text": " Learning from rewards seems like the simplest thing. I make coffee, I sip coffee, I'm happy."
+    },
+    {
+      "end": "00:00:22.400",
+      "start": "00:00:15.200",
+      "text": " My brain registers brewing coffee as an action that leads to a reward. That's the guiding insight behind deep reinforcement learning,"
+    },
+    {
+      "end": "00:00:30.400",
+      "start": "00:00:22.400",
+      "text": " a family of algorithms that famously smashed most of Atari's gaming catalogue and triumphed over humans in strategy games like Go."
+    },
+    {
+      "end": "00:00:38.500",
+      "start": "00:00:30.400",
+      "text": " Here, an AI agent explores the game, trying out different actions and registering ones that let it win. Except it's not that simple."
+    },
+    {
+      "end": "00:00:45.567",
+      "start": "00:00:38.500",
+      "text": " Brewing coffee isn't one action, it's a series of actions spanning several minutes where you're only rewarded at the very end."
+    },
+    {
+      "end": "00:00:57.800",
+      "start": "00:00:45.600",
+      "text": " By just tasting the final product, how do you learn to fine-tune grind coarseness, water to coffee ratio, brewing temperature, and a gazillion other factors that result in the reward, tasty, perk me up coffee?"
+    },
+    {
+      "end": "00:01:03.400",
+      "start": "00:00:57.800",
+      "text": " That's the problem with sparse rewards which are ironically very abundant in our messy complex world."
+    },
+    {
+      "end": "00:01:15.600",
+      "start": "00:01:03.400",
+      "text": " We don't immediately get feedback from our actions no video game style things or points for just grinding coffee beans yet, somehow we're able to learn and perform an entire sequence of arm and hand movements while half asleep."
+    },
+    {
+      "end": "00:01:21.100",
+      "start": "00:01:15.600",
+      "text": " This week, researchers from UBER AI and Open AI teamed up to bestow this talent on AI."
+    },
+    {
+      "end": "00:01:27.300",
+      "start": "00:01:21.100",
+      "text": " The trick is to encourage AI agents to return to a previous step, one that's promising for a winning solution."
+    },
+    {
+      "end": "00:01:36.367",
+      "start": "00:01:27.367",
+      "text": " The agent then keeps a record of that state, reloads it, and branches out again to intentionally explore other solutions that may have been left behind on the first go-around."
+    },
+    {
+      "end": "00:01:39.500",
+      "start": "00:01:36.367",
+      "text": " Video gamers are likely familiar with this idea."
+    },
+    {
+      "end": "00:01:44.900",
+      "start": "00:01:39.500",
+      "text": " Live, die, reload a saved point, try something else, repeat for a perfect run-through."
+    },
+    {
+      "end": "00:01:55.500",
+      "start": "00:01:44.900",
+      "text": " The new family of algorithms appropriately dubbed go-explore, smashed notoriously difficult Atari games like Montezuma's Revenge that were previously unsolvable by its AI predecessors,"
+    },
+    {
+      "end": "00:02:00.600",
+      "start": "00:01:55.500",
+      "text": " while trouncing human performance along the way. It's not just games and digital fun."
+    },
+    {
+      "end": "00:02:10.667",
+      "start": "00:02:00.600",
+      "text": " In a computer simulation of a robotic arm, the team found that installing go-explore as its brain allowed it to solve a challenging series of actions when given very sparse rewards."
+    },
+    {
+      "end": "00:02:19.900",
+      "start": "00:02:10.667",
+      "text": " Because the overarching idea is so simple, the authors say it can be adapted and expanded to other real world problems, such as drug designer language learning."
+    },
+    {
+      "end": "00:02:23.400",
+      "start": "00:02:19.900",
+      "text": " It also crushed games previously unbeatable by AI."
+    },
+    {
+      "end": "00:02:34.600",
+      "start": "00:02:23.400",
+      "text": " Montezuma's Revenge, for example, requires you to move Pedro, the blocky protagonist, through a labyrinth of underground temples, while evading obstacles such as traps and enemies, and gathering jewels."
+    },
+    {
+      "end": "00:02:40.400",
+      "start": "00:02:34.600",
+      "text": " One bad jump could derail the path to the next level. It's a perfect example of sparse rewards."
+    },
+    {
+      "end": "00:02:52.100",
+      "start": "00:02:40.400",
+      "text": " You need a series of good actions to get to the reward advancing onward. Similar to the real world, the digital robot arm was only rewarded when it placed the cup onto the correct shelf, out of four possible shelves."
+    },
+    {
+      "end": "00:03:01.267",
+      "start": "00:02:52.100",
+      "text": " When pitted against another algorithm, go-explore quickly figured out the movements needed to place the cup, while its competitor struggled with even reliably picking the cup up."
+    },
+    {
+      "end": "00:03:09.100",
+      "start": "00:03:01.267",
+      "text": " By itself, the first return, then explore idea behind go-explore is already powerful. The team thinks it can do even better."
+    },
+    {
+      "end": "00:03:20.700",
+      "start": "00:03:09.100",
+      "text": " One idea is to change the mechanics of save points. Rather than reloading saved states through the emulator, it's possible to train a neural network to do the same, without needing to relaunch a saved state."
+    },
+    {
+      "end": "00:03:30.267",
+      "start": "00:03:20.700",
+      "text": " It's a potential way to make the AI even smarter, the team said, because it can learn to overcome one obstacle once, instead of solving the same problem again and again."
+    },
+    {
+      "end": "00:03:39.700",
+      "start": "00:03:30.267",
+      "text": " The downside? It's much more computationally intensive. Another idea is to combine go-explore with an alternative form of learning, called imitation learning."
+    },
+    {
+      "end": "00:03:44.267",
+      "start": "00:03:39.700",
+      "text": " Here, an AI observes human behavior and mimics it through a series of actions."
+    },
+    {
+      "end": "00:03:53.300",
+      "start": "00:03:44.300",
+      "text": " Combined with go-explore, said study author Adrian Acoffat, this could make more robust robots capable of handling all the complexity and messiness in the real world."
+    },
+    {
+      "end": "00:04:04.900",
+      "start": "00:03:53.300",
+      "text": " To the team, the implications go far beyond go-explore. The concept of first return, then explore seems to be especially powerful, suggesting it may be a fundamental feature of learning in general."
+    },
+    {
+      "end": "00:04:11.900",
+      "start": "00:04:04.900",
+      "text": " The team said, harnessing these insights may be essential to create generally intelligent agents. That's all for today."
+    },
+    {
+      "end": "00:04:13.100",
+      "start": "00:04:11.900",
+      "text": " Thanks for watching!"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Imagination",
+  "youtube_channel_follower_count": 592,
+  "youtube_comment_count": 0,
+  "youtube_description": "This AI Thrashes the Hardest Atari Games by Memorizing Its Best Moves\n\nIn this video, I'm going to talk about how This AI Thrashes the Hardest Atari Games by Memorizing Its Best Moves.\n\nLearning from rewards seems like the simplest thing. I make coffee, I sip coffee, I’m happy. My brain registers “brewing coffee” as an action that leads to a reward.\n\nThat’s the guiding insight behind deep reinforcement learning, a family of algorithms that famously smashed most of Atari’s gaming catalog and triumphed over humans in strategy games like Go. Here, an AI “agent” explores the game, trying out different actions and registering ones that let it win.\n\nExcept it’s not that simple. “Brewing coffee” isn’t one action; it’s a series of actions spanning several minutes, where you’re only rewarded at the very end. By just tasting the final product, how do you learn to fine-tune grind coarseness, water to coffee ratio, brewing temperature, and a gazillion other factors that result in the reward—tasty, perk-me-up coffee?\n\nThat’s the problem with “sparse rewards,” which are ironically very abundant in our messy, complex world. We don’t immediately get feedback from our actions—no video-game-style dings or points for just grinding coffee beans—yet somehow we’re able to learn and perform an entire sequence of arm and hand movements while half-asleep.\nThis week, researchers from UberAI and OpenAI teamed up to bestow this talent on AI.\n\nThe trick is to encourage AI agents to “return” to a previous step, one that’s promising for a winning solution. The agent then keeps a record of that state, reloads it, and branches out again to intentionally explore other solutions that may have been left behind on the first go-around. Video gamers are likely familiar with this idea: live, die, reload a saved point, try something else, repeat for a perfect run-through.\n\nThe new family of algorithms, appropriately dubbed “Go-Explore,” smashed notoriously difficult Atari games like Montezuma’s Revenge that were previously unsolvable by its AI predecessors, while trouncing human performance along the way.\n\nIt’s not just games and digital fun. In a computer simulation of a robotic arm, the team found that installing Go-Explore as its “brain” allowed it to solve a challenging series of actions when given very sparse rewards. Because the overarching idea is so simple, the authors say, it can be adapted and expanded to other real-world problems, such as drug design or language learning.\n\nIt also crushed games previously unbeatable by AI. Montezuma’s Revenge, for example, requires you to move Pedro, the blocky protagonist, through a labyrinth of underground temples while evading obstacles such as traps and enemies and gathering jewels. One bad jump could derail the path to the next level. It’s a perfect example of sparse rewards: you need a series of good actions to get to the reward—advancing onward.\n\nSimilar to the real world, the digital robot arm was only rewarded when it placed the cup onto the correct shelf, out of four possible shelves. When pitted against another algorithm, Go-Explore quickly figured out the movements needed to place the cup, while its competitor struggled with even reliably picking the cup up.\nBy itself, the “first return, then explore” idea behind Go-Explore is already powerful. The team thinks it can do even better.\n\nOne idea is to change the mechanics of save points. Rather than reloading saved states through the emulator, it’s possible to train a neural network to do the same, without needing to relaunch a saved state. It’s a potential way to make the AI even smarter, the team said, because it can “learn” to overcome one obstacle once, instead of solving the same problem again and again. The downside? It’s much more computationally intensive.\n\nAnother idea is to combine Go-Explore with an alternative form of learning, called “imitation learning.” Here, an AI observes human behavior and mimics it through a series of actions. Combined with Go-Explore, said study author Adrien Ecoffet, this could make more robust robots capable of handling all the complexity and messiness in the real world.\n\nTo the team, the implications go far beyond Go-Explore. The concept of “first return, then explore” seems to be especially powerful, suggesting “it may be a fundamental feature of learning in general.” The team said, “Harnessing these insights…may be essential…to create generally intelligent agents.”",
+  "youtube_like_count": 1,
+  "youtube_tags": [],
+  "youtube_title": "This AI Thrashes the Hardest Atari Games by Memorizing Its Best Moves",
+  "youtube_upload_date": "20210328",
+  "youtube_view_count": 108
+}

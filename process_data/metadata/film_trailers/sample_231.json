@@ -1,0 +1,680 @@
+{
+  "content_fine_category": "Film Trailers",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "c1",
+        "description": "Curly dark hair, mustache, wearing a dark suit with a striped tie. He stands at a podium and speaks to a crowd.",
+        "name": "Man with Mustache (Speaker 1)"
+      },
+      {
+        "characterId": "c2",
+        "description": "Short dark hair, clean-shaven, wearing a black priest's robe with a white collar. He stands at a podium after the first speaker.",
+        "name": "Priest (Speaker 2)"
+      },
+      {
+        "characterId": "c3",
+        "description": "Dark hair, clean-shaven, wearing a beige three-piece suit and a patterned tie. Sits in the audience during the speeches and then stands next to a woman.",
+        "name": "Man in Beige Suit"
+      },
+      {
+        "characterId": "c4",
+        "description": "Blonde hair, wearing a white blazer over a pink top and a light-colored skirt. Sits next to the Man in Beige Suit and holds his hand.",
+        "name": "Woman in White Blazer"
+      },
+      {
+        "characterId": "c5",
+        "description": "Grey hair, clean-shaven, wearing a brown coat and fedora. Sits in the audience during the speeches, then walks around the construction site, lights a pipe, and gets in a car.",
+        "name": "Man in Brown Coat"
+      },
+      {
+        "characterId": "c6",
+        "description": "Brunette hair, wearing a yellow shirt, sunglasses, and a brown shoulder bag. Gets in a car with the Man in Brown Coat.",
+        "name": "Woman in Yellow Shirt"
+      }
+    ],
+    "description": "A video capturing the dedication ceremony of a new cross at St. Sebastian Church, followed by an evocative scene of a sunset over San Francisco that introduces an element of suspense.",
+    "fps": 10.0,
+    "qAndA": [
+      {
+        "answer": "Dump trucks, excavators, and a bulldozer.",
+        "question": "What type of construction vehicles can be seen in the background of the dedication ceremony?"
+      },
+      {
+        "answer": "He brings his hands together in a prayer-like gesture, signifying his piety and attentiveness to the prayer.",
+        "question": "What gesture does the Man in Beige Suit make repeatedly during the Priest's prayer?"
+      },
+      {
+        "answer": "He lights a pipe.",
+        "question": "What object does the Man in Brown Coat use shortly after leaving the ceremony?"
+      },
+      {
+        "answer": "It transitions from a bright orange and yellow sunset to a dark blue and purple sky, with the emergence of a shadowy figure.",
+        "question": "What happens to the sunset scene as the video progresses?"
+      },
+      {
+        "answer": "It shifts from calm and ambient to increasingly tense and discordant, mirroring the shift in visual mood.",
+        "question": "How does the music change during the second scene?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Construction work in the background",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Crowd gathers for the ceremony",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "Man with Mustache delivers speech",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "Priest delivers prayer",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "description": "Crowd responds \"Amen\"",
+            "timestamp": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:47.000"
+            }
+          },
+          {
+            "description": "Crowd disperses",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Man with Mustache",
+          "Priest",
+          "Man in Beige Suit",
+          "Woman in White Blazer",
+          "Man in Brown Coat",
+          "Woman in Yellow Shirt",
+          "Crowd"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Man with Mustache",
+              "Crowd"
+            ],
+            "description": "The Man with Mustache acknowledges the planners and architects in the audience, creating a sense of shared accomplishment."
+          },
+          {
+            "characters": [
+              "Man in Beige Suit",
+              "Woman in White Blazer"
+            ],
+            "description": "The Man in Beige Suit and Woman in White Blazer hold hands, suggesting a close personal connection and shared pride in the project."
+          },
+          {
+            "characters": [
+              "Woman in Yellow Shirt",
+              "Man in Brown Coat"
+            ],
+            "description": "The Woman in Yellow Shirt calls to the Man in Brown Coat, suggesting a close relationship as they depart the ceremony together."
+          }
+        ],
+        "contextualRelevance": "The dedication of the cross signifies new beginnings and transformation for the community.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Positive: Grateful, Proud (Visuals: sunny day, smiles from speakers and attendees, new cross symbolizing hope. Audio: upbeat speeches, expressions of gratitude, prayers of blessing. Context: dedication of a new church in a developing community.)",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift to a more solemn, reflective tone.",
+              "timestamp": "00:01:32.000"
+            },
+            {
+              "changeDescription": "Change to a more neutral, everyday mood.",
+              "timestamp": "00:01:37.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The Man with Mustache expresses thanks for the community's support.",
+            "timestamp": "00:00:12.000"
+          },
+          {
+            "description": "He highlights the vision of the planners and architects.",
+            "timestamp": "00:00:25.000"
+          },
+          {
+            "description": "He emphasizes the transformation of a neglected area into a thriving community.",
+            "timestamp": "00:00:31.000"
+          },
+          {
+            "description": "He calls on Father Hanley to dedicate the cross.",
+            "timestamp": "00:00:40.000"
+          },
+          {
+            "description": "The Priest begins prayers, blessing the cross and its purpose.",
+            "timestamp": "00:00:48.000"
+          },
+          {
+            "description": "The crowd responds with \"Amen.\"",
+            "timestamp": "00:01:47.000"
+          },
+          {
+            "description": "The ceremony concludes, and attendees disperse.",
+            "timestamp": "00:01:48.000"
+          },
+          {
+            "description": "The focus shifts to the Man in Brown Coat walking through the construction site.",
+            "timestamp": "00:02:00.000"
+          },
+          {
+            "description": "He is joined by the Woman in Yellow Shirt, suggesting they are leaving together.",
+            "timestamp": "00:02:37.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Large golden cross",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Construction vehicles",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Podium with microphones",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "name": "Construction site sign",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "name": "Man in Brown Coat's pipe",
+            "timestamp": {
+              "end_timestamp": "00:02:37.000",
+              "start_timestamp": "00:02:31.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "New Beginnings, Hope and Faith, Transformation",
+        "timestamps": {
+          "end_timestamp": "00:02:52.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Dedication Ceremony",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom out from the cross to show the crowd and construction site",
+            "timestamps": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "description": "Cut to close-up of Man with Mustache at podium",
+            "timestamps": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "Cut to Man in Beige Suit and Woman in White Blazer",
+            "timestamps": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "description": "Cut to crowd members",
+            "timestamps": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          },
+          {
+            "description": "Cut back to Man with Mustache",
+            "timestamps": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "Cut to Priest at podium",
+            "timestamps": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "description": "Cut to Man in Beige Suit and Woman in White Blazer",
+            "timestamps": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          },
+          {
+            "description": "Cut to crowd members",
+            "timestamps": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          },
+          {
+            "description": "Cut back to Priest",
+            "timestamps": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "description": "Cut to Man in Beige Suit and Woman in White Blazer",
+            "timestamps": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "description": "Cut to crowd members",
+            "timestamps": {
+              "end_timestamp": "00:01:18.000",
+              "start_timestamp": "00:01:15.000"
+            }
+          },
+          {
+            "description": "Cut back to Priest",
+            "timestamps": {
+              "end_timestamp": "00:01:19.000",
+              "start_timestamp": "00:01:19.000"
+            }
+          },
+          {
+            "description": "Zoom in on cross",
+            "timestamps": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:32.000"
+            }
+          },
+          {
+            "description": "Cut to street scene with overpass",
+            "timestamps": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:37.000"
+            }
+          },
+          {
+            "description": "Cut back to Priest",
+            "timestamps": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:40.000"
+            }
+          },
+          {
+            "description": "Cut to crowd dispersing",
+            "timestamps": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "description": "Cut to Man in Brown Coat walking",
+            "timestamps": {
+              "end_timestamp": "00:02:31.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "description": "Cut to Man in Brown Coat lighting pipe",
+            "timestamps": {
+              "end_timestamp": "00:02:37.000",
+              "start_timestamp": "00:02:31.000"
+            }
+          },
+          {
+            "description": "Cut to Woman in Yellow Shirt calling to Man in Brown Coat",
+            "timestamps": {
+              "end_timestamp": "00:02:40.000",
+              "start_timestamp": "00:02:37.000"
+            }
+          },
+          {
+            "description": "Cut back to Man in Brown Coat",
+            "timestamps": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:02:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Sunset",
+            "timestamp": {
+              "end_timestamp": "00:03:14.000",
+              "start_timestamp": "00:02:52.100"
+            }
+          },
+          {
+            "description": "Clouds moving",
+            "timestamp": {
+              "end_timestamp": "00:03:14.000",
+              "start_timestamp": "00:02:52.100"
+            }
+          },
+          {
+            "description": "Lightning flashes",
+            "timestamp": {
+              "end_timestamp": "00:03:56.000",
+              "start_timestamp": "00:03:14.000"
+            }
+          },
+          {
+            "description": "A shadowy figure emerges from a hole in the ground",
+            "timestamp": {
+              "end_timestamp": "00:04:24.000",
+              "start_timestamp": "00:03:56.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.4,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene serves as a transition from the uplifting event of the dedication to an element of suspense symbolized by the shadowy figure.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral: Curious, Pensive (Initially), Negative: Anxious, Confused (Later)",
+          "keyMoments": [
+            {
+              "changeDescription": "Change to a more urgent and unsettling tone.",
+              "timestamp": "00:03:14.000"
+            },
+            {
+              "changeDescription": "Heightens the sense of anxiety.",
+              "timestamp": "00:03:29.000"
+            },
+            {
+              "changeDescription": "Creates a clear shift to a negative mood, suggesting a threat.",
+              "timestamp": "00:03:56.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "A peaceful sunset scene provides a visual contrast to the previous scene.",
+            "timestamp": "00:02:52.100"
+          },
+          {
+            "description": "The cross is superimposed on the city skyline, linking the dedication to the broader context of San Francisco.",
+            "timestamp": "00:02:53.000"
+          },
+          {
+            "description": "The rapid cuts and zooms create a sense of unease and disorientation.",
+            "timestamp": "00:03:14.000"
+          },
+          {
+            "description": "The emergence of a shadowy figure from a hole signifies a potential threat, introducing a new element of suspense.",
+            "timestamp": "00:03:56.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Contrasts between calm and chaos, the emergence of hidden threats",
+        "timestamps": {
+          "end_timestamp": "00:04:30.300",
+          "start_timestamp": "00:02:52.100"
+        },
+        "title": "Sunset Over San Francisco",
+        "videoEditingDetails": [
+          {
+            "description": "Fade transition to a sunset scene",
+            "timestamps": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:52.100"
+            }
+          },
+          {
+            "description": "Multiple fade transitions overlaying the cross with the sunset and city skyline",
+            "timestamps": {
+              "end_timestamp": "00:03:14.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          },
+          {
+            "description": "Quick cuts and zooms create a sense of urgency and disorientation",
+            "timestamps": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:03:14.000"
+            }
+          },
+          {
+            "description": "Darkened scene with a shadowy figure emerging from a hole",
+            "timestamps": {
+              "end_timestamp": "00:04:24.000",
+              "start_timestamp": "00:03:56.000"
+            }
+          },
+          {
+            "description": "Transition to a starry night sky",
+            "timestamps": {
+              "end_timestamp": "00:04:30.000",
+              "start_timestamp": "00:04:24.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The ceremonial 'Amen' marks the completion of the dedication, and the shadowy figure's emergence signifies rising suspense.",
+        "timestamp": "00:04:24.000"
+      },
+      "description": "Storylines capturing the dedication ceremony and the subsequent suspenseful sunset scene.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Dedication of a Cross at St. Sebastian Church",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim or remove the extended shots of the Man in Brown Coat walking after the crowd disperses. This section slows down the pace and could be condensed.",
+        "timestamps": {
+          "end_timestamp": "00:02:52.100",
+          "start_timestamp": "00:02:52.100"
+        }
+      },
+      {
+        "description": "The fade transitions overlaying the cross could be shortened to maintain a more consistent pace and avoid repetition.",
+        "timestamps": {
+          "end_timestamp": "00:03:14.000",
+          "start_timestamp": "00:02:53.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Entertainment",
+  "duration_seconds": 270,
+  "original_json_filename": "968PjjnJD_M.json",
+  "original_video_filename": "968PjjnJD_M.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "[Music] [Applause] I want to thank you all for giving up a busy spring afternoon to be with us here to dedicate St Sebastian church I also want to thank you for your continuing support of the entire Brian Park development project thanks to the vision of fine planners and Architects like Jack and Lesley Rollins a tragically neglected part of San Francisco will soon become a Showplace community of churches schools and Apartment Homes so let us with Father Hanley dedicate this cross this symbol of new life for Brian Park let us pray holy Lord Almighty father everlasting God be pleased to bless this cross that it may be a saving help to mankind let it be the support of Faith an encouragement to Good Works the Redemption of souls let it be a consolation a protection a shield against the darts of the enemy through Jesus Christ Our Lord amen let us pray Lord Jesus Christ bless this Cross by which you snatched the world from Satan's grasp and on which you overcame by your suffering the tempter to sin who rejoiced in the first man's fall in eating of the forbidden fruit may this cross be hallowed in the name of the father and of the son and of the Holy Spirit may all who kneel and pray before in the name of our father find Health in body and spirit through Jesus Christ Our Lord amen amen amen thank you again for e [Music] Harry come on we'll be late for the ball game it's a long drive to [Music] I [Music] a",
+  "text_to_speech_word_count": 268,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:00.000",
+      "text": " Thank you all for giving up a busy spring afternoon to be with us here to dedicate St. Sebastian Church."
+    },
+    {
+      "end": "00:00:23.000",
+      "start": "00:00:18.000",
+      "text": " I also want to thank you for your continuing support of the entire Brian Park development project."
+    },
+    {
+      "end": "00:00:28.000",
+      "start": "00:00:23.000",
+      "text": " Thanks to the vision of fine planners and architects like Jack and Leslie Rollins."
+    },
+    {
+      "end": "00:00:39.000",
+      "start": "00:00:28.000",
+      "text": " A tragically neglected part of San Francisco will soon become a show place community of churches, schools and apartment homes."
+    },
+    {
+      "end": "00:00:48.000",
+      "start": "00:00:39.000",
+      "text": " So let us, with Father Hanley, dedicate this cross this symbol of new life for Brian Park."
+    },
+    {
+      "end": "00:00:54.000",
+      "start": "00:00:49.000",
+      "text": " Let us pray. Holy Lord, Almighty Father, have a lasting God."
+    },
+    {
+      "end": "00:01:03.000",
+      "start": "00:00:54.000",
+      "text": " People used to bless this cross that it may be a saving help to mankind, that it be the support of faith and encouragement to good works,"
+    },
+    {
+      "end": "00:01:12.000",
+      "start": "00:01:03.000",
+      "text": " the redemption of souls, that it be in consolation, a protection, a shield against the darts of the enemy through Jesus Christ our Lord."
+    },
+    {
+      "end": "00:01:25.000",
+      "start": "00:01:13.000",
+      "text": " Amen. Let us pray. Lord Jesus Christ, bless this cross by which you snatched the world from Satan's grasp and on which you overcame by your suffering, the tempted of sin,"
+    },
+    {
+      "end": "00:01:30.000",
+      "start": "00:01:25.000",
+      "text": " who rejoiced and the first man's fall in eating of the forbidden fruit."
+    },
+    {
+      "end": "00:01:40.000",
+      "start": "00:01:30.000",
+      "text": " May this cross be hallowed in the name of the Father, the Son, the Holy Spirit, may all who kneel and pray before it in the name of our Father,"
+    },
+    {
+      "end": "00:01:47.000",
+      "start": "00:01:40.000",
+      "text": " find help in body and spirit through Jesus Christ our Lord. Amen."
+    },
+    {
+      "end": "00:01:49.000",
+      "start": "00:01:47.000",
+      "text": " Amen."
+    },
+    {
+      "end": "00:01:52.000",
+      "start": "00:01:49.000",
+      "text": " Thank you again. Come here."
+    },
+    {
+      "end": "00:02:14.000",
+      "start": "00:02:10.000",
+      "text": " Mary, come on."
+    },
+    {
+      "end": "00:02:18.000",
+      "start": "00:02:14.000",
+      "text": " We'll be right back."
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:18.000",
+      "text": " Mary, come on."
+    },
+    {
+      "end": "00:02:26.000",
+      "start": "00:02:22.000",
+      "text": " We'll be right back."
+    },
+    {
+      "end": "00:02:30.000",
+      "start": "00:02:26.000",
+      "text": " Mary, come on."
+    },
+    {
+      "end": "00:02:34.000",
+      "start": "00:02:30.000",
+      "text": " Mary, come on."
+    },
+    {
+      "end": "00:02:38.000",
+      "start": "00:02:34.000",
+      "text": " Mary, come on."
+    },
+    {
+      "end": "00:02:41.000",
+      "start": "00:02:39.000",
+      "text": " Come on. We'll be right back."
+    },
+    {
+      "end": "00:02:44.000",
+      "start": "00:02:41.000",
+      "text": " We'll be right back."
+    },
+    {
+      "end": "00:03:13.000",
+      "start": "00:03:08.000",
+      "text": " Mary, come on."
+    },
+    {
+      "end": "00:03:43.000",
+      "start": "00:03:38.000",
+      "text": " Mary, come on."
+    },
+    {
+      "end": "00:04:13.000",
+      "start": "00:04:08.000",
+      "text": " Mary, come on."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Film & Animation"
+  ],
+  "youtube_channel": "WEOT62",
+  "youtube_channel_follower_count": 941,
+  "youtube_comment_count": 28,
+  "youtube_description": "TV movie 1979 Stars: Richard Lynch, Kathryn Harrold, Jason Miller EG Marshall, Barrie Youngfellow\n------------------------------------------------------------------------------------------------------------------------\n Working on a full uninterrupted version that hopefully will run smoother. PM (Private message ) if interested\n\n6-18-12RIP RL We at 'the board; will miss you.",
+  "youtube_like_count": 74,
+  "youtube_tags": [
+    "Barrie Youngfellow"
+  ],
+  "youtube_title": "Vampire 1979",
+  "youtube_upload_date": "20120407",
+  "youtube_view_count": 19895
+}

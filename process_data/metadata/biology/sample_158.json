@@ -1,0 +1,386 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Small, irregular, colorless cell fragments. Initially depicted as smooth and round, they later become spiky and extend long arms.",
+        "name": "Platelets (or thrombocytes)"
+      },
+      {
+        "characterId": "2",
+        "description": "Abundant, red, disc-shaped cells flowing within the blood vessel.",
+        "name": "Red blood cells"
+      }
+    ],
+    "description": "Exploring the formation of blood clots through the interaction of platelets, red blood cells, and fibrin threads within blood vessels.",
+    "fps": 24.0,
+    "qAndA": [
+      {
+        "answer": "Platelets make up about 2% of blood.",
+        "question": "What is the approximate percentage of platelets in the blood?"
+      },
+      {
+        "answer": "Platelets change from a smooth, round shape to a spiky form with extended arms.",
+        "question": "What happens to the shape of platelets when they are activated?"
+      },
+      {
+        "answer": "Fibrin threads.",
+        "question": "What is the name of the protein threads that reinforce the platelet plug?"
+      },
+      {
+        "answer": "They release chemicals that initiate the coagulation cascade, leading to fibrin formation.",
+        "question": "How do platelets contribute to the activation of the coagulation system?"
+      },
+      {
+        "answer": "To stop blood loss from a damaged blood vessel.",
+        "question": "What is the purpose of forming a platelet plug?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Platelets and red blood cells flow smoothly within the blood vessel.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Platelets",
+          "Red blood cells"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Platelets",
+              "Red blood cells"
+            ],
+            "description": "No direct interaction. Platelets and red blood cells co-exist within the blood vessel."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces platelets and their role in blood clotting.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blood vessel (interior view)",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Blood composition, function of blood components.",
+        "timestamps": {
+          "end_timestamp": "00:00:09.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction of Platelets",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth camera movement through the blood vessel.",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A tear appears in the blood vessel wall.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:09.042"
+            }
+          },
+          {
+            "description": "Platelets adhere to the tear site and change shape, becoming spiky.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "description": "Platelets connect to each other.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Platelets",
+          "Red blood cells"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Platelets",
+              "Blood vessel wall"
+            ],
+            "description": "Platelets actively interact with the vessel wall and each other."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from 'Curious' to 'Content' as the narrative introduces a problem (vessel tear) and the solution (platelet action).",
+              "timestamp": "00:00:09.042"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shows how platelets respond to a vessel injury and begin forming a plug.",
+            "timestamp": "00:00:09.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blood vessel (interior view)",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:09.042"
+            }
+          },
+          {
+            "name": "Tear in the vessel wall",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:09.042"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Hemostasis, blood clotting process.",
+        "timestamps": {
+          "end_timestamp": "00:00:19.000",
+          "start_timestamp": "00:00:09.042"
+        },
+        "title": "Platelet Activation and Aggregation",
+        "videoEditingDetails": [
+          {
+            "description": "Close-up view of the tear and platelet adhesion.",
+            "timestamps": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:09.042"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Platelets continue aggregating at the tear site.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:19.042"
+            }
+          },
+          {
+            "description": "Chemical signals are released by platelets (not visually depicted).",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "description": "Fibrin threads appear, intertwining with platelets.",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Platelets",
+          "Red blood cells",
+          "Fibrin threads"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Platelets",
+              "Fibrin threads"
+            ],
+            "description": "Platelets interact with fibrin threads to create a stronger plug."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the formation of a stable clot with fibrin reinforcement.",
+            "timestamp": "00:00:19.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blood vessel (interior view)",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:19.042"
+            }
+          },
+          {
+            "name": "Fibrin threads",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Coagulation cascade, role of fibrin in blood clotting.",
+        "timestamps": {
+          "end_timestamp": "00:00:39.958",
+          "start_timestamp": "00:00:19.042"
+        },
+        "title": "Formation of Platelet Plug and Fibrin Threads",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom out to show the growing platelet plug.",
+            "timestamps": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Formation of the platelet plug.",
+        "timestamp": "00:00:35.000"
+      },
+      "description": "The process of blood clot formation.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Blood Clot Formation",
+    "trimmingSuggestions": [
+      {
+        "description": "Consider shortening the initial flow sequence to focus on the more dynamic process of platelet activation and aggregation.",
+        "timestamps": {
+          "end_timestamp": "00:00:19.042",
+          "start_timestamp": "00:00:19.042"
+        }
+      },
+      {
+        "description": "Trimming the final zoom-out could leave viewers with a stronger image of the completed clot.",
+        "timestamps": {
+          "end_timestamp": "00:00:39.000",
+          "start_timestamp": "00:00:35.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 40,
+  "original_json_filename": "tuv1CzrY1Qg.json",
+  "original_video_filename": "tuv1CzrY1Qg.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "sell fragments called platelets or thrombocytes make up about 2% of blood platelets stop blood loss from damaged vessels when a blood vessel tears platelets at the site adhere to the wall of the vessel to close the tear the shape of the platelets changes as they liberate the contents of their vesicles this enables them to connect to one another platelets also release chemicals that activate the coagulation system to promote blood clotting blood proteins known as clotting factors form fibrin threads millions of platelets together with the fibrin threads form a platelet plug if the tear is small enough the plug can stop blood loss completely",
+  "text_to_speech_word_count": 108,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:00.000",
+      "text": " Cell fragments called platelets or thrombocytes make up about 2% of blood."
+    },
+    {
+      "end": "00:00:09.000",
+      "start": "00:00:06.000",
+      "text": " Platelets stop blood loss from damaged vessels."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:09.000",
+      "text": " When a blood vessel tears, platelets at the site adhere to the wall of the vessel to close the tear."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:15.000",
+      "text": " The shape of the platelets changes as they liberate the contents of their vesicles."
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:19.000",
+      "text": " This enables them to connect to one another."
+    },
+    {
+      "end": "00:00:28.000",
+      "start": "00:00:22.000",
+      "text": " Platelets also release chemicals that activate the coagulation system to promote blood clotting."
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:28.000",
+      "text": " Blood proteins known as clotting factors form fibrin threads."
+    },
+    {
+      "end": "00:00:36.000",
+      "start": "00:00:32.000",
+      "text": " Millions of platelets together with the fibrin threads form a platelet plug."
+    },
+    {
+      "end": "00:00:40.000",
+      "start": "00:00:36.000",
+      "text": " If the tear is small enough, the plug can stop blood loss completely."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "Hailong Lim",
+  "youtube_channel_follower_count": 41,
+  "youtube_comment_count": 0,
+  "youtube_description": "Please subscribe and share to get more videos!",
+  "youtube_like_count": 1,
+  "youtube_tags": [
+    "function of platelets",
+    "function of platelets in human body",
+    "function of platelets in blood",
+    "function of platelets in hindi",
+    "function of platelets in hemostasis",
+    "function of platelets in blood clotting",
+    "function of platelets in blood gcse",
+    "function of platelets blood cells",
+    "structure and function of platelets",
+    "main function of platelets",
+    "the function of platelets",
+    "the function of platelets in blood"
+  ],
+  "youtube_title": "Fonction of Platelets",
+  "youtube_upload_date": "20180515",
+  "youtube_view_count": 31
+}

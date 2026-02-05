@@ -1,0 +1,497 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short dark hair, wearing a black shirt, writing on a whiteboard with a blue marker.",
+        "name": "Daniel Nino"
+      }
+    ],
+    "description": "A detailed breakdown of the video featuring Daniel Nino as he explains Green's function for 2nd order ODEs with non-constant coefficients. This includes an exploration of the algorithm and examples provided in the video.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The Green's function must be continuous everywhere, particularly at the point x = x'.",
+        "question": "What is the key property of the Green's function mentioned in the video?"
+      },
+      {
+        "answer": "Because the integral is evaluated at two points that are very close to one another, effectively subtracting the same number.",
+        "question": "Why is the integral of G(x,x')dx from x' - ε to x' + ε approximately equal to zero?"
+      },
+      {
+        "answer": "A homogeneous differential equation.",
+        "question": "What type of differential equation is solved for when x ≠ x'?"
+      },
+      {
+        "answer": "ε (epsilon).",
+        "question": "What is the symbol used to represent an infinitesimal change in x?"
+      },
+      {
+        "answer": "dG(x,x')/dx |_(x'+ε) - dG(x,x')/dx |_(x'-ε) = 1/a₂(x')",
+        "question": "What is the final expression derived for the difference in the derivative of the Green's function?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction and context of Green's function for 2nd order ODEs with non-constant coefficients.",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Explanation of the general form of the differential equation and the process for finding the Green's function.",
+            "timestamp": {
+              "end_timestamp": "00:01:25.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "description": "Derivation of a formula to solve the differential equation using Green's function.",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:01:25.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Daniel Nino"
+            ],
+            "description": "Daniel Nino directly addresses the viewer, explaining the mathematical concepts."
+          }
+        ],
+        "contextualRelevance": "The scene provides the foundation for understanding Green's function within the context of differential equations.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Sets the context and introduces the Green's function for 2nd order ODEs with non-constant coefficients.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Explains the methodology for finding the Green's function.",
+            "timestamp": "00:00:29.000"
+          },
+          {
+            "description": "Introduces a formula for solving the differential equation using the Green's function.",
+            "timestamp": "00:01:25.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with handwritten mathematical equations and text.",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Blue marker.",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Mathematical concepts, problem-solving, differential equations, Green's function.",
+        "timestamps": {
+          "end_timestamp": "00:01:59.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Green's Function",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Outlines an algorithm for finding the Green's function.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:01:59.040"
+            }
+          },
+          {
+            "description": "Applies the algorithm to solve a specific example.",
+            "timestamp": {
+              "end_timestamp": "00:08:02.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Daniel Nino"
+            ],
+            "description": "Daniel Nino continues to address the viewer, demonstrating the solution process."
+          }
+        ],
+        "contextualRelevance": "The scene builds upon the introductory concepts by practically demonstrating the Green's function algorithm.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces a step-by-step algorithm for finding the Green's function.",
+            "timestamp": "00:01:59.040"
+          },
+          {
+            "description": "Applies the algorithm to a specific example, showcasing its functionality.",
+            "timestamp": "00:02:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with handwritten mathematical equations and text.",
+            "timestamp": {
+              "end_timestamp": "00:08:02.000",
+              "start_timestamp": "00:01:59.040"
+            }
+          },
+          {
+            "name": "Blue marker.",
+            "timestamp": {
+              "end_timestamp": "00:08:02.000",
+              "start_timestamp": "00:01:59.040"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Mathematical concepts, problem-solving, algorithm application, Green's function.",
+        "timestamps": {
+          "end_timestamp": "00:08:02.000",
+          "start_timestamp": "00:01:59.040"
+        },
+        "title": "Algorithm and Example Application",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Continues the process of integrating the equation for the Green's function, focusing on specific mathematical steps.",
+            "timestamp": {
+              "end_timestamp": "00:10:25.000",
+              "start_timestamp": "00:08:02.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Daniel Nino"
+            ],
+            "description": "Daniel Nino maintains direct engagement with the viewer, guiding them through the steps."
+          }
+        ],
+        "contextualRelevance": "It highlights the crucial integration step to reveal the key property of the Green's function.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene continues the detailed process of solving for the Green's function.",
+            "timestamp": "00:08:02.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with handwritten mathematical equations and text.",
+            "timestamp": {
+              "end_timestamp": "00:10:25.000",
+              "start_timestamp": "00:08:02.040"
+            }
+          },
+          {
+            "name": "Blue marker.",
+            "timestamp": {
+              "end_timestamp": "00:10:25.000",
+              "start_timestamp": "00:08:02.040"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Mathematical concepts, integration, problem-solving, Green's function.",
+        "timestamps": {
+          "end_timestamp": "00:10:25.000",
+          "start_timestamp": "00:08:02.040"
+        },
+        "title": "Integration of the Green's Function Equation",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Focusing on the crucial integration step which reveals the key property of the Green's function.",
+        "timestamp": "00:08:02.000"
+      },
+      "description": "Explaining Green's function for 2nd order ODEs with non-constant coefficients",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Video Analysis: Green's Function for 2nd Order ODEs with Non-constant Coefficients",
+    "trimmingSuggestions": [
+      {
+        "description": "Consider condensing the integration process by showcasing key steps rather than every detail. This could improve the dynamism of this section.",
+        "timestamps": {
+          "end_timestamp": "00:08:02.040",
+          "start_timestamp": "00:08:02.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 625,
+  "original_json_filename": "zp3u-7IrbSE.json",
+  "original_video_filename": "zp3u-7IrbSE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this video we'll go through how we can use this green functions formalism to solve a second-order differential equation with non-constant coefficients so previously saw how to solve these types of equations when a2 1 and a naught were constants this time we're not going to assume that now they can be functions of x and we'll change variables from our previous description we previously used time now i'm going to use x but obviously the same idea holds regardless of what you call your variable so the idea to solving this type of differential equation with the greens function is you first have to find this has to be equal because the greens function is an impulse response function we change the nonhomogeneous term to a delta function if we're able to solve this equation to find our greens function then the solution to our original differential equation of interest will have a solution of this form so once you find the greens function you just have to integrate it with the original non-homogeneous term and you get your final solution to your differential equation we're not going to assume a specific form of f of x we're going to solve this in general mostly by going through how we can solve this differential equation up here and this is as you mentioned that this is of course subject to the boundary or initial conditions of your of the problem you're trying to solve so we can come up with a an algorithm of sorts this isn't to say that this is just something you should memorize you should understand the process but then eventually it's just a matter of following those steps so we first have to look at the case when x is not equal to x prime because then we can get rid of this delta function so to put in the perspective of the previous motivating example we're looking at what happens when the force is not being applied so again when next is not equal to x prime the delta function is just equal to zero and we're left with a homogeneous differential equation for the greens function and the key condition for green's function is to keep in mind that this is a physical property this represents the response of a physical system to an external impulse it must be continuous okay so whatever greens functions you find it must be continuous everywhere in particular what this means is when you look at x is equal to x prime then the left hand side has to hold it has to be the same thing so this equation still has to be satisfied for whatever green's function satisfies the homogeneous differential equation so what we're going to do then is integrate both sides of this equation under this condition that g x x prime has to be continuous and built up our solution that way and we're only going to integrate about x is equal to x prime and so over a very very small interval about this point and what that means is a 1 of x a naught of x a 1 of x and a 2 of x are approximately constant over this very very small interval we're going to consider so integrating both sides and treating our coefficients as constants okay integrating about this point means take taking a little bit to the left of x prime so x squared minus epsilon and a little bit to the right of x prime so x prime plus epsilon and again we were able to take out the coefficients because we're assuming that they're about constant in this small interval recall that when you integrate the delta function if your domain of integration includes the point x is equal to x prime then this is just equal to one by just to write it out this is what we have this is just a side remark so carrying out our integration under the condition that g has to be continuous if you integrate a continuous function over a very small integral and then take the then this term over here is approximately equal to zero okay because you're whatever this integral is you're evaluating at like two points that are very close to one another which means that you're basically subtracting the same number so epsilon tends to 0 because we're only looking in the neighborhood of the point x is equal to x prime this combined with this leaves us with the following expression",
+  "text_to_speech_word_count": 764,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.000",
+      "start": "00:00:00.000",
+      "text": " In this video we'll go through how we can use this green functions formalism to solve a second order differential equation with non constant coefficients."
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:11.000",
+      "text": " So previously saw how to solve these steps of equations when a to a one and a not for constants."
+    },
+    {
+      "end": "00:00:27.000",
+      "start": "00:00:18.000",
+      "text": " This then we're not going to assume that now they can be functions of X and will change variables from our previous description."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:27.000",
+      "text": " We previously used time now going to use X but obviously the same idea holds regardless of what you call your variable."
+    },
+    {
+      "end": "00:00:56.000",
+      "start": "00:00:35.000",
+      "text": " So the idea to solving this type of differential equation with a greens function is your first have to find the greens function which satisfies this different function."
+    },
+    {
+      "end": "00:01:16.000",
+      "start": "00:00:56.000",
+      "text": " This differential equation."
+    },
+    {
+      "end": "00:01:26.000",
+      "start": "00:01:16.000",
+      "text": " This has to be because the greens function is an impulse response function which change the non homogenous term to a delta function."
+    },
+    {
+      "end": "00:01:32.000",
+      "start": "00:01:26.000",
+      "text": " If we're able to solve this equation to find our greens function."
+    },
+    {
+      "end": "00:01:51.000",
+      "start": "00:01:32.000",
+      "text": " Then the solution to our original differential equation of interest will have a solution of this form."
+    },
+    {
+      "end": "00:02:01.000",
+      "start": "00:01:51.000",
+      "text": " So once you find the greens function you just have to integrate it with the original non homogenous term and you get your final solution to your differential equation."
+    },
+    {
+      "end": "00:02:14.000",
+      "start": "00:02:01.000",
+      "text": " We're not going to assume a specific form of f of X we're going to solve this in general mostly by going through how we can solve this differential equation up here."
+    },
+    {
+      "end": "00:02:34.000",
+      "start": "00:02:14.000",
+      "text": " And this is as you mentioned that this is of course subject to the boundary or initial conditions of your problem you're trying to solve."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:34.000",
+      "text": " So we can come up with an algorithm of sorts for finding the greens functions."
+    },
+    {
+      "end": "00:02:59.000",
+      "start": "00:02:48.000",
+      "text": " This isn't to say that this is just something you should memorize you should understand the process but then eventually it's just a matter of following those steps."
+    },
+    {
+      "end": "00:03:14.000",
+      "start": "00:02:59.000",
+      "text": " So we first have to look at the case when X is not equal to X prime because then we can get rid of this delta function so we're to put on the perspective of the previous motivating example we're looking at what happens when the force is not being applied."
+    },
+    {
+      "end": "00:03:49.000",
+      "start": "00:03:29.000",
+      "text": " So again when I say to X prime the delta function is just equal to zero and we're left with a homogeneous differential equation for the greens function."
+    },
+    {
+      "end": "00:04:03.000",
+      "start": "00:03:50.000",
+      "text": " And the key condition for greens function is to keep in mind that this is a physical property this represents the response of a physical system to an external impulse."
+    },
+    {
+      "end": "00:04:09.000",
+      "start": "00:04:05.000",
+      "text": " And being a physical property."
+    },
+    {
+      "end": "00:04:15.000",
+      "start": "00:04:10.000",
+      "text": " Or a physical quantity if you will."
+    },
+    {
+      "end": "00:04:20.000",
+      "start": "00:04:17.000",
+      "text": " It must be continuous."
+    },
+    {
+      "end": "00:04:36.000",
+      "start": "00:04:21.000",
+      "text": " So whatever greens functions you find it must be continuous everywhere in particular."
+    },
+    {
+      "end": "00:04:41.000",
+      "start": "00:04:37.000",
+      "text": " What this means is when you look at X is equal to X prime."
+    },
+    {
+      "end": "00:04:47.000",
+      "start": "00:04:42.000",
+      "text": " Then the left hand side has to hold. It has to be the same thing."
+    },
+    {
+      "end": "00:05:12.000",
+      "start": "00:04:47.000",
+      "text": " So this equation still has to be satisfied for whatever greens function satisfies the homogeneous differential equation."
+    },
+    {
+      "end": "00:05:28.000",
+      "start": "00:05:12.000",
+      "text": " So what we're going to do then is integrate both sides of this equation under this condition that G X X prime has to be continuous and build up our solution that way."
+    },
+    {
+      "end": "00:06:09.000",
+      "start": "00:05:42.000",
+      "text": " And we're only going to integrate about X is equal to X prime."
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:13.000",
+      "text": " And so over a very very small interval about this point and what that means."
+    },
+    {
+      "end": "00:06:51.000",
+      "start": "00:06:31.000",
+      "text": " It is a one of X a not affects a one of X and a two of X are approximately constant over this very very small interval we're going to consider."
+    },
+    {
+      "end": "00:06:58.000",
+      "start": "00:06:52.000",
+      "text": " So integrating both sides and treating our coefficients as constants."
+    },
+    {
+      "end": "00:07:20.000",
+      "start": "00:07:02.000",
+      "text": " Integrating about this point means taking a little bit to the left of X prime so X prime minus epsilon and a little bit to the right of X prime so X prime plus epsilon."
+    },
+    {
+      "end": "00:08:02.000",
+      "start": "00:07:52.000",
+      "text": " And again, we were able to take out the coefficients because we're assuming that they're about constant in this small interval."
+    },
+    {
+      "end": "00:08:14.000",
+      "start": "00:08:02.000",
+      "text": " Recall that when you integrate the delta function, if your domain of integration includes the point I was able to X prime, then this is just equal to one by definition."
+    },
+    {
+      "end": "00:08:28.000",
+      "start": "00:08:22.000",
+      "text": " Just to write it out, this is what we have."
+    },
+    {
+      "end": "00:08:38.000",
+      "start": "00:08:28.000",
+      "text": " This is just a side remark."
+    },
+    {
+      "end": "00:08:52.000",
+      "start": "00:08:38.000",
+      "text": " So carrying out our integration under the condition that G has to be continuous."
+    },
+    {
+      "end": "00:09:21.000",
+      "start": "00:08:52.000",
+      "text": " If your integrator continues function over a very small interval and then take the difference."
+    },
+    {
+      "end": "00:09:25.000",
+      "start": "00:09:21.000",
+      "text": " Then this term over here is approximately equal to zero."
+    },
+    {
+      "end": "00:09:43.000",
+      "start": "00:09:25.000",
+      "text": " Because you're whatever this integral is, you're evaluating at two points that are very close to one another, which means that you're basically subtracting the same number."
+    },
+    {
+      "end": "00:09:50.000",
+      "start": "00:09:43.000",
+      "text": " So epsilon tends to see our books were only looking in the neighborhood of the point X is equal to X prime."
+    },
+    {
+      "end": "00:09:58.000",
+      "start": "00:09:50.000",
+      "text": " This combined with this leaves us with the following expression."
+    },
+    {
+      "end": "00:10:23.000",
+      "start": "00:10:13.000",
+      "text": " Thank you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Daniel Nino",
+  "youtube_channel_follower_count": 241,
+  "youtube_comment_count": 0,
+  "youtube_description": "Using Green's function formalism to find the solution to second-order ODEs with non-constant coefficients",
+  "youtube_like_count": 8,
+  "youtube_tags": [],
+  "youtube_title": "8.4 Greens' function for second-order ODEs with non-constant coefficients",
+  "youtube_upload_date": "20210527",
+  "youtube_view_count": 1135
+}

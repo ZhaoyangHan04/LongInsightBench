@@ -1,0 +1,480 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice, unseen, who guides the viewer through the tutorial.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video explaining how to remove or change the arrow symbols on shortcut icons in Windows 11 using Registry Editor.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "\"%windir%\\System32\\shell32.dll,-50\"",
+        "question": "What is the specific code used in the 'Value Data' field to remove the arrow symbols?"
+      },
+      {
+        "answer": "\"Windows Explorer\"",
+        "question": "Which program needs to be restarted after modifying the registry to see the changes?"
+      },
+      {
+        "answer": "\"Shell Icons\"",
+        "question": "What is the name of the new key that needs to be created in the Registry Editor?"
+      },
+      {
+        "answer": "They delete the 'Shell Icons' key.",
+        "question": "What action does the narrator perform to reverse the changes made in the registry?"
+      },
+      {
+        "answer": "The narrator's enthusiastic and friendly tone makes the tutorial engaging and approachable, creating a generally positive and helpful mood.",
+        "question": "How does the narrator's tone contribute to the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the purpose of the video, showing a Windows 11 desktop with shortcut icons featuring arrows.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator sets up the problem: removing arrow symbols from desktop shortcut icons.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows 11 desktop with shortcut icons",
+            "timestamp": {
+              "end_timestamp": "00:00:26.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Desktop customization, Windows 11 features",
+        "timestamps": {
+          "end_timestamp": "00:00:26.900",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Opening the 'Run' dialog box and typing 'regedit'.",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          },
+          {
+            "description": "Navigating to the 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer' key.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Creating a new key called 'Shell Icons'.",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          },
+          {
+            "description": "Creating a new String Value named '29' and pasting the code: '%windir%\\System32\\shell32.dll,-50' as the Value Data.",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          },
+          {
+            "description": "Restarting 'Windows Explorer' from the Task Manager.",
+            "timestamp": {
+              "end_timestamp": "00:03:22.000",
+              "start_timestamp": "00:03:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene emphasizes the control users have over their operating system's appearance through registry modification.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, shifting to Content after the successful removal of arrow symbols.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift to Content mood upon successful visual update.",
+              "timestamp": "00:03:26.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator guides the viewer through the process of removing arrow symbols from desktop shortcut icons using the Registry Editor.",
+            "timestamp": "00:00:27.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows 11 desktop",
+            "timestamp": {
+              "end_timestamp": "00:03:37.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "'Run' dialog box",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          },
+          {
+            "name": "Registry Editor window",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "name": "Task Manager window",
+            "timestamp": {
+              "end_timestamp": "00:03:01.000",
+              "start_timestamp": "00:03:01.000"
+            }
+          },
+          {
+            "name": "'Edit String' dialog box",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical instructions, computer registry, desktop customization",
+        "timestamps": {
+          "end_timestamp": "00:03:37.000",
+          "start_timestamp": "00:00:26.933"
+        },
+        "title": "Registry Editor Tutorial",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator confirms the successful removal of arrow symbols.",
+            "timestamp": {
+              "end_timestamp": "00:03:37.033",
+              "start_timestamp": "00:03:37.033"
+            }
+          },
+          {
+            "description": "The narrator demonstrates how to revert the changes by deleting the 'Shell Icons' key and restarting 'Windows Explorer'.",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:04:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene reinforces the importance of careful registry modification and the ability to undo changes if needed.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator confirms the successful modification and provides instructions for reverting the changes.",
+            "timestamp": "00:03:37.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows 11 desktop",
+            "timestamp": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:03:37.033"
+            }
+          },
+          {
+            "name": "Registry Editor window",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:04:05.000"
+            }
+          },
+          {
+            "name": "Task Manager window",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:04:05.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Technical instructions, reversibility, desktop customization",
+        "timestamps": {
+          "end_timestamp": "00:04:37.433",
+          "start_timestamp": "00:03:37.033"
+        },
+        "title": "Confirmation and Reversal",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator summarizes the tutorial and encourages viewers to like and subscribe.",
+            "timestamp": {
+              "end_timestamp": "00:04:55.000",
+              "start_timestamp": "00:04:37.467"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Happy",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator concludes the tutorial and promotes their channel.",
+            "timestamp": "00:04:37.467"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows 11 desktop",
+            "timestamp": {
+              "end_timestamp": "00:04:55.000",
+              "start_timestamp": "00:04:37.467"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Conclusion, call to action, user engagement",
+        "timestamps": {
+          "end_timestamp": "00:05:05.033",
+          "start_timestamp": "00:04:37.467"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The arrow symbols successfully disappear from the desktop icons.",
+        "timestamp": "00:03:26.000"
+      },
+      "description": "A tutorial on removing arrow symbols from Windows 11 desktop shortcuts.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "How to Remove Shortcut Arrows on Windows 11 Desktop",
+    "trimmingSuggestions": [
+      {
+        "description": "Tighten transition by removing the initial seconds where the narrator restates achievements.",
+        "timestamps": {
+          "end_timestamp": "00:04:37.467",
+          "start_timestamp": "00:04:37.467"
+        }
+      },
+      {
+        "description": "Shorten Scene 4 by condensing the call to action.",
+        "timestamps": {
+          "end_timestamp": "00:04:46.000",
+          "start_timestamp": "00:04:37.467"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 305,
+  "original_json_filename": "d47tscze5t0.json",
+  "original_video_filename": "d47tscze5t0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hey guys welcome back to my channel in this video we are going to see how to remove this arrow in the shortcut programs in the desktops like in case if you are installing any new programmings so after the installation you will get that program has been shortcutted in your desktop but in most of the in all the shortcuts you will see a arrow symbol in all the programs now in this video we are going to show you how to remove this arrow from the shortcut icon like here is show you that so in the left image so in the desktop shortcut icons there will be arrow symbol but in the right side of the image so all the shortcut icons will not having any arrow symbol so this is that now to do that so firstly you have to just go to the run option and then just type regitit or egdiet and just click on the ok and after that just click on the s option now after that you will go to the registry editor program and here you have to click on the hkey local mission just double click on that and after that just click on the software just double click on software and after that just click on this microsoft so this option microsoft and here you have to go to the option windows so just search for the option windows folder so it is actually in the under the bottom so just double click on windows and in the windows now just click on the current version folder just double tap it and in the current version folder just double click on the explorer folder so just to search for the option explorer so here is the option folder called explorer just double click on that in the explorer folder you have to search for the folder called shell icons so in case if you not found any folder called shell icons you have to create a new folder called shell icons so for that just click on the explorer and just right click and click on new and click on the key option now just type shell and then space and icons and just hit on the enter and just double click on the shell icons and in the shell icons page so just right click and click on the new and click on the string value and in the string value just delete that keyboard and click just type 29 and hit enter and that's it and after that just double click this 29 and here you will have your value name and value data so in the value data so i am just pasting a code word i have given this value data text in the description you can just copy that and just paste in your computer and after pasting just click on the ok and now the almost all the process has been done and now just to minimize the registry editor now in the desktop just right click in the start icon and go to the task manager application and in this task manager so here is the program called windows explorer just click on that and click on restart so now after the restarting so now we are actually seen in desktop all the programs so there is no arrow key so that's it so now the arrow key is completely disabled in all types of programs and application so this is a simple way you can easily remove the arrow key from the shortcut icons in the desktop and also in future in case if you are installing any programs or application or games like that means so in case if any application have a shortcut in the desktop that too will not have an arrow symbol so in case if you want to go back to the normal question means so you have to just go to the registry and just delete the folder called shell icons so just delete that and click on s and just close the registry editor and again go to the task manager and here just again go to the option windows explorer program running service in the running programs so in the just tap on the windows explorer and click on the restart and after restarting now arrow symbol will be shown in the all the shortcut icon in the desktop so this is one of the easiest way to remove the arrow symbol in all the shortcut icon programs in the desktop so now that's all about this video guys and hopefully if you guys like this video hit the like button and if you guys like to watch my upcoming videos hit the subscribe button below and thanks for watching this video guys [Music]",
+  "text_to_speech_word_count": 812,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.000",
+      "start": "00:00:00.000",
+      "text": " Hey guys welcome back to my channel. In this video we are going to see how to remove this arrow in the shortcut programs in the desktop."
+    },
+    {
+      "end": "00:00:16.000",
+      "start": "00:00:08.000",
+      "text": " Like in case you are installing any new program means. So after the installation you will get that program has been shortcut in your desktop."
+    },
+    {
+      "end": "00:00:27.000",
+      "start": "00:00:16.000",
+      "text": " But in most of the in all the shortcuts you will see a arrow symbol in all the programs. Now in this video we are going to show you how to remove this arrow from the shortcut icon."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:27.000",
+      "text": " Like here you will show you the so in the left image so in the desktop shortcut icons there will be arrow symbol but in the right side of the image."
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:35.000",
+      "text": " So all the shortcut icons will not have any arrow symbol. So this is that now to do that. So firstly you have to just go to the run option and then just type rigid it or e g e d i e d and just click on the ok."
+    },
+    {
+      "end": "00:01:11.000",
+      "start": "00:00:51.000",
+      "text": " And after that just click on the s option. Now after that you will go to the registry editor program and here you have to click on the hq local mission just double click on that and after that just click on the software just double click on software and after that just click on this micro software."
+    },
+    {
+      "end": "00:01:28.000",
+      "start": "00:01:11.000",
+      "text": " So this option Microsoft and here you have to go to the option windows just search for the option windows folder. So it is actually in the under the bottom. So just double click on windows and in the windows."
+    },
+    {
+      "end": "00:01:39.000",
+      "start": "00:01:28.000",
+      "text": " Now just click on the current version folder just double tap it and in the current version folder just double click on the explorer folder."
+    },
+    {
+      "end": "00:01:55.000",
+      "start": "00:01:39.000",
+      "text": " So just search for the option explorer. So here is the option folder called explorer just double click on that in the explorer folder you have to search for the folder called shell icons."
+    },
+    {
+      "end": "00:02:10.000",
+      "start": "00:01:55.000",
+      "text": " So in case if you not found any folder called shell icons you have to create a new folder called shell icons. So for that just click on the explorer and just right click and click on new and click on the key option."
+    },
+    {
+      "end": "00:02:26.000",
+      "start": "00:02:10.000",
+      "text": " Now just type a shell and then space and icons and just hit on the enter and just double click on the shell icons and in the shell icons page."
+    },
+    {
+      "end": "00:02:40.000",
+      "start": "00:02:26.000",
+      "text": " So just right click and click on the new and click on the string value and in the string value just delete that keyword and click just type a 29 and hit enter and that's it."
+    },
+    {
+      "end": "00:02:55.000",
+      "start": "00:02:40.000",
+      "text": " And after that just double click this 29 and here you will have a value name and value data. So in the value data. So I am just pasting a code word. I have given this value data text in the description."
+    },
+    {
+      "end": "00:03:04.000",
+      "start": "00:02:55.000",
+      "text": " You can just copy that and just paste in your computer and after pasting just click on the OK and now the almost all the process has been done."
+    },
+    {
+      "end": "00:03:18.000",
+      "start": "00:03:04.000",
+      "text": " And now just minimize the registry editor. Now in the desktop just right click in the start icon and go to the task manager application and in the task manager."
+    },
+    {
+      "end": "00:03:28.000",
+      "start": "00:03:18.000",
+      "text": " So here is the program called windows explorer just click on that and click on a restart. So now after the restarting."
+    },
+    {
+      "end": "00:03:42.000",
+      "start": "00:03:28.000",
+      "text": " So now you are actually seen in desktop all the programs. So there is no arrow key. So that's it. So now the arrow keys completely disabled in all types of programs and application."
+    },
+    {
+      "end": "00:03:53.000",
+      "start": "00:03:42.000",
+      "text": " So this is a simple way you can easily remove the arrow key from the shortcut icons in the desktop and also in future in case if you are installing any programs or application or games like that means."
+    },
+    {
+      "end": "00:04:04.000",
+      "start": "00:03:53.000",
+      "text": " So in case if any application have a shortcut in the desktop means that too will not have a arrow symbol. So in case if you want to go back to the normal push and means."
+    },
+    {
+      "end": "00:04:18.000",
+      "start": "00:04:04.000",
+      "text": " So you have to just go to the registry and just delete the folder called shell icons. So just delete that and click on S and just close the registry editor and again go to the task manager."
+    },
+    {
+      "end": "00:04:31.000",
+      "start": "00:04:18.000",
+      "text": " And here just again go to the option windows explorer program running service in the running programs. So in the just tap on the windows explorer and click on the restart."
+    },
+    {
+      "end": "00:04:44.000",
+      "start": "00:04:31.000",
+      "text": " And after restarting now arrow symbol will be shown in the all the shortcut icon in the desktop. So this is one of the easiest way to remove the arrow symbol in all the shortcut icon programs in the desktop."
+    },
+    {
+      "end": "00:04:55.000",
+      "start": "00:04:44.000",
+      "text": " So now that's all about this video guys and hopefully if you guys like this video hit the like button and if you guys like to watch my upcoming videos hit the subscribe button below and thanks for watching this video guys."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "TechNtech",
+  "youtube_channel_follower_count": 15000,
+  "youtube_comment_count": 529,
+  "youtube_description": "Hey Guys, Welcome back to TechNtech,\n\nIn this video, let me share with you a method on How to remove shortcut arrows from desktop in Windows 11 operating system. Also, this method will work in Windows 10 too\n\nValue Data - %windir%\\System32\\shell32.dll,-50\n\n(Method 2) Black Box in Shortcut Icon? Try this video - https://youtu.be/6ydj6yFfij8\n\n#Windows11 #Howto #ShortcutIcon #Windows10\n\nThanks Watching!!!\n\nFollow us:\n\nInstagram: https://instagram.com/techntechonly\nTwitter: https://twitter.com/techntechonly\nFacebook: https://facebook.com/techandtechonly \n\nSubscribe to my Youtube channel\n\nதமிழ் - https://www.youtube.com/channel/UCNiSfyXNBpPj3sV9C89v8LA\nEnglish - https://www.youtube.com/c/TechNtechEnglish\n\nVisit our website for the latest tech news & Gadgets info",
+  "youtube_like_count": 2254,
+  "youtube_tags": [
+    "how to remove desktop icons windows 10",
+    "how to remove desktop shortcut icon",
+    "how to remove shortcut icon from desktop",
+    "how to remove shortcut icon from desktop windows 10",
+    "how to",
+    "windows 11",
+    "windows 10",
+    "how to remove shortcut icon arrow in windows 10",
+    "how to remove arrow mark in shortcut icon",
+    "how to remove arrows from icons windows 10",
+    "how to remove shortcut arrow from desktop icons in windows 10",
+    "how to remove shortcut arrow from desktop icons in windows 7"
+  ],
+  "youtube_title": "How to remove shortcut arrow from desktop icons in Windows 10, 11",
+  "youtube_upload_date": "20210918",
+  "youtube_view_count": 146063
+}

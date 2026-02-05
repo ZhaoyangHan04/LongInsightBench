@@ -1,0 +1,649 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "character-1",
+        "description": "An orange, Pacman-shaped structure embedded in the cell membrane. It has three binding sites for sodium ions on one side and two binding sites for potassium ions on the other side.",
+        "name": "Sodium-Potassium Pump"
+      },
+      {
+        "characterId": "character-2",
+        "description": "A purple, Pacman-shaped structure embedded in the cell membrane. It has two binding sites for sodium ions and one for a glucose molecule.",
+        "name": "Sodium-Glucose Transporter"
+      },
+      {
+        "characterId": "character-3",
+        "description": "A light blue oval structure embedded in the cell membrane. It is always open, allowing potassium ions to pass through.",
+        "name": "Potassium Leak Channel"
+      },
+      {
+        "characterId": "character-4",
+        "description": "Represented by small blue circles.",
+        "name": "Sodium Ion (Na+)"
+      },
+      {
+        "characterId": "character-5",
+        "description": "Represented by small green circles.",
+        "name": "Potassium Ion (K+)"
+      },
+      {
+        "characterId": "character-6",
+        "description": "Represented by small yellow stars.",
+        "name": "Glucose"
+      },
+      {
+        "characterId": "character-7",
+        "description": "Represented by a larger yellow star that binds to the Sodium-Potassium Pump.",
+        "name": "ATP"
+      }
+    ],
+    "description": "An informative video about the mechanisms involved in creating and maintaining the membrane potential in cells.",
+    "fps": 10.0,
+    "qAndA": [
+      {
+        "answer": "ATP (represented by the yellow star)",
+        "question": "What molecule provides energy for the Sodium-Potassium Pump?"
+      },
+      {
+        "answer": "Three (visually depicted by three blue circles binding to the pump)",
+        "question": "How many sodium ions does the Sodium-Potassium Pump transport out of the cell in each cycle?"
+      },
+      {
+        "answer": "Facilitated Diffusion (as the channel is always open, allowing ions to move passively down their concentration gradient)",
+        "question": "What type of transport mechanism is used by the Potassium Leak Channel?"
+      },
+      {
+        "answer": "Indirectly, by utilizing the sodium gradient established by the Sodium-Potassium Pump to transport glucose into the cell.",
+        "question": "How does the Sodium-Glucose Transporter contribute to the overall membrane potential?"
+      },
+      {
+        "answer": "Neutral (Informative) - The video aims to educate the viewer about the complex processes involved in membrane potential, using clear and concise language and visual aids.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Sodium and potassium ions are shown distributed unevenly across a cell membrane, with more sodium outside and more potassium inside.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The Sodium-Potassium Pump appears embedded in the cell membrane.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Sodium Ion (Na+)",
+          "Potassium Ion (K+)",
+          "Sodium-Potassium Pump"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Sodium Ion (Na+)",
+              "Potassium Ion (K+)",
+              "Sodium-Potassium Pump"
+            ],
+            "description": "The introduction showing their roles in maintaining cell membrane potential."
+          }
+        ],
+        "contextualRelevance": "Introduces fundamental concepts necessary for understanding subsequent scenes.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": [
+            {
+              "changeDescription": "Introduction of ion concentrations and the Sodium-Potassium Pump sparks curiosity.",
+              "timestamp": "00:00:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Establishes the context of the video by illustrating the uneven distribution of sodium and potassium ions and introducing the Sodium-Potassium Pump.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cell Membrane",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Extracellular space",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Intracellular space",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The importance of maintaining ion gradients in living cells.",
+        "timestamps": {
+          "end_timestamp": "00:00:20.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction of Ion Concentrations and the Sodium-Potassium Pump",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The Sodium-Potassium Pump binds three sodium ions from the intracellular space.",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "description": "ATP binds to the pump, causing a conformational change that opens the pump towards the extracellular space.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          },
+          {
+            "description": "The sodium ions are released into the extracellular space.",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "The pump binds two potassium ions from the extracellular space, causing the release of the phosphate group from ATP.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          },
+          {
+            "description": "Another conformational change occurs, opening the pump towards the intracellular space and releasing the potassium ions.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Sodium Ion (Na+)",
+          "Potassium Ion (K+)",
+          "Sodium-Potassium Pump",
+          "ATP"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Sodium Ion (Na+)",
+              "Sodium-Potassium Pump"
+            ],
+            "description": "Sodium ions bind to the Sodium-Potassium Pump and are transported out of the cell."
+          },
+          {
+            "characters": [
+              "Potassium Ion (K+)",
+              "Sodium-Potassium Pump"
+            ],
+            "description": "Potassium ions are transported into the cell by the Sodium-Potassium Pump."
+          }
+        ],
+        "contextualRelevance": "Details the active transport process critical to cellular function.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": [
+            {
+              "changeDescription": "Explanation of Sodium-Potassium Pump induces a clear understanding.",
+              "timestamp": "00:00:20.100"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Delves deeper into the function of the Sodium-Potassium Pump, demonstrating how it maintains the concentration gradients of sodium and potassium ions across the cell membrane.",
+            "timestamp": "00:00:20.100"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cell Membrane",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:20.100"
+            }
+          },
+          {
+            "name": "Extracellular space",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:20.100"
+            }
+          },
+          {
+            "name": "Intracellular space",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:20.100"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Active transport, energy consumption (ATP hydrolysis), conformational changes in proteins.",
+        "timestamps": {
+          "end_timestamp": "00:01:01.400",
+          "start_timestamp": "00:00:20.100"
+        },
+        "title": "Functioning of the Sodium-Potassium Pump",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The Sodium-Glucose Transporter appears on the membrane and binds two sodium ions and one glucose molecule from the extracellular space.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.000",
+              "start_timestamp": "00:01:01.500"
+            }
+          },
+          {
+            "description": "A conformational change occurs, transporting the sodium and glucose into the intracellular space.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:19.000"
+            }
+          },
+          {
+            "description": "The Potassium Leak Channel is shown allowing potassium ions to move out of the cell, following their concentration gradient.",
+            "timestamp": {
+              "end_timestamp": "00:01:29.400",
+              "start_timestamp": "00:01:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Sodium Ion (Na+)",
+          "Potassium Ion (K+)",
+          "Sodium-Potassium Pump",
+          "Sodium-Glucose Transporter",
+          "Glucose",
+          "Potassium Leak Channel"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Sodium Ion (Na+)",
+              "Sodium-Glucose Transporter",
+              "Glucose"
+            ],
+            "description": "Sodium and glucose are transported into the cell by the Sodium-Glucose Transporter."
+          },
+          {
+            "characters": [
+              "Potassium Ion (K+)",
+              "Potassium Leak Channel"
+            ],
+            "description": "Potassium ions exit the cell through the Potassium Leak Channel."
+          }
+        ],
+        "contextualRelevance": "Illustrates interconnected transport processes essential for cellular nutrient uptake.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": [
+            {
+              "changeDescription": "Understanding the link between Sodium-Potassium Pump and glucose uptake.",
+              "timestamp": "00:01:01.500"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Expands the scope of the video by showing how the sodium gradient created by the Sodium-Potassium Pump is utilized by other transport mechanisms, like the Sodium-Glucose Transporter.",
+            "timestamp": "00:01:01.500"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cell Membrane",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:01.500"
+            }
+          },
+          {
+            "name": "Extracellular space",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:01.500"
+            }
+          },
+          {
+            "name": "Intracellular space",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:01.500"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Coupled transport, facilitated diffusion, membrane permeability, co-transport.",
+        "timestamps": {
+          "end_timestamp": "00:01:29.400",
+          "start_timestamp": "00:01:01.500"
+        },
+        "title": "Coupling of the Sodium-Potassium Pump with the Sodium-Glucose Transporter",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Potassium ions continue to flow out of the cell through the Potassium Leak Channel.",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:29.500"
+            }
+          },
+          {
+            "description": "Plus and minus signs appear on either side of the membrane, indicating the electrical charges resulting from the ion movements.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Sodium Ion (Na+)",
+          "Potassium Ion (K+)",
+          "Sodium-Potassium Pump",
+          "Potassium Leak Channel"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Sodium Ion (Na+)",
+              "Potassium Ion (K+)"
+            ],
+            "description": "Sodium and potassium ions play a role in establishing the resting membrane potential through their respective channels and pumps."
+          },
+          {
+            "characters": [
+              "Sodium-Potassium Pump",
+              "Potassium Leak Channel"
+            ],
+            "description": "These components interact to stabilize the resting membrane potential."
+          }
+        ],
+        "contextualRelevance": "Sums up ion transport processes crucial for cellular electrochemical balance.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Conclusive)",
+          "keyMoments": [
+            {
+              "changeDescription": "Final understanding of the resting membrane potential formation.",
+              "timestamp": "00:01:41.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the explanation by showing how the net movement of positive ions out of the cell creates a negative charge inside the cell, resulting in the resting membrane potential.",
+            "timestamp": "00:01:29.500"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cell Membrane",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:29.500"
+            }
+          },
+          {
+            "name": "Extracellular space",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:29.500"
+            }
+          },
+          {
+            "name": "Intracellular space",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:29.500"
+            }
+          },
+          {
+            "name": "Positive Charge Symbols (+)",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:41.000"
+            }
+          },
+          {
+            "name": "Negative Charge Symbols (-)",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:41.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Resting membrane potential, electrical charge, membrane potential, electrochemical gradient.",
+        "timestamps": {
+          "end_timestamp": "00:01:56.200",
+          "start_timestamp": "00:01:29.500"
+        },
+        "title": "Establishing the Resting Membrane Potential",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The resting membrane potential is established.",
+        "timestamp": "00:01:41.000"
+      },
+      "description": "The Mechanisms of Membrane Potential",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Membrane Potential",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial portion showcasing the static distribution of ions could be shortened to quickly introduce the concept and move on to the Sodium-Potassium Pump's action.",
+        "timestamps": {
+          "end_timestamp": "00:01:29.500",
+          "start_timestamp": "00:01:29.500"
+        }
+      },
+      {
+        "description": "The extended depiction of potassium outflow through the Leak Channel could be trimmed as it has already been explained in the previous scene.",
+        "timestamps": {
+          "end_timestamp": "00:01:41.000",
+          "start_timestamp": "00:01:29.500"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 116,
+  "original_json_filename": "iA-Gdkje6pg.json",
+  "original_video_filename": "iA-Gdkje6pg.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "in living cells the concentration of sodium is much greater outside the cell than it is inside the cell and potassium is much greater inside the cell than outside the sodium potassium pump is the main mechanism used by cells in order to maintain the concentration gradient of these two ions it functions by binding three sodium ions followed by ATP indicated by the star ATP hydrolysis phosphorylates the pump and induces a conformational change the phosphorylated form has decreased affinity for sodium allowing the sodium to diffuse away the pump binds to potassium ions outside of the cell which causes release of the phosphate and induces a conformational change which then releases potassium and allows the cycle to start again the sodium which leaves the cell is used to bring larger molecules such as glucose back into the cell by moving down its concentration gradient using a carrier the purple sodium glucose transporter functions by binding to sodium ions and one glucose molecule a conformational change causes the sodium and glucose to enter the cell without a mechanism such as this large molecules such as glucose would not be able to enter the cell the potassium which enters the cell leaves through the light blue potassium leak channel which is always open this makes the cell more permeable to potassium than any other ion the potassium leak channel combined with the sodium potassium pump which removes more positive ions than it brings in causes the cell to have a negative resting potential and allows the cell to manipulate the environment to suit its needs",
+  "text_to_speech_word_count": 265,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:15.400",
+      "start": "00:00:00.000",
+      "text": " In living cells, the concentration of sodium is much greater outside the cell than it"
+    },
+    {
+      "end": "00:00:21.400",
+      "start": "00:00:15.400",
+      "text": " is inside the cell, and potassium is much greater inside the cell than outside."
+    },
+    {
+      "end": "00:00:26.700",
+      "start": "00:00:21.400",
+      "text": " The sodium potassium pump is a main mechanism used by cells in order to maintain the concentration"
+    },
+    {
+      "end": "00:00:29.300",
+      "start": "00:00:26.700",
+      "text": " gradient of these two ions."
+    },
+    {
+      "end": "00:00:33.200",
+      "start": "00:00:29.300",
+      "text": " It functions by binding three sodium ions."
+    },
+    {
+      "end": "00:00:38.400",
+      "start": "00:00:33.200",
+      "text": " Followed by ATP indicated by the star, ATP hydrolysis phosphorylates the pump and induces"
+    },
+    {
+      "end": "00:00:41.200",
+      "start": "00:00:38.400",
+      "text": " a conformational change."
+    },
+    {
+      "end": "00:00:45.800",
+      "start": "00:00:41.200",
+      "text": " The phosphorylated form has decreased affinity for sodium, allowing the sodium to diffuse"
+    },
+    {
+      "end": "00:00:47.100",
+      "start": "00:00:45.800",
+      "text": " away."
+    },
+    {
+      "end": "00:00:55.200",
+      "start": "00:00:47.100",
+      "text": " The pump binds two potassium ions outside of the cell, which causes release of the phosphate"
+    },
+    {
+      "end": "00:00:59.900",
+      "start": "00:00:55.200",
+      "text": " and induces a conformational change, which then releases potassium and allows the cycle"
+    },
+    {
+      "end": "00:01:02.900",
+      "start": "00:00:59.900",
+      "text": " to start again."
+    },
+    {
+      "end": "00:01:07.500",
+      "start": "00:01:02.900",
+      "text": " The sodium which leaves the cell is used to bring larger molecules, such as glucose,"
+    },
+    {
+      "end": "00:01:12.800",
+      "start": "00:01:07.500",
+      "text": " back into the cell, by moving down its concentration gradient using a carrier."
+    },
+    {
+      "end": "00:01:17.800",
+      "start": "00:01:12.800",
+      "text": " The purple sodium glucose transporter functions by binding two sodium ions and one glucose"
+    },
+    {
+      "end": "00:01:19.600",
+      "start": "00:01:17.800",
+      "text": " molecule."
+    },
+    {
+      "end": "00:01:23.700",
+      "start": "00:01:19.600",
+      "text": " A conformational change causes the sodium and glucose to enter the cell."
+    },
+    {
+      "end": "00:01:27.800",
+      "start": "00:01:23.700",
+      "text": " Other mechanisms such as this, large molecules, such as glucose, would not be able to enter"
+    },
+    {
+      "end": "00:01:30.800",
+      "start": "00:01:27.800",
+      "text": " the cell."
+    },
+    {
+      "end": "00:01:35.100",
+      "start": "00:01:30.800",
+      "text": " The potassium, which enters the cell, leaves through the light blue potassium-leach channel,"
+    },
+    {
+      "end": "00:01:37.100",
+      "start": "00:01:35.100",
+      "text": " which is always open."
+    },
+    {
+      "end": "00:01:42.800",
+      "start": "00:01:37.100",
+      "text": " This makes the cell more permeable to potassium than any other ion."
+    },
+    {
+      "end": "00:01:47.200",
+      "start": "00:01:42.800",
+      "text": " The potassium-leach channel, combined with the sodium potassium pump, which removes more"
+    },
+    {
+      "end": "00:01:52.600",
+      "start": "00:01:47.200",
+      "text": " positive ions than it brings in, causes the cell to have a negative resting potential,"
+    },
+    {
+      "end": "00:01:55.700",
+      "start": "00:01:52.600",
+      "text": " and allows the cell to manipulate the environment to suit its needs."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "HHMI UCI",
+  "youtube_channel_follower_count": 341,
+  "youtube_comment_count": 52,
+  "youtube_description": "An explanation of how the membrane potential is generated and maintained using the sodium/potassium ATPase and potassium leak channels.",
+  "youtube_like_count": 420,
+  "youtube_tags": [
+    "cell",
+    "membrane",
+    "potential",
+    "sodium",
+    "potassium",
+    "pump",
+    "atpase",
+    "leak",
+    "channel"
+  ],
+  "youtube_title": "Membrane Potential",
+  "youtube_upload_date": "20070921",
+  "youtube_view_count": 367635
+}

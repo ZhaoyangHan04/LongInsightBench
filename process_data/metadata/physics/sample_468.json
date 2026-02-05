@@ -1,0 +1,764 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "01",
+        "description": "Male, wearing a dark long-sleeve shirt. Visible only by his right hand holding a black marker.",
+        "name": "Daniel Nino"
+      }
+    ],
+    "description": "An exploration into developing an alternative method to solve scattering problems using integral equations.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "k represents the magnitude of the wave vector of the incident particles, which is related to their momentum.",
+        "question": "What is the physical meaning of the variable k in the equation for kinetic energy?"
+      },
+      {
+        "answer": "The point source problem, represented by a Dirac delta function, has a known solution (G(r)). This solution can be used as a building block to construct the solution for the more complicated scattering problem involving a general potential.",
+        "question": "Why is a point source problem being solved first?"
+      },
+      {
+        "answer": "The source term represents the scattering of waves due to the potential. It acts as a driving force for the scattered waves.",
+        "question": "What is the significance of the 'source' term on the right-hand side of the simplified Schrödinger equation?"
+      },
+      {
+        "answer": "By using the principle of superposition, the solution to the original problem is constructed by summing the solution to the homogeneous equation and a superposition of responses from multiple point sources represented by G(r).",
+        "question": "How is the solution to the original scattering problem built up using the solution to the point source problem?"
+      },
+      {
+        "answer": "The overall mood is curious. The video builds anticipation for the integral equation method by introducing the problem, simplifying it, and setting up the solution strategy without revealing the full details.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Daniel Nino introduces the topic of the video series: developing an alternative method to solve scattering problems using integral equations.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Daniel sets the stage for the video series.",
+            "timestamp": "00:00:02.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Scattering problems, integral equations, alternative methods.",
+        "timestamps": {
+          "end_timestamp": "00:00:18.240",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel reviews the scattering problem setup and introduces relevant variables and concepts.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Daniel revisits the basics of the scattering problem and introduces new concepts for formulating the solution.",
+            "timestamp": "00:00:21.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:00:18.280"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:00:18.280"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Incident particles, target potential, scattering amplitude, wave vectors, elastic scattering.",
+        "timestamps": {
+          "end_timestamp": "00:01:30.000",
+          "start_timestamp": "00:00:18.280"
+        },
+        "title": "Recall and Setup",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:00:18.280"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel introduces a new quantity to simplify the Schrödinger equation and presents the reformulated equation.",
+            "timestamp": {
+              "end_timestamp": "00:02:40.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Daniel simplifies the Schrödinger equation and sets the stage for the transition to the integral equation approach.",
+            "timestamp": "00:01:30.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:02:59.000",
+              "start_timestamp": "00:01:30.040"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:02:59.000",
+              "start_timestamp": "00:01:30.040"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Elastic scattering, stationary scattering states, simplification, point source.",
+        "timestamps": {
+          "end_timestamp": "00:02:59.000",
+          "start_timestamp": "00:01:30.040"
+        },
+        "title": "Reformulation and New Equation",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:02:59.000",
+              "start_timestamp": "00:01:30.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel further simplifies the Schrödinger equation and highlights the source term.",
+            "timestamp": {
+              "end_timestamp": "00:04:30.000",
+              "start_timestamp": "00:04:04.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Daniel continues to modify the equation to prepare for the introduction of the integral equation.",
+            "timestamp": "00:02:59.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:02:59.040"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:02:59.040"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Source term, point source, non-homogeneous Schrödinger equation, simplifying equations.",
+        "timestamps": {
+          "end_timestamp": "00:04:41.000",
+          "start_timestamp": "00:02:59.040"
+        },
+        "title": "Towards the Integral Equation",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:02:59.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel suggests solving the equation for a point source represented by a Dirac delta function.",
+            "timestamp": {
+              "end_timestamp": "00:07:10.000",
+              "start_timestamp": "00:06:51.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Daniel shifts the focus to a simpler problem, the point source, to build towards the integral equation method.",
+            "timestamp": "00:04:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:07:14.000",
+              "start_timestamp": "00:04:41.040"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:07:14.000",
+              "start_timestamp": "00:04:41.040"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Point source, Dirac delta function, simplifying the problem, building block for the solution.",
+        "timestamps": {
+          "end_timestamp": "00:07:14.000",
+          "start_timestamp": "00:04:41.040"
+        },
+        "title": "Introducing the Point Source Problem",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:07:14.000",
+              "start_timestamp": "00:04:41.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel outlines the strategy for solving the original scattering problem using the solution to the point source problem.",
+            "timestamp": {
+              "end_timestamp": "00:08:00.000",
+              "start_timestamp": "00:07:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Daniel Nino"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Daniel connects the point source solution to the original scattering problem and sets the stage for the next video.",
+            "timestamp": "00:07:15.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:09:17.000",
+              "start_timestamp": "00:07:14.040"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:09:17.000",
+              "start_timestamp": "00:07:14.040"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Superposition, homogeneous equation, non-homogeneous equation, connecting solutions, solving complex problems.",
+        "timestamps": {
+          "end_timestamp": "00:09:17.000",
+          "start_timestamp": "00:07:14.040"
+        },
+        "title": "Solution Strategy",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:09:17.000",
+              "start_timestamp": "00:07:14.040"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The core idea of the integral equation approach is highlighted.",
+        "timestamp": null
+      },
+      "description": "The video presents a non-narrative explanation of a mathematical concept.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "The Integral Scattering Equation",
+    "trimmingSuggestions": [
+      {
+        "description": "The entire scene could be shortened by directly presenting the title and briefly stating the purpose of the video series.",
+        "timestamps": {
+          "end_timestamp": "00:07:14.040",
+          "start_timestamp": "00:07:14.040"
+        }
+      },
+      {
+        "description": "The mathematical manipulations could be shown in a more concise way, focusing on the key steps and avoiding unnecessary repetition.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The verbal explanation of the solution strategy could be shortened by using visual aids or animations to illustrate the superposition concept.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 557,
+  "original_json_filename": "aueffRcIM5Q.json",
+  "original_video_filename": "aueffRcIM5Q.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "over the next few videos we're going to develop an alternative method to solving scattering problems and it's going to involve reformulating the scattering problem through an integral equation so to recall the uh problem that we're considering we have which have a kinetic energy given by h bar squared k squared over 2m and they are traveling towards a target which we're going to place at the origin of our coordinate system so here we're going to take said as the axis along which the particles were coming so then this would be x and this would be y so we have some target over here and we modeled this target as a potential v of r once the incident particles hit this target they will scatter in some direction r and give a scattered component to our wave function and we're interested in determining uh the distribution of particles that a detector around here would capture at the moment we're only considering elastic scattering in which the kinetic energy is conserved in the scattering process and we came up with a general form for the stationary scattering states which we're given by uh the incident particles described by a plane wave traveling in the z direction uh spherical waves propagating radially outwards from the target and to take into account any angular dependence we added this scattering amplitude and the goal in our scattering problem is to figure out what form the scattering amplitude will take we're going to introduce a few vectors over here so we'll call the vector k i as having magnitude k in the z direction and the vector ks so it's the it gives the direction of the scattered wave because it's elastic scattering it has the same magnitude as the incident particles and we'll call the direction n hat so n hat is the direction in which we're we're looking at in that case we can rewrite this as ki dot r plus scattering amplitude ks dot r and this r over here is just the magnitude of the position vector and these stationary scattering states were created so that they would satisfy the time independent schrodinger equation for some general potential not necessarily central this time we're considering any potential in general and the energy here is given by the energy of the free incident particles for convenience we're going to define a new quantity so we're going to say br is equal to h bar squared over 2m u r and this lets us rewrite the time independent schrodinger equation uh by factoring out the h bar square over 2m from all of the all of our factors and canceling everything out okay or in more convenient notation bringing this over to the other side and get this as our new the new form of the time in the independent schrodinger equation for the scattering problem the term on the right hand side is typically thought of as a source of scatter waves that's due to some complicated potential which is implicitly inside of this u of r so to solve this we're first going to solve the problem for the case of a point source which we're going to model by a direct delta function okay so instead of solving this problem we're going to look to solve this problem here this delta 3 of r stands for the three-dimensional delta function and the solution to this equation we're going to denote by g of r so assuming we know what this g of r is we can then build up the solution to this equation from this one by superimposing the response of several delta functions together to form this more complicated potential over here is given by the solution to the homogeneous differential equation so when the right hand side is equal to zero so this one is the solution to this partial differential equation and the solution to our non-homogeneous term is a superposition of uh the solutions to this problem so we're assuming here that this function g is known so it satisfies this condition and you can verify for yourself that this solves our new schrodinger equation over here so our task now has is uh to figure out what this function g is for our particular scattering problem in the next video we'll sort of in a hand-wavy manner develop a form for this function g",
+  "text_to_speech_word_count": 743,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.120",
+      "start": "00:00:00.000",
+      "text": " Over the next few videos, we're going to develop an alternative method to solving scattering"
+    },
+    {
+      "end": "00:00:11.120",
+      "start": "00:00:09.120",
+      "text": " problems."
+    },
+    {
+      "end": "00:00:20.480",
+      "start": "00:00:11.120",
+      "text": " And it's going to involve reformulating the scattering problem through an integral equation."
+    },
+    {
+      "end": "00:00:29.040",
+      "start": "00:00:20.480",
+      "text": " So to recall the problem that we're considering."
+    },
+    {
+      "end": "00:00:49.680",
+      "start": "00:00:29.040",
+      "text": " We have some incident particles, which have kinetic energy given by h bar square k square"
+    },
+    {
+      "end": "00:00:56.600",
+      "start": "00:00:49.680",
+      "text": " over 2m."
+    },
+    {
+      "end": "00:01:06.320",
+      "start": "00:00:56.600",
+      "text": " And they are traveling towards a target, which we're going to place at the origin of our"
+    },
+    {
+      "end": "00:01:07.320",
+      "start": "00:01:06.320",
+      "text": " coordinate system."
+    },
+    {
+      "end": "00:01:14.280",
+      "start": "00:01:07.320",
+      "text": " So here, we're going to take Z as the axis along which the particles are coming."
+    },
+    {
+      "end": "00:01:19.720",
+      "start": "00:01:14.280",
+      "text": " So then this would be X and this would be Y."
+    },
+    {
+      "end": "00:01:22.920",
+      "start": "00:01:19.720",
+      "text": " So we have some target over here."
+    },
+    {
+      "end": "00:01:31.440",
+      "start": "00:01:22.920",
+      "text": " And we modeled this target as a potential V of R."
+    },
+    {
+      "end": "00:01:44.440",
+      "start": "00:01:31.440",
+      "text": " Once the incident particles hit this target, they will scatter in some direction R and"
+    },
+    {
+      "end": "00:01:48.880",
+      "start": "00:01:44.440",
+      "text": " give a scattered component to our wave function."
+    },
+    {
+      "end": "00:01:55.800",
+      "start": "00:01:48.880",
+      "text": " And we're interested in determining the distribution of particles that a detector around here"
+    },
+    {
+      "end": "00:02:00.080",
+      "start": "00:01:55.800",
+      "text": " would capture."
+    },
+    {
+      "end": "00:02:05.760",
+      "start": "00:02:00.080",
+      "text": " At the moment, we're only considering elastics scattering in which the kinetic energy is"
+    },
+    {
+      "end": "00:02:09.320",
+      "start": "00:02:05.760",
+      "text": " conserved in this scattering process."
+    },
+    {
+      "end": "00:02:23.040",
+      "start": "00:02:09.320",
+      "text": " And we came up with a general form for the stationary scattering states, which we're"
+    },
+    {
+      "end": "00:02:34.600",
+      "start": "00:02:23.040",
+      "text": " given by the incident particles, described by a plane wave traveling in the Z direction,"
+    },
+    {
+      "end": "00:02:44.200",
+      "start": "00:02:34.600",
+      "text": " which is a spherical wave propagating radially outwards from the target."
+    },
+    {
+      "end": "00:02:53.080",
+      "start": "00:02:44.200",
+      "text": " And to take into account any angular dependence, we added this scattering amplitude."
+    },
+    {
+      "end": "00:02:58.480",
+      "start": "00:02:53.080",
+      "text": " And the goal in our scattering problem is to figure out what form this scattering amplitude"
+    },
+    {
+      "end": "00:03:00.520",
+      "start": "00:02:58.480",
+      "text": " will take."
+    },
+    {
+      "end": "00:03:05.520",
+      "start": "00:03:00.520",
+      "text": " We're going to introduce a few vectors over here."
+    },
+    {
+      "end": "00:03:18.640",
+      "start": "00:03:05.520",
+      "text": " So we'll call the vector KI as having magnitude K in the Z direction."
+    },
+    {
+      "end": "00:03:26.440",
+      "start": "00:03:18.640",
+      "text": " And the vector KS, so it gives the direction of the scattered wave."
+    },
+    {
+      "end": "00:03:27.960",
+      "start": "00:03:26.440",
+      "text": " This is elastics scattering."
+    },
+    {
+      "end": "00:03:32.680",
+      "start": "00:03:27.960",
+      "text": " It has the same magnitude as the incident particles."
+    },
+    {
+      "end": "00:03:36.200",
+      "start": "00:03:32.680",
+      "text": " And we'll call the direction N hat."
+    },
+    {
+      "end": "00:03:40.560",
+      "start": "00:03:36.200",
+      "text": " So N hat is the direction in which we're looking at."
+    },
+    {
+      "end": "00:03:57.240",
+      "start": "00:03:40.560",
+      "text": " In that case, we can rewrite this as KI dot R plus scattering amplitude KS dot R."
+    },
+    {
+      "end": "00:04:04.680",
+      "start": "00:03:57.240",
+      "text": " And this R over here is just a magnitude of the position vector."
+    },
+    {
+      "end": "00:04:12.280",
+      "start": "00:04:04.680",
+      "text": " And these stationary scattering states were created so that they would satisfy the"
+    },
+    {
+      "end": "00:04:18.920",
+      "start": "00:04:12.280",
+      "text": " time independent Schrodinger equation for some general potential."
+    },
+    {
+      "end": "00:04:21.040",
+      "start": "00:04:18.920",
+      "text": " Not necessarily central this time."
+    },
+    {
+      "end": "00:04:26.360",
+      "start": "00:04:21.040",
+      "text": " We're considering any potential in general."
+    },
+    {
+      "end": "00:04:42.360",
+      "start": "00:04:26.360",
+      "text": " And the energy here is given by the energy of the free incident particles."
+    },
+    {
+      "end": "00:04:47.320",
+      "start": "00:04:42.360",
+      "text": " For convenience, we're going to define a new quantity."
+    },
+    {
+      "end": "00:04:59.320",
+      "start": "00:04:48.120",
+      "text": " So we're going to say PR is equal to h bar square over 2m UR."
+    },
+    {
+      "end": "00:05:09.240",
+      "start": "00:04:59.320",
+      "text": " And this lets us rewrite the time independent Schrodinger equation by factoring out the"
+    },
+    {
+      "end": "00:05:30.240",
+      "start": "00:05:09.240",
+      "text": " h bar square over 2m from all of the factors and cancelling everything out."
+    },
+    {
+      "end": "00:05:39.160",
+      "start": "00:05:30.240",
+      "text": " Or in more convenient notation."
+    },
+    {
+      "end": "00:05:52.160",
+      "start": "00:05:39.160",
+      "text": " Bringing this over to the other side."
+    },
+    {
+      "end": "00:06:01.920",
+      "start": "00:05:52.160",
+      "text": " And get this as our new form of the time independent Schrodinger equation for the scattering problem."
+    },
+    {
+      "end": "00:06:09.040",
+      "start": "00:06:01.920",
+      "text": " The term on the right hand side is typically thought of as source of scatter waves that's"
+    },
+    {
+      "end": "00:06:17.000",
+      "start": "00:06:09.040",
+      "text": " due to some complicated potential, which is implicitly inside of this U of R."
+    },
+    {
+      "end": "00:06:27.080",
+      "start": "00:06:17.000",
+      "text": " So to solve this, we're first going to solve the problem for the case of a point source,"
+    },
+    {
+      "end": "00:06:50.080",
+      "start": "00:06:27.080",
+      "text": " which we're going to model by a direct delta function."
+    },
+    {
+      "end": "00:07:01.080",
+      "start": "00:06:50.080",
+      "text": " So instead of solving this problem, we're going to look to solve this problem."
+    },
+    {
+      "end": "00:07:06.080",
+      "start": "00:07:01.080",
+      "text": " Here this delta 3 of R stands for the three-dimensional delta function."
+    },
+    {
+      "end": "00:07:15.080",
+      "start": "00:07:06.080",
+      "text": " And the solution to this equation we're going to denote by g of R."
+    },
+    {
+      "end": "00:07:23.080",
+      "start": "00:07:15.080",
+      "text": " So assuming we know what this g of R is, we can then build up the solution to this equation from this one"
+    },
+    {
+      "end": "00:07:41.080",
+      "start": "00:07:23.080",
+      "text": " by superimposing the response of several delta functions together to form this more complicated potential over here."
+    },
+    {
+      "end": "00:08:01.080",
+      "start": "00:07:41.080",
+      "text": " So if we call this equation one, then the solution to one is given by the solution to the homogeneous differential equation."
+    },
+    {
+      "end": "00:08:30.080",
+      "start": "00:08:01.080",
+      "text": " So when the right hand side is equal to zero, this one is the solution to this partial differential equation."
+    },
+    {
+      "end": "00:08:40.040",
+      "start": "00:08:31.080",
+      "text": " And the solution to non-homogeneous term is a superposition of the solutions to this problem."
+    },
+    {
+      "end": "00:08:45.040",
+      "start": "00:08:40.040",
+      "text": " So we're assuming here that this function g is known."
+    },
+    {
+      "end": "00:08:55.040",
+      "start": "00:08:45.040",
+      "text": " So it satisfies this condition and you can verify for yourself that this solves our new Schrodinger equation over here."
+    },
+    {
+      "end": "00:09:05.080",
+      "start": "00:08:55.080",
+      "text": " So our task now is to figure out what this function g is for our particular scattering problem."
+    },
+    {
+      "end": "00:09:16.080",
+      "start": "00:09:05.080",
+      "text": " In the next video, we'll sort of in a hand-wavy manner develop a form for this function g."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Daniel Nino",
+  "youtube_channel_follower_count": 240,
+  "youtube_comment_count": 0,
+  "youtube_description": "Reformulates the Schrodinger equation for scattering problems and presents its general solution as an integral equation",
+  "youtube_like_count": 5,
+  "youtube_tags": [],
+  "youtube_title": "12.1 The integral scattering equation",
+  "youtube_upload_date": "20210527",
+  "youtube_view_count": 350
+}

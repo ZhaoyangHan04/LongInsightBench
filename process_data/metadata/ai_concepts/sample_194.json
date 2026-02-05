@@ -1,0 +1,883 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A generic character represented by a green car who thinks about the traffic light problem.",
+        "name": "Driver"
+      },
+      {
+        "characterId": "2",
+        "description": "A generic character, not visually represented, who works on solving traffic signal problems.",
+        "name": "Traffic Control Scientist"
+      }
+    ],
+    "description": "The video explores how machine learning algorithms, particularly deep reinforcement learning, could be used to optimize traffic signal timings and reduce congestion.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Red, indicating they were braking.",
+        "question": "In the beginning, what color were the taillights of all the cars stuck in traffic?"
+      },
+      {
+        "answer": "Modeling traffic flow and optimizing it.",
+        "question": "What were the two challenges mentioned in automating traffic control?"
+      },
+      {
+        "answer": "Green, symbolizing smoother traffic flow.",
+        "question": "What color does the traffic light turn to when the video explains the potential of machine learning?"
+      },
+      {
+        "answer": "The pattern of traffic light switches.",
+        "question": "In the video game analogy, what do the steps a player makes represent in the context of traffic signal control?"
+      },
+      {
+        "answer": "It resulted in shorter lines, better balance of traffic in both directions, over 1000 fewer vehicles coming to a full stop, and an average delay reduction of 14% with vehicles spending 13 seconds less in traffic during peak morning hours.",
+        "question": "How did the deep reinforcement learning algorithm improve traffic flow at the virtual intersection?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Cars waiting at red light",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Driver thinking about traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "description": "Traffic control scientists trying to solve signaling problems",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [
+          "Driver",
+          "Traffic Control Scientist"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Driver"
+            ],
+            "description": "The Driver's thoughts are a reaction to the traffic situation, implying an awareness of the Traffic Control Scientist's role."
+          }
+        ],
+        "contextualRelevance": "The scene represents a common experience of delays and frustration during rush hour traffic.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Anxious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the problem of traffic congestion during rush hour.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The green car (Driver) thinks about why the lights are not changing faster, highlighting the frustration felt by drivers.",
+            "timestamp": "00:00:15.000"
+          },
+          {
+            "description": "The scene shifts to show that traffic control scientists are aware of the issue and are trying to solve it.",
+            "timestamp": "00:00:19.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Map with traffic congestion points",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Traffic congestion, frustration with traffic signals, the complexity of traffic control.",
+        "timestamps": {
+          "end_timestamp": "00:00:28.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Rush Hour Traffic Jam",
+        "videoEditingDetails": [
+          {
+            "description": "Cartoon animation style",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay for title and author names",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay for 'Rush Hour'",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Thought bubble with text appearing above the green car",
+            "timestamps": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "description": "Split screen showing traffic jam and map with congestion points",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Machine learning to plan traffic signals",
+            "timestamp": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "description": "Reducing wait times and shortening traffic queues",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introducing a potential solution to the traffic problem with machine learning suggests positive progress and solutions.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Hopeful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The focus shifts to a computer screen, signifying the introduction of machine learning.",
+            "timestamp": "00:00:28.033"
+          },
+          {
+            "description": "The stopwatch and the green traffic light highlight the potential benefits of machine learning in reducing wait times and making traffic flow more smoothly.",
+            "timestamp": "00:00:31.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen displaying map with traffic routes and congestion points",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "name": "Stopwatch",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          },
+          {
+            "name": "Traffic light turning green",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Machine learning, optimization of traffic signals, improved traffic flow.",
+        "timestamps": {
+          "end_timestamp": "00:00:43.000",
+          "start_timestamp": "00:00:28.033"
+        },
+        "title": "Machine Learning Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a blue background with a computer screen centered",
+            "timestamps": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "description": "Stopwatch animation appearing next to the computer screen",
+            "timestamps": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          },
+          {
+            "description": "Traffic light turning green",
+            "timestamps": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explanation of challenges in automating traffic control",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:43.033"
+            }
+          },
+          {
+            "description": "Introduction of reinforcement learning",
+            "timestamp": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          },
+          {
+            "description": "Comparison to reward system in the brain",
+            "timestamp": {
+              "end_timestamp": "00:01:02.000",
+              "start_timestamp": "00:00:59.000"
+            }
+          },
+          {
+            "description": "Video game analogy",
+            "timestamp": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explanation of complex AI techniques and their potential for traffic control, emphasizing the importance of finding the right AI method for managing complex systems like traffic flow.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains the difficulties of modeling and optimizing traffic flow, highlighting the limitations of traditional AI techniques.",
+            "timestamp": "00:00:43.033"
+          },
+          {
+            "description": "Reinforcement learning is introduced as an alternative approach, drawing parallels to the reward system in the human brain.",
+            "timestamp": "00:00:55.000"
+          },
+          {
+            "description": "A video game analogy further simplifies the concept of reinforcement learning, focusing on achieving the highest score by making strategic moves.",
+            "timestamp": "00:01:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:00:43.033"
+            }
+          },
+          {
+            "name": "Binary code",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "name": "Car animation",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          },
+          {
+            "name": "Red and green arrows in a loop",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          },
+          {
+            "name": "Video game screen",
+            "timestamp": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "name": "Traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Artificial intelligence, reinforcement learning, challenges of traffic control automation.",
+        "timestamps": {
+          "end_timestamp": "00:01:16.000",
+          "start_timestamp": "00:00:43.033"
+        },
+        "title": "Challenges and Approaches in Automating Traffic Control",
+        "videoEditingDetails": [
+          {
+            "description": "Binary code animation appearing near the computer",
+            "timestamps": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Car animation",
+            "timestamps": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          },
+          {
+            "description": "Red and green arrows forming a loop",
+            "timestamps": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          },
+          {
+            "description": "Reinforcement learning text appears",
+            "timestamps": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "Loop becomes a square",
+            "timestamps": {
+              "end_timestamp": "00:01:02.000",
+              "start_timestamp": "00:00:59.000"
+            }
+          },
+          {
+            "description": "Video game screen animation appears",
+            "timestamps": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "description": "Traffic lights appear",
+            "timestamps": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Deep reinforcement learning algorithm optimizing traffic signal patterns",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:16.033"
+            }
+          },
+          {
+            "description": "Cars driving through a four-way intersection",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "description": "Comparison of deep reinforcement learning and conventional reinforcement learning",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:03.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene demonstrates the potential of AI to improve everyday life by addressing common problems like traffic congestion.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative, optimistic",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The focus is on the deep reinforcement learning algorithm and its ability to analyze traffic patterns and make adjustments to signal timings.",
+            "timestamp": "00:01:16.033"
+          },
+          {
+            "description": "A virtual four-way intersection demonstrates how the algorithm manages traffic flow, showing cars moving smoothly through the intersection.",
+            "timestamp": "00:01:58.000"
+          },
+          {
+            "description": "The scene compares deep reinforcement learning with a conventional reinforcement learning approach, highlighting the advantages of deep reinforcement learning in achieving shorter lines, better balance of traffic, fewer stopped vehicles, and reduced delays.",
+            "timestamp": "00:02:08.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:16.033"
+            }
+          },
+          {
+            "name": "Stopwatch",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:16.033"
+            }
+          },
+          {
+            "name": "Brain icon connected to binary code",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:16.033"
+            }
+          },
+          {
+            "name": "Car animations",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:16.033"
+            }
+          },
+          {
+            "name": "Four-way intersection graphic",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:16.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Deep reinforcement learning, traffic signal optimization, real-world application of AI.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.000",
+          "start_timestamp": "00:01:16.033"
+        },
+        "title": "Deep Reinforcement Learning in Action",
+        "videoEditingDetails": [
+          {
+            "description": "Deep reinforcement learning text appears",
+            "timestamps": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:03.000"
+            }
+          },
+          {
+            "description": "Shorter lines text appears",
+            "timestamps": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:08.000"
+            }
+          },
+          {
+            "description": "Balance of traffic text appears",
+            "timestamps": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:09.000"
+            }
+          },
+          {
+            "description": "Greater than 1000 fewer stopped text appears",
+            "timestamps": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:14.000"
+            }
+          },
+          {
+            "description": "13 seconds less in traffic text appears",
+            "timestamps": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars waiting at red light",
+            "timestamp": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          },
+          {
+            "description": "Researchers working towards a better understanding of traffic flow",
+            "timestamp": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:02:32.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [
+          "Driver",
+          "Traffic Control Scientist"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Driver",
+              "Traffic Control Scientist"
+            ],
+            "description": "The Driver is indirectly impacted by the work of the researchers, who are working to improve traffic flow and reduce congestion."
+          }
+        ],
+        "contextualRelevance": "Concluding the video with a sense of progress and a focus on future research.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Hopeful, forward-looking",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene revisits the image of cars stuck in traffic, reminding viewers of the initial problem.",
+            "timestamp": "00:02:24.033"
+          },
+          {
+            "description": "The narrator highlights the contributions of deep reinforcement learning in simplifying complex traffic scenarios for researchers, paving the way for a better understanding of traffic flow and the development of more effective solutions.",
+            "timestamp": "00:02:32.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          },
+          {
+            "name": "Traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Future research, improved understanding of traffic flow, potential for AI solutions.",
+        "timestamps": {
+          "end_timestamp": "00:02:53.033",
+          "start_timestamp": "00:02:24.033"
+        },
+        "title": "Returning to the Traffic Jam",
+        "videoEditingDetails": [
+          {
+            "description": "Transition back to the original traffic jam scene with the green car thinking",
+            "timestamps": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The effectiveness of deep reinforcement learning is demonstrated and compared to conventional approaches.",
+        "timestamp": "00:02:08.000"
+      },
+      "description": "The video presents a non-narrative informational storyline about the potential of deep reinforcement learning algorithms to optimize traffic signal timing and reduce congestion. Scenes 1-5 all contribute to this storyline.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Teaching Machines to Direct Traffic",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened by removing the title and author names overlay, allowing the video to start immediately with the impactful traffic jam scene.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.033",
+          "start_timestamp": "00:02:24.033"
+        }
+      },
+      {
+        "description": "Could be trimmed to fade out earlier, leaving viewers with a sense of anticipation for future developments in traffic control optimization.",
+        "timestamps": {
+          "end_timestamp": "00:02:40.000",
+          "start_timestamp": "00:02:36.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 173,
+  "original_json_filename": "0tlF35qJ0sE.json",
+  "original_video_filename": "0tlF35qJ0sE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "rush hour the dreaded time of day when traffic conditions seem bent on making you late as your car slowly creeps in line behind countless others stuck at a stoplight you think to yourself why aren't these lights changing faster traffic control scientists have long tried to solve this signalling problem unfortunately the complexity of traffic situations has made the job extremely hard the recent study suggests that machines can learn how to plant traffic signals just right to reduce wait times and make traffic to use shorter automating traffic control is notoriously tricky because it involves two challenging tasks modeling traffic flow and then optimizing it while traditional artificial intelligence and simulation techniques can learn and reproduce the dynamics of certain traffic situations they cannot easily determine the best course of action despite this shortcoming one emerging AI method that is shown promise is reinforcement learning much like the reward system in our brain reinforcement learning algorithms operate by determining what set of actions are most beneficial to a system in a given state in video games a popular proving ground for this type of algorithm these steps are the strategic moves a player must make are in the highest possible score in traffic signaling it's the pattern of traffic light switches that minimizes the time drivers spend waiting in a queue and/or the length of that queue the problem with this algorithm is that the data set it must come through becomes exponentially larger as traffic conditions and ways of controlling traffic become increasingly complex this is where another type of AI method called deep learning comes into play also inspired by how the human brain works deep learning uses special algorithms called neural networks to search for hidden patterns and sets of data when combined with reinforcement learning this technique effectively reduces the space a machine must search through as it seeks the best solution this greatly reduces the required computational time when deployed on the virtual 4-way traffic intersection with four lanes heading east west and four heading north south the deep reinforcement learning algorithm outperformed a conventional reinforcement learning algorithm there were shorter lines there was a better balance of traffic in both directions and over the course of a full day more than 1000 fewer vehicles came to a full stop in the end the average delay was cut by 14% with vehicle spending 13 seconds less in traffic during peak morning hours deep reinforcement learning algorithms aren't quite ready to hit the streets but they are helping make real-world traffic scenarios a lot less complicated for researchers which could pave the way towards a new understanding of how traffic flow works",
+  "text_to_speech_word_count": 448,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.267",
+      "start": "00:00:00.000",
+      "text": " The dreaded time of day when traffic conditions seem bent on making you late."
+    },
+    {
+      "end": "00:00:15.633",
+      "start": "00:00:11.267",
+      "text": " As your car slowly creeps in line behind countless others stuck at a stoplight, you think"
+    },
+    {
+      "end": "00:00:19.467",
+      "start": "00:00:15.633",
+      "text": " to yourself, why aren't these lights changing faster?"
+    },
+    {
+      "end": "00:00:23.100",
+      "start": "00:00:19.467",
+      "text": " Traffic control scientists have long tried to solve this signaling problem."
+    },
+    {
+      "end": "00:00:28.033",
+      "start": "00:00:23.100",
+      "text": " Unfortunately, the complexity of traffic situations has made the job extremely hard."
+    },
+    {
+      "end": "00:00:32.033",
+      "start": "00:00:28.033",
+      "text": " A recent study suggests that machines can learn how to plan traffic signals just right"
+    },
+    {
+      "end": "00:00:35.800",
+      "start": "00:00:32.033",
+      "text": " to reduce weight times and make traffic cues shorter."
+    },
+    {
+      "end": "00:00:40.200",
+      "start": "00:00:35.800",
+      "text": " Automating traffic control is notoriously tricky because it involves two challenging tasks,"
+    },
+    {
+      "end": "00:00:43.600",
+      "start": "00:00:40.200",
+      "text": " modeling traffic flow, and then optimizing it."
+    },
+    {
+      "end": "00:00:47.733",
+      "start": "00:00:43.600",
+      "text": " While traditional artificial intelligence and simulation techniques can learn and reproduce"
+    },
+    {
+      "end": "00:00:51.867",
+      "start": "00:00:47.733",
+      "text": " the dynamics of certain traffic situations, they cannot easily determine the best course"
+    },
+    {
+      "end": "00:00:53.267",
+      "start": "00:00:51.867",
+      "text": " of action."
+    },
+    {
+      "end": "00:00:57.233",
+      "start": "00:00:53.267",
+      "text": " Despite this shortcoming, one emerging AI method that has shown promise is reinforcement"
+    },
+    {
+      "end": "00:00:58.700",
+      "start": "00:00:57.233",
+      "text": " learning."
+    },
+    {
+      "end": "00:01:03.267",
+      "start": "00:00:58.700",
+      "text": " Much like the reward system in our brain, reinforcement learning algorithms operate by determining"
+    },
+    {
+      "end": "00:01:07.633",
+      "start": "00:01:03.267",
+      "text": " what set of actions are most beneficial to a system in a given state."
+    },
+    {
+      "end": "00:01:12.133",
+      "start": "00:01:07.633",
+      "text": " In video games, a popular proving ground for this type of algorithm, these steps are the"
+    },
+    {
+      "end": "00:01:16.233",
+      "start": "00:01:12.133",
+      "text": " strategic moves a player must make during the highest possible score."
+    },
+    {
+      "end": "00:01:19.633",
+      "start": "00:01:16.233",
+      "text": " In traffic signaling, it's the pattern of traffic lights which is that minimizes the"
+    },
+    {
+      "end": "00:01:24.100",
+      "start": "00:01:19.633",
+      "text": " time driver's spend waiting in a queue and or the length of that queue."
+    },
+    {
+      "end": "00:01:28.200",
+      "start": "00:01:24.100",
+      "text": " The problem with this algorithm is that the data set it must come through becomes exponentially"
+    },
+    {
+      "end": "00:01:33.533",
+      "start": "00:01:28.200",
+      "text": " larger as traffic conditions and ways of controlling traffic become increasingly complex."
+    },
+    {
+      "end": "00:01:38.433",
+      "start": "00:01:33.533",
+      "text": " This is where another type of AI method called deep learning comes into play."
+    },
+    {
+      "end": "00:01:42.433",
+      "start": "00:01:38.433",
+      "text": " Also inspired by how the human brain works, deep learning uses special algorithms called"
+    },
+    {
+      "end": "00:01:46.133",
+      "start": "00:01:42.433",
+      "text": " neural networks to search for hidden patterns and sets of data."
+    },
+    {
+      "end": "00:01:50.100",
+      "start": "00:01:46.133",
+      "text": " When combined with reinforcement learning, this technique effectively reduces the space"
+    },
+    {
+      "end": "00:01:53.400",
+      "start": "00:01:50.100",
+      "text": " a machine must search through as it seeks the best solution."
+    },
+    {
+      "end": "00:01:56.900",
+      "start": "00:01:53.400",
+      "text": " This greatly reduces the required computational time."
+    },
+    {
+      "end": "00:02:00.600",
+      "start": "00:01:56.900",
+      "text": " When deployed on a virtual four-way traffic intersection with four lanes heading east"
+    },
+    {
+      "end": "00:02:05.500",
+      "start": "00:02:00.600",
+      "text": " west and four heading north south, the deep reinforcement learning algorithm outperformed"
+    },
+    {
+      "end": "00:02:08.133",
+      "start": "00:02:05.500",
+      "text": " a conventional reinforcement learning algorithm."
+    },
+    {
+      "end": "00:02:12.400",
+      "start": "00:02:08.133",
+      "text": " There were shorter lines, there was a better balance of traffic in both directions, and"
+    },
+    {
+      "end": "00:02:17.533",
+      "start": "00:02:12.400",
+      "text": " over the course of a full day, more than 1000 fewer vehicles came to a full stop."
+    },
+    {
+      "end": "00:02:22.233",
+      "start": "00:02:17.533",
+      "text": " In the end, the average delay was cut by 14% with vehicle spending 13 seconds less in"
+    },
+    {
+      "end": "00:02:25.200",
+      "start": "00:02:22.233",
+      "text": " traffic during peak morning hours."
+    },
+    {
+      "end": "00:02:28.867",
+      "start": "00:02:25.200",
+      "text": " Deep reinforcement learning algorithms aren't quite ready to hit the streets, but they are"
+    },
+    {
+      "end": "00:02:33.133",
+      "start": "00:02:28.867",
+      "text": " helping make real-world traffic scenarios a lot less complicated for researchers, which"
+    },
+    {
+      "end": "00:02:36.267",
+      "start": "00:02:33.133",
+      "text": " could pave the way towards a new understanding of how traffic flow works."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Research Square",
+  "youtube_channel_follower_count": 12700,
+  "youtube_comment_count": 0,
+  "youtube_description": "Read the article: http://dx.doi.org/10.1109/JAS.2016.7508798 \n\n Li et al. \"Traffic Signal Timing via Deep Reinforcement Learning\" IEEE/CAA Journal of Automatica Sinica (2016). doi: 10.1109/JAS.2016.7508798.\n\nVideo produced by https://www.researchsquare.com",
+  "youtube_like_count": 27,
+  "youtube_tags": [
+    "traffic control",
+    "reinforcement learning",
+    "deep learning",
+    "deep reinforcement learning",
+    "deep neural network",
+    "Q-learning",
+    "policy",
+    "artificial intelligence",
+    "traffic signal timing",
+    "stacked autoencoder (SAE)",
+    "greedy layer-wise training",
+    "explore-exploit dilemma",
+    "gradient descent optimization",
+    "intelligent transportation systems (ITS)",
+    "knowledge representation"
+  ],
+  "youtube_title": "Teaching Machines to Direct Traffic through Deep Reinforcement Learning",
+  "youtube_upload_date": "20160902",
+  "youtube_view_count": 2693
+}

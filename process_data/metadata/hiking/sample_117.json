@@ -1,0 +1,1355 @@
+{
+  "content_fine_category": "Hiking",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice providing commentary and instructions throughout the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A comprehensive video tutorial demonstrating how to use GpsPrune to plan a hiking route for Harder Kulm, showcasing various functionalities including location finding, track creation, refinement, 3D visualization, and track exportation.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "He uses the 'Search Wikipedia' function to find the relevant Wikipedia page and load its coordinates.",
+        "question": "How does the narrator initially find the location of Harder Kulm in GpsPrune?"
+      },
+      {
+        "answer": "He switches to the 'Hiking Trails' map source, which highlights hiking paths for easier planning.",
+        "question": "What map source does the narrator choose to use for drawing the track?"
+      },
+      {
+        "answer": "He uses the 'Get Weather Forecast' function, which connects to OpenWeatherMap and provides a forecast for the selected location.",
+        "question": "How does the narrator check the weather forecast for the hiking route?"
+      },
+      {
+        "answer": "He adds a virtual geocache, meaning it is not a physical container but involves finding a particular location or landmark.",
+        "question": "What type of geocache does the narrator add to the track?"
+      },
+      {
+        "answer": "He exports the track as a GPX file, a common format for storing GPS data.",
+        "question": "What file format does the narrator use to export the track for the GPS receiver?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the program GpsPrune",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains that GpsPrune lets you view and edit GPS tracks."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator outlines the goal of the tutorial: to prepare a hiking route and load it into a GPS receiver."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral/Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the program and its purpose.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune logo",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "GpsPrune website",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to GPS track editing and route planning.",
+        "timestamps": {
+          "end_timestamp": "00:00:28.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-in transition for the GpsPrune logo",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Fade-out for the GpsPrune website",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explores the GpsPrune interface.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "description": "Narrator searches for 'Harder Kulm' on Wikipedia.",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          },
+          {
+            "description": "Narrator loads waypoint into GpsPrune.",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator shows how to pan and zoom on the map."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator uses the 'Search Wikipedia' function to locate 'Harder Kulm'."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator loads the coordinates from Wikipedia into GpsPrune as a waypoint."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the process of finding a location and adding it as a waypoint.",
+            "timestamp": "00:00:28.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "name": "Wikipedia webpage",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Finding locations, adding waypoints, map navigation.",
+        "timestamps": {
+          "end_timestamp": "00:00:53.000",
+          "start_timestamp": "00:00:28.033"
+        },
+        "title": "Finding Harder Kulm",
+        "videoEditingDetails": [
+          {
+            "description": "The Wikipedia webpage overlay appears over the GpsPrune window",
+            "timestamps": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator changes map style to show hiking routes.",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:53.033"
+            }
+          },
+          {
+            "description": "Draws a track from the train station to the summit using right-click menu.",
+            "timestamp": {
+              "end_timestamp": "00:01:51.000",
+              "start_timestamp": "00:01:15.000"
+            }
+          },
+          {
+            "description": "Displays altitude profile for the track.",
+            "timestamp": {
+              "end_timestamp": "00:02:07.000",
+              "start_timestamp": "00:01:51.000"
+            }
+          },
+          {
+            "description": "Edits the track for better accuracy.",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator switches to a map that highlights hiking routes for clearer visualization."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator demonstrates how to create a track using the right-click menu to add points."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator shows how to view the elevation profile of the track."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Emphasizes the importance of track accuracy for navigation."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral/Focused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Building the hiking track by creating a series of points.",
+            "timestamp": "00:00:53.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:00:53.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Track creation, map customization, altitude profiles, navigation.",
+        "timestamps": {
+          "end_timestamp": "00:02:14.000",
+          "start_timestamp": "00:00:53.033"
+        },
+        "title": "Creating the Track",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator marks the top funicular station with a waypoint.",
+            "timestamp": {
+              "end_timestamp": "00:02:27.000",
+              "start_timestamp": "00:02:14.033"
+            }
+          },
+          {
+            "description": "Enters edit mode and refines track points for greater accuracy.",
+            "timestamp": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:02:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator adds a waypoint for the funicular station, providing an alternative return route."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Switches to edit mode to adjust the track points and match them more closely to the actual hiking path."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Neutral/Focused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates refining the track for greater precision and adding detail.",
+            "timestamp": "00:02:14.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:02:14.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Waypoint creation, track editing, alternative routes.",
+        "timestamps": {
+          "end_timestamp": "00:03:58.000",
+          "start_timestamp": "00:02:14.033"
+        },
+        "title": "Refining the Track",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator adds a temporary point to include the entire ridge in the 3D view.",
+            "timestamp": {
+              "end_timestamp": "00:04:19.000",
+              "start_timestamp": "00:03:58.033"
+            }
+          },
+          {
+            "description": "Shows the track in 3D mode.",
+            "timestamp": {
+              "end_timestamp": "00:05:07.000",
+              "start_timestamp": "00:04:19.000"
+            }
+          },
+          {
+            "description": "Removes the temporary point using the undo function.",
+            "timestamp": {
+              "end_timestamp": "00:05:13.000",
+              "start_timestamp": "00:05:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator adds a temporary waypoint to ensure the entire ridge is included in the 3D visualization."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Switches to the 3D view mode, demonstrating its usefulness for understanding the terrain."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Removes the temporary waypoint using the undo function."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited/Impressed",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcases the 3D terrain visualization capabilities.",
+            "timestamp": "00:03:58.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:05:13.000",
+              "start_timestamp": "00:03:58.033"
+            }
+          },
+          {
+            "name": "3D view window",
+            "timestamp": {
+              "end_timestamp": "00:05:07.000",
+              "start_timestamp": "00:04:49.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Terrain visualization, 3D modeling, track refinement.",
+        "timestamps": {
+          "end_timestamp": "00:05:14.667",
+          "start_timestamp": "00:03:58.033"
+        },
+        "title": "3D Visualization",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Uses Peakfinder to show the view from the Harder Kulm summit.",
+            "timestamp": {
+              "end_timestamp": "00:06:13.667",
+              "start_timestamp": "00:05:14.700"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Introduces the Peakfinder website to show the panoramic view from the summit."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Selects the 'Harder Kulm' waypoint in GpsPrune, and Peakfinder automatically displays the corresponding view."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Excited/Impressed",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Using external resources to visualize the view from the summit.",
+            "timestamp": "00:05:14.700"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:06:13.667",
+              "start_timestamp": "00:05:14.700"
+            }
+          },
+          {
+            "name": "Peakfinder website",
+            "timestamp": {
+              "end_timestamp": "00:06:13.667",
+              "start_timestamp": "00:05:46.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Panoramic views, external tools integration, route planning.",
+        "timestamps": {
+          "end_timestamp": "00:06:13.667",
+          "start_timestamp": "00:05:14.700"
+        },
+        "title": "View from the Summit",
+        "videoEditingDetails": [
+          {
+            "description": "The Peakfinder webpage overlay appears over the GpsPrune window.",
+            "timestamps": {
+              "end_timestamp": "00:06:13.667",
+              "start_timestamp": "00:05:46.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Accesses the weather forecast for Harder Kulm using OpenWeatherMap.",
+            "timestamp": {
+              "end_timestamp": "00:06:32.000",
+              "start_timestamp": "00:06:14.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator uses the 'Get Weather Forecast' function to access OpenWeatherMap's forecast for the selected location."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Reviews the forecast and expresses disappointment at the predicted cold temperatures."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Disappointed",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Practical application of route planning by checking weather conditions.",
+            "timestamp": "00:06:14.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:06:32.000",
+              "start_timestamp": "00:06:14.000"
+            }
+          },
+          {
+            "name": "weather forecast window",
+            "timestamp": {
+              "end_timestamp": "00:06:32.000",
+              "start_timestamp": "00:06:18.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Weather forecasting, practical route planning considerations.",
+        "timestamps": {
+          "end_timestamp": "00:06:32.000",
+          "start_timestamp": "00:06:13.700"
+        },
+        "title": "Checking the Weather",
+        "videoEditingDetails": [
+          {
+            "description": "The weather forecast window appears over the GpsPrune window.",
+            "timestamps": {
+              "end_timestamp": "00:06:32.000",
+              "start_timestamp": "00:06:14.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Uses Opencaching to find nearby geocaches.",
+            "timestamp": {
+              "end_timestamp": "00:06:49.000",
+              "start_timestamp": "00:06:32.033"
+            }
+          },
+          {
+            "description": "Adds geocache coordinates as waypoints in GpsPrune.",
+            "timestamp": {
+              "end_timestamp": "00:07:17.000",
+              "start_timestamp": "00:06:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Uses Opencaching to search for geocaches along the hiking route."
+          },
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Discovers a virtual geocache and adds its coordinates to GpsPrune as a waypoint, including a comment for reference."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Focused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Enhances the planned route by incorporating geocache locations.",
+            "timestamp": "00:06:32.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:07:17.000",
+              "start_timestamp": "00:06:32.033"
+            }
+          },
+          {
+            "name": "Opencaching website",
+            "timestamp": {
+              "end_timestamp": "00:06:49.000",
+              "start_timestamp": "00:06:44.000"
+            }
+          },
+          {
+            "name": "waypoint edit window",
+            "timestamp": {
+              "end_timestamp": "00:07:17.000",
+              "start_timestamp": "00:07:06.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Geocaching, route enrichment, waypoint customization.",
+        "timestamps": {
+          "end_timestamp": "00:07:18.867",
+          "start_timestamp": "00:06:32.033"
+        },
+        "title": "Adding Geocaches",
+        "videoEditingDetails": [
+          {
+            "description": "The Opencaching webpage overlay appears over the GpsPrune window.",
+            "timestamps": {
+              "end_timestamp": "00:06:49.000",
+              "start_timestamp": "00:06:44.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Exports the track as a GPX file and saves it to the GPS receiver's directory.",
+            "timestamp": {
+              "end_timestamp": "00:07:51.000",
+              "start_timestamp": "00:07:18.900"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Exports the created track as a GPX file, choosing a suitable name and saving it directly to the GPS receiver's directory."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Satisfied",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Completes the process by exporting the track for use in the GPS receiver.",
+            "timestamp": "00:07:18.900"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:07:51.000",
+              "start_timestamp": "00:07:18.900"
+            }
+          },
+          {
+            "name": "export GPX file window",
+            "timestamp": {
+              "end_timestamp": "00:07:44.000",
+              "start_timestamp": "00:07:24.000"
+            }
+          },
+          {
+            "name": "file manager window",
+            "timestamp": {
+              "end_timestamp": "00:07:51.000",
+              "start_timestamp": "00:07:46.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Data export, file management, GPS receiver preparation.",
+        "timestamps": {
+          "end_timestamp": "00:07:51.533",
+          "start_timestamp": "00:07:18.900"
+        },
+        "title": "Exporting the Track",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator summarizes the tutorial and thanks viewers for watching.",
+            "timestamp": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:07:51.567"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Summarizes the key steps and bids farewell to the viewers."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral/Satisfied",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the tutorial.",
+            "timestamp": "00:07:51.567"
+          }
+        ],
+        "props": [
+          {
+            "name": "GpsPrune application window",
+            "timestamp": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:07:51.567"
+            }
+          },
+          {
+            "name": "list of tutorial activities",
+            "timestamp": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:07:58.000"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Summary of key steps, farewell to viewers.",
+        "timestamps": {
+          "end_timestamp": "00:08:07.333",
+          "start_timestamp": "00:07:51.567"
+        },
+        "title": "Outro",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Showing the 3D visualization of the track in Scene 5.",
+        "timestamp": "00:04:49.000"
+      },
+      "description": "The tutorial demonstrating how to use GpsPrune to plan a hiking route for Harder Kulm, including finding the location, drawing the track, refining it for accuracy, visualizing it in 3D, and exporting it to a GPS receiver.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "title": "GpsPrune Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the introduction scene to start directly with the GpsPrune application window, making the beginning more engaging.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Shorten or replace the outro scene with a final 3D view of the track, ending on a visually impactful note.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Hobbies & Interests",
+  "duration_seconds": 487,
+  "original_json_filename": "MriU0ajmSzI.json",
+  "original_video_filename": "MriU0ajmSzI.mp4",
+  "resolution": "576x360",
+  "text_to_speech": "foreign hi there today we're going to be talking about the program GPS prune and I'll be showing you a few things you can do with it GPS prune lets you view and edit GPS tracks so we're going to use it to prepare a route showing where we want to go and then load it into a GPS receiver then the track and its waypoints can be used to navigate while on the move here is GPS prune showing a map that you can drag around and zoom in and out we're going to use Wikipedia to look for a mountain called harder and see how hard it is to climb we can search for the name from the online menu and open the page in the browser to make sure we've got the right one then we can load that point into GPS prune and it appears as a waypoint we can double-click the map to zoom in to see it more clearly and find the nearest train station before we start drawing I'd like to change the maps there's an official Swiss map which shows the hiking routes nice and clearly so we'll switch to that now we'll draw a track from the station up to the top using the right-click menu to create a series of points we don't need to draw it super accurately right now we can edit it later obviously you can do this as carefully as you want but for now we just want a rough shape all of the points we're creating are without altitudes so the profile view at the bottom stays empty for now okay now we can look up the altitudes for all these points in one go to see the profile and if we select the whole track then we can see the distance is about four kilometers and the climb is about 750 meters so it's certainly doable both those numbers will probably increase a little bit as we add detail later I'm also going to Mark the top funicular station so we can have that as an option for the way down when I add a name to this point it becomes a waypoint with a different symbol and it's shown in the list on the left next we'll activate the edit mode using the hand icon at the top of the window when we're in edit mode we can drag the points around and add more detail so that our line more closely follows the actual path this will give us more accurate measurements and will help us navigate accurately when we're following it again the new points that we're inserting don't have any altitude values yet so we're getting gaps in the altitude profile at the bottom of the window you can take your time with this zooming in to capture every Twist and Turn but it's most important to put points around track Junctions or places where the direction changes nearly there okay that looks better now we'll do the altitude look up again to fill in the gaps in the profile and as you can see the distance has gone up a little and the extra detail has added some extra ups and downs as well so the climb is a little more than before as a bonus we can also show the route in 3D but first I'm going to add an extra point further up the ridge just so that that Ridge gets included in the 3D View now we can start the 3D View there are a few settings we can choose here to control the appearance we want to see the terrain and we'll put map images on the terrain too we choose a decent resolution and then it will fetch the altitudes of the whole area to draw the terrain pretty cool huh there we can get a good impression of the shape of the Ridge and we can spin it around to look from different directions perhaps this can help us look for an alternative way down or an onward route up that extra point we added to the Ridge Top isn't needed anymore so we can use the undo function to delete it again that looks good but maybe we can start our hike from the bus stop instead would that make much of a difference we select from the bus stop to the top no it saves a kilometer but doesn't reduce the climb at all so let's stay with the route from the train station we can turn off the edit mode now to avoid dragging points by accident and what will we be able to see from the top for this we can use Peak finder which opens up in a browser window we select the point we want to view from and Peak finder will tell us which mountains we'll be able to see let's just zoom out a bit wow that looks great you can see all the way along the lake and over there to the South is the IGA but I wonder what the weather is going to be like again from the online menu we can ask open weather map for a forecast oh that actually looks a little cold that's useful to know what else let's also see if there are any geocaches here using open caching we can get a list of nearby caches and see the details in a separate browser window ah it's a virtual that looks interesting you have to find a particular sign at the top so we can add those cache coordinates as a waypoint too and also add a comment so we know what to look for excellent it looks like the track is ready to take this track with us we can export the track as a GPX file and store it directly onto the GPS receiver we'll give it a name so it can be selected in the receiver's track list and then store the file in the GPS receiver's GPX directory and there's the saved file and that's it we prepared our track we measured distances and climbs and we used several online resources we saved this track onto the GPS receiver so we can follow it and we're ready to go there's plenty more but for now thanks for watching",
+  "text_to_speech_word_count": 1066,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.900",
+      "start": "00:00:00.000",
+      "text": " Hi there!"
+    },
+    {
+      "end": "00:00:11.300",
+      "start": "00:00:06.900",
+      "text": " Today we're going to be talking about the Program GPS Prune and I'll be showing you a few"
+    },
+    {
+      "end": "00:00:13.333",
+      "start": "00:00:11.300",
+      "text": " things you can do with it."
+    },
+    {
+      "end": "00:00:17.900",
+      "start": "00:00:13.333",
+      "text": " GPS Prune lets you view and edit GPS tracks."
+    },
+    {
+      "end": "00:00:21.667",
+      "start": "00:00:17.900",
+      "text": " So we're going to use it to prepare a route showing where we want to go and then load"
+    },
+    {
+      "end": "00:00:24.400",
+      "start": "00:00:21.667",
+      "text": " it into a GPS receiver."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:24.400",
+      "text": " Then the track and its waypoints can be used to navigate while on the move."
+    },
+    {
+      "end": "00:00:34.133",
+      "start": "00:00:29.000",
+      "text": " Here is GPS prune showing a map that you can drag around and zoom in and out."
+    },
+    {
+      "end": "00:00:38.700",
+      "start": "00:00:34.133",
+      "text": " We're going to use Wikipedia to look for a mountain called Harder and see how hard it"
+    },
+    {
+      "end": "00:00:40.533",
+      "start": "00:00:38.700",
+      "text": " is to climb."
+    },
+    {
+      "end": "00:00:45.100",
+      "start": "00:00:40.533",
+      "text": " We can search for the name from the online menu and open the page in the browser to make"
+    },
+    {
+      "end": "00:00:47.433",
+      "start": "00:00:45.100",
+      "text": " sure we've got the right one."
+    },
+    {
+      "end": "00:00:54.033",
+      "start": "00:00:47.433",
+      "text": " Then we can load that point into GPS prune and it appears as a waypoint."
+    },
+    {
+      "end": "00:00:58.233",
+      "start": "00:00:54.033",
+      "text": " We can double click the map to zoom in to see it more clearly and find the nearest train"
+    },
+    {
+      "end": "00:01:01.533",
+      "start": "00:00:58.233",
+      "text": " station."
+    },
+    {
+      "end": "00:01:04.500",
+      "start": "00:01:01.533",
+      "text": " Before we start drawing, I'd like to change the maps."
+    },
+    {
+      "end": "00:01:09.133",
+      "start": "00:01:04.500",
+      "text": " There's an official Swiss map which shows the hiking routes nice and clearly, so we'll"
+    },
+    {
+      "end": "00:01:15.667",
+      "start": "00:01:09.133",
+      "text": " switch to that."
+    },
+    {
+      "end": "00:01:19.933",
+      "start": "00:01:15.667",
+      "text": " Now we'll draw a track from the station up to the top using the right click menu to create"
+    },
+    {
+      "end": "00:01:22.067",
+      "start": "00:01:19.933",
+      "text": " a series of points."
+    },
+    {
+      "end": "00:01:27.733",
+      "start": "00:01:22.067",
+      "text": " We don't need to draw it super accurately right now, we can edit it later."
+    },
+    {
+      "end": "00:01:42.733",
+      "start": "00:01:27.733",
+      "text": " Obviously, you can do this as carefully as you want, but for now we just want a rough shape."
+    },
+    {
+      "end": "00:01:46.900",
+      "start": "00:01:42.733",
+      "text": " All of the points we're creating are without altitudes, so the profile view at the bottom"
+    },
+    {
+      "end": "00:01:49.633",
+      "start": "00:01:46.900",
+      "text": " stays empty for now."
+    },
+    {
+      "end": "00:02:00.333",
+      "start": "00:01:50.633",
+      "text": " OK, now we can look up the altitudes for all these points in one go to see the profile."
+    },
+    {
+      "end": "00:02:04.467",
+      "start": "00:02:00.333",
+      "text": " And if we select the whole track, then we can see the distance is about 4 kilometres"
+    },
+    {
+      "end": "00:02:08.133",
+      "start": "00:02:04.467",
+      "text": " and the climb is about 750 metres."
+    },
+    {
+      "end": "00:02:10.533",
+      "start": "00:02:08.133",
+      "text": " So it's certainly doable."
+    },
+    {
+      "end": "00:02:15.100",
+      "start": "00:02:10.533",
+      "text": " Both those numbers will probably increase a little bit as we add detail later."
+    },
+    {
+      "end": "00:02:19.200",
+      "start": "00:02:15.100",
+      "text": " I'm also going to mark the top vernacular station, so we can have that as an option"
+    },
+    {
+      "end": "00:02:21.233",
+      "start": "00:02:19.233",
+      "text": " for the way down."
+    },
+    {
+      "end": "00:02:25.100",
+      "start": "00:02:21.233",
+      "text": " When I add a name to this point, it becomes a waypoint with a different symbol and it's"
+    },
+    {
+      "end": "00:02:27.367",
+      "start": "00:02:25.100",
+      "text": " shown in the list on the left."
+    },
+    {
+      "end": "00:02:33.000",
+      "start": "00:02:27.367",
+      "text": " Next, we'll activate the edit mode using the hand icon at the top of the window."
+    },
+    {
+      "end": "00:02:37.233",
+      "start": "00:02:33.000",
+      "text": " When we're in edit mode, we can drag the points around and add more detail, so that our"
+    },
+    {
+      "end": "00:02:40.700",
+      "start": "00:02:37.233",
+      "text": " line more closely follows the actual path."
+    },
+    {
+      "end": "00:02:44.367",
+      "start": "00:02:40.700",
+      "text": " This will give us more accurate measurements and will help us navigate accurately when"
+    },
+    {
+      "end": "00:02:45.267",
+      "start": "00:02:44.367",
+      "text": " we're following it."
+    },
+    {
+      "end": "00:02:59.000",
+      "start": "00:02:49.200",
+      "text": " Again, the new points that we're inserting don't have any altitude values yet, so we're"
+    },
+    {
+      "end": "00:03:14.300",
+      "start": "00:02:59.000",
+      "text": " getting gaps in the altitude profile at the bottom of the window."
+    },
+    {
+      "end": "00:03:18.367",
+      "start": "00:03:14.300",
+      "text": " You can take your time with this, zooming into capture every twist and turn, but it's"
+    },
+    {
+      "end": "00:03:41.100",
+      "start": "00:03:18.400",
+      "text": " most important to put points around track junctions or places where the direction changes."
+    },
+    {
+      "end": "00:03:41.633",
+      "start": "00:03:41.100",
+      "text": " Nearly there."
+    },
+    {
+      "end": "00:03:54.300",
+      "start": "00:03:49.400",
+      "text": " OK, that looks better."
+    },
+    {
+      "end": "00:03:59.000",
+      "start": "00:03:54.300",
+      "text": " Now we'll do the altitude lookup again to fill in the gaps in the profile."
+    },
+    {
+      "end": "00:04:03.033",
+      "start": "00:03:59.000",
+      "text": " And as you can see, the distance has gone up a little and the extra detail has added"
+    },
+    {
+      "end": "00:04:08.033",
+      "start": "00:04:03.033",
+      "text": " some extra ups and downs as well, so the climb is a little more than before."
+    },
+    {
+      "end": "00:04:11.700",
+      "start": "00:04:08.033",
+      "text": " As a bonus, we can also show the route in 3D."
+    },
+    {
+      "end": "00:04:15.633",
+      "start": "00:04:11.700",
+      "text": " But first I'm going to add an extra point further up the ridge, just so that the ridge"
+    },
+    {
+      "end": "00:04:20.233",
+      "start": "00:04:15.633",
+      "text": " gets included in the 3D view."
+    },
+    {
+      "end": "00:04:23.200",
+      "start": "00:04:20.233",
+      "text": " Now we can start the 3D view."
+    },
+    {
+      "end": "00:04:27.333",
+      "start": "00:04:23.200",
+      "text": " There are a few settings we can choose here to control the appearance."
+    },
+    {
+      "end": "00:04:34.300",
+      "start": "00:04:27.333",
+      "text": " We want to see the terrain and we'll put map images on the terrain too."
+    },
+    {
+      "end": "00:04:38.200",
+      "start": "00:04:34.300",
+      "text": " We choose a decent resolution and then it will fetch the altitude of the whole area"
+    },
+    {
+      "end": "00:04:39.267",
+      "start": "00:04:38.200",
+      "text": " to draw the terrain."
+    },
+    {
+      "end": "00:04:55.667",
+      "start": "00:04:45.633",
+      "text": " Pretty cool, huh?"
+    },
+    {
+      "end": "00:04:59.267",
+      "start": "00:04:55.667",
+      "text": " There we can get a good impression of the shape of the ridge and we can spin it around"
+    },
+    {
+      "end": "00:05:02.233",
+      "start": "00:04:59.267",
+      "text": " to look from different directions."
+    },
+    {
+      "end": "00:05:07.433",
+      "start": "00:05:02.233",
+      "text": " Perhaps this can help us look for an alternative way down or an onward route up."
+    },
+    {
+      "end": "00:05:12.033",
+      "start": "00:05:07.433",
+      "text": " That extra point we added to the ridge top isn't needed anymore, so we can use the undo"
+    },
+    {
+      "end": "00:05:14.633",
+      "start": "00:05:12.033",
+      "text": " function to delete it again."
+    },
+    {
+      "end": "00:05:18.800",
+      "start": "00:05:14.633",
+      "text": " That looks good, but maybe we can start our hike from the bus stop instead, without"
+    },
+    {
+      "end": "00:05:21.067",
+      "start": "00:05:18.800",
+      "text": " make much of a difference."
+    },
+    {
+      "end": "00:05:23.467",
+      "start": "00:05:21.067",
+      "text": " We select from the bus stop to the top."
+    },
+    {
+      "end": "00:05:28.133",
+      "start": "00:05:23.467",
+      "text": " No, it saves a kilometre but doesn't reduce the climb at all, so let's stay with the"
+    },
+    {
+      "end": "00:05:30.900",
+      "start": "00:05:28.133",
+      "text": " route from the train station."
+    },
+    {
+      "end": "00:05:36.467",
+      "start": "00:05:30.900",
+      "text": " We can turn off the edit mode now to avoid dragging points by accident."
+    },
+    {
+      "end": "00:05:39.500",
+      "start": "00:05:36.467",
+      "text": " And what will we be able to see from the top?"
+    },
+    {
+      "end": "00:05:44.133",
+      "start": "00:05:39.500",
+      "text": " For this we can use Peak Finder, which opens up in a browser window."
+    },
+    {
+      "end": "00:05:48.067",
+      "start": "00:05:44.133",
+      "text": " We select the point we want to view from and Peak Finder will tell us which mountains"
+    },
+    {
+      "end": "00:05:52.700",
+      "start": "00:05:48.067",
+      "text": " we'll be able to see."
+    },
+    {
+      "end": "00:05:54.267",
+      "start": "00:05:52.700",
+      "text": " Let's just zoom out a bit."
+    },
+    {
+      "end": "00:06:00.033",
+      "start": "00:05:54.267",
+      "text": " Wow, that looks great."
+    },
+    {
+      "end": "00:06:04.633",
+      "start": "00:06:00.033",
+      "text": " You can see all the way along the lake."
+    },
+    {
+      "end": "00:06:09.733",
+      "start": "00:06:04.633",
+      "text": " And over there to the south is the Iga."
+    },
+    {
+      "end": "00:06:14.433",
+      "start": "00:06:09.733",
+      "text": " But I wonder what the weather is going to be like."
+    },
+    {
+      "end": "00:06:19.800",
+      "start": "00:06:14.433",
+      "text": " Again from the online menu we can ask open weather map for a forecast."
+    },
+    {
+      "end": "00:06:25.000",
+      "start": "00:06:19.800",
+      "text": " Oh, that actually looks a little cold."
+    },
+    {
+      "end": "00:06:32.867",
+      "start": "00:06:25.000",
+      "text": " That's useful to know."
+    },
+    {
+      "end": "00:06:33.867",
+      "start": "00:06:32.867",
+      "text": " What else?"
+    },
+    {
+      "end": "00:06:39.200",
+      "start": "00:06:33.867",
+      "text": " Let's also see if there are any geocaches here using open caching."
+    },
+    {
+      "end": "00:06:46.200",
+      "start": "00:06:39.200",
+      "text": " We can get a list of nearby caches and see the details in a separate browser window."
+    },
+    {
+      "end": "00:06:52.567",
+      "start": "00:06:46.200",
+      "text": " Ah, it's a virtual that looks interesting."
+    },
+    {
+      "end": "00:07:01.067",
+      "start": "00:06:52.567",
+      "text": " You have to find a particular sign at the top."
+    },
+    {
+      "end": "00:07:05.700",
+      "start": "00:07:01.067",
+      "text": " So we can add those cache coordinates as a waypoint too and also add a comment so we know"
+    },
+    {
+      "end": "00:07:17.700",
+      "start": "00:07:05.700",
+      "text": " what to look for."
+    },
+    {
+      "end": "00:07:20.333",
+      "start": "00:07:17.700",
+      "text": " Excellent, it looks like the track is ready."
+    },
+    {
+      "end": "00:07:25.000",
+      "start": "00:07:20.333",
+      "text": " To take this track with us, we can export the track as a GPX file and store it directly"
+    },
+    {
+      "end": "00:07:27.733",
+      "start": "00:07:25.000",
+      "text": " onto the GPS receiver."
+    },
+    {
+      "end": "00:07:32.433",
+      "start": "00:07:27.733",
+      "text": " We'll give it a name so it can be selected in the receiver's track list."
+    },
+    {
+      "end": "00:07:47.800",
+      "start": "00:07:32.433",
+      "text": " And then store the file in the GPS receiver's GPX directory."
+    },
+    {
+      "end": "00:07:50.733",
+      "start": "00:07:47.800",
+      "text": " And there's the saved file."
+    },
+    {
+      "end": "00:07:52.233",
+      "start": "00:07:50.733",
+      "text": " And that's it."
+    },
+    {
+      "end": "00:07:58.333",
+      "start": "00:07:52.233",
+      "text": " We prepared our track, we measured distances and climbs and we used several online resources."
+    },
+    {
+      "end": "00:08:04.033",
+      "start": "00:07:58.333",
+      "text": " We saved this track onto the GPS receiver so we can follow it and we're ready to go."
+    },
+    {
+      "end": "00:08:06.533",
+      "start": "00:08:04.033",
+      "text": " There's plenty more but for now, thanks for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Autos & Vehicles"
+  ],
+  "youtube_channel": "activityworkshop",
+  "youtube_channel_follower_count": 27,
+  "youtube_comment_count": 1,
+  "youtube_description": "Demonstrating how to use GpsPrune to prepare a track for a mountain hike in Switzerland.\nIncluding how to use maps, how to draw tracks and create waypoints, how to view the mountains in 3d and use online resources like Wikipedia, OpenWeatherMap, PeakFinder and OpenCaching.",
+  "youtube_like_count": 4,
+  "youtube_tags": [
+    "gps",
+    "gpsprune",
+    "track",
+    "swiss",
+    "coordinates",
+    "3d"
+  ],
+  "youtube_title": "GpsPrune - preparing a hike track",
+  "youtube_upload_date": "20230122",
+  "youtube_view_count": 185
+}

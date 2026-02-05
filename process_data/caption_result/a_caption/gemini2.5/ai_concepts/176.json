@@ -1,0 +1,92 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:47.754",
+    "audio_caption": "The audio clip begins with a voice introducing an approach called \"neural puppeteer\" and explaining pose estimation as a fundamental problem in computer vision with diverse applications. The speaker discusses how existing models learn joint appearances, including textures, emphasizing the availability of data for humans and the increasing range of animal species covered in datasets. The clip concludes with another speech."
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:47.754",
+    "end": "00:01:27.595",
+    "audio_caption": "The clip features one male speaker with a neutral, informative tone, initially describing a \"neural puppeteer\" approach involving an efficient rendering pipeline, image properties like \"occupancy, depth, and texture,\" and 3D keypoints. He transitions to discussing how \"neural rendering and pose estimation connect,\" mentioning inverse rendering and NePu estimating 3D keypoints from multiview silhouettes. The speaker concludes by inviting the listener to explore how NePu works step by step."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:27.595",
+    "end": "00:01:54.140",
+    "audio_caption": "The audio clip starts with a male speaker discussing inverse rendering solutions and the relationships of poses, mentioning \"3D keypoint positions\" and \"2D image properties.\" His tone is informative and explanatory. He then notes the use of their learned approach for \"3D keypoints from given 2D observations\" and says they'll explain their \"differentiable forward rendering\" process. The clip concludes with the sound of a dial tone."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:01:54.140",
+    "end": "00:02:22.675",
+    "audio_caption": "The clip begins with a male speaker discussing a model that encodes 3D key points using methods from deep learning. He highlights the vector self-attention operator from Point Transformer, explaining its function in facilitating information exchange between nearby key points, serving a purpose similar to convolutions in CNNs."
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:22.675",
+    "end": "00:03:58.304",
+    "audio_caption": "The clip begins with a calm, clear male voice explaining a decoder process, referencing \"key points,\" \"local features,\" and the use of an \"attention operator.\" The voice continues, detailing camera parameters, \"3D key points,\" and refinement processes. There's mention of rendering directly in 2D. The speaker contrasts this with volumetric rendering and discusses view consistency. The clip concludes with an explanation of image information retrieval from surrounding local features, and a cross-attention mechanism to aggregate nearby information for final predictions."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:58.304",
+    "end": "00:04:22.891",
+    "audio_caption": "The audio clip starts with a male speaker explaining a model that has multiple layers and heads, one for each modality, specifically for RGB, depth, and occupancy. He mentions that all network parameters are trained jointly using a loss with three parts. He describes the first part as the key point reconstruction part."
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:04:22.891",
+    "end": "00:04:36.916",
+    "audio_caption": "The clip begins with a male speaker discussing \"a rendering loss\" between various masks like \"color, depth, and occupancy.\" He then explains how they \"regularized latent variables in their norm,\" encouraging \"a zero mean gaussian latent distribution,\" and the audio ends."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:36.916",
+    "end": "00:05:06.262",
+    "audio_caption": "The audio clip starts with a male speaker discussing the limitations of available animal data sets, leading them to use synthetic data. He describes the generation of high-quality data for various animals, mentioning cows, giraffes, pigeons, and humans. He then details the dataset's characteristics, including the number of pose cameras and the type of ground truth data provided."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:05:06.262",
+    "end": "00:05:40.749",
+    "audio_caption": "The clip starts with a male speaker discussing inverse rendering experiments focused on 3D keypoint positions from multi-view silhouettes. He explains their reliance on 2D occupancy masks to achieve texture and illumination invariance, and the importance of prior distribution learned for relations between 2D image properties and 3D keypoints. Another male speaker then says \"Yeah.\""
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:05:40.749",
+    "end": "00:06:41.690",
+    "audio_caption": "An informative male speaker discusses using a prior to find a latent vector that minimizes binary cross-entropy, including a regularization term for a more well-behaved solution and using a decoder to infer 3D keypoints, noting that optimization can sometimes get stuck. To combat that issue, multiple runs with different initializations are performed. The speaker then describes an animation that shows the process of post-optimization from the initialization to the final pose given the silhouette."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:06:41.690",
+    "end": "00:07:49.676",
+    "audio_caption": "The audio clip features a single male speaker discussing zero-shot synthetic-to-real-world experiments, mentioning the training of a \"Nepu\" on synthetic data and inference on real-world images, including examples of \"giraffes\" and \"a cow.\" He discusses inverse rendering for pose estimation, average mean per joint position error, and median over all objects, mentioning \"learnable triangulation\" and \"human pose.\" He talks about qualitative results reflecting the quality of \"Nepu\" for pose estimation and projected key points with color-coded dots indicating location and 3D error, explaining the significance of red and green dots. A sound is heard at the end of the recording."
+  },
+  {
+    "chunk_id": 11,
+    "start": "00:07:49.676",
+    "end": "00:08:29.199",
+    "audio_caption": "The audio clip starts with a speaker, who sounds like a male giving a presentation, praising the performance of a \"forward differentiable rendering pipeline,\" highlighting its superior \"peak signal-to-noise ratio\" and \"mean absolute error\" compared to light field networks. He emphasizes the overall good quality of their approach in qualitative results. He then compares results, drawing attention to the importance of local conditioning, noting that with NEPU, results are \"much more detailed\" with \"more precise boundaries.\""
+  },
+  {
+    "chunk_id": 12,
+    "start": "00:08:29.199",
+    "end": "00:08:58.164",
+    "audio_caption": "The audio clip features a single male speaker. He's comparing an approach called \"Neupo\" to \"Nerf\", stating their results are promising, but not meeting Nerf's quality. He explains that Neupo's rendering formulation is fundamentally different, requiring it to solve a more complex problem than Nerf. He mentions that Nerf-based approaches typically rely on time- and memory-intensive volumetric rendering."
+  },
+  {
+    "chunk_id": 13,
+    "start": "00:08:58.164",
+    "end": "00:09:42.146",
+    "audio_caption": "The audio clip begins with a male speaker delivering a technical explanation about contrasting and rendering formulations related to light field networks, also mentioning speed increases and image resolution. The speaker transitions to discussing the application of a rendering pipeline to key points from motion capture data, humorously remarking, \"Wow, Nepo can even dance Macarena.\" Subsequently, an individual expresses surprise with an \"Oh!\" and asks a question, \"Really?\""
+  },
+  {
+    "chunk_id": 14,
+    "start": "00:09:42.146",
+    "end": "00:10:38.108",
+    "audio_caption": "The audio clip begins with a voice describing that the 2D depth estimations from a certain program can be used to perform 3D reconstruction of a captured shape. The voice continues in a similar tone, stating that the program renders in 2D but they observe a very good view consistency. The voice follows up with stating that the structure of the program's space encodes meaningful information about how individual poses are related to each other. The voice concludes the audio clip by inviting the listener to visit their project page by scanning a QR code for the code, the synthetic dataset, and further results. The audio ends with background music."
+  }
+]

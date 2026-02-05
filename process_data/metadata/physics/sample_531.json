@@ -1,0 +1,357 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male with a visible right hand holding a pen. He wears a long-sleeved black shirt.",
+        "name": "Lecturer"
+      }
+    ],
+    "description": "Understanding causality in signal processing through visual explanations and diagrams.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Delta Pulse",
+        "question": "What is the name of the input signal used to demonstrate causality?"
+      },
+      {
+        "answer": "A causal signal has zero output for all time values before the input signal occurs (t < 0).",
+        "question": "What is the key characteristic of a causal signal?"
+      },
+      {
+        "answer": "He is explaining that real-world systems only react to the current input and past events, they cannot anticipate future inputs.",
+        "question": "What does the lecturer mean by 'the system does not know what's going to happen'?"
+      },
+      {
+        "answer": "It is represented by the equation: h(t) = 0 for t < 0, meaning the function h(t) representing the system's response is zero for all time values less than zero.",
+        "question": "How is causality represented mathematically?"
+      },
+      {
+        "answer": "By showing the response of the circuit to a delta pulse, he demonstrates that the output (reaction) begins only after the delta pulse is applied, indicating that the effect occurs after the cause.",
+        "question": "How does the lecturer use the visual of the low-pass filter circuit to explain causality?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Writing 'CAUSAL Signal {...}'",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Drawing Circuit Diagram",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:18.000"
+            }
+          },
+          {
+            "description": "Drawing Delta Pulse and System Reaction",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "description": "Labeling 'Reaction'",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          },
+          {
+            "description": "Labeling 'Zero!'",
+            "timestamp": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:01:13.000"
+            }
+          },
+          {
+            "description": "Writing 'evolves in time as it happens.'",
+            "timestamp": {
+              "end_timestamp": "00:01:51.000",
+              "start_timestamp": "00:01:37.000"
+            }
+          },
+          {
+            "description": "Writing 'make mathematical convention {...}'",
+            "timestamp": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          },
+          {
+            "description": "Drawing Signal and Function h(t) Graph",
+            "timestamp": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:22.000"
+            }
+          },
+          {
+            "description": "Labeling 'zero'",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          },
+          {
+            "description": "Writing 'h(t) is zero for t < 0'",
+            "timestamp": {
+              "end_timestamp": "00:03:21.000",
+              "start_timestamp": "00:03:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lecturer"
+            ],
+            "description": "The lecturer speaks directly to the audience, explaining the concept."
+          }
+        ],
+        "contextualRelevance": "The lecturer emphasizes that real-world systems don't anticipate future events, highlighting the concept of cause and effect.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious. The lecturer is explaining a concept with visuals and drawing, keeping the viewers engaged and intrigued.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The lecturer introduces the concept of 'Causal Signals'.",
+            "timestamp": "00:00:02.000"
+          },
+          {
+            "description": "He starts drawing a circuit diagram to illustrate the idea.",
+            "timestamp": "00:00:18.000"
+          },
+          {
+            "description": "He draws a Delta pulse as an input signal and shows the system's reaction.",
+            "timestamp": "00:00:29.000"
+          },
+          {
+            "description": "He emphasizes that the system reaction is zero before the Delta pulse, illustrating causality.",
+            "timestamp": "00:01:15.000"
+          },
+          {
+            "description": "He further explains that the system evolves in time as things happen.",
+            "timestamp": "00:01:37.000"
+          },
+          {
+            "description": "He introduces the mathematical convention for expressing causality.",
+            "timestamp": "00:02:07.000"
+          },
+          {
+            "description": "He draws a signal graph with a function h(t) to demonstrate the mathematical definition.",
+            "timestamp": "00:02:22.000"
+          },
+          {
+            "description": "He writes the equation 'h(t) is zero for t < 0' to formally define causality.",
+            "timestamp": "00:03:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:03:24.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Pen",
+            "timestamp": {
+              "end_timestamp": "00:03:24.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Causality in signal processing.",
+        "timestamps": {
+          "end_timestamp": "00:03:24.480",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Causal Signals",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Formal definition 'h(t) is zero for t < 0' is presented.",
+        "timestamp": "00:03:21.000"
+      },
+      "description": "Defining Causal Signals.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Causal Signals",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment from 1:51 to 2:22 could be shortened by directly jumping to the mathematical definition and the signal graph to maintain a more concise and dynamic flow.",
+        "timestamps": {
+          "end_timestamp": "00:02:22.000",
+          "start_timestamp": "00:01:51.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 205,
+  "original_json_filename": "-XnL5zyNfSU.json",
+  "original_video_filename": "-XnL5zyNfSU.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so one of the most important concepts in the signal processing is how do we define cause signals yeah so how do we do that and so let's gets let's get inspired again by our analog circuit here so if you send in a delta part into that then we know it's a low-pass filter our response is probably something like that you know so this is here the moment of our delta parts here this is T equals zero and this is T equals zero here so we are basically giving this system a small push with startup files here and then the system reacts to this you know that's the reaction of the system obviously before the data parts here this is zero so so this bit here is zero for obvious reason because the system does not know that the Delta piles is happening now so the system is not a psychic predicting basically what's going to happen and this means this system is called you know so the system only evolves in time in this direction here so a system evolves in time as it happens which reacts to these input signals here so how do we do a mathematical definition of that and the mathematical convention is very simple so they couldn't the mathematical convention to tackle this is that we say that that if we have a if this is our signal here this is our function H of T and this was here T then the signal is always 0 for negative time and only starts at 0 so we have something like this and here it's this bit here it is 0 so this means the system is excited at the moment T equals zero and then it relaxes choosers here so it doesn't know anything what's happening before and soon only gets two now it's moment zero and then the system tests something towards it so this defines this in mathematics so that this H of T is zero for T smaller than zero that's our definition of causality",
+  "text_to_speech_word_count": 348,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.240",
+      "start": "00:00:00.000",
+      "text": " So one of the most important concepts in the signal processing is how do we define"
+    },
+    {
+      "end": "00:00:11.000",
+      "start": "00:00:07.240",
+      "text": " causal signals."
+    },
+    {
+      "end": "00:00:25.880",
+      "start": "00:00:14.000",
+      "text": " Yeah so how do we do that? So let's get inspired again by our analog circuit here."
+    },
+    {
+      "end": "00:00:31.240",
+      "start": "00:00:26.360",
+      "text": " So if you send in a delta pulse into that then we know it's a low-pass filter"
+    },
+    {
+      "end": "00:00:36.920",
+      "start": "00:00:31.240",
+      "text": " or response is probably something like that. Yeah so this is here the moment of"
+    },
+    {
+      "end": "00:00:47.200",
+      "start": "00:00:36.920",
+      "text": " our delta pulse. Here this is t equals zero and this is t equals zero here. So we are"
+    },
+    {
+      "end": "00:00:53.200",
+      "start": "00:00:47.200",
+      "text": " basically giving this system a small push with this delta pulse here."
+    },
+    {
+      "end": "00:01:04.880",
+      "start": "00:00:55.880",
+      "text": " And then the system reacts to this here. That's the reaction of the system."
+    },
+    {
+      "end": "00:01:16.440",
+      "start": "00:01:04.880",
+      "text": " Obviously before the delta pulse here this is zero. So this bit here is zero. For"
+    },
+    {
+      "end": "00:01:20.520",
+      "start": "00:01:16.440",
+      "text": " obvious reason because the system does not know that the delta pulse is"
+    },
+    {
+      "end": "00:01:26.080",
+      "start": "00:01:20.520",
+      "text": " happening. Yeah so the system is not a psychic predicting basically what's"
+    },
+    {
+      "end": "00:01:31.880",
+      "start": "00:01:26.080",
+      "text": " going to happen. And this means this system is called yeah so the system only"
+    },
+    {
+      "end": "00:01:46.960",
+      "start": "00:01:31.880",
+      "text": " evolves in time in this direction here. So a system evolves in time as it"
+    },
+    {
+      "end": "00:01:48.960",
+      "start": "00:01:46.960",
+      "text": " happens."
+    },
+    {
+      "end": "00:01:58.320",
+      "start": "00:01:52.440",
+      "text": " So it reacts to these input signals here. So how do we do a mathematical"
+    },
+    {
+      "end": "00:02:05.160",
+      "start": "00:01:58.320",
+      "text": " definition of that? The mathematical convention is very simple. So the"
+    },
+    {
+      "end": "00:02:21.040",
+      "start": "00:02:05.160",
+      "text": " con the mathematical convention to tackle this is that we say that if we"
+    },
+    {
+      "end": "00:02:29.320",
+      "start": "00:02:21.040",
+      "text": " have a if this is our signal here and this is our function h of t and this is"
+    },
+    {
+      "end": "00:02:35.000",
+      "start": "00:02:29.320",
+      "text": " here t then the signal is always zero for negative time and only starts at zero."
+    },
+    {
+      "end": "00:02:50.760",
+      "start": "00:02:35.000",
+      "text": " So we have something like this. And here it's this bit here it is zero. So this"
+    },
+    {
+      "end": "00:02:56.920",
+      "start": "00:02:50.760",
+      "text": " means the system is excited at the moment t equals zero and then it relaxes"
+    },
+    {
+      "end": "00:03:00.800",
+      "start": "00:02:56.920",
+      "text": " to this here. So it doesn't know anything what's happening before and so it"
+    },
+    {
+      "end": "00:03:05.200",
+      "start": "00:03:00.800",
+      "text": " only gets to now at the moment zero and then the system does something towards it."
+    },
+    {
+      "end": "00:03:20.240",
+      "start": "00:03:05.200",
+      "text": " So this defines this in mathematics. So that this h of t is zero for t smaller than zero."
+    },
+    {
+      "end": "00:03:23.560",
+      "start": "00:03:20.240",
+      "text": " That's our definition of causality."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Digital Signal Processing",
+  "youtube_channel_follower_count": 9980,
+  "youtube_comment_count": 2,
+  "youtube_description": "Causal signals are defined by keeping them zero for negative time.",
+  "youtube_like_count": 16,
+  "youtube_tags": [
+    "Causality"
+  ],
+  "youtube_title": "Causal signal processing: defining causality (#001)",
+  "youtube_upload_date": "20131015",
+  "youtube_view_count": 5457
+}

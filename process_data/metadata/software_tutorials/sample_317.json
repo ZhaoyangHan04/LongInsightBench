@@ -1,0 +1,701 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The speaker, a young man with short dark hair, wearing a black and white striped shirt with a v-neck.",
+        "name": "Zdenek Kalal"
+      }
+    ],
+    "description": "A presentation by Zdenek Kalal demonstrating the capabilities and applications of the Predator algorithm, which learns and tracks objects in real-time.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Red",
+        "question": "What is the color of the dot that the algorithm tracks on Zdenek's face in the first scene?"
+      },
+      {
+        "answer": "By drawing a bounding box around the object they want the algorithm to track.",
+        "question": "How does the user initiate the learning process in the Human-Computer Interface application?"
+      },
+      {
+        "answer": "A printed photo collage of faces.",
+        "question": "What prop does Zdenek use to demonstrate the face recognition capability of the algorithm?"
+      },
+      {
+        "answer": "A query containing a series of images captured by tracking an object instead of just one image.",
+        "question": "What type of query does Zdenek suggest could improve visual search results?"
+      },
+      {
+        "answer": "By suggesting to watch further videos at the end of the presentation or visit Zdenek's website, providing a direct call to action.",
+        "question": "How does the video direct viewers to learn more about the Predator algorithm?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Zdenek introduces himself and his research",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Zdenek explains his PhD thesis and the Predator algorithm",
+            "timestamp": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "The Predator algorithm tracks a red dot on Zdenek's face",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Zdenek Kalal"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Zdenek Kalal"
+            ],
+            "description": "Zdenek directly addresses the viewer, explaining his research and demonstrating the algorithm."
+          }
+        ],
+        "contextualRelevance": "The glitch effect not only demonstrates the algorithm's re-detection capability but also hints at its potential for handling complex situations.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to red dot tracking Zdenek's face. The visual becomes more engaging and sparks curiosity.",
+              "timestamp": "00:00:12.000"
+            },
+            {
+              "changeDescription": "Glitch effect adds visual intrigue and creates suspense about the algorithm's capabilities.",
+              "timestamp": "00:00:35.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the Predator algorithm and its basic functionality: tracking and learning about an unknown object.",
+            "timestamp": "00:00:05.000"
+          },
+          {
+            "description": "Explanation that the red dot is the result of Zdenek's research and demonstration of the Predator algorithm.",
+            "timestamp": "00:00:12.000"
+          },
+          {
+            "description": "Outline of the two main functions of the algorithm: tracking an unknown object and improving tracking performance during the process.",
+            "timestamp": "00:00:17.000"
+          },
+          {
+            "description": "Explanation of how the Predator algorithm estimates object location and learns how the object looks.",
+            "timestamp": "00:00:30.000"
+          },
+          {
+            "description": "Demonstration of the algorithm's ability to re-detect an object after it disappears.",
+            "timestamp": "00:00:44.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Red dot",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Visual object tracking, machine learning, computer vision.",
+        "timestamps": {
+          "end_timestamp": "00:01:00.633",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with Zdenek's name and affiliations",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Glitch effect when the object disappears and reappears",
+            "timestamps": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Zdenek discusses the use of Predator in Human-Computer Interfaces",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "description": "Zdenek demonstrates the algorithm learning and tracking a finger gesture",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Zdenek Kalal"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Zdenek Kalal"
+            ],
+            "description": "Zdenek engages the viewer, demonstrating the algorithm's potential for interactive applications."
+          }
+        ],
+        "contextualRelevance": "The improvement of the red line tracing the finger over time subtly reinforces the algorithm's learning capability.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to black and white with the algorithm tracking Zdenek's finger. This creates a focus on the new functionality and its real-time learning capability.",
+              "timestamp": "00:01:07.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Exploration of the Predator algorithm's application in Human-Computer Interfaces, specifically its potential for gesture-based control.",
+            "timestamp": "00:01:03.000"
+          },
+          {
+            "description": "Proposal of using Predator for designing an interface where the user can control something like a mouse with gestures.",
+            "timestamp": "00:01:03.000"
+          },
+          {
+            "description": "Explanation that the system only requires the user to define the object with a bounding box to initiate learning.",
+            "timestamp": "00:01:16.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Zdenek's finger acting as a virtual mouse",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "name": "Yellow bounding box (algorithm output)",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "name": "Red line tracing the finger's movement",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Human-Computer Interfaces, gesture recognition, accessibility (for disabled people).",
+        "timestamps": {
+          "end_timestamp": "00:01:45.467",
+          "start_timestamp": "00:01:00.667"
+        },
+        "title": "Human-Computer Interfaces",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay 'Learning HCI'",
+            "timestamps": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Zdenek discusses the use of Predator in face recognition for security cameras",
+            "timestamp": {
+              "end_timestamp": "00:01:51.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "description": "Zdenek demonstrates the algorithm tracking his face in real-time",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:01:51.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Zdenek Kalal"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Zdenek Kalal"
+            ],
+            "description": "Zdenek continues to address the viewer, illustrating the versatility of the algorithm."
+          }
+        ],
+        "contextualRelevance": "The successful identification of Zdenek's face among a group of similar faces emphasizes the algorithm's ability to discriminate and identify specific individuals.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to black and white as the algorithm tracks Zdenek's face. This creates a focus on the new application and its real-time performance.",
+              "timestamp": "00:01:51.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlighting the application of the Predator algorithm in security systems, particularly its ability to learn and recognize faces.",
+            "timestamp": "00:01:48.000"
+          },
+          {
+            "description": "Proposal of using Predator in face recognition for security purposes.",
+            "timestamp": "00:01:48.000"
+          },
+          {
+            "description": "Demonstration of how the algorithm can track his face and recognize it even after he moves out of view.",
+            "timestamp": "00:01:51.000"
+          },
+          {
+            "description": "Suggestion of potential applications in games or security systems where the algorithm can identify a specific face from a group.",
+            "timestamp": "00:02:06.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Yellow bounding box (algorithm output)",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:01:51.000"
+            }
+          },
+          {
+            "name": "Printed photo collage of various faces",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:01:51.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Face recognition, security systems, surveillance.",
+        "timestamps": {
+          "end_timestamp": "00:02:22.000",
+          "start_timestamp": "00:01:45.500"
+        },
+        "title": "Security Cameras",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay 'Learning security cameras'",
+            "timestamps": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:45.500"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Zdenek discusses the potential of Predator for improving visual search in applications like Google Images",
+            "timestamp": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:02:24.000"
+            }
+          },
+          {
+            "description": "Zdenek demonstrates the algorithm tracking his face and suggests the possibility of sending a query of multiple images to enhance search results",
+            "timestamp": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:02:35.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.6,
+        "cast": [
+          "Zdenek Kalal"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Zdenek Kalal"
+            ],
+            "description": "Zdenek addresses the viewer, suggesting a future development and inviting further exploration."
+          }
+        ],
+        "contextualRelevance": "The text overlay \"google: 'zdenek kalal'\" reinforces the connection to practical applications and prompts viewers to consider how this technology could impact their own image searches.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcasing the potential of Predator to enhance visual search by providing a continuous stream of images instead of a single query image.",
+            "timestamp": "00:02:24.000"
+          },
+          {
+            "description": "Introduction of the idea of using Predator to improve visual search in Google's image search applications.",
+            "timestamp": "00:02:24.000"
+          },
+          {
+            "description": "Explanation of how the algorithm can track a face and create a sequence of images, potentially enabling a more refined search query compared to using just one image.",
+            "timestamp": "00:02:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Yellow bounding box (algorithm output)",
+            "timestamp": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:02:35.000"
+            }
+          },
+          {
+            "name": "Phone (not clearly visible) representing a search device",
+            "timestamp": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:02:35.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Image search, information retrieval, future technologies.",
+        "timestamps": {
+          "end_timestamp": "00:02:57.300",
+          "start_timestamp": "00:02:22.033"
+        },
+        "title": "Improved Visual Search",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay 'Improvement of visual search'",
+            "timestamps": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:22.033"
+            }
+          },
+          {
+            "description": "Text overlay \"google: 'zdenek kalal'\"",
+            "timestamps": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Zdenek concludes the presentation, inviting viewers to explore more through the provided links and resources.",
+            "timestamp": {
+              "end_timestamp": "00:03:03.000",
+              "start_timestamp": "00:02:57.333"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Zdenek Kalal"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Zdenek Kalal"
+            ],
+            "description": "Zdenek directly addresses the viewer, closing the presentation."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concluding the presentation and directing viewers to further resources.",
+            "timestamp": "00:02:57.333"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Call to action, further research.",
+        "timestamps": {
+          "end_timestamp": "00:04:11.500",
+          "start_timestamp": "00:02:57.333"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Black screen transition",
+            "timestamps": {
+              "end_timestamp": "00:03:03.000",
+              "start_timestamp": "00:02:57.333"
+            }
+          },
+          {
+            "description": "Text overlay 'Related publications' and list of publications",
+            "timestamps": {
+              "end_timestamp": "00:03:03.000",
+              "start_timestamp": "00:02:57.333"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "No clear climax. The video functions more as an informative presentation showcasing various applications of the algorithm.",
+        "timestamp": null
+      },
+      "description": "A presentation showcasing various applications of the Predator algorithm.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Predator: Camera That Learns",
+    "trimmingSuggestions": [
+      {
+        "description": "Scene 5 could be shortened to a single frame with contact details and website links to make the video more concise.",
+        "timestamps": {
+          "end_timestamp": "00:03:03.000",
+          "start_timestamp": "00:02:57.333"
+        }
+      },
+      {
+        "description": "Repetition within Scenes: Some scenes, particularly Scene 2 and Scene 3, contain moments of repetitive visuals during the demonstration. These segments could be slightly trimmed to maintain viewer engagement.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 252,
+  "original_json_filename": "1GhNXHCQGsM.json",
+  "original_video_filename": "1GhNXHCQGsM.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "hi my name is den kalal and I'm a researcher focusing on visual object tracking this red dot is the result of my PhD thesis where I investigated how to track an unknown object in a video sequence and how to improve the tracking performance during tracking um we have developed an algorithm which we call Predator as any other tracker Predator estimates the object location and scale changes but in addition it learns how the object looks and what is not an object and using this information it scans every frame searching for the object if the object disappears and later comes back we are able to detect it this combination of tracking learning and detection is unique and therefore opens completely new possibilities for a number of industrial applications first of them is in human computer interfaces consider you want to make an interface where the user catches and drags something such as a mouse uh so using our system it's possible to select uh the object which you want Track by a bounding box and that's it now the system is learning how the gesture looks like in different scales how it uh looks in different rotations and so on and after a while we have pretty reliable system which is acting as a virtual Mouse the nice property is that over time it's getting better and better so the user has the flexibility to create his own gesture another example is in uh face recognition if I select my face for example and start tracking immediately after that the system can localize me recognize me when I come [Music] back and uh so we are talking about some games where where this can be used or maybe very simple security systems where the face can be recognized among other faces the same functionality can be used to improve visual search in uh Google Google's application the images are queried by a single image however if you have a Tracker like this one the user can send a query of number of images and improve the search performance so these are just couple of ideas of what the Predator can do and if you are still interested please watch the videos at the end or go to my website where I explain a little bit more about it thank you very much and see you later [Music] oh [Music] oh",
+  "text_to_speech_word_count": 403,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:12.100",
+      "start": "00:00:00.000",
+      "text": " Hi, my name is Dinyakalal and I'm a researcher focusing on visual object tracking."
+    },
+    {
+      "end": "00:00:17.900",
+      "start": "00:00:12.100",
+      "text": " This result is the result of my PhD thesis where I investigated how to track an unknown"
+    },
+    {
+      "end": "00:00:24.867",
+      "start": "00:00:17.900",
+      "text": " object in a video sequence and how to improve the tracking performance during tracking."
+    },
+    {
+      "end": "00:00:28.600",
+      "start": "00:00:24.867",
+      "text": " We have developed an algorithm which we call predator."
+    },
+    {
+      "end": "00:00:34.133",
+      "start": "00:00:28.600",
+      "text": " There's any other tracker predator estimates the object location and scale changes, but in"
+    },
+    {
+      "end": "00:00:38.833",
+      "start": "00:00:34.133",
+      "text": " addition it learns how the object looks and what is not an object."
+    },
+    {
+      "end": "00:00:44.200",
+      "start": "00:00:38.833",
+      "text": " And using this information it scans every frame searching for the object."
+    },
+    {
+      "end": "00:00:50.233",
+      "start": "00:00:44.200",
+      "text": " If the object disappears and later comes back we are able to detect it."
+    },
+    {
+      "end": "00:00:57.400",
+      "start": "00:00:50.233",
+      "text": " This combination of tracking, learning and detection is unique and therefore opens completely"
+    },
+    {
+      "end": "00:01:02.900",
+      "start": "00:00:57.400",
+      "text": " new possibilities for a number of industrial applications."
+    },
+    {
+      "end": "00:01:05.700",
+      "start": "00:01:02.900",
+      "text": " First of them is in human computer interfaces."
+    },
+    {
+      "end": "00:01:10.133",
+      "start": "00:01:05.700",
+      "text": " Consider you want to make an interface where the user catches and drags something such"
+    },
+    {
+      "end": "00:01:12.067",
+      "start": "00:01:10.133",
+      "text": " as a mouse."
+    },
+    {
+      "end": "00:01:18.700",
+      "start": "00:01:12.067",
+      "text": " So using our system it's possible to select the object which you want to track by a bounding"
+    },
+    {
+      "end": "00:01:20.867",
+      "start": "00:01:18.700",
+      "text": " box and that's it."
+    },
+    {
+      "end": "00:01:26.400",
+      "start": "00:01:20.867",
+      "text": " Now the system is learning how the gesture looks like in different scales, how it looks"
+    },
+    {
+      "end": "00:01:31.267",
+      "start": "00:01:26.400",
+      "text": " in different rotations and so on and after a while we have pretty reliable system which"
+    },
+    {
+      "end": "00:01:34.133",
+      "start": "00:01:31.267",
+      "text": " is acting as a virtual mouse."
+    },
+    {
+      "end": "00:01:42.400",
+      "start": "00:01:34.133",
+      "text": " The nice property is that over time it's getting better and better so the user has the flexibility"
+    },
+    {
+      "end": "00:01:48.067",
+      "start": "00:01:42.400",
+      "text": " to create his own gesture."
+    },
+    {
+      "end": "00:01:50.600",
+      "start": "00:01:48.067",
+      "text": " Another example is in a face recognition."
+    },
+    {
+      "end": "00:01:57.900",
+      "start": "00:01:50.600",
+      "text": " If I select my face for example and start tracking immediately after the system can"
+    },
+    {
+      "end": "00:02:04.000",
+      "start": "00:01:57.900",
+      "text": " recognize me, recognize me when I come back."
+    },
+    {
+      "end": "00:02:10.067",
+      "start": "00:02:04.000",
+      "text": " And so we are talking about some games where this can be used or maybe very simple security"
+    },
+    {
+      "end": "00:02:14.300",
+      "start": "00:02:10.067",
+      "text": " systems where the face can be recognized among other faces."
+    },
+    {
+      "end": "00:02:31.767",
+      "start": "00:02:20.600",
+      "text": " The same functionality can be used to improve visual search in a Google application."
+    },
+    {
+      "end": "00:02:34.267",
+      "start": "00:02:31.767",
+      "text": " The images are queried by a single image."
+    },
+    {
+      "end": "00:02:40.400",
+      "start": "00:02:34.267",
+      "text": " However, if you have a tracker like this one the user can send a query of number of images"
+    },
+    {
+      "end": "00:02:42.533",
+      "start": "00:02:40.400",
+      "text": " and improve the search performance."
+    },
+    {
+      "end": "00:02:46.667",
+      "start": "00:02:42.533",
+      "text": " So these are just couple of ideas on what the parent can do."
+    },
+    {
+      "end": "00:02:51.467",
+      "start": "00:02:46.667",
+      "text": " And if you are still interested please watch the videos at the end or go to my website"
+    },
+    {
+      "end": "00:02:54.133",
+      "start": "00:02:51.467",
+      "text": " where I explain a little bit more about it."
+    },
+    {
+      "end": "00:02:56.033",
+      "start": "00:02:54.133",
+      "text": " Thank you very much and see you later."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Zdenek Kalal",
+  "youtube_channel_follower_count": 1490,
+  "youtube_comment_count": 502,
+  "youtube_description": "The technology behind Predator is further developed by TLD Vision (http://tldvision.com).",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "computer",
+    "vision",
+    "tracking",
+    "learning",
+    "detection",
+    "real-time"
+  ],
+  "youtube_title": "PREDATOR - Tracker that learns and improves",
+  "youtube_upload_date": "20110101",
+  "youtube_view_count": 891170
+}

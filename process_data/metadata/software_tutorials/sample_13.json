@@ -1,0 +1,664 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man who enjoys gaming and provides solutions to improve gaming experience, though his face is not shown, only his voice is heard.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A video tutorial demonstrating how to solve the lag issue on secondary monitors for gaming laptops by adjusting power settings and graphics drivers.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "NVIDIA GeForce GTX 1060",
+        "question": "What specific graphics card is responsible for the secondary monitor in the example shown?"
+      },
+      {
+        "answer": "Because the primary display has been switched to the external monitor.",
+        "question": "Why does the screen go black if you restart the computer after disabling the Intel driver and haven't plugged in your external monitor?"
+      },
+      {
+        "answer": "Using \"second monitor only\" or duplicating the display.",
+        "question": "What are the two methods the narrator suggests to check if your secondary monitor has lag?"
+      },
+      {
+        "answer": "High Performance.",
+        "question": "What specific power setting does the narrator recommend using?"
+      },
+      {
+        "answer": "OBS Studio.",
+        "question": "What software is the narrator using to capture and display his screens during the tutorial?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the topic and explains the problem of lag on secondary monitors for gaming laptops.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator instructs viewers to change power settings to High Performance.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "description": "Narrator transitions to the main solution, mentioning he still had lag after changing power settings.",
+            "timestamp": {
+              "end_timestamp": "00:01:16.567",
+              "start_timestamp": "00:01:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator addresses the audience directly."
+          }
+        ],
+        "contextualRelevance": "The scene introduces the problem faced by gamers and the initial steps to address it.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious, helpful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction and setup of the problem",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer desktop with icons",
+            "timestamp": {
+              "end_timestamp": "00:01:16.567",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Control Panel window for Power Options",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Gaming, technology, problem-solving",
+        "timestamps": {
+          "end_timestamp": "00:01:16.567",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to the Problem and Initial Steps",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the desktop, no transitions or effects. Suggestion: The intro could be shortened to be more concise and jump to the main solution quicker.",
+            "timestamps": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator instructs viewers to open Device Manager.",
+            "timestamp": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:17.000"
+            }
+          },
+          {
+            "description": "Narrator explains how to identify the graphics card responsible for the secondary monitor.",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          },
+          {
+            "description": "Narrator demonstrates disabling the Intel HD Graphics driver.",
+            "timestamp": {
+              "end_timestamp": "00:02:16.000",
+              "start_timestamp": "00:01:40.000"
+            }
+          },
+          {
+            "description": "Narrator shows the screen switching to the secondary monitor after disabling the driver.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:16.000"
+            }
+          },
+          {
+            "description": "Narrator drags the Device Manager window back to the primary monitor.",
+            "timestamp": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          },
+          {
+            "description": "Narrator explains that the secondary monitor is now the primary display for gaming.",
+            "timestamp": {
+              "end_timestamp": "00:02:50.000",
+              "start_timestamp": "00:02:37.000"
+            }
+          },
+          {
+            "description": "Narrator emphasizes the importance of enabling the Intel driver after finishing gaming.",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          },
+          {
+            "description": "Narrator demonstrates enabling the Intel driver.",
+            "timestamp": {
+              "end_timestamp": "00:04:07.000",
+              "start_timestamp": "00:03:43.000"
+            }
+          },
+          {
+            "description": "Narrator switches back to the secondary monitor by disabling the Intel driver.",
+            "timestamp": {
+              "end_timestamp": "00:04:28.000",
+              "start_timestamp": "00:04:07.000"
+            }
+          },
+          {
+            "description": "Narrator summarizes the solution and thanks viewers.",
+            "timestamp": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:04:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator addresses the audience directly."
+          }
+        ],
+        "contextualRelevance": "The scene provides a detailed walkthrough of solving the lag issue, making it relevant for gamers facing similar problems.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Helpful, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstration and explanation of the solution",
+            "timestamp": "00:01:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer desktop with icons",
+            "timestamp": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:01:17.000"
+            }
+          },
+          {
+            "name": "Device Manager window",
+            "timestamp": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:01:17.000"
+            }
+          },
+          {
+            "name": "OBS Studio window",
+            "timestamp": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:01:17.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Gaming, technology, troubleshooting, problem-solving",
+        "timestamps": {
+          "end_timestamp": "00:04:51.733",
+          "start_timestamp": "00:01:16.600"
+        },
+        "title": "Demonstration and Explanation of the Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the desktop, no transitions or effects. Suggestion: Trimming pauses between steps and speeding up cursor movements would make the demonstration more concise.",
+            "timestamps": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:01:17.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The narrator disables the Intel driver, making the secondary monitor the primary display for gaming, thereby eliminating the lag.",
+        "timestamp": "00:02:16.000"
+      },
+      "description": "Solving the Lag Issue on Secondary Monitors",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Solving Lag Issue on Secondary Monitors for Gaming Laptops",
+    "trimmingSuggestions": [
+      {
+        "description": "The intro could be shortened to jump to the solution quicker.",
+        "timestamps": {
+          "end_timestamp": "00:01:16.600",
+          "start_timestamp": "00:01:16.600"
+        }
+      },
+      {
+        "description": "Trimming pauses and slow cursor movements in Scene 2 could improve the pace and conciseness of the demonstration.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 292,
+  "original_json_filename": "Q_4J7L84JWw.json",
+  "original_video_filename": "Q_4J7L84JWw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "okay guys hello welcome to the channel chris 2.0 coming in here um today i'm going to be showing you how to get rid of the lag on any of your gaming laptops you know could be anything of the msi series asus series i have a msi have an asus and both worked by doing this method this right here is my primary laptop display so you have an extended display plugged into your port and you go to sync use second monitor only or duplicate your display whatever you do and the second monitor has some lag in it and you don't want that because that 10 milliseconds of lag is life and death and say call of duty sniper elite all them games and so the very first practice is to go down here to your power options i don't know my mind's minimized uh go to high performance or show additional plan i have gaming power saver make sure that's on high performance that's what you want right there and with that i still had some lag in the secondary display but this is what i did to fix it very first thing you want to do is go down here to the search bar go to device manager now when you're under device manager you want to go to display adapters you're going to see intel and nvidia geforce gtx that's the graphics card in the laptop that is the graphics card that the second monitor is running on now for whatever reason you have some game lag well what you want to do so this say this norton is your laptop display and oracle vm is the gtx 1060 well that signal displays through this and then comes over to your second you want to get rid of that delay now when we go up here to intel you're going to want to right click and disable it now that is going to make your secondary monitor your primary and you're going to see this in a minute on a disabled device yes okay now you're seeing multiple screens we are now on my second monitor which is my hp 27m just cheapo from walmart and now this is going i'm going to drag this back to my laptop display because my laptop display is now the secondary and this is your external monitor that you want to game on you want to get rid of the lag well now this is your primary so by doing this you're going to be able to game do anything you want with no lag on this monitor anymore a very important step though is when you're done playing your game when you're done editing whatever you do on this monitor before you shut down your computer because if you don't do this and you fire up your computer the screen will be black unless you have your monitor plugged in which most the time you will you will have to go back to graphics and enable when you're done gaming or what have you and that's going to put the primary display back on your laptop so say you get done gaming you unplug your laptop you go somewhere you fire it up and the screen's black well that's because you never enabled this device again so it's good practice just to enable it when you're done gaming i'll enable it here and see what it does okay now i'm looking at my primary and my secondary monitor is now my secondary this is my hp where you're seeing a lot of this obs floating around so now i'm looking at my laptop monitor and now it's back to normal say i want to switch back over to the secondary again all i have to do is disable it and now we're back here on my secondary device and i can drag that to the laptop so it's as simple as that guys uh just disable your internal driver and stuff will run through your external graphics card disable any of the lag [Music] thanks for checking out the channel in the video i hope this helped all of you don't forget to leave a like and possibly subscribe for more videos thanks guys",
+  "text_to_speech_word_count": 718,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.700",
+      "start": "00:00:00.000",
+      "text": " Okay guys, hello, welcome to the channel Chris 2.0."
+    },
+    {
+      "end": "00:00:08.200",
+      "start": "00:00:06.700",
+      "text": " Coming in here."
+    },
+    {
+      "end": "00:00:13.867",
+      "start": "00:00:08.200",
+      "text": " Today I'm going to be showing you how to get rid of the lag on any of your gaming laptops."
+    },
+    {
+      "end": "00:00:17.833",
+      "start": "00:00:13.867",
+      "text": " You know, could be any of the MSI series, a Sue series."
+    },
+    {
+      "end": "00:00:24.700",
+      "start": "00:00:17.833",
+      "text": " I have a MSI having a soos and both worked by doing this method."
+    },
+    {
+      "end": "00:00:27.133",
+      "start": "00:00:24.700",
+      "text": " This right here is my primary laptop display."
+    },
+    {
+      "end": "00:00:35.267",
+      "start": "00:00:27.133",
+      "text": " You have an extended display plugged into your port and you go to use second monitor only"
+    },
+    {
+      "end": "00:00:39.100",
+      "start": "00:00:35.267",
+      "text": " or duplicate your display, whatever you do."
+    },
+    {
+      "end": "00:00:43.833",
+      "start": "00:00:39.100",
+      "text": " And the second monitor has some lag in it and you don't want that because that 10 milliseconds"
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:43.833",
+      "text": " of lag is life and death and say, call a duty sniper elite, all them games."
+    },
+    {
+      "end": "00:00:58.133",
+      "start": "00:00:51.000",
+      "text": " And so the very first practice is to go down here to your power options."
+    },
+    {
+      "end": "00:00:59.133",
+      "start": "00:00:58.133",
+      "text": " Click."
+    },
+    {
+      "end": "00:01:00.633",
+      "start": "00:00:59.133",
+      "text": " I don't know my mind."
+    },
+    {
+      "end": "00:01:05.500",
+      "start": "00:01:00.633",
+      "text": " When am I used to go to high performance or show additional playing a gaming power"
+    },
+    {
+      "end": "00:01:06.500",
+      "start": "00:01:05.500",
+      "text": " saver."
+    },
+    {
+      "end": "00:01:07.500",
+      "start": "00:01:06.500",
+      "text": " Make sure that's on high performance."
+    },
+    {
+      "end": "00:01:10.000",
+      "start": "00:01:07.500",
+      "text": " That's what you want right there."
+    },
+    {
+      "end": "00:01:16.200",
+      "start": "00:01:10.000",
+      "text": " And with that, I still had some lag in the secondary display, but this is what I did to"
+    },
+    {
+      "end": "00:01:17.867",
+      "start": "00:01:16.200",
+      "text": " fix it."
+    },
+    {
+      "end": "00:01:26.800",
+      "start": "00:01:17.867",
+      "text": " The very first thing you want to do is go down here to the search bar, go to device manager."
+    },
+    {
+      "end": "00:01:31.267",
+      "start": "00:01:26.800",
+      "text": " Now when you're under device manager, you want to go to display adapters."
+    },
+    {
+      "end": "00:01:35.033",
+      "start": "00:01:31.267",
+      "text": " You're going to see Intel and Nvidia GeForce GTX."
+    },
+    {
+      "end": "00:01:37.067",
+      "start": "00:01:35.033",
+      "text": " That's the graphics card in the laptop."
+    },
+    {
+      "end": "00:01:40.633",
+      "start": "00:01:37.067",
+      "text": " That is the graphics card that the second monitor is running on."
+    },
+    {
+      "end": "00:01:44.133",
+      "start": "00:01:40.633",
+      "text": " Now for whatever reason, you have some game lag."
+    },
+    {
+      "end": "00:01:47.267",
+      "start": "00:01:44.133",
+      "text": " Now what you want to do."
+    },
+    {
+      "end": "00:01:54.267",
+      "start": "00:01:47.267",
+      "text": " This say this Norton is your laptop display and Oracle VM is a GTX 1060."
+    },
+    {
+      "end": "00:01:59.200",
+      "start": "00:01:54.267",
+      "text": " Well, that signal displays through this and then comes over to your second."
+    },
+    {
+      "end": "00:02:01.667",
+      "start": "00:01:59.200",
+      "text": " You want to get rid of that delay."
+    },
+    {
+      "end": "00:02:06.900",
+      "start": "00:02:01.667",
+      "text": " Now and we go up here to Intel, you're going to want to right click and disable it."
+    },
+    {
+      "end": "00:02:12.533",
+      "start": "00:02:06.900",
+      "text": " Now that is going to make your secondary monitor your primary and you're going to see this"
+    },
+    {
+      "end": "00:02:13.533",
+      "start": "00:02:12.533",
+      "text": " in a minute."
+    },
+    {
+      "end": "00:02:15.800",
+      "start": "00:02:13.800",
+      "text": " Want to disable device?"
+    },
+    {
+      "end": "00:02:16.800",
+      "start": "00:02:15.800",
+      "text": " Yes."
+    },
+    {
+      "end": "00:02:19.800",
+      "start": "00:02:16.800",
+      "text": " Okay."
+    },
+    {
+      "end": "00:02:22.233",
+      "start": "00:02:19.800",
+      "text": " Now you're seeing multiple screens."
+    },
+    {
+      "end": "00:02:31.500",
+      "start": "00:02:22.233",
+      "text": " We are now on my second monitor, which is my HP 27M, just cheapo from Walmart."
+    },
+    {
+      "end": "00:02:36.867",
+      "start": "00:02:31.500",
+      "text": " And now this is going, I'm going to drag this back to my laptop display."
+    },
+    {
+      "end": "00:02:41.033",
+      "start": "00:02:36.867",
+      "text": " Because my laptop display is now the secondary."
+    },
+    {
+      "end": "00:02:47.067",
+      "start": "00:02:41.033",
+      "text": " And this is your external monitor that you want to game on."
+    },
+    {
+      "end": "00:02:48.500",
+      "start": "00:02:47.067",
+      "text": " You want to get rid of the lag."
+    },
+    {
+      "end": "00:02:50.133",
+      "start": "00:02:48.500",
+      "text": " Well, now this is your primary."
+    },
+    {
+      "end": "00:02:55.900",
+      "start": "00:02:50.133",
+      "text": " So I do in this, you're going to be able to game do anything you want with no lag on"
+    },
+    {
+      "end": "00:02:57.333",
+      "start": "00:02:55.900",
+      "text": " this monitor anymore."
+    },
+    {
+      "end": "00:03:03.267",
+      "start": "00:02:57.333",
+      "text": " A very important step though is when you're done playing your game, when you're done editing,"
+    },
+    {
+      "end": "00:03:06.333",
+      "start": "00:03:03.267",
+      "text": " whatever you do on this monitor."
+    },
+    {
+      "end": "00:03:13.200",
+      "start": "00:03:07.067",
+      "text": " You shut down your computer because if you don't do this and you fire up your computer,"
+    },
+    {
+      "end": "00:03:17.333",
+      "start": "00:03:13.200",
+      "text": " the screen will be black unless you have your monitor plugged in, which most of the time"
+    },
+    {
+      "end": "00:03:25.467",
+      "start": "00:03:17.333",
+      "text": " you will, you will have to go back to graphics and enable when you're done gaming or what"
+    },
+    {
+      "end": "00:03:26.733",
+      "start": "00:03:25.467",
+      "text": " have you."
+    },
+    {
+      "end": "00:03:30.633",
+      "start": "00:03:26.733",
+      "text": " And that's going to put the primary display back on your laptop."
+    },
+    {
+      "end": "00:03:36.300",
+      "start": "00:03:30.633",
+      "text": " So say you get done gaming, unplug your laptop, you go somewhere, you fire it up."
+    },
+    {
+      "end": "00:03:37.867",
+      "start": "00:03:36.867",
+      "text": " And the screen's black."
+    },
+    {
+      "end": "00:03:41.767",
+      "start": "00:03:37.867",
+      "text": " Well, that's because you never enabled this device again."
+    },
+    {
+      "end": "00:03:45.133",
+      "start": "00:03:41.767",
+      "text": " So it's good practice just to enable it."
+    },
+    {
+      "end": "00:03:50.333",
+      "start": "00:03:45.133",
+      "text": " When you're done gaming, I'll enable it here and see what it does."
+    },
+    {
+      "end": "00:03:54.533",
+      "start": "00:03:50.333",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:00.633",
+      "start": "00:03:54.533",
+      "text": " Now I'm looking at my primary and my secondary monitor is now my secondary."
+    },
+    {
+      "end": "00:04:06.500",
+      "start": "00:04:00.633",
+      "text": " This is my HP where you're seeing a lot of this OBS floating around."
+    },
+    {
+      "end": "00:04:12.933",
+      "start": "00:04:06.500",
+      "text": " So now I'm looking at my laptop monitor and now it's back to normal."
+    },
+    {
+      "end": "00:04:17.567",
+      "start": "00:04:12.933",
+      "text": " I want to switch back over to the secondary again."
+    },
+    {
+      "end": "00:04:21.333",
+      "start": "00:04:17.567",
+      "text": " All I have to do is disable it."
+    },
+    {
+      "end": "00:04:27.433",
+      "start": "00:04:21.333",
+      "text": " And now we're back here on my secondary device and I can drag that to the laptop."
+    },
+    {
+      "end": "00:04:29.633",
+      "start": "00:04:27.833",
+      "text": " So it's as simple as that guys."
+    },
+    {
+      "end": "00:04:35.200",
+      "start": "00:04:29.633",
+      "text": " Just disable your internal driver and stuff will run through your external graphics card."
+    },
+    {
+      "end": "00:04:38.867",
+      "start": "00:04:35.200",
+      "text": " Disable any as a lag."
+    },
+    {
+      "end": "00:04:42.000",
+      "start": "00:04:38.867",
+      "text": " Thanks for checking out the channel and the video."
+    },
+    {
+      "end": "00:04:44.267",
+      "start": "00:04:42.000",
+      "text": " I hope this helped all of you."
+    },
+    {
+      "end": "00:04:49.433",
+      "start": "00:04:44.267",
+      "text": " Don't forget to leave a like and possibly subscribe for more videos."
+    },
+    {
+      "end": "00:04:50.133",
+      "start": "00:04:49.433",
+      "text": " Thanks guys."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Gaming"
+  ],
+  "youtube_channel": "CL2.0",
+  "youtube_channel_follower_count": 233,
+  "youtube_comment_count": 518,
+  "youtube_description": "Hello Guys, and girls in this video i will show you how to game on external monitors with your laptop. GET RID OF THAT EXTERNAL LAG!!. \n\nHas worked at about a 95% success rate.\nIf you end up crashing computer or bsod just restart and it will boot up. Normally. If your screen goes black and nothing is right. Start your laptop in safe mode and turn the driver back on. Voila!! Fixed again.\n\nFeel free to donate if you want. I'd greatly appreciate it. Have a great day!!!\n\nhttps://streamlabs.com/cl202",
+  "youtube_like_count": 2757,
+  "youtube_tags": [
+    "pc",
+    "like",
+    "Lag",
+    "Fix",
+    "External monitor",
+    "Laptop",
+    "Screen"
+  ],
+  "youtube_title": "HOW TO FIX LAG- EXTERNAL MONITORS- GAMING LAPTOPS MSI,ASUS,(ETC.)",
+  "youtube_upload_date": "20200821",
+  "youtube_view_count": 138756
+}

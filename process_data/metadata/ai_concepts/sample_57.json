@@ -1,0 +1,845 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short blond hair and tattoos on his arms, wearing a white t-shirt with a mathematical equation on it.",
+        "name": "Narrator"
+      },
+      {
+        "characterId": "2",
+        "description": "A middle-aged man with short dark hair and a serious expression, wearing a black suit.",
+        "name": "Elon Musk"
+      }
+    ],
+    "description": "This video delves into the realm of robotic locomotion, with a specific focus on adversarial motion priors as an innovative approach to teaching robots human-like movement. It blends storytelling with technical explanations to provide an engaging and informative experience.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The difference between randomly given velocity commands and the actual velocity of the robot.",
+        "question": "What is the primary component of a reward function in reinforcement learning for robotic locomotion?"
+      },
+      {
+        "answer": "Flying, walking on their knees, standing on their heads, and fast foot-tapping.",
+        "question": "What are some of the strange behaviors exhibited by robots trained with a basic reward function?"
+      },
+      {
+        "answer": "Adversarial motion priors simplify training by not requiring explicit action definitions.",
+        "question": "What is the primary advantage of using adversarial motion priors compared to hand-crafted reward functions?"
+      },
+      {
+        "answer": "It evaluates resemblance to reference motion capture, improving imitation.",
+        "question": "How does the discriminator in adversarial motion priors contribute to the robot's learning process?"
+      },
+      {
+        "answer": "The narrator faced challenges and complexity in applying the approach.",
+        "question": "What was the narrator's personal experience with implementing adversarial motion priors for the Boston Dynamics Atlas robot?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Robot Atlas jumps over boxes.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Elon Musk tweets about robot Atlas.",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "description": "Narrator speaks about the progress in robotic locomotion.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Narrator",
+          "Elon Musk"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Elon Musk",
+              "Narrator"
+            ],
+            "description": "Elon Musk's tweet indirectly interacts with the narrator by providing a contrasting viewpoint."
+          }
+        ],
+        "contextualRelevance": "Elon Musk's tweet introduces skepticism, adding depth to the video's message.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited, Curious.",
+          "keyMoments": [
+            {
+              "changeDescription": "Mood shifts from Excited to Neutral/Pensive as Elon Musk's tweet is shown.",
+              "timestamp": "00:00:10.000"
+            },
+            {
+              "changeDescription": "Mood transitions back to Curious as the narrator speaks about progress.",
+              "timestamp": "00:00:22.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Robot Atlas' impressive backflip sets the stage for the discussion.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Elon Musk's tweet introduces skepticism.",
+            "timestamp": "00:00:10.000"
+          },
+          {
+            "description": "The narrator shifts focus to progress in robotic locomotion.",
+            "timestamp": "00:00:22.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Robot Atlas, boxes.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Elon Musk's tweet.",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Advancements in robotics, skepticism vs. excitement, future of technology.",
+        "timestamps": {
+          "end_timestamp": "00:00:27.567",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Robotic Locomotion and Public Reaction",
+        "videoEditingDetails": [
+          {
+            "description": "Fast cuts and close-ups of the robot.",
+            "timestamps": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Zoom in on Elon Musk's tweet.",
+            "timestamps": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "description": "Images of hoverboards and atomic cars fade in and out.",
+            "timestamps": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains how robots can learn locomotion.",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:27.600"
+            }
+          },
+          {
+            "description": "Narrator speaks about the challenges of teaching robots locomotion.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Narrator's mention of specific robotic behaviors highlights training complexities.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Confused.",
+          "keyMoments": [
+            {
+              "changeDescription": "Visuals shift to reflect the challenges faced in robot training.",
+              "timestamp": "00:00:41.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of reinforcement learning.",
+            "timestamp": "00:00:27.600"
+          },
+          {
+            "description": "Difficulties in creating accurate reward functions.",
+            "timestamp": "00:00:41.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated simulation of robots learning to walk.",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:27.600"
+            }
+          },
+          {
+            "name": "Animated simulation of robots exhibiting strange behaviors.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Reinforcement learning, robotic locomotion, challenges in AI.",
+        "timestamps": {
+          "end_timestamp": "00:00:59.300",
+          "start_timestamp": "00:00:27.600"
+        },
+        "title": "Teaching Robots Locomotion",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transitions between different robot models and simulations.",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:27.600"
+            }
+          },
+          {
+            "description": "Fast cuts and zoom-ins on the robots' unusual behaviors.",
+            "timestamps": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Branding element with the logo and 'Feature Series' signifies a segment within a larger series.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Brief pause and transition to main topic.",
+            "timestamp": "00:00:59.333"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Technology, AI, innovation.",
+        "timestamps": {
+          "end_timestamp": "00:01:03.300",
+          "start_timestamp": "00:00:59.333"
+        },
+        "title": "Transition and Branding",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a black screen with white code. Animated logo appears. Text 'Feature Series' fades in and out.",
+            "timestamps": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:00:59.333"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains adversarial motion priors.",
+            "timestamp": {
+              "end_timestamp": "00:08:33.000",
+              "start_timestamp": "00:01:03.333"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Comparison to GANs for deeper understanding of principles and applicability.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Excited.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Recap of limitations of hand-crafted reward functions.",
+            "timestamp": "00:01:03.333"
+          },
+          {
+            "description": "Introduction of adversarial motion priors as a solution.",
+            "timestamp": "00:01:14.000"
+          },
+          {
+            "description": "Benefits of providing motion capture data.",
+            "timestamp": "00:01:39.000"
+          },
+          {
+            "description": "Discussion of GANs connection to adversarial motion priors.",
+            "timestamp": "00:02:29.000"
+          },
+          {
+            "description": "Research on wheeled robots at ETH Zurich.",
+            "timestamp": "00:03:50.000"
+          },
+          {
+            "description": "Narrator's personal experimentation with challenges.",
+            "timestamp": "00:06:20.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Various diagrams, illustrations, and simulations of robots performing movements.",
+            "timestamp": {
+              "end_timestamp": "00:08:33.000",
+              "start_timestamp": "00:01:03.333"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Adversarial motion priors, imitation learning, motion capture, GANs, robotics research.",
+        "timestamps": {
+          "end_timestamp": "00:08:35.067",
+          "start_timestamp": "00:01:03.333"
+        },
+        "title": "Adversarial Motion Priors Explained",
+        "videoEditingDetails": [
+          {
+            "description": "Mix of static diagrams, animated simulations, and real-world footage of robots.",
+            "timestamps": {
+              "end_timestamp": "00:08:33.000",
+              "start_timestamp": "00:01:03.333"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Narrator's personal experience showcasing challenges and potential.",
+        "timestamp": "00:06:20.000"
+      },
+      "description": "Exploration of robotic locomotion, focusing on adversarial motion priors.",
+      "scenes": [
+        1,
+        2,
+        4
+      ]
+    },
+    "title": "Advancements in Robotic Locomotion: Exploring Adversarial Motion Priors",
+    "trimmingSuggestions": [
+      {
+        "description": "Reduce the duration of Elon Musk's tweet zoom-in.",
+        "timestamps": {
+          "end_timestamp": "00:01:03.333",
+          "start_timestamp": "00:01:03.333"
+        }
+      },
+      {
+        "description": "Shorten the transition scene.",
+        "timestamps": {
+          "end_timestamp": "00:01:03.333",
+          "start_timestamp": "00:01:03.333"
+        }
+      },
+      {
+        "description": "Trim where the narrator describes exploration journey.",
+        "timestamps": {
+          "end_timestamp": "00:07:30.000",
+          "start_timestamp": "00:07:10.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 516,
+  "original_json_filename": "3LkWydJq6y0.json",
+  "original_video_filename": "3LkWydJq6y0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "You remember when Boston Dynamics&nbsp; published a video of Atlas, where it&nbsp;&nbsp; did [funny squeaking], and then [funny squeaking]&nbsp; and then we were all like [crowd going wow ]. And&nbsp;&nbsp; then a wise man, who did not own Twitter at the&nbsp; time, said \"This is nothing. In a few years, that&nbsp;&nbsp; bot will move so fast, you'll need a strobe light&nbsp; to see it. Sweet dreams\". Well, I'm still waiting&nbsp;&nbsp; for my atomic car and my hoverboard. However,&nbsp; the progress in robotics locomotion in the last&nbsp;&nbsp; few years has been nothing short of amazing.&nbsp; Today, I want to talk to you about how robots&nbsp;&nbsp; can imitate the motion of humans or animals. I&nbsp; know it can get a bit technical at times, but&nbsp;&nbsp; believe me by the end of this 8-minute video, you&nbsp; will have a really good idea of how this works. In one of my previous videos, I used reinforcement&nbsp; learning to teach a robotic dog, Beetle, how to&nbsp;&nbsp; move forward, left, and right. There, I used a&nbsp; handcrafted reward function, which incentivizes&nbsp;&nbsp; the behavior you want the robot to do, in this&nbsp; case, walking, and penalizes everything else the&nbsp;&nbsp; robot might be doing, such as flying, walking&nbsp; on its knees, standing on its head, jumping.&nbsp;&nbsp; Creating an accurate, stable reward function is&nbsp; really challenging. The robot may exhibit some&nbsp;&nbsp; strange behaviors, as I mentioned earlier. The&nbsp; primary component of a reward function is the&nbsp;&nbsp; difference between the random commands we give to&nbsp; the robot and the actual velocity of the robot.&nbsp;&nbsp; For example, we give a command to move forward at&nbsp; a speed of 1 meter per second, and then we measure&nbsp;&nbsp; the robot's actual velocity. The difference&nbsp; between them is the reward or punishment. But&nbsp;&nbsp; having only this primary component is not enough;&nbsp; it's too crude and leads to all sorts of unwanted&nbsp;&nbsp; behavior. So we add more things to the reward&nbsp; function: feet-ground time, whether the joints&nbsp;&nbsp; are at their maximum positions, the termination&nbsp; reward or punishment if the robot doesn't last&nbsp;&nbsp; until the end of the round in the simulation, and&nbsp; so on. This fine-tuning of the reward function&nbsp;&nbsp; can be really time-consuming, even with Isaac&nbsp; Gym, which speeds up things considerably. But&nbsp;&nbsp; you'll need around 10-20 minutes to see&nbsp; the results and repeat this many times. Walking is not rocket science; it's&nbsp; about putting your left foot forward,&nbsp;&nbsp; then your right, and off you go. So we don't want&nbsp; the robot to figure out walking from scratch. We&nbsp;&nbsp; can tell the robot approximately what walking is&nbsp; like and then make sure it can apply it to its&nbsp;&nbsp; particular structure. This concept is not super&nbsp; complicated. Some smart people wrote papers on&nbsp;&nbsp; the topic. They had an idea that you can teach&nbsp; locomotion by providing a hint to the policy,&nbsp;&nbsp; the robot, in the form of motion capture files.&nbsp; This is where so-called adversarial motion priors&nbsp;&nbsp; come into play. In the paper, which is quite&nbsp; interesting and has a few visual demos, there are&nbsp;&nbsp; two reward components: a discriminator reward and&nbsp; a task reward. The task reward is pretty simple,&nbsp;&nbsp; like moving in a certain direction or to a&nbsp; specific location. The second component is the&nbsp;&nbsp; discriminator reward. When combined, the goal of&nbsp; the policy is to complete the task while imitating&nbsp;&nbsp; the style of movement from the motion capture&nbsp; files. The motion files were taken from Carnegie&nbsp;&nbsp; Mellon University's motion capture library and&nbsp; include movements like walking, running, jumping,&nbsp;&nbsp; yoga poses, etc. There's no need for direct&nbsp; correlation between the tasks and the motion&nbsp;&nbsp; capture files because the discriminator evaluates&nbsp; how closely the policy's movement resembles the&nbsp;&nbsp; one from the motion capture files. Over time,&nbsp; the policy will hopefully become similar in style&nbsp;&nbsp; to the motion capture file's movement and also&nbsp; complete the given task. This approach is similar&nbsp;&nbsp; to generative adversarial networks or GANs,&nbsp; which were all the rage for generating images&nbsp;&nbsp; before Stable Diffusion was introduced. This&nbsp; approach works well for robotic movements too. The powerful thing about adversarial motion&nbsp; priors is that in motion capture files,&nbsp;&nbsp; you only have observations; you don't&nbsp; know at what angle or position the&nbsp;&nbsp; joint was to complete the action. But&nbsp; with the adversarial motion priors,&nbsp;&nbsp; you don't need that information because the&nbsp; discriminator only judges the observations&nbsp;&nbsp; and has nothing to do with the actions.&nbsp; After my video about Beetle, I thought about&nbsp;&nbsp; how beneficial it would be for the policy to have&nbsp; access to hints in the form of animal movements,&nbsp;&nbsp; as it was a quadruped robot. Time passed, and&nbsp; I forgot about it. But recently, while looking&nbsp;&nbsp; at Isaac Gym environment's repository, I found&nbsp; they implemented the adversarial motion prior&nbsp;&nbsp; example from the paper. They implemented the&nbsp; style component but not the task component,&nbsp;&nbsp; which was quite easy to add. Researchers from ETH&nbsp; Zurich implemented adversarial motion priors for&nbsp;&nbsp; a wheeled version of an animal robot, and it&nbsp; worked fantastically for them. I decided to&nbsp;&nbsp; give it a shot and try implementing it with Boston&nbsp; Dynamics' Atlas. I know it's not very likely that&nbsp;&nbsp; I'll be able to try out what I have on a real&nbsp; robot, but who knows? Robert, call me, maybe. What I did was take the motion files for a human&nbsp; because Atlas is a humanoid robot, and then I went&nbsp;&nbsp; on a journey of exploration. Honestly, it was not&nbsp; easy. The code that Nvidia had for this example is&nbsp;&nbsp; good research code; it's very reproducible if you&nbsp; just want to reproduce that particular experiment&nbsp;&nbsp; with humanoid characters. But if you want to try&nbsp; it with your own robots, there are a lot of RAKES&nbsp;&nbsp; to step on. I want to give you an overview of the&nbsp; steps. This is not production-ready code, but I&nbsp;&nbsp; hope that if you follow my guide, you'll only step&nbsp; on two or three RAKES instead of 200, like I did. To see the code instructions, follow onto the&nbsp; next video, or if you're more interested in&nbsp;&nbsp; large language models and how you can run a&nbsp; custom GPT approximation on your computer,&nbsp;&nbsp; then here's another playlist&nbsp; about large language models.",
+  "text_to_speech_word_count": 1017,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.300",
+      "start": "00:00:00.000",
+      "text": " You remember how Boston Dynamics published a video of Atlas where it did?"
+    },
+    {
+      "end": "00:00:06.300",
+      "start": "00:00:05.500",
+      "text": " And then..."
+    },
+    {
+      "end": "00:00:08.633",
+      "start": "00:00:07.333",
+      "text": " And then we were all like,"
+    },
+    {
+      "end": "00:00:09.833",
+      "start": "00:00:08.633",
+      "text": " LOOOOO!"
+    },
+    {
+      "end": "00:00:15.433",
+      "start": "00:00:10.533",
+      "text": " And then, a wise man who did not own Twitter at the time said..."
+    },
+    {
+      "end": "00:00:16.067",
+      "start": "00:00:15.433",
+      "text": " This is nothing."
+    },
+    {
+      "end": "00:00:17.600",
+      "start": "00:00:16.867",
+      "text": " In a few years,"
+    },
+    {
+      "end": "00:00:22.233",
+      "start": "00:00:18.533",
+      "text": " that bot will move so fast you'll need a strobe light to see it, sweet dreams."
+    },
+    {
+      "end": "00:00:26.867",
+      "start": "00:00:23.200",
+      "text": " Well, I'm still waiting for my atomic car and my hoverboard."
+    },
+    {
+      "end": "00:00:33.667",
+      "start": "00:00:27.567",
+      "text": " However, the progress in robotics locomotion last few years has been nothing short of amazing."
+    },
+    {
+      "end": "00:00:41.433",
+      "start": "00:00:33.667",
+      "text": " Today, I would like to talk to you about how robots can imitate the motion of humans or animals."
+    },
+    {
+      "end": "00:00:45.900",
+      "start": "00:00:41.433",
+      "text": " And I know I can get a little bit technical at times, but believe me,"
+    },
+    {
+      "end": "00:00:51.333",
+      "start": "00:00:45.900",
+      "text": " by the end of this 8th net video, you will have a really good idea of how this works."
+    },
+    {
+      "end": "00:01:10.467",
+      "start": "00:00:57.833",
+      "text": " In one of my previous videos, I used reinforcement learning to teach robotic dog beetle how to move"
+    },
+    {
+      "end": "00:01:14.133",
+      "start": "00:01:10.467",
+      "text": " forward and left and right with the help of reinforcement learning."
+    },
+    {
+      "end": "00:01:17.333",
+      "start": "00:01:14.133",
+      "text": " And there I used handcrafted reward function."
+    },
+    {
+      "end": "00:01:23.833",
+      "start": "00:01:17.333",
+      "text": " Basically, reward function incentivizes the behavior you want the robot to do in this case,"
+    },
+    {
+      "end": "00:01:31.333",
+      "start": "00:01:23.833",
+      "text": " walking and it penalizes whatever else robot might be doing, such as flying, walking on its"
+    },
+    {
+      "end": "00:01:38.400",
+      "start": "00:01:31.333",
+      "text": " knees, standing on its head, jumping, creating, accurate, stable reward function is really challenging."
+    },
+    {
+      "end": "00:01:43.333",
+      "start": "00:01:38.400",
+      "text": " The robot may and will exhibit some strange behaviors what I told you about, right?"
+    },
+    {
+      "end": "00:01:49.267",
+      "start": "00:01:43.333",
+      "text": " Flying, walking on the knees, standing on the head, and maybe just moving its feet really,"
+    },
+    {
+      "end": "00:01:54.533",
+      "start": "00:01:49.267",
+      "text": " really fast, tapping on the floor and kind of floating about the surface."
+    },
+    {
+      "end": "00:02:01.667",
+      "start": "00:01:54.533",
+      "text": " So the primary component of our reward function is the difference between the random commands,"
+    },
+    {
+      "end": "00:02:07.033",
+      "start": "00:02:01.667",
+      "text": " random velocity commands that we give to the robot and the actual velocity of the robot."
+    },
+    {
+      "end": "00:02:12.233",
+      "start": "00:02:07.033",
+      "text": " For example, the random command that we give to particular robot is move forward with"
+    },
+    {
+      "end": "00:02:17.200",
+      "start": "00:02:12.233",
+      "text": " the speed of one meter per second and then we measure the actual velocity of the robot."
+    },
+    {
+      "end": "00:02:20.367",
+      "start": "00:02:17.267",
+      "text": " And the difference between them is the reward or punishment."
+    },
+    {
+      "end": "00:02:27.033",
+      "start": "00:02:20.367",
+      "text": " But having only primary component is not enough, it's too crude and it will lead to all"
+    },
+    {
+      "end": "00:02:32.633",
+      "start": "00:02:27.033",
+      "text": " sorts of unwanted behavior. So we add more things to this reward function, feed ground time,"
+    },
+    {
+      "end": "00:02:38.233",
+      "start": "00:02:32.633",
+      "text": " the joints allocated at their maximum positions, the termination reward or the punishment if the"
+    },
+    {
+      "end": "00:02:43.900",
+      "start": "00:02:38.767",
+      "text": " robot does not last until the end of the round in the simulation if it dies before that."
+    },
+    {
+      "end": "00:02:51.667",
+      "start": "00:02:44.133",
+      "text": " And so on and so forth, this fine tuning of the reward function can be really time consuming."
+    },
+    {
+      "end": "00:02:58.133",
+      "start": "00:02:51.667",
+      "text": " Even with Isaac Jim, which does speed up things considerably, but you'll need, I know,"
+    },
+    {
+      "end": "00:03:06.533",
+      "start": "00:02:58.133",
+      "text": " 10-20 minutes to go until you see the results and a reward function is correct and you will"
+    },
+    {
+      "end": "00:03:13.100",
+      "start": "00:03:06.533",
+      "text": " repeat many, many times. So that does not seem like a great approach because walking is not a rocket"
+    },
+    {
+      "end": "00:03:20.633",
+      "start": "00:03:13.100",
+      "text": " science. It's put your left feet forward, put your right feet forward and here it goes. So we don't"
+    },
+    {
+      "end": "00:03:28.067",
+      "start": "00:03:20.633",
+      "text": " really want the robot to figure out walking from scratch. We can tell the robot approximately what"
+    },
+    {
+      "end": "00:03:35.833",
+      "start": "00:03:28.067",
+      "text": " walking is like and then just make sure it can apply it to a particular structure, particular"
+    },
+    {
+      "end": "00:03:42.700",
+      "start": "00:03:35.833",
+      "text": " skeleton of the robot. This concept is not super complicated. Some smart people wrote papers on that"
+    },
+    {
+      "end": "00:03:50.933",
+      "start": "00:03:42.700",
+      "text": " topic. They have an idea that you can teach locomotion by providing hint to the policy to the robot"
+    },
+    {
+      "end": "00:03:56.633",
+      "start": "00:03:50.933",
+      "text": " in a form of motion capture files. This is where so-called adversarial motion priors come into play."
+    },
+    {
+      "end": "00:04:04.067",
+      "start": "00:03:56.633",
+      "text": " In the paper, which is quite interesting in a few visual demos, there are two reward components."
+    },
+    {
+      "end": "00:04:10.000",
+      "start": "00:04:04.067",
+      "text": " There is a discriminatory reward and there is a task reward. So the task reward is actually pretty"
+    },
+    {
+      "end": "00:04:17.033",
+      "start": "00:04:10.000",
+      "text": " simple. This is, for example, moving in certain direction or moving to a certain location or this"
+    },
+    {
+      "end": "00:04:22.933",
+      "start": "00:04:17.033",
+      "text": " is a simple velocity command. That's the one I used. And the second component is the discriminatory"
+    },
+    {
+      "end": "00:04:30.133",
+      "start": "00:04:22.933",
+      "text": " reward. When you combine them together, then the goal of the policy is to complete the task while"
+    },
+    {
+      "end": "00:04:37.100",
+      "start": "00:04:30.133",
+      "text": " imitating the style of the certain movement from the motion capture files. The motion files,"
+    },
+    {
+      "end": "00:04:43.100",
+      "start": "00:04:37.100",
+      "text": " they were taken from Carnegie Mellon University motion capture library and they include movements"
+    },
+    {
+      "end": "00:04:49.333",
+      "start": "00:04:43.100",
+      "text": " such as walking, running, jumping, yoga poses, whatsoever. So there is no need for direct"
+    },
+    {
+      "end": "00:04:56.800",
+      "start": "00:04:49.333",
+      "text": " correlation between the tasks and the motion capture files because the discriminator evaluates"
+    },
+    {
+      "end": "00:05:04.067",
+      "start": "00:04:56.800",
+      "text": " how closely the policy movement resembles the one from the motion capture files. So essentially,"
+    },
+    {
+      "end": "00:05:13.333",
+      "start": "00:05:04.067",
+      "text": " it's trying to tell if the observations come from a robot or the policy or they come from the"
+    },
+    {
+      "end": "00:05:20.300",
+      "start": "00:05:13.333",
+      "text": " motion capture files. That means that with the time the policy hopefully will become similar"
+    },
+    {
+      "end": "00:05:27.833",
+      "start": "00:05:20.300",
+      "text": " in style to the motion capture files movement and also will be able to complete the task given to"
+    },
+    {
+      "end": "00:05:33.267",
+      "start": "00:05:28.133",
+      "text": " it. And you might recognize this approach. This is actually a generative adversarial networks"
+    },
+    {
+      "end": "00:05:40.767",
+      "start": "00:05:33.267",
+      "text": " or GANs. Before stable diffusion was introduced, they were all the rage for generating the images."
+    },
+    {
+      "end": "00:05:47.033",
+      "start": "00:05:40.767",
+      "text": " Turns out this approach works really well for robotic movements too. To emphasize what they"
+    },
+    {
+      "end": "00:05:53.033",
+      "start": "00:05:47.033",
+      "text": " actually say in the paper. The powerful thing about the adversarial motion priors is that"
+    },
+    {
+      "end": "00:05:59.733",
+      "start": "00:05:53.600",
+      "text": " in motion capture file you only have the observations. You do not have the actions. You do not know"
+    },
+    {
+      "end": "00:06:07.100",
+      "start": "00:05:59.733",
+      "text": " at which certain angle position was the joint to complete the action. But with the adversarial"
+    },
+    {
+      "end": "00:06:13.733",
+      "start": "00:06:07.100",
+      "text": " motion priors you don't need that information because the discriminator here, it only judges"
+    },
+    {
+      "end": "00:06:20.933",
+      "start": "00:06:13.733",
+      "text": " the observations and has nothing to do with the actions. After my video about Vittel, I sought"
+    },
+    {
+      "end": "00:06:26.633",
+      "start": "00:06:21.033",
+      "text": " about how it would be beneficial for the policy to have access to this kind of hint in the form of"
+    },
+    {
+      "end": "00:06:31.733",
+      "start": "00:06:26.633",
+      "text": " animal movements because it was a quadruped romance. And then time passed by, I forgot about it,"
+    },
+    {
+      "end": "00:06:37.333",
+      "start": "00:06:31.733",
+      "text": " I was doing some other projects recently. I was looking at Isaac Jim environments repository"
+    },
+    {
+      "end": "00:06:43.900",
+      "start": "00:06:37.333",
+      "text": " and I found that they implemented the adversarial motion priors example from the paper. They only"
+    },
+    {
+      "end": "00:06:49.033",
+      "start": "00:06:43.900",
+      "text": " implemented the style component. They did not implement the task component but actually that part"
+    },
+    {
+      "end": "00:06:54.233",
+      "start": "00:06:49.033",
+      "text": " was quite easy. And when I saw this I thought to myself, yeah, after some tweaking that would work"
+    },
+    {
+      "end": "00:07:00.800",
+      "start": "00:06:54.233",
+      "text": " great. After browsing a little bit on YouTube I also discovered that researchers from ETH Zurich"
+    },
+    {
+      "end": "00:07:07.733",
+      "start": "00:07:00.800",
+      "text": " they implemented adversarial motion priors for a wild version of animal robot and it worked"
+    },
+    {
+      "end": "00:07:14.533",
+      "start": "00:07:07.733",
+      "text": " fantastic for them. I decided to give it a shot and try implementing it with Boston Dynamics"
+    },
+    {
+      "end": "00:07:23.667",
+      "start": "00:07:14.633",
+      "text": " Appless. Yeah, I know it's not very likely that I'll be able to try out what I have on a real robot"
+    },
+    {
+      "end": "00:07:31.433",
+      "start": "00:07:23.667",
+      "text": " or maybe I will. Who knows? Robert, Colby maybe. What I did was I took the motion files before"
+    },
+    {
+      "end": "00:07:38.233",
+      "start": "00:07:31.433",
+      "text": " human because it's a humanoid robot and then went to the journey of exploration. Honestly, it was not"
+    },
+    {
+      "end": "00:07:46.933",
+      "start": "00:07:38.800",
+      "text": " easy. The code that in video hand for this example is a good research code. It's very reproducible."
+    },
+    {
+      "end": "00:07:53.200",
+      "start": "00:07:46.933",
+      "text": " If you just want to reproduce that particular experiment with the humanoid characters, it works"
+    },
+    {
+      "end": "00:08:02.000",
+      "start": "00:07:53.200",
+      "text": " great. But if you want to try it with your own robots then there are a lot of rakes to step on."
+    },
+    {
+      "end": "00:08:08.700",
+      "start": "00:08:02.000",
+      "text": " I want to give you the overview of the steps. This is not a production-ready code but I hope that"
+    },
+    {
+      "end": "00:08:16.000",
+      "start": "00:08:08.700",
+      "text": " if you follow my guide then you would only step on two or three rakes instead of 200 like I did."
+    },
+    {
+      "end": "00:08:23.333",
+      "start": "00:08:17.100",
+      "text": " All right, so to see the code instructions follow onto the next video or if you're more interested"
+    },
+    {
+      "end": "00:08:29.733",
+      "start": "00:08:23.333",
+      "text": " in large language models and how you can run a custom GPT approximation on your computer,"
+    },
+    {
+      "end": "00:08:35.333",
+      "start": "00:08:29.733",
+      "text": " then here's another playlist about large language models."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Hardware.ai",
+  "youtube_channel_follower_count": 10100,
+  "youtube_comment_count": 11,
+  "youtube_description": "Learn how to use Deep Reinforcement Learning (a method of Machine Learning which involves rewarding the agent for doing something correctly, and punishing it for doing anything incorrectly) and Adversarial Motion Priors (Motion Imitation from Observations) for training robots lifelike movement in a simulation, with Boston Dynamics Atlas. Similar techniques are applicable to other humanoid robots, like Agility’s DIGIT used in Amazon warehouse or Tesla's Optimus - or even non-humanoid robots, such as #disney Imagineering latest adorable biped robot, currently being tested at Galaxy's Edge.\n\nWhile I do not have exact information on how Boston Dynamics Atlas works, it is a good educated guess :)\n\nGithub:\nhttps://github.com/AIWintermuteAI/IsaacGymEnvs/tree/atlas_amp_wip\nWill likely merge to main branch with time.\n\nMotion capture files:\nhttp://mocap.cs.cmu.edu/\nhttps://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/the-3dsmax-friendly-bvh-release-of-cmus-motion-capture-database\n\nRobot descriptions:\nhttps://github.com/robot-descriptions/awesome-robot-descriptions",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "ai",
+    "machine learning",
+    "robot",
+    "robotics",
+    "Boston Dynamics",
+    "Atlas Robot",
+    "Artificial Intelligence",
+    "Reinforcement Learning",
+    "Robotics Evolution",
+    "Humanoid Robots",
+    "Motion Capture Technology",
+    "AI Advancements",
+    "Robotic Movement",
+    "Adversarial Motion Priors",
+    "AI Mimicry",
+    "Autonomous Robots",
+    "Robotics Engineering",
+    "Learning Algorithms",
+    "Robot Agility",
+    "AI Research",
+    "tutorial",
+    "how can i make robot walk",
+    "how to teach robot how to walk",
+    "simulation",
+    "sim-to-real",
+    "tesla optimus",
+    "star wars robot",
+    "robot dance"
+  ],
+  "youtube_title": "Human Moves, Robotic Grooves: AI Mimics Human Motion in Stunning Detail",
+  "youtube_upload_date": "20231201",
+  "youtube_view_count": 670
+}

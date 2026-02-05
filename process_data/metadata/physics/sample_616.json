@@ -1,0 +1,936 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "intro-animation",
+        "description": "A generic character featured in the video's intro; not involved in the main content.",
+        "name": "Generic Animated Character"
+      }
+    ],
+    "description": "An educational video explaining the concept, function, and application of thermocouples.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Blue.",
+        "question": "What color is the candle flame in the thermocouple illustration?"
+      },
+      {
+        "answer": "Iron and Constantan.",
+        "question": "What two metals are used in the thermocouple example shown in the video?"
+      },
+      {
+        "answer": "To eliminate the voltage produced by the secondary junction, ensuring that only the voltage from the primary junction (exposed to the measured temperature) is recorded, leading to accurate temperature readings.",
+        "question": "What is the purpose of immersing the secondary junction in ice water?"
+      },
+      {
+        "answer": "Maintaining a consistent 0°C temperature for the ice water might be challenging in practical applications, especially in fluctuating environments.",
+        "question": "What could be a potential drawback of using ice water as a reference point for the cold junction?"
+      },
+      {
+        "answer": "The video has a neutral and informative mood, focusing on clearly explaining the concept of thermocouples and their operation. The visuals and narration are straightforward and objective, aiming to educate the viewer.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.5,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduces the concept of thermocouples to the viewer.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic of thermocouples.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Introduction to a scientific concept.",
+        "timestamps": {
+          "end_timestamp": "00:00:10.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Animated intro with a generic character and a lightbulb.",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to a green background with a title slide \"Thermocouples\".",
+            "timestamps": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explains the basic working principle of thermocouples.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious, Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Definition of a thermocouple as a temperature sensor.",
+            "timestamp": "00:00:16.000"
+          },
+          {
+            "description": "Explanation of the proportional relationship between heat and voltage output.",
+            "timestamp": "00:00:22.000"
+          },
+          {
+            "description": "Description of the materials used in thermocouples.",
+            "timestamp": "00:00:27.000"
+          },
+          {
+            "description": "How thermocouples convert heat into voltage at the junction of dissimilar metals.",
+            "timestamp": "00:00:31.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text describing thermocouples",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "name": "Illustration of a thermocouple setup with a millivoltmeter, legend, candle, and wires",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Scientific explanation of a concept, conversion of energy.",
+        "timestamps": {
+          "end_timestamp": "00:00:37.000",
+          "start_timestamp": "00:00:10.033"
+        },
+        "title": "Definition and Function of Thermocouples",
+        "videoEditingDetails": [
+          {
+            "description": "Text appears on the screen with definitions and explanations.",
+            "timestamps": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "description": "Illustration fades in, highlighting the components of a thermocouple setup.",
+            "timestamps": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Placing a thermometer in hot liquid",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          },
+          {
+            "description": "Placing a thermocouple in hot liquid",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates the practical use of thermocouples in measurement.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative, Instructive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explaining the generation of a small voltage across the thermocouple junction.",
+            "timestamp": "00:00:37.033"
+          },
+          {
+            "description": "Measuring the temperature of hot liquid with a thermometer.",
+            "timestamp": "00:00:44.000"
+          },
+          {
+            "description": "Measuring the voltage generated by a thermocouple in the same hot liquid.",
+            "timestamp": "00:00:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Beaker with hot liquid",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          },
+          {
+            "name": "Thermometer",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          },
+          {
+            "name": "Thermocouple setup with a millivoltmeter",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Practical application of thermocouples, measurement and comparison of temperature and voltage.",
+        "timestamps": {
+          "end_timestamp": "00:00:55.000",
+          "start_timestamp": "00:00:37.033"
+        },
+        "title": "Voltage Development and Measurement",
+        "videoEditingDetails": [
+          {
+            "description": "Illustration of a beaker with hot liquid fades in.",
+            "timestamps": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          },
+          {
+            "description": "A thermometer is placed in the liquid, and the temperature reading increases.",
+            "timestamps": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          },
+          {
+            "description": "The thermometer is replaced with a thermocouple setup, and the voltage reading increases.",
+            "timestamps": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Guides the viewer in translating voltage readings to temperature values.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informative, Analytical",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Instruction to use the table for determining the temperature from the measured voltage.",
+            "timestamp": "00:00:55.033"
+          },
+          {
+            "description": "Demonstrating the use of the table with the given voltage reading.",
+            "timestamp": "00:00:59.000"
+          },
+          {
+            "description": "Highlighting the discrepancy between the thermometer reading and the calculated thermocouple temperature.",
+            "timestamp": "00:01:03.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text explaining the use of the manufacturer's table.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:55.033"
+            }
+          },
+          {
+            "name": "Manufacturer's table with voltage output in millivolts corresponding to temperature in degrees Celsius.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:55.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Data interpretation, accuracy of measurement, understanding limitations.",
+        "timestamps": {
+          "end_timestamp": "00:01:09.000",
+          "start_timestamp": "00:00:55.033"
+        },
+        "title": "Using the Manufacturer's Table",
+        "videoEditingDetails": [
+          {
+            "description": "Text appears on the screen, instructing the use of the manufacturer's table.",
+            "timestamps": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:55.033"
+            }
+          },
+          {
+            "description": "The table fades in with the relevant data highlighted.",
+            "timestamps": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:55.033"
+            }
+          },
+          {
+            "description": "Text appears asking if the two temperature measurements match.",
+            "timestamps": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "description": "\"No\" appears on the screen.",
+            "timestamps": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explains the complexities of accurate measurements in thermocouple use.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative, Explanatory",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Identifying the secondary junction and its location in the setup.",
+            "timestamp": "00:01:09.033"
+          },
+          {
+            "description": "Explaining the difference in voltage produced by the secondary junction compared to the primary junction.",
+            "timestamp": "00:01:20.000"
+          },
+          {
+            "description": "Reason 1: Connection type of the secondary junction.",
+            "timestamp": "00:01:27.000"
+          },
+          {
+            "description": "Reason 2: Ambient temperature influence on the secondary junction.",
+            "timestamp": "00:01:32.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Illustration of a voltmeter, thermocouple wires, and junction points.",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.033"
+            }
+          },
+          {
+            "name": "Text explaining the secondary junction and its effect on voltage readings.",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.033"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Potential sources of error in measurement, understanding the complete circuit.",
+        "timestamps": {
+          "end_timestamp": "00:01:37.000",
+          "start_timestamp": "00:01:09.033"
+        },
+        "title": "The Secondary Junction and its Effect",
+        "videoEditingDetails": [
+          {
+            "description": "Text appears explaining the secondary junction formed by the copper lead and iron wire.",
+            "timestamps": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:09.033"
+            }
+          },
+          {
+            "description": "The illustration highlights the positive copper lead and the thermocouple iron wire connection.",
+            "timestamps": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:09.033"
+            }
+          },
+          {
+            "description": "Text appears explaining why the secondary junction voltage differs from the primary junction.",
+            "timestamps": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          },
+          {
+            "description": "Two bullet points appear outlining the reasons for the voltage difference: different connection type and exposure to ambient temperature.",
+            "timestamps": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Immersing the secondary junction in ice water",
+            "timestamp": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates solution for mitigating errors in thermocouple readings.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Problem-Solving, Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The secondary junction voltage cancels some of the primary junction voltage, leading to inaccurate readings.",
+            "timestamp": "00:01:37.033"
+          },
+          {
+            "description": "Controlling the secondary junction voltage is necessary for accurate measurements.",
+            "timestamp": "00:01:48.000"
+          },
+          {
+            "description": "Immersing the secondary junction in ice water at 0°C (32°F) eliminates its voltage contribution.",
+            "timestamp": "00:01:53.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Illustration of the thermocouple setup with a millivoltmeter, copper and iron wires, hot water beaker, and ice water beaker.",
+            "timestamp": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          },
+          {
+            "name": "Text explaining the solution to the secondary junction problem.",
+            "timestamp": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Importance of a reference point, achieving accurate measurements through controlled conditions.",
+        "timestamps": {
+          "end_timestamp": "00:02:02.000",
+          "start_timestamp": "00:01:37.033"
+        },
+        "title": "Correcting for the Secondary Junction Voltage",
+        "videoEditingDetails": [
+          {
+            "description": "Text appears explaining the effect of the secondary junction voltage on the primary junction.",
+            "timestamps": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          },
+          {
+            "description": "The illustration highlights the two junction points, labeling them with \"Smaller voltage at secondary junction\" and \"Larger voltage at primary junction\".",
+            "timestamps": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          },
+          {
+            "description": "Text appears explaining that this situation leads to inaccurate readings.",
+            "timestamps": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:45.000"
+            }
+          },
+          {
+            "description": "Text appears explaining how to control the voltage of the secondary junction.",
+            "timestamps": {
+              "end_timestamp": "00:01:53.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "description": "The secondary junction of the thermocouple setup is immersed in the ice water beaker.",
+            "timestamps": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Taking a voltage measurement with the reference junction immersed in ice water.",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Shows solution implementation for better temperature measurement.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative, Solution-Oriented",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing the term \"cold junction\" for the reference junction immersed in ice water.",
+            "timestamp": "00:02:02.033"
+          },
+          {
+            "description": "Taking a new voltage measurement with the controlled cold junction.",
+            "timestamp": "00:02:07.000"
+          },
+          {
+            "description": "Using the manufacturer's table to determine the corresponding temperature from the accurate voltage reading.",
+            "timestamp": "00:02:13.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Same illustration as in the previous scene",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:02:02.033"
+            }
+          },
+          {
+            "name": "Text explaining the reference junction, also known as the cold junction.",
+            "timestamp": {
+              "end_timestamp": "00:02:07.000",
+              "start_timestamp": "00:02:02.033"
+            }
+          },
+          {
+            "name": "Text instructing to take a voltage measurement with the reference junction in ice water.",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          },
+          {
+            "name": "Manufacturer's table with the corresponding voltage highlighted.",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          },
+          {
+            "name": "Text with the calculation using the table data.",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Importance of a stable reference point, achieving accuracy in measurement.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.000",
+          "start_timestamp": "00:02:02.033"
+        },
+        "title": "The Cold Junction and Accurate Measurement",
+        "videoEditingDetails": [
+          {
+            "description": "Text appears explaining the reference junction or cold junction.",
+            "timestamps": {
+              "end_timestamp": "00:02:07.000",
+              "start_timestamp": "00:02:02.033"
+            }
+          },
+          {
+            "description": "Text appears instructing to take the voltage measurement.",
+            "timestamps": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          },
+          {
+            "description": "The voltmeter displays the new voltage reading (3.92 mV).",
+            "timestamps": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:02:09.000"
+            }
+          },
+          {
+            "description": "The scene transitions to the manufacturer's table with the relevant voltage highlighted.",
+            "timestamps": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          },
+          {
+            "description": "The calculation using the table data appears.",
+            "timestamps": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Answering questions",
+            "timestamp": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Assesses viewer comprehension and reinforces learning.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Evaluative, Encouraging",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing the understanding check section.",
+            "timestamp": "00:02:24.033"
+          },
+          {
+            "description": "Question 1: What readings are taken from a thermocouple for temperature measurement? (Answer: Voltage)",
+            "timestamp": "00:02:30.000"
+          },
+          {
+            "description": "Question 2: What does the secondary junction voltage do to the primary junction voltage when not immersed in ice water? (Answer: Cancels)",
+            "timestamp": "00:02:39.000"
+          },
+          {
+            "description": "Question 3: What is the temperature when the thermocouple produces 1.48 mV? (Answer: 30°C)",
+            "timestamp": "00:02:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text instructing the viewer to check their understanding and encouraging the use of pause.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          },
+          {
+            "name": "Three multiple-choice questions with answers.",
+            "timestamp": {
+              "end_timestamp": "00:03:12.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          },
+          {
+            "name": "Congratulations message and credits.",
+            "timestamp": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:03:13.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Knowledge assessment, reinforcement of learned concepts.",
+        "timestamps": {
+          "end_timestamp": "00:03:24.867",
+          "start_timestamp": "00:02:24.033"
+        },
+        "title": "Understanding Check",
+        "videoEditingDetails": [
+          {
+            "description": "Text appears introducing the understanding check section.",
+            "timestamps": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:24.033"
+            }
+          },
+          {
+            "description": "Each question appears sequentially with the correct answer highlighted after a brief pause.",
+            "timestamps": {
+              "end_timestamp": "00:03:12.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          },
+          {
+            "description": "The scene transitions to a congratulations message with the title of the activity and credits.",
+            "timestamps": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:03:13.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs in Scene 7 (2:07 - 2:13) when the accurate voltage measurement is taken with the controlled cold junction, showcasing the importance of a stable reference point.",
+        "timestamp": "00:02:07.000"
+      },
+      "description": "This video presents a single storyline focused on explaining the concept of thermocouples.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "Thermocouples",
+    "trimmingSuggestions": [
+      {
+        "description": "Condense the lengthy text explanations, potentially using bullet points or concise sentences.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.033",
+          "start_timestamp": "00:02:24.033"
+        }
+      },
+      {
+        "description": "Reduce the time spent on the manufacturer's table, only highlighting the key values.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.033",
+          "start_timestamp": "00:02:24.033"
+        }
+      },
+      {
+        "description": "Condense the text explanations regarding the secondary junction.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.033",
+          "start_timestamp": "00:02:24.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 205,
+  "original_json_filename": "0gpHuqOSl2g.json",
+  "original_video_filename": "0gpHuqOSl2g.mp4",
+  "resolution": "482x360",
+  "text_to_speech": "[Music] welcome to this video thermocouples a thermocouple is an electrical temperature sensor that is capable of converting heat into voltage the amount of voltage that is produced is proportional to the amount of heat to which it is exposed thermocouples are made of two dissimilar metals joined together when exposed to heat a small number of electrons drift from one metal to the other at the junction the result is that a small voltage develops across the junction observe how this voltage develops watch as we place a thermometer into a container of hot liquid and take a measurement now we place a thermocouple in the hot liquid and record the voltage measurement use the table from the manufacturer of this Jay thermocouple to determine the temperature of the water does the temperature measured by the thermocouple match the temperature measured by the thermometer no it does not the connection between the positive lead from the voltmeter which is made of copper and the iron wire of the thermocouple forms a second Junction that produces a voltage the voltage it produces is not the same as the voltage at the primary Junction for two reasons the secondary Junction is connected by a terminal and not twisted together and the secondary Junction is exposed to the ambient air temperature not the hot water for this reason a small voltage forms at the secondary Junction and cancels some of the voltage at the primary Junction this situation will cause an inaccurate reading one way to solve this problem is to control the voltage of the secondary Junction this is achieved by immersing the junction into ice water that is at 32 degrees Fahrenheit at this temperature the junction does not produce any voltage this connection is referred to as the reference or the cold Junction take the voltage measurement of the thermocouple by immersing the reference Junction into the ice water using the manufacturers table determine the temperature measured by the thermocouple now we'll check your understanding feel free to press pause if you need more time to review the questions question 1 voltage readings of the thermocouple are taken to determine temperature measurements question 2 when the secondary Junction is not immersed in ice water the voltage it produces cancels some of the voltage produced by the primary Junction question 3 using the manufacturers table determine the temperature when the thermocouple produces one point four eight millivolts the correct answer is 30 degrees Celsius congratulations you've completed this activity thermocouples you",
+  "text_to_speech_word_count": 421,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:16.000",
+      "start": "00:00:00.000",
+      "text": " Welcome to this video, Thermocouples."
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:16.000",
+      "text": " A thermocouple is an electrical temperature sensor that is capable of converting heat into voltage."
+    },
+    {
+      "end": "00:00:27.000",
+      "start": "00:00:22.000",
+      "text": " The amount of voltage that is produced is proportional to the amount of heat to which it is exposed."
+    },
+    {
+      "end": "00:00:31.000",
+      "start": "00:00:27.000",
+      "text": " Thermocouples are made of two dissimilar metals joined together."
+    },
+    {
+      "end": "00:00:37.000",
+      "start": "00:00:31.000",
+      "text": " When exposed to heat, a small number of electrons drift from one metal to the other at the junction."
+    },
+    {
+      "end": "00:00:41.000",
+      "start": "00:00:37.000",
+      "text": " The result is that a small voltage develops across the junction."
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:41.000",
+      "text": " Observe how this voltage develops."
+    },
+    {
+      "end": "00:00:49.000",
+      "start": "00:00:43.000",
+      "text": " Watch as we place a thermometer into a container of hot liquid and take a measurement."
+    },
+    {
+      "end": "00:00:55.000",
+      "start": "00:00:49.000",
+      "text": " Now we place a thermocouple in the hot liquid and record the voltage measurement."
+    },
+    {
+      "end": "00:01:03.000",
+      "start": "00:00:55.000",
+      "text": " Use the table from the manufacturer of this J-thirmo-couple to determine the temperature of the water."
+    },
+    {
+      "end": "00:01:11.000",
+      "start": "00:01:03.000",
+      "text": " Does the temperature measured by the thermocouple match the temperature measured by the thermometer? No, it does not."
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:11.000",
+      "text": " The connection between the positive lead from the voltmeter, which is made of copper, and the iron wire of the thermocouple, forms a second junction that produces a voltage."
+    },
+    {
+      "end": "00:01:27.000",
+      "start": "00:01:21.000",
+      "text": " The voltage it produces is not the same as the voltage at the primary junction for two reasons."
+    },
+    {
+      "end": "00:01:31.000",
+      "start": "00:01:27.000",
+      "text": " The secondary junction is connected by a terminal and not twisted together."
+    },
+    {
+      "end": "00:01:38.000",
+      "start": "00:01:31.000",
+      "text": " And the secondary junction is exposed to the ambient air temperature, not the hot water."
+    },
+    {
+      "end": "00:01:45.000",
+      "start": "00:01:38.000",
+      "text": " For this reason, a small voltage forms at the secondary junction and cancels some of the voltage at the primary junction."
+    },
+    {
+      "end": "00:01:48.000",
+      "start": "00:01:45.000",
+      "text": " This situation will cause an inaccurate reading."
+    },
+    {
+      "end": "00:01:53.000",
+      "start": "00:01:48.000",
+      "text": " One way to solve this problem is to control the voltage of the secondary junction."
+    },
+    {
+      "end": "00:01:59.000",
+      "start": "00:01:53.000",
+      "text": " This is achieved by immersing the junction into ice water, that is at 32 degrees Fahrenheit."
+    },
+    {
+      "end": "00:02:03.000",
+      "start": "00:01:59.000",
+      "text": " At this temperature, the junction does not produce any voltage."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:02:03.000",
+      "text": " This connection is referred to as the reference or the cold junction."
+    },
+    {
+      "end": "00:02:14.000",
+      "start": "00:02:08.000",
+      "text": " Take the voltage measurement of the thermocouple by immersing the reference junction into the ice water."
+    },
+    {
+      "end": "00:02:25.000",
+      "start": "00:02:14.000",
+      "text": " Using the manufacturer's table, determine the temperature measured by the thermocouple."
+    },
+    {
+      "end": "00:02:31.000",
+      "start": "00:02:25.000",
+      "text": " Now we'll check your understanding. Feel free to press pause if you need more time to review the questions."
+    },
+    {
+      "end": "00:02:34.000",
+      "start": "00:02:31.000",
+      "text": " Question 1."
+    },
+    {
+      "end": "00:02:40.000",
+      "start": "00:02:34.000",
+      "text": " Voltage readings of the thermocouple are taken to determine temperature measurements."
+    },
+    {
+      "end": "00:02:46.000",
+      "start": "00:02:40.000",
+      "text": " Question 2."
+    },
+    {
+      "end": "00:02:55.000",
+      "start": "00:02:46.000",
+      "text": " When the secondary junction is not immersed in ice water, the voltage it produces cancels some of the voltage produced by the primary junction."
+    },
+    {
+      "end": "00:02:56.000",
+      "start": "00:02:55.000",
+      "text": " Question 3."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:02:56.000",
+      "text": " Using the manufacturer's table, determine the temperature when the thermal couple produces 1.48 millivolts."
+    },
+    {
+      "end": "00:03:13.000",
+      "start": "00:03:09.000",
+      "text": " The correct answer is 30 degrees Celsius."
+    },
+    {
+      "end": "00:03:18.000",
+      "start": "00:03:13.000",
+      "text": " Congratulations! You've completed this activity, thermocouples."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Wisc-Online",
+  "youtube_channel_follower_count": 13300,
+  "youtube_comment_count": 0,
+  "youtube_description": "In this screencast, learners observe the operation of a J thermocouple with a cold junction.  A table is used to convert the voltage it produces to a corresponding temperature.  A brief quiz completes the activity.\n\r\nThanks for viewing this video. We hope it helped you get unstuck! \r\nIf you liked what you saw, take a look at the other content and don’t forget to hit the Subscribe button. We are constantly creating and updating content for YouTube and for our Wisc-Online website and we don’t want you to miss out.\r\n\r\n*******\r\nFollow us on Social Media to see our latest updates! \r\nTwitter | https://twitter.com/WiscOnline\r\nFacebook | https://www.facebook.com/WiscOnline/\r\nWisc-Online | https://www.wisc-online.com/\r\n*******\r\n\r\nWisc-Online is a repository of high-quality educational learning materials FREE to learners and educators.\r\n \r\nWisc-Online offers an ever-growing library of learning objects freely available to students, learners at any level, teachers, and parents. \r\n\r\nThe digital library of objects has been developed primarily by subject matter experts from the Wisconsin Technical College System (WTCS) and produced by a team of instructional designers, technical editors, and multimedia developers from Fox Valley Technical College's Learning Innovations team.\r\n\r\n*******\r\nCredits:\r\n    - Content Author: Terry Bartelt \r\n    - Video Developer: Justin Stiper",
+  "youtube_like_count": 48,
+  "youtube_tags": [
+    "wisconline",
+    "cold",
+    "junction",
+    "sensor",
+    "sensors",
+    "temperature",
+    "thermocouple"
+  ],
+  "youtube_title": "Thermocouples",
+  "youtube_upload_date": "20200429",
+  "youtube_view_count": 5003
+}

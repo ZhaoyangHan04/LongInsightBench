@@ -1,0 +1,408 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A black and white Holstein cow with a visible digestive system.",
+        "name": "Cow"
+      }
+    ],
+    "description": "A detailed exploration of the digestive process in a Holstein cow, focusing on the symbiotic relationship between the cow and its ruminal microorganisms.",
+    "fps": 15.0,
+    "qAndA": [
+      {
+        "answer": "Carbon dioxide and methane.",
+        "question": "What are the two gases produced during fermentation in the rumen?"
+      },
+      {
+        "answer": "Water absorption and digesta condensation.",
+        "question": "What is the function of the omasum?"
+      },
+      {
+        "answer": "Bacteria and ciliates.",
+        "question": "What types of microorganisms are found in the rumen?"
+      },
+      {
+        "answer": "In the abomasum, the true stomach.",
+        "question": "Where does the final digestion of proteins occur?"
+      },
+      {
+        "answer": "The bacteria break down cellulose, bind inorganic nitrogen, and synthesize B-complex vitamins, providing the cow with essential nutrients.",
+        "question": "How does the cow benefit from the bacteria in its rumen?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Cow consumes grass, grass moves through esophagus.",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Grass reaches rumen, mixed with microorganisms.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Cellulose and organic compounds broken down into simple sugars, then organic acids and gases.",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "Gases escape through belching, organic acids absorbed into the blood.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          },
+          {
+            "description": "Rumen bacteria bind inorganic nitrogen and synthesize B-complex vitamins.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "Food moves to reticulum, formed into balls, regurgitated, and chewed again.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Digesta moves to omasum, water absorbed, digesta condensed.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          },
+          {
+            "description": "Digesta moves to abomasum (true stomach), protein digestion begins.",
+            "timestamp": {
+              "end_timestamp": "00:01:55.000",
+              "start_timestamp": "00:01:23.000"
+            }
+          },
+          {
+            "description": "Food pulp moves to duodenum and small intestine, digestion completed, nutrients absorbed.",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          },
+          {
+            "description": "Indigestible food moves to large intestine, water absorbed, feces formed and eliminated.",
+            "timestamp": {
+              "end_timestamp": "00:02:16.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Cow"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Cow"
+            ],
+            "description": "There are no character interactions as only the cow is present."
+          }
+        ],
+        "contextualRelevance": "The scene highlights the symbiotic relationship between the cow and the microorganisms in its rumen, emphasizing their role in breaking down cellulose.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene follows the linear progression of food through the cow's digestive system, explaining the processes occurring in each chamber.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Grass",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Text box: 'cellulose and other organic compounds'",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:16.000"
+            }
+          },
+          {
+            "name": "Text box: 'fermentation'",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "name": "Text box: 'simple sugars'",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "name": "Text box: 'fermentation'",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "name": "Text box: 'organic acids'",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "name": "Text box: 'acetic acid', 'butyric acid'",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          },
+          {
+            "name": "Text box: 'gases'",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "Text box: 'carbon dioxide', 'methane'",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "name": "Text box: 'inorganic nitrogen'",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "name": "Text box: 'B-complex vitamins'",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          },
+          {
+            "name": "Text box: 'ciliates'",
+            "timestamp": {
+              "end_timestamp": "00:01:02.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          },
+          {
+            "name": "Text box: 'digestive enzymes'",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:44.000"
+            }
+          },
+          {
+            "name": "Text box: 'protein digestion'",
+            "timestamp": {
+              "end_timestamp": "00:01:51.000",
+              "start_timestamp": "00:01:50.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The scene focuses on the theme of biological processes, specifically digestion in ruminant animals.",
+        "timestamps": {
+          "end_timestamp": "00:02:16.467",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Cow Digestion Process",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects, no background music.",
+            "timestamps": {
+              "end_timestamp": "00:02:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The video could be made more dynamic by shortening the initial chewing scene and accelerating the movement of digesta.",
+            "timestamps": {
+              "end_timestamp": "00:02:16.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The content is presented as a continuous explanation with no distinct climax.",
+        "timestamp": null
+      },
+      "description": "The storyline follows the process of digestion in a cow, presented as non-narrative information providing a factual account.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Cow Digestion",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial chewing scene could be shortened to focus on the more interesting internal processes.",
+        "timestamps": {
+          "end_timestamp": "00:00:03.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "The movement of digesta through the various chambers could be accelerated to maintain viewer engagement.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 137,
+  "original_json_filename": "ViDPJ1bJHoY.json",
+  "original_video_filename": "ViDPJ1bJHoY.mp4",
+  "resolution": "320x262",
+  "text_to_speech": "grass consumed by an animal is crushed into pulp in the mouth it is also moistened by saliva and move to the broom and by peristalsis of the esophagus in the rumen crushed food is mixed with symbiotic microorganisms that break down cellulose and other organic compounds into simple sugars these in turn are transformed into organic acids such as acetic acid and butyric acid and gases such as carbon dioxide and methane gases escape through the esophagus and the mouth belching while organic acids are absorbed into the blood and used by the cells of the organism as energy and structural materials the rumen bacteria also bind inorganic nitrogen and incorporated into their own proteins these bacteria also synthesize the complex vitamins apart from bacteria the rumen is also inhabited by his ciliates some of them break down cellulose while others feed on the room and bacteria the cart fermented by microorganisms is moved to the second chamber the reticulum where it is further grinded and formed into balls these are regurgitated by anti peristalsis into the mouth to be chewed again thoroughly chewed and swallowed again the digester is passed by peristalsis to the third chamber the AH Merson where water is absorbed and the digester condensed from the AMISOM the condensed digester passes to the abomasum the final chamber of the stomach the abomasum which is the proper stomach secretes enzymes to initiate the digestion of proteins released from plant cells and also proteins of bacteria and ciliates found in the rumen from the abomasum the food pulp passes to the duodenum and then to the small intestine in which the digestion is completed and its products absorbed in digested food enters the large intestine where water is absorbed and feces formed these are later eliminated from the body through the rectum",
+  "text_to_speech_word_count": 305,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.133",
+      "start": "00:00:00.000",
+      "text": " Grass consumed by an animal is crushed into pulp in the mouth. It is also moistened by saliva and moved to the"
+    },
+    {
+      "end": "00:00:17.000",
+      "start": "00:00:08.133",
+      "text": " rumen by peristalsis of the esophagus. In the rumen, crushed food is mixed with symbiotic microorganisms that break down"
+    },
+    {
+      "end": "00:00:25.000",
+      "start": "00:00:17.000",
+      "text": " cellulose and other organic compounds into simple sugars. These in turn are transformed into organic acids such as"
+    },
+    {
+      "end": "00:00:31.000",
+      "start": "00:00:25.000",
+      "text": " acetic acid and butyric acid and gases such as carbon dioxide and methane."
+    },
+    {
+      "end": "00:00:35.467",
+      "start": "00:00:32.267",
+      "text": " Gases escape through the esophagus and the mouth,"
+    },
+    {
+      "end": "00:00:41.333",
+      "start": "00:00:35.467",
+      "text": " veilching while organic acids are absorbed into the blood and used by the cells of the organism"
+    },
+    {
+      "end": "00:00:48.933",
+      "start": "00:00:41.333",
+      "text": " as energy and structural materials. The rumen bacteria also bind in organic nitrogen and"
+    },
+    {
+      "end": "00:00:56.133",
+      "start": "00:00:48.933",
+      "text": " incorporate it into their own proteins. These bacteria also synthesize the complex vitamins."
+    },
+    {
+      "end": "00:01:04.400",
+      "start": "00:00:57.667",
+      "text": " Apart from bacteria, the rumen is also inhabited by silicates, some of them break down cellulose"
+    },
+    {
+      "end": "00:01:12.133",
+      "start": "00:01:04.400",
+      "text": " while others feed on the rumen bacteria. The cut fermented by microorganisms is moved to the"
+    },
+    {
+      "end": "00:01:18.333",
+      "start": "00:01:12.133",
+      "text": " second chamber, the reticulum, where it is further grinded and formed into balls. These are"
+    },
+    {
+      "end": "00:01:25.467",
+      "start": "00:01:18.333",
+      "text": " regurgitated by anti-peristalsis into the mouth to be chewed again. Therally chewed and swallowed"
+    },
+    {
+      "end": "00:01:32.000",
+      "start": "00:01:25.467",
+      "text": " again, the digester is passed by peristalsis to the third chamber, the omisum, where water is"
+    },
+    {
+      "end": "00:01:39.267",
+      "start": "00:01:32.000",
+      "text": " absorbed and the digester condensed. From the omisum, the condensed digester passes to the ab omisum,"
+    },
+    {
+      "end": "00:01:44.400",
+      "start": "00:01:39.267",
+      "text": " the final chamber of the stomach. The ab omisum, which is the proper stomach,"
+    },
+    {
+      "end": "00:01:50.467",
+      "start": "00:01:44.400",
+      "text": " secretes enzymes to initiate the digestion of proteins released from plant cells and also proteins"
+    },
+    {
+      "end": "00:01:59.600",
+      "start": "00:01:50.467",
+      "text": " of bacteria and silicates found in the rumen. From the ab omisum, the food pulses to the duodenum"
+    },
+    {
+      "end": "00:02:04.867",
+      "start": "00:01:59.600",
+      "text": " and then to the small intestine, in which the digestion is completed and its products absorbed."
+    },
+    {
+      "end": "00:02:12.133",
+      "start": "00:02:05.600",
+      "text": " Indigested food enters the large intestine, where water is absorbed and feces formed."
+    },
+    {
+      "end": "00:02:15.467",
+      "start": "00:02:12.133",
+      "text": " These are later eliminated from the body through the rectum."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Pets & Animals"
+  ],
+  "youtube_channel": "Owusu Raymond Kwame",
+  "youtube_channel_follower_count": 4,
+  "youtube_comment_count": 0,
+  "youtube_description": "This summarizes how food is digested in the four-chambered gut of a Ruminant",
+  "youtube_like_count": 3,
+  "youtube_tags": [],
+  "youtube_title": "The Digestive system of a Ruminant",
+  "youtube_upload_date": "20200503",
+  "youtube_view_count": 77
+}

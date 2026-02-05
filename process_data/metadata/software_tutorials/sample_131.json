@@ -1,0 +1,606 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short graying hair, glasses, wearing a black t-shirt with the words \"TEACH Everything\" on it. He is sitting in a room with a wooden bookshelf with a blue light on the left side and a plant with a pink light on the right side.",
+        "name": "Kevin Powell"
+      }
+    ],
+    "description": "Exploring the challenges of using flexbox for even columns due to padding issues and showcasing CSS Grid as a more reliable alternative.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Firefox's Dev Tools.",
+        "question": "What tool does Kevin introduce in the second scene for a better visualization of the problem?"
+      },
+      {
+        "answer": "Flexbox prioritizes content size over padding and margin.",
+        "question": "What key principle of flexbox does Kevin emphasize that leads to the uneven column issue?"
+      },
+      {
+        "answer": "`grid-auto-columns: 1fr;`",
+        "question": "What CSS property does Kevin use to create truly even columns with Grid?"
+      },
+      {
+        "answer": "Grid's parent-centric control ensures layout consistency even with padding variations.",
+        "question": "What additional advantage does Grid offer over flexbox in this scenario?"
+      },
+      {
+        "answer": "Using media queries to adjust layout behavior at different screen sizes.",
+        "question": "What common approach is often needed for both flexbox and grid when handling responsiveness?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Coding",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Kevin Powell"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Confused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Kevin explains a common method for creating even columns using flexbox.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Kevin points out that the method doesn't always work perfectly.",
+            "timestamp": "00:00:05.000"
+          },
+          {
+            "description": "Kevin demonstrates an example where adding padding to one column causes it to become larger than the others.",
+            "timestamp": "00:00:11.000"
+          },
+          {
+            "description": "Kevin emphasizes that despite setting flex:1 on all items, the column with extra padding remains larger.",
+            "timestamp": "00:00:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen with code",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "Webpage with three columns",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          }
+        ],
+        "sceneId": 0,
+        "thematicElements": "Flexbox Limitations: The scene highlights how flexbox can behave unexpectedly when padding is added to flex items, even with flex:1.",
+        "timestamps": {
+          "end_timestamp": "00:00:34.900",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Understanding Flexbox Limitations",
+        "videoEditingDetails": [
+          {
+            "description": "Cut",
+            "timestamps": {
+              "end_timestamp": "00:00:34.900",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:07:31.233",
+              "start_timestamp": "00:00:37.000"
+            }
+          },
+          {
+            "description": "Coding",
+            "timestamp": {
+              "end_timestamp": "00:07:31.233",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Using Firefox's Dev tools to demonstrate the problem",
+            "timestamp": {
+              "end_timestamp": "00:05:54.000",
+              "start_timestamp": "00:01:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Kevin Powell"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Kevin introduces Firefox's Dev Tools for a clearer understanding of the issue.",
+            "timestamp": "00:00:37.000"
+          },
+          {
+            "description": "Kevin dives into the code, demonstrating how flexbox prioritizes content size over padding and margin.",
+            "timestamp": "00:01:42.000"
+          },
+          {
+            "description": "Kevin highlights the potential inconsistencies with flexbox due to padding, even with flex:1 applied.",
+            "timestamp": "00:03:21.000"
+          },
+          {
+            "description": "Kevin proposes using CSS Grid as a solution for creating truly even columns.",
+            "timestamp": "00:05:54.000"
+          },
+          {
+            "description": "Kevin applies CSS Grid and shows how it maintains even column widths despite padding variations.",
+            "timestamp": "00:07:04.000"
+          },
+          {
+            "description": "Kevin emphasizes the strength of Grid's parent-centric control in maintaining layout consistency.",
+            "timestamp": "00:07:31.233"
+          },
+          {
+            "description": "Kevin addresses potential concerns about responsiveness, showing how both flexbox and grid can require media queries for adjustments.",
+            "timestamp": "00:07:31.233"
+          },
+          {
+            "description": "Kevin concludes by reaffirming the value of both flexbox and grid, encouraging viewers to choose the tool that suits their needs and preferences.",
+            "timestamp": "00:07:31.233"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen with code",
+            "timestamp": {
+              "end_timestamp": "00:07:31.233",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "name": "Webpage with three columns",
+            "timestamp": {
+              "end_timestamp": "00:07:31.233",
+              "start_timestamp": "00:00:40.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Flexbox vs. Grid: The scene showcases the differences between flexbox and grid in creating even columns, emphasizing grid's advantages in handling padding and layout consistency. Understanding the Box Model: Kevin's explanation underscores the importance of understanding the box model and its impact on layout behavior in CSS.",
+        "timestamps": {
+          "end_timestamp": "00:07:31.233",
+          "start_timestamp": "00:00:34.933"
+        },
+        "title": "Introducing CSS Grid: A Better Solution",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Kevin applies CSS Grid and shows how it maintains even column widths despite padding variations.",
+        "timestamp": "00:07:04.000"
+      },
+      "description": "Flexbox Limitations and CSS Grid Solution",
+      "scenes": [
+        0,
+        1
+      ]
+    },
+    "title": "CSS Layout Techniques: Flexbox Limitations and CSS Grid Solutions",
+    "trimmingSuggestions": [
+      {
+        "description": "The extended demonstration of adding padding and reloading could be condensed without losing crucial information.",
+        "timestamps": {
+          "end_timestamp": "00:00:34.933",
+          "start_timestamp": "00:00:34.933"
+        }
+      },
+      {
+        "description": "The initial explanation of Firefox's Dev Tools could be streamlined, focusing more directly on the relevant features.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.000",
+          "start_timestamp": "00:01:49.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 451,
+  "original_json_filename": "ctHE8EXEoj8.json",
+  "original_video_filename": "ctHE8EXEoj8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "you need some simple columns so you throw a display Flex on there add a little Gap or something and you're good to go right well not so fast well yes it can work most of the time but that doesn't mean every single time for example even if you came in and made sure all of your Flex items had the flex 1 there to make them all the same size and then maybe you had another class that you put on one of these divs we do the class CTA here hit save and that's a whole bunch of padding and despite this which you thought would be setting the same size on everything this one is clearly a lot bigger than the two columns next to it hello my front end friends and welcome back for yet another video if you're new here my name is Kevin and here at my channel I'm here to help you fall madly deeply in love with CSS and obviously the example that we just looked at was massively exaggerated but I really wanted to show you what was going on or the problems that you can potentially run into when you're using plexbox but there's not really a good way to get around or avoid so diving into the code we're actually going to be looking at using a Firefox for this one because firefox's Dev tools offer us a bit better of a way to break down what's Happening Here uh and a little bit easier to understand so when we have the three columns like this uh if I go to my layout here we have my flexbox layout and let's make sure we select the parent uh right there perfect so when we have this or actually we want one of the children so we'll select this first child uh and you'll notice here on my even columns I have this it's not really doing a lot right now um though it's helping space things out as you can see it we had a little change there um and when we have items that are Flex items the flexbox always works off of the content size that we see down here so we have content size 261 and this is all based off of the Box model you know the Box model we have our content size the padding the border the margin and flexbox looks at the content size and not the paddings the margin and all of that which is actually a good thing and it's very often you'll see like in even columns star get them all working the same way the issue that comes in is when I did that where I had the CTA class where I exaggerated things just by putting like a ridiculous amount of padding that you'd never see in real life on there and it adds a ton of extra space and it actually forces these to be smaller and that's because what is happening is flexbox only has so much space to work with and so it's making sure the content size of all of these is the same so we have this one is at a 219. let's just select the parent there um so here yeah we have the 219 Point whatever the 219 Point whatever and the 219 I mean whatever so the content size of all of these is the same because of what we have here this is just doing a flex grow Flex shrink and the flex grow is on the flex basis is zero anyway it's making sure they're all the same size but it's the content size that is the same so when you have one div that has a lot of padding on it you have the content size that's the same and then that padding is eating into all that extra space meaning we don't actually get this consistent layout and one thing I really like doing when I have even some sort of even columns class is to make sure that they're actually even columns and I want to be able to sort of throw any content in there now I don't want to say you should be using Flex or you should be using grid I think use what you're comfortable with and what you're able if Flex is working for you keep on using flex but I really I want to show people that sometimes Flex is doing things they don't really realize and like a lot of the time they don't realize it because that crazy padding that you have on there it's not actually crazy padding it's more like a padding of one and in this case now again we have 294 294 294 but this one's actually slightly bigger and it's taking up 326 pixels because of the extra 32 pixels of padding that are there so visually you might be thinking that they're all the same but there's this slight little inconsistency and if you had another row somewhere you might start seeing these little like off alignment things and that's why when I do my even columns I'm just going to do the same code lower down so the specificity should win uh I do like using a display grid instead and when I do that it breaks everything uh there's different approaches you could use for this but we can do a grid Auto flow of column instead and already it's a lot closer now I don't think they're actually going to be the exact same we're running into that same issue we had but then I can do my grid Auto columns r1fr and you can see this one actually shrunk down a little bit but now we have a 304 a 304 and a 304 0.9 and that means this one the content size is actually a little bit smaller but when you add the padding on the two sides they all end up being the same and that's just because when we do this with grid the parent is what's in charge and there's no real influence coming from the children now there are time especially with the FR that potentially if you're really squeezing on Space you know when you get into the fringes of anything this sort of falls apart sometimes a little bit but it is going to be more consistent than how flexbox is working if you're running into these situations where you just want a consistent layout throw anything at it padding no padding different padding and it doesn't matter now that's not always a realistic situation sometimes you either all have padding or none of them will have padding that's usually something that's a bit more common but I want to make people aware that there is this potential for inconsistency and it's really easy to do with Grid it's potentially less lines of code you might be saying this isn't responsive but my flexbox solution right now isn't responsive either so if we go back to the flexbox version and I open up responsive mode let me shrink this down a little bit you know we're running into this and we need to have a media query or a flex wrap and right if you did the flex wrap so even columns uh and we did a flex wrap a wrap when things squished then you also you know you run into these types of things where you get this middle ground there's ways of overcoming that as well um by pushing things a little bit uh there's a good example of that at every layout but you know we could just probably often have a media query on when the flex direction is changing and you probably do the same thing if you're using your grid solution where you have your display grid maybe you have a gap on here of one REM and then here we just come in we say at media Min width of 600 pixels uh let's do 800 pixels maybe then we have our even columns and that just means when we hit that 800 pixels yeah maybe that could have been like 600 or 500. um but then when we run into that situation then it just switches over it's not that hard to do and I just find it a little bit more consistent and I still think flexbox is an amazing tool I use it on every single project I do but I think that what happens is people get comfortable with either Grid or flexbox depending on what they learned first it works for them and pretty much everything they throw at it and they don't realize that maybe there's easier ways of using the other one and if you'd like to see how I actually decide between when I use flexbox or when I use grid and how I try to learn lean into the strengths of each one in a little bit more detail then you'd probably enjoy this video right here and with that I'd like to say a very big thank you to my enablers of awesome Jan Johnny Michael Mr Dave Patrick Simon Steven and Tim as well as all my other patrons for their monthly support and of course until next time don't forget to make your corn on the internet just a little bit more awesome [Music]",
+  "text_to_speech_word_count": 1586,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:00.000",
+      "text": " You need some simple columns so you throw a display flex on there, add a little gap or something, and you're good to go, right?"
+    },
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:06.000",
+      "text": " Well, not so fast. Well, yes, it can work most of the time, but that doesn't mean every single time."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:12.000",
+      "text": " For example, even if you came in and made sure all of your flex items had the flex one there to make them all the same size,"
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:19.000",
+      "text": " and then maybe you had another class that you put on one of these divs, we do the class CTA here, hit save,"
+    },
+    {
+      "end": "00:00:30.000",
+      "start": "00:00:24.000",
+      "text": " and that's a whole bunch of padding, and despite this, which you thought would be setting the same size on everything,"
+    },
+    {
+      "end": "00:00:34.000",
+      "start": "00:00:30.000",
+      "text": " this one is clearly a lot bigger than the two columns next to it."
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:38.000",
+      "text": " Hello, my friend and friends, and welcome back for yet another video. If you're new here, my name is Kevin and here at my channel,"
+    },
+    {
+      "end": "00:00:46.000",
+      "start": "00:00:43.000",
+      "text": " I'm here to help you fall madly deeply in love with CSS."
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:46.000",
+      "text": " And obviously the example that we just looked at was massively exaggerated,"
+    },
+    {
+      "end": "00:00:57.000",
+      "start": "00:00:50.000",
+      "text": " but I really wanted to show you what was going on or the problems that you can potentially run into when you're using Flexbox,"
+    },
+    {
+      "end": "00:01:00.000",
+      "start": "00:00:57.000",
+      "text": " that there's not really a good way to get around or avoid."
+    },
+    {
+      "end": "00:01:12.000",
+      "start": "00:01:00.000",
+      "text": " So diving into the code, we're actually going to be looking at using Firefox for this one, because Firefox's dev tools offer us a bit better of a way to break down what's happening here."
+    },
+    {
+      "end": "00:01:18.000",
+      "start": "00:01:12.000",
+      "text": " And a little bit easier to understand. So when we have the three columns like this,"
+    },
+    {
+      "end": "00:01:24.000",
+      "start": "00:01:18.000",
+      "text": " if I go to my layout here, we have my Flexbox layout, and let's make sure we select the parent right there, perfect."
+    },
+    {
+      "end": "00:01:28.000",
+      "start": "00:01:24.000",
+      "text": " So when we have this, or actually we want one of the children, so we'll select this first child,"
+    },
+    {
+      "end": "00:01:35.000",
+      "start": "00:01:28.000",
+      "text": " and you'll notice here on my even columns, I have this, it's not really doing a lot right now, though it's helping space things out."
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:35.000",
+      "text": " As you can see, it made a little change there."
+    },
+    {
+      "end": "00:01:47.000",
+      "start": "00:01:37.000",
+      "text": " And when we have items that are Flex items, the Flexbox always works off of the content size that we see down here."
+    },
+    {
+      "end": "00:01:52.000",
+      "start": "00:01:47.000",
+      "text": " So we have content size 261. And this is all based off of the box model."
+    },
+    {
+      "end": "00:01:55.000",
+      "start": "00:01:52.000",
+      "text": " You know the box model, we have our content size, the padding, the border, the margin."
+    },
+    {
+      "end": "00:02:02.000",
+      "start": "00:01:55.000",
+      "text": " And Flexbox looks at the content size, and not the padding, the margin, and all of that, which is actually a good thing."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:02:02.000",
+      "text": " And it's very often, you'll see like an even columns star, get them all working the same way."
+    },
+    {
+      "end": "00:02:16.000",
+      "start": "00:02:08.000",
+      "text": " The issue that comes in is when I did that, I had this CTA class, right, exaggerated things just by putting like a ridiculous amount of padding that you've never seen in real life."
+    },
+    {
+      "end": "00:02:23.000",
+      "start": "00:02:16.000",
+      "text": " On there, and it adds a ton of extra space, and it actually forces these to be smaller."
+    },
+    {
+      "end": "00:02:28.000",
+      "start": "00:02:23.000",
+      "text": " And that's because what is happening is Flexbox only has so much space to work with."
+    },
+    {
+      "end": "00:02:31.000",
+      "start": "00:02:28.000",
+      "text": " And so it's making sure the content size of all of these is the same."
+    },
+    {
+      "end": "00:02:36.000",
+      "start": "00:02:31.000",
+      "text": " So we have this one is at a 219. Let's just select the parent there."
+    },
+    {
+      "end": "00:02:43.000",
+      "start": "00:02:36.000",
+      "text": " So here, yeah, we have the 219 point, whatever, the 219 point, whatever, and the 219 point, whatever."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:43.000",
+      "text": " So the content size of all of these is the same because of what we have here."
+    },
+    {
+      "end": "00:02:54.000",
+      "start": "00:02:48.000",
+      "text": " This is just doing a Flexgrow, FlexShrink, and the Flexgrow is on the FlexBasis is zero anyway."
+    },
+    {
+      "end": "00:02:58.000",
+      "start": "00:02:54.000",
+      "text": " It's making sure they're all the same size, but it's the content size that is the same."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:02:58.000",
+      "text": " So when you have one div that has a lot of padding on it, you have the content size that's the same, and then that padding is eating into all that extra space, meaning we don't actually get this consistent layout."
+    },
+    {
+      "end": "00:03:18.000",
+      "start": "00:03:09.000",
+      "text": " And one thing I really like doing when I have even some sort of even columns class is to make sure that they're actually even columns."
+    },
+    {
+      "end": "00:03:21.000",
+      "start": "00:03:18.000",
+      "text": " And I want to be able to sort of throw any content in there."
+    },
+    {
+      "end": "00:03:24.000",
+      "start": "00:03:21.000",
+      "text": " Now, I don't want to say you should be using Flex or you should be using Grid."
+    },
+    {
+      "end": "00:03:30.000",
+      "start": "00:03:24.000",
+      "text": " I think use what you're comfortable with and what you're able, if Flex is working for you, keep on using Flex."
+    },
+    {
+      "end": "00:03:35.000",
+      "start": "00:03:30.000",
+      "text": " But I really, I want to show people that sometimes FlexShrink is doing things they don't really realize."
+    },
+    {
+      "end": "00:03:41.000",
+      "start": "00:03:35.000",
+      "text": " And like a lot of the time they don't realize it because that crazy padding that you have on there, it's not actually crazy padding."
+    },
+    {
+      "end": "00:03:47.000",
+      "start": "00:03:41.000",
+      "text": " It's more like a padding of one. And in this case, now again, we have 294, 294, 294."
+    },
+    {
+      "end": "00:03:55.000",
+      "start": "00:03:47.000",
+      "text": " But this one's actually slightly bigger and it's taking up 326 pixels because of the extra 32 pixels of padding that are there."
+    },
+    {
+      "end": "00:04:04.000",
+      "start": "00:03:55.000",
+      "text": " So visually you might be thinking that they're all the same, but there's this slight little inconsistency. And if you had another row somewhere, you might start seeing these little like off alignment things."
+    },
+    {
+      "end": "00:04:12.000",
+      "start": "00:04:05.000",
+      "text": " And that's why when I do my even columns, I'm just going to do the same code lower down. So the specificity should win."
+    },
+    {
+      "end": "00:04:17.000",
+      "start": "00:04:12.000",
+      "text": " I do like using a display grid instead. And when I do that, it breaks everything."
+    },
+    {
+      "end": "00:04:24.000",
+      "start": "00:04:17.000",
+      "text": " There's different approaches you could use for this, but we can do a grid auto flow of column instead."
+    },
+    {
+      "end": "00:04:29.000",
+      "start": "00:04:24.000",
+      "text": " And already it's a lot closer. Now, I don't think they're actually going to be the exact same."
+    },
+    {
+      "end": "00:04:35.000",
+      "start": "00:04:29.000",
+      "text": " We're running into that same issue we had, but then I can do my grid auto columns are 1FR."
+    },
+    {
+      "end": "00:04:43.000",
+      "start": "00:04:35.000",
+      "text": " You can see this one actually shrunk down a little bit, but now we have a 304, a 304, and a 304.9."
+    },
+    {
+      "end": "00:04:50.000",
+      "start": "00:04:43.000",
+      "text": " And that means this one, the content size is actually a little bit smaller, but when you add the padding on the two sides, they all end up being the same."
+    },
+    {
+      "end": "00:04:57.000",
+      "start": "00:04:50.000",
+      "text": " And that's just because when we do this with grid, the parent is what's in charge. And there's no real influence coming from the children."
+    },
+    {
+      "end": "00:05:10.000",
+      "start": "00:04:57.000",
+      "text": " Now, there are times, especially with the FR that potentially if you're really squeezing on space, when you get into the fringes of anything, this sort of falls apart sometimes a little bit, but it is going to be more consistent than how flexbox is working."
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:10.000",
+      "text": " If you're running into these situations where you just want to consistently throw anything at it, padding, no padding, different padding, and it doesn't matter."
+    },
+    {
+      "end": "00:05:22.000",
+      "start": "00:05:17.000",
+      "text": " Now, that's not always a realistic situation. Sometimes you either all have padding or none of them will have padding."
+    },
+    {
+      "end": "00:05:31.000",
+      "start": "00:05:22.000",
+      "text": " That's usually something that's a bit more common, but I want to make people aware that there is this potential for inconsistency, and it's really easy to do with grid."
+    },
+    {
+      "end": "00:05:39.000",
+      "start": "00:05:31.000",
+      "text": " It's potentially less lines of code. You might be saying this isn't responsive, but my flexbox solution right now isn't responsive either."
+    },
+    {
+      "end": "00:05:51.000",
+      "start": "00:05:39.000",
+      "text": " So if we go back to the flexbox version, and I open up responsive mode, and we shrink this down a little bit, you know, we're running into this, and we need to have a media query or a flex wrap."
+    },
+    {
+      "end": "00:06:07.000",
+      "start": "00:05:51.000",
+      "text": " If you did the flex wrap, so even columns, and we did a flex wrap of wrap, when things squish, then you also, you know, you run into these types of things where you get this middle ground, there's ways of overcoming that as well, by pushing things a little bit."
+    },
+    {
+      "end": "00:06:20.000",
+      "start": "00:06:07.000",
+      "text": " There's a good example of that at every layout, but, you know, we could just probably often have a media query on when the flex direction is changing, and you probably do the same thing if you're using your grid solution, where you have your display grid."
+    },
+    {
+      "end": "00:06:35.000",
+      "start": "00:06:20.000",
+      "text": " Maybe you have a gap on here of one RAM, and then here we just come in, we say, at media, men with of 600 pixels, let's do 800 pixels, maybe, then we have our even columns."
+    },
+    {
+      "end": "00:06:41.000",
+      "start": "00:06:35.000",
+      "text": " And that just means when we hit that 800 pixels, maybe that could have been like 600 or 500."
+    },
+    {
+      "end": "00:06:49.000",
+      "start": "00:06:41.000",
+      "text": " But then when we run into that situation, then it just switches over, it's not that hard to do, and I just find it a little bit more consistent."
+    },
+    {
+      "end": "00:07:05.000",
+      "start": "00:06:49.000",
+      "text": " And I still think flex box is an amazing tool. I use it on every single project I do, but I think that what happens is people get comfortable with either grid or flex box, depending on what they learn first, it works for them and pretty much everything they throw at it, and they don't realize that maybe there's easier ways of using the other one."
+    },
+    {
+      "end": "00:07:16.000",
+      "start": "00:07:05.000",
+      "text": " And if you'd like to see how I actually decide between when I use flex box or when I use grid and how I try to learn lean into the strengths of each one in a little bit more detail, then you probably enjoy this video right here."
+    },
+    {
+      "end": "00:07:20.000",
+      "start": "00:07:16.000",
+      "text": " And with that, I'd like to say a very big thank you to my enablers of awesome."
+    },
+    {
+      "end": "00:07:26.000",
+      "start": "00:07:20.000",
+      "text": " Jan, Johnny, Michael, Mr. Dave, Patrick, Simon, Steven, and Tim, as well as all my other patrons for their monthly support."
+    },
+    {
+      "end": "00:07:31.000",
+      "start": "00:07:26.000",
+      "text": " And of course, until next time, don't forget to make your corner of the internet, just a little bit more awesome."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Kevin Powell",
+  "youtube_channel_follower_count": 934000,
+  "youtube_comment_count": 203,
+  "youtube_description": "Need some quick columns and you throw a display:flex on there are you’re done, right? Well, it can work, but that doesn’t mean it won’t work for you every single time, as I explore in this video.\n\n🔗 Links \n✅ Every Layout: https://every-layout.dev/\n✅ Flexbox or Grid, how to decide when to use which? https://youtu.be/3elGSZSWTbM\n\n⌚ Timestamps\n00:00 - Introduction\n01:00 - Understanding how Flexbox is calculating the sizes of the columns\n03:10 - The solution I like to use\n05:38 - Responsiveness\n\n#css\n\n--\n\nCome hang out with other dev's in my Discord Community\n💬 https://discord.gg/nTYCvrK\n\nKeep up to date with everything I'm up to\n✉ https://www.kevinpowell.co/newsletter\n\nCome hang out with me live every Monday on Twitch!\n📺 https://www.twitch.tv/kevinpowellcss\n\n---\n\nHelp support my channel\n👨‍🎓 Get a course: https://www.kevinpowell.co/courses\n👕 Buy a shirt: https://teespring.com/stores/making-the-internet-awesome\n💖 Support me on Patreon: https://www.patreon.com/kevinpowell\n\n---\n\nMy editor: VS Code - https://code.visualstudio.com/\n\n---\n\nI'm on some other places on the internet too!\n\nIf you'd like a behind the scenes and previews of what's coming up on my YouTube channel, make sure to follow me on Instagram and Twitter.\n\nTwitter: https://twitter.com/KevinJPowell\nCodepen: https://codepen.io/kevinpowell/\nGithub: https://github.com/kevin-powell\n\n---\n\nAnd whatever you do, don't forget to keep on making your corner of the internet just a little bit more awesome!",
+  "youtube_like_count": 9069,
+  "youtube_tags": [
+    "Kevin Powell",
+    "css",
+    "front-end",
+    "frontend",
+    "html",
+    "web development",
+    "flexbox",
+    "grid",
+    "css layout",
+    "website layout",
+    "responsive",
+    "responsive layout",
+    "responsive layouts",
+    "responsive web design",
+    "responsive design",
+    "responsive website using html and css",
+    "flexbox vs grid",
+    "grid and flexbox",
+    "css grid vs flexbox"
+  ],
+  "youtube_title": "Why I use grid over flexbox for this common layout",
+  "youtube_upload_date": "20221108",
+  "youtube_view_count": 235370
+}

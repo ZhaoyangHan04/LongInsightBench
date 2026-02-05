@@ -1,0 +1,935 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "narrator",
+        "description": "A male voice, not visually present in the video. He guides the viewer through the process of using GROMACS in Windows.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video on using GROMACS in Windows, focusing on solvation, adding ions, and energy minimization.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Dodecahedron.",
+        "question": "What type of box shape is used for solvation in the tutorial?"
+      },
+      {
+        "answer": "It contains the parameters for the energy minimization process.",
+        "question": "What is the purpose of the 'em.mdp' file?"
+      },
+      {
+        "answer": "\"Invalid delimiter for filename in #include statement.\"",
+        "question": "What error message did the narrator encounter while adding ions?"
+      },
+      {
+        "answer": "By adding double quotes around the filenames in the #include statements.",
+        "question": "How did the narrator fix the error in the 'topol.top' file?"
+      },
+      {
+        "answer": "267 steps.",
+        "question": "In how many steps did the energy minimization process converge?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the video series and the topic of this part.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious - Introduction sparks interest in learning about GROMACS.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Series Introduction and explanation of the tutorial's focus.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Visual transition to a desktop with relevant files.",
+            "timestamp": "00:00:17.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Molecular dynamics, protein-ligand complexes, Windows operating system.",
+        "timestamps": {
+          "end_timestamp": "00:00:23.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Static title card with text 'GROMACS IN WINDOWS PART - 3'",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to desktop view showcasing a file explorer window",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator guides the viewer through navigating to the working directory in Command Prompt.",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:23.033"
+            }
+          },
+          {
+            "description": "Narrator demonstrates two GROMACS commands for creating a new box and performing solvation.",
+            "timestamp": {
+              "end_timestamp": "00:01:22.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          },
+          {
+            "description": "Narrator shows the newly created files in the file explorer window.",
+            "timestamp": {
+              "end_timestamp": "00:01:38.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          },
+          {
+            "description": "Narrator clears the Command Prompt screen.",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:01:45.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Focused - Narration is instructional and straightforward.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Changing the directory in Command Prompt.",
+            "timestamp": "00:00:23.033"
+          },
+          {
+            "description": "First GROMACS command to create a new box for the system.",
+            "timestamp": "00:00:47.000"
+          },
+          {
+            "description": "Demonstration of the newly created box file in the file explorer.",
+            "timestamp": "00:01:10.000"
+          },
+          {
+            "description": "Second GROMACS command to solvate the system.",
+            "timestamp": "00:01:19.000"
+          },
+          {
+            "description": "Display of the new solvation file in the file explorer.",
+            "timestamp": "00:01:34.000"
+          },
+          {
+            "description": "Clearing the Command Prompt window.",
+            "timestamp": "00:01:45.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "File explorer window",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:23.033"
+            }
+          },
+          {
+            "name": "Command Prompt window",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:23.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "GROMACS commands, file management, solvation.",
+        "timestamps": {
+          "end_timestamp": "00:01:47.267",
+          "start_timestamp": "00:00:23.033"
+        },
+        "title": "Solvation",
+        "videoEditingDetails": [
+          {
+            "description": "Cursor highlights relevant directory paths and commands in the Command Prompt",
+            "timestamps": {
+              "end_timestamp": "00:01:22.000",
+              "start_timestamp": "00:00:23.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the need for MDP files and directs the viewer to a website for downloading them.",
+            "timestamp": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:47.300"
+            }
+          },
+          {
+            "description": "Narrator demonstrates copying file contents from the website and saving them as new files.",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:02:02.000"
+            }
+          },
+          {
+            "description": "Narrator explains the purpose and content of the downloaded files.",
+            "timestamp": {
+              "end_timestamp": "00:03:54.000",
+              "start_timestamp": "00:02:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Focused - Narration continues to be instructional with a clear focus on the task at hand.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of MDP files and their importance.",
+            "timestamp": "00:01:47.300"
+          },
+          {
+            "description": "Navigating to a GROMACS tutorial website for downloading MDP files.",
+            "timestamp": "00:02:02.000"
+          },
+          {
+            "description": "Copying the ions.mdp file content and creating a local version.",
+            "timestamp": "00:02:23.000"
+          },
+          {
+            "description": "Copying the em.mdp file content and creating a local version.",
+            "timestamp": "00:02:36.000"
+          },
+          {
+            "description": "Explanation of the energy minimization parameters in the em.mdp file.",
+            "timestamp": "00:03:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "File explorer window",
+            "timestamp": {
+              "end_timestamp": "00:03:54.000",
+              "start_timestamp": "00:01:47.300"
+            }
+          },
+          {
+            "name": "Website window displaying MDP file contents",
+            "timestamp": {
+              "end_timestamp": "00:02:50.000",
+              "start_timestamp": "00:02:02.000"
+            }
+          },
+          {
+            "name": "Notepad++ window for editing and saving MDP files",
+            "timestamp": {
+              "end_timestamp": "00:03:54.000",
+              "start_timestamp": "00:02:23.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "MDP files, energy minimization, file downloading.",
+        "timestamps": {
+          "end_timestamp": "00:03:54.067",
+          "start_timestamp": "00:01:47.300"
+        },
+        "title": "Downloading MDP Files",
+        "videoEditingDetails": [
+          {
+            "description": "Cursor highlights relevant links and files in the website and file explorer windows",
+            "timestamps": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:01:50.000"
+            }
+          },
+          {
+            "description": "Cursor highlights specific lines within the Notepad++ files",
+            "timestamps": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:10.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator demonstrates a GROMACS command for adding ions using the ions.mdp file.",
+            "timestamp": {
+              "end_timestamp": "00:04:10.000",
+              "start_timestamp": "00:03:54.100"
+            }
+          },
+          {
+            "description": "Narrator encounters an error and explains the cause.",
+            "timestamp": {
+              "end_timestamp": "00:04:34.000",
+              "start_timestamp": "00:04:17.000"
+            }
+          },
+          {
+            "description": "Narrator fixes the error by adding double quotes around filenames within the topol.top file.",
+            "timestamp": {
+              "end_timestamp": "00:06:16.000",
+              "start_timestamp": "00:04:35.000"
+            }
+          },
+          {
+            "description": "Narrator runs the GROMACS command again successfully and shows the newly created ions.tpr file.",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:06:17.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Focused - Troubleshooting the error adds a moment of tension but the overall mood remains task-oriented.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Running the GROMACS command to add ions to the system.",
+            "timestamp": "00:03:54.100"
+          },
+          {
+            "description": "Encountering an error ('Invalid delimiter for filename in #include statement')",
+            "timestamp": "00:04:17.000"
+          },
+          {
+            "description": "Identifying the error in the topol.top file.",
+            "timestamp": "00:04:35.000"
+          },
+          {
+            "description": "Explanation of the error and the fix (adding double quotes).",
+            "timestamp": "00:04:40.000"
+          },
+          {
+            "description": "Rerunning the GROMACS command after fixing the error.",
+            "timestamp": "00:06:17.000"
+          },
+          {
+            "description": "Display of the successfully created ions.tpr file.",
+            "timestamp": "00:06:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "File explorer window",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:03:54.100"
+            }
+          },
+          {
+            "name": "Command Prompt window",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:03:54.100"
+            }
+          },
+          {
+            "name": "Notepad++ window displaying the topol.top file",
+            "timestamp": {
+              "end_timestamp": "00:06:16.000",
+              "start_timestamp": "00:04:38.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "GROMACS commands, file management, error handling.",
+        "timestamps": {
+          "end_timestamp": "00:06:48.567",
+          "start_timestamp": "00:03:54.100"
+        },
+        "title": "Adding Ions",
+        "videoEditingDetails": [
+          {
+            "description": "Cursor highlights relevant commands and files in the Command Prompt and file explorer windows",
+            "timestamps": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:03:54.100"
+            }
+          },
+          {
+            "description": "Cursor highlights specific lines and the error message within the Command Prompt",
+            "timestamps": {
+              "end_timestamp": "00:04:34.000",
+              "start_timestamp": "00:04:17.000"
+            }
+          },
+          {
+            "description": "Cursor highlights specific lines and filenames within the Notepad++ window",
+            "timestamps": {
+              "end_timestamp": "00:06:16.000",
+              "start_timestamp": "00:04:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the importance of energy minimization after adding ions.",
+            "timestamp": {
+              "end_timestamp": "00:07:04.000",
+              "start_timestamp": "00:06:48.600"
+            }
+          },
+          {
+            "description": "Narrator demonstrates a GROMACS command for performing energy minimization.",
+            "timestamp": {
+              "end_timestamp": "00:08:15.000",
+              "start_timestamp": "00:07:04.000"
+            }
+          },
+          {
+            "description": "Narrator shows the generated em.tpr file in the file explorer.",
+            "timestamp": {
+              "end_timestamp": "00:08:32.000",
+              "start_timestamp": "00:08:26.000"
+            }
+          },
+          {
+            "description": "Narrator executes a command to run the energy minimization.",
+            "timestamp": {
+              "end_timestamp": "00:09:16.000",
+              "start_timestamp": "00:08:32.000"
+            }
+          },
+          {
+            "description": "Narrator confirms the successful completion of energy minimization.",
+            "timestamp": {
+              "end_timestamp": "00:09:37.000",
+              "start_timestamp": "00:09:17.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Focused - Narration remains instructional; successful completion evokes a sense of accomplishment.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of energy minimization and its role after adding ions.",
+            "timestamp": "00:06:48.600"
+          },
+          {
+            "description": "Running the GROMACS command to prepare for energy minimization.",
+            "timestamp": "00:07:04.000"
+          },
+          {
+            "description": "Display of the em.tpr file in the file explorer.",
+            "timestamp": "00:08:26.000"
+          },
+          {
+            "description": "Executing the energy minimization using GROMACS mdrun.",
+            "timestamp": "00:08:32.000"
+          },
+          {
+            "description": "Confirmation of successful energy minimization process.",
+            "timestamp": "00:09:16.000"
+          },
+          {
+            "description": "Summary of the steps covered in the tutorial.",
+            "timestamp": "00:09:20.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "File explorer window",
+            "timestamp": {
+              "end_timestamp": "00:09:37.000",
+              "start_timestamp": "00:06:48.600"
+            }
+          },
+          {
+            "name": "Command Prompt window",
+            "timestamp": {
+              "end_timestamp": "00:09:37.000",
+              "start_timestamp": "00:06:48.600"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "GROMACS commands, energy minimization.",
+        "timestamps": {
+          "end_timestamp": "00:09:37.400",
+          "start_timestamp": "00:06:48.600"
+        },
+        "title": "Energy Minimization",
+        "videoEditingDetails": [
+          {
+            "description": "Cursor highlights relevant commands in the Command Prompt window",
+            "timestamps": {
+              "end_timestamp": "00:08:15.000",
+              "start_timestamp": "00:07:04.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Successful completion of energy minimization",
+        "timestamp": "00:09:16.000"
+      },
+      "description": "Tutorial on solvating a protein-ligand complex, adding ions, and performing energy minimization using GROMACS in Windows.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Gromacs in Windows Part 3",
+    "trimmingSuggestions": [
+      {
+        "description": "The static title card at the beginning of the video could be shortened to make the introduction more dynamic.",
+        "timestamps": {
+          "end_timestamp": "00:06:48.600",
+          "start_timestamp": "00:06:48.600"
+        }
+      },
+      {
+        "description": "The scrolling of code within the Notepad++ windows could be accelerated or replaced with key line highlights to maintain viewer engagement.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 577,
+  "original_json_filename": "beIJ-FTgAds.json",
+  "original_video_filename": "beIJ-FTgAds.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "welcome back to P biomolecules in this video series we are going to see how to do molecular dynamics of protein Lian complex in Windows operating system so in this part we are going to see how to solvate the system and how to add the ions and how to do the energy minimization also you all know this is our working directory and we have already opened the command prompter okay now we are going to change the so now we are in the working directory first we are going to give this command GMX edit c-f complex. grow file- new box. gr- BT Doon DD 1.0 you all know the explanation for this commments if you don't know see my previous videos so give enter now we can see the new box is created so you can see this is the new box. grow file next give this command this command is for solvation so give enter you can see the new file is created for the solvation the new file name is the solve. grro you can see this is the solve. grro file okay that's all we have solve it at the system okay next we are going to clear the screen next we need to download some mdp files for that go to the MD tutorials website and you can see in the step four adding ions you have to download the mdp files okay so click on this on this link I'm going to copy this and save it as a new file ions MTP okay I'm going to open with notepad++ and I'm going to paste the file contents and hit contrs and save the file similarly go to this link step five energy minimization and you have to download this MTP file here is the link so this is the m this is the mdp file so copy this also and create a new also you can see in this mdp file the total number of steps is 50,000 for the energy minimization and stop minimization when the maximum force is less than 10 K per mole so total is 1,000 and you can change any of these parameters in the energy minimization mdp file and you can also change in some of the parameters in the ions mdp also but this is just a template mdp file you can use your own mdp files okay so that's all we have downloaded the two mdp files one is the energy minimization mdp file another one is the ions mdp file okay next give this command GMX grow m-f ions mdp DC solve. gr- P to. top- i. DPR so this is the output binary file i. tpr so give enter and then now i. tpr file will be created now as you can see there is an error invalid delimiter for file name in the hash include statement file is top. toop in the line 24 so the last line read is Hash include 2 ep. PRM so this line we have included in the topal dotop so we need to resolve this error so go to this toppal dotop file open this to. top file and this is the line number 24 so we need to enclose this file name inside the double quotation mark okay let's try this first we shall try this and we see whether the error is resolving or not okay and I'm going to give the same command GMX grow m-f ions mdp and the same as before okay the output file is ions tpr and give happen so you can see the same add is recurring invalid elim for the file name in the as include statement file tool. top in the line 24479 so that is 2. ITP okay so we need to enclose this also so we need to enclose this 2 ep. ITP in the double quotation also okay so go to this 24,000 line okay you can see we have missed the double quotation here also so add the double quotation before and after the file name okay so I think that's all we have included these two files so we have added double quotation for these two files okay so save this file and let's try to run the command again the same command the output file is i. okay I think the ions tpr file is generated now so this is the i. tpr so we have to enclose the file names inside the double quotations okay so after adding ions we have to perform the energy minimization so I'm not going to change any of the steps in the energy minimization mdp F so this is just a demo so I'm going to run as it is I'm going to clear the screen so after the generation of ions tpr give this command to generate the ions okay and this and this command will generate solve ions start grow file and it will update the topology file okay and it will add the appropriate ions whether it is sodium or chloride okay to make it the to make the system neutral so select a continuous group of solvent molecules so I'm going to select group number 15 so that is the solent molecules okay so you can see there is uh six chloride ions are added we have already seen in some previous step the total charge in the system is six so the so there are six chloride ions are added next give this command GMX grow MPP Dash f em. mdp - c solve ion. grow so this is the output of the previous command- P top. top so we are going to update the topology file and generate the output file of em. tpr so give enter so now you can see the em. tpr file will be created here this is the em. tpr file that we have generated now okay next give this command GMX MD run- V def M em okay so this command will run this binary file em. tpr and generate some output files okay so give now you can see the energy minimization is completed in the 267 steps and the steepest descent converged to F Max in less than 1,000 in 267 steps okay so that's all we have performed the energy minimization so in this video we have seen how to solve it the system how to add the ions and how to do energy minimization so these are all very basic steps see you in the next part so thank you for",
+  "text_to_speech_word_count": 1106,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.133",
+      "start": "00:00:00.000",
+      "text": " Welcome back to PyMole Biomonicles. In this video series we are going to see how to do"
+    },
+    {
+      "end": "00:00:08.933",
+      "start": "00:00:04.133",
+      "text": " molecular dynamics of protein, Eigen complex and windows operating system. So, in this part we are"
+    },
+    {
+      "end": "00:00:14.633",
+      "start": "00:00:08.933",
+      "text": " going to see how to solve it this system and how to add the ions and how to do the energy"
+    },
+    {
+      "end": "00:00:21.100",
+      "start": "00:00:14.633",
+      "text": " minimization also. You all know this is our working directory and we have already opened the"
+    },
+    {
+      "end": "00:00:39.500",
+      "start": "00:00:21.100",
+      "text": " command prompt ok. Now, we are going to change the directory."
+    },
+    {
+      "end": "00:00:45.267",
+      "start": "00:00:43.500",
+      "text": " So, now we are in the working directory."
+    },
+    {
+      "end": "00:00:59.267",
+      "start": "00:00:45.433",
+      "text": " First we are going to give this command. GMXedit.com-f- complex.grp-vnewbox.grr-bt.doddecavatron-d1.0."
+    },
+    {
+      "end": "00:01:04.867",
+      "start": "00:00:59.267",
+      "text": " You all know the explanation for this command. If you do not know see my previous videos. So, give"
+    },
+    {
+      "end": "00:01:13.500",
+      "start": "00:01:04.867",
+      "text": " enter. Now, we can see the new box is created. So, you can see this is the newbox.grpil."
+    },
+    {
+      "end": "00:01:22.133",
+      "start": "00:01:18.233",
+      "text": " Next to give this command this command is for salvation. So, give enter."
+    },
+    {
+      "end": "00:01:34.367",
+      "start": "00:01:24.700",
+      "text": " You can see the new file is created for the salvation. The new file name is the solve.grv. You can"
+    },
+    {
+      "end": "00:01:45.833",
+      "start": "00:01:34.867",
+      "text": " see this is the solve.grv. That is all we have solvated the system. Next we are going to clear"
+    },
+    {
+      "end": "00:01:52.233",
+      "start": "00:01:45.833",
+      "text": " the screen. Next we need to download some mdp files for that. Go to the MD2 Torres website"
+    },
+    {
+      "end": "00:01:59.833",
+      "start": "00:01:53.333",
+      "text": " and you can see in this step 4 adding ions you have to download the mdp files. So, click on this"
+    },
+    {
+      "end": "00:02:05.500",
+      "start": "00:01:59.833",
+      "text": " one this link. I am going to copy this and save it as a new file."
+    },
+    {
+      "end": "00:02:20.633",
+      "start": "00:02:16.000",
+      "text": " ions.mdp. I am going to open with an outpad plus plus"
+    },
+    {
+      "end": "00:02:31.433",
+      "start": "00:02:21.600",
+      "text": " and I am going to paste the file contents and hit control s and save the file."
+    },
+    {
+      "end": "00:02:41.900",
+      "start": "00:02:35.500",
+      "text": " Similarly, go to this link step 5 energy minimization and you have to download this mdp file."
+    },
+    {
+      "end": "00:03:01.333",
+      "start": "00:02:42.000",
+      "text": " Here is the link. So, this is the mdp file. So, copy this also and create a new file."
+    },
+    {
+      "end": "00:03:13.333",
+      "start": "00:03:02.300",
+      "text": " And save this file also. You can see in this mdp file the total number of steps is 50,000"
+    },
+    {
+      "end": "00:03:22.133",
+      "start": "00:03:13.333",
+      "text": " for the energy minimization and stop minimization when the maximum force is less than 10 kilojoule per"
+    },
+    {
+      "end": "00:03:34.300",
+      "start": "00:03:22.400",
+      "text": " mole. So, total is 1000 and you can change any of these parameters in the energy minimization"
+    },
+    {
+      "end": "00:03:39.433",
+      "start": "00:03:34.300",
+      "text": " mdp file and you can also change in some of the parameters in the ions.mdp also."
+    },
+    {
+      "end": "00:03:46.300",
+      "start": "00:03:39.433",
+      "text": " But this is just a template mdp file. You can use your own mdp files. So, that is all."
+    },
+    {
+      "end": "00:03:50.633",
+      "start": "00:03:46.300",
+      "text": " We have downloaded the two mdp files. So, one is the energy minimization mdp file."
+    },
+    {
+      "end": "00:04:00.067",
+      "start": "00:03:50.700",
+      "text": " Another one is the ions.mdp file. Okay. Next, give this command. GMX grow mpp dash f ions.mdp dash c"
+    },
+    {
+      "end": "00:04:09.333",
+      "start": "00:04:00.067",
+      "text": " solve.grwo dash p topal.top dash o ions.dp r. So, this is the output binary file ions.tp r. So,"
+    },
+    {
+      "end": "00:04:18.367",
+      "start": "00:04:09.333",
+      "text": " give enter and then now ions.tp r file will be created now. As you can see there is an error"
+    },
+    {
+      "end": "00:04:22.300",
+      "start": "00:04:18.933",
+      "text": " invalid delimiter for file name in the hash include statement."
+    },
+    {
+      "end": "00:04:29.900",
+      "start": "00:04:22.300",
+      "text": " Soil is topal.top in the line 24. So, the last line read is hash include 2ep.prm. So,"
+    },
+    {
+      "end": "00:04:35.333",
+      "start": "00:04:29.900",
+      "text": " this line we have included in the topal.top. So, we need to resolve this error. So, go to the"
+    },
+    {
+      "end": "00:04:43.200",
+      "start": "00:04:35.333",
+      "text": " topal.top file. Open this topal.top file and this is the line number 24. So, we need to"
+    },
+    {
+      "end": "00:04:46.467",
+      "start": "00:04:43.267",
+      "text": " enclose this file name inside the double quotation mark. Okay."
+    },
+    {
+      "end": "00:04:54.400",
+      "start": "00:04:48.300",
+      "text": " Let us try this. First we shall try this and we see whether the error is resolving or not."
+    },
+    {
+      "end": "00:05:05.267",
+      "start": "00:04:54.400",
+      "text": " Okay. And I am going to give the same command. GMX grow mpp dash f ions.mdp and the same as before."
+    },
+    {
+      "end": "00:05:16.300",
+      "start": "00:05:06.000",
+      "text": " The output file is ions.tp r and give enter. Let us see what is going to happen."
+    },
+    {
+      "end": "00:05:28.233",
+      "start": "00:05:23.267",
+      "text": " So, you can see the same address recurring invalid delimiter for the file name in the hash"
+    },
+    {
+      "end": "00:05:37.333",
+      "start": "00:05:28.233",
+      "text": " include statement file topal.top in the line 24.479. So, that is 2ep.itp. Okay. So, we need to"
+    },
+    {
+      "end": "00:05:43.733",
+      "start": "00:05:37.333",
+      "text": " enclose this also. So, we need to enclose this 2ep.itp in the double quotation also. Okay."
+    },
+    {
+      "end": "00:05:47.100",
+      "start": "00:05:43.733",
+      "text": " So, go to this 24.000 line. Okay."
+    },
+    {
+      "end": "00:05:50.067",
+      "start": "00:05:48.067",
+      "text": " Okay."
+    },
+    {
+      "end": "00:06:01.900",
+      "start": "00:05:57.333",
+      "text": " You can see we have missed the double quotation here also. So, add the double quotation before"
+    },
+    {
+      "end": "00:06:10.233",
+      "start": "00:06:01.900",
+      "text": " and after the file name. Okay. So, I think that is all. We have included these two files."
+    },
+    {
+      "end": "00:06:18.700",
+      "start": "00:06:10.400",
+      "text": " So, we have added double quotation for these two files. Okay. So, save this file and let us try to run"
+    },
+    {
+      "end": "00:06:23.733",
+      "start": "00:06:18.700",
+      "text": " the command again. The same command the output file is ions.tp r."
+    },
+    {
+      "end": "00:06:44.300",
+      "start": "00:06:23.833",
+      "text": " Okay. I think the ions.tp r file is generated now. So, this is the ions.tp r. So, we have to"
+    },
+    {
+      "end": "00:06:50.067",
+      "start": "00:06:44.300",
+      "text": " enclose the file names inside the double quotations. Okay. So, after adding ions,"
+    },
+    {
+      "end": "00:06:56.800",
+      "start": "00:06:50.300",
+      "text": " we have to perform the energy minimization. So, I am not going to change any of the steps"
+    },
+    {
+      "end": "00:07:02.700",
+      "start": "00:06:56.800",
+      "text": " in the energy minimization of dp. So, this is just a demo. So, I am going to run as it is."
+    },
+    {
+      "end": "00:07:09.267",
+      "start": "00:07:02.700",
+      "text": " I am going to clear this screen. So, after the generation of ions.tp r, give this command to"
+    },
+    {
+      "end": "00:07:17.500",
+      "start": "00:07:09.267",
+      "text": " generate the ions. Okay. And this and this command will generate solve ions.grow file and it will"
+    },
+    {
+      "end": "00:07:22.933",
+      "start": "00:07:17.500",
+      "text": " update the topology file. Okay. And it will add the appropriate ions whether it is sodium or chloride."
+    },
+    {
+      "end": "00:07:26.533",
+      "start": "00:07:23.500",
+      "text": " Okay. To make it to make the system neutral."
+    },
+    {
+      "end": "00:07:35.833",
+      "start": "00:07:30.533",
+      "text": " So, select a continuous group of solvent molecules. So, I am going to select group number 15."
+    },
+    {
+      "end": "00:07:46.000",
+      "start": "00:07:37.500",
+      "text": " So, that is the solvent molecules. Okay. So, you can see there is six chloride ions are added."
+    },
+    {
+      "end": "00:07:52.400",
+      "start": "00:07:46.133",
+      "text": " We have already seen in some previous step, the total charge in the system is six. So,"
+    },
+    {
+      "end": "00:08:04.233",
+      "start": "00:07:53.100",
+      "text": " so there are six chloride ions are added. Next, give this command gmxgrowmpp-f-em.mdp-c-solv ions.grow."
+    },
+    {
+      "end": "00:08:10.867",
+      "start": "00:08:04.233",
+      "text": " So, this is the output of the previous command-p-topal.top. So, we are going to update the topology file"
+    },
+    {
+      "end": "00:08:14.933",
+      "start": "00:08:11.100",
+      "text": " and generate the output file of em.tp r. So, give enter."
+    },
+    {
+      "end": "00:08:25.833",
+      "start": "00:08:22.800",
+      "text": " So, now you can see the em.tp r file will be created here."
+    },
+    {
+      "end": "00:08:36.000",
+      "start": "00:08:27.900",
+      "text": " This is the em.tp r file that we have generated now. Okay. Next, give this command gmxmd run-v"
+    },
+    {
+      "end": "00:08:45.733",
+      "start": "00:08:36.533",
+      "text": " different em. Okay. So, this command will run this binary file em.tp r and generate some output"
+    },
+    {
+      "end": "00:08:53.833",
+      "start": "00:08:45.733",
+      "text": " files. Okay. So, give enter. Now, the energy minimization is happening."
+    },
+    {
+      "end": "00:09:10.800",
+      "start": "00:08:54.700",
+      "text": " Now, you can see the energy minimization is completed in the 267 steps and the steepest"
+    },
+    {
+      "end": "00:09:17.833",
+      "start": "00:09:10.800",
+      "text": " descent converged to fmax in less than 1000 in 260 sound steps. Okay. So, that is all. We have"
+    },
+    {
+      "end": "00:09:23.033",
+      "start": "00:09:17.833",
+      "text": " performed the energy minimization. So, in this video, we have seen how to solve the system,"
+    },
+    {
+      "end": "00:09:28.633",
+      "start": "00:09:23.033",
+      "text": " how to add the ions and how to do energy minimization. So, these are all very basic steps."
+    },
+    {
+      "end": "00:09:37.267",
+      "start": "00:09:28.633",
+      "text": " See you in the next one. So, thank you for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Pymol Biomolecules",
+  "youtube_channel_follower_count": 3340,
+  "youtube_comment_count": 2,
+  "youtube_description": "How to perform protein ligand complex molecular dynamics simulation using gromacs in windows. For this Molecular dynamics simulation Ubuntu or Windows subsystem orLinux operating system is not necessary. In Previous video i have shown you how to install gromacs software in native Windows operating system. In this part we are going to see \nhow to make periodic boundary conditions.\nhow to solvate the system \nhow to add ions to the system \nhow to do energy minimisation using steepest decent algorithm.\nHow to download mdp files for the simulations.\nHow to edit the topology topol.top file in windows notepad.\nGromacs is the computationl chemistry tool for the molecular dynamics simulation.",
+  "youtube_like_count": 8,
+  "youtube_tags": [
+    "Gromacs",
+    "molecular dynamics",
+    "no WSL",
+    "Ubuntu not necessary",
+    "windows",
+    "protein ligand complex",
+    "cgenff",
+    "charmm36",
+    "solvating system",
+    "adding ions",
+    "energy minimisation",
+    "steepest decent"
+  ],
+  "youtube_title": "How to do Gromacs Protein Ligand MD Simulation in Windows Part 3",
+  "youtube_upload_date": "20240405",
+  "youtube_view_count": 621
+}

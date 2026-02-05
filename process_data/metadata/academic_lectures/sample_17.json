@@ -1,0 +1,677 @@
+{
+  "content_fine_category": "Academic Lectures",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "c1",
+        "description": "Wearing a white coat, green surgical scrubs, glasses, and a mustache. He is leading the intubation procedure.",
+        "name": "Doctor (Male)"
+      },
+      {
+        "characterId": "c2",
+        "description": "Wearing black scrubs and glasses, with blonde hair tied back. She stands at the patient's left side.",
+        "name": "Nurse 1 (Female)"
+      },
+      {
+        "characterId": "c3",
+        "description": "Wearing blue scrubs and glasses, with short brown hair. She stands at the patient's right side, behind the doctor.",
+        "name": "Nurse 2 (Female)"
+      },
+      {
+        "characterId": "c4",
+        "description": "Wearing white scrubs and a stethoscope, with long brown hair. She stands at the patient's right side, beside Nurse 2.",
+        "name": "Nurse 3 (Female)"
+      },
+      {
+        "characterId": "c5",
+        "description": "Wearing blue scrubs, with dark hair tied back. She is partially visible on the left side, behind Nurse 1.",
+        "name": "Nurse 4 (Female)"
+      },
+      {
+        "characterId": "c6",
+        "description": "Unconscious female patient lying on a hospital bed.",
+        "name": "Patient (Female)"
+      }
+    ],
+    "description": "Detailed demonstration of a rapid sequence intubation procedure in a medical setting.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The pressure is applied to the cricothyroid membrane, which helps to occlude the esophagus and make it easier to visualize the vocal cords during intubation.",
+        "question": "What is the purpose of the pressure applied to the patient's neck?"
+      },
+      {
+        "answer": "Rocuronium, the paralytic, is given first to relax the muscles. After a brief pause, Ketamine, the sedative, is administered to prevent the patient from experiencing discomfort or panic while paralyzed.",
+        "question": "Why is Rocuronium administered first, followed by Ketamine?"
+      },
+      {
+        "answer": "The doctor uses a capnometer, which measures the patient's end-tidal CO2. The presence of CO2 in exhaled breath indicates that the tube is in the trachea.",
+        "question": "How is the doctor able to confirm that the endotracheal tube is placed correctly?"
+      },
+      {
+        "answer": "A reading of 43 indicates that the patient is being adequately ventilated. This confirms that the tube is placed correctly and allows for precise ventilation.",
+        "question": "What is the significance of the patient's end-tidal CO2 reading being 43?"
+      },
+      {
+        "answer": "The doctor uses a tube chamber, which is a specialized device that secures the tube in place and prevents it from accidentally dislodging.",
+        "question": "What is the final step in securing the endotracheal tube?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Doctor explains the intubation procedure, including preparations and medications used.",
+            "timestamp": {
+              "end_timestamp": "00:02:20.007",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Nurse 1 administers Rocuronium to the patient.",
+            "timestamp": {
+              "end_timestamp": "00:02:52.005",
+              "start_timestamp": "00:02:21.008"
+            }
+          },
+          {
+            "description": "Doctor intubates the patient, assisted by Nurses 1 and 2.",
+            "timestamp": {
+              "end_timestamp": "00:03:58.004",
+              "start_timestamp": "00:02:53.006"
+            }
+          },
+          {
+            "description": "Doctor checks tube placement, secures the tube, and ventilates the patient.",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:03:59.005"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Doctor (Male)",
+          "Nurse 1 (Female)",
+          "Nurse 2 (Female)",
+          "Nurse 3 (Female)",
+          "Nurse 4 (Female)",
+          "Patient (Female)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Doctor (Male)",
+              "Nurse 1 (Female)",
+              "Nurse 2 (Female)",
+              "Nurse 3 (Female)",
+              "Nurse 4 (Female)"
+            ],
+            "description": "Doctor leads the procedure, providing instructions to the nurses. Nurses work collaboratively, assisting the doctor and monitoring the patient."
+          }
+        ],
+        "contextualRelevance": "The procedure's critical role in emergency and surgery settings, minimizing patient risk.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious - Neutral",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from Curious to Neutral where the doctor's instructions become more direct.",
+              "timestamp": "00:02:21.008"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the patient and need for intubation.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Administration of Rocuronium.",
+            "timestamp": "00:02:21.008"
+          },
+          {
+            "description": "Intubation procedure begins.",
+            "timestamp": "00:02:53.006"
+          },
+          {
+            "description": "Confirmation of successful intubation.",
+            "timestamp": "00:03:58.004"
+          },
+          {
+            "description": "Patient stable, procedure complete.",
+            "timestamp": "00:05:57.991"
+          }
+        ],
+        "props": [
+          {
+            "name": "Hospital bed",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Oxygen mask",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Suction equipment",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Bag valve mask",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Capnometer",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Laryngoscope",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Endotracheal tube",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Syringe",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Tape",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Stethoscope",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Blood pressure monitor",
+            "timestamp": {
+              "end_timestamp": "00:05:57.991",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Importance of rapid sequence intubation for airway protection. The role of medications in facilitating intubation. Teamwork and communication in critical care settings.",
+        "timestamps": {
+          "end_timestamp": "00:05:58.325",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1: Rapid Sequence Intubation",
+        "videoEditingDetails": [
+          {
+            "description": "Inset of capnometer readings to confirm tube placement.",
+            "timestamps": {
+              "end_timestamp": "00:03:58.004",
+              "start_timestamp": "00:03:49.996"
+            }
+          },
+          {
+            "description": "Suggestion to shorten the initial explanation focusing on key points to increase dynamism.",
+            "timestamps": {
+              "end_timestamp": "00:02:20.007",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Confirmation of successful intubation.",
+        "timestamp": "00:03:58.004"
+      },
+      "description": "Rapid Sequence Intubation Procedure",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Rapid Sequence Intubation Procedure",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten the initial explanation focusing on key points to increase dynamism.",
+        "timestamps": {
+          "end_timestamp": "00:02:20.007",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "Consider adding transitions between activities within the scene for smoother flow.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 358,
+  "original_json_filename": "kTd7km_jnKw.json",
+  "original_video_filename": "kTd7km_jnKw.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "go to the rap sequence intubation station is an overdose so she's not all that the kid Nik Wichita protecting her airway all that well so what we're going to do is we run into bait on to protect her airway in preparation for the intubation what you need to do is make sure that the entire head of the bed is ready to go and that includes you know hunter percent non-rebreather on the patient suction setup so that you can suction the patient such as should be turned all the way up to full and should not get on intermittently in addition you need bag-valve-mask set up and with airflow interest the cap'n ometer needs to be set up and calibrated so that we know when the tube is in the whole idea behind the rapid sequence intubation is to be able to get to the and the tracheal tube in the trachea and minimize the recent Tatian either becoming hypoxic or the patient vomiting and aspirated so she's not protecting the airway very very lost sucking a little bit and the idea is the following what we're gonna do is we're going to put them in trachea tube into her I'm gonna protect their airway the rest of the way and we'll make sure we can control her respirations as well we've got a 100% non-rebreather on her because what we want to do is we want to watch all the nitrogen out of her lungs and be able to just have oxygen in there so that'll give us about a minute or two to forget the tracheal tube in as soon as we push our meds she's going to lose the rest of her airway reflexes because we're going to paralyze her as well as the data a little bit more soon as we push the madison's Kate's going to put some pressure on the cricothyroid membrane and that's going to prove the esophagus he's also going to put a little bit of pressure that's going to push the cricothyroid membrane backwards upward and to the right so the backwards upward greater pressure bertha's in the monic cord and that's going to make a little bit easier for us to see what's going on in addition we've got the endotracheal tube prepared it's got a syringe on it attention see syringe which we blow the balloon up and we've got our endoscope already set up to go and we check your weight morning we're going to do her with rocuronium when you use rocuronium is the opposite of but a lot of people think you push the rope chronium first which is the paralytic we wait 15 seconds and then we are going to go ahead and push the set evasion her case are using ketamine because of blood pressure's a little bit on the low side okay go ahead and push the rocuronium alright the rope runnings going in now okay i'm going to wait about 15 seconds and then we're going to push deceptive in this case we're going with ketamine one heart okay push the cut in and what you generally find is again pushes an overdose she's waxing and waning a little bit if we weren't stimulating her she'd go completely to see canoeing off of touching your average race okay going for a little bit priceless trust runner okay you can see how rapidly the medicines work when the ring scope goes in when it's sweep the tongue to the left visualize before it turns clearly but we don't release the pressure on the right foot membrane until the balloons flown up and we're in where we see G and we see the game one breath in table co2 is showing here and such at 43 which shows it we got her intubated and a pretty good clip and they need to come hypoxic wonders and she became too much fun to do a quick twist so we have good breath sounds and we're at about 22 at the lift our end title is 41 which is right where we want it to be now Kate's got her tooth tamer that we're going to put on here to secure the under trade kill tools what you do is you take the stickies all for both of these sisters around beyond YouTube what you have to have in this locks in here there's a little piece of can here and then what this will do is secure the ep2 in the right position okay the only way we know this to begin is to look at the base form when the caponata this we don't see that you don't know eh in addition though but even the actual number here body knew exactly how much the ventilator so when I'm hyperventilating her and we're not hypoventilating car all right tubes in place we got dual breast down to both sides pulls off is 100% she's a little bit tachycardic and now we're just going to receive your blood pressure with the ketamine in there her blood pressure should be pretty good so it should not be a problem there otherwise we'll get a chest x-ray confirm the position and now we can bring respiratory in here for refusing never enough room to put respiratory and ventilator in here at the same times during intubation all right that's it guys thanks",
+  "text_to_speech_word_count": 908,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.139",
+      "start": "00:00:00.000",
+      "text": " One of those rap sequence intubation, this patient is an overdose, so she's not all"
+    },
+    {
+      "end": "00:00:09.610",
+      "start": "00:00:06.139",
+      "text": " that the kidney but she's not protecting her airway all that well. So what we're"
+    },
+    {
+      "end": "00:00:14.181",
+      "start": "00:00:09.610",
+      "text": " going to do is we're going to intubate her in a protector airway. In preparation for"
+    },
+    {
+      "end": "00:00:17.584",
+      "start": "00:00:14.181",
+      "text": " the intubation, what you need to do is make sure that the entire head of the bed"
+    },
+    {
+      "end": "00:00:21.889",
+      "start": "00:00:17.584",
+      "text": " is ready to go and that includes, you know, 100% non-regretional in the patient,"
+    },
+    {
+      "end": "00:00:25.792",
+      "start": "00:00:21.889",
+      "text": " suction set up so that you can suction the patient, suction should be turned,"
+    },
+    {
+      "end": "00:00:30.330",
+      "start": "00:00:25.792",
+      "text": " all the way up to full and should not be on intermittent. In addition, you need"
+    },
+    {
+      "end": "00:00:35.936",
+      "start": "00:00:30.330",
+      "text": " vagabond mass set up and with air flowing to it, the capnometer needs to be set up"
+    },
+    {
+      "end": "00:00:40.908",
+      "start": "00:00:35.936",
+      "text": " and calibrated so that we know when the tube is in. The whole idea behind the"
+    },
+    {
+      "end": "00:00:44.578",
+      "start": "00:00:40.908",
+      "text": " rapid sequence intubation is to be able to get the intracute tube into the"
+    },
+    {
+      "end": "00:00:49.016",
+      "start": "00:00:44.578",
+      "text": " trachea and minimize the risk of the patient either becoming hypotic or the"
+    },
+    {
+      "end": "00:00:54.021",
+      "start": "00:00:49.016",
+      "text": " patient vomiting and aspirating. So she's not protecting her airway very very"
+    },
+    {
+      "end": "00:00:57.891",
+      "start": "00:00:54.021",
+      "text": " rough, she's trekking a little bit and the idea is to follow. What we're going to do"
+    },
+    {
+      "end": "00:01:01.528",
+      "start": "00:00:57.891",
+      "text": " is we're going to put an intracute tube into her and we'll protect our airway"
+    },
+    {
+      "end": "00:01:04.464",
+      "start": "00:01:01.528",
+      "text": " the rest of the lamp. We'll make sure we can control her about the respiration as"
+    },
+    {
+      "end": "00:01:09.303",
+      "start": "00:01:04.464",
+      "text": " well. We've got 100% non-regretional on her because what we want to do is we"
+    },
+    {
+      "end": "00:01:13.440",
+      "start": "00:01:09.303",
+      "text": " want to wash all the nitrogen out of her lungs and be able to just have"
+    },
+    {
+      "end": "00:01:16.276",
+      "start": "00:01:13.440",
+      "text": " oxygen in there so that'll give us about a minute or two to put the"
+    },
+    {
+      "end": "00:01:21.114",
+      "start": "00:01:16.276",
+      "text": " intracute tube in. As soon as we push our meds, she's going to lose the rest of"
+    },
+    {
+      "end": "00:01:24.217",
+      "start": "00:01:21.114",
+      "text": " her airway re-blectance because we're going to paralyze her as well as the"
+    },
+    {
+      "end": "00:01:28.255",
+      "start": "00:01:24.217",
+      "text": " data a little bit more. As soon as we push the medicine, Kate's going to put some"
+    },
+    {
+      "end": "00:01:31.658",
+      "start": "00:01:28.255",
+      "text": " pressure on the glycosyroid membrane and that's going to include the esophageal."
+    },
+    {
+      "end": "00:01:35.596",
+      "start": "00:01:31.658",
+      "text": " She's also going to put a little bit of pressure that's going to push the"
+    },
+    {
+      "end": "00:01:42.669",
+      "start": "00:01:35.596",
+      "text": " cracked-arid membrane backwards upward and to the right. So backwards upward"
+    },
+    {
+      "end": "00:01:46.106",
+      "start": "00:01:42.669",
+      "text": " rightward pressure burps is a pneumonic cord and that's going to make it a little"
+    },
+    {
+      "end": "00:01:49.643",
+      "start": "00:01:46.106",
+      "text": " bit easier for us to see what's going on. In addition we've got the"
+    },
+    {
+      "end": "00:01:54.247",
+      "start": "00:01:49.643",
+      "text": " tracheal tube prepared. It's got a syringe on it, a 10cc syringe, we've"
+    },
+    {
+      "end": "00:01:58.485",
+      "start": "00:01:54.247",
+      "text": " below the balloon up and we've got our arrangescope already set up to go and"
+    },
+    {
+      "end": "00:02:02.956",
+      "start": "00:01:58.485",
+      "text": " we've checked the late one. We're going to do her with row coronium"
+    },
+    {
+      "end": "00:02:06.059",
+      "start": "00:02:02.956",
+      "text": " and ketamine and when you use row coronium it's the opposite of what a lot of"
+    },
+    {
+      "end": "00:02:10.364",
+      "start": "00:02:06.059",
+      "text": " people think. She pushed the row coronium first which is the paralytic, we wait"
+    },
+    {
+      "end": "00:02:15.669",
+      "start": "00:02:10.364",
+      "text": " 15 seconds and then we're going to go ahead and push the sedative agent. Her"
+    },
+    {
+      "end": "00:02:18.372",
+      "start": "00:02:15.669",
+      "text": " case we're using ketamine because there's blood pressure a little bit on the"
+    },
+    {
+      "end": "00:02:23.577",
+      "start": "00:02:18.372",
+      "text": " low side. Okay go ahead and push the row coronium."
+    },
+    {
+      "end": "00:02:33.920",
+      "start": "00:02:29.916",
+      "text": " The row coronium is going in now."
+    },
+    {
+      "end": "00:02:40.427",
+      "start": "00:02:36.723",
+      "text": " Okay and we're going to wait about 15 seconds and then we're going to push the"
+    },
+    {
+      "end": "00:02:44.231",
+      "start": "00:02:40.427",
+      "text": " sedative in this case we're going with ketamine one heart."
+    },
+    {
+      "end": "00:02:55.208",
+      "start": "00:02:49.369",
+      "text": " Okay push the ketamine and what you're generally fine is again push"
+    },
+    {
+      "end": "00:02:59.246",
+      "start": "00:02:55.208",
+      "text": " the adenovido, she's waxing and waning a little bit. If you weren't stimulating"
+    },
+    {
+      "end": "00:03:01.848",
+      "start": "00:02:59.246",
+      "text": " her she'd go completely to sleep so you're going out to touching her L-A"
+    },
+    {
+      "end": "00:03:06.253",
+      "start": "00:03:01.848",
+      "text": " grade. Okay go ahead and put a little bit of tracheal tube pressure on her."
+    },
+    {
+      "end": "00:03:17.798",
+      "start": "00:03:06.253",
+      "text": " Okay you can see how rapidly the medicines work."
+    },
+    {
+      "end": "00:03:28.041",
+      "start": "00:03:21.802",
+      "text": " When the ring scope goes in we're going to sweep the tongue to the left."
+    },
+    {
+      "end": "00:03:45.592",
+      "start": "00:03:36.249",
+      "text": " We've been visualizing the border clearly but we don't release the pressure on the"
+    },
+    {
+      "end": "00:03:49.096",
+      "start": "00:03:45.592",
+      "text": " trichot membrane until the balloon is blown up and we're in more weeks to be."
+    },
+    {
+      "end": "00:03:55.802",
+      "start": "00:03:49.096",
+      "text": " We can see the gain from the brach and cylocale 2 is showing here and she's up 43."
+    },
+    {
+      "end": "00:03:59.339",
+      "start": "00:03:55.802",
+      "text": " We got her incubating at a pretty good split."
+    },
+    {
+      "end": "00:04:04.311",
+      "start": "00:03:59.339",
+      "text": " We're going to become high-costic one if it didn't come to my front of the ass."
+    },
+    {
+      "end": "00:04:06.313",
+      "start": "00:04:04.311",
+      "text": " Let's do a little trick question."
+    },
+    {
+      "end": "00:04:24.331",
+      "start": "00:04:18.325",
+      "text": " We have good breath sounds and we're at about 22 at the lip."
+    },
+    {
+      "end": "00:04:28.335",
+      "start": "00:04:24.331",
+      "text": " Our antidal is 41 which is right where we want it to be."
+    },
+    {
+      "end": "00:04:36.309",
+      "start": "00:04:28.335",
+      "text": " Now Kate's got her tube chamber that we're going to put on here to secure the end of tracheal tube."
+    },
+    {
+      "end": "00:04:44.317",
+      "start": "00:04:36.309",
+      "text": " What you do is you take the sticky's off of both of these and you put this around the"
+    },
+    {
+      "end": "00:04:46.319",
+      "start": "00:04:44.317",
+      "text": " NG tube that you have to have in."
+    },
+    {
+      "end": "00:04:48.321",
+      "start": "00:04:46.319",
+      "text": " This locks in here."
+    },
+    {
+      "end": "00:04:53.326",
+      "start": "00:04:48.321",
+      "text": " There's a little piece of came here and then but this will do is secure the end of the"
+    },
+    {
+      "end": "00:04:54.327",
+      "start": "00:04:53.326",
+      "text": " trichot membrane."
+    },
+    {
+      "end": "00:04:57.330",
+      "start": "00:04:54.327",
+      "text": " We need heat tube in the right position."
+    },
+    {
+      "end": "00:05:04.337",
+      "start": "00:04:57.330",
+      "text": " The only way we know this tube is to go through the base form when it's not non-referent."
+    },
+    {
+      "end": "00:05:05.338",
+      "start": "00:05:04.337",
+      "text": " We don't see that."
+    },
+    {
+      "end": "00:05:07.307",
+      "start": "00:05:05.338",
+      "text": " We don't know what it is."
+    },
+    {
+      "end": "00:05:12.312",
+      "start": "00:05:07.307",
+      "text": " In addition though, by reading the actual number here, body knows exactly how much the"
+    },
+    {
+      "end": "00:05:13.313",
+      "start": "00:05:12.312",
+      "text": " ventilator is going to be."
+    },
+    {
+      "end": "00:05:18.318",
+      "start": "00:05:13.313",
+      "text": " We're not hyperventilating her and we're not typo ventilating her."
+    },
+    {
+      "end": "00:05:28.328",
+      "start": "00:05:24.324",
+      "text": " Alright, tubes in place."
+    },
+    {
+      "end": "00:05:31.331",
+      "start": "00:05:28.328",
+      "text": " We got two breast downs both sides."
+    },
+    {
+      "end": "00:05:36.336",
+      "start": "00:05:31.331",
+      "text": " Pulls out to 100% and is a little bit tacked parted and now we're just going to be seeing"
+    },
+    {
+      "end": "00:05:37.337",
+      "start": "00:05:36.336",
+      "text": " her blood pressure."
+    },
+    {
+      "end": "00:05:41.308",
+      "start": "00:05:37.337",
+      "text": " With the ketamine in there, her blood pressure should be pretty good so it should not be"
+    },
+    {
+      "end": "00:05:43.310",
+      "start": "00:05:41.308",
+      "text": " a problem there."
+    },
+    {
+      "end": "00:05:48.315",
+      "start": "00:05:43.310",
+      "text": " Otherwise, we'll get a chest x-ray confirmed in position and now we can bring the rest of the"
+    },
+    {
+      "end": "00:05:52.319",
+      "start": "00:05:48.315",
+      "text": " trichotamine in here because there's usually never enough room to put rest of the trichotamine"
+    },
+    {
+      "end": "00:05:55.322",
+      "start": "00:05:52.319",
+      "text": " and ventilator in here at the same time as during the incubation."
+    },
+    {
+      "end": "00:05:56.323",
+      "start": "00:05:55.322",
+      "text": " Alright, that's it guys."
+    },
+    {
+      "end": "00:05:57.324",
+      "start": "00:05:56.323",
+      "text": " Thanks."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Alfred Sacchetti",
+  "youtube_channel_follower_count": 6150,
+  "youtube_comment_count": 180,
+  "youtube_description": "Rapid Sequence Intubation of overdose patient using rocuronium and ketamine.",
+  "youtube_like_count": 1065,
+  "youtube_tags": [
+    "Intubation"
+  ],
+  "youtube_title": "Endotracheal Intubation: RSI with Rocuronium / Ketamine",
+  "youtube_upload_date": "20110916",
+  "youtube_view_count": 370831
+}

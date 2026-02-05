@@ -1,0 +1,475 @@
+{
+  "content_fine_category": "Astronomy",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "c1",
+        "description": "A disembodied voice providing instructions throughout the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video explaining how to use the photometry tool in the Maxim DL software for astronomical analysis.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Check stars are used to ensure that the reference star selected is not itself variable.",
+        "question": "What is the purpose of selecting check stars in the photometry tool?"
+      },
+      {
+        "answer": "The light curve data is saved as a comma-separated values (CSV) file.",
+        "question": "What file format is used to save the light curve data?"
+      },
+      {
+        "answer": "It measures the object's brightness relative to the chosen reference star with a known magnitude.",
+        "question": "How does the photometry tool determine the magnitude of the selected object?"
+      },
+      {
+        "answer": "The tool can be used to study variable stars, eclipses, and the rotation of planets and asteroids.",
+        "question": "What are some applications of the photometry tool in astronomy?"
+      },
+      {
+        "answer": "Aligning images ensures accurate tracking of the object's position across the image series, which is crucial for generating a reliable light curve.",
+        "question": "What is the importance of aligning images before using the photometry tool?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the photometry tool",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sets the stage for the tutorial by introducing photometry and its relevance.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator introduces the concept of photometry and its uses in astronomy.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of a star field",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Photometry, Variable stars, Eclipses, Asteroids, Planets",
+        "timestamps": {
+          "end_timestamp": "00:00:26.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "University of Iowa logo",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Fade to black",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator instructs how to use the photometry tool",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:00:26.033"
+            }
+          },
+          {
+            "description": "Selecting \"Photometry\" option",
+            "timestamp": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:26.033"
+            }
+          },
+          {
+            "description": "Tagging objects",
+            "timestamp": {
+              "end_timestamp": "00:01:02.000",
+              "start_timestamp": "00:00:36.000"
+            }
+          },
+          {
+            "description": "Selecting a reference star",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          },
+          {
+            "description": "Setting the reference star magnitude",
+            "timestamp": {
+              "end_timestamp": "00:01:22.000",
+              "start_timestamp": "00:01:22.000"
+            }
+          },
+          {
+            "description": "Selecting check stars",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          },
+          {
+            "description": "Tracking objects across images",
+            "timestamp": {
+              "end_timestamp": "00:01:49.000",
+              "start_timestamp": "00:01:37.000"
+            }
+          },
+          {
+            "description": "Viewing the light curve",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:52.000"
+            }
+          },
+          {
+            "description": "Saving the light curve",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene provides a detailed walkthrough of using the photometry tool, relevant for learners and enthusiasts.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator provides a step-by-step guide on using the photometry tool in Maxim DL, including selecting objects, setting reference stars, and generating a light curve.",
+            "timestamp": "00:00:26.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of a star field",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:00:26.033"
+            }
+          },
+          {
+            "name": "Maxim DL software interface",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:00:26.033"
+            }
+          },
+          {
+            "name": "Tagged objects (circles)",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "name": "Light curve plot",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Software tutorial, Astronomical data analysis",
+        "timestamps": {
+          "end_timestamp": "00:02:05.267",
+          "start_timestamp": "00:00:26.033"
+        },
+        "title": "Using the Photometry Tool",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom into star field",
+            "timestamps": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "description": "Cursor movement",
+            "timestamps": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:00:26.033"
+            }
+          },
+          {
+            "description": "Pop-up windows",
+            "timestamps": {
+              "end_timestamp": "00:01:32.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Generating and saving the light curve",
+        "timestamp": "00:01:52.000"
+      },
+      "description": "How to use the photometry tool in Maxim DL for astronomical analysis.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Photometry in Maxim",
+    "trimmingSuggestions": [
+      {
+        "description": "The University of Iowa logo at the beginning could be shortened.",
+        "timestamps": {
+          "end_timestamp": "00:00:26.033",
+          "start_timestamp": "00:00:26.033"
+        }
+      },
+      {
+        "description": "The cursor movement could be sped up slightly during the object selection process to improve pacing.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 125,
+  "original_json_filename": "Zanr1cacEjQ.json",
+  "original_video_filename": "Zanr1cacEjQ.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "the photometry tool in Maxim measures the brightness of a selected object in an image you can use the photometry tool to measure changing brightness in an object such as a variable star or eclipse or a smaller rotating body like a planet or asteroid by analyzing the light curve of an object you can learn information about its physical properties to produce a light curve with the photometry tool first go to the analyze tab at the top of the window and select photometry when using the photometry tool it is important that the images you are using are aligned to produce a light curve we will need to tag several objects in our set of images click on the drop down menu under tagged objects to display a list of tags first select your object if the object appears stationary like a variable star or binary select new object if the object moves across the set of images like a planet or asteroid select new moving object click on the object in the image you will see that the selected object is now listed under the tagged objects list in order for maxim to analyze the change in brightness of the object it needs a point of reference go to the list of tabs and select new reference star then select a star in the image you will want to use a star with a known magnitude to produce a light curve which accurately plots the changing magnitude of your object however for this tutorial we will simply use a magnitude of 0 if the reference object itself is variable it will skew the resulting data to ensure that this reference star is not variable we will select to check stars as well go to the tag list and select new check star then select 2 to 3 stars in the image now that we have selected our objects we will want to ensure that they are tracked throughout the series of images go to the image list and select the last image on the list find your object in the image and select it again maksim can now produce a light curve based on the apparent magnitude of your object to view the light curve click on the view plot button at the bottom of the photometry window you can export your light curve as a comma separated values file by clicking the Save button at the bottom of the window and selecting save as CSV",
+  "text_to_speech_word_count": 419,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.333",
+      "start": "00:00:00.000",
+      "text": " The Photometry Tool in Maxim measures the brightness of a selected object in an image."
+    },
+    {
+      "end": "00:00:14.667",
+      "start": "00:00:10.333",
+      "text": " You can use the Photometry Tool to measure changing brightness in an object, such as a variable"
+    },
+    {
+      "end": "00:00:19.267",
+      "start": "00:00:14.667",
+      "text": " star or a eclipse, or a small or rotating body like a planet or asteroid."
+    },
+    {
+      "end": "00:00:23.100",
+      "start": "00:00:19.267",
+      "text": " By analyzing the light curve of an object, you can learn information about its physical"
+    },
+    {
+      "end": "00:00:24.100",
+      "start": "00:00:23.100",
+      "text": " properties."
+    },
+    {
+      "end": "00:00:28.433",
+      "start": "00:00:24.100",
+      "text": " To produce a light curve with the Photometry Tool, first, go to the Analyze tab at the top"
+    },
+    {
+      "end": "00:00:30.733",
+      "start": "00:00:28.433",
+      "text": " of the window and select Photometry."
+    },
+    {
+      "end": "00:00:34.867",
+      "start": "00:00:30.733",
+      "text": " When using the Photometry Tool, it is important that the images you are using are aligned."
+    },
+    {
+      "end": "00:00:39.067",
+      "start": "00:00:34.867",
+      "text": " To produce a light curve, we will need to tag several objects in our set of images."
+    },
+    {
+      "end": "00:00:42.833",
+      "start": "00:00:39.067",
+      "text": " Click on the drop down menu under Tagged Objects to display a list of tags."
+    },
+    {
+      "end": "00:00:44.633",
+      "start": "00:00:42.833",
+      "text": " First, select your object."
+    },
+    {
+      "end": "00:00:49.900",
+      "start": "00:00:44.633",
+      "text": " If the object appears stationary like a variable star or binary, select New Object."
+    },
+    {
+      "end": "00:00:55.200",
+      "start": "00:00:49.900",
+      "text": " If the object moves across the set of images, like a planet or asteroid, select New Moving"
+    },
+    {
+      "end": "00:00:56.433",
+      "start": "00:00:55.200",
+      "text": " Object."
+    },
+    {
+      "end": "00:00:58.300",
+      "start": "00:00:56.433",
+      "text": " Click on the object in the image."
+    },
+    {
+      "end": "00:01:02.467",
+      "start": "00:00:58.300",
+      "text": " You will see that the selected object is now listed under the Tagged Objects list."
+    },
+    {
+      "end": "00:01:06.533",
+      "start": "00:01:02.467",
+      "text": " In order for Maxim to analyze the change in brightness of the object, it needs a point"
+    },
+    {
+      "end": "00:01:07.533",
+      "start": "00:01:06.533",
+      "text": " of reference."
+    },
+    {
+      "end": "00:01:10.733",
+      "start": "00:01:07.533",
+      "text": " Go to the list of tabs and select New Reference Star."
+    },
+    {
+      "end": "00:01:12.800",
+      "start": "00:01:10.733",
+      "text": " Then select a star in the image."
+    },
+    {
+      "end": "00:01:17.133",
+      "start": "00:01:12.800",
+      "text": " You will want to use a star with a known magnitude to produce a light curve which accurately"
+    },
+    {
+      "end": "00:01:19.900",
+      "start": "00:01:17.133",
+      "text": " plots the changing magnitude of your object."
+    },
+    {
+      "end": "00:01:23.300",
+      "start": "00:01:19.900",
+      "text": " However, for this tutorial, we will simply use a magnitude of zero."
+    },
+    {
+      "end": "00:01:27.367",
+      "start": "00:01:23.300",
+      "text": " If the reference object itself is variable, it will skew the resulting data."
+    },
+    {
+      "end": "00:01:32.100",
+      "start": "00:01:27.367",
+      "text": " To ensure that this reference star is not variable, we will select two check stars as well."
+    },
+    {
+      "end": "00:01:34.833",
+      "start": "00:01:32.100",
+      "text": " Go to the tag list and select New Check Star."
+    },
+    {
+      "end": "00:01:37.467",
+      "start": "00:01:34.833",
+      "text": " Then select two to three stars in the image."
+    },
+    {
+      "end": "00:01:40.900",
+      "start": "00:01:37.467",
+      "text": " Now that we have selected our objects, we will want to ensure that they are tracked throughout"
+    },
+    {
+      "end": "00:01:42.433",
+      "start": "00:01:40.900",
+      "text": " the series of images."
+    },
+    {
+      "end": "00:01:45.800",
+      "start": "00:01:42.433",
+      "text": " Go to the image list and select the last image on the list."
+    },
+    {
+      "end": "00:01:48.267",
+      "start": "00:01:45.800",
+      "text": " Find your object in the image and select it again."
+    },
+    {
+      "end": "00:01:52.500",
+      "start": "00:01:48.267",
+      "text": " Maxim can now produce a light curve based on the apparent magnitude of your object."
+    },
+    {
+      "end": "00:01:56.367",
+      "start": "00:01:52.500",
+      "text": " To view the light curve, click on the View Plot button at the bottom of the Photometry"
+    },
+    {
+      "end": "00:01:57.367",
+      "start": "00:01:56.367",
+      "text": " window."
+    },
+    {
+      "end": "00:02:01.667",
+      "start": "00:01:57.367",
+      "text": " You can export your light curve as a comma-separated values file by clicking the Save button"
+    },
+    {
+      "end": "00:02:04.800",
+      "start": "00:02:01.667",
+      "text": " at the bottom of the window and selecting Save as CSV."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "707van",
+  "youtube_channel_follower_count": 9,
+  "youtube_comment_count": 0,
+  "youtube_description": "Using the Photometry Tool in MaxIm",
+  "youtube_like_count": 5,
+  "youtube_tags": [
+    "maxim",
+    "photometry"
+  ],
+  "youtube_title": "Using the Photometry Tool in MaxIm",
+  "youtube_upload_date": "20110810",
+  "youtube_view_count": 2190
+}

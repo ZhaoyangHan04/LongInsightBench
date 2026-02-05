@@ -1,0 +1,718 @@
+{
+  "content_fine_category": "Academic Lectures",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short brown hair and stubble, wearing a black cap with a white brim and a black jacket. He is standing in front of a whiteboard.",
+        "name": "Geoffrey Challen"
+      }
+    ],
+    "description": "An informational video explaining the MapReduce programming model.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The first step is the Map phase, where the inputs are divided and processed by multiple machines.",
+        "question": "What is the first step in the MapReduce process?"
+      },
+      {
+        "answer": "It's important because it ensures each machine can process its assigned data independently, allowing for parallel processing and improved efficiency.",
+        "question": "Why is it important that there's no communication between machines during the Map phase?"
+      },
+      {
+        "answer": "The Shuffle stage sorts the keys so that all instances of the same key are grouped together and sent to the same reducer.",
+        "question": "How does the Shuffle stage prepare the data for the Reduce stage?"
+      },
+      {
+        "answer": "The reducer combines the counts of each key from different mappers to get the total count for that key.",
+        "question": "In the example, what does the reducer do with the data received from the shuffle stage?"
+      },
+      {
+        "answer": "MapReduce can be restrictive in terms of the types of computations it can handle efficiently, and it may not be suitable for all tasks.",
+        "question": "What are some limitations of the MapReduce framework?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic of 'MapReduce'.",
+            "timestamp": "00:00:07.007"
+          }
+        ],
+        "props": [
+          {
+            "name": "White neon sign reading 'Internet Class.org'",
+            "timestamp": {
+              "end_timestamp": "00:00:07.007",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "whiteboard with handwritten text",
+            "timestamp": {
+              "end_timestamp": "00:00:07.007",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to internet technology.",
+        "timestamps": {
+          "end_timestamp": "00:00:07.007",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Animated intro with various sounds, fading to a black screen.",
+            "timestamps": {
+              "end_timestamp": "00:00:07.007",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to the main scene with Geoffrey Challen in front of a whiteboard.",
+            "timestamps": {
+              "end_timestamp": "00:00:07.007",
+              "start_timestamp": "00:00:07.007"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Geoffrey Challen explains MapReduce using drawings and examples on a whiteboard.",
+            "timestamp": {
+              "end_timestamp": "00:05:24.991",
+              "start_timestamp": "00:00:07.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Geoffrey Challen"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral, Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of MapReduce with a practical example.",
+            "timestamp": "00:00:07.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with handwritten text and drawings",
+            "timestamp": {
+              "end_timestamp": "00:05:24.991",
+              "start_timestamp": "00:00:07.040"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Programming, data processing, distributed computing.",
+        "timestamps": {
+          "end_timestamp": "00:05:25.325",
+          "start_timestamp": "00:00:07.040"
+        },
+        "title": "Explanation of MapReduce",
+        "videoEditingDetails": [
+          {
+            "description": "Fade to black with credits appearing.",
+            "timestamps": {
+              "end_timestamp": "00:05:24.991",
+              "start_timestamp": "00:05:24.991"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral, Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "End of the video.",
+            "timestamp": "00:05:25.358"
+          }
+        ],
+        "props": [
+          {
+            "name": "Credits on a black screen with a background of code",
+            "timestamp": {
+              "end_timestamp": "00:05:35.001",
+              "start_timestamp": "00:05:25.358"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Video credits.",
+        "timestamps": {
+          "end_timestamp": "00:05:35.902",
+          "start_timestamp": "00:05:25.358"
+        },
+        "title": "Credits",
+        "videoEditingDetails": [
+          {
+            "description": "Credits appear on a black screen.",
+            "timestamps": {
+              "end_timestamp": "00:05:35.001",
+              "start_timestamp": "00:05:25.358"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Complete process of MapReduce with an example is explained.",
+        "timestamp": "00:04:15.989"
+      },
+      "description": "Understanding MapReduce",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "What is MapReduce?",
+    "trimmingSuggestions": [
+      {
+        "description": "The example used in Scene 2 could be shortened by focusing only on the key concepts of the Map, Shuffle, and Reduce stages. This would make the video more concise and easier to understand.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 337,
+  "original_json_filename": "43fqzaSH0CQ.json",
+  "original_video_filename": "43fqzaSH0CQ.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "it's not sufficient to just assemble a large number of machines to do a particular task you actually have to figure out how do I divide that tasks effectively across those multiple machines so a number of companies that built up data centers in the late '90s and early 2000s were facing this problem they had data centers they had lots of machines they had big job that they needed to do like building search indexes crawling the web but there was this question of how do I split those jobs up and what emerged out of that challenge was a programming model that was quite popular it's still in use today although I think we're starting to develop some more sophisticated Alternatives um but it's something known as map reduce and so I want to talk a little bit about map reduce because it's a pretty important part of how search was done for a long time so map produce is a programming model it's a way of structuring your computation that allow allows it to easily be run on lots of machines so the way to think about it is you have a job to do if you organize your job in a particular way if you organize your computation in a particular way then it's very easy for that computation to take advantage of huge numbers of machines so I write my job using the map reduce framework and then if I have 100,000 machines available I can run my job potentially on 100,000 machines so that's pretty cool that's a nice thing let's talk about how map produce works so map produce uh forces you to break what you're trying to do into three stages um the first is map the second is a shuffle stage and the third one as hinted by the name is reduce let's talk about how map Shuffle and reduce work and let's do that in in the context of the most famous map reduce example of all time even if it's kind of dumb which is this idea of how would I count the number of times that a word appeared in a document so so I've got four let's say I've got two computers but this example should scale to larger numbers and I have four documents okay here's document one document two document 3 document four but you can imagine I had a billion documents and 100,000 computers and this still works this the beauty of the map ruce framework the first thing I'm going to do is I'm going to divide the documents between the different computers so I'm going to assign these two documents to this guy and I'm going to assign these two documents to this guy and now so this is the map phase and what the uh each computer is going to do is it's going to produce a count of the number of times that a particular word appeared in the documents so you know what I get out here is I might get something I get a key value I get a set of keys and values and the key might be U the word cat appeared 10 times and the word dog appeared three times and in these documents the word cat appeared 24 times and the word dog appeared five times obviously this is a cat loving set of documents okay so these are computed by these computers and and again the nice thing about the map phase or the way the map phase has to be set up is there's no local C no communication between these machines that's allowed during the map phase so the machine just processes the documents it's given so if I have 100,000 documents and 100,000 computers each computer processes one document if I have a million uh documents and 100,000 computers each computer processes 10 documents so I process my documents and now what I do is in the shuffle and assort Stage I take these keys and I so now I have two more machines and I'm going to use them their due stage and these could be the same machines or they could be different machines it doesn't matter um the what the shuffle stage is going to do is it's going to sort these keys so that the reduced stage gets the same key so in this Cas this the this reducer is going to get all the cat keys and this reducer is going to get all the dog keys and all I do in the reduced stage is I take the results from the map stage and I combine them together so map is the process of splitting all the inputs among a bunch of machines and then reduce takes the results from the map stage and combines them together to get the one result that I'm looking for so in this case what I would do is I would combine cat and cat so 10 + 24 um this uh this reducer would produce cat 34 and I've got dog five and dog three so this reducer would produce dog8 and then I'm done so now I have what I wanted which is a key value map of the time that every word in these documents appear the nice thing about map ruce is that you know this so the the programming framework on some level is fairly limited it's it's quite structured it forces you to to set up your computation in a way that it can be done on many machines but it's also fairly restrictive um there are certain types of computation that don't fit very well into the map produce framework and as time has gone on people have developed more powerful Frameworks that to some degree are generalizations on top of map produce they make map produce more powerful they give you more than just map and reduce they give you more features they allow the notes to do more work but this idea of creating a programming model that allowed you to easily use hundreds of thousands of machines is a very powerful one and it's one that we see over and over again today",
+  "text_to_speech_word_count": 1045,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:13.180",
+      "start": "00:00:00.000",
+      "text": " It's not sufficient to just assemble a large number of machines to do a particular task."
+    },
+    {
+      "end": "00:00:18.118",
+      "start": "00:00:13.180",
+      "text": " You actually have to figure out how do I divide that task effectively across those multiple"
+    },
+    {
+      "end": "00:00:19.119",
+      "start": "00:00:18.118",
+      "text": " machines."
+    },
+    {
+      "end": "00:00:23.891",
+      "start": "00:00:19.119",
+      "text": " So, a number of companies that built up data centers in the late 90s and early 2000s were"
+    },
+    {
+      "end": "00:00:25.759",
+      "start": "00:00:23.891",
+      "text": " facing this problem."
+    },
+    {
+      "end": "00:00:30.998",
+      "start": "00:00:25.759",
+      "text": " They had data centers, they had lots of machines, they had big jobs that they needed to do,"
+    },
+    {
+      "end": "00:00:33.634",
+      "start": "00:00:30.998",
+      "text": " like building search indexes, crawling the web."
+    },
+    {
+      "end": "00:00:37.738",
+      "start": "00:00:33.634",
+      "text": " But there was this question of how do I split those jobs up?"
+    },
+    {
+      "end": "00:00:41.141",
+      "start": "00:00:37.738",
+      "text": " And what emerged out of that challenge was a programming model that was quite popular."
+    },
+    {
+      "end": "00:00:44.578",
+      "start": "00:00:41.141",
+      "text": " It's still in use today, although I think we're starting to develop some more sophisticated"
+    },
+    {
+      "end": "00:00:45.579",
+      "start": "00:00:44.578",
+      "text": " alternatives."
+    },
+    {
+      "end": "00:00:48.415",
+      "start": "00:00:45.579",
+      "text": " But it's something known as map reduce."
+    },
+    {
+      "end": "00:00:51.051",
+      "start": "00:00:48.415",
+      "text": " And so I want to talk a little bit about map reduce because it's a pretty important"
+    },
+    {
+      "end": "00:00:53.987",
+      "start": "00:00:51.051",
+      "text": " part of how search was done for a long time."
+    },
+    {
+      "end": "00:00:56.757",
+      "start": "00:00:53.987",
+      "text": " So map reduce is a programming model."
+    },
+    {
+      "end": "00:01:04.197",
+      "start": "00:00:56.757",
+      "text": " It's a way of structuring your computation that allows it to easily be run on lots of machines."
+    },
+    {
+      "end": "00:01:09.770",
+      "start": "00:01:04.197",
+      "text": " So the way to think about it is you have a job to do if you organize your job in a particular"
+    },
+    {
+      "end": "00:01:13.573",
+      "start": "00:01:09.770",
+      "text": " way, if you organize your computation in a particular way, then it's very easy for that"
+    },
+    {
+      "end": "00:01:16.910",
+      "start": "00:01:13.573",
+      "text": " computation to take advantage of huge numbers of machines."
+    },
+    {
+      "end": "00:01:19.579",
+      "start": "00:01:16.910",
+      "text": " So I write my job using the map-produced framework."
+    },
+    {
+      "end": "00:01:24.585",
+      "start": "00:01:19.579",
+      "text": " And then if I have 100,000 machines available, I can run my job potentially on 100,000 machines."
+    },
+    {
+      "end": "00:01:25.585",
+      "start": "00:01:24.585",
+      "text": " So that's pretty cool."
+    },
+    {
+      "end": "00:01:26.587",
+      "start": "00:01:25.585",
+      "text": " That's a nice thing."
+    },
+    {
+      "end": "00:01:27.688",
+      "start": "00:01:26.587",
+      "text": " Let's talk about how map reduce works."
+    },
+    {
+      "end": "00:01:34.328",
+      "start": "00:01:27.688",
+      "text": " So map produces forces you to break what you're trying to do into three stages."
+    },
+    {
+      "end": "00:01:36.530",
+      "start": "00:01:34.328",
+      "text": " The first is map."
+    },
+    {
+      "end": "00:01:40.500",
+      "start": "00:01:36.530",
+      "text": " The second is a shuffle stage."
+    },
+    {
+      "end": "00:01:45.906",
+      "start": "00:01:40.500",
+      "text": " And the third one, as hinted by the name, is reduce."
+    },
+    {
+      "end": "00:01:49.476",
+      "start": "00:01:45.906",
+      "text": " Let's talk about how map, shuffle, and reduce work."
+    },
+    {
+      "end": "00:01:54.348",
+      "start": "00:01:49.476",
+      "text": " And let's do that in context of the most famous map-produced example of all time, even if"
+    },
+    {
+      "end": "00:01:58.518",
+      "start": "00:01:54.348",
+      "text": " it's kind of dumb, which is this idea of how would I count the number of times that a"
+    },
+    {
+      "end": "00:01:59.853",
+      "start": "00:01:58.518",
+      "text": " word appeared at a document."
+    },
+    {
+      "end": "00:02:04.591",
+      "start": "00:01:59.853",
+      "text": " So I've got four, let's say I've got two computers, but this example should scale for larger"
+    },
+    {
+      "end": "00:02:05.592",
+      "start": "00:02:04.591",
+      "text": " numbers."
+    },
+    {
+      "end": "00:02:06.593",
+      "start": "00:02:05.592",
+      "text": " And I have four documents."
+    },
+    {
+      "end": "00:02:12.032",
+      "start": "00:02:06.593",
+      "text": " OK, here's document one, document two, document three, document four."
+    },
+    {
+      "end": "00:02:15.235",
+      "start": "00:02:12.032",
+      "text": " But you can imagine I had a billion documents and a hundred dollars of computers, and this"
+    },
+    {
+      "end": "00:02:16.236",
+      "start": "00:02:15.235",
+      "text": " still works."
+    },
+    {
+      "end": "00:02:18.105",
+      "start": "00:02:16.236",
+      "text": " That's the beauty of the map-produced framework."
+    },
+    {
+      "end": "00:02:22.209",
+      "start": "00:02:18.105",
+      "text": " The first thing I'm going to do is I'm going to divide the documents between the different"
+    },
+    {
+      "end": "00:02:23.210",
+      "start": "00:02:22.209",
+      "text": " computers."
+    },
+    {
+      "end": "00:02:26.179",
+      "start": "00:02:23.210",
+      "text": " So I'm going to assign these two documents to this guy, and I'm going to assign these"
+    },
+    {
+      "end": "00:02:28.015",
+      "start": "00:02:26.179",
+      "text": " two documents to this guy."
+    },
+    {
+      "end": "00:02:29.983",
+      "start": "00:02:28.015",
+      "text": " And now, so this is the map phase."
+    },
+    {
+      "end": "00:02:35.989",
+      "start": "00:02:29.983",
+      "text": " And what each computer is going to do is this going to produce a count of the number of"
+    },
+    {
+      "end": "00:02:40.460",
+      "start": "00:02:35.989",
+      "text": " times that a particular word appeared in the documents."
+    },
+    {
+      "end": "00:02:45.065",
+      "start": "00:02:40.460",
+      "text": " So what I get out here is I might get something, I get a key value, I get a set of keys and"
+    },
+    {
+      "end": "00:02:53.907",
+      "start": "00:02:45.065",
+      "text": " values, and the key might be the word cat appeared ten times, and the word dog appeared three"
+    },
+    {
+      "end": "00:02:55.208",
+      "start": "00:02:53.907",
+      "text": " times."
+    },
+    {
+      "end": "00:03:02.315",
+      "start": "00:02:55.208",
+      "text": " And in these documents, the word cat appeared 24 times, and the word dog appeared five times."
+    },
+    {
+      "end": "00:03:05.118",
+      "start": "00:03:02.315",
+      "text": " Obviously, this is a cat loving instead of documents."
+    },
+    {
+      "end": "00:03:07.220",
+      "start": "00:03:05.118",
+      "text": " OK, so these are computed by these computers."
+    },
+    {
+      "end": "00:03:11.458",
+      "start": "00:03:07.220",
+      "text": " And again, the nice thing about the map phase, or the way the map phase has to be set up,"
+    },
+    {
+      "end": "00:03:17.197",
+      "start": "00:03:11.458",
+      "text": " is there's no local, no communication between these machines that's allowed during the"
+    },
+    {
+      "end": "00:03:18.198",
+      "start": "00:03:17.197",
+      "text": " map phase."
+    },
+    {
+      "end": "00:03:21.134",
+      "start": "00:03:18.198",
+      "text": " So the machine just processes the documents that's given."
+    },
+    {
+      "end": "00:03:24.905",
+      "start": "00:03:21.134",
+      "text": " So if I have a hundred thousand documents and a hundred thousand computers, each computer"
+    },
+    {
+      "end": "00:03:26.740",
+      "start": "00:03:24.905",
+      "text": " processes one document."
+    },
+    {
+      "end": "00:03:30.944",
+      "start": "00:03:26.740",
+      "text": " If I have a million documents and a hundred thousand computers, each computer processes"
+    },
+    {
+      "end": "00:03:31.945",
+      "start": "00:03:30.944",
+      "text": " ten documents."
+    },
+    {
+      "end": "00:03:33.714",
+      "start": "00:03:31.945",
+      "text": " So I process my documents."
+    },
+    {
+      "end": "00:03:41.288",
+      "start": "00:03:33.714",
+      "text": " And now what I do is in the shuffle and a sort stage, I take these keys and I, so now"
+    },
+    {
+      "end": "00:03:44.257",
+      "start": "00:03:41.288",
+      "text": " I have two more machines and I'm going to use in the reduced stage."
+    },
+    {
+      "end": "00:03:46.493",
+      "start": "00:03:44.257",
+      "text": " And these could be the same machines, or they could be different machines."
+    },
+    {
+      "end": "00:03:48.128",
+      "start": "00:03:46.493",
+      "text": " It doesn't matter."
+    },
+    {
+      "end": "00:03:52.466",
+      "start": "00:03:48.128",
+      "text": " What the shuffle stage is going to do is it's going to sort these keys so that the reduced"
+    },
+    {
+      "end": "00:03:53.767",
+      "start": "00:03:52.466",
+      "text": " stage gets the same key."
+    },
+    {
+      "end": "00:03:59.306",
+      "start": "00:03:53.767",
+      "text": " So in this case, this, this reducer is going to get all the cat keys, and this reducer"
+    },
+    {
+      "end": "00:04:01.174",
+      "start": "00:03:59.306",
+      "text": " is going to get all the dog keys."
+    },
+    {
+      "end": "00:04:06.613",
+      "start": "00:04:01.174",
+      "text": " And all I do in the reduced stage is I take the results from the map stage, and I combine"
+    },
+    {
+      "end": "00:04:07.614",
+      "start": "00:04:06.613",
+      "text": " them together."
+    },
+    {
+      "end": "00:04:12.953",
+      "start": "00:04:07.614",
+      "text": " So map is the process of splitting all the inputs among a bunch of machines and then reduce"
+    },
+    {
+      "end": "00:04:18.291",
+      "start": "00:04:12.953",
+      "text": " takes the results from the map stage and combines them together to get the one result that"
+    },
+    {
+      "end": "00:04:19.292",
+      "start": "00:04:18.291",
+      "text": " I'm looking for."
+    },
+    {
+      "end": "00:04:24.498",
+      "start": "00:04:19.292",
+      "text": " So in this case, what I would do is I would combine cat and cat, so ten plus twenty four."
+    },
+    {
+      "end": "00:04:30.470",
+      "start": "00:04:24.498",
+      "text": " This, this reducer would produce cat thirty four and I've got dog five and dog three."
+    },
+    {
+      "end": "00:04:33.306",
+      "start": "00:04:30.470",
+      "text": " So this reducer would produce dog eight."
+    },
+    {
+      "end": "00:04:34.307",
+      "start": "00:04:33.306",
+      "text": " And then I've done."
+    },
+    {
+      "end": "00:04:39.412",
+      "start": "00:04:34.307",
+      "text": " And now I have what I wanted, which is a key value map of the time that every word in"
+    },
+    {
+      "end": "00:04:41.515",
+      "start": "00:04:39.412",
+      "text": " these documents appear."
+    },
+    {
+      "end": "00:04:45.519",
+      "start": "00:04:41.515",
+      "text": " The nice thing about map produce is that, you know, the programming framework on some"
+    },
+    {
+      "end": "00:04:46.820",
+      "start": "00:04:45.519",
+      "text": " levels fairly limited."
+    },
+    {
+      "end": "00:04:47.821",
+      "start": "00:04:46.820",
+      "text": " It's quite structured."
+    },
+    {
+      "end": "00:04:54.728",
+      "start": "00:04:47.821",
+      "text": " It forces you to set up your computation in a way that it can be done on many machines,"
+    },
+    {
+      "end": "00:04:56.630",
+      "start": "00:04:54.728",
+      "text": " but it's also fairly restrictive."
+    },
+    {
+      "end": "00:04:59.866",
+      "start": "00:04:56.630",
+      "text": " There are certain types of computation that don't fit very well into the map produced"
+    },
+    {
+      "end": "00:05:00.867",
+      "start": "00:04:59.866",
+      "text": " framework."
+    },
+    {
+      "end": "00:05:04.771",
+      "start": "00:05:00.867",
+      "text": " This time has gone on, people have developed more powerful frameworks that just some degree"
+    },
+    {
+      "end": "00:05:06.773",
+      "start": "00:05:04.771",
+      "text": " are generalizations on top of map produce."
+    },
+    {
+      "end": "00:05:08.475",
+      "start": "00:05:06.773",
+      "text": " They make map produce more powerful."
+    },
+    {
+      "end": "00:05:10.477",
+      "start": "00:05:08.475",
+      "text": " They give you more than just map and reduce."
+    },
+    {
+      "end": "00:05:11.878",
+      "start": "00:05:10.477",
+      "text": " They give you more features."
+    },
+    {
+      "end": "00:05:13.847",
+      "start": "00:05:11.878",
+      "text": " They allow the notes to do more work."
+    },
+    {
+      "end": "00:05:19.219",
+      "start": "00:05:13.847",
+      "text": " But this idea of creating a programming model that allowed you to easily use hundreds"
+    },
+    {
+      "end": "00:05:23.657",
+      "start": "00:05:19.219",
+      "text": " of thousands of machines is a very powerful one and it's one that we see over and over"
+    },
+    {
+      "end": "00:05:24.057",
+      "start": "00:05:23.657",
+      "text": " again today."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "internet-class",
+  "youtube_channel_follower_count": 23000,
+  "youtube_comment_count": 166,
+  "youtube_description": "Building efficient data centers that can hold thousands of machines is hard enough. Programming thousands of machines is even harder. One approach pioneered by Google is known as MapReduce. MapReduce provides a programming model that simplifies programming thousands of machines by breaking down distributed programs into two steps: map, and reduce.\n\nCredits: Talking: Geoffrey Challen (Assistant Professor, Computer Science and Engineering, University at Buffalo). Producing: Greg Bunyea (Undergraduate, Computer Science and Engineering, University at Buffalo).\n\nPart of the https://www.internet-class.org online internet course. A blue Systems Research Group (https://blue.cse.buffalo.edu) production.",
+  "youtube_like_count": 5500,
+  "youtube_tags": [
+    "internet",
+    "internet-class.org"
+  ],
+  "youtube_title": "What is MapReduce?",
+  "youtube_upload_date": "20161007",
+  "youtube_view_count": 243562
+}

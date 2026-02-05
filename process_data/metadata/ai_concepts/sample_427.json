@@ -1,0 +1,339 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "speaker1",
+        "description": "A male with short brown hair and a beard. He is wearing a black shirt and appears in the lower right corner throughout the video.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "A lecture explaining the significance and advantages of AI accelerators in computational tasks.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "\"Linear Algebra and its Applications\" by Gilbert Strang.",
+        "question": "What book is referenced in the video as a key application of linear algebra?"
+      },
+      {
+        "answer": "A white teapot.",
+        "question": "What example is used to illustrate the application of linear algebra in computer graphics?"
+      },
+      {
+        "answer": "100 times faster.",
+        "question": "How much faster are AI accelerators compared to CPUs at running neural networks, according to the speaker?"
+      },
+      {
+        "answer": "AI POD or cluster.",
+        "question": "What term is used to describe a group of AI accelerators working together?"
+      },
+      {
+        "answer": "Continuously innovating hardware design is crucial for handling the increasing computational demands of AI algorithms.",
+        "question": "What is the speaker's overall message regarding the future of AI hardware?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaker presenting a lecture on the importance of AI accelerators.",
+            "timestamp": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The speaker emphasizes the need for continuous innovation in hardware design to keep pace with the increasing demands of AI applications.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of AI accelerators and their importance.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Explanation of linear algebra's role in AI.",
+            "timestamp": "00:00:22.990"
+          },
+          {
+            "description": "Examples of applications requiring AI accelerators: computer graphics, neural networks.",
+            "timestamp": "00:00:25.993"
+          },
+          {
+            "description": "Comparison of performance between CPUs and AI accelerators.",
+            "timestamp": "00:00:54.988"
+          },
+          {
+            "description": "Discussion of scaling AI accelerators into clusters for increased performance.",
+            "timestamp": "00:01:48.008"
+          }
+        ],
+        "props": [
+          {
+            "name": "Use AI Accelerators",
+            "timestamp": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Book cover of 'Linear Algebra and its Applications'",
+            "timestamp": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:00:25.993"
+            }
+          },
+          {
+            "name": "Image of a white teapot",
+            "timestamp": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:00:25.993"
+            }
+          },
+          {
+            "name": "Diagram of a neural network",
+            "timestamp": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:00:25.993"
+            }
+          },
+          {
+            "name": "Text labels: Graphics, AI, CPU TFLOP/s, AI Accelerator 100s of TFLOP/s, AI POD 10s of PFLOP/s",
+            "timestamp": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:00:25.993"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The importance of specialized hardware for AI applications, the advantages of parallelization and data locality in AI computation.",
+        "timestamps": {
+          "end_timestamp": "00:02:42.996",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to AI Accelerators",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects. No background music. Potential improvement: The speaker's video feed could be enlarged for better visibility.",
+            "timestamps": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The scene culminates with the explanation of the performance advantages of AI accelerator clusters.",
+        "timestamp": "00:01:48.008"
+      },
+      "description": "The video explains the necessity of AI accelerators for enhanced computational performance.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "The Importance of AI Accelerators",
+    "trimmingSuggestions": [
+      {
+        "description": "The beginning of the video could be trimmed slightly to jump into the topic faster.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": "00:00:04.004"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 164,
+  "original_json_filename": "JKXzpo61QlE.json",
+  "original_video_filename": "JKXzpo61QlE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "one of the first lessons that we learned was to use AI accelerators use computers that are good at machine learning to do machine learning for a while we've been really successful at building CPUs CPUs are really good at running my operating system powering the internet running the apps on my smart phone but they're not very good at linear algebra some of the applications of linear algebra that we've known about in the past are things like scientific computing computer graphics this leads to things like GPUs one of the things that we learned recently is that linear algebra is also really good at AI neural networks are built on top of linear algebra and so if we have computers that are really good at linear algebra like we built for computer graphics like GPUs and we use them to run neural networks they can be a lot faster than than CPUs CPUs exploit technologies like branch prediction heavily pipelined high clock frequencies out of order execution those things are really great for sequential programs like the apps on my smart phone but linear algebra is very different than that it's very computationally intensive it's very regular and has a lot of data locality and this fits in perfectly with things like massive parallelism and local data access and so when you put all these things together you can build AI accelerators like GPUs that are way faster than CPUs and running neural networks so whereas CPUs might be able to run neural networks at single teraflops like single trillions of operations per second single ai accelerators like GPUs can be a hundred times faster than they can run in things like a hundred teraflops if you get together a collection of GPUs into a cluster like you would in a supercomputer you can be even bigger than this or even faster than this it's possible to group together thousands of GPUs and have them solve a single neural network trading problem and this can boost your performance - you know maybe tens of peda flops so you can be about 10 times faster than a CPU using systems that you can put put together today so you know if you're one of the things that we learned when we're building AI algorithms that are really compute intensive they need to train really big models on really big data sets and the computational requirements of this are really big you should use AI accelerators so you should use computers that are really well optimized at this problem",
+  "text_to_speech_word_count": 429,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.106",
+      "start": "00:00:00.000",
+      "text": " One of the first lessons that we learned was to use AI accelerators. Use computers"
+    },
+    {
+      "end": "00:00:10.777",
+      "start": "00:00:06.106",
+      "text": " that are good at machine learning to do machine learning. For a while we've"
+    },
+    {
+      "end": "00:00:15.716",
+      "start": "00:00:10.777",
+      "text": " been really successful at building CPUs. CPUs are really good at running my"
+    },
+    {
+      "end": "00:00:20.754",
+      "start": "00:00:15.716",
+      "text": " operating system, powering the internet, running the apps on my smartphone, but"
+    },
+    {
+      "end": "00:00:25.225",
+      "start": "00:00:20.754",
+      "text": " they're not very good at linear algebra. Some of the applications of linear"
+    },
+    {
+      "end": "00:00:28.428",
+      "start": "00:00:25.225",
+      "text": " algebra that we've known about in the past are things like scientific computing,"
+    },
+    {
+      "end": "00:00:34.535",
+      "start": "00:00:28.428",
+      "text": " computer graphics. This leads to things like GPUs. One of the things that we"
+    },
+    {
+      "end": "00:00:40.107",
+      "start": "00:00:34.535",
+      "text": " learned recently is that linear algebra is also really good at AI. Neural"
+    },
+    {
+      "end": "00:00:44.478",
+      "start": "00:00:40.107",
+      "text": " networks are built on top of linear algebra. And so if we have computers that are"
+    },
+    {
+      "end": "00:00:48.615",
+      "start": "00:00:44.478",
+      "text": " really good at linear algebra, like we built for computer graphics, like GPUs,"
+    },
+    {
+      "end": "00:00:55.155",
+      "start": "00:00:48.615",
+      "text": " and we use them to run neural networks, they can be a lot faster than CPUs."
+    },
+    {
+      "end": "00:01:00.727",
+      "start": "00:00:55.155",
+      "text": " CPUs exploit technologies like branch prediction, heavily pipeline, high"
+    },
+    {
+      "end": "00:01:06.033",
+      "start": "00:01:00.727",
+      "text": " clock frequencies, out of order execution. Those things are really great for"
+    },
+    {
+      "end": "00:01:10.637",
+      "start": "00:01:06.033",
+      "text": " sequential programs like the apps on my smartphone, but linear algebra is very"
+    },
+    {
+      "end": "00:01:14.708",
+      "start": "00:01:10.637",
+      "text": " different than that. It's very computationally intensive, it's very regular, it has a"
+    },
+    {
+      "end": "00:01:18.679",
+      "start": "00:01:14.708",
+      "text": " lot of data locality, and this fits in perfectly with things like massive"
+    },
+    {
+      "end": "00:01:23.817",
+      "start": "00:01:18.679",
+      "text": " parallelism and local data access. And so when you put all these things together,"
+    },
+    {
+      "end": "00:01:30.057",
+      "start": "00:01:23.817",
+      "text": " you can build AI accelerators like GPUs that are way faster than CPUs at"
+    },
+    {
+      "end": "00:01:34.695",
+      "start": "00:01:30.057",
+      "text": " running neural networks. So whereas CPUs might be able to run neural networks at"
+    },
+    {
+      "end": "00:01:42.436",
+      "start": "00:01:34.695",
+      "text": " single teraflops, like single trillions of operations per second, single AI"
+    },
+    {
+      "end": "00:01:46.573",
+      "start": "00:01:42.436",
+      "text": " accelerators like GPUs can be a hundred times faster so they can run at things"
+    },
+    {
+      "end": "00:01:52.879",
+      "start": "00:01:46.573",
+      "text": " like a hundred teraflops. If you get together a collection of GPUs into a"
+    },
+    {
+      "end": "00:01:57.818",
+      "start": "00:01:52.879",
+      "text": " cluster, like you would in a super computer, you can be even bigger than this,"
+    },
+    {
+      "end": "00:02:03.190",
+      "start": "00:01:57.818",
+      "text": " or even faster than this. That's possible to group together thousands of GPUs"
+    },
+    {
+      "end": "00:02:08.328",
+      "start": "00:02:03.190",
+      "text": " and have them solve a single neural network trading problem. And this can boost"
+    },
+    {
+      "end": "00:02:13.767",
+      "start": "00:02:08.328",
+      "text": " your performance to maybe tens of peteflops. So you can be about 10,000 times"
+    },
+    {
+      "end": "00:02:20.307",
+      "start": "00:02:13.767",
+      "text": " faster than a CPU using systems that you can put together today. So you know,"
+    },
+    {
+      "end": "00:02:24.378",
+      "start": "00:02:20.307",
+      "text": " if you're one of the things that we learned when we're building AI algorithms"
+    },
+    {
+      "end": "00:02:29.383",
+      "start": "00:02:24.378",
+      "text": " that are really compute intensive, they need to train really big models on"
+    },
+    {
+      "end": "00:02:32.452",
+      "start": "00:02:29.383",
+      "text": " really big data sets and the computational requirements of this are really big,"
+    },
+    {
+      "end": "00:02:36.823",
+      "start": "00:02:32.452",
+      "text": " you should use AI accelerators. So you should use computers that are really"
+    },
+    {
+      "end": "00:02:40.193",
+      "start": "00:02:36.823",
+      "text": " well optimized at this problem."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Greg Diamos",
+  "youtube_channel_follower_count": 103,
+  "youtube_comment_count": 0,
+  "youtube_description": "This videos explains why AI algorithms should be run on special purpose accelerators and not general purpose computers like CPUs.",
+  "youtube_like_count": 1,
+  "youtube_tags": [
+    "iMovie"
+  ],
+  "youtube_title": "AI Datacenters - Seven Lessons Learned - 03 - Use AI Accelerators",
+  "youtube_upload_date": "20191021",
+  "youtube_view_count": 85
+}

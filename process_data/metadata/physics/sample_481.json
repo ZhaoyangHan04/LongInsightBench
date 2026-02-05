@@ -1,0 +1,284 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The speaker is not visible in the video.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "A video explaining how in-memory photonic multiplication is achieved using an optical pulse and a waveguide with GST.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "GST's transmission is changed in a non-volatile manner to encode numbers for multiplication.",
+        "question": "What is the role of GST in in-memory photonic multiplication?"
+      },
+      {
+        "answer": "The second number 'B' is encoded in the amplitude of a low-power optical pulse.",
+        "question": "How is the second number 'B' encoded in the system?"
+      },
+      {
+        "answer": "A photodetector is used to measure the output power, representing the multiplication result.",
+        "question": "What device is used to measure the final output power?"
+      },
+      {
+        "answer": "By multiplying different amplitudes of 'B' with the constant value of 'A', the system performs calculations at the speed of light.",
+        "question": "How does the system achieve multiplication at the speed of light?"
+      },
+      {
+        "answer": "Combining two unit cells allows the system to perform basic matrix-vector multiplication.",
+        "question": "What mathematical operation is demonstrated by combining two unit cells in parallel?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction with no audio or visual content",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "None",
+        "timestamps": {
+          "end_timestamp": "00:00:01.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The speaker is explaining in-memory photonic multiplication.",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:01.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides detailed explanation of the method using props",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:01.040"
+            }
+          },
+          {
+            "name": "Black marker",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:01.040"
+            }
+          },
+          {
+            "name": "Drawing of a waveguide with GST",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:01.040"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Scientific explanation",
+        "timestamps": {
+          "end_timestamp": "00:00:47.000",
+          "start_timestamp": "00:00:01.040"
+        },
+        "title": "Explanation of In-Memory Photonic Multiplication",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Conclusion with no audio or visual content",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "None",
+        "timestamps": {
+          "end_timestamp": "00:01:37.160",
+          "start_timestamp": "00:00:47.040"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "N/A",
+        "timestamp": null
+      },
+      "description": "The video explains how in-memory photonic multiplication is achieved using an optical pulse and a waveguide with GST.",
+      "scenes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "title": "In-Memory Photonic Multiplication",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the beginning where there is no audio or visual content.",
+        "timestamps": {
+          "end_timestamp": "00:00:47.040",
+          "start_timestamp": "00:00:47.040"
+        }
+      },
+      {
+        "description": "Trim the end where there is no audio or visual content.",
+        "timestamps": {
+          "end_timestamp": "00:01:00.000",
+          "start_timestamp": "00:00:47.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 97,
+  "original_json_filename": "gO56yRGWFmA.json",
+  "original_video_filename": "gO56yRGWFmA.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in order to achieve in memory photonic multiplication we first send an optical pulse down a waveguide to set the state of the GST this changes the transmission of the GST in a non-volatile manner so that we can encode a number between 0 and 1 which we will call a next we send a second optical pulse which has at a much lower power this encodes the second number B which we wish to multiply with a finally we measure the output power on a photo detector which is the multiplication of both a and B since the state of the GST does not change we can multiply as many numbers as we want at the speed of light by multiplying different amplitudes of B with the constant value of a so if we combine two of these unit cells in parallel we can achieve basic matrix vector multiplication on the Left we have our original unit cell where we are multiplying a which is encoded in the GST transmission and B which is encoded in the optical pulse amplitude on the other side we have an additional unit cell where we have encoded the number C in the GST and D in the optical pulse since these two waveguides combine we have the addition of a times B plus C times D which outputs to a photo detector this will give us the result of a two element matrix vector multiplication",
+  "text_to_speech_word_count": 243,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.480",
+      "start": "00:00:00.000",
+      "text": " In order to achieve in-memory photonic multiplication, we first send an optical pulse down a wave"
+    },
+    {
+      "end": "00:00:17.280",
+      "start": "00:00:09.480",
+      "text": " guide to set the state of the GST."
+    },
+    {
+      "end": "00:00:21.280",
+      "start": "00:00:17.280",
+      "text": " This changes the transmission of the GST in an unvolatile manner so that we can encode"
+    },
+    {
+      "end": "00:00:26.320",
+      "start": "00:00:21.280",
+      "text": " a number between 0 and 1, which we will call A."
+    },
+    {
+      "end": "00:00:30.560",
+      "start": "00:00:26.320",
+      "text": " Next we send a second optical pulse, which is at a much lower power."
+    },
+    {
+      "end": "00:00:36.080",
+      "start": "00:00:30.560",
+      "text": " This encodes the second number B, which we wish to multiply with A. Finally, we measure"
+    },
+    {
+      "end": "00:00:41.560",
+      "start": "00:00:36.080",
+      "text": " the output power on a photodetector, which is the multiplication of both A and B. Since"
+    },
+    {
+      "end": "00:00:46.280",
+      "start": "00:00:41.560",
+      "text": " the state of the GST does not change, we can multiply as many numbers as we want at the"
+    },
+    {
+      "end": "00:00:53.200",
+      "start": "00:00:46.280",
+      "text": " speed of light by multiplying different amplitudes of B with the constant value of A."
+    },
+    {
+      "end": "00:00:58.000",
+      "start": "00:00:53.200",
+      "text": " So if we combine two of these unit cells in parallel, we can achieve basic matrix vector"
+    },
+    {
+      "end": "00:01:00.040",
+      "start": "00:00:58.000",
+      "text": " multiplication."
+    },
+    {
+      "end": "00:01:04.440",
+      "start": "00:01:00.040",
+      "text": " On the left we have our original unit cell, where we are multiplying A, which is encoded"
+    },
+    {
+      "end": "00:01:10.200",
+      "start": "00:01:04.440",
+      "text": " in the GST transmission, and B, which is encoded in the optical pulse amplitude."
+    },
+    {
+      "end": "00:01:14.240",
+      "start": "00:01:10.200",
+      "text": " On the other side we have an additional unit cell, where we have encoded the number C"
+    },
+    {
+      "end": "00:01:18.240",
+      "start": "00:01:14.240",
+      "text": " in the GST and D in the optical pulse."
+    },
+    {
+      "end": "00:01:24.720",
+      "start": "00:01:18.200",
+      "text": " Since these two waveguides combine, we have the addition of A times B plus C times D,"
+    },
+    {
+      "end": "00:01:27.240",
+      "start": "00:01:24.720",
+      "text": " which outputs to a photodetector."
+    },
+    {
+      "end": "00:01:31.320",
+      "start": "00:01:27.240",
+      "text": " This will give us the result of a two element matrix vector multiplication."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "IBM Research",
+  "youtube_channel_follower_count": 100000,
+  "youtube_comment_count": 0,
+  "youtube_description": "IBM, Oxford, Exeter and Munster scientists have developed an all-optical approach to developing direct in-memory multiplication on an integrated photonic device based on non-volatile multilevel phase-change memories. Using integrated photonic technology will potentially offer attractive solutions for using light to carry out computational tasks on a chip in future.\n\nRead more: https://www.ibm.com/blogs/2019/02/photonic-memory-devices/",
+  "youtube_like_count": 160,
+  "youtube_tags": [
+    "In Memory"
+  ],
+  "youtube_title": "In-Memory Computing Using Photonic Memory Devices",
+  "youtube_upload_date": "20190218",
+  "youtube_view_count": 5761
+}

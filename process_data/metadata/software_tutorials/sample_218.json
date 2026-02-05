@@ -1,0 +1,468 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice narrating the video. He is not shown on screen.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "An exploratory video introducing the BeagleBone Black board along with its hardware and software features, culminating in a call to action.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The BeagleBone Black is better, stronger, and faster than the original BeagleBone.",
+        "question": "What is the main advantage of the BeagleBone Black over its predecessor?"
+      },
+      {
+        "answer": "It has 2GB of onboard eMMC storage.",
+        "question": "How much onboard storage does the BeagleBone Black have?"
+      },
+      {
+        "answer": "The video mentions Javascript and Python.",
+        "question": "Which programming languages are mentioned as being supported by the BeagleBone Black?"
+      },
+      {
+        "answer": "The HTML file guides users through the installation of necessary drivers and provides links to tutorials and resources.",
+        "question": "What is the purpose of the HTML file included with the BeagleBone Black?"
+      },
+      {
+        "answer": "The BeagleBone Black is ideal for developers, hobbyists, and students who are interested in learning about open hardware and creating interactive projects.",
+        "question": "What type of person would be most interested in the BeagleBone Black?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction of the BeagleBone Black.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.985",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The introduction emphasizes the evolution and advancements of the BeagleBone Black over previous models, appealing to tech enthusiasts.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited (fast cuts and upbeat music)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the product, highlighting its key improvements.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "BeagleBone Black boards (various angles, some stacked)",
+            "timestamp": {
+              "end_timestamp": "00:00:05.005",
+              "start_timestamp": "00:00:01.001"
+            }
+          },
+          {
+            "name": "BeagleBone Black on a dog collar",
+            "timestamp": {
+              "end_timestamp": "00:00:10.010",
+              "start_timestamp": "00:00:06.006"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technology, innovation, open hardware.",
+        "timestamps": {
+          "end_timestamp": "00:00:18.485",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Fast cuts between different shots of the BeagleBone Black, creating a dynamic introduction.",
+            "timestamps": {
+              "end_timestamp": "00:00:17.985",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'BeagleBone Black Board Tour' (throughout the scene)",
+            "timestamps": {
+              "end_timestamp": "00:00:17.985",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Better, Stronger, Faster'.",
+            "timestamps": {
+              "end_timestamp": "00:00:16.984",
+              "start_timestamp": "00:00:15.015"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Detailing the hardware specifications of the BeagleBone Black.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:18.518"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The detailed breakdown of hardware components caters to viewers with technical interests and provides insight into the board's capabilities.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Providing technical information about the product's capabilities.",
+            "timestamp": "00:00:18.518"
+          }
+        ],
+        "props": [
+          {
+            "name": "BeagleBone Black board (close-up)",
+            "timestamp": {
+              "end_timestamp": "00:00:22.990",
+              "start_timestamp": "00:00:18.986"
+            }
+          },
+          {
+            "name": "Close-up images of individual components (CPU, eMMC, DDR3, microHDMI port)",
+            "timestamp": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:23.991"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Computing power, technical specifications.",
+        "timestamps": {
+          "end_timestamp": "00:00:36.970",
+          "start_timestamp": "00:00:18.518"
+        },
+        "title": "Hardware Features",
+        "videoEditingDetails": [
+          {
+            "description": "Slower pace compared to the introduction.",
+            "timestamps": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:18.518"
+            }
+          },
+          {
+            "description": "Close-ups on components synchronized with the narration.",
+            "timestamps": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:18.518"
+            }
+          },
+          {
+            "description": "Text overlay describing each component and its specifications.",
+            "timestamps": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:18.518"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Showcasing the pre-installed software.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.003",
+              "start_timestamp": "00:00:37.004"
+            }
+          },
+          {
+            "description": "Explaining how to connect and start using the BeagleBone Black.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.013",
+              "start_timestamp": "00:01:11.004"
+            }
+          },
+          {
+            "description": "Demonstrating the Cloud9 IDE and other programming tools.",
+            "timestamp": {
+              "end_timestamp": "00:01:34.995",
+              "start_timestamp": "00:01:21.014"
+            }
+          },
+          {
+            "description": "Providing a call to action to visit beagleboard.org.",
+            "timestamp": {
+              "end_timestamp": "00:01:44.004",
+              "start_timestamp": "00:01:35.996"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "By focusing on software and community support, the video appeals to developers and hobbyists, showing the BeagleBone Black's integration into a wider ecosystem.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious (transitioning to Excited with the final call to action)",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from static component shots to dynamic screen recording and live action increases dynamism.",
+              "timestamp": "00:00:37.004"
+            },
+            {
+              "changeDescription": "Narrator's tone becomes more enthusiastic during the call to action, shifting the mood from informative to motivational.",
+              "timestamp": "00:01:35.996"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlighting the ease of use and available resources for beginners.",
+            "timestamp": "00:00:37.004"
+          },
+          {
+            "description": "Encouraging viewers to start creating with the BeagleBone Black.",
+            "timestamp": "00:01:35.996"
+          }
+        ],
+        "props": [
+          {
+            "name": "BeagleBone Black board (close-up)",
+            "timestamp": {
+              "end_timestamp": "00:00:39.006",
+              "start_timestamp": "00:00:37.004"
+            }
+          },
+          {
+            "name": "Laptop screen showing a file directory, website, and code editor.",
+            "timestamp": {
+              "end_timestamp": "00:01:29.990",
+              "start_timestamp": "00:01:24.985"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Software development, ease of use, community.",
+        "timestamps": {
+          "end_timestamp": "00:01:44.137",
+          "start_timestamp": "00:00:37.004"
+        },
+        "title": "Software Features and Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the laptop interspersed with shots of the BeagleBone Black.",
+            "timestamps": {
+              "end_timestamp": "00:01:44.004",
+              "start_timestamp": "00:00:37.004"
+            }
+          },
+          {
+            "description": "Highlighting key information on the screen with red boxes.",
+            "timestamps": {
+              "end_timestamp": "00:00:45.012",
+              "start_timestamp": "00:00:40.007"
+            }
+          },
+          {
+            "description": "Text overlay: 'beagleboard.org' appears multiple times.",
+            "timestamps": {
+              "end_timestamp": "00:01:44.004",
+              "start_timestamp": "00:01:35.996"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax of the video is the final call to action to visit beagleboard.org where the narrator encourages viewers to get started with the BeagleBone Black.",
+        "timestamp": "00:01:35.996"
+      },
+      "description": "The video follows a single storyline that introduces the BeagleBone Black and gradually explores its hardware and software features before encouraging engagement.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Video Analysis: BeagleBone Black Board Tour",
+    "trimmingSuggestions": [
+      {
+        "description": "While informative, this section focuses heavily on technical details. Consider shortening it or highlighting only the most significant upgrades to maintain a dynamic pace.",
+        "timestamps": {
+          "end_timestamp": "00:00:37.004",
+          "start_timestamp": "00:00:37.004"
+        }
+      },
+      {
+        "description": "The software demonstration, while useful, could be shortened. Focus on showcasing the key features and benefits of the provided software without going into lengthy explanations.",
+        "timestamps": {
+          "end_timestamp": "00:01:35.996",
+          "start_timestamp": "00:01:10.003"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 104,
+  "original_json_filename": "ciX08ysl6LE.json",
+  "original_video_filename": "ciX08ysl6LE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "welcome to the board tour of the allnew beaglebone black from beagleboard.org this new beagle bone features some serious upgrades that make it better stronger and faster than the original these upgrades include Texas Instruments 1 GHz satara am335x arm cortex A8 CPU 2 GB of onboard emmc storage 512 MB DDR R 3 RAM and an allnew micro HDMI slot for connecting a TV or monitor the board also comes standard with a host of other features as well as software that helps you start developing in seconds at just $45 this credit card size computer is the most affordable entry into our growing community of developers innovating with open hardware for detailed information about the BL and for ideas to help you get started check out beagleboard.org today what will you create let's take a quick look at your first experience with the allnew beaglebone black from beagleboard.org Once connected with the provided USB cable your computer will recognize the board as a flash drive an included HTML file will guide you through the installation of any drivers needed to enable USB functionality the board then opens your browser to a website that hosts an interactive tutorial for learning more about the hardware and provided software this includes the Cloud9 IDE for developing physically interactive software in JavaScript script as well as an introduction to accessing other provided compilers and interpreters like python get started at bigle board.org today what will you create",
+  "text_to_speech_word_count": 245,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.979",
+      "start": "00:00:00.000",
+      "text": " Welcome to the board tour of the all new Beaglebone Black from BeagleBord.org."
+    },
+    {
+      "end": "00:00:17.117",
+      "start": "00:00:11.979",
+      "text": " This new Beaglebone features some serious upgrades that make it better, stronger, and faster"
+    },
+    {
+      "end": "00:00:18.719",
+      "start": "00:00:17.117",
+      "text": " than the original."
+    },
+    {
+      "end": "00:00:25.626",
+      "start": "00:00:18.719",
+      "text": " These upgrades include Texas Instruments, one gigahertz CETARA AM-335X, ARM, Cortex A8 CPU,"
+    },
+    {
+      "end": "00:00:29.930",
+      "start": "00:00:25.626",
+      "text": " two gigabytes of onboard EMMC storage, 512 megabytes DDO."
+    },
+    {
+      "end": "00:00:35.469",
+      "start": "00:00:29.930",
+      "text": " VR3 RAM, and an all new micro HDMI slot for connecting a TV or monitor."
+    },
+    {
+      "end": "00:00:39.506",
+      "start": "00:00:35.469",
+      "text": " The board also comes standard with a host of other features, as well as software that helps"
+    },
+    {
+      "end": "00:00:41.909",
+      "start": "00:00:39.506",
+      "text": " you start developing in seconds."
+    },
+    {
+      "end": "00:00:46.813",
+      "start": "00:00:41.909",
+      "text": " At just $45, this credit card size computer is the most affordable entry into our growing"
+    },
+    {
+      "end": "00:00:50.150",
+      "start": "00:00:46.813",
+      "text": " community of developers innovating with open hardware."
+    },
+    {
+      "end": "00:00:54.187",
+      "start": "00:00:50.150",
+      "text": " For detailed information about the Black and for ideas to help you get started, check out"
+    },
+    {
+      "end": "00:00:56.256",
+      "start": "00:00:54.187",
+      "text": " BeagleBord.org today."
+    },
+    {
+      "end": "00:00:58.191",
+      "start": "00:00:56.256",
+      "text": " What will you create?"
+    },
+    {
+      "end": "00:01:05.198",
+      "start": "00:00:58.892",
+      "text": " Let's take a quick look at your first experience with the all new Beaglebone Black from BeagleBord.org."
+    },
+    {
+      "end": "00:01:11.038",
+      "start": "00:01:05.198",
+      "text": " Once connected with a provided USB cable, your computer will recognize the board as a flash drive."
+    },
+    {
+      "end": "00:01:15.876",
+      "start": "00:01:11.038",
+      "text": " An included HTML file will guide you through the installation of any drivers needed to enable"
+    },
+    {
+      "end": "00:01:17.878",
+      "start": "00:01:15.876",
+      "text": " USB functionality."
+    },
+    {
+      "end": "00:01:22.316",
+      "start": "00:01:17.878",
+      "text": " The board then opens your browser to a website that hosts an interactive tutorial for learning"
+    },
+    {
+      "end": "00:01:25.519",
+      "start": "00:01:22.316",
+      "text": " more about the hardware and provided software."
+    },
+    {
+      "end": "00:01:30.624",
+      "start": "00:01:25.519",
+      "text": " This includes the Cloud9 IDE for developing physically interactive software in JavaScript,"
+    },
+    {
+      "end": "00:01:35.062",
+      "start": "00:01:30.624",
+      "text": " as well as an introduction to accessing other provided compilers and interpreters like"
+    },
+    {
+      "end": "00:01:36.296",
+      "start": "00:01:35.062",
+      "text": " Python."
+    },
+    {
+      "end": "00:01:39.232",
+      "start": "00:01:36.296",
+      "text": " Get started at BeagleBord.org today."
+    },
+    {
+      "end": "00:01:40.067",
+      "start": "00:01:39.232",
+      "text": " What will you create?"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "BeagleBoard",
+  "youtube_channel_follower_count": 1680,
+  "youtube_comment_count": 14,
+  "youtube_description": "http://beagleboard.org/Products/BeagleBone+Black/",
+  "youtube_like_count": 205,
+  "youtube_tags": [
+    "beagleboard",
+    "beaglebone"
+  ],
+  "youtube_title": "BeagleBone Black Board Tour and Out-of-box-experience",
+  "youtube_upload_date": "20130429",
+  "youtube_view_count": 275459
+}

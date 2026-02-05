@@ -1,0 +1,841 @@
+{
+  "content_fine_category": "Expert Interviews",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short, dark hair, a beard, and a mustache. He is wearing a black t-shirt.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "An in-depth analysis of the Hadoop Split Brain Problem and its solutions, as described in the video.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The main issue is the potential corruption of the metadata, leading to data inconsistency and cluster instability.",
+        "question": "What is the main issue associated with the 'split brain' scenario in Hadoop 2?"
+      },
+      {
+        "answer": "By introducing active and standby NameNodes along with JournalNodes to share metadata and allow for automatic failover.",
+        "question": "How does Hadoop 2's HA architecture address the single point of failure issue present in Hadoop 1?"
+      },
+      {
+        "answer": "Fencing ensures that only one NameNode is active at a time, preventing split brain scenarios and metadata corruption during failovers.",
+        "question": "What is the purpose of 'fencing' in Hadoop 2?"
+      },
+      {
+        "answer": "The video discusses sshfence and shell fencing methods.",
+        "question": "Name two examples of fencing methods discussed in the video."
+      },
+      {
+        "answer": "The speaker uses arrows and circles drawn on the diagram to emphasize specific components and their interactions.",
+        "question": "How does the speaker visually highlight components in the HDFS architecture diagram?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The speaker introduces himself and the topic of the video (Hadoop Split Brain Problem).",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The speaker begins to explain the split brain problem.",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker interacts with the audience via direct address."
+          }
+        ],
+        "contextualRelevance": "The scene sets the stage for understanding the complexities of the split brain issue.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "The scene starts with curiosity as the speaker captures interest with the topic.",
+              "timestamp": "00:00:00.000"
+            },
+            {
+              "changeDescription": "The mood remains curious as the topic explanation begins.",
+              "timestamp": "00:00:15.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker welcomes viewers back to his channel.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The speaker introduces the topic of the video.",
+            "timestamp": "00:00:04.000"
+          },
+          {
+            "description": "The speaker starts explaining the problem.",
+            "timestamp": "00:00:15.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Yellow background with title: 'Hadoop Interview Question' and 'Split Brain Problem'",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Hadoop logo: A yellow elephant logo representing Hadoop.",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Diagram: HDFS NameNode HA Architecture with Zookeeper, Journal Nodes, Failover Controller, Name Nodes, and Data Nodes.",
+            "timestamp": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technical explanation of Hadoop split brain problem",
+        "timestamps": {
+          "end_timestamp": "00:00:49.267",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Topic Explanation",
+        "videoEditingDetails": [
+          {
+            "description": "The video begins with a static title card showcasing the topic and speaker.",
+            "timestamps": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The speaker explains the split brain problem in detail, including its consequences and how it can occur.",
+            "timestamp": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:00:49.300"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker addresses the audience, explaining the technical details of the split brain problem."
+          }
+        ],
+        "contextualRelevance": "Critical understanding of what leads to split brain and its impact.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Confused",
+          "keyMoments": [
+            {
+              "changeDescription": "Confusion arises as the speaker delves into complex technical details.",
+              "timestamp": "00:00:51.000"
+            },
+            {
+              "changeDescription": "The speaker's explanation about active NameNodes adds to the confusion.",
+              "timestamp": "00:01:00.000"
+            },
+            {
+              "changeDescription": "Confusion persists with the mention of metadata corruption.",
+              "timestamp": "00:01:26.000"
+            },
+            {
+              "changeDescription": "Discussion about cluster division maintains the confusion mood.",
+              "timestamp": "00:02:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker defines the split brain problem.",
+            "timestamp": "00:00:51.000"
+          },
+          {
+            "description": "The speaker explains the problem with both NameNodes becoming active.",
+            "timestamp": "00:01:00.000"
+          },
+          {
+            "description": "The speaker outlines the consequences, focusing on metadata corruption.",
+            "timestamp": "00:01:26.000"
+          },
+          {
+            "description": "The speaker further explains the problem of the cluster dividing into smaller clusters.",
+            "timestamp": "00:02:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blue background with text: Details about split brain issue, its consequences, and a split-brain-scenario",
+            "timestamp": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:00:49.300"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Detailed technical implications of the split brain problem",
+        "timestamps": {
+          "end_timestamp": "00:02:46.433",
+          "start_timestamp": "00:00:49.300"
+        },
+        "title": "Detailed Explanation of Split Brain Issue",
+        "videoEditingDetails": [
+          {
+            "description": "A hard cut transitions to a new slide with a blue background with text-based explanation.",
+            "timestamps": {
+              "end_timestamp": "00:00:49.300",
+              "start_timestamp": "00:00:49.300"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The speaker briefly discusses the role of NameNode in Hadoop 1 and its single point of failure issue.",
+            "timestamp": {
+              "end_timestamp": "00:03:12.000",
+              "start_timestamp": "00:02:46.467"
+            }
+          },
+          {
+            "description": "The speaker explains the introduction of Active/Passive NameNode and JournalNodes in Hadoop 2 to address the SPOF issue.",
+            "timestamp": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          },
+          {
+            "description": "The speaker introduces fencing as a mechanism to prevent split-brain scenarios in Hadoop 2, explaining how it works and providing examples (sshfence, shell).",
+            "timestamp": {
+              "end_timestamp": "00:07:29.000",
+              "start_timestamp": "00:03:58.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker interacts with historical context and technical solutions, guiding the audience through complex concepts."
+          }
+        ],
+        "contextualRelevance": "Explains how new architectures solve the split brain issue, providing technical resolutions.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious, then hopeful",
+          "keyMoments": [
+            {
+              "changeDescription": "The scene starts curiously with historic context.",
+              "timestamp": "00:02:46.467"
+            },
+            {
+              "changeDescription": "Hopeful mood appears as solutions and technical advancements are discussed.",
+              "timestamp": "00:03:12.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker provides a brief history of NameNode as a SPOF in Hadoop 1.",
+            "timestamp": "00:02:46.467"
+          },
+          {
+            "description": "The speaker introduces the HA architecture of Hadoop 2 with Active/Passive NameNode and JournalNodes.",
+            "timestamp": "00:03:12.000"
+          },
+          {
+            "description": "The speaker explains the concept of fencing and its importance in preventing split brain scenarios.",
+            "timestamp": "00:03:58.000"
+          },
+          {
+            "description": "The speaker describes how to configure fencing in hdfs-site.xml file.",
+            "timestamp": "00:05:30.000"
+          },
+          {
+            "description": "The speaker provides examples of fencing methods like sshfence and shell.",
+            "timestamp": "00:06:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram: Shows the HDFS NameNode HA Architecture with Zookeeper, Journal Nodes, Failover Controller, Name Nodes, and Data Nodes.",
+            "timestamp": {
+              "end_timestamp": "00:07:29.000",
+              "start_timestamp": "00:02:46.467"
+            }
+          },
+          {
+            "name": "Code Snippets: Examples of fencing configurations in hdfs-site.xml file are shown for sshfence and shell methods.",
+            "timestamp": {
+              "end_timestamp": "00:07:23.000",
+              "start_timestamp": "00:05:29.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Solutions and advancements in Hadoop architecture",
+        "timestamps": {
+          "end_timestamp": "00:07:41.467",
+          "start_timestamp": "00:02:46.467"
+        },
+        "title": "Solution to Split Brain: Fencing",
+        "videoEditingDetails": [
+          {
+            "description": "Hard cuts are used to move between slides with text explanations and the diagram.",
+            "timestamps": {
+              "end_timestamp": "00:02:46.467",
+              "start_timestamp": "00:02:46.467"
+            }
+          },
+          {
+            "description": "Annotations with arrows and circles on the diagram to highlight key components and interactions.",
+            "timestamps": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:03:58.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The introduction of fencing as a solution to the split brain problem in Hadoop 2.",
+        "timestamp": "00:03:58.000"
+      },
+      "description": "The technical challenge of the Hadoop Split Brain Problem and its resolution using HA architecture and fencing.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Video Analysis: Hadoop Split Brain Problem",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment on Hadoop 1's NameNode SPOF could be shortened or removed to focus the video solely on the split brain issue in Hadoop 2.",
+        "timestamps": {
+          "end_timestamp": "00:03:12.000",
+          "start_timestamp": "00:02:46.467"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "News & Politics",
+  "duration_seconds": 462,
+  "original_json_filename": "KjAWiXr9Iw0.json",
+  "original_video_filename": "KjAWiXr9Iw0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "welcome back to tech with village in the consolation to our series on Hadoop interview questions today we will look a very interesting problem and that problem is called a spilt split-brain problem so this is the problem in the Hadoop 2 and in this particular video we will see what exactly is this problem what are the reasons for this problem and one of the solutions provided by Hadoop to tackle a brain a split kind of scenarios so guys let's start and before I move forward I would like to request you all my subscribers if you like my videos do subscribe to the channel and also like and leave your comments so that we can improve our improve upon the quality of videos so guys let's start with a split brain problem so split brain problem is a scenario which may happen in Hadoop 2 architecture where both the name nodes the active and the standby became active at the same time so in the typical Hadoop 2 architecture there is a facilitation for an active name node and the passive name node which is the backup name node which will takeover in the case of failover but sometime it may happen that both the nodes become active at the same time and this leads to lot of problems specifically to the corruption of the metadata regarding the namespace information of the name nodes is one of the biggest problem so guys this whole scenario where in both the nodes become active at the same time is called a split brain issue and the problem this particular issue will bring in is this will lead to the corruption of the metadata the namespace information kept to handle the underlying data nodes with information regarding the blocks for the allocation of tasks and the storage of files etc another issue that will arise is the whole cluster will get divided into two smaller clusters each led by individual name nodes and some of the native data nodes would you know as we would associate themselves with one data node and others would be with the native name nor - and both these groups will believe that it is the only active cluster that should be the case in idle scenario but they will behave in a split manner the whole architecture the whole resource set will be divided into two so this entire scenario is called as a split brain issue or a spirit plane scenario so guys let's look forward what is what are the different reasons for this scenario or issue to happen and what are the probable solutions provided if we quickly look a little bit of history in the context or into into the Hadoop architecture before Hadoop to name what happens to be the single point of failure so if in case name note goes down for some reason the entire cluster is unavailable and there was no mechanism for any sort of automatic failover before Hadoop - with the advent of available architecture they brought in the concept of to name nodes one would be the active name node another one would be the passive name would act as the standby and it will take over in the cases of failover scenarios now for these two named nodes to work in tandem and be in sync and from from the name space information perspective they've also bring in hundreds they have also brought in the concept of general nodes so they maintain a quorum of general nodes which help in sharing the name space and the mérida information between the two name nodes active and passive so as you've already discussed the Hadoop - hi available architecture has a concept of active and passive named nodes which comes is that if we have to keep the two name nodes in sync from the underlying data node perspective we'll have to make sure that the entire information regarding the blocks and the storage of different you know blocks of data is supplemented to both these named nodes so if in case there happens to be a scenario of switchover from active to passive named not that should be smooth and all the information should be available with the new node so for this the what the facilitate is now the data node is configured in such a way that it will send the block information to both the nimnim at the same time another facilitation that they make so that both the name nodes would have their active tenure at one point in time they make sure that all the commands read rights are handled by one or at a time and that name node would be the active one but as we have seen there may arise a scenario where during a failover while the one name node is still shutting down it may handle some requests which are already supplemented to it and it spoil or corrupted the entire metadata to put a solution for such kind of scenarios Hadoop 2 gives a solution in the form of fencing so in your HDFS site XML configuration files you can configure different fencing mechanisms fancy mechanism means that it will make sure that at any single moment of time in the entire lifecycle of a loop cluster there can only be one name node active there would not be a scenario of overlap and for this we can configure different fencing methods provided if we talk about different fencing methods these methods in itself could be different custom Java objects where you've written a logic to to kill the shutting down name node explicitly or some sort of sort of scripts that kind of go ahead and kill that process of you know dying name node of the fencing mechanism provided in the in the Hadoop to is one is SSH fence which can be configured in this form where you set up a property DFS thought he8 or fencing dot methods and name of the method in this case would be as assets edge fence what it does primarily is it will do a search on particularly failing name node supplemented with the information from the configuration file regarding the IP address and the poor and will exclusively kill that process so that while the new node name node takes over the previous one is killed explicitly and there would not be any overlap scenario method provided for fencing is the shell wherein we can path the you know relative path of the script that script may be carrying some sort of custom logic to either to explicitly kill that process or to make sure that that process is not exist anymore from the command perspective so these are some of the fencing mechanism provided by the Hadoop - so guys that this particular video where we have discussed this brain issue and probable solutions provided by guru - keep watching happy learning have a great day bye bye",
+  "text_to_speech_word_count": 1178,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.333",
+      "start": "00:00:00.000",
+      "text": " Welcome back to Tech with Vuresh in the continuation to our series on Hadoop interview questions."
+    },
+    {
+      "end": "00:00:14.267",
+      "start": "00:00:06.333",
+      "text": " Today we look a very interesting problem and that problem is called split brain problem."
+    },
+    {
+      "end": "00:00:19.033",
+      "start": "00:00:14.267",
+      "text": " So this is the problem in the Hadoop 2 and in this particular video we will see what"
+    },
+    {
+      "end": "00:00:23.833",
+      "start": "00:00:19.033",
+      "text": " exactly is this problem, what are the reasons for this problem and what are the solutions"
+    },
+    {
+      "end": "00:00:29.433",
+      "start": "00:00:23.833",
+      "text": " provided by Hadoop to tackle a brain split kind of scenarios."
+    },
+    {
+      "end": "00:00:36.133",
+      "start": "00:00:29.433",
+      "text": " So guys let's start and before I move forward I would like to request to all my subscribers"
+    },
+    {
+      "end": "00:00:41.900",
+      "start": "00:00:36.133",
+      "text": " if you like my videos do subscribe to the channel and also like and leave your comments so"
+    },
+    {
+      "end": "00:00:46.400",
+      "start": "00:00:41.900",
+      "text": " that we can improve on the quality of videos."
+    },
+    {
+      "end": "00:00:50.333",
+      "start": "00:00:46.400",
+      "text": " So guys let's start with split brain problem."
+    },
+    {
+      "end": "00:00:57.500",
+      "start": "00:00:50.333",
+      "text": " So split brain problem is a scenario which may happen in Hadoop 2 architecture where both"
+    },
+    {
+      "end": "00:01:03.900",
+      "start": "00:00:57.500",
+      "text": " the name nodes, the active and the standby became active at the same time."
+    },
+    {
+      "end": "00:01:10.000",
+      "start": "00:01:03.900",
+      "text": " So in the typical Hadoop 2 architecture there is a facilitation for an active name node"
+    },
+    {
+      "end": "00:01:15.533",
+      "start": "00:01:10.000",
+      "text": " and the passive name node which is the backup name node which will take over in the case"
+    },
+    {
+      "end": "00:01:21.600",
+      "start": "00:01:15.533",
+      "text": " of failovers but sometime it may happen that both the nodes become active at the same"
+    },
+    {
+      "end": "00:01:28.667",
+      "start": "00:01:21.667",
+      "text": " time and this leads to a lot of problems especially to the corruption of the metadata regarding"
+    },
+    {
+      "end": "00:01:34.733",
+      "start": "00:01:28.667",
+      "text": " the namespace information of the name nodes is one of the biggest problems."
+    },
+    {
+      "end": "00:01:39.667",
+      "start": "00:01:34.733",
+      "text": " So guys this whole scenario wherein both the nodes become active at the same time is called"
+    },
+    {
+      "end": "00:01:45.267",
+      "start": "00:01:39.667",
+      "text": " split brain issue and the problem this particular issue will bring in is this will lead to the"
+    },
+    {
+      "end": "00:01:52.333",
+      "start": "00:01:45.267",
+      "text": " corruption of the metadata the name space information kept to handle the underlying data"
+    },
+    {
+      "end": "00:01:57.500",
+      "start": "00:01:52.333",
+      "text": " nodes information regarding the blocks for the allocation of tasks and the storage of"
+    },
+    {
+      "end": "00:02:00.100",
+      "start": "00:01:57.500",
+      "text": " files etc."
+    },
+    {
+      "end": "00:02:06.067",
+      "start": "00:02:00.100",
+      "text": " Another issue that will arise is the whole cluster will get divided into two smaller clusters"
+    },
+    {
+      "end": "00:02:13.433",
+      "start": "00:02:06.067",
+      "text": " each led by individual name nodes and some of the data nodes would associate themselves"
+    },
+    {
+      "end": "00:02:19.900",
+      "start": "00:02:13.433",
+      "text": " with one data node and others would be with the name node 2 and both these groups will"
+    },
+    {
+      "end": "00:02:25.300",
+      "start": "00:02:19.900",
+      "text": " believe that it is the only active cluster that should be the case in idle scenario but"
+    },
+    {
+      "end": "00:02:30.067",
+      "start": "00:02:25.300",
+      "text": " they will behave in a split manner the whole architecture the whole resource set will"
+    },
+    {
+      "end": "00:02:31.667",
+      "start": "00:02:30.067",
+      "text": " be divided into two."
+    },
+    {
+      "end": "00:02:37.633",
+      "start": "00:02:31.667",
+      "text": " So this entire scenario is called as split brain issue or split brain scenario."
+    },
+    {
+      "end": "00:02:43.400",
+      "start": "00:02:37.633",
+      "text": " So guys look forward what are the different reasons for this scenario or issue to happen"
+    },
+    {
+      "end": "00:02:48.467",
+      "start": "00:02:43.933",
+      "text": " and what are the probable solutions provided."
+    },
+    {
+      "end": "00:02:56.700",
+      "start": "00:02:48.467",
+      "text": " If we quickly look a little bit of history in the context into the Hadoop architecture"
+    },
+    {
+      "end": "00:03:01.233",
+      "start": "00:02:56.700",
+      "text": " before Hadoop 2 name node happens to be the single point of failure."
+    },
+    {
+      "end": "00:03:06.867",
+      "start": "00:03:01.233",
+      "text": " So if in case name node goes down for some reason the entire cluster is unavailable and"
+    },
+    {
+      "end": "00:03:12.533",
+      "start": "00:03:06.867",
+      "text": " there was no mechanism for any sort of automatic failover before Hadoop 2."
+    },
+    {
+      "end": "00:03:19.533",
+      "start": "00:03:12.633",
+      "text": " With the advent of the variable architecture they brought in the concept of two name nodes"
+    },
+    {
+      "end": "00:03:24.733",
+      "start": "00:03:19.533",
+      "text": " one would be the active name node another one would be the passive name node act as the"
+    },
+    {
+      "end": "00:03:31.467",
+      "start": "00:03:24.733",
+      "text": " standby and it will take over in the cases of failover scenarios."
+    },
+    {
+      "end": "00:03:40.133",
+      "start": "00:03:31.467",
+      "text": " Now for these two name nodes to work in tandem and be in sync from the namespace information"
+    },
+    {
+      "end": "00:03:47.233",
+      "start": "00:03:40.133",
+      "text": " perspective they've also brought in the concept of general nodes."
+    },
+    {
+      "end": "00:03:53.600",
+      "start": "00:03:47.233",
+      "text": " So they maintain a quorum of general nodes which help in sharing the name space and the"
+    },
+    {
+      "end": "00:04:00.867",
+      "start": "00:03:53.600",
+      "text": " metadata information between the two name nodes active and passive."
+    },
+    {
+      "end": "00:04:05.733",
+      "start": "00:04:00.867",
+      "text": " So as you've already discussed the Hadoop 2 highly available architecture has a concept"
+    },
+    {
+      "end": "00:04:15.067",
+      "start": "00:04:05.833",
+      "text": " of active and passive name nodes which comes is that if we have to keep the two name nodes"
+    },
+    {
+      "end": "00:04:21.233",
+      "start": "00:04:15.067",
+      "text": " in sync from the underlying data node perspective we'll have to make sure that the entire information"
+    },
+    {
+      "end": "00:04:28.367",
+      "start": "00:04:21.233",
+      "text": " regarding the blocks and the storage of different blocks of data is supplemented to both"
+    },
+    {
+      "end": "00:04:29.567",
+      "start": "00:04:28.367",
+      "text": " these name nodes."
+    },
+    {
+      "end": "00:04:34.333",
+      "start": "00:04:29.567",
+      "text": " So if in case there happens to be a scenario of switch over from active to passive name"
+    },
+    {
+      "end": "00:04:39.233",
+      "start": "00:04:34.900",
+      "text": " that should be smooth and all the information should be available with the new node."
+    },
+    {
+      "end": "00:04:44.600",
+      "start": "00:04:39.233",
+      "text": " So for this what they facilitate is now the data node is configured in such a way that"
+    },
+    {
+      "end": "00:04:50.400",
+      "start": "00:04:44.600",
+      "text": " it will send the block information to both the name nodes at the same time."
+    },
+    {
+      "end": "00:04:56.400",
+      "start": "00:04:50.400",
+      "text": " Another facilitation that they make so that both the name nodes would have their active"
+    },
+    {
+      "end": "00:05:02.933",
+      "start": "00:04:56.467",
+      "text": " and you're at one point in time they make sure that all the commands read right are handled"
+    },
+    {
+      "end": "00:05:08.133",
+      "start": "00:05:02.933",
+      "text": " by one node at a time and that name node would be the active one."
+    },
+    {
+      "end": "00:05:13.933",
+      "start": "00:05:08.133",
+      "text": " But as we have seen there may arise a scenario where during a failover while the one name"
+    },
+    {
+      "end": "00:05:19.133",
+      "start": "00:05:13.933",
+      "text": " node is still shutting down it may handle some request which are already supplemented"
+    },
+    {
+      "end": "00:05:23.067",
+      "start": "00:05:19.133",
+      "text": " to it and is foil or corrupt the entire metadata."
+    },
+    {
+      "end": "00:05:29.800",
+      "start": "00:05:23.067",
+      "text": " You put a solution for such kind of scenarios Hadoop 2 gives a solution in the form of"
+    },
+    {
+      "end": "00:05:31.200",
+      "start": "00:05:29.800",
+      "text": " fencing."
+    },
+    {
+      "end": "00:05:38.733",
+      "start": "00:05:31.200",
+      "text": " So in your HDFS site XML configuration files you can configure different fencing mechanisms."
+    },
+    {
+      "end": "00:05:44.633",
+      "start": "00:05:38.733",
+      "text": " Fencing mechanism means that it'll make sure that at any single moment of time in the"
+    },
+    {
+      "end": "00:05:51.833",
+      "start": "00:05:44.633",
+      "text": " entire lifecycle of Hadoop cluster there can only be one name node active."
+    },
+    {
+      "end": "00:05:57.433",
+      "start": "00:05:51.833",
+      "text": " There would not be a scenario of overlap and for this we can configure different fencing"
+    },
+    {
+      "end": "00:05:59.400",
+      "start": "00:05:57.433",
+      "text": " methods provided."
+    },
+    {
+      "end": "00:06:03.667",
+      "start": "00:05:59.400",
+      "text": " If we talk about different fencing methods these methods in itself could be different"
+    },
+    {
+      "end": "00:06:08.500",
+      "start": "00:06:03.667",
+      "text": " custom Java objects where you've written a logic to kill the shutting down name node"
+    },
+    {
+      "end": "00:06:14.767",
+      "start": "00:06:08.500",
+      "text": " explicitly or some sort of scripts that kind of go ahead and kill that process of you"
+    },
+    {
+      "end": "00:06:17.567",
+      "start": "00:06:14.767",
+      "text": " know dying name node."
+    },
+    {
+      "end": "00:06:25.200",
+      "start": "00:06:17.600",
+      "text": " So the fencing mechanism provided in the Hadoop 2 is one is SSH fence which can be configured"
+    },
+    {
+      "end": "00:06:31.500",
+      "start": "00:06:25.200",
+      "text": " in this form where you set up a property DFS dot H a dot fencing dot methods and never"
+    },
+    {
+      "end": "00:06:36.833",
+      "start": "00:06:31.500",
+      "text": " the method in this case would be SSH H fence."
+    },
+    {
+      "end": "00:06:43.633",
+      "start": "00:06:36.833",
+      "text": " What it does primarily is it will do a SSH on that particular failing name node supplemented"
+    },
+    {
+      "end": "00:06:50.833",
+      "start": "00:06:43.633",
+      "text": " with the information from the configuration file regarding the IP address in the port"
+    },
+    {
+      "end": "00:06:53.700",
+      "start": "00:06:50.833",
+      "text": " and will explicitly kill that process."
+    },
+    {
+      "end": "00:06:59.667",
+      "start": "00:06:53.700",
+      "text": " So that while the new node name node takes over the previous one is killed explicitly"
+    },
+    {
+      "end": "00:07:02.333",
+      "start": "00:06:59.667",
+      "text": " and there would not be any overlap scenario."
+    },
+    {
+      "end": "00:07:09.700",
+      "start": "00:07:02.333",
+      "text": " Another method provided for fencing is the shell wherein we can path the you know relative"
+    },
+    {
+      "end": "00:07:15.300",
+      "start": "00:07:09.700",
+      "text": " path of the script that script may be carrying some sort of custom logic to either to explicitly"
+    },
+    {
+      "end": "00:07:22.067",
+      "start": "00:07:15.300",
+      "text": " kill that process or to make sure that that process is not accessed anymore from the command"
+    },
+    {
+      "end": "00:07:23.467",
+      "start": "00:07:22.067",
+      "text": " perspective."
+    },
+    {
+      "end": "00:07:28.267",
+      "start": "00:07:23.467",
+      "text": " So these are some of the fencing mechanism provided by the Hadoop 2."
+    },
+    {
+      "end": "00:07:34.533",
+      "start": "00:07:28.267",
+      "text": " So guys that this particular video where we have discussed this split brain issue and"
+    },
+    {
+      "end": "00:07:37.533",
+      "start": "00:07:34.533",
+      "text": " the probable solution provided by Hadoop 2."
+    },
+    {
+      "end": "00:07:38.533",
+      "start": "00:07:37.533",
+      "text": " Keep watching."
+    },
+    {
+      "end": "00:07:39.533",
+      "start": "00:07:38.533",
+      "text": " Happy learning."
+    },
+    {
+      "end": "00:07:40.533",
+      "start": "00:07:39.533",
+      "text": " Have a great day."
+    },
+    {
+      "end": "00:07:40.733",
+      "start": "00:07:40.533",
+      "text": " Bye bye."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "TechWithViresh",
+  "youtube_channel_follower_count": 9490,
+  "youtube_comment_count": 4,
+  "youtube_description": "#Hadoop #Split Brain problem\n\nPlease join as a member in my channel to get additional benefits like materials in BigData , Data Science, live streaming for Members and many more \nClick here to subscribe : https://www.youtube.com/channel/UCZqHmLZxX0KC6PiJHETflOg\n\nAbout us:\nWe are a technology consulting and training providers, specializes in the technology areas like : Machine Learning,AI,Spark,Big Data,Nosql, graph DB,Cassandra and Hadoop ecosystem.\n\nMastering Spark : https://www.youtube.com/watch?v=bU57q5R5eTc&list=PLtfmIPhU2DkNWZsSBDKclMfLU8uCOB1kW\nMastering Hive : https://www.youtube.com/watch?v=9cZNf5Qi0YI&list=PLtfmIPhU2DkNS1pCdpxW5Zwn22mdOOtnk\nSpark Interview Questions : https://www.youtube.com/watch?v=G4D4iY_hZQ0&list=PLtfmIPhU2DkNjQjL08kR3cd4kUzWqS0vg\nMastering Hadoop : https://www.youtube.com/watch?v=OSMVKV6zitM&list=PLtfmIPhU2DkNDLMLPQS28A5TF75exFt_F\n\nVisit us :\nEmail: techwithviresh@gmail.com\nFacebook : https://www.facebook.com/Tech-Greens\nTwitter : @TechViresh\n\nThanks for watching\nPlease Subscribe!!! Like, share and comment!!!!",
+  "youtube_like_count": 85,
+  "youtube_tags": [
+    "Basics of Spark",
+    "hadoop architecture",
+    "spark interview question",
+    "Hadoop Tutorial",
+    "Bigdata",
+    "what is hadoop",
+    "hadoop for beginners",
+    "Hadoop overview",
+    "What is Apache Spark",
+    "What is Spark",
+    "How to learn spark",
+    "Spark Tutorial",
+    "Spark Overview",
+    "Spark Architecture",
+    "Spark Introduction",
+    "Spark Deep Dive",
+    "spark Internal",
+    "Broadcast",
+    "Advance spark",
+    "spark lessons",
+    "spark step by step",
+    "Spark for beginners",
+    "spark for novice",
+    "spark inside",
+    "How spark works",
+    "spark execution",
+    "hdfs",
+    "optimisation"
+  ],
+  "youtube_title": "Hadoop Interview Question | Split Brain Problem",
+  "youtube_upload_date": "20200410",
+  "youtube_view_count": 3896
+}

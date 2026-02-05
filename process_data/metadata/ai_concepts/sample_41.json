@@ -1,0 +1,765 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "ajay_jain",
+        "description": "A student researcher at Google Brain and PhD student at UC Berkeley. He is the narrator of the video and does not physically appear on screen.",
+        "name": "Ajay Jain"
+      }
+    ],
+    "description": "An academic presentation by Ajay Jain on a novel approach for generating 3D objects from text descriptions called Dream Fields. The video explores the capabilities, training processes, improvements, and outputs of Dream Fields, highlighting its innovative methods and potential applications.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The video shows examples of 'scenes saturated with content and duplicated objects.'",
+        "question": "What specific artifacts are mentioned as appearing in the renderings without regularization?"
+      },
+      {
+        "answer": "The video mentions that 100 photos were used for the drum set reconstruction.",
+        "question": "How many photos were used to train the NeRF model for the drum set example?"
+      },
+      {
+        "answer": "While the narrator mentions three types of background augmentations, the video only visually displays two: checkered and solid color backgrounds. The third type is not explicitly shown or named.",
+        "question": "What are the three types of background augmentations used in the work?"
+      },
+      {
+        "answer": "The video shows that the 'CLIP Vision Transformer architecture' is used for image-text representation.",
+        "question": "What image-text representation architecture is used in Dream Fields?"
+      },
+      {
+        "answer": "The transmittance loss encourages high transparency in the renderings, effectively sparsifying the scene and reducing the occurrence of artifacts.",
+        "question": "What is the purpose of the transmittance loss in Dream Fields training?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Ajay Jain introduces himself and his affiliation.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Ajay Jain presents Dream Fields, an approach for generating 3D objects from text descriptions.",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain narrates the introduction over the title slide."
+          }
+        ],
+        "contextualRelevance": "High relevance to academic and research audiences interested in neural networks and 3D rendering. Offers insights into cutting-edge technology and its potential applications.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic and speaker.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide with presentation title, authors, and affiliations. Images of a rooster wind vane, Jenga tower, and spaceship with text descriptions.",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "3D object generation, text-guided generation, neural networks.",
+        "timestamps": {
+          "end_timestamp": "00:00:13.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Dream Fields",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects. The slide remains static throughout the scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explanation of Neural Radiance Fields (NeRF) and its limitations.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:13.033"
+            }
+          },
+          {
+            "description": "Demonstration of NeRF's ability to render novel perspectives.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain's voiceover explaining the technical concept of NeRF."
+          }
+        ],
+        "contextualRelevance": "Provides foundational understanding necessary for comprehension of Dream Fields, relevant to researchers and practitioners in 3D modeling.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of NeRF and its limitations as a foundation for Dream Fields.",
+            "timestamp": "00:00:13.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating NeRF's process and example of a drum set reconstruction using NeRF.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:13.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Neural Radiance Fields, 3D reconstruction, image-based rendering, limitations of NeRF.",
+        "timestamps": {
+          "end_timestamp": "00:01:06.000",
+          "start_timestamp": "00:00:13.033"
+        },
+        "title": "Explanation of Neural Radiance Fields (NeRF)",
+        "videoEditingDetails": [
+          {
+            "description": "Arrows indicate the progression of NeRF's process in the diagram.",
+            "timestamps": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:13.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Introduction of Dream Fields and its advantages over NeRF.",
+            "timestamp": {
+              "end_timestamp": "00:01:25.000",
+              "start_timestamp": "00:01:06.033"
+            }
+          },
+          {
+            "description": "Explanation of Dream Fields training process and challenges.",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:25.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain describes Dream Fields' process and training intricacies in detail."
+          }
+        ],
+        "contextualRelevance": "Detailed explanation of how Dream Fields operates, critical for understanding its innovative capabilities and applications.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing Dream Fields and explaining its text-guided generation process.",
+            "timestamp": "00:01:06.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagrams illustrating Dream Fields process, example of an ocean painting generated from text, diagram of training process, and example of blueberry rendering with artifacts.",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:06.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Text-guided 3D generation, CLIP loss, regularization, challenges in training Dream Fields.",
+        "timestamps": {
+          "end_timestamp": "00:02:13.000",
+          "start_timestamp": "00:01:06.033"
+        },
+        "title": "Introduction and Training of Dream Fields",
+        "videoEditingDetails": [
+          {
+            "description": "Arrows indicate the flow of information in the diagrams.",
+            "timestamps": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:06.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presentation of solutions to improve Dream Fields' quality using augmented rendering and architectural improvements.",
+            "timestamp": {
+              "end_timestamp": "00:02:54.000",
+              "start_timestamp": "00:02:13.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain explains the techniques to enhance Dream Fields' rendering quality."
+          }
+        ],
+        "contextualRelevance": "Important for understanding how quality issues are addressed, relevant to developers and users of 3D generation systems.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Detailing the techniques used to improve the quality of Dream Fields outputs.",
+            "timestamp": "00:02:13.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating augmented rendering process, example of blueberry rendering, text highlighting scene bounds and improved MLP architectures.",
+            "timestamp": {
+              "end_timestamp": "00:02:54.000",
+              "start_timestamp": "00:02:13.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Augmented rendering, transmittance loss, scene bounds, MLP architectures, quality improvement in Dream Fields.",
+        "timestamps": {
+          "end_timestamp": "00:02:54.000",
+          "start_timestamp": "00:02:13.033"
+        },
+        "title": "Solutions for Improving Dream Fields Quality",
+        "videoEditingDetails": [
+          {
+            "description": "Arrows indicate the flow of information in the diagram.",
+            "timestamps": {
+              "end_timestamp": "00:02:54.000",
+              "start_timestamp": "00:02:13.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of Dream Fields' training progression and its ability to generate diverse objects.",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:54.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain enthusiastically showcases the results achieved with Dream Fields."
+          }
+        ],
+        "contextualRelevance": "Highlights the effectiveness and potential of Dream Fields in practical applications, engaging for industries interested in 3D design.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcasing Dream Fields' capabilities through visual examples and training progression.",
+            "timestamp": "00:02:54.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animations showcasing iterative improvement of objects, example renderings of pug dog, castle, and Jenga tower.",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:54.033"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Training progression, realism in rendering, object diversity, versatility of Dream Fields.",
+        "timestamps": {
+          "end_timestamp": "00:03:30.200",
+          "start_timestamp": "00:02:54.033"
+        },
+        "title": "Showcasing Dream Fields' Capabilities",
+        "videoEditingDetails": [
+          {
+            "description": "Animations display the gradual refinement of the rendered objects.",
+            "timestamps": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:54.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of Dream Fields' ability to combine object shapes and styles based on text prompts.",
+            "timestamp": {
+              "end_timestamp": "00:03:49.933",
+              "start_timestamp": "00:03:30.233"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain explains compositional generalization using examples of combined renderings."
+          }
+        ],
+        "contextualRelevance": "Illustrates the creative flexibility of Dream Fields, appealing to designers and creative industries.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlighting Dream Fields' ability to combine different concepts and create novel objects.",
+            "timestamp": "00:03:30.233"
+          }
+        ],
+        "props": [
+          {
+            "name": "Grid of armchair and teapot renderings with text prompts.",
+            "timestamp": {
+              "end_timestamp": "00:03:49.933",
+              "start_timestamp": "00:03:30.233"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Compositional generalization, shape and style combinations, creative potential of Dream Fields.",
+        "timestamps": {
+          "end_timestamp": "00:03:49.933",
+          "start_timestamp": "00:03:30.233"
+        },
+        "title": "Compositional Generalization in Dream Fields",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:03:49.933",
+              "start_timestamp": "00:03:30.233"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of Dream Fields' ability to incorporate stylistic controls through text descriptions.",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:03:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain discusses stylistic versatility with examples of artistic renderings."
+          }
+        ],
+        "contextualRelevance": "Demonstrates user creativity potential, relevant to end-users and UX designers.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Emphasizing the user's ability to control the stylistic aspects of Dream Fields' output through natural language descriptions.",
+            "timestamp": "00:03:50.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Renderings of bonsai and Christmas trees with different style variations.",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:03:50.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Stylistic control, natural language descriptions, artistic effects, user control in Dream Fields.",
+        "timestamps": {
+          "end_timestamp": "00:04:05.867",
+          "start_timestamp": "00:03:49.967"
+        },
+        "title": "Stylistic Control in Dream Fields",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:03:50.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Encouraging viewers to explore the research paper for technical details and evaluation.",
+            "timestamp": {
+              "end_timestamp": "00:04:13.867",
+              "start_timestamp": "00:04:05.900"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "ajay_jain"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "ajay_jain"
+            ],
+            "description": "Ajay Jain concludes the presentation, guiding viewers to additional resources."
+          }
+        ],
+        "contextualRelevance": "Offers resources for deeper exploration of topic, essential for researchers and students interested in advancements in AI and 3D technologies.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Conclusion of the presentation and invitation to learn more.",
+            "timestamp": "00:04:05.900"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide with presentation details and QR code for further learning resources.",
+            "timestamp": {
+              "end_timestamp": "00:04:13.867",
+              "start_timestamp": "00:04:05.900"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Research paper, technical details, evaluation, further exploration.",
+        "timestamps": {
+          "end_timestamp": "00:04:13.867",
+          "start_timestamp": "00:04:05.900"
+        },
+        "title": "Conclusion and Call to Explore Further",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects. The slide remains static.",
+            "timestamps": {
+              "end_timestamp": "00:04:13.867",
+              "start_timestamp": "00:04:05.900"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Showcasing the impressive training progression and object diversity of Dream Fields.",
+        "timestamp": "00:02:54.000"
+      },
+      "description": "The video presents an informative look into Dream Fields, focusing on its groundbreaking methods for generating 3D objects from text, outlining its approaches, challenges, and achievements.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "Zero-Shot Text-Guided Object Generation with Dream Fields",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten static diagram explanation of NeRF by summarizing key concepts more concisely.",
+        "timestamps": {
+          "end_timestamp": "00:04:05.900",
+          "start_timestamp": "00:04:05.900"
+        }
+      },
+      {
+        "description": "Incorporate dynamic elements or interleave examples to enhance engagement during the explanation of Dream Fields training processes.",
+        "timestamps": {
+          "end_timestamp": "00:04:05.900",
+          "start_timestamp": "00:04:05.900"
+        }
+      },
+      {
+        "description": "Add animations to examples of solutions for quality improvement to improve viewing interest.",
+        "timestamps": {
+          "end_timestamp": "00:04:05.900",
+          "start_timestamp": "00:04:05.900"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 254,
+  "original_json_filename": "1Fke6w46tv4.json",
+  "original_video_filename": "1Fke6w46tv4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Hi there. My name is Ajay, and I'm a student&nbsp; researcher at Google Brain and PhD student at&nbsp;&nbsp; UC Berkeley. I'm excited to present Dream&nbsp; Fields, an approach to generating digital&nbsp;&nbsp; 3d objects from natural language descriptions. In&nbsp; our work, we represent 3d objects with the Neural&nbsp;&nbsp; Radiance Field scene parametrization. A Neural&nbsp; Radiance Field provides a way to differentiably&nbsp;&nbsp; render a scene that's parametrized by a&nbsp; multi-layer perceptron, encoding color and&nbsp;&nbsp; density. Neural Radiance Fields, or NeRFs,&nbsp; are supervised per scene from 2d images.&nbsp;&nbsp; NeRF requires multiple 3d photographs of the&nbsp; specific object that is to be reconstructed&nbsp;&nbsp; with known camera viewpoints. For each this drum&nbsp; set 100 photos were used for highly detailed 360&nbsp;&nbsp; degree reconstruction. Once estimated, the&nbsp; radiance field can be rendered from novel&nbsp;&nbsp; perspectives with volume rendering, interpolating&nbsp; the training view smoothly. In contrast,&nbsp;&nbsp; our Dream Fields do not require any&nbsp; photographs, which are difficult to capture,&nbsp;&nbsp; and are not available when a user wants to design&nbsp; a novel object. Instead the user just provides&nbsp;&nbsp; a textual description of the desired object. A&nbsp; Dream Field learns geometry and color solely with&nbsp;&nbsp; guidance from a deep neural network conditioned&nbsp; on the caption, and simple regularizers.&nbsp;&nbsp; Novel perspectives are geometrically consistent&nbsp; and reflect the desired caption well.&nbsp;&nbsp; To train dream fields we sample a camera pose&nbsp; uniformly around the object, render an image&nbsp;&nbsp; with volumetric rendering, and then encode it&nbsp; using a pre-trained aligned representation of&nbsp;&nbsp; images and text. For example, the CLIP Vision&nbsp; Transformer architecture is trained on paired 2d&nbsp;&nbsp; photographs and captions found on the internet.&nbsp; No multi-view data or 3d models are used.&nbsp;&nbsp; Maximizing the similarity of the&nbsp; rendered image and the captions&nbsp;&nbsp; allows us to train the radiance field to look&nbsp; like the caption from any perspective. However,&nbsp;&nbsp; if we just use this naive approach of maximizing&nbsp; clip loss on objects with white backgrounds, many&nbsp;&nbsp; artifacts emerge in the rendering such as scenes&nbsp; saturated with content and duplicated objects. To improve quality we augment the backgrounds of&nbsp; the objects with randomly generated background&nbsp;&nbsp; images, and impose a transmittance loss that&nbsp; encourages high transparency in the renderings.&nbsp;&nbsp; In addition to sparsifying&nbsp; the scene, we improve quality&nbsp;&nbsp; with scene bounds and improved MLP architectures. Over 10 to 20,000 iterations of training,&nbsp; the geometry and texture of a Dream Field&nbsp;&nbsp; improves in realism. Here we show&nbsp; different perspectives at different&nbsp;&nbsp; iterations as well as the three types of&nbsp; background augmentations used in the work.&nbsp;&nbsp; On another scene with a caption \"a kettle&nbsp; in the shape of a fossil,\" we show the full&nbsp;&nbsp; progression of training. Dream Fields also&nbsp; generate depth maps that are plausible. We don't constrain generation to&nbsp; a specific category of objects.&nbsp;&nbsp; Instead, our image text representations are&nbsp; trained on a very large diversity of web data&nbsp;&nbsp; and support generation across&nbsp; many types of categories. Inspired by the DALL-E text to image generative&nbsp; model, we experiment with the compositional&nbsp;&nbsp; generalization of Dream Fields, showing that&nbsp; they can combine object categories like armchair&nbsp;&nbsp; and teapot with different types of&nbsp; styles and materials like brain corals,&nbsp;&nbsp; hibiscus, avocados, and lotus roots. Users control&nbsp; the generation process with natural language,&nbsp;&nbsp; expressing desired stylistic effects easily like&nbsp; matte paintings or a website like artstation. Please see our paper for more technical&nbsp; details as well as evaluation.",
+  "text_to_speech_word_count": 548,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:00.000",
+      "text": " Hi there. My name is Jay and I'm a student researcher at Google Brain and PhD student at UC Berkeley."
+    },
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:06.000",
+      "text": " I'm excited to present Dreamfields, an approach to generating digital 3D objects from natural language descriptions."
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:12.000",
+      "text": " In our work, we represent 3D objects with the Neural Radiance Field scene parameterization."
+    },
+    {
+      "end": "00:00:27.000",
+      "start": "00:00:18.000",
+      "text": " A Neural Radiance field provides a way to differentially render a scene that's parameterized by multi-layer perceptron, encoding color, and density."
+    },
+    {
+      "end": "00:00:33.000",
+      "start": "00:00:28.000",
+      "text": " Neural Radiance Fields or Nerfs are supervised per scene from 2D images."
+    },
+    {
+      "end": "00:00:42.000",
+      "start": "00:00:34.000",
+      "text": " Nerfs requires multiple 3D photographs of the specific object that is to be reconstructed with known camera viewpoints for each."
+    },
+    {
+      "end": "00:00:48.000",
+      "start": "00:00:42.000",
+      "text": " For this drum set, 100 photos were used for highly detailed 360 degree reconstruction."
+    },
+    {
+      "end": "00:00:56.000",
+      "start": "00:00:48.000",
+      "text": " Once estimated, the Radiance Field can be rendered from novel perspectives with volume rendering, interpolating the training views smoothly."
+    },
+    {
+      "end": "00:01:05.000",
+      "start": "00:00:56.000",
+      "text": " In contrast, our Dreamfields do not require any photographs, which are difficult to capture and are not available when a user wants to design a novel object."
+    },
+    {
+      "end": "00:01:10.000",
+      "start": "00:01:05.000",
+      "text": " Instead, the user just provides a textual description of the desired object."
+    },
+    {
+      "end": "00:01:19.000",
+      "start": "00:01:10.000",
+      "text": " A Dreamfield learns geometry and color solely with guidance from a deep neural network condition on the caption and simple regularizers."
+    },
+    {
+      "end": "00:01:25.000",
+      "start": "00:01:20.000",
+      "text": " Novel perspectives are geometrically consistent and reflect the desired caption well."
+    },
+    {
+      "end": "00:01:38.000",
+      "start": "00:01:25.000",
+      "text": " To train Dreamfields, we sample a camera pose uniformly around the object, render an image with volumetric rendering, and then encode it using a pre-trient, aligned representation of images and text."
+    },
+    {
+      "end": "00:01:46.000",
+      "start": "00:01:38.000",
+      "text": " For example, the Clip Vision Transformer architecture is trained on paired 2D photographs and captions found on the internet."
+    },
+    {
+      "end": "00:01:50.000",
+      "start": "00:01:46.000",
+      "text": " No multi-view data or 3D models are used."
+    },
+    {
+      "end": "00:01:58.000",
+      "start": "00:01:50.000",
+      "text": " Maximizing the similarity of the rendered image and the captions allows us to train the Radiance Field to look like the caption from any perspective."
+    },
+    {
+      "end": "00:02:11.000",
+      "start": "00:01:58.000",
+      "text": " However, if we just use this naive approach of maximizing ClipLoss on objects with white backgrounds, many artifacts emerge in the renderings such as seen saturated with content and duplicated objects."
+    },
+    {
+      "end": "00:02:25.000",
+      "start": "00:02:12.000",
+      "text": " To improve quality, we augment the backgrounds of the objects with randomly generated background images and impose a transmittance loss that encourages high transparency in the renderings."
+    },
+    {
+      "end": "00:02:32.000",
+      "start": "00:02:25.000",
+      "text": " In addition to sparsifying the scene, we improve quality with seen bounds and improved MLP architectures."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:41.000",
+      "text": " Over 10 to 20,000 iterations of training, the geometry and texture of a Dreamfield improves in realism."
+    },
+    {
+      "end": "00:02:55.000",
+      "start": "00:02:48.000",
+      "text": " Here we show different perspectives at different iterations, as well as the three types of background augmentations used in the work."
+    },
+    {
+      "end": "00:03:01.000",
+      "start": "00:02:55.000",
+      "text": " On another scene with a caption, a kettle in the shape of a fossil, we show the full progression of training."
+    },
+    {
+      "end": "00:03:06.000",
+      "start": "00:03:01.000",
+      "text": " Dreamfields also generate depth maps that are plausible."
+    },
+    {
+      "end": "00:03:17.000",
+      "start": "00:03:12.000",
+      "text": " We don't constrain generation to a specific category of objects."
+    },
+    {
+      "end": "00:03:26.000",
+      "start": "00:03:17.000",
+      "text": " Instead, our image text representations are trained on a very large diversity of web data and support generation across many types of categories."
+    },
+    {
+      "end": "00:03:38.000",
+      "start": "00:03:30.000",
+      "text": " Inspired by the Dalai text image generative model, we experiment with a compositional generalization of Dreamfields."
+    },
+    {
+      "end": "00:03:50.000",
+      "start": "00:03:38.000",
+      "text": " Showing that they can combine object categories like armchair and teapot with different types of styles and materials like brain corals, hibiscus, avocados and lotus roots."
+    },
+    {
+      "end": "00:04:01.000",
+      "start": "00:03:50.000",
+      "text": " Users control the generation process with natural language, expressing desired stylistic effects easily like matte paintings or website like art station."
+    },
+    {
+      "end": "00:04:10.000",
+      "start": "00:04:01.000",
+      "text": " Please see our paper for more technical details as well as evaluation."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Ajay Jain",
+  "youtube_channel_follower_count": 117,
+  "youtube_comment_count": 0,
+  "youtube_description": "Project website: https://ajayj.com/dreamfields\nPaper (arXiv): https://arxiv.org/abs/2112.01455\n\nWe combine neural rendering with multi-modal image and text representations to synthesize diverse 3D objects solely from natural language descriptions. Our method, Dream Fields, can generate the geometry and color of a wide range of objects without 3D supervision. Due to the scarcity of diverse, captioned 3D data, prior methods only generate objects from a handful of categories, such as ShapeNet. Instead, we guide generation with image-text models pre-trained on large datasets of captioned images from the web. Our method optimizes a Neural Radiance Field from many camera views so that rendered images score highly with a target caption according to a pre-trained CLIP model. To improve fidelity and visual quality, we introduce simple geometric priors, including sparsity-inducing transmittance regularization, scene bounds, and new MLP architectures. In experiments, Dream Fields produce realistic, multi-view consistent object geometry and color from a variety of natural language captions.",
+  "youtube_like_count": 171,
+  "youtube_tags": [
+    "nerf",
+    "3d",
+    "machine learning",
+    "ai",
+    "computer vision",
+    "computer graphics",
+    "rendering",
+    "neural network",
+    "deep learning",
+    "multimodal",
+    "clip",
+    "neural radiance field",
+    "dream fields",
+    "dream field",
+    "3d reconstruction",
+    "natural language processing",
+    "captioning"
+  ],
+  "youtube_title": "Zero-Shot Text-Guided Object Generation with Dream Fields",
+  "youtube_upload_date": "20211203",
+  "youtube_view_count": 15432
+}

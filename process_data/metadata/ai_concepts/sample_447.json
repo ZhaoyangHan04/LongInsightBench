@@ -1,0 +1,859 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short dark hair, wearing a gray t-shirt with a white logo.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "Video explaining a novel approach to image classification using sketches and Modal Regression Networks (MRNs).",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The research addresses the challenge of creating image classifiers when there is limited or no labeled image data for certain categories.",
+        "question": "What is the core problem addressed by this research?"
+      },
+      {
+        "answer": "A modality refers to different ways of representing an object, like text descriptions, word vectors, or sketches, instead of using images directly.",
+        "question": "What is a modality in the context of this research?"
+      },
+      {
+        "answer": "MRNs are Modal Regression Networks, neural networks that can synthesize an image classifier from different modalities like sketches or text descriptions. They learn to map the input modality to the parameters of an image classifier.",
+        "question": "What are MRNs, and how do they work?"
+      },
+      {
+        "answer": "Sketches help overcome the problem of naming ambiguity that can arise when multiple people describe an object differently. Visual representations offer a more unified understanding.",
+        "question": "What is the main advantage of using sketches as input for image classification?"
+      },
+      {
+        "answer": "The 83% accuracy on multi-class classification demonstrates the effectiveness of MRNs in generating accurate image classifiers even with limited image data, showcasing their potential to advance image recognition in challenging scenarios.",
+        "question": "What is the significance of the 83% performance achieved by MRNs?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaker explains the progress of deep learning in image classification and its limitations",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker directly addresses the audience, engaging them through gestures and a conversational tone."
+          }
+        ],
+        "contextualRelevance": "The scene introduces the problem of lacking labelled image data for specific categories, setting the stage for exploring alternative solutions.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Pensive",
+          "keyMoments": [
+            {
+              "changeDescription": "Visuals: Speaker is engaged with the audience through gestures and facial expressions, pointing at the slides, and conveying a sense of inquiry.",
+              "timestamp": "00:00:10.000"
+            },
+            {
+              "changeDescription": "Audio: Speaker discusses complex concepts in a clear and understandable manner, raising a thought-provoking question towards the end.",
+              "timestamp": "00:00:25.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to ImageNet and progress in deep learning",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Discussion of common image classification processes",
+            "timestamp": "00:00:15.000"
+          },
+          {
+            "description": "Problem statement: Lack of labelled images for specific categories",
+            "timestamp": "00:00:21.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides showcasing images of dogs, vehicles, deep learning models, etc.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Limitations of deep learning in image classification, The need for new approaches to handle limited data",
+        "timestamps": {
+          "end_timestamp": "00:00:29.300",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Deep Learning in Image Classification",
+        "videoEditingDetails": [
+          {
+            "description": "Blurred background with diagrams and images",
+            "timestamps": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to plain background with only the speaker visible",
+            "timestamps": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker discusses alternative approaches to image classification with limited data.",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:00:29.333"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker maintains a direct connection with the audience, elaborating on the proposed solutions."
+          }
+        ],
+        "contextualRelevance": "This scene delves into the proposed solution - creating image classifiers without relying solely on labelled images.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Pensive",
+          "keyMoments": [
+            {
+              "changeDescription": "Visuals: Speaker continues with engaging gestures and facial expressions.",
+              "timestamp": "00:00:45.000"
+            },
+            {
+              "changeDescription": "Audio: The speaker explores alternative approaches and introduces the concept of Zero Shot Learning.",
+              "timestamp": "00:01:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Questioning the current approach",
+            "timestamp": "00:00:29.333"
+          },
+          {
+            "description": "Illustration of the problem with missing labelled data",
+            "timestamp": "00:00:50.000"
+          },
+          {
+            "description": "Introduction to Zero Shot Learning",
+            "timestamp": "00:01:00.000"
+          },
+          {
+            "description": "Transition to the main topic: Sketch A Classifier",
+            "timestamp": "00:01:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating image classification with and without labelled data for all categories.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "name": "Text screen stating 'Sketch A Classifier'",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Exploring alternative approaches to image classification, Introduction to Zero Shot Learning, Building image classifiers with limited data",
+        "timestamps": {
+          "end_timestamp": "00:01:14.400",
+          "start_timestamp": "00:00:29.333"
+        },
+        "title": "Exploring Alternatives with Limited Data",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker explains the concept of 'Sketch A Classifier' and the use of Modal Regression Networks (MRNs).",
+            "timestamp": {
+              "end_timestamp": "00:08:37.000",
+              "start_timestamp": "00:01:14.433"
+            }
+          },
+          {
+            "description": "Speaker wraps up the video, summarizes key learnings, and invites viewers to engage with other content.",
+            "timestamp": {
+              "end_timestamp": "00:08:58.000",
+              "start_timestamp": "00:08:37.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker maintains direct engagement through conversational tone and energetic delivery."
+          }
+        ],
+        "contextualRelevance": "This scene forms the core of the video, focusing on the detailed explanation and results of 'Sketch A Classifier' and MRNs.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious, Excited",
+          "keyMoments": [
+            {
+              "changeDescription": "Visuals: The speaker uses enthusiastic gestures and facial expressions.",
+              "timestamp": "00:05:20.000"
+            },
+            {
+              "changeDescription": "Audio: The speaker explains technical concepts clearly, highlighting innovative aspects and impressive results of the research.",
+              "timestamp": "00:07:30.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Deep Dive into 'Sketch A Classifier'",
+            "timestamp": "00:01:14.433"
+          },
+          {
+            "description": "Introduction to Zero Shot Learning and its application",
+            "timestamp": "00:01:39.000"
+          },
+          {
+            "description": "Exploring the use of sketches as input",
+            "timestamp": "00:02:27.000"
+          },
+          {
+            "description": "Defining and explaining Modal Regression Networks (MRNs)",
+            "timestamp": "00:03:00.000"
+          },
+          {
+            "description": "Deep dive into the three types of MRNs",
+            "timestamp": "00:04:00.000"
+          },
+          {
+            "description": "Defining objective functions for training MRNs",
+            "timestamp": "00:06:00.000"
+          },
+          {
+            "description": "Discussing the 'Sketchy' dataset",
+            "timestamp": "00:07:19.000"
+          },
+          {
+            "description": "Presenting the results achieved by the MRNs",
+            "timestamp": "00:07:34.000"
+          },
+          {
+            "description": "Summarizing key learnings and concluding the video",
+            "timestamp": "00:08:37.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Various diagrams explaining the process, architectures, and results of 'Sketch A Classifier' with MRNs.",
+            "timestamp": {
+              "end_timestamp": "00:08:37.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          },
+          {
+            "name": "Text screen with 'Latest' and thumbnails of other videos.",
+            "timestamp": {
+              "end_timestamp": "00:08:58.000",
+              "start_timestamp": "00:08:37.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Innovative approach to image classification using sketches, Detailed explanation of Modal Regression Networks (MRNs), Potential of MRNs to address limitations in traditional image classification methods",
+        "timestamps": {
+          "end_timestamp": "00:09:03.900",
+          "start_timestamp": "00:01:14.433"
+        },
+        "title": "Detailed Explanation of 'Sketch A Classifier' and MRNs",
+        "videoEditingDetails": [
+          {
+            "description": "Frequent use of diagrams and text annotations to illustrate concepts.",
+            "timestamps": {
+              "end_timestamp": "00:08:37.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          },
+          {
+            "description": "Transition to a multi-screen layout with speaker on the right, latest video on the top left, and other videos at the bottom left.",
+            "timestamps": {
+              "end_timestamp": "00:08:58.000",
+              "start_timestamp": "00:08:37.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs when the speaker presents the promising results of the MRNs, highlighting the success of the proposed approach.",
+        "timestamp": "00:07:34.000"
+      },
+      "description": "The video presents a novel approach to image classification using sketches and MRNs, demonstrating its effectiveness in handling limited labeled data. All scenes belong to this storyline.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "The introduction could be slightly trimmed by removing repetitive explanations or visuals already familiar to the target audience.",
+        "timestamps": {
+          "end_timestamp": "00:01:14.433",
+          "start_timestamp": "00:01:14.433"
+        }
+      },
+      {
+        "description": "Some detailed explanations within the technical segments could be condensed or presented using more concise visuals.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 544,
+  "original_json_filename": "BeYbQkbKox8.json",
+  "original_video_filename": "BeYbQkbKox8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "ever since the first imagenet competition ILS VRC in 2012 deep learning computer vision have come a long way we have new architectures with better performance all to solve the problem of image classification despite the changes in architecture the core process remains the same it take a bunch of labeled images of different categories you show it to your classifier for training and eventually test the classifier on unseen images although it seems that we are on the brink of solving image classification there's still one fundamental flaw with all of these architectures and this flaw is actually to do with the process of image classification itself so what if we don't really have all images of every single category in the example of classifying animals what if we don't have enough labeled samples of squids or giraffes what do we do then well our image classifier certainly won't know I'm AJ Hathor and in this video we're gonna take a look at exactly how we can build or rather synthesize an image classifier without having every category sample of an object so let's get to it let's restate our problem here we need to create an image classifier without having some samples of some object categories so like in the example of creating an animal classifier we want to create an animal classifier without having as many giraffe samples or probably no giraffe samples so one way we could possibly do this is zero shot learning that is learning from zero examples instead of training the classifier with an image we can input a description of that object this description can be text word vectors or any other input type and such types are called modalities so we are now able to train our classifier by describing the objects for which we don't have a labelled image category for so does that solve our problem well not quite how do we know which features to define and how do we know what to call them there could be name ambiguity when many people are contributing to the descriptions so instead of actually describing an object category what if we were to draw it this would remove the problem with a naming ambiguity and they do say that a picture describes a thousand words the paper sketch a classifier released by researchers at the University of London does exactly that we're going to discuss three types of models that leverage drawings or sketches to synthesize image classifiers the first model converts a sketch classifier to a photo classifier the second model uses a sketch or some sketches to synthesize a photo classifier and third model uses some sketches and a photo classifier to synthesize another more fine-grain photo classifier these models that do the magic are called model regression networks or mr ends notice the goal of an MRN is to generate an image classifier let's take a look at the three ways of doing this using sketches with some math let the mrn be a parametric model f parameterised by big theta we also let the input sketch classifier be a parametric model little F parameterised by theta s and the output image classifier is a parametric model little G parameterised by theta P they all have their own parameters that need to be learned parametric models make life easier because the problem of determining a model is reduced to the problem of determining their parameters we train a sketch classifier to get the parameters theta s this is input to our M RN and trained to get the parameters of the photo classifier theta P since the output of the M RN is an approximation I put a cap on it since we have theta P and the photo classifier is parametric we have essentially synthesized a photo classifier now instead of an entire sketch classifier what if we the input of the M RN is just a sketch or a few sketches let's represent this sketch by Sigma parameterize by the feature extractor fine we feed case of sketches to train the M RN in order to generate a photo classifier now the third type of M RN takes a trained photo classifier H parameterize by theta pH and a sketch Sigma to synthesize a more fine grained classifier you're probably thinking why are you using a photo classifier to generate another photo classifier well the input classifier is more generic it could be a bird classifier for example but when input to the M RN with the sketch of say a swan then we can make it a swan classifier that's pretty neat right I talked about the mrn and it's three types but what exactly is the model regression network that is what is the mrn to synthesize a binary classifier the mrn is a multi-layer perceptron and to synthesize a multi class classifier the mrn is a six layer fully convolution network let's now determine the objective function remember the output of an M RN is an image classifier but that is defined by the parameters if theta P is the original classifier and theta P hat are the parameters predicted by the M RN then the loss is a simple else.you norm of the difference between them but there is a problem with this intuitively the difference between the parameters doesn't necessarily signify the distance between the models themselves a small difference in weights could lead to drastic changes in the results so to solve this problem instead of just comparing the parameters of the synthesized model and the actual photo model let's actually compare their results or their performance and we can model this or measure this using a performance loss let Y be the ground truth and Y hat be the output predicted by the mrn synthesized image classifier for multi-class classification Y is a one hot encoded vector and Y hat is a vector of probabilities the loss is computed with good old cross-entropy the overall loss is thus a weighted sum of these two losses the regression loss and the performance loss and we need to find the parameters of theta that minimize this result this paper uses an alpha that's equal to 0.01 in beta equal to 1 and the loss is minimize using the atom optimizer it uses 75,000 sketches from the sketchy data set along with 12,500 photos over 125 categories they also use 56,000 photos in imagenet that match the categories in sketchy training the mrn with sketch models synthesizes photo classifiers with a 78 to 80 percent performance on multi-class classification interestingly simple standalone sketches when fed to the mr ends yield better photo classifiers with the performance of about 83 percent now that is cool so what have we learned today do photo classifiers perform better when you have all the data you need well yes yes they do but it's usually the case where we don't simply have the abundance of annotated data and this research shows us a method to overcome that drawback we design a model regression network and mrn that are used to synthesize photo classifiers M RNs are classified into three types depending on their inputs we have an input sketch classifier or an input sketch or sketches or just input photo classifier and a sketch to create a more fine-tuned photo classifier and that's all I have for you now so if you liked what you saw hit that like button if you liked content like this like AI machine learning deep learning and data Sciences then hit that subscribe button bring that Bell icon for instant notifications when I upload links of the main paper and other resources are down in description below so check them out still have about your daily dose of AI yet then click or tap one of the videos right here for an awesome video and I will see you in the next one see ya",
+  "text_to_speech_word_count": 1336,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.000",
+      "start": "00:00:00.000",
+      "text": " Ever since the first image-net competition, ILSVRC in 2012, deep learning and computer vision have come a long way."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:08.000",
+      "text": " We have new architectures with better performance, all to solve the problem of image classification."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:15.000",
+      "text": " Despite the changes in architecture, the core process remains the same."
+    },
+    {
+      "end": "00:00:25.000",
+      "start": "00:00:19.000",
+      "text": " It's a bunch of labeled images of different categories, you show it to your classifier for training,"
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:25.000",
+      "text": " and eventually test the classifier on unseen images."
+    },
+    {
+      "end": "00:00:38.000",
+      "start": "00:00:29.000",
+      "text": " Although it seems that we are on the brink of solving image classification, there's still one fundamental flaw with all of these architectures,"
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:38.000",
+      "text": " and this flaw is actually to do with the process of image classification itself."
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:43.000",
+      "text": " So what if we don't really have all images of every single category?"
+    },
+    {
+      "end": "00:00:58.000",
+      "start": "00:00:50.000",
+      "text": " In the example of classifying animals, what if we don't have enough labeled samples of squids or drafts?"
+    },
+    {
+      "end": "00:01:02.000",
+      "start": "00:00:58.000",
+      "text": " What do we do then? Well, our image classifier certainly won't know."
+    },
+    {
+      "end": "00:01:07.000",
+      "start": "00:01:02.000",
+      "text": " I'm AJ Halthor, and in this video, we're going to take a look at exactly how we can build,"
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:07.000",
+      "text": " or rather synthesize an image classifier without having every category sample of an object."
+    },
+    {
+      "end": "00:01:17.000",
+      "start": "00:01:13.000",
+      "text": " So let's get to it."
+    },
+    {
+      "end": "00:01:19.000",
+      "start": "00:01:17.000",
+      "text": " Let's restate our problem here."
+    },
+    {
+      "end": "00:01:25.000",
+      "start": "00:01:19.000",
+      "text": " We need to create an image classifier without having some samples of some object categories."
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:25.000",
+      "text": " So like in the example of creating an animal classifier, we want to create an animal classifier without having as many draft samples,"
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:34.000",
+      "text": " or probably no draft samples."
+    },
+    {
+      "end": "00:01:43.000",
+      "start": "00:01:37.000",
+      "text": " So one way we could possibly do this is zero shot learning, that is learning from zero examples."
+    },
+    {
+      "end": "00:01:49.000",
+      "start": "00:01:43.000",
+      "text": " Instead of training the classifier with an image, we can input a description of that object."
+    },
+    {
+      "end": "00:01:57.000",
+      "start": "00:01:49.000",
+      "text": " This description can be text, word vectors, or any other input type, and such types are called modalities."
+    },
+    {
+      "end": "00:02:07.000",
+      "start": "00:01:57.000",
+      "text": " So we are now able to train our classifier by describing the objects for which we don't have a labeled image category for."
+    },
+    {
+      "end": "00:02:12.000",
+      "start": "00:02:07.000",
+      "text": " So does that solve our problem? Well, not quite."
+    },
+    {
+      "end": "00:02:17.000",
+      "start": "00:02:12.000",
+      "text": " How do we know which features to define, and how do we know what to call them?"
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:17.000",
+      "text": " There could be name and biguity when many people are contributing to the descriptions."
+    },
+    {
+      "end": "00:02:28.000",
+      "start": "00:02:22.000",
+      "text": " So instead of actually describing an object category, what if we were to draw it?"
+    },
+    {
+      "end": "00:02:35.000",
+      "start": "00:02:28.000",
+      "text": " This would remove the problem of naming a biguity, and they do say that a picture describes a thousand words."
+    },
+    {
+      "end": "00:02:42.000",
+      "start": "00:02:35.000",
+      "text": " The paper Sketch a Classifier, released by researchers at the University of London, does exactly that."
+    },
+    {
+      "end": "00:02:49.000",
+      "start": "00:02:42.000",
+      "text": " We are going to discuss three types of models that leverage drawings or sketches to synthesize image classifiers."
+    },
+    {
+      "end": "00:02:54.000",
+      "start": "00:02:49.000",
+      "text": " The first model converts a sketch classifier to a photo classifier."
+    },
+    {
+      "end": "00:03:00.000",
+      "start": "00:02:54.000",
+      "text": " The second model uses a sketch or some sketches to synthesize a photo classifier."
+    },
+    {
+      "end": "00:03:08.000",
+      "start": "00:03:00.000",
+      "text": " And third model uses some sketches and a photo classifier to synthesize another more fine-grained photo classifier."
+    },
+    {
+      "end": "00:03:15.000",
+      "start": "00:03:08.000",
+      "text": " These models that do the magic are called model regression networks, or MRNs."
+    },
+    {
+      "end": "00:03:19.000",
+      "start": "00:03:15.000",
+      "text": " Notice the goal of an MRN is to generate an image classifier."
+    },
+    {
+      "end": "00:03:25.000",
+      "start": "00:03:19.000",
+      "text": " Let's take a look at the three ways of doing this using sketches with some math."
+    },
+    {
+      "end": "00:03:31.000",
+      "start": "00:03:26.000",
+      "text": " Let the MRN be a parametric model F, parameterized by big theta."
+    },
+    {
+      "end": "00:03:38.000",
+      "start": "00:03:31.000",
+      "text": " We also let the input sketch classifier be a parametric model, little F, parameterized by theta S."
+    },
+    {
+      "end": "00:03:45.000",
+      "start": "00:03:38.000",
+      "text": " And the output image classifier is a parametric model, little G, parameterized by theta P."
+    },
+    {
+      "end": "00:03:48.000",
+      "start": "00:03:45.000",
+      "text": " They all have their own parameters that need to be learned."
+    },
+    {
+      "end": "00:03:57.000",
+      "start": "00:03:48.000",
+      "text": " Parametric models make life easier because the problem of determining a model is reduced to the problem of determining their parameters."
+    },
+    {
+      "end": "00:04:02.000",
+      "start": "00:03:57.000",
+      "text": " We train a sketch classifier to get the parameters theta S."
+    },
+    {
+      "end": "00:04:09.000",
+      "start": "00:04:02.000",
+      "text": " This is input to our MRN and train to get the parameters of the photo classifier theta P."
+    },
+    {
+      "end": "00:04:15.000",
+      "start": "00:04:09.000",
+      "text": " Since the output of the MRN is an approximation, I put a cap on it."
+    },
+    {
+      "end": "00:04:23.000",
+      "start": "00:04:15.000",
+      "text": " Since we have theta P and the photo classifier is parametric, we have essentially synthesized a photo classifier."
+    },
+    {
+      "end": "00:04:33.000",
+      "start": "00:04:23.000",
+      "text": " Now, instead of an entire sketch classifier, what if we input of the MRN is just a sketch or a few sketches?"
+    },
+    {
+      "end": "00:04:39.000",
+      "start": "00:04:33.000",
+      "text": " Let's represent the sketch by sigma, parameterized by the feature extractor, phi."
+    },
+    {
+      "end": "00:04:45.000",
+      "start": "00:04:39.000",
+      "text": " We feed k such sketches to train the MRN in order to generate a photo classifier."
+    },
+    {
+      "end": "00:04:58.000",
+      "start": "00:04:45.000",
+      "text": " Now, the third type of MRN takes a train photo classifier H, parameterized by theta P, H, and a sketch sigma to synthesize a more fine-grained classifier."
+    },
+    {
+      "end": "00:05:04.000",
+      "start": "00:04:58.000",
+      "text": " You're probably thinking, why are you using a photo classifier to generate another photo classifier?"
+    },
+    {
+      "end": "00:05:10.000",
+      "start": "00:05:04.000",
+      "text": " Well, the input classifier is more generic. It could be a bird classifier, for example."
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:10.000",
+      "text": " But when input to the MRN with the sketch of, say, a swan, then we can make it a swan classifier."
+    },
+    {
+      "end": "00:05:20.000",
+      "start": "00:05:17.000",
+      "text": " It's pretty neat, right?"
+    },
+    {
+      "end": "00:05:27.000",
+      "start": "00:05:20.000",
+      "text": " I talked about the MRN and its three types, but what exactly is the model of regression network?"
+    },
+    {
+      "end": "00:05:29.000",
+      "start": "00:05:27.000",
+      "text": " That is, what is the MRN?"
+    },
+    {
+      "end": "00:05:35.000",
+      "start": "00:05:29.000",
+      "text": " To synthesize a binary classifier, the MRN is a multi-layer perceptron."
+    },
+    {
+      "end": "00:05:42.000",
+      "start": "00:05:35.000",
+      "text": " And to synthesize a multi-class classifier, the MRN is a sixth layer fully convolution network."
+    },
+    {
+      "end": "00:05:45.000",
+      "start": "00:05:42.000",
+      "text": " Let's now determine the objective function."
+    },
+    {
+      "end": "00:05:53.000",
+      "start": "00:05:45.000",
+      "text": " Remember, the output of an MRN is an image classifier. But that is defined by the parameters."
+    },
+    {
+      "end": "00:05:59.000",
+      "start": "00:05:53.000",
+      "text": " If theta P is the original classifier, and theta P hat are the parameters predicted by the MRN,"
+    },
+    {
+      "end": "00:06:04.000",
+      "start": "00:05:59.000",
+      "text": " then the loss is a simple L2 norm of the difference between them."
+    },
+    {
+      "end": "00:06:07.000",
+      "start": "00:06:04.000",
+      "text": " But there is a problem with this intuitively."
+    },
+    {
+      "end": "00:06:14.000",
+      "start": "00:06:07.000",
+      "text": " The difference between the parameters doesn't necessarily signify the distance between the models themselves."
+    },
+    {
+      "end": "00:06:18.000",
+      "start": "00:06:14.000",
+      "text": " A small difference in weights could lead to drastic changes in the results."
+    },
+    {
+      "end": "00:06:26.000",
+      "start": "00:06:19.000",
+      "text": " So to solve this problem, instead of just comparing the parameters of the synth size model and the actual photo model,"
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:26.000",
+      "text": " let's actually compare their results or their performance."
+    },
+    {
+      "end": "00:06:36.000",
+      "start": "00:06:30.000",
+      "text": " And we can model this or measure this using a performance loss."
+    },
+    {
+      "end": "00:06:44.000",
+      "start": "00:06:36.000",
+      "text": " Let y be the ground truth, and y hat be the output predicted by the MRN synthesized image classifier."
+    },
+    {
+      "end": "00:06:52.000",
+      "start": "00:06:44.000",
+      "text": " For multi-class classification, y is a one-hot encoded vector, and y hat is a vector of probabilities."
+    },
+    {
+      "end": "00:06:56.000",
+      "start": "00:06:52.000",
+      "text": " The loss is computed with good old cross entropy."
+    },
+    {
+      "end": "00:07:04.000",
+      "start": "00:06:56.000",
+      "text": " The overall loss is thus a weighted sum of these two losses, the regression loss and the performance loss."
+    },
+    {
+      "end": "00:07:09.000",
+      "start": "00:07:04.000",
+      "text": " And we need to find the parameters of theta that minimize this result."
+    },
+    {
+      "end": "00:07:15.000",
+      "start": "00:07:09.000",
+      "text": " This paper uses an alpha that's equal to 0.01 and beta equal to 1."
+    },
+    {
+      "end": "00:07:19.000",
+      "start": "00:07:15.000",
+      "text": " And the loss is minimized using the atom optimizer."
+    },
+    {
+      "end": "00:07:28.000",
+      "start": "00:07:19.000",
+      "text": " It uses 75,000 sketches from the sketchy dataset along with 12,500 photos over 125 categories."
+    },
+    {
+      "end": "00:07:34.000",
+      "start": "00:07:28.000",
+      "text": " They also use 56,000 photos in ImageNet that match the categories in sketchy."
+    },
+    {
+      "end": "00:07:44.000",
+      "start": "00:07:34.000",
+      "text": " Training the MRN with sketch models synthesizes photo classifiers with a 78-80% performance on multi-class classification."
+    },
+    {
+      "end": "00:07:53.000",
+      "start": "00:07:44.000",
+      "text": " Interestingly, simple standalone sketches when fed to the MRNs yield better photo classifiers with a performance of about 83%."
+    },
+    {
+      "end": "00:07:56.000",
+      "start": "00:07:53.000",
+      "text": " Now that is cool."
+    },
+    {
+      "end": "00:07:58.000",
+      "start": "00:07:56.000",
+      "text": " So what have we learned today?"
+    },
+    {
+      "end": "00:08:02.000",
+      "start": "00:07:58.000",
+      "text": " Do photo classifiers perform better when you have all the data you need?"
+    },
+    {
+      "end": "00:08:05.000",
+      "start": "00:08:02.000",
+      "text": " Well, yes, yes they do."
+    },
+    {
+      "end": "00:08:11.000",
+      "start": "00:08:05.000",
+      "text": " But it's usually the case where we don't simply have the abundance of annotated data."
+    },
+    {
+      "end": "00:08:15.000",
+      "start": "00:08:11.000",
+      "text": " And this research shows us a method to overcome that drawback."
+    },
+    {
+      "end": "00:08:22.000",
+      "start": "00:08:15.000",
+      "text": " We design a model regression network and MRN that are used to synthesize photo classifiers."
+    },
+    {
+      "end": "00:08:26.000",
+      "start": "00:08:22.000",
+      "text": " MRNs are classified into three types depending on their inputs."
+    },
+    {
+      "end": "00:08:37.000",
+      "start": "00:08:26.000",
+      "text": " We have an input sketch classifier or an input sketch or sketches or just input photo classifier and a sketch to create a more fine-tuned photo classifier."
+    },
+    {
+      "end": "00:08:39.000",
+      "start": "00:08:37.000",
+      "text": " And that's all I have for you now."
+    },
+    {
+      "end": "00:08:41.000",
+      "start": "00:08:39.000",
+      "text": " So if you like what you saw, hit that like button."
+    },
+    {
+      "end": "00:08:47.000",
+      "start": "00:08:41.000",
+      "text": " If you like content like this, like AI, machine learning, deep learning, and data sciences, then hit that subscribe button."
+    },
+    {
+      "end": "00:08:51.000",
+      "start": "00:08:47.000",
+      "text": " Bring that bell icon for instant notifications when I upload."
+    },
+    {
+      "end": "00:08:55.000",
+      "start": "00:08:51.000",
+      "text": " Links to the main paper and other resources are down in the description below, so check them out."
+    },
+    {
+      "end": "00:08:57.000",
+      "start": "00:08:55.000",
+      "text": " Still haven't gotten your daily dose of AI yet."
+    },
+    {
+      "end": "00:09:00.000",
+      "start": "00:08:57.000",
+      "text": " Then click or tap one of the videos right here for an awesome video."
+    },
+    {
+      "end": "00:09:02.000",
+      "start": "00:09:00.000",
+      "text": " And I will see you in the next one."
+    },
+    {
+      "end": "00:09:03.000",
+      "start": "00:09:02.000",
+      "text": " See ya."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "CodeEmporium",
+  "youtube_channel_follower_count": 125000,
+  "youtube_comment_count": 3,
+  "youtube_description": "In this video, we talk about \"Sketch-a-Classifier\"  released by researchers at the university of London.\n\nKEYWORDS\n1. Zero Shot Learning\n2. Model Regression Networks (MRN)\n3. Parametric Model\n4. Multilayer Perceptron (MLP)\n5. Fully Convolutional Network (FCN)\n6. Regression Loss\n7. Performance Loss\n\nREFERENCES\n1. Sketch-a-Classifier (main paper): https://arxiv.org/abs/1804.11182\n2. Sketchy: https://www.cc.gatech.edu/~hays/tmp/sketchy-database.pdf\n3. Imagenet: https://www-cs.stanford.edu/groups/vision/pdf/ImageNet_CVPR2009.pdf\n\nFollow me: https://www.quora.com/profile/Ajay-Halthor\n\nHit that SUBSCRIBE button and ring the bell for instant access to my videos on Machine Learning, Deep Learning, Data Sciences and Artificial Intelligence!",
+  "youtube_like_count": 47,
+  "youtube_tags": [
+    "Machine Learning",
+    "Deep Learning",
+    "Data Science",
+    "Artificial Intelligence",
+    "Neural Network",
+    "zero shot learning",
+    "model regression network",
+    "sketch a classifier",
+    "quickdraw",
+    "fully convolutional network",
+    "AI research",
+    "Machine learning research",
+    "computer vision research"
+  ],
+  "youtube_title": "AI creates Image Classifiers…by DRAWING?",
+  "youtube_upload_date": "20180515",
+  "youtube_view_count": 1799
+}

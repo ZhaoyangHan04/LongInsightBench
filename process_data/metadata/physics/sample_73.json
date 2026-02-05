@@ -1,0 +1,422 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A large, yellow, cartoon representation of the sun with visible texture and occasional movement of light patterns.",
+        "name": "Sun"
+      },
+      {
+        "characterId": "2",
+        "description": "A smaller, blue and green cartoon representation of the Earth, with the African continent prominently displayed.",
+        "name": "Earth"
+      }
+    ],
+    "description": "A video explaining the Stefan Boltzmann Law and demonstrating its application in calculating the Sun's surface temperature.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The red arrows visually depict the energy being radiated outwards from both the Sun and the Earth.",
+        "question": "What do the red arrows represent in the first scene?"
+      },
+      {
+        "answer": "The 'T' signifies the unknown surface temperature of the Sun, which the video aims to calculate.",
+        "question": "What is the significance of the 'T' appearing on the Sun?"
+      },
+      {
+        "answer": "The unit for radiant power is the watt (W), which is equivalent to a joule per second (J/s).",
+        "question": "What is the unit of measurement used for radiant power?"
+      },
+      {
+        "answer": "A black body is an idealized object that absorbs all incoming radiation without reflecting or transmitting any. The video explains that the Stefan Boltzmann Law is most accurate for black bodies or objects that closely resemble them.",
+        "question": "What does the term 'black body' refer to in the context of thermal radiation?"
+      },
+      {
+        "answer": "The video demonstrates that radiant power increases significantly with higher temperature by using the example of doubling the Sun's temperature, which would result in 16 times more energy reaching Earth. This highlights the powerful relationship captured by the T⁴ term in the Stefan Boltzmann Law.",
+        "question": "How does the video illustrate the relationship between temperature and radiant power?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Sun radiates energy, depicted by red arrows pointing outward.",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Earth appears to the left of the sun.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Earth radiates energy, depicted by red arrows pointing outward.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "A large 'T' appears on the sun, representing temperature.",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Sun",
+          "Earth"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Sun",
+              "Earth"
+            ],
+            "description": "The Earth and Sun are presented as distinct objects, each radiating energy. There is no direct interaction between them."
+          }
+        ],
+        "contextualRelevance": "Introduces the concept of thermal radiation in the context of the Sun and Earth.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "",
+              "timestamp": "00:00:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Establishes that all objects with temperature radiate energy.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Introduces the Sun and Earth as the specific objects of interest.",
+            "timestamp": "00:00:06.000"
+          },
+          {
+            "description": "Focus shifts to determining the Sun's surface temperature.",
+            "timestamp": "00:00:12.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Thermal radiation, energy transfer, temperature measurement.",
+        "timestamps": {
+          "end_timestamp": "00:00:18.500",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Thermal Radiation",
+        "videoEditingDetails": [
+          {
+            "description": "Simple animation, with the appearance of the Earth and the 'T' on the sun.",
+            "timestamps": {
+              "end_timestamp": "00:00:18.500",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explains the Stefan Boltzmann Law in the context of calculating the Sun's surface temperature.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": [
+            {
+              "changeDescription": "",
+              "timestamp": "00:00:19.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "'Stefan Boltzmann Law' appears on the screen.",
+            "timestamp": "00:00:19.000"
+          },
+          {
+            "description": "The law is introduced and its formula explained.",
+            "timestamp": "00:00:21.000"
+          },
+          {
+            "description": "The Stefan Boltzmann constant is defined and its value provided.",
+            "timestamp": "00:00:40.000"
+          },
+          {
+            "description": "The origin of the constant is explained.",
+            "timestamp": "00:00:59.000"
+          },
+          {
+            "description": "The concept of 'radiant power' is defined.",
+            "timestamp": "00:01:10.000"
+          },
+          {
+            "description": "Limitations of the law are discussed, and the concept of a 'black body' is explained.",
+            "timestamp": "00:01:24.000"
+          },
+          {
+            "description": "The application of the law to calculate the Sun's temperature is introduced.",
+            "timestamp": "00:01:51.000"
+          },
+          {
+            "description": "A step-by-step calculation of the Sun's temperature is shown, utilizing known values and the rearranged formula.",
+            "timestamp": "00:02:03.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Physics, thermal radiation, temperature calculation.",
+        "timestamps": {
+          "end_timestamp": "00:03:12.967",
+          "start_timestamp": "00:00:18.533"
+        },
+        "title": "Explanation of Stefan Boltzmann Law",
+        "videoEditingDetails": [
+          {
+            "description": "Static screen with text and equations displayed.",
+            "timestamps": {
+              "end_timestamp": "00:03:12.967",
+              "start_timestamp": "00:00:19.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs at 3:01, when the calculated surface temperature of the Sun is revealed.",
+        "timestamp": "00:03:01.000"
+      },
+      "description": "The video focuses on explaining the Stefan Boltzmann Law and how it can be used to calculate the Sun's surface temperature.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Stefan Boltzmann Law",
+    "trimmingSuggestions": [
+      {
+        "description": "Add visuals to accompany the equations and explanations, such as diagrams or animations, to increase dynamism. Consider breaking down the calculation steps into shorter segments, with visual cues and highlights to aid understanding.",
+        "timestamps": {
+          "end_timestamp": "00:03:12.967",
+          "start_timestamp": "00:00:19.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 193,
+  "original_json_filename": "od-jgaOQ8mc.json",
+  "original_video_filename": "od-jgaOQ8mc.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Every body that has a temperature radiates energy. How much energy does our sun radiate and how much of it reaches us on earth? How much energy does the Earth actually radiate into space? And what is the surface temperature of our sun? These and similar questions can be answered by the Stefan-Boltzmann law. This law describes the relationship between the temperature T of a body and its radiant power P. The surface area A of the body also influences the radiant power. The Stefan-Boltzmann law is \"P is equal to sigma times A times T to the power of four\" Here, \"sigma\" is the Stefan-Boltzmann constant with the value \"five point six seven times ten to the power of minus 8, joules per meter squared times Kelvin to the power of four, times second\". This is a constant that has an exact value that only depends on other physical constants, namely the Boltzmann constant, the Planck constant and the speed of light. What exactly is the radiant power P? It indicates how much energy per second the surface of the body radiates. The unit of radiant power is watt, or joule per second. In addition, the Stefan-Boltzmann law only applies to black bodies or bodies that come close to a black body. However, the term black has nothing to do with the color of the body. The sun, for example, is a nearly black body, although, as you know, it is not black. A black body absorbs all the radiation that hits it. It does not reflect any radiation and does not allow any radiation to pass through. The Stefan-Boltzmann law shows how much the radiated energy depends on the temperature. Doubling the surface temperature of the sun would result in 16 times more solar energy reaching the earth. Let's take an example of how to determine the temperature of the sun using the Stefan-Boltzmann law. We can deduce the total amount of energy emitted by the sun from the energy we receive from the sun. The sun emits a power of \"three point eight times ten to the power of twenty-six joules per second. The radius of the sun is \"six point nine six, times ten to the power of eight meters\". Let's assume that the sun is not flat, but spherical. We can therefore use the formula for the surface area of a sphere to determine the surface area of the sun: \"A is equal to four pi times r squared\". Let's rearrange the Stefan-Boltzmann law with respect to the temperature T and insert the surface area formula. If we now insert the radiant power, the Stefan-Boltzmann constant and the solar radius, we get \"five thousand seven hundred sixty Kelvin\" as the surface temperature of the sun. This corresponds to \"six thousand thirty-three degrees Celsius\".",
+  "text_to_speech_word_count": 468,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.600",
+      "start": "00:00:00.000",
+      "text": " Everybody that has a temperature radiates energy."
+    },
+    {
+      "end": "00:00:08.133",
+      "start": "00:00:03.600",
+      "text": " How much energy does our sun radiate and how much of it reaches us on Earth?"
+    },
+    {
+      "end": "00:00:12.233",
+      "start": "00:00:08.133",
+      "text": " How much energy does the Earth actually radiate into space?"
+    },
+    {
+      "end": "00:00:15.667",
+      "start": "00:00:12.233",
+      "text": " And what is the surface temperature of our Sun?"
+    },
+    {
+      "end": "00:00:20.933",
+      "start": "00:00:15.667",
+      "text": " These and similar questions can be answered by the Stefan Boltzmann law."
+    },
+    {
+      "end": "00:00:25.500",
+      "start": "00:00:20.933",
+      "text": " This law describes the relationship between the temperature T of a body"
+    },
+    {
+      "end": "00:00:28.300",
+      "start": "00:00:25.500",
+      "text": " and its radiant power P."
+    },
+    {
+      "end": "00:00:33.733",
+      "start": "00:00:28.300",
+      "text": " The surface area A of the body also influences the radiant power."
+    },
+    {
+      "end": "00:00:42.233",
+      "start": "00:00:33.733",
+      "text": " The Stefan Boltzmann law is P is equal to sigma times A times T to the power of 4."
+    },
+    {
+      "end": "00:00:51.200",
+      "start": "00:00:42.233",
+      "text": " Sigma is the Stefan Boltzmann constant with the value 5.67 times 10 to the power of minus 8,"
+    },
+    {
+      "end": "00:00:57.433",
+      "start": "00:00:51.200",
+      "text": " joules per meter squared times Kelvin to the power of 4 times 2nd."
+    },
+    {
+      "end": "00:01:03.567",
+      "start": "00:00:57.433",
+      "text": " This is a constant that has an exact value that only depends on other physical constants,"
+    },
+    {
+      "end": "00:01:09.833",
+      "start": "00:01:03.567",
+      "text": " namely the Boltzmann constant, the Planck constant, and the speed of light."
+    },
+    {
+      "end": "00:01:13.667",
+      "start": "00:01:09.833",
+      "text": " What exactly is the radiant power P?"
+    },
+    {
+      "end": "00:01:19.100",
+      "start": "00:01:13.667",
+      "text": " It indicates how much energy per second the surface of the body radiates."
+    },
+    {
+      "end": "00:01:24.533",
+      "start": "00:01:19.100",
+      "text": " The unit of radiant power is watt or joule per second."
+    },
+    {
+      "end": "00:01:31.667",
+      "start": "00:01:24.633",
+      "text": " In addition, the Stefan Boltzmann law only applies to black bodies or bodies that come close to a black body."
+    },
+    {
+      "end": "00:01:35.600",
+      "start": "00:01:31.667",
+      "text": " However, the term black has nothing to do with the color of the body."
+    },
+    {
+      "end": "00:01:38.467",
+      "start": "00:01:35.600",
+      "text": " The Sun, for example, is a nearly black body."
+    },
+    {
+      "end": "00:01:40.867",
+      "start": "00:01:38.467",
+      "text": " Although, as you know, it is not black."
+    },
+    {
+      "end": "00:01:44.400",
+      "start": "00:01:40.867",
+      "text": " A black body absorbs all the radiation that hits it."
+    },
+    {
+      "end": "00:01:49.200",
+      "start": "00:01:44.400",
+      "text": " It does not reflect any radiation and does not allow any radiation to pass through."
+    },
+    {
+      "end": "00:01:54.700",
+      "start": "00:01:49.900",
+      "text": " The Stefan Boltzmann law shows how much the radiated energy depends on the temperature."
+    },
+    {
+      "end": "00:02:01.500",
+      "start": "00:01:55.733",
+      "text": " Doubling the surface temperature of the Sun would result in 16 times more solar energy"
+    },
+    {
+      "end": "00:02:07.500",
+      "start": "00:02:01.500",
+      "text": " reaching the Earth. Let's take an example of how to determine the temperature of the Sun"
+    },
+    {
+      "end": "00:02:14.467",
+      "start": "00:02:07.500",
+      "text": " using the Stefan Boltzmann law. We can deduce the total amount of energy emitted by the Sun"
+    },
+    {
+      "end": "00:02:17.733",
+      "start": "00:02:14.767",
+      "text": " from the energy we receive from the Sun."
+    },
+    {
+      "end": "00:02:23.600",
+      "start": "00:02:17.733",
+      "text": " The Sun emits a power of 3.8 times 10 to the power of 26 joules per second."
+    },
+    {
+      "end": "00:02:29.833",
+      "start": "00:02:24.367",
+      "text": " The radius of the Sun is 6.96 times 10 to the power of 8 meters."
+    },
+    {
+      "end": "00:02:36.300",
+      "start": "00:02:30.467",
+      "text": " Let's assume that the Sun is not flat but spherical. We can therefore use the formula for"
+    },
+    {
+      "end": "00:02:40.767",
+      "start": "00:02:36.300",
+      "text": " the surface area of a sphere to determine the surface area of the Sun."
+    },
+    {
+      "end": "00:02:45.833",
+      "start": "00:02:41.267",
+      "text": " A is equal to 4 pi times r squared."
+    },
+    {
+      "end": "00:02:53.200",
+      "start": "00:02:47.733",
+      "text": " Let's rearrange the Stefan Boltzmann law with respect to the temperature T and insert the"
+    },
+    {
+      "end": "00:02:59.500",
+      "start": "00:02:53.200",
+      "text": " surface area formula. If we now insert the radiant power, the Stefan Boltzmann constant"
+    },
+    {
+      "end": "00:03:07.033",
+      "start": "00:02:59.500",
+      "text": " and the solar radius, we get 5,760 Kelvin as the surface temperature of the Sun."
+    },
+    {
+      "end": "00:03:11.900",
+      "start": "00:03:07.033",
+      "text": " This corresponds to 6,33 degrees Celsius."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Physics by Alexander FufaeV",
+  "youtube_channel_follower_count": 60700,
+  "youtube_comment_count": 6,
+  "youtube_description": "https://www.youtube.com/watch?v=od-jgaOQ8mc&list=PLTjLwQcqQzNKzSAxJxKpmOtAriFS5wWy4&index=17\n\nLearn how the temperature of each body, affects its radiated energy (power). More: https://en.fufaev.org/stefan-boltzmann-law\n\n\n\n\nBooks by Alexander Fufaev:\n1) Equations of Physics: Solve EVERY Physics Problem \nhttps://en.fufaev.org/physics-equations-book\n2) Alexander Fufaev and His Never Ending Story: \nhttps://en.fufaev.org/lifestory",
+  "youtube_like_count": 172,
+  "youtube_tags": [],
+  "youtube_title": "Stefan-Boltzmann Law: How Bodies Radiate Energy Through Their Temperature",
+  "youtube_upload_date": "20231222",
+  "youtube_view_count": 6329
+}

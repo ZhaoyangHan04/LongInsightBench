@@ -1,0 +1,775 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The narrator of the video with short gray hair and glasses. He is not visible on the screen, only his voice can be heard.",
+        "name": "Mike Breyner"
+      }
+    ],
+    "description": "A video tutorial on how to download and install Oracle VirtualBox on a Windows 7 system.",
+    "fps": 15.0,
+    "qAndA": [
+      {
+        "answer": "x86 and amd64",
+        "question": "On the VirtualBox download page, what are the two platform options offered for Windows hosts?"
+      },
+      {
+        "answer": "VirtualBox USB Support, VirtualBox Networking, VirtualBox Bridged Networking, VirtualBox Host-Only Networking, VirtualBox Python 2.x Support",
+        "question": "Besides the main application, what other features are available for installation in the Custom Setup section?"
+      },
+      {
+        "answer": "Windows Security warning, requesting permission to install device software related to Oracle Corporation",
+        "question": "What type of security warning pops up several times during the installation?"
+      },
+      {
+        "answer": "PublicVMs, located within the Public folder on the C drive",
+        "question": "What folder does the presenter create to store public virtual machines?"
+      },
+      {
+        "answer": "F1 key",
+        "question": "What key combination is mentioned for accessing instant help within VirtualBox?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introducing himself and e-wrench.com, describing Oracle VirtualBox and its purpose",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Presenting the outcomes of the video",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mike Breyner"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Mike Breyner"
+            ],
+            "description": "Mike is narrating the video."
+          }
+        ],
+        "contextualRelevance": "Provides background information and sets expectations for the tutorial",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "The narrator provides information in a clear and concise manner, setting a neutral tone.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the topic, speaker, and purpose of the video. Outlines the learning objectives for the viewers.",
+            "timestamp": "00:00:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides with text",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Virtualization, installing software, setting up a development environment",
+        "timestamps": {
+          "end_timestamp": "00:00:29.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction & Outcomes",
+        "videoEditingDetails": [
+          {
+            "description": "Fade transition between slides",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining the requirements for installing Oracle VirtualBox",
+            "timestamp": {
+              "end_timestamp": "00:00:51.000",
+              "start_timestamp": "00:00:29.067"
+            }
+          },
+          {
+            "description": "Providing additional information and a link to the official website",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:51.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mike Breyner"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Mike Breyner"
+            ],
+            "description": "Mike is continuing his narration."
+          }
+        ],
+        "contextualRelevance": "Offers context for the tutorial by specifying prerequisites and additional resources",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Continuing the neutral tone, the narrator focuses on providing factual information.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Provides necessary context for the tutorial by outlining the prerequisites and offering additional resources.",
+            "timestamp": "00:00:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides with text",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:29.067"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Virtualization, software requirements, online resources",
+        "timestamps": {
+          "end_timestamp": "00:00:55.733",
+          "start_timestamp": "00:00:29.067"
+        },
+        "title": "Requirements & Additional Info",
+        "videoEditingDetails": [
+          {
+            "description": "Fade transition between slides",
+            "timestamps": {
+              "end_timestamp": "00:00:51.000",
+              "start_timestamp": "00:00:51.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Navigating to the VirtualBox website",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "Selecting the appropriate version for Windows hosts",
+            "timestamp": {
+              "end_timestamp": "00:01:38.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          },
+          {
+            "description": "Initiating the download",
+            "timestamp": {
+              "end_timestamp": "00:02:32.933",
+              "start_timestamp": "00:01:38.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mike Breyner"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Mike Breyner"
+            ],
+            "description": "Mike is guiding through the download process."
+          }
+        ],
+        "contextualRelevance": "Guides viewers through downloading VirtualBox, a necessary step for installation",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "The shift to screen recording and active demonstration piques the viewers' curiosity.",
+          "keyMoments": [
+            {
+              "changeDescription": "Mood change from static slides to screen recording and from explanatory voiceover to active demonstration.",
+              "timestamp": "00:00:56.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The tutorial begins with the first practical step – downloading the VirtualBox software.",
+            "timestamp": "00:00:55.800"
+          },
+          {
+            "description": "The download of VirtualBox is initiated.",
+            "timestamp": "00:01:38.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Screen recording of Firefox browser and VirtualBox website",
+            "timestamp": {
+              "end_timestamp": "00:02:32.933",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "name": "Download progress window",
+            "timestamp": {
+              "end_timestamp": "00:02:32.933",
+              "start_timestamp": "00:01:40.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Downloading software, navigating websites",
+        "timestamps": {
+          "end_timestamp": "00:02:32.933",
+          "start_timestamp": "00:00:55.800"
+        },
+        "title": "Downloading Oracle VirtualBox",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with highlighted mouse cursor",
+            "timestamps": {
+              "end_timestamp": "00:02:32.933",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "Sped-up footage of the download process",
+            "timestamps": {
+              "end_timestamp": "00:02:32.933",
+              "start_timestamp": "00:01:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Locating the downloaded file",
+            "timestamp": {
+              "end_timestamp": "00:03:25.000",
+              "start_timestamp": "00:02:34.000"
+            }
+          },
+          {
+            "description": "Launching the installer",
+            "timestamp": {
+              "end_timestamp": "00:03:34.000",
+              "start_timestamp": "00:03:25.000"
+            }
+          },
+          {
+            "description": "Navigating through the installation wizard",
+            "timestamp": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:03:34.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mike Breyner"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Mike Breyner"
+            ],
+            "description": "Mike explains the installation process of VirtualBox."
+          }
+        ],
+        "contextualRelevance": "Explains the installation process, a continuation of setting up VirtualBox",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "The active demonstration continues, maintaining viewer engagement and interest.",
+          "keyMoments": [
+            {
+              "changeDescription": "VirtualBox installation process begins.",
+              "timestamp": "00:03:34.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The tutorial continues with the next practical step – installing the downloaded VirtualBox software.",
+            "timestamp": "00:02:33.000"
+          },
+          {
+            "description": "VirtualBox installation process begins.",
+            "timestamp": "00:03:34.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Screen recording of Windows Explorer",
+            "timestamp": {
+              "end_timestamp": "00:03:25.000",
+              "start_timestamp": "00:02:34.000"
+            }
+          },
+          {
+            "name": "VirtualBox installer windows",
+            "timestamp": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:03:25.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Installing software, navigating installation wizards",
+        "timestamps": {
+          "end_timestamp": "00:07:00.933",
+          "start_timestamp": "00:02:33.000"
+        },
+        "title": "Installing Oracle VirtualBox",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with highlighted mouse cursor",
+            "timestamps": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:02:34.000"
+            }
+          },
+          {
+            "description": "Sped-up footage of installation process",
+            "timestamps": {
+              "end_timestamp": "00:06:58.000",
+              "start_timestamp": "00:03:39.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "When the installation is complete.",
+        "timestamp": "00:06:58.000"
+      },
+      "description": "A video guide on downloading and installing Oracle VirtualBox on Windows 7 with practical demonstration and detailed instructions.",
+      "scenes": [
+        3,
+        4
+      ]
+    },
+    "title": "Install Oracle Virtual Box into Windows 7",
+    "trimmingSuggestions": [
+      {
+        "description": "The download process could be further sped up or cut to its final moments, reducing the passive waiting time for viewers.",
+        "timestamps": {
+          "end_timestamp": "00:02:33.000",
+          "start_timestamp": "00:02:33.000"
+        }
+      },
+      {
+        "description": "The initial file location process could be shortened, focusing mainly on the installation wizard navigation. Additionally, the repeated security warnings could be condensed into a single explanation.",
+        "timestamps": {
+          "end_timestamp": "00:03:25.000",
+          "start_timestamp": "00:02:34.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 421,
+  "original_json_filename": "7WdjSBZ794Q.json",
+  "original_video_filename": "7WdjSBZ794Q.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "my name is Mike rer and I'm with ewench.com this video is about how to install Oracle virtual box into Windows 7 Oracle virtual box allows you to create virtual computers or virtual machines so that you can run multiple operating systems from your own computer the outcomes for this video are you should be able to download Oracle virtual box install virtual box into Windows 7 and configure a default location of virtual machines in my case I I configured it to a public VM directory but you can leave it wherever you want requirements Windows 7 Operating System virtual box of course and enough memory or Ram to run both your host operating system which would be Windows 7 and your virtual operating system which is what whichever one you want at the same time and additional info is at virtual box okay we start off at www virtualbox.org and this is the virtualbox site where you can download your copy of virtualbox if you notice that you've got about screenshots downloads documentation uh which really is a has a lot of good information on it so we're going to download Virtual box click on download section and here we're going to choose the one for our machine in our case it'll be virtual box 4.1.1 for for Windows host includes both the x86 and the 64 bid operating systems of windows so click for this one and we're just going to save the file and I like to put it on local disc downloads and I make a separate directory for it new folder called virtual box open it up and simply download the file now here it's very short download 10 six minutes remaining while are you waiting for the download to occur you can go take a look to user manual or go some you know go around the site uh I will return after the it is downloaded and we'll go ahead with setting up um virtual box in Windows 7 we have about 5 Seconds a few seconds remaining for the install Okay virtual box has been downloaded it's a simple matter now to Simply close these uh folders and the next step will be setting this up on a Windows 7 computer once virtual box has been downloaded into our Windows 7 machine Next Step would be to Simply click on the exe file and uh install it so we we right click on the start button open Windows Explorer go to where we downloaded the virtual box in this case it's see downloads click virtual box and then click it and up comes our security warning and we're going to run it this security warning will come up a number of times as we're running it so we just it's a very simple install click next ask what items you want to install in our case we're just going to pick everything that we can install ask where you want to install it and we'll just take the um default uh location click next and I like to create a short top on desktop but not on the quick launch bar so that's your choice you can do however you want to do that click next and gives you a warning that network interfaces can be going up and down during the installation so if you're using an Internet that means that you may become disconnected and click yes and then it says click install to begin the install click install and it trundles along and let you go along and uh and installs it says it may take several minutes if it takes a long time or we are going to just keep going back so now up again our user account control we're going to click yes and like I say this will show up a number of times during the install so don't be uh get too worried about that that's Windows doing its security thing for you and Windows security again this device software and I don't like to click always trust but so I'd like to have my warning so I'm going to click install and again your Windows security warning comes in again I'm going to click install and this is the third fourth or fifth time click install again and again click install and Oracle VM is installation is complete click finish and we're going to close this uh window right here and so virtual box the latest edition uh today is installed one I one preference I like to change is where the virtual machines installed virtual machines are usually installed in your directory and if you want everyone to be able to use the virtual machines I change of preferences uh to a different uh folder and I change it computer C drive [Applause] users public and I make a new folder in the public folder and call it public VMS for public virtual machines then click okay and you may take a look at some of these other settings and change these uh if you want to keep your virtual machines private and not let anyone else access them do not make this change to the public folder this is simply because I work in environment where a lot of different people may be seeing virtual machines click okay and that's it thank you",
+  "text_to_speech_word_count": 903,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.000",
+      "start": "00:00:00.000",
+      "text": " My name is Mike Rainer and I'm with eRinch.com. This video is about how to install Oracle VirtualBox into Windows 7."
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:09.000",
+      "text": " Oracle VirtualBox allows you to create virtual computers or virtual machines so that you can run multiple operating systems from your own computer."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:18.000",
+      "text": " The outcomes for this video are you should be able to download Oracle VirtualBox, install VirtualBox into Windows 7 and configure a default location of virtual machines."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:29.000",
+      "text": " In my case, I configured it to a public VM directory but you can leave it wherever you want."
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:35.000",
+      "text": " Requirements, Windows 7 operating system, VirtualBox course, and enough memory or RAM to run both your host operating system, which would be Windows 7, and your virtual operating system, which is whatever one you want at the same time."
+    },
+    {
+      "end": "00:00:57.000",
+      "start": "00:00:51.000",
+      "text": " And additional info is that VirtualBox."
+    },
+    {
+      "end": "00:01:03.000",
+      "start": "00:00:58.000",
+      "text": " Okay, we just start off at www.virtualbox.org."
+    },
+    {
+      "end": "00:01:08.000",
+      "start": "00:01:03.000",
+      "text": " And this is the VirtualBox site where you can download your copy of VirtualBox."
+    },
+    {
+      "end": "00:01:18.000",
+      "start": "00:01:08.000",
+      "text": " If you notice that you've got about screenshots, downloads, documentation, which really has a lot of good information on it."
+    },
+    {
+      "end": "00:01:27.000",
+      "start": "00:01:19.000",
+      "text": " So we're going to download VirtualBox, click on Downloads section, and here we're going to choose the one for our machine."
+    },
+    {
+      "end": "00:01:38.000",
+      "start": "00:01:27.000",
+      "text": " In our case, it'll be VirtualBox 4.1.14 for Windows host, including both the X86 and the 64 mid-operating systems of Windows."
+    },
+    {
+      "end": "00:01:45.000",
+      "start": "00:01:38.000",
+      "text": " So click for this one, and we're just going to save the file."
+    },
+    {
+      "end": "00:01:57.000",
+      "start": "00:01:46.000",
+      "text": " And I like to put it on local disk downloads, and I'll make a separate directory for it, New Folder called VirtualBox."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:02:02.000",
+      "text": " Open it up, and simply download the file."
+    },
+    {
+      "end": "00:02:14.000",
+      "start": "00:02:08.000",
+      "text": " Now here's a very short download 10-6 minutes remaining."
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:14.000",
+      "text": " While you're waiting for the download to occur, you can go take a look to User Manual or go around the site."
+    },
+    {
+      "end": "00:02:32.000",
+      "start": "00:02:22.000",
+      "text": " I will return after the download, and we'll go ahead with setting up VirtualBox in Windows 7."
+    },
+    {
+      "end": "00:02:39.000",
+      "start": "00:02:33.000",
+      "text": " We have about 5 seconds, a few seconds remaining for the install."
+    },
+    {
+      "end": "00:02:43.000",
+      "start": "00:02:39.000",
+      "text": " VirtualBox has been downloaded."
+    },
+    {
+      "end": "00:02:54.000",
+      "start": "00:02:43.000",
+      "text": " It's a simple matter now to simply close these folders, and the next step will be setting this up on a Windows 7 computer."
+    },
+    {
+      "end": "00:03:08.000",
+      "start": "00:02:55.000",
+      "text": " Once VirtualBox has been downloaded into our Windows 7 machine, next step would be to simply click on the EXE file and install it."
+    },
+    {
+      "end": "00:03:17.000",
+      "start": "00:03:08.000",
+      "text": " So we right click on the Start button, open Windows Explorer, go to where we download the VirtualBox."
+    },
+    {
+      "end": "00:03:29.000",
+      "start": "00:03:18.000",
+      "text": " In this case, it's C downloads, click VirtualBox, and then click it, and up comes our security warning."
+    },
+    {
+      "end": "00:03:32.000",
+      "start": "00:03:29.000",
+      "text": " And we're going to run it."
+    },
+    {
+      "end": "00:03:38.000",
+      "start": "00:03:32.000",
+      "text": " This security warning will come up a number of times as we're running it, so it's a very simple install."
+    },
+    {
+      "end": "00:03:40.000",
+      "start": "00:03:38.000",
+      "text": " Click Next."
+    },
+    {
+      "end": "00:03:42.000",
+      "start": "00:03:40.000",
+      "text": " That's what items you want to install."
+    },
+    {
+      "end": "00:03:45.000",
+      "start": "00:03:42.000",
+      "text": " In our case, we're just going to pick everything that we can."
+    },
+    {
+      "end": "00:03:53.000",
+      "start": "00:03:45.000",
+      "text": " Install, ask where you want to install it, and we'll just take the default location, click Next."
+    },
+    {
+      "end": "00:03:58.000",
+      "start": "00:03:53.000",
+      "text": " And I like to create a short top on desktop, but not on a quick launch bar."
+    },
+    {
+      "end": "00:04:03.000",
+      "start": "00:03:58.000",
+      "text": " So that's your choice. You can do however you want to do that. Click Next."
+    },
+    {
+      "end": "00:04:09.000",
+      "start": "00:04:03.000",
+      "text": " And gives you warning that Network interfaces can be going up and down during the installation."
+    },
+    {
+      "end": "00:04:14.000",
+      "start": "00:04:09.000",
+      "text": " So if you're using the Internet, that means that you may become disconnected."
+    },
+    {
+      "end": "00:04:16.000",
+      "start": "00:04:14.000",
+      "text": " And click Yes."
+    },
+    {
+      "end": "00:04:21.000",
+      "start": "00:04:16.000",
+      "text": " And then it says Click Install, Begin install, click Install."
+    },
+    {
+      "end": "00:04:27.000",
+      "start": "00:04:21.000",
+      "text": " And it trundles along and lets you go along and install."
+    },
+    {
+      "end": "00:04:30.000",
+      "start": "00:04:27.000",
+      "text": " It says it may take several minutes."
+    },
+    {
+      "end": "00:04:35.000",
+      "start": "00:04:30.000",
+      "text": " And if it takes a long time, we are going to just keep going back."
+    },
+    {
+      "end": "00:04:39.000",
+      "start": "00:04:35.000",
+      "text": " So now up again, our user account control."
+    },
+    {
+      "end": "00:04:40.000",
+      "start": "00:04:39.000",
+      "text": " We're going to click Yes."
+    },
+    {
+      "end": "00:04:44.000",
+      "start": "00:04:40.000",
+      "text": " And like I say, this will show up a number of times during the install."
+    },
+    {
+      "end": "00:04:47.000",
+      "start": "00:04:44.000",
+      "text": " So don't be too worried about that."
+    },
+    {
+      "end": "00:04:53.000",
+      "start": "00:04:47.000",
+      "text": " That's Windows doing its security thing for you."
+    },
+    {
+      "end": "00:04:59.000",
+      "start": "00:04:54.000",
+      "text": " And Windows security, again, this device software."
+    },
+    {
+      "end": "00:05:04.000",
+      "start": "00:04:59.000",
+      "text": " And I don't like to click Always Trust, so I'd like to have my warning."
+    },
+    {
+      "end": "00:05:08.000",
+      "start": "00:05:04.000",
+      "text": " So I'm going to click Install."
+    },
+    {
+      "end": "00:05:11.000",
+      "start": "00:05:08.000",
+      "text": " And again, your Windows security warning comes in."
+    },
+    {
+      "end": "00:05:14.000",
+      "start": "00:05:11.000",
+      "text": " Again, I'm going to click Install."
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:14.000",
+      "text": " And this is the third, fourth, or fifth time."
+    },
+    {
+      "end": "00:05:20.000",
+      "start": "00:05:17.000",
+      "text": " Click Install again."
+    },
+    {
+      "end": "00:05:26.000",
+      "start": "00:05:23.000",
+      "text": " And again, click Install."
+    },
+    {
+      "end": "00:05:35.000",
+      "start": "00:05:32.000",
+      "text": " And Oracle VM installation is complete."
+    },
+    {
+      "end": "00:05:37.000",
+      "start": "00:05:35.000",
+      "text": " Click Finish."
+    },
+    {
+      "end": "00:05:41.000",
+      "start": "00:05:37.000",
+      "text": " And we're going to close this window right here."
+    },
+    {
+      "end": "00:05:46.000",
+      "start": "00:05:41.000",
+      "text": " And so VirtualBox, the latest edition today is installed."
+    },
+    {
+      "end": "00:05:54.000",
+      "start": "00:05:47.000",
+      "text": " One preference I like to change is where the virtual machines installed."
+    },
+    {
+      "end": "00:05:56.000",
+      "start": "00:05:54.000",
+      "text": " Virtual machines are usually installed in your directory."
+    },
+    {
+      "end": "00:06:06.000",
+      "start": "00:05:56.000",
+      "text": " And if you want everyone to be able to use virtual machines, I change the preferences"
+    },
+    {
+      "end": "00:06:10.000",
+      "start": "00:06:06.000",
+      "text": " to a different folder."
+    },
+    {
+      "end": "00:06:20.000",
+      "start": "00:06:11.000",
+      "text": " I change it computer, C drive, users, public."
+    },
+    {
+      "end": "00:06:26.000",
+      "start": "00:06:22.000",
+      "text": " And I make a new folder and a public folder."
+    },
+    {
+      "end": "00:06:36.000",
+      "start": "00:06:26.000",
+      "text": " And call it public VMs for public virtual machines."
+    },
+    {
+      "end": "00:06:39.000",
+      "start": "00:06:37.000",
+      "text": " And then click OK."
+    },
+    {
+      "end": "00:06:43.000",
+      "start": "00:06:39.000",
+      "text": " And you may take a look at some of these other settings and change these."
+    },
+    {
+      "end": "00:06:49.000",
+      "start": "00:06:43.000",
+      "text": " If you want to keep your virtual machines private and not letting anyone else access them,"
+    },
+    {
+      "end": "00:06:51.000",
+      "start": "00:06:49.000",
+      "text": " do not make this change to the public folder."
+    },
+    {
+      "end": "00:06:57.000",
+      "start": "00:06:51.000",
+      "text": " This is simply because I work in environment where a lot of different people may be seeing virtual machines."
+    },
+    {
+      "end": "00:06:59.000",
+      "start": "00:06:57.000",
+      "text": " Click OK."
+    },
+    {
+      "end": "00:07:01.000",
+      "start": "00:06:59.000",
+      "text": " And that's it."
+    },
+    {
+      "end": "00:07:02.000",
+      "start": "00:07:01.000",
+      "text": " Thank you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "babarehner",
+  "youtube_channel_follower_count": 5740,
+  "youtube_comment_count": 178,
+  "youtube_description": "Oracle VirtualBox allows you to use multiple operating systems on one computer. Each operating system is installed as a separate virtual machine. This video demonstrates how to download VirtualBox and then install VirtualBox into a Windows computer. Also demonstrated is how to configure the default location for your virtual machine files.\n\nIf you want a short explanation of \"What is a Virtual Machine?\" is see \"http://youtu.be/3QDwKS9JtZY\" on this channel.\n\n00:00 Introduction\n00:55 Download VirtualBox\n02:55 Install VirtualBox\n05:47 Change Virtual Machine Install Directory",
+  "youtube_like_count": 1082,
+  "youtube_tags": [
+    "Virtual",
+    "Microsoft Windows",
+    "Tutorial",
+    "Computer",
+    "Software Tutorial",
+    "Computer Software",
+    "virtual machine",
+    "Windows 7"
+  ],
+  "youtube_title": "Download and Install VirtualBox in Windows 7",
+  "youtube_upload_date": "20120508",
+  "youtube_view_count": 281008
+}

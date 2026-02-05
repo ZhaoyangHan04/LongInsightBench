@@ -1,0 +1,1033 @@
+{
+  "content_fine_category": "Science Explainers",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A middle-aged man with short, graying hair and a clean-shaven face, wearing a blue button-down shirt.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "An exploration of the SHA 256 algorithm, its features, applications in Bitcoin mining, and associated speculations.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "Because SHA 256 produces unique outputs for every different input, this hash, created from his specific image, is highly likely to be the first and only instance of that number being generated.",
+        "question": "Why does the speaker call the hash generated from his snow globe picture a 'world premiere'?"
+      },
+      {
+        "answer": "Even a minor change, like changing a single bit in a file, will drastically alter the resulting SHA 256 hash, showcasing its sensitivity to input variations.",
+        "question": "What is the 'butterfly effect' in the context of SHA 256?"
+      },
+      {
+        "answer": "Bitcoin mining involves finding a specific input (a 'nonce') that, when combined with other block data and run through the SHA 256 algorithm, produces a hash output with a certain number of leading zeros.",
+        "question": "How is SHA 256 related to Bitcoin mining?"
+      },
+      {
+        "answer": "While computing the hash from an input is relatively straightforward, reversing the process and figuring out the original input from just the hash is incredibly difficult, if not impossible with current methods.",
+        "question": "What makes SHA 256 a 'one-way' function?"
+      },
+      {
+        "answer": "The speaker gets anxious after discovering that the NSA designed SHA 256. This revelation suggests potential hidden intentions or control over the widely used algorithm, leading to uneasiness and conspiracy theories.",
+        "question": "Why does the speaker become anxious at the end of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaking to camera",
+            "timestamp": {
+              "end_timestamp": "00:00:13.013",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker interacts with the viewer by posing a curiosity-provoking question about SHA 256."
+          }
+        ],
+        "contextualRelevance": "The scene sets the foundation for understanding SHA 256 by introducing it as a possibly popular algorithm.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker poses a question about the most popular computer algorithm and suggests SHA 256 as a possibility.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Introduction to SHA 256.",
+        "timestamps": {
+          "end_timestamp": "00:00:13.013",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to SHA 256",
+        "videoEditingDetails": [
+          {
+            "description": "Green and maroon split screen background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:00:13.013",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Finger scrolls through words on the green side of the split screen",
+            "timestamps": {
+              "end_timestamp": "00:00:13.013",
+              "start_timestamp": "00:00:13.013"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to camera",
+            "timestamp": {
+              "end_timestamp": "00:01:07.734",
+              "start_timestamp": "00:00:16.984"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker educates the audience on the technical aspects of SHA 256."
+          }
+        ],
+        "contextualRelevance": "Provides the necessary background to understand the technical discussions of SHA 256.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": [
+            {
+              "changeDescription": "Confused to curious",
+              "timestamp": "00:00:22.990"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains the terminology of algorithms and hash functions, focusing on deterministic and one-way functions. He introduces SHA 256.",
+            "timestamp": "00:00:22.990"
+          }
+        ],
+        "props": [
+          {
+            "name": "Simulated documents",
+            "timestamp": {
+              "end_timestamp": "00:00:31.999",
+              "start_timestamp": "00:00:28.996"
+            }
+          },
+          {
+            "name": "Fingerprint image",
+            "timestamp": {
+              "end_timestamp": "00:00:36.003",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "name": "Flowchart diagrams",
+            "timestamp": {
+              "end_timestamp": "00:01:05.999",
+              "start_timestamp": "00:00:54.988"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Definition of algorithm, hash function, deterministic function, one-way function, and SHA 256.",
+        "timestamps": {
+          "end_timestamp": "00:01:07.734",
+          "start_timestamp": "00:00:13.046"
+        },
+        "title": "Explaining Algorithms and Hash Functions",
+        "videoEditingDetails": [
+          {
+            "description": "White background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:01:05.999",
+              "start_timestamp": "00:00:23.991"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to camera",
+            "timestamp": {
+              "end_timestamp": "00:02:05.993",
+              "start_timestamp": "00:01:08.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "Demonstrates SHA 256's properties through practical examples."
+          }
+        ],
+        "contextualRelevance": "Shows the uniqueness of SHA 256 and its implications.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Curious to excited",
+              "timestamp": "00:02:06.159"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker highlights two interesting properties of SHA 256: uniqueness of each hash and the butterfly effect.",
+            "timestamp": "00:01:46.006"
+          }
+        ],
+        "props": [
+          {
+            "name": "Simulated documents",
+            "timestamp": {
+              "end_timestamp": "00:01:16.009",
+              "start_timestamp": "00:01:12.005"
+            }
+          },
+          {
+            "name": "Fingerprint images",
+            "timestamp": {
+              "end_timestamp": "00:01:23.016",
+              "start_timestamp": "00:01:17.010"
+            }
+          },
+          {
+            "name": "Snow globe",
+            "timestamp": {
+              "end_timestamp": "00:02:06.159",
+              "start_timestamp": "00:02:05.993"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "SHA 256 uniqueness, butterfly effect, practical applications.",
+        "timestamps": {
+          "end_timestamp": "00:02:06.159",
+          "start_timestamp": "00:01:07.768"
+        },
+        "title": "Properties of SHA 256",
+        "videoEditingDetails": [
+          {
+            "description": "White background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:01:12.005",
+              "start_timestamp": "00:01:08.001"
+            }
+          },
+          {
+            "description": "White background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:02:05.993",
+              "start_timestamp": "00:01:48.008"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to camera",
+            "timestamp": {
+              "end_timestamp": "00:04:21.995",
+              "start_timestamp": "00:02:06.193"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "Links SHA 256 to Bitcoin mining, enhancing viewer interest."
+          }
+        ],
+        "contextualRelevance": "Connects SHA 256 to a real-world application with significant economic impact.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker explains SHA 256's role in Bitcoin mining and the associated financial incentives.",
+            "timestamp": "00:02:29.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of stacks of money and Bitcoin coins",
+            "timestamp": {
+              "end_timestamp": "00:04:21.995",
+              "start_timestamp": "00:02:29.016"
+            }
+          },
+          {
+            "name": "Diagrams illustrating Bitcoin mining process",
+            "timestamp": {
+              "end_timestamp": "00:04:21.995",
+              "start_timestamp": "00:03:42.989"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Philosophical implications of SHA 256, Bitcoin mining, financial incentives.",
+        "timestamps": {
+          "end_timestamp": "00:04:22.129",
+          "start_timestamp": "00:02:06.193"
+        },
+        "title": "SHA 256 in Bitcoin Mining",
+        "videoEditingDetails": [
+          {
+            "description": "White background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:02:29.016",
+              "start_timestamp": "00:02:06.193"
+            }
+          },
+          {
+            "description": "White background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:04:21.995",
+              "start_timestamp": "00:03:42.989"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaking to camera",
+            "timestamp": {
+              "end_timestamp": "00:05:54.988",
+              "start_timestamp": "00:04:22.162"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "Raises questions about SHA 256's widespread use and origins."
+          }
+        ],
+        "contextualRelevance": "Highlights the mysteries and suspicions around SHA 256, intriguing viewers.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited to anxious",
+          "keyMoments": [
+            {
+              "changeDescription": "Excited to anxious",
+              "timestamp": "00:05:48.014"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Speaker speculates on SHA 256's global popularity and its mysterious origins.",
+            "timestamp": "00:04:24.998"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of a Bitcoin mining data center and a Bitcoin mining machine",
+            "timestamp": {
+              "end_timestamp": "00:04:35.008",
+              "start_timestamp": "00:04:28.001"
+            }
+          },
+          {
+            "name": "Diagram of SHA 256 compression function and a circuit diagram",
+            "timestamp": {
+              "end_timestamp": "00:05:11.011",
+              "start_timestamp": "00:05:05.005"
+            }
+          },
+          {
+            "name": "Graph of Bitcoin hash rate",
+            "timestamp": {
+              "end_timestamp": "00:05:54.988",
+              "start_timestamp": "00:05:05.005"
+            }
+          },
+          {
+            "name": "Article from The New York Times",
+            "timestamp": {
+              "end_timestamp": "00:05:51.985",
+              "start_timestamp": "00:05:43.009"
+            }
+          },
+          {
+            "name": "Image of the National Security Agency headquarters and logo",
+            "timestamp": {
+              "end_timestamp": "00:05:51.985",
+              "start_timestamp": "00:05:48.014"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Speculation on SHA 256's popularity, conspiracy theories.",
+        "timestamps": {
+          "end_timestamp": "00:05:58.325",
+          "start_timestamp": "00:04:22.162"
+        },
+        "title": "Speculations and Conclusions",
+        "videoEditingDetails": [
+          {
+            "description": "White background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:04:28.001",
+              "start_timestamp": "00:04:22.162"
+            }
+          },
+          {
+            "description": "White background with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:05:05.005",
+              "start_timestamp": "00:04:39.012"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax of the technical narrative is the 'World Premiere' of a new SHA 256 hash, while the speculative narrative culminates in the NSA's involvement with SHA 256.",
+        "timestamp": "00:05:51.985"
+      },
+      "description": "The video offers a dual narrative, exploring both technical and speculative aspects of SHA 256.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "SHA 256: The World's Most Popular Algorithm?",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove the initial scrolling animation in Scene 1 for quicker engagement with the core topic.",
+        "timestamps": {
+          "end_timestamp": "00:04:22.162",
+          "start_timestamp": "00:04:22.162"
+        }
+      },
+      {
+        "description": "Shorten repetition explaining large numbers in Scene 3 to maintain a fast pace.",
+        "timestamps": {
+          "end_timestamp": "00:04:22.162",
+          "start_timestamp": "00:04:22.162"
+        }
+      },
+      {
+        "description": "Trim speculation about the NSA to focus on factual information about SHA 256 and Bitcoin.",
+        "timestamps": {
+          "end_timestamp": "00:05:51.985",
+          "start_timestamp": "00:05:36.002"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 358,
+  "original_json_filename": "8COArd_EREw.json",
+  "original_video_filename": "8COArd_EREw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "What's the world's most popular computer algorithm? Maybe the SHA 256 hash function. I want to show you what it does, and tell you about a problem that no one on Earth knows how to solve, and explain why billions of dollars are at stake. [Intro Music] The SHA 256 algorithm is a deterministic one-way hash function. Now, what it the world do those words even mean? An algorithm is just a process, or list of steps for doing something. A hash function is a mathematical function that takes any size of input but has an output of a fixed size. You can think of it as a digital fingerprint for the file. It's deterministic which means whenever you start with the same input, you always get the same output. And SHA 256 stands for \"Secure Hash Algorithm\" and it outputs 256 bits. What does \"one-way\" mean? Well, that's just a function that's hard to do backwards. Some functions are easy to do backwards, like for example the function of adding 30. You just subtract 30 to do the reverse. But the function of multiplying two large primes together is really hard to do backwards. Take a look at my follow-up video for more details. Okay, back to SHA 256. It's an algorithm for a one-way hash function that takes any kind of digital input and any length of input and always outputs exactly 256 bits, or 256 ones and zeros, which is basically a big long number, usually written as 64 hex digits, like this. Let me tell you about two things that make this function really interesting and useful. First of all, the only time you ever end up with the same hash, or the same fingerprint, is if you started with the exactly identical input. There are so many different possible fingerprints that no two inputs have ever ended up with the same fingerprint, and I mean never, in the history of the world. How many different hashes are there? Two to the 256th, which means two multiplied by itself 256 times, or to be specific, 115 quattourvigintillion, 792 tresvigintillion, 89 duovigintillion, 230, you get the idea. Another interesting property of this funciton is that it's designed to have the butterfly effect built in such that changing the input just a little bit completely changes the output. Let me show you an example. Here's a picture I took. It's 1000 by 1000 pixels, and the file is 24 million bits long. When I run this through the SHA 256 algorithm, it outputs this hash. Now watch what happens when I change one single bit in the input. I'm going to zoom in to this pixel on the telephone pole and change the green value by changing this zero to a one. Now I re-run the algorithm, and I get a completely different output. And that's from changing just one single bit out of more than 24 million bits. So these properties make SHA 256 useful for all kinds of applications: cryptography, digital signatures, authentication. Oh, and there's bitcoin. More in a minute. Beyond the usefulness of this algorithm, I think some of the philosophical consequences are amazing to think about. First of all it's possible for you to see a number that literally no one else in human history has ever seen before. All you have to do is take a picture with some randomness in it, and calculate the SHA 256 hash. So ladies and gentlemen, here's the world premiere of this number that I just made from that picture. It's never been seen before. Also, I think it's cool that here's a mathematical function that anyone can do on their computer but no one has any idea how to do the reverse of this function. How do we know? Because there are billions of dollars at stake. You see, SHA 256 is a key part of the bitcoin protocol. If you could reverse the algorithm, you could mine bitcoin faster than anyone else and make a lot of money. In order to mine bitcoin, all you have to do is find an input that produces a SHA 256 output with 70-something zeros at the beginning. But, since there's no known formula, the best anyone can do, is to do it by brute force, which means just trying a bunch of different inputs until they find something that works. Now I said before it's impossible to find an input that matches a specific hash fingerprint. And that's true. But bitcoin mining only requires that you find a hash that's close, not an exact match. In fact, the difficulty can be adjusted up or down, to make it such that about every ten minutes, someone, somewhere finds a match, earning themselves 12.5 bitcoins, which is worth somewhere between 12 dollars and 12 million dollars. Also, that's why I think it's the most popular algorithm on Earth, or maybe I should say the most \"commonly computed\" algorithm on Earth. In this race to mine bitcoin, special computers have been built just for running SHA 256 as fast as possible. How fast? Well, if you add up all of the bitcoin miners in all of the world, they're currently doing 60 trillion hashes, no wait, 60 quadrillion, no 60 quintillion hashes per day mining bitcoin. Oh, wait, I'm wrong again, not 60 quintillion per day, not per hour, not per minute, but per second. That's right, SHA 256 is run 60 quintillion times per second, all day, every day. So yes, I think it's fair to say that SHA 256 is the most popular algorithm. I mean, unless you count adding and multiplying, which are parts of SHA 256. Maybe it's the most popular \"big\" algorithm? Actually, I suppose there might be some digital signal processing algorithms like Fourier transforms that beat it? But more than 60 quintillion times per second? I don't know. Anyway, all of this is good evidence that no one has figured out a shortcut, because there's a huge financial incentive to do so. Or maybe they have, but they know not to kill the goose laying the golden eggs, and they're just slowly collecting bitcoins. Or maybe there's some kind a secretive government organization, hiding the truth from the populace. Let's see, who invented bitcoin? Nobody knows, what? And who designed SHA 256? Let's see, the NSA? Who are they? United States National Security Agency! Uh-Oh. I think I better go now. Thanks for watching.",
+  "text_to_speech_word_count": 1081,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:02.903",
+      "start": "00:00:00.000",
+      "text": " What's the world's most popular computer algorithm?"
+    },
+    {
+      "end": "00:00:05.272",
+      "start": "00:00:02.903",
+      "text": " Maybe the SHA-256 hash function."
+    },
+    {
+      "end": "00:00:10.377",
+      "start": "00:00:05.272",
+      "text": " I want to show you what it does and tell you about a problem that no one on Earth knows how to solve."
+    },
+    {
+      "end": "00:00:13.113",
+      "start": "00:00:10.377",
+      "text": " And explain why billions of dollars are at stake."
+    },
+    {
+      "end": "00:00:22.055",
+      "start": "00:00:17.818",
+      "text": " The SHA-256 algorithm is a deterministic one-way hash function."
+    },
+    {
+      "end": "00:00:23.891",
+      "start": "00:00:22.055",
+      "text": " Now what in the world do those words even mean?"
+    },
+    {
+      "end": "00:00:27.694",
+      "start": "00:00:23.891",
+      "text": " An algorithm is just a process or a list of steps for doing something."
+    },
+    {
+      "end": "00:00:31.698",
+      "start": "00:00:27.794",
+      "text": " A hash function is a mathematical function that takes any size of input"
+    },
+    {
+      "end": "00:00:33.867",
+      "start": "00:00:31.698",
+      "text": " but has an output of a fixed size."
+    },
+    {
+      "end": "00:00:36.837",
+      "start": "00:00:33.867",
+      "text": " You can think of it as a digital fingerprint for the file."
+    },
+    {
+      "end": "00:00:40.574",
+      "start": "00:00:36.837",
+      "text": " It's deterministic, which means whenever you start with the same input,"
+    },
+    {
+      "end": "00:00:42.509",
+      "start": "00:00:40.574",
+      "text": " you always get the same output."
+    },
+    {
+      "end": "00:00:46.680",
+      "start": "00:00:42.509",
+      "text": " And SHA-256 stands for Secure Hash Algorithm"
+    },
+    {
+      "end": "00:00:48.815",
+      "start": "00:00:46.680",
+      "text": " and outputs 256 bits."
+    },
+    {
+      "end": "00:00:50.417",
+      "start": "00:00:48.815",
+      "text": " What does one-way mean?"
+    },
+    {
+      "end": "00:00:52.986",
+      "start": "00:00:50.417",
+      "text": " Well, that's just a function that's hard to do backwards."
+    },
+    {
+      "end": "00:00:57.291",
+      "start": "00:00:52.986",
+      "text": " Some functions are easy to do backwards, like for example, the function of adding 30."
+    },
+    {
+      "end": "00:00:59.693",
+      "start": "00:00:57.291",
+      "text": " You just subtract 30 to do the reverse."
+    },
+    {
+      "end": "00:01:04.598",
+      "start": "00:00:59.693",
+      "text": " But the function of multiplying two large prime numbers together is really hard to do backwards."
+    },
+    {
+      "end": "00:01:07.701",
+      "start": "00:01:05.232",
+      "text": " Take a look at my follow-up video for more details."
+    },
+    {
+      "end": "00:01:09.870",
+      "start": "00:01:07.701",
+      "text": " OK, back to SHA-256."
+    },
+    {
+      "end": "00:01:14.408",
+      "start": "00:01:09.870",
+      "text": " It's an algorithm for a one-way hash function that takes any kind of digital input"
+    },
+    {
+      "end": "00:01:19.212",
+      "start": "00:01:14.408",
+      "text": " and any length of input and always outputs exactly 256 bits."
+    },
+    {
+      "end": "00:01:23.717",
+      "start": "00:01:19.212",
+      "text": " Or 256 ones and zeros, which is basically a big long number."
+    },
+    {
+      "end": "00:01:26.420",
+      "start": "00:01:23.717",
+      "text": " Usually written as 64 hex digits like this."
+    },
+    {
+      "end": "00:01:30.824",
+      "start": "00:01:26.420",
+      "text": " Let me tell you about two things that make this function really interesting and useful."
+    },
+    {
+      "end": "00:01:34.895",
+      "start": "00:01:30.824",
+      "text": " First of all, the only time you ever end up with the same hash"
+    },
+    {
+      "end": "00:01:39.466",
+      "start": "00:01:34.895",
+      "text": " or the same fingerprint is if you started with exactly identical input."
+    },
+    {
+      "end": "00:01:43.870",
+      "start": "00:01:39.466",
+      "text": " There are so many different possible fingerprints that no two inputs have ever"
+    },
+    {
+      "end": "00:01:45.472",
+      "start": "00:01:43.870",
+      "text": " ended up with the same fingerprint."
+    },
+    {
+      "end": "00:01:47.541",
+      "start": "00:01:45.472",
+      "text": " And I mean never in the history of the world."
+    },
+    {
+      "end": "00:01:49.476",
+      "start": "00:01:47.541",
+      "text": " How many different hashes are there?"
+    },
+    {
+      "end": "00:01:55.215",
+      "start": "00:01:49.476",
+      "text": " Two to the 256, which means two multiplied by itself 256 times."
+    },
+    {
+      "end": "00:02:04.358",
+      "start": "00:01:55.315",
+      "text": " Or to be specific, 115 quad-tour via gentilian, 792 Tresp via gentilian, 89 dual via gentilian, 230,"
+    },
+    {
+      "end": "00:02:06.193",
+      "start": "00:02:05.158",
+      "text": " you get the idea."
+    },
+    {
+      "end": "00:02:11.798",
+      "start": "00:02:06.193",
+      "text": " Another interesting property of this function is that it's designed to have the butterfly effect built in"
+    },
+    {
+      "end": "00:02:16.436",
+      "start": "00:02:11.798",
+      "text": " such that changing the input just a little bit completely changes the output."
+    },
+    {
+      "end": "00:02:17.704",
+      "start": "00:02:16.436",
+      "text": " Let me show you an example."
+    },
+    {
+      "end": "00:02:18.739",
+      "start": "00:02:17.704",
+      "text": " Here's a picture I took."
+    },
+    {
+      "end": "00:02:23.143",
+      "start": "00:02:18.739",
+      "text": " It's 1000 by 1000 pixels and the file is 24 million bits long."
+    },
+    {
+      "end": "00:02:26.813",
+      "start": "00:02:23.143",
+      "text": " When I run this through the Shock 256 algorithm, it outputs this hash."
+    },
+    {
+      "end": "00:02:29.850",
+      "start": "00:02:26.813",
+      "text": " Now watch what happens when I change one single bit in the input."
+    },
+    {
+      "end": "00:02:32.586",
+      "start": "00:02:29.850",
+      "text": " I'm going to zoom in to this pixel on the telephone pole"
+    },
+    {
+      "end": "00:02:35.622",
+      "start": "00:02:32.586",
+      "text": " and change the green value by changing this 0 to a 1."
+    },
+    {
+      "end": "00:02:39.059",
+      "start": "00:02:35.622",
+      "text": " Now I rerun the algorithm and I get a completely different output."
+    },
+    {
+      "end": "00:02:43.797",
+      "start": "00:02:39.059",
+      "text": " And that's from changing just one single bit out of more than 24 million bits."
+    },
+    {
+      "end": "00:02:48.168",
+      "start": "00:02:43.797",
+      "text": " So these properties make Shock 256 useful for all kinds of applications."
+    },
+    {
+      "end": "00:02:51.371",
+      "start": "00:02:48.168",
+      "text": " Cryptography, digital signatures, authentication."
+    },
+    {
+      "end": "00:02:53.373",
+      "start": "00:02:51.471",
+      "text": " Oh, and there's bitcoin."
+    },
+    {
+      "end": "00:02:54.107",
+      "start": "00:02:53.373",
+      "text": " More in a minute."
+    },
+    {
+      "end": "00:02:56.276",
+      "start": "00:02:54.107",
+      "text": " Beyond the usefulness of this algorithm,"
+    },
+    {
+      "end": "00:02:59.613",
+      "start": "00:02:56.276",
+      "text": " I think some of the philosophical consequences are amazing to think about."
+    },
+    {
+      "end": "00:03:05.052",
+      "start": "00:02:59.613",
+      "text": " First of all, it's possible for you to see a number that literally no one else in human history has"
+    },
+    {
+      "end": "00:03:06.019",
+      "start": "00:03:05.052",
+      "text": " ever seen before."
+    },
+    {
+      "end": "00:03:11.458",
+      "start": "00:03:06.019",
+      "text": " All you have to do is take a picture with some randomness in it and then calculate the Shock 256 hash."
+    },
+    {
+      "end": "00:03:16.430",
+      "start": "00:03:11.458",
+      "text": " So ladies and gentlemen, here's the world premiere of this number that I just made from that picture."
+    },
+    {
+      "end": "00:03:17.931",
+      "start": "00:03:16.430",
+      "text": " It's never been seen before."
+    },
+    {
+      "end": "00:03:22.903",
+      "start": "00:03:18.031",
+      "text": " Also, I think it's cool that here's a mathematical function that anyone can do on their computer,"
+    },
+    {
+      "end": "00:03:27.207",
+      "start": "00:03:22.903",
+      "text": " but no one has any idea how to do the reverse of this function."
+    },
+    {
+      "end": "00:03:28.341",
+      "start": "00:03:27.207",
+      "text": " How do we know?"
+    },
+    {
+      "end": "00:03:30.811",
+      "start": "00:03:28.341",
+      "text": " Because there are billions of dollars at stake."
+    },
+    {
+      "end": "00:03:34.915",
+      "start": "00:03:30.811",
+      "text": " You see, Shock 256 is a key part of the bitcoin protocol."
+    },
+    {
+      "end": "00:03:36.650",
+      "start": "00:03:34.915",
+      "text": " If you could reverse the algorithm,"
+    },
+    {
+      "end": "00:03:40.987",
+      "start": "00:03:36.650",
+      "text": " you could mine bitcoin faster than anyone else and make a lot of money."
+    },
+    {
+      "end": "00:03:44.991",
+      "start": "00:03:40.987",
+      "text": " In order to mine bitcoin, all you have to do is find an input that produces a"
+    },
+    {
+      "end": "00:03:48.829",
+      "start": "00:03:44.991",
+      "text": " Shock 256 output with 70-something zeros at the beginning."
+    },
+    {
+      "end": "00:03:54.101",
+      "start": "00:03:48.829",
+      "text": " But since there's no known formula, the best anyone can do is do it by brute force,"
+    },
+    {
+      "end": "00:03:58.271",
+      "start": "00:03:54.101",
+      "text": " which means just trying a bunch of different inputs until they find something that works."
+    },
+    {
+      "end": "00:04:03.310",
+      "start": "00:03:58.271",
+      "text": " Now I said before, it's impossible to find an input that matches a specific hash fingerprint."
+    },
+    {
+      "end": "00:04:07.380",
+      "start": "00:04:03.310",
+      "text": " And that's true, but bitcoin mining only requires that you find a hash that's close,"
+    },
+    {
+      "end": "00:04:08.982",
+      "start": "00:04:07.380",
+      "text": " not an exact match."
+    },
+    {
+      "end": "00:04:14.020",
+      "start": "00:04:08.982",
+      "text": " In fact, the difficulty can be adjusted up or down to make it such that about every 10 minutes,"
+    },
+    {
+      "end": "00:04:18.592",
+      "start": "00:04:14.020",
+      "text": " someone somewhere finds a match, earning themselves 12.5 bitcoins,"
+    },
+    {
+      "end": "00:04:22.095",
+      "start": "00:04:18.592",
+      "text": " which is somewhere between $12 and $12 million."
+    },
+    {
+      "end": "00:04:25.232",
+      "start": "00:04:22.095",
+      "text": " Also, that's why I think it's the most popular algorithm on earth,"
+    },
+    {
+      "end": "00:04:28.268",
+      "start": "00:04:25.232",
+      "text": " or maybe I should say the most commonly computed algorithm on earth."
+    },
+    {
+      "end": "00:04:33.140",
+      "start": "00:04:28.268",
+      "text": " In the race to mine bitcoin, special computers have been built just for running Shock 256"
+    },
+    {
+      "end": "00:04:34.808",
+      "start": "00:04:33.140",
+      "text": " as fast as possible."
+    },
+    {
+      "end": "00:04:35.709",
+      "start": "00:04:34.808",
+      "text": " How fast?"
+    },
+    {
+      "end": "00:04:39.146",
+      "start": "00:04:35.709",
+      "text": " Well, if you add up all of the bitcoin miners and all of the world,"
+    },
+    {
+      "end": "00:04:41.381",
+      "start": "00:04:39.146",
+      "text": " they're currently doing 60 trillion hashes."
+    },
+    {
+      "end": "00:04:43.150",
+      "start": "00:04:41.448",
+      "text": " No wait, 60 quadrillion."
+    },
+    {
+      "end": "00:04:47.220",
+      "start": "00:04:43.150",
+      "text": " No, 60 quintillion hashes per day mining bitcoin."
+    },
+    {
+      "end": "00:04:48.822",
+      "start": "00:04:47.220",
+      "text": " Oh wait, I'm wrong again."
+    },
+    {
+      "end": "00:04:54.027",
+      "start": "00:04:48.822",
+      "text": " Not 60 quintillion per day, not per hour, not per minute, but per second."
+    },
+    {
+      "end": "00:05:00.267",
+      "start": "00:04:54.027",
+      "text": " That's right, Shock 256 is run 60 quintillion times per second all day every day."
+    },
+    {
+      "end": "00:05:04.838",
+      "start": "00:05:00.267",
+      "text": " So yes, I think it's fair to say that Shock 256 is the most popular algorithm."
+    },
+    {
+      "end": "00:05:08.975",
+      "start": "00:05:04.838",
+      "text": " I mean, unless you count adding and multiplying, which are parts of Shock 256,"
+    },
+    {
+      "end": "00:05:11.311",
+      "start": "00:05:09.075",
+      "text": " maybe it's the most popular big algorithm."
+    },
+    {
+      "end": "00:05:14.981",
+      "start": "00:05:11.311",
+      "text": " Actually, I suppose there might be some digital signal processing algorithms,"
+    },
+    {
+      "end": "00:05:16.983",
+      "start": "00:05:14.981",
+      "text": " like Fourier transforms that beat it."
+    },
+    {
+      "end": "00:05:21.054",
+      "start": "00:05:16.983",
+      "text": " But more than 60 quintillion times per second, I don't know."
+    },
+    {
+      "end": "00:05:25.225",
+      "start": "00:05:21.054",
+      "text": " Anyway, all of this is good evidence that no one has figured out a shortcut,"
+    },
+    {
+      "end": "00:05:28.428",
+      "start": "00:05:25.225",
+      "text": " because there's a huge financial incentive to do so."
+    },
+    {
+      "end": "00:05:32.666",
+      "start": "00:05:28.428",
+      "text": " Or maybe they have, but they just know not to kill the goose laying the golden eggs"
+    },
+    {
+      "end": "00:05:34.501",
+      "start": "00:05:32.666",
+      "text": " and they're slowly collecting bitcoins."
+    },
+    {
+      "end": "00:05:38.338",
+      "start": "00:05:35.135",
+      "text": " Or maybe there's some kind of secretive government organization"
+    },
+    {
+      "end": "00:05:39.873",
+      "start": "00:05:38.338",
+      "text": " hiding the truth from the populace."
+    },
+    {
+      "end": "00:05:42.108",
+      "start": "00:05:40.507",
+      "text": " Let's see, who invented bitcoin?"
+    },
+    {
+      "end": "00:05:44.177",
+      "start": "00:05:42.909",
+      "text": " Nobody knows what?"
+    },
+    {
+      "end": "00:05:46.913",
+      "start": "00:05:44.911",
+      "text": " And who designed Shock 256?"
+    },
+    {
+      "end": "00:05:48.014",
+      "start": "00:05:47.214",
+      "text": " See the NSA?"
+    },
+    {
+      "end": "00:05:49.049",
+      "start": "00:05:48.014",
+      "text": " Who are they?"
+    },
+    {
+      "end": "00:05:51.318",
+      "start": "00:05:49.049",
+      "text": " United States National Security Agency?"
+    },
+    {
+      "end": "00:05:54.254",
+      "start": "00:05:52.352",
+      "text": " Uh-oh, I think I better go now."
+    },
+    {
+      "end": "00:05:55.789",
+      "start": "00:05:54.254",
+      "text": " Thanks for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Matthew Weathers",
+  "youtube_channel_follower_count": 648000,
+  "youtube_comment_count": 4400,
+  "youtube_description": "No one on Earth knows how to reverse one of the most popular computer algorithms. Yet it's really easy to compute one-way. You could make billions of dollars if you solved this mathematics problem, which is computed quintillions of times per second in the race for mining Bitcoin. SHA256 has some amazing properties, is useful for digital signatures, cryptography, authentication, and is a central part of the Bitcoin protocol.\n\n(**** UPDATE 2021: After two years, I've finally posted a follow-up video, an introduction to Bitcoin. You can find it here: https://youtu.be/LzhJjSRad5A )\n\nBitcoin and other \"crypto-currencies\" rely on one-way hash functions like the SHA-256 algorithm to secure the blockchain where all the transactions are kept.\n\nIn this video, I explain some of the big-picture ideas behind this one function. Other cryptocurrencies use similar ideas.\n\nComments, suggestions, or errors? Let me know in the comments, and I'll fix them in an upcoming follow-up video.\n\nTake a look at some of my other videos:  https://www.youtube.com/playlist?list=PL625C69DF58409759\n\n---- Links ------\nWikipedia about SHA-256:\nhttps://en.wikipedia.org/wiki/SHA-2\n\nCurrent Bitcoin difficulty:\nhttps://www.coinwarz.com/difficulty-charts/bitcoin-difficulty-chart\n\nBig number calculator:\nhttps://defuse.ca/big-number-calculator.htm\n\n---- Credits ----\nBitCoin & Money Photo:\nCopy Link to Credit: (CC-BY 4.0) Cryprocurrency360.com\nhttps://www.flickr.com/photos/bitcoin-crypto/41063960960\n\nBitcoin mining farm: \n(CC-BY 2.0) Marko Ahtisaari - https://www.flickr.com/photos/moia/\n\nFourier Transform Graph:\n(CC-BY 4.0) Jake\nhttp://pgfplots.net/tikz/examples/author/jake/\n\nWikipedia Hash Function Algorithm illustrations:\nhttps://en.wikipedia.org/wiki/SHA-2\n(CC-BY-SA)",
+  "youtube_like_count": 81809,
+  "youtube_tags": [
+    "bitcoin",
+    "hash function",
+    "cryptography",
+    "crypto",
+    "algorith",
+    "math"
+  ],
+  "youtube_title": "The unsolved math problem which could be worth a billion dollars.",
+  "youtube_upload_date": "20190711",
+  "youtube_view_count": 2490329
+}

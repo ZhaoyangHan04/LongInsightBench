@@ -1,0 +1,1285 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short, dark, curly hair, wearing a dark grey t-shirt.",
+        "name": "Abhishek"
+      }
+    ],
+    "description": "An analysis of a video explaining Twitter's recommendation system, detailing scenes, character interactions, and other elements.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "A tweet by Elon Musk is shown.",
+        "question": "In the Candidate Sources section, what example is used to illustrate the concept?"
+      },
+      {
+        "answer": "SimCluster.",
+        "question": "What is the name of the algorithm used to form 'communities' in Embedding Spaces?"
+      },
+      {
+        "answer": "Approximately 48 million.",
+        "question": "How many parameters does the ranking neural network have?"
+      },
+      {
+        "answer": "Under 1.5 seconds.",
+        "question": "What is the average time it takes for the entire Home Page pipeline to run?"
+      },
+      {
+        "answer": "It highlights how Twitter's recommendation system aims to deliver both personally relevant content (from people you follow) and broader content discovery (from outside your network), showcasing its unique approach to social media content recommendations.",
+        "question": "How does the information about candidate sourcing from both 'in-network' and 'out-of-network' contribute to the overall message of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Abhishek greets the audience, introduces the channel, and the topic of the video.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Introduction to the topic",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited, Happy. Abhishek's energetic delivery and welcoming tone create a positive and engaging atmosphere.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek introduces the topic of the video - Twitter's recommendation system.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The introduction sets the stage for discussing the Twitter recommendation system.",
+        "timestamps": {
+          "end_timestamp": "00:00:24.133",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Red graphic overlay with \"DATATREK, SUBSCRIBE, LIKE\" appears over the video.",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to a slide with the title \"Twitter Recommendation System\"",
+            "timestamps": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "Transition to a slide with the title \"Twitter Algorithm\"",
+            "timestamps": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek explains the basics of the Twitter Algorithm and how it personalizes the \"For You\" timeline.",
+            "timestamp": {
+              "end_timestamp": "00:00:52.800",
+              "start_timestamp": "00:00:24.167"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Explaining the Twitter algorithm",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Content. The use of slides and visuals supports the explanation, creating an informative and focused mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek provides a high-level overview of the Twitter algorithm and its personalization aspect.",
+            "timestamp": "00:00:24.167"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:00:52.800",
+              "start_timestamp": "00:00:24.167"
+            }
+          },
+          {
+            "name": "images of Twitter app on a mobile phone",
+            "timestamp": {
+              "end_timestamp": "00:00:52.800",
+              "start_timestamp": "00:00:24.167"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Overview of Twitter algorithm and its personalization aspect.",
+        "timestamps": {
+          "end_timestamp": "00:00:52.800",
+          "start_timestamp": "00:00:24.167"
+        },
+        "title": "Twitter Algorithm Overview",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"Twitter Algorithm\" and bullet points describing it.",
+            "timestamps": {
+              "end_timestamp": "00:00:52.800",
+              "start_timestamp": "00:00:24.167"
+            }
+          },
+          {
+            "description": "Transition to a slide with title \"Recommender System Setup\"",
+            "timestamps": {
+              "end_timestamp": "00:00:52.800",
+              "start_timestamp": "00:00:24.167"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek explains the 3 stages of Twitter's Recommender System: Candidate Sourcing, Ranking using ML Model, and Applying heuristics and filters.",
+            "timestamp": {
+              "end_timestamp": "00:01:54.833",
+              "start_timestamp": "00:00:53.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Explaining the structure of the recommender system",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Content. The combination of clear explanations and the diagram makes the complex system easier to understand.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek delves deeper into the structure of the recommender system, focusing on its three key stages.",
+            "timestamp": "00:00:53.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:01:54.833",
+              "start_timestamp": "00:00:53.000"
+            }
+          },
+          {
+            "name": "a diagram showing the flow of tweets through the recommender system",
+            "timestamp": {
+              "end_timestamp": "00:01:54.833",
+              "start_timestamp": "00:00:53.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Detailed explanation of the recommender system's structure.",
+        "timestamps": {
+          "end_timestamp": "00:01:54.833",
+          "start_timestamp": "00:00:52.833"
+        },
+        "title": "Recommender System Setup",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"Recommender System Setup\" with bullet points and a diagram illustrating the system.",
+            "timestamps": {
+              "end_timestamp": "00:01:54.833",
+              "start_timestamp": "00:00:53.000"
+            }
+          },
+          {
+            "description": "Transition to a slide with the title \"Candidate Sources.\"",
+            "timestamps": {
+              "end_timestamp": "00:01:54.833",
+              "start_timestamp": "00:00:53.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek focuses on the first stage: Candidate Sourcing, highlighting the 50/50 split between \"In-Network\" and \"Out-of-Network\" tweet sources.",
+            "timestamp": {
+              "end_timestamp": "00:02:38.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Explaining Candidate Sourcing in the recommender system",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Content. The breakdown of Candidate Sourcing and the use of an Elon Musk tweet example keep the audience engaged.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek elaborates on Candidate Sourcing, explaining the crucial difference between \"in-network\" and \"out-of-network\" sources.",
+            "timestamp": "00:01:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:02:38.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          },
+          {
+            "name": "example tweet from Elon Musk",
+            "timestamp": {
+              "end_timestamp": "00:02:38.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "The 50/50 split highlights Twitter's unique approach to content discovery by emphasizing content from outside a user's direct network.",
+        "timestamps": {
+          "end_timestamp": "00:02:38.000",
+          "start_timestamp": "00:01:54.867"
+        },
+        "title": "Candidate Sourcing Explained",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"Candidate Sources\" and bullet point description.",
+            "timestamps": {
+              "end_timestamp": "00:02:38.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          },
+          {
+            "description": "Transition to a slide with title \"In-Network Source Tweets\"",
+            "timestamps": {
+              "end_timestamp": "00:02:38.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek explains how Twitter uses a Logistic Regression Model and the Real Graph to rank tweets from users you follow.",
+            "timestamp": {
+              "end_timestamp": "00:03:23.800",
+              "start_timestamp": "00:02:38.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Explaining In-Network Sourcing in the recommender system",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Content.  Abhishek continues to provide detailed information on a specific aspect of the system.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek explains the methods used for ranking \"in-network\" tweets, focusing on Logistic Regression and Real Graph algorithms.",
+            "timestamp": "00:02:38.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:03:23.800",
+              "start_timestamp": "00:02:38.033"
+            }
+          },
+          {
+            "name": "image of a hand holding a phone with the Twitter app open",
+            "timestamp": {
+              "end_timestamp": "00:03:23.800",
+              "start_timestamp": "00:02:38.033"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "In-depth explanation of ranking \"in-network\" tweets.",
+        "timestamps": {
+          "end_timestamp": "00:03:23.800",
+          "start_timestamp": "00:02:38.033"
+        },
+        "title": "In-Network Sourcing",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"In-Network Source Tweets\" and bullet points explaining the process.",
+            "timestamps": {
+              "end_timestamp": "00:03:23.800",
+              "start_timestamp": "00:02:38.033"
+            }
+          },
+          {
+            "description": "Transition to a slide with title \"Out-of-Network Source Tweets (Social Graph).\"",
+            "timestamps": {
+              "end_timestamp": "00:03:23.800",
+              "start_timestamp": "00:02:38.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek introduces the two approaches Twitter uses for \"Out-of-Network\" sourcing: Social Graph and Embedding Spaces. He then focuses on Social Graph and its use of GraphJet (another Graph model) to analyze engagement and find relevant tweets.",
+            "timestamp": {
+              "end_timestamp": "00:04:21.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Explaining Out-of-Network Sourcing using Social Graph in the recommender system",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Content. The visual of the social graph aids in understanding the complex concepts.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek shifts to \"out-of-network\" sourcing, first explaining the Social Graph approach and how it leverages another graph model called GraphJet.",
+            "timestamp": "00:03:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:04:21.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          },
+          {
+            "name": "an illustration of a network/social graph with multiple nodes",
+            "timestamp": {
+              "end_timestamp": "00:04:21.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Explanation of Social Graph emphasizes Twitter's focus on relevant content from beyond immediate circles.",
+        "timestamps": {
+          "end_timestamp": "00:04:21.167",
+          "start_timestamp": "00:03:23.833"
+        },
+        "title": "Out-of-Network Sourcing (Social Graph)",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"Out-of-Network Source Tweets (Social Graph)\" and bullet points explaining the approach.",
+            "timestamps": {
+              "end_timestamp": "00:04:21.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          },
+          {
+            "description": "Transition to a slide with title \"Out-of-Network Source Tweets (Embedding Spaces).\"",
+            "timestamps": {
+              "end_timestamp": "00:04:21.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek explains the concept of Embedding Spaces, generating numerical representations of users and tweets in \"community space\" using the SimCluster algorithm.",
+            "timestamp": {
+              "end_timestamp": "00:06:39.900",
+              "start_timestamp": "00:04:21.200"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Explaining Out-of-Network Sourcing using Embedding Spaces in the recommender system",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Content. Abhishek's continued enthusiasm and clear explanations help maintain audience engagement with this more complex technical topic.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek explains the second approach for \"out-of-network\" sourcing - Embedding Spaces, detailing its use of the SimCluster algorithm and \"community space\" concept.",
+            "timestamp": "00:04:21.200"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:06:39.900",
+              "start_timestamp": "00:04:21.200"
+            }
+          },
+          {
+            "name": "an illustration showing user/tweet clusters within a community space",
+            "timestamp": {
+              "end_timestamp": "00:06:39.900",
+              "start_timestamp": "00:04:21.200"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Embedding Spaces approach highlights Twitter's use of machine learning for interest discovery.",
+        "timestamps": {
+          "end_timestamp": "00:06:39.900",
+          "start_timestamp": "00:04:21.200"
+        },
+        "title": "Out-of-Network Sourcing (Embedding Spaces)",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"Out-of-Network Source Tweets (Embedding Spaces)\" and bullet point explanations.",
+            "timestamps": {
+              "end_timestamp": "00:06:39.900",
+              "start_timestamp": "00:04:21.200"
+            }
+          },
+          {
+            "description": "Transition to a slide with the title \"Ranking using ML Model.\"",
+            "timestamps": {
+              "end_timestamp": "00:06:39.900",
+              "start_timestamp": "00:04:21.200"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek describes the final ranking stage, where a 48 million parameter neural network is used to rank candidate tweets and predict engagement probability (likes, retweets, replies).",
+            "timestamp": {
+              "end_timestamp": "00:07:10.967",
+              "start_timestamp": "00:06:40.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Describing the neural network ranking process",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Content. The visual representation of a neural network helps the audience visualize this complex process.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek explains how the final ranking of candidate tweets is done using a powerful neural network.",
+            "timestamp": "00:06:40.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:07:10.967",
+              "start_timestamp": "00:06:40.000"
+            }
+          },
+          {
+            "name": "diagram of a neural network with nodes",
+            "timestamp": {
+              "end_timestamp": "00:07:10.967",
+              "start_timestamp": "00:06:40.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Highlighting Twitter's advanced neural network for ranking tweets.",
+        "timestamps": {
+          "end_timestamp": "00:07:10.967",
+          "start_timestamp": "00:06:39.933"
+        },
+        "title": "Ranking using ML Model",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"Ranking using ML Model\" and bullet point explanation of the process.",
+            "timestamps": {
+              "end_timestamp": "00:07:10.967",
+              "start_timestamp": "00:06:40.000"
+            }
+          },
+          {
+            "description": "Transition to a slide with the title \"Filtering & Blending.\"",
+            "timestamps": {
+              "end_timestamp": "00:07:10.967",
+              "start_timestamp": "00:06:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Abhishek discusses the Filtering step (removing tweets from blocked users and ensuring diversity) and the final Blending step (combining ranked tweets with ads, follow recommendations, etc.).",
+            "timestamp": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:07:11.000"
+            }
+          },
+          {
+            "description": "Abhishek concludes the video, summarizing the system, thanking viewers, and encouraging them to like, subscribe, and stay tuned for more updates.",
+            "timestamp": {
+              "end_timestamp": "00:08:16.000",
+              "start_timestamp": "00:07:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Abhishek"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Abhishek"
+            ],
+            "description": "Abhishek directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Explaining the Filtering and Blending stages and concluding the video",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Content, Happy.  Abhishek provides a concise summary and ends with a positive call to action.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Abhishek explains the last steps in the process - Filtering and Blending - before wrapping up the video.",
+            "timestamp": "00:07:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop with an Apple logo",
+            "timestamp": {
+              "end_timestamp": "00:08:16.000",
+              "start_timestamp": "00:07:11.000"
+            }
+          },
+          {
+            "name": "image of the Twitter app on a mobile phone",
+            "timestamp": {
+              "end_timestamp": "00:08:16.000",
+              "start_timestamp": "00:07:11.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Summarizing the recommendation system with a focus on final touches.",
+        "timestamps": {
+          "end_timestamp": "00:08:16.700",
+          "start_timestamp": "00:07:11.000"
+        },
+        "title": "Filtering & Blending",
+        "videoEditingDetails": [
+          {
+            "description": "Slide with title \"Filtering & Blending\" and bullet points explaining the final processes.",
+            "timestamps": {
+              "end_timestamp": "00:08:16.000",
+              "start_timestamp": "00:07:11.000"
+            }
+          },
+          {
+            "description": "Transition to an ending slide with \"DATATREK, SUBSCRIBE, LIKE, SHARE, COMMENT\" and social media links.",
+            "timestamps": {
+              "end_timestamp": "00:08:16.000",
+              "start_timestamp": "00:07:11.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax of the video occurs in Scene 8 when the sophisticated ranking neural network is described, highlighting the power of Twitter's recommendation system.",
+        "timestamp": "00:06:40.000"
+      },
+      "description": "Explore Twitter's recommendation system.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "title": "Twitter Recommendation System Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be slightly trimmed by condensing the explanations of Logistic Regression and Real Graph.",
+        "timestamps": {
+          "end_timestamp": "00:07:11.000",
+          "start_timestamp": "00:07:11.000"
+        }
+      },
+      {
+        "description": "Could be shortened by focusing on the core concept of community embeddings and using a more concise illustration.",
+        "timestamps": {
+          "end_timestamp": "00:07:11.000",
+          "start_timestamp": "00:07:11.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 497,
+  "original_json_filename": "IhGq9jgcxFM.json",
+  "original_video_filename": "IhGq9jgcxFM.mp4",
+  "resolution": "576x360",
+  "text_to_speech": "hey guys welcome to data check your money stock channel for all the data science and machine learning updates in today's video we look at Twitter recommendation system Twitter recently open sourced its code base and also published the blog highlighting the main components we'll go through the blog at high level and as well as try to understand how the recommendation system at Twitter is different from other social media platforms intuitively so let's get started there are many areas of the app where tweets are recommended like search explore and ads the recommendation system filters out a small set of tweets top tweets from approximately 500 million to its that are posted every day and these are displayed on device for you timeline so basically we are talking about the personalization that out of 500 billion quizlets are posted every day a few tweets which may be more relevant to the users are personalized and displayed therefore you timeline which is the home page and the recommendation system setup like any other recommender system the Twitter's recommended system also consists of three main stages one is candidate sourcing which is the retrieval layer where the best Tweets from different recommendations sources are retrieved Then followed by a ranking where ml model ranks these two its advances what should be the ordering at which they should be displayed to the users in their home page and also third stage is applying some heuristic and filters like filtering to its from blogged or muted users and balancing a good mix up to it so it doesn't happen same type of tweet or same type of content is repeating right so it's like different mix or diversity is there in the home feed and also appreciative user has provided some negative feedback that he doesn't like to see this tweet or this kind of tweet or tweet for a particular user so appreciate those feedbacks and so the Final Fix so tweets are there 500 billion quiz then 10 rate generator Source a bunch of tweets which are ranked by the ranker and followed by some heuristic and filters is shown in the home page finally uh next is the candidate sources so uh the retrieval layer right so candidate sourcing sources 1500 to its 50 from people you follow it is your in network at 50 from people you don't follow out of network and this is where the difference between Twitter and other social media platform uh lives so basically other social media platform like Facebook Instagram they show more content from your clients but Twitter since it's a social media where you try to understand what is happening around the world and topics that you are interested but the influencers are saying on that about that that's why it's important to have more uh candidate or tweets or candidate sources from out of network as well so 50 from any network people you following 50 from people you don't follow out of network and now let's understand how an in-network sourcing happens right for the getting the in network tweets the in network Source uses a logistic regression model and a real graph this is a graph algorithm of Twitter to rank twitch from user you follow so it uses the logistic regulation in real graph to rank twitch from user you for the in network the logistic person model efficiently ranks to its based on their relevance while the real graph predicts the likelihood of Engagement between two users and help privatize tweets from those to your stronger connection with so basically the real graph model will try to push up the tweets of the users we follow and you have stronger connection with while logistic regression will finally rank all these uh twitch and 750 of them will be sent to the anchor because the next 750 will come from the out Network now understanding the out of network Source tweets Twitter uses two approaches to find relevant to its outside user social network one is social graph another is embedding spaces social graph estimates relevance by analyzing the engagement of people you follow or those with similar interests using graph jet which is another graph model of Twitter so basically the people you follow what are they engaging uh and also the interest you have what are other users with similar interests that are engaging with this kind of content which are not directly in your network but uh people of your network are engaging with or people with similar interest on engaging with our sourced and this is them using it without jet graph jet tweeters graph model it generates candidates tweets based on decent engagement any recent activities have happened that also are taken care of and ranks them using a logistic relation model so this is how the out of network one part of it the social draft boards the other part is embedding spaces because embeddings are very hot these days and they are very useful in uh like once you have the embedded representation of users to H into approximate nearest neighbor to find the relevant tweets and also next is the embedding space in the embedding spaces uh we need to generate numeric representation of users and Tweets in community space so basically users at which needs to be represented as a vector right on which we can do an approximate nearest neighbor search so embedding space generate numerical representation of users at which in community space now what is this community tweeters has a has a algorithm called same cluster Twitter Sim cluster algorithm discovers Community is anchored by influencer users using a custom metric separation algorithm so basically all the influencers the main celebrities they are uh clustered into communities for example here you can see this is a community of pop this is a community of news there is a community of something else and so on so all these influencers who have like mold followers who uh people consider as celebrities they are requested into communities and then uh all the users and tweets are embedded or the embeddings are generated in this community space which is around 10 or 5 communities is what the block says now that the next point is as I was saying users and tweets are embedded into this community space or Community Dimension so the idea of this is that users can be there there are almost uh 205 million which is uh 20.5 crore users uh data daily active in Twitter but we need to represent them in a condensed way and that condensed way is the community those communities are around ten two or five one lakh so when it is 0.1 million communities is what the block says so this user sent to it's an embedded into smaller space which is the community space and it's very easy to embed them into this space because tweets are embedded into these communities by looking at their current popularity in each Community right similarly users can be embedded into communities based on their Affinity towards Community a user can be interested in pop-up news and maybe UFC something like that right so a user can be interested in dozen of communities and his uh uh value of those Dimension representing those communities will be high right so in this way to its end users are embedded into the community Dimension or community space finally there is the ranking model because their retrieval has happened and as well as from in network out Network the retrieval has happened next step is the ranking I'm using ml model 1500 candidate sourced that is from in network out Network are running through a 48 million parameter neural network that is continuously trained on tweet interactions taking into account thousands of features to predict the engagement probability that what is the probability of user liking retweeting or replying to it to its own which are higher probability those will come higher in the home field of user and after candidate sourcing ranking there is a filtering step and blending step in filtering as we have already quickly touched before after adding heuristics and filters are applied to filter outputs from blogged or muted users and also a good mix up to it so that not same kind of content is getting repeated is done and at the last step after filtering the system Blends together twitch with other non-tweet content like ads or follow recommendations I'm going to follow and onboarding prompts which are returned to user device to display so finally the ranked content is Blended with ads follow recommendations and onboarding prompts so the home page pipeline runs 5 billion times per day and completes in another 1.5 seconds on average so this is how the these are the recommendation system at Twitter works there is a retrieval layer which is candidate sourcing both from in network and out Network followed by a ranker and Then followed by filtering and heuristics and finally blending it uh ads follow recommendations and other recommendation which is shown to the user in their home feed hopefully this will was helpful to you please like And subscribe and also stay tuned for more such updates bye",
+  "text_to_speech_word_count": 1562,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.867",
+      "start": "00:00:00.000",
+      "text": " Hey guys welcome to RetaTract your one stop channel for all the data science and machine learning updates."
+    },
+    {
+      "end": "00:00:07.667",
+      "start": "00:00:04.867",
+      "text": " In today's video we look at Twitter recommendation system."
+    },
+    {
+      "end": "00:00:13.500",
+      "start": "00:00:07.667",
+      "text": " Twitter recently open sourced its code base and also published a blog highlighting the main components."
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:13.500",
+      "text": " We will go through the blog at high level and as well as try to understand how the"
+    },
+    {
+      "end": "00:00:22.800",
+      "start": "00:00:18.000",
+      "text": " recommendation system at Twitter is different from other social media that forms intuitively."
+    },
+    {
+      "end": "00:00:23.900",
+      "start": "00:00:22.800",
+      "text": " So let's get started."
+    },
+    {
+      "end": "00:00:28.867",
+      "start": "00:00:24.867",
+      "text": " There are many areas of the app where tweets are recommended like search,"
+    },
+    {
+      "end": "00:00:30.133",
+      "start": "00:00:28.867",
+      "text": " explore and add."
+    },
+    {
+      "end": "00:00:33.900",
+      "start": "00:00:30.133",
+      "text": " The recommendation system filters out a small set of tweets,"
+    },
+    {
+      "end": "00:00:38.633",
+      "start": "00:00:33.900",
+      "text": " top tweets from approximately 500 million tweets that are posted every day and these are"
+    },
+    {
+      "end": "00:00:40.867",
+      "start": "00:00:38.633",
+      "text": " displayed on device for you timeline."
+    },
+    {
+      "end": "00:00:44.133",
+      "start": "00:00:40.867",
+      "text": " So basically you are talking about the personalization that out of 500 million tweets"
+    },
+    {
+      "end": "00:00:45.200",
+      "start": "00:00:44.133",
+      "text": " are posted every day."
+    },
+    {
+      "end": "00:00:49.733",
+      "start": "00:00:45.200",
+      "text": " A few tweets which may be more relevant to the users are personalized and displayed in"
+    },
+    {
+      "end": "00:00:57.167",
+      "start": "00:00:49.733",
+      "text": " there for you timeline which is the homepage and the recommendation system set up like any other"
+    },
+    {
+      "end": "00:01:01.733",
+      "start": "00:00:57.167",
+      "text": " recommended system the Twitter's recommended system also consists of three main stages."
+    },
+    {
+      "end": "00:01:05.667",
+      "start": "00:01:01.733",
+      "text": " One is candidate sourcing which is the retrieval year where the best tweets from different"
+    },
+    {
+      "end": "00:01:12.000",
+      "start": "00:01:05.667",
+      "text": " recommendations sources are retrieved then followed by ranking their ML model ranks these tweets"
+    },
+    {
+      "end": "00:01:16.633",
+      "start": "00:01:12.000",
+      "text": " but should be the ordering at which they should be displayed to the users in their homepage."
+    },
+    {
+      "end": "00:01:21.833",
+      "start": "00:01:16.700",
+      "text": " And also third stages applying some legal filters like filtering tweets from"
+    },
+    {
+      "end": "00:01:25.500",
+      "start": "00:01:21.833",
+      "text": " blogged or muted users and balancing a good mix of tweets so it doesn't happen"
+    },
+    {
+      "end": "00:01:30.000",
+      "start": "00:01:25.500",
+      "text": " same type of content is repeating right so it's like different"
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:30.633",
+      "text": " mix or diversity is there in the home feed and also appreciate it."
+    },
+    {
+      "end": "00:01:38.233",
+      "start": "00:01:34.000",
+      "text": " The user has provided some negative feedback that users are like to see this tweet or this kind"
+    },
+    {
+      "end": "00:01:43.200",
+      "start": "00:01:38.233",
+      "text": " of tweet or tweet from a particular user so appreciate those feedbacks and so the final"
+    },
+    {
+      "end": "00:01:48.867",
+      "start": "00:01:43.267",
+      "text": " tweets are there 500 million tweets then 10-rate generator source a bunch of tweets which are"
+    },
+    {
+      "end": "00:01:54.300",
+      "start": "00:01:48.867",
+      "text": " ranked by the ranker and followed by some futuristic and filters it's shown in the homepage finally."
+    },
+    {
+      "end": "00:02:01.667",
+      "start": "00:01:56.400",
+      "text": " Next is the candidate sources so the retrieval year right so candidate sourcing sources"
+    },
+    {
+      "end": "00:02:07.200",
+      "start": "00:02:01.667",
+      "text": " 1500 tweets 50% from people you follow it is your in-network and 50% from people you don't"
+    },
+    {
+      "end": "00:02:12.000",
+      "start": "00:02:07.200",
+      "text": " follow out of network and this is where the difference between Twitter and other social media platform"
+    },
+    {
+      "end": "00:02:17.333",
+      "start": "00:02:13.100",
+      "text": " lies so basically other social media platform like Facebook Instagram is so more content from"
+    },
+    {
+      "end": "00:02:22.633",
+      "start": "00:02:17.333",
+      "text": " your friends but Twitter since it's social media have where you try to understand what is happening"
+    },
+    {
+      "end": "00:02:26.933",
+      "start": "00:02:22.633",
+      "text": " around the world and topics that you are interested but the influencers are saying on that about that"
+    },
+    {
+      "end": "00:02:32.533",
+      "start": "00:02:26.933",
+      "text": " that's why it's important to have more candidate or tweets or source candidate sources from out of"
+    },
+    {
+      "end": "00:02:37.033",
+      "start": "00:02:32.533",
+      "text": " network as well so 50% from in-network people you follow it 50% from people you don't"
+    },
+    {
+      "end": "00:02:42.933",
+      "start": "00:02:37.267",
+      "text": " follow out of network and now let's understand how in-network sourcing happens right for the"
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:42.933",
+      "text": " getting the in-network tweets the in-network source uses a logistic regression model and a real graph"
+    },
+    {
+      "end": "00:02:53.100",
+      "start": "00:02:48.000",
+      "text": " this is a graph algorithm of Twitter to rank tweets from user you follow so it uses a logistic"
+    },
+    {
+      "end": "00:02:57.667",
+      "start": "00:02:53.100",
+      "text": " regression in real graph to rank tweets from user you follow the in-network the logistic"
+    },
+    {
+      "end": "00:03:02.067",
+      "start": "00:02:57.667",
+      "text": " regression model efficiently ranks tweets based on their relevance while the real graph"
+    },
+    {
+      "end": "00:03:06.467",
+      "start": "00:03:02.067",
+      "text": " predicts the likelihood of engagement between two users and help prioritize tweets from those"
+    },
+    {
+      "end": "00:03:11.900",
+      "start": "00:03:06.467",
+      "text": " you have stronger connection with so basically the real graph model will try to push up the tweets"
+    },
+    {
+      "end": "00:03:15.900",
+      "start": "00:03:11.900",
+      "text": " of the users you follow and you have stronger connection with while logistic regression will"
+    },
+    {
+      "end": "00:03:22.867",
+      "start": "00:03:15.900",
+      "text": " finally rank all these tweets and 750 of them will be sent to the anchor because the less 750"
+    },
+    {
+      "end": "00:03:28.300",
+      "start": "00:03:22.867",
+      "text": " will come from the out network now understanding the out of network source tweets Twitter uses two"
+    },
+    {
+      "end": "00:03:33.500",
+      "start": "00:03:28.300",
+      "text": " approaches to find relevant tweets outside user social network one is social graph another is"
+    },
+    {
+      "end": "00:03:39.600",
+      "start": "00:03:33.500",
+      "text": " embedding spaces social graph estimates relevance by analyzing the engagement of people you follow"
+    },
+    {
+      "end": "00:03:44.800",
+      "start": "00:03:40.233",
+      "text": " or those with similar interest using graph which is another graph model of Twitter so basically"
+    },
+    {
+      "end": "00:03:52.067",
+      "start": "00:03:45.900",
+      "text": " the people you follow what are they engaging and also the interest you have what are other users"
+    },
+    {
+      "end": "00:03:57.200",
+      "start": "00:03:52.067",
+      "text": " with similar interest are engaging with this kind of content which are not directly in your network"
+    },
+    {
+      "end": "00:04:02.533",
+      "start": "00:03:57.200",
+      "text": " but people of your network are engaging with or people with similar interest are engaging with"
+    },
+    {
+      "end": "00:04:09.500",
+      "start": "00:04:02.533",
+      "text": " are sourced and this is then using a graph graph graph tweeters graph model it generates candidates"
+    },
+    {
+      "end": "00:04:14.800",
+      "start": "00:04:09.500",
+      "text": " tweets based on recent engagement recent activities happen that also are taken care of and ranks"
+    },
+    {
+      "end": "00:04:20.300",
+      "start": "00:04:14.800",
+      "text": " them using a logistic regression model so this is how the out of network one part of it the social"
+    },
+    {
+      "end": "00:04:25.833",
+      "start": "00:04:20.300",
+      "text": " graph works the other part is embedding spaces because embeddings are very hard these days and they"
+    },
+    {
+      "end": "00:04:31.200",
+      "start": "00:04:25.833",
+      "text": " are very useful in like once you know the embedded representation of users to each you can do"
+    },
+    {
+      "end": "00:04:36.533",
+      "start": "00:04:31.200",
+      "text": " approximate nearest to find relevant tweets and also the next is the embedding space in embedding"
+    },
+    {
+      "end": "00:04:42.133",
+      "start": "00:04:36.533",
+      "text": " spaces we need to generate numeric representation of users and tweets in community space so basically"
+    },
+    {
+      "end": "00:04:48.800",
+      "start": "00:04:42.133",
+      "text": " users and tweets needs to be represented as a vector on which we can do a approximate nearest"
+    },
+    {
+      "end": "00:04:53.500",
+      "start": "00:04:48.800",
+      "text": " number search so embedding space generated numerical representation of users and which in community"
+    },
+    {
+      "end": "00:04:58.867",
+      "start": "00:04:53.500",
+      "text": " space now what is this community? Twitter has a algorithm called sync cluster twitter sync cluster"
+    },
+    {
+      "end": "00:05:03.433",
+      "start": "00:04:58.867",
+      "text": " algorithm discovers communities anchored by influencer users using a custom nettings of"
+    },
+    {
+      "end": "00:05:11.333",
+      "start": "00:05:03.433",
+      "text": " Trison algorithm so basically all the influencers the main celebrities they are clustered into communities"
+    },
+    {
+      "end": "00:05:16.133",
+      "start": "00:05:11.333",
+      "text": " for example here you can see this is a community of pop this is a community of news days a community"
+    },
+    {
+      "end": "00:05:22.400",
+      "start": "00:05:16.133",
+      "text": " of something else and so on so all these influencers who have like mold followers who people"
+    },
+    {
+      "end": "00:05:30.067",
+      "start": "00:05:22.467",
+      "text": " consider as celebrities they are clustered into communities and then all the users and tweets are"
+    },
+    {
+      "end": "00:05:34.933",
+      "start": "00:05:30.067",
+      "text": " embedded or the embeddings are generated in this community space which is around 10 to 5"
+    },
+    {
+      "end": "00:05:40.467",
+      "start": "00:05:34.933",
+      "text": " communities is what the block says now that the next point is as I was saying users and tweets are"
+    },
+    {
+      "end": "00:05:46.700",
+      "start": "00:05:40.467",
+      "text": " embedded into this community space or community dimension so the idea of this is that users can be"
+    },
+    {
+      "end": "00:05:56.133",
+      "start": "00:05:47.200",
+      "text": " there are almost 205 million which is 20.5 crore users that are daily active in twitter"
+    },
+    {
+      "end": "00:06:00.300",
+      "start": "00:05:56.133",
+      "text": " but we need to represent them in a condensed way and that condensed way is the community those"
+    },
+    {
+      "end": "00:06:05.200",
+      "start": "00:06:00.300",
+      "text": " communities are around 10 to 5 were like communities 0.1 million communities is one of the blocks"
+    },
+    {
+      "end": "00:06:09.900",
+      "start": "00:06:05.200",
+      "text": " so these users and tweets are embedded into this smaller space which is the community space"
+    },
+    {
+      "end": "00:06:14.067",
+      "start": "00:06:09.900",
+      "text": " and it's very easy to embed them into this space because tweets are embedded into this communities"
+    },
+    {
+      "end": "00:06:18.633",
+      "start": "00:06:14.067",
+      "text": " by looking at their current popularity in each community right similarly users can be embedded"
+    },
+    {
+      "end": "00:06:23.267",
+      "start": "00:06:18.633",
+      "text": " into communities based on their affinity towards community user can be interested in pop news"
+    },
+    {
+      "end": "00:06:28.233",
+      "start": "00:06:23.267",
+      "text": " and maybe if you have see something like that so the user can be interested in those"
+    },
+    {
+      "end": "00:06:34.767",
+      "start": "00:06:28.233",
+      "text": " of communities and his value of those dimension representing those communities will be"
+    },
+    {
+      "end": "00:06:39.900",
+      "start": "00:06:34.767",
+      "text": " highlighted so in this way tweets and users are embedded into the community dimension or community"
+    },
+    {
+      "end": "00:06:46.400",
+      "start": "00:06:40.867",
+      "text": " finally there is the ranking model because the retrieval has happened and as well as from"
+    },
+    {
+      "end": "00:06:50.867",
+      "start": "00:06:46.400",
+      "text": " in network out network the retrieval has happened next step is the ranking using ML model"
+    },
+    {
+      "end": "00:06:55.833",
+      "start": "00:06:50.867",
+      "text": " 1500 candidate source that is from in network out network are ranked through a 48 million"
+    },
+    {
+      "end": "00:07:00.300",
+      "start": "00:06:55.833",
+      "text": " parameter neural network that is continuously trained on quick interactions they mean to account"
+    },
+    {
+      "end": "00:07:04.700",
+      "start": "00:07:00.300",
+      "text": " thousands of features to predict the engagement probability that what is the probability of"
+    },
+    {
+      "end": "00:07:09.100",
+      "start": "00:07:04.700",
+      "text": " user liking, retweeting or deploying to a tweet so and which are higher probability those"
+    },
+    {
+      "end": "00:07:14.467",
+      "start": "00:07:09.100",
+      "text": " will come higher in the home field of user and after candidate source ranking there is a"
+    },
+    {
+      "end": "00:07:19.900",
+      "start": "00:07:14.467",
+      "text": " filtering step and blending step in filtering as we have already briefly touched before"
+    },
+    {
+      "end": "00:07:24.700",
+      "start": "00:07:20.633",
+      "text": " after ranking hew districts and filters are applied to filter out tweets from blog the"
+    },
+    {
+      "end": "00:07:29.333",
+      "start": "00:07:24.700",
+      "text": " newtid users and also a good mix of tweets so that not same kind of content is getting repeated"
+    },
+    {
+      "end": "00:07:35.267",
+      "start": "00:07:29.333",
+      "text": " is done and at the last step after filtering the system blends together tweets with other"
+    },
+    {
+      "end": "00:07:40.133",
+      "start": "00:07:35.267",
+      "text": " non-quick content like ads or follow recommendation whom to follow and on boarding prompts which are"
+    },
+    {
+      "end": "00:07:46.067",
+      "start": "00:07:40.133",
+      "text": " returned to user device to display so finally the rank content is blended with ads follow"
+    },
+    {
+      "end": "00:07:50.700",
+      "start": "00:07:46.067",
+      "text": " recommendations and on boarding prompts so the home page 5 blend runs 5 billion thanks per day"
+    },
+    {
+      "end": "00:07:56.300",
+      "start": "00:07:50.700",
+      "text": " and completes in under 1.5 seconds on average so this is how the this is how the recommendation"
+    },
+    {
+      "end": "00:07:59.433",
+      "start": "00:07:56.300",
+      "text": " system at Twitter works there is a retrieval layer which is candidate source in both"
+    },
+    {
+      "end": "00:08:04.533",
+      "start": "00:07:59.433",
+      "text": " roaming network and out network followed by a ranker and then followed by filtering and hew districts"
+    },
+    {
+      "end": "00:08:09.333",
+      "start": "00:08:04.533",
+      "text": " and finally blending with ads follow recommended results and other recommendation which is"
+    },
+    {
+      "end": "00:08:14.000",
+      "start": "00:08:09.333",
+      "text": " so into the user in their home page hopefully this was helpful to you please like and subscribe and"
+    },
+    {
+      "end": "00:08:16.233",
+      "start": "00:08:14.000",
+      "text": " also stay tuned for more such updates why"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "DataTrek",
+  "youtube_channel_follower_count": 6440,
+  "youtube_comment_count": 3,
+  "youtube_description": "#TwitterRecommendationAlgorithm #SocialGraph #EmbeddingSpaces #SimClusters #MachineLearning #RecommenderSystems #GraphProcessing #NeuralNetworks #ContentRecommendation #Twitter #DataScience #OpenSource #TechNews #Algorithm #ArtificialIntelligence #AI #DataMining #DataAnalysis #datascience #machinelearning #artificialintelligence #analytics #statistics \n\n\nBlog Link: https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm\n\nIn this video, we dive into Twitter's recommendation algorithm and how it works. Twitter's recommendation system suggests a handful of top tweets from the 500 million tweets posted daily, ultimately showing up on your For You timeline.\n\nWe take a closer look at the three main stages of the recommendation system: candidate sourcing, ranking using an ML model, and applying heuristics and filters. We explore how Twitter sources its candidates from both in-network and out-of-network sources, and how it uses both a logistic regression model and a real graph model to rank tweets.\n\nWe also examine the two approaches Twitter takes to finding relevant tweets outside a user's network: the social graph and embedding spaces. Twitter uses GraphJet, its graph processing engine, to traverse the graph of engagements and follows to estimate relevance, and SimClusters to generate numerical representations of users' and tweets' interests to calculate similarity.\n\nWe then delve into the details of Twitter's neural network that ranks the 1500 candidates sourced through the recommendation system, taking into account thousands of features to predict engagement probability.\n\nFinally, we explore the process of blending together tweets with other non-tweet content like ads and follow recommendations to return a personalized timeline to the user's device.\n\nThis video is perfect for anyone interested in the behind-the-scenes workings of Twitter's recommendation algorithm, as well as those interested in how recommender systems work in general.\n\nDon't forget to like and subscribe for more tech-related content! And feel free to leave a comment below with any questions or thoughts.\n\n#datascience #machinelearning #statistics #deeplearning #programming #python #datatrek #youtube #interview #interviewpreparation #interviewquestions #datascientist #dataanalytics #machinelearningengineer #datasciencejobs #datasciencetraining #datasciencecourse #datascienceenthusiast #career #careeropportunities #careergrowth #careerdevelopment #datascienceenthusiast #interviewing #ml #ai\n\nAbout DataTrek Series\nhttps://youtu.be/YvUMvFVwC_E\n\nBusiness Enquiries: collabwithdatatrek@gmail.com\nFind me on Instagram: https://www.instagram.com/simplyspartanx/\n\n\n\n\nMusic: https://www.bensound.com/royalty-free-music",
+  "youtube_like_count": 57,
+  "youtube_tags": [
+    "Data Science",
+    "Machine Learning",
+    "Deep Learning",
+    "Artificial Intelligence",
+    "Statistics",
+    "abhishek mungoli",
+    "data",
+    "datatrek",
+    "datascienceenthusiast",
+    "career",
+    "datasciencejobs",
+    "twitter",
+    "twitter open source",
+    "TwitterRecommendationAlgorithm",
+    "SocialGraph",
+    "EmbeddingSpaces",
+    "SimClusters",
+    "recommendation sys",
+    "recommendation system",
+    "recommendation system machine learning",
+    "data mining techniques"
+  ],
+  "youtube_title": "How Twitter recommends Tweets: Inside Twitter's Recommendation Algorithm | Community Detection | AI",
+  "youtube_upload_date": "20230403",
+  "youtube_view_count": 2473
+}

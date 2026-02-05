@@ -1,0 +1,250 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A fair-skinned person with short nails. Only the right hand is visible, holding a blue pen.",
+        "name": "Teacher"
+      }
+    ],
+    "description": "An educational video where a teacher derives the formula for total resistance in a series circuit using Ohm's law.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The ammeter measures the current (I) flowing through the circuit.",
+        "question": "What does the ammeter (A) in the circuit diagram measure?"
+      },
+      {
+        "answer": "The total voltage is equal to the sum of the individual voltages: VT = V1 + V2.",
+        "question": "How is the total voltage (VT) related to the individual voltages across each resistor (V1 and V2) in a series circuit?"
+      },
+      {
+        "answer": "Dividing by I isolates the resistance terms on the right side of the equation, leading to the formula for total resistance.",
+        "question": "What is the significance of dividing both sides of the equation VT = IR1 + IR2 by the current (I)?"
+      },
+      {
+        "answer": "Yes, the derivation can be generalized to any number of resistors in series. The total resistance would be the sum of all individual resistances.",
+        "question": "Could this derivation be applied to a circuit with more than two resistors in series?"
+      },
+      {
+        "answer": "The mood is neutral and curious. The simple visuals, calm voiceover, and straightforward explanation create an informative and educational atmosphere that encourages viewers to learn about the derivation of the formula.",
+        "question": "What is the overall mood or tone of the video, and how is it conveyed?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction of the formula and circuit diagram.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Applying Ohm's law to individual resistors (V1 = IR1, V2 = IR2).",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "description": "Expressing total voltage as the sum of individual voltages (VT = V1 + V2).",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "Substituting individual voltage equations into the total voltage equation (VT = IR1 + IR2).",
+            "timestamp": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Dividing both sides by I and simplifying (VT/I = R1 + R2).",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "description": "Using Ohm's law to relate total voltage and current to total resistance (VT/I = RT, therefore RT = R1 + R2).",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          },
+          {
+            "description": "Highlighting the derived formula (RT = R1 + R2).",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:01:23.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Teacher"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Teacher"
+            ],
+            "description": "The teacher is the sole character, directly addressing the viewer."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The problem is established: deriving the formula for total resistance in a series circuit.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The formula is successfully derived and highlighted.",
+            "timestamp": "00:01:23.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Hand-drawn circuit diagram on white paper, blue pen.",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Physics, electricity, circuits, resistance, Ohm's law.",
+        "timestamps": {
+          "end_timestamp": "00:01:27.667",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Deriving the Formula",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs when the final derived formula is presented and highlighted.",
+        "timestamp": "00:01:23.000"
+      },
+      "description": "Deriving the Series Resistance Formula",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Video Analysis: Deriving the Series Resistance Formula",
+    "trimmingSuggestions": [
+      {
+        "description": "The entire video could be made more dynamic by incorporating animations to visualize the circuit and the flow of current. Highlighting relevant parts of the circuit diagram or equations as they are discussed would further enhance engagement.",
+        "timestamps": {
+          "end_timestamp": "00:01:27.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "Consider adding background music or sound effects to create a more stimulating learning environment.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 88,
+  "original_json_filename": "6B-0NYg2XrE.json",
+  "original_video_filename": "6B-0NYg2XrE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "okay so in this video we're going to derive the formula or t is equal to or one plus R2 which is the total resistance of a circuit is equal to the resistance of the two or more resistors as long as they are in series so we're going to start off by using Ohm's law and say V 1 is equal to I times or one so that's for resistor one we have Ohm's law and for a resistor 2 we have V2 is equal to I times or two for resistor 2. so that's Ohm's law we know that the total voltage or potential difference is equal to V total is equal to V1 plus V2 I can then replace V1 with ir1 and V2 with ir2 so V T is equal to I or one plus I or two I can now divide across both sides by I to get VT over I is equal to or 1 plus or two and I know use Norm's law again Dash V over I is equal to or so VT over I is equal to or t the total resistance or t is equal to or one plus or two",
+  "text_to_speech_word_count": 201,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.233",
+      "start": "00:00:00.000",
+      "text": " Okay, so in this video we're gonna derive the formula or t is equal to or 1 plus or 2, which is the total resistance of a circuit is equal to the resistance of the 2 or more"
+    },
+    {
+      "end": "00:00:18.600",
+      "start": "00:00:11.633",
+      "text": " resistors as long as they are in series. So we're gonna start off by using ohms law and say"
+    },
+    {
+      "end": "00:00:24.300",
+      "start": "00:00:19.633",
+      "text": " V1 is equal to i times or 1. So that's"
+    },
+    {
+      "end": "00:00:35.267",
+      "start": "00:00:24.900",
+      "text": " for resistor 1 we have ohms law and for resistor 2 we have V2 is equal to i times or 2 for resistor 2. So that's ohms law"
+    },
+    {
+      "end": "00:00:45.033",
+      "start": "00:00:35.933",
+      "text": " We know that the total voltage or potential difference is equal to V total is equal to V1 plus V2. I"
+    },
+    {
+      "end": "00:00:53.033",
+      "start": "00:00:46.033",
+      "text": " can then replace V1 which I or 1 and V2 with I or 2. So Vt is equal to I or"
+    },
+    {
+      "end": "00:00:57.033",
+      "start": "00:00:54.033",
+      "text": " 1 plus I or 2. I"
+    },
+    {
+      "end": "00:00:59.800",
+      "start": "00:00:57.800",
+      "text": " can now divide across"
+    },
+    {
+      "end": "00:01:03.833",
+      "start": "00:00:59.800",
+      "text": " both sides by I to get Vt over I"
+    },
+    {
+      "end": "00:01:07.833",
+      "start": "00:01:04.533",
+      "text": " is equal to or 1 plus or 2 and"
+    },
+    {
+      "end": "00:01:17.967",
+      "start": "00:01:08.500",
+      "text": " I know using ohms law again that V over I is equal to or so Vt over I is equal to or t the total resistance"
+    },
+    {
+      "end": "00:01:22.800",
+      "start": "00:01:17.967",
+      "text": " or t is equal to or 1 plus or 2"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Simple Science and Maths",
+  "youtube_channel_follower_count": 14600,
+  "youtube_comment_count": 0,
+  "youtube_description": "In this video I show you how to derive the formula to show that the total resistance of a series circuit is equal to the sum of the individual resistances. This is a mandatory proof for the leaving cert physics course.",
+  "youtube_like_count": 20,
+  "youtube_tags": [
+    "leaving cert",
+    "maths",
+    "how to",
+    "exam question"
+  ],
+  "youtube_title": "Derive Rt = R1 + R2 | Resistances in Series",
+  "youtube_upload_date": "20230301",
+  "youtube_view_count": 2788
+}

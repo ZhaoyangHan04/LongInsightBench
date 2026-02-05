@@ -1,0 +1,589 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male, wearing a voice only.",
+        "name": "Ramesh"
+      }
+    ],
+    "description": "A step-by-step tutorial video explaining how to troubleshoot and fix WiFi connectivity issues on Windows 10.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Red.",
+        "question": "What is the color of the \"X\" mark on the WiFi icon indicating a problem?"
+      },
+      {
+        "answer": "Windows key + R.",
+        "question": "What keyboard shortcut is used to open the Run command?"
+      },
+      {
+        "answer": "Network adapters.",
+        "question": "In which category of Device Manager can you find the wireless network adapter?"
+      },
+      {
+        "answer": "\"Browse my computer for driver software\".",
+        "question": "What option needs to be selected in the \"Update Driver Software\" window to manually choose a driver?"
+      },
+      {
+        "answer": "The red \"X\" mark disappears, and the WiFi signal bars reappear.",
+        "question": "How does the WiFi icon change after the issue is fixed?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.5,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Indifferent. Intro sequence is visually engaging but lacks emotional context.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Title card introduces the topic of the video: How to Fix Wifi issue on Windows 10.",
+            "timestamp": "00:00:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Eager TV Tutorials Logo",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Computer tutorial, technical troubleshooting.",
+        "timestamps": {
+          "end_timestamp": "00:00:10.067",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Intro",
+        "videoEditingDetails": [
+          {
+            "description": "Intro sequence with 3D logo animation",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to title screen with animated paint strokes",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Ramesh introduces himself and the topic of the video",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:10.100"
+            }
+          },
+          {
+            "description": "Ramesh demonstrates the WiFi issue",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Ramesh"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Ramesh"
+            ],
+            "description": "Ramesh directly addresses the viewer, establishing himself as the instructor."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Confused. Ramesh's tone is informative but the problem creates confusion.",
+          "keyMoments": [
+            {
+              "changeDescription": "Introduction of the red 'X' icon adds visual tension and signifies a problem.",
+              "timestamp": "00:00:24.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Ramesh establishes the problem: the WiFi is not working.",
+            "timestamp": "00:00:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows 10 desktop screen",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:10.100"
+            }
+          },
+          {
+            "name": "Red 'X' icon on the WiFi symbol in the taskbar",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "name": "Network settings menu",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical problem, troubleshooting guide.",
+        "timestamps": {
+          "end_timestamp": "00:00:36.367",
+          "start_timestamp": "00:00:10.100"
+        },
+        "title": "Introduction and Problem Demonstration",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom in on the taskbar",
+            "timestamps": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Ramesh guides viewers through steps to fix the WiFi issue",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:00:36.400"
+            }
+          },
+          {
+            "description": "Opening the Run command",
+            "timestamp": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Typing \"devmgmt.msc\" in the Run command",
+            "timestamp": {
+              "end_timestamp": "00:01:21.000",
+              "start_timestamp": "00:01:13.000"
+            }
+          },
+          {
+            "description": "Navigating the Device Manager",
+            "timestamp": {
+              "end_timestamp": "00:02:16.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "description": "Updating the wireless network adapter driver",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:01:44.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Ramesh"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Ramesh"
+            ],
+            "description": "Ramesh continues to directly address the viewer, providing clear instructions."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious. The troubleshooting process evokes curiosity and hope for a solution.",
+          "keyMoments": [
+            {
+              "changeDescription": "\"Windows has successfully updated your driver software\" message brings relief.",
+              "timestamp": "00:02:27.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Ramesh presents a solution to the problem and guides viewers through its implementation.",
+            "timestamp": "00:01:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows 10 desktop screen",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:00:36.400"
+            }
+          },
+          {
+            "name": "Run command window",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "name": "Device Manager window",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:01:25.000"
+            }
+          },
+          {
+            "name": "Update Driver Software window",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:01:52.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Technical expertise, step-by-step instructions, problem-solving.",
+        "timestamps": {
+          "end_timestamp": "00:02:45.900",
+          "start_timestamp": "00:00:36.400"
+        },
+        "title": "Troubleshooting Steps",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom in on specific windows and menus",
+            "timestamps": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "description": "Mouse cursor highlights relevant areas",
+            "timestamps": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Ramesh confirms the WiFi issue is fixed",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:02:45.933"
+            }
+          },
+          {
+            "description": "Ramesh encourages viewers to subscribe, like, and share",
+            "timestamp": {
+              "end_timestamp": "00:03:01.000",
+              "start_timestamp": "00:02:52.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Ramesh"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Ramesh"
+            ],
+            "description": "Ramesh addresses the viewer with a friendly and grateful tone."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Happy. Successful resolution of the problem leads to a sense of satisfaction and gratitude.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift to upbeat music and \"SUBSCRIBE\" visual reinforces the positive outcome.",
+              "timestamp": "00:03:01.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Ramesh concludes the tutorial and promotes his channel.",
+            "timestamp": "00:02:45.933"
+          }
+        ],
+        "props": [
+          {
+            "name": "Windows 10 desktop screen",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:02:45.933"
+            }
+          },
+          {
+            "name": "Google Chrome window",
+            "timestamp": {
+              "end_timestamp": "00:03:01.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Successful outcome, community building, content promotion.",
+        "timestamps": {
+          "end_timestamp": "00:03:07.000",
+          "start_timestamp": "00:02:45.933"
+        },
+        "title": "Resolution and Outro",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to full-screen blue background with white text \"SUBSCRIBE\"",
+            "timestamps": {
+              "end_timestamp": "00:03:06.000",
+              "start_timestamp": "00:03:01.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Successful driver update",
+        "timestamp": "00:02:27.000"
+      },
+      "description": "Fixing the WiFi Issue",
+      "scenes": [
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "How to Fix Wifi issue on Windows 10",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened. The 3D logo animation could be simplified or removed.",
+        "timestamps": {
+          "end_timestamp": "00:02:45.933",
+          "start_timestamp": "00:02:45.933"
+        }
+      },
+      {
+        "description": "Could be made more dynamic by adding visuals of other potential WiFi issues (e.g., limited connectivity).",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Some mouse movements and window transitions could be sped up for smoother viewing.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The transition to the outro screen could be more visually engaging.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 187,
+  "original_json_filename": "giv3bTl5CmM.json",
+  "original_video_filename": "giv3bTl5CmM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Hello world I'm Ramesh today I'm going to show you how to solve wife a problem in a Windows 10 if your Wi-Fi or Wanlan is not working follow this video to solve the issue here as you can see the the cross marked icon with red color and look at this you cannot access wireless the internet now okay guys do not worry about it I have an idea to fix this issue. Press Windows key + R button to open run command you can also do that by typing run in such bar and click on run command after that you need to type DEVMGMT.MSC then enter. the device manager window will open. now click on the Left arrow of the network adapters to expand as you can see wireless network adapter with a download icon. right-click on that and select update driver software okay look and see select browse my a computer for trials after them then select let me pick from a list of device drivers on my computer - next need to click our check Show compatable hardware and I am gonna choose the trial if there is to have more dramas shows chose any one that now click on next in couple of seconds the driver will installed and look here first as I said the radicand is changed you can use the land signal or wireless signal to access the internet wireless friends okay I hope you enjoyed this video and I request you to subscribe my channel to watch my next videos also don't forget to like and share thank you friends and see you",
+  "text_to_speech_word_count": 273,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:13.133",
+      "start": "00:00:00.000",
+      "text": " Hello world, I am Ramesh."
+    },
+    {
+      "end": "00:00:18.233",
+      "start": "00:00:13.133",
+      "text": " Today I am going to show you how to solve WIFI problem in Windows 10."
+    },
+    {
+      "end": "00:00:25.733",
+      "start": "00:00:18.233",
+      "text": " If your WIFI or WAN LAN is not working, follow this video to solve my issue."
+    },
+    {
+      "end": "00:00:32.733",
+      "start": "00:00:25.733",
+      "text": " Here as you can see the cross market icon with red color and look at this."
+    },
+    {
+      "end": "00:00:35.733",
+      "start": "00:00:32.733",
+      "text": " You cannot access wireless internet now."
+    },
+    {
+      "end": "00:00:38.900",
+      "start": "00:00:35.733",
+      "text": " Ok guys, do not worry about it."
+    },
+    {
+      "end": "00:00:42.433",
+      "start": "00:00:38.900",
+      "text": " I have an idea to raise it."
+    },
+    {
+      "end": "00:00:51.500",
+      "start": "00:00:42.433",
+      "text": " To fix this issue, press Windows key and R button to open run command."
+    },
+    {
+      "end": "00:01:10.200",
+      "start": "00:00:51.500",
+      "text": " You can also do that by typing, run in such bar and click on run command."
+    },
+    {
+      "end": "00:01:24.333",
+      "start": "00:01:10.200",
+      "text": " After that you need to type d, v, m, g, m, t, dark, m, s, c, then enter O key."
+    },
+    {
+      "end": "00:01:28.033",
+      "start": "00:01:24.333",
+      "text": " A device manager window will open."
+    },
+    {
+      "end": "00:01:39.233",
+      "start": "00:01:28.033",
+      "text": " Now click on the left arrow of the network adapter to expand."
+    },
+    {
+      "end": "00:01:44.233",
+      "start": "00:01:39.233",
+      "text": " As you can see wireless network adapter is download like a."
+    },
+    {
+      "end": "00:01:54.233",
+      "start": "00:01:44.233",
+      "text": " Right click on that and select upgrade driver software."
+    },
+    {
+      "end": "00:02:03.733",
+      "start": "00:01:54.233",
+      "text": " Ok look and see, select browse my computer for trial software then select ledly pick from"
+    },
+    {
+      "end": "00:02:07.233",
+      "start": "00:02:03.733",
+      "text": " a list of device and computer."
+    },
+    {
+      "end": "00:02:16.233",
+      "start": "00:02:07.233",
+      "text": " After that you need to click or check on show compatible drivers or hardware and I am"
+    },
+    {
+      "end": "00:02:17.767",
+      "start": "00:02:16.233",
+      "text": " going to choose the driver."
+    },
+    {
+      "end": "00:02:24.267",
+      "start": "00:02:17.767",
+      "text": " If there is two or more drivers, choose and even that."
+    },
+    {
+      "end": "00:02:27.900",
+      "start": "00:02:24.267",
+      "text": " Now click on next."
+    },
+    {
+      "end": "00:02:36.700",
+      "start": "00:02:27.900",
+      "text": " In couple of seconds the driver will install and look here first as I said the red icon"
+    },
+    {
+      "end": "00:02:38.633",
+      "start": "00:02:36.700",
+      "text": " is changed."
+    },
+    {
+      "end": "00:02:47.533",
+      "start": "00:02:38.633",
+      "text": " You can use the LAN signal or wireless signal to access the internet wireless."
+    },
+    {
+      "end": "00:02:55.400",
+      "start": "00:02:47.533",
+      "text": " Friends ok, I hope you enjoyed this video and I request you to subscribe my channel to"
+    },
+    {
+      "end": "00:02:57.100",
+      "start": "00:02:55.400",
+      "text": " watch my next videos."
+    },
+    {
+      "end": "00:03:00.433",
+      "start": "00:02:57.100",
+      "text": " Also don't forget to like and share."
+    },
+    {
+      "end": "00:03:02.133",
+      "start": "00:03:00.433",
+      "text": " Thank you friends and see you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "Easy Classes",
+  "youtube_channel_follower_count": 128000,
+  "youtube_comment_count": 6500,
+  "youtube_description": "Earn money by Asking or Answering questions: https://bit.ly/3MGUIp0\n\nHello guys, am Ramesh and today am going to show you how to solve \nwifi problem in windows 10. if your wifi or WLAN is not working \nfollow this video to solve the issue.\nhere as you can see the cross marked icon with red color and look at this you cannot access​ wireless internet now. ok, guys do not worry about it I have an idea to resolve. to fix this issue press windows key and r button to open run command\nyou can also do that by typing run in the search bar and click on run command.\nafter that, you need to type devmgmt.msc then enter ok. a device manager window will open\nnow click on the left arrow of network adapters to expand, as you can see wireless network adapter with a download icon. right-click on that and select update driver software.\nok look and see browse my computer for driver software then let me pick from a list of device drivers on my computer after that you need to click or check on show compatible hardware and am gonna choose the driver. if there is \n2 or more drivers show choose​ anyone. now click on next. in a couple of seconds, the driver will be installed.\nlook here friends as I said the red icon is changed top lan signal and now you can access​ wireless internet\nok guys I hope u enjoyed this video and I request you to subscribe to my channel to watch my next videos also don't\nforget to like and share. thank you and see you.\n\nIf you are looking for a WIFI receiver for your desktop/Laptop hit the below URL to buy which is best reviewed.\nhttps://amzn.to/33ygwQb\n\nChapters:\n\n00:00 Intro\n00:38 Open run command\n01:30 Network adapters\n01:45 Update driver software\n02:00 Custom Driver Install",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "how to fix wifi connection problem in windows 10",
+    "wifi is not working on my laptop windows 10",
+    "my wifi router is not working on my laptop windows 10",
+    "wifi is not working on my computer",
+    "how to solve wifi problem in windows",
+    "how to solve wifi problem in laptop",
+    "how to solve wifi problem in hp laptop",
+    "how to connect wifi in laptop windows 10",
+    "how to fix a pc that wont connect to wifi",
+    "not connecting",
+    "wifi problem",
+    "wifi",
+    "windows 10",
+    "wifi router"
+  ],
+  "youtube_title": "How To Fix wifi is not Connecting and Not Working on my laptop windows 10",
+  "youtube_upload_date": "20170812",
+  "youtube_view_count": 3481280
+}

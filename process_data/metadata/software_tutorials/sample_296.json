@@ -1,0 +1,1009 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Man with short brown hair and beard, wearing a burnt orange t-shirt.",
+        "name": "Daniel Weisberg"
+      },
+      {
+        "characterId": "2",
+        "description": "An older man, unseen in the video, who asks Daniel questions about site maps.",
+        "name": "John (voice only)"
+      }
+    ],
+    "description": "This video aims to educate viewers on how to use the Search Console Sitemaps report effectively.",
+    "fps": 23.976023976023978,
+    "qAndA": [
+      {
+        "answer": "Images, videos, alternate language/country versions (hreflang annotations), and recent updates (for news sites).",
+        "question": "What four main ways can you provide additional information in a sitemap?"
+      },
+      {
+        "answer": "By creating an index sitemap file that lists all individual sitemap files.",
+        "question": "How can you submit multiple sitemaps?"
+      },
+      {
+        "answer": "This is a humorous visual gag meant to emphasize that the globe is not a sitemap.",
+        "question": "Why is Junior on top of a globe at the end of the video?"
+      },
+      {
+        "answer": "A YouTube series where John Mueller answers questions submitted by webmasters.",
+        "question": "What is the Ask Google Webmasters series?"
+      },
+      {
+        "answer": "It is removed from the Sitemaps report, but Google won't forget the sitemap or URLs listed in it. To completely stop crawling, you need to return a 404 error or use a robots.txt rule.",
+        "question": "What happens if you delete a sitemap from Search Console?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Daniel introduces himself and explains the topic of the video.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.008",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Daniel Weisberg"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introducing a technical SEO topic.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informational, Professional",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Daniel introduces himself and the topic of the video.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Daniel lists the learning objectives for the video.",
+            "timestamp": "00:00:08.008"
+          }
+        ],
+        "props": [
+          {
+            "name": "Desk",
+            "timestamp": {
+              "end_timestamp": "00:00:25.984",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Coffee mug",
+            "timestamp": {
+              "end_timestamp": "00:00:25.984",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:00:25.984",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "3D printed toy figures",
+            "timestamp": {
+              "end_timestamp": "00:00:25.984",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Search engine optimization, sitemaps, Google Search Console",
+        "timestamps": {
+          "end_timestamp": "00:00:26.401",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Graphic wipe transition with a toolbox icon and the word \"Training\"",
+            "timestamps": {
+              "end_timestamp": "00:00:25.984",
+              "start_timestamp": "00:00:19.019"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel explains what a sitemap is and the different types supported by Google.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.986",
+              "start_timestamp": "00:00:26.443"
+            }
+          },
+          {
+            "description": "John asks if Google will find his pages without a sitemap.",
+            "timestamp": {
+              "end_timestamp": "00:01:17.119",
+              "start_timestamp": "00:01:16.994"
+            }
+          },
+          {
+            "description": "Daniel answers John's question and explains when a sitemap is necessary.",
+            "timestamp": {
+              "end_timestamp": "00:01:17.119",
+              "start_timestamp": "00:01:17.119"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Daniel Weisberg",
+          "John (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Daniel Weisberg",
+              "John (voice only)"
+            ],
+            "description": "John asks a question, prompting Daniel to further explain and clarify information about sitemaps."
+          }
+        ],
+        "contextualRelevance": "Explains technical concepts in a more approachable way.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative, Conversational",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Defines a sitemap and explains different ways to provide additional information in them.",
+            "timestamp": "00:00:26.443"
+          },
+          {
+            "description": "Lists and visually highlights the four main ways to provide additional information in a sitemap.",
+            "timestamp": "00:00:45.003"
+          },
+          {
+            "description": "Explains that additional information won't necessarily be highlighted in Search Console.",
+            "timestamp": "00:01:09.987"
+          },
+          {
+            "description": "John asks if a sitemap is necessary for Google to find his pages.",
+            "timestamp": "00:01:16.994"
+          },
+          {
+            "description": "Daniel answers John's question, clarifying that sitemaps are helpful but not always essential.",
+            "timestamp": "00:01:17.119"
+          },
+          {
+            "description": "Highlights three specific situations where sitemaps are especially beneficial.",
+            "timestamp": "00:01:17.119"
+          },
+          {
+            "description": "Reiterates that sitemaps are not a replacement for normal crawling.",
+            "timestamp": "00:01:17.119"
+          },
+          {
+            "description": "Summarizes by stating that sitemaps are beneficial and have no disadvantages.",
+            "timestamp": "00:01:17.119"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text boxes appearing onscreen to highlight information",
+            "timestamp": {
+              "end_timestamp": "00:01:08.986",
+              "start_timestamp": "00:00:45.003"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Search engine optimization",
+        "timestamps": {
+          "end_timestamp": "00:01:17.119",
+          "start_timestamp": "00:00:26.443"
+        },
+        "title": "What is a sitemap?",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to John (voice only)",
+            "timestamps": {
+              "end_timestamp": "00:01:17.119",
+              "start_timestamp": "00:01:16.994"
+            }
+          },
+          {
+            "description": "Cut back to Daniel",
+            "timestamps": {
+              "end_timestamp": "00:01:17.119",
+              "start_timestamp": "00:01:17.119"
+            }
+          },
+          {
+            "description": "Text box appears onscreen with three bullet points",
+            "timestamps": {
+              "end_timestamp": "00:01:17.119",
+              "start_timestamp": "00:01:17.119"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "John asks how to create a sitemap.",
+            "timestamp": {
+              "end_timestamp": "00:02:34.988",
+              "start_timestamp": "00:02:33.987"
+            }
+          },
+          {
+            "description": "Daniel explains how sitemaps are usually automatically generated.",
+            "timestamp": {
+              "end_timestamp": "00:03:02.015",
+              "start_timestamp": "00:02:35.989"
+            }
+          },
+          {
+            "description": "Daniel explains limitations and how to submit multiple sitemaps.",
+            "timestamp": {
+              "end_timestamp": "00:03:24.996",
+              "start_timestamp": "00:03:03.016"
+            }
+          },
+          {
+            "description": "Daniel encourages viewers to learn more in the Search Console Help Center.",
+            "timestamp": {
+              "end_timestamp": "00:03:35.006",
+              "start_timestamp": "00:03:25.997"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Daniel Weisberg",
+          "John (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Daniel Weisberg",
+              "John (voice only)"
+            ],
+            "description": "John again asks a question, prompting Daniel to provide further details about sitemaps."
+          }
+        ],
+        "contextualRelevance": "Addressing a common concern and providing practical advice.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative, Reassuring",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "John asks how he can create a sitemap.",
+            "timestamp": "00:02:28.982"
+          },
+          {
+            "description": "Daniel explains that sitemaps are often automatically generated by the system running the website.",
+            "timestamp": "00:02:35.989"
+          },
+          {
+            "description": "Explains the limitations of sitemap files and how to use multiple sitemaps if needed.",
+            "timestamp": "00:03:03.016"
+          },
+          {
+            "description": "Encourages viewers to consult the Search Console Help Center for more details.",
+            "timestamp": "00:03:25.997"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Sitemaps, Automation",
+        "timestamps": {
+          "end_timestamp": "00:03:36.967",
+          "start_timestamp": "00:01:17.160"
+        },
+        "title": "Creating a sitemap",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to John (voice only)",
+            "timestamps": {
+              "end_timestamp": "00:02:29.983",
+              "start_timestamp": "00:02:28.982"
+            }
+          },
+          {
+            "description": "Cut back to Daniel",
+            "timestamps": {
+              "end_timestamp": "00:02:36.990",
+              "start_timestamp": "00:02:35.989"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel walks viewers through the process of submitting a sitemap in Search Console.",
+            "timestamp": {
+              "end_timestamp": "00:05:54.020",
+              "start_timestamp": "00:03:37.008"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Daniel Weisberg"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Showing viewers how to apply the information discussed previously.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative, Practical",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Provides context for the Search Console Sitemaps report and its limitations.",
+            "timestamp": "00:03:37.008"
+          },
+          {
+            "description": "Shows how to find the Sitemaps report in Search Console.",
+            "timestamp": "00:04:04.995"
+          },
+          {
+            "description": "Explains the information displayed in the report for each submitted sitemap.",
+            "timestamp": "00:04:16.006"
+          },
+          {
+            "description": "Shows how to view the \"Index Coverage\" report for a specific sitemap.",
+            "timestamp": "00:04:40.989"
+          },
+          {
+            "description": "Explains how to troubleshoot sitemap errors and how to submit a new sitemap.",
+            "timestamp": "00:04:50.999"
+          },
+          {
+            "description": "Shows how to delete an irrelevant sitemap from Search Console.",
+            "timestamp": "00:05:15.982"
+          },
+          {
+            "description": "Explains that deleting a sitemap from the report doesn't prevent crawling and how to block URLs from being crawled.",
+            "timestamp": "00:05:27.994"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop displaying Google Search Console interface",
+            "timestamp": {
+              "end_timestamp": "00:05:54.020",
+              "start_timestamp": "00:04:04.995"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Sitemaps, Google Search Console, Indexing, Crawling, Troubleshooting",
+        "timestamps": {
+          "end_timestamp": "00:05:54.771",
+          "start_timestamp": "00:03:37.008"
+        },
+        "title": "Submitting a sitemap",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Google Search Console interface",
+            "timestamps": {
+              "end_timestamp": "00:05:54.020",
+              "start_timestamp": "00:04:04.995"
+            }
+          },
+          {
+            "description": "Highlighting different areas of the interface as Daniel speaks",
+            "timestamps": {
+              "end_timestamp": "00:05:54.020",
+              "start_timestamp": "00:04:16.006"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Daniel summarizes the content covered in the video.",
+            "timestamp": {
+              "end_timestamp": "00:06:08.994",
+              "start_timestamp": "00:05:54.813"
+            }
+          },
+          {
+            "description": "Daniel promotes the Ask Google Webmasters series.",
+            "timestamp": {
+              "end_timestamp": "00:06:50.994",
+              "start_timestamp": "00:06:42.986"
+            }
+          },
+          {
+            "description": "Daniel encourages viewers to subscribe to the Google Webmasters YouTube channel.",
+            "timestamp": {
+              "end_timestamp": "00:06:58.001",
+              "start_timestamp": "00:06:51.995"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Daniel Weisberg"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Summarizing key information and promoting related content.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative, Friendly",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Reviews what was covered in the video.",
+            "timestamp": "00:05:54.813"
+          },
+          {
+            "description": "Promotes the next episode in the series.",
+            "timestamp": "00:06:09.995"
+          },
+          {
+            "description": "Promotes the Ask Google Webmasters series and the Google Webmasters YouTube channel.",
+            "timestamp": "00:06:42.986"
+          }
+        ],
+        "props": [
+          {
+            "name": "Rotating globe",
+            "timestamp": {
+              "end_timestamp": "00:07:10.013",
+              "start_timestamp": "00:07:04.007"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Sitemaps, Google Search Console, Website Management, Learning Resources.",
+        "timestamps": {
+          "end_timestamp": "00:07:10.430",
+          "start_timestamp": "00:05:54.813"
+        },
+        "title": "Conclusion and Outro",
+        "videoEditingDetails": [
+          {
+            "description": "Text box appears onscreen with the text \"Links in the description below.\"",
+            "timestamps": {
+              "end_timestamp": "00:05:54.813",
+              "start_timestamp": "00:05:54.813"
+            }
+          },
+          {
+            "description": "Text box appears onscreen with the text \"Subscribe\" and the URL \"YouTube.com/GoogleWebmasters\"",
+            "timestamps": {
+              "end_timestamp": "00:06:58.001",
+              "start_timestamp": "00:06:51.995"
+            }
+          },
+          {
+            "description": "Cut to Junior figure on top of a globe",
+            "timestamps": {
+              "end_timestamp": "00:07:05.008",
+              "start_timestamp": "00:07:04.007"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The practical demonstration of submitting and managing sitemaps in Search Console summarizes the educational content of the video.",
+        "timestamp": "00:04:04.995"
+      },
+      "description": "This video is about understanding and using sitemaps effectively through the Google Search Console, from definitions and necessity to creation and submission.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Video Analysis of Using the Search Console Sitemaps Report",
+    "trimmingSuggestions": [
+      {
+        "description": "This segment repeats information already covered; it can be trimmed to be more concise.",
+        "timestamps": {
+          "end_timestamp": "00:05:54.813",
+          "start_timestamp": "00:05:54.813"
+        }
+      },
+      {
+        "description": "The details about sitemap file limitations, while helpful, might not be essential for all viewers. This segment could be shortened or made optional.",
+        "timestamps": {
+          "end_timestamp": "00:05:54.813",
+          "start_timestamp": "00:05:54.813"
+        }
+      },
+      {
+        "description": "This segment reiterates the limitations of the sitemaps report and could be made more concise.",
+        "timestamps": {
+          "end_timestamp": "00:05:54.813",
+          "start_timestamp": "00:05:54.813"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 430,
+  "original_json_filename": "JlamLfyFjTA.json",
+  "original_video_filename": "JlamLfyFjTA.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi I'm Danielle Weisberg search advocate at Google and today I'll talk about how to use the search console sitemaps report by the end of this video you should be able to understand what a sitemap is beside whether you need one or not and learn how to submit a sitemap and track its status using search console a sitemap is a signal about which URLs you would like to go to crawl on your site it may provide information on URLs that were recently created or modified and give us some extra information about them Google supports four main ways for you to provide additional information you can extend a URL with images included in it you can also extend a URL with videos included in it you can include information about alternate languages or country versions with each hreflang annotations and finally for new sites you can use a special variation of sitemaps to give us information about the most recent updates note that this information won't necessarily be highlighted on search console but you can still provide it in your sitemap but if I don't have a sitemap with Google find all my pages I'm glad you asked John usually if you have a relatively small website and your pages are properly linked Googlebot can discover your content so you don't need to worry about the sitemap however if your site meets one of the following criteria a sitemap might help Google decide what and when to crawl your website if your site is really large a sitemap we'll help Google prioritize the URLs to crawl if your pages are isolated or not well linked to each other a sitemap might help Google find those pages if your site is new or it has a lot of quickly changing content such as a news website a sitemap we'll help Google discover your content please remember that using a sitemap doesn't guarantee that all your pages will be crawled and indexed but in most cases your site will benefit from having a sitemap and there is no disadvantage for having one in addition sitemaps don't replace normal crawling and not including URLs in the sitemap won't result in those URLs no longer being crawled interesting I might need a sitemap but how could I create one another great question John ideally the system running your website will make sitemap files for you automatically for example you can find a wordpress plugin or drupal extension if you use those content management systems check the documentation from your provider as every platform is slightly different we recommend finding a way to automatically generate sitemaps rather than creating them manually usually this will involve running code on your server so if you're not a developer you might need help from one there are limits to the number of URLs and the maximum size of a sitemap file if you need more space you can make multiple sitemap files you can also submit all of these sitemap files together in the form of an index sitemap file doing that makes it a bit easier to track them all together in one place to learn more about sitemaps formats and guidelines check our Help Center before I go into search console please note that the sitemaps report shows only site maps that you submitted using search console it does not show any sitemaps discovered through a robots.txt reference or other discovery methods however even if we already discovered a sitemap through other means you can still submit it using this report in order to track errors and warnings so let's look at the report open search console and find the sitemaps report if you have already submitted one or more sitemaps you'll find the following information about each sitemap that you submitted the sitemap URL the type or format of sitemap such as XML text RSS or atom the less submission date using the report the date it was less read by Google the crawl status such as success has errors couldn't fetch and others the number of URLs discovered in sitemap you will note an icon next to each successful sitemap clicking it will lead you to the index covered status report for the specific sitemap I'll talk about this report in the next episode but sitemaps can also be partially read even if they have errors if your sitemap start to see success good job if you have any errors in the status column click the specific row to see more details you'll find a complete list of errors and what to do in each case in the search console Help Center if you want to submit a new sitemap simply open the sitemaps report and submit the URL you will need owner permission for a property in order to submit it if you submitted a sitemap but it's not relevant anymore you can delete it from search console but know that the leting a sitemap removes it from this report but doesn't make google forget the sitemap or anywhere else listed on it in order for Google to forget a sitemap just remove it from your site and return a 404 after some attempts Google will give up and completely stop refreshing the sitemap but this has nothing to do with the URLs in the sitemap if you truly need Google to stop visiting the URLs listed in a sitemap you will need to return a 404 or use a robots.txt rule for the URLs that you want to block this is what you would do in order for Google to stop crawling this page if your goal is to remove the URL from the Google index all together you should either use the no index directive or require HTTP authentication for users to see your page I hope this video helped you understand when you should use a site map and how search console can help you in the next episode I'll talk about how to use search console to check which of your pages have been indexed and any problems found during that process and by the way check out the s google webmaster series where John Miller our guest star today actually enters lots of questions submitted by the webmaster community and don't forget to subscribe to the Google webmasters YouTube channel where we'll be publishing lots of search console videos so stay tuned [Music] Jr what are you doing there that's not a sitemap",
+  "text_to_speech_word_count": 1088,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.837",
+      "start": "00:00:00.000",
+      "text": " Hi, I'm Daniel Weisberg, Search Advocated Google."
+    },
+    {
+      "end": "00:00:08.634",
+      "start": "00:00:03.837",
+      "text": " And today I'll talk about how to use the Search Console SiteMap report."
+    },
+    {
+      "end": "00:00:13.055",
+      "start": "00:00:08.634",
+      "text": " By the end of this video, you should be able to understand what a site map is,"
+    },
+    {
+      "end": "00:00:17.226",
+      "start": "00:00:13.055",
+      "text": " decide whether you need one or not, and learn how to submit a site map"
+    },
+    {
+      "end": "00:00:19.561",
+      "start": "00:00:17.226",
+      "text": " and track its status using Search Console."
+    },
+    {
+      "end": "00:00:32.783",
+      "start": "00:00:19.561",
+      "text": " A site map is a signal about which URLs you would like Google to crawl on your site."
+    },
+    {
+      "end": "00:00:37.287",
+      "start": "00:00:32.783",
+      "text": " It may provide information on URLs that were recently created or modified"
+    },
+    {
+      "end": "00:00:40.374",
+      "start": "00:00:37.287",
+      "text": " and give us some extra information about them."
+    },
+    {
+      "end": "00:00:45.170",
+      "start": "00:00:40.374",
+      "text": " Google supports four main ways for you to provide additional information."
+    },
+    {
+      "end": "00:00:49.466",
+      "start": "00:00:45.170",
+      "text": " You can extend a URL with images included in it."
+    },
+    {
+      "end": "00:01:00.811",
+      "start": "00:00:49.466",
+      "text": " You can include information about alternate languages or counter-version with AJAF Langa notations."
+    },
+    {
+      "end": "00:01:05.524",
+      "start": "00:01:00.811",
+      "text": " And finally, for new sites, you can use a special variation of site maps"
+    },
+    {
+      "end": "00:01:10.195",
+      "start": "00:01:05.524",
+      "text": " to give us information about the most recent updates."
+    },
+    {
+      "end": "00:01:14.783",
+      "start": "00:01:10.195",
+      "text": " Note that this information won't necessarily be highlighted on Search Console,"
+    },
+    {
+      "end": "00:01:18.036",
+      "start": "00:01:14.783",
+      "text": " but you can still provide it in your site map."
+    },
+    {
+      "end": "00:01:22.457",
+      "start": "00:01:18.036",
+      "text": " But if I don't have a site map, will Google find all my pages?"
+    },
+    {
+      "end": "00:01:24.584",
+      "start": "00:01:22.457",
+      "text": " I'm glad you asked, John."
+    },
+    {
+      "end": "00:01:30.257",
+      "start": "00:01:24.584",
+      "text": " Usually, if you have a relatively small website and your pages are properly linked,"
+    },
+    {
+      "end": "00:01:35.304",
+      "start": "00:01:30.257",
+      "text": " Google Bot can discover your content, so you don't need to worry about a site map."
+    },
+    {
+      "end": "00:01:39.141",
+      "start": "00:01:35.304",
+      "text": " However, if your site meets one of the following criteria,"
+    },
+    {
+      "end": "00:01:44.479",
+      "start": "00:01:39.141",
+      "text": " a site map might help Google decide what and when to crawl your website."
+    },
+    {
+      "end": "00:01:50.485",
+      "start": "00:01:44.479",
+      "text": " If your site is really large, a site map will help Google prioritize the URLs to crawl."
+    },
+    {
+      "end": "00:01:54.448",
+      "start": "00:01:50.485",
+      "text": " If your pages are isolated or not well linked to each other,"
+    },
+    {
+      "end": "00:01:58.201",
+      "start": "00:01:54.448",
+      "text": " a site map might help Google find those pages."
+    },
+    {
+      "end": "00:02:02.247",
+      "start": "00:01:58.201",
+      "text": " If your site is new, or it has a lot of quickly changing content,"
+    },
+    {
+      "end": "00:02:07.336",
+      "start": "00:02:02.247",
+      "text": " such as a news website, a site map will help Google discover your content."
+    },
+    {
+      "end": "00:02:13.717",
+      "start": "00:02:07.336",
+      "text": " Please remember that using a site map doesn't guarantee that all your pages will be crawled and indexed."
+    },
+    {
+      "end": "00:02:17.804",
+      "start": "00:02:13.717",
+      "text": " But in most cases, your site will benefit from having a site map."
+    },
+    {
+      "end": "00:02:20.682",
+      "start": "00:02:17.804",
+      "text": " And there is no disadvantage for having one."
+    },
+    {
+      "end": "00:02:24.353",
+      "start": "00:02:20.682",
+      "text": " In addition, site maps don't replace normal crawling,"
+    },
+    {
+      "end": "00:02:30.609",
+      "start": "00:02:24.353",
+      "text": " and not including your URLs in a site map won't result in those URLs no longer being crawled."
+    },
+    {
+      "end": "00:02:36.114",
+      "start": "00:02:30.609",
+      "text": " Interesting. I might need a site map, but how can I create one?"
+    },
+    {
+      "end": "00:02:38.575",
+      "start": "00:02:36.114",
+      "text": " Another great question, John."
+    },
+    {
+      "end": "00:02:44.331",
+      "start": "00:02:38.575",
+      "text": " Ideally, the system running your website will make site map files for you automatically."
+    },
+    {
+      "end": "00:02:51.296",
+      "start": "00:02:44.331",
+      "text": " For example, you can find a WordPress plugin or Drupal extension if you use those content management systems."
+    },
+    {
+      "end": "00:02:56.718",
+      "start": "00:02:51.296",
+      "text": " Check the documentation from your provider as every platform is slightly different."
+    },
+    {
+      "end": "00:03:03.058",
+      "start": "00:02:56.718",
+      "text": " We recommend finding a way to automatically generate site maps, rather than creating them manually."
+    },
+    {
+      "end": "00:03:06.395",
+      "start": "00:03:03.058",
+      "text": " Usually, this will involve running code on your server,"
+    },
+    {
+      "end": "00:03:10.065",
+      "start": "00:03:06.395",
+      "text": " so if you're not a developer, you might need help from one."
+    },
+    {
+      "end": "00:03:15.320",
+      "start": "00:03:10.065",
+      "text": " There are limits to the number of URLs and the maximum size of a site map file."
+    },
+    {
+      "end": "00:03:19.574",
+      "start": "00:03:15.320",
+      "text": " If you need more space, you can make multiple site map files."
+    },
+    {
+      "end": "00:03:25.330",
+      "start": "00:03:19.574",
+      "text": " You can also submit all of these site map files together in the form of an index site map file."
+    },
+    {
+      "end": "00:03:30.377",
+      "start": "00:03:25.330",
+      "text": " Doing that makes it a bit easier to track them all together in one place."
+    },
+    {
+      "end": "00:03:36.341",
+      "start": "00:03:30.377",
+      "text": " To learn more about site maps, formats, and guidelines, check our Help Center."
+    },
+    {
+      "end": "00:03:44.474",
+      "start": "00:03:36.383",
+      "text": " Before I go into Search Console, please note that the site maps report shows only site maps that you submitted using Search Console."
+    },
+    {
+      "end": "00:03:51.648",
+      "start": "00:03:44.474",
+      "text": " It does not show any site maps discovered through a robot's text reference or other discovery methods."
+    },
+    {
+      "end": "00:03:56.278",
+      "start": "00:03:51.648",
+      "text": " However, even if we already discovered a site map through other means,"
+    },
+    {
+      "end": "00:04:02.242",
+      "start": "00:03:56.278",
+      "text": " you can still submit it using this report in order to track errors and warnings."
+    },
+    {
+      "end": "00:04:04.995",
+      "start": "00:04:02.242",
+      "text": " So let's look at the report."
+    },
+    {
+      "end": "00:04:09.124",
+      "start": "00:04:04.995",
+      "text": " Open Search Console and find the site maps report."
+    },
+    {
+      "end": "00:04:16.548",
+      "start": "00:04:09.124",
+      "text": " If you have already submitted one or more site maps, you'll find the following information about each site map that you submitted."
+    },
+    {
+      "end": "00:04:25.140",
+      "start": "00:04:16.548",
+      "text": " The site map URL, the type or format of site map, such as XML, text, RSS, or Atom,"
+    },
+    {
+      "end": "00:04:31.646",
+      "start": "00:04:25.140",
+      "text": " the less submission date using this report, the date it was less read by Google,"
+    },
+    {
+      "end": "00:04:37.694",
+      "start": "00:04:31.646",
+      "text": " the crawl status, such as success, has errors, couldn't fetch, and others,"
+    },
+    {
+      "end": "00:04:41.656",
+      "start": "00:04:37.694",
+      "text": " the number of URLs discovered in the site map."
+    },
+    {
+      "end": "00:04:45.494",
+      "start": "00:04:41.656",
+      "text": " You will note an icon next to each successful site map."
+    },
+    {
+      "end": "00:04:50.957",
+      "start": "00:04:45.494",
+      "text": " Clicking it will lead you to the index-covert status report for the specific site map."
+    },
+    {
+      "end": "00:04:54.127",
+      "start": "00:04:50.957",
+      "text": " I'll talk about this report in the next episode."
+    },
+    {
+      "end": "00:04:59.382",
+      "start": "00:04:54.127",
+      "text": " But site maps can also be partially read, even if they have errors."
+    },
+    {
+      "end": "00:05:04.054",
+      "start": "00:04:59.424",
+      "text": " If your site map status is success, good job."
+    },
+    {
+      "end": "00:05:09.476",
+      "start": "00:05:04.054",
+      "text": " If you have any errors in the status column, click the specific row to see more details."
+    },
+    {
+      "end": "00:05:16.107",
+      "start": "00:05:09.476",
+      "text": " You'll find a complete list of errors and what to do in each case in the Search Console Help Center."
+    },
+    {
+      "end": "00:05:22.447",
+      "start": "00:05:16.107",
+      "text": " If you want to submit a new site map, simply open the site maps report and submit the URL."
+    },
+    {
+      "end": "00:05:28.119",
+      "start": "00:05:22.447",
+      "text": " You will need owner permission for a property in order to submit it."
+    },
+    {
+      "end": "00:05:34.417",
+      "start": "00:05:28.119",
+      "text": " If you submitted a site map, but it's not relevant anymore, you can delete it from Search Console."
+    },
+    {
+      "end": "00:05:39.172",
+      "start": "00:05:34.417",
+      "text": " But know that deleting a site map removes it from this report, but doesn't make Google"
+    },
+    {
+      "end": "00:05:42.801",
+      "start": "00:05:39.172",
+      "text": " forget the site map or any URLs listed on it."
+    },
+    {
+      "end": "00:05:48.765",
+      "start": "00:05:42.801",
+      "text": " In order for Google to forget the site map, just remove it from your site and return a 404."
+    },
+    {
+      "end": "00:05:54.980",
+      "start": "00:05:48.765",
+      "text": " After some attempts, Google will give up and completely stop refreshing the site map."
+    },
+    {
+      "end": "00:05:59.109",
+      "start": "00:05:54.980",
+      "text": " But this has nothing to do with the URLs in the site map."
+    },
+    {
+      "end": "00:06:03.947",
+      "start": "00:05:59.109",
+      "text": " If you truly need Google to stop visiting the URLs listed in a site map, you will need"
+    },
+    {
+      "end": "00:06:09.869",
+      "start": "00:06:03.947",
+      "text": " to return a 404 or use a robot's text rule for the URLs that you want to block."
+    },
+    {
+      "end": "00:06:14.291",
+      "start": "00:06:09.869",
+      "text": " This is what you would do in order for Google to stop crawling this page."
+    },
+    {
+      "end": "00:06:19.504",
+      "start": "00:06:14.291",
+      "text": " If your goal is to remove the URL from the Google index altogether, you should either use"
+    },
+    {
+      "end": "00:06:25.719",
+      "start": "00:06:19.504",
+      "text": " the no index directive or require HTTP authentication for users to see your page."
+    },
+    {
+      "end": "00:06:30.682",
+      "start": "00:06:25.719",
+      "text": " I hope this video helped you understand when you should use the site map and how Search Console"
+    },
+    {
+      "end": "00:06:32.392",
+      "start": "00:06:30.682",
+      "text": " can help you."
+    },
+    {
+      "end": "00:06:36.771",
+      "start": "00:06:32.392",
+      "text": " In the next episode, I'll talk about how to use Search Console to check which of your"
+    },
+    {
+      "end": "00:06:41.985",
+      "start": "00:06:36.771",
+      "text": " pages have been indexed and any problems found during that process."
+    },
+    {
+      "end": "00:06:47.991",
+      "start": "00:06:41.985",
+      "text": " And by the way, check out the S Google Webmaster series where John Miller, our guest star today,"
+    },
+    {
+      "end": "00:06:52.120",
+      "start": "00:06:47.991",
+      "text": " actually enters lots of questions submitted by the Webmaster community."
+    },
+    {
+      "end": "00:06:55.749",
+      "start": "00:06:52.120",
+      "text": " And don't forget to subscribe to the Google Webmaster's YouTube channel, where we'll"
+    },
+    {
+      "end": "00:06:58.376",
+      "start": "00:06:55.749",
+      "text": " be publishing lots of Search Console videos."
+    },
+    {
+      "end": "00:07:08.386",
+      "start": "00:06:58.376",
+      "text": " So stay tuned."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Google Search Central",
+  "youtube_channel_follower_count": 651000,
+  "youtube_comment_count": 107,
+  "youtube_description": "In this episode of Search Console Training, Daniel Waisberg gives a brief overview of the sitemaps report in Search Console. Find out more about what a sitemap is, decide whether you need one or not, and learn how to submit a sitemap and track its status using Search Console.\n\nManaging sitemaps→ https://goo.gle/399Xj7v \nCheck out John Mueller’s series Ask Google Webmasters → https://goo.gle/2OjWcvS \n\nWatch more Search Console Training videos → https://goo.gle/sct\nSubscribe to the Google Search Central Channel → https://goo.gle/SearchCentral\n\n#SearchConsole #GoogleSearch",
+  "youtube_like_count": 2340,
+  "youtube_tags": [
+    "Sitemaps in Search Console",
+    "sitemaps",
+    "manage your sitemaps",
+    "how to manage your sitemaps",
+    "sitemaps report",
+    "how to get your website discovered",
+    "how to bring traffic to your website",
+    "SEO",
+    "search engine optimization",
+    "search engine",
+    "Google Search",
+    "how to improve SEO",
+    "Search Console",
+    "Google Search Console",
+    "Search Console Training",
+    "Google",
+    "Google Webmasters",
+    "webmasters",
+    "Daniel Waisberg",
+    "GDS: Yes;",
+    "what is a sitemap",
+    "Google Search Central"
+  ],
+  "youtube_title": "Sitemaps in Search Console - Google Search Console Training",
+  "youtube_upload_date": "20200304",
+  "youtube_view_count": 445001
+}

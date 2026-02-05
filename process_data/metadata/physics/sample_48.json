@@ -1,0 +1,473 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [],
+    "description": "The video is an educational presentation on linear algebra topics, specifically dot product, orthogonality, and vector components, delivered through text and diagrams with voiceover narration.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The angle is arccos(4/√70). This is derived using the geometric definition of the dot product and solving for theta.",
+        "question": "What is the angle between vectors U and V in the examples provided?"
+      },
+      {
+        "answer": "Their dot product must equal zero.",
+        "question": "What condition must be met for two vectors to be considered orthogonal?"
+      },
+      {
+        "answer": "The vector 'a - comp_b a' is orthogonal to vector 'b', meaning they form a right angle.",
+        "question": "In the diagram illustrating vector components, what is the relationship between vector 'a - comp_b a' and vector 'b'?"
+      },
+      {
+        "answer": "Dot products allow us to determine the angle between vectors and identify orthogonal vectors, which are important concepts in many applications of linear algebra.",
+        "question": "Why is the concept of dot products relevant in linear algebra?"
+      },
+      {
+        "answer": "Yes, some courses use the term 'projection' instead of 'component' to refer to the same concept.",
+        "question": "Is the term 'projection' sometimes used interchangeably with 'component' when discussing vectors?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Presentation title displayed",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Definition of dot product, algebraic and geometric",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Example of dot product calculation",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Curious. The scene introduces a mathematical concept in a clear and concise way, prompting curiosity in the viewer.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the concept of dot products, providing both algebraic and geometric definitions. An example calculation is shown.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen defining vectors and dot products",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "name": "Diagram illustrating vectors and angle",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to dot product, algebraic and geometric interpretations.",
+        "timestamps": {
+          "end_timestamp": "00:00:39.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Dot Products",
+        "videoEditingDetails": [
+          {
+            "description": "Slide transition with new title 'Dot Products'",
+            "timestamps": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "New information appears sequentially on screen",
+            "timestamps": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Definition of orthogonality using dot product",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Example showing orthogonal and non-orthogonal vectors",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral - Curious. The scene builds upon the previous concept, introducing a new term related to dot products, keeping the viewer engaged.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene defines orthogonality in relation to dot products, then uses previous example vectors to demonstrate the concept.",
+            "timestamp": "00:00:39.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen defining orthogonality and related conditions",
+            "timestamp": {
+              "end_timestamp": "00:01:25.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "name": "Vector equations and calculations",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Orthogonality, relationship between dot product and perpendicularity.",
+        "timestamps": {
+          "end_timestamp": "00:01:37.000",
+          "start_timestamp": "00:00:39.033"
+        },
+        "title": "Orthogonality",
+        "videoEditingDetails": [
+          {
+            "description": "Slide transition with new title 'Orthogonality'",
+            "timestamps": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:39.033"
+            }
+          },
+          {
+            "description": "New information appears sequentially on screen",
+            "timestamps": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Definition of vector component in the direction of another vector",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "description": "Illustration of component and orthogonal result",
+            "timestamp": {
+              "end_timestamp": "00:02:08.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          },
+          {
+            "description": "Formula for component calculation",
+            "timestamp": {
+              "end_timestamp": "00:02:15.000",
+              "start_timestamp": "00:02:09.000"
+            }
+          },
+          {
+            "description": "Example calculation of component",
+            "timestamp": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Curious. The scene introduces the final concept, building upon previous knowledge, while maintaining viewer interest.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene defines vector components, illustrates the concept with a diagram, provides a formula for calculation, and then applies it to a familiar example.",
+            "timestamp": "00:01:38.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen defining vector component and properties",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "name": "Diagram illustrating component and orthogonality",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          },
+          {
+            "name": "Formula for component calculation",
+            "timestamp": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:02:09.000"
+            }
+          },
+          {
+            "name": "Vector equations and calculations",
+            "timestamp": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:02:25.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Vector components, projection, orthogonality in component calculations.",
+        "timestamps": {
+          "end_timestamp": "00:02:35.000",
+          "start_timestamp": "00:01:37.033"
+        },
+        "title": "Vector Components",
+        "videoEditingDetails": [
+          {
+            "description": "Slide transition with new title 'Components'",
+            "timestamps": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "description": "New information appears sequentially on screen",
+            "timestamps": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs in Scene 3 with the successful calculation of a vector component using the previously learned concepts.",
+        "timestamp": "00:02:21.000"
+      },
+      "description": "Introduction to Dot Products and Related Concepts",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Linear Algebra - Dot Product, Orthogonality & Components",
+    "trimmingSuggestions": [
+      {
+        "description": "The repetition of the dot product calculation for vectors U and V in both Scene 1 and Scene 2 could be trimmed to improve dynamism. Scene 2 could simply reference the previous calculation, emphasizing the focus on orthogonality.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The algebraic definition of the dot product could be condensed by showing the formula and briefly explaining its application, instead of reading out the entire sum.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 156,
+  "original_json_filename": "jw9IfBpC5vU.json",
+  "original_video_filename": "jw9IfBpC5vU.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this video we will discuss dot products orthogonality and vector components let a and B be vectors with entries a1 through a n and B 1 through B n the dot product of a and B sometimes called the scalar product of a and B is algebraically defined as the scalar obtained by multiplying corresponding entries in summing the result the dot product of a and B also has a geometric definition if theta is the angle between a and B then the dot product of a and B is the length of a time's the length of B times cosine of the angle theta we can use either definition to compute the dot product of two vectors and the result will always be a scalar let's look at an example consider the vectors U and V given using the algebraic definition of the dot product we compute the dot product of U and V is 4 we can leverage this fact in conjunction with the geometric definition of the dot product to compute the angle between the vectors U and V by computing the lengths of U and V we have an equation where the only unknown is theta the angle between U and V which we can solve for next we will discuss orthogonality two vectors are called orthogonal if their dot product is 0 using the geometric definition of the dot product we see that the vectors a and B are orthogonal if and only if one or both of their lengths are 0 or the angle between them is 90 degrees consider the vectors U and V from earlier and the new vector W U dot V equals 4 so U and V are not orthogonal but u dot W is 0 therefore U and W are orthogonal lastly we will discuss the component of one vector in the direction of another the component of the vector a in the direction of a non zero vector B is the unique vector in the direction of B so that when you subtract off the component of the vector a and the direction of B from a it becomes orthogonal to B let's look at that with a picture the component of a in the direction B is a vector in the direction of B and when you take a minus that component its orthogonal to be using these two properties we can develop a formula for computing the component of the vector a in the direction B it is worth noting that some other courses use the word projection instead of component let's look at an example with our familiar vectors U and V the component of U in the direction of V can be computed with the formula and after evaluating all dot products we see it is for 14 times the vector V",
+  "text_to_speech_word_count": 479,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.000",
+      "start": "00:00:00.000",
+      "text": " In this video, we will discuss dot products, orthogonality, and vector components."
+    },
+    {
+      "end": "00:00:10.000",
+      "start": "00:00:05.000",
+      "text": " Let A and B be vectors with entries A1 through An and B1 through Bn."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:10.000",
+      "text": " The dot product of A and B, sometimes called the scalar product of A and B,"
+    },
+    {
+      "end": "00:00:21.000",
+      "start": "00:00:15.000",
+      "text": " is algebraically defined as the scalar obtained by multiplying corresponding entries in summing the result."
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:21.000",
+      "text": " The dot product of A and B also has a geometric definition."
+    },
+    {
+      "end": "00:00:33.000",
+      "start": "00:00:25.000",
+      "text": " If theta is the angle between A and B, then the dot product of A and B is the length of A times the length of B times cosine of the angle theta."
+    },
+    {
+      "end": "00:00:39.000",
+      "start": "00:00:33.000",
+      "text": " We can use either definition to compute the dot product of two vectors, and the result will always be a scalar."
+    },
+    {
+      "end": "00:00:41.000",
+      "start": "00:00:39.000",
+      "text": " Let's look at an example."
+    },
+    {
+      "end": "00:00:44.000",
+      "start": "00:00:41.000",
+      "text": " Consider the vectors U and V given."
+    },
+    {
+      "end": "00:00:49.000",
+      "start": "00:00:44.000",
+      "text": " Using the algebraic definition of the dot product, we compute the dot product of U and V is 4."
+    },
+    {
+      "end": "00:00:56.000",
+      "start": "00:00:49.000",
+      "text": " We can leverage this fact and conjunction with the geometric definition of the dot product to compute the angle between the vectors U and V."
+    },
+    {
+      "end": "00:01:05.000",
+      "start": "00:00:56.000",
+      "text": " By computing the lengths of U and V, we have an equation where the only unknown is theta, the angle between U and V, which we can solve for."
+    },
+    {
+      "end": "00:01:08.000",
+      "start": "00:01:05.000",
+      "text": " Next, we will discuss orthogonality."
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:08.000",
+      "text": " Two vectors are called orthogonal, if their dot product is 0."
+    },
+    {
+      "end": "00:01:25.000",
+      "start": "00:01:13.000",
+      "text": " Using the geometric definition of the dot product, we see that the vectors A and B are orthogonal, if and only if, one or both of their lengths are 0, or the angle between them is 90 degrees."
+    },
+    {
+      "end": "00:01:29.000",
+      "start": "00:01:25.000",
+      "text": " Consider the vectors U and V from earlier in the new vector W."
+    },
+    {
+      "end": "00:01:33.000",
+      "start": "00:01:29.000",
+      "text": " U dot V equals 4, so U and V are not orthogonal."
+    },
+    {
+      "end": "00:01:38.000",
+      "start": "00:01:33.000",
+      "text": " But U dot W is 0, therefore U and W are orthogonal."
+    },
+    {
+      "end": "00:01:43.000",
+      "start": "00:01:38.000",
+      "text": " Lastly, we will discuss the component of one vector in the direction of another."
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:43.000",
+      "text": " The component of the vector A in the direction of a non-zero vector B is the unique vector in the direction of B, so that when you subtract off the component of the vector A in the direction of B from A, it becomes orthogonal to B."
+    },
+    {
+      "end": "00:01:58.000",
+      "start": "00:01:56.000",
+      "text": " Let's look at that with a picture."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:01:58.000",
+      "text": " The component of A in the direction B is a vector in the direction of B, and when you take A minus that component, it's orthogonal to B."
+    },
+    {
+      "end": "00:02:15.000",
+      "start": "00:02:08.000",
+      "text": " Using these two properties, we can develop a formula for computing the component of the vector A in the direction B."
+    },
+    {
+      "end": "00:02:20.000",
+      "start": "00:02:15.000",
+      "text": " It is worth noting that some other courses use the word projection instead of component."
+    },
+    {
+      "end": "00:02:24.000",
+      "start": "00:02:20.000",
+      "text": " Let's look at an example with our familiar vectors U and V."
+    },
+    {
+      "end": "00:02:29.000",
+      "start": "00:02:24.000",
+      "text": " The component of U in the direction of V can be computed with the formula."
+    },
+    {
+      "end": "00:02:35.000",
+      "start": "00:02:29.000",
+      "text": " And after evaluating all dot products, we see it is 4, 14 times the vector V."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Jason Siefken",
+  "youtube_channel_follower_count": 1070,
+  "youtube_comment_count": 0,
+  "youtube_description": "This video goes over the algebraic and geometric definitions of the dot product, the definition of orthogonality, and how to find the component of one vector in the direction of another.",
+  "youtube_like_count": 52,
+  "youtube_tags": [
+    "Linear Algebra",
+    "Dot Product",
+    "Orthogonality"
+  ],
+  "youtube_title": "Dot Product, Orthogonality, and Components",
+  "youtube_upload_date": "20180719",
+  "youtube_view_count": 13671
+}

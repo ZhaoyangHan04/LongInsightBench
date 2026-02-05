@@ -1,0 +1,1537 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The narrator, never seen on screen, has a British accent.",
+        "name": "Emu Chicken"
+      }
+    ],
+    "description": "A step-by-step instructional video guide on how to install EmuELEC on an Android box.",
+    "fps": 29.97,
+    "qAndA": [
+      {
+        "answer": "The reader uses a mini-USB connection (visible in the shot at 0:15).",
+        "question": "What type of USB connection does the microSD card reader have?"
+      },
+      {
+        "answer": "The Android box is an A9, manufactured by Amlogic. (visible in AIDA64 app at 2:40)",
+        "question": "What is the brand of the Android box that the narrator is installing EmuELEC on?"
+      },
+      {
+        "answer": "The LibreELEC Reboot app allows you to easily switch between the Android operating system and EmuELEC on your Android box.",
+        "question": "What is the purpose of the LibreELEC Reboot app?"
+      },
+      {
+        "answer": "The DTB file has a '.dtb' file extension.",
+        "question": "What type of file extension does the DTB file have?"
+      },
+      {
+        "answer": "The overall mood of the video is neutral and instructional. The narrator is focused on providing clear and concise guidance for the installation process.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Emu Chicken introduces the video topic (EmuELEC on Android)",
+            "timestamp": {
+              "end_timestamp": "00:00:12.012",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Showcases several Android boxes on a wooden table",
+            "timestamp": {
+              "end_timestamp": "00:00:12.012",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "description": "Inserts a microSD card into a USB card reader",
+            "timestamp": {
+              "end_timestamp": "00:00:16.984",
+              "start_timestamp": "00:00:13.013"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken guides the viewer through the process."
+          }
+        ],
+        "contextualRelevance": "The scene sets up the video by introducing the required materials for the installation process.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Curious. The narrator's calm voice and the simple presentation of the materials set a curious tone.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator states the purpose of the video: installing EmuELEC on an Android box.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Various Android boxes",
+            "timestamp": {
+              "end_timestamp": "00:00:12.012",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "name": "MicroSD card",
+            "timestamp": {
+              "end_timestamp": "00:00:19.686",
+              "start_timestamp": "00:00:13.013"
+            }
+          },
+          {
+            "name": "USB card reader",
+            "timestamp": {
+              "end_timestamp": "00:00:19.686",
+              "start_timestamp": "00:00:13.013"
+            }
+          },
+          {
+            "name": "Computer (implied, not seen)",
+            "timestamp": {
+              "end_timestamp": "00:00:19.686",
+              "start_timestamp": "00:00:18.986"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Retro gaming, technology, DIY.",
+        "timestamps": {
+          "end_timestamp": "00:00:19.686",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Materials",
+        "videoEditingDetails": [
+          {
+            "description": "Intro screen with 'EmuELEC MASTERCLASS - BE A RETRO NINJA' against a blue background.",
+            "timestamps": {
+              "end_timestamp": "00:00:05.005",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to close-up shot of the Android boxes.",
+            "timestamps": {
+              "end_timestamp": "00:00:13.013",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "description": "Transition to close-up shots of the microSD card and reader.",
+            "timestamps": {
+              "end_timestamp": "00:00:16.984",
+              "start_timestamp": "00:00:13.013"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains the need to know the exact specs of the Android box.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.001",
+              "start_timestamp": "00:00:19.987"
+            }
+          },
+          {
+            "description": "Shows a product page example for an X96 Max Android box.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.001",
+              "start_timestamp": "00:00:20.988"
+            }
+          },
+          {
+            "description": "Introduces the AIDA64 app for checking hardware information.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "description": "Shows the process of downloading the AIDA64 APK file.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:39.006"
+            }
+          },
+          {
+            "description": "Introduces the Terminal Emulator app.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.993",
+              "start_timestamp": "00:00:54.988"
+            }
+          },
+          {
+            "description": "Shows the process of downloading the Terminal Emulator APK file.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.993",
+              "start_timestamp": "00:00:55.989"
+            }
+          },
+          {
+            "description": "Introduces the LibreELEC Reboot app for Android TV.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.967",
+              "start_timestamp": "00:00:59.993"
+            }
+          },
+          {
+            "description": "Shows the process of downloading the LibreELEC Reboot APK file.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.967",
+              "start_timestamp": "00:01:00.994"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken continues to guide the viewer through the process."
+          }
+        ],
+        "contextualRelevance": "The scene focuses on gathering necessary information about the Android box using specific apps.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral - Informative. The narrator's calm tone and detailed explanations create a neutral, informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains why knowing the Android box specs is crucial.",
+            "timestamp": "00:00:19.987"
+          },
+          {
+            "description": "The narrator introduces each app and its purpose.",
+            "timestamp": "00:00:35.002"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen showing product page, APKPure website, browser download list, file explorer.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.967",
+              "start_timestamp": "00:00:20.988"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Research, preparation, technical details.",
+        "timestamps": {
+          "end_timestamp": "00:01:06.967",
+          "start_timestamp": "00:00:19.720"
+        },
+        "title": "Researching the Android Box",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transitions between website pages and actions.",
+            "timestamps": {
+              "end_timestamp": "00:01:06.967",
+              "start_timestamp": "00:00:20.988"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Transfers downloaded APK files to the microSD card using file explorer.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.984",
+              "start_timestamp": "00:01:12.005"
+            }
+          },
+          {
+            "description": "Inserts the microSD card into the Android box.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.991",
+              "start_timestamp": "00:01:23.984"
+            }
+          },
+          {
+            "description": "Navigates the Android box menu and installs the APK files.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.016",
+              "start_timestamp": "00:01:30.991"
+            }
+          },
+          {
+            "description": "Opens AIDA64 and checks the Android box specifications.",
+            "timestamp": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:02:29.016"
+            }
+          },
+          {
+            "description": "Shows how to access system info using the Terminal Emulator.",
+            "timestamp": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:02:39.326"
+            }
+          },
+          {
+            "description": "Ejects the microSD card from the Android box.",
+            "timestamp": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:02:39.326"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken continues to guide the viewer."
+          }
+        ],
+        "contextualRelevance": "The scene shows the practical steps required to install necessary apps and verify the Android box specifications.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Instructive. The detailed instructions and visual demonstrations maintain the neutral, instructive mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator demonstrates each step of the app installation process.",
+            "timestamp": "00:01:12.005"
+          },
+          {
+            "description": "The narrator highlights the specific information needed from AIDA64 and the Terminal Emulator.",
+            "timestamp": "00:02:29.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen showing file explorer.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.984",
+              "start_timestamp": "00:01:12.005"
+            }
+          },
+          {
+            "name": "Android box",
+            "timestamp": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:01:23.984"
+            }
+          },
+          {
+            "name": "MicroSD card",
+            "timestamp": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:01:23.984"
+            }
+          },
+          {
+            "name": "Android TV screen showing app installation process and AIDA64 info.",
+            "timestamp": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:01:30.991"
+            }
+          },
+          {
+            "name": "Android TV screen showing Terminal Emulator interface.",
+            "timestamp": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:02:39.326"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Practical application, troubleshooting, following instructions.",
+        "timestamps": {
+          "end_timestamp": "00:02:39.326",
+          "start_timestamp": "00:01:07.000"
+        },
+        "title": "Installing Apps on the Android Box",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to close-up shot of the Android box and microSD card insertion.",
+            "timestamps": {
+              "end_timestamp": "00:01:30.991",
+              "start_timestamp": "00:01:23.984"
+            }
+          },
+          {
+            "description": "Transition to Android TV screen showing app installations and AIDA64.",
+            "timestamps": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:01:30.991"
+            }
+          },
+          {
+            "description": "Transition to Android TV screen showing Terminal Emulator.",
+            "timestamps": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:02:39.326"
+            }
+          },
+          {
+            "description": "Smooth transitions between Android box menus and apps.",
+            "timestamps": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:01:30.991"
+            }
+          },
+          {
+            "description": "Close-up shot of ejecting the microSD card.",
+            "timestamps": {
+              "end_timestamp": "00:02:39.326",
+              "start_timestamp": "00:02:39.326"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presents a screen with two options: EmuELEC 3.9 and EmuELEC 4.0.",
+            "timestamp": {
+              "end_timestamp": "00:04:19.993",
+              "start_timestamp": "00:03:45.993"
+            }
+          },
+          {
+            "description": "Explains the difference between the two versions and when to choose each one based on hardware specifications.",
+            "timestamp": {
+              "end_timestamp": "00:04:19.993",
+              "start_timestamp": "00:03:45.993"
+            }
+          },
+          {
+            "description": "Shows examples of games running on both versions.",
+            "timestamp": {
+              "end_timestamp": "00:04:38.011",
+              "start_timestamp": "00:04:19.993"
+            }
+          },
+          {
+            "description": "Shows the list of available EmuELEC images on GitHub.",
+            "timestamp": {
+              "end_timestamp": "00:05:05.005",
+              "start_timestamp": "00:04:38.011"
+            }
+          },
+          {
+            "description": "Explains which version to choose based on the Android box specifications.",
+            "timestamp": {
+              "end_timestamp": "00:05:05.005",
+              "start_timestamp": "00:04:38.011"
+            }
+          },
+          {
+            "description": "Downloads the appropriate EmuELEC image.",
+            "timestamp": {
+              "end_timestamp": "00:05:05.005",
+              "start_timestamp": "00:04:48.989"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken continues to guide the viewer."
+          }
+        ],
+        "contextualRelevance": "The scene provides guidance on choosing the correct EmuELEC version based on hardware.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Informative. The narrator calmly guides the viewer through the decision-making process.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator compares EmuELEC 3.9 and 4.0, outlining their pros and cons.",
+            "timestamp": "00:03:45.993"
+          },
+          {
+            "description": "The narrator explains how to choose the correct image version from the GitHub page.",
+            "timestamp": "00:04:38.011"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen showing the EmuELEC versions, game footage, GitHub page.",
+            "timestamp": {
+              "end_timestamp": "00:05:05.005",
+              "start_timestamp": "00:03:45.993"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Decision making, compatibility, technical specifications.",
+        "timestamps": {
+          "end_timestamp": "00:05:05.205",
+          "start_timestamp": "00:02:39.359"
+        },
+        "title": "Choosing and Downloading the EmuELEC Image",
+        "videoEditingDetails": [
+          {
+            "description": "Split-screen effect comparing EmuELEC 3.9 and 4.0.",
+            "timestamps": {
+              "end_timestamp": "00:04:19.993",
+              "start_timestamp": "00:03:45.993"
+            }
+          },
+          {
+            "description": "Game footage overlays",
+            "timestamps": {
+              "end_timestamp": "00:04:38.011",
+              "start_timestamp": "00:04:19.993"
+            }
+          },
+          {
+            "description": "Smooth transition to GitHub page.",
+            "timestamps": {
+              "end_timestamp": "00:05:05.005",
+              "start_timestamp": "00:04:38.011"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Downloads BalenaEtcher flashing tool.",
+            "timestamp": {
+              "end_timestamp": "00:05:16.016",
+              "start_timestamp": "00:05:05.239"
+            }
+          },
+          {
+            "description": "Opens and installs BalenaEtcher.",
+            "timestamp": {
+              "end_timestamp": "00:05:20.988",
+              "start_timestamp": "00:05:16.016"
+            }
+          },
+          {
+            "description": "Drags and drops the EmuELEC image into BalenaEtcher.",
+            "timestamp": {
+              "end_timestamp": "00:05:23.991",
+              "start_timestamp": "00:05:20.988"
+            }
+          },
+          {
+            "description": "Selects the microSD card as the target drive.",
+            "timestamp": {
+              "end_timestamp": "00:05:31.999",
+              "start_timestamp": "00:05:23.991"
+            }
+          },
+          {
+            "description": "Flashes the image to the microSD card.",
+            "timestamp": {
+              "end_timestamp": "00:05:59.993",
+              "start_timestamp": "00:05:31.999"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken continues to guide the viewer."
+          }
+        ],
+        "contextualRelevance": "The scene shows how to use BalenaEtcher to flash the EmuELEC image to the microSD card.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Instructive. The straightforward instructions and clear visual demonstrations contribute to the mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator demonstrates each step of the flashing process.",
+            "timestamp": "00:05:05.239"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen showing BalenaEtcher website, installation process, flashing process.",
+            "timestamp": {
+              "end_timestamp": "00:05:59.993",
+              "start_timestamp": "00:05:05.239"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Flashing, data transfer, technical process.",
+        "timestamps": {
+          "end_timestamp": "00:06:01.962",
+          "start_timestamp": "00:05:05.239"
+        },
+        "title": "Flashing the EmuELEC Image",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to BalenaEtcher website.",
+            "timestamps": {
+              "end_timestamp": "00:05:16.016",
+              "start_timestamp": "00:05:05.239"
+            }
+          },
+          {
+            "description": "Smooth transitions between steps in BalenaEtcher.",
+            "timestamps": {
+              "end_timestamp": "00:05:59.993",
+              "start_timestamp": "00:05:16.016"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Re-inserts the flashed microSD card into the computer.",
+            "timestamp": {
+              "end_timestamp": "00:06:10.003",
+              "start_timestamp": "00:06:01.995"
+            }
+          },
+          {
+            "description": "Navigates to the EmuELEC folder on the microSD card.",
+            "timestamp": {
+              "end_timestamp": "00:06:14.007",
+              "start_timestamp": "00:06:10.003"
+            }
+          },
+          {
+            "description": "Explains the need to replace the DTB file.",
+            "timestamp": {
+              "end_timestamp": "00:06:17.010",
+              "start_timestamp": "00:06:14.007"
+            }
+          },
+          {
+            "description": "Opens the 'device_trees' folder.",
+            "timestamp": {
+              "end_timestamp": "00:06:32.993",
+              "start_timestamp": "00:06:28.989"
+            }
+          },
+          {
+            "description": "Finds the correct DTB file based on the Android box specifications.",
+            "timestamp": {
+              "end_timestamp": "00:06:43.003",
+              "start_timestamp": "00:06:32.993"
+            }
+          },
+          {
+            "description": "Copies the correct DTB file.",
+            "timestamp": {
+              "end_timestamp": "00:06:47.007",
+              "start_timestamp": "00:06:43.003"
+            }
+          },
+          {
+            "description": "Pastes the copied DTB file into the root of the EmuELEC folder.",
+            "timestamp": {
+              "end_timestamp": "00:07:18.005",
+              "start_timestamp": "00:06:47.007"
+            }
+          },
+          {
+            "description": "Renames the copied DTB file to 'dtb.img'.",
+            "timestamp": {
+              "end_timestamp": "00:07:52.005",
+              "start_timestamp": "00:07:18.005"
+            }
+          },
+          {
+            "description": "Ejects the microSD card from the computer.",
+            "timestamp": {
+              "end_timestamp": "00:07:57.010",
+              "start_timestamp": "00:07:52.005"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken continues to guide the viewer."
+          }
+        ],
+        "contextualRelevance": "The scene shows the essential steps to replace the DTB file for EmuELEC's functionality.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Instructive. The step-by-step explanations and visuals create the mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains why the DTB file needs to be replaced.",
+            "timestamp": "00:06:14.007"
+          },
+          {
+            "description": "The narrator demonstrates how to find and copy the correct DTB file.",
+            "timestamp": "00:06:32.993"
+          },
+          {
+            "description": "The narrator highlights the correct renaming of the DTB file.",
+            "timestamp": "00:07:18.005"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen showing Windows Explorer, EmuELEC folder, device_trees folder.",
+            "timestamp": {
+              "end_timestamp": "00:07:57.010",
+              "start_timestamp": "00:06:01.995"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Customization, file management, technical precision.",
+        "timestamps": {
+          "end_timestamp": "00:07:58.979",
+          "start_timestamp": "00:06:01.995"
+        },
+        "title": "Replacing the DTB File",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transitions between folders and actions.",
+            "timestamps": {
+              "end_timestamp": "00:07:57.010",
+              "start_timestamp": "00:06:01.995"
+            }
+          },
+          {
+            "description": "Highlighting of specific files and folders.",
+            "timestamps": {
+              "end_timestamp": "00:07:52.005",
+              "start_timestamp": "00:06:14.007"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Re-inserts the microSD card into the Android box.",
+            "timestamp": {
+              "end_timestamp": "00:08:08.989",
+              "start_timestamp": "00:07:59.012"
+            }
+          },
+          {
+            "description": "Boots up the Android box.",
+            "timestamp": {
+              "end_timestamp": "00:08:10.991",
+              "start_timestamp": "00:08:08.989"
+            }
+          },
+          {
+            "description": "Opens the LibreELEC app and selects 'Aceptar' to reboot into EmuELEC.",
+            "timestamp": {
+              "end_timestamp": "00:08:16.997",
+              "start_timestamp": "00:08:10.991"
+            }
+          },
+          {
+            "description": "Shows the EmuELEC boot process, including partitioning, file installation, and network configuration.",
+            "timestamp": {
+              "end_timestamp": "00:08:46.994",
+              "start_timestamp": "00:08:16.997"
+            }
+          },
+          {
+            "description": "Shows the EmuELEC welcome screen and gamepad detection.",
+            "timestamp": {
+              "end_timestamp": "00:08:54.001",
+              "start_timestamp": "00:08:46.994"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken continues to guide the viewer, offering instructions and reassurance."
+          }
+        ],
+        "contextualRelevance": "The scene illustrates the successful booting of EmuELEC, marking the completion of the installation steps.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Anticipatory. The scene builds anticipation as the viewer sees the EmuELEC boot process.",
+          "keyMoments": [
+            {
+              "changeDescription": "The screen transitions from the Android interface, which is bright and modern, to the EmuELEC boot sequence, characterized by retro-style, text-based displays.",
+              "timestamp": "00:08:16.997"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator instructs the viewer to open LibreELEC and reboot into EmuELEC.",
+            "timestamp": "00:08:10.991"
+          },
+          {
+            "description": "EmuELEC successfully boots, completing the installation process.",
+            "timestamp": "00:08:46.994"
+          }
+        ],
+        "props": [
+          {
+            "name": "Android box",
+            "timestamp": {
+              "end_timestamp": "00:08:16.997",
+              "start_timestamp": "00:07:59.012"
+            }
+          },
+          {
+            "name": "MicroSD card",
+            "timestamp": {
+              "end_timestamp": "00:08:08.989",
+              "start_timestamp": "00:07:59.012"
+            }
+          },
+          {
+            "name": "Android TV screen showing LibreELEC app interface.",
+            "timestamp": {
+              "end_timestamp": "00:08:16.997",
+              "start_timestamp": "00:08:10.991"
+            }
+          },
+          {
+            "name": "TV screen showing the EmuELEC boot process.",
+            "timestamp": {
+              "end_timestamp": "00:08:46.994",
+              "start_timestamp": "00:08:16.997"
+            }
+          },
+          {
+            "name": "TV screen showing the EmuELEC welcome screen.",
+            "timestamp": {
+              "end_timestamp": "00:08:54.001",
+              "start_timestamp": "00:08:46.994"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Success, completion, fulfillment.",
+        "timestamps": {
+          "end_timestamp": "00:08:54.434",
+          "start_timestamp": "00:07:59.012"
+        },
+        "title": "Booting EmuELEC",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to close-up shot of the Android box and microSD card insertion.",
+            "timestamps": {
+              "end_timestamp": "00:08:08.989",
+              "start_timestamp": "00:07:59.012"
+            }
+          },
+          {
+            "description": "Transition to Android TV screen with LibreELEC.",
+            "timestamps": {
+              "end_timestamp": "00:08:16.997",
+              "start_timestamp": "00:08:10.991"
+            }
+          },
+          {
+            "description": "Transition to TV screen showing EmuELEC boot process.",
+            "timestamps": {
+              "end_timestamp": "00:08:46.994",
+              "start_timestamp": "00:08:16.997"
+            }
+          },
+          {
+            "description": "Transition to EmuELEC welcome screen.",
+            "timestamps": {
+              "end_timestamp": "00:08:54.001",
+              "start_timestamp": "00:08:46.994"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Emu Chicken encourages viewers to like the video, subscribe to the channel, and leave comments.",
+            "timestamp": {
+              "end_timestamp": "00:09:00.007",
+              "start_timestamp": "00:08:54.468"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Emu Chicken"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Emu Chicken"
+            ],
+            "description": "Emu Chicken directly addresses the viewer."
+          }
+        ],
+        "contextualRelevance": "The scene concludes the video with a call to action for viewer engagement.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Positive - Happy, Excited. The cheerful outro music and the vibrant outro animation create a positive and lighthearted mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator thanks the viewers and encourages interaction.",
+            "timestamp": "00:08:54.468"
+          }
+        ],
+        "props": [
+          {
+            "name": "TV screen displaying outro animation with QR codes for Discord and Patreon.",
+            "timestamp": {
+              "end_timestamp": "00:09:06.013",
+              "start_timestamp": "00:08:54.468"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Community, engagement, support.",
+        "timestamps": {
+          "end_timestamp": "00:09:06.713",
+          "start_timestamp": "00:08:54.468"
+        },
+        "title": "Outro and Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to outro animation.",
+            "timestamps": {
+              "end_timestamp": "00:09:00.007",
+              "start_timestamp": "00:08:54.468"
+            }
+          },
+          {
+            "description": "Glitch effect on outro animation.",
+            "timestamps": {
+              "end_timestamp": "00:09:06.013",
+              "start_timestamp": "00:08:54.468"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The successful booting of EmuELEC on the Android box marks the climax of the main storyline.",
+        "timestamp": "00:08:46.994"
+      },
+      "description": "Main and secondary narratives intertwined to provide both instructional and engagement-focused content.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "EmuELEC on Android",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened by showing the APK download process only once and explaining that the other apps are downloaded similarly.",
+        "timestamps": {
+          "end_timestamp": "00:08:54.468",
+          "start_timestamp": "00:08:54.468"
+        }
+      },
+      {
+        "description": "The app installation process could be sped up or only show one installation example, stating the others are installed the same way.",
+        "timestamps": {
+          "end_timestamp": "00:08:54.468",
+          "start_timestamp": "00:08:54.468"
+        }
+      },
+      {
+        "description": "The flashing process could be sped up or a time-lapse could be used to shorten this segment.",
+        "timestamps": {
+          "end_timestamp": "00:08:54.468",
+          "start_timestamp": "00:08:54.468"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 547,
+  "original_json_filename": "lti8T9rfeQA.json",
+  "original_video_filename": "lti8T9rfeQA.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "welcome back to emulic masterclass i'll be your host today amy chicken do you want mulik on your android box in this video we'll do that starting with our microsd card which we fake tested in a previous video we'll insert this into our computer we first need to know precisely what is in our android box when shopping online we get a sense of what it is but as one page hosts numerous products we only know what it is once the product arrives at our door we can check hardware information by using ida 64. links are in description as always click download apk the second file will be the terminal emulator and the last libreelic reboot from android tv in our browser download list we can drag these over to the microsd and then eject boot up your box and then insert the microsd if you have an app installer you could use that or we could use file browser we need to navigate to our microsd and we need to install each one of these so let's click one if you get a security error hit settings and then allow unknown sources right click to get back and try again now we should be able to install each one of these without being nagged if successfully installed we'll see them on the menu we'll first check ida 64. this is the a9 box it was sold on ali as an s905x with 2 gigabyte memory if we check board and device here we have p212 and in available ram we have two gigabytes here it states it can go up to 1.5 gigahertz and in display we have a mali 450 this should be enough information to go off but we can check also in terminal emulator here we will type cat space forward slash proc forward slash device dash tree forward slash amlogic dash dt dash id once you finish typing this you need to use the keyboard or arrows or whatever to move over to the enter button then push your enter and we have a p212-2gp a lot of two on two's here let's remember that microsd to the computer we can conclude our checks on the dtb section of the core elec website on the right p2122g points to 905x we need to decide which version of emulic we want if you only have one gigabytes of memory you're in the 905 family or you have a 912 then you should stick with 3.9 if you have more than two gigabytes of memory and a faster chip like an x2 x3 then we suggest installing mulx4 this runs the 64-bit architecture so it needs more memory than mulex 3.9 it will however result in being quicker and give more choices and what we can run then we need to choose the correct version of the image the 905 family including the 905x will use this top option if you have a 905 x2 or faster choose the ng variant we will now download the image choose the one with generic.m dot gz at the end we're going to save it to the desktop and also download our favorite banana etcher save the file then run it okay so gonna drag across the image file here and then select the target as the microsd push select at the bottom and then flash if you get this screen press yes and then wait if you have an error while decompressing you may be running low on this space so empty your recycle bin please once the flash is complete we can close this window take out the micro sd and then reinsert it in windows explorer or something similar go to emulic and here we need to change out the dtb file if you can't see the file extensions you may need to go to the top view and then check file name extensions on the right let's dive into the device trees folder here we have a load of dtb files we need to find the one that suits us we've seen this name before p212 2g but to make sure we'll check out the core elect device tree website on the left we have the brand and names of the boxes but the most important things to take note of are soc which is the chip and the ram which is the memory the box i'm using here is the a9 which is not in the list but 905x and 2g always points to the same file name on the right so we can be sure that this is the one we need so find it right click it copy go back into the root right click here and then paste now we need to rename this to dtb.img so you can right click that press rename select it all right click copy now we're going to delete it and now we can rename this file here so right click rename select it all right click paste and click away if you get this press yes and now we're done right click on the mulic eject and now boot up your android box once again once booted insert your micro sd now click on libra ellick on the next screen press accepta the box should reboot and load up emulick if you cannot do this open up your terminal and write reboot space update i should do the same thing on the first boot mulek we'll start by setting up the partitions installing some files and after that you should be ready to go from now on whenever you turn on your android box with this microsdn emulic will boot up when no microsd is present you'll get a face full of android we hope you enjoyed this video please hit the like and that bell thing comments are also appreciated i'll catch you on the next one see you later",
+  "text_to_speech_word_count": 999,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.972",
+      "start": "00:00:00.000",
+      "text": " Welcome back to MULIC Masterclass."
+    },
+    {
+      "end": "00:00:07.774",
+      "start": "00:00:04.972",
+      "text": " I'll be your host today, Amy Chicken."
+    },
+    {
+      "end": "00:00:10.978",
+      "start": "00:00:07.774",
+      "text": " Do you want MULIC on your Android box?"
+    },
+    {
+      "end": "00:00:13.213",
+      "start": "00:00:10.978",
+      "text": " In this video, we'll do that."
+    },
+    {
+      "end": "00:00:17.651",
+      "start": "00:00:13.213",
+      "text": " Starting with our microSD card, which we've fake tested in a previous video, we'll insert"
+    },
+    {
+      "end": "00:00:20.187",
+      "start": "00:00:17.651",
+      "text": " this into our computer."
+    },
+    {
+      "end": "00:00:24.358",
+      "start": "00:00:20.187",
+      "text": " We first need to know precisely what is in our Android box."
+    },
+    {
+      "end": "00:00:27.294",
+      "start": "00:00:24.358",
+      "text": " When shopping online, we get a sense of what it is."
+    },
+    {
+      "end": "00:00:33.200",
+      "start": "00:00:27.294",
+      "text": " But as one page hosts numerous products, we only know what it is once the product arrives"
+    },
+    {
+      "end": "00:00:40.574",
+      "start": "00:00:33.200",
+      "text": " at our door."
+    },
+    {
+      "end": "00:00:45.145",
+      "start": "00:00:40.574",
+      "text": " We can check hardware information by using IDA64."
+    },
+    {
+      "end": "00:00:47.614",
+      "start": "00:00:45.145",
+      "text": " Links are in description, as always."
+    },
+    {
+      "end": "00:00:55.689",
+      "start": "00:00:47.614",
+      "text": " Click Download APK."
+    },
+    {
+      "end": "00:01:01.828",
+      "start": "00:00:55.689",
+      "text": " The second file will be the terminal emulator."
+    },
+    {
+      "end": "00:01:12.339",
+      "start": "00:01:01.828",
+      "text": " And the last, LibreElic, reboot from Android TV."
+    },
+    {
+      "end": "00:01:24.451",
+      "start": "00:01:12.339",
+      "text": " In our browser download list, we can drag these over to the microSD, and then eject."
+    },
+    {
+      "end": "00:01:31.758",
+      "start": "00:01:24.451",
+      "text": " Put up your box, and then insert the microSD."
+    },
+    {
+      "end": "00:01:37.598",
+      "start": "00:01:31.758",
+      "text": " If you have an app installer, you could use that, or we could use File Browser."
+    },
+    {
+      "end": "00:01:43.370",
+      "start": "00:01:37.598",
+      "text": " We need to navigate to our microSD, and we need to install each one of these."
+    },
+    {
+      "end": "00:01:45.372",
+      "start": "00:01:43.370",
+      "text": " So let's click one."
+    },
+    {
+      "end": "00:01:56.450",
+      "start": "00:01:46.373",
+      "text": " If you get a security error, hit Settings, and then Allow Unknown Sources."
+    },
+    {
+      "end": "00:02:02.990",
+      "start": "00:01:56.450",
+      "text": " Right click to get back, and try again."
+    },
+    {
+      "end": "00:02:30.517",
+      "start": "00:02:02.990",
+      "text": " Now I should be able to install each one of these without being nacked."
+    },
+    {
+      "end": "00:02:35.389",
+      "start": "00:02:30.517",
+      "text": " If successfully installed, we'll see them on the menu."
+    },
+    {
+      "end": "00:02:40.627",
+      "start": "00:02:35.389",
+      "text": " We'll first check IDA64."
+    },
+    {
+      "end": "00:02:42.296",
+      "start": "00:02:40.627",
+      "text": " This is the A9 box."
+    },
+    {
+      "end": "00:02:47.534",
+      "start": "00:02:42.296",
+      "text": " It was sold on Ali as an S905X with 2GB memory."
+    },
+    {
+      "end": "00:02:55.809",
+      "start": "00:02:47.534",
+      "text": " If we check board and device here, we have P212, and in available RAM, we have 2GB."
+    },
+    {
+      "end": "00:03:04.551",
+      "start": "00:02:55.809",
+      "text": " Here it states it can go up to 1.5GHz, and in display we have a Mally 450."
+    },
+    {
+      "end": "00:03:11.391",
+      "start": "00:03:04.551",
+      "text": " This should be enough information to go off, but we can check also in Terminal Emulator."
+    },
+    {
+      "end": "00:03:20.868",
+      "start": "00:03:11.391",
+      "text": " Here we will type Cat, Space, Forward Slash, Proc, Forward Slash, Device, Dash 3, Forward"
+    },
+    {
+      "end": "00:03:27.708",
+      "start": "00:03:20.868",
+      "text": " Slash, Amlogic, Dash, DT, Dash, ID."
+    },
+    {
+      "end": "00:03:33.013",
+      "start": "00:03:27.708",
+      "text": " Once you finish typing this, you need to use the keyboard, or arrows, or whatever to move"
+    },
+    {
+      "end": "00:03:37.384",
+      "start": "00:03:33.013",
+      "text": " over to the Enter button, then push your Enter."
+    },
+    {
+      "end": "00:03:42.990",
+      "start": "00:03:37.384",
+      "text": " And we have a P212-2GP, a lot of 212s here."
+    },
+    {
+      "end": "00:03:44.591",
+      "start": "00:03:42.990",
+      "text": " Let's remember that."
+    },
+    {
+      "end": "00:03:47.728",
+      "start": "00:03:44.591",
+      "text": " MicroSD to the computer."
+    },
+    {
+      "end": "00:03:52.332",
+      "start": "00:03:47.728",
+      "text": " We can conclude our checks on the DTB section of the Core LX website."
+    },
+    {
+      "end": "00:03:56.436",
+      "start": "00:03:52.332",
+      "text": " On the right, P212-2G points to 905X."
+    },
+    {
+      "end": "00:04:02.976",
+      "start": "00:03:56.436",
+      "text": " We need to decide which version of Muleic we want."
+    },
+    {
+      "end": "00:04:09.349",
+      "start": "00:04:02.976",
+      "text": " If you only have 1GB of memory, you are in the 905 family, or you have a 912, then you"
+    },
+    {
+      "end": "00:04:12.119",
+      "start": "00:04:09.349",
+      "text": " should stick with 3.9."
+    },
+    {
+      "end": "00:04:18.358",
+      "start": "00:04:12.119",
+      "text": " If you have more than 2GB of memory, and a faster chip, like an X2, X3, then we suggest"
+    },
+    {
+      "end": "00:04:20.594",
+      "start": "00:04:18.358",
+      "text": " installing Muleic 4."
+    },
+    {
+      "end": "00:04:26.466",
+      "start": "00:04:20.594",
+      "text": " This runs a 64 bit architecture, so it needs more memory than Muleic 3.9."
+    },
+    {
+      "end": "00:04:40.247",
+      "start": "00:04:26.466",
+      "text": " It will, however, result in being quicker, and give more choices in what we can run."
+    },
+    {
+      "end": "00:04:43.050",
+      "start": "00:04:40.247",
+      "text": " Then we need to choose the correct version of the image."
+    },
+    {
+      "end": "00:04:48.288",
+      "start": "00:04:43.050",
+      "text": " The 905 family, including the 905X, will use this top option."
+    },
+    {
+      "end": "00:04:53.527",
+      "start": "00:04:48.288",
+      "text": " If you have a 905X2 or faster, choose the NG variant."
+    },
+    {
+      "end": "00:04:59.867",
+      "start": "00:04:53.527",
+      "text": " We will now download the image, choose the one with generic.imk.gz at the end."
+    },
+    {
+      "end": "00:05:05.172",
+      "start": "00:04:59.867",
+      "text": " We are going to save it to the desktop."
+    },
+    {
+      "end": "00:05:11.378",
+      "start": "00:05:05.172",
+      "text": " And also download our favourite banana etger."
+    },
+    {
+      "end": "00:05:22.222",
+      "start": "00:05:11.378",
+      "text": " Save the file, then run it."
+    },
+    {
+      "end": "00:05:27.227",
+      "start": "00:05:22.222",
+      "text": " Ok, so we are going to drag across the image file here, and then select the target as the"
+    },
+    {
+      "end": "00:05:30.230",
+      "start": "00:05:27.227",
+      "text": " microSD."
+    },
+    {
+      "end": "00:05:34.234",
+      "start": "00:05:30.230",
+      "text": " Push select the bottom, and then flash."
+    },
+    {
+      "end": "00:05:39.573",
+      "start": "00:05:34.234",
+      "text": " If you get this screen press yes, and then wait."
+    },
+    {
+      "end": "00:05:44.011",
+      "start": "00:05:39.573",
+      "text": " If you have an error while decompressing, you may be running low on this space, so empty"
+    },
+    {
+      "end": "00:05:46.079",
+      "start": "00:05:44.011",
+      "text": " your recycle bit."
+    },
+    {
+      "end": "00:06:04.665",
+      "start": "00:05:46.079",
+      "text": " Once the flash is complete, we can close this window, take out the microSD, and then reinsert"
+    },
+    {
+      "end": "00:06:09.670",
+      "start": "00:06:04.665",
+      "text": " it."
+    },
+    {
+      "end": "00:06:14.708",
+      "start": "00:06:09.670",
+      "text": " In Windows Explorer, or something similar, go to Muleic."
+    },
+    {
+      "end": "00:06:17.477",
+      "start": "00:06:14.708",
+      "text": " And here we need to change out the DTB file."
+    },
+    {
+      "end": "00:06:22.516",
+      "start": "00:06:17.477",
+      "text": " If you can't see the file extensions, you may need to go to the top, view, and then check"
+    },
+    {
+      "end": "00:06:29.790",
+      "start": "00:06:22.516",
+      "text": " file name extensions on the right."
+    },
+    {
+      "end": "00:06:33.794",
+      "start": "00:06:29.790",
+      "text": " Let's dive into the device trees folder."
+    },
+    {
+      "end": "00:06:38.198",
+      "start": "00:06:33.794",
+      "text": " Here we have a load of DTB files, we need to find the one that suits us."
+    },
+    {
+      "end": "00:06:42.369",
+      "start": "00:06:38.198",
+      "text": " We have seen this name before, p212.2g."
+    },
+    {
+      "end": "00:06:46.540",
+      "start": "00:06:42.369",
+      "text": " But to make sure, we'll check out the core-elect device tree website."
+    },
+    {
+      "end": "00:06:50.577",
+      "start": "00:06:46.540",
+      "text": " On the left we have the brand and names of the boxes, but the most important things to"
+    },
+    {
+      "end": "00:06:56.650",
+      "start": "00:06:50.577",
+      "text": " take note of, are SOC, which is the chip, and the RAM, which is the memory."
+    },
+    {
+      "end": "00:07:04.057",
+      "start": "00:06:56.650",
+      "text": " The box I'm using here is the A9, which is not in the list, but 905X, and 2G always points"
+    },
+    {
+      "end": "00:07:08.896",
+      "start": "00:07:04.057",
+      "text": " to the same file name on the right, so we can be sure that this is the one we need."
+    },
+    {
+      "end": "00:07:20.274",
+      "start": "00:07:08.896",
+      "text": " So find it, right click it, copy, go back into the root, right click here, and then paste."
+    },
+    {
+      "end": "00:07:27.214",
+      "start": "00:07:20.274",
+      "text": " Now we need to rename this to DTB.img, so we can right click that, press rename, select"
+    },
+    {
+      "end": "00:07:31.185",
+      "start": "00:07:27.214",
+      "text": " it all, right click, copy."
+    },
+    {
+      "end": "00:07:36.757",
+      "start": "00:07:31.185",
+      "text": " Now we're going to delete it."
+    },
+    {
+      "end": "00:07:45.732",
+      "start": "00:07:36.757",
+      "text": " And now we can rename this file here, so right click, rename, select it all, right click,"
+    },
+    {
+      "end": "00:07:48.368",
+      "start": "00:07:45.732",
+      "text": " paste, and click away."
+    },
+    {
+      "end": "00:07:55.409",
+      "start": "00:07:48.368",
+      "text": " If you get this, press yes, and now we're done."
+    },
+    {
+      "end": "00:08:02.616",
+      "start": "00:07:55.409",
+      "text": " Right click on the emuleck, eject, and now boot up your Android box once again."
+    },
+    {
+      "end": "00:08:13.594",
+      "start": "00:08:02.616",
+      "text": " Just booted, insert your microSD, and now click on LibraElec."
+    },
+    {
+      "end": "00:08:16.530",
+      "start": "00:08:13.594",
+      "text": " On the next screen, press acceptar."
+    },
+    {
+      "end": "00:08:19.733",
+      "start": "00:08:16.530",
+      "text": " The box should reboot and load up emuleck."
+    },
+    {
+      "end": "00:08:24.638",
+      "start": "00:08:19.733",
+      "text": " If you cannot do this, open up your terminal, and write reboot space updates."
+    },
+    {
+      "end": "00:08:29.576",
+      "start": "00:08:24.638",
+      "text": " That should do the same thing."
+    },
+    {
+      "end": "00:08:38.852",
+      "start": "00:08:29.576",
+      "text": " On the first boot, emuleck will start by setting up the partitions, installing some files,"
+    },
+    {
+      "end": "00:08:41.288",
+      "start": "00:08:38.852",
+      "text": " and after that you should be ready to go."
+    },
+    {
+      "end": "00:08:46.493",
+      "start": "00:08:41.288",
+      "text": " From now on, whenever you turn on your Android box with this microSD in, emuleck will boot"
+    },
+    {
+      "end": "00:08:47.628",
+      "start": "00:08:46.493",
+      "text": " up."
+    },
+    {
+      "end": "00:08:53.000",
+      "start": "00:08:47.628",
+      "text": " When no microSD is present, you'll get a face full of Android."
+    },
+    {
+      "end": "00:08:55.068",
+      "start": "00:08:53.000",
+      "text": " We hope you enjoyed this video."
+    },
+    {
+      "end": "00:08:58.372",
+      "start": "00:08:55.068",
+      "text": " Please hit the like and that bell thing."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "Team Pandory",
+  "youtube_channel_follower_count": 23600,
+  "youtube_comment_count": 472,
+  "youtube_description": "A video guide on installing EmuELEC on all (rootable & compatible) Amlogic Android TV boxes and sticks.\nWhat version should you choose? 3.9 or 4.0?  Which is compatible with your board?\nWe go over common questions and demonstrate how to install EmuELEC.\n\n►Links:\nAIDA64, Terminal Emulator, and Root LibreELEC can be found at https://apkpure.com/\nEmuELEC: https://github.com/EmuELEC/EmuELEC/releases\nEtcher: https://www.balena.io/etcher/\nCoreELEC Device Trees: https://coreelec.org/dtb/\n\n►Where to buy a EmuElec compatible box:\nHK1 Box: https://go.teampandory.com/hk1box\nX96 Max: https://go.teampandory.com/x96max\nGT King: https://go.teampandory.com/gtking\nOdroid N2+: https://go.teampandory.com/odroidn2p\n\n►Timestamps\n@0:00- Intro\n@0:18- Identifying our Android Box\n@3:57- Which version of EmuELEC?\n@4:43- Downloading and Writing the Image\n@6:05- Device Trees / dtb file setup\n@8:00- Android Box Setup\n@8:26- EmuELEC first boot\n@8:42- Conclusion\n\n-------------------------------------------------------------------------\nTeam Pandory @ http://www.teampandory.com/\n\n►Fancy supporting our work?  \nPatreon: https://www.patreon.com/pandorytool\nBuy us a coffee: https://www.buymeacoffee.com/CKZbiXa\n►Merch:\nUSA: https://go.teampandory.com/merchusa\nEurope: https://go.teampandory.com/merchuk\n\n►Feedback, need help, wanna come say hi?\nDiscord channel: https://go.teampandory.com/discord\nFacebook: https://www.facebook.com/groups/teampandory\n\n#EmuELEC #install #superconsolex #emulation",
+  "youtube_like_count": 1136,
+  "youtube_tags": [
+    "EmuELEC",
+    "dtb",
+    "install",
+    "guide",
+    "amlogic",
+    "retropie",
+    "android",
+    "image",
+    "root",
+    "rooted",
+    "s905x",
+    "s905x3",
+    "s905x4",
+    "s905",
+    "s922x",
+    "installing",
+    "how to",
+    "device tree",
+    "super console x",
+    "superconsolex",
+    "stick",
+    "3.9",
+    "4.0",
+    "version",
+    "how to install emuelec",
+    "emuelec installation guide",
+    "emuelec install",
+    "emuelec update",
+    "how to update emuelec",
+    "emuelec dtb",
+    "android box",
+    "how to install emuelec on android tv box",
+    "retrostation",
+    "mub",
+    "s905x3 emuelec",
+    "s905 emuelec",
+    "install emuelec s905",
+    "amlogic s905x3",
+    "amlogic s922x",
+    "922x",
+    "android tv box"
+  ],
+  "youtube_title": "EmuELEC 4.0 Install Guide - EEMC201 Video Tutorial",
+  "youtube_upload_date": "20210402",
+  "youtube_view_count": 87658
+}

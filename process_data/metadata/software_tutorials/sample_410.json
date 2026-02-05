@@ -1,0 +1,1749 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short reddish-brown hair and a beard, wearing a dark gray hoodie. He sits in front of a microphone and talks directly to the camera.",
+        "name": "Narrator"
+      },
+      {
+        "characterId": "2",
+        "description": "A man with short brown hair and glasses wearing a white sweater, working at a computer in an office environment.",
+        "name": "Office Worker"
+      },
+      {
+        "characterId": "3",
+        "description": "A man with short brown hair and glasses wearing a black t-shirt with a picture of a character on it. He sits in front of a computer and is displaying image editing software.",
+        "name": "Image Editor"
+      }
+    ],
+    "description": "An informative video detailing the major features and updates in Blender's 2.91 software version, emphasizing the role of community support and showcasing the software's capabilities.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The 'exact' option handles overlapping geometry better and produces cleaner results, but it's slower than the 'fast' option.",
+        "question": "What is the benefit of the 'exact' option in the new Boolean system?"
+      },
+      {
+        "answer": "It can convert mesh objects, such as a sculpted lion head, into volume objects.",
+        "question": "What type of objects can the new 'Mesh to Volume' modifier convert?"
+      },
+      {
+        "answer": "It allows sculptors to shrink or expand the cloth simulation within the sculpting workflow, providing more control over cloth wrinkles and folds.",
+        "question": "How can the 'Scale Cloth' filter be used in sculpting?"
+      },
+      {
+        "answer": "It creates open holes and filled areas, enabling layering of objects and compositing effects directly in the viewport.",
+        "question": "What advantage does the 'Holdout' material offer in Grease Pencil?"
+      },
+      {
+        "answer": "It prevents accidental misalignment or distortion of characters when applying the constraint, saving animators time and potential frustration.",
+        "question": "Why is the automatic inverse setting in the Child of constraint a beneficial improvement?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the video topic, Blender's 2.91 update, and mentions the video's structure.",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Introduces viewers to the content and objectives of the video, establishing a direct connection with the audience through the narrator.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the video's focus, Blender's 2.91 update features.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Microphone",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technological advancements, software update.",
+        "timestamps": {
+          "end_timestamp": "00:00:21.700",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of the improved Boolean system using the Blender logo and geometric shapes.",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "description": "Example showcasing new artistic possibilities with the improved Boolean system using a stylized scene.",
+            "timestamp": {
+              "end_timestamp": "00:00:51.667",
+              "start_timestamp": "00:00:38.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Focuses on Blender's technical capabilities by highlighting the updated Boolean system, aimed at enhancing user creativity and precision.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the improved Boolean system and its benefits.",
+            "timestamp": "00:00:22.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Blender logo, Sphere, Cube, Stylized house and objects",
+            "timestamp": {
+              "end_timestamp": "00:00:51.667",
+              "start_timestamp": "00:00:22.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Improved precision, expanded creative possibilities.",
+        "timestamps": {
+          "end_timestamp": "00:00:51.667",
+          "start_timestamp": "00:00:21.733"
+        },
+        "title": "New Boolean System",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'NEW BOOLEAN SYSTEM'",
+            "timestamps": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of the improved Knife tool on a 3D model of a column.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:52.000"
+            }
+          },
+          {
+            "description": "Showcase of Ocean modifier viewport performance improvement using different resolutions.",
+            "timestamp": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "Demonstration of motion blur support for Alembic sequences.",
+            "timestamp": {
+              "end_timestamp": "00:01:04.967",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Illustrates specific tools and their enhancements within Blender, showcasing improvements in usability and graphic performance.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains improvements to the Knife tool, Ocean modifier, and Alembic sequences.",
+            "timestamp": "00:00:52.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Column, Ocean surface, Bottle with liquid splashes",
+            "timestamp": {
+              "end_timestamp": "00:01:04.967",
+              "start_timestamp": "00:00:52.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Enhanced usability and visual effects.",
+        "timestamps": {
+          "end_timestamp": "00:01:04.967",
+          "start_timestamp": "00:00:51.700"
+        },
+        "title": "Knife Tool Improvements and Ocean Modifier",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'KNIFE TOOL IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:52.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'OCEAN MODIFIER VIEWPORT SETTINGS'",
+            "timestamps": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'ALEMBIC DATA MOTION BLUR'",
+            "timestamps": {
+              "end_timestamp": "00:01:04.967",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Showcase of new options in Subdivision Surface, enhancing compatibility with other software.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:05.000"
+            }
+          },
+          {
+            "description": "Demonstration of the custom profile option for Curve Bevels.",
+            "timestamp": {
+              "end_timestamp": "00:01:18.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Describes how updates improve artistic detail and compatibility, providing professionals with robust design tools.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlights improved interoperability with other software and expanded possibilities for creating detailed models.",
+            "timestamp": "00:01:05.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Two heads, Ornate frame",
+            "timestamp": {
+              "end_timestamp": "00:01:18.000",
+              "start_timestamp": "00:01:05.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Workflow enhancement, intricate design capabilities.",
+        "timestamps": {
+          "end_timestamp": "00:01:18.300",
+          "start_timestamp": "00:01:05.000"
+        },
+        "title": "Subdivision Surface & Curve Bevels",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'SUBDIVISION SURFACE IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:05.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'CUSTOM CURVE BEVELS'",
+            "timestamps": {
+              "end_timestamp": "00:01:18.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the improved user interface and search system.",
+            "timestamp": {
+              "end_timestamp": "00:01:24.000",
+              "start_timestamp": "00:01:18.333"
+            }
+          },
+          {
+            "description": "Demonstration of property search and fuzzy search in Blender.",
+            "timestamp": {
+              "end_timestamp": "00:01:34.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the audience. The frustrated man expresses frustration with older UI, though non-verbally."
+          }
+        ],
+        "contextualRelevance": "Focus on improving the user's experience through interface updates, enhancing efficiency and user-friendliness.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Humorous, then Informative",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to Blender software interface.",
+              "timestamp": "00:01:20.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Humorous introduction to Blender UI improvements followed by showcasing new search functions.",
+            "timestamp": "00:01:18.333"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Donut with sprinkles, Complex scene, Cube, Microphone, Laptop",
+            "timestamp": {
+              "end_timestamp": "00:01:34.000",
+              "start_timestamp": "00:01:18.333"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Enhanced usability, simplified workflow.",
+        "timestamps": {
+          "end_timestamp": "00:01:34.000",
+          "start_timestamp": "00:01:18.333"
+        },
+        "title": "Sprinkles and UI Improvements",
+        "videoEditingDetails": [
+          {
+            "description": "Humorous clip of a frustrated man throwing his hands in the air.",
+            "timestamps": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:18.333"
+            }
+          },
+          {
+            "description": "Text overlay: 'IMPROVED SEARCH SYSTEM'",
+            "timestamps": {
+              "end_timestamp": "00:01:34.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of updated Outliner features, including drag and drop for modifiers, color tags for collections, and mode toggling.",
+            "timestamp": {
+              "end_timestamp": "00:01:50.000",
+              "start_timestamp": "00:01:34.033"
+            }
+          },
+          {
+            "description": "Narrator introduces the new volume modifiers in Blender.",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:01:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates significant updates aimed at professional use and creative expansion, crucial for efficiency in detailed projects.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Excited/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents significant updates to the Outliner and introduces the groundbreaking volume modifiers.",
+            "timestamp": "00:01:34.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Complex scene with robot character, Lion head sculpture, Cloud-like volume object",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:01:34.033"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Increased efficiency, expanded creative tools.",
+        "timestamps": {
+          "end_timestamp": "00:02:10.000",
+          "start_timestamp": "00:01:34.033"
+        },
+        "title": "Outliner & Collections",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'OUTLINER MODIFIER IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:01:50.000",
+              "start_timestamp": "00:01:34.033"
+            }
+          },
+          {
+            "description": "Text overlay: 'COLLECTION COLOR TAGS'",
+            "timestamps": {
+              "end_timestamp": "00:01:51.000",
+              "start_timestamp": "00:01:50.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'OUTLINER MODE TOGGLING'",
+            "timestamps": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'OUTLINER NAVIGATION UPDATES'",
+            "timestamps": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NEW VOLUME MODIFIERS'",
+            "timestamps": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of the Mesh to Volume modifier converting a lion head sculpture into a volume.",
+            "timestamp": {
+              "end_timestamp": "00:02:17.000",
+              "start_timestamp": "00:02:10.033"
+            }
+          },
+          {
+            "description": "Showcase of the Volume Displace modifier using a procedural texture.",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:17.000"
+            }
+          },
+          {
+            "description": "Demonstration of the Volume to Mesh modifier, generating a mesh from a volume object.",
+            "timestamp": {
+              "end_timestamp": "00:02:27.700",
+              "start_timestamp": "00:02:21.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explores sophisticated 3D techniques for advanced users, highlighting versatility and technical capabilities in design.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative/Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Deep dive into the functionality and uses of each new volume modifier.",
+            "timestamp": "00:02:10.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Lion head sculpture, Cloud-like volume objects",
+            "timestamp": {
+              "end_timestamp": "00:02:27.700",
+              "start_timestamp": "00:02:10.033"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Advanced 3D modeling techniques, manipulation of volumetric data.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.700",
+          "start_timestamp": "00:02:10.033"
+        },
+        "title": "Volume Modifiers",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'MESH TO VOLUME MODIFIER'",
+            "timestamps": {
+              "end_timestamp": "00:02:17.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'VOLUME DISPLACE MODIFIER'",
+            "timestamps": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:17.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'VOLUME TO MESH MODIFIER'",
+            "timestamps": {
+              "end_timestamp": "00:02:27.700",
+              "start_timestamp": "00:02:21.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the extensive sculpting updates made possible by contributions to the Blender Development Fund. Humorous suggestion that the developers have gained an extra arm.",
+            "timestamp": {
+              "end_timestamp": "00:02:39.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator",
+          "Office Worker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator",
+              "Office Worker"
+            ],
+            "description": "Narrator addresses the audience directly. The office worker represents Blender developers, albeit humorously, highlighting their dedication."
+          }
+        ],
+        "contextualRelevance": "Frames community involvement as crucial to development while humorously emphasizing the pace and scale of updates.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Humorous, then Informative",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift in narrator's tone to a more serious and informative one.",
+              "timestamp": "00:02:34.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlights the numerous sculpting updates and jokingly attributes them to the development fund's impact.",
+            "timestamp": "00:02:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Microphone, Computer",
+            "timestamp": {
+              "end_timestamp": "00:02:39.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Community support, rapid development, impactful updates.",
+        "timestamps": {
+          "end_timestamp": "00:02:39.067",
+          "start_timestamp": "00:02:27.733"
+        },
+        "title": "Sculpting Updates Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Humorous clip of office worker with a third arm digitally added, reaching towards his computer screen.",
+            "timestamps": {
+              "end_timestamp": "00:02:39.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of cloth sculpting updates, including collision support and the soft body plasticity property.",
+            "timestamp": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:39.100"
+            }
+          },
+          {
+            "description": "Showcase of new cloth brushes: Cloth Grab brush and Cloth Snake Hook brush.",
+            "timestamp": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:49.000"
+            }
+          },
+          {
+            "description": "Demonstration of new properties, filters, and modes for sculpting tools, including the Scale Cloth filter.",
+            "timestamp": {
+              "end_timestamp": "00:03:12.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          },
+          {
+            "description": "Introduction and demonstration of new gesture tools, such as Line Project gesture and trim tools.",
+            "timestamp": {
+              "end_timestamp": "00:03:23.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          },
+          {
+            "description": "Showcase of the new Boundary brush.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:03:23.000"
+            }
+          },
+          {
+            "description": "Demonstration of symmetry options and inactive geometry overlay for multi-object sculpting.",
+            "timestamp": {
+              "end_timestamp": "00:03:37.000",
+              "start_timestamp": "00:03:30.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Delivers extensive detail on sculpting updates, crucial for professionals requiring precision and efficiency.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Informative/Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Exhaustively covers the range of updates and additions to Blender's sculpting tools.",
+            "timestamp": "00:02:39.100"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Sculpted creature bust, Cloth objects, Robot model, Woman's lower body with skirt",
+            "timestamp": {
+              "end_timestamp": "00:03:37.000",
+              "start_timestamp": "00:02:39.100"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Precision sculpting, intuitive control, workflow efficiency.",
+        "timestamps": {
+          "end_timestamp": "00:03:37.000",
+          "start_timestamp": "00:02:39.100"
+        },
+        "title": "Sculpting Updates",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'CLOTH BRUSH UPDATES'",
+            "timestamps": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:39.100"
+            }
+          },
+          {
+            "description": "Text overlay: 'CLOTH COLLISIONS WITH SCENE COLLIDERS'",
+            "timestamps": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:02:44.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'SOFT BODY PLASTICITY PROPERTY'",
+            "timestamps": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:46.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NEW CLOTH BRUSHES'",
+            "timestamps": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:49.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NEW FILTERS'",
+            "timestamps": {
+              "end_timestamp": "00:03:12.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'SCALE CLOTH FILTER'",
+            "timestamps": {
+              "end_timestamp": "00:02:58.000",
+              "start_timestamp": "00:02:57.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'MULTIRES BASE MESH SUPPORT'",
+            "timestamps": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:58.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'MULTIRES ERASER'",
+            "timestamps": {
+              "end_timestamp": "00:03:12.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NEW GESTURE AND TRIM TOOLS'",
+            "timestamps": {
+              "end_timestamp": "00:03:23.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'BOUNDARY BRUSH'",
+            "timestamps": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:03:23.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'INACTIVE GEOMETRY OVERLAY FOR MULTI-OBJECT SCULPTING AND MESH EDITING'",
+            "timestamps": {
+              "end_timestamp": "00:03:37.000",
+              "start_timestamp": "00:03:30.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'LOCK HDRI ROTATION FOR MAT CAPS'",
+            "timestamps": {
+              "end_timestamp": "00:03:37.000",
+              "start_timestamp": "00:03:37.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstration of locking HDRI rotation for mat caps and the Invert Smooth tool for enhanced details.",
+            "timestamp": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:37.033"
+            }
+          },
+          {
+            "description": "Narrator mentions additional sculpting updates and directs viewers to the description for a complete list.",
+            "timestamp": {
+              "end_timestamp": "00:03:52.000",
+              "start_timestamp": "00:03:45.000"
+            }
+          },
+          {
+            "description": "Showcase of Grease Pencil updates, including UI improvements, a new Holdout material, and the Trace Images operator.",
+            "timestamp": {
+              "end_timestamp": "00:04:14.000",
+              "start_timestamp": "00:03:52.000"
+            }
+          },
+          {
+            "description": "Demonstration of Alembic data improvements, including importing invisible objects, exporting custom properties, and more.",
+            "timestamp": {
+              "end_timestamp": "00:04:28.000",
+              "start_timestamp": "00:04:14.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Focuses on a variety of enhancements aimed at making Blender more versatile and integrated, appealing to users managing complex projects.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative/Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Covers a range of smaller, but significant updates to different functionalities, including Grease Pencil and Alembic data handling.",
+            "timestamp": "00:03:37.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Sculpted head model, Landscape scene, Cartoon characters, Fox with flowing trails",
+            "timestamp": {
+              "end_timestamp": "00:04:28.000",
+              "start_timestamp": "00:03:37.033"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Workflow optimization, expanded toolsets, enhanced interoperability.",
+        "timestamps": {
+          "end_timestamp": "00:04:28.067",
+          "start_timestamp": "00:03:37.033"
+        },
+        "title": "Additional Sculpting Tools & Alembic Data",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'LOCK HDRI ROTATION FOR MAT CAPS'",
+            "timestamps": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:37.033"
+            }
+          },
+          {
+            "description": "Text overlay: 'INVERT SMOOTH TOOL'",
+            "timestamps": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:43.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'MORE IN THE DESCRIPTION BELOW'",
+            "timestamps": {
+              "end_timestamp": "00:03:52.000",
+              "start_timestamp": "00:03:45.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'GREASE PENCIL UPDATES'",
+            "timestamps": {
+              "end_timestamp": "00:04:14.000",
+              "start_timestamp": "00:03:52.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'IMPROVED CONVERT MESH TO GREASE PENCIL'",
+            "timestamps": {
+              "end_timestamp": "00:04:01.000",
+              "start_timestamp": "00:03:59.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NEW 'HOLDOUT' MATERIAL'",
+            "timestamps": {
+              "end_timestamp": "00:04:07.000",
+              "start_timestamp": "00:04:01.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NEW TRACE IMAGES OPERATOR'",
+            "timestamps": {
+              "end_timestamp": "00:04:14.000",
+              "start_timestamp": "00:04:07.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'ALEMBIC DATA IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:04:28.000",
+              "start_timestamp": "00:04:21.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Showcase of faster loading times for old large files and improvements to library linking and shading.",
+            "timestamp": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:04:28.100"
+            }
+          },
+          {
+            "description": "Demonstration of easier and faster collision handling with compound shapes.",
+            "timestamp": {
+              "end_timestamp": "00:04:51.000",
+              "start_timestamp": "00:04:41.000"
+            }
+          },
+          {
+            "description": "Showcase of Graph Editor improvements, including keyframe insertion, snapping, and the Copy to Selection feature.",
+            "timestamp": {
+              "end_timestamp": "00:05:20.000",
+              "start_timestamp": "00:04:51.000"
+            }
+          },
+          {
+            "description": "Demonstration of the improved Child of constraint, which automatically sets inverse upon application.",
+            "timestamp": {
+              "end_timestamp": "00:05:29.000",
+              "start_timestamp": "00:05:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [
+          {
+            "characters": [],
+            "description": "Narrator explains the improvements directly to the viewers."
+          }
+        ],
+        "contextualRelevance": "Significant for animators and technical artists, the scene highlights efficiency and functional enhancements post-update.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Informative, with brief moments of humor",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to humorous clips of elderly men.",
+              "timestamp": "00:04:37.000"
+            },
+            {
+              "changeDescription": "Visual shift back to Blender interface.",
+              "timestamp": "00:04:41.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Covers a wide array of updates across different animation-related features, enhancing performance and workflow.",
+            "timestamp": "00:04:28.100"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models: Chains falling in a room, Cartoon character with textured surfaces, Character model with red hair and green body, Game scene with ladybug character wearing a crown",
+            "timestamp": {
+              "end_timestamp": "00:05:29.000",
+              "start_timestamp": "00:04:28.100"
+            }
+          }
+        ],
+        "sceneId": 11,
+        "thematicElements": "Performance optimization, streamlined animation workflows.",
+        "timestamps": {
+          "end_timestamp": "00:05:29.967",
+          "start_timestamp": "00:04:28.100"
+        },
+        "title": "Animation Updates",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'ALEMBIC DATA IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:28.100"
+            }
+          },
+          {
+            "description": "Humorous clip of an elderly man excitedly typing on a laptop.",
+            "timestamps": {
+              "end_timestamp": "00:04:38.000",
+              "start_timestamp": "00:04:37.000"
+            }
+          },
+          {
+            "description": "Humorous clip of an elderly man doing impressive balancing act.",
+            "timestamps": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:04:38.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'LIBRARY LINKING IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:04:46.000",
+              "start_timestamp": "00:04:41.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'COMPOUND SHAPE COLLISION'",
+            "timestamps": {
+              "end_timestamp": "00:04:51.000",
+              "start_timestamp": "00:04:46.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'GRAPH EDITOR IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:51.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'CURVES CAN BE SNAPPIER'",
+            "timestamps": {
+              "end_timestamp": "00:04:59.000",
+              "start_timestamp": "00:04:56.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'ACTIVE KEYFRAME SELECTION COLOR'",
+            "timestamps": {
+              "end_timestamp": "00:05:03.000",
+              "start_timestamp": "00:04:59.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'SNAP TO CURSOR'",
+            "timestamps": {
+              "end_timestamp": "00:05:06.000",
+              "start_timestamp": "00:05:03.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'COPY TO SELECTION'",
+            "timestamps": {
+              "end_timestamp": "00:05:11.000",
+              "start_timestamp": "00:05:06.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NLA EDITOR UPDATES'",
+            "timestamps": {
+              "end_timestamp": "00:05:20.000",
+              "start_timestamp": "00:05:11.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'CHILD OF CONSTRAINT IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:05:29.000",
+              "start_timestamp": "00:05:20.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Showcase of the improved Image Editor redraw performance, including handling of high-resolution HDRIs.",
+            "timestamp": {
+              "end_timestamp": "00:05:49.000",
+              "start_timestamp": "00:05:30.000"
+            }
+          },
+          {
+            "description": "Mention of Sequencer decoding improvements and improved motion tracking compatibility.",
+            "timestamp": {
+              "end_timestamp": "00:05:54.000",
+              "start_timestamp": "00:05:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Image Editor",
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Image Editor",
+              "Narrator"
+            ],
+            "description": "Image editor appears on the screen demonstrating the new Image Editor. The narrator directly explains the improvements."
+          }
+        ],
+        "contextualRelevance": "Pertinent for multimedia artists, this scene underscores crucial performance and compatibility updates critical for graphic rendering and editing.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative/Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Covers performance enhancements in the Image Editor and Sequencer, plus improved compatibility with motion tracking and NVIDIA 3000 series graphic cards.",
+            "timestamp": "00:05:30.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images of urban environments, Animated character with complex hair, NVIDIA GeForce RTX 30 series webpage, Microphone",
+            "timestamp": {
+              "end_timestamp": "00:05:54.000",
+              "start_timestamp": "00:05:30.000"
+            }
+          }
+        ],
+        "sceneId": 12,
+        "thematicElements": "Performance enhancements, enhanced compatibility.",
+        "timestamps": {
+          "end_timestamp": "00:05:54.800",
+          "start_timestamp": "00:05:30.000"
+        },
+        "title": "Image Editor and Sequencer",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'IMAGE EDITOR REDRAW UPDATE'",
+            "timestamps": {
+              "end_timestamp": "00:05:39.000",
+              "start_timestamp": "00:05:30.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'IMAGE EDITOR UPDATES'",
+            "timestamps": {
+              "end_timestamp": "00:05:49.000",
+              "start_timestamp": "00:05:39.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'SEQUENCER DECODING IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:05:54.000",
+              "start_timestamp": "00:05:49.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'MOTION CAPTURE IMPROVEMENTS'",
+            "timestamps": {
+              "end_timestamp": "00:05:54.800",
+              "start_timestamp": "00:05:54.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'NVIDIA 3000 UPDATES'",
+            "timestamps": {
+              "end_timestamp": "00:05:54.800",
+              "start_timestamp": "00:05:54.800"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator mentions additional bug fixes and features and encourages viewers to check the description for a complete list.",
+            "timestamp": {
+              "end_timestamp": "00:06:10.000",
+              "start_timestamp": "00:05:54.833"
+            }
+          },
+          {
+            "description": "Narrator encourages viewers to watch the Blender Conference 2020 online and support the Blender Development Fund.",
+            "timestamp": {
+              "end_timestamp": "00:06:28.000",
+              "start_timestamp": "00:06:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator directly addresses the audience."
+          }
+        ],
+        "contextualRelevance": "Final appeal reinforces community involvement as vital to Blender's development, driving home the importance of user support and engagement.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Grateful, then Excited",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift from general overview to specific call to action.",
+              "timestamp": "00:06:10.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the video by emphasizing the importance of community support and encouraging viewer engagement with Blender Conference 2020.",
+            "timestamp": "00:05:54.833"
+          }
+        ],
+        "props": [
+          {
+            "name": "Microphone, Blender Conference 2020 YouTube video, Blender Development Fund webpage",
+            "timestamp": {
+              "end_timestamp": "00:06:28.000",
+              "start_timestamp": "00:05:54.833"
+            }
+          }
+        ],
+        "sceneId": 13,
+        "thematicElements": "Community involvement, open-source software, future development.",
+        "timestamps": {
+          "end_timestamp": "00:06:28.033",
+          "start_timestamp": "00:05:54.833"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The video does not have a traditional climax as its primary purpose is to inform viewers about the various updates in Blender 2.91.",
+        "timestamp": null
+      },
+      "description": "This video showcases the major features and updates included in Blender's 2.91 update. It follows a linear progression, highlighting specific features in each scene. There isn't a clear climax as the video aims to present an overview of the updates rather than a narrative story.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "title": "Blender 2.91 Update Overview",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the scene slightly to improve pacing as its visual presentation is less engaging compared to other scenes.",
+        "timestamps": {
+          "end_timestamp": "00:05:54.833",
+          "start_timestamp": "00:05:54.833"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 388,
+  "original_json_filename": "3RtNV-kjh5M.json",
+  "original_video_filename": "3RtNV-kjh5M.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi remington from southern shoddy 3d here and blender's here to bring a little bit of positivity into our 2020 with the new 2.91 update which means it's time for a feature video in less than five minutes however they were very gracious with this update so it's almost five minutes if you'd like a full list of all the bug fixes and all the features check out the link in the description below but for now let's get started one of the coolest new features is the improved boolean system it now has an exact solver which handles overlapping geometry better this method is slower so the old option is still available as a fast option thanks to this new system some of the sculpt tools such as trim will be used a lot in the upcoming geometry nodes this new feature opens up quite a few cool artistic abilities previously only available in other 3d applications booleans are a major asset in motion graphics animations as well a collection option has now been added as well allowing you to use an entire collection as an operand type like in this example the knife tool is also benefited and has options to handle overlapping geometry better the ocean modifier's performance has been improved by adding different resolutions for viewport and render options olympic sequences now support motion blur now that they contain velocity data subdivision surface has several new options making it more compatible with other software curve bevels now has a fill cap option and a custom profile option has been added as a bevel mode this feature has a lot of potential for creating intricate moldings and other creations are you bad at blender if so it's going to be much harder to blame it on the interface because it just got a whole lot of improvements to make things easier property search is an awesome new feature for beginner users or blender users with bad memories it adds a search bar at the top of your properties panel allowing you to search automatically expanding and collapsing panels also welcome fuzzy search so it's more forgiving with results for example searching sss and nodes will bring up subsurface scattering outliner has had a large update modifiers constrainers and grease pencil effects can now be drag and dropped in the outliner this means you can spend less time digging through submenus and get more done in the outliner collections now have color tags which is set from the right click menu great for organizing full scenes mode toggling can now be done in the outliner so minor control updates are you can walk left and right in the outliner navigation and shift click to toggle visibility for bone children make sure you're sitting because blender is not responsible if you fall over from shock and hurt yourself when you hear about this next feature three new volume modifiers have been added including the amazing master volume modifier which will convert your mesh into volumes the volume displaced modifier displaces a volume using a procedural texture the volume 2 mesh modifier allows you to generate a mesh from a volume object for example make a manifold sim and to mesh for stylized fluids thanks to your contributions to the blender dev fun all the coders on the sculpting team were able to buy a third arm so that they could code faster at least i mean that's the only way i can explain that they're adding so many features every update right cloth sculpting was already the coolest sculpting feature around but i guess that wasn't good enough because it just got better it now supports collisions with scene colliders a soft body plasticity property has been added to the cloth brush there's a new cloth grab brush and clop snake hook brush which is just fun to play with several new properties filters and modes have been added to existing tools one notable addition is the new scale cloth filter multires supports base mesh sculpting which allows you to sculpt on the base mesh while previewing with higher resolutions this even allows you to use tools like the cloth brush with higher resolution an eraser has been added to erase multi-res displacement this is great for fixing mistakes or cleaning up edges new gesture tools have been added including the line project chester line gestures mask line union and join modes for trim tools and more with the new trim tools and join union mode you can pretty much add geometry in sculpt mode by drawing on it a completely new brush the boundary brush has been added it controls the shape of mesh boundaries and is useful for creating cloth and hard surface base meshes xyz symmetry per mesh and fading interactive geometry overlay have been added to multi-object sculpting making for better performance you can now lock hdri rotation to use ev materials as matte caps and render overlays with constructive modifiers enabled there's now an invert smooth to enhance details tool these are the most notable changes but there are plenty more filters tools and properties that have been added for advanced sculptors check out the link in the description below greece pencil has seen several smaller user interface updates to improve its workflow the convert to mesh strokes tool has been improved and creates layers and materials with the original object name there's a new holdout material to allow open holes and filled areas this is useful for layering objects and compositing style tricks in the viewport a new trace images operator uses the poetrace library has been added which is awesome for converting sketches or logos to grease pencil currently it supports black and white only several new operators have been added including a cleanup frames operator which it helps with meshes that are static for several frames import and export options don't usually trend on social media but they really improve blender's studio workflow making it more powerful for large teams alembic has seen vast improvements including exporting invisible objects writing duplicate objects as instances exporting custom properties vertex interpolation and animated vertex colors classic blender users can rejoice old large files will now load faster library overlays library linking and the handling of shading in add-on importers have all been improved collisions just got easier and faster with compound shapes you can now combine multiple primitive shapes into a concave shape some useful new features have been added to the graph editor for animators you can now insert all keyframe types without changing the shape curves are snappier allowing for quicker easing with less keyframes they added an active keyframe selection color to make it easier to tell which keyframe is active the snap menu now supports snapping to the 2d cursor copy to selection has been added to keyframes this could save a ton of time with repeat animations on multiple objects the non-linear animation editor has seen several changes in improvements making it easier to sync length enter edit mode and insert or modify keys outside of the strip bounds child of constraint now automatically sets inverse when applying so you don't have that moment of panic that you just destroyed your character when applying a new constraint the community in the animation module team was largely involved with these improvements the image editor draw rewrite is amazing it's so much faster here it is tiling effortlessly with a 16k hdri the old image editor couldn't handle these kind of loads the uv image editor has also improved alpha blending support for a miss of colors and a notably improved importance with viewing final render results this is great news if you do your compositing in blender the sequencer has seen some improvements reducing video decoding by about 30 percent motion tracking compatibility has been improved and if you were somehow able to get one nvidia rtx 3000 series graphic cards now support without runtime compilation as usual there are just hundreds of minor bug fixes features and other small improvements if you'd like to see that full list check out the link in the description below if you haven't already go check out the blender conference 20 online now blender is a special software built up by the community and an amazing team of developers this year's conference showed how blender affects people's lives sometimes in a very personal way it's clear how much the community and team care about their product and users it's worth checking out if you like what you see go support blender and join the development fund",
+  "text_to_speech_word_count": 1444,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.633",
+      "start": "00:00:00.000",
+      "text": " Hi, Remington from Southern Chaudy 3D here and Belenders here to bring a little bit of positivity"
+    },
+    {
+      "end": "00:00:09.833",
+      "start": "00:00:04.633",
+      "text": " into our 2020 with the new 2.91 update, which means it's time for a future video on less than"
+    },
+    {
+      "end": "00:00:15.600",
+      "start": "00:00:09.833",
+      "text": " 5 minutes. However, they were very gracious with this update, so it's almost 5 minutes."
+    },
+    {
+      "end": "00:00:19.267",
+      "start": "00:00:15.600",
+      "text": " If you'd like a full list of all the bug fixes and all the features, check out the link in the"
+    },
+    {
+      "end": "00:00:23.200",
+      "start": "00:00:19.267",
+      "text": " description below. But for now, let's get started. One of the coolest new features is the"
+    },
+    {
+      "end": "00:00:27.667",
+      "start": "00:00:23.200",
+      "text": " improved billion system. It now has an exact solver which handles overlapping geometry better."
+    },
+    {
+      "end": "00:00:31.433",
+      "start": "00:00:27.667",
+      "text": " This method is slower, so the old option is still available as a fast option."
+    },
+    {
+      "end": "00:00:35.433",
+      "start": "00:00:31.433",
+      "text": " Thanks to this new system, some of the sculpt tools such as trim will be used a lot in the upcoming"
+    },
+    {
+      "end": "00:00:40.400",
+      "start": "00:00:35.433",
+      "text": " geometry nodes. This new feature opens up quite a few cool artistic abilities previously only available"
+    },
+    {
+      "end": "00:00:45.200",
+      "start": "00:00:40.400",
+      "text": " in other 3D applications. Blients are a major asset in motion graphics animations as well."
+    },
+    {
+      "end": "00:00:49.500",
+      "start": "00:00:45.200",
+      "text": " A collection option has now been added as well, allowing you to use an entire collection as an"
+    },
+    {
+      "end": "00:00:54.233",
+      "start": "00:00:49.500",
+      "text": " operand type, like in this example. The knife tools also benefited and has options to handle"
+    },
+    {
+      "end": "00:00:58.467",
+      "start": "00:00:54.233",
+      "text": " overlapping geometry better. The ocean modifiers performance has been improved by adding different"
+    },
+    {
+      "end": "00:01:03.333",
+      "start": "00:00:58.467",
+      "text": " resolutions for viewport and render options. Elimbec sequences now support motion blur now that"
+    },
+    {
+      "end": "00:01:08.000",
+      "start": "00:01:03.333",
+      "text": " they contain velocity data. Subdivision surface has several new options making it more compatible"
+    },
+    {
+      "end": "00:01:12.533",
+      "start": "00:01:08.000",
+      "text": " with other software. Curve bevels now has a fill cap option and a custom profile option has"
+    },
+    {
+      "end": "00:01:16.933",
+      "start": "00:01:12.533",
+      "text": " been added as a bevel mode. This feature has a lot of potential for creating intricate moldings"
+    },
+    {
+      "end": "00:01:20.867",
+      "start": "00:01:16.933",
+      "text": " in other creations. Are you bad at blender? If so, it's going to be much harder to blame it on"
+    },
+    {
+      "end": "00:01:24.133",
+      "start": "00:01:20.867",
+      "text": " the interface because it just got a whole lot of improvements to make things easier."
+    },
+    {
+      "end": "00:01:28.300",
+      "start": "00:01:24.133",
+      "text": " Property search is an awesome new feature for beginner users or blender users with bad memories."
+    },
+    {
+      "end": "00:01:31.900",
+      "start": "00:01:28.300",
+      "text": " It adds a search bar at the top of your property's panel, allowing you to search automatically"
+    },
+    {
+      "end": "00:01:36.533",
+      "start": "00:01:31.900",
+      "text": " expanding and collapsing panels. Also, welcome fuzzy search, so it's more forgiving with results."
+    },
+    {
+      "end": "00:01:40.300",
+      "start": "00:01:36.533",
+      "text": " For example, searching SSS and nodes will bring up subsurface scattering."
+    },
+    {
+      "end": "00:01:44.800",
+      "start": "00:01:40.300",
+      "text": " Outliner has had a large update. Modifiers, constrainers, and grease pencil effects can now be"
+    },
+    {
+      "end": "00:01:48.367",
+      "start": "00:01:44.800",
+      "text": " drag and drop in the outliner. This means you can spend less time digging through submenus and"
+    },
+    {
+      "end": "00:01:52.400",
+      "start": "00:01:48.400",
+      "text": " get more done in the outliner. Collections now have color tags, which is set from the right"
+    },
+    {
+      "end": "00:01:57.033",
+      "start": "00:01:52.400",
+      "text": " click menu, great for organizing full scenes. Mode toggling can now be done in the outliner,"
+    },
+    {
+      "end": "00:02:02.000",
+      "start": "00:01:57.033",
+      "text": " so minor control updates are you can walk left and right in the outliner navigation and shift"
+    },
+    {
+      "end": "00:02:06.000",
+      "start": "00:02:02.000",
+      "text": " click to toggle visibility for bone children. Make sure you're sitting because blender is not"
+    },
+    {
+      "end": "00:02:10.067",
+      "start": "00:02:06.000",
+      "text": " responsible if you fall over from shock and hurt yourself when you hear about this next feature."
+    },
+    {
+      "end": "00:02:14.400",
+      "start": "00:02:10.067",
+      "text": " Three new volume modifiers have been added, including the amazing meshed your volume modifier,"
+    },
+    {
+      "end": "00:02:19.200",
+      "start": "00:02:14.400",
+      "text": " which will convert your mesh into volumes. The volume display modifier displaces a volume using"
+    },
+    {
+      "end": "00:02:24.300",
+      "start": "00:02:19.200",
+      "text": " a procedural texture. The volume 2 mesh modifier allows you to generate a mesh from a volume object."
+    },
+    {
+      "end": "00:02:28.867",
+      "start": "00:02:24.300",
+      "text": " For example, make a Maniflo Sim into a mesh for stylized fluids. Thanks to your contributions to"
+    },
+    {
+      "end": "00:02:33.200",
+      "start": "00:02:28.867",
+      "text": " the Blender Dev Fun, all the coders on the sculpting team were able to buy a third arm so that they"
+    },
+    {
+      "end": "00:02:37.433",
+      "start": "00:02:33.200",
+      "text": " could code faster. At least, I mean, that's the only way I can explain that they're adding so many"
+    },
+    {
+      "end": "00:02:41.433",
+      "start": "00:02:37.433",
+      "text": " features every update, right? Clopsculpting was already the coolest sculpting feature around,"
+    },
+    {
+      "end": "00:02:44.800",
+      "start": "00:02:41.433",
+      "text": " but I guess that wasn't good enough because it just got better. It now supports collisions with"
+    },
+    {
+      "end": "00:02:49.267",
+      "start": "00:02:44.800",
+      "text": " scene colliders. A soft body plasticity property has been added to the cloth brush. There's a new"
+    },
+    {
+      "end": "00:02:53.333",
+      "start": "00:02:49.267",
+      "text": " cloth grab brush and cloth snake hook brush, which is just fun to play with. Several new properties"
+    },
+    {
+      "end": "00:02:57.900",
+      "start": "00:02:53.333",
+      "text": " filters and modes have been added to existing tools. One notable addition is a new scale cloth filter."
+    },
+    {
+      "end": "00:03:01.600",
+      "start": "00:02:57.900",
+      "text": " Multi-res supports base mesh sculpting, which allows you to sculpt on the base mesh while"
+    },
+    {
+      "end": "00:03:05.433",
+      "start": "00:03:01.600",
+      "text": " previewing with higher resolutions. This even allows you to use tools like the cloth brush with higher"
+    },
+    {
+      "end": "00:03:10.467",
+      "start": "00:03:05.433",
+      "text": " resolution. An eraser has been added to erase multi-res displacement. This is great for fixing"
+    },
+    {
+      "end": "00:03:14.467",
+      "start": "00:03:10.467",
+      "text": " mistakes or clinging up edges. New gesture tools have been added including the line project"
+    },
+    {
+      "end": "00:03:18.933",
+      "start": "00:03:14.467",
+      "text": " chester, line gestures, mask, line union and join modes for trim tools and more. With the new"
+    },
+    {
+      "end": "00:03:23.267",
+      "start": "00:03:18.933",
+      "text": " trim tools and join new new mode, you can pretty much add geometry in sculpt mode by drawing on it."
+    },
+    {
+      "end": "00:03:27.100",
+      "start": "00:03:23.267",
+      "text": " A completely new brush, the boundary brush has been added. It controls the shape of mesh boundaries"
+    },
+    {
+      "end": "00:03:31.833",
+      "start": "00:03:27.100",
+      "text": " in his useful for creating cloth and hard surface base meshes. XYZ Cemetery per mesh and fading"
+    },
+    {
+      "end": "00:03:36.233",
+      "start": "00:03:31.833",
+      "text": " in an active gemarion material overlay have been added to multi-object sculpting, making for better"
+    },
+    {
+      "end": "00:03:40.867",
+      "start": "00:03:36.933",
+      "text": " performance. You can now lock HDRi rotation to use EV materials as mat caps and render overlays"
+    },
+    {
+      "end": "00:03:44.933",
+      "start": "00:03:40.867",
+      "text": " with constructive modifiers enabled. There's now an invert smoothed in hands details tool."
+    },
+    {
+      "end": "00:03:48.533",
+      "start": "00:03:44.933",
+      "text": " These are the most notable changes, but there are plenty more filters, tools and properties that"
+    },
+    {
+      "end": "00:03:51.667",
+      "start": "00:03:48.533",
+      "text": " have been added for advanced sculptors. Check out the link in the description below."
+    },
+    {
+      "end": "00:03:55.433",
+      "start": "00:03:51.667",
+      "text": " Greece Pencil has seen several smaller user interface updates to improve its workflow."
+    },
+    {
+      "end": "00:03:59.033",
+      "start": "00:03:55.433",
+      "text": " The Convert to Mesh Stroke's tool has been improved and creates layers and materials with"
+    },
+    {
+      "end": "00:04:03.600",
+      "start": "00:03:59.033",
+      "text": " the original object name. There's a new holdout material to allow open holes and filled areas. This"
+    },
+    {
+      "end": "00:04:08.133",
+      "start": "00:04:03.733",
+      "text": " is useful for layering objects and compositing style tricks in the viewport. The new trace images"
+    },
+    {
+      "end": "00:04:12.400",
+      "start": "00:04:08.133",
+      "text": " operator uses the Poet Trace library has been added, which is awesome for converting sketches or"
+    },
+    {
+      "end": "00:04:16.467",
+      "start": "00:04:12.400",
+      "text": " logos to Greece Pencil. Currently, it supports black and white only. Several new operators have been"
+    },
+    {
+      "end": "00:04:20.467",
+      "start": "00:04:16.467",
+      "text": " added, including a clean up frames operator, which it helps with meshes that are static for several"
+    },
+    {
+      "end": "00:04:24.300",
+      "start": "00:04:20.467",
+      "text": " frames. Important export options don't usually trend on social media, but they really improve"
+    },
+    {
+      "end": "00:04:29.333",
+      "start": "00:04:24.300",
+      "text": " blinner studio workflow, making it more powerful for large teams. Olympic has seen vast improvements"
+    },
+    {
+      "end": "00:04:33.667",
+      "start": "00:04:29.333",
+      "text": " including exporting invisible objects, writing duplicate objects, as instances, exporting custom"
+    },
+    {
+      "end": "00:04:38.800",
+      "start": "00:04:33.667",
+      "text": " properties, vertex or tripolation, and animated vertex colors. Classic blinner users can rejoice."
+    },
+    {
+      "end": "00:04:43.100",
+      "start": "00:04:38.800",
+      "text": " Old large files will now load faster. Library overlides, library linking, and the handling of"
+    },
+    {
+      "end": "00:04:46.933",
+      "start": "00:04:43.100",
+      "text": " shading and add-on importers have all been improved. Collision's just got easier and faster with"
+    },
+    {
+      "end": "00:04:51.100",
+      "start": "00:04:46.933",
+      "text": " compound shapes. You can now combine multiple primitive shapes into a concave shape. Some useful"
+    },
+    {
+      "end": "00:04:54.867",
+      "start": "00:04:51.100",
+      "text": " new features have been added to the graph editor for animators. You can now insert all keyframe"
+    },
+    {
+      "end": "00:04:58.700",
+      "start": "00:04:54.867",
+      "text": " types without changing the shape. Curves are snappy are aligned for quicker, easing with less key"
+    },
+    {
+      "end": "00:05:02.800",
+      "start": "00:04:59.333",
+      "text": " frames. They add in an active keyframe selection color to make it easier to tell which keyframe"
+    },
+    {
+      "end": "00:05:07.200",
+      "start": "00:05:02.800",
+      "text": " is active. The snap menu now supports snapping to the 2D cursor. Copying to the selection has"
+    },
+    {
+      "end": "00:05:11.500",
+      "start": "00:05:07.200",
+      "text": " been added to keyframes. This could save a ton of time with repeat animations on multiple objects."
+    },
+    {
+      "end": "00:05:15.433",
+      "start": "00:05:11.500",
+      "text": " The nonlinear animation editor has seen several changes in improvements, making it easier to"
+    },
+    {
+      "end": "00:05:20.000",
+      "start": "00:05:15.433",
+      "text": " sync length, enter edit mode, and insert or modify keys outside of the strip bounds. Child of"
+    },
+    {
+      "end": "00:05:24.000",
+      "start": "00:05:20.000",
+      "text": " constraint now automatically sets in verse 1 applying, so you don't have that moment of panic that"
+    },
+    {
+      "end": "00:05:27.500",
+      "start": "00:05:24.000",
+      "text": " you just destroyed your character when applying a new constraint. The community in the animation"
+    },
+    {
+      "end": "00:05:31.900",
+      "start": "00:05:27.833",
+      "text": " module team was largely involved with these improvements. The image editor draw rewrite is amazing,"
+    },
+    {
+      "end": "00:05:38.000",
+      "start": "00:05:31.900",
+      "text": " it's so much faster. Here it is tiling effortlessly with a 16k HDRI. The old image editor couldn't"
+    },
+    {
+      "end": "00:05:42.300",
+      "start": "00:05:38.000",
+      "text": " handle these kind of loads. The UV image editor has also improved alpha blending, support for"
+    },
+    {
+      "end": "00:05:47.033",
+      "start": "00:05:42.300",
+      "text": " a mis-of-colors and a notably improved informants with viewing, final, render results. This is great"
+    },
+    {
+      "end": "00:05:50.700",
+      "start": "00:05:47.033",
+      "text": " news if you do your compositing and blender. The sequencer has seen some improvements reducing"
+    },
+    {
+      "end": "00:05:55.100",
+      "start": "00:05:50.700",
+      "text": " video decoding by about 30%. Motion tracking compatibility has been improved, and if you were"
+    },
+    {
+      "end": "00:06:01.033",
+      "start": "00:05:55.100",
+      "text": " somehow able to get one, Nvidia RTX 3000 series graphic cards now support without runtime compilation."
+    },
+    {
+      "end": "00:06:06.233",
+      "start": "00:06:01.033",
+      "text": " As usual, there are just hundreds of minor bug fixes, features, and other small improvements if"
+    },
+    {
+      "end": "00:06:10.067",
+      "start": "00:06:06.233",
+      "text": " you'd like to see that full less, check out the link in the description below. If you haven't"
+    },
+    {
+      "end": "00:06:14.233",
+      "start": "00:06:10.067",
+      "text": " already, go check out the Blender conference 20 online now. Blender is a special software built up"
+    },
+    {
+      "end": "00:06:18.300",
+      "start": "00:06:14.233",
+      "text": " by the community and an amazing team of developers. This year's conference showed how Blender affects"
+    },
+    {
+      "end": "00:06:22.067",
+      "start": "00:06:18.300",
+      "text": " people's lives, sometimes in a very personal way. It's clear how much the community and team"
+    },
+    {
+      "end": "00:06:26.133",
+      "start": "00:06:22.067",
+      "text": " care about their product and users. It's worth checking out. If you like what you see, go support"
+    },
+    {
+      "end": "00:06:28.000",
+      "start": "00:06:26.133",
+      "text": " Blender and join the development fund."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Film & Animation"
+  ],
+  "youtube_channel": "Blender",
+  "youtube_channel_follower_count": 1150000,
+  "youtube_comment_count": 751,
+  "youtube_description": "@SouthernShotty covers what's new in Blender 2.91!\nRead the full list of changes: https://www.blender.org/download/releases/2-91/\n\nSupport Blender development: https://fund.blender.org\n\n█████████████████████████████████\n\nFollow Blender:\n* Twitter: https://twitter.com/blender\n* Instagram: https://instagram.com/blender.official\n* YouTube: https://youtube.com/BlenderFoundation\n* Facebook: https://facebook.com/YourOwn3DSoftware\n\n█████████████████████████████████\n\nFollow Blender Development:\n* Blog: https://code.blender.org\n* Twitter: https://twitter.com/BlenderDev",
+  "youtube_like_count": 16619,
+  "youtube_tags": [
+    "blender",
+    "b3d",
+    "blender 3d",
+    "2.8",
+    "2.80",
+    "blender 2.8",
+    "blender foundation",
+    "Blender 2.9",
+    "Blender 2.90",
+    "tutorial",
+    "training",
+    "free",
+    "open source",
+    "animation",
+    "grease pencil",
+    "eevee",
+    "3d",
+    "2d"
+  ],
+  "youtube_title": "Blender 2.91 New Features in ALMOST 5 Minutes",
+  "youtube_upload_date": "20201125",
+  "youtube_view_count": 414768
+}

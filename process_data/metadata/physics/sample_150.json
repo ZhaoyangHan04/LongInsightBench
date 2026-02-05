@@ -1,0 +1,777 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with brown skin, dark hair, and a short beard. He wears a black shirt with colorful floral patterns and a blue collar.",
+        "name": "Professor"
+      }
+    ],
+    "description": "A video analysis on the detection of camouflaged objects using edge detection techniques.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Pink noise, also known as 1/f noise.",
+        "question": "What is the primary camouflage texture used in the research?"
+      },
+      {
+        "answer": "The object boundary or edge.",
+        "question": "What is the key cue for detecting the camouflaged target?"
+      },
+      {
+        "answer": "It means unfiltering the amplitude spectrum of the stimulus from 1/f to flat, concentrating information from all scales into a single fine edge.",
+        "question": "What does 'whitening the stimulus' mean in the context of this research?"
+      },
+      {
+        "answer": "Designing effective camouflage for objects like drones by computing their edge power and finding optimal locations and orientations on a background for landing.",
+        "question": "What is an example of a practical application of these research findings?"
+      },
+      {
+        "answer": "Bark texture provides systematically better camouflage than the pink noise texture.",
+        "question": "How does the bark texture compare to pink noise in terms of camouflage effectiveness?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Professor introduces himself",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Professor explains the research topic",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Professor describes the camouflage texture used in the research",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "description": "Professor explains the characteristics of the camouflage target",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "description": "Professor discusses the key to detecting the target",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Calm, Neutral (Content, Curious). The professor calmly explains the research topic, creating a neutral and informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the research topic and the use of pink noise as a camouflage texture",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Description of the camouflage target and its properties",
+            "timestamp": "00:00:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Research poster",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Camouflage detection, edge detection, image processing, psychophysics.",
+        "timestamps": {
+          "end_timestamp": "00:00:29.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Camouflage Stimuli",
+        "videoEditingDetails": [
+          {
+            "description": "No special effects or transitions",
+            "timestamps": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor explains the edge detection process",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:29.040"
+            }
+          },
+          {
+            "description": "Professor describes the computation of the edge vector",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "description": "Professor defines and elaborates on edge power",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Professor discusses the relationship between edge power and target visibility",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Calm, Neutral (Content, Curious). The professor maintains a calm and neutral tone while diving deeper into the research methodology.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of how the edge vector is computed",
+            "timestamp": "00:00:29.040"
+          },
+          {
+            "description": "Definition and importance of edge power for target detection",
+            "timestamp": "00:01:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Research poster",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:00:29.040"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Edge detection, image gradient, power spectrum analysis, target visibility.",
+        "timestamps": {
+          "end_timestamp": "00:01:20.760",
+          "start_timestamp": "00:00:29.040"
+        },
+        "title": "Edge Detection Analysis",
+        "videoEditingDetails": [
+          {
+            "description": "No special effects or transitions",
+            "timestamps": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:00:29.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor transitions to discussing edge detection at multiple spatial scales",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:01:20.800"
+            }
+          },
+          {
+            "description": "Professor explains the Fourier transform and its role in edge detection",
+            "timestamp": {
+              "end_timestamp": "00:01:38.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "description": "Professor describes the process of calculating sample distribution of power in different frequencies",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "description": "Professor introduces the concept of whitening the stimulus for better detection",
+            "timestamp": {
+              "end_timestamp": "00:02:48.920",
+              "start_timestamp": "00:02:48.920"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Calm, Neutral (Content, Curious). The professor continues to explain the complex aspects of the research in a clear and concise manner.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Transition to the concept of multiple spatial scales in edge detection",
+            "timestamp": "00:01:20.800"
+          },
+          {
+            "description": "Utilization of the Fourier transform for separating phase and amplitude information",
+            "timestamp": "00:01:30.000"
+          },
+          {
+            "description": "Calculating the sample distribution of power for different frequencies",
+            "timestamp": "00:01:38.000"
+          },
+          {
+            "description": "Introduction of the concept of whitening the stimulus for improving target detection",
+            "timestamp": "00:02:48.920"
+          }
+        ],
+        "props": [
+          {
+            "name": "Research poster",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:01:20.800"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Multiple spatial scales, Fourier Transform, whitening, noise reduction, signal processing.",
+        "timestamps": {
+          "end_timestamp": "00:02:48.920",
+          "start_timestamp": "00:01:20.800"
+        },
+        "title": "Edge Detection at Multiple Scales",
+        "videoEditingDetails": [
+          {
+            "description": "No special effects or transitions",
+            "timestamps": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:01:20.800"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor introduces psychophysics experiments on humans",
+            "timestamp": {
+              "end_timestamp": "00:03:28.000",
+              "start_timestamp": "00:03:20.000"
+            }
+          },
+          {
+            "description": "Professor discusses different textures and their camouflage effectiveness",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:03:28.000"
+            }
+          },
+          {
+            "description": "Professor explains the fitting of psychometric functions and extraction of detection thresholds",
+            "timestamp": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:40.000"
+            }
+          },
+          {
+            "description": "Professor describes varying viewing conditions and analyzing the changes in detection threshold",
+            "timestamp": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:03:45.000"
+            }
+          },
+          {
+            "description": "Professor discusses potential applications of the findings",
+            "timestamp": {
+              "end_timestamp": "00:04:32.000",
+              "start_timestamp": "00:04:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Calm, Neutral (Content, Curious). The professor maintains a calm and objective tone while discussing the results and applications of the research.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the psychophysics experiments using different textures",
+            "timestamp": "00:03:20.000"
+          },
+          {
+            "description": "Analyzing human detection performance based on edge power and texture",
+            "timestamp": "00:03:30.000"
+          },
+          {
+            "description": "Varying viewing conditions to understand their effect on detection threshold",
+            "timestamp": "00:03:45.000"
+          },
+          {
+            "description": "Applying the findings to real-world applications like drone camouflage",
+            "timestamp": "00:04:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Research poster",
+            "timestamp": {
+              "end_timestamp": "00:04:32.000",
+              "start_timestamp": "00:03:20.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Psychophysics, human perception, camouflage effectiveness, detection thresholds, real-world applications.",
+        "timestamps": {
+          "end_timestamp": "00:04:32.000",
+          "start_timestamp": "00:02:48.960"
+        },
+        "title": "Psychophysics Experiments and Applications",
+        "videoEditingDetails": [
+          {
+            "description": "No special effects or transitions",
+            "timestamps": {
+              "end_timestamp": "00:04:32.000",
+              "start_timestamp": "00:03:20.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor looks upwards, suggesting the end of his presentation.",
+            "timestamp": {
+              "end_timestamp": "00:04:36.000",
+              "start_timestamp": "00:04:32.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Calm, Neutral (Content)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the presentation.",
+            "timestamp": "00:04:32.040"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:04:36.120",
+          "start_timestamp": "00:04:32.040"
+        },
+        "title": "Closing",
+        "videoEditingDetails": [
+          {
+            "description": "No special effects or transitions",
+            "timestamps": {
+              "end_timestamp": "00:04:36.000",
+              "start_timestamp": "00:04:32.040"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Research findings are applied to practical scenarios, highlighting their real-world significance.",
+        "timestamp": "00:04:00.000"
+      },
+      "description": "Main storyline focuses on understanding camouflage detection through edge detection techniques.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Camouflaged Object Detection",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be slightly shortened by focusing on the key characteristics of the camouflage texture and target.",
+        "timestamps": {
+          "end_timestamp": "00:04:32.040",
+          "start_timestamp": "00:04:32.040"
+        }
+      },
+      {
+        "description": "Could be condensed by summarizing the computation of the edge vector and moving directly to the definition of edge power.",
+        "timestamps": {
+          "end_timestamp": "00:04:32.040",
+          "start_timestamp": "00:04:32.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 276,
+  "original_json_filename": "2CsclhfMFic.json",
+  "original_video_filename": "2CsclhfMFic.mp4",
+  "resolution": "640x328",
+  "text_to_speech": "Hello, I am Abhranil, and this will be a walkthrough of our research poster on understanding camouflage detection. The camouflage texture we have used for most of our stimuli is pink noise or 1/f noise. This has the same 1/f amplitude spectrum as natural scenes, but no phase information. The camouflaging target has the same luminance, contrast and texture as the background patch it sits on. The main cue for detecting it resides in the object boundary or edge. At a point on the boundary, we compute the image gradient perpendicular to the object boundary, normalize it, and call it the edge element. You can compute this all along the boundary, which gives us the edge vector. This edge vector contains most of the information for detecting the presence of a target. We can measure the power of this edge vector signal, which is the sum, or in this case, the mean, of the square of its elements. This edge power is larger when a target is present, and also larger the more visible that target gets. So this is a great decision variable for detection. But we can dive deeper into this edge vector. We can show using some math that the edge vector is an amplitude-filtered white noise signal. So if you Fourier transform it, the phase spectrum has no information, and only its amplitude or power spectrum is useful. We can calculate the sample-distribution of power in each frequency, when there is no target, vs when there is a target. Here are the plots of the sample-average power in each frequency. By knowing these distributions of power, we can derive the optimal Bayesian way to detect the presence of a target. It turns out to be a matched-template detector on the edge power spectrum. This means that given a stimulus, you take the dot product of its edge power spectrum with this template, and set a criterion on it to decide if there is a target. Okay, so far we have been talking about edges computed at a single spatial scale. But we know that biological vision computes edges or gradients at multiple spatial scales, and combines them. We can do the same thing for our stimuli. Here’s the joint distribution of the edge power at different scales. We can also combine them into a single decision variable that utilizes the information at different scales, and is even better at detecting the camouflaged target. Another way of accumulating the information at multiple scales is to whiten the stimulus, i.e. to unfilter its amplitude spectrum from 1/f to flat. This transforms the texture to white noise, but leaves this fine edge where the true target boundary was. This is a lossless transformation, which means that it concentrates all of the information at all the scales into this one fine edge at a single scale. Okay, now let’s talk about the experiments. We have performed psychophysics on humans using both pink noise, and a more naturalistic bark texture, and we see that detection performance is smoothly and identically predicted by the edge power in both textures. We can fit a psychometric function to this, and extract a detection threshold. We can now vary the viewing condition, such as the overall luminance and contrast of the stimulus, the size of the target or how long it is presented, and see how this detection threshold changes. We can also apply our findings towards designing effective camouflage. For example, an object such as a drone can compute its edge power, and find the location and orientation on a background to land on that makes it easy or difficult to spot. We can also compare different textures for their effectiveness at camouflage. We see here, for example, that bark texture provides systematically better camouflage than the pink noise texture.",
+  "text_to_speech_word_count": 636,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.120",
+      "start": "00:00:00.000",
+      "text": " Hello, I'm Monfer Ngu."
+    },
+    {
+      "end": "00:00:04.480",
+      "start": "00:00:03.120",
+      "text": " And this will be a walk through"
+    },
+    {
+      "end": "00:00:08.720",
+      "start": "00:00:04.480",
+      "text": " of our research poster on understanding camouflage detection."
+    },
+    {
+      "end": "00:00:14.320",
+      "start": "00:00:08.720",
+      "text": " The camouflage texture we have used for most of our stimuli is"
+    },
+    {
+      "end": "00:00:16.800",
+      "start": "00:00:14.320",
+      "text": " think-nice or one over f noise."
+    },
+    {
+      "end": "00:00:21.600",
+      "start": "00:00:16.800",
+      "text": " This has the same one over f amplitude spectrum as natural scenes,"
+    },
+    {
+      "end": "00:00:23.840",
+      "start": "00:00:21.600",
+      "text": " but no phase information."
+    },
+    {
+      "end": "00:00:29.960",
+      "start": "00:00:23.840",
+      "text": " The conflugging target has the same luminance contrast and texture as the background."
+    },
+    {
+      "end": "00:00:31.800",
+      "start": "00:00:29.960",
+      "text": " As it sits on."
+    },
+    {
+      "end": "00:00:37.240",
+      "start": "00:00:31.800",
+      "text": " The main cue for detecting it resides in the object boundary or edge."
+    },
+    {
+      "end": "00:00:44.040",
+      "start": "00:00:37.240",
+      "text": " At a point on the boundary, we compute the image gradient perpendicular to the object boundary,"
+    },
+    {
+      "end": "00:00:47.920",
+      "start": "00:00:44.040",
+      "text": " normalize it and call it the edge element."
+    },
+    {
+      "end": "00:00:53.800",
+      "start": "00:00:47.920",
+      "text": " You can compute this all along the boundary, which gives us the edge vector."
+    },
+    {
+      "end": "00:01:00.760",
+      "start": "00:00:53.800",
+      "text": " This edge vector contains most of the information for detecting the presence of a target."
+    },
+    {
+      "end": "00:01:04.200",
+      "start": "00:01:00.760",
+      "text": " We can measure the power of this edge vector signal,"
+    },
+    {
+      "end": "00:01:09.280",
+      "start": "00:01:04.200",
+      "text": " which is the sun, or in this case, the mean of the square of its elements."
+    },
+    {
+      "end": "00:01:12.840",
+      "start": "00:01:09.280",
+      "text": " This edge power is larger when a target is present,"
+    },
+    {
+      "end": "00:01:16.520",
+      "start": "00:01:12.840",
+      "text": " and also larger the more visible that target gets."
+    },
+    {
+      "end": "00:01:20.200",
+      "start": "00:01:16.520",
+      "text": " So this is a great decision variable for detection."
+    },
+    {
+      "end": "00:01:23.160",
+      "start": "00:01:20.200",
+      "text": " But we can dive deeper into this edge vector."
+    },
+    {
+      "end": "00:01:29.560",
+      "start": "00:01:23.160",
+      "text": " We can show using some math that the edge vector is an amplitude filter white noise signal."
+    },
+    {
+      "end": "00:01:33.440",
+      "start": "00:01:29.560",
+      "text": " So if you form your transforming, the phase spectrum has no information,"
+    },
+    {
+      "end": "00:01:37.640",
+      "start": "00:01:33.440",
+      "text": " and only its amplitude or power spectrum is useful."
+    },
+    {
+      "end": "00:01:41.960",
+      "start": "00:01:37.640",
+      "text": " We can calculate the sample distribution of power in each frequency"
+    },
+    {
+      "end": "00:01:45.960",
+      "start": "00:01:41.960",
+      "text": " when there is no target versus when there is a target."
+    },
+    {
+      "end": "00:01:50.840",
+      "start": "00:01:45.960",
+      "text": " Here are the plots of the sample average power in each frequency."
+    },
+    {
+      "end": "00:01:53.320",
+      "start": "00:01:50.840",
+      "text": " By knowing these distributions of power,"
+    },
+    {
+      "end": "00:01:58.680",
+      "start": "00:01:53.320",
+      "text": " we can derive the optimal Bayesian way to detect the presence of a target."
+    },
+    {
+      "end": "00:02:03.720",
+      "start": "00:01:58.680",
+      "text": " It turns out to be a matched template detector on the edge power spectrum."
+    },
+    {
+      "end": "00:02:10.440",
+      "start": "00:02:03.720",
+      "text": " This means that given a stimulus, you take the dot product of its edge power spectrum with this template"
+    },
+    {
+      "end": "00:02:16.360",
+      "start": "00:02:10.440",
+      "text": " and set a criterion on it to decide if there is a target."
+    },
+    {
+      "end": "00:02:21.240",
+      "start": "00:02:16.360",
+      "text": " So far, we have been talking about edges computed at a single spatial scale."
+    },
+    {
+      "end": "00:02:28.360",
+      "start": "00:02:21.240",
+      "text": " But we know that biological vision computes edges or gradients at multiple spatial scales and combines them."
+    },
+    {
+      "end": "00:02:31.000",
+      "start": "00:02:28.360",
+      "text": " We can do the same thing for our stimuli."
+    },
+    {
+      "end": "00:02:36.440",
+      "start": "00:02:31.000",
+      "text": " Here's the joint distribution of the edge power at different scales."
+    },
+    {
+      "end": "00:02:40.360",
+      "start": "00:02:36.440",
+      "text": " We can also combine them into a single decision variable"
+    },
+    {
+      "end": "00:02:43.480",
+      "start": "00:02:40.360",
+      "text": " that utilizes the information at different scales"
+    },
+    {
+      "end": "00:02:48.120",
+      "start": "00:02:43.480",
+      "text": " and is even better at detecting the camouflage target."
+    },
+    {
+      "end": "00:02:54.920",
+      "start": "00:02:48.120",
+      "text": " Another way of accumulating the information at multiple scales is to widen this stimulus,"
+    },
+    {
+      "end": "00:03:00.600",
+      "start": "00:02:54.920",
+      "text": " that is to unfilter its amplitude spectrum from one over F to flat."
+    },
+    {
+      "end": "00:03:04.120",
+      "start": "00:03:00.600",
+      "text": " This transforms the texture to white noise,"
+    },
+    {
+      "end": "00:03:09.240",
+      "start": "00:03:04.120",
+      "text": " but leaves this fine edge where the true target boundary used to be."
+    },
+    {
+      "end": "00:03:11.400",
+      "start": "00:03:09.240",
+      "text": " This is a lossless transformation,"
+    },
+    {
+      "end": "00:03:19.960",
+      "start": "00:03:11.400",
+      "text": " which means that it concentrates all of the information at all the scales into this one fine edge at a single scale."
+    },
+    {
+      "end": "00:03:22.600",
+      "start": "00:03:19.960",
+      "text": " Okay, now let's talk about the experiments."
+    },
+    {
+      "end": "00:03:26.600",
+      "start": "00:03:22.600",
+      "text": " We have performed psychophysics on humans using both pink noise"
+    },
+    {
+      "end": "00:03:29.320",
+      "start": "00:03:26.600",
+      "text": " and a more naturalistic bark texture."
+    },
+    {
+      "end": "00:03:38.360",
+      "start": "00:03:29.320",
+      "text": " And we see that detection performance is smoothly and identically predicted by the edge power in both textures."
+    },
+    {
+      "end": "00:03:43.320",
+      "start": "00:03:38.440",
+      "text": " So we can fit a psychometric function to this and extract a detection threshold."
+    },
+    {
+      "end": "00:03:46.360",
+      "start": "00:03:44.120",
+      "text": " We can now vary the viewing conditions,"
+    },
+    {
+      "end": "00:03:49.960",
+      "start": "00:03:46.360",
+      "text": " such as the overall luminance and contrast of the stimulus,"
+    },
+    {
+      "end": "00:03:54.280",
+      "start": "00:03:50.600",
+      "text": " the size of the target or how long it is presented,"
+    },
+    {
+      "end": "00:03:56.760",
+      "start": "00:03:54.280",
+      "text": " and see how this detection threshold changes."
+    },
+    {
+      "end": "00:04:02.200",
+      "start": "00:03:58.200",
+      "text": " We can also apply our findings to a designing effective camouflage."
+    },
+    {
+      "end": "00:04:07.800",
+      "start": "00:04:02.760",
+      "text": " For example, an object such as a drone can compute its edge power"
+    },
+    {
+      "end": "00:04:12.520",
+      "start": "00:04:07.800",
+      "text": " and find the location and orientation on a background to land on"
+    },
+    {
+      "end": "00:04:15.240",
+      "start": "00:04:12.520",
+      "text": " that makes it easy or difficult to spot."
+    },
+    {
+      "end": "00:04:20.760",
+      "start": "00:04:16.040",
+      "text": " We can also compare different textures for their effectiveness at camouflage."
+    },
+    {
+      "end": "00:04:29.160",
+      "start": "00:04:21.400",
+      "text": " We see here, for example, that bark texture provides systematically better camouflage"
+    },
+    {
+      "end": "00:04:30.520",
+      "start": "00:04:29.160",
+      "text": " than the pink noise texture."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Abhranil Das",
+  "youtube_channel_follower_count": 3,
+  "youtube_comment_count": 0,
+  "youtube_description": "Video walkthrough of poster at virtual VSS 2020 conference, by Abhranil Das, dept. of physics, The University of Texas at Austin, under Dr Wilson Geisler, dept. of psychology.",
+  "youtube_like_count": 6,
+  "youtube_tags": [],
+  "youtube_title": "Understanding Camouflage Detection: VSS 2020",
+  "youtube_upload_date": "20220428",
+  "youtube_view_count": 152
+}

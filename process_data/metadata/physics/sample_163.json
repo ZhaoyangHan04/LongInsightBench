@@ -1,0 +1,563 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short brown hair, beard, and glasses. He wears a black T-shirt with 'MAY THE 4TH be with you' printed on it.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "This video focuses on explaining the concepts and applications of pulse programming, highlighting its advantages and how PyPPM simplifies its implementation for researchers.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "A DC magnetic field reorients the magnetization along a new axis.",
+        "question": "What does a DC magnetic field do to magnetization?"
+      },
+      {
+        "answer": "An AC pulse rotates the magnetization in a new direction, whereas a DC field only reorients it along a specific axis.",
+        "question": "How does an AC pulse differ from a DC field?"
+      },
+      {
+        "answer": "Delays allow for specific timing in experiments and are used to control the sequence of operations in a pulse program.",
+        "question": "What is the purpose of using a delay in a pulse program?"
+      },
+      {
+        "answer": "Pulse programs are used in various research areas like NMR and MRI, allowing for studying relaxation rates and obtaining weighted images.",
+        "question": "What are some applications of pulse programs in real-world research?"
+      },
+      {
+        "answer": "PyPPM allows researchers to write pulse programs as sequences of instructions in Python, offering greater flexibility and control over experiments compared to traditional hard-coded approaches.",
+        "question": "How does PyPPM make pulse programming more flexible?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaker introduces himself and the topic.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker directly addresses the viewer."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Excited, the speaker seems enthusiastic to share his knowledge.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Speaker introduces himself and the topic of the video.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Pen",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Notepad",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Glass of water",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:11.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to title card with text 'Concepts - Part 2,' 'PyPPM,' 'Pulse Programming,' and an image of a circuit board.",
+            "timestamps": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker explains what pulse programs are and how they work.",
+            "timestamp": {
+              "end_timestamp": "00:04:31.467",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker continues to address the viewer directly."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, as the speaker explains complex concepts in a clear and engaging way.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Speaker explains the difference between DC and AC fields, then dives into pulse programs and how they are implemented in Python.",
+            "timestamp": "00:00:12.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Pen",
+            "timestamp": {
+              "end_timestamp": "00:04:31.467",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "name": "Notepad",
+            "timestamp": {
+              "end_timestamp": "00:04:31.467",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "name": "White cards with diagrams and labels",
+            "timestamp": {
+              "end_timestamp": "00:04:31.467",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Science, Technology, Programming",
+        "timestamps": {
+          "end_timestamp": "00:04:31.467",
+          "start_timestamp": "00:00:11.033"
+        },
+        "title": "Pulse Programming Explained",
+        "videoEditingDetails": [
+          {
+            "description": "Cut back to the speaker at the table.",
+            "timestamps": {
+              "end_timestamp": "00:04:31.467",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker answers a question about how pulse programs apply to real-world scenarios.",
+            "timestamp": {
+              "end_timestamp": "00:05:24.000",
+              "start_timestamp": "00:04:32.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker responds to an implied viewer question."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Thoughtful, as the speaker addresses a specific question and summarizes the key takeaways.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Speaker answers a question about protons and explains how pulse programming offers flexibility for researchers.",
+            "timestamp": "00:04:32.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Pen",
+            "timestamp": {
+              "end_timestamp": "00:05:24.000",
+              "start_timestamp": "00:04:32.000"
+            }
+          },
+          {
+            "name": "Notepad",
+            "timestamp": {
+              "end_timestamp": "00:05:24.000",
+              "start_timestamp": "00:04:32.000"
+            }
+          },
+          {
+            "name": "White cards with diagrams and labels",
+            "timestamp": {
+              "end_timestamp": "00:05:24.000",
+              "start_timestamp": "00:04:32.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Science, Technology, Research",
+        "timestamps": {
+          "end_timestamp": "00:05:24.133",
+          "start_timestamp": "00:04:31.500"
+        },
+        "title": "Q&A and Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is in scene 3 when the speaker answers a question and highlights the flexibility pulse programming offers.",
+        "timestamp": "00:04:32.000"
+      },
+      "description": "The video explains the concept of pulse programs, how they work, and their advantages.",
+      "scenes": [
+        2,
+        3
+      ]
+    },
+    "title": "PyPPM Pulse Programming",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the 'grab a chair' comment and get straight to the explanation.",
+        "timestamps": {
+          "end_timestamp": "00:04:31.500",
+          "start_timestamp": "00:04:31.500"
+        }
+      },
+      {
+        "description": "Shorten long pauses in Scene 3 to maintain viewer's attention.",
+        "timestamps": {
+          "end_timestamp": "00:05:00.000",
+          "start_timestamp": "00:04:40.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 324,
+  "original_json_filename": "2fI_Dwa6HHs.json",
+  "original_video_filename": "2fI_Dwa6HHs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hey hack day back from beautiful thai garden in lincoln nebraska um and i want to talk a little bit about pulse programs today on the pi ppm i'll grab a chairman you're gonna want one we're talking about pulse programs the important thing here is to talk about what a dc field does the dc magnetic field takes our polarization our magnetic polarization and it transitions it it polarizes it along a new axis so we're reorients upper field but an ac pulse is going to take that magnetization and rotate it in a new direction so ac fields rotate magnetization so we could take something and rotate it down on a new axis we can rotate any which way we want okay so if we go back then to the original pulse program we have a hard transition on where we're turning polarization on a delay and a hard off we turn polarization off and then we acquire the data now what if we wanted to do ac pulses now we have a situation where we have to add an ac pulse somewhere in here or change up the way that we're doing this experiment so the answer to this flexibility is called pulse programming impulse program thank you are just sequences of instructions and they're executed on the fly by the pi ppm at the end of the day we want to acquire data but before that maybe we'll add an ac pulse we can extend this as much as we want flexibly on the pi ppm by simply adding more and more instructions so this would be an example of a pulse program using the new scheme that pi ppm implements where we can flexibly arrange these in sequence and run a new kind of experiment where we have multiple acquisitions multiple pulses delays etc and this is a much more flexible way of going about taking data from your ibpm instead of having a hard-coded pulse program you can now ask any question you want so this is an inherently different question that we're asking our spins in the sample than the original hard coded sequence with pulse programming you can ask infinite number of questions that's the whole idea so pulse programs then in python look like lists of lists so we have an outer list here and inside the list every element is its own list it has an instruction so we could delay we could require we could have a pulse and then we just give each one of these instructions different arguments and so delays take arguments in a second so this would be a one-second delay this is the number of samples so we're taking 16k points and 20 is the sample rate and kilo samples per second so each one of these has a different syntax and what we do is we write this to the device in python and then it's as easy as dev.execute the pi ppm runs our statements here it compiles these into a bytecode instruction set executes it and then gives you back the data as a traditional so a few questions sure um how does that actually apply to protons for instance or spin so we can ask different questions of the sample now than we could before with the hard-coded scheme for example we can ask about relaxation rates so all these protons have what's called a t1 and a t2 relaxation rate and those are intrinsic to the sample it's used a lot in mri to get different weighting on images we can ask these questions with pulse programming in a flexible way that the original scheme wouldn't allow us to do it furthermore there are more features and so being able to arrange these in the right way at the right time really necessitates going to this more complex language in the end though for the python user it's going to be as simple as writing lists",
+  "text_to_speech_word_count": 667,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.000",
+      "start": "00:00:00.000",
+      "text": " Hey, Agday, back from the Tai Garden in Lincoln, Nebraska."
+    },
+    {
+      "end": "00:00:11.000",
+      "start": "00:00:05.000",
+      "text": " I wanted to talk a little bit about pulse programs today on the PiPPM."
+    },
+    {
+      "end": "00:00:14.000",
+      "start": "00:00:11.000",
+      "text": " Grab a chair down there, you're gonna want one."
+    },
+    {
+      "end": "00:00:16.000",
+      "start": "00:00:14.000",
+      "text": " We're talking about pulse programs."
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:16.000",
+      "text": " The important thing here is to talk about what a DC field does."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:22.000",
+      "text": " The DC magnetic field takes our polarization, our magnetic polarization."
+    },
+    {
+      "end": "00:00:36.000",
+      "start": "00:00:29.000",
+      "text": " And it transitions it, it polarizes it along a new axis."
+    },
+    {
+      "end": "00:00:41.000",
+      "start": "00:00:36.000",
+      "text": " So we're reorient."
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:41.000",
+      "text": " We feel that an AC pulse is going to take that magnetization"
+    },
+    {
+      "end": "00:00:58.000",
+      "start": "00:00:51.000",
+      "text": " and rotate it in a new direction."
+    },
+    {
+      "end": "00:01:01.000",
+      "start": "00:00:58.000",
+      "text": " AC fields rotate magnetization."
+    },
+    {
+      "end": "00:01:05.000",
+      "start": "00:01:01.000",
+      "text": " So we could take something and rotate it down on a new axis."
+    },
+    {
+      "end": "00:01:08.000",
+      "start": "00:01:05.000",
+      "text": " We can rotate any which way we want."
+    },
+    {
+      "end": "00:01:20.000",
+      "start": "00:01:08.000",
+      "text": " So if we go back then to the original pulse program,"
+    },
+    {
+      "end": "00:01:27.000",
+      "start": "00:01:20.000",
+      "text": " we have a hard transition on where we're returning polarization on."
+    },
+    {
+      "end": "00:01:38.000",
+      "start": "00:01:27.000",
+      "text": " A delay and a hard off in which our polarization off."
+    },
+    {
+      "end": "00:01:42.000",
+      "start": "00:01:38.000",
+      "text": " And then we acquire the data."
+    },
+    {
+      "end": "00:01:46.000",
+      "start": "00:01:42.000",
+      "text": " Now, what if we wanted to do AC pulses?"
+    },
+    {
+      "end": "00:01:54.000",
+      "start": "00:01:46.000",
+      "text": " Now, we have a situation where we have to add an AC pulse somewhere in or change up the way that we're doing this experiment."
+    },
+    {
+      "end": "00:02:01.000",
+      "start": "00:01:54.000",
+      "text": " So the answer to this lecture break is called pulse programing."
+    },
+    {
+      "end": "00:02:10.000",
+      "start": "00:02:01.000",
+      "text": " The pulse program are just sequences of instructions."
+    },
+    {
+      "end": "00:02:17.000",
+      "start": "00:02:11.000",
+      "text": " And they're executed on the fly by the pi-ppn."
+    },
+    {
+      "end": "00:02:20.000",
+      "start": "00:02:17.000",
+      "text": " At the end of the day, we want to acquire data."
+    },
+    {
+      "end": "00:02:24.000",
+      "start": "00:02:20.000",
+      "text": " But before that, maybe we'll add an AC pulse."
+    },
+    {
+      "end": "00:02:33.000",
+      "start": "00:02:24.000",
+      "text": " We can extend this as much as we want, flexibly on the pi-ppn by simply adding more and more instructions."
+    },
+    {
+      "end": "00:02:40.000",
+      "start": "00:02:33.000",
+      "text": " So this would be an example of a pulse program using the new scheme that pi-ppn influence"
+    },
+    {
+      "end": "00:02:46.000",
+      "start": "00:02:40.000",
+      "text": " where we can flexibly arrange these in sequence and run a new kind of experiment."
+    },
+    {
+      "end": "00:02:51.000",
+      "start": "00:02:46.000",
+      "text": " Where we have multiple acquisitions, multiple pulses, delays, etc."
+    },
+    {
+      "end": "00:02:56.000",
+      "start": "00:02:51.000",
+      "text": " And this is a much more flexible way of going about taking data from your pi-ppn."
+    },
+    {
+      "end": "00:03:02.000",
+      "start": "00:02:56.000",
+      "text": " Yeah, instead of having a hard-goated pulse program, you can now ask any question you want."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:03:02.000",
+      "text": " So this is an inherently different question that we're asking our spends in a sample than the original hard-goated sequence."
+    },
+    {
+      "end": "00:03:16.000",
+      "start": "00:03:09.000",
+      "text": " With pulse programming, you can ask an infinite number of questions. That's the whole idea."
+    },
+    {
+      "end": "00:03:25.000",
+      "start": "00:03:19.000",
+      "text": " So pulse programs then in Python look like lists of lists."
+    },
+    {
+      "end": "00:03:32.000",
+      "start": "00:03:26.000",
+      "text": " So we have an outer list here. And inside the list, every element is its own list."
+    },
+    {
+      "end": "00:03:36.000",
+      "start": "00:03:32.000",
+      "text": " It has an instruction. So we could delay, we require, we could have a pulse."
+    },
+    {
+      "end": "00:03:43.000",
+      "start": "00:03:36.000",
+      "text": " And then we just give each one of these instructions different arguments."
+    },
+    {
+      "end": "00:03:49.000",
+      "start": "00:03:43.000",
+      "text": " And so delays take arguments in seconds. So this would be a one-second delay."
+    },
+    {
+      "end": "00:03:55.000",
+      "start": "00:03:50.000",
+      "text": " This is the number of samples. So we're taking 16k points."
+    },
+    {
+      "end": "00:04:01.000",
+      "start": "00:03:55.000",
+      "text": " And 20 is the sample rate and kilo samples per sample."
+    },
+    {
+      "end": "00:04:08.000",
+      "start": "00:04:01.000",
+      "text": " So each one of these has a different syntax. And what we do is we write this to the device in Python."
+    },
+    {
+      "end": "00:04:15.000",
+      "start": "00:04:08.000",
+      "text": " And then it's as easy as dev.xq."
+    },
+    {
+      "end": "00:04:20.000",
+      "start": "00:04:16.000",
+      "text": " The PyPPM runs our statements here. It compiles these into a bytecode instruction set."
+    },
+    {
+      "end": "00:04:30.000",
+      "start": "00:04:20.000",
+      "text": " Executes it. And then gives you back the data as a traditional list of or tuple of tuples."
+    },
+    {
+      "end": "00:04:33.000",
+      "start": "00:04:32.000",
+      "text": " So a few questions."
+    },
+    {
+      "end": "00:04:40.000",
+      "start": "00:04:33.000",
+      "text": " Sure. How does that actually apply to protons, for instance, or spin?"
+    },
+    {
+      "end": "00:04:46.000",
+      "start": "00:04:41.000",
+      "text": " So we can ask different questions the sample now that we could before with the hard coded scheme."
+    },
+    {
+      "end": "00:04:54.000",
+      "start": "00:04:46.000",
+      "text": " For example, we can ask about relaxation rates. So all these protons have what's called a T1 and a T2 relaxation rate."
+    },
+    {
+      "end": "00:04:59.000",
+      "start": "00:04:54.000",
+      "text": " And those are intrinsic to the sample. It's used a lot of MRI to get different weighting on images."
+    },
+    {
+      "end": "00:05:06.000",
+      "start": "00:04:59.000",
+      "text": " We can ask these questions for pulse programming in a flexible way that the original scheme wouldn't allow us to do."
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:07.000",
+      "text": " Furthermore, there are more features. And so being able to arrange these in the right way at the right time really necessitates going to this more complex language."
+    },
+    {
+      "end": "00:05:24.000",
+      "start": "00:05:17.000",
+      "text": " In the end though, for the Python user, it's going to be as simple as writing lists."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Bradley Worley",
+  "youtube_channel_follower_count": 84,
+  "youtube_comment_count": 7,
+  "youtube_description": "A short video on the new pulse programming feature added into PyPPM hardware and software. Be sure to check out the new features on my project page at Hackaday and the PyPPM repo at GitHub!\n\nThanks for watching!",
+  "youtube_like_count": 9,
+  "youtube_tags": [
+    "PyPPM",
+    "TheHackadayPrize",
+    "NMR",
+    "PPM",
+    "EFNMR"
+  ],
+  "youtube_title": "PyPPM Concepts - Part 2",
+  "youtube_upload_date": "20140924",
+  "youtube_view_count": 675
+}

@@ -1,0 +1,497 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A female voice-over, not visually present in the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A video demonstration explaining Automatic Speech Recognition (ASR) technology and its optimization.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The audio file used is a podcast episode, specifically titled 'Mobidev Podcast AI in Marketing 2023.mp3.' This is visually highlighted in the interface at 0:04.",
+        "question": "What type of audio file is used in the demo?"
+      },
+      {
+        "answer": "The demo introduces background noise to the audio, simulating real-world conditions where speech recognition can be more difficult. This is highlighted by the interface labeling the audio as 'Audio with suppressed background noise' at 2:09.",
+        "question": "What specific challenge is introduced to test the ASR model's robustness?"
+      },
+      {
+        "answer": "The video emphasizes that achieving high ASR accuracy often requires a combination of techniques, including noise suppression and manual fine-tuning.",
+        "question": "What is the main takeaway message of the video regarding ASR accuracy?"
+      },
+      {
+        "answer": "The recognized text is displayed with words highlighted in red, visually signaling the errors made by the ASR model.",
+        "question": "What are the visual cues used to indicate recognition errors in the demo?"
+      },
+      {
+        "answer": "The initial clear audio creates a sense of clarity and confidence in the ASR model's ability. When the noise-suppressed audio is played, it sounds slightly muffled and distorted, contributing to a brief moment of confusion as the viewer anticipates potential errors in recognition.",
+        "question": "How does the audio in the video contribute to the overall mood shift during the noise suppression demonstration?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the video and explains the concept of Automatic Speech Recognition (ASR).",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator explains the demo showcasing how ASR models work with a pre-recorded audio.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.767",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.1,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the topic and the purpose of the video.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "'Mobidev Podcast AI in Marketing 2023.mp3' file highlighted, hinting at the audio used in the demo.",
+            "timestamp": "00:00:04.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Artificial intelligence, speech recognition, audio processing.",
+        "timestamps": {
+          "end_timestamp": "00:00:26.767",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Opening animation featuring the 'mob/dev' logo.",
+            "timestamps": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator uploads a podcast audio into the ASR model.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "description": "The model processes the audio and displays the recognized text.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          },
+          {
+            "description": "Narrator points out corrupted words and suggests manual fine-tuning for the demo.",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:00:59.000"
+            }
+          },
+          {
+            "description": "Narrator demonstrates manually correcting corrupted words.",
+            "timestamp": {
+              "end_timestamp": "00:01:22.000",
+              "start_timestamp": "00:01:13.000"
+            }
+          },
+          {
+            "description": "Narrator mentions the automatic correction process in a production environment.",
+            "timestamp": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:22.000"
+            }
+          },
+          {
+            "description": "Narrator highlights the challenge of background noise and introduces noise suppression.",
+            "timestamp": {
+              "end_timestamp": "00:01:46.000",
+              "start_timestamp": "00:01:28.000"
+            }
+          },
+          {
+            "description": "Narrator demonstrates adding noise to the audio and processing it.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          },
+          {
+            "description": "The model processes the noisy audio and displays the recognized text.",
+            "timestamp": {
+              "end_timestamp": "00:02:17.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "description": "Narrator points out lower accuracy with noise and suggests manual correction.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:17.000"
+            }
+          },
+          {
+            "description": "Narrator emphasizes the combination of techniques for optimal ASR results.",
+            "timestamp": {
+              "end_timestamp": "00:02:42.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          },
+          {
+            "description": "Narrator concludes the video and encourages viewers to subscribe.",
+            "timestamp": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:02:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Content",
+          "keyMoments": [
+            {
+              "changeDescription": "Curious -> Confused",
+              "timestamp": "00:01:50.000"
+            },
+            {
+              "changeDescription": "Confused -> Curious",
+              "timestamp": "00:02:17.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shows the process of ASR, highlighting challenges and solutions.",
+            "timestamp": "00:00:27.000"
+          },
+          {
+            "description": "Recognition errors are acknowledged, emphasizing the need for fine-tuning.",
+            "timestamp": "00:00:59.000"
+          },
+          {
+            "description": "Introduction of background noise adds a real-world challenge to the scenario.",
+            "timestamp": "00:01:28.000"
+          },
+          {
+            "description": "Combining techniques for optimal results emphasizes the complexity of achieving high ASR accuracy.",
+            "timestamp": "00:02:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen displaying the ASR model interface.",
+            "timestamp": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "Podcast audio file.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "name": "Text editor with transcription text.",
+            "timestamp": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technology, accuracy, optimization, problem-solving.",
+        "timestamps": {
+          "end_timestamp": "00:02:55.133",
+          "start_timestamp": "00:00:26.800"
+        },
+        "title": "ASR Model Demonstration",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transitions between audio samples and recognized text displays.",
+            "timestamps": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The moment where the narrator highlights the need for combining techniques to achieve optimal ASR performance.",
+        "timestamp": "00:02:28.000"
+      },
+      "description": "Understanding and optimizing ASR technology.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Understanding and Optimizing ASR Technology",
+    "trimmingSuggestions": [
+      {
+        "description": "The introductory animation could be shortened to enhance dynamism.",
+        "timestamps": {
+          "end_timestamp": "00:00:26.800",
+          "start_timestamp": "00:00:26.800"
+        }
+      },
+      {
+        "description": "The segment demonstrating manual correction could be condensed as it might slow down the pace.",
+        "timestamps": {
+          "end_timestamp": "00:01:22.000",
+          "start_timestamp": "00:01:13.000"
+        }
+      },
+      {
+        "description": "The segment demonstrating manual correction could be condensed as it might slow down the pace.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.000",
+          "start_timestamp": "00:02:22.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 175,
+  "original_json_filename": "Lc7r-scqXOo.json",
+  "original_video_filename": "Lc7r-scqXOo.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello there and welcome to the Moby Dev channel in this short video I would like to show you our short demo that explains the principle of work for automatic speech recognition models ASR models are meant to extract speech information out of a plain audio in this demo we'll show you how ASR models work with a pre-recorded piece of audio to demonstrate how accurately they can extract the text so here we'll take our podcast audio and drop it right into our model we will also use a transcription text to visually validate how the model did its job let's listen to our sample for a few seconds hello there everyone and welcome back to another episode of tech insights for Visionaries now let's process this audio in a recognized text field you can see what our ASR model generated as a transcription text some words look corrupted here so for the sake of our demo experiment let's quickly fine tune it by manually picking those missing words here we apply Corrections manually but in the production environment this process becomes automatic and the model will try to correct itself after applying the corrections you can see the output text now looks fine in most cases our audio will contain a certain amount of noise this makes it harder for the model to recognize words especially when there is a harsh background noise you can capture at the streets or indoors so we need a noise suppression to extract the actual words let's see how it works here is our audio with added noise hello there everyone and welcome back to another episode of tech insights for Visionaries [Music] now let's add noise suppression noise suppression will clear the audio but it will still require further fine-tuning to get decent results hello there everyone and welcome back to another episode of tech insights for Visionaries as you can see the accuracy of word recognition is slightly lower this time so we also need to manually correct those mistakes to improve the results of recognition such procedure for fine tuning in the combination of techniques can provide the best results for the ASR but for more information you can read our full article on audio processing models by the link in the description thank you for watching and don't forget to subscribe foreign",
+  "text_to_speech_word_count": 394,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.100",
+      "start": "00:00:00.000",
+      "text": " Hello there and welcome to the Moby Dev channel."
+    },
+    {
+      "end": "00:00:11.067",
+      "start": "00:00:06.100",
+      "text": " In this short video, I would like to show you our short demo that explains the principle"
+    },
+    {
+      "end": "00:00:14.633",
+      "start": "00:00:11.067",
+      "text": " of work for automatic speech recognition models."
+    },
+    {
+      "end": "00:00:19.933",
+      "start": "00:00:14.633",
+      "text": " ASR models are meant to extract speech information out of a plain audio."
+    },
+    {
+      "end": "00:00:27.267",
+      "start": "00:00:19.933",
+      "text": " In this demo, we'll show you how ASR models work with a pre-recorded piece of audio to demonstrate"
+    },
+    {
+      "end": "00:00:30.667",
+      "start": "00:00:27.267",
+      "text": " how accurately they can extract the text."
+    },
+    {
+      "end": "00:00:36.800",
+      "start": "00:00:30.667",
+      "text": " So here we'll take our podcast audio and drop it right into our model."
+    },
+    {
+      "end": "00:00:42.667",
+      "start": "00:00:36.800",
+      "text": " We will also use a transcription text to visually validate how the model did its job."
+    },
+    {
+      "end": "00:00:45.667",
+      "start": "00:00:42.667",
+      "text": " Let's listen to our sample for a few seconds."
+    },
+    {
+      "end": "00:00:52.667",
+      "start": "00:00:45.667",
+      "text": " Hello there everyone and welcome back to another episode of Tech Insights for Visionaries."
+    },
+    {
+      "end": "00:00:56.667",
+      "start": "00:00:52.667",
+      "text": " Now let's process this audio."
+    },
+    {
+      "end": "00:01:01.667",
+      "start": "00:00:56.667",
+      "text": " In a recognized text field, you can see what our ASR model generated as a transcription"
+    },
+    {
+      "end": "00:01:02.667",
+      "start": "00:01:01.667",
+      "text": " text."
+    },
+    {
+      "end": "00:01:04.700",
+      "start": "00:01:02.667",
+      "text": " Some words look corrupted here."
+    },
+    {
+      "end": "00:01:10.300",
+      "start": "00:01:04.700",
+      "text": " So for the sake of our demo experiment, let's quickly fine tune it by manually picking"
+    },
+    {
+      "end": "00:01:13.933",
+      "start": "00:01:10.300",
+      "text": " those missing words."
+    },
+    {
+      "end": "00:01:19.067",
+      "start": "00:01:13.933",
+      "text": " Here we apply corrections manually, but in the production environment, this process becomes"
+    },
+    {
+      "end": "00:01:22.867",
+      "start": "00:01:19.067",
+      "text": " automatic and the model will try to correct itself."
+    },
+    {
+      "end": "00:01:28.100",
+      "start": "00:01:22.867",
+      "text": " After applying the corrections, you can see the output text now looks fine."
+    },
+    {
+      "end": "00:01:32.133",
+      "start": "00:01:28.100",
+      "text": " In most cases, our audio will contain a certain amount of noise."
+    },
+    {
+      "end": "00:01:38.467",
+      "start": "00:01:32.133",
+      "text": " This makes it harder for the model to recognize words, especially when there is a harsh background"
+    },
+    {
+      "end": "00:01:42.633",
+      "start": "00:01:38.467",
+      "text": " noise you can capture at the streets or indoors."
+    },
+    {
+      "end": "00:01:47.233",
+      "start": "00:01:42.633",
+      "text": " So we need a noise suppression to extract the actual words."
+    },
+    {
+      "end": "00:01:48.900",
+      "start": "00:01:47.233",
+      "text": " Let's see how it works."
+    },
+    {
+      "end": "00:01:51.300",
+      "start": "00:01:48.900",
+      "text": " Here's our audio with added noise."
+    },
+    {
+      "end": "00:01:59.533",
+      "start": "00:01:51.300",
+      "text": " Hello there everyone and welcome back to another episode of Tech Insights for Visionaries."
+    },
+    {
+      "end": "00:02:03.000",
+      "start": "00:01:59.533",
+      "text": " Now let's add noise suppression."
+    },
+    {
+      "end": "00:02:07.900",
+      "start": "00:02:03.000",
+      "text": " Noise suppression will clear the audio, but it will still require further fine tuning"
+    },
+    {
+      "end": "00:02:10.800",
+      "start": "00:02:07.900",
+      "text": " to get decent results."
+    },
+    {
+      "end": "00:02:16.833",
+      "start": "00:02:10.800",
+      "text": " Hello there everyone and welcome back to another episode of Tech Insights for Visionaries."
+    },
+    {
+      "end": "00:02:22.500",
+      "start": "00:02:16.833",
+      "text": " As you can see, the accuracy of word recognition is slightly lower this time."
+    },
+    {
+      "end": "00:02:28.900",
+      "start": "00:02:22.500",
+      "text": " So we also need to manually correct those mistakes to improve the results of recognition."
+    },
+    {
+      "end": "00:02:33.700",
+      "start": "00:02:28.900",
+      "text": " Such procedure for fine tuning in the combination of techniques can provide the best results"
+    },
+    {
+      "end": "00:02:39.933",
+      "start": "00:02:33.700",
+      "text": " for the ASR, but for more information, you can read our full article on audio processing"
+    },
+    {
+      "end": "00:02:42.900",
+      "start": "00:02:39.933",
+      "text": " models by the link in the description."
+    },
+    {
+      "end": "00:02:46.600",
+      "start": "00:02:42.900",
+      "text": " Thank you for watching and don't forget to subscribe."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "MobiDev",
+  "youtube_channel_follower_count": 1650,
+  "youtube_comment_count": 0,
+  "youtube_description": "#asr #voicerecognition #artificialintelligence \nAutomatic Speech Recognition models do a great job at understanding human speech in different environments. In this case demo showcase, we we'll look at how ASR model do their job, and how we can fine-tune to get better results for voice recognition. \n\nIf you're interested in ASR for your own project, contact us: https://mobidev.biz/services/machine-learning-consulting\n\n0:00 - Intro\n0:23 - What is ASR?\n0:29 - Voice processing example\n1:38 - Noise suppression technique\n\nMobiDev is an international software engineering company with headquarters in the US and UK and R&D centres in Poland and Ukraine. We support visionaries in creating their products having years of experience in AI-powered solutions, machine learning, augmented reality, and IoT. \n\nContacts for business inquiries:\nhttps://mobidev.biz/ \ninfo@mobidev.biz \n__________________________________________________________________________\n📘Read our blog: https://bit.ly/3RGMKQ1 \n\n💻Join our team: https://bit.ly/3ozN6ux \n\n✨Follow us on social media:\nLinkedIn: https://www.linkedin.com/company/mobi...  \nTwitter: https://twitter.com/MobiDev_ \nFacebook: https://www.facebook.com/MobiDev.Corp... \nInstagram: https://www.instagram.com/mobidev_team/",
+  "youtube_like_count": 1,
+  "youtube_tags": [
+    "Automatic speech recognition",
+    "ASR",
+    "Machine learning",
+    "Artificial intelligence",
+    "AI",
+    "ML",
+    "neural network"
+  ],
+  "youtube_title": "Automatic speech recognition or ASR demo showcase",
+  "youtube_upload_date": "20230314",
+  "youtube_view_count": 880
+}

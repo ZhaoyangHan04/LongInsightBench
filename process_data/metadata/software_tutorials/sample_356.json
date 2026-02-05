@@ -1,0 +1,577 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The speaker and tutorial instructor. Not visible in the video, only his voice is heard.",
+        "name": "Brian"
+      }
+    ],
+    "description": "A tutorial video where Brian, the instructor, guides viewers through creating a simple Windows Form Application using Visual C# 2010 Express.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Brian is creating a Windows Form Application in C#.",
+        "question": "What type of application is Brian creating in this tutorial?"
+      },
+      {
+        "answer": "The resx file is used to store resources like images, strings, and other data that the application might need.",
+        "question": "What is the purpose of the resx file Brian mentions?"
+      },
+      {
+        "answer": "Brian changes the button text by modifying the 'Text' property in the Properties Window while the button is selected.",
+        "question": "How does Brian change the text on the button?"
+      },
+      {
+        "answer": "When the user clicks the button, a message box appears displaying 'Hello World'.",
+        "question": "What happens when the user clicks the button in Brian's application?"
+      },
+      {
+        "answer": "The video does not show the cat's reaction visually, but Brian mentions that the cat is looking at him 'like [he] has lost [his] mind,' suggesting the cat might be confused or amused by Brian's focus on the computer screen.",
+        "question": "How does Brian's cat react to the coding process?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Brian introduces the tutorial topic: Windows Form Applications.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Brian creates a new Windows Form Application project in Visual C# 2010 Express.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.300",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "None",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Curious). Brian's calm voice introduces a new topic, sparking curiosity in the viewers.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene sets the stage for the tutorial by introducing the topic and setting up the project environment.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Visual C# 2010 Express IDE",
+            "timestamp": {
+              "end_timestamp": "00:00:24.300",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to Windows Form Application development.",
+        "timestamps": {
+          "end_timestamp": "00:00:24.300",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction & Project Setup",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Brian explains the form template and its limitations in the current state.",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          },
+          {
+            "description": "Brian explores the Solution Explorer, showcasing Form1 files (Designer, Resx).",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:37.000"
+            }
+          },
+          {
+            "description": "Brian opens the Form1.Designer.cs file and explains its auto-generated code.",
+            "timestamp": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          },
+          {
+            "description": "Brian opens Form1.resx and briefly explains the purpose of resource files.",
+            "timestamp": {
+              "end_timestamp": "00:01:43.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          },
+          {
+            "description": "Brian opens the Toolbox and pins it for easier access.",
+            "timestamp": {
+              "end_timestamp": "00:01:49.000",
+              "start_timestamp": "00:01:43.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlighting the convenience of auto-generated code and the importance of understanding the project structure.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Curious, Confused). The scene presents a lot of new concepts and elements, which might be confusing for beginners but also fuels their curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene familiarizes viewers with the IDE layout, file structure of a Windows Form Application, and introduces core concepts like event-driven programming.",
+            "timestamp": "00:00:26.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Visual C# 2010 Express IDE, Form Template, Solution Explorer, Code Editor, Toolbox",
+            "timestamp": {
+              "end_timestamp": "00:01:49.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "IDE overview, project structure, file types, auto-generated code, resource files.",
+        "timestamps": {
+          "end_timestamp": "00:01:49.000",
+          "start_timestamp": "00:00:24.333"
+        },
+        "title": "Exploring the Form Template",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Brian adds a button control to the form using drag and drop.",
+            "timestamp": {
+              "end_timestamp": "00:02:03.000",
+              "start_timestamp": "00:01:49.033"
+            }
+          },
+          {
+            "description": "Brian uses positional tools to center the button within the form.",
+            "timestamp": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:02:03.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Emphasizing the user-friendliness of the IDE's drag-and-drop interface for designing forms.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Indifferent). This is a practical demonstration with a focus on achieving a specific task.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the basic functionality of adding and positioning controls on the form.",
+            "timestamp": "00:01:49.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Visual C# 2010 Express IDE, Form Template, Button control, Positional tools",
+            "timestamp": {
+              "end_timestamp": "00:02:36.000",
+              "start_timestamp": "00:01:49.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Working with controls, visual design basics.",
+        "timestamps": {
+          "end_timestamp": "00:02:36.000",
+          "start_timestamp": "00:01:49.033"
+        },
+        "title": "Adding and Positioning a Button",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Brian runs the application (empty form with a button).",
+            "timestamp": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:36.033"
+            }
+          },
+          {
+            "description": "Brian adds code to display 'Hello World' in a message box when the button is clicked. Explains event handlers and event arguments.",
+            "timestamp": {
+              "end_timestamp": "00:03:57.000",
+              "start_timestamp": "00:02:49.000"
+            }
+          },
+          {
+            "description": "Brian demonstrates changing the title of the form and button using the Properties Window.",
+            "timestamp": {
+              "end_timestamp": "00:04:43.000",
+              "start_timestamp": "00:03:57.000"
+            }
+          },
+          {
+            "description": "Brian shows how to access the Click event handler through the Properties Window.",
+            "timestamp": {
+              "end_timestamp": "00:05:32.000",
+              "start_timestamp": "00:04:43.000"
+            }
+          },
+          {
+            "description": "Brian summarizes the basic concepts covered and encourages viewers to experiment.",
+            "timestamp": {
+              "end_timestamp": "00:06:06.000",
+              "start_timestamp": "00:05:32.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Reinforcing the concept of event-driven programming and showing the flexibility of customizing the application through properties.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Content, Curious). The successful execution of the code and explanation of new concepts creates a sense of satisfaction and encourages further exploration.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene showcases the core workflow of building a Windows Form application: designing the form, adding functionality through code, and exploring the properties of controls and events.",
+            "timestamp": "00:02:36.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Visual C# 2010 Express IDE, Running application window, Code Editor, Properties Window",
+            "timestamp": {
+              "end_timestamp": "00:06:06.000",
+              "start_timestamp": "00:02:36.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Event handling, coding basics, GUI modification through properties, understanding events, event arguments.",
+        "timestamps": {
+          "end_timestamp": "00:06:10.867",
+          "start_timestamp": "00:02:36.033"
+        },
+        "title": "Running and Modifying the Application",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Successful execution of the code and display of 'Hello World' message box upon clicking the button.",
+        "timestamp": "00:03:49.000"
+      },
+      "description": "Building a simple Windows Form Application in C#. All scenes belong to this storyline.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "C# Tutorial - First Windows Form Application",
+    "trimmingSuggestions": [
+      {
+        "description": "The detailed explanation of the auto-generated code within the Designer.cs file could be shortened for beginners.",
+        "timestamps": {
+          "end_timestamp": "00:02:36.033",
+          "start_timestamp": "00:02:36.033"
+        }
+      },
+      {
+        "description": "The demonstration of accessing the event handler through the Properties Window could be condensed or made optional, as it was already shown by double-clicking the button in the Designer view.",
+        "timestamps": {
+          "end_timestamp": "00:05:32.000",
+          "start_timestamp": "00:04:43.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 371,
+  "original_json_filename": "Oxg6ciIcO3U.json",
+  "original_video_filename": "Oxg6ciIcO3U.mp4",
+  "resolution": "534x360",
+  "text_to_speech": "everybody this is Brian and today we start our 20th C sharp tutorial effectively what I call the good stuff it's great to do a console application but sometimes you need a little bit more like a Windows application so that's what we're going to dive into today and we're going to spend quite a bit of time on Windows apps and then we're potentially going to do services and then web pages I know a lot of you want to do web apps so we have our simple web @rm Siri are simple windows application see this is form one and there's this little window and when you click the close button nothing happens why is that well this is actually your window template you see how you can kind of scale this around and do whatever you want but none of the actual buttons and stuff work why is that well it's because this is a canvas that you can drag and drop tools on to now if you click the solutions Explorer you'll see that let me pin that up there you've got form 1 and that's what this is this form 1 if you expand that out you see there is a form 1 that designer and a form 1 dot R as the designer if you click that this is the actual source code behind that form and you can see there's a lot of stuff in here that's already pre generated for you for example initialize component accept cetera and Microsoft's done a fairly good job of you know kind of commenting what this stuff does general rule of thumb don't modify this and then there's this R as X now what is that well this is a resource file something you may have covered in other languages basically a resource file allows you to put resources images strings things of that nature in a file let's close that and let's go tools over here and let's pin that up now you see you have this huge huge huge assortment of controls and we're going to go over a lot of these and I have to apologize if you're some thumping noise that my cat is jumping around my desk like a lunatic all right so first thing we're going to do is we're going to put a button on here you just click drag and drop there's your button you notice how it gets these little handles and you can resize the button however you see fit so let's just throw that kinda in the center here you notice how it's off-center well you have these positions so you can say we want this let's see here Center that way see if I can get this right Center horizontally there we go Center vertically there we are makes it easier to Center things now to run you just click this little start debugging or you can press f5 on the keyboard and let me move the window over here you see there's our beautiful window with our button that does absolutely nothing so what we're going to do is we're going to make this button do something I realize this is a very simple tutorial but GUI programming may be new to some of you out there if it's not bear with me we're going to ramp up these tutorials fairly quickly alright so select your button you can tell it's selected because you've got these little handles around it and just double-click it and notice how it dumps you directly into the code view let's expand that so we're in button one click this is an event windows form programming is event-driven meaning this is called when the button is click that's an event handler notice how there's an object sender everything a dot that's his object so we're just saying whatever the sender was and event args what our event args well event args or short for event arguments it's just an argument set with the event and you can actually expand that and create your own event args I actually do that quite a bit my own programming but like I said there's a beginners tutorial so we're going to keep it very simple all you need to understand at this point is when the user clicks that button this event is called and we can even say this is call when the button is clicked my cat is looking at me like I have just lost my mind go away kitty and what we want to do is type messagebox dot show and we're just going to say hello world the obligatory hello world application here and let's run this show our window here click it hello world so that is our very first windows form application not a lot to it mind you one thing you should note in the solution explorer here let me see if I can actually find it view mmm other windows properties windows here we go everything has properties and this is the properties window so when you click your button you see it has a bunch of properties and when you click your form it has a bunch of properties see like the name even so we can change the title here see text form one let's just call this my app notice how the title bar over here changed button one the text let's just say click me notice how it changed see this little lightning bolt here that's the events and you get as you can see the click event is linked to button one click and if you just double click that takes you right to it pretty simple pretty easy to understand notice how the properties for the code view are not displayed because well code doesn't have a property what the designer view does and you can switch from events to properties just by clicking the buttons you can group them by category and you can sort alphabetical I understand that because this window is so small it's probably a little cluttered yours is probably look much better on your screen so that is it our very first GUI application and c-sharp and you can kind of stretch this out modify it do whatever you want well this is Brian thank you for watching I hope you found this educational and entertaining",
+  "text_to_speech_word_count": 1075,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.000",
+      "start": "00:00:00.000",
+      "text": " Hey everybody, this is Brian and today we start our 20th C-Sharp tutorial, effectively what I call the good stuff."
+    },
+    {
+      "end": "00:00:13.000",
+      "start": "00:00:07.000",
+      "text": " It's great to do a console application but sometimes you need a little bit more like a Windows application."
+    },
+    {
+      "end": "00:00:23.000",
+      "start": "00:00:13.000",
+      "text": " So that's what we're going to dive into today and we're going to spend quite a bit of time on Windows apps and then we're potentially going to do services and then web pages."
+    },
+    {
+      "end": "00:00:37.000",
+      "start": "00:00:23.000",
+      "text": " I know a lot of you want to do web apps. So we have our simple Windows application. You see this is Form 1 and there's this little window and when you click the close button nothing happens. Why is that?"
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:37.000",
+      "text": " Well this is actually your window template. You see how you can kind of scale this around and do whatever you want."
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:43.000",
+      "text": " But none of the actual buttons and stuff work. Why is that? Well it's because this is a canvas that you can drag and drop tools onto."
+    },
+    {
+      "end": "00:01:00.000",
+      "start": "00:00:51.000",
+      "text": " Now if you click the solutions explorer you'll see that you can pin that up there. You've got Form 1 and that's what this is, is Form 1."
+    },
+    {
+      "end": "00:01:11.000",
+      "start": "00:01:00.000",
+      "text": " If you expand that out you see there is a Form 1.designer and a Form 1.res. The designer, if you click that, this is the actual source code behind that form."
+    },
+    {
+      "end": "00:01:18.000",
+      "start": "00:01:11.000",
+      "text": " You can see there's a lot of stuff in here that's already pre-generated for you. For example initialized component, etc."
+    },
+    {
+      "end": "00:01:26.000",
+      "start": "00:01:18.000",
+      "text": " Microsoft has done a fairly good job of commenting what this stuff does. General rule of thumb don't modify this."
+    },
+    {
+      "end": "00:01:33.000",
+      "start": "00:01:26.000",
+      "text": " Then there's this ResX. What is that? This is a resource file. Something you may have covered in other languages."
+    },
+    {
+      "end": "00:01:44.000",
+      "start": "00:01:33.000",
+      "text": " Basically a resource file allows you to put resources, images, strings, things of that nature in a file. Let's close that."
+    },
+    {
+      "end": "00:01:54.000",
+      "start": "00:01:44.000",
+      "text": " Let's go Tools over here and let's pin that up. Now you see you have this huge, huge, huge assortment of controls."
+    },
+    {
+      "end": "00:02:03.000",
+      "start": "00:01:54.000",
+      "text": " We're going to go over a lot of these. I have to apologize if you hear some thumping noise. My cat is jumping around my desk like a lunatic."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:02:03.000",
+      "text": " First thing we're going to do is put a button on here. You just click drag and drop."
+    },
+    {
+      "end": "00:02:14.000",
+      "start": "00:02:08.000",
+      "text": " You notice how it gets these little handles and you can resize the button however you see fit."
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:14.000",
+      "text": " Let's just throw that in the center here. You know how it's off center? Well you have these positionals."
+    },
+    {
+      "end": "00:02:32.000",
+      "start": "00:02:22.000",
+      "text": " You can say we want this center that way. See if I can get this right. Center horizontally. There we go. Center vertically."
+    },
+    {
+      "end": "00:02:41.000",
+      "start": "00:02:32.000",
+      "text": " There we are. It makes it easier to center things. Now to run you just click this little Sturdy bugging or you can press F5 on the keyboard."
+    },
+    {
+      "end": "00:02:49.000",
+      "start": "00:02:41.000",
+      "text": " Let me move the window over here. You see there's our beautiful window with our button that does absolutely nothing."
+    },
+    {
+      "end": "00:02:59.000",
+      "start": "00:02:50.000",
+      "text": " So what we're going to do is we're going to make this button do something. I realize this is a very simple tutorial but gooey programming may be new to some of you out there."
+    },
+    {
+      "end": "00:03:03.000",
+      "start": "00:02:59.000",
+      "text": " If it's not bear with me we're going to ramp up these tutorials fairly quickly."
+    },
+    {
+      "end": "00:03:10.000",
+      "start": "00:03:03.000",
+      "text": " Alright so select your button. You can tell it's selected because you've got these little handles around it. Just double click it."
+    },
+    {
+      "end": "00:03:18.000",
+      "start": "00:03:10.000",
+      "text": " You notice how it dumps you directly into the code view. Let's expand that. So we're in button one click. This is an event."
+    },
+    {
+      "end": "00:03:26.000",
+      "start": "00:03:18.000",
+      "text": " Windows form programming is event driven meaning this is called when the button is click. That's an event handler."
+    },
+    {
+      "end": "00:03:32.000",
+      "start": "00:03:26.000",
+      "text": " Notice how there's an object sender everything in dot net says object. So we're just saying whatever the sender was."
+    },
+    {
+      "end": "00:03:41.000",
+      "start": "00:03:32.000",
+      "text": " An event args. What are event args? Well event args or short for event arguments. It's just an argument sent with the event."
+    },
+    {
+      "end": "00:03:47.000",
+      "start": "00:03:41.000",
+      "text": " And you can actually expand that and create your own event args. I actually do that quite a bit my own programming."
+    },
+    {
+      "end": "00:03:57.000",
+      "start": "00:03:47.000",
+      "text": " But like I said this is a beginner's tutorial. So we're going to keep it very simple. All you need to understand at this point is when the user clicks that button this event is called."
+    },
+    {
+      "end": "00:04:06.000",
+      "start": "00:03:57.000",
+      "text": " And we can even say this is called when the button is clicked."
+    },
+    {
+      "end": "00:04:13.000",
+      "start": "00:04:06.000",
+      "text": " My cat is looking at me like I have just lost my mind. Go wakey."
+    },
+    {
+      "end": "00:04:22.000",
+      "start": "00:04:13.000",
+      "text": " And what we want to do is type message box dot show. And we're just going to say hello world."
+    },
+    {
+      "end": "00:04:29.000",
+      "start": "00:04:22.000",
+      "text": " The obligatory hello world application here. And let's run this."
+    },
+    {
+      "end": "00:04:40.000",
+      "start": "00:04:29.000",
+      "text": " Show our window here. Click it. Hello world. So that is our very first Windows form application. Not a lot to it mind you."
+    },
+    {
+      "end": "00:04:48.000",
+      "start": "00:04:40.000",
+      "text": " One thing you should note in the solution explorer here. Let me see if I can actually find it view."
+    },
+    {
+      "end": "00:04:54.000",
+      "start": "00:04:48.000",
+      "text": " Hmm. Other windows properties. What does here we go."
+    },
+    {
+      "end": "00:05:02.000",
+      "start": "00:04:54.000",
+      "text": " Everything has properties and this is the properties window. So when you click your button you see it has a bunch of properties."
+    },
+    {
+      "end": "00:05:11.000",
+      "start": "00:05:02.000",
+      "text": " And when you click your form has a bunch of properties. See like the name even so we can change the title here. See text form one."
+    },
+    {
+      "end": "00:05:16.000",
+      "start": "00:05:11.000",
+      "text": " Let's just call this my app. Notice how the title bar over here changed."
+    },
+    {
+      "end": "00:05:26.000",
+      "start": "00:05:16.000",
+      "text": " Button one the text let's just say click me. Notice how it changed. See this little lightning bolt here. That's the events."
+    },
+    {
+      "end": "00:05:32.000",
+      "start": "00:05:26.000",
+      "text": " And you can as you can see the click event is linked to button one click. And if you just double click that takes you right to it."
+    },
+    {
+      "end": "00:05:39.000",
+      "start": "00:05:32.000",
+      "text": " Pretty simple pretty easy to understand. Notice how the properties for the code view are not displayed because well code doesn't have a property."
+    },
+    {
+      "end": "00:05:47.000",
+      "start": "00:05:39.000",
+      "text": " But the designer view does and you can switch from events to properties just by clicking the buttons. You can group them by category."
+    },
+    {
+      "end": "00:05:56.000",
+      "start": "00:05:47.000",
+      "text": " And you can sort alphabetical. I understand that because this window is so small it's probably a little cluttered. Yours is probably much better on your screen."
+    },
+    {
+      "end": "00:06:06.000",
+      "start": "00:05:56.000",
+      "text": " So that is it. Our very first gooey application in C sharp. And you can kind of stretch us out modify it do whatever you want."
+    },
+    {
+      "end": "00:06:11.000",
+      "start": "00:06:06.000",
+      "text": " Well this is Brian. Thank you for watching. I hope you found this educational and entertaining."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "VoidRealms",
+  "youtube_channel_follower_count": 84000,
+  "youtube_comment_count": 85,
+  "youtube_description": "Make your first C# Windows forms application in minutes",
+  "youtube_like_count": 1804,
+  "youtube_tags": [
+    "C#",
+    "20",
+    "First",
+    "Windows",
+    "Forms",
+    "Application"
+  ],
+  "youtube_title": "C# 20 - First Windows Forms Application",
+  "youtube_upload_date": "20110818",
+  "youtube_view_count": 364296
+}

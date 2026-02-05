@@ -1,0 +1,816 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short brown hair, facial hair, and glasses. He is the narrator and presenter of the tutorial.",
+        "name": "Jonathan"
+      }
+    ],
+    "description": "A step-by-step instructional video on how to fill objects with fluids using Blender software.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The Solidify modifier.",
+        "question": "What modifier is crucial to ensure the fluid mesh doesn't escape the initial geometry?"
+      },
+      {
+        "answer": "Glass BSDF.",
+        "question": "What type of BSDF is used to make the torus appear like glass?"
+      },
+      {
+        "answer": "He changes the Flow Behavior setting to \"Inflow.\"",
+        "question": "How does Jonathan ensure that the fluid continues to flow into the torus throughout the animation?"
+      },
+      {
+        "answer": "The faces facing outwards are blue, while the faces facing inwards are red.",
+        "question": "What visual effect does Blender use to show the face orientation of the torus?"
+      },
+      {
+        "answer": "He uses the \"Intersect\" mode in the Boolean modifier.",
+        "question": "What type of Boolean operation does Jonathan use to cut away the excess fluid mesh?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Jonathan introduces himself and the tutorial topic.",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "He showcases an animation of a torus filling with pink fluid.",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "description": "Jonathan encourages viewers to subscribe to his channel.",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jonathan"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jonathan"
+            ],
+            "description": "Jonathan interacts with the audience by introducing himself and the topic."
+          }
+        ],
+        "contextualRelevance": "Sets the stage for the tutorial by introducing the topic and presenter.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited, Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the tutorial topic and a brief showcase of the final result to pique viewer interest.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "A 3D model of a torus filled with pink fluid, displayed within the Blender software interface.",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Tutorial Introduction",
+        "timestamps": {
+          "end_timestamp": "00:00:20.633",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a full-screen animation of the torus filling with fluid.",
+            "timestamps": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Jonathan adds a torus object to the Blender scene.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:20.667"
+            }
+          },
+          {
+            "description": "He adjusts the minor radius of the torus.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          },
+          {
+            "description": "Jonathan rotates the torus by 90 degrees on the x-axis.",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "He applies a Subdivision Surface modifier to the torus.",
+            "timestamp": {
+              "end_timestamp": "00:01:25.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jonathan"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jonathan"
+            ],
+            "description": "Jonathan explains the technical steps involved in preparing the torus."
+          }
+        ],
+        "contextualRelevance": "Sets up the pool for fluid simulation.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral, Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene lays the groundwork by creating and preparing the torus object for the fluid simulation.",
+            "timestamp": "00:00:20.667"
+          }
+        ],
+        "props": [
+          {
+            "name": "A 3D model of a torus within the Blender software interface.",
+            "timestamp": {
+              "end_timestamp": "00:01:25.000",
+              "start_timestamp": "00:00:20.667"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical Setup",
+        "timestamps": {
+          "end_timestamp": "00:01:25.000",
+          "start_timestamp": "00:00:20.667"
+        },
+        "title": "Object Creation and Preparation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Jonathan adds a sphere object as a fluid emitter.",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:25.033"
+            }
+          },
+          {
+            "description": "He applies the Quick Liquid preset to the sphere.",
+            "timestamp": {
+              "end_timestamp": "00:01:46.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          },
+          {
+            "description": "Jonathan adjusts the resolution divisions of the fluid domain.",
+            "timestamp": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          },
+          {
+            "description": "He flips the normals of the torus.",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          },
+          {
+            "description": "Jonathan adds a Solidify modifier to the torus.",
+            "timestamp": {
+              "end_timestamp": "00:03:20.000",
+              "start_timestamp": "00:02:41.000"
+            }
+          },
+          {
+            "description": "He changes the flow behavior to \"Inflow.\"",
+            "timestamp": {
+              "end_timestamp": "00:03:38.000",
+              "start_timestamp": "00:03:20.000"
+            }
+          },
+          {
+            "description": "Jonathan enables mesh baking for the fluid.",
+            "timestamp": {
+              "end_timestamp": "00:03:51.000",
+              "start_timestamp": "00:03:38.000"
+            }
+          },
+          {
+            "description": "He duplicates the torus and creates a Boolean object.",
+            "timestamp": {
+              "end_timestamp": "00:03:51.000",
+              "start_timestamp": "00:03:51.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jonathan"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jonathan"
+            ],
+            "description": "Jonathan guides the viewer through the fluid simulation setup."
+          }
+        ],
+        "contextualRelevance": "Key scene for understanding fluid dynamics in the Blender software.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral, Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene is the core of the tutorial, walking the viewer through the steps to create the fluid simulation and ensure it interacts correctly with the torus.",
+            "timestamp": "00:01:25.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "A 3D model of a sphere (fluid emitter) and torus within the Blender software interface.",
+            "timestamp": {
+              "end_timestamp": "00:03:51.000",
+              "start_timestamp": "00:01:25.033"
+            }
+          },
+          {
+            "name": "A visual representation of fluid particles within the Blender scene.",
+            "timestamp": {
+              "end_timestamp": "00:03:51.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Fluid Simulation",
+        "timestamps": {
+          "end_timestamp": "00:03:51.000",
+          "start_timestamp": "00:01:25.033"
+        },
+        "title": "Fluid Simulation Setup",
+        "videoEditingDetails": [
+          {
+            "description": "Timelapse of the fluid simulation baking process.",
+            "timestamps": {
+              "end_timestamp": "00:03:38.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Jonathan adjusts the thickness of the Solidify modifier.",
+            "timestamp": {
+              "end_timestamp": "00:04:47.000",
+              "start_timestamp": "00:03:51.033"
+            }
+          },
+          {
+            "description": "He switches the torus material to a Glass BSDF.",
+            "timestamp": {
+              "end_timestamp": "00:05:15.000",
+              "start_timestamp": "00:04:47.000"
+            }
+          },
+          {
+            "description": "Jonathan demonstrates the visual difference with and without the Solidify modifier.",
+            "timestamp": {
+              "end_timestamp": "00:05:39.000",
+              "start_timestamp": "00:05:15.000"
+            }
+          },
+          {
+            "description": "He adds a ground plane and a camera to the scene.",
+            "timestamp": {
+              "end_timestamp": "00:05:51.000",
+              "start_timestamp": "00:05:39.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jonathan"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jonathan"
+            ],
+            "description": "Jonathan demonstrates shading and final touches on the torus."
+          }
+        ],
+        "contextualRelevance": "Finalizing the look of the simulation to enhance visual appeal.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral, Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The tutorial transitions from simulation to presentation, demonstrating how to finalize the appearance of the fluid-filled torus.",
+            "timestamp": "00:03:51.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "A 3D model of a torus filled with fluid within the Blender software interface.",
+            "timestamp": {
+              "end_timestamp": "00:05:51.000",
+              "start_timestamp": "00:03:51.033"
+            }
+          },
+          {
+            "name": "A 3D model of a ground plane and camera within the Blender software interface.",
+            "timestamp": {
+              "end_timestamp": "00:05:51.000",
+              "start_timestamp": "00:05:39.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Shading and Rendering",
+        "timestamps": {
+          "end_timestamp": "00:05:51.000",
+          "start_timestamp": "00:03:51.033"
+        },
+        "title": "Shading and Finalization",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Jonathan summarizes the tutorial and thanks the viewer.",
+            "timestamp": {
+              "end_timestamp": "00:06:02.000",
+              "start_timestamp": "00:05:51.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jonathan"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jonathan"
+            ],
+            "description": "Jonathan thanks the audience for watching."
+          }
+        ],
+        "contextualRelevance": "Concludes the tutorial with a summary and gratitude.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Happy, Grateful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Conclusion of the tutorial, reiterating the key takeaway and expressing appreciation to the viewer.",
+            "timestamp": "00:05:51.033"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Tutorial Wrap-up",
+        "timestamps": {
+          "end_timestamp": "00:06:24.833",
+          "start_timestamp": "00:05:51.033"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a full-screen animation of the final rendered torus with pink fluid.",
+            "timestamps": {
+              "end_timestamp": "00:06:02.000",
+              "start_timestamp": "00:05:51.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 3 is the climax, focusing on setting up and baking the fluid simulation.",
+        "timestamp": "00:01:25.000"
+      },
+      "description": "A tutorial on how to fill any object with fluid in Blender, following a structured step-by-step guide.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Blender Tutorial - Filling Objects with Fluids",
+    "trimmingSuggestions": [
+      {
+        "description": "This scene could be slightly shortened by speeding up the demonstration of basic torus adjustments.",
+        "timestamps": {
+          "end_timestamp": "00:05:51.033",
+          "start_timestamp": "00:05:51.033"
+        }
+      },
+      {
+        "description": "The segment showcasing the fluid without the Solidify modifier could be condensed.",
+        "timestamps": {
+          "end_timestamp": "00:05:51.033",
+          "start_timestamp": "00:05:51.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 385,
+  "original_json_filename": "3ud6Hozy0vw.json",
+  "original_video_filename": "3ud6Hozy0vw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hey what's up blender users i'm jonathan and in today's video i'll show you how to easily fill any object with fluids using mental flow you can use this technique to for example create these satisfying animations oh and by the way if you enjoy my content consider subscribing because i upload a new video every saturday and with that said let's get straight into the video for this tutorial i'm choosing a relatively simple object and this is going to be a torus i'll quickly adjust the minor radius to 0.4 just so the space where the liquid is supposed to be can be a bit bigger and now we'll rotate it by 90 degrees on the x-axis just like this we can also give it a subdivision surface modifier for some extra phases and shaded smooth and now we want to fill this object with some kind of a liquid your first instinct might be to just add an emitter for example a sphere scale it down and move it to right about here and now just search for quick liquid press enter and we can already see there are some particles in our sphere i quickly want to rescale our domain so let's press alt and s scale it up and down on the y axis so we only simulate what is really necessary and now let's also select the torus choose fluid effector and collision now to update our domain let's change the resolution divisions to 64. and now we could press play but you can see nothing is happening if we would change the cache type to modular and bake again you'll also see there's no fluid coming out of the sphere let's try something and move the sphere outside of the torus for example to right here if we bake again you'll see that now they're actually flip particles coming out of the sphere and they are also colliding with our torus it now works because the sphere is not in a closed object like the torus if we just quickly hide the domain and up here check our face orientation you can see that all the faces face outwards which they are supposed to do if we enter the torus you can see that everything is red this means that these faces face inwards and mark that the torus is filled in the inside if we would go ahead and flip all the normals unhide our domain with alt h and simulate again you will see that now the particles aren't colliding with the torus anymore okay i mean that's great and all but let's move the emitter back into the torus and actually work on our final simulation for everything to work correctly we'll need a solidify modifier and thicken the torus to the outside just like this we also need to move this modifier above the fluid one if we now go ahead and bake again you can see that our particles are colliding with the inside of our torus and that's great if this is exactly what we want we can also adjust the sampling substeps to for example 12 or even higher if you have the patience to wait this long sampling sub steps just allow the computer to simulate more simulation steps per frame if we do this for every object which in our cases are just the emitter and taurus the simulation will be more accurate but of course you'll also have to wait longer now let's change the flow behavior to inflow so it doesn't just stop after the first frame and bake again and now you can see that our simulation is coming along nicely the torus is filling up and the fluid stays inside of the mesh now because i don't want any particles i'll just go ahead and enable mesh and click on bake mesh this process is relatively fast compared to the initial baking of the particles so if you choose a relatively low upwards factor you only have to wait a few seconds and now our mesh is baked but there's one problem we can see if we hide the solidify modifier and look at our initial torus you can see that the mesh exits our geometry but luckily there is an easy fix for this we can just go ahead and duplicate our torus and now delete the solidifier modifier and disable fluid physics for this object and now move it back to the world origin with alden g we can now use this torus as a boolean for our fluid mesh so let's go inside the modifier panel select boolean and our boolean torus right now it cuts away all the things we wanted to keep so let's change the mode to intersect and you can see that our fluid mesh now stays inside our initial object let's go ahead and hide the boolean mesh from the viewport and the renders and let's start with the shading process now that everything is baked we can either remove the solidify modifier or make it a lot thinner for example i'll set it to 0.05 if we would go ahead and remove the solidify modifier we wouldn't be able to correctly see our simulation because of the refraction in the glass so let's change the principle bsdf to a glass bsdf and turn down the roughness and if we go ahead and enter rendered mode and disable scene world we can perfectly see our fluid inside of the torus but i don't want the fluid to be water so let's delete both of these default nodes and add in a principal psdf and give it a nice color you can of course just play around with all the different settings for example maybe give it some subsurface scattering but this is really up to you i can now quickly show you what all of this would look like without the solidify modifier and you can see that the glass refraction just destroys our nice look so let's turn on the solidify modifier again and that's basically it we can now just add in a simple ground plane and a camera and you can also go ahead and light your scene until you get something that maybe looks like this and yeah that's it this is how we can easily fill any object with fluids in blender i hope you learned something i hope you found this tutorial helpful and if you did consider liking and subscribing and we'll see you in the next video next saturday [Music] do you",
+  "text_to_speech_word_count": 1108,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.400",
+      "start": "00:00:00.000",
+      "text": " Hey, what's up Lender users, I'm Jonathan and in today's video, I'll show you how to easily fill any object with fluids using"
+    },
+    {
+      "end": "00:00:11.100",
+      "start": "00:00:06.400",
+      "text": " Mantaflow. You can use this technique to, for example, create the satisfying animations."
+    },
+    {
+      "end": "00:00:17.667",
+      "start": "00:00:11.833",
+      "text": " Oh, and by the way, if you enjoy my content, consider subscribing because I upload a new video every Saturday"
+    },
+    {
+      "end": "00:00:23.600",
+      "start": "00:00:17.667",
+      "text": " and with that said, let's get straight into the video. For this tutorial, I'm choosing a relatively simple object"
+    },
+    {
+      "end": "00:00:30.067",
+      "start": "00:00:24.233",
+      "text": " and this is going to be a Taurus. I'll quickly adjust the minor radius to point forward,"
+    },
+    {
+      "end": "00:00:36.300",
+      "start": "00:00:30.067",
+      "text": " just so the space where the liquid is supposed to be can be a bit bigger and now we'll rotate it"
+    },
+    {
+      "end": "00:00:43.667",
+      "start": "00:00:36.300",
+      "text": " by 90 degrees on the x-axis, just like this. We can also give it a subdivision surface modifier"
+    },
+    {
+      "end": "00:00:49.667",
+      "start": "00:00:43.667",
+      "text": " for some extra faces and shade it smooth. And now we want to fill this object with some kind of a"
+    },
+    {
+      "end": "00:00:56.233",
+      "start": "00:00:49.667",
+      "text": " liquid. Your first instinct might be to just add an elementer. For example, a sphere, scale it down"
+    },
+    {
+      "end": "00:01:04.300",
+      "start": "00:00:57.200",
+      "text": " and move it to right about here. And now just search for quick liquid, press enter and we can"
+    },
+    {
+      "end": "00:01:10.233",
+      "start": "00:01:04.300",
+      "text": " already see there are some particles in our sphere. I quickly want to rescale our domain, so let's"
+    },
+    {
+      "end": "00:01:18.233",
+      "start": "00:01:10.233",
+      "text": " press alt and s, scale it up and down on the y-axis. So we only simulate what is really necessary."
+    },
+    {
+      "end": "00:01:26.300",
+      "start": "00:01:18.233",
+      "text": " And now let's also select the Taurus, choose fluid, effector and collision. Now to update our domain,"
+    },
+    {
+      "end": "00:01:33.333",
+      "start": "00:01:26.300",
+      "text": " let's change the resolution divisions to 64 and now we could press play. But you can see nothing"
+    },
+    {
+      "end": "00:01:40.133",
+      "start": "00:01:33.333",
+      "text": " is happening. If we would change the cache type to modular and bake again, you'll also see there's"
+    },
+    {
+      "end": "00:01:46.133",
+      "start": "00:01:40.133",
+      "text": " no fluid coming out of the sphere. Let's try something and move the sphere outside of the Taurus,"
+    },
+    {
+      "end": "00:01:52.700",
+      "start": "00:01:46.133",
+      "text": " for example, to right here. If we bake again, you'll see that now there are actually flip particles"
+    },
+    {
+      "end": "00:01:59.100",
+      "start": "00:01:52.700",
+      "text": " coming out of the sphere and they are also colliding with our Taurus. It now works because this"
+    },
+    {
+      "end": "00:02:05.733",
+      "start": "00:01:59.100",
+      "text": " sphere is not in a closed object like the Taurus. If we just quickly hide the domain and appear,"
+    },
+    {
+      "end": "00:02:12.067",
+      "start": "00:02:05.733",
+      "text": " check our face orientation, you can see that all the faces face outwards, which they are supposed"
+    },
+    {
+      "end": "00:02:18.133",
+      "start": "00:02:12.067",
+      "text": " to do. If we enter the Taurus, you can see that everything is red. This means that these faces face"
+    },
+    {
+      "end": "00:02:24.133",
+      "start": "00:02:18.133",
+      "text": " inwards and mark that the Taurus is filled in the inside. If we would go ahead and flip all the"
+    },
+    {
+      "end": "00:02:31.733",
+      "start": "00:02:24.133",
+      "text": " normals, unhide our domain with alt h and simulate again, you'll see that now the particles aren't"
+    },
+    {
+      "end": "00:02:36.133",
+      "start": "00:02:31.733",
+      "text": " colliding with the Taurus anymore. Okay, I mean that's great in all, but let's move the emitter back"
+    },
+    {
+      "end": "00:02:40.800",
+      "start": "00:02:36.133",
+      "text": " into the Taurus and actually work on our final simulation. For everything to work correctly,"
+    },
+    {
+      "end": "00:02:47.500",
+      "start": "00:02:40.800",
+      "text": " we'll need a solidify modifier and thicken the Taurus to the outside just like this. We also need"
+    },
+    {
+      "end": "00:02:53.267",
+      "start": "00:02:47.500",
+      "text": " to move this modifier above the fluid one. If we now go ahead and bake again, you can see that our"
+    },
+    {
+      "end": "00:02:58.933",
+      "start": "00:02:53.267",
+      "text": " particles colliding with the inside of our Taurus. And that's great, this is exactly what we want."
+    },
+    {
+      "end": "00:03:04.067",
+      "start": "00:02:58.933",
+      "text": " We can also adjust the sampling sub-steps to, for example, 12 or even higher if you have the"
+    },
+    {
+      "end": "00:03:09.600",
+      "start": "00:03:04.067",
+      "text": " patience to wait this long. Sampling sub-steps just allow the computer to simulate more simulation"
+    },
+    {
+      "end": "00:03:16.133",
+      "start": "00:03:09.600",
+      "text": " steps per frame. If we do this for every object, which in our case is just the emitter and Taurus,"
+    },
+    {
+      "end": "00:03:21.033",
+      "start": "00:03:16.133",
+      "text": " the simulation will be more accurate, but of course you'll also have to wait longer. Now let's change"
+    },
+    {
+      "end": "00:03:26.767",
+      "start": "00:03:21.033",
+      "text": " the flow behavior to inflow, so it doesn't just stop after the first frame and bake again."
+    },
+    {
+      "end": "00:03:32.300",
+      "start": "00:03:27.433",
+      "text": " And now you can see that our simulation is coming along nicely. The Taurus is filling up"
+    },
+    {
+      "end": "00:03:38.467",
+      "start": "00:03:32.300",
+      "text": " and the fluid stays inside of the mesh. Now because I don't want any particles, I'll just go ahead"
+    },
+    {
+      "end": "00:03:43.900",
+      "start": "00:03:38.467",
+      "text": " and enable mesh and click on bake mesh. This process is relatively fast compared to the initial"
+    },
+    {
+      "end": "00:03:48.867",
+      "start": "00:03:43.900",
+      "text": " baking of the particles, so if you choose a relatively low-upress factor, you only have to wait a"
+    },
+    {
+      "end": "00:03:55.500",
+      "start": "00:03:48.867",
+      "text": " few seconds. And now our mesh is baked. But there's one problem we can see. If we hide the solidify"
+    },
+    {
+      "end": "00:04:01.267",
+      "start": "00:03:55.500",
+      "text": " modifier and look at our initial Taurus, you can see that the mesh exits our geometry, but luckily"
+    },
+    {
+      "end": "00:04:06.700",
+      "start": "00:04:01.267",
+      "text": " there's an easy fix for this. We can just go ahead and duplicate our Taurus and now delete the"
+    },
+    {
+      "end": "00:04:12.700",
+      "start": "00:04:06.700",
+      "text": " solidify modifier and disable fluid physics for this object. And now move it back to the world"
+    },
+    {
+      "end": "00:04:19.733",
+      "start": "00:04:12.700",
+      "text": " origin with Alt and G. We can now use this Taurus as a Boolean for our fluid mesh. So let's go inside"
+    },
+    {
+      "end": "00:04:25.600",
+      "start": "00:04:19.733",
+      "text": " the modifier panel, select Boolean and our Boolean Taurus. Right now it cuts away all the things we"
+    },
+    {
+      "end": "00:04:31.267",
+      "start": "00:04:25.600",
+      "text": " wanted to keep, so let's change the mode to intersect. And you can see that our fluid mesh now"
+    },
+    {
+      "end": "00:04:36.633",
+      "start": "00:04:31.267",
+      "text": " stays inside our initial object. Let's go ahead and hide the Boolean mesh from the viewport"
+    },
+    {
+      "end": "00:04:42.400",
+      "start": "00:04:36.700",
+      "text": " and the renders and let's start with the shading process. Now that everything is baked, we can either"
+    },
+    {
+      "end": "00:04:47.500",
+      "start": "00:04:42.400",
+      "text": " remove the solidify modifier or make it a lot thinner. For example, I'll set it to 0.05."
+    },
+    {
+      "end": "00:04:53.100",
+      "start": "00:04:48.067",
+      "text": " If we would go ahead and remove the solidify modifier, we wouldn't be able to correctly see our"
+    },
+    {
+      "end": "00:04:58.633",
+      "start": "00:04:53.100",
+      "text": " simulation because of the refraction in the glass. So let's change the principal BSTF to a"
+    },
+    {
+      "end": "00:05:05.100",
+      "start": "00:04:59.333",
+      "text": " glass BSTF and turned on the roughness. And if we go ahead and enter rendered mode and"
+    },
+    {
+      "end": "00:05:11.333",
+      "start": "00:05:05.100",
+      "text": " disable scene world, we can perfectly see our fluid inside the Taurus. But I don't want the fluid"
+    },
+    {
+      "end": "00:05:18.400",
+      "start": "00:05:11.333",
+      "text": " to be water, so let's delete both of these default nodes and add an A principal BSTF and give it"
+    },
+    {
+      "end": "00:05:22.867",
+      "start": "00:05:18.400",
+      "text": " a nice color. You can of course just play around with all the different settings, for example,"
+    },
+    {
+      "end": "00:05:28.467",
+      "start": "00:05:22.867",
+      "text": " maybe give it some subsurface scattering, but this is really up to you. I can now quickly show you"
+    },
+    {
+      "end": "00:05:34.067",
+      "start": "00:05:28.467",
+      "text": " what all of this would look like without the solidify modifier. And you can see that the glass"
+    },
+    {
+      "end": "00:05:39.033",
+      "start": "00:05:34.067",
+      "text": " refraction just destroys our nice look. So let's turn on the solidify modifier again. And that's"
+    },
+    {
+      "end": "00:05:44.633",
+      "start": "00:05:39.033",
+      "text": " basically it. We can now just add an A simple ground plane and a camera and you can also go ahead"
+    },
+    {
+      "end": "00:05:49.500",
+      "start": "00:05:44.633",
+      "text": " and light your scene until you get something that maybe looks like this. And yeah, that's it."
+    },
+    {
+      "end": "00:05:54.067",
+      "start": "00:05:49.500",
+      "text": " This is how we can easily fill any object with fluids in blender. I hope you learned something."
+    },
+    {
+      "end": "00:05:59.033",
+      "start": "00:05:54.067",
+      "text": " I hope you found this tutorial helpful. And if you did, consider liking and subscribing and we'll"
+    },
+    {
+      "end": "00:06:01.033",
+      "start": "00:05:59.033",
+      "text": " see you in the next video. Next Saturday."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Jonathan Kron",
+  "youtube_channel_follower_count": 23600,
+  "youtube_comment_count": 315,
+  "youtube_description": "In this tutorial, I show you how to fill any object in Blender with fluids using Mantaflow.\nSubscribe for free: https://bit.ly/2yXW376\nGumroad: https://gumroad.com/jonathankron\nBlender Market: https://blendermarket.com/creators/jonathan-kron\n\n-----------------------------------------------------\n\n**Products I use**\n\nDECALmachine*: https://gumroad.com/a/1070707827\n\n-----------------------------------------------------\n\n**Partners**\n\nEcraxOfficial:\nhttps://www.youtube.com/channel/UCFItty350EG0qrd_IWVScnA\n\n-----------------------------------------------------\n\n*Affiliate links for products I use daily!\n\nMusic by:\nhttps://open.spotify.com/artist/1BhytEyR0LxnxXoeQPxGVV\nhttps://open.spotify.com/artist/6sPQwc6lix6K1Gv64v91Ml",
+  "youtube_like_count": 8761,
+  "youtube_tags": [
+    "Jonathan Kron",
+    "Blender",
+    "Filmmaking",
+    "Tutorial",
+    "CGI",
+    "VFX",
+    "Blender Mantaflow",
+    "Blender fill object with fluid",
+    "Blender 2.9 mantaflow",
+    "Mantaflow",
+    "Blender fill object",
+    "Blender fluid inside object",
+    "Blender mantaflow tutorial",
+    "Blender beginner tutorial",
+    "Blender Mantaflow beginner",
+    "Blender 2.8",
+    "Blender 2.9 tutorial",
+    "Blender satisfying",
+    "satisfying animation",
+    "satisfying animation blender",
+    "Blender loop",
+    "Blender animation",
+    "Blender fluids",
+    "Blender fluid tutorial"
+  ],
+  "youtube_title": "Fill any Object with Fluid in Blender [Mantaflow] | English",
+  "youtube_upload_date": "20201010",
+  "youtube_view_count": 244238
+}

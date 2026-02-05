@@ -1,0 +1,755 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male, off-screen, providing the voice-over and demonstrating the software.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "An informative video demonstrating the functionalities of the Molecule Calculator and associated Jmol viewer for molecular modeling and calculations.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Blue.",
+        "question": "What color is used to represent the nitrogen atom in the molecule?"
+      },
+      {
+        "answer": "GAMESS.",
+        "question": "What software is used to perform the calculations in the video?"
+      },
+      {
+        "answer": "cm^-1 (wavenumbers).",
+        "question": "What is the unit for vibrational frequency displayed in the video?"
+      },
+      {
+        "answer": "Heat of Formation, Molecular Orbital, and Vibrational Frequency.",
+        "question": "What are the three types of calculations demonstrated in the video?"
+      },
+      {
+        "answer": "The narrator double-clicks on one atom, drags the cursor to another atom, and double-clicks again to finish.",
+        "question": "What action does the narrator perform in Jmol to obtain distance measurements?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the Molecule Editor window.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Narrator starts building a molecule by adding Carbon atoms.",
+            "timestamp": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "Narrator adds Nitrogen and changes its charge to create NH3+.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "description": "Narrator changes a single bond to a double bond.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          },
+          {
+            "description": "Narrator minimizes the molecule structure for optimization.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:37.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator interacts with the software displaying molecule creation and manipulation."
+          }
+        ],
+        "contextualRelevance": "The scene serves as an introduction to the software, setting up for further exploration of its features.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the Molecule Editor.",
+            "timestamp": "00:00:05.000"
+          },
+          {
+            "description": "Demonstration of atom addition and bond manipulation.",
+            "timestamp": "00:00:14.000"
+          },
+          {
+            "description": "Introduction to structure minimization.",
+            "timestamp": "00:00:37.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Molecule Editor Window with a methane molecule displayed.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Atom Manipulation tools including element buttons (C, N) and charge manipulation (+).",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "name": "Bond Manipulation tools.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          },
+          {
+            "name": "Minimize button.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:37.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to molecular modeling software.",
+        "timestamps": {
+          "end_timestamp": "00:00:41.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introducing the Molecule Calculator",
+        "videoEditingDetails": [
+          {
+            "description": "Simple screen recording of the Molecule Editor window.",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Mouse cursor movements are visible.",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator initiates a calculation on the molecule.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          },
+          {
+            "description": "Narrator explores three calculation options: Heat of Formation, Molecular Orbital, and Vibrational Frequency.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:04.000"
+            }
+          },
+          {
+            "description": "Narrator calculates and displays the Heat of Formation.",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "description": "Narrator calculates and displays Molecular Orbitals.",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "description": "Narrator calculates and displays Vibrational Frequencies.",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:02:06.000"
+            }
+          },
+          {
+            "description": "Narrator visualizes the lowest vibrational frequency and adds vectors to the molecule display.",
+            "timestamp": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:02:27.000"
+            }
+          },
+          {
+            "description": "Narrator turns off atom display for a simplified view.",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:02:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator interacts with the calculation options, providing explanations."
+          }
+        ],
+        "contextualRelevance": "The scene demonstrates the calculation capabilities of the software, providing valuable insights into its potential uses for molecular analysis.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, transitioning to Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Initiating calculations on the created molecule.",
+            "timestamp": "00:00:44.000"
+          },
+          {
+            "description": "Exploring different types of calculations.",
+            "timestamp": "00:01:04.000"
+          },
+          {
+            "description": "Demonstrating each calculation type and visualizing results.",
+            "timestamp": "00:01:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Calculate button.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:44.000"
+            }
+          },
+          {
+            "name": "Heat of Formation, Molecular Orbital, and Vibrational Frequency calculation options.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:04.000"
+            }
+          },
+          {
+            "name": "GAMESS Calculation window.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          },
+          {
+            "name": "Heat of Formation: [value] display.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:16.000"
+            }
+          },
+          {
+            "name": "Molecular Orbital energy levels list, Molecular Orbital visualization with red and blue mesh.",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "name": "Vibrational Frequency list, Vibrational Frequency visualization.",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:02:06.000"
+            }
+          },
+          {
+            "name": "Vibration, Vectors, and Atoms on/off toggles.",
+            "timestamp": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:02:27.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Performing and visualizing molecular calculations.",
+        "timestamps": {
+          "end_timestamp": "00:02:48.000",
+          "start_timestamp": "00:00:41.033"
+        },
+        "title": "Performing Calculations",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the Molecule Calculator window.",
+            "timestamps": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          },
+          {
+            "description": "Mouse cursor movements and pop-up windows are visible.",
+            "timestamps": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator demonstrates how to measure distances and angles in the molecule.",
+            "timestamp": {
+              "end_timestamp": "00:03:10.000",
+              "start_timestamp": "00:02:48.033"
+            }
+          },
+          {
+            "description": "Narrator changes distance units from nanometers to Angstroms.",
+            "timestamp": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:03:51.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator uses Jmol tools for measuring structural properties."
+          }
+        ],
+        "contextualRelevance": "The scene emphasizes the analytical features of the Jmol viewer, enhancing the understanding of molecular structures.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to Jmol's measurement capabilities.",
+            "timestamp": "00:02:48.033"
+          },
+          {
+            "description": "Demonstrating distance, angle, and dihedral angle measurements.",
+            "timestamp": "00:02:48.033"
+          },
+          {
+            "description": "Showing the flexibility of changing measurement units.",
+            "timestamp": "00:03:51.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Jmol molecule visualization.",
+            "timestamp": {
+              "end_timestamp": "00:03:10.000",
+              "start_timestamp": "00:02:48.033"
+            }
+          },
+          {
+            "name": "Distance measurement (in nanometers).",
+            "timestamp": {
+              "end_timestamp": "00:03:22.000",
+              "start_timestamp": "00:03:17.000"
+            }
+          },
+          {
+            "name": "Angle measurement.",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          },
+          {
+            "name": "Measurement options (distance units).",
+            "timestamp": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:03:51.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Using Jmol for structural analysis.",
+        "timestamps": {
+          "end_timestamp": "00:04:08.133",
+          "start_timestamp": "00:02:48.033"
+        },
+        "title": "Measuring Structural Properties",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the Jmol window.",
+            "timestamps": {
+              "end_timestamp": "00:04:07.000",
+              "start_timestamp": "00:02:48.033"
+            }
+          },
+          {
+            "description": "Mouse cursor movements and context menus are visible.",
+            "timestamps": {
+              "end_timestamp": "00:04:07.000",
+              "start_timestamp": "00:02:48.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Showcasing the visualization of the pi bond molecular orbital, demonstrating the capability of the software.",
+        "timestamp": "00:02:00.000"
+      },
+      "description": "Introduction to and Demonstration of the Molecule Calculator",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "The Molecule Calculator",
+    "trimmingSuggestions": [
+      {
+        "description": "The molecule building process could be shortened to focus on the key steps (adding carbon and nitrogen, changing charge).",
+        "timestamps": {
+          "end_timestamp": "00:02:48.033",
+          "start_timestamp": "00:02:48.033"
+        }
+      },
+      {
+        "description": "The vibrational frequencies demonstration could be shortened by showcasing only one frequency and its visualization.",
+        "timestamps": {
+          "end_timestamp": "00:02:48.033",
+          "start_timestamp": "00:02:48.033"
+        }
+      },
+      {
+        "description": "The detailed demonstration of all measurements (distances, angles, dihedral angles) could be condensed by showing one example of each type.",
+        "timestamps": {
+          "end_timestamp": "00:04:07.000",
+          "start_timestamp": "00:03:04.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 248,
+  "original_json_filename": "ahJ83pu7HVY.json",
+  "original_video_filename": "ahJ83pu7HVY.mp4",
+  "resolution": "576x360",
+  "text_to_speech": "hello and welcome to a quick overview of the molecule calculator uh we start here in the molecule editor window where I can build my molecules so for example here I can add another a carbon here I can add a nitrogen here I can change the charge of this atom so that it's now an nh3+ I can make this a double bond for example um can minimize it to get a better structure and now uh for example now I'm ready for a calculation on this molecule so I had calculate here yes I'm sure and now It prepares the calculation and so in uh this version uh of the molecule calculator molecule calculator 1.0 I have three options uh three things I can calculate so for example I can calculate the heater formation that's done right and you can see then I have the heater formation here in kilo calories per mole I can also load results and for this particular thing uh this particular property that just brings the result into the window here I can also calculate molecular orbitals okay and so I have to remember to load the orbitals here and now I can go in the orbitals are ranked by orbital energies so for example I can pick this one here right and here I have the molecular orbital which is primarily associated with the nitrogen group I can scroll down for example here and see the the PIP frequencies so I have to load results uh this is the they're here ranked by vibrational frequencies or vibrational wave numbers uh this is the lowest vibrational frequency here and if I see want to see how that vectors here and I can also turn off the atoms to get a more simplified view of the molecule so let me turn that off um I can always go back um it remembers that I already calculated the the heat of formation here I can load that and here I have my my molecule again uh I can also go in and and measure distances so this uh the way the program we use to view the molecule is called jmo and J can do a lot of of different things for example if I double click on this atom and drag right I get distances or I can get angles oops I have to double click to finish okay and finally I can get the heal angles double click single click single click double click and so that's the dihedral angle here uh finally by right clicking I get access to all the different things uh that J can do so for example here I can go in measurements and pick angstroms instead if I prefer that so here the bond length is one angstrom and so that's a quick overview of molecular uh calculator",
+  "text_to_speech_word_count": 481,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.967",
+      "start": "00:00:00.000",
+      "text": " Hello and welcome to a quick overview of the molecule calculator."
+    },
+    {
+      "end": "00:00:15.033",
+      "start": "00:00:10.967",
+      "text": " We start here in the molecule editor window where I can build my molecules."
+    },
+    {
+      "end": "00:00:19.300",
+      "start": "00:00:15.033",
+      "text": " So for example here I can add another carbon here."
+    },
+    {
+      "end": "00:00:23.633",
+      "start": "00:00:19.300",
+      "text": " I can add an nitrogen here."
+    },
+    {
+      "end": "00:00:30.733",
+      "start": "00:00:23.633",
+      "text": " I can change the charge of this atom so that it's now an NH3 plus."
+    },
+    {
+      "end": "00:00:37.933",
+      "start": "00:00:30.733",
+      "text": " I can make this a double bond for example."
+    },
+    {
+      "end": "00:00:41.800",
+      "start": "00:00:37.933",
+      "text": " I can minimize it to get a better structure."
+    },
+    {
+      "end": "00:00:46.500",
+      "start": "00:00:41.800",
+      "text": " And now for example now I'm ready for a calculation on this molecule."
+    },
+    {
+      "end": "00:00:49.533",
+      "start": "00:00:46.500",
+      "text": " So I hit calculate here."
+    },
+    {
+      "end": "00:00:53.133",
+      "start": "00:00:49.533",
+      "text": " Yes I'm sure."
+    },
+    {
+      "end": "00:00:56.000",
+      "start": "00:00:53.133",
+      "text": " And now it prepares the calculation."
+    },
+    {
+      "end": "00:01:03.833",
+      "start": "00:00:56.000",
+      "text": " And so in this version of the molecule calculator, molecule calculator 1.0,"
+    },
+    {
+      "end": "00:01:07.067",
+      "start": "00:01:03.833",
+      "text": " I have three options, three things I can calculate."
+    },
+    {
+      "end": "00:01:14.433",
+      "start": "00:01:07.067",
+      "text": " So for example I can calculate the heat of formation."
+    },
+    {
+      "end": "00:01:16.533",
+      "start": "00:01:14.433",
+      "text": " That's done."
+    },
+    {
+      "end": "00:01:20.000",
+      "start": "00:01:16.533",
+      "text": " Right and you can see then I have the heat of formation here in kilocalories for"
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:20.000",
+      "text": " more."
+    },
+    {
+      "end": "00:01:22.733",
+      "start": "00:01:21.000",
+      "text": " I can also load results."
+    },
+    {
+      "end": "00:01:28.200",
+      "start": "00:01:22.733",
+      "text": " And for this particular thing, this particular property that just brings the result into the"
+    },
+    {
+      "end": "00:01:30.200",
+      "start": "00:01:28.200",
+      "text": " window here."
+    },
+    {
+      "end": "00:01:35.933",
+      "start": "00:01:30.200",
+      "text": " I can also calculate molecular orbitals."
+    },
+    {
+      "end": "00:01:43.100",
+      "start": "00:01:35.933",
+      "text": " Okay and I have to remember to load the orbitals here and now I can go in."
+    },
+    {
+      "end": "00:01:45.333",
+      "start": "00:01:43.100",
+      "text": " The orbitals are ranked by orbital energies."
+    },
+    {
+      "end": "00:01:48.100",
+      "start": "00:01:45.333",
+      "text": " So for example I can pick this one here."
+    },
+    {
+      "end": "00:01:54.300",
+      "start": "00:01:48.100",
+      "text": " Right and here I have the molecular orbital which is primarily associated with the nitrogen"
+    },
+    {
+      "end": "00:01:55.300",
+      "start": "00:01:54.300",
+      "text": " group."
+    },
+    {
+      "end": "00:01:58.500",
+      "start": "00:01:55.300",
+      "text": " I can scroll down."
+    },
+    {
+      "end": "00:02:06.733",
+      "start": "00:01:58.500",
+      "text": " For example here you can see the pi bond."
+    },
+    {
+      "end": "00:02:15.633",
+      "start": "00:02:06.733",
+      "text": " The final thing is vibrational frequencies."
+    },
+    {
+      "end": "00:02:18.600",
+      "start": "00:02:15.633",
+      "text": " So I have to load results."
+    },
+    {
+      "end": "00:02:25.133",
+      "start": "00:02:18.600",
+      "text": " This is the here ranked by vibrational frequencies or vibrational wave numbers."
+    },
+    {
+      "end": "00:02:28.333",
+      "start": "00:02:25.133",
+      "text": " This is the lowest vibrational frequency here."
+    },
+    {
+      "end": "00:02:34.333",
+      "start": "00:02:28.333",
+      "text": " And if I see how that looks, I can see that here."
+    },
+    {
+      "end": "00:02:45.400",
+      "start": "00:02:34.333",
+      "text": " I can also add vectors here and I can also turn off the atoms to get a more simplified"
+    },
+    {
+      "end": "00:02:48.633",
+      "start": "00:02:45.400",
+      "text": " view of the molecule."
+    },
+    {
+      "end": "00:02:51.367",
+      "start": "00:02:48.633",
+      "text": " So let me turn that off."
+    },
+    {
+      "end": "00:02:54.433",
+      "start": "00:02:51.367",
+      "text": " I can always go back."
+    },
+    {
+      "end": "00:02:58.533",
+      "start": "00:02:54.433",
+      "text": " Remember that I already calculated the heat of formation here."
+    },
+    {
+      "end": "00:03:04.000",
+      "start": "00:02:58.533",
+      "text": " I can load that and here I have my molecule again."
+    },
+    {
+      "end": "00:03:06.400",
+      "start": "00:03:04.000",
+      "text": " I can also go in and measure distances."
+    },
+    {
+      "end": "00:03:11.367",
+      "start": "00:03:06.400",
+      "text": " So this is the way the program we used to view the molecule is called J-mo."
+    },
+    {
+      "end": "00:03:13.500",
+      "start": "00:03:11.367",
+      "text": " J-mo can do a lot of different things."
+    },
+    {
+      "end": "00:03:17.367",
+      "start": "00:03:13.500",
+      "text": " For example if I double click on this atom and drag."
+    },
+    {
+      "end": "00:03:25.567",
+      "start": "00:03:17.367",
+      "text": " Right, I get distances or I can get angles."
+    },
+    {
+      "end": "00:03:29.800",
+      "start": "00:03:25.567",
+      "text": " Oops, I have to double click to finish."
+    },
+    {
+      "end": "00:03:30.800",
+      "start": "00:03:29.800",
+      "text": " Okay."
+    },
+    {
+      "end": "00:03:33.400",
+      "start": "00:03:30.800",
+      "text": " And finally I can get the heat of angles."
+    },
+    {
+      "end": "00:03:41.400",
+      "start": "00:03:33.400",
+      "text": " Double click, single click, single click, double click."
+    },
+    {
+      "end": "00:03:44.400",
+      "start": "00:03:41.400",
+      "text": " And so that's the the heat of angles here."
+    },
+    {
+      "end": "00:03:50.833",
+      "start": "00:03:44.400",
+      "text": " Finally by right clicking I get access to all the different things that J-mo can do."
+    },
+    {
+      "end": "00:03:55.433",
+      "start": "00:03:50.833",
+      "text": " So for example here I'm going in measurements and pick angstroms."
+    },
+    {
+      "end": "00:03:59.033",
+      "start": "00:03:55.433",
+      "text": " Instead if I prefer that."
+    },
+    {
+      "end": "00:04:02.933",
+      "start": "00:03:59.033",
+      "text": " So here the bond length is one angstrom."
+    },
+    {
+      "end": "00:04:06.333",
+      "start": "00:04:02.933",
+      "text": " And so that's a quick overview of molecular calculator."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Jan Jensen",
+  "youtube_channel_follower_count": 3020,
+  "youtube_comment_count": 1,
+  "youtube_description": "http://dgu.ki.ku.dk/molcalc/editor",
+  "youtube_like_count": 5,
+  "youtube_tags": [
+    "chemical education",
+    "jmol"
+  ],
+  "youtube_title": "The Molecule Calculator",
+  "youtube_upload_date": "20120814",
+  "youtube_view_count": 1301
+}

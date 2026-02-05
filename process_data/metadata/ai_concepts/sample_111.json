@@ -1,0 +1,618 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male, short brown hair, beard, wearing a maroon t-shirt.",
+        "name": "Character 1"
+      },
+      {
+        "characterId": "2",
+        "description": "Male, black hair, beard, wearing glasses and a gray sweatshirt.",
+        "name": "Character 2"
+      },
+      {
+        "characterId": "3",
+        "description": "Male, long brown hair tied back, wearing glasses and a blue and white Adidas jacket.",
+        "name": "Character 3"
+      },
+      {
+        "characterId": "4",
+        "description": "Female, long black hair, wearing glasses and a pale pink sweatshirt.",
+        "name": "Character 4"
+      },
+      {
+        "characterId": "5",
+        "description": "Male, short brown hair, clean-shaven, wearing a black v-neck shirt.",
+        "name": "Character 5"
+      },
+      {
+        "characterId": "6",
+        "description": "Male, short black hair, wearing glasses and a black jacket over a white shirt.",
+        "name": "Character 6"
+      },
+      {
+        "characterId": "7",
+        "description": "Male, black hair, wearing a light gray t-shirt and a light blue denim jacket.",
+        "name": "Character 7"
+      },
+      {
+        "characterId": "8",
+        "description": "Male, short black hair, wearing glasses and a gray t-shirt.",
+        "name": "Character 8"
+      }
+    ],
+    "description": "An informational presentation showcasing a newly developed deep learning method for eye region landmark localization, intended for remote gaze estimation in varied settings.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Stacked Hourglass CNN.",
+        "question": "What is the name of the specific CNN architecture used in this research?"
+      },
+      {
+        "answer": "Training on synthetic images allows for greater data efficiency and generalization to real-world images.",
+        "question": "What is the primary advantage of using synthetic eye images for training?"
+      },
+      {
+        "answer": "Crossed eyes detection.",
+        "question": "What is the bonus feature mentioned in the live demonstration?"
+      },
+      {
+        "answer": "Yes, the method works well with bespectacled people.",
+        "question": "Can the method handle people wearing glasses?"
+      },
+      {
+        "answer": "Approximately 1 meter.",
+        "question": "What is the approximate distance at which the method effectively localizes landmarks?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The use of synthetic data for training suggests a focus on data efficiency and generalization capabilities.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Curious). The visual presentation of research details sparks curiosity about the technology being presented.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the research topic and visual demonstration of the technology.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Deep learning, eye region landmark localization, synthetic eye images, remote gaze estimation.",
+        "timestamps": {
+          "end_timestamp": "00:00:13.280",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Technology Overview",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with presentation title, authors, and affiliations.",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Examples of eye images with landmark detection.",
+            "timestamps": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Each character sits facing the camera, looking straight ahead.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.800",
+              "start_timestamp": "00:00:13.320"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Character 1",
+          "Character 2",
+          "Character 3",
+          "Character 4",
+          "Character 5",
+          "Character 6"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral (Indifferent). The scene mainly serves a functional purpose, demonstrating the technology's application on real faces.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstration of the technology's application in real-world settings using webcam footage.",
+            "timestamp": "00:00:13.320"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Real-world application, webcam-based gaze estimation, robustness of the landmark detection.",
+        "timestamps": {
+          "end_timestamp": "00:00:23.800",
+          "start_timestamp": "00:00:13.320"
+        },
+        "title": "Technology Application in Real World",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen showing six different people.",
+            "timestamps": {
+              "end_timestamp": "00:00:23.800",
+              "start_timestamp": "00:00:13.320"
+            }
+          },
+          {
+            "description": "Number in the corner of each screen likely indicates FPS (frames per second).",
+            "timestamps": {
+              "end_timestamp": "00:00:23.800",
+              "start_timestamp": "00:00:13.320"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The ability to detect landmarks even when occluded by the eyelid highlights the model's robustness.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Curious). The visual representation of the model's performance sparks further curiosity about its accuracy and limitations.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of the underlying neural network architecture and demonstration of its performance on real-world datasets.",
+            "timestamp": "00:00:24.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Convolutional neural network, eyelid and iris landmark detection, heatmaps, model confidence, real-world datasets (MPII Gaze).",
+        "timestamps": {
+          "end_timestamp": "00:00:44.360",
+          "start_timestamp": "00:00:23.840"
+        },
+        "title": "CNN Architecture and Performance",
+        "videoEditingDetails": [
+          {
+            "description": "Diagram showing the stacked hourglass CNN architecture and its output.",
+            "timestamps": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "description": "Eye images with landmark detection and heatmaps showing the model's confidence.",
+            "timestamps": {
+              "end_timestamp": "00:00:44.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Curious). The visuals stimulate further curiosity about the technology's performance on diverse datasets.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Further demonstration of the model's generalization capabilities across different real-world datasets.",
+            "timestamp": "00:00:44.400"
+          }
+        ],
+        "props": [],
+        "sceneId": 4,
+        "thematicElements": "Real-world datasets (UnityEyes, Columbia Gaze, UT Multiview, MPII Gaze, EYEDIAP), eyelid and iris landmark detection, eyeball fitting, feature-based and model-based gaze estimation.",
+        "timestamps": {
+          "end_timestamp": "00:01:03.000",
+          "start_timestamp": "00:00:44.400"
+        },
+        "title": "Model Generalization Capabilities",
+        "videoEditingDetails": [
+          {
+            "description": "Table showing examples of landmark detection and eyeball fitting from various real-world datasets.",
+            "timestamps": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:00:44.400"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Each character sits facing the camera, moving their head and eyes freely.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:01:03.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Character 1",
+          "Character 2",
+          "Character 3",
+          "Character 5",
+          "Character 6",
+          "Character 7",
+          "Character 8"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Content/Curious). The demonstration of the technology's effectiveness creates a sense of satisfaction and further interest in its potential applications.",
+          "keyMoments": [
+            {
+              "changeDescription": "The lighting changes to show adaptability.",
+              "timestamp": "00:01:51.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Live demonstration of the landmark-based SVR method on unseen individuals, showcasing its robustness to various challenges.",
+            "timestamp": "00:01:03.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Glasses worn by some characters throughout the scene.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:01:03.040"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Live demonstration, landmark-based SVR method, robustness to head movement, distance, illumination, glasses, and eye shape variations, crossed eyes detection.",
+        "timestamps": {
+          "end_timestamp": "00:02:29.200",
+          "start_timestamp": "00:01:03.040"
+        },
+        "title": "Live Demonstration with Challenges",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen showing live webcam footage of individuals and segmented eye images with landmark detection.",
+            "timestamps": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:01:03.040"
+            }
+          },
+          {
+            "description": "Text overlay: 'Live Gaze Estimation Demo'",
+            "timestamps": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'with Free Head Movement'",
+            "timestamps": {
+              "end_timestamp": "00:01:43.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'even at a distance of approx. 1 meter'",
+            "timestamps": {
+              "end_timestamp": "00:01:51.000",
+              "start_timestamp": "00:01:43.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'and less than ideal illumination conditions'",
+            "timestamps": {
+              "end_timestamp": "00:02:03.000",
+              "start_timestamp": "00:01:51.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Works with bespectacled people'",
+            "timestamps": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:03.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'and sometimes for narrow or squinting eyes as well'",
+            "timestamps": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Bonus: crossed eyes detection'",
+            "timestamps": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Character 7 sits facing the camera.",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:29.240"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Character 7"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "N/A",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral (Content). The concluding scene expresses a sense of closure and appreciation for the viewer's engagement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Conclusion of the video with a thank you message.",
+            "timestamp": "00:02:29.240"
+          }
+        ],
+        "props": [],
+        "sceneId": 6,
+        "thematicElements": "Live demonstration, landmark-based SVR method.",
+        "timestamps": {
+          "end_timestamp": "00:02:41.520",
+          "start_timestamp": "00:02:29.240"
+        },
+        "title": "Conclusion and Thank You",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen showing live webcam footage of an individual and segmented eye images with landmark detection.",
+            "timestamps": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:29.240"
+            }
+          },
+          {
+            "description": "Text overlay: 'Thank you for watching'",
+            "timestamps": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:29.240"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "There isn't a specific climax in this video, as it is primarily an informational presentation of a research project.",
+        "timestamp": null
+      },
+      "description": "The researchers present their newly developed deep learning based method for eye region landmark localization that can be used for remote gaze estimation in unconstrained settings.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Research Presentation on Eye Region Landmark Localization",
+    "trimmingSuggestions": [
+      {
+        "description": "This scene could be shortened by showing fewer individuals or reducing the duration of their static appearances. The main purpose is to demonstrate the technology's real-world application, which could be achieved with a shorter segment.",
+        "timestamps": {
+          "end_timestamp": "00:02:29.240",
+          "start_timestamp": "00:02:29.240"
+        }
+      },
+      {
+        "description": "While the table with multiple datasets is informative, it might be too detailed for a short video presentation. Showing a selection of key examples or reducing the time spent on this scene would enhance dynamism.",
+        "timestamps": {
+          "end_timestamp": "00:02:29.240",
+          "start_timestamp": "00:02:29.240"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 162,
+  "original_json_filename": "I8WlEHgDBV4.json",
+  "original_video_filename": "I8WlEHgDBV4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this paper we introduced a deep learning based method for eye region landmark localization purely trained on synthetic eye images from the Unity eyes data set the new landmarks can be robustly detected in real-world settings from images taken using remotely placed webcams and directly apply to feature based or model based gaze estimation at the core of our approach is a convolutional neural network which learns to find eyelid and iris landmarks in these sequences we show the estimation and confidence of our model and detecting landmarks on images from the mpi eye gaze dataset with more training steps the model becomes progressively better note how iris landmarks hidden by the eyelid can still be found here we show examples from other real world datasets where our neural network detects eyelid and iris landmarks and also fits an eyeball this description of eye shape allows us to the news feature based in model-based gaze estimation methods by doing so we bring conventional feature based on model based methods back into the forefront a webcam based gaze estimation please see the paper for comprehensive evaluations of our approach we now show live demos of our landmarks based as we are method on unseen people in these sequences you can see the input to our method on the top left the segmented eye images are processed by our neural network to find eye region landmarks we then pass the landmarks to a support vector regressor trained on MPI eye gaze and UT multi-view datasets observe how our method allows for free head movement you even at the distance of approximately one meter away our landmark localization succeeds our method is robust to less than ideal illumination conditions spectacles or eyeglasses cause very little issues you and sometimes we can perform well on narrow or squinting eyes as well as crossties thank you for watching you",
+  "text_to_speech_word_count": 315,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.680",
+      "start": "00:00:00.000",
+      "text": " In this paper, we introduce a deep learning-based method for iRagent landmark localization, purely"
+    },
+    {
+      "end": "00:00:13.440",
+      "start": "00:00:09.680",
+      "text": " trained on synthetic eye images from the Unity Eye status set."
+    },
+    {
+      "end": "00:00:18.200",
+      "start": "00:00:13.440",
+      "text": " The new landmarks can be robustly detected in real-world settings, from images taken"
+    },
+    {
+      "end": "00:00:23.040",
+      "start": "00:00:18.200",
+      "text": " using remotely placed webcams, and directly applied to feature-based or model-based gaze"
+    },
+    {
+      "end": "00:00:24.040",
+      "start": "00:00:23.040",
+      "text": " estimation."
+    },
+    {
+      "end": "00:00:28.520",
+      "start": "00:00:24.040",
+      "text": " At the core of our approach is a convolutional neural network, which learns to find eyelid"
+    },
+    {
+      "end": "00:00:30.200",
+      "start": "00:00:28.520",
+      "text": " and iris landmarks."
+    },
+    {
+      "end": "00:00:34.880",
+      "start": "00:00:30.200",
+      "text": " In these sequences, we show the estimation and confidence of our model in detecting landmarks"
+    },
+    {
+      "end": "00:00:37.680",
+      "start": "00:00:34.880",
+      "text": " on images from the MPII gaze dataset."
+    },
+    {
+      "end": "00:00:40.920",
+      "start": "00:00:37.680",
+      "text": " With more training steps, the model becomes progressively better."
+    },
+    {
+      "end": "00:00:44.560",
+      "start": "00:00:40.920",
+      "text": " Note how iris landmarks hidden by the eyelid can still be found."
+    },
+    {
+      "end": "00:00:48.720",
+      "start": "00:00:44.560",
+      "text": " Here we show examples from other real-world datasets where our neural network detects eyelid"
+    },
+    {
+      "end": "00:00:51.120",
+      "start": "00:00:48.720",
+      "text": " and iris landmarks and also fits an eyeball."
+    },
+    {
+      "end": "00:00:54.720",
+      "start": "00:00:51.120",
+      "text": " This description of eye shape allows us to then use feature-based and model-based gaze"
+    },
+    {
+      "end": "00:00:56.280",
+      "start": "00:00:54.720",
+      "text": " estimation methods."
+    },
+    {
+      "end": "00:01:01.000",
+      "start": "00:00:56.280",
+      "text": " By doing so, we bring conventional feature-based and model-based methods back into the forefront"
+    },
+    {
+      "end": "00:01:03.240",
+      "start": "00:01:01.000",
+      "text": " of webcam-based gaze estimation."
+    },
+    {
+      "end": "00:01:07.160",
+      "start": "00:01:03.240",
+      "text": " Please see the paper for comprehensive evaluations of our approach."
+    },
+    {
+      "end": "00:01:11.760",
+      "start": "00:01:07.160",
+      "text": " We now show live demos of our landmarks based as we are method on unseen people."
+    },
+    {
+      "end": "00:01:15.560",
+      "start": "00:01:11.760",
+      "text": " In these sequences, you can see the input to our method on the top left."
+    },
+    {
+      "end": "00:01:20.600",
+      "start": "00:01:15.560",
+      "text": " The segmented eye images are processed by our neural network to find iris landmarks."
+    },
+    {
+      "end": "00:01:24.920",
+      "start": "00:01:20.600",
+      "text": " We then pass the landmarks to a support vector regressor trained on MPII gaze and UT"
+    },
+    {
+      "end": "00:01:27.080",
+      "start": "00:01:24.920",
+      "text": " multivutatocets."
+    },
+    {
+      "end": "00:01:43.280",
+      "start": "00:01:27.080",
+      "text": " Observe how our method allows for free head movement."
+    },
+    {
+      "end": "00:01:51.240",
+      "start": "00:01:43.280",
+      "text": " Even at the distance of approximately one meter away, our landmark localization succeeds."
+    },
+    {
+      "end": "00:02:03.600",
+      "start": "00:01:51.240",
+      "text": " Our method is robust to less than ideal illumination conditions."
+    },
+    {
+      "end": "00:02:19.800",
+      "start": "00:02:03.600",
+      "text": " Spectacles or eye glasses cause very little issues."
+    },
+    {
+      "end": "00:02:29.400",
+      "start": "00:02:19.800",
+      "text": " And sometimes we can perform well on narrow or squinting eyes."
+    },
+    {
+      "end": "00:02:35.080",
+      "start": "00:02:29.400",
+      "text": " As well as cross dyes."
+    },
+    {
+      "end": "00:02:36.240",
+      "start": "00:02:35.080",
+      "text": " Thank you for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Perceptual User Interfaces",
+  "youtube_channel_follower_count": 82,
+  "youtube_comment_count": 0,
+  "youtube_description": "Conventional feature-based and model-based gaze estimation methods have proven to perform well in settings with controlled illumination and specialized cameras. In unconstrained real-world settings, however, such methods are surpassed by recent appearance-based methods due to difficulties in modeling factors such as illumination changes and other visual artifacts. We present a novel learning-based method for eye region landmark localization that enables conventional methods to be competitive to latest appearance-based methods. Despite having been trained exclusively on synthetic data, our method exceeds the state of the art for iris localization and eye shape registration on real-world imagery. We then use the detected landmarks as input to iterative model-fitting and lightweight learning-based gaze estimation methods. Our approach outperforms existing model-fitting and appearance-based methods in the context of person-independent and personalized gaze estimation.\n\nSeonwook Park; Xucong Zhang; Andreas Bulling; Otmar Hilliges\nLearning to Find Eye Region Landmarks for Remote Gaze Estimation in Unconstrained Settings\nProc. International Symposium on Eye Tracking Research and Applications (ETRA), 2018.",
+  "youtube_like_count": 9,
+  "youtube_tags": [],
+  "youtube_title": "Learning to Find Eye Region Landmarks for Remote Gaze Estimation in Unconstrained Settings (ETRA'18)",
+  "youtube_upload_date": "20180426",
+  "youtube_view_count": 764
+}

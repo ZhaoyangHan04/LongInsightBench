@@ -1,0 +1,789 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1K",
+        "description": "A man with short, grey hair, wearing glasses and a blue-green T-shirt with a white print.",
+        "name": "Kevin Powell"
+      }
+    ],
+    "description": "This video addresses a common issue in web development where anchor links cause content to be hidden behind fixed navigation bars. Kevin Powell introduces a CSS-based solution and further refines it using JavaScript for enhanced robustness.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The property used is 'position: sticky'.",
+        "question": "What CSS property is used to make the navigation bar sticky?"
+      },
+      {
+        "answer": "The value used is '1000'.",
+        "question": "What value is used for the 'z-index' of the navigation bar?"
+      },
+      {
+        "answer": "The initial fallback value is '50px'.",
+        "question": "What is the initial fallback value used for the 'scroll-padding-top' property?"
+      },
+      {
+        "answer": "The method used is 'setProperty()'.",
+        "question": "What JavaScript method is used to set the custom property for the scroll padding?"
+      },
+      {
+        "answer": "The issue is that the calculated navigation height won't automatically be recalculated if the navigation bar changes size.",
+        "question": "What potential issue is mentioned regarding resizing the browser window?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Clicking on different sections of a webpage",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Kevin Powell"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The problem being addressed impacts the user experience of a webpage.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Happy",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Kevin introduces the problem of anchor links overlapping content.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Kevin mentions a solution using CSS.",
+            "timestamp": "00:00:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Webpage with navigation links",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 0,
+        "thematicElements": "Web Development, User Experience",
+        "timestamps": {
+          "end_timestamp": "00:00:15.767",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction: The Overlapping Anchor Link Problem",
+        "videoEditingDetails": [
+          {
+            "description": "Transition: Fade in",
+            "timestamps": {
+              "end_timestamp": "00:00:00.500",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Scroll-padding'",
+            "timestamps": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Stop anchor links from causing areas to be covered by the navigation'",
+            "timestamps": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Split screen: Code editor on the left, webpage preview on the right",
+            "timestamps": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition: Cut",
+            "timestamps": {
+              "end_timestamp": "00:00:15.500",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Coding in a code editor",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:00:15.800"
+            }
+          },
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:00:15.800"
+            }
+          },
+          {
+            "description": "Clicking on different sections of a webpage",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:00:15.800"
+            }
+          },
+          {
+            "description": "Inspecting elements in the browser's developer tools",
+            "timestamp": {
+              "end_timestamp": "00:09:10.000",
+              "start_timestamp": "00:08:56.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Kevin Powell"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The solution is implemented using progressive enhancement, providing a fallback for users without JavaScript enabled.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Happy",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Kevin introduces the 'scroll-behavior: smooth' property for smooth scrolling.",
+            "timestamp": "00:00:15.800"
+          },
+          {
+            "description": "Kevin explains the problem of the navigation bar overlapping content.",
+            "timestamp": "00:01:55.000"
+          },
+          {
+            "description": "Kevin introduces the 'scroll-padding-top' property as a solution.",
+            "timestamp": "00:02:22.000"
+          },
+          {
+            "description": "Kevin demonstrates the problem of using magic numbers for the 'scroll-padding-top' value.",
+            "timestamp": "00:03:57.000"
+          },
+          {
+            "description": "Kevin introduces the use of a variable to store the navigation bar's height.",
+            "timestamp": "00:04:10.000"
+          },
+          {
+            "description": "Kevin explains the concept of progressive enhancement.",
+            "timestamp": "00:05:34.000"
+          },
+          {
+            "description": "Kevin starts writing JavaScript code to calculate the navigation bar's height.",
+            "timestamp": "00:05:50.000"
+          },
+          {
+            "description": "Kevin uses JavaScript to set a custom property with the navigation bar's height.",
+            "timestamp": "00:07:16.000"
+          },
+          {
+            "description": "Kevin fixes a bug where he was adding instead of subtracting a pixel.",
+            "timestamp": "00:08:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Webpage with navigation links",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:00:15.800"
+            }
+          },
+          {
+            "name": "Code editor",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:00:15.800"
+            }
+          },
+          {
+            "name": "Browser's developer tools",
+            "timestamp": {
+              "end_timestamp": "00:09:10.000",
+              "start_timestamp": "00:08:56.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "CSS, JavaScript, Progressive Enhancement",
+        "timestamps": {
+          "end_timestamp": "00:12:03.000",
+          "start_timestamp": "00:00:15.800"
+        },
+        "title": "Demonstrating the Solution Using CSS and JavaScript",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'The CodePen is linked in the description'",
+            "timestamps": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "description": "Zoom in on a section of the code",
+            "timestamps": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:03:58.000"
+            }
+          },
+          {
+            "description": "Zoom in on the console log output",
+            "timestamps": {
+              "end_timestamp": "00:07:05.000",
+              "start_timestamp": "00:06:58.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:07:24.000",
+              "start_timestamp": "00:12:03.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Kevin Powell"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video continues to focus on web development techniques.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Happy",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Kevin concludes the video and mentions a potential issue with resizing.",
+            "timestamp": "00:12:03.033"
+          },
+          {
+            "description": "Kevin recommends another video on sticky positioning.",
+            "timestamp": "00:07:24.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Web Development, User Experience",
+        "timestamps": {
+          "end_timestamp": "00:07:24.000",
+          "start_timestamp": "00:12:03.033"
+        },
+        "title": "Conclusion and Further Exploration",
+        "videoEditingDetails": [
+          {
+            "description": "End screen with a link to another video",
+            "timestamps": {
+              "end_timestamp": "00:07:24.000",
+              "start_timestamp": "00:12:03.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Kevin fixes a bug where he was adding instead of subtracting a pixel.",
+        "timestamp": "00:08:49.000"
+      },
+      "description": "This storyline follows Kevin Powell as he introduces and solves the problem of anchor links causing content to be hidden behind fixed navigation bars using CSS and JavaScript.",
+      "scenes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "title": "Solving the Overlapping Anchor Link Problem",
+    "trimmingSuggestions": [
+      {
+        "description": "Consider trimming the introduction (0-15 seconds) to jump straight into the problem and solution. The problem is clearly demonstrated in the second scene, so the initial setup could be condensed.",
+        "timestamps": {
+          "end_timestamp": "00:12:03.033",
+          "start_timestamp": "00:12:03.033"
+        }
+      },
+      {
+        "description": "Some of the console logging and debugging segments in the second scene could be trimmed or sped up, as they might not be crucial for understanding the solution.",
+        "timestamps": {
+          "end_timestamp": "00:12:03.033",
+          "start_timestamp": "00:12:03.033"
+        }
+      },
+      {
+        "description": "The conclusion could be shortened to focus on the key takeaway and the recommended video.",
+        "timestamps": {
+          "end_timestamp": "00:07:24.000",
+          "start_timestamp": "00:12:03.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 444,
+  "original_json_filename": "iGUSTyG-CYw.json",
+  "original_video_filename": "iGUSTyG-CYw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "have you ever had anchor links on your page but when you click on them to go to the different sections it has the problem or if i go to section two it actually covers that heading up like that or if i go to section three it covers that up but that really does suck but luckily there's actually a way to solve this with just one line of css hello my friend and friends thank you so much for coming to join me for yet another video and if you're new here my name is kevin and here at my channel i hope you fall madly deeply in love with css and if i can't get you to fall in love with it i'm hoping to at least help you be a little bit less frustrated by it and today we're doing it by solving this problem that we can run into with anchor links and when things overlap and we don't want to do that with javascript if we can avoid it so let's jump right into the code and take a look at this and so i've set up this simple thing with a little sticky navigation here at the top and as you can see it covers up my content when i click on the sections and let's let's before we jump into that let's just improve this a little bit so in my css here what i am going to add all the way at the top is on my html let's do a scroll behavior of smooth and at least now when i click it's a smooth transition between the different ones but again the issue is if i go to section two i lose the title the reason this is happening is when we go to section one it's lining up the top of this section to the top of the page and that's going under this and i exaggerated the the height of my navigation here just to really highlight what's happening so first we're going to solve this sort of the cssc way only and then we're going to add a touch of javascript and a little bit of custom property magic just to make this a little bit more we so we don't need magic numbers and things just work and the way we're going to do this is here on the html and i'm going to come in and do scroll padding we're going to do scroll padding top and let's do i'm going to do a lot for now let's do like 300 300 pixels so now if i click on the section two you can see it didn't actually go to section two the section two is over here because it's scrolling to section two but it's leaving 300 pixel space here from the top of the page down to where the start of section two is if i go to section three same thing section four well that's at the bottom so it doesn't really count um so let's reduce this number to maybe 100 pixels because that might be a little bit better and so now we can try again section two oh that seems to line up much nicer that's sort of what i wanted look at that but it's probably not perfectly lined up see how some of the padding is still underneath that when i go to the section and this is where having to put magic numbers in here is not ideal so what we can do instead of a magic number is uh we can come in with a variable so var and what we'll do is we'll just call it scroll padding and we could just leave it like this but one nice thing is we could put in a fallback and i'm going to do 50 100 would be better because we saw 100 actually works pretty well here but if i do scroll padding of with the 50 there what it means is this is a custom property that's non-existent it doesn't we haven't defined it anywhere so because the browser can't find this it's going to go to this fallback so if i go to section two it goes to section two and you can see it's not perfect but at least it's not like covering up everything and hiding that text there and again i would i would use uh probably a better number than 50 here as the fallback but at least there's something and that just makes it a nice progressive enhancement which just means like if the javascript there's an issue with it someone has javascript disabled whatever it is it will use this value here but if the person does have javascript enabled which is most people we can enhance we can make this a little bit better of an experience for them so let's do a const of navigation height and that's going to be equal to my document dot query selector and i want to select my navigation and in this case i don't have an id on it that's fine we can just choose this primary navigation right here so let's make this a lot bigger for a second and so here will be my primary navigation and i want the navigation height so i need to know how tall this navigation actually is and offset height and that should give us the offset height let's let's console log that console log uh nav navigation there it is navigation height uh i am in codepen here so if i look in my console we should get it there it is 162 pixels tall so we can actually use this now to update or apply this to our html now then the ht and we want to get the html itself because that's where this is being applied and it's the root of our document and all of that so to be able to get that we can actually just get if we go here and do document document.documentelement and that should update here and we can see here that we you know it's logging out everything that's there so this is what we want to actually be applying this to so we don't really need the console log i guess so what we can do is we can come here and we can say that document dot document element element and then we can just do style and then do a set property and set property allows us to set custom properties so first we want to put the name of the custom property here and so we do that it has to be in quotations and we write scroll padding because that's what i'm setting and then here i want to set the value that we're going to be putting so i could just put a number here if i wanted to but we want this navigation height so i can grab that drop that right in there that error should go away let's get rid of that console that's right here and if we click here it should work except it's not working we obviously made a mistake along the way let's go take a look so it is working you can see i have a scroll padding but it's 162. uh that doesn't tell it anything so if we come here i just need to do plus px so to say you know we have to give a unit to the number that we've just put in there so now with that change done if we click it should there we go line up pretty much perfectly uh you'll notice there when i do go to the section 2 it's actually off by a smidgen i have a feeling that's because if we look in here the primary navigation is actually 161.59 pixels uh so i guess if you want to be safe we could actually come here and when we do this we could always do a plus one plus pixel so that way we're just adding that little extra little bit so we just ensure that we don't run into that problem and now when we do this it should work perfectly fine or when i go to my different sections oh i did a plus pixel it should have been a minus pixel by the looks of it minus one uh instead of plus one and now there we go it's working perfectly and going exactly where we want it to there's one downside of this is if you resize things and it causes the navigation to change size that number won't automatically be recalculated there are ways of setting that up but honestly the only people who ever do this are devs anyway and usually navigations don't look like this anyway but if that is something important you could set a resize observer that would handle that and update any values that you would need updated and if you enjoyed this and you'd like to explore more things and cool things that you can do with position sticky i have a video that you might enjoy right here and with that i want to say a really big thank you to my supporters of awesome over on patreon jan johnny stewart tim and simon as well as all my other patrons for their monthly support and of course until next time don't forget to make your core on the internet just a little bit more awesome",
+  "text_to_speech_word_count": 1606,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.000",
+      "start": "00:00:00.000",
+      "text": " If you ever had anchor links on your page, but when you click on them to go to the different sections,"
+    },
+    {
+      "end": "00:00:08.400",
+      "start": "00:00:04.000",
+      "text": " it has the problem, or if I go to section 2, it actually covers that heading up like that."
+    },
+    {
+      "end": "00:00:10.400",
+      "start": "00:00:08.400",
+      "text": " Or if I go to section 3, it covers that up."
+    },
+    {
+      "end": "00:00:15.600",
+      "start": "00:00:10.400",
+      "text": " But that really does suck, but luckily there's actually a way to solve this with just one line of CSS."
+    },
+    {
+      "end": "00:00:22.933",
+      "start": "00:00:18.800",
+      "text": " Hello my front end friends, thank you so much for coming to join me for yet another video."
+    },
+    {
+      "end": "00:00:26.400",
+      "start": "00:00:22.933",
+      "text": " And if you're new here, my name is Kevin and here at my channel, I hope you fall madly,"
+    },
+    {
+      "end": "00:00:30.233",
+      "start": "00:00:26.400",
+      "text": " deeply in love with CSS and if I can't get you to fall in love with it, I'm hoping to at least"
+    },
+    {
+      "end": "00:00:34.700",
+      "start": "00:00:30.233",
+      "text": " help you be a little bit less frustrated by it. And today we're doing it by solving this problem"
+    },
+    {
+      "end": "00:00:39.433",
+      "start": "00:00:34.700",
+      "text": " that we can run into with anchor links and when things overlap. And we don't want to do that with"
+    },
+    {
+      "end": "00:00:44.300",
+      "start": "00:00:39.433",
+      "text": " JavaScript if we can avoid it. So let's jump right into the code and take a look at this."
+    },
+    {
+      "end": "00:00:48.467",
+      "start": "00:00:44.300",
+      "text": " And so I've set up this simple thing with a little sticky navigation here at the top. And as you"
+    },
+    {
+      "end": "00:00:53.433",
+      "start": "00:00:48.467",
+      "text": " can see it, it covers up my content when I click on the sections. And let's, before we jump into"
+    },
+    {
+      "end": "00:00:59.333",
+      "start": "00:00:53.433",
+      "text": " that, let's just improve this a little bit. So in my CSS here, what I am going to add all the way"
+    },
+    {
+      "end": "00:01:08.933",
+      "start": "00:00:59.333",
+      "text": " at the top is on my HTML, let's do a scroll behavior of smooth. And at least now when I click,"
+    },
+    {
+      "end": "00:01:13.733",
+      "start": "00:01:08.933",
+      "text": " it's a smooth transition between the different ones. But again, the issue is if I go to section two,"
+    },
+    {
+      "end": "00:01:19.267",
+      "start": "00:01:13.733",
+      "text": " I lose the title. The reason this is happening is when we go to section one, it's lining up the top"
+    },
+    {
+      "end": "00:01:24.133",
+      "start": "00:01:19.733",
+      "text": " of this section to the top of the page. And that's going under this. And I exaggerated the height"
+    },
+    {
+      "end": "00:01:28.933",
+      "start": "00:01:24.133",
+      "text": " of my navigation here just to really highlight what's happening. So first, we're going to solve this"
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:28.933",
+      "text": " sort of the CSS way only. And then we're going to add a touch of JavaScript and a little bit of"
+    },
+    {
+      "end": "00:01:39.033",
+      "start": "00:01:34.000",
+      "text": " custom property magic just to make this a little bit more so we don't need magic numbers. And"
+    },
+    {
+      "end": "00:01:44.067",
+      "start": "00:01:39.033",
+      "text": " things just work. And the way we're going to do this is here on the HTML. And I'm going to come"
+    },
+    {
+      "end": "00:01:49.667",
+      "start": "00:01:44.067",
+      "text": " in and do scroll padding. We're going to do scroll padding top. And let's do, I'm going to do a"
+    },
+    {
+      "end": "00:01:55.733",
+      "start": "00:01:49.667",
+      "text": " lot for now. Let's do like 300 pixels. So now if I click on the section two, you can see it didn't"
+    },
+    {
+      "end": "00:02:00.533",
+      "start": "00:01:55.733",
+      "text": " actually go to section two, the section two is over here because it's scrolling to section two,"
+    },
+    {
+      "end": "00:02:06.400",
+      "start": "00:02:00.533",
+      "text": " but it's leaving 300 pixel space here from the top of the page down to where the start of section"
+    },
+    {
+      "end": "00:02:10.533",
+      "start": "00:02:06.400",
+      "text": " two is. If I go to section three, same thing, section four, well, that's at the bottom, so it"
+    },
+    {
+      "end": "00:02:15.333",
+      "start": "00:02:10.533",
+      "text": " doesn't really count. So let's reduce this number to maybe 100 pixels because that might be a"
+    },
+    {
+      "end": "00:02:20.533",
+      "start": "00:02:15.333",
+      "text": " little bit better. And so now we can try again section two. Oh, that seems to line up much nicer."
+    },
+    {
+      "end": "00:02:25.433",
+      "start": "00:02:20.533",
+      "text": " That's sort of what I wanted. Look at that. But it's probably not perfectly lined up. See,"
+    },
+    {
+      "end": "00:02:29.900",
+      "start": "00:02:25.433",
+      "text": " how some of the padding is still underneath that when I go to the section. And this is where"
+    },
+    {
+      "end": "00:02:36.133",
+      "start": "00:02:29.900",
+      "text": " having to put magic numbers in here is not ideal. So what we can do instead of a magic number is,"
+    },
+    {
+      "end": "00:02:40.300",
+      "start": "00:02:36.133",
+      "text": " we can come in with a variable. So var and what we'll do is we'll just call it scroll padding."
+    },
+    {
+      "end": "00:02:46.000",
+      "start": "00:02:41.733",
+      "text": " And we could just leave it like this, but one nice thing is we could put in a fallback. And I'm"
+    },
+    {
+      "end": "00:02:51.600",
+      "start": "00:02:46.000",
+      "text": " gonna do 50 100 would be better because we saw 100 actually works pretty well here. But if I do"
+    },
+    {
+      "end": "00:02:57.333",
+      "start": "00:02:51.600",
+      "text": " scroll padding with the 50 there, what it means is this is a custom property that's non-existent."
+    },
+    {
+      "end": "00:03:01.900",
+      "start": "00:02:57.333",
+      "text": " It doesn't we haven't defined it anywhere. So because the browser can't find this, it's going to go"
+    },
+    {
+      "end": "00:03:07.100",
+      "start": "00:03:02.000",
+      "text": " to this fallback. So if I go to section two, it goes to section two and you can see it's not perfect,"
+    },
+    {
+      "end": "00:03:12.133",
+      "start": "00:03:07.100",
+      "text": " but at least it's not like covering up everything and hiding that text there. And again, I would"
+    },
+    {
+      "end": "00:03:17.033",
+      "start": "00:03:12.133",
+      "text": " I would use probably a better number than 50 here as the fallback, but at least there's something."
+    },
+    {
+      "end": "00:03:21.833",
+      "start": "00:03:17.667",
+      "text": " And that just makes it a nice progressive enhancement, which just means like if the JavaScript,"
+    },
+    {
+      "end": "00:03:26.867",
+      "start": "00:03:21.833",
+      "text": " there's an issue with it, someone has JavaScript disabled, whatever it is, it will use this value here."
+    },
+    {
+      "end": "00:03:31.733",
+      "start": "00:03:26.867",
+      "text": " But if the person does have JavaScript enabled, which is most people, we can we can make this"
+    },
+    {
+      "end": "00:03:38.633",
+      "start": "00:03:31.733",
+      "text": " a little bit better of an experience for them. So let's do a const of NavigationHeight. And"
+    },
+    {
+      "end": "00:03:45.833",
+      "start": "00:03:38.633",
+      "text": " that's going to be equal to my document dot query selector. And I want to select my navigation."
+    },
+    {
+      "end": "00:03:50.233",
+      "start": "00:03:45.833",
+      "text": " And in this case, I don't have an idea on it. Let's find we can just choose this primary navigation"
+    },
+    {
+      "end": "00:03:57.667",
+      "start": "00:03:50.233",
+      "text": " right here. So let's make this a lot bigger for a second. And so here will be my primary navigation."
+    },
+    {
+      "end": "00:04:03.267",
+      "start": "00:03:58.300",
+      "text": " And I want the navigation height. So I need to know how tall this navigation actually is. And"
+    },
+    {
+      "end": "00:04:10.300",
+      "start": "00:04:03.267",
+      "text": " offset height. And that should give us the offset height. Let's let's console log that console log"
+    },
+    {
+      "end": "00:04:19.433",
+      "start": "00:04:11.433",
+      "text": " nav navigation navigation navigation. There it is navigation height. I am in code pen here. So if I look"
+    },
+    {
+      "end": "00:04:26.067",
+      "start": "00:04:19.433",
+      "text": " in my console, we should get it. There it is 162 pixels tall. So we can actually use this now to"
+    },
+    {
+      "end": "00:04:32.867",
+      "start": "00:04:26.067",
+      "text": " update or apply this to our HTML. Now then the HT and we want to get the HTML itself because"
+    },
+    {
+      "end": "00:04:36.000",
+      "start": "00:04:32.867",
+      "text": " that's where this is being applied. And it's the root of our document and all of that."
+    },
+    {
+      "end": "00:04:44.133",
+      "start": "00:04:36.933",
+      "text": " So to be able to get that, we can actually just get if we go here and I do document document.documentelement."
+    },
+    {
+      "end": "00:04:50.133",
+      "start": "00:04:44.133",
+      "text": " And that should update here. And we can see here that we know it's logging out everything that's"
+    },
+    {
+      "end": "00:04:56.633",
+      "start": "00:04:50.233",
+      "text": " there. So this is what we want to actually be applying this to. So we don't really need the console"
+    },
+    {
+      "end": "00:05:03.267",
+      "start": "00:04:56.633",
+      "text": " log, I guess. So what we can do is we can come here and we can say that document document element"
+    },
+    {
+      "end": "00:05:11.433",
+      "start": "00:05:05.333",
+      "text": " element. And then we just do style and then do a set property. And set property allows us to set"
+    },
+    {
+      "end": "00:05:15.500",
+      "start": "00:05:11.433",
+      "text": " custom properties. So first we want to put the name of the custom property here. And so we do that."
+    },
+    {
+      "end": "00:05:20.300",
+      "start": "00:05:15.500",
+      "text": " It has to be in quotations and we write scroll padding because that's what I'm setting. And then"
+    },
+    {
+      "end": "00:05:24.233",
+      "start": "00:05:20.300",
+      "text": " here I want to set the value that we're going to be putting. So I could just put a number here if"
+    },
+    {
+      "end": "00:05:29.733",
+      "start": "00:05:24.233",
+      "text": " I wanted to, but we want this navigation height. So I can grab that drop that right in there."
+    },
+    {
+      "end": "00:05:34.633",
+      "start": "00:05:29.733",
+      "text": " That error should go away. Let's get rid of that console that's right here. And if we click here,"
+    },
+    {
+      "end": "00:05:39.900",
+      "start": "00:05:34.633",
+      "text": " it should work except it's not working. We obviously made a mistake along the way. Let's go take a look."
+    },
+    {
+      "end": "00:05:46.233",
+      "start": "00:05:40.633",
+      "text": " So it is working. You can see I have a scroll padding, but it's 162. That doesn't tell it anything."
+    },
+    {
+      "end": "00:05:52.400",
+      "start": "00:05:46.233",
+      "text": " So if we come here, I just need to do plus px. So to say, you know, we have to give a unit to the"
+    },
+    {
+      "end": "00:05:56.933",
+      "start": "00:05:52.400",
+      "text": " number that we've just put in there. So now with that change done, if we click it should, there we go."
+    },
+    {
+      "end": "00:06:02.233",
+      "start": "00:05:56.933",
+      "text": " Line up pretty much perfectly. You'll notice there when I do go to the section two, it's actually"
+    },
+    {
+      "end": "00:06:08.467",
+      "start": "00:06:02.233",
+      "text": " off by a smidgen. I have a feeling that's because if we look in here, the primary navigation is actually"
+    },
+    {
+      "end": "00:06:16.700",
+      "start": "00:06:08.467",
+      "text": " 161.59 pixels. So I guess if you want to be safe, we could actually come here. And when we do this,"
+    },
+    {
+      "end": "00:06:23.267",
+      "start": "00:06:16.700",
+      "text": " we could always do a plus one plus pixel. So that way, we're just adding that little extra little bit."
+    },
+    {
+      "end": "00:06:29.733",
+      "start": "00:06:23.267",
+      "text": " So we just ensure that we don't run into that problem. And now when we do this, it should work"
+    },
+    {
+      "end": "00:06:34.000",
+      "start": "00:06:29.733",
+      "text": " perfectly fine. Where when I go to my different sections, oh, I did a plus pixel. It should have been"
+    },
+    {
+      "end": "00:06:41.033",
+      "start": "00:06:34.000",
+      "text": " a minus pixel, but looks a bit minus one instead of plus one. And now there we go. It's working"
+    },
+    {
+      "end": "00:06:46.067",
+      "start": "00:06:41.033",
+      "text": " perfectly and going exactly where we want it to. There's one downside of this is if you resize things"
+    },
+    {
+      "end": "00:06:50.633",
+      "start": "00:06:46.067",
+      "text": " and it causes the navigation to change size, that number won't automatically be recalculated."
+    },
+    {
+      "end": "00:06:55.100",
+      "start": "00:06:50.633",
+      "text": " There are ways of setting that up, but honestly, the only people who ever do this are devs anyway."
+    },
+    {
+      "end": "00:06:58.933",
+      "start": "00:06:55.100",
+      "text": " And usually navigations don't look like this anyway. But if that is something important, you could"
+    },
+    {
+      "end": "00:07:03.600",
+      "start": "00:06:58.933",
+      "text": " set a resize observer that would handle that and update any values that you would need updated. And"
+    },
+    {
+      "end": "00:07:07.667",
+      "start": "00:07:03.600",
+      "text": " if you enjoyed this and you'd like to explore more things and cool things that you can do with"
+    },
+    {
+      "end": "00:07:12.067",
+      "start": "00:07:07.667",
+      "text": " position sticky, I have a video that you might enjoy right here. And with that, I want to say a"
+    },
+    {
+      "end": "00:07:16.300",
+      "start": "00:07:12.067",
+      "text": " really big thank you to my supporters of awesome over on Patreon, Jan, John, you steward, Tim,"
+    },
+    {
+      "end": "00:07:19.833",
+      "start": "00:07:16.300",
+      "text": " and Simon, as well as all my other patrons for their monthly support. And of course,"
+    },
+    {
+      "end": "00:07:24.133",
+      "start": "00:07:19.833",
+      "text": " Intel next time, don't forget to make your core on the internet. Just a little bit more awesome."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Kevin Powell",
+  "youtube_channel_follower_count": 934000,
+  "youtube_comment_count": 222,
+  "youtube_description": "When we have a fixed navigation with anchor links that go to different locations within the page, that navigation can cover content when it scrolls to that location on the page. Luckily, it's easy to fix with some scroll-padding!\n\n🔗 Links \n✅ The CodePen: https://codepen.io/kevinpowell/pen/GRQyZMX\n✅ More position sticky stuff: https://youtu.be/8TyoihVGErI\n\n⌚ Timestamps\n00:00 - Introduction\n00:51 - Making things smooth scroll\n01:40 - Adding scroll-padding\n02:33 - Improving it without magic numbers\n06:43 - The one downside\n\n#css\n\n--\n\nCome hang out with other dev's in my Discord Community\n💬 https://discord.gg/nTYCvrK\n\nKeep up to date with everything I'm up to\n✉ https://www.kevinpowell.co/newsletter\n\nCome hang out with me live every Monday on Twitch!\n📺 https://www.twitch.tv/kevinpowellcss\n\n---\n\nHelp support my channel\n👨‍🎓 Get a course: https://www.kevinpowell.co/courses\n👕 Buy a shirt: https://teespring.com/stores/making-the-internet-awesome\n💖 Support me on Patreon: https://www.patreon.com/kevinpowell\n\n---\n\nMy editor: VS Code - https://code.visualstudio.com/\n\n---\n\nI'm on some other places on the internet too!\n\nIf you'd like a behind the scenes and previews of what's coming up on my YouTube channel, make sure to follow me on Instagram and Twitter.\n\nTwitter: https://twitter.com/KevinJPowell\nCodepen: https://codepen.io/kevinpowell/\nGithub: https://github.com/kevin-powell\n\n---\n\nAnd whatever you do, don't forget to keep on making your corner of the internet just a little bit more awesome!\n\n--\n\nThis video has been dubbed into Spanish (United States) using an artificial voice via https://aloud.area120.google.com to increase accessibility. You can change the audio track language in the Settings menu.  #DubbedWithAloud",
+  "youtube_like_count": 5513,
+  "youtube_tags": [
+    "HTML",
+    "CSS"
+  ],
+  "youtube_title": "Stop fixed navigations covering content on scroll",
+  "youtube_upload_date": "20220602",
+  "youtube_view_count": 112825
+}

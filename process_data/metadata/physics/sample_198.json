@@ -1,0 +1,601 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "teacher001",
+        "description": "Male character with blonde hair, wearing a brown shirt and pants. He is kneeling in front of a chalkboard and gestures towards graphs and illustrations.",
+        "name": "Teacher"
+      }
+    ],
+    "description": "An educational video illustrating the concepts of sound waves, frequency spectrum, vibration modes, and spherical harmonics.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "It represents the fundamental frequency (f0) of the vibrating string, which corresponds to the simplest vibration mode with one antinode in the middle.",
+        "question": "What does the red peak at the leftmost position on the frequency spectrum represent?"
+      },
+      {
+        "answer": "It has three nodal lines.",
+        "question": "How many nodal lines does a vibrating sphere with l = 3 have?"
+      },
+      {
+        "answer": "The quantum number m represents the orientation of the nodal lines on the spherical surface, specifically their rotation around the z-axis.",
+        "question": "What does the quantum number m represent in the context of spherical harmonics?"
+      },
+      {
+        "answer": "There are 2l + 1 = 5 different modes of vibration possible for l = 2.",
+        "question": "How many different modes of vibration are possible for a spherical surface with l = 2?"
+      },
+      {
+        "answer": "The video aims to visually illustrate the complex concepts of frequency spectrum, vibration modes, and spherical harmonics in an engaging and easy-to-understand manner.",
+        "question": "What does the video aim to achieve?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Teacher points to a graph showing the decay of a sound wave over time.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Teacher rotates the graph to reveal a frequency spectrum of the sound, showing multiple peaks.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Teacher explains that the spectrum consists of multiples of the fundamental frequency.",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          },
+          {
+            "description": "Teacher illustrates different vibration modes, showing their representation as waves and their corresponding positions on the spectrum.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Teacher"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Teacher"
+            ],
+            "description": "Teacher guides the viewers through the concepts, acting as a knowledgeable instructor."
+          }
+        ],
+        "contextualRelevance": "Introduction to sound wave decay and frequency spectrum.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious. The visuals are simple and informative, accompanying the teacher's clear and engaging explanation. The sound of a plucked string at the beginning piques interest and connects directly to the visuals.",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual transition to 3D graph adds depth and dynamism.",
+              "timestamp": "00:00:06.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Establishes the context of a vibrating string and its sound wave decay.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Introduces the frequency spectrum and highlights the multiple peaks corresponding to different vibration modes.",
+            "timestamp": "00:00:06.000"
+          },
+          {
+            "description": "Explains the concept of fundamental frequency and its multiples in the spectrum.",
+            "timestamp": "00:00:11.000"
+          },
+          {
+            "description": "Visually connects the wave representation of vibration modes to their corresponding peaks on the spectrum.",
+            "timestamp": "00:00:14.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Chalkboard with a graph of sound wave decay (A(t) vs. t)",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "3D graph showing frequency spectrum (A(f) vs. frequency)",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "name": "Small illustrations of vibrating strings with varying number of nodes ",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Sound waves, frequency, vibration modes, fundamental frequency, harmonics.",
+        "timestamps": {
+          "end_timestamp": "00:00:27.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1",
+        "videoEditingDetails": [
+          {
+            "description": "Transition from 2D graph to 3D graph rotation",
+            "timestamps": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Animated illustrations of vibrating strings appear above corresponding peaks on the spectrum",
+            "timestamps": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Animation of a wave with two fixed ends.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "description": "Illustration of half of the wavelength being highlighted.",
+            "timestamp": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Bridge between concept of vibration modes and spherical harmonics.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious. The simplified visual representation of a wave and its wavelength encourages curiosity and promotes understanding.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shows a wave with two fixed ends, representing either nodes or antinodes.",
+            "timestamp": "00:00:28.000"
+          },
+          {
+            "description": "Highlights half of the wavelength to illustrate the relationship between nodes/antinodes and wavelength.",
+            "timestamp": "00:00:34.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Chalkboard with animation of a wave and fixed ends represented by clock icons.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "name": "A square is drawn around half the wavelength of the wave.",
+            "timestamp": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Waves, nodes, antinodes, wavelength, boundary conditions (fixed ends).",
+        "timestamps": {
+          "end_timestamp": "00:00:48.000",
+          "start_timestamp": "00:00:27.040"
+        },
+        "title": "Scene 2",
+        "videoEditingDetails": [
+          {
+            "description": "Animated wave, drawing of a square",
+            "timestamps": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Animation of a wave with an open end.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          },
+          {
+            "description": "Transforming the wave into a semicircle and rotating it around an axis to create a 3D sphere with a nodal line.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.000",
+              "start_timestamp": "00:00:59.000"
+            }
+          },
+          {
+            "description": "Repeating the process for a wave with two nodes, resulting in a sphere with two nodal lines.",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:19.000"
+            }
+          },
+          {
+            "description": "Generalizing the process for various numbers of nodes (l = 1, l = 2, l = 3) and showing the resulting spheres with corresponding nodal lines.",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:01:45.000"
+            }
+          },
+          {
+            "description": "Rotating and reflecting the nodal lines on the spheres to illustrate different modes of vibration.",
+            "timestamp": {
+              "end_timestamp": "00:03:10.000",
+              "start_timestamp": "00:02:41.000"
+            }
+          },
+          {
+            "description": "Showing the possible modes of vibration with up to four nodal lines (l = 4).",
+            "timestamp": {
+              "end_timestamp": "00:03:39.000",
+              "start_timestamp": "00:03:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Advanced illustration of vibration modes in spherical harmonics.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious. The visualization of complex concepts like spherical harmonics through simple animations and rotations helps keep the viewer engaged and intrigued.",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual generalization of the process adds to the overall understanding and reinforces the concept.",
+              "timestamp": "00:01:45.000"
+            },
+            {
+              "changeDescription": "The introduction of rotating and reflecting nodal lines further enhances the visual complexity and adds another layer of understanding.",
+              "timestamp": "00:02:41.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Starts with a simple wave with an open end.",
+            "timestamp": "00:00:49.000"
+          },
+          {
+            "description": "Transforms the wave into a 3D sphere with one nodal line, showcasing the connection between linear and spherical modes.",
+            "timestamp": "00:00:59.000"
+          },
+          {
+            "description": "Introduces multiple nodes and shows the resulting spheres with varying nodal lines, corresponding to different l values.",
+            "timestamp": "00:01:19.000"
+          },
+          {
+            "description": "Introduces the concept of rotating and reflecting nodal lines to illustrate different m values for the same l value.",
+            "timestamp": "00:02:41.000"
+          },
+          {
+            "description": "Summarizes the process by showing possible modes for up to l = 4.",
+            "timestamp": "00:03:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Chalkboard with a wave animation and a red dot representing an open end.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          },
+          {
+            "name": "3D coordinate system, 3D sphere with nodal lines.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.000",
+              "start_timestamp": "00:00:59.000"
+            }
+          },
+          {
+            "name": "Multiple 3D spheres with various nodal line arrangements, labelled with corresponding l and m values.",
+            "timestamp": {
+              "end_timestamp": "00:03:39.000",
+              "start_timestamp": "00:01:19.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Spherical harmonics, nodal lines, azimuthal nodes, quantum numbers l and m, rotational symmetry, reflection symmetry.",
+        "timestamps": {
+          "end_timestamp": "00:03:42.040",
+          "start_timestamp": "00:00:48.040"
+        },
+        "title": "Scene 3",
+        "videoEditingDetails": [
+          {
+            "description": "Animated wave, drawing of a coordinate system.",
+            "timestamps": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          },
+          {
+            "description": "3D animation of spheres with nodal lines, dynamic camera movements, text labels (l = 1, l = 2, etc.), curved arrows representing rotation and reflection.",
+            "timestamps": {
+              "end_timestamp": "00:03:39.000",
+              "start_timestamp": "00:00:59.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The visual representation of spherical harmonics with up to four nodal lines (l = 4) is shown, representing the culmination of concepts.",
+        "timestamp": "00:03:10.000"
+      },
+      "description": "Understanding and visualizing complex wave and vibration concepts through educational illustrations.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment showing multiple vibration modes with increasing number of nodes could be shortened by removing some of the redundant illustrations. This would help maintain a higher pace and dynamism.",
+        "timestamps": {
+          "end_timestamp": "00:00:48.040",
+          "start_timestamp": "00:00:48.040"
+        }
+      },
+      {
+        "description": "The segment showing multiple spheres with increasing l values could also be shortened by showing only a few key examples.",
+        "timestamps": {
+          "end_timestamp": "00:02:41.000",
+          "start_timestamp": "00:01:45.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 222,
+  "original_json_filename": "Ziz7t1HHwBw.json",
+  "original_video_filename": "Ziz7t1HHwBw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "the spectrum of the vibrating string consists of multiples of the fundamental frequency f0 these specific modes of vibration can be classified according to the number of nodes there are generally two different types of framework conditions there can be either nodes or anti nodes at the edge physically this corresponds to either a closed end or an open end let us consider the simplest mode of vibration having two open ends it has one node in the middle and one anti node per each of the two edges let us now bend this vibration to form a semicircle rotating this semicircle around the z-axis will result in a sphere there is an azimuth or nodal line at the equator of the vibrating sphere we can perform the same steps for the following resonant frequency which has two nodes let us bend the vibration to a semicircle and again let the semicircle rotate around the z axis this results in a vibrating sphere having to azimuthal nodal lines we can repeat this on and on bending and rotating the vibration with L nodes results in a vibrating sphere with L nodal lines by definition these sphere vibrations are rotationally symmetric they are also their own reflection positioning the mirror plane exactly in the middle will result in an identical mirror image l specifies the total number of azimuth or nodal lines there is no nodal line for l equals 0 there is one nodal line for l equals one however this exceptionally symmetrical vibration does not reveal the full range of possibilities because we can also rotate the nodal line on the sphere let's rotate that nodal line to the right or reflect it to the left there are now two new modes of vibration on the spherical surface with one nodal line those are vibrations with an azimuthal nodal line that is rotating clockwise or anti-clockwise in the case of two nodal lines there is an option to rotate not just one but both nodal lines to the right and reflect their image to the left in the case of three nodal lines we can rotate first one line then two then all three nodal lines to the right and reflect their image to the left there are thus 2l plus one potential modes of vibration on the spherical surface with L nodal lines we can generate any number of basic modes on the two-dimensional spherical surface by adding and rotating nodal lines starting from the simplest vibration",
+  "text_to_speech_word_count": 419,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.160",
+      "start": "00:00:00.000",
+      "text": " The spectrum of the vibrating string consists of multiples of the fundamental frequency"
+    },
+    {
+      "end": "00:00:16.720",
+      "start": "00:00:11.160",
+      "text": " F0. These specific modes of vibration can be classified according to the number of"
+    },
+    {
+      "end": "00:00:17.240",
+      "start": "00:00:16.720",
+      "text": " nodes."
+    },
+    {
+      "end": "00:00:33.840",
+      "start": "00:00:30.840",
+      "text": " There are generally two different types of framework conditions."
+    },
+    {
+      "end": "00:00:39.360",
+      "start": "00:00:36.560",
+      "text": " There can be either nodes or anti-nodes at the edge."
+    },
+    {
+      "end": "00:00:46.480",
+      "start": "00:00:42.640",
+      "text": " Physically, this corresponds to either a closed end or an open end."
+    },
+    {
+      "end": "00:00:54.280",
+      "start": "00:00:50.640",
+      "text": " Let us consider the simplest mode of vibration having two open ends."
+    },
+    {
+      "end": "00:00:59.400",
+      "start": "00:00:54.840",
+      "text": " It has one node in the middle and one anti-node per each of the two edges."
+    },
+    {
+      "end": "00:01:04.160",
+      "start": "00:01:00.880",
+      "text": " Let us now bend this vibration to form a semicircle."
+    },
+    {
+      "end": "00:01:08.640",
+      "start": "00:01:04.400",
+      "text": " Rotating this semicircle around the Z axis will result in a sphere."
+    },
+    {
+      "end": "00:01:14.200",
+      "start": "00:01:09.800",
+      "text": " There is an azimuthal nodal line at the equator of the vibrating sphere."
+    },
+    {
+      "end": "00:01:21.680",
+      "start": "00:01:16.880",
+      "text": " We can perform the same steps for the following resonant frequency, which has two nodes."
+    },
+    {
+      "end": "00:01:33.120",
+      "start": "00:01:21.680",
+      "text": " Let us bend the vibration to a semicircle and again, let the semicircle rotate around the Z axis."
+    },
+    {
+      "end": "00:01:37.760",
+      "start": "00:01:33.440",
+      "text": " This results in a vibrating sphere having two azimuthal nodal lines."
+    },
+    {
+      "end": "00:01:42.000",
+      "start": "00:01:37.760",
+      "text": " We can repeat this on and on."
+    },
+    {
+      "end": "00:01:48.480",
+      "start": "00:01:42.000",
+      "text": " Bending and rotating the vibration with L nodes results in a vibrating sphere with L nodal lines."
+    },
+    {
+      "end": "00:01:53.360",
+      "start": "00:01:48.480",
+      "text": " By definition, these sphere vibrations are rotationally symmetric."
+    },
+    {
+      "end": "00:01:56.560",
+      "start": "00:01:53.360",
+      "text": " They are also their own reflection."
+    },
+    {
+      "end": "00:02:00.800",
+      "start": "00:01:56.560",
+      "text": " The result is that the vibration of the Z axis is a constant."
+    },
+    {
+      "end": "00:02:04.000",
+      "start": "00:02:00.800",
+      "text": " These vibrations are rotationally symmetric."
+    },
+    {
+      "end": "00:02:07.360",
+      "start": "00:02:04.000",
+      "text": " They are also their own reflection."
+    },
+    {
+      "end": "00:02:15.320",
+      "start": "00:02:09.040",
+      "text": " Positioning the mirror plane exactly in the middle will result in an identical mirror image."
+    },
+    {
+      "end": "00:02:20.040",
+      "start": "00:02:15.320",
+      "text": " L specifies the total number of azimuthal nodal lines."
+    },
+    {
+      "end": "00:02:28.160",
+      "start": "00:02:23.840",
+      "text": " There is no nodal line for L equals zero."
+    },
+    {
+      "end": "00:02:31.160",
+      "start": "00:02:28.240",
+      "text": " There is one nodal line for L equals one."
+    },
+    {
+      "end": "00:02:37.760",
+      "start": "00:02:31.160",
+      "text": " However, this exceptionally symmetrical vibration does not reveal the full range of possibilities,"
+    },
+    {
+      "end": "00:02:40.800",
+      "start": "00:02:37.760",
+      "text": " because we can also rotate the nodal line on the sphere."
+    },
+    {
+      "end": "00:02:46.560",
+      "start": "00:02:42.400",
+      "text": " Let's rotate that nodal line to the right or reflect it to the left."
+    },
+    {
+      "end": "00:02:52.880",
+      "start": "00:02:47.520",
+      "text": " There are now two new modes of vibration on the spherical surface with one nodal line."
+    },
+    {
+      "end": "00:02:59.360",
+      "start": "00:02:52.960",
+      "text": " Those are vibrations with an azimuthal nodal line that is rotating clockwise or anti-clockwise."
+    },
+    {
+      "end": "00:03:03.520",
+      "start": "00:02:59.360",
+      "text": " In the case of two nodal lines, there is an option to rotate not just one,"
+    },
+    {
+      "end": "00:03:07.600",
+      "start": "00:03:03.520",
+      "text": " but both nodal lines to the right and reflect their image to the left."
+    },
+    {
+      "end": "00:03:15.040",
+      "start": "00:03:10.160",
+      "text": " In the case of three nodal lines, we can rotate first one line, then two,"
+    },
+    {
+      "end": "00:03:19.440",
+      "start": "00:03:15.040",
+      "text": " then all three nodal lines to the right and reflect their image to the left."
+    },
+    {
+      "end": "00:03:27.360",
+      "start": "00:03:20.400",
+      "text": " There are thus two L plus one potential modes of vibration on the spherical surface with L nodal lines."
+    },
+    {
+      "end": "00:03:33.600",
+      "start": "00:03:28.720",
+      "text": " We can generate any number of basic modes on the two-dimensional spherical surface"
+    },
+    {
+      "end": "00:03:40.000",
+      "start": "00:03:33.600",
+      "text": " by adding and rotating nodal lines, starting from the simplest vibration."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "QuantumVisions ",
+  "youtube_channel_follower_count": 5750,
+  "youtube_comment_count": 101,
+  "youtube_description": "We describe the possible fundamental vibrations on a sphere in three dimensions by counting, mirroring and rotating nodal lines.\nThis video ist part of the online course www.quantumreflections.net dealing with quantum physics, produced by the institute for physics education research, Münster university (Germany)\n\n\nFor more videos on quantum physics, please visit:\nhttp://www.quantumvisions.net/en/",
+  "youtube_like_count": 2017,
+  "youtube_tags": [
+    "spherical harmonics",
+    "nodal lines",
+    "angular momentum",
+    "quantum numbers",
+    "quantum physics",
+    "explained"
+  ],
+  "youtube_title": "Spherical Harmonics (U2-05-05)",
+  "youtube_upload_date": "20190625",
+  "youtube_view_count": 51933
+}

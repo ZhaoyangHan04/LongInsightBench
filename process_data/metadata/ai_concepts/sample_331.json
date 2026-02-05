@@ -1,0 +1,354 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice, not visually present in the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "The video discusses the vulnerability of Deep Neural Networks to out-of-distribution (OOD) data, evaluates existing approaches, and introduces the Guaranteed Out-Of-Distribution Detection (GOOD) method, highlighting its advantages.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "100% (dog)",
+        "question": "What is the confidence score of the standard model on the chimpanzee image before any manipulation?"
+      },
+      {
+        "answer": "15% (dog)",
+        "question": "What is the confidence score of the GOOD model on the slightly manipulated chimpanzee image on the right?"
+      },
+      {
+        "answer": "Guaranteed Out-Of-Distribution Detection",
+        "question": "What does \"GOOD\" stand for in this presentation?"
+      },
+      {
+        "answer": "22.7%",
+        "question": "What is the maximum confidence score that GOOD guarantees for any OOD input within a specific perturbation radius around the chimpanzee image?"
+      },
+      {
+        "answer": "Real-world scenarios often involve encountering data from distributions that were not present during training.",
+        "question": "Why is it important for OOD detection methods to generalize to unseen distributions?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Presentation of title and authors",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Explanation of OOD vulnerability",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "Introduction of Outlier Exposure (OE)",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "description": "Explanation of perturbation vulnerability",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:15.000"
+            }
+          },
+          {
+            "description": "Introduction of the GOOD method",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "description": "Presentation of GOOD results",
+            "timestamp": {
+              "end_timestamp": "00:03:02.000",
+              "start_timestamp": "00:02:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction of a technical problem and a proposed solution",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Problem statement: Deep Neural Networks misclassify OOD inputs with high confidence.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Existing approaches (OE) reduce OOD confidence but are still vulnerable to perturbations.",
+            "timestamp": "00:01:07.000"
+          },
+          {
+            "description": "Proposed solution: GOOD method provides guarantees on low confidence for OOD data, even under perturbations.",
+            "timestamp": "00:01:30.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides",
+            "timestamp": {
+              "end_timestamp": "00:03:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Images of a dog and a chimpanzee",
+            "timestamp": {
+              "end_timestamp": "00:03:02.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "name": "Textual information explaining concepts and results",
+            "timestamp": {
+              "end_timestamp": "00:03:02.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Robustness, Verification, Generalization",
+        "timestamps": {
+          "end_timestamp": "00:03:03.320",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to OOD and Detection Methods",
+        "videoEditingDetails": [
+          {
+            "description": "Slide transitions using a simple fade effect.",
+            "timestamps": {
+              "end_timestamp": "00:03:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "No music or special effects.",
+            "timestamps": {
+              "end_timestamp": "00:03:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Presentation of GOOD method's results and its advantages",
+        "timestamp": "00:02:11.000"
+      },
+      "description": "The vulnerability of Deep Neural Networks to OOD data, existing approaches, and the proposed solution (GOOD method) with its advantages.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Certifiably Adversarially Robust Detection of Out-of-Distribution Data",
+    "trimmingSuggestions": [
+      {
+        "description": "Title and authors could be shortened or moved to the end.",
+        "timestamps": {
+          "end_timestamp": "00:00:12.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "The explanation of Outlier Exposure (OE) could be condensed.",
+        "timestamps": {
+          "end_timestamp": "00:01:14.000",
+          "start_timestamp": "00:01:07.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 183,
+  "original_json_filename": "D6pLNct7Kgs.json",
+  "original_video_filename": "D6pLNct7Kgs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello and welcome to the presentation of the paper on certifiably adversarially robust detection of out of distribution data that i did together with alex meinke and matthias hein at uni tubingen when we have a deep neural network classifier for c410 that is trained for distinguishing dogs and mine other classes like cuts and ships and we now feed an input into this classifier that does not belong to any of these classes like the chimpanzee here on the right then the model is often still very confident that it classifies this input correctly like here it is 100 percent certain that the chimpanzee is a dog we call such inputs out of distribution short ood and by confidence we mean the highest predicted probability in any of the classes one problem with such high confidence predictions is that the model does not recognize that it operates outside of its specification and should trigger human intervention or for example if it's a self-driving vehicle it should better slow down now there are approaches like outlaw exposure does produce models that do have low confidence on ood inputs but for those models it can still be possible to construct imperceptible perturbations to arrive at images like the slightly manipulated chimpanzee here on the very right where even outlier exposure has 100 confidence what we now aim to do is to guarantee that no such high confidence perturbation exists and for this we regard the context of an l infinity threat model which means that each individual pixel value can be changed by up to a certain epsilon to maximize confidence and then we look at the worst confidence that can occur this way using interval bound propagation we derive mathematical upper bounds on the confidence and then during training we minimize those upper bounds on our d inputs and at the same time we keep the cross entropy loss on the in distribution what we get from this procedure are good models that indeed provide low confidence guarantees on many kinds of ood inputs and those guarantees even generalize to new distributions that have never been seen during training while other provable robustness methods severely reverse some test error with good there is almost no drop in in distribution accuracy finally regarding the quality of the guarantees the guarantees are often better than worst case samples we can find for standard methods for example we can guarantee that no small perturbation increases the confidence of good on this chimpanzee above 22.7 percent",
+  "text_to_speech_word_count": 422,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.360",
+      "start": "00:00:00.000",
+      "text": " Hello and welcome to the presentation of the paper on certifiably adversarily"
+    },
+    {
+      "end": "00:00:10.000",
+      "start": "00:00:05.360",
+      "text": " robust detection of all of the distribution data that I did together with Alex"
+    },
+    {
+      "end": "00:00:14.480",
+      "start": "00:00:10.000",
+      "text": " Mankke and Matthias Haien at Uni tubing in. When we have a deep neural network"
+    },
+    {
+      "end": "00:00:19.600",
+      "start": "00:00:14.480",
+      "text": " classifier for C410, there is trained for distinguishing dogs and mine other"
+    },
+    {
+      "end": "00:00:24.640",
+      "start": "00:00:19.600",
+      "text": " classes like cats and chips and we now feed an input into this classifier that"
+    },
+    {
+      "end": "00:00:29.040",
+      "start": "00:00:24.640",
+      "text": " does not belong to any of these classes, like to simply see here on the right."
+    },
+    {
+      "end": "00:00:34.840",
+      "start": "00:00:29.240",
+      "text": " Then the model is often still very confident that it classifies this input correctly,"
+    },
+    {
+      "end": "00:00:42.160",
+      "start": "00:00:34.840",
+      "text": " like here it is 100% certain that the chimpanzee is a dog. We call such inputs out of"
+    },
+    {
+      "end": "00:00:47.560",
+      "start": "00:00:42.160",
+      "text": " distribution, short OOD, and by confidence we mean the highest predicted"
+    },
+    {
+      "end": "00:00:52.720",
+      "start": "00:00:47.560",
+      "text": " probability in any of the classes. One problem with such high confidence"
+    },
+    {
+      "end": "00:00:57.360",
+      "start": "00:00:52.720",
+      "text": " predictions is that the model does not recognize that it operates outside of"
+    },
+    {
+      "end": "00:01:02.640",
+      "start": "00:00:57.360",
+      "text": " its specification and should trigger human intervention or for example if it's"
+    },
+    {
+      "end": "00:01:08.400",
+      "start": "00:01:02.640",
+      "text": " the self-driving vehicle it should better slow down. Now there are approaches like"
+    },
+    {
+      "end": "00:01:15.280",
+      "start": "00:01:08.400",
+      "text": " outlay exposure that produce models that do have low confidence on OOD inputs but"
+    },
+    {
+      "end": "00:01:20.800",
+      "start": "00:01:15.280",
+      "text": " for those models it can still be possible to construct imperceptible perturbations,"
+    },
+    {
+      "end": "00:01:26.080",
+      "start": "00:01:20.800",
+      "text": " to have it images like the slightly manipulated chimpanzee here on the right."
+    },
+    {
+      "end": "00:01:33.520",
+      "start": "00:01:26.160",
+      "text": " Where even outlay exposure has 100% confidence. What we now aim to do is to guarantee"
+    },
+    {
+      "end": "00:01:40.160",
+      "start": "00:01:33.520",
+      "text": " that no such high confidence perturbation exists and for this we regard the context of an"
+    },
+    {
+      "end": "00:01:47.120",
+      "start": "00:01:40.160",
+      "text": " L infinity threat model which means that each individual pixel value can be changed by up to a"
+    },
+    {
+      "end": "00:01:54.320",
+      "start": "00:01:47.120",
+      "text": " certain epsilon to maximize confidence and then we look at the worst confidence that can occur"
+    },
+    {
+      "end": "00:02:00.400",
+      "start": "00:01:54.720",
+      "text": " this way. Using interval bound propagation we derive mathematical upper bounds on the"
+    },
+    {
+      "end": "00:02:07.160",
+      "start": "00:02:00.400",
+      "text": " confidence and then during training we minimize those upper bounds on OOD inputs and at the same"
+    },
+    {
+      "end": "00:02:13.440",
+      "start": "00:02:07.160",
+      "text": " time we keep the cross entropy loss on the indistribution. What we get from this procedure are"
+    },
+    {
+      "end": "00:02:21.440",
+      "start": "00:02:13.440",
+      "text": " good models that indeed provide low confidence guarantees on many kinds of OOD inputs and those"
+    },
+    {
+      "end": "00:02:27.760",
+      "start": "00:02:21.440",
+      "text": " guarantees even generalize to new distributions that have never been seen during training."
+    },
+    {
+      "end": "00:02:35.320",
+      "start": "00:02:28.560",
+      "text": " While other programmable robustness methods severely worsen test error with good there is almost"
+    },
+    {
+      "end": "00:02:42.440",
+      "start": "00:02:35.320",
+      "text": " no drop in indistribution accuracy. Finally regarding the quality of the guarantees"
+    },
+    {
+      "end": "00:02:50.000",
+      "start": "00:02:43.160",
+      "text": " the guarantees are often better than worst case samples we can find for standard methods."
+    },
+    {
+      "end": "00:02:57.600",
+      "start": "00:02:50.640",
+      "text": " For example we can guarantee that no small perturbation increases the confidence of good"
+    },
+    {
+      "end": "00:03:01.200",
+      "start": "00:02:57.600",
+      "text": " on this chimpanzee above 22.7%."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Julian Bitterwolf",
+  "youtube_channel_follower_count": 0,
+  "youtube_comment_count": 0,
+  "youtube_description": "Presentation of the paper \"Certifiably Adversarially Robust Detection of Out-of-Distribution Data\" by Julian Bitterwolf, Alexander Meinke and Matthias Hein from the University of Tübingen. \n\nThe paper was presented at NeurIPS 2020:\nhttps://neurips.cc/virtual/2020/protected/poster_b90c46963248e6d7aab1e0f429743ca0.html\n\narXiv:\nhttps://arxiv.org/abs/2007.08473\n\nPresentation with video:\nhttps://slideslive.com/embed/presentation/38937590",
+  "youtube_like_count": 0,
+  "youtube_tags": [],
+  "youtube_title": "Certifiably Adversarially Robust Detection of Out-of-Distribution Data [NeurIPS 2020]",
+  "youtube_upload_date": "20210920",
+  "youtube_view_count": 103
+}

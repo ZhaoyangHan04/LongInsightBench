@@ -1,0 +1,458 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "narrator",
+        "description": "Male voice, energetic and enthusiastic, providing instructions and commentary.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "This tutorial guides through the process of saving poses in Blender, including how to avoid common pitfalls.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "It saves the pose library data, preventing its loss when the Blender file is closed.",
+        "question": "What does the 'Fake User' button do in Blender?"
+      },
+      {
+        "answer": "It's not enabled by default, leading to potential data loss if users are unaware of its function.",
+        "question": "Why does the narrator get frustrated about the 'Fake User' button?"
+      },
+      {
+        "answer": "Yes, you can add as many new poses as needed by repeating the process shown in the tutorial.",
+        "question": "Can you add multiple poses to a pose library in Blender?"
+      },
+      {
+        "answer": "Select the desired pose from the library and click on the magnifying glass icon.",
+        "question": "How do you apply a saved pose to your model in Blender?"
+      },
+      {
+        "answer": "The video is an informative tutorial aimed at teaching viewers how to save poses in Blender. The mood is generally enthusiastic and helpful, with a brief moment of frustration when highlighting a critical user error pitfall.",
+        "question": "What is the overall mood and purpose of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The narrator introduces the problem of saving specific bone positions in Blender.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sets up the problem which is essential for understanding the tutorial.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Curious) - The narrator sets up a common problem faced in 3D animation, prompting curiosity in the viewer.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the problem and piquing viewer interest in the solution.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a female body",
+            "timestamp": {
+              "end_timestamp": "00:00:05.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Blender interface",
+            "timestamp": {
+              "end_timestamp": "00:00:05.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The tutorial focuses on solving a technical issue in Blender.",
+        "timestamps": {
+          "end_timestamp": "00:00:05.900",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Problem Setup",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom in on the hand of the 3D model",
+            "timestamps": {
+              "end_timestamp": "00:00:05.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator details the step-by-step process of saving a new pose in Blender, including selecting bones, accessing the Pose Library, and creating a new pose.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Providing the technical steps to solve the issue raised in the introduction.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Informative) - The focus is on clear, concise instructions, maintaining a neutral and informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Providing a solution to the problem introduced in the previous scene.",
+            "timestamp": "00:00:06.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a female body",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "name": "Blender interface",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Instructional content focusing on applying technical skills in Blender.",
+        "timestamps": {
+          "end_timestamp": "00:00:17.000",
+          "start_timestamp": "00:00:05.933"
+        },
+        "title": "Solution - Saving a New Pose",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with cursor highlighting actions, text overlays indicating steps",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator emphasizes the importance of saving the pose library to avoid data loss.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights a crucial step to avoid common user pitfalls in Blender.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Negative (Angry) - The narrator's tone becomes frustrated and urgent, highlighting a critical pitfall in the process. The sudden black screen with code visually emphasizes the possibility of data loss.",
+          "keyMoments": [
+            {
+              "changeDescription": "The visual transition to a black screen emphasizes the potential for data loss.",
+              "timestamp": "00:00:21.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing a critical cautionary point and emphasizing its importance to prevent user error.",
+            "timestamp": "00:00:17.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a female body",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          },
+          {
+            "name": "Blender interface",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Cautionary advice on avoiding data loss in Blender.",
+        "timestamps": {
+          "end_timestamp": "00:00:34.000",
+          "start_timestamp": "00:00:17.033"
+        },
+        "title": "Critical Warning",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with cursor highlighting the 'Fake User' button, sudden transition to a black screen with code, followed by a return to Blender",
+            "timestamps": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:17.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator briefly demonstrates how to add multiple poses and replace existing ones.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:34.033"
+            }
+          },
+          {
+            "description": "The narrator concludes the tutorial, prompting viewers to like, subscribe, and check out other content.",
+            "timestamp": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides additional information and a call to action for the audience to stay engaged.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Positive (Happy) - The tutorial ends on a positive note, encouraging viewer engagement and promoting other content.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Wrapping up the tutorial by showcasing additional features and concluding with a call to action.",
+            "timestamp": "00:00:34.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a female body",
+            "timestamp": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:34.033"
+            }
+          },
+          {
+            "name": "Blender interface",
+            "timestamp": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:34.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Encouragement for further engagement and exploration of more content.",
+        "timestamps": {
+          "end_timestamp": "00:00:59.100",
+          "start_timestamp": "00:00:34.033"
+        },
+        "title": "Additional Features and Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording with cursor highlighting actions",
+            "timestamps": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:34.033"
+            }
+          },
+          {
+            "description": "Overlaid text and graphics promoting social media, Patreon, and the narrator's game",
+            "timestamps": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs when the narrator urgently warns about the importance of saving the pose library, highlighting the most critical point in the tutorial.",
+        "timestamp": "00:00:17.000"
+      },
+      "description": "The tutorial provides a thorough guide on saving poses in Blender, emphasizing key steps and common pitfalls.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Blender Tutorial - Saving Poses",
+    "trimmingSuggestions": [
+      {
+        "description": "The black screen with code could be shortened to maintain the video's pacing.",
+        "timestamps": {
+          "end_timestamp": "00:00:34.033",
+          "start_timestamp": "00:00:34.033"
+        }
+      },
+      {
+        "description": "The concluding section with social media promotions could be condensed or moved to the end screen to maintain focus on the tutorial.",
+        "timestamps": {
+          "end_timestamp": "00:00:58.000",
+          "start_timestamp": "00:00:48.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 59,
+  "original_json_filename": "MTbbWQRbBps.json",
+  "original_video_filename": "MTbbWQRbBps.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so you just wish you could save the position of certain bones and call them whenever you want not a problem in order to save a pose select all the bones involved under the running man go to pose libraries now press the + add new and name the pose whatever you want you're done and when you're done make sure that you check this button otherwise you will lose all of your data even if you save why the flying [&nbsp;__&nbsp;] this isn't set to on by default is beyond me but make sure that button is checked or everything you did that day is gone you can add as many new poses as you want by repeating the process and selecting add new or if you want to change an old pose select it fix your bones and click replace existing once you've got all your poses you can activate them by picking one and clicking on the magnifying glass anyway hope that helps if you enjoyed this video please don't forget to Like subscribe and ring that bell hope you have a fantastic day and I'll see you around",
+  "text_to_speech_word_count": 192,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.000",
+      "start": "00:00:00.000",
+      "text": " So, you just wish you could save the position of certain bones and call them whenever you want."
+    },
+    {
+      "end": "00:00:06.300",
+      "start": "00:00:05.000",
+      "text": " Not a problem."
+    },
+    {
+      "end": "00:00:11.700",
+      "start": "00:00:06.300",
+      "text": " In order to save a pose, select all the bones involved, under the run-and-man, go to pose libraries,"
+    },
+    {
+      "end": "00:00:15.800",
+      "start": "00:00:11.700",
+      "text": " new, press the plus, add new, and name the pose whatever you want."
+    },
+    {
+      "end": "00:00:16.600",
+      "start": "00:00:15.800",
+      "text": " You're done."
+    },
+    {
+      "end": "00:00:21.300",
+      "start": "00:00:16.600",
+      "text": " And when you're done, make sure that you check this button."
+    },
+    {
+      "end": "00:00:25.900",
+      "start": "00:00:21.300",
+      "text": " Otherwise, you will lose all of your data even if you save."
+    },
+    {
+      "end": "00:00:30.000",
+      "start": "00:00:26.000",
+      "text": " Why the flying f**k this isn't set to on by default is beyond me."
+    },
+    {
+      "end": "00:00:34.500",
+      "start": "00:00:30.000",
+      "text": " But make sure that button is checked or everything you did that day is gone."
+    },
+    {
+      "end": "00:00:39.200",
+      "start": "00:00:34.500",
+      "text": " You can add as many new poses as you want by repeating the process and select an add new."
+    },
+    {
+      "end": "00:00:43.700",
+      "start": "00:00:39.200",
+      "text": " Or if you want to change an old pose, select it, fix your bones, and click replace existence."
+    },
+    {
+      "end": "00:00:49.500",
+      "start": "00:00:43.700",
+      "text": " Once you've got all your poses, you can activate them by picking one and clicking on the magnifying glass."
+    },
+    {
+      "end": "00:00:50.800",
+      "start": "00:00:49.500",
+      "text": " Anyway, hope that helps."
+    },
+    {
+      "end": "00:00:54.700",
+      "start": "00:00:50.800",
+      "text": " If you enjoyed this video, please don't forget to like, subscribe, and ring that bell."
+    },
+    {
+      "end": "00:00:58.800",
+      "start": "00:00:54.700",
+      "text": " Hope you have a fantastic day, and I'll see you around."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Royal Skies",
+  "youtube_channel_follower_count": 234000,
+  "youtube_comment_count": 256,
+  "youtube_description": "I present to you THE easiest and most effective way to store all your most important poses in Blender 2.82!!! Hope it helps :) \n\nFemale Body Model Link:\nhttps://www.youtube.com/watch?v=_XfvLpLyulI\n\nIf you enjoyed this video, please don't forget to like and subscribe!\nYou can find my entire Blender 2.8 Rigging Series here: \nhttps://www.youtube.com/watch?v=PFaqjwpGxOc&list=PLZpDYt0cyiusytIPAOTPRzsa4GK6LgY3_\nAlso, you find me on twitter at: https://twitter.com/TheRoyalSkies\n\nI also have a small 1$ Patreon perk available for anyone who would like to simply support the channel. Please check it out if you get the chance :) \nhttps://www.patreon.com/RoyalSkies\n\nIf you're a gamer, please check out my new game on steam! It took over 3 years to create and has thousands of hours and heart put into it :) \nhttps://store.steampowered.com/app/652890/Vanguard_Knights/\n\nAs always, thank you so much for watching, please have a fantastic day, and see you around!\n\n- Royal Skies -\n-------------------------------",
+  "youtube_like_count": 5596,
+  "youtube_tags": [
+    "royal",
+    "blender 2.8",
+    "2.8",
+    "blender",
+    "blender 3d",
+    "rigging",
+    "rig",
+    "character rig",
+    "bone",
+    "joint",
+    "character armature",
+    "3d",
+    "3d animation",
+    "animation",
+    "3d model",
+    "model",
+    "anime character",
+    "character",
+    "tutorial",
+    "weight paint",
+    "blender rigging",
+    "rigging tutorial",
+    "2.8 rig",
+    "2.82",
+    "blender tutorial",
+    "blender rig tutorial",
+    "blender rigging tutorial",
+    "blender skeleton",
+    "bones",
+    "joints",
+    "paint",
+    "pose",
+    "library",
+    "libraries",
+    "pose library",
+    "pose libraries",
+    "blender pose",
+    "blender pose libraries",
+    "pose library tutorial",
+    "multiple",
+    "animations"
+  ],
+  "youtube_title": "Blender 2.82 : Pose Libraries (In 10 Seconds!!!)",
+  "youtube_upload_date": "20200511",
+  "youtube_view_count": 142350
+}

@@ -1,0 +1,499 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "Person",
+        "description": "A man in a light blue striped shirt, dark trousers is present in the video. Only his hands are visible.",
+        "name": "Person"
+      }
+    ],
+    "description": "A demonstration video explaining the workings of an interferometer, focusing on wave interference and path length differences.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The lens is used to focus the laser beam onto the beam splitter cube. By bringing the light to a focus, it ensures that the two beams emerging from the cube are diverging, which is necessary to create the interference pattern on the screen.",
+        "question": "What is the purpose of the lens in the interferometer setup?"
+      },
+      {
+        "answer": "The rings arise from the interference of spherical waves. When the light passes through the lens and comes to a focus, it spreads out as spherical wavefronts. The two spherical waves from the different arms of the interferometer then interfere with each other, creating concentric rings of bright and dark fringes.",
+        "question": "Why does the interference pattern consist of rings?"
+      },
+      {
+        "answer": "When the mirror is pressed gently, the ring pattern contracts towards the center. This happens because pressing the mirror changes the path length of one of the beams by a small amount, causing a shift in the positions of the fringes.",
+        "question": "What happens to the ring pattern when the mirror on the translation stage is pressed gently?"
+      },
+      {
+        "answer": "When the mirror is moved rapidly, the fringes fly by so quickly that the human eye cannot resolve them. This is because the fringe spacing becomes very small, exceeding the eye's spatial resolution limit, resulting in a blurred appearance.",
+        "question": "Why does the ring pattern disappear when the mirror is moved rapidly?"
+      },
+      {
+        "answer": "The ring pattern expands outward after the mirror is moved to a different position because the relative path length difference between the two beams has changed. By moving the mirror closer to the beam splitter, the path length of that arm is shortened, leading to a different interference pattern where the rings expand outwards when the mirror is pressed.",
+        "question": "Why does the ring pattern expand outward when the mirror is pressed after being moved to a different position?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The Person introduces an interferometer.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.005",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The Person describes the components of the interferometer and how light travels through it.",
+            "timestamp": {
+              "end_timestamp": "00:00:55.989",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "description": "The Person shows an interference pattern on the screen",
+            "timestamp": {
+              "end_timestamp": "00:01:10.003",
+              "start_timestamp": "00:00:55.989"
+            }
+          },
+          {
+            "description": "The Person explains the translation stage and the knob",
+            "timestamp": {
+              "end_timestamp": "00:02:17.004",
+              "start_timestamp": "00:01:10.003"
+            }
+          },
+          {
+            "description": "The Person presses on the mirror and observes the ring pattern contracts",
+            "timestamp": {
+              "end_timestamp": "00:02:39.993",
+              "start_timestamp": "00:02:17.004"
+            }
+          },
+          {
+            "description": "The Person turns the knob and moves the mirror in a direction",
+            "timestamp": {
+              "end_timestamp": "00:03:06.987",
+              "start_timestamp": "00:02:39.993"
+            }
+          },
+          {
+            "description": "The Person explains how the ring pattern changes by moving the mirror",
+            "timestamp": {
+              "end_timestamp": "00:04:09.015",
+              "start_timestamp": "00:03:06.987"
+            }
+          },
+          {
+            "description": "The Person continues translating the mirror",
+            "timestamp": {
+              "end_timestamp": "00:04:30.003",
+              "start_timestamp": "00:04:09.015"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Person"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The use of a bull's eye pattern as the initial interference pattern draws a parallel to precision in optics, highlighting observation limitations and interference phenomenon sensitivity to setup changes.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the interferometer.",
+            "timestamp": "00:00:01.001"
+          },
+          {
+            "description": "The Person shows the initial interference pattern - the bull's eye.",
+            "timestamp": "00:00:55.989"
+          },
+          {
+            "description": "Explanation of the translation stage and the knob for mirror movement.",
+            "timestamp": "00:01:10.003"
+          },
+          {
+            "description": "Demonstration of how pressing on the mirror causes the ring pattern to contract.",
+            "timestamp": "00:02:17.004"
+          },
+          {
+            "description": "Movement of the mirror using the knob and observation of the changing interference pattern.",
+            "timestamp": "00:02:39.993"
+          },
+          {
+            "description": "The Person continues moving the mirror, noting that the ring pattern gets larger.",
+            "timestamp": "00:03:06.987"
+          },
+          {
+            "description": "Further translation of the mirror and observation of the ring pattern reappearance, now expanding outwards when pressed.",
+            "timestamp": "00:04:09.015"
+          }
+        ],
+        "props": [
+          {
+            "name": "Interferometer",
+            "timestamp": {
+              "end_timestamp": "00:00:05.005",
+              "start_timestamp": "00:00:01.001"
+            }
+          },
+          {
+            "name": "Laser",
+            "timestamp": {
+              "end_timestamp": "00:00:10.010",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "name": "Mirrors",
+            "timestamp": {
+              "end_timestamp": "00:00:14.014",
+              "start_timestamp": "00:00:10.010"
+            }
+          },
+          {
+            "name": "Lens",
+            "timestamp": {
+              "end_timestamp": "00:00:16.016",
+              "start_timestamp": "00:00:14.014"
+            }
+          },
+          {
+            "name": "Beam splitter cube",
+            "timestamp": {
+              "end_timestamp": "00:00:55.989",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "name": "Translation stage",
+            "timestamp": {
+              "end_timestamp": "00:01:19.012",
+              "start_timestamp": "00:01:10.003"
+            }
+          },
+          {
+            "name": "Knob",
+            "timestamp": {
+              "end_timestamp": "00:02:17.004",
+              "start_timestamp": "00:01:19.012"
+            }
+          },
+          {
+            "name": "Screen",
+            "timestamp": {
+              "end_timestamp": "00:01:10.003",
+              "start_timestamp": "00:00:55.989"
+            }
+          }
+        ],
+        "sceneId": 0,
+        "thematicElements": "The video demonstrates the principle of wave interference using an interferometer, emphasizing the importance of path length difference and encouraging scientific observation.",
+        "timestamps": {
+          "end_timestamp": "00:05:00.967",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Interferometer Introduction and Demonstration",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Further translation of the mirror and observation of the ring pattern reappearance, now expanding outwards when pressed.",
+        "timestamp": "00:04:09.015"
+      },
+      "description": "Demonstration and explanation of an interferometer. The scene shows the components of an interferometer and how it is used to demonstrate wave interference by moving one of the mirrors.",
+      "scenes": [
+        0
+      ]
+    },
+    "title": "Interferometer Demonstration",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten the initial explanation of the interferometer's components, focusing on key elements.",
+        "timestamps": {
+          "end_timestamp": "00:00:55.989",
+          "start_timestamp": "00:00:05.005"
+        }
+      },
+      {
+        "description": "Trim the section where the ring pattern disappears due to rapid mirror movement to maintain interest.",
+        "timestamps": {
+          "end_timestamp": "00:03:06.987",
+          "start_timestamp": "00:02:39.993"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 301,
+  "original_json_filename": "TZ8RdkXv2Fs.json",
+  "original_video_filename": "TZ8RdkXv2Fs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so here's our interferometer let's take a look starting from the laser beam travels to the mirror second mirror through a lens the beam splitter cube is the part that actually takes the beam and splits it up into two separate beings one going straight through one going on from right ankle each of the two beams hits a mirror and gets reflected straight back where it came from so the beam from this mirror goes back into the cube gets split up again passing part of the beam through and part of the beam coming out this way being from this mirror reflected back towards the cube again part of its splitting off towards the mirror and part of it passing through - straight through so we end up with two beams coming out in this direction to hit our screen now you see an interference pattern giving us the familiar bullseye that you've probably seen in previous course this mirror you'll note is that this especially mounted on a translation stage so we can actually easily move it back and forth in this direction by turning this knob the knob is marked off in a millimeter scale we can see it's reading just about ten millimeters now meaning I've got about 10 millimeters worth of travel where I could still push this mirror in this direction so let's look at the interference pattern and see what happens when we translate this mirror around a little bit first we see the interference pattern our bull's eye pattern and you think about why line rings why does it look like a bull's-eye peg I'm interfering a plane way with a plane waiting the whole thing should either go light or dark all at once but it's not plain waves revealing after the light goes through the lens right it comes to focus right here the light is actually a spherical wave so think about what happens when you interfere one spherical wave with another spherical wave all right so if I reach in here and push with my finger on the back of this mirror just a little bit you can see the ring pattern contracts towards the middle as I exert pressure on that mirror all the Rings move inward so remember that right when the mirror is current position I push on the back the Rings move inward now I'm going to turn the knob and move the mirror continuously in that direction and let's see what happens to the interference the first thing you notice is as I'm turning the knob the ring pattern becomes invisible because the fringes are flying by so quickly you can't resolve the second thing the second thing you notice is I move that you're closer to the the beam splitter is to repair and gets larger and now our frames actually don't look too much like rings anymore you're starting to get a little distorted so at this point looking at rings anymore we just kind of kind of a squiggly line over there but at this point a more or less made the length of this arm exactly equal to the length of that arm because our optics aren't perfectly flattening or that takes them our nice symmetric waves and kind of distorts them because the beams the Rays are not reflecting off flat surfaces our scale now reads something like a little more than seven millimeters so I've translated here about three three millimeters closer to the cube and then we have a somewhat different learning pattern I'm going to keep translating it in this direction a few more millimeters and we see as I do that our ring pattern now reappears and I make a slight adjustment into the mirror to get centered on the screen all right now we're back to looking at a ring pattern again except now when I press with my finger on the stage over here the Rings go outward instead of inward so this is different behavior from what we saw when this mirror was on the other side of where the two arm lengths are the same length",
+  "text_to_speech_word_count": 697,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.976",
+      "start": "00:00:00.000",
+      "text": " So here's our interferometer. Let's take a look. Starting from the laser, beam"
+    },
+    {
+      "end": "00:00:17.818",
+      "start": "00:00:08.976",
+      "text": " travels to the mirror, second mirror through a lens. The beam splitter cube is the"
+    },
+    {
+      "end": "00:00:22.990",
+      "start": "00:00:17.818",
+      "text": " part that actually takes the beam and splits it up into two separate beams. One"
+    },
+    {
+      "end": "00:00:29.396",
+      "start": "00:00:22.990",
+      "text": " going straight through, one going out from a right ankle. Each of the two beams"
+    },
+    {
+      "end": "00:00:34.368",
+      "start": "00:00:29.396",
+      "text": " hits a mirror and gets reflected straight back where it came from. So the beam"
+    },
+    {
+      "end": "00:00:40.040",
+      "start": "00:00:34.368",
+      "text": " from this mirror goes back into the cube, gets split up again passing part of"
+    },
+    {
+      "end": "00:00:44.378",
+      "start": "00:00:40.040",
+      "text": " the beam through and part of the beam coming out this way. The beam from this"
+    },
+    {
+      "end": "00:00:49.850",
+      "start": "00:00:44.378",
+      "text": " mirror reflected back towards the cube. Again, part of it splitting off towards"
+    },
+    {
+      "end": "00:00:53.820",
+      "start": "00:00:49.850",
+      "text": " the mirror and part of it passing straight through. So we end up with two"
+    },
+    {
+      "end": "00:00:59.826",
+      "start": "00:00:53.820",
+      "text": " beams coming out in this direction to hit our screen. So we see an interference"
+    },
+    {
+      "end": "00:01:07.868",
+      "start": "00:00:59.826",
+      "text": " pattern giving us the familiar bullseye that you've probably seen in previous"
+    },
+    {
+      "end": "00:01:13.473",
+      "start": "00:01:07.868",
+      "text": " course. This mirror, you'll note, is that this especially mounted on a"
+    },
+    {
+      "end": "00:01:17.678",
+      "start": "00:01:13.473",
+      "text": " translation stage so we can actually easily move it back and forth in this"
+    },
+    {
+      "end": "00:01:25.719",
+      "start": "00:01:17.678",
+      "text": " direction by turning this knob. The knob is marked off in a millimeter scale."
+    },
+    {
+      "end": "00:01:30.490",
+      "start": "00:01:25.719",
+      "text": " We can see it's reading just about 10 millimeters now, meaning I've got about"
+    },
+    {
+      "end": "00:01:34.194",
+      "start": "00:01:30.490",
+      "text": " 10 millimeters worth of travel where I can still push this mirror in this"
+    },
+    {
+      "end": "00:01:41.535",
+      "start": "00:01:34.194",
+      "text": " direction. So let's look at the interference pattern and see what happens when"
+    },
+    {
+      "end": "00:01:45.105",
+      "start": "00:01:41.535",
+      "text": " we translate this mirror around a little bit. First we see the interference pattern"
+    },
+    {
+      "end": "00:01:51.244",
+      "start": "00:01:45.105",
+      "text": " or bullseye pattern and you think about why, why rings? Why does it look like a"
+    },
+    {
+      "end": "00:01:55.115",
+      "start": "00:01:51.244",
+      "text": " bullseye pattern? If I'm interfering a plane wave with a plane wave, the whole"
+    },
+    {
+      "end": "00:02:00.153",
+      "start": "00:01:55.115",
+      "text": " thing should either go light or dark all at once. But it's not plane waves"
+    },
+    {
+      "end": "00:02:04.992",
+      "start": "00:02:00.153",
+      "text": " revealing with any more. After the light goes through the lens, right, it comes to"
+    },
+    {
+      "end": "00:02:10.931",
+      "start": "00:02:04.992",
+      "text": " focus right here. The light is actually a spherical wave. So think about what"
+    },
+    {
+      "end": "00:02:14.568",
+      "start": "00:02:10.931",
+      "text": " happens when you interfere one spherical wave with another spherical wave."
+    },
+    {
+      "end": "00:02:20.707",
+      "start": "00:02:15.569",
+      "text": " Alright, so if I reach in here and push with my finger on the back of this"
+    },
+    {
+      "end": "00:02:26.780",
+      "start": "00:02:20.707",
+      "text": " mirror just a little bit, you can see the ring pattern contracts towards the"
+    },
+    {
+      "end": "00:02:35.055",
+      "start": "00:02:26.780",
+      "text": " middle as I exert pressure on that mirror. All the rings move inward. So remember"
+    },
+    {
+      "end": "00:02:38.592",
+      "start": "00:02:35.055",
+      "text": " that, right? When the mirror is current positioned and I push on the back, the"
+    },
+    {
+      "end": "00:02:43.397",
+      "start": "00:02:38.592",
+      "text": " rings move inward. Now I'm going to turn the knob and move the mirror"
+    },
+    {
+      "end": "00:02:47.734",
+      "start": "00:02:43.397",
+      "text": " continuously in that direction and let's see what happens to the interference."
+    },
+    {
+      "end": "00:02:53.573",
+      "start": "00:02:47.734",
+      "text": " The first thing you notice is as I'm turning the knob, the ring pattern becomes"
+    },
+    {
+      "end": "00:02:58.512",
+      "start": "00:02:53.573",
+      "text": " invisible because the fringes are flying by so quickly you can't resolve them."
+    },
+    {
+      "end": "00:03:08.288",
+      "start": "00:02:58.512",
+      "text": " The second thing you notice is I move that mirror closer to the beam splitter is"
+    },
+    {
+      "end": "00:03:15.829",
+      "start": "00:03:08.288",
+      "text": " the ring pattern gets larger. Now our rings actually don't look too much like"
+    },
+    {
+      "end": "00:03:20.634",
+      "start": "00:03:15.829",
+      "text": " rings anymore. They're starting to get a little distorted."
+    },
+    {
+      "end": "00:03:30.343",
+      "start": "00:03:24.871",
+      "text": " So at this point, looking at rings anymore, we just kind of have a"
+    },
+    {
+      "end": "00:03:36.416",
+      "start": "00:03:30.343",
+      "text": " squiggly line over there. But at this point, more or less made the length of"
+    },
+    {
+      "end": "00:03:44.257",
+      "start": "00:03:36.416",
+      "text": " this arm exactly equal to the length of that arm. Because our optics aren't"
+    },
+    {
+      "end": "00:03:49.796",
+      "start": "00:03:44.257",
+      "text": " perfectly flat anymore, that takes our nice symmetric waves and kind of"
+    },
+    {
+      "end": "00:03:54.501",
+      "start": "00:03:49.796",
+      "text": " distort them because the beams, the rays are not reflecting off flat surfaces."
+    },
+    {
+      "end": "00:04:00.707",
+      "start": "00:03:54.901",
+      "text": " Our scale now reads something like a little more than seven millimeters. So I've"
+    },
+    {
+      "end": "00:04:06.279",
+      "start": "00:04:00.707",
+      "text": " translated the mirror about three millimeters closer to the cube and now we"
+    },
+    {
+      "end": "00:04:10.317",
+      "start": "00:04:06.279",
+      "text": " have a somewhat different ring pattern. I'm going to keep translating it in this"
+    },
+    {
+      "end": "00:04:21.328",
+      "start": "00:04:10.317",
+      "text": " direction a few more millimeters and we see as I do that our ring pattern now"
+    },
+    {
+      "end": "00:04:26.233",
+      "start": "00:04:21.328",
+      "text": " reappears. I'm going to make a slight adjustment to the mirror to get it centered"
+    },
+    {
+      "end": "00:04:30.570",
+      "start": "00:04:26.233",
+      "text": " on this ring. Alright, now we're back to looking at a ring pattern again. Except now"
+    },
+    {
+      "end": "00:04:38.345",
+      "start": "00:04:30.570",
+      "text": " when I press with my finger on the stage over here, the rings go outward"
+    },
+    {
+      "end": "00:04:45.118",
+      "start": "00:04:38.345",
+      "text": " instead of inward. So this is different behavior from what we saw when this"
+    },
+    {
+      "end": "00:04:51.691",
+      "start": "00:04:45.118",
+      "text": " mirror was on the other side of where the two arm lengths are the same length."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "Williams College Physics",
+  "youtube_channel_follower_count": 569,
+  "youtube_comment_count": 0,
+  "youtube_description": "Part 1 of the P202 Michelson lab, where we examine interference fringes from a HeNe laser at 632.8 nm. A beamsplitter cube splits the beam, with each half being sent along one arm of a Michelson interferometer. After the beams are recombined, interference fringes can be seen. Observe the behavior of the fringes as one of the mirrors is moved.",
+  "youtube_like_count": 310,
+  "youtube_tags": [],
+  "youtube_title": "Laser Interference Fringes",
+  "youtube_upload_date": "20200327",
+  "youtube_view_count": 21232
+}

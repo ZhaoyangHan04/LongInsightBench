@@ -1,0 +1,833 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with dark hair, beard, and wearing a blue t-shirt.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "Analysis of a video discussing the creation of a self-driving AI for a robot car using behavior cloning and a Raspberry Pi in under 100 lines of code.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Brushed DC motors with encoders.",
+        "question": "What type of motors does the robot car use?"
+      },
+      {
+        "answer": "The Blynk app.",
+        "question": "What app was used for remote control and data collection during training?"
+      },
+      {
+        "answer": "A convolutional neural network (CNN).",
+        "question": "What type of neural network powers the AI?"
+      },
+      {
+        "answer": "It allows the AI to learn from batches of data, making training faster and more efficient.",
+        "question": "What is one key benefit of giving the AI memory?"
+      },
+      {
+        "answer": "Excited and enthusiastic about the project and the potential of self-driving AI.",
+        "question": "What is the primary mood conveyed by the speaker throughout the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The speaker introduces the topic of building a self-driving AI.",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The speaker shows footage of a small robot car driving autonomously along a green taped track on a tiled floor.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited. The speaker's enthusiastic tone, fast-paced introduction, and the demonstration of the robot car's capabilities contribute to the excitement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Project Introduction (Self-driving AI on Raspberry Pi in under 100 lines of code)",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Robot Demo (Robot car driving along the track).",
+            "timestamp": "00:00:04.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Small robot car, computer code on screen",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Small robot car, green taped track",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "AI, Robotics, self-driving technology",
+        "timestamps": {
+          "end_timestamp": "00:00:15.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Demonstration",
+        "videoEditingDetails": [
+          {
+            "description": "Fast zoom-out from robot car to reveal the speaker.",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlays on the footage: \"The robot is being controlled by the AI\", \"The AI is able to 'see' using an on-board camera\", \"The Robot uses a Convolutional Neural Net to process these images\", \"This demo is sped up by 4x\".",
+            "timestamps": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The speaker explains two approaches to building a self-driving AI: classical robotics and behavior cloning.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:15.040"
+            }
+          },
+          {
+            "description": "The speaker focuses on the benefits of behavior cloning and how it was used to train the AI, mentioning the Blynk app for remote control.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.800",
+              "start_timestamp": "00:00:23.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious. The speaker explains different approaches and techniques, sparking interest in the process of building the AI.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Approach 1 Explained (Classical Robotics approach to self-driving).",
+            "timestamp": "00:00:15.040"
+          },
+          {
+            "description": "Approach 2 Explained (Behavior Cloning approach).",
+            "timestamp": "00:00:23.000"
+          },
+          {
+            "description": "Training Tool Introduced (Blynk App).",
+            "timestamp": "00:00:32.000"
+          },
+          {
+            "description": "AI Limitations Highlighted (Imperfections and need for further training)",
+            "timestamp": "00:00:47.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images and diagrams illustrating lane filtering, masking, perspective shifts, and lane curvature calculation.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:15.040"
+            }
+          },
+          {
+            "name": "Image of a robot arm being controlled by a human, drawing of a human teaching a robot.",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "name": "Footage of the robot car driving on the track.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.800",
+              "start_timestamp": "00:00:32.000"
+            }
+          },
+          {
+            "name": "Screenshots of the Blynk app interface.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.800",
+              "start_timestamp": "00:00:56.800"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Machine Learning, AI training, computer vision, robotics, autonomous systems",
+        "timestamps": {
+          "end_timestamp": "00:00:56.800",
+          "start_timestamp": "00:00:15.040"
+        },
+        "title": "Methodology and AI Training",
+        "videoEditingDetails": [
+          {
+            "description": "Images and diagrams displayed beside the speaker.",
+            "timestamps": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:15.040"
+            }
+          },
+          {
+            "description": "Text overlays on the footage: \"The AI isn't perfect. More training will make it better at avoiding mistakes\", \"Here it makes a mistake\".",
+            "timestamps": {
+              "end_timestamp": "00:00:56.800",
+              "start_timestamp": "00:00:23.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The speaker explains the core AI technology: a convolutional neural network (CNN), highlighting its role in enabling the robot to 'see'.",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "description": "The speaker elaborates on the learning process of the AI in both learning and autonomous modes, referring to code snippets on the screen.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative. The speaker provides detailed insights into the AI's workings, its architecture, and its learning process.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "CNN Explained (Convolutional Neural Network for image processing).",
+            "timestamp": "00:00:57.000"
+          },
+          {
+            "description": "Learning Mode Explained (AI learning from human input).",
+            "timestamp": "00:01:27.000"
+          },
+          {
+            "description": "Autonomous Mode Explained (AI acting independently based on learned knowledge).",
+            "timestamp": "00:01:39.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating a CNN architecture and its application in image recognition.",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "name": "Computer code snippets showing the neural network implementation and functions like 'learn' and 'act'.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Deep Learning, CNN architecture, AI training, autonomous decision-making",
+        "timestamps": {
+          "end_timestamp": "00:01:58.000",
+          "start_timestamp": "00:00:56.840"
+        },
+        "title": "Deep Dive into AI Technology",
+        "videoEditingDetails": [
+          {
+            "description": "Diagram of CNN displayed beside the speaker.",
+            "timestamps": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "description": "Code snippets highlighted on screen while the speaker explains.",
+            "timestamps": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          },
+          {
+            "description": "Text overlay:  'Learning Mode:' with numbered steps explaining the learning process.",
+            "timestamps": {
+              "end_timestamp": "00:01:39.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          },
+          {
+            "description": "Text overlay:  'Autonomous Mode:' with numbered steps explaining the autonomous behavior.",
+            "timestamps": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:39.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The speaker describes the robot's hardware components, showcasing the Raspberry Pi, motors, battery, and webcam.",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:58.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Descriptive. The speaker provides a clear overview of the robot's physical construction and the individual elements that make it work.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Hardware Overview (Raspberry Pi, motors, battery, webcam).",
+            "timestamp": "00:01:58.040"
+          },
+          {
+            "description": "Power Source Explained (LiPo battery and voltage regulation for Raspberry Pi).",
+            "timestamp": "00:02:00.000"
+          },
+          {
+            "description": "Camera Source Described (USB webcam for image input).",
+            "timestamp": "00:02:05.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Raspberry Pi board, robot car chassis with motors and wiring, LiPo battery, USB webcam.",
+            "timestamp": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:58.040"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Robotics, hardware components, embedded systems",
+        "timestamps": {
+          "end_timestamp": "00:02:24.120",
+          "start_timestamp": "00:01:58.040"
+        },
+        "title": "Hardware Components Overview",
+        "videoEditingDetails": [
+          {
+            "description": "Close-up shots of the hardware components, arrows pointing to specific parts like the voltage regulator.",
+            "timestamps": {
+              "end_timestamp": "00:02:24.000",
+              "start_timestamp": "00:01:58.040"
+            }
+          },
+          {
+            "description": "Text overlay:  'This is the Rover 5 platform'.",
+            "timestamps": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:58.040"
+            }
+          },
+          {
+            "description": "Text overlay:  'Voltage Regulator'.",
+            "timestamps": {
+              "end_timestamp": "00:02:12.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The speaker discusses potential improvements for the AI, focusing on giving it memory and enabling data augmentation techniques.",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:24.160"
+            }
+          },
+          {
+            "description": "The speaker elaborates on the benefits of memory and data augmentation for faster and more robust learning.",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          },
+          {
+            "description": "The speaker mentions the availability of both the original and improved code versions on GitHub.",
+            "timestamp": {
+              "end_timestamp": "00:05:18.000",
+              "start_timestamp": "00:04:56.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Insightful. The speaker provides thoughtful suggestions for enhancing the AI's capabilities and delves into the theoretical advantages of these improvements.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Improvement 1 Introduced (Giving AI Memory).",
+            "timestamp": "00:02:24.160"
+          },
+          {
+            "description": "Improvement 2 Introduced (Data Augmentation).",
+            "timestamp": "00:02:30.000"
+          },
+          {
+            "description": "Benefits of Memory Detailed (Sample efficiency, batch training).",
+            "timestamp": "00:03:07.000"
+          },
+          {
+            "description": "Benefits of Data Augmentation Described (Faster learning, improved generalization).",
+            "timestamp": "00:03:44.000"
+          },
+          {
+            "description": "Combined Approach Discussed (Classical lane detection with behavior cloning).",
+            "timestamp": "00:04:56.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images showcasing 'Experience Replay' and 'Memory Buffers', abstract brain illustration.",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:24.160"
+            }
+          },
+          {
+            "name": "Images illustrating data augmentation techniques like image flipping, cropping, and lighting adjustments.",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "AI advancement, data manipulation, learning optimization, future development",
+        "timestamps": {
+          "end_timestamp": "00:05:18.200",
+          "start_timestamp": "00:02:24.160"
+        },
+        "title": "Future Enhancements and Project Closure",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay:  'Improvements:' with numbered points listing potential improvements.",
+            "timestamps": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:24.160"
+            }
+          },
+          {
+            "description": "Images illustrating data augmentation techniques displayed beside the speaker.",
+            "timestamps": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Demonstration of the robot car driving autonomously.",
+        "timestamp": "00:00:04.000"
+      },
+      "description": "The video presents a project where a self-driving AI is built for a robot car using behavior cloning.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Video Analysis: Self-Driving AI in 100 Lines of Code",
+    "trimmingSuggestions": [
+      {
+        "description": "To make the video more dynamic, the explanations of code snippets in Scene 3 could be shortened, focusing on the core logic and functionality rather than line-by-line detail.",
+        "timestamps": {
+          "end_timestamp": "00:02:24.160",
+          "start_timestamp": "00:02:24.160"
+        }
+      },
+      {
+        "description": "The discussion of specific data augmentation techniques in Scene 5 could be condensed, perhaps by grouping similar techniques together and using faster cuts between visuals.",
+        "timestamps": {
+          "end_timestamp": "00:04:56.000",
+          "start_timestamp": "00:03:07.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 318,
+  "original_json_filename": "dS4-qgUByy4.json",
+  "original_video_filename": "dS4-qgUByy4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] in this video we're going to learn how to build our own self-driving aid on the raspberry pi in under 100 lines of code but before we begin let's take a look at how the ai will actually perform [Music] now there are quite a few approaches to actually building the self-driving ai the first is a classical robotics approach in this approach we can use techniques such as lean filtering color and slope gradients masking perspective shifts and other techniques to essentially figure out the curve of the lane based on basic computer vision and determine which direction the ai should go although this method is pretty robust it doesn't provide the ai an opportunity to learn and improve over time the second approach is called behavior cloning now as the name suggests behavior cloning is a technique where the human performs the action and then the ai learns how to perform the action in this case the human will drive the robot around and the ai will not only learn how to drive the robot but also to abstractify features and try to understand why the human was driving the robot the way they were this ability to abstractify is actually what makes this ai so powerful and will allow the ai to drive in situations it's never seen before based on this information i chose the behavior cloning model for this ai now to actually train the ai i used something called the blink app which allowed me to remotely steer the robot as it learned the blink app also let me toggle between the learning and the performing modes the blink code setup is very straightforward make sure you copy the correct authentication code from your phone make sure you have the correct virtual pins for your event handlers and lastly make sure to include the blink.one function in your loop to ensure that the event handlers can update properly now let's dive into the actual heart of the ai this ai is actually powered by a convolutional neural network which allows this ai to see here's the code for the neural net it has three pairs of cone 2d and maxwell layers followed by three fully connected layers the last fully connected layer does not have an activation function since we're trying to predict the steering angle when the ai is in learning mode the air will actually take an input image from the webcam and it'll process it through this convolutional neural network into a steering angle now this predicted steering angle is actually compared to the human's input or what the human steering angle is and based on the difference the ai learns using the atom optimizer we can see these steps in the code in the learning mode the ai will get the input image which is also known as the state it will also get the humans actions using the observe action function if the action is valid it'll learn from the action and then save the weights let's take a deeper look at the functions here's the get state function this code collects an input image from the webcam and here's the learn function it learns based on the human's actions using the dot fit method when the ai performs autonomously this process is mostly the same again the ai will take a stream of webcam images will make a prediction on where to go and they'll just act on it rather than looking at the difference between the human input jumping to the code for the act function we can see how the ear makes a prediction using the dot predict method now let's dive into the actual hardware of the robot the robot is powered by a raspberry pi and two brushed dc motors with encoders the raspberry pi and motors get power via a lipo battery whose voltage is stepped down for the raspberry pi the raspberry pi gets its camera feed from a simple usb webcam let's end this video by talking about some of the changes you can make to improve this ai the first biggest change we can make is giving this ai memory by giving this ai memory using techniques such as experience replay or memory buffers this ai can be more sample efficient and also train on batches which allows for faster training and learning giving the ai memory will also enable us to do data generation data generation involves techniques such as flipping the image so you have both steering angles as an input or perhaps cropping the image a little bit changing the lighting by making the image brighter or darker and learning on these new artificially generated images data generation will allow this ai to learn faster be more sample efficient and also abstractify its learning to better environments the third improvement we can make with this ai is borrowing some techniques from classical robotics like lane detection and learning based on that lane detection using behavior cloning i've already implemented some of these improvements such as memory and a new improved version of the code the original 100 line code and this improved version are both available on github for download thanks for watching",
+  "text_to_speech_word_count": 877,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.240",
+      "start": "00:00:00.000",
+      "text": " In this video, we're going to learn how to build our own sub-driving AI on the Raspberry Pi"
+    },
+    {
+      "end": "00:00:13.760",
+      "start": "00:00:09.240",
+      "text": " and under 100 lines of code. But before we begin, let's take a look at how the AI will"
+    },
+    {
+      "end": "00:00:16.360",
+      "start": "00:00:13.760",
+      "text": " actually perform."
+    },
+    {
+      "end": "00:01:01.520",
+      "start": "00:00:43.760",
+      "text": " Now, there are quite a few approaches to actually building the sub-driving AI. The first is a classical"
+    },
+    {
+      "end": "00:01:05.920",
+      "start": "00:01:01.520",
+      "text": " robotics approach. In this approach, we can use techniques such as lane filtering, color"
+    },
+    {
+      "end": "00:01:11.280",
+      "start": "00:01:05.920",
+      "text": " and slow gradients, masking, perspective shifts and other techniques to essentially figure"
+    },
+    {
+      "end": "00:01:16.800",
+      "start": "00:01:11.280",
+      "text": " out the curve of the lane based on basic computer vision and determine which direction the AI should"
+    },
+    {
+      "end": "00:01:21.440",
+      "start": "00:01:16.800",
+      "text": " go. Although this method is pretty robust, it doesn't provide the AI an opportunity to learn and"
+    },
+    {
+      "end": "00:01:26.480",
+      "start": "00:01:21.440",
+      "text": " improve over time. The second approach is called behavior-cloning. Now, as the name suggests,"
+    },
+    {
+      "end": "00:01:32.000",
+      "start": "00:01:26.480",
+      "text": " behavior-cloning is a technique where the human performs the action and then the AI learns"
+    },
+    {
+      "end": "00:01:37.040",
+      "start": "00:01:32.000",
+      "text": " how to perform the action. In this case, the human will drive the robot around and the AI will"
+    },
+    {
+      "end": "00:01:42.480",
+      "start": "00:01:37.040",
+      "text": " normally learn how to drive the robot but also to abstractify features and try to understand why"
+    },
+    {
+      "end": "00:01:48.240",
+      "start": "00:01:42.480",
+      "text": " the human was driving the robot the way they were. This ability to abstractify is actually what"
+    },
+    {
+      "end": "00:01:53.200",
+      "start": "00:01:48.240",
+      "text": " makes this AI so powerful and will allow the AI to drive in situations it's never seen before."
+    },
+    {
+      "end": "00:01:59.360",
+      "start": "00:01:53.840",
+      "text": " Based on this information, I choose the behavior-cloning model for this AI. Now to actually train the AI,"
+    },
+    {
+      "end": "00:02:04.800",
+      "start": "00:01:59.360",
+      "text": " I use something called the Blink app which allowed me to remotely steer the robot as it learned."
+    },
+    {
+      "end": "00:02:08.240",
+      "start": "00:02:04.800",
+      "text": " The Blink app also let me toggle between the learning and the performing modes."
+    },
+    {
+      "end": "00:02:13.160",
+      "start": "00:02:08.880",
+      "text": " The Blink code setup is very straightforward. Make sure you copy the correct authentication code"
+    },
+    {
+      "end": "00:02:17.160",
+      "start": "00:02:13.160",
+      "text": " from your phone. Make sure you have the correct virtual pins for your event handlers."
+    },
+    {
+      "end": "00:02:22.320",
+      "start": "00:02:17.760",
+      "text": " And lastly, make sure to include the Blink.run function in your forever loop to ensure that the"
+    },
+    {
+      "end": "00:02:27.760",
+      "start": "00:02:22.320",
+      "text": " event handlers can update properly. Now, let's dive into the actual heart of the AI. This AI is"
+    },
+    {
+      "end": "00:02:32.960",
+      "start": "00:02:27.760",
+      "text": " actually powered by a convolutional neural network which allows this AI to see. Here's the code"
+    },
+    {
+      "end": "00:02:38.640",
+      "start": "00:02:32.960",
+      "text": " for the neural net. It has three pairs of comp 2D and max pool layers followed by three fully"
+    },
+    {
+      "end": "00:02:43.440",
+      "start": "00:02:38.640",
+      "text": " connected layers. The last fully connected layer does not have an activation function since we're"
+    },
+    {
+      "end": "00:02:49.840",
+      "start": "00:02:43.440",
+      "text": " trying to predict the steering angle. When the AI is in learning mode, the AI will actually take an"
+    },
+    {
+      "end": "00:02:54.960",
+      "start": "00:02:49.840",
+      "text": " input image from the webcam and it will process it through this convolutional neural network into a"
+    },
+    {
+      "end": "00:03:00.880",
+      "start": "00:02:54.960",
+      "text": " steering angle. Now this predicted steering angle is actually compared to the humans input or what"
+    },
+    {
+      "end": "00:03:06.640",
+      "start": "00:03:00.880",
+      "text": " the human steering angle is and based on the difference, the AI learns using the item optimizer."
+    },
+    {
+      "end": "00:03:11.440",
+      "start": "00:03:06.960",
+      "text": " We can see these steps in the code. In the learning mode, the AI will get the input image,"
+    },
+    {
+      "end": "00:03:15.840",
+      "start": "00:03:11.440",
+      "text": " which is also known as the state. It will also get the humans actions using the observe action"
+    },
+    {
+      "end": "00:03:20.160",
+      "start": "00:03:15.840",
+      "text": " function. If the action is valid, it will learn from the action and then save the weights."
+    },
+    {
+      "end": "00:03:25.520",
+      "start": "00:03:20.880",
+      "text": " Let's take a deeper look at the functions. Here's the get state function. This code collects an"
+    },
+    {
+      "end": "00:03:30.720",
+      "start": "00:03:25.520",
+      "text": " input image from the webcam and here is the learn function. It learns based on the humans actions"
+    },
+    {
+      "end": "00:03:36.400",
+      "start": "00:03:30.800",
+      "text": " using the dot fit method. When the AI performs autonomously, this process is mostly the same."
+    },
+    {
+      "end": "00:03:41.040",
+      "start": "00:03:36.400",
+      "text": " Again, the AI will take a stream of webcam images, it will make a prediction or where to go and"
+    },
+    {
+      "end": "00:03:45.520",
+      "start": "00:03:41.040",
+      "text": " it will just act on it rather than looking at the difference within the human input. Jumping to the"
+    },
+    {
+      "end": "00:03:50.320",
+      "start": "00:03:45.520",
+      "text": " code for the act function, we can see how the AI makes a prediction using the dot predict method."
+    },
+    {
+      "end": "00:03:56.080",
+      "start": "00:03:51.040",
+      "text": " Now let's dive into the actual hardware of the robot. The robot is powered by a Raspberry Pi"
+    },
+    {
+      "end": "00:04:01.840",
+      "start": "00:03:56.080",
+      "text": " and two brushed DC motors within coders. The Raspberry Pi and Motors get powered via a Li-Pro"
+    },
+    {
+      "end": "00:04:06.640",
+      "start": "00:04:01.840",
+      "text": " battery whose voltage is stepped down for the Raspberry Pi. The Raspberry Pi gets its camera feed"
+    },
+    {
+      "end": "00:04:11.520",
+      "start": "00:04:06.640",
+      "text": " from a simple USB webcam. Let's end this video by talking about some of the changes you can make"
+    },
+    {
+      "end": "00:04:17.040",
+      "start": "00:04:11.520",
+      "text": " to improve this AI. The first biggest change we can make is giving this AI memory. By giving this"
+    },
+    {
+      "end": "00:04:22.160",
+      "start": "00:04:17.040",
+      "text": " AI memory using techniques such as experience replay or memory buffers, this AI can be more"
+    },
+    {
+      "end": "00:04:27.440",
+      "start": "00:04:22.160",
+      "text": " sample efficient and also trained on batches which allows for faster training and learning."
+    },
+    {
+      "end": "00:04:34.000",
+      "start": "00:04:28.160",
+      "text": " Giving the AI memory will also enable us to do data generation. Data generation involves techniques"
+    },
+    {
+      "end": "00:04:39.600",
+      "start": "00:04:34.000",
+      "text": " such as flipping the image so you have both steering angles as an input or perhaps cropping the"
+    },
+    {
+      "end": "00:04:44.960",
+      "start": "00:04:39.600",
+      "text": " image a little bit, changing the lighting by making the image brighter or darker and learning on"
+    },
+    {
+      "end": "00:04:51.280",
+      "start": "00:04:44.960",
+      "text": " these new artificially generated images. Data generation will allow this AI to learn faster,"
+    },
+    {
+      "end": "00:04:56.320",
+      "start": "00:04:51.240",
+      "text": " be more sample efficient and also abstractify its learning to better environments."
+    },
+    {
+      "end": "00:05:01.000",
+      "start": "00:04:56.320",
+      "text": " The third improvement we can make with this AI is borrowing some techniques from classical robotics"
+    },
+    {
+      "end": "00:05:05.200",
+      "start": "00:05:01.000",
+      "text": " like lane detection and learning based on lane detection using behavior and cloning."
+    },
+    {
+      "end": "00:05:10.920",
+      "start": "00:05:06.200",
+      "text": " I've already implemented some of these improvements such as memory in a new improved version of"
+    },
+    {
+      "end": "00:05:16.320",
+      "start": "00:05:10.920",
+      "text": " the code. The original 100 line code and this improved version are both available on GitHub"
+    },
+    {
+      "end": "00:05:18.080",
+      "start": "00:05:16.320",
+      "text": " for download. Thanks for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Saral Tayal",
+  "youtube_channel_follower_count": 9930,
+  "youtube_comment_count": 46,
+  "youtube_description": "Learn how to build your own self driving AI in 100 lines of code using the Raspberry Pi. \n\nCheck out the Full Code here: https://github.com/SaralTayal123/SelfDrive",
+  "youtube_like_count": 1003,
+  "youtube_tags": [
+    "raspberry pi",
+    "arduino",
+    "raspberrypi",
+    "raspberry pi projects",
+    "IOT",
+    "AI",
+    "Behavior cloning",
+    "ML",
+    "artificial intelligence",
+    "machine learning",
+    "Computer Vision",
+    "Electronics Projects",
+    "Raspberry pi Robot",
+    "Robots",
+    "robotics",
+    "Robot learning",
+    "CV",
+    "raspberry pi robot",
+    "diry robot",
+    "raspberry robot",
+    "raspberry pi 4 robot",
+    "raspberry pi ai",
+    "raspberry pi robot projects",
+    "robot raspberry pi",
+    "robot diy"
+  ],
+  "youtube_title": "Self Driving AI in 100 lines of code | Raspberry Pi",
+  "youtube_upload_date": "20200718",
+  "youtube_view_count": 33690
+}

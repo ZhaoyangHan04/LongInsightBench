@@ -1,0 +1,718 @@
+{
+  "content_fine_category": "Science Explainers",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A white cartoon man with a long nose, red tie, white shirt and white pants.",
+        "name": "Narrator"
+      },
+      {
+        "characterId": "2",
+        "description": "Animated computers in yellow, green, and teal colors, with smiling faces, keyboard bodies, and legs.",
+        "name": "Computers"
+      },
+      {
+        "characterId": "3",
+        "description": "A green cartoon alien with large eyes, antennae, a long snout, and four-fingered hands.",
+        "name": "Alien Mechanic"
+      },
+      {
+        "characterId": "4",
+        "description": "A blue and silver robot with a rectangular body, 'I' on its chest, wheels, antenna, and a writing hand.",
+        "name": "Interpreter Robot"
+      },
+      {
+        "characterId": "5",
+        "description": "A yellow and silver robot with a round body, 'C' on its chest, wheels, antenna, and writing hands.",
+        "name": "Compiler Robot"
+      }
+    ],
+    "description": "An educational video that uses animated characters to explain the differences between interpreters and compilers in computer programming. The video uses humor and simple animations to demystify technical concepts.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The narrator's instructions for repairing the spaceship included the step 'Remove spark plug,' demonstrating how an interpreter translates and executes instructions one by one.",
+        "question": "Why does the alien mechanic remove a spark plug from the spaceship?"
+      },
+      {
+        "answer": "The alien mechanic executes all the instructions rapidly in one go ('bang, bang, bang'), emphasizing the speed and efficiency of compiled code.",
+        "question": "What happens when the compiler translates the instructions and the narrator gives them to the alien mechanic?"
+      },
+      {
+        "answer": "The explosion and smoke cloud symbolize the potential consequences of an error in the compiled code.",
+        "question": "What visual cue represents a mistake in the instructions?"
+      },
+      {
+        "answer": "The original instructions are written on a green sheet of paper, while the translated instructions (Gobbledygook) are on a white sheet.",
+        "question": "How does the narrator visually differentiate the translated instructions from the original instructions?"
+      },
+      {
+        "answer": "The video maintains a lighthearted and educational tone throughout, using humor and simple visuals to explain technical concepts.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Computers stand in a circle.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator appears in the center.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Computers transform into aliens.",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator",
+          "Computers"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator directly addresses the audience, using computers and aliens as visual aids."
+          }
+        ],
+        "contextualRelevance": "An initial introduction to the unfamiliar world of computers.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious, Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Sets up the analogy of computers being like aliens with a strange language.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Transitioning the computers into aliens strengthens the analogy of a foreign language.",
+            "timestamp": "00:00:06.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "The difficulty of understanding computer language and the need for translation between human language and computer language.",
+        "timestamps": {
+          "end_timestamp": "00:00:38.200",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introducing the World of Computers",
+        "videoEditingDetails": [
+          {
+            "description": "Simple animation with solid colors.",
+            "timestamps": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Morphing transition from computers to aliens.",
+            "timestamps": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator presents a list of instructions to the Interpreter Robot.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Interpreter Robot reads and translates each instruction, passing them to the Alien Mechanic.",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "description": "The process repeats for subsequent instructions.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          },
+          {
+            "description": "Narrator presents the same list of instructions to the Compiler Robot.",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:56.000"
+            }
+          },
+          {
+            "description": "Compiler Robot translates the entire list and hands it back to the narrator.",
+            "timestamp": {
+              "end_timestamp": "00:02:16.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "description": "Narrator hands the translated list to the Alien Mechanic, who executes all instructions.",
+            "timestamp": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:02:16.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator",
+          "Interpreter Robot",
+          "Compiler Robot",
+          "Alien Mechanic"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator",
+              "Interpreter Robot"
+            ],
+            "description": "The narrator interacts with both robot types, highlighting their individual approaches."
+          },
+          {
+            "characters": [
+              "Narrator",
+              "Compiler Robot"
+            ],
+            "description": "The robots act as intermediaries between the narrator and the Alien Mechanic."
+          }
+        ],
+        "contextualRelevance": "Explaining the functionality of interpreters and compilers with a focus on their advantages and disadvantages.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Confused, then Excited.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the differences between interpreters and compilers by showing how they interact with the narrator and the Alien Mechanic.",
+            "timestamp": "00:00:38.240"
+          },
+          {
+            "description": "Interpreter Robot translates and passes instructions one by one.",
+            "timestamp": "00:00:50.000"
+          },
+          {
+            "description": "Compiler Robot translates the entire list in one go.",
+            "timestamp": "00:01:56.000"
+          },
+          {
+            "description": "Explosion signifies the potential downside of compiler errors.",
+            "timestamp": "00:02:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "A green sheet of paper representing a list of instructions.",
+            "timestamp": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "name": "Another white sheet of paper representing translated instructions.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "name": "A yellow spark plug appears in the Alien Mechanic's hand.",
+            "timestamp": {
+              "end_timestamp": "00:02:04.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          },
+          {
+            "name": "A green sheet of paper representing the complete translated list.",
+            "timestamp": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:02:04.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Interpreters: Slower, step-by-step process, allows for error correction. Compilers: Faster, all-at-once process, less forgiving of errors.",
+        "timestamps": {
+          "end_timestamp": "00:03:35.400",
+          "start_timestamp": "00:00:38.240"
+        },
+        "title": "Interpreters and Compilers",
+        "videoEditingDetails": [
+          {
+            "description": "Simple animation with solid colors.",
+            "timestamps": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:38.240"
+            }
+          },
+          {
+            "description": "Close-up shot of the spark plug in the Alien Mechanic's hand.",
+            "timestamps": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          },
+          {
+            "description": "Smoke cloud animation indicating an explosion due to an error.",
+            "timestamps": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:02:35.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Interpreter Robot",
+          "Compiler Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Summarizing the key differences between the two translator types.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Indifferent, Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Reinforces the concepts previously explained.",
+            "timestamp": "00:03:35.440"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Concise summary of the advantages and disadvantages of interpreters and compilers.",
+        "timestamps": {
+          "end_timestamp": "00:03:50.000",
+          "start_timestamp": "00:03:35.440"
+        },
+        "title": "Remembering the Difference",
+        "videoEditingDetails": [
+          {
+            "description": "Text highlighting the characteristics of interpreters and compilers appears on screen.",
+            "timestamps": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:35.440"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Interpreter Robot",
+          "Compiler Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Visually reinforcing the concepts of line-by-line translation for interpreters and whole-program translation for compilers.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Indifferent, Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Further clarifies the distinctions between interpreters and compilers.",
+            "timestamp": "00:03:50.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Two boxes labeled 'PROGRAM' and 'COMPUTER' with numbered lines representing instructions appear on screen.",
+            "timestamp": {
+              "end_timestamp": "00:03:59.000",
+              "start_timestamp": "00:03:50.040"
+            }
+          },
+          {
+            "name": "The same boxes with the Compiler Robot appear, but the numbered lines are now yellow.",
+            "timestamp": {
+              "end_timestamp": "00:04:12.000",
+              "start_timestamp": "00:03:59.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Visual explanation of how interpreters and compilers interact with programs and computers.",
+        "timestamps": {
+          "end_timestamp": "00:04:12.000",
+          "start_timestamp": "00:03:50.040"
+        },
+        "title": "Visualizing the Concepts",
+        "videoEditingDetails": [
+          {
+            "description": "Simple graphic with boxes and lines representing programs and computers.",
+            "timestamps": {
+              "end_timestamp": "00:03:59.000",
+              "start_timestamp": "00:03:50.040"
+            }
+          },
+          {
+            "description": "The boxes and lines turn yellow, signifying the translation process.",
+            "timestamps": {
+              "end_timestamp": "00:04:12.000",
+              "start_timestamp": "00:03:59.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "All characters stand together.",
+            "timestamp": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:04:12.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator",
+          "Interpreter Robot",
+          "Compiler Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Leaving the choice of interpreter or compiler up to the viewer.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Content, Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Final thought inviting the viewer to contemplate the different approaches.",
+            "timestamp": "00:04:12.040"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Ultimately, the choice between interpreter and compiler depends on the specific needs of the programmer.",
+        "timestamps": {
+          "end_timestamp": "00:03:35.000",
+          "start_timestamp": "00:04:12.040"
+        },
+        "title": "Concluding Thoughts",
+        "videoEditingDetails": [
+          {
+            "description": "Simple animation with all characters present.",
+            "timestamps": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:04:12.040"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The explosion demonstrating the risk of compiler errors.",
+        "timestamp": "00:02:35.000"
+      },
+      "description": "The video explains the differences between interpreters and compilers and their respective roles in programming, using animations and characters to simplify complex concepts.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Interpreters vs. Compilers",
+    "trimmingSuggestions": [
+      {
+        "description": "The text summary could be condensed and integrated into the following visual explanation.",
+        "timestamps": {
+          "end_timestamp": "00:04:12.040",
+          "start_timestamp": "00:04:12.040"
+        }
+      },
+      {
+        "description": "The concluding scene could be shortened or replaced with a more engaging visual.",
+        "timestamps": {
+          "end_timestamp": "00:03:35.000",
+          "start_timestamp": "00:04:12.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 215,
+  "original_json_filename": "_C5AHaS1mOA.json",
+  "original_video_filename": "_C5AHaS1mOA.mp4",
+  "resolution": "352x256",
+  "text_to_speech": "when you land in the world of computers with their strange convoluted machine language it's a bit like landing on another planet whose inhabitants speak an equally strange convoluted alien language getting a mechanic on Planet gobbledygook to repair your spaceship would present the same sort of problem that you have when you want to get a computer to do something everything you say has to be translated and you have a choice between two different sorts of translator one of them is called an interpreter and the other is called a compiler let's suppose that you've previously written out your list of instructions for the repair of your spaceship and suppose that you choose the interpreter to do the translating he reads your first instruction open lid of rocket engine translates this and the gobbledygook and immediately passes it on to the mechanic who executes the instruction then the interpreter reads your second instruction remove spark plug translates this in the gobbledygook and passes it on to the mechanic who executes it and so on and so forth now notice how the interpreter works he stays with you all the time and he translates each of your instructions immediately one by one this is a rather slow process because the mechanic has to wait while each instruction is being translated but on the other hand it does give you a chance to correct your mistakes as you go along if the mechanic removes the wrong sparkplug for instance you'll see this happen right away and you'll be able to change your instruction accordingly compare this with the way the second sort of translator the compiler goes about his work he takes your complete list of instructions and without further ado translates the whole lot straight into gobbledygook he then hands them back to you and goes away leaving you all on your own all this has taken some time but from now on things will go very fast you hand the complete list of gobbledygook to the mechanic and he executes them all in one go bang bang bang there's no waiting about this time but there's one disadvantage to this of course if there was a mistake in your instructions it's too late now this analogy comes very close to the way the interpreter and compiler translator programs actually work with computers an interpreter runs slowly starts right away and lets you see how things are going whereas a compiler takes extra preparation time before your program can run but then lets it run very quickly as efficiently to help you remember the difference between an interpreter and a compiler look at the words themselves inter means between the interpreter is always between your program and the computer and it translates line by lines to compile on the other hand means to pile together a compiler piles together your entire program and translates the whole thing all at once which one you use on planet gobbledygook is entirely up to you",
+  "text_to_speech_word_count": 503,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:00.000",
+      "text": " When you land in the world of computers with their strange convoluted machine language,"
+    },
+    {
+      "end": "00:00:14.000",
+      "start": "00:00:06.000",
+      "text": " it's a bit like landing on another planet whose inhabitants speak an equally strange convoluted alien language."
+    },
+    {
+      "end": "00:00:21.000",
+      "start": "00:00:14.000",
+      "text": " Getting a mechanic on planet Gov. to repair your spaceship would present the same sort of problem that you have"
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:21.000",
+      "text": " when you want to get a computer to do something."
+    },
+    {
+      "end": "00:00:27.000",
+      "start": "00:00:24.000",
+      "text": " Everything you say has to be translated."
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:28.000",
+      "text": " And you have a choice between two different sorts of translator."
+    },
+    {
+      "end": "00:00:38.000",
+      "start": "00:00:32.000",
+      "text": " One of them is called an interpreter, and the other is called a compiler."
+    },
+    {
+      "end": "00:00:44.000",
+      "start": "00:00:38.000",
+      "text": " Let's suppose that you've previously written out your list of instructions for the repair of your spaceship."
+    },
+    {
+      "end": "00:00:49.000",
+      "start": "00:00:44.000",
+      "text": " And suppose that you choose the interpreter to do the translating."
+    },
+    {
+      "end": "00:00:53.000",
+      "start": "00:00:49.000",
+      "text": " He reads your first instruction, open lid of rocket engine,"
+    },
+    {
+      "end": "00:00:59.000",
+      "start": "00:00:53.000",
+      "text": " translates this into gobbledygook, and immediately passes it on to the mechanic,"
+    },
+    {
+      "end": "00:01:02.000",
+      "start": "00:00:59.000",
+      "text": " who executes the instruction."
+    },
+    {
+      "end": "00:01:07.000",
+      "start": "00:01:02.000",
+      "text": " Then the interpreter reads your second instruction, remove spot plug,"
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:07.000",
+      "text": " translates this into gobbledygook, and passes it on to the mechanic, who executes it,"
+    },
+    {
+      "end": "00:01:16.000",
+      "start": "00:01:13.000",
+      "text": " and so on and so forth."
+    },
+    {
+      "end": "00:01:19.000",
+      "start": "00:01:16.000",
+      "text": " Now notice how the interpreter works."
+    },
+    {
+      "end": "00:01:26.000",
+      "start": "00:01:19.000",
+      "text": " He stays with you all the time, and he translates each of your instructions immediately one by one."
+    },
+    {
+      "end": "00:01:33.000",
+      "start": "00:01:26.000",
+      "text": " This is a rather slow process, because the mechanic has to wait while each instruction is being translated."
+    },
+    {
+      "end": "00:01:39.000",
+      "start": "00:01:33.000",
+      "text": " But on the other hand, it does give you a chance to correct your mistakes as you go along."
+    },
+    {
+      "end": "00:01:45.000",
+      "start": "00:01:39.000",
+      "text": " If the mechanic removes the wrong spot plug, for instance, you'll see this happen right away,"
+    },
+    {
+      "end": "00:01:50.000",
+      "start": "00:01:45.000",
+      "text": " and you'll be able to change your instruction accordingly."
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:50.000",
+      "text": " Compare this with the way the second sort of translator, the compiler, goes about his work."
+    },
+    {
+      "end": "00:02:00.000",
+      "start": "00:01:56.000",
+      "text": " He takes your complete list of instructions, and without further ado,"
+    },
+    {
+      "end": "00:02:04.000",
+      "start": "00:02:00.000",
+      "text": " translates the whole lot straight into gobbledygook."
+    },
+    {
+      "end": "00:02:09.000",
+      "start": "00:02:04.000",
+      "text": " He then hands them back to you, and goes away, leaving you all on your own."
+    },
+    {
+      "end": "00:02:12.000",
+      "start": "00:02:09.000",
+      "text": " All this has taken some time,"
+    },
+    {
+      "end": "00:02:16.000",
+      "start": "00:02:12.000",
+      "text": " but from now on, things will go very fast."
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:16.000",
+      "text": " You hand the complete list of gobbledygook to the mechanic, and he executes them all in one go."
+    },
+    {
+      "end": "00:02:24.000",
+      "start": "00:02:22.000",
+      "text": " Bang, bang, bang!"
+    },
+    {
+      "end": "00:02:27.000",
+      "start": "00:02:24.000",
+      "text": " There's no waiting about this time."
+    },
+    {
+      "end": "00:02:30.000",
+      "start": "00:02:27.000",
+      "text": " But there's one disadvantage to this, of course."
+    },
+    {
+      "end": "00:02:35.000",
+      "start": "00:02:30.000",
+      "text": " If there was a mistake in your instructions, it's too late now."
+    },
+    {
+      "end": "00:02:45.000",
+      "start": "00:02:36.000",
+      "text": " This analogy comes very close to the way the interpreter and compiler translator programs actually work with computers."
+    },
+    {
+      "end": "00:02:51.000",
+      "start": "00:02:45.000",
+      "text": " An interpreter runs slowly, starts right away, and lets you see how things are going."
+    },
+    {
+      "end": "00:02:57.000",
+      "start": "00:02:51.000",
+      "text": " Whereas a compiler takes extra preparation time before your program can run,"
+    },
+    {
+      "end": "00:03:00.000",
+      "start": "00:02:57.000",
+      "text": " but then lets it run very quickly and efficiently."
+    },
+    {
+      "end": "00:03:05.000",
+      "start": "00:03:01.000",
+      "text": " To help you remember the difference between an interpreter and a compiler,"
+    },
+    {
+      "end": "00:03:07.000",
+      "start": "00:03:05.000",
+      "text": " look at the words themselves."
+    },
+    {
+      "end": "00:03:10.000",
+      "start": "00:03:07.000",
+      "text": " Inter means between."
+    },
+    {
+      "end": "00:03:15.000",
+      "start": "00:03:10.000",
+      "text": " The interpreter is always between your program and the computer,"
+    },
+    {
+      "end": "00:03:19.000",
+      "start": "00:03:15.000",
+      "text": " and it translates line by line."
+    },
+    {
+      "end": "00:03:23.000",
+      "start": "00:03:19.000",
+      "text": " To compile, on the other hand, means to pile together."
+    },
+    {
+      "end": "00:03:30.000",
+      "start": "00:03:23.000",
+      "text": " A compiler piles together your entire program and translates the whole thing all at once."
+    },
+    {
+      "end": "00:03:35.000",
+      "start": "00:03:30.000",
+      "text": " Which one you use on planet gobbledygook is entirely up to you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Bits and Bytes TVO",
+  "youtube_channel_follower_count": 10400,
+  "youtube_comment_count": 176,
+  "youtube_description": "This animation explains the difference between interpreters and compilers.\n\nIt is from Episode 6 of the classic 1983 television series, Bits and Bytes, which starred Luba Goy and Billy Van.  It was produced by TVOntario, but is no longer available for purchase.",
+  "youtube_like_count": 7121,
+  "youtube_tags": [
+    "bits and bytes",
+    "classic computing",
+    "apple ii",
+    "atari",
+    "commodore pet",
+    "commodore 64",
+    "ibm pc",
+    "ti-99",
+    "trs-80",
+    "animation"
+  ],
+  "youtube_title": "Interpreters and Compilers (Bits and Bytes, Episode 6)",
+  "youtube_upload_date": "20120517",
+  "youtube_view_count": 285174
+}

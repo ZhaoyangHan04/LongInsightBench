@@ -1,0 +1,450 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A person with brown skin wearing a white lab coat. They are the only person visible in the video, and their hands are the primary focus.",
+        "name": "Scientist"
+      }
+    ],
+    "description": "An experiment investigating the effect of SDS and ethanol on the diffusion of beetroot pigment using a spectrophotometer.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Rinsing removes excess pigment that may have leaked during cutting, ensuring accurate measurement of diffusion caused by SDS or ethanol.",
+        "question": "What is the purpose of rinsing the beetroot blocks in distilled water?"
+      },
+      {
+        "answer": "It indicates the wavelength at which the pigment absorbs light most strongly, essential for accurate quantification using a spectrophotometer.",
+        "question": "What does the lambda max value of 583 nm indicate about the beetroot pigment?"
+      },
+      {
+        "answer": "A higher change in absorbance over time indicates a faster rate of pigment diffusion from the beetroot blocks into the surrounding solution.",
+        "question": "How does the change in absorbance relate to the rate of pigment diffusion?"
+      },
+      {
+        "answer": "The use of SDS, a detergent that disrupts cell membranes, suggests the experiment is investigating the effects on cell membrane permeability.",
+        "question": "Based on the materials used, what type of cell structure is this experiment likely investigating?"
+      },
+      {
+        "answer": "While color change is an indicator, a spectrophotometer provides precise and quantifiable absorbance data, enabling accurate comparisons and analysis of the impact of different SDS/ethanol concentrations.",
+        "question": "Why is it important to use a spectrophotometer in this experiment, as opposed to simply observing the color change visually?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduces the experiment, shows SDS and ethanol bottles, shows beetroot.",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Explains and demonstrates preparing beetroot blocks, places them in distilled water wells.",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [],
+            "description": "The scientist addresses the viewer directly."
+          }
+        ],
+        "contextualRelevance": "The meticulous preparation hints at the importance of precision in scientific experiments.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the experiment and showcases the initial preparation steps.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Beetroot preparation explanation.",
+            "timestamp": "00:00:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "SDS bottle",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "ethanol bottle",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Beetroot",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "petri dish",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "well plate",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "scalpel",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Science, experimentation, observation.",
+        "timestamps": {
+          "end_timestamp": "00:00:22.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Preparation",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects. Potential Trim: The introduction (0:00-0:09) could be shortened by showing the chemicals while simultaneously introducing the experiment.",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Transfers beetroot blocks to wells containing different SDS/ethanol solutions.",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:22.033"
+            }
+          },
+          {
+            "description": "Introduces the visible spectrophotometer, explains lambda max and demonstrates its use.",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "description": "Explains the quantification method (absorbance change over 5 minutes) and its relation to the experiment.",
+            "timestamp": {
+              "end_timestamp": "00:01:21.000",
+              "start_timestamp": "00:01:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Scientist"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [],
+            "description": "The scientist explains the process directly to the viewer."
+          }
+        ],
+        "contextualRelevance": "The use of specialized equipment highlights the role of technology in scientific research.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Focused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Focuses on setting up the experiment with different concentrations and introducing the quantification method.",
+            "timestamp": "00:00:22.033"
+          },
+          {
+            "description": "Introduction of the spectrophotometer.",
+            "timestamp": "00:00:33.000"
+          },
+          {
+            "description": "Explanation of the quantification method.",
+            "timestamp": "00:01:05.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Well plate",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:22.033"
+            }
+          },
+          {
+            "name": "beetroot blocks",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:22.033"
+            }
+          },
+          {
+            "name": "Visible spectrophotometer",
+            "timestamp": {
+              "end_timestamp": "00:01:21.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "name": "cuvette",
+            "timestamp": {
+              "end_timestamp": "00:01:21.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "name": "laptop with spectrum display",
+            "timestamp": {
+              "end_timestamp": "00:01:21.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Measurement, data collection, analysis.",
+        "timestamps": {
+          "end_timestamp": "00:01:22.467",
+          "start_timestamp": "00:00:22.033"
+        },
+        "title": "Experiment Setup and Quantification",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects. Potential Trim: The lambda max demonstration (0:38 - 1:05) could be shortened, focusing on the key steps and the final reading.",
+            "timestamps": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Could be considered to be at the end of the video (1:21), where the quantification method is fully explained, setting the stage for results analysis (not shown in the video).",
+        "timestamp": "00:01:21.000"
+      },
+      "description": "Investigating the effect of SDS and ethanol on the diffusion of beetroot pigment.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Beetroot Pigment Diffusion Experiment",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten the introduction to quickly establish the experiment's context.",
+        "timestamps": {
+          "end_timestamp": "00:00:22.033",
+          "start_timestamp": "00:00:22.033"
+        }
+      },
+      {
+        "description": "Condense the lambda max demonstration, focusing on essential steps.",
+        "timestamps": {
+          "end_timestamp": "00:01:05.000",
+          "start_timestamp": "00:00:38.000"
+        }
+      },
+      {
+        "description": "Consider adding visual aids, such as diagrams or animations, to further illustrate concepts and maintain viewer engagement.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 83,
+  "original_json_filename": "CYg5OT653Dk.json",
+  "original_video_filename": "CYg5OT653Dk.mp4",
+  "resolution": "320x240",
+  "text_to_speech": "short video tutorial on the effects of sds and ethanol on the diffusion of red pigment from beetroot chop up the beetroot in the small block place it in a well containing distilled water to clean the beetroot after a few minutes remove the small blocks place it in well now containing different sds or ethernet concentration for five minutes for quantification we are using visible spec and you're going to find the lambda max beetroot solution contains 1.5 mil put inside quantify find out the lambda max which is at 583 after five minutes remove 1.5 mil of solution into different cuvette and quantify so the rate of diffusion of beetroot is the change of absorbance over five minutes this is a method for quantification to investigate how changing sds or ethanol concentration will affect the rate pigment the diffusion of red pigment from beetroot using visible slag",
+  "text_to_speech_word_count": 149,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.067",
+      "start": "00:00:00.000",
+      "text": " Apa pertemul场 video untuk spekitas SDS"
+    },
+    {
+      "end": "00:00:09.467",
+      "start": "00:00:07.367",
+      "text": " dan se Galilei"
+    },
+    {
+      "end": "00:00:13.233",
+      "start": "00:00:09.633",
+      "text": " memapalikan tersingian starving"
+    },
+    {
+      "end": "00:00:15.667",
+      "start": "00:00:13.400",
+      "text": " rel indah лишь pereputan splitting ayak meiasa"
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:15.667",
+      "text": " melacam asal ketidak dan sesuatu"
+    },
+    {
+      "end": "00:00:21.900",
+      "start": "00:00:19.100",
+      "text": " melacam sebilion"
+    },
+    {
+      "end": "00:00:25.133",
+      "start": "00:00:21.933",
+      "text": " Msinging ubar minum, mengambil ke milk kebel你想"
+    },
+    {
+      "end": "00:00:29.267",
+      "start": "00:00:25.967",
+      "text": " mel guysi syarwa disp bite ke jalan"
+    },
+    {
+      "end": "00:00:31.267",
+      "start": "00:00:29.267",
+      "text": " atau perasaan-kongsi,"
+    },
+    {
+      "end": "00:00:33.267",
+      "start": "00:00:32.267",
+      "text": " untuk 5 minit."
+    },
+    {
+      "end": "00:00:36.267",
+      "start": "00:00:34.267",
+      "text": " Untuk percaya, kami menggunakan kembali kembali"
+    },
+    {
+      "end": "00:00:38.267",
+      "start": "00:00:37.267",
+      "text": " dan kami akan mencari lambar Max."
+    },
+    {
+      "end": "00:00:41.267",
+      "start": "00:00:39.267",
+      "text": " Di-plutus seluruh,"
+    },
+    {
+      "end": "00:00:43.267",
+      "start": "00:00:41.267",
+      "text": " menggunakan 1.5 mil,"
+    },
+    {
+      "end": "00:00:44.267",
+      "start": "00:00:43.267",
+      "text": " menggunakan kembali."
+    },
+    {
+      "end": "00:00:47.267",
+      "start": "00:00:45.267",
+      "text": " Kami mencari lambar Max,"
+    },
+    {
+      "end": "00:00:49.267",
+      "start": "00:00:47.267",
+      "text": " yang adalah 583."
+    },
+    {
+      "end": "00:00:53.267",
+      "start": "00:00:51.267",
+      "text": " Selepas 5 minit,"
+    },
+    {
+      "end": "00:00:55.267",
+      "start": "00:00:53.267",
+      "text": " kami mencari lambar Max 1.5 mil di kembali"
+    },
+    {
+      "end": "00:00:56.267",
+      "start": "00:00:55.267",
+      "text": " di kembali kembali kembali di kembali."
+    },
+    {
+      "end": "00:00:58.267",
+      "start": "00:00:56.767",
+      "text": " Dan kitchen 25."
+    },
+    {
+      "end": "00:01:00.267",
+      "start": "00:00:58.267",
+      "text": " Jadi bahagian semasa rati di gerak ini"
+    },
+    {
+      "end": "00:01:05.267",
+      "start": "00:01:03.267",
+      "text": " diossil sulitkan kelusive di ok return 5 minit."
+    },
+    {
+      "end": "00:01:07.267",
+      "start": "00:01:05.267",
+      "text": " Ini adalah skuhan beratur per Uhu"
+    },
+    {
+      "end": "00:01:17.267",
+      "start": "00:01:07.267",
+      "text": " untuk melindungi kembali kembali"
+    },
+    {
+      "end": "00:01:20.267",
+      "start": "00:01:17.267",
+      "text": "grupp keduSiat yang telah menganderi"
+    },
+    {
+      "end": "00:01:22.267",
+      "start": "00:01:20.267",
+      "text": " itu dari vanın dan empat menghubungan"
+    },
+    {
+      "end": "00:01:23.267",
+      "start": "00:01:22.267",
+      "text": " silakan software."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "wkkok1957",
+  "youtube_channel_follower_count": 118,
+  "youtube_comment_count": 2,
+  "youtube_description": "IB Biology diffusion of beetroot pigment measured using visible spectrophotometer. Beetroot experiment on anthocyanins or betacyanin molecules",
+  "youtube_like_count": 12,
+  "youtube_tags": [
+    "beetroot",
+    "ia"
+  ],
+  "youtube_title": "IB Biology diffusion of beetroot pigment measured using visible spectrophotometer.",
+  "youtube_upload_date": "20111021",
+  "youtube_view_count": 5196
+}

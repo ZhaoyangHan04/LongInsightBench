@@ -1,0 +1,2183 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A female voice narrating the tutorial. Visually, only presentation slides and software interfaces are shown.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial focused on visualizing chemical structures using Jmol, involving tasks such as loading structures from PubChem, converting 2D to 3D models.",
+    "fps": 6.0,
+    "qAndA": [
+      {
+        "answer": "PubChem",
+        "question": "What is the name of the database used to retrieve the structure of 'Phenol'?"
+      },
+      {
+        "answer": "Model Kit menu",
+        "question": "Which Jmol menu option is used to modify the structure of a molecule by adding or deleting atoms?"
+      },
+      {
+        "answer": "Orange",
+        "question": "What is the color of the double bond in the Cholesterol molecule after the modification?"
+      },
+      {
+        "answer": ".mol",
+        "question": "What is the file format used for saving 2D structures in GChemPaint?"
+      },
+      {
+        "answer": "GChemPaint",
+        "question": "What is the name of the software used for drawing 2D chemical structures?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the tutorial topic: Structures from Database, specifically focusing on Jmol.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator lists the learning objectives: Loading chemical structures from PubChem database, and converting 2D structures drawn in GChemPaint to 3D models in Jmol.",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator interacts with slides to present information."
+          }
+        ],
+        "contextualRelevance": "Designed for learners interested in chemistry visualization tools.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Informative content with basic visuals and calm narration.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the tutorial and its focus.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Setting expectations by outlining learning objectives.",
+            "timestamp": "00:00:06.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides with title, organization logos, learning objectives.",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Educational and instructional.",
+        "timestamps": {
+          "end_timestamp": "00:00:20.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Learning Objectives",
+        "videoEditingDetails": [
+          {
+            "description": "Basic slide transitions.",
+            "timestamps": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator states the prerequisite of being familiar with the Jmol application.",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:20.167"
+            }
+          },
+          {
+            "description": "Narrator directs viewers to other tutorials if they are not familiar with Jmol.",
+            "timestamp": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          },
+          {
+            "description": "Narrator lists the system requirements for the tutorial: Ubuntu OS 12.04, Jmol 12.2.2, Java (JRE) version 7, GChemPaint 0.12.10, and Mozilla Firefox browser 22.0.",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator presents prerequisites and software details using slides."
+          }
+        ],
+        "contextualRelevance": "Important for viewers to prepare their systems for the tutorial.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Provides essential technical details with a focus on prerequisites.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Stating prerequisites and suggesting alternative resources.",
+            "timestamp": "00:00:20.167"
+          },
+          {
+            "description": "Specifying the necessary software versions for the tutorial.",
+            "timestamp": "00:00:31.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides listing prerequisites and system requirements.",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:20.167"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical requirements for software setup.",
+        "timestamps": {
+          "end_timestamp": "00:00:55.500",
+          "start_timestamp": "00:00:20.167"
+        },
+        "title": "Prerequisites and System Requirements",
+        "videoEditingDetails": [
+          {
+            "description": "Basic slide transitions.",
+            "timestamps": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:20.167"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains how Jmol can retrieve chemical structures from online databases.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:55.667"
+            }
+          },
+          {
+            "description": "Narrator demonstrates using the 'Get MOL' option in Jmol's file menu.",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          },
+          {
+            "description": "Narrator opens the PubChem website to find the molecule 'Phenol' and retrieves its structure using Jmol.",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          },
+          {
+            "description": "Phenol's 3D structure appears in the Jmol window.",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:02:18.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator navigates applications to demonstrate molecule retrieval."
+          }
+        ],
+        "contextualRelevance": "Practical application of database retrieval for chemical analysis.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Curious: Demonstrates retrieval and visualization process, sparking interest.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of Jmol's functionality to retrieve structures from databases.",
+            "timestamp": "00:00:55.667"
+          },
+          {
+            "description": "Practical example using 'Phenol'.",
+            "timestamp": "00:01:29.000"
+          },
+          {
+            "description": "Success in loading the structure, concluding the retrieval process.",
+            "timestamp": "00:02:18.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Jmol application window with menu bar.",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:00:55.667"
+            }
+          },
+          {
+            "name": "Firefox web browser displaying PubChem website.",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          },
+          {
+            "name": "Jmol window showing the 3D structure of Phenol.",
+            "timestamp": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:02:18.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Chemistry visualization using technology.",
+        "timestamps": {
+          "end_timestamp": "00:02:23.000",
+          "start_timestamp": "00:00:55.667"
+        },
+        "title": "Jmol Application - Loading Structures",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the Jmol application and Firefox browser.",
+            "timestamps": {
+              "end_timestamp": "00:02:23.000",
+              "start_timestamp": "00:00:55.667"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator shows various rendering options in Jmol and modifies the display of Phenol, including adding atom labels.",
+            "timestamp": {
+              "end_timestamp": "00:02:51.000",
+              "start_timestamp": "00:02:23.167"
+            }
+          },
+          {
+            "description": "Narrator modifies the structure by substituting a hydrogen atom with an amino group using the Model Kit menu.",
+            "timestamp": {
+              "end_timestamp": "00:03:12.000",
+              "start_timestamp": "00:02:51.000"
+            }
+          },
+          {
+            "description": "Narrator changes the display style to 'Sticks' and modifies the color of the newly added amino group using the Color menu.",
+            "timestamp": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator interacts with Jmol features for demonstration."
+          }
+        ],
+        "contextualRelevance": "Enhancing understanding of molecular structures through visualization.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Curious: Demonstrates features that invite experimentation by viewers.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to Jmol's rendering options and their impact on visualization.",
+            "timestamp": "00:02:23.167"
+          },
+          {
+            "description": "Practical demonstration of modifying the structure.",
+            "timestamp": "00:02:51.000"
+          },
+          {
+            "description": "Enhancing visualization by changing styles and colors.",
+            "timestamp": "00:03:12.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Jmol application window displaying Phenol molecule and menus.",
+            "timestamp": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:02:23.167"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Interactive molecular visualization.",
+        "timestamps": {
+          "end_timestamp": "00:03:35.000",
+          "start_timestamp": "00:02:23.167"
+        },
+        "title": "Modifying Molecule Display",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Jmol application with interactions.",
+            "timestamps": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:02:23.167"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains how complex structures like Cholesterol can be loaded from PubChem into Jmol.",
+            "timestamp": {
+              "end_timestamp": "00:04:07.000",
+              "start_timestamp": "00:03:35.167"
+            }
+          },
+          {
+            "description": "Narrator highlights the double bond in Cholesterol by selecting the relevant carbon atoms and changing their color to orange.",
+            "timestamp": {
+              "end_timestamp": "00:04:27.000",
+              "start_timestamp": "00:04:07.000"
+            }
+          },
+          {
+            "description": "Narrator highlights the side chain in Cholesterol by selecting the relevant carbon atoms and changing their color to violet.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:04:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator illustrates features of complex molecules using Jmol."
+          }
+        ],
+        "contextualRelevance": "Showcasing the potential of Jmol in various scientific contexts.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious: Further explores Jmol's capabilities with complex molecular examples.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Transition to a complex molecule, showcasing Jmol's ability to handle intricacy.",
+            "timestamp": "00:03:35.167"
+          },
+          {
+            "description": "Visualization and highlighting of a double bond.",
+            "timestamp": "00:04:07.000"
+          },
+          {
+            "description": "Further highlighting specific areas of the molecule.",
+            "timestamp": "00:04:27.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Jmol application window displaying Cholesterol molecule with menu interactions.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:03:35.167"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Handling complex molecular structures.",
+        "timestamps": {
+          "end_timestamp": "00:04:58.500",
+          "start_timestamp": "00:03:35.167"
+        },
+        "title": "Complex Structures",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Jmol application highlighting specific molecule parts.",
+            "timestamps": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:03:35.167"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator assigns a task to load the structure of Caffeine from PubChem database, highlight important features, and modify its display to wireframe style.",
+            "timestamp": {
+              "end_timestamp": "00:05:18.000",
+              "start_timestamp": "00:04:58.667"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator provides assignment instructions."
+          }
+        ],
+        "contextualRelevance": "Encourages hands-on practice of learned concepts.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Curious: Encourages independent exploration through assignment.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shifting from demonstration to an independent assignment for the viewer.",
+            "timestamp": "00:04:58.667"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with the assignment instructions and PubChem website URL.",
+            "timestamp": {
+              "end_timestamp": "00:05:18.000",
+              "start_timestamp": "00:04:58.667"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Interactive learner engagement.",
+        "timestamps": {
+          "end_timestamp": "00:05:18.500",
+          "start_timestamp": "00:04:58.667"
+        },
+        "title": "Assignment - Caffeine",
+        "videoEditingDetails": [
+          {
+            "description": "Basic slide transition.",
+            "timestamps": {
+              "end_timestamp": "00:05:18.000",
+              "start_timestamp": "00:04:58.667"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the use of GChemPaint to draw 2D structures and how they can be converted to 3D models in Jmol.",
+            "timestamp": {
+              "end_timestamp": "00:05:45.000",
+              "start_timestamp": "00:05:18.667"
+            }
+          },
+          {
+            "description": "Narrator shows three examples of 2D structures in GChemPaint (Alanine, Adenosine, Alpha-D-Glucopyranose).",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:05:45.000"
+            }
+          },
+          {
+            "description": "Narrator loads the saved 2D structures (.mol files) into Jmol and demonstrates their 3D representations.",
+            "timestamp": {
+              "end_timestamp": "00:07:25.000",
+              "start_timestamp": "00:06:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator demonstrates 2D to 3D conversion using software tools."
+          }
+        ],
+        "contextualRelevance": "Educational use of software tools for visualization transition.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious: Introduces new software and its functionality, fostering interest in conversion process.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of GChemPaint and its purpose.",
+            "timestamp": "00:05:18.667"
+          },
+          {
+            "description": "Display of 2D structures in GChemPaint.",
+            "timestamp": "00:05:45.000"
+          },
+          {
+            "description": "Demonstrating conversion process by visualizing 3D models in Jmol.",
+            "timestamp": "00:06:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide explaining GChemPaint.",
+            "timestamp": {
+              "end_timestamp": "00:05:45.000",
+              "start_timestamp": "00:05:18.667"
+            }
+          },
+          {
+            "name": "GChemPaint window with 2D structures.",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:05:45.000"
+            }
+          },
+          {
+            "name": "Jmol applications windows displaying the 3D structures.",
+            "timestamp": {
+              "end_timestamp": "00:07:25.000",
+              "start_timestamp": "00:06:29.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "2D to 3D molecular model conversion.",
+        "timestamps": {
+          "end_timestamp": "00:07:25.500",
+          "start_timestamp": "00:05:18.667"
+        },
+        "title": "2D to 3D Conversion",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of GChemPaint and Jmol applications.",
+            "timestamps": {
+              "end_timestamp": "00:07:25.000",
+              "start_timestamp": "00:05:18.667"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator provides a summary of the topics covered in the tutorial.",
+            "timestamp": {
+              "end_timestamp": "00:07:51.000",
+              "start_timestamp": "00:07:25.667"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator summarizes the tutorial using a presentation slide."
+          }
+        ],
+        "contextualRelevance": "Ensures retention of the tutorial's main objectives and skills.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Content: Concluding recap of key learnings.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Summarizing the key points discussed in the tutorial.",
+            "timestamp": "00:07:25.667"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with summary points.",
+            "timestamp": {
+              "end_timestamp": "00:07:51.000",
+              "start_timestamp": "00:07:25.667"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Recap and consolidation of learning content.",
+        "timestamps": {
+          "end_timestamp": "00:07:51.000",
+          "start_timestamp": "00:07:25.667"
+        },
+        "title": "Summary",
+        "videoEditingDetails": [
+          {
+            "description": "Basic slide transition.",
+            "timestamps": {
+              "end_timestamp": "00:07:51.000",
+              "start_timestamp": "00:07:25.667"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator gives an assignment to draw 2D structures of three amino acids and modify their display in Jmol.",
+            "timestamp": {
+              "end_timestamp": "00:08:12.000",
+              "start_timestamp": "00:07:51.167"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator outlines final assignment using slides."
+          }
+        ],
+        "contextualRelevance": "Encourages application and mastery of tutorial content.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Curious: Final challenge to apply and reinforce the learned objectives.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Providing a final assignment to consolidate learning through practical engagement.",
+            "timestamp": "00:07:51.167"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide listing the assignment instructions and names of the amino acids.",
+            "timestamp": {
+              "end_timestamp": "00:08:12.000",
+              "start_timestamp": "00:07:51.167"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Engaging learners in comprehensive tasks.",
+        "timestamps": {
+          "end_timestamp": "00:08:12.000",
+          "start_timestamp": "00:07:51.167"
+        },
+        "title": "Assignment - 2D to 3D Amino Acids",
+        "videoEditingDetails": [
+          {
+            "description": "Basic slide transition.",
+            "timestamps": {
+              "end_timestamp": "00:08:12.000",
+              "start_timestamp": "00:07:51.167"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator gives information about the Spoken Tutorial Project activities and sponsors.",
+            "timestamp": {
+              "end_timestamp": "00:09:03.000",
+              "start_timestamp": "00:08:12.167"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator shares additional resources and contacts through slides."
+          }
+        ],
+        "contextualRelevance": "Encourages further exploration and participation in the Spoken Tutorial Project.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Content: Providing factual information about the project scope and support.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Transition from tutorial content to project-related details.",
+            "timestamp": "00:08:12.167"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides with project information, contact details, and acknowledgements.",
+            "timestamp": {
+              "end_timestamp": "00:09:03.000",
+              "start_timestamp": "00:08:12.167"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Informational segment about the overall project.",
+        "timestamps": {
+          "end_timestamp": "00:09:03.167",
+          "start_timestamp": "00:08:12.167"
+        },
+        "title": "Spoken Tutorial Project Information and Acknowledgements",
+        "videoEditingDetails": [
+          {
+            "description": "Basic slide transitions.",
+            "timestamps": {
+              "end_timestamp": "00:09:03.000",
+              "start_timestamp": "00:08:12.167"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "There is no traditional climax as it is a tutorial; however, Scene 7 introduces a new software for conversion, which could be considered a peak in terms of introducing new content.",
+        "timestamp": "00:05:18.000"
+      },
+      "description": "The video is a structured tutorial focused on Jmol software for chemical visualization, organized into scenes providing demonstrations, assignments, and food for independent exploration.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "title": "Structures from Database",
+    "trimmingSuggestions": [
+      {
+        "description": "The system requirements slide could be shortened or removed, with viewers directed to online resources for details.",
+        "timestamps": {
+          "end_timestamp": "00:08:12.167",
+          "start_timestamp": "00:08:12.167"
+        }
+      },
+      {
+        "description": "The assignment slides could be enhanced with visuals or animations for engagement.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 543,
+  "original_json_filename": "4-Dy1VporvE.json",
+  "original_video_filename": "4-Dy1VporvE.mp4",
+  "resolution": "482x360",
+  "text_to_speech": "Welcome to this tutorial on Structures from Databases in Jmol In this tutorial, we will learn to * Load chemical structures from PubChem database and * Convert 2D structures drawn in GChemPaint to 3D models in Jmol. To follow this tutorial you should be familiar with Jmol Application. If not, watch the relevant tutorials available at our website. To record this tutorial I am using * Ubuntu Linux OS version. 12.04 * Jmol version 12.2.2 * Java version 7 * GChemPaint version 0.12.10 * Mozilla Firefox browser 22.0 I have opened a new Jmol Application window. Jmol has a feature to load structures of compounds listed in the database. The 'File' menu on the menu bar, has an option 'Get MOL'. This loads molecules from chemical structure data base 'PubChem'. It also has another option 'Get PDB' to load protein structures from Protein Data Bank. This feature will be explained in detail in another tutorial. To load a chemical structure on the panel, click on 'Get Mol'. An 'Input' dialog box opens on the screen. Any molecule listed in the database can be loaded by typing the following in the text box: Common name or IUPAC name CAS number CID number InChi identifier  or SMILES identifier Please visit Pubchem database website for information on identification numbers for a particular chemical let us display phenol on screen. So type 'phenol' in the Input text box. click on OK button. A Model of phenol is displayed on the panel. We can modify the display of phenol using various rendering options. These options are listed in the Menu bar and Pop-up menu. We can add substituents to the benzene ring of phenol. First let us label the atoms in the model. Click on the display menu, and select label. Click on number option. Now, let's replace a hydrogen number 10 attached to the carbon atom number 4 with an amino group. Open the modelkit menu,  select nitrogen from the options. Click on hydrogen number 10. This is a molecule of Para-Amino Phenol on the panel. We will change the display to Sticks display. Exit the modelkit menu. Open the Pop-up menu, scroll down to Style , select Scheme and click on Sticks options. On the panel we have a model of Para-Amino-phenol in sticks display. Complex structures, which are difficult to create, can easily be loaded on the panel. For example cholesterol. Click on File menu Click on Get Mol option,   in the text box type Cholesterol . click on OK button. A molecule of Cholesterol is displayed on the panel. We can highlight the features like double-bond and side-chain in the molecule. To highlight double-bond,  let us first change the color of carbon atoms of the double-bond. Click on 'Select atoms' icon in the tool bar. Then click on the carbon atoms involved in the double-bond. A yellow halo appears around the atoms. Open the Pop-up-menu. Scroll down to Color, select Atoms and click on Orange option. Now Click on  “Rotate molecule” option in the tool bar. The double-bond in the cholesterol model is now in orange color. Similarly, we can highlight the carbons in the side-chain. Using Pop-up-menu change the color to violet. On the panel, we have a model of Cholesterol with important features highlighted. As an assignment, * Load structure of caffeine from Pubchem database . * Highlight the important features in the molecule. * Modify the display to wireframe. Now I will discuss another important feature of Jmol. We can convert 2D structures of molecules drawn in another software into 3D models. Here I have a model of aminoacid Alanine on the panel. 2D structure of this molecule was drawn in software called GChemPaint. The structure was saved as a .mol file. GchemPaint is an Open source software for drawing 2D chemical structures. Tutorials on GChemPaint are available at the following link. To draw structures and save in .mol format, refer to Analysis of Compounds tutorial. Shown on this Gchempaint display area are 2D drawings of * Amino acid -Alanine * Nuclioside -Adenosine * Saccharide -Alpha-D glucopyranose I have saved them in .mol format on my Desktop. First, let's view the 2D structure of Alanine as 3D model in Jmol Application. So, I will open a new Jmol window. Click on 'Open a file' icon in the tool bar. I will choose Desktop folder and click on open. Choose the file Alanine.mol and click on Open button. A 3D model of 'Alanine' opens on screen. Open the modelkit menu and click on 'fix hydrogens and minimize' option. Hydrogens are added to the structure and the energy minimized. As with any .mol file, we can change the display using menu bar and also Pop-up menu. Here is the 3D model of Adenosine.mol in Jmol. And this is a 3D model of Alpha-D-glucopyranose.mol in Jmol. Let's summarize In this tutorial we have learnt to * Load chemical structures from Pubchem data base. * Modify the display of Phenol and Cholesterol. * Convert 2D structures drawn in GChemPaint to 3D models in Jmol. * Convert 2D structures of Alanine, Adenosine and Alpha-D-glucopyranose to 3D models. Here is another assignment for you. # Draw 2D structures of the following Amino acids in GChemPaint. * Cysteine * Histidine * Phenylalanine # Save as .mol files. # Open the files in Jmol and modify the display. Watch the video available at this URL. ttp://spoken-tutorial.org/What_is_a_Spoken_ Tutorial It summarizes the Spoken Tutorial project If you do not have good bandwidth, you can download and watch it The Spoken Tutorial Project Team: Conducts workshops using spoken tutorials Gives certificates to those who pass an on-line test For more details, please write to  contact@spoken-tutorial.org Spoken Tutorial Project is a part of the Talk to a Teacher project It is supported by the National Mission on Education through ICT, MHRD, Government of India More information on this Mission is available at this link http://spoken-tutorial.org/NMEICT-Intro ] This is Snehalatha from IIT Bombay signing off. Thank you for joining.",
+  "text_to_speech_word_count": 998,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.833",
+      "start": "00:00:00.000",
+      "text": " வணக்கம், ஜேம்முல் தரவு தலங்களில் உள்ளை அமைப்புகள் குரித்தால் சுற்கும்"
+    },
+    {
+      "end": "00:00:08.833",
+      "start": "00:00:04.833",
+      "text": " துட்டும் ரியலக்கு நல்ல வரவே. இந்த துட்டும் ரியல் நம் கர்க்கப்போது,"
+    },
+    {
+      "end": "00:00:13.333",
+      "start": "00:00:08.833",
+      "text": " பாப்ப்கேம் தரவு தலத்தில் இருந்து வேதியல் அமைப்புகளையே இருத்தல்,"
+    },
+    {
+      "end": "00:00:17.167",
+      "start": "00:00:14.000",
+      "text": " ஜேக்ம் பேண்டில் வரையைப்புட்டாய் இருப்புரிமான அமைப்புகளை,"
+    },
+    {
+      "end": "00:00:20.000",
+      "start": "00:00:17.167",
+      "text": " ஜேமோல் முப்புரிமான மாதிரிகளாக மாதிருதல்"
+    },
+    {
+      "end": "00:00:24.667",
+      "start": "00:00:20.833",
+      "text": " இந்த துட்டும் ரியலை தோடரா ஜேமோல அவ்வளிக்கைச் செய்து தெரிந்து இருக்க வேண்டும்"
+    },
+    {
+      "end": "00:00:30.667",
+      "start": "00:00:25.667",
+      "text": " இல்லை என்னில் அதற்கான துட்டும் ரியல்கள்கள் எங்கள் வலைத்தலைத் தெரிகானாகும்"
+    },
+    {
+      "end": "00:00:35.667",
+      "start": "00:00:31.667",
+      "text": " இந்த துட்டும் ரியலை பதிவு செய்ய நான் பயன் பட்டுவது,"
+    },
+    {
+      "end": "00:00:42.667",
+      "start": "00:00:35.667",
+      "text": " ஒப்பும் துலம் பதிப்பு பணிரண்டு புள்ளி புள்ளி ஜேமோல் பதிப்பு பணிரண்டு புள்ளி இரண்டு புள்ளி இரண்டு"
+    },
+    {
+      "end": "00:00:49.333",
+      "start": "00:00:42.667",
+      "text": " ஜாவா பதிப்பு ஜேமோல் புள்ளி இரண்டு புள்ளி ஒன்று புள்ளி"
+    },
+    {
+      "end": "00:00:50.333",
+      "start": "00:00:49.333",
+      "text": " ஒன்று புள்ளி இரண்டு புள்ளி இரண்டு புள்ளி இரண்டு புள்ளி இரண்டு புள்ளி இரண்டு புள்ளி"
+    },
+    {
+      "end": "00:00:54.667",
+      "start": "00:00:50.333",
+      "text": " முதில்லாம் 5FB 20 இரண்டு புள்ளி புள்ளி இரண்டு புள்ளி இரண்டு புள்ளி இரண்டு"
+    },
+    {
+      "end": "00:00:59.667",
+      "start": "00:00:55.667",
+      "text": " ஒரு புதி ஜேமோல் அப்பிக்கைச் செல்விட்டு வேற்றி இரண்டு வைத்துவிட்டுள்ளேன்"
+    },
+    {
+      "end": "00:01:06.667",
+      "start": "00:00:59.667",
+      "text": " தரவுத்தலைத் தில் பட்டிலிடு பட்டுள்ளை செயர்மாங்களின் அமைப்புகளை எடுக்கிறான் ஒரு அம்மதத்தத்தை ஜேமோல் கொண்டுள்ளாதே"
+    },
+    {
+      "end": "00:01:08.667",
+      "start": "00:01:06.667",
+      "text": " மேண்டும் வாரில் உள்ளையும் வேற்றியில் மேண்டும்"
+    },
+    {
+      "end": "00:01:10.667",
+      "start": "00:01:08.667",
+      "text": " கேட்மோல் தேரவை கொண்டுள்ளாதே"
+    },
+    {
+      "end": "00:01:16.667",
+      "start": "00:01:10.667",
+      "text": " இது வேதியையைல் அமைப்பு தரவுத்தலம் பாப்ப்கைச் செயர்ந்து முலக்குருக்கலை எடுக்கிறார்தே"
+    },
+    {
+      "end": "00:01:19.667",
+      "start": "00:01:16.667",
+      "text": " பிறோட்டின் தேட்டாக வேற்றி இரண்டு புரத அமைப்புத்தலை எடுக்கிறார்"
+    },
+    {
+      "end": "00:01:23.667",
+      "start": "00:01:19.667",
+      "text": " கேட்டப் பிடிப்பி என்றால் மட்டும் தேரவையும் கொண்டுள்ளாதே"
+    },
+    {
+      "end": "00:01:29.667",
+      "start": "00:01:25.667",
+      "text": " என்னுடைய மட்டும் ஒரு்டும் தொட்டும் என்றில் விரிவாக விளக்கப்படும்"
+    },
+    {
+      "end": "00:01:33.667",
+      "start": "00:01:30.667",
+      "text": " பேண்டும் ஒரு வேதியையைல் அமைப்பு தேட்டாக"
+    },
+    {
+      "end": "00:01:35.667",
+      "start": "00:01:33.667",
+      "text": " கேட்மோல் மீதிக் கிளிக்சைக்கா"
+    },
+    {
+      "end": "00:01:38.667",
+      "start": "00:01:35.667",
+      "text": " திரையில் ஒரு இன்பு தயலக்பக்ச் செயர்க்கிறாதே"
+    },
+    {
+      "end": "00:01:42.667",
+      "start": "00:01:39.667",
+      "text": " இந்த ஒரைப்பு தியில் பின் வருவன வட்டையை் தயவிதன் முலம்"
+    },
+    {
+      "end": "00:01:46.667",
+      "start": "00:01:42.667",
+      "text": " தரவு தலைத்தில் பட்டிலிடம் பட்டுல்லை என்று மூலக்குகிறேயும் எட்டும் முடியும்"
+    },
+    {
+      "end": "00:01:49.667",
+      "start": "00:01:47.667",
+      "text": " போது பேர் அல்லது அழுது பார்ப்பேர்"
+    },
+    {
+      "end": "00:01:53.667",
+      "start": "00:01:50.667",
+      "text": " சியச் என் சியடி என்"
+    },
+    {
+      "end": "00:01:57.667",
+      "start": "00:01:55.667",
+      "text": " என் சியி ஏடும் தயர்"
+    },
+    {
+      "end": "00:02:00.667",
+      "start": "00:01:57.667",
+      "text": " அல்லது மேல் ஏடும் தயர்"
+    },
+    {
+      "end": "00:02:03.500",
+      "start": "00:02:00.667",
+      "text": " ஒரு கூறிப்புத் தயர்셔서் சாய் நத்தின்"
+    },
+    {
+      "end": "00:02:09.000",
+      "start": "00:02:05.500",
+      "text": " அடையாளை என் மீத் தகவலக்குப் பப்லப்பக்கிம் தரவுத்தலை எனகே தலைத்திருக்கு செல்க soprattutto"
+    },
+    {
+      "end": "00:02:14.667",
+      "start": "00:02:11.833",
+      "text": " திரையையில் சீனால் சிறையில் வுங்களுக்கு ஒரு Hieren"
+    },
+    {
+      "end": "00:02:25.000",
+      "start": "00:02:21.667",
+      "text": " என்னவன் உள்ளிட்ட நிறையில் கொள்ளரு எதாய் சேக"
+    },
+    {
+      "end": "00:02:26.167",
+      "start": "00:02:25.000",
+      "text": " சியணல்"
+    },
+    {
+      "end": "00:02:28.667",
+      "start": "00:02:26.167",
+      "text": " வீ knife��터lu différents"
+    },
+    {
+      "end": "00:02:33.167",
+      "start": "00:02:29.667",
+      "text": " இந்த Terv hi el menoo bar"
+    },
+    {
+      "end": "00:02:41.833",
+      "start": "00:02:36.500",
+      "text": " daki la"
+    },
+    {
+      "end": "00:02:52.000",
+      "start": "00:02:41.833",
+      "text": " explai strict"
+    },
+    {
+      "end": "00:02:55.000",
+      "start": "00:02:52.000",
+      "text": " இப்போது கார்வன அணுயன் நான் உடன் எனக்குப் பட்டுல்லை."
+    },
+    {
+      "end": "00:02:59.000",
+      "start": "00:02:55.000",
+      "text": " Hi-Trogen-N 10-KBதிலாக ஒரு அமினோ குழுவை வைப்போம்."
+    },
+    {
+      "end": "00:03:04.000",
+      "start": "00:02:59.000",
+      "text": " முழுள்கிற்சு மினுவைத் திருவுகளில் நயட்டுவிருந்திருக்கவும்."
+    },
+    {
+      "end": "00:03:08.000",
+      "start": "00:03:05.000",
+      "text": " Hi-Trogen-N 10-MIDI CLICKS ஏகா."
+    },
+    {
+      "end": "00:03:13.000",
+      "start": "00:03:08.000",
+      "text": " பேண்டலில் பேரா அமினோ பேனால் முலக்குருவும் இல்லதே."
+    },
+    {
+      "end": "00:03:16.000",
+      "start": "00:03:14.000",
+      "text": " பேண்டலில் பேரா அமினோ பேண்டலில் மாதிரியை,"
+    },
+    {
+      "end": "00:03:19.000",
+      "start": "00:03:16.000",
+      "text": " பேண்டலில் பேண்டலில் கொண்டுவில்லும்."
+    },
+    {
+      "end": "00:03:22.000",
+      "start": "00:03:19.000",
+      "text": " உருவாக கடினமான விக்கலான அமிப்புகளை,"
+    },
+    {
+      "end": "00:03:25.000",
+      "start": "00:03:22.000",
+      "text": " எல்லில் மயாக பேண்டலில் எட்டு முடியும்."
+    },
+    {
+      "end": "00:03:27.000",
+      "start": "00:03:25.000",
+      "text": " உதரவனமாக கொள்ளலாம்."
+    },
+    {
+      "end": "00:03:31.000",
+      "start": "00:03:27.000",
+      "text": " பேண்டலில் பேண்டலில் பேண்டலில் பேண்டலில்"
+    },
+    {
+      "end": "00:03:33.000",
+      "start": "00:03:31.000",
+      "text": " அமினோ பேண்டலில் மாதிரியை,"
+    },
+    {
+      "end": "00:03:35.000",
+      "start": "00:03:33.000",
+      "text": " சிறிக்ச் செல்லவில் கொண்டுவில்லும்."
+    },
+    {
+      "end": "00:03:39.000",
+      "start": "00:03:35.000",
+      "text": " உருவாக கடினமான விக்கலான அமிப்புகளை,"
+    },
+    {
+      "end": "00:03:42.000",
+      "start": "00:03:39.000",
+      "text": " எல்லில் மயாக பேண்டலில் எட்டு முடியும்."
+    },
+    {
+      "end": "00:03:44.000",
+      "start": "00:03:42.000",
+      "text": " உதரவனமாக கொள்ளலஷ்டிரால்."
+    },
+    {
+      "end": "00:03:47.000",
+      "start": "00:03:44.000",
+      "text": " பேண்டலில் மீதிக்க் கிள்ளிக்சைக்கா,"
+    },
+    {
+      "end": "00:03:49.000",
+      "start": "00:03:47.000",
+      "text": " கொள்ளலஷ்டிரால் மீதிக்க் கிள்ளிக்சைக்கு,"
+    },
+    {
+      "end": "00:03:51.000",
+      "start": "00:03:49.000",
+      "text": " ஒரே பெடியில் Typesaiga,"
+    },
+    {
+      "end": "00:03:53.000",
+      "start": "00:03:51.000",
+      "text": " கொள்ளலஷ்டிரால்."
+    },
+    {
+      "end": "00:03:56.000",
+      "start": "00:03:53.000",
+      "text": " உக்கே வட்டன் மீதிக்க் கிள்ளிக்சைக்கா,"
+    },
+    {
+      "end": "00:03:58.000",
+      "start": "00:03:56.000",
+      "text": " கொள்ளலஷ்டிரால் மூலக்க்கும்"
+    },
+    {
+      "end": "00:04:01.000",
+      "start": "00:03:58.000",
+      "text": " பேண்டலில் காட்டப்படிக்கிறாது."
+    },
+    {
+      "end": "00:04:03.000",
+      "start": "00:04:01.000",
+      "text": " மூலக்க்கும் இர்டைப் பணிப்பு,"
+    },
+    {
+      "end": "00:04:07.000",
+      "start": "00:04:03.000",
+      "text": " மட்டும் பக்கசங்களிப் போன்றராம் சங்களை முன்னிலைப் பட்டத்த முடியும்."
+    },
+    {
+      "end": "00:04:09.000",
+      "start": "00:04:07.000",
+      "text": " இர்டைப் பணிப்பு, முன்னிலைப் பட்டத்தா,"
+    },
+    {
+      "end": "00:04:11.000",
+      "start": "00:04:09.000",
+      "text": " இர்டைப் பணிப்பு, கார்வன ஆனுக்கல்,"
+    },
+    {
+      "end": "00:04:13.000",
+      "start": "00:04:11.000",
+      "text": " நிராங்களை முதலில் மட்டுவும்."
+    },
+    {
+      "end": "00:04:16.000",
+      "start": "00:04:13.000",
+      "text": " தூல் பாரில் சலைத்தான்றால்"
+    },
+    {
+      "end": "00:04:18.000",
+      "start": "00:04:16.000",
+      "text": " ஆட்டம் சைக்கான் மீதிக்க்க்கா,"
+    },
+    {
+      "end": "00:04:20.000",
+      "start": "00:04:19.000",
+      "text": " பின் இர்டைப் பணிப்பு,"
+    },
+    {
+      "end": "00:04:22.000",
+      "start": "00:04:20.000",
+      "text": " உல்லாக கார்வனால் மீதிக்க்க்கல்,"
+    },
+    {
+      "end": "00:04:26.000",
+      "start": "00:04:24.000",
+      "text": " அனுகலை சுற்று, மன்சன் நிராவுளி வட்டம்"
+    },
+    {
+      "end": "00:04:27.000",
+      "start": "00:04:26.000",
+      "text": " தோன்று இருக்கிறது,"
+    },
+    {
+      "end": "00:04:29.000",
+      "start": "00:04:27.000",
+      "text": " போப்பம் மனைப்பைக்க்கிறார்ந்து,"
+    },
+    {
+      "end": "00:04:31.000",
+      "start": "00:04:29.000",
+      "text": " கலர்க்க்க வந்து,"
+    },
+    {
+      "end": "00:04:32.000",
+      "start": "00:04:31.000",
+      "text": " அட்டம் சைக்கிறந்து,"
+    },
+    {
+      "end": "00:04:35.000",
+      "start": "00:04:32.000",
+      "text": " பின் அருஞ்ச் தெருவும் மீதிக்க்க்க்கா,"
+    },
+    {
+      "end": "00:04:37.000",
+      "start": "00:04:36.000",
+      "text": " இப்போது தொழ்க்கள் மேலே Mater's"
+    },
+    {
+      "end": "00:04:41.000",
+      "start": "00:04:38.000",
+      "text": " ஒன்ன யிருங் கடுக்குள் ர்கத் தெருவும்"
+    },
+    {
+      "end": "00:04:47.000",
+      "start": "00:04:45.000",
+      "text": " கலைத்திரான்arts மாதிரியowulle்"
+    },
+    {
+      "end": "00:04:51.000",
+      "start": "00:04:49.000",
+      "text": " இதைப் பணையில்"
+    },
+    {
+      "end": "00:04:54.000",
+      "start": "00:04:52.000",
+      "text": "ப்புறையோ ben joined"
+    },
+    {
+      "end": "00:04:57.000",
+      "start": "00:04:55.000",
+      "text": " இதைப் பார்ப்பு மனிழிவைப் பணித்து"
+    },
+    {
+      "end": "00:04:59.000",
+      "start": "00:04:58.000",
+      "text": " நிரאת இறோதார்தை வேலے்நாக மாதிர ஆக பணிவைக்கிறோம்"
+    },
+    {
+      "end": "00:05:00.333",
+      "start": "00:05:00.000",
+      "text": " முகியாம் மூனிலிved் படிறத்தை"
+    },
+    {
+      "end": "00:05:02.667",
+      "start": "00:05:00.333",
+      "text": " படவு தோ பட்டோ களutorை எள்ளாளல் கொண்டு இருணமை کوளைwerkிட்டொள்ளுunta sau"
+    },
+    {
+      "end": "00:05:02.833",
+      "start": "00:05:02.667",
+      "text": " உட்டு நறுக்கு இருந்து நல்லுக்கது."
+    },
+    {
+      "end": "00:05:08.000",
+      "start": "00:05:05.667",
+      "text": " பைரிச் சயத்தாக பப்ப கேம் தரவு தலத்து இருந்து"
+    },
+    {
+      "end": "00:05:09.500",
+      "start": "00:05:08.000",
+      "text": " کப்பை நமைப்பட்செய்யweuitருக்கா,"
+    },
+    {
+      "end": "00:05:13.000",
+      "start": "00:05:10.833",
+      "text": " அந்த முளப்புக் குழுந்முக்கிய அமிஷ angles In that"
+    },
+    {
+      "end": "00:05:15.167",
+      "start": "00:05:14.667",
+      "text": "思uvreமித்து குழுந்தையும் இது பேவ்வை vetsையாக"
+    },
+    {
+      "end": "00:05:21.667",
+      "start": "00:05:15.167",
+      "text": " இப்போது ஜேமோல் மட்டும் முக்கிய அம்சத்தை விவரிக்கிறேன்"
+    },
+    {
+      "end": "00:05:25.167",
+      "start": "00:05:21.667",
+      "text": " மட்டும் மேண்டும் புரில் வரையைப் பட்ட முலக்குருகள்"
+    },
+    {
+      "end": "00:05:29.500",
+      "start": "00:05:25.167",
+      "text": " இருப்பரிமான அமைப்புகளை முப்பரிமான மாதிரிகளாக மாதிரி முடியும்"
+    },
+    {
+      "end": "00:05:33.833",
+      "start": "00:05:29.500",
+      "text": " இங்கே பேண்டும் அமையில் அல்லானை மாதிரியைக் கொண்டும்"
+    },
+    {
+      "end": "00:05:35.833",
+      "start": "00:05:33.833",
+      "text": " இருக்கும் தொடுக்கிற்கும் தொடுக்கிற்கும்"
+    },
+    {
+      "end": "00:05:38.167",
+      "start": "00:05:35.833",
+      "text": " இந்த முலக்குக்குருந்து இருப்பரிமான அமைப்பு"
+    },
+    {
+      "end": "00:05:39.167",
+      "start": "00:05:38.167",
+      "text": " ஜிக்கம்பெண்டு என்று மேண்டும் மேண்டும்"
+    },
+    {
+      "end": "00:05:41.000",
+      "start": "00:05:39.167",
+      "text": " இருல் வரையைப்பட்டது"
+    },
+    {
+      "end": "00:05:43.333",
+      "start": "00:05:41.000",
+      "text": " இந்த அமைப்பு ஜாத் முல்"
+    },
+    {
+      "end": "00:05:45.000",
+      "start": "00:05:43.333",
+      "text": " பயிலாகச் சேமிக்கப்பட்டது"
+    },
+    {
+      "end": "00:05:47.333",
+      "start": "00:05:45.000",
+      "text": " ஜிக்கம்பெண்டு என்று வரையைப்பு"
+    },
+    {
+      "end": "00:05:48.833",
+      "start": "00:05:47.333",
+      "text": " பரிமான அமைப்புகளை வரையைப்பு"
+    },
+    {
+      "end": "00:05:49.333",
+      "start": "00:05:48.833",
+      "text": " வரையைப்புற்கான வருகும்"
+    },
+    {
+      "end": "00:05:50.667",
+      "start": "00:05:49.333",
+      "text": " ஒரு கட்டைத் தரமேன் போருள்"
+    },
+    {
+      "end": "00:05:51.833",
+      "start": "00:05:50.667",
+      "text": " ஜிக்கம்பெண்டு"
+    },
+    {
+      "end": "00:05:52.667",
+      "start": "00:05:51.833",
+      "text": " தொடுக்கோர் எல்லாகச் செய்வும்"
+    },
+    {
+      "end": "00:05:53.833",
+      "start": "00:05:52.667",
+      "text": " மினைப்புற்குகிறேன்"
+    },
+    {
+      "end": "00:05:54.833",
+      "start": "00:05:53.833",
+      "text": " கிடைக்கும்"
+    },
+    {
+      "end": "00:05:57.000",
+      "start": "00:05:54.833",
+      "text": " அமைப்புகளை வரையாவும்"
+    },
+    {
+      "end": "00:05:58.000",
+      "start": "00:05:57.000",
+      "text": " அதை ஜாத்மோல்"
+    },
+    {
+      "end": "00:05:59.333",
+      "start": "00:05:58.000",
+      "text": " போர்மேட்டும் சேமிக்கப்பும்"
+    },
+    {
+      "end": "00:06:00.333",
+      "start": "00:05:59.333",
+      "text": " அனலில் செய்துக்கும்"
+    },
+    {
+      "end": "00:06:01.333",
+      "start": "00:06:00.333",
+      "text": " கொண்டும்"
+    },
+    {
+      "end": "00:06:02.333",
+      "start": "00:06:01.333",
+      "text": " ஜோட்டையில்"
+    },
+    {
+      "end": "00:06:03.333",
+      "start": "00:06:02.333",
+      "text": " காணபும்"
+    },
+    {
+      "end": "00:06:05.333",
+      "start": "00:06:03.333",
+      "text": " இந்த ஜிக்கம்பெண்டு"
+    },
+    {
+      "end": "00:06:06.333",
+      "start": "00:06:05.333",
+      "text": " காத்திப்புக்கிறியில்"
+    },
+    {
+      "end": "00:06:07.333",
+      "start": "00:06:06.333",
+      "text": " காட்டைப்புற்று"
+    },
+    {
+      "end": "00:06:08.333",
+      "start": "00:06:07.333",
+      "text": " இல்லை"
+    },
+    {
+      "end": "00:06:09.333",
+      "start": "00:06:08.333",
+      "text": " ஜிரு பரிமான வரையப்புற்றான் அல்லவா"
+    },
+    {
+      "end": "00:06:10.333",
+      "start": "00:06:09.333",
+      "text": " என்ன?"
+    },
+    {
+      "end": "00:06:11.333",
+      "start": "00:06:10.333",
+      "text": " அமைப்புற்று"
+    },
+    {
+      "end": "00:06:12.333",
+      "start": "00:06:11.333",
+      "text": " அசித்து அல்லான்"
+    },
+    {
+      "end": "00:06:13.333",
+      "start": "00:06:12.333",
+      "text": " நிற்குவில்"
+    },
+    {
+      "end": "00:06:14.333",
+      "start": "00:06:13.333",
+      "text": " காத்தில் அடினோசின்"
+    },
+    {
+      "end": "00:06:16.333",
+      "start": "00:06:15.333",
+      "text": " சக்கரை"
+    },
+    {
+      "end": "00:06:17.333",
+      "start": "00:06:16.333",
+      "text": " அல்லவாட்டி"
+    },
+    {
+      "end": "00:06:18.333",
+      "start": "00:06:17.333",
+      "text": " கலுக்கோ பயரணும்"
+    },
+    {
+      "end": "00:06:20.333",
+      "start": "00:06:18.333",
+      "text": " நான் அவற்றை"
+    },
+    {
+      "end": "00:06:21.333",
+      "start": "00:06:20.333",
+      "text": " என்டுத்துவில்"
+    },
+    {
+      "end": "00:06:22.333",
+      "start": "00:06:21.333",
+      "text": " தாட்மோல்"
+    },
+    {
+      "end": "00:06:23.333",
+      "start": "00:06:22.333",
+      "text": " செய்மிற்று"
+    },
+    {
+      "end": "00:06:24.333",
+      "start": "00:06:23.333",
+      "text": " தொல்லேன்"
+    },
+    {
+      "end": "00:06:25.333",
+      "start": "00:06:24.333",
+      "text": " முதலில்"
+    },
+    {
+      "end": "00:06:26.333",
+      "start": "00:06:25.333",
+      "text": " அலை நின்று"
+    },
+    {
+      "end": "00:06:27.333",
+      "start": "00:06:26.333",
+      "text": " ஜிரு பரிமான அமைப்பை"
+    },
+    {
+      "end": "00:06:28.333",
+      "start": "00:06:27.333",
+      "text": " ஜேமோல்"
+    },
+    {
+      "end": "00:06:29.333",
+      "start": "00:06:28.333",
+      "text": " அப்படிக்கேன்"
+    },
+    {
+      "end": "00:06:30.333",
+      "start": "00:06:29.333",
+      "text": " முப்பரிமான மாதிரியாக"
+    },
+    {
+      "end": "00:06:31.333",
+      "start": "00:06:30.333",
+      "text": " காண்போம்"
+    },
+    {
+      "end": "00:06:32.333",
+      "start": "00:06:31.333",
+      "text": " என்னவே"
+    },
+    {
+      "end": "00:06:33.333",
+      "start": "00:06:32.333",
+      "text": " ஒரு புதிய ஜேமோல்"
+    },
+    {
+      "end": "00:06:34.333",
+      "start": "00:06:33.333",
+      "text": " விண்டோவை"
+    },
+    {
+      "end": "00:06:35.333",
+      "start": "00:06:34.333",
+      "text": " தொல் பரில்"
+    },
+    {
+      "end": "00:06:36.333",
+      "start": "00:06:35.333",
+      "text": " உப்பரில்"
+    },
+    {
+      "end": "00:06:37.333",
+      "start": "00:06:36.333",
+      "text": " உப்பரில்"
+    },
+    {
+      "end": "00:06:38.333",
+      "start": "00:06:37.333",
+      "text": " அவற்றையில்"
+    },
+    {
+      "end": "00:06:39.333",
+      "start": "00:06:38.333",
+      "text": " மிதிக்கு சேகா"
+    },
+    {
+      "end": "00:06:40.333",
+      "start": "00:06:39.333",
+      "text": " நான்"
+    },
+    {
+      "end": "00:06:41.333",
+      "start": "00:06:40.333",
+      "text": " தெஷ்டப்"
+    },
+    {
+      "end": "00:06:42.333",
+      "start": "00:06:41.333",
+      "text": " உள்டரை"
+    },
+    {
+      "end": "00:06:43.333",
+      "start": "00:06:42.333",
+      "text": " திருந்தரத்து"
+    },
+    {
+      "end": "00:06:44.333",
+      "start": "00:06:43.333",
+      "text": " உப்பரில்"
+    },
+    {
+      "end": "00:06:46.333",
+      "start": "00:06:44.333",
+      "text": " மிதிக்கு சேகிரி"
+    },
+    {
+      "end": "00:06:47.333",
+      "start": "00:06:46.333",
+      "text": " இங்கு"
+    },
+    {
+      "end": "00:06:48.333",
+      "start": "00:06:47.333",
+      "text": " அவற்றை"
+    },
+    {
+      "end": "00:06:49.333",
+      "start": "00:06:48.333",
+      "text": " அலை நின்று"
+    },
+    {
+      "end": "00:06:50.333",
+      "start": "00:06:49.333",
+      "text": " முதலில்"
+    },
+    {
+      "end": "00:06:51.333",
+      "start": "00:06:50.333",
+      "text": " மிதிக்கு சேகிரி"
+    },
+    {
+      "end": "00:06:52.333",
+      "start": "00:06:51.333",
+      "text": " திரையில்"
+    },
+    {
+      "end": "00:06:53.333",
+      "start": "00:06:52.333",
+      "text": " அலை நின்று முப்பரிமான மாதிரி"
+    },
+    {
+      "end": "00:06:55.333",
+      "start": "00:06:54.333",
+      "text": " முடில்"
+    },
+    {
+      "end": "00:06:56.333",
+      "start": "00:06:55.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:06:57.333",
+      "start": "00:06:56.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:06:58.333",
+      "start": "00:06:57.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:06:59.333",
+      "start": "00:06:58.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:00.333",
+      "start": "00:06:59.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:01.333",
+      "start": "00:07:00.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:02.333",
+      "start": "00:07:01.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:03.333",
+      "start": "00:07:02.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:04.333",
+      "start": "00:07:03.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:05.333",
+      "start": "00:07:04.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:06.333",
+      "start": "00:07:05.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:07.333",
+      "start": "00:07:06.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:08.333",
+      "start": "00:07:07.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:09.333",
+      "start": "00:07:08.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:10.333",
+      "start": "00:07:09.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:11.333",
+      "start": "00:07:10.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:12.333",
+      "start": "00:07:11.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:13.333",
+      "start": "00:07:12.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:14.333",
+      "start": "00:07:13.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:15.333",
+      "start": "00:07:14.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:16.333",
+      "start": "00:07:15.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:17.333",
+      "start": "00:07:16.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:18.333",
+      "start": "00:07:17.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:19.333",
+      "start": "00:07:18.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:20.333",
+      "start": "00:07:19.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:21.333",
+      "start": "00:07:20.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:22.333",
+      "start": "00:07:21.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:23.333",
+      "start": "00:07:22.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:24.333",
+      "start": "00:07:23.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:25.333",
+      "start": "00:07:24.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:26.333",
+      "start": "00:07:25.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:27.333",
+      "start": "00:07:26.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:28.333",
+      "start": "00:07:27.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:29.333",
+      "start": "00:07:28.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:30.333",
+      "start": "00:07:29.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:31.333",
+      "start": "00:07:30.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:32.333",
+      "start": "00:07:31.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:33.333",
+      "start": "00:07:32.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:34.333",
+      "start": "00:07:33.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:35.333",
+      "start": "00:07:34.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:36.333",
+      "start": "00:07:35.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:37.333",
+      "start": "00:07:36.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:38.333",
+      "start": "00:07:37.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:39.333",
+      "start": "00:07:38.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:40.333",
+      "start": "00:07:39.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:41.333",
+      "start": "00:07:40.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:42.333",
+      "start": "00:07:41.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:43.333",
+      "start": "00:07:42.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:44.333",
+      "start": "00:07:43.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:45.333",
+      "start": "00:07:44.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:46.333",
+      "start": "00:07:45.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:47.333",
+      "start": "00:07:46.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:48.333",
+      "start": "00:07:47.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:49.333",
+      "start": "00:07:48.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:50.333",
+      "start": "00:07:49.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:51.333",
+      "start": "00:07:50.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:52.333",
+      "start": "00:07:51.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:53.333",
+      "start": "00:07:52.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:54.333",
+      "start": "00:07:53.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:55.333",
+      "start": "00:07:54.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:56.333",
+      "start": "00:07:55.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:57.333",
+      "start": "00:07:56.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:58.333",
+      "start": "00:07:57.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:07:59.333",
+      "start": "00:07:58.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:00.333",
+      "start": "00:07:59.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:01.333",
+      "start": "00:08:00.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:02.333",
+      "start": "00:08:01.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:03.333",
+      "start": "00:08:02.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:04.333",
+      "start": "00:08:03.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:05.333",
+      "start": "00:08:04.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:06.333",
+      "start": "00:08:05.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:07.333",
+      "start": "00:08:06.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:08.333",
+      "start": "00:08:07.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:09.333",
+      "start": "00:08:08.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:10.333",
+      "start": "00:08:09.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:11.333",
+      "start": "00:08:10.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:12.333",
+      "start": "00:08:11.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:13.333",
+      "start": "00:08:12.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:14.333",
+      "start": "00:08:13.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:15.333",
+      "start": "00:08:14.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:17.333",
+      "start": "00:08:15.333",
+      "text": " நூன்று"
+    },
+    {
+      "end": "00:08:18.333",
+      "start": "00:08:17.333",
+      "text": " மிகனி"
+    },
+    {
+      "end": "00:08:20.333",
+      "start": "00:08:18.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:21.333",
+      "start": "00:08:20.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:22.333",
+      "start": "00:08:21.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:24.333",
+      "start": "00:08:22.333",
+      "text": " மினுமோ"
+    },
+    {
+      "end": "00:08:25.333",
+      "start": "00:08:24.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:26.000",
+      "start": "00:08:25.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:27.333",
+      "start": "00:08:26.000",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:28.333",
+      "start": "00:08:27.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:30.333",
+      "start": "00:08:28.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:31.333",
+      "start": "00:08:30.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:33.333",
+      "start": "00:08:31.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:34.333",
+      "start": "00:08:33.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:35.333",
+      "start": "00:08:34.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:37.333",
+      "start": "00:08:35.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:38.333",
+      "start": "00:08:37.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:40.000",
+      "start": "00:08:38.333",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:41.333",
+      "start": "00:08:40.000",
+      "text": " மினும்"
+    },
+    {
+      "end": "00:08:42.167",
+      "start": "00:08:41.333",
+      "text": " மினுமும்"
+    },
+    {
+      "end": "00:08:48.833",
+      "start": "00:08:42.167",
+      "text": " இதற்கு அதரவி இந்திய அரச்சுத்தவக்கியே மம்ம் சொல்லியின ICT முளம்"
+    },
+    {
+      "end": "00:08:51.167",
+      "start": "00:08:48.833",
+      "text": " தேசியை கல்வித்திட்டத்தின் வழியை கடைக்கிறாது."
+    },
+    {
+      "end": "00:08:55.333",
+      "start": "00:08:51.167",
+      "text": " இந்ததிட்டம் பட்டிரியமேலதிக்குத் தகவல்கள் கிடுவில்லை இனைப்பில் கடைக்கும்."
+    },
+    {
+      "end": "00:08:59.333",
+      "start": "00:08:55.333",
+      "text": " இந்தத்திட்டும் ஒரு எல்லை தமிழாக்கம் செய்துக் கொடுத்தது,"
+    },
+    {
+      "end": "00:09:02.333",
+      "start": "00:08:59.333",
+      "text": " IIT Bombayன் இருந்து பிரியா. நன்றி."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Spoken-Tutorial IIT Bombay",
+  "youtube_channel_follower_count": 94000,
+  "youtube_comment_count": 0,
+  "youtube_description": "வேதியியல் அமைப்பு  தரவுத்தளத்திலிருந்து (PubChem) வேதியியல் அமைப்புகளை ஏற்றுதல்.\nஃபீனாலின் அமைப்பை ஏற்றி அதை பாரா-அமினோ ஃபீனாலாக  (Para-amino Phenol) மாற்றுதல்.\nகொலஸ்ட்ராலின் (cholesterol) அமைப்பை ஏற்றி அதன் இரட்டை பிணைப்பு மற்றும் பக்க சங்கிலியை முன்னிலைப்படுத்துதல்.\nஜிகெம்பெய்ண்டில் வரையப்பட்ட இருபரிமாண அமைப்புகளை  Jmol ல் முப்பரிமாண மாதிரிகளாக மாற்றுதல்.\nஅலனைன் (Alanine), அடினோசின் (Adenosine), ஆல்பா-டி-க்ளூகோபைரநோஸ் (Alpha-d-glucopyranose) ன் இருபரிமாண அமைப்புகளை  Jmol ல் முப்பரிமாண மாதிரிகளாக மாற்றுதல்.",
+  "youtube_like_count": 0,
+  "youtube_tags": [],
+  "youtube_title": "Structures from Database - Tamil",
+  "youtube_upload_date": "20141125",
+  "youtube_view_count": 60
+}

@@ -1,0 +1,287 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "narrator_solver",
+        "description": "An unseen person explaining and solving the physics problem.",
+        "name": "Narrator/Solver (no visual)"
+      }
+    ],
+    "description": "An analysis of a video explaining and solving a physics problem involving the collision of two particles using conservation of momentum.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Conservation of momentum.",
+        "question": "What physics principle is used to solve this problem?"
+      },
+      {
+        "answer": "They represent the initial speeds of the two particles.",
+        "question": "What do the variables 'u1' and 'u2' represent in the equation?"
+      },
+      {
+        "answer": "It represents the velocity of the second mass during the collision as a function of time.",
+        "question": "What does the notation \"v'(t)\" signify?"
+      },
+      {
+        "answer": "No, there are only internal forces involved during the collision.",
+        "question": "Is there any external force acting on the system of two particles?"
+      },
+      {
+        "answer": "(The video does not currently include visuals; this would require adding a diagram or animation to illustrate the concept).",
+        "question": "Could you explain visually how the speed of the second particle changes during the collision?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator begins explaining the physics problem",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator writes down a physics equation",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "description": "Narrator highlights part of the equation and writes a label",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          },
+          {
+            "description": "Narrator draws an arrow indicating substitution",
+            "timestamp": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          },
+          {
+            "description": "Narrator presents the final derived equation",
+            "timestamp": {
+              "end_timestamp": "00:00:53.900",
+              "start_timestamp": "00:00:53.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator/Solver"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator/Solver"
+            ],
+            "description": "There is only the narrator explaining the problem."
+          }
+        ],
+        "contextualRelevance": "The analysis highlights the application of physics concepts to solve a fundamental problem.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious. The narrator's voice is calm and focused, conveying a sense of curiosity and problem-solving. The static visual and lack of music contribute to a neutral mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Problem introduction and initial assessment.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Key concept explanation (conservation of momentum).",
+            "timestamp": "00:00:08.000"
+          },
+          {
+            "description": "Equation setup and solution steps.",
+            "timestamp": "00:00:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Physics problem",
+            "timestamp": {
+              "end_timestamp": "00:00:53.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Equation: m1u1 + m2u2 = m1v(t) + m2v'(t). This represents the conservation of momentum.",
+            "timestamp": {
+              "end_timestamp": "00:00:53.900",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "name": "Handwriting",
+            "timestamp": {
+              "end_timestamp": "00:00:53.900",
+              "start_timestamp": "00:00:29.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The scene focuses on the application of physics principles, specifically conservation of momentum, to solve a real-world problem.",
+        "timestamps": {
+          "end_timestamp": "00:00:53.900",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or special effects are used. The video consists of a static shot of the problem and the narrator's handwritten solution.",
+            "timestamps": {
+              "end_timestamp": "00:00:53.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Introduce visual aids like diagrams of the colliding particles or animations to represent the concepts. Using different colors for different parts of the equation could also improve clarity.",
+            "timestamps": {
+              "end_timestamp": "00:00:53.900",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Presentation of the final derived equation for v'(t).",
+        "timestamp": "00:00:53.000"
+      },
+      "description": "The entire video focuses on solving the single physics problem.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Video analysis of Physics Problem Solution",
+    "trimmingSuggestions": [
+      {
+        "description": "This segment could be trimmed slightly. While the explanation of internal forces is relevant, it could be made more concise.",
+        "timestamps": {
+          "end_timestamp": "00:00:28.000",
+          "start_timestamp": "00:00:19.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 55,
+  "original_json_filename": "KZFQkeJJkCA.json",
+  "original_video_filename": "KZFQkeJJkCA.mp4",
+  "resolution": "360x640",
+  "text_to_speech": "at first Lance this problem might look pretty difficult to solve but it is actually a very easy problem all you have to notice here is that during the process of collision all the forces that are involved are internal that is they are by these systems are own particles there is no external force and hence momentum will be conserved and hence all you have to do in this problem is use conservation of momentum so using conservation of momentum we will get where V Prime of T is the velocity of the second Mass after the Collision happens or during the Collis and now we are all done all you have to do is substitute the value of a v of T in this equation and then solve for V Prime of T and once you do that you will get V Prime of T like this",
+  "text_to_speech_word_count": 149,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.267",
+      "start": "00:00:00.000",
+      "text": " At first glance, this problem might look pretty difficult to solve, but it is actually a very easy problem."
+    },
+    {
+      "end": "00:00:12.800",
+      "start": "00:00:07.267",
+      "text": " All you have to notice here is that during the process of collision, all the forces that are"
+    },
+    {
+      "end": "00:00:20.400",
+      "start": "00:00:12.800",
+      "text": " involved are internal, that is, they are bi-tease systems of old particles. There is no external force"
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:20.400",
+      "text": " and hence momentum will be conserved. And hence, all you have to do in this problem is use"
+    },
+    {
+      "end": "00:00:32.767",
+      "start": "00:00:26.000",
+      "text": " conservation of momentum. So, using conservation of momentum, we will get where v prime of t is"
+    },
+    {
+      "end": "00:00:38.933",
+      "start": "00:00:32.767",
+      "text": " the velocity of the second mass after the collision happens or during the collision. And now,"
+    },
+    {
+      "end": "00:00:46.867",
+      "start": "00:00:38.933",
+      "text": " we are all done. All you have to do is substitute the value of v of t in this equation and then solve"
+    },
+    {
+      "end": "00:00:53.833",
+      "start": "00:00:46.867",
+      "text": " for v prime of t. And once you do that, you will get v prime of t like this."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "SIGMA PHYSICS ⚛️ ",
+  "youtube_channel_follower_count": 465,
+  "youtube_comment_count": 1,
+  "youtube_description": "In physics, a collision occurs when two or more objects come into contact with each other, typically with some force involved. Collisions can be described and analyzed based on the interactions of the objects and the forces at play. There are two main types of collisions: elastic and inelastic.\n\n1. **Elastic Collision:**\n   - In an elastic collision, both momentum and kinetic energy are conserved. This means that the total momentum of the system before the collision is equal to the total momentum after the collision, and the total kinetic energy before the collision is equal to the total kinetic energy after the collision.\n   - Elastic collisions are idealized scenarios because, in reality, some kinetic energy is often transformed into other forms of energy, such as heat or sound, due to imperfections and external forces.\n   - Billiard balls colliding on a pool table are an example of nearly elastic collisions, as they preserve much of their initial kinetic energy.\n\n2. **Inelastic Collision:**\n   - In an inelastic collision, momentum is conserved, but kinetic energy is not. Some of the initial kinetic energy is transformed into other forms, such as heat, deformation energy, or sound.\n   - In inelastic collisions, the objects may stick together after the collision (perfectly inelastic) or move separately but with some energy loss (partially inelastic).\n   - Car collisions, where crumple zones absorb energy, are an example of inelastic collisions.\n\nKey points about collisions:\n\n- **Conservation of Momentum:** In both elastic and inelastic collisions, the total momentum of the system remains constant if no external forces are acting. This is described by the principle of conservation of momentum.\n\n- **Coefficient of Restitution:** In some cases, the elasticity of a collision is described by the coefficient of restitution (e), which quantifies the \"bounciness\" of the collision. A perfectly elastic collision has e = 1, while a perfectly inelastic collision has e = 0.\n\n- **Impulse:** Impulse, often calculated as the change in momentum, plays a crucial role in analyzing collisions. It is the product of the average force during the collision and the time over which the force is applied.\n\n- **Applications:** Understanding collisions is important in various fields, including physics, engineering, and vehicle safety. It helps design crumple zones in cars, analyze the motion of particles in particle accelerators, and predict the outcomes of collisions in sports and games.\n\nThe study of collisions is a fundamental part of classical mechanics and plays a central role in understanding how objects interact and move in response to forces. It provides insight into how energy and momentum are transferred and conserved in various physical systems.\n\n#physics #mechanics #sigmaphysics  #elasticcollision #inelasticcollision #deformingforce #velocity #mass #speed #momentum #kineticenergy #potentialenergy #rutherford #coefficientofrestitution\n\n\n\nFollow me on Instagram\nhttps://instagram.com/sigma_physics_?igshid=ZDc4ODBmNjlmNQ==\n\nJoin My Telegram Channel\nhttps://t.me/joinchatphysicschallengequestion\n\nMy one note notebook\nhttps://1drv.ms/o/s!AmBMfocOByltwzs9xAPSJeXDyzcY?e=rr77Yl\n\nClick this link to subscribe to my youtube channel\nhttps://www.youtube.com/channel/UCxwC-1n31IN3nRWcjIl7zzg?sub_confirmation=1",
+  "youtube_like_count": 4,
+  "youtube_tags": [
+    "physics wallah",
+    "unacademy",
+    "physics",
+    "sigma physics",
+    "mechanics",
+    "electricity",
+    "magnetism",
+    "thermodynamics",
+    "quantum",
+    "relativity",
+    "string theory",
+    "modern physics",
+    "work energy",
+    "rotational mechanics",
+    "optics",
+    "iit",
+    "jee",
+    "jee mains",
+    "jee advanced",
+    "neet",
+    "kvpy",
+    "iit jam",
+    "jest",
+    "tifr",
+    "cuet",
+    "csir",
+    "net",
+    "jrf",
+    "UKPhO",
+    "AP physics",
+    "BPho",
+    "physics GRE",
+    "newton",
+    "einstien",
+    "feynman",
+    "MIT",
+    "11th",
+    "12th",
+    "science",
+    "hc verma",
+    "walter lewin",
+    "khan academy",
+    "space time",
+    "minute physics",
+    "vertasium",
+    "numberphile",
+    "3 blue one brown",
+    "world science festival",
+    "UG"
+  ],
+  "youtube_title": "Time varying Velocities during Collision 💥.        |#physics #shorts # collision 💥 #elasticcollision",
+  "youtube_upload_date": "20231031",
+  "youtube_view_count": 68
+}

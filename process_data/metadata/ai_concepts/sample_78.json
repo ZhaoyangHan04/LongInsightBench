@@ -1,0 +1,1256 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A bald Asian man wearing a gray sweater.",
+        "name": "Halim"
+      },
+      {
+        "characterId": "2",
+        "description": "A Caucasian man with a goatee, wearing a black sweater and a black beanie.",
+        "name": "Mads"
+      }
+    ],
+    "description": "A tech demo by Abdul Halim Bin Abdul Rahman and Mads Hobye from Roskilde University, focusing on visualizing neural networks and exploring the concept of explainability in AI.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The formula is 'x * 2 - 5'.",
+        "question": "What is the specific formula used as a basic sample input in the demo?"
+      },
+      {
+        "answer": "The lines connecting the neurons (edges) change color and thickness based on the weights assigned to them during training, reflecting their relative importance within the layer.",
+        "question": "How does the visual representation of the neural network change during training?"
+      },
+      {
+        "answer": "JavaScript makes the code transparent and open for hacking, allowing others to easily understand and modify it.",
+        "question": "Why did Halim choose to use JavaScript for the X-ML project?"
+      },
+      {
+        "answer": "He argues that AI is ultimately 'irresponsible' due to its limitations and that humans must be able to understand and explain AI's decisions to maintain accountability.",
+        "question": "What is the core message Halim tries to convey regarding AI and human responsibility?"
+      },
+      {
+        "answer": "It allows people to learn about neural networks and their structure in a transparent and accessible way, as everything is clearly visible and modifiable in the code.",
+        "question": "What is the main benefit of the X-ML project according to Mads?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introductory slide setting the stage for the presentation.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic and the presenters.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title slide with the text: 'Visualizing neural networks', 'tech demo', 'Abdul Halim Bin Abdul Rahman, Computer science', 'Mads Hobye, Associate Professor, Computer science', 'Department of People and Technology, Roskilde University'",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Neural Networks, visualization, technology demo.",
+        "timestamps": {
+          "end_timestamp": "00:00:04.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction Slide",
+        "videoEditingDetails": [
+          {
+            "description": "Black background with white text, no transitions, no music.",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Halim introducing himself and the topic.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:04.033"
+            }
+          },
+          {
+            "description": "Halim explaining his motivation.",
+            "timestamp": {
+              "end_timestamp": "00:03:04.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Halim explaining his project.",
+            "timestamp": {
+              "end_timestamp": "00:04:20.000",
+              "start_timestamp": "00:03:04.000"
+            }
+          },
+          {
+            "description": "Mads explaining the next steps.",
+            "timestamp": {
+              "end_timestamp": "00:05:40.000",
+              "start_timestamp": "00:04:20.000"
+            }
+          },
+          {
+            "description": "Mads and Halim showing the demo.",
+            "timestamp": {
+              "end_timestamp": "00:08:59.967",
+              "start_timestamp": "00:05:40.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Halim",
+          "Mads"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Halim",
+              "Mads"
+            ],
+            "description": "Halim primarily leads the presentation, with Mads taking over to discuss next steps and assisting with the demo. Both demonstrate a collaborative and supportive dynamic, seamlessly transitioning between each other's explanations."
+          }
+        ],
+        "contextualRelevance": "Halim's journey in making neural networks explainable, focusing on human responsibility and transparency in AI.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, evolving to Engaged during the demo. Visuals are informative, audio is clear and engaging, context is academic.",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from Curious to Engaged, as the demo begins.",
+              "timestamp": "00:05:40.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Halim introduces himself and Mads.",
+            "timestamp": "00:00:04.033"
+          },
+          {
+            "description": "Halim introduces the topic of visualizing a single neural network.",
+            "timestamp": "00:00:24.000"
+          },
+          {
+            "description": "Halim explains his motivation for the project, highlighting AI's limitations and the need for explainability.",
+            "timestamp": "00:00:45.000"
+          },
+          {
+            "description": "Halim demonstrates an example with a facial recognition model and its predictions.",
+            "timestamp": "00:01:46.000"
+          },
+          {
+            "description": "Halim presents his bachelor project, showing occluded images and discussing their impact on prediction.",
+            "timestamp": "00:02:19.000"
+          },
+          {
+            "description": "Halim introduces his latest project, showcasing a facial recognition model and the concept of gradient ascent.",
+            "timestamp": "00:03:04.000"
+          },
+          {
+            "description": "Mads takes over and discusses the next steps for the project, exploring network design and potential for further development.",
+            "timestamp": "00:04:20.000"
+          },
+          {
+            "description": "Mads and Halim demonstrate the actual code, showcasing its simplicity and transparency.",
+            "timestamp": "00:05:40.000"
+          },
+          {
+            "description": "The neural network model is trained.",
+            "timestamp": "00:06:19.000"
+          },
+          {
+            "description": "The model is used to predict the output based on input data.",
+            "timestamp": "00:06:22.000"
+          },
+          {
+            "description": "Halim modifies the code live by adding a new hidden layer to the neural network model.",
+            "timestamp": "00:06:52.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:08:59.967",
+              "start_timestamp": "00:00:04.033"
+            }
+          },
+          {
+            "name": "Projector screen showing slides",
+            "timestamp": {
+              "end_timestamp": "00:08:59.967",
+              "start_timestamp": "00:00:04.033"
+            }
+          },
+          {
+            "name": "First slide with 'Visualizing (the operations) of a Neural Network', 'Halim & Mads', 'It probably is not the right way to explain an AI, but we have to start somewhere...'",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:04.033"
+            }
+          },
+          {
+            "name": "Subsequent slides showing motivations, facial recognition project, occlusion, and project details.",
+            "timestamp": {
+              "end_timestamp": "00:04:20.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "name": "Screen shows the code and its output.",
+            "timestamp": {
+              "end_timestamp": "00:08:59.967",
+              "start_timestamp": "00:05:40.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Neural Networks, explainability, visualization, transparency, accountability, human responsibility in AI.",
+        "timestamps": {
+          "end_timestamp": "00:08:59.967",
+          "start_timestamp": "00:00:04.033"
+        },
+        "title": "Presentation and Demo",
+        "videoEditingDetails": [
+          {
+            "description": "Direct cut between Scene 1 and 2, no other transitions, no music. The whole scene could benefit from being shortened by removing redundant explanations and focusing on the core message and the demo itself.",
+            "timestamps": {
+              "end_timestamp": "00:08:59.967",
+              "start_timestamp": "00:00:04.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The demo begins, showcasing the core features of the X-ML project.",
+        "timestamp": "00:05:40.000"
+      },
+      "description": "The Journey of Explainable Neural Networks",
+      "scenes": [
+        2
+      ]
+    },
+    "title": "Visualizing neural networks",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial discussion about the motivations could be condensed, focusing on the core message of AI's lack of responsibility and need for human understanding.",
+        "timestamps": {
+          "end_timestamp": "00:03:04.000",
+          "start_timestamp": "00:00:45.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 540,
+  "original_json_filename": "Qsxqg2PeqAU.json",
+  "original_video_filename": "Qsxqg2PeqAU.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "all right guys hello um after this second slide uh to introduce ourselves my name is halim I'm a student at um Natural Science I'm studying mathematical computer modeling and this is math which I have been working with to do what we call visualizing the operation of a neural network is a singular over here and neural network instead of net neural networks because we chose one particular Network to study about so it probably is not the right way when we say we want to explain nni and AI but somehow we have to start somewhere we could be wrong but somehow we have to start and my motivation started with with a statement where we say that AI is irresponsible it is very good it's very wise it can come up with so many results can give you advice but it is responsible because of given and given some sort of answers it has these specific elements it cannot go beyond that it's finite what is missing is that it cannot say I'm sorry I do not know the answer it has the uh the null element so if you want to relegate the responsibility Back To Human we have to be able to explain how it works so that if some problem happened human can take a responsibility by being taken to a court not a computer and during a presentation during an experiment that I did before because I am studying mathematics I want to know more about the distribution of a prediction I do not want to know the answer I want to know the prediction in this one we can see that in spite very very good 100 so I can say this is a good answer but the second one is by quite high but we can also see that there's another Spike somewhere else how can we come up with something how can we say that we want to understand something here that neural network come up with an answer which is wrong but it gives a wrong answer instead of saying that I do not know and then I come up with um this is my bachelor project but after several experiments then we decided that if we take out some input put into a neural network can it come up with some answers as well same input but has some elements uh removed I do not want to give you the answer just some ideas about what I did and this is the last one that I did where I create a face recognition model and then up I have an input and then it gives some answers and I take that answer back and put into the system and then I got some output like this this is what computer sees from there but we cannot explain what happened how does it come to that particular answer and I said okay let's go to the basic and then message all right let's choose one neural network that we can study about so we strip everything so we create a very simple neural network and we Implement that in JavaScript so it is transparent and it is open for hacking we have a link for that we call that XML x for explainable uh it is a artificial neural network and what we did is that we visualized the calculation of a training as it progressed during iteration so it is not like we got a model now we can use it we're not interested into having a model we are interested to know what happened during a training process and what we did is that we have color and we have thickness to visualize the the weights the the edges between neurons and they are relative to to the weights within one particular layers and this is not dependent to any other Library so it can be used quite easily and now I passed the mess yes so just a few slides more than we demo that's I guess what we're doing so this is the code and it's just the starting point of a little prototype of visualizing and figure out how should we visualize and what potentials are and we're going to show it in a second to jump to the next slides uh it's interesting to uh to kind of see what is there like the same patterns creating the same results but with different networks for example is one question that's coming up already that we are kind of wondering about go to the next one and they also the next step that we haven't done yet is also to figure out how can you then start to play with the different weights and then manually change them and then see how the results differ and depending on the outputs and finally in the pipeline is also converting it to some more object-oriented structure so one consideration is should it be fast and efficient and highly optimized or should it be a kind of more simple and then what way you can then play with the structures and one thing we are going towards now is to actually create object oriented structures to it so you can kind of make different patterns and play around with that more than the more traditional Network neural network structure do I do it anymore okay all right let's pray so just to see the first kind of hello world of our little structure that we are doing here so there is a Formula that is the basic sample input that is x times two minus five in this case and then it generates a lot of samples and then you can press train I guess it's the first step to do and then I will show the error and the neural network will kind of change visually to it and now it has then been trained and you can press predict wouldn't that be the next normal step to do here yes and you have the inputs and outputs so you can see if the formula actually does what you are expecting it to do if it's been trained to the formula and a very simple little setup but everything is kind of in the code and everything is hackable for people who want to learn about how to use neural networks and also how to structure it can you show some of the code as well so you can go in and change the network for example can you do that really quickly add another layer another hidden layer so it's just a simple structure to kind of start to play around with it and visualize it and understand it and the basic principle is that everything is there there's nothing that's hidden in a deep Library somewhere so everybody can go in and look at the code at least for me it's nice because I'm not that well-trained in looking at the fullness Henning was showing you in his slide and said everybody knows this for example but instead you can actually go in and see what is the actual code in this do you want to show some of the code and how you've done that that's not important but we have this code where it is now accessible where um for example if you say if you have a problem with mathematics for forward propagation and back propagation I have implemented everything here uh quite easily where you can just hack if you want to change anything or if you say that I might have made some errors which we found last time just I use the wrong way on how to to make what we call this a random binomial so we solve that then there might be some more bugs but just let us know it is quite open we're here say I think this is um I think this is back propagation so the code is quite simple very straightforward I try to use as long name variables name as possible so it helps for you to understand what what it is not like d x y whatever you call it so I'll put a full name weights gradient so you know what it is that's it and we have the link [Applause]",
+  "text_to_speech_word_count": 1403,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:01.700",
+      "start": "00:00:00.000",
+      "text": " Daughter Ah"
+    },
+    {
+      "end": "00:00:05.667",
+      "start": "00:00:02.733",
+      "text": " Salah"
+    },
+    {
+      "end": "00:00:16.367",
+      "start": "00:00:14.400",
+      "text": " sajalah. Saya terper cries masiyi"
+    },
+    {
+      "end": "00:00:17.900",
+      "start": "00:00:16.367",
+      "text": " holong rusak sizzle"
+    },
+    {
+      "end": "00:00:21.233",
+      "start": "00:00:17.900",
+      "text": " asyik"
+    },
+    {
+      "end": "00:00:23.200",
+      "start": "00:00:21.233",
+      "text": " halim traiece"
+    },
+    {
+      "end": "00:00:25.600",
+      "start": "00:00:25.200",
+      "text": " nasihat bunda"
+    },
+    {
+      "end": "00:00:26.633",
+      "start": "00:00:25.600",
+      "text": " melangkap"
+    },
+    {
+      "end": "00:00:28.700",
+      "start": "00:00:26.633",
+      "text": " bot"
+    },
+    {
+      "end": "00:00:32.300",
+      "start": "00:00:28.700",
+      "text": " kita akan dengarflu sebesar perigten."
+    },
+    {
+      "end": "00:00:53.000",
+      "start": "00:00:33.333",
+      "text": " Jadi iaas gem motionsk, two"
+    },
+    {
+      "end": "00:00:57.233",
+      "start": "00:00:53.000",
+      "text": " marah sampai semasa panjang,"
+    },
+    {
+      "end": "00:01:00.800",
+      "start": "00:00:57.233",
+      "text": " jadi overlaperkan"
+    },
+    {
+      "end": "00:01:02.000",
+      "start": "00:01:00.800",
+      "text": " permok族,"
+    },
+    {
+      "end": "00:01:05.233",
+      "start": "00:01:02.000",
+      "text": " tinggi-impin mereka Util"
+    },
+    {
+      "end": "00:01:08.800",
+      "start": "00:01:05.233",
+      "text": " pun temb dokument."
+    },
+    {
+      "end": "00:01:11.800",
+      "start": "00:01:08.800",
+      "text": " Saya dop Sinми"
+    },
+    {
+      "end": "00:01:12.867",
+      "start": "00:01:11.800",
+      "text": " boleh berjutan."
+    },
+    {
+      "end": "00:01:16.133",
+      "start": "00:01:12.867",
+      "text": " Saya tak apa-apa pun,"
+    },
+    {
+      "end": "00:01:19.267",
+      "start": "00:01:16.133",
+      "text": " saya nobl sebelumkan言 dia."
+    },
+    {
+      "end": "00:01:22.633",
+      "start": "00:01:19.267",
+      "text": " Kita mahu berdua kembali kembali kembali kembali"
+    },
+    {
+      "end": "00:01:25.100",
+      "start": "00:01:22.633",
+      "text": " kita perlu berdua mencari"
+    },
+    {
+      "end": "00:01:27.100",
+      "start": "00:01:25.100",
+      "text": " sehingga ia berdua."
+    },
+    {
+      "end": "00:01:29.600",
+      "start": "00:01:27.100",
+      "text": " Jadi kalau ada problem yang berdua,"
+    },
+    {
+      "end": "00:01:31.500",
+      "start": "00:01:29.600",
+      "text": " kembali kembali kembali kembali"
+    },
+    {
+      "end": "00:01:34.333",
+      "start": "00:01:31.500",
+      "text": " dengan kata-kata, bukan kompura."
+    },
+    {
+      "end": "00:01:37.033",
+      "start": "00:01:34.333",
+      "text": " Dan pada perintahan saya"
+    },
+    {
+      "end": "00:01:38.333",
+      "start": "00:01:37.033",
+      "text": " sebelumnya,"
+    },
+    {
+      "end": "00:01:40.600",
+      "start": "00:01:38.333",
+      "text": " kerana saya mempunyai metamatik saya"
+    },
+    {
+      "end": "00:01:42.400",
+      "start": "00:01:40.600",
+      "text": " mahu tahu lebih tentang"
+    },
+    {
+      "end": "00:01:45.000",
+      "start": "00:01:42.400",
+      "text": " prediksa distribution."
+    },
+    {
+      "end": "00:01:45.800",
+      "start": "00:01:45.000",
+      "text": " Saya tak mahu tahu"
+    },
+    {
+      "end": "00:01:47.000",
+      "start": "00:01:45.800",
+      "text": " perintahannya, saya mahu tahu"
+    },
+    {
+      "end": "00:01:48.033",
+      "start": "00:01:47.000",
+      "text": " prediksa."
+    },
+    {
+      "end": "00:01:49.233",
+      "start": "00:01:48.033",
+      "text": " Di ini,"
+    },
+    {
+      "end": "00:01:50.300",
+      "start": "00:01:49.233",
+      "text": " kita boleh lihat"
+    },
+    {
+      "end": "00:01:52.400",
+      "start": "00:01:50.300",
+      "text": " yang terbuka sangat bagus."
+    },
+    {
+      "end": "00:01:53.400",
+      "start": "00:01:52.400",
+      "text": " 100%"
+    },
+    {
+      "end": "00:01:54.400",
+      "start": "00:01:53.400",
+      "text": " Jadi saya boleh tahu"
+    },
+    {
+      "end": "00:01:56.400",
+      "start": "00:01:54.400",
+      "text": " ini adalah seorang yang bagus."
+    },
+    {
+      "end": "00:01:57.900",
+      "start": "00:01:56.400",
+      "text": " Tapi, seconde,"
+    },
+    {
+      "end": "00:01:59.333",
+      "start": "00:01:57.900",
+      "text": " seorang yang terbuka sangat bagus."
+    },
+    {
+      "end": "00:02:00.400",
+      "start": "00:01:59.333",
+      "text": " Tapi kita boleh juga lihat"
+    },
+    {
+      "end": "00:02:01.533",
+      "start": "00:02:00.400",
+      "text": " ada satu yang lain."
+    },
+    {
+      "end": "00:02:03.533",
+      "start": "00:02:01.533",
+      "text": " Apa yang lain?"
+    },
+    {
+      "end": "00:02:05.600",
+      "start": "00:02:03.533",
+      "text": " Apa yang boleh kita"
+    },
+    {
+      "end": "00:02:06.600",
+      "start": "00:02:05.600",
+      "text": " mencari dengan sesuatu?"
+    },
+    {
+      "end": "00:02:07.667",
+      "start": "00:02:06.600",
+      "text": " Apa yang boleh kita mencari"
+    },
+    {
+      "end": "00:02:09.200",
+      "start": "00:02:07.667",
+      "text": " kita mahu tahu sesuatu"
+    },
+    {
+      "end": "00:02:09.933",
+      "start": "00:02:09.200",
+      "text": " di sini"
+    },
+    {
+      "end": "00:02:11.333",
+      "start": "00:02:09.933",
+      "text": " yang kamu tak akan mencari dengan"
+    },
+    {
+      "end": "00:02:12.500",
+      "start": "00:02:11.333",
+      "text": " sesuatu"
+    },
+    {
+      "end": "00:02:13.700",
+      "start": "00:02:12.500",
+      "text": " yang sangat berdua."
+    },
+    {
+      "end": "00:02:14.300",
+      "start": "00:02:13.700",
+      "text": " Tapi,"
+    },
+    {
+      "end": "00:02:15.900",
+      "start": "00:02:14.300",
+      "text": " berdua dengan sesuatu"
+    },
+    {
+      "end": "00:02:16.900",
+      "start": "00:02:15.900",
+      "text": " di sini,"
+    },
+    {
+      "end": "00:02:17.900",
+      "start": "00:02:16.900",
+      "text": " saya tak tahu."
+    },
+    {
+      "end": "00:02:21.900",
+      "start": "00:02:17.900",
+      "text": " Dan saya akan datang"
+    },
+    {
+      "end": "00:02:22.900",
+      "start": "00:02:21.900",
+      "text": " dengan..."
+    },
+    {
+      "end": "00:02:23.900",
+      "start": "00:02:22.900",
+      "text": " Ini adalah saya,"
+    },
+    {
+      "end": "00:02:24.900",
+      "start": "00:02:23.900",
+      "text": " seorang project"
+    },
+    {
+      "end": "00:02:26.900",
+      "start": "00:02:24.900",
+      "text": " di dalam perintahan."
+    },
+    {
+      "end": "00:02:27.900",
+      "start": "00:02:26.900",
+      "text": " Dan kita dah beritahu"
+    },
+    {
+      "end": "00:02:29.900",
+      "start": "00:02:27.900",
+      "text": " kalau kita mempunyai"
+    },
+    {
+      "end": "00:02:30.900",
+      "start": "00:02:29.900",
+      "text": " sesuatu"
+    },
+    {
+      "end": "00:02:32.900",
+      "start": "00:02:30.900",
+      "text": " input,"
+    },
+    {
+      "end": "00:02:34.900",
+      "start": "00:02:32.900",
+      "text": " untuk mempunyai"
+    },
+    {
+      "end": "00:02:35.900",
+      "start": "00:02:34.900",
+      "text": " perintahannya,"
+    },
+    {
+      "end": "00:02:36.900",
+      "start": "00:02:35.900",
+      "text": " boleh beritahu sesuatu"
+    },
+    {
+      "end": "00:02:37.900",
+      "start": "00:02:36.900",
+      "text": " yang terbuka."
+    },
+    {
+      "end": "00:02:38.900",
+      "start": "00:02:37.900",
+      "text": " Sejak sesuatu"
+    },
+    {
+      "end": "00:02:39.900",
+      "start": "00:02:38.900",
+      "text": " input,"
+    },
+    {
+      "end": "00:02:40.900",
+      "start": "00:02:39.900",
+      "text": " tapi ada sesuatu"
+    },
+    {
+      "end": "00:02:42.900",
+      "start": "00:02:40.900",
+      "text": " yang terbuka."
+    },
+    {
+      "end": "00:02:43.900",
+      "start": "00:02:42.900",
+      "text": " Saya tak mahu"
+    },
+    {
+      "end": "00:02:45.900",
+      "start": "00:02:43.900",
+      "text": " untuk mempunyai sesuatu"
+    },
+    {
+      "end": "00:02:46.900",
+      "start": "00:02:45.900",
+      "text": " tentang apa yang saya did."
+    },
+    {
+      "end": "00:02:48.900",
+      "start": "00:02:46.900",
+      "text": " Dan ini adalah"
+    },
+    {
+      "end": "00:02:49.900",
+      "start": "00:02:48.900",
+      "text": " yang terakhir"
+    },
+    {
+      "end": "00:02:50.900",
+      "start": "00:02:49.900",
+      "text": " yang saya did,"
+    },
+    {
+      "end": "00:02:52.900",
+      "start": "00:02:50.900",
+      "text": " saya mempunyai"
+    },
+    {
+      "end": "00:02:53.900",
+      "start": "00:02:52.900",
+      "text": " perintahan"
+    },
+    {
+      "end": "00:02:55.900",
+      "start": "00:02:53.900",
+      "text": " dan saya ada"
+    },
+    {
+      "end": "00:02:56.900",
+      "start": "00:02:55.900",
+      "text": " sesuatu input,"
+    },
+    {
+      "end": "00:02:58.900",
+      "start": "00:02:56.900",
+      "text": " dan saya mempunyai sesuatu"
+    },
+    {
+      "end": "00:03:00.900",
+      "start": "00:02:58.900",
+      "text": " dan saya mempunyai sesuatu"
+    },
+    {
+      "end": "00:03:01.900",
+      "start": "00:03:00.900",
+      "text": " untuk mempunyai"
+    },
+    {
+      "end": "00:03:02.900",
+      "start": "00:03:01.900",
+      "text": " perintahannya."
+    },
+    {
+      "end": "00:03:03.900",
+      "start": "00:03:02.900",
+      "text": " Dan saya mempunyai sesuatu"
+    },
+    {
+      "end": "00:03:04.900",
+      "start": "00:03:03.900",
+      "text": " seperti ini."
+    },
+    {
+      "end": "00:03:06.900",
+      "start": "00:03:04.900",
+      "text": " Ini adalah sesuatu"
+    },
+    {
+      "end": "00:03:07.900",
+      "start": "00:03:06.900",
+      "text": " di dalam."
+    },
+    {
+      "end": "00:03:08.900",
+      "start": "00:03:07.900",
+      "text": " Tapi,"
+    },
+    {
+      "end": "00:03:09.900",
+      "start": "00:03:08.900",
+      "text": " kita tak boleh mencari"
+    },
+    {
+      "end": "00:03:10.900",
+      "start": "00:03:09.900",
+      "text": " apa yang terjadi."
+    },
+    {
+      "end": "00:03:11.900",
+      "start": "00:03:10.900",
+      "text": " Apa yang berlaku"
+    },
+    {
+      "end": "00:03:13.900",
+      "start": "00:03:11.900",
+      "text": " untuk itu?"
+    },
+    {
+      "end": "00:03:15.900",
+      "start": "00:03:13.900",
+      "text": " Saya rasa,"
+    },
+    {
+      "end": "00:03:16.900",
+      "start": "00:03:15.900",
+      "text": " okay, mari kita pergi"
+    },
+    {
+      "end": "00:03:17.900",
+      "start": "00:03:16.900",
+      "text": " di dalam."
+    },
+    {
+      "end": "00:03:20.900",
+      "start": "00:03:17.900",
+      "text": " Dan kita beritahu"
+    },
+    {
+      "end": "00:03:21.900",
+      "start": "00:03:20.900",
+      "text": " satu network nirulah"
+    },
+    {
+      "end": "00:03:23.900",
+      "start": "00:03:21.900",
+      "text": " yang kita boleh mencari."
+    },
+    {
+      "end": "00:03:25.900",
+      "start": "00:03:23.900",
+      "text": " Kita mempunyai sesuatu"
+    },
+    {
+      "end": "00:03:27.900",
+      "start": "00:03:25.900",
+      "text": " dan kita mempunyai sesuatu"
+    },
+    {
+      "end": "00:03:29.900",
+      "start": "00:03:27.900",
+      "text": " yang terjadi."
+    },
+    {
+      "end": "00:03:31.900",
+      "start": "00:03:29.900",
+      "text": " Jadi, ini terbuka."
+    },
+    {
+      "end": "00:03:33.900",
+      "start": "00:03:31.900",
+      "text": " Kita ada link untuk itu."
+    },
+    {
+      "end": "00:03:35.900",
+      "start": "00:03:33.900",
+      "text": " Kita mempunyai"
+    },
+    {
+      "end": "00:03:37.900",
+      "start": "00:03:35.900",
+      "text": " XML,"
+    },
+    {
+      "end": "00:03:39.900",
+      "start": "00:03:37.900",
+      "text": " ini terbuka nirulah"
+    },
+    {
+      "end": "00:03:42.900",
+      "start": "00:03:39.900",
+      "text": " dan menariknya"
+    },
+    {
+      "end": "00:03:45.900",
+      "start": "00:03:42.900",
+      "text": " Tidak menguruskan"
+    },
+    {
+      "end": "00:03:48.900",
+      "start": "00:03:45.900",
+      "text": " restlesskan"
+    },
+    {
+      "end": "00:03:50.900",
+      "start": "00:03:48.900",
+      "text": " perk Förera- Zapよう."
+    },
+    {
+      "end": "00:03:52.900",
+      "start": "00:03:50.900",
+      "text": " Tak mengisilkan"
+    },
+    {
+      "end": "00:03:53.900",
+      "start": "00:03:52.900",
+      "text": " titeki,"
+    },
+    {
+      "end": "00:03:56.900",
+      "start": "00:03:53.900",
+      "text": " bersama ida perkera."
+    },
+    {
+      "end": "00:03:58.900",
+      "start": "00:03:56.900",
+      "text": " Kita smashed"
+    },
+    {
+      "end": "00:04:00.900",
+      "start": "00:03:58.900",
+      "text": " harmit aman."
+    },
+    {
+      "end": "00:04:05.900",
+      "start": "00:04:01.900",
+      "text": " Ter亂gap air antir bene pada"
+    },
+    {
+      "end": "00:04:07.900",
+      "start": "00:04:05.900",
+      "text": " Kampong,"
+    },
+    {
+      "end": "00:04:35.600",
+      "start": "00:04:07.900",
+      "text": " di satu spea koyak"
+    },
+    {
+      "end": "00:04:38.600",
+      "start": "00:04:35.600",
+      "text": " dan kemudianca miapkan di posisi selanjutkan chest tysicional"
+    },
+    {
+      "end": "00:04:40.900",
+      "start": "00:04:38.600",
+      "text": " dan kita akan mahu akan memawakkan segitar turnaround"
+    },
+    {
+      "end": "00:04:48.100",
+      "start": "00:04:43.900",
+      "text": " Menurutnya cerita makanan, apa terbaik adik gitu"
+    },
+    {
+      "end": "00:04:55.600",
+      "start": "00:04:48.100",
+      "text": " tetapi med"
+    },
+    {
+      "end": "00:05:02.700",
+      "start": "00:04:59.600",
+      "text": " dalam asli int puisuri ini saya ingin meng conectenya"
+    },
+    {
+      "end": "00:05:05.500",
+      "start": "00:05:02.800",
+      "text": "ように jika kita bisa memoba seseorang bagaik ke dalam beberapa pelajaran"
+    },
+    {
+      "end": "00:05:12.200",
+      "start": "00:05:05.500",
+      "text": " 과ead nanti usaha convertarnya kepada dávint j Olá undat mascot daripada segitu sebatas."
+    },
+    {
+      "end": "00:05:17.400",
+      "start": "00:05:12.200",
+      "text": " Kemudian Aurora juga ber tikus sebagai stabur p которого bisaright- noon."
+    },
+    {
+      "end": "00:05:21.500",
+      "start": "00:05:17.433",
+      "text": " Tidak terlalu di sini sedangkan, rasa mark dizzy."
+    },
+    {
+      "end": "00:05:24.533",
+      "start": "00:05:21.500",
+      "text": " Arkでは ia hebat lagi untuk nampak lebih peluh."
+    },
+    {
+      "end": "00:05:27.067",
+      "start": "00:05:25.500",
+      "text": " Xue itu yang dengar di mana aime adakah."
+    },
+    {
+      "end": "00:05:29.800",
+      "start": "00:05:27.267",
+      "text": " Senangittle juran yang kita pergi sekarang,"
+    },
+    {
+      "end": "00:05:32.600",
+      "start": "00:05:29.800",
+      "text": " dan been jo match untuk memawaskan um 1987 Cykl tiadajuk scraki baru bagi per sunta."
+    },
+    {
+      "end": "00:05:34.633",
+      "start": "00:05:32.600",
+      "text": " Suduk saja dapat membuat permukaan bersaik."
+    },
+    {
+      "end": "00:05:40.633",
+      "start": "00:05:34.633",
+      "text": " dengan itu lebih daripada nilai nilai nilai nilai."
+    },
+    {
+      "end": "00:05:43.633",
+      "start": "00:05:40.633",
+      "text": " Ya?"
+    },
+    {
+      "end": "00:05:44.633",
+      "start": "00:05:43.633",
+      "text": " Mereka boleh buat nilai."
+    },
+    {
+      "end": "00:05:46.633",
+      "start": "00:05:44.633",
+      "text": " Mereka boleh buat nilai."
+    },
+    {
+      "end": "00:05:47.633",
+      "start": "00:05:46.633",
+      "text": " Okey, alright."
+    },
+    {
+      "end": "00:05:49.633",
+      "start": "00:05:47.633",
+      "text": " Plays Play."
+    },
+    {
+      "end": "00:05:51.633",
+      "start": "00:05:49.633",
+      "text": " Jadi, just to see the first kind of hello world"
+    },
+    {
+      "end": "00:05:54.633",
+      "start": "00:05:51.633",
+      "text": " of our little structure that we are doing here."
+    },
+    {
+      "end": "00:05:58.633",
+      "start": "00:05:54.633",
+      "text": " So, there is a formula that is the basic example input"
+    },
+    {
+      "end": "00:06:01.633",
+      "start": "00:05:58.633",
+      "text": " that is x times 2 minus 5 in this case."
+    },
+    {
+      "end": "00:06:03.633",
+      "start": "00:06:01.633",
+      "text": " And then it generates a lot of samples."
+    },
+    {
+      "end": "00:06:05.633",
+      "start": "00:06:03.633",
+      "text": " And then you can press train, I guess,"
+    },
+    {
+      "end": "00:06:07.633",
+      "start": "00:06:05.633",
+      "text": " is the first step to do."
+    },
+    {
+      "end": "00:06:10.633",
+      "start": "00:06:07.633",
+      "text": " And then it will show the error."
+    },
+    {
+      "end": "00:06:15.633",
+      "start": "00:06:10.633",
+      "text": " And the neural network will kind of change visually to it."
+    },
+    {
+      "end": "00:06:21.633",
+      "start": "00:06:18.633",
+      "text": " And now it has then been trained."
+    },
+    {
+      "end": "00:06:23.633",
+      "start": "00:06:21.633",
+      "text": " And you can press predict."
+    },
+    {
+      "end": "00:06:25.633",
+      "start": "00:06:23.633",
+      "text": " Wouldn't that be the next normal step to do here?"
+    },
+    {
+      "end": "00:06:26.633",
+      "start": "00:06:25.633",
+      "text": " Yes."
+    },
+    {
+      "end": "00:06:28.633",
+      "start": "00:06:26.633",
+      "text": " And you have the inputs and outputs."
+    },
+    {
+      "end": "00:06:31.633",
+      "start": "00:06:28.633",
+      "text": " So, you can see if the formula actually does what you are expecting it to do,"
+    },
+    {
+      "end": "00:06:34.633",
+      "start": "00:06:31.633",
+      "text": " if it has been trained to the formula."
+    },
+    {
+      "end": "00:06:37.633",
+      "start": "00:06:34.633",
+      "text": " And very simple little setup."
+    },
+    {
+      "end": "00:06:39.633",
+      "start": "00:06:37.633",
+      "text": " But everything is kind of in the code."
+    },
+    {
+      "end": "00:06:42.633",
+      "start": "00:06:39.633",
+      "text": " And everything is having a goal for people who want to learn about how to use neural networks"
+    },
+    {
+      "end": "00:06:44.633",
+      "start": "00:06:42.633",
+      "text": " and also how to structure it."
+    },
+    {
+      "end": "00:06:46.633",
+      "start": "00:06:44.633",
+      "text": " Can you show some of the code?"
+    },
+    {
+      "end": "00:06:48.633",
+      "start": "00:06:46.633",
+      "text": " Limb as well."
+    },
+    {
+      "end": "00:06:51.633",
+      "start": "00:06:48.633",
+      "text": " So, you can go in and change the network, for example."
+    },
+    {
+      "end": "00:06:54.633",
+      "start": "00:06:51.633",
+      "text": " Can you do that really quickly?"
+    },
+    {
+      "end": "00:06:56.633",
+      "start": "00:06:54.633",
+      "text": " Add another layer, another hidden layer."
+    },
+    {
+      "end": "00:07:04.633",
+      "start": "00:07:00.633",
+      "text": " So, it's just a simple structure to kind of start to play around with it"
+    },
+    {
+      "end": "00:07:06.633",
+      "start": "00:07:04.633",
+      "text": " and visualize it and understand it."
+    },
+    {
+      "end": "00:07:17.633",
+      "start": "00:07:13.633",
+      "text": " And the base principle is that everything is there."
+    },
+    {
+      "end": "00:07:20.633",
+      "start": "00:07:17.633",
+      "text": " There's nothing that's hidden in a deep library somewhere."
+    },
+    {
+      "end": "00:07:22.633",
+      "start": "00:07:20.633",
+      "text": " So, everybody can go in and look at the code."
+    },
+    {
+      "end": "00:07:26.633",
+      "start": "00:07:22.633",
+      "text": " At least for me, it's nice because I'm not that well trained in looking at the formulas."
+    },
+    {
+      "end": "00:07:30.633",
+      "start": "00:07:26.633",
+      "text": " Henning was showing you in his slide and said, everybody knows this, for example."
+    },
+    {
+      "end": "00:07:34.633",
+      "start": "00:07:30.633",
+      "text": " But instead, you can actually go in and see what is the actual code in this."
+    },
+    {
+      "end": "00:07:36.633",
+      "start": "00:07:34.633",
+      "text": " Do you want to show some of the code?"
+    },
+    {
+      "end": "00:07:38.633",
+      "start": "00:07:36.633",
+      "text": " And how you've done that?"
+    },
+    {
+      "end": "00:07:40.633",
+      "start": "00:07:38.633",
+      "text": " That's not important."
+    },
+    {
+      "end": "00:07:43.633",
+      "start": "00:07:40.633",
+      "text": " But we have this code where it is not accessible."
+    },
+    {
+      "end": "00:07:50.633",
+      "start": "00:07:43.633",
+      "text": " For example, if you say, if you have a problem with mathematics for forward propagation and back propagation,"
+    },
+    {
+      "end": "00:07:59.633",
+      "start": "00:07:50.633",
+      "text": " I have implemented everything here quite easily, where you can just hack if you want to change anything"
+    },
+    {
+      "end": "00:08:05.633",
+      "start": "00:07:59.633",
+      "text": " or if you say that I might have made some errors, which we found last time."
+    },
+    {
+      "end": "00:08:14.633",
+      "start": "00:08:05.633",
+      "text": " I use the wrong way on how to make what we call this a random binomial."
+    },
+    {
+      "end": "00:08:16.633",
+      "start": "00:08:14.633",
+      "text": " So, we solve that."
+    },
+    {
+      "end": "00:08:25.633",
+      "start": "00:08:17.633",
+      "text": " Then there might be some more bugs, but just let us know it is quite open, where here say, I think this is..."
+    },
+    {
+      "end": "00:08:30.633",
+      "start": "00:08:25.633",
+      "text": " I think this is a back propagation."
+    },
+    {
+      "end": "00:08:33.633",
+      "start": "00:08:30.633",
+      "text": " So, the code is quite simple, very straightforward."
+    },
+    {
+      "end": "00:08:37.633",
+      "start": "00:08:33.633",
+      "text": " I'll try to use as long name, variables name as possible."
+    },
+    {
+      "end": "00:08:44.633",
+      "start": "00:08:37.633",
+      "text": " So, it helps for you to understand what it is not like dx, y, whatever you call it."
+    },
+    {
+      "end": "00:08:49.633",
+      "start": "00:08:44.633",
+      "text": " I'll put a full name, weight, gradient, so you know why this."
+    },
+    {
+      "end": "00:08:51.633",
+      "start": "00:08:49.633",
+      "text": " That's it."
+    },
+    {
+      "end": "00:08:55.633",
+      "start": "00:08:51.633",
+      "text": " And we have the link."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Fablab RUC - Roskilde University",
+  "youtube_channel_follower_count": 691,
+  "youtube_comment_count": 1,
+  "youtube_description": "Tech Demo - how can we visualise the inner workings of a neural network and discover insights on the training process. \n\nPresentation by\nAbdul Halim Bin Abdul Rahman, Computer science\nMads Hobye, Associate Professor, Computer science.\nDepartment of People and Technology, Roskilde University",
+  "youtube_like_count": 5,
+  "youtube_tags": [],
+  "youtube_title": "Visualising the neural network",
+  "youtube_upload_date": "20230606",
+  "youtube_view_count": 74
+}

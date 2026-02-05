@@ -1,0 +1,951 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with long brown hair, wearing a black T-shirt with the text \"There's no place like 127.0.0.1\".",
+        "name": "Presenter"
+      }
+    ],
+    "description": "A presenter introduces and demonstrates a low-cost DIY collision cart project designed for educational purposes, highlighting its features, functionality, and potential as an educational tool.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Green, red, and purple.",
+        "question": "What color are the LEDs on the cart?"
+      },
+      {
+        "answer": "To prevent the cart from breaking when it reaches the end of the ramp.",
+        "question": "Why does the presenter use a towel at the bottom of the ramp?"
+      },
+      {
+        "answer": "An ultrasonic sensor.",
+        "question": "What kind of sensor is used to measure the cart's distance?"
+      },
+      {
+        "answer": "To measure the position of the cart and analyze its motion.",
+        "question": "What is the purpose of the photodiode in the cart?"
+      },
+      {
+        "answer": "By sharing the STL files for the mechanical components, software code for both the microcontroller and computer, and linking to the paper and GitHub project that inspired the project.",
+        "question": "How does the presenter plan to make the project open source?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Presenter introduces the project, explaining its purpose as a low-cost alternative to commercially available collision carts.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Presenter discusses the limitations of commercial versions and the inspiration behind this project, mentioning a research group in Spain.",
+            "timestamp": {
+              "end_timestamp": "00:01:12.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "description": "Presenter highlights the features of his collision cart, including the accelerometer, ultrasonic sensor, and photodiode, and their use in undergraduate physics experiments.",
+            "timestamp": {
+              "end_timestamp": "00:02:55.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "description": "Presenter transitions to the next scene, stating he will demonstrate the cart's capabilities.",
+            "timestamp": {
+              "end_timestamp": "00:03:05.967",
+              "start_timestamp": "00:02:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": "Presenter directly addresses the viewer, explaining the project."
+          }
+        ],
+        "contextualRelevance": "Emphasis on creating accessible tools for educational purposes.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious. The presenter's enthusiasm and the innovative nature of the project generate curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the project, its background, and intended uses.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "DIY collision cart, featuring an accelerometer, wires, and LEDs.",
+            "timestamp": {
+              "end_timestamp": "00:03:05.967",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "DIY technology, science education, affordability.",
+        "timestamps": {
+          "end_timestamp": "00:03:05.967",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Explanation",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions, effects, or music.",
+            "timestamps": {
+              "end_timestamp": "00:03:05.967",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Could potentially trim the beginning slightly, starting when the presenter first picks up the cart.",
+            "timestamps": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter displays Python code and explains the zeroing process for the accelerometer and gyros.",
+            "timestamp": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:03:06.000"
+            }
+          },
+          {
+            "description": "Off-screen hand manipulates the cart, demonstrating its movement capabilities.",
+            "timestamp": {
+              "end_timestamp": "00:03:24.000",
+              "start_timestamp": "00:03:17.000"
+            }
+          },
+          {
+            "description": "Presenter analyzes the automatically generated graphs representing acceleration and angle, highlighting key observations.",
+            "timestamp": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Presenter",
+          "Off-screen Hand"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter",
+              "Off-screen Hand"
+            ],
+            "description": "Presenter guides the viewer through the data, while off-screen hand assists with demonstration."
+          }
+        ],
+        "contextualRelevance": "Showcasing the practical application of the cart in gathering real-time data for analysis.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Analytical. The focus shifts to data interpretation and technical explanation, fostering an analytical atmosphere.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the cart's functionality and data acquisition capabilities.",
+            "timestamp": "00:03:06.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "DIY collision cart, laptop displaying Python code and generated graphs, wireless keyboard.",
+            "timestamp": {
+              "end_timestamp": "00:04:41.000",
+              "start_timestamp": "00:03:06.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Data analysis, sensor readings, physics concepts.",
+        "timestamps": {
+          "end_timestamp": "00:04:41.433",
+          "start_timestamp": "00:03:06.000"
+        },
+        "title": "Demonstration - Zeroing and Data Acquisition",
+        "videoEditingDetails": [
+          {
+            "description": "Could potentially be shortened, focusing primarily on the generated graphs.",
+            "timestamps": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:03:06.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter introduces the ramp experiment, setting the cart on a ramp inclined at 25 degrees.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:04:41.467"
+            }
+          },
+          {
+            "description": "Off-screen hand releases the cart, allowing it to roll down the ramp.",
+            "timestamp": {
+              "end_timestamp": "00:05:05.000",
+              "start_timestamp": "00:04:57.000"
+            }
+          },
+          {
+            "description": "Presenter analyzes the generated graphs, focusing on acceleration and angle changes, highlighting areas for improvement.",
+            "timestamp": {
+              "end_timestamp": "00:08:47.000",
+              "start_timestamp": "00:05:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Presenter",
+          "Off-screen Hand"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter",
+              "Off-screen Hand"
+            ],
+            "description": "Presenter directs the experiment, while off-screen hand assists with the cart."
+          }
+        ],
+        "contextualRelevance": "Emphasizing the importance of practical experimentation in understanding scientific concepts.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Focused, analytical. The presenter's attention to detail and data interpretation contributes to a focused and analytical mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Conducting a controlled experiment to demonstrate the cart's ability to capture and analyze motion data.",
+            "timestamp": "00:04:41.467"
+          }
+        ],
+        "props": [
+          {
+            "name": "DIY collision cart, wooden ramp, yardstick, towel, wireless keyboard, laptop displaying graphs.",
+            "timestamp": {
+              "end_timestamp": "00:08:47.000",
+              "start_timestamp": "00:04:41.467"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Experimental design, physics principles, data visualization.",
+        "timestamps": {
+          "end_timestamp": "00:08:47.800",
+          "start_timestamp": "00:04:41.467"
+        },
+        "title": "Demonstration - Ramp Experiment",
+        "videoEditingDetails": [
+          {
+            "description": "Could be shortened, showing only the cart's descent down the ramp and the resulting graphs.",
+            "timestamps": {
+              "end_timestamp": "00:05:05.000",
+              "start_timestamp": "00:04:41.467"
+            }
+          },
+          {
+            "description": "Could benefit from more concise explanations and highlighting key observations.",
+            "timestamps": {
+              "end_timestamp": "00:08:47.000",
+              "start_timestamp": "00:05:05.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenter summarizes the project's progress and its potential as a valuable educational tool.",
+            "timestamp": {
+              "end_timestamp": "00:09:00.000",
+              "start_timestamp": "00:08:47.833"
+            }
+          },
+          {
+            "description": "Presenter outlines future plans for making the project open source, including sharing STL files, software code, and referencing the inspiration behind the project.",
+            "timestamp": {
+              "end_timestamp": "00:09:45.000",
+              "start_timestamp": "00:09:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Presenter"
+            ],
+            "description": "Presenter directly addresses the viewer, sharing insights and future plans."
+          }
+        ],
+        "contextualRelevance": "Highlighting the collaborative nature of open-source projects and their potential to enhance education.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Enthusiastic, optimistic. The presenter's positive outlook and future plans create an enthusiastic and optimistic mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concluding the demonstration and outlining plans for further development and sharing of the project.",
+            "timestamp": "00:08:47.833"
+          }
+        ],
+        "props": [
+          {
+            "name": "DIY collision cart.",
+            "timestamp": {
+              "end_timestamp": "00:09:45.000",
+              "start_timestamp": "00:08:47.833"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Open-source technology, educational accessibility, future innovations.",
+        "timestamps": {
+          "end_timestamp": "00:09:45.467",
+          "start_timestamp": "00:08:47.833"
+        },
+        "title": "Conclusion and Future Plans",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions, effects, or music.",
+            "timestamps": {
+              "end_timestamp": "00:09:45.000",
+              "start_timestamp": "00:08:47.833"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The ramp experiment acts as the climax, showcasing the cart's capabilities in a practical scenario.",
+        "timestamp": "00:04:41.000"
+      },
+      "description": "Development and Demonstration of a DIY Collision Cart",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Low-Cost DIY Collision Cart",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the beginning slightly, starting when the presenter picks up the cart.",
+        "timestamps": {
+          "end_timestamp": "00:08:47.833",
+          "start_timestamp": "00:08:47.833"
+        }
+      },
+      {
+        "description": "Focus primarily on the generated graphs, reducing the time spent on code explanation.",
+        "timestamps": {
+          "end_timestamp": "00:08:47.833",
+          "start_timestamp": "00:08:47.833"
+        }
+      },
+      {
+        "description": "Show only the cart's descent down the ramp and the resulting graphs.",
+        "timestamps": {
+          "end_timestamp": "00:08:47.833",
+          "start_timestamp": "00:08:47.833"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 586,
+  "original_json_filename": "aDnuazjj0J4.json",
+  "original_video_filename": "aDnuazjj0J4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so for the last few weeks I've been working on this contraption which is intended to be a low-cost alternative to something that I used when I was teaching undergraduate courses and the commercially available option works fairly well but it's in my opinion horrendously overpriced and it also is sometimes Limited in how you can expand its functionality and my friend is actually teaching High School physics in Japan so she originally contacted me asking if there would be a way to make a lower cost alternative to the commercial versions of these and I decided to look into it and I found there was a research group in Spain that had published a paper on doing a version of this but they did that way back in 2016 when the microcontrollers that were available were a little bit different and they also ended up limiting their use case to people who already had those sets and they just wanted to buy more units to work with the existing ones so this is a little bit different in several ways one is that this can work completely on its own you don't need to buy any part of the expensive ecosystem to use this and the other way it's different is that it has one of these which this is the esp32 microcontroller which is a sort of little Internet of Things chipset that has Wi-Fi and Bluetooth built into it and so what there is is you see this little board right here is an accelerometer so able to take in acceleration readings because this is intended for undergraduate physics education and that means that it's you know basically what happens is it rolls along and it measures how much it's accelerating and the students then combine that with another sensor that I don't have mounted on here right now which is an ultrasonic sensor and they use that to compare you know does the position of the cart measured using the ultrasonic sensor or also it'll I'm I'm measuring it using this photo diode here does not match the acceler you know does that match the double integral of the acceleration they measure using the accelerometer uh as well as they are called Collision cards because you can take two of these and you can Collide them together and they'll bounce off of each other and you can measure the velocities before and after and you know the relative masses and then you can determine that momentum and energy are conserved before and after Collision or you can determine that momentum is conserved for and after a collision and you can see the extent to which energy is conserved so yeah this thing I it's still a work in progress but uh let me show you a couple of things it can do real quick so there's this python script that controls everything using UDP and we have to zero it real quick so the accelerometers and Gyros know what zero is once that's complete go ahead and move it back and forth a little move it up and down rotate it and take a look at the graph so this plot is generated automatically when the python script receives the data over UDP from the microcontroller that's connected to the accelerometer on the actual card and those top three graphs represent the acceleration and the bottom three represent the angle which is inferred by integrating up the gyroscopes readings right because the gyroscopes tell you rotation rate multiply rotation rate by time you get angle and so just looking at those plots you can kind of see the movements that I was doing there right the z-axis accelerometer just reads a constant 9.8 because it's just feeling the force of gravity the x-axis basically reads nothing except some little noise bumps when I'm moving it back and forth and the y-axis you can see that it jumps up for a while and down for a while as I'm accelerating it forwards and backwards and the angle you can see where I lifted the x-axis rotated it set it back down and the other two rotate to angles other than the start because they just kind of move around although it's like two degrees in Z because the cart actually steers a little bit and less than one degree in y because well the wheels need a little bit of work my 3D printer needs some tuning which another little experiment to do is to have it roll down a ramp like this which this one is set to 25 degrees and with that little well it's actually a yardstick not a meter stick on the back so I have a wireless keyboard there to the python script this is a work in progress after all and that towel is there to break its fall at the bottom oh all right let's look at the graph Okay so the graphs look like this formatted precisely the same way before so this is acceleration X acceleration y acceleration Z and likewise for the angles so these are all Rel the angles are all relative to the start position right so they all start at zero so a change of 25 degrees actually corresponds to going to an angle of zero which it seems like I must not be doing this quite right because this is getting more like you know 14 15 degrees so you know again more things to improve but take a look at a couple things here right one is you'll notice that the z-axis acceleration uh it has this noisy bumps while it's sort of going down that rickety little track but it basically just stays at the value it stays at which is not quite 9.8 it's more like nine and that is actually correct if you just you know solve the problem of a you know cart with wheels going down an inclined plane or something fried sliding down a frictionless incline plane that's actually correct the normal force doesn't change and then this one is also broadly correct right the uh sort of horizontal component of the acceleration is you know equal to you know 9.8 times the sine of 25 which gives a you know like 4.9 which is about what you get here so not too shabby and then when it's you know sort of in free fall we're only down the track it's very noisy but it basically drops to zero uh and then it's slightly above but near zero at the bottom uh because the cart sort of changes angle about the x-axis here so it goes from you know pointing 25 degrees down to level so that now normal force is all and you can see that this actually on the other side is over here it's like uh you know it is about nine and on the other side it's more like 9.8 yeah so there it's about nine and over here it's about 9.8 and then here it's about four beforehand and then it goes to you know a little over one uh because it you know I need the towel at the bottom so that it it probably wouldn't break but I you know yeah don't want to break it right away and uh you know then likewise the this is just a four degree bump in the y angle which just corresponds to the bumpiness of the track you know it's not really because that would be sort of the cart rolling on its uh longitudinal axis as it goes down um and then the again the Z changes also by like six degrees but that's you know again just the cart uh you know goes off the end of the track and then it's no longer constrained to pointing in the direction it started and it just changes by some random angle when it hits the towel at the bottom uh so it looks like things are more or less working so yeah I need to now add the ultrasonic sensor as well as make use of that photodiode to look at the markings on something like that uh well I want to use an actual meter stick markings and I'll also use just black and white uh even centimeter markings instead of just hash marks every like well inch the way around that stupid yardstick but yeah so far this is uh looking pretty alright so I'm going to keep working on this stupid little thing for a while but it's a potentially useful little educational tool and it's designed to all be free and open source so I you know will make the STL files for the mechanical components as well as the software that runs on the microcontroller and the software that runs uh on the server side or on the you know on the computer side either through a web server or just directly on the computers that the students are using available so yeah this is a little free and open source Collision cart motivated by my friend teaching physics in Japan and uh inspired by uh open source uh demonstration by team from Spain I'll link to their paper as well as their GitHub project uh in the description so uh yeah peace",
+  "text_to_speech_word_count": 1568,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.500",
+      "start": "00:00:00.000",
+      "text": " So for the last few weeks I've been working on this contraption which is"
+    },
+    {
+      "end": "00:00:11.667",
+      "start": "00:00:05.500",
+      "text": " intended to be a low-cost alternative to something that I used when I was"
+    },
+    {
+      "end": "00:00:17.833",
+      "start": "00:00:11.667",
+      "text": " teaching undergraduate courses and the commercially available option works"
+    },
+    {
+      "end": "00:00:25.067",
+      "start": "00:00:17.833",
+      "text": " fairly well but it's in my opinion horrendously overpriced and it also is"
+    },
+    {
+      "end": "00:00:31.533",
+      "start": "00:00:25.067",
+      "text": " sometimes limited in how you can expand its functionality and my friend is"
+    },
+    {
+      "end": "00:00:36.567",
+      "start": "00:00:31.533",
+      "text": " actually teaching high school physics in Japan so she originally contacted me"
+    },
+    {
+      "end": "00:00:40.200",
+      "start": "00:00:36.567",
+      "text": " asking if there would be a way to make a lower-cost alternative to the"
+    },
+    {
+      "end": "00:00:45.000",
+      "start": "00:00:40.200",
+      "text": " commercial versions of these and I decided to look into it and I found there"
+    },
+    {
+      "end": "00:00:50.700",
+      "start": "00:00:45.000",
+      "text": " was a research group in Spain that had published a paper on doing a"
+    },
+    {
+      "end": "00:00:56.600",
+      "start": "00:00:50.700",
+      "text": " version of this but they did that way back in 2016 when the microcontrollers"
+    },
+    {
+      "end": "00:01:01.933",
+      "start": "00:00:56.600",
+      "text": " that were available were a little bit different and they also ended up limiting"
+    },
+    {
+      "end": "00:01:08.833",
+      "start": "00:01:01.933",
+      "text": " their use case to people who already had those sets and they just wanted to buy"
+    },
+    {
+      "end": "00:01:13.400",
+      "start": "00:01:08.833",
+      "text": " more units to work with the existing ones so this is a little bit different"
+    },
+    {
+      "end": "00:01:16.633",
+      "start": "00:01:13.400",
+      "text": " in several days one is that this can work completely on its own you don't need"
+    },
+    {
+      "end": "00:01:24.533",
+      "start": "00:01:16.633",
+      "text": " to buy any part of the expensive ecosystem to use this and the other way it's"
+    },
+    {
+      "end": "00:01:31.100",
+      "start": "00:01:24.533",
+      "text": " different is that it has one of these which this is the ESP32"
+    },
+    {
+      "end": "00:01:36.867",
+      "start": "00:01:31.100",
+      "text": " microcontroller which is a sort of little internet of things chipset that has"
+    },
+    {
+      "end": "00:01:42.700",
+      "start": "00:01:36.867",
+      "text": " Wi-Fi and Bluetooth built into it and so what there is is you see this little"
+    },
+    {
+      "end": "00:01:48.500",
+      "start": "00:01:42.700",
+      "text": " board right here is an accelerometer so able to take in acceleration readings"
+    },
+    {
+      "end": "00:01:54.233",
+      "start": "00:01:48.500",
+      "text": " because this is intended for undergraduate physics education and that means"
+    },
+    {
+      "end": "00:02:00.200",
+      "start": "00:01:54.233",
+      "text": " that it's you know basically what happens is it rolls along and it measures how"
+    },
+    {
+      "end": "00:02:06.200",
+      "start": "00:02:00.200",
+      "text": " much it's accelerating and the students then combine that with another sensor"
+    },
+    {
+      "end": "00:02:10.733",
+      "start": "00:02:06.200",
+      "text": " that I don't have mounted on here right now which is an ultrasonic sensor and"
+    },
+    {
+      "end": "00:02:17.267",
+      "start": "00:02:10.900",
+      "text": " they use that to compare you know does the position of the cart measured using"
+    },
+    {
+      "end": "00:02:24.133",
+      "start": "00:02:17.267",
+      "text": " the ultrasonic sensor or also I'm measuring it using this photo diode here"
+    },
+    {
+      "end": "00:02:29.033",
+      "start": "00:02:24.133",
+      "text": " does that match the acceler- you know does that match the double integral of"
+    },
+    {
+      "end": "00:02:33.700",
+      "start": "00:02:29.033",
+      "text": " the acceleration they measure using the accelerometer as well as they are"
+    },
+    {
+      "end": "00:02:36.100",
+      "start": "00:02:33.700",
+      "text": " called collision cards because you can take two of these and you can collide"
+    },
+    {
+      "end": "00:02:38.667",
+      "start": "00:02:36.100",
+      "text": " them together and they'll bounce off of each other and you can measure the"
+    },
+    {
+      "end": "00:02:42.200",
+      "start": "00:02:38.667",
+      "text": " velocities before and after and you know the relative masses and then you can"
+    },
+    {
+      "end": "00:02:48.100",
+      "start": "00:02:42.200",
+      "text": " determine that momentum and energy are conserved before and after a collision"
+    },
+    {
+      "end": "00:02:51.233",
+      "start": "00:02:48.100",
+      "text": " or you can determine that momentum is conserved before and after a collision"
+    },
+    {
+      "end": "00:03:00.433",
+      "start": "00:02:51.233",
+      "text": " and you can see the extent to which energy is conserved so yeah this thing I"
+    },
+    {
+      "end": "00:03:04.700",
+      "start": "00:03:00.433",
+      "text": " it's still a work in progress but let me show you a couple of things that can"
+    },
+    {
+      "end": "00:03:09.533",
+      "start": "00:03:04.700",
+      "text": " do real quick so there's this Python script that controls everything using UDP"
+    },
+    {
+      "end": "00:03:14.300",
+      "start": "00:03:09.533",
+      "text": " and we have to zero it real quick so the accelerometers and gyros know what"
+    },
+    {
+      "end": "00:03:20.933",
+      "start": "00:03:14.300",
+      "text": " zero is once that's complete go ahead and move it back and forth a little"
+    },
+    {
+      "end": "00:03:28.033",
+      "start": "00:03:20.933",
+      "text": " move it up and down rotate it and take a look at the graph so this plot is"
+    },
+    {
+      "end": "00:03:33.433",
+      "start": "00:03:28.033",
+      "text": " generated automatically when the Python script receives the data over UDP from"
+    },
+    {
+      "end": "00:03:38.000",
+      "start": "00:03:33.433",
+      "text": " the microcontroller that's connected to the accelerometer on the actual card"
+    },
+    {
+      "end": "00:03:42.500",
+      "start": "00:03:38.000",
+      "text": " and those top of your graphs represent the acceleration and the bottom three"
+    },
+    {
+      "end": "00:03:47.733",
+      "start": "00:03:42.500",
+      "text": " represent the angle which is inferred by integrating up the gyroscopes"
+    },
+    {
+      "end": "00:03:51.300",
+      "start": "00:03:47.733",
+      "text": " readings right because the gyroscopes tell you rotation rate multiply rotation"
+    },
+    {
+      "end": "00:03:55.700",
+      "start": "00:03:51.300",
+      "text": " rate by time you get angle and so just looking at those plots you can kind of"
+    },
+    {
+      "end": "00:04:01.733",
+      "start": "00:03:55.700",
+      "text": " see the movements that I was doing there right the Z axis accelerometer just"
+    },
+    {
+      "end": "00:04:06.267",
+      "start": "00:04:01.733",
+      "text": " reads a constant 9.8 because it's just feeling the force of gravity the X axis"
+    },
+    {
+      "end": "00:04:10.367",
+      "start": "00:04:06.267",
+      "text": " basically reads nothing except some little noise bumps when I'm moving it"
+    },
+    {
+      "end": "00:04:14.500",
+      "start": "00:04:10.367",
+      "text": " back and forth and the Y axis you can see that it jumps up for a while and"
+    },
+    {
+      "end": "00:04:18.267",
+      "start": "00:04:14.500",
+      "text": " down for a while as I'm accelerating it forwards and backwards and the angle you"
+    },
+    {
+      "end": "00:04:24.200",
+      "start": "00:04:18.267",
+      "text": " can see where I lifted the X axis rotated it set it back down and the other two"
+    },
+    {
+      "end": "00:04:27.633",
+      "start": "00:04:24.200",
+      "text": " rotate two angles other than the start because they just kind of move around"
+    },
+    {
+      "end": "00:04:32.867",
+      "start": "00:04:27.633",
+      "text": " although it's like two degrees in Z because the cart actually steers a little"
+    },
+    {
+      "end": "00:04:38.833",
+      "start": "00:04:32.867",
+      "text": " bit and less than one degree in Y because well the wheels need a little bit of"
+    },
+    {
+      "end": "00:04:43.867",
+      "start": "00:04:38.833",
+      "text": " work my 3D printer needs some tuning which another little experiment to do is"
+    },
+    {
+      "end": "00:04:49.733",
+      "start": "00:04:43.867",
+      "text": " to have it roll down a ramp like this which this one is set to 25 degrees and"
+    },
+    {
+      "end": "00:04:54.300",
+      "start": "00:04:49.733",
+      "text": " with that little well it's actually a yardstick not a meter stick on the back"
+    },
+    {
+      "end": "00:05:00.100",
+      "start": "00:04:54.300",
+      "text": " so I have a wireless keyboard there to start the Python script this is a work"
+    },
+    {
+      "end": "00:05:05.033",
+      "start": "00:05:00.100",
+      "text": " in progress after all and that towel is there to break its fall at the bottom"
+    },
+    {
+      "end": "00:05:14.333",
+      "start": "00:05:10.400",
+      "text": " all right let's look at the graph"
+    },
+    {
+      "end": "00:05:20.900",
+      "start": "00:05:14.633",
+      "text": " okay so the graphs look like this formatted precisely the same way before so"
+    },
+    {
+      "end": "00:05:25.933",
+      "start": "00:05:20.900",
+      "text": " this is acceleration X acceleration Y acceleration Z and likewise for the"
+    },
+    {
+      "end": "00:05:30.833",
+      "start": "00:05:25.933",
+      "text": " angles so these are all relative the angles are all relative to the start"
+    },
+    {
+      "end": "00:05:35.400",
+      "start": "00:05:30.833",
+      "text": " position right so they all start at zero so change of 25 degrees actually"
+    },
+    {
+      "end": "00:05:42.233",
+      "start": "00:05:35.400",
+      "text": " corresponds to going to an angle of zero which seems like I must not be doing"
+    },
+    {
+      "end": "00:05:49.400",
+      "start": "00:05:42.233",
+      "text": " this quite right because this is getting more like 14 15 degrees so you know"
+    },
+    {
+      "end": "00:05:54.200",
+      "start": "00:05:49.400",
+      "text": " again more things to improve but take a look at a couple things here right one"
+    },
+    {
+      "end": "00:05:59.433",
+      "start": "00:05:54.200",
+      "text": " is you'll notice that the Z axis acceleration it has this noisy bumps while"
+    },
+    {
+      "end": "00:06:04.433",
+      "start": "00:05:59.433",
+      "text": " it's sort of going down that rickety little track but it basically just stays"
+    },
+    {
+      "end": "00:06:09.733",
+      "start": "00:06:04.433",
+      "text": " at the value it stays at which is not quite 9.8 it's more like 9 and that is"
+    },
+    {
+      "end": "00:06:14.500",
+      "start": "00:06:09.733",
+      "text": " actually correct if you just you know solve the problem of a you know cart with"
+    },
+    {
+      "end": "00:06:19.033",
+      "start": "00:06:14.500",
+      "text": " wheels going down an inclined plane or something right sliding down a"
+    },
+    {
+      "end": "00:06:22.733",
+      "start": "00:06:19.033",
+      "text": " frictionless incongal plane that's actually correct the normal force doesn't"
+    },
+    {
+      "end": "00:06:30.267",
+      "start": "00:06:22.733",
+      "text": " change and then this one is also probably correct right the sort of"
+    },
+    {
+      "end": "00:06:37.033",
+      "start": "00:06:30.267",
+      "text": " horizontal component of the acceleration is you know equal to you know 9.8 times"
+    },
+    {
+      "end": "00:06:45.033",
+      "start": "00:06:37.033",
+      "text": " the sine of 25 which gives a you know like 4.9 which is about what you get here"
+    },
+    {
+      "end": "00:06:49.467",
+      "start": "00:06:45.400",
+      "text": " so not too shabby and then when it's you know sort of in freefall rolling down"
+    },
+    {
+      "end": "00:06:53.400",
+      "start": "00:06:49.467",
+      "text": " the track it's very noisy but it basically drops to zero and then it's"
+    },
+    {
+      "end": "00:06:58.933",
+      "start": "00:06:53.400",
+      "text": " slightly above but near zero at the bottom because the cart sort of changes"
+    },
+    {
+      "end": "00:07:08.833",
+      "start": "00:06:58.933",
+      "text": " angle about the x-axis here so it goes from you know pointing 25 degrees down to"
+    },
+    {
+      "end": "00:07:12.600",
+      "start": "00:07:08.833",
+      "text": " level so that now normal force is all and you can see that this actually on the"
+    },
+    {
+      "end": "00:07:18.067",
+      "start": "00:07:12.600",
+      "text": " other side it's over here it's like you know it is about nine and on the other"
+    },
+    {
+      "end": "00:07:22.500",
+      "start": "00:07:18.067",
+      "text": " side it's more like 9.8 yeah so there it's about nine and over here it's about"
+    },
+    {
+      "end": "00:07:28.900",
+      "start": "00:07:22.500",
+      "text": " 9.8 and then here it's about four beforehand and then it goes to you know"
+    },
+    {
+      "end": "00:07:32.900",
+      "start": "00:07:28.900",
+      "text": " little over one because it you know I need to towel at the bottom so that it"
+    },
+    {
+      "end": "00:07:38.067",
+      "start": "00:07:32.900",
+      "text": " it probably wouldn't break but I you know yeah don't want to break it right away"
+    },
+    {
+      "end": "00:07:46.833",
+      "start": "00:07:39.067",
+      "text": " and you know then likewise the this is just a four-degree bump in the y-angle"
+    },
+    {
+      "end": "00:07:53.233",
+      "start": "00:07:46.833",
+      "text": " which just corresponds to the bumpiness of the track you know it's not really"
+    },
+    {
+      "end": "00:07:58.500",
+      "start": "00:07:53.233",
+      "text": " because that would be sort of the cart rolling on its longitudinal axis as it"
+    },
+    {
+      "end": "00:08:05.633",
+      "start": "00:07:58.500",
+      "text": " goes down and then the again the z changes also by like six degrees but"
+    },
+    {
+      "end": "00:08:10.100",
+      "start": "00:08:05.633",
+      "text": " that's you know again just the cart you know goes off the end of the track and"
+    },
+    {
+      "end": "00:08:13.500",
+      "start": "00:08:10.100",
+      "text": " then it's no longer constrained to pointing in the direction it started and it"
+    },
+    {
+      "end": "00:08:17.433",
+      "start": "00:08:13.500",
+      "text": " just changes by some random angle when it hits the talette bottom so it looks"
+    },
+    {
+      "end": "00:08:22.467",
+      "start": "00:08:17.433",
+      "text": " like things are more or less working so yeah I need to now add the"
+    },
+    {
+      "end": "00:08:26.900",
+      "start": "00:08:22.467",
+      "text": " ultrasonic sensor as well as make use of that photo diode to look at the"
+    },
+    {
+      "end": "00:08:33.733",
+      "start": "00:08:26.900",
+      "text": " markings on something like that well I want to use an actual meter stick"
+    },
+    {
+      "end": "00:08:38.767",
+      "start": "00:08:33.733",
+      "text": " markings and I'll also use just black and white even centimeter markings"
+    },
+    {
+      "end": "00:08:43.233",
+      "start": "00:08:38.767",
+      "text": " instead of just hash marks every like well inch the way around that stupid"
+    },
+    {
+      "end": "00:08:49.633",
+      "start": "00:08:43.233",
+      "text": " yardstick but yeah so far this is looking pretty alright so I'm gonna keep"
+    },
+    {
+      "end": "00:08:55.467",
+      "start": "00:08:49.633",
+      "text": " working on this stupid little thing for a while but it's a potentially useful"
+    },
+    {
+      "end": "00:09:00.500",
+      "start": "00:08:55.467",
+      "text": " little educational tool and it's designed to all be free and open source so I"
+    },
+    {
+      "end": "00:09:05.500",
+      "start": "00:09:00.500",
+      "text": " you know will make the STL files for the mechanical components as well as the"
+    },
+    {
+      "end": "00:09:09.867",
+      "start": "00:09:05.500",
+      "text": " software that runs on the microcontroller and the software that runs on the"
+    },
+    {
+      "end": "00:09:15.233",
+      "start": "00:09:09.867",
+      "text": " server side or on the you know on the computer side either through a web"
+    },
+    {
+      "end": "00:09:19.300",
+      "start": "00:09:15.233",
+      "text": " server or just directly on the computers that the students are using available"
+    },
+    {
+      "end": "00:09:25.900",
+      "start": "00:09:19.300",
+      "text": " so yeah this is a little free and open source collision cart motivated by my"
+    },
+    {
+      "end": "00:09:33.900",
+      "start": "00:09:25.900",
+      "text": " friend teaching physics in Japan and inspired by open source demonstration by"
+    },
+    {
+      "end": "00:09:41.300",
+      "start": "00:09:33.900",
+      "text": " team from Spain I'll link to their paper as well as their GitHub project in"
+    },
+    {
+      "end": "00:09:46.633",
+      "start": "00:09:41.300",
+      "text": " the description so yeah peace"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Erica Calman",
+  "youtube_channel_follower_count": 768,
+  "youtube_comment_count": 0,
+  "youtube_description": "A poorly done little project I've been working on, hopefully I'll be able to clean it up so it's actually usable. It's a 'collision cart' with a set a set of sensors including accelerometers, photodiodes, and ultrasonic rangefinders that send that data over Wifi/UDP to a python script that plots the data. \n\nPaper from Universidad de Val-ladolid\nOpen-source sensors system for doing simple physics experiments file:///C:/Users/ecalm/Downloads/scannas,+final410.pdf\nhttps://github.com/percomp/OSHIWASP\nMy Fork of Their Project\nhttps://github.com/ecalman/OSHIWASP",
+  "youtube_like_count": 5,
+  "youtube_tags": [],
+  "youtube_title": "Free and Open Source Physics Education Tools",
+  "youtube_upload_date": "20230527",
+  "youtube_view_count": 125
+}

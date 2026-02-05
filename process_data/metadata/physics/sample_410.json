@@ -1,0 +1,654 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The lecturer, off-screen. His name and the title of the lecture appear on screen.",
+        "name": "Professor Stephen Sekula"
+      }
+    ],
+    "description": "",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "A solenoid is a wire that's been wound many times into loops, creating a coil.",
+        "question": "What is a solenoid?"
+      },
+      {
+        "answer": "Inside the solenoid, the magnetic field lines are very uniform and parallel, pointing in a single direction. Outside the solenoid, the field lines are more complex and loop around, similar to the field of a bar magnet.",
+        "question": "How does the magnetic field inside a solenoid differ from the field outside?"
+      },
+      {
+        "answer": "The length of the wire is indirectly accounted for in the 'number density' (n) term, which represents the number of turns of wire per unit length.",
+        "question": "Why doesn't the length of the wire matter in the formula for the magnetic field inside a solenoid?"
+      },
+      {
+        "answer": "Solenoids are used in Magnetic Resonance Imaging (MRI) devices to generate the strong, uniform magnetic field required for imaging.",
+        "question": "What real-world application of solenoids is mentioned in the video?"
+      },
+      {
+        "answer": "The next lecture will focus on magnetic induction, using solenoids as a model system.",
+        "question": "What topic will be covered in the next lecture?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Professor Sekula introduces the topic of solenoids.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.985",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.1,
+        "cast": [
+          "Professor Stephen Sekula"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "The introduction piques the viewer's interest in learning about solenoids.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Sets the stage for a lecture on solenoids",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Mentions previous topics covered in the course, like magnetic fields from wires",
+            "timestamp": "00:00:17.985"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:39.006",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title slide with the title 'The Solenoid,' the lecturer's name, and course information.",
+            "timestamps": {
+              "end_timestamp": "00:00:39.006",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Professor Sekula defines a solenoid and describes how it's made.",
+            "timestamp": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:00:39.039"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Professor Stephen Sekula"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "The visual representation of the solenoid further engages the viewer's interest.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Defines a solenoid as 'a wire that has been wound many times into loops.'",
+            "timestamp": "00:00:39.039"
+          },
+          {
+            "description": "Explains how solenoids are made by winding a wire around a cylinder.",
+            "timestamp": "00:01:02.996"
+          },
+          {
+            "description": "Hints at the importance of carefully choosing the number of turns in a solenoid.",
+            "timestamp": "00:01:24.985"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a solenoid: A copper-colored coil of wire, resembling a spring.",
+            "timestamp": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:00:39.039"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:38.966",
+          "start_timestamp": "00:00:39.039"
+        },
+        "title": "Defining and Visualizing Solenoids",
+        "videoEditingDetails": [
+          {
+            "description": "The title slide is replaced with an image of the solenoid.",
+            "timestamps": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:00:39.039"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explains the magnetic field generated by a single loop of wire and compares it to a bar magnet's field.",
+            "timestamp": {
+              "end_timestamp": "00:02:43.997",
+              "start_timestamp": "00:01:38.999"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Professor Stephen Sekula"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "The comparison to familiar bar magnets aids understanding.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Focus shifts to the magnetic field generated by a single loop of wire.",
+            "timestamp": "00:01:38.999"
+          },
+          {
+            "description": "Points out the similarity between the magnetic field of a single loop and that of a bar magnet.",
+            "timestamp": "00:01:51.011"
+          },
+          {
+            "description": "Reiterates that moving electric current is the primary source of magnetic fields.",
+            "timestamp": "00:01:58.986"
+          },
+          {
+            "description": "Emphasizes that the simplest magnetic field configuration is a dipole field.",
+            "timestamp": "00:02:22.009"
+          },
+          {
+            "description": "Discusses the absence of magnetic monopoles in nature, linking it to the dipole nature of magnetic fields.",
+            "timestamp": "00:02:29.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram of a magnetic dipole field",
+            "timestamp": {
+              "end_timestamp": "00:02:43.997",
+              "start_timestamp": "00:01:38.999"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:02:45.966",
+          "start_timestamp": "00:01:38.999"
+        },
+        "title": "Magnetic Field of a Single Loop",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new image displaying the magnetic field lines.",
+            "timestamps": {
+              "end_timestamp": "00:02:43.997",
+              "start_timestamp": "00:01:38.999"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explains how placing multiple loops together creates a uniform magnetic field inside the solenoid.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.998",
+              "start_timestamp": "00:02:45.999"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Professor Stephen Sekula"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "The visuals of the increasingly uniform magnetic field captivate the viewer.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Prompts the viewer to imagine multiple loops placed next to each other.",
+            "timestamp": "00:02:45.999"
+          },
+          {
+            "description": "Describes the image of iron filings, showcasing the magnetic field lines created by multiple loops.",
+            "timestamp": "00:02:53.006"
+          },
+          {
+            "description": "Highlights the increasing uniformity of the magnetic field inside the loops.",
+            "timestamp": "00:03:07.988"
+          },
+          {
+            "description": "Showcases a highly uniform magnetic field.",
+            "timestamp": "00:03:33.013"
+          },
+          {
+            "description": "Explains the practical application of solenoids in MRI devices.",
+            "timestamp": "00:04:30.003"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of iron filings around loops of wire",
+            "timestamp": {
+              "end_timestamp": "00:03:33.013",
+              "start_timestamp": "00:02:45.999"
+            }
+          },
+          {
+            "name": "Computer-generated model of an MRI solenoid",
+            "timestamp": {
+              "end_timestamp": "00:04:57.998",
+              "start_timestamp": "00:03:33.013"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:04:59.966",
+          "start_timestamp": "00:02:45.999"
+        },
+        "title": "Multiple Loops and Uniform Magnetic Field",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to an image of iron filings around loops of wire.",
+            "timestamps": {
+              "end_timestamp": "00:03:33.013",
+              "start_timestamp": "00:02:45.999"
+            }
+          },
+          {
+            "description": "Transition to a computer-generated model of an MRI solenoid.",
+            "timestamps": {
+              "end_timestamp": "00:04:57.998",
+              "start_timestamp": "00:03:33.013"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presents and explains the formula for calculating the magnetic field inside an ideal solenoid.",
+            "timestamp": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:05:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Professor Stephen Sekula"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "The scene becomes more technical as the formula is introduced.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Focus shifts to the specific equation for the magnetic field inside an ideal solenoid.",
+            "timestamp": "00:05:00.000"
+          },
+          {
+            "description": "Introduces the formula and defines each variable: μ₀ (permeability of free space), N (number of turns of wire), I (current), and L (length of solenoid).",
+            "timestamp": "00:05:19.986"
+          },
+          {
+            "description": "Explains the concept of 'number density' (n), which represents the number of turns per unit length.",
+            "timestamp": "00:06:36.997"
+          },
+          {
+            "description": "Highlights the practical advantage of using number density for manufacturing solenoids.",
+            "timestamp": "00:06:50.010"
+          },
+          {
+            "description": "Concludes the scene by stating that solenoids will be used as a model for discussing magnetic induction in the next lecture.",
+            "timestamp": "00:07:22.008"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram of a solenoid with annotations",
+            "timestamp": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:05:00.000"
+            }
+          },
+          {
+            "name": "Formula for magnetic field inside a solenoid",
+            "timestamp": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:05:00.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:07:42.162",
+          "start_timestamp": "00:05:00.000"
+        },
+        "title": "Equation for Magnetic Field inside a Solenoid",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a diagram of a solenoid with the formula overlaid.",
+            "timestamps": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:05:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 5 where the equation for the magnetic field inside a solenoid is presented.",
+        "timestamp": "00:04:57.998"
+      },
+      "description": "Understanding Solenoids and their Magnetic Fields",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "The Solenoid Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "The introductory title slide (Scene 1) could be shortened to increase dynamism.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The diagram of the dipole field (Scene 3) could be combined with the previous scene or replaced with a more dynamic animation.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 462,
+  "original_json_filename": "7hRe5qcnVBM.json",
+  "original_video_filename": "7hRe5qcnVBM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this very short miniature lecture I would like to discuss a particular kind of device called a solenoid we've been looking at things like magnetic fields from wires straight or Loops of wires for instance so a wire that's been bent into a circle without going into terribly much detail about exactly how you calculate the magnetic field from uh a solenoid which I'll describe in a minute I can motivate where the magnetic field for a solenoid comes from why it looks the way that it does and then how you can use it in other problems a solenoid is nothing more than a single Loop of wire placed next to other single Loops of wire so an ideal solenoid has a loop of wire carrying current next to it is another loop of wire carrying current with the planes of the loop oriented parallel to one another and then another loop and another loop and another loop so that's the ideal solenoid how in practice do you make this well to make a solenoid all you have to do is take a long piece of wire and for instance start to curl it around a cylinder so as you wind it around the cylinder you make one turn of copper wire and then another turn of copper wire and then a third turn of copper wire and you keep going making as many turns of copper wire as you need in your solenoid and you'll see in a minute why it is that you want to carefully choose the number of turns of of copper wire in a solenoid so a solenoid is nothing more than a coil of wire tightly wound now let's consider what happens when you run an electric current through a solenoid for a moment let's consider what happens when you have a current flowing through a single Loop of conductor a single Loop of wire as you can see here the magnetic field looks just like the magnetic dipole field from a bar magnet and in fact as I mentioned earlier in the course the simplest magnetic field configuration that we know about is the dipole configuration and you can see why if moving current is the primary source of magnetic field in the world uh and the simplest form of moving current is simply current moving in a small Loop or Circle or something like that the simplest magnetic field you can ever get is the one shown here it's a dipole field and this is why we don't see magnetic monopoles in nature because at its heart the origin of magnetic fields is the motion of electric current and that motion requires the generation of something that looks like this a uh complicated dipole field now imagine what would happen if we took a few of these loops and we place them next to one another so in this picture here what we're looking at is we're looking at Loops of wire we're looking at it from the side now uh We've sort of sliced through the loops of wire and you can see the little iron filings in the picture illustrating where the magnetic field is pointing the magnetic field is beginning to become very uniform in the space inside the loops going from Loop to Loop to Loop now outside it still looks very complicated it's uh looping and swirling but inside of the area inside the enclosed area of the loops we see that the magnetic fields are adding up from one Loop to the next to the next and they're becoming very uniform this is how you make a uniform magnetic field in practice a solenoid is a great way to do that you just take a wire you make many windings of the wire around a form of some sort of non-conducting form like plastic or glass or um ceramic and you wind up making many tightly spaced Loops of wire and if you can run a current Through the Wire you'll have current Circ culating like water through um you know winding pipes going down the length of the solenoid and with every turn the the loops make magnetic fields and in the center they all add up and in an ideal solenoid where you ignore the edges of the solenoid the first Loop and the last Loop and you just concentrate in the magnetic field inside of the core of the length of the solenoidal cylinder you get an extremely uniform magnetic field and this is the principle for instance of how one creates a very strong uniform magnet magc field for use in a magnetic resonance imaging device so I showed you this already in class but this is a computer map of the magnetic field inside of a MRI solenoid now this is composed of many many many thousands of closely spaced windings of wire and so you get a very precise and very uniform magnetic field of a very particular strength especially at the central core the central axis of the solenoid where the patient would be placed uh and that's very important for the operation of the device so what does the magnetic field then at the end look like inside of a solenoid well it has a very simple form and again I'm not going to derive this for you I'm just going to show it to you and explain each of the pieces because we're going to need it for the next step which is magnetic induction the magnetic field inside of a solenoid an ideal solenoid simply is equal to Mu this constant that we already know about the permeability of free space times the number of turns of wire that's the capital N times the current that's being driven through the wire so n * I gives you the total current flowing through every one of the loops sort of all added together because those uh each Loop creates its own magnetic field if you have n Loops of wire each carrying current I uh that adds up to the total magnetic field and so it's uh this this n * I essentially represents the act of adding up all of the magnetic fields uh of the the loops of wire and then this whole thing is divided by L the length of the solenoid so uh big n is the number of turns of wire I is the current and L is the length of the solenoid and you can see now how you can control the magnetic field by controlling the geometry of the solenoid you could make a uh very tightly wound uh solenoid that's very short and that would give you a very strong magnetic field inside of the solenoid uh you could weaken the magnetic field by increasing its length uh or you could reduce the number of turns of wire now when manufacturing a solenoid it's very convenient to write this uh n over L as a new number which we'll just write as a little n and it's uh referred to as the number density it's the number of turns per unit length so for instance if you buy a solenoid for some purpose you don't buy it and ask for a solenoid that's exactly one meter long with so many turns it's easier for the manufacturer to Simply manufacture a certain uh uh density of turns per unit length number of turns per unit length and then sell you the solenoid you can cut it down to whatever size you need in order to get the appropriate number of turns so if you know the number density and uh you know the length that you want you can simply cut it down to get the number of turns that you want and so forth so this little N is a very convenient thing it lets us then write the magnetic field as M * little n * I so this concludes the lecture on the solenoidal magnetic field we'll now use the solenoid as an archetypal magnetic device in the conversation about magnetic",
+  "text_to_speech_word_count": 1366,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.975",
+      "start": "00:00:00.000",
+      "text": " In this very short miniature lecture, I would like to discuss a particular kind of device called a solenoid."
+    },
+    {
+      "end": "00:00:17.985",
+      "start": "00:00:07.975",
+      "text": " We've been looking at things like magnetic fields from wires, straight or loops of wires, for instance, a wire that's been bent into a circle."
+    },
+    {
+      "end": "00:00:26.994",
+      "start": "00:00:17.985",
+      "text": " Without going into terribly much detail about exactly how you calculate the magnetic field from a solenoid, which I'll describe in a minute,"
+    },
+    {
+      "end": "00:00:38.972",
+      "start": "00:00:26.994",
+      "text": " I can motivate where the magnetic field for a solenoid comes from, why it looks the way that it does, and then how you can use it in other problems."
+    },
+    {
+      "end": "00:00:46.980",
+      "start": "00:00:38.972",
+      "text": " A solenoid is nothing more than a single loop of wire placed next to other single loops of wire."
+    },
+    {
+      "end": "00:00:59.993",
+      "start": "00:00:46.980",
+      "text": " So an ideal solenoid has a loop of wire carrying current, next to it is another loop of wire carrying current with the planes of the loop oriented parallel to one another, and then another loop and another loop."
+    },
+    {
+      "end": "00:01:02.996",
+      "start": "00:00:59.993",
+      "text": " So that's the ideal solenoid."
+    },
+    {
+      "end": "00:01:12.973",
+      "start": "00:01:02.996",
+      "text": " How in practice do you make this? Well, to make a solenoid, all you have to do is take a long piece of wire, and for instance start to curl it around a cylinder."
+    },
+    {
+      "end": "00:01:31.992",
+      "start": "00:01:12.973",
+      "text": " So as you wind it around the cylinder, you make one turn of copper wire, and then another turn of copper wire, and then a third turn of copper wire, and you keep going making as many turns of copper wire as you need in your solenoid, and you'll see in a minute why it is that you want to carefully choose the number of turns of copper wire in a solenoid."
+    },
+    {
+      "end": "00:01:37.998",
+      "start": "00:01:31.992",
+      "text": " So a solenoid is nothing more than a coil of wire tightly wound."
+    },
+    {
+      "end": "00:01:42.970",
+      "start": "00:01:37.998",
+      "text": " Now let's consider what happens when you run an electric current through a solenoid."
+    },
+    {
+      "end": "00:01:50.978",
+      "start": "00:01:42.970",
+      "text": " For a moment, let's consider what happens when you have a current flowing through a single loop of conductor, a single loop of wire."
+    },
+    {
+      "end": "00:02:06.994",
+      "start": "00:01:50.978",
+      "text": " As you can see here, the magnetic field looks just like the magnetic dipole field from a bar magnet, and in fact, as I mentioned earlier in the course, the simplest magnetic field configuration that we know about is the dipole configuration."
+    },
+    {
+      "end": "00:02:21.975",
+      "start": "00:02:06.994",
+      "text": " And you can see why if moving current is the primary source of magnetic field in the world, and the simplest form of moving current is simply current moving in a small loop or circle or something like that."
+    },
+    {
+      "end": "00:02:35.989",
+      "start": "00:02:21.975",
+      "text": " The simplest magnetic field you can ever get is the one shown here. It's a dipole field, and this is why we don't see magnetic monopoles in nature, because at its heart, the origin of magnetic fields is the motion of electric current."
+    },
+    {
+      "end": "00:02:43.997",
+      "start": "00:02:35.989",
+      "text": " And that motion requires the generation of something that looks like this, a complicated dipole field."
+    },
+    {
+      "end": "00:02:50.971",
+      "start": "00:02:43.997",
+      "text": " Now imagine what would happen if we took a few of these loops, and we placed them next to one another."
+    },
+    {
+      "end": "00:02:56.977",
+      "start": "00:02:50.971",
+      "text": " So in this picture here, what we're looking at is we're looking at loops of wire. We're looking at it from the side now."
+    },
+    {
+      "end": "00:03:06.987",
+      "start": "00:02:56.977",
+      "text": " We've sort of sliced through the loops of wire, and you can see the little iron filings in the picture illustrating where the magnetic field is pointing."
+    },
+    {
+      "end": "00:03:15.996",
+      "start": "00:03:06.987",
+      "text": " The magnetic field is beginning to become very uniform in the space inside the loops going from loop to loop to loop."
+    },
+    {
+      "end": "00:03:24.971",
+      "start": "00:03:15.996",
+      "text": " Now outside it still looks very complicated. It's looping and swirling, but inside of the area, inside the enclosed area of the loops,"
+    },
+    {
+      "end": "00:03:32.979",
+      "start": "00:03:24.971",
+      "text": " we see that the magnetic fields are adding up from one loop to the next to the next, and they're becoming very uniform."
+    },
+    {
+      "end": "00:03:49.996",
+      "start": "00:03:32.979",
+      "text": " This is how you make a uniform magnetic field in practice. A solenoid is a great way to do that. You just take wire, you make many windings of the wire around a form of some sort of nonconducting form like plastic or glass or ceramic."
+    },
+    {
+      "end": "00:04:04.978",
+      "start": "00:03:50.997",
+      "text": " And you wind up making many tightly spaced loops of wire. And if you can run a current through the wire, you'll have current circulating like water through winding pipes going down the length of the solenoid."
+    },
+    {
+      "end": "00:04:15.989",
+      "start": "00:04:04.978",
+      "text": " And with every turn, the loops make magnetic fields, and in the center they all add up. And in an ideal solenoid where you ignore the edges of the solenoid, the first loop in the last loop,"
+    },
+    {
+      "end": "00:04:24.998",
+      "start": "00:04:15.989",
+      "text": " and you just concentrate in the magnetic field inside of the core of the length of the solenoid will cylinder, you get an extremely uniform magnetic field."
+    },
+    {
+      "end": "00:04:33.974",
+      "start": "00:04:24.998",
+      "text": " And this is the principle, for instance, of how one creates a very strong uniform magnetic field for use in a magnetic resonance imaging device."
+    },
+    {
+      "end": "00:04:49.990",
+      "start": "00:04:33.974",
+      "text": " So I showed you this already in class, but this is a computer map of the magnetic field inside of a MRI solenoid. Now this is composed of many, many, many thousands of closely spaced windings of wire."
+    },
+    {
+      "end": "00:05:00.000",
+      "start": "00:04:49.990",
+      "text": " And so you get a very precise and very uniform magnetic field of a very particular strength, especially at the central core, the central axis of the solenoid where the patient would be placed."
+    },
+    {
+      "end": "00:05:04.971",
+      "start": "00:05:00.000",
+      "text": " And that's very important for the operation of the device."
+    },
+    {
+      "end": "00:05:12.979",
+      "start": "00:05:04.971",
+      "text": " So what does the magnetic field then at the end look like inside of a solenoid? Well, it has a very simple form. And again, I'm not going to derive this for you."
+    },
+    {
+      "end": "00:05:19.986",
+      "start": "00:05:12.979",
+      "text": " I'm just going to show it to you and explain each of the pieces because we're going to need it for the next step, which is magnetic induction."
+    },
+    {
+      "end": "00:05:37.971",
+      "start": "00:05:19.986",
+      "text": " The magnetic field inside of a solenoid, an ideal solenoid, simply is equal to mu naught, this constant that we already know about the permeability of free space, times the number of turns of wire, that's the capital N, times the current that's being driven through the wire."
+    },
+    {
+      "end": "00:05:48.982",
+      "start": "00:05:37.971",
+      "text": " So N times I gives you the total current flowing through every one of the loops sort of all added together because those each loop creates its own magnetic field."
+    },
+    {
+      "end": "00:06:02.996",
+      "start": "00:05:48.982",
+      "text": " If you have N loops of wire, each carrying current I, that adds up to the total magnetic field. And so this N times I essentially represents the active adding up all of the magnetic fields of the loops of wire."
+    },
+    {
+      "end": "00:06:13.974",
+      "start": "00:06:02.996",
+      "text": " And then this whole thing is divided by L, the length of the solenoid. So big N is the number of turns of wire, I is the current, and L is the length of the solenoid."
+    },
+    {
+      "end": "00:06:25.986",
+      "start": "00:06:13.974",
+      "text": " And you can see now how you can control the magnetic field by controlling the geometry of the solenoid. You could make a very tightly wound solenoid that's very short."
+    },
+    {
+      "end": "00:06:36.997",
+      "start": "00:06:25.986",
+      "text": " And then you can give you a very strong magnetic field inside of the solenoid. You could weaken the magnetic field by increasing its length or you could reduce the number of turns of wire."
+    },
+    {
+      "end": "00:06:50.977",
+      "start": "00:06:36.997",
+      "text": " Now when manufacturing a solenoid, it's very convenient to write this N over L as a new number, which will just write as a little N, and it's referred to as the number density, it's the number of turns per unit length."
+    },
+    {
+      "end": "00:06:59.986",
+      "start": "00:06:50.977",
+      "text": " So if you buy a solenoid for some purpose, you don't buy it and ask for a solenoid that's exactly one meter long with so many turns."
+    },
+    {
+      "end": "00:07:11.998",
+      "start": "00:06:59.986",
+      "text": " It's easier for the manufacturer to simply manufacture a certain density of turns per unit length, number of turns per unit length, and then sell you the solenoid, you can cut it down to whatever size you need in order to get the appropriate number of turns."
+    },
+    {
+      "end": "00:07:21.975",
+      "start": "00:07:11.998",
+      "text": " So if you know the number density and you know the length that you want, you can simply cut it down to get the number of turns that you want and so forth."
+    },
+    {
+      "end": "00:07:29.983",
+      "start": "00:07:21.975",
+      "text": " So this little N is a very convenient thing. It lets us then write the magnetic field as mu naught times little N times I."
+    },
+    {
+      "end": "00:07:39.993",
+      "start": "00:07:29.983",
+      "text": " This concludes the lecture on the solenoid magnetic field. We'll now use the solenoid as an archetypal magnetic device in the conversation about magnetic induction."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Travel & Events"
+  ],
+  "youtube_channel": "Stephen Sekula",
+  "youtube_channel_follower_count": 771,
+  "youtube_comment_count": 0,
+  "youtube_description": "The solenoid and its magnetic field.",
+  "youtube_like_count": 2,
+  "youtube_tags": [
+    "Lecture (Type Of Public Presentation)",
+    "solenoid",
+    "Physics (Field Of Study)",
+    "magnetic field"
+  ],
+  "youtube_title": "The Solenoid and its Magnetic Field",
+  "youtube_upload_date": "20141109",
+  "youtube_view_count": 344
+}

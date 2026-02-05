@@ -1,0 +1,480 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short, dark hair and a goatee. He is wearing a blue shirt with a pattern of white and black electric guitars.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "How airplanes use air pressure to measure altitude, demonstrated through a simple experiment using a smartphone app and an elevator.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "Hectopascals (hPa).",
+        "question": "What unit is used to measure air pressure in the Phyphox app?"
+      },
+      {
+        "answer": "1000 millibars (mbar).",
+        "question": "What is the equivalent of 1000 hectopascals in millibars?"
+      },
+      {
+        "answer": "The air pressure drops.",
+        "question": "What happens to the air pressure reading when the elevator goes up?"
+      },
+      {
+        "answer": "The relationship between air pressure and altitude is not linear, and airplanes use a more complex model that takes into account atmospheric conditions and ground level air pressure.",
+        "question": "Why can't you use the elevator experiment to calculate altitude at airplane heights?"
+      },
+      {
+        "answer": "Accurate altitude measurement is crucial for safety to avoid collisions and ensure proper flight navigation.",
+        "question": "What is the importance of accurately measuring altitude for airplanes?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the topic of how airplanes use air pressure to measure altitude.",
+            "timestamp": {
+              "end_timestamp": "00:00:02.002",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction to the concept of using air pressure to measure altitude.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Air pressure, altitude measurement in airplanes",
+        "timestamps": {
+          "end_timestamp": "00:00:08.008",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains about the air pressure sensor in smartphones and introduces the app 'Phyphox'.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.987",
+              "start_timestamp": "00:00:08.041"
+            }
+          },
+          {
+            "description": "Shows air pressure reading in hectopascals on a tablet using the app.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:28.996"
+            }
+          },
+          {
+            "description": "Starts the app and shows a graph of air pressure over time.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:40.007"
+            }
+          },
+          {
+            "description": "Narrator decides to go into the elevator to demonstrate the change in air pressure.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.002",
+              "start_timestamp": "00:01:05.999"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Setup for the practical demonstration of air pressure measurement.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the method of demonstrating the change in air pressure using an elevator.",
+            "timestamp": "00:00:08.041"
+          }
+        ],
+        "props": [
+          {
+            "name": "Tablet showing the Phyphox app with the air pressure sensor reading.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.002",
+              "start_timestamp": "00:00:28.996"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Air pressure sensor, Phyphox app, hectopascals, millibars",
+        "timestamps": {
+          "end_timestamp": "00:01:09.136",
+          "start_timestamp": "00:00:08.041"
+        },
+        "title": "Demonstration Setup",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator enters the elevator and explains the experiment.",
+            "timestamp": {
+              "end_timestamp": "00:01:15.008",
+              "start_timestamp": "00:01:09.169"
+            }
+          },
+          {
+            "description": "Elevator starts moving up, and the air pressure on the graph drops.",
+            "timestamp": {
+              "end_timestamp": "00:01:25.986",
+              "start_timestamp": "00:01:21.014"
+            }
+          },
+          {
+            "description": "Elevator reaches the third floor, and the air pressure stabilizes.",
+            "timestamp": {
+              "end_timestamp": "00:01:34.995",
+              "start_timestamp": "00:01:30.991"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstration of how air pressure changes with altitude.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited, then Calm",
+          "keyMoments": [
+            {
+              "changeDescription": "The graph starts displaying a significant change as the elevator moves, adding excitement.",
+              "timestamp": "00:01:21.014"
+            },
+            {
+              "changeDescription": "The graph stabilizes as the elevator stops, returning to a calm mood.",
+              "timestamp": "00:01:30.991"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the change in air pressure with a change in altitude.",
+            "timestamp": "00:01:21.014"
+          }
+        ],
+        "props": [
+          {
+            "name": "Tablet showing the Phyphox app with the air pressure graph.",
+            "timestamp": {
+              "end_timestamp": "00:01:50.611",
+              "start_timestamp": "00:01:09.169"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Air pressure, altitude, elevator",
+        "timestamps": {
+          "end_timestamp": "00:01:50.611",
+          "start_timestamp": "00:01:09.169"
+        },
+        "title": "Elevator Experiment",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator exits the elevator.",
+            "timestamp": {
+              "end_timestamp": "00:01:52.012",
+              "start_timestamp": "00:01:51.011"
+            }
+          },
+          {
+            "description": "Summarizes the experiment results, emphasizing the air pressure drop.",
+            "timestamp": {
+              "end_timestamp": "00:01:59.987",
+              "start_timestamp": "00:01:53.013"
+            }
+          },
+          {
+            "description": "Explains the limitations of the experiment and how airplanes use models to calculate altitude at higher altitudes.",
+            "timestamp": {
+              "end_timestamp": "00:02:11.999",
+              "start_timestamp": "00:02:05.993"
+            }
+          },
+          {
+            "description": "Mentions the need for airplanes to account for variations in ground level air pressure and terrain.",
+            "timestamp": {
+              "end_timestamp": "00:02:25.012",
+              "start_timestamp": "00:02:17.004"
+            }
+          },
+          {
+            "description": "Ends the video.",
+            "timestamp": {
+              "end_timestamp": "00:02:54.007",
+              "start_timestamp": "00:02:48.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Conclusion discussing the complexities of real-world altitude measurement in aviation.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the experiment, discussing its limitations and how real-world applications are more complex.",
+            "timestamp": "00:01:53.013"
+          }
+        ],
+        "props": [],
+        "sceneId": 4,
+        "thematicElements": "Air pressure, altitude, airplanes, atmospheric conditions, terrain, safety.",
+        "timestamps": {
+          "end_timestamp": "00:02:54.207",
+          "start_timestamp": "00:01:50.644"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Air pressure dropping visibly on the graph as the elevator ascends.",
+        "timestamp": "00:01:21.014"
+      },
+      "description": "A narrative story demonstrating how air pressure is used for altitude measurement through a simple experiment.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Air Pressure and Altitude",
+    "trimmingSuggestions": [
+      {
+        "description": "The intro could be shortened by directly starting with the smartphone pressure sensor information.",
+        "timestamps": {
+          "end_timestamp": "00:01:50.644",
+          "start_timestamp": "00:01:50.644"
+        }
+      },
+      {
+        "description": "The conclusion could be trimmed by focusing on the limitations and complexities of altitude measurement in airplanes.",
+        "timestamps": {
+          "end_timestamp": "00:02:54.007",
+          "start_timestamp": "00:01:51.011"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 174,
+  "original_json_filename": "j5YUWPAs3Sg.json",
+  "original_video_filename": "j5YUWPAs3Sg.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "did you know that airplanes used air pressure to measure their altitude in this video I'm going to show you how what smartphone and tablet have got a lot of sensors inside for instance the barometer now I'd like to use this app called five Hawks which has got lots of experiments inside but also enables you to just read the values of your sensors for instance a pressure sensor now here on my tablet I can read the pressure in hectopascals and a thousand hectopascals is equal to a thousand minibars so if I start the app then I can read the air pressure and you can see the line actually going up and down a bit now it's going down and you might think that the air pressure is changing a lot but if you look at the unit's along the y-axis where it gives you the air pressure you can see that it only changes very slightly so right now the air pressure is 1020 minibars now let's go into the elevator and see what happens next okay now we're inside the elevator and we're going to the third floor or second level above ground level and we're going to see what happens to the inner pressure as we move up so as you can see the end pressure is dropping and what would I need to start actually is a very flat line and if you stay here long enough that the air pressure the note will closing in it and the air pressure here also that was off so here on the third floor the air pressure is only 1019 minibars now that means that the air pressure has dropped by one point by about one point two minibars and you cannot extrapolate this to very high altitudes so airplanes actually use a model that tells the airplane how air pressure drops with higher altitudes and also the model depends on the actual air pressure on ground level because due to atmospheric conditions the air pressure will vary between about nine hundred and fifty sixty minibars to up to one thousand twenty or thirty minibars so you want to get that right otherwise you're off your altitude which can be really dangerous and another thing is that airplanes will also have to take into account that the earth is not level but sometimes those other bits for instance if there are mountains so I hope you enjoyed this video about air pressure altitude and see you bye bye",
+  "text_to_speech_word_count": 423,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.538",
+      "start": "00:00:00.000",
+      "text": " Did you know that aeroplanes use air pressure to measure their altitude?"
+    },
+    {
+      "end": "00:00:06.974",
+      "start": "00:00:04.538",
+      "text": " In this video I'm going to show you how."
+    },
+    {
+      "end": "00:00:15.816",
+      "start": "00:00:06.974",
+      "text": " Your smartphone and tablet have got a lot of sensors inside, for instance a"
+    },
+    {
+      "end": "00:00:22.055",
+      "start": "00:00:15.816",
+      "text": " barometer. Now I like to use this app called Firefox which has got lots of"
+    },
+    {
+      "end": "00:00:26.627",
+      "start": "00:00:22.055",
+      "text": " experiments inside but also enables you to just read the values of your"
+    },
+    {
+      "end": "00:00:32.032",
+      "start": "00:00:26.627",
+      "text": " sensors, for instance a pressure sensor. Now here on my tablet I can read the"
+    },
+    {
+      "end": "00:00:37.971",
+      "start": "00:00:32.032",
+      "text": " pressure in HectorPoscos and a thousand HectorPoscos is equal to a thousand"
+    },
+    {
+      "end": "00:00:46.146",
+      "start": "00:00:37.971",
+      "text": " minibars. So if I start the the app then I can read the air pressure and you can"
+    },
+    {
+      "end": "00:00:51.952",
+      "start": "00:00:46.146",
+      "text": " see the line actually going up and down a bit now it's going down and you might"
+    },
+    {
+      "end": "00:00:56.056",
+      "start": "00:00:51.952",
+      "text": " think that the air pressure is changing a lot but if you look at the units"
+    },
+    {
+      "end": "00:01:00.227",
+      "start": "00:00:56.056",
+      "text": " along the Y axis where it gives you the air pressure you can see that it only"
+    },
+    {
+      "end": "00:01:04.831",
+      "start": "00:01:00.227",
+      "text": " changes very slightly. So right now the air pressure is one thousand and twenty"
+    },
+    {
+      "end": "00:01:09.903",
+      "start": "00:01:04.831",
+      "text": " minibars. Now let's go into the elevator and see what happens next."
+    },
+    {
+      "end": "00:01:14.274",
+      "start": "00:01:09.903",
+      "text": " Okay now we're inside the elevator and we're going to the third floor or"
+    },
+    {
+      "end": "00:01:18.579",
+      "start": "00:01:14.274",
+      "text": " the second level above, ground level and we're going to see what happens to the"
+    },
+    {
+      "end": "00:01:22.015",
+      "start": "00:01:18.579",
+      "text": " air pressure as we move up."
+    },
+    {
+      "end": "00:01:36.930",
+      "start": "00:01:31.491",
+      "text": " So as you can see the air pressure is dropping and the water line at the start"
+    },
+    {
+      "end": "00:01:44.271",
+      "start": "00:01:36.930",
+      "text": " actually is a very flat line and if you stay here long enough then the air"
+    },
+    {
+      "end": "00:01:52.012",
+      "start": "00:01:44.271",
+      "text": " pressure, the normal closing in and the air pressure is here also levels off."
+    },
+    {
+      "end": "00:01:57.351",
+      "start": "00:01:52.746",
+      "text": " So here on the third floor the air pressure is only one thousand and nineteen"
+    },
+    {
+      "end": "00:02:03.790",
+      "start": "00:01:57.351",
+      "text": " minibars. Now that means that the air pressure has dropped by one point two by"
+    },
+    {
+      "end": "00:02:09.129",
+      "start": "00:02:03.790",
+      "text": " about one point two minibars and you cannot extrapolate this to very high"
+    },
+    {
+      "end": "00:02:14.368",
+      "start": "00:02:09.129",
+      "text": " altitude so airplanes actually use a model that tells the airplane how air"
+    },
+    {
+      "end": "00:02:18.972",
+      "start": "00:02:14.368",
+      "text": " pressure drops with higher altitudes and also the model depends on the actual"
+    },
+    {
+      "end": "00:02:23.377",
+      "start": "00:02:18.972",
+      "text": " air pressure on ground level because due to atmospheric conditions the air"
+    },
+    {
+      "end": "00:02:28.515",
+      "start": "00:02:23.377",
+      "text": " pressure will vary between about nine hundred and fifty sixty millibars to up to"
+    },
+    {
+      "end": "00:02:33.687",
+      "start": "00:02:28.515",
+      "text": " one thousand twenty or thirty minibars. So you want to get that right otherwise"
+    },
+    {
+      "end": "00:02:38.291",
+      "start": "00:02:33.687",
+      "text": " you're off in your altitude which can be really dangerous. And another thing is"
+    },
+    {
+      "end": "00:02:42.696",
+      "start": "00:02:38.291",
+      "text": " that airplanes will also have to take into account that the earth is not level"
+    },
+    {
+      "end": "00:02:49.369",
+      "start": "00:02:42.696",
+      "text": " but sometimes goes out a bit for instance if there are mountains. So I hope to"
+    },
+    {
+      "end": "00:02:55.709",
+      "start": "00:02:49.369",
+      "text": " enjoyed this video about air pressure altitude and see you bye bye"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Scala Physics",
+  "youtube_channel_follower_count": 1310,
+  "youtube_comment_count": 0,
+  "youtube_description": "You can use your tablet's or smart phone's barometer sensor to measure altitude. That's the principle aeroplanes rely on to measure their altitude. Here I demonstrate this principle going from the ground floor up to the second floor.",
+  "youtube_like_count": 9,
+  "youtube_tags": [
+    "physics",
+    "air pressure",
+    "barometer"
+  ],
+  "youtube_title": "Measuring Altitude with Air Pressure",
+  "youtube_upload_date": "20200407",
+  "youtube_view_count": 696
+}

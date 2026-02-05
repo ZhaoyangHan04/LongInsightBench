@@ -1,0 +1,843 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "An elderly man with a mustache and white hair, wearing a suit and tie.",
+        "name": "Johannes van der Waals"
+      }
+    ],
+    "description": "A narrated educational video introduces the Ideal Gas Law and explores its limitations by examining real gas behaviors under varying pressure conditions, culminating in the introduction of the van der Waals equation as a more accurate model.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Green dots within a black box are used to represent the gas molecules.",
+        "question": "What visual representation is used to demonstrate the behavior of gas molecules in the video?"
+      },
+      {
+        "answer": "6.865 L²-atm/mol²",
+        "question": "What is the value of the 'a' constant for Sulfur Dioxide in the van der Waals equation?"
+      },
+      {
+        "answer": "The volume of empty space decreases as the molecules are forced closer together.",
+        "question": "What happens to the volume of empty space between gas molecules as pressure increases?"
+      },
+      {
+        "answer": "At lower pressures, gas molecules are further apart, minimizing intermolecular attractions and making their individual volume less significant, similar to the assumptions of the Ideal Gas Law.",
+        "question": "Why does the Ideal Gas Law work well at lower pressures?"
+      },
+      {
+        "answer": "The 'b' constant corrects for the finite volume occupied by real gas molecules, unlike the Ideal Gas Law which assumes they have no volume.",
+        "question": "What does the 'b' constant in the van der Waals equation account for?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explaining the Ideal Gas Law",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Showing the movement of gas molecules in a black box",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction to basic gas law fundamentals.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the Ideal Gas Law",
+            "timestamp": "00:00:05.000"
+          },
+          {
+            "description": "Mentioning the limitations of the Ideal Gas Law",
+            "timestamp": "00:00:14.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text explaining the Ideal Gas Law",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Black box with moving green dots representing gas molecules",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Formula for Ideal Gas Law: PV = nRT",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Exploration of gas laws and physics.",
+        "timestamps": {
+          "end_timestamp": "00:00:20.333",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Ideal Gas Law",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-in transition from title screen to scene",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Black box with molecules over animated lab equipment background",
+            "timestamps": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining the behavior of real gases under varying pressure",
+            "timestamp": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:20.367"
+            }
+          },
+          {
+            "description": "Showing their movement in a black box",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:20.367"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Divergence from Ideal Gas Law predictions.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explaining negligible volume at ordinary pressure",
+            "timestamp": "00:00:20.367"
+          },
+          {
+            "description": "Describing significance of volume at high pressure",
+            "timestamp": "00:00:31.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text describing behavior of real gases",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:20.367"
+            }
+          },
+          {
+            "name": "Black box with moving green dots representing gas molecules",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:20.367"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Understanding real gas behavior.",
+        "timestamps": {
+          "end_timestamp": "00:00:41.000",
+          "start_timestamp": "00:00:20.367"
+        },
+        "title": "Real Gas Behavior Under Pressure",
+        "videoEditingDetails": [
+          {
+            "description": "Continuation of animated background",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:20.367"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Introduction of the van der Waals equation and its correction factor for volume",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Johannes van der Waals"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction of refined gas model.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing van der Waals equation and correction factor",
+            "timestamp": "00:00:42.000"
+          },
+          {
+            "description": "Explaining replacement of volume term",
+            "timestamp": "00:00:47.000"
+          },
+          {
+            "description": "Emphasizing 'b' constant",
+            "timestamp": "00:00:51.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text explaining van der Waals equation and correction factor",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          },
+          {
+            "name": "Black and white portrait of Johannes van der Waals",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          },
+          {
+            "name": "Table displaying 'b' constant values for different gases",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Historical scientific advancements.",
+        "timestamps": {
+          "end_timestamp": "00:00:56.433",
+          "start_timestamp": "00:00:41.033"
+        },
+        "title": "Introduction of van der Waals Equation",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-out transition from black box animation to new scene",
+            "timestamps": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Discussing attraction between real gas molecules",
+            "timestamp": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "description": "Showing their movement in a black box",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Real world application of theoretical gas laws.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Reminder of Ideal Gas Law assumptions",
+            "timestamp": "00:00:57.000"
+          },
+          {
+            "description": "Explaining emergence of attractive forces",
+            "timestamp": "00:01:01.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text explaining attraction at high pressure",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "name": "Black box with moving green dots",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Real gas molecular interactions.",
+        "timestamps": {
+          "end_timestamp": "00:01:08.000",
+          "start_timestamp": "00:00:56.467"
+        },
+        "title": "Attraction Between Real Gas Molecules",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-out transition to black box animation",
+            "timestamps": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:56.467"
+            }
+          },
+          {
+            "description": "Animated background of lab equipment",
+            "timestamps": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining impact of intermolecular attraction on pressure",
+            "timestamp": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          },
+          {
+            "description": "Showing gas molecules in a black box",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Specifics of van der Waals gas law adaptation.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Describing pressure reduction due to attraction",
+            "timestamp": "00:01:09.000"
+          },
+          {
+            "description": "Explaining 'a' correction factor purpose",
+            "timestamp": "00:01:16.000"
+          },
+          {
+            "description": "Highlighting pressure term replacement",
+            "timestamp": "00:01:24.000"
+          },
+          {
+            "description": "Emphasizing 'a' constant variations",
+            "timestamp": "00:01:31.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text explaining attraction effect and correction factor 'a'",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          },
+          {
+            "name": "Black box with moving green dots",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          },
+          {
+            "name": "Table displaying 'a' constant values for different gases",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Molecular physics and chemistry adaptation.",
+        "timestamps": {
+          "end_timestamp": "00:01:37.000",
+          "start_timestamp": "00:01:08.033"
+        },
+        "title": "van der Waals Correction Factor 'a'",
+        "videoEditingDetails": [
+          {
+            "description": "Continued animated lab equipment background",
+            "timestamps": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:09.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Summarizing van der Waals equation",
+            "timestamp": {
+              "end_timestamp": "00:01:43.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "description": "Comparing its accuracy with Ideal Gas Law",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Practical application and evaluation of scientific models.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presenting complete van der Waals equation",
+            "timestamp": "00:01:38.000"
+          },
+          {
+            "description": "Acknowledging higher accuracy",
+            "timestamp": "00:01:43.000"
+          },
+          {
+            "description": "Explaining effectiveness of Ideal Gas Law at low pressures",
+            "timestamp": "00:01:47.000"
+          },
+          {
+            "description": "Reason for applicability at low pressures",
+            "timestamp": "00:01:52.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text summarizing van der Waals equation",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "name": "Formula for van der Waals equation",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Comparison of scientific models.",
+        "timestamps": {
+          "end_timestamp": "00:01:57.000",
+          "start_timestamp": "00:01:37.033"
+        },
+        "title": "Summarizing van der Waals Equation",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-out transition from animation to text",
+            "timestamps": {
+              "end_timestamp": "00:01:38.000",
+              "start_timestamp": "00:01:37.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Presenting quiz question with multiple-choice options",
+            "timestamp": {
+              "end_timestamp": "00:02:08.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "description": "Ticking correct options",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:02:08.000"
+            }
+          },
+          {
+            "description": "Clicking 'Done' button",
+            "timestamp": {
+              "end_timestamp": "00:02:11.000",
+              "start_timestamp": "00:02:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Testing understanding of video content.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presenting quiz on real gas properties",
+            "timestamp": "00:01:58.000"
+          },
+          {
+            "description": "Displaying correct options",
+            "timestamp": "00:02:08.000"
+          },
+          {
+            "description": "Completing quiz interaction",
+            "timestamp": "00:02:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Quiz question text and instructions",
+            "timestamp": {
+              "end_timestamp": "00:02:11.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Four multiple-choice options",
+            "timestamp": {
+              "end_timestamp": "00:02:11.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Checkmarks next to correct options",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:02:08.000"
+            }
+          },
+          {
+            "name": "Done button",
+            "timestamp": {
+              "end_timestamp": "00:02:11.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Interactive learning reinforcement.",
+        "timestamps": {
+          "end_timestamp": "00:02:11.633",
+          "start_timestamp": "00:01:57.033"
+        },
+        "title": "Real Gas Properties Quiz",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-out transition to quiz screen",
+            "timestamps": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:57.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Displaying 'Real Gases' title and author credits",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Closing remarks and credits.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Conclusion of video lesson",
+            "timestamp": "00:02:12.000"
+          },
+          {
+            "description": "Announcing lesson completion",
+            "timestamp": "00:02:14.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Real Gases title",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:12.000"
+            }
+          },
+          {
+            "name": "Author credits",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:12.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Acknowledgment and closure.",
+        "timestamps": {
+          "end_timestamp": "00:02:15.067",
+          "start_timestamp": "00:02:11.667"
+        },
+        "title": "Conclusion and Credits",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-out transition to title screen",
+            "timestamps": {
+              "end_timestamp": "00:02:12.000",
+              "start_timestamp": "00:02:11.667"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 6 (1:38) presents the complete van der Waals equation, marking the culmination of the storyline about its development as a more accurate model compared to the Ideal Gas Law.",
+        "timestamp": "00:01:38.000"
+      },
+      "description": "The video presents a narrative story explaining the scientific concepts behind real gases, starting with the limitations of the Ideal Gas Law and culminating in the introduction of the van der Waals equation as a more refined model.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Exploring the Limitations of the Ideal Gas Law and the Introduction of the van der Waals Equation",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened by removing the table showcasing the 'b' constant for different gases. This information could be displayed on screen for a shorter duration or incorporated within the narration.",
+        "timestamps": {
+          "end_timestamp": "00:02:11.667",
+          "start_timestamp": "00:02:11.667"
+        }
+      },
+      {
+        "description": "The explanation of why the Ideal Gas Law works well at low pressures could be concisely summarized.",
+        "timestamps": {
+          "end_timestamp": "00:02:11.667",
+          "start_timestamp": "00:02:11.667"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 135,
+  "original_json_filename": "DQTIedZcO6g.json",
+  "original_video_filename": "DQTIedZcO6g.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "welcome to real gases. today we're going to&nbsp; compare the van der waals equation with the&nbsp;&nbsp; ideal gas law. the ideal gas law is used to&nbsp; describe the relationship among the pressure,&nbsp;&nbsp; volume, and temperature of a gas sample containing&nbsp; n moles of gas. it's an approximation because&nbsp;&nbsp; it assumes that gas molecules have no&nbsp; volume and do not attract one another. At ordinary temperature and pressure, where&nbsp; the ideal gas law is a good approximation,&nbsp;&nbsp; the small finite volume of real gas molecules is&nbsp; nearly negligible compared to the volume of empty&nbsp;&nbsp; space. however, the volume of molecules becomes&nbsp; significant as the pressure is increased forcing&nbsp;&nbsp; the molecules closer together and reducing the&nbsp; volume of empty space available to each molecule.&nbsp;&nbsp; the van der waals equation describes a real&nbsp; gas by reducing the volume with a correction&nbsp;&nbsp; factor. the volume term of the ideal gas law&nbsp; is replaced by (V - NB) where n is the number&nbsp;&nbsp; of moles of gas and B is a constant that varies&nbsp; for each gas. the ideal gas law assumes that the&nbsp;&nbsp; gas molecules do not attract one another. as&nbsp; the pressure on a gas sample is increased and&nbsp;&nbsp; the molecules become closer together, there IS&nbsp; an attraction between molecules. the attraction&nbsp;&nbsp; of the gas molecules to each other has the net&nbsp; effect of reducing the force of collisions of&nbsp;&nbsp; the gas molecules with the walls. this reduces the&nbsp; pressure felt at the walls. to take this effect&nbsp;&nbsp; into account the van der waals equation adds&nbsp; a factor to account for the reduction in the&nbsp;&nbsp; pressure term. the pressure term of the ideal&nbsp; gas law is replaced by (P + n2a / V2) where n&nbsp;&nbsp; is the number of moles of gas V is the volume&nbsp; of the gas and a is a constant for a given gas&nbsp;&nbsp; with these corrections to the ideal gas law&nbsp; the van der waals equation is shown here.&nbsp;&nbsp; although this equation will predict the&nbsp; behavior of real gases more accurately,&nbsp;&nbsp; the ideal gas law works well when pressures&nbsp; are close to or lower than one atmosphere. At&nbsp;&nbsp; these pressures, real gases act like an ideal&nbsp; gas because the gas particles are far apart.&nbsp;&nbsp; Let's test your knowledge! real gases&nbsp; behave differently than an ideal gas.&nbsp;&nbsp; which one of the following statements&nbsp; are true about a real gas? [Music]&nbsp;&nbsp; real gases have finite volume and attract&nbsp; each other. you've completed real gases!",
+  "text_to_speech_word_count": 404,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.267",
+      "start": "00:00:00.000",
+      "text": " Welcome to Real Gasses. Today we're going to compare the Vanderwals equation with the ideal gas"
+    },
+    {
+      "end": "00:00:10.467",
+      "start": "00:00:05.267",
+      "text": " law. The ideal gas law is used to describe the relationship among the pressure, volume and"
+    },
+    {
+      "end": "00:00:15.600",
+      "start": "00:00:10.467",
+      "text": " temperature of a gas sample containing in moles of gas. It's an approximation because it assumes"
+    },
+    {
+      "end": "00:00:22.467",
+      "start": "00:00:15.600",
+      "text": " that gas molecules have no volume and do not attract one another. At ordinary temperature and"
+    },
+    {
+      "end": "00:00:27.600",
+      "start": "00:00:22.467",
+      "text": " pressure where the ideal gas law is a good approximation, the small finite volume of real gas"
+    },
+    {
+      "end": "00:00:32.867",
+      "start": "00:00:27.600",
+      "text": " molecules is nearly negligible compared to the volume of empty space. However, the volume of"
+    },
+    {
+      "end": "00:00:37.900",
+      "start": "00:00:32.867",
+      "text": " molecules becomes significant as the pressure is increased, forcing the molecules closer together"
+    },
+    {
+      "end": "00:00:44.467",
+      "start": "00:00:37.900",
+      "text": " and reducing the volume of empty space available to each molecule. The Vanderwals equation describes"
+    },
+    {
+      "end": "00:00:49.833",
+      "start": "00:00:44.467",
+      "text": " a real gas by reducing the volume with a correction factor. The volume term of the ideal gas law is"
+    },
+    {
+      "end": "00:00:55.100",
+      "start": "00:00:49.833",
+      "text": " replaced by V minus NB, where N is the number of moles of gas and B is a constant that varies for"
+    },
+    {
+      "end": "00:01:01.733",
+      "start": "00:00:55.100",
+      "text": " each gas. The ideal gas law assumes that the gas molecules do not attract one another. As the"
+    },
+    {
+      "end": "00:01:06.467",
+      "start": "00:01:01.733",
+      "text": " pressure on a gas sample is increased and the molecules become closer together, there is an"
+    },
+    {
+      "end": "00:01:12.067",
+      "start": "00:01:06.467",
+      "text": " attraction between molecules. The attraction of the gas molecules to each other has the net"
+    },
+    {
+      "end": "00:01:17.733",
+      "start": "00:01:12.067",
+      "text": " effect of reducing the force of collisions of the gas molecules with the walls. This reduces the"
+    },
+    {
+      "end": "00:01:22.700",
+      "start": "00:01:17.733",
+      "text": " pressure felt at the walls. To take this effect into account, the Vanderwals equation adds a"
+    },
+    {
+      "end": "00:01:27.500",
+      "start": "00:01:22.700",
+      "text": " factor to account for the reduction in the pressure term. The pressure term of the ideal gas law"
+    },
+    {
+      "end": "00:01:34.133",
+      "start": "00:01:27.500",
+      "text": " is replaced by P plus N2A divided by V2, where N is the number of moles of gas, V is the volume of"
+    },
+    {
+      "end": "00:01:40.933",
+      "start": "00:01:34.133",
+      "text": " the gas and A is a constant for a given gas. With these corrections to the ideal gas law, the Vander"
+    },
+    {
+      "end": "00:01:46.700",
+      "start": "00:01:40.933",
+      "text": " Wals equation is shown here. Although this equation will predict the behavior of real gases more"
+    },
+    {
+      "end": "00:01:51.833",
+      "start": "00:01:46.700",
+      "text": " accurately, the ideal gas law works well when pressures are close to or lower than one atmosphere."
+    },
+    {
+      "end": "00:01:56.867",
+      "start": "00:01:51.833",
+      "text": " That these pressures, real gases act like an ideal gas because the gas particles are far apart."
+    },
+    {
+      "end": "00:02:03.200",
+      "start": "00:01:58.000",
+      "text": " Let's test your knowledge. Real gases behave differently than an ideal gas, which one of the"
+    },
+    {
+      "end": "00:02:10.400",
+      "start": "00:02:03.200",
+      "text": " following statements are true about a real gas. Real gases have finite volume and attract each other."
+    },
+    {
+      "end": "00:02:15.033",
+      "start": "00:02:11.600",
+      "text": " You've completed real gases."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Wisc-Online",
+  "youtube_channel_follower_count": 13300,
+  "youtube_comment_count": 2,
+  "youtube_description": "Learn how real gases act differently than ideal gases and how the van der Waals equation predicts the behavior of real gases more accurately.\n\nWisc-Online is a repository of high-quality educational learning materials freely available to students, learners at any level, teachers, parents, and employers. \n\nThe digital library of objects has been developed primarily by subject matter experts from the Wisconsin Technical College System (WTCS) and produced by a team of instructional designers, technical editors, and multimedia developers from Fox Valley Technical College's Learning Innovations team.\n\n*******\nCredits:\n    - Content Author: Dr. Miriam Douglass Dr. Martin McClinton",
+  "youtube_like_count": 6,
+  "youtube_tags": [
+    "wisconline",
+    "teacher resource",
+    "homework help",
+    "learning",
+    "van der waal",
+    "ideal gas law",
+    "vanderwall",
+    "vanderwalls equation",
+    "vander walls equation",
+    "chemistry"
+  ],
+  "youtube_title": "Real Gases ( The Ideal Gas Law and the van der Waals equation )",
+  "youtube_upload_date": "20230411",
+  "youtube_view_count": 520
+}

@@ -1,0 +1,673 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short black hair wearing glasses and a white t-shirt.",
+        "name": "Kunal"
+      }
+    ],
+    "description": "A tutorial video where Kunal guides viewers on how to build an AI assistant using Dialogflow, showcasing the process with a step-by-step walkthrough and engaging animations.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The platform used is Dialogflow.",
+        "question": "What is the name of the platform used in the tutorial?"
+      },
+      {
+        "answer": "He types a question in the 'Try it now' textbox, and the agent responds with a default message indicating it doesn't understand.",
+        "question": "How does Kunal demonstrate that the initially created agent is not yet functional?"
+      },
+      {
+        "answer": "Kunal enables the 'Small Talk' feature, which allows customization of responses to common conversational prompts.",
+        "question": "What specific feature is used to enable the agent to respond to basic greetings and questions?"
+      },
+      {
+        "answer": "The tutorial utilizes the 'Web Demo' integration, providing a URL and an embed code for embedding the agent into a website.",
+        "question": "What method is used to integrate the AI agent into a website?"
+      },
+      {
+        "answer": "He provides a link to an article for further learning, encourages viewers to like, subscribe, and enable notifications for future videos, and invites them to share their own AI agent creations on Twitter.",
+        "question": "How does Kunal encourage viewer participation and engagement beyond the tutorial?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.7,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene is designed to capture viewers' attention and set the expectation for tech-centric content.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene serves as an introduction to the channel, showcasing its focus on technology.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Mobile",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "Game controller",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Headphones",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "name": "Rikk & Kikk logo",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technology: The use of tech icons and the tagline 'Get all tech here!' highlight the channel's theme.",
+        "timestamps": {
+          "end_timestamp": "00:00:07.040",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Channel Overview",
+        "videoEditingDetails": [
+          {
+            "description": "Text animation",
+            "timestamps": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Background music",
+            "timestamps": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:07.080"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Kunal"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene contextualizes the tutorial's importance by highlighting the popularity and utility of virtual assistants.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Kunal introduces the concept of virtual assistants, highlights popular examples, and sets the stage for the tutorial.",
+            "timestamp": "00:00:07.080"
+          }
+        ],
+        "props": [
+          {
+            "name": "Google Assistant logo",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "name": "Siri logo",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "name": "Amazon Alexa logo",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "name": "Cortana logo",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          },
+          {
+            "name": "Dialogflow logo",
+            "timestamp": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Artificial Intelligence (AI): The video centers around the creation and integration of AI-powered virtual assistants. Technology Trends: The discussion reflects current tech trends.",
+        "timestamps": {
+          "end_timestamp": "00:00:38.040",
+          "start_timestamp": "00:00:07.080"
+        },
+        "title": "Introduction to Virtual Assistants",
+        "videoEditingDetails": [
+          {
+            "description": "Jump cut",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Typing in search bar",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:38.080"
+            }
+          },
+          {
+            "description": "Clicking buttons",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          },
+          {
+            "description": "Typing in text fields",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene provides practical, hands-on knowledge, showing step-by-step processes useful for viewers.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene walks through the process of creating an AI agent in Dialogflow, enabling small talk features, and integrating it with a web demo.",
+            "timestamp": "00:00:38.080"
+          }
+        ],
+        "props": [
+          {
+            "name": "Google Chrome browser window",
+            "timestamp": {
+              "end_timestamp": "00:02:27.920",
+              "start_timestamp": "00:00:38.080"
+            }
+          },
+          {
+            "name": "Dialogflow website",
+            "timestamp": {
+              "end_timestamp": "00:02:27.920",
+              "start_timestamp": "00:00:40.000"
+            }
+          },
+          {
+            "name": "Google login page",
+            "timestamp": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          },
+          {
+            "name": "Dialogflow agent creation page",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          },
+          {
+            "name": "Dialogflow intent page",
+            "timestamp": {
+              "end_timestamp": "00:02:27.920",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "name": "Dialogflow small talk page",
+            "timestamp": {
+              "end_timestamp": "00:01:53.000",
+              "start_timestamp": "00:01:15.000"
+            }
+          },
+          {
+            "name": "Dialogflow integration page",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:02:11.000"
+            }
+          },
+          {
+            "name": "Dialogflow web demo page",
+            "timestamp": {
+              "end_timestamp": "00:02:27.920",
+              "start_timestamp": "00:02:18.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Step-by-Step Instruction: Provides instructions for setting up and testing the AI agent. User Interface (UI): Showcases Dialogflow interface.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.920",
+          "start_timestamp": "00:00:38.080"
+        },
+        "title": "Creating an AI Agent in Dialogflow",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording",
+            "timestamps": {
+              "end_timestamp": "00:02:27.920",
+              "start_timestamp": "00:00:38.080"
+            }
+          },
+          {
+            "description": "Mouse cursor highlight",
+            "timestamps": {
+              "end_timestamp": "00:02:27.920",
+              "start_timestamp": "00:00:38.080"
+            }
+          },
+          {
+            "description": "Text overlay",
+            "timestamps": {
+              "end_timestamp": "00:01:48.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:02:54.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Kunal"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "This final scene reinforces viewer engagement and ensures they know the next steps.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Happy",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Kunal concludes the tutorial, providing a link to additional resources and encouraging viewer engagement.",
+            "timestamp": "00:02:28.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 4,
+        "thematicElements": "Call to Action: Encourages viewers to take specific actions like visiting linked articles, liking, subscribing, and enabling notifications.",
+        "timestamps": {
+          "end_timestamp": "00:02:54.640",
+          "start_timestamp": "00:02:27.960"
+        },
+        "title": "Conclusion and Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "Jump cut",
+            "timestamps": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:27.960"
+            }
+          },
+          {
+            "description": "Text overlay: Source: Sitepoint",
+            "timestamps": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:02:28.000"
+            }
+          },
+          {
+            "description": "Thumb up emoji animation",
+            "timestamps": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:47.000"
+            }
+          },
+          {
+            "description": "Subscribe button animation",
+            "timestamps": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:48.000"
+            }
+          },
+          {
+            "description": "Bell icon animation",
+            "timestamps": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:02:51.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Kunal integrates the AI agent with a web demo for testing, marking the tutorial's peak activity.",
+        "timestamp": "00:02:28.000"
+      },
+      "description": "The tutorial teaches how to build an AI assistant using Dialogflow, from introduction to detailed walkthrough and concludes with a call to action for viewer engagement.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Building an AI Assistant Tutorial",
+    "trimmingSuggestions": [
+      {
+        "description": "Consider trimming the initial animation sequence as it doesn't directly contribute to the tutorial's core content.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.960",
+          "start_timestamp": "00:02:27.960"
+        }
+      },
+      {
+        "description": "The screen recording section could be sped up slightly during repetitive actions like clicking through menus or waiting for pages to load.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.000",
+          "start_timestamp": "00:02:27.960"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 175,
+  "original_json_filename": "IfR8rmH6qe8.json",
+  "original_video_filename": "IfR8rmH6qe8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Hello guys welcome to another video, my name is Kunal and today I'm going to show you how to build your own AI Assistant. So starting from 2016 there is lot of buzz going about virtual assistant, many companies have developed their own like Google Assistant, Siri, Amazon Alexa and Cortana. But for developers who want to use them in their Applications, Google has provided a platform called Dialogflow, and we are going to use this. If you stick till the end of this video I will tell you how you can integrate your AI assistant on a website. So, Let's get started. First you need to go to www.dialogflow.com Then click on goto console. Login with your gmail ID and you are good to go. Now click on create agent. This will open a page where you need to enter name of your agent and can set Timezone and default language. Click on create button in top right corner. It will take few seconds. On the right hand side you will see a \"try it now\" text box. But if we ask a question to agent it will not respond because our agent is not trained. If you scroll down to left hand side there is something called as small talk. Now this is used to add abilities to your agent so that it can respond to you. To use smalltalk you need to just enable it. For simplicity I will just add few responses to questions. If you want you can add more which will make your agent better. Once you have added click Done and it will save your responses. Now let's test our agent and yes it is responding. If you want to see a fully functional agent scroll up on left hand side and click on integrations. Click on settings in Web Demo, enable it and you will see a URL of your agent just click on it and it will direct you to another page where you can test your agent. No lets fire up something like \"Hi\", you can use your laptop or desktop mic to give voice commands. If you want to integrate your AI Assistant on a website, I have given a link to an article in the description where you can find steps for creating AI and section which explains how you can embed you AI Assitant on a website and trust me its very simple and we will very be happy to see your own version by tweeting us on @RikkandKikk. So if you enjoyed this video do smash that like button and subscribe to our channel plus make sure to push the notification bell to never miss a video and I will see you in the next oner",
+  "text_to_speech_word_count": 460,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.040",
+      "start": "00:00:00.000",
+      "text": " Hello guys, welcome to the channel, my name is Kunal and today I am going to show you"
+    },
+    {
+      "end": "00:00:13.200",
+      "start": "00:00:11.040",
+      "text": " how to build your own AI assistant."
+    },
+    {
+      "end": "00:00:17.680",
+      "start": "00:00:13.200",
+      "text": " So starting from 2016, there is a lot of words going about virtual assistant and companies"
+    },
+    {
+      "end": "00:00:22.640",
+      "start": "00:00:17.680",
+      "text": " making their own O-R1 like Google Assistant, Siri, Amazon Alexa, Cortana."
+    },
+    {
+      "end": "00:00:26.600",
+      "start": "00:00:22.640",
+      "text": " So for developers who want to integrate this AI into their applications, Google has"
+    },
+    {
+      "end": "00:00:28.880",
+      "start": "00:00:26.600",
+      "text": " provided a platform known as Dialogflow."
+    },
+    {
+      "end": "00:00:31.520",
+      "start": "00:00:28.880",
+      "text": " And today in this video, we are going to use this."
+    },
+    {
+      "end": "00:00:35.480",
+      "start": "00:00:31.520",
+      "text": " So if you stick till the end of this video, I will show you how to embed your AI into"
+    },
+    {
+      "end": "00:00:36.480",
+      "start": "00:00:35.480",
+      "text": " a website."
+    },
+    {
+      "end": "00:00:38.200",
+      "start": "00:00:36.480",
+      "text": " So, let's get started."
+    },
+    {
+      "end": "00:00:43.200",
+      "start": "00:00:38.200",
+      "text": " So first you need to go to www.dialogflow.com."
+    },
+    {
+      "end": "00:00:50.120",
+      "start": "00:00:43.200",
+      "text": " Then click on go to console, login with your Gmail ID and you are good to go."
+    },
+    {
+      "end": "00:00:51.960",
+      "start": "00:00:50.120",
+      "text": " Now click on create agent."
+    },
+    {
+      "end": "00:00:55.320",
+      "start": "00:00:51.960",
+      "text": " This will open a page where you need to enter the name of your agent and can set times"
+    },
+    {
+      "end": "00:00:58.560",
+      "start": "00:00:55.320",
+      "text": " and default language."
+    },
+    {
+      "end": "00:01:03.680",
+      "start": "00:00:58.560",
+      "text": " Click on create button in top right corner, it will take a few seconds."
+    },
+    {
+      "end": "00:01:06.600",
+      "start": "00:01:03.680",
+      "text": " On the right hand side, you will see a TRIED not Xbox."
+    },
+    {
+      "end": "00:01:10.960",
+      "start": "00:01:06.600",
+      "text": " But if we ask the question to our agent, it will not respond because our agent is not"
+    },
+    {
+      "end": "00:01:12.680",
+      "start": "00:01:10.960",
+      "text": " trained."
+    },
+    {
+      "end": "00:01:16.280",
+      "start": "00:01:12.680",
+      "text": " If you scroll down to the left hand side, there is something called a small talk."
+    },
+    {
+      "end": "00:01:20.560",
+      "start": "00:01:16.280",
+      "text": " Now this is used to add abilities to your agent so that it can respond to you."
+    },
+    {
+      "end": "00:01:23.440",
+      "start": "00:01:20.560",
+      "text": " To use small talk, you need to just enable it."
+    },
+    {
+      "end": "00:01:26.720",
+      "start": "00:01:23.440",
+      "text": " For simplicity, I will add just few responses to the questions."
+    },
+    {
+      "end": "00:01:45.960",
+      "start": "00:01:26.720",
+      "text": " If you want, you can add more which will make your agent better."
+    },
+    {
+      "end": "00:01:53.480",
+      "start": "00:01:45.960",
+      "text": " Once you have added, click done and it will save your responses."
+    },
+    {
+      "end": "00:02:03.760",
+      "start": "00:01:53.480",
+      "text": " Now let's test our agent and yes, it's responding."
+    },
+    {
+      "end": "00:02:08.160",
+      "start": "00:02:03.760",
+      "text": " Let's try one more sentence."
+    },
+    {
+      "end": "00:02:11.520",
+      "start": "00:02:08.160",
+      "text": " If you want to see a fully functional agent, scroll up on the left hand side and click"
+    },
+    {
+      "end": "00:02:13.320",
+      "start": "00:02:11.520",
+      "text": " on integrations."
+    },
+    {
+      "end": "00:02:17.400",
+      "start": "00:02:13.320",
+      "text": " Click on settings in web demo, enable it and you will see a URL of your agent, just click"
+    },
+    {
+      "end": "00:02:22.040",
+      "start": "00:02:17.400",
+      "text": " on it and it will direct you to another page where you can test your agent."
+    },
+    {
+      "end": "00:02:24.320",
+      "start": "00:02:22.040",
+      "text": " Now let's fire up something like high."
+    },
+    {
+      "end": "00:02:28.160",
+      "start": "00:02:24.320",
+      "text": " You can use your laptop or desktop mic to give voice commands."
+    },
+    {
+      "end": "00:02:32.440",
+      "start": "00:02:28.160",
+      "text": " So if you want to integrate your own AI onto a website, I have given a link of an article"
+    },
+    {
+      "end": "00:02:37.160",
+      "start": "00:02:32.440",
+      "text": " into the description down below which tells how to create your own AI and also a section"
+    },
+    {
+      "end": "00:02:39.840",
+      "start": "00:02:37.160",
+      "text": " which explains how to embed on a website."
+    },
+    {
+      "end": "00:02:44.000",
+      "start": "00:02:39.840",
+      "text": " And trust me, it's very simple and we'll be happy to see your own version by sending"
+    },
+    {
+      "end": "00:02:45.640",
+      "start": "00:02:44.000",
+      "text": " us a clip on Twitter."
+    },
+    {
+      "end": "00:02:49.520",
+      "start": "00:02:45.640",
+      "text": " So if you enjoyed this video, do smash that like button and subscribe to our channel."
+    },
+    {
+      "end": "00:02:53.920",
+      "start": "00:02:49.520",
+      "text": " Plus make sure to push the notification bell to never miss a video and I will see you"
+    },
+    {
+      "end": "00:02:54.640",
+      "start": "00:02:53.920",
+      "text": " in the next one."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Rikk & Kikk",
+  "youtube_channel_follower_count": 755,
+  "youtube_comment_count": 109,
+  "youtube_description": "Hello guys welcome to another video, In this video we give a small tutorial about making your own AI Assistant using a developer platform provided by google called Dialogflow. If you want to make AI assistant this is the video you should look for.\n\nIn case if you are developer or just willing to embed your AI into and website or Application the link down below has detailed steps and a section where the writer of article explains how you can embed you AI Assistant:-\n\nhttps://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/\n\nIf you made your own version do send us a small clip on twitter we will be happy to see. If you like this video do like and share it and subscribe to our channel and you can suggest us more topics like this. \n\nThankyou\n\nTwitter:-\nKunal Deshpande: https://twitter.com/d_kunal96\nRishikesh Chivate:  https://twitter.com/RishiChivate\nRikk & Kikk: https://twitter.com/RikkandKikk\n\n-~-~~-~~~-~~-~-\nPlease watch: \"The Most Secured Windows you need to know!\" \nhttps://www.youtube.com/watch?v=XmeTzRdB_cc\n-~-~~-~~~-~~-~-",
+  "youtube_like_count": 3846,
+  "youtube_tags": [
+    "how to make your own artificial intelligence",
+    "how to make artificial intelligence like jarvis",
+    "how to make artificial intelligence software",
+    "virtual assistant",
+    "virtual assistant tutorial",
+    "virtual assistant ai",
+    "dialogflow chatbot",
+    "dialogflow api.ai tutorial",
+    "dialogflow basics",
+    "dialogflow examples",
+    "dialogflow getting started",
+    "google assistant api",
+    "Rikk\\&Kikk",
+    "technology",
+    "education",
+    "api.ai",
+    "how to make your own ai"
+  ],
+  "youtube_title": "Now create your own AI Assistant with few simple steps!",
+  "youtube_upload_date": "20180317",
+  "youtube_view_count": 163179
+}

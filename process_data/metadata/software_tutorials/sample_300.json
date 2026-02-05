@@ -1,0 +1,1449 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A bald man with a goatee, wearing a black t-shirt.",
+        "name": "Ben"
+      },
+      {
+        "characterId": "2",
+        "description": "A woman with long curly hair, wearing a beige top and green pants.",
+        "name": "Una"
+      }
+    ],
+    "description": "Video analysis of Chrome Dev Summit 2021 presentation focusing on new web technologies and features.",
+    "fps": 23.976023976023978,
+    "qAndA": [
+      {
+        "answer": "Una shows how 'size-adjust' smooths the transition between the default font and the loaded web font, reducing layout shift and improving user experience.",
+        "question": "What's the specific advantage of the 'size-adjust' CSS property demonstrated by Una?"
+      },
+      {
+        "answer": "Una explains that traditional animations are time-based, while Scroll Timeline API allows animations to be triggered and controlled by the user's scrolling behavior.",
+        "question": "What's the key difference between traditional CSS animations and those enabled by the Scroll Timeline API?"
+      },
+      {
+        "answer": "According to Una, users wanted 'dark mode,' 'an emoji picker,' and 'more dark mode,' highlighting the strong demand for dark theme options.",
+        "question": "What are the three main points that users emphasized when surveyed about Twitter's progressive web app?"
+      },
+      {
+        "answer": "Una mentions using a 'single pixel six device,' likely referring to a Google Pixel 6 phone, for their battery consumption analysis.",
+        "question": "What specific device was used in the lab study to measure battery savings associated with dark themes?"
+      },
+      {
+        "answer": "Ben recommends limiting nesting to three layers deep, cautioning that excessive nesting can negatively impact web page performance.",
+        "question": "What is the primary concern that Ben expresses regarding excessively nested CSS styles?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Ben talks about RenderingNG.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:09.009"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Ben"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of RenderingNG, an effort to reimagine Chromium support for core web technologies.",
+            "timestamp": "00:00:09.009"
+          },
+          {
+            "description": "Statement that RenderingNG is largely landed and enabling an evolution in web UX design.",
+            "timestamp": "00:00:25.984"
+          },
+          {
+            "description": "Transition to Una to provide more details.",
+            "timestamp": "00:00:31.990"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop displaying Google Developers Blog",
+            "timestamp": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:09.009"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Web development, RenderingNG, Chromium, user experience design.",
+        "timestamps": {
+          "end_timestamp": "00:00:35.869",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to RenderingNG",
+        "videoEditingDetails": [
+          {
+            "description": "Animated Google logo transition.",
+            "timestamps": {
+              "end_timestamp": "00:00:08.008",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Right-to-left wipe transition.",
+            "timestamps": {
+              "end_timestamp": "00:00:35.869",
+              "start_timestamp": "00:00:34.993"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Una talks about the new responsive",
+            "timestamp": {
+              "end_timestamp": "00:02:59.012",
+              "start_timestamp": "00:00:35.994"
+            }
+          },
+          {
+            "description": "Una shows an example of a container query on a laptop.",
+            "timestamp": {
+              "end_timestamp": "00:02:59.012",
+              "start_timestamp": "00:02:01.997"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Una"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "User experience as the core principle behind web development advancements.",
+            "timestamp": "00:00:37.996"
+          },
+          {
+            "description": "Introduction of 'The New Responsive' - moving beyond screen size responsiveness.",
+            "timestamp": "00:01:03.981"
+          },
+          {
+            "description": "Features of the new responsive: User preference queries, responsiveness to new form factors and containers.",
+            "timestamp": "00:01:21.999"
+          },
+          {
+            "description": "Deep dive into container queries with code and visual examples.",
+            "timestamp": "00:02:01.997"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop displaying a circular diagram representing 'The New Responsive'",
+            "timestamp": {
+              "end_timestamp": "00:01:20.998",
+              "start_timestamp": "00:01:02.980"
+            }
+          },
+          {
+            "name": "Laptop displaying foldable devices",
+            "timestamp": {
+              "end_timestamp": "00:01:34.011",
+              "start_timestamp": "00:01:28.005"
+            }
+          },
+          {
+            "name": "Laptop displaying a website with a container query implementation",
+            "timestamp": {
+              "end_timestamp": "00:02:59.012",
+              "start_timestamp": "00:01:34.011"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Responsive design, container queries, user preference queries, foldable devices, component-based development.",
+        "timestamps": {
+          "end_timestamp": "00:03:00.972",
+          "start_timestamp": "00:00:35.911"
+        },
+        "title": "The New Responsive",
+        "videoEditingDetails": [
+          {
+            "description": "Left-to-right wipe transition",
+            "timestamps": {
+              "end_timestamp": "00:00:35.994",
+              "start_timestamp": "00:00:35.911"
+            }
+          },
+          {
+            "description": "Side-by-side split screen with Una on the left and laptop display on the right",
+            "timestamps": {
+              "end_timestamp": "00:02:59.012",
+              "start_timestamp": "00:01:20.998"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Una talks about responsive DevTools and web.dev/patterns.",
+            "timestamp": {
+              "end_timestamp": "00:04:25.015",
+              "start_timestamp": "00:03:01.014"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Una"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Helpful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlighting new responsive DevTools for debugging and styling with container queries.",
+            "timestamp": "00:03:01.014"
+          },
+          {
+            "description": "Introduction of web.dev/patterns, a collection of UI patterns for web projects.",
+            "timestamp": "00:03:53.984"
+          },
+          {
+            "description": "Mentioning the inclusion of layout patterns for various UI elements in web.dev/patterns.",
+            "timestamp": "00:04:04.995"
+          },
+          {
+            "description": "Encouragement to explore these tools and build interfaces effectively.",
+            "timestamp": "00:04:24.014"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop displaying code and a website",
+            "timestamp": {
+              "end_timestamp": "00:04:25.015",
+              "start_timestamp": "00:03:01.014"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "DevTools, UI patterns, responsive design, web development tools.",
+        "timestamps": {
+          "end_timestamp": "00:04:25.140",
+          "start_timestamp": "00:03:01.014"
+        },
+        "title": "Tools and Patterns",
+        "videoEditingDetails": [
+          {
+            "description": "Side-by-side split screen with Una on the left and laptop display on the right",
+            "timestamps": {
+              "end_timestamp": "00:04:25.015",
+              "start_timestamp": "00:03:01.014"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Una talks about Learn Responsive Design and LearnCSS.",
+            "timestamp": {
+              "end_timestamp": "00:05:14.981",
+              "start_timestamp": "00:04:25.182"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Una"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Educational",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Announcing a partnership with Clearleft to launch Learn Responsive Design on web.dev.",
+            "timestamp": "00:04:25.182"
+          },
+          {
+            "description": "Description of the course content and its benefits for learning responsive design principles.",
+            "timestamp": "00:04:30.020"
+          },
+          {
+            "description": "Introducing updates to the LearnCSS course with six new modules.",
+            "timestamp": "00:04:52.000"
+          },
+          {
+            "description": "Highlighting the LearnCSS course content and its value for developers.",
+            "timestamp": "00:04:56.004"
+          }
+        ],
+        "props": [
+          {
+            "name": "Browser window displaying web.dev/learn/design",
+            "timestamp": {
+              "end_timestamp": "00:04:49.998",
+              "start_timestamp": "00:04:25.182"
+            }
+          },
+          {
+            "name": "Browser window displaying web.dev/learn/css",
+            "timestamp": {
+              "end_timestamp": "00:05:14.981",
+              "start_timestamp": "00:04:50.999"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Online learning, responsive design, CSS, web development education.",
+        "timestamps": {
+          "end_timestamp": "00:05:15.607",
+          "start_timestamp": "00:04:25.182"
+        },
+        "title": "Educational Resources",
+        "videoEditingDetails": [
+          {
+            "description": "Side-by-side split screen with Una on the left and browser window on the right",
+            "timestamps": {
+              "end_timestamp": "00:05:14.981",
+              "start_timestamp": "00:04:25.182"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Una talks about the new Scroll Timeline API.",
+            "timestamp": {
+              "end_timestamp": "00:06:00.861",
+              "start_timestamp": "00:05:15.649"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Una"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Intrigued",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the Scroll Timeline API for scroll-based animations.",
+            "timestamp": "00:05:15.649"
+          },
+          {
+            "description": "Explanation of the API's capabilities and its contrast with traditional time-based animations.",
+            "timestamp": "00:05:36.002"
+          },
+          {
+            "description": "Encouragement to explore the Scroll Timeline API in Chrome Canary.",
+            "timestamp": "00:05:54.020"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated laptop representing scroll timeline functionality",
+            "timestamp": {
+              "end_timestamp": "00:06:00.861",
+              "start_timestamp": "00:05:30.997"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Scroll Timeline API, CSS animations, web development innovation.",
+        "timestamps": {
+          "end_timestamp": "00:06:00.861",
+          "start_timestamp": "00:05:15.649"
+        },
+        "title": "Scroll Timeline API",
+        "videoEditingDetails": [
+          {
+            "description": "Side-by-side split screen with Una on the left and animated laptop on the right",
+            "timestamps": {
+              "end_timestamp": "00:06:00.861",
+              "start_timestamp": "00:05:15.649"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Una talks about CSS Nesting and size-adjust property.",
+            "timestamp": {
+              "end_timestamp": "00:06:24.968",
+              "start_timestamp": "00:06:00.986"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Una"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of CSS Nesting, a syntactic sugar for improving developer experience.",
+            "timestamp": "00:06:00.986"
+          },
+          {
+            "description": "Recommendation to limit nesting to three layers for optimal performance.",
+            "timestamp": "00:06:21.006"
+          },
+          {
+            "description": "Mentioning the launch of the 'size-adjust' property for typography.",
+            "timestamp": "00:06:24.968"
+          },
+          {
+            "description": "Explaining the usefulness of 'size-adjust' in preventing layout shifts and improving web font loading.",
+            "timestamp": "00:06:24.968"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop displaying code examples of CSS Nesting",
+            "timestamp": {
+              "end_timestamp": "00:06:24.968",
+              "start_timestamp": "00:06:00.986"
+            }
+          },
+          {
+            "name": "Laptop displaying two side-by-side web pages showing size adjusted text",
+            "timestamp": {
+              "end_timestamp": "00:06:24.968",
+              "start_timestamp": "00:06:24.968"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "CSS Nesting, 'size-adjust' property, typography, web font optimization.",
+        "timestamps": {
+          "end_timestamp": "00:06:24.968",
+          "start_timestamp": "00:06:00.902"
+        },
+        "title": "Advanced CSS Features",
+        "videoEditingDetails": [
+          {
+            "description": "Side-by-side split screen with Una on the left and laptop on the right",
+            "timestamps": {
+              "end_timestamp": "00:06:24.968",
+              "start_timestamp": "00:06:00.986"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Una talks about the accent-color and Dark theme.",
+            "timestamp": {
+              "end_timestamp": "00:08:49.988",
+              "start_timestamp": "00:06:25.010"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Una"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Practical and Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Launching 'accent-color' in Chromium and Firefox Stable.",
+            "timestamp": "00:06:25.010"
+          },
+          {
+            "description": "Explanation of 'accent-color' functionality for theming form controls.",
+            "timestamp": "00:06:44.988"
+          },
+          {
+            "description": "Discussion on importance and demand for dark mode, with battery savings on OLED devices.",
+            "timestamp": "00:07:10.013"
+          },
+          {
+            "description": "Twitter's feedback on dark mode for their progressive web app.",
+            "timestamp": "00:07:26.988"
+          },
+          {
+            "description": "Recommendation of CSS custom properties and 'prefers-color-scheme' for dark theme implementation.",
+            "timestamp": "00:07:50.011"
+          },
+          {
+            "description": "Guidance from Material Design team on dark themes.",
+            "timestamp": "00:08:05.985"
+          },
+          {
+            "description": "Development and features of Chrome's 'Auto Dark' algorithm.",
+            "timestamp": "00:08:22.001"
+          },
+          {
+            "description": "Encouragement for user testing of 'Auto Dark' through Chrome Canary.",
+            "timestamp": "00:08:41.980"
+          }
+        ],
+        "props": [
+          {
+            "name": "Slides displaying color schemes with accent colors in dark and light themes",
+            "timestamp": {
+              "end_timestamp": "00:06:51.995",
+              "start_timestamp": "00:06:40.984"
+            }
+          },
+          {
+            "name": "Laptop displaying a website in dark theme",
+            "timestamp": {
+              "end_timestamp": "00:07:10.013",
+              "start_timestamp": "00:06:51.995"
+            }
+          },
+          {
+            "name": "Picture of a person browsing in dark mode on a mobile phone",
+            "timestamp": {
+              "end_timestamp": "00:07:26.988",
+              "start_timestamp": "00:07:10.013"
+            }
+          },
+          {
+            "name": "Twitter logo",
+            "timestamp": {
+              "end_timestamp": "00:07:50.011",
+              "start_timestamp": "00:07:26.988"
+            }
+          },
+          {
+            "name": "Code example showing dark theme implementation with 'prefers-color-scheme' media feature",
+            "timestamp": {
+              "end_timestamp": "00:08:05.985",
+              "start_timestamp": "00:07:50.011"
+            }
+          },
+          {
+            "name": "Website in dark theme highlighting 'material.io'",
+            "timestamp": {
+              "end_timestamp": "00:08:22.001",
+              "start_timestamp": "00:08:05.985"
+            }
+          },
+          {
+            "name": "Screen capture of Chrome developer tools with 'Emulate auto dark mode' option highlighted",
+            "timestamp": {
+              "end_timestamp": "00:08:49.988",
+              "start_timestamp": "00:08:22.001"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "'accent-color', dark mode, theme customization, battery life optimization, user feedback, Material Design, 'Auto Dark' algorithm.",
+        "timestamps": {
+          "end_timestamp": "00:08:50.155",
+          "start_timestamp": "00:06:25.010"
+        },
+        "title": "Dark Theme and Accent Colors",
+        "videoEditingDetails": [
+          {
+            "description": "Side-by-side split screen with Una on the left and slides on the right",
+            "timestamps": {
+              "end_timestamp": "00:08:49.988",
+              "start_timestamp": "00:06:40.984"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Ben concludes the summit.",
+            "timestamp": {
+              "end_timestamp": "00:09:22.020",
+              "start_timestamp": "00:08:53.992"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Ben"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Optimistic",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Acknowledgment of significant changes in the web platform.",
+            "timestamp": "00:08:55.994"
+          },
+          {
+            "description": "Expression of optimism for future developments.",
+            "timestamp": "00:08:57.996"
+          },
+          {
+            "description": "Commitment to improve web privacy, power, tools, and guidance for developers.",
+            "timestamp": "00:09:02.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 8,
+        "thematicElements": "Web platform evolution, developer tools, web privacy, web power.",
+        "timestamps": {
+          "end_timestamp": "00:09:36.826",
+          "start_timestamp": "00:08:50.196"
+        },
+        "title": "Conclusion and Future Outlook",
+        "videoEditingDetails": [
+          {
+            "description": "Right-to-left wipe transition.",
+            "timestamps": {
+              "end_timestamp": "00:08:52.991",
+              "start_timestamp": "00:08:51.990"
+            }
+          },
+          {
+            "description": "Animated illustration representing communication and progress.",
+            "timestamps": {
+              "end_timestamp": "00:09:28.985",
+              "start_timestamp": "00:09:22.020"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Una introduces 'The New Responsive' concept.",
+        "timestamp": "00:01:03.981"
+      },
+      "description": "The presentation focuses on the evolution of web technologies, emphasizing responsive design, new APIs, and tools for developers.",
+      "scenes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Chrome Dev Summit 2021",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the initial Google logo animation to shorten the intro.",
+        "timestamps": {
+          "end_timestamp": "00:08:50.196",
+          "start_timestamp": "00:08:50.196"
+        }
+      },
+      {
+        "description": "Shorten the ending illustration to make the conclusion more concise.",
+        "timestamps": {
+          "end_timestamp": "00:09:28.985",
+          "start_timestamp": "00:09:22.020"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 577,
+  "original_json_filename": "dhrX_biPH8c.json",
+  "original_video_filename": "dhrX_biPH8c.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] a few years ago a group of engineers set about rethinking chromium support for html css and graphics which led to an effort called rendering ng an ambitious refactoring of chromium's rendering engine this work has now largely landed and it's enabling a major evolution in web user experience design to tell us more i'll hand things over to youna thank you everything we've talked about today comes back to the user experience privacy measurement next gen web capabilities they all work together to create better experiences that align with our vision for the web while giving developers the tools and capabilities they need to build them so today i'm excited to share a ton of updates and changes coming down the pipeline for ui styling and devtools first let's talk about responsive design and how it's evolving responsive design is no longer just about making sure an interface looks good on both desktop mobile devices developers now have the tools to really create customized user experiences based on personalized user preferences in a component driven architecture model we're calling this the new responsive and it includes being responsive to the user with user preference queries and modalities like dark mode and prefers reduced motion being responsive to new form factors like foldable devices which allow for multi-display functionality and being responsive to other components on the page with container queries this is a feature that's been highly requested by developers we've been working with the css working group to spec this feature and have been able to unlock the implementation through recent changes in the chrome rendering engine the new container query spec lets you access a parent element's width to make styling decisions for its children you can even nest container queries and create named queries for easier access and organization let's take a look at an example here i have a responsive add to cart button that i can place anywhere in the container then when i put it inside of this product card which is also a container i can query the product card itself to restyle the already responsive button and shift it from being center aligned to left aligned this might look simple on the surface but it's something that wasn't previously possible without a lot of heavy scripting which would significantly slow down your page we're working with the open source community to provide a polyfill for container queries as we build the feature into the platform using container queries makes your interfaces much more flexible components own all of their individual responsive styles right where they are and don't rely on the global viewport to adjust styles this is a huge paradigm shift for component-based development and we're excited to see how you make the most of this new feature if you want to try it out container queries are now available for testing behind a flag in chrome canary and because of this big shift we've been working hard to support you by providing dev tools that allow you to debug and style with container queries as the feature launches here you can see that devtools is pointing out where the container for the child is and highlighting the styles that are being applied by it speaking of responsive dev tools we released several new tools this year for better layout debugging layout tooling for grid now allows you to add names to specific grid lines and also shows you the size of your grid areas i also love the dynamic new tools for flexbox and grid these let you actually see what different property values do on the page and give you the ability to easily change layout rules with the click of a button these new dev tools are designed to make css layout easier to visualize and understand which frees up more time to build new features for your users and less time looking up the differences between justify and align another way we're helping simplify the process is by launching web.dev patterns a collection of off-the-shelf ui patterns you can use in your web projects to help you quickly get started with building the base of your ui we've added layout patterns for everything from large full page spreads and card sets to smaller layouts that can live within those larger layouts such as the cards themselves all of these patterns use css grid flexbox or container queries to showcase how quickly you can pick up these tools and build interfaces from the ground up we're also partnering with jeremy keith of clear left to launch learn responsive design on web.dev this is a free online course with everything you need to know about designing for the new responsive web of today you'll learn about theming art direction logical properties for internationalization utilizing preference queries and so much more today we're launching the first few course modules at web.dev learn slash design with more to come in the following weeks we're also updating our learn css course with six new modules learn css is another free evergreen course and reference on web.dev where you can level up your css knowledge and test your skills we launched the first 24 modules at google i o this year and now we're introducing lists backgrounds transitions text and typography media queries and more be sure to check out those new modules and dive in whenever you're ready we're also working on rolling out some new features in css in addition to container queries our team has been thinking about how to introduce scope styles and cascade layers they're not ready just yet and we look forward to working with you and the web community over the next few months to push them forward we do have a particularly fun new api that's ready for exploration and that's scroll timeline previously you could create css animations that had a time basis and moved over a length of time scroll timeline lets you set scroll based offsets and timings for animations instead that means you can set an element to animate as you scroll down or across a page pretty neat you can explore scroll timeline using the experimental web platform features flag in canary we have another exciting addition that recently reached its first public working draft and that's css nesting nesting is a syntactic sugar that brings one of the most popular features of css preprocessors to the web stacking your styles for a cleaner developer experience while the nesting spec will let you keep your styles tidier and more encapsulated we recommend that you don't go more than three layers deep to ensure the best performance we've also launched the size adjust property for typography this is particularly useful for preventing cumulative layout shift for core web vitals as you can adjust the default font to better match your web font this causes less jank as the web font loads in and last but not least accent color just landed in chromium and firefox stable accent color is a one-line css superpower that gives your form controls like checkboxes and radios a theme color to match your brand we get a lot of feature requests from developers and users alike but one is a clear favorite especially for those of you who love to browse the web at night dark mode is a popular feature we're really excited to build on and not just because you asked for it but because its impact extends beyond the user interface dark themes have shown measurable battery life savings over their light themed counterparts on oled devices in our lab study with a single pixel 6 device we found an indication that at 60 brightness dark theme used 11 percent less power than light themes for led screens and it's a feature that users love too when twitter released the first preview version of their new twitter progressive web app everyone said wow it's new and fast but where's dark mode so they surveyed users on what they needed to add and user said three things dark mode an emoji picker and more dark mode so it's kind of a big deal to a lot of very vocal users to create a dark theme we recommend using css custom properties and the prefers color scheme media feature which is supported in all evergreen browsers this lets you swap theme colors in and out based on what your users prefer a core part of our new responsive framework and set of goals if you need help getting dark mode set up the way you like it there's some excellent new guidance from the material design team by their research on building beautiful dark themes this includes how to adjust depth by using lightness instead of shadows how to adjust color vibrancy to reduce visual vibration and more but to make it even easier for your team chrome is working on a machine learning aided auto dark algorithm feature this feature will include auto darkened websites along with a few affordances to opt out of the auto dark functionality on a more granular level we're still in the early stages of future developments and we need your help to get it right to try it out now you can open the devtools rendering panel in chrome canary and enable auto dark mode emulation check out the link to learn more and to give us your thoughts now i'll pass back to ben one last time thanks yuna you know we've seen a lot of change in the web over the past year and we're still more optimistic than ever about the future of the platform across the areas we just talked about and more in the years ahead you can expect to see us continue to push hard to make the web more private and powerful and to provide developers with better tools and guidance to create top quality experiences for people all over the world [Music] you",
+  "text_to_speech_word_count": 1675,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:15.974",
+      "start": "00:00:00.000",
+      "text": " A few years ago, a group of engineers said about rethinking Chromium support for HTML,"
+    },
+    {
+      "end": "00:00:22.981",
+      "start": "00:00:15.974",
+      "text": " CSS, and graphics, which led to an effort called renderingNG, an ambitious refactoring"
+    },
+    {
+      "end": "00:00:25.984",
+      "start": "00:00:22.981",
+      "text": " of Chromium's rendering engine."
+    },
+    {
+      "end": "00:00:31.573",
+      "start": "00:00:25.984",
+      "text": " This work has now largely landed, and it's enabling a major evolution in Web User Experience"
+    },
+    {
+      "end": "00:00:32.574",
+      "start": "00:00:31.573",
+      "text": " design."
+    },
+    {
+      "end": "00:00:36.787",
+      "start": "00:00:32.574",
+      "text": " To tell us more, I'll hand things over to you now."
+    },
+    {
+      "end": "00:00:37.788",
+      "start": "00:00:36.787",
+      "text": " Thank you."
+    },
+    {
+      "end": "00:00:41.583",
+      "start": "00:00:37.788",
+      "text": " Everything we've talked about today comes back to the user experience."
+    },
+    {
+      "end": "00:00:47.589",
+      "start": "00:00:41.583",
+      "text": " Privacy, measurement, next-gen web capabilities, they all work together to create better experiences"
+    },
+    {
+      "end": "00:00:51.510",
+      "start": "00:00:47.589",
+      "text": " that align with our vision for the web, while giving developers the tools and capabilities"
+    },
+    {
+      "end": "00:00:53.512",
+      "start": "00:00:51.510",
+      "text": " they need to build them."
+    },
+    {
+      "end": "00:00:57.599",
+      "start": "00:00:53.512",
+      "text": " So today, I'm excited to share a ton of updates and changes coming down the pipeline for"
+    },
+    {
+      "end": "00:00:59.518",
+      "start": "00:00:57.599",
+      "text": " UI styling and dev tools."
+    },
+    {
+      "end": "00:01:04.106",
+      "start": "00:00:59.518",
+      "text": " First, let's talk about responsive design and how it's evolving."
+    },
+    {
+      "end": "00:01:07.818",
+      "start": "00:01:04.106",
+      "text": " Responsive design is no longer just about making sure an interface looks good on both desktop"
+    },
+    {
+      "end": "00:01:09.653",
+      "start": "00:01:07.818",
+      "text": " and mobile devices."
+    },
+    {
+      "end": "00:01:15.158",
+      "start": "00:01:09.653",
+      "text": " Developers now have the tools to really create customized user experiences based on personalized"
+    },
+    {
+      "end": "00:01:19.246",
+      "start": "00:01:15.158",
+      "text": " user preferences and a component-driven architecture model."
+    },
+    {
+      "end": "00:01:22.332",
+      "start": "00:01:19.246",
+      "text": " We're calling this the new responsive, and it includes."
+    },
+    {
+      "end": "00:01:26.545",
+      "start": "00:01:22.332",
+      "text": " Being responsive to the user with user preference queries and modalities like dark mode and"
+    },
+    {
+      "end": "00:01:28.380",
+      "start": "00:01:26.545",
+      "text": " prefers reduced motion."
+    },
+    {
+      "end": "00:01:34.136",
+      "start": "00:01:28.380",
+      "text": " Being responsive to new form factors like foldable devices, which allow for multi-display functionality."
+    },
+    {
+      "end": "00:01:38.140",
+      "start": "00:01:34.136",
+      "text": " And being responsive to other components on the page with container queries."
+    },
+    {
+      "end": "00:01:41.143",
+      "start": "00:01:38.140",
+      "text": " This is a feature that's been highly requested by developers."
+    },
+    {
+      "end": "00:01:44.604",
+      "start": "00:01:41.143",
+      "text": " We've been working with the CSS Working Group to spec this feature and have been able"
+    },
+    {
+      "end": "00:01:49.568",
+      "start": "00:01:44.604",
+      "text": " to unlock the implementation through recent changes in the Chrome rendering engine."
+    },
+    {
+      "end": "00:01:53.989",
+      "start": "00:01:49.568",
+      "text": " The new container query spec lets you access a parent elements width to make styling decisions"
+    },
+    {
+      "end": "00:01:55.365",
+      "start": "00:01:53.989",
+      "text": " for its children."
+    },
+    {
+      "end": "00:02:00.871",
+      "start": "00:01:55.365",
+      "text": " You can even nest container queries and create named queries for easier access and organization."
+    },
+    {
+      "end": "00:02:03.040",
+      "start": "00:02:00.871",
+      "text": " Let's take a look at an example."
+    },
+    {
+      "end": "00:02:07.836",
+      "start": "00:02:03.040",
+      "text": " Here I have a responsive add to cart button that I can place anywhere in the container."
+    },
+    {
+      "end": "00:02:12.466",
+      "start": "00:02:07.836",
+      "text": " Then when I put it inside of this product card, which is also a container, I can query"
+    },
+    {
+      "end": "00:02:17.721",
+      "start": "00:02:12.466",
+      "text": " the product card itself to re-style the already responsive button and shift it from being"
+    },
+    {
+      "end": "00:02:20.432",
+      "start": "00:02:17.721",
+      "text": " center aligned to left aligned."
+    },
+    {
+      "end": "00:02:24.227",
+      "start": "00:02:20.432",
+      "text": " This might look simple on the surface, but it's something that wasn't previously possible"
+    },
+    {
+      "end": "00:02:28.982",
+      "start": "00:02:24.227",
+      "text": " without a lot of heavy scripting which would significantly slow down your page."
+    },
+    {
+      "end": "00:02:32.861",
+      "start": "00:02:28.982",
+      "text": " We're working with the open source community to provide a polyfill for container queries"
+    },
+    {
+      "end": "00:02:35.405",
+      "start": "00:02:32.861",
+      "text": " as we build the feature into the platform."
+    },
+    {
+      "end": "00:02:39.326",
+      "start": "00:02:35.405",
+      "text": " Using container queries makes your interface as much more flexible."
+    },
+    {
+      "end": "00:02:43.872",
+      "start": "00:02:39.326",
+      "text": " Components own all of their individual responsive styles, write where they are, and don't rely"
+    },
+    {
+      "end": "00:02:46.500",
+      "start": "00:02:43.872",
+      "text": " on the global viewport to adjust styles."
+    },
+    {
+      "end": "00:02:51.421",
+      "start": "00:02:46.500",
+      "text": " This is a huge paradigm shift for component-based developments, and we're excited to see how"
+    },
+    {
+      "end": "00:02:53.715",
+      "start": "00:02:51.421",
+      "text": " you make the most of this new feature."
+    },
+    {
+      "end": "00:02:57.677",
+      "start": "00:02:53.715",
+      "text": " If you want to try it out, container queries are now available for testing behind a flag"
+    },
+    {
+      "end": "00:03:00.138",
+      "start": "00:02:57.677",
+      "text": " in Chrome Canary."
+    },
+    {
+      "end": "00:03:03.975",
+      "start": "00:03:00.138",
+      "text": " And because of this big shift, we've been working hard to support you by providing dev"
+    },
+    {
+      "end": "00:03:09.731",
+      "start": "00:03:03.975",
+      "text": " tools that allow you to debug and style with container queries as the feature launches."
+    },
+    {
+      "end": "00:03:13.860",
+      "start": "00:03:09.731",
+      "text": " Here you can see that dev tools is pointing out where the container for the child is and"
+    },
+    {
+      "end": "00:03:17.656",
+      "start": "00:03:13.860",
+      "text": " highlighting the styles that are being applied by it."
+    },
+    {
+      "end": "00:03:21.618",
+      "start": "00:03:17.656",
+      "text": " Speaking of responsive dev tools, we released several new tools this year for better layout"
+    },
+    {
+      "end": "00:03:22.953",
+      "start": "00:03:21.618",
+      "text": " debugging."
+    },
+    {
+      "end": "00:03:27.416",
+      "start": "00:03:22.953",
+      "text": " Layout tooling for Grid now allows you to add names to specific grid lines and also shows"
+    },
+    {
+      "end": "00:03:29.543",
+      "start": "00:03:27.416",
+      "text": " you the size of your grid areas."
+    },
+    {
+      "end": "00:03:33.422",
+      "start": "00:03:29.543",
+      "text": " I also love the dynamic new tools for Flexbox and Grid."
+    },
+    {
+      "end": "00:03:37.467",
+      "start": "00:03:33.422",
+      "text": " These let you actually see what different property values do on the page and give you the"
+    },
+    {
+      "end": "00:03:41.888",
+      "start": "00:03:37.467",
+      "text": " ability to easily change layout rules with the click of a button."
+    },
+    {
+      "end": "00:03:46.435",
+      "start": "00:03:41.888",
+      "text": " These new dev tools are designed to make CSS layout easier to visualize and understand,"
+    },
+    {
+      "end": "00:03:50.605",
+      "start": "00:03:46.435",
+      "text": " which frees up more time to build new features for your users and less time looking up the"
+    },
+    {
+      "end": "00:03:54.067",
+      "start": "00:03:50.605",
+      "text": " differences between justify and align."
+    },
+    {
+      "end": "00:03:58.363",
+      "start": "00:03:54.067",
+      "text": " Another way we're helping simplify the process is by launching Web.dev Patterns, a collection"
+    },
+    {
+      "end": "00:04:02.117",
+      "start": "00:03:58.363",
+      "text": " of off-the-shelf UI patterns you can use in your web projects."
+    },
+    {
+      "end": "00:04:06.496",
+      "start": "00:04:02.117",
+      "text": " To help you quickly get started with building the base of your UI, we've added layout patterns"
+    },
+    {
+      "end": "00:04:11.460",
+      "start": "00:04:06.496",
+      "text": " for everything from large full-page spreads and card sets to smaller layouts that can live"
+    },
+    {
+      "end": "00:04:15.672",
+      "start": "00:04:11.460",
+      "text": " within those larger layouts such as the cards themselves."
+    },
+    {
+      "end": "00:04:20.844",
+      "start": "00:04:15.672",
+      "text": " All of these patterns use CSS Grid, Flexbox, or Container queries to showcase how quickly"
+    },
+    {
+      "end": "00:04:24.848",
+      "start": "00:04:20.844",
+      "text": " you can pick up these tools and build interfaces from the ground up."
+    },
+    {
+      "end": "00:04:29.686",
+      "start": "00:04:24.848",
+      "text": " We're also partnering with Jeremy Keith of ClearLift to launch Learn Responsive Design"
+    },
+    {
+      "end": "00:04:31.104",
+      "start": "00:04:29.686",
+      "text": " on Web.dev."
+    },
+    {
+      "end": "00:04:34.733",
+      "start": "00:04:31.104",
+      "text": " This is a free online course with everything you need to know about designing for the new"
+    },
+    {
+      "end": "00:04:36.610",
+      "start": "00:04:34.733",
+      "text": " responsive web of today."
+    },
+    {
+      "end": "00:04:41.239",
+      "start": "00:04:36.610",
+      "text": " You'll learn about theming, art direction, logical properties for intrationalization,"
+    },
+    {
+      "end": "00:04:44.159",
+      "start": "00:04:41.239",
+      "text": " utilizing preference queries, and so much more."
+    },
+    {
+      "end": "00:04:48.538",
+      "start": "00:04:44.159",
+      "text": " Today we're launching the first few course modules at Web.dev slash Learn slash design"
+    },
+    {
+      "end": "00:04:51.416",
+      "start": "00:04:48.538",
+      "text": " with more to come in the following weeks."
+    },
+    {
+      "end": "00:04:55.378",
+      "start": "00:04:51.416",
+      "text": " We're also updating our Learn CSS course with six new modules."
+    },
+    {
+      "end": "00:04:59.925",
+      "start": "00:04:55.378",
+      "text": " Learn CSS is another free evergreen course in reference on Web.dev where you can level"
+    },
+    {
+      "end": "00:05:02.719",
+      "start": "00:04:59.925",
+      "text": " up your CSS knowledge and test your skills."
+    },
+    {
+      "end": "00:05:07.599",
+      "start": "00:05:02.719",
+      "text": " We launched the first 24 modules at Google I.O this year and now we're introducing lists,"
+    },
+    {
+      "end": "00:05:12.312",
+      "start": "00:05:07.599",
+      "text": " backgrounds, transitions, text, and typography, media queries and more."
+    },
+    {
+      "end": "00:05:15.524",
+      "start": "00:05:12.312",
+      "text": " Be sure to check out those new modules and dive in whenever you're ready."
+    },
+    {
+      "end": "00:05:19.277",
+      "start": "00:05:15.524",
+      "text": " We're also working on rolling out some new features in CSS."
+    },
+    {
+      "end": "00:05:22.948",
+      "start": "00:05:19.277",
+      "text": " In addition to Container queries, our team has been thinking about how to introduce scope"
+    },
+    {
+      "end": "00:05:24.741",
+      "start": "00:05:22.948",
+      "text": " styles and cascade layers."
+    },
+    {
+      "end": "00:05:28.328",
+      "start": "00:05:24.741",
+      "text": " They're not ready just yet and we look forward to working with you and the web community"
+    },
+    {
+      "end": "00:05:31.498",
+      "start": "00:05:28.328",
+      "text": " over the next few months to push them forward."
+    },
+    {
+      "end": "00:05:37.462",
+      "start": "00:05:31.498",
+      "text": " We do have a particularly fun new API that's ready for exploration and that's scroll timeline."
+    },
+    {
+      "end": "00:05:42.592",
+      "start": "00:05:37.462",
+      "text": " Previously you could create CSS animations ahead a time basis and moved over a length of"
+    },
+    {
+      "end": "00:05:43.927",
+      "start": "00:05:42.592",
+      "text": " time."
+    },
+    {
+      "end": "00:05:49.307",
+      "start": "00:05:43.927",
+      "text": " Scroll timeline lets you set scroll based offsets and timings for animations instead."
+    },
+    {
+      "end": "00:05:54.479",
+      "start": "00:05:49.307",
+      "text": " That means you can set an element to animate as you scroll down or across a page."
+    },
+    {
+      "end": "00:05:55.564",
+      "start": "00:05:54.479",
+      "text": " Pretty neat."
+    },
+    {
+      "end": "00:06:01.903",
+      "start": "00:05:55.564",
+      "text": " You can explore scroll timeline using the experimental web platform features flag in Canary."
+    },
+    {
+      "end": "00:06:05.699",
+      "start": "00:06:01.903",
+      "text": " We have another exciting addition that recently reached its first public working draft and"
+    },
+    {
+      "end": "00:06:07.867",
+      "start": "00:06:05.699",
+      "text": " that's CSS nesting."
+    },
+    {
+      "end": "00:06:12.956",
+      "start": "00:06:07.867",
+      "text": " Nesting is a syntactic sugar that brings one of the most popular features of CSS preprocessors"
+    },
+    {
+      "end": "00:06:17.168",
+      "start": "00:06:12.956",
+      "text": " to the web, stacking your styles for a cleaner developer experience."
+    },
+    {
+      "end": "00:06:21.464",
+      "start": "00:06:17.168",
+      "text": " While the nesting spec will let you keep your styles tidier and more encapsulated, we recommend"
+    },
+    {
+      "end": "00:06:25.427",
+      "start": "00:06:21.464",
+      "text": " that you don't go more than three layers deep to ensure the best performance."
+    },
+    {
+      "end": "00:06:29.472",
+      "start": "00:06:25.427",
+      "text": " We've also launched the size adjust property for typography."
+    },
+    {
+      "end": "00:06:33.727",
+      "start": "00:06:29.472",
+      "text": " This is particularly useful for preventing cumulative layout shift for core web titles as"
+    },
+    {
+      "end": "00:06:37.689",
+      "start": "00:06:33.727",
+      "text": " you can adjust the default font to better match your web font."
+    },
+    {
+      "end": "00:06:40.859",
+      "start": "00:06:37.689",
+      "text": " This causes less jank as the web font loads in."
+    },
+    {
+      "end": "00:06:45.488",
+      "start": "00:06:40.859",
+      "text": " And last but not least, accent color just landed in chromium and Firefox stable."
+    },
+    {
+      "end": "00:06:49.701",
+      "start": "00:06:45.488",
+      "text": " Accent color is a one line CSS superpower that gives your form controls like checkboxes"
+    },
+    {
+      "end": "00:06:52.954",
+      "start": "00:06:49.701",
+      "text": " and radios a theme color to match your brand."
+    },
+    {
+      "end": "00:06:57.417",
+      "start": "00:06:52.954",
+      "text": " We get a lot of feature requests from developers and users alike, but one is a clear favorite"
+    },
+    {
+      "end": "00:07:01.212",
+      "start": "00:06:57.417",
+      "text": " especially for those of you who love to browse the web at night."
+    },
+    {
+      "end": "00:07:05.300",
+      "start": "00:07:01.212",
+      "text": " Dark mode is a popular feature we're really excited to build on and not just because you"
+    },
+    {
+      "end": "00:07:10.305",
+      "start": "00:07:05.300",
+      "text": " ask for it, but because its impact extends beyond the user interface."
+    },
+    {
+      "end": "00:07:14.726",
+      "start": "00:07:10.305",
+      "text": " Dark themes have shown measurable battery life savings over their light theme counterparts"
+    },
+    {
+      "end": "00:07:17.062",
+      "start": "00:07:14.726",
+      "text": " on OLED devices."
+    },
+    {
+      "end": "00:07:22.233",
+      "start": "00:07:17.062",
+      "text": " In our lab study with a single pixel six device, we found an indication that at 60% brightness,"
+    },
+    {
+      "end": "00:07:28.114",
+      "start": "00:07:22.233",
+      "text": " dark themes used 11% less power than light themes for OLED screens."
+    },
+    {
+      "end": "00:07:30.825",
+      "start": "00:07:28.114",
+      "text": " And it's a feature that users love too."
+    },
+    {
+      "end": "00:07:35.538",
+      "start": "00:07:30.825",
+      "text": " And Twitter released the first preview version of their new Twitter progressive web app."
+    },
+    {
+      "end": "00:07:39.334",
+      "start": "00:07:35.538",
+      "text": " Everyone said, wow, it's new and fast, where's dark mode?"
+    },
+    {
+      "end": "00:07:43.546",
+      "start": "00:07:39.334",
+      "text": " So they surveyed users on what they needed to add and users said three things."
+    },
+    {
+      "end": "00:07:46.383",
+      "start": "00:07:43.546",
+      "text": " Dark mode and emoji picker and more dark mode."
+    },
+    {
+      "end": "00:07:50.679",
+      "start": "00:07:46.383",
+      "text": " So it's kind of a big deal to a lot of very vocal users."
+    },
+    {
+      "end": "00:07:54.766",
+      "start": "00:07:50.679",
+      "text": " To create a dark theme, we recommend using CSS custom properties and they prefer color"
+    },
+    {
+      "end": "00:07:58.770",
+      "start": "00:07:54.766",
+      "text": " scheme media feature, which is supported in all evergreen browsers."
+    },
+    {
+      "end": "00:08:03.066",
+      "start": "00:07:58.770",
+      "text": " This lets you swap theme colors in and out based on what your users prefer, a core part"
+    },
+    {
+      "end": "00:08:06.444",
+      "start": "00:08:03.066",
+      "text": " of our new responsive framework and set of goals."
+    },
+    {
+      "end": "00:08:09.948",
+      "start": "00:08:06.444",
+      "text": " If you need help getting dark mode set up the way you like it, there's some excellent"
+    },
+    {
+      "end": "00:08:13.493",
+      "start": "00:08:09.948",
+      "text": " new guidance from the material design team by their research on building beautiful dark"
+    },
+    {
+      "end": "00:08:14.619",
+      "start": "00:08:13.493",
+      "text": " themes."
+    },
+    {
+      "end": "00:08:18.915",
+      "start": "00:08:14.619",
+      "text": " This includes how to adjust depth by using lightness instead of shadows, how to adjust"
+    },
+    {
+      "end": "00:08:22.502",
+      "start": "00:08:18.915",
+      "text": " color vibrancy to reduce visual vibration and more."
+    },
+    {
+      "end": "00:08:26.297",
+      "start": "00:08:22.502",
+      "text": " But to make it even easier for your team, Chrome is working on a machine learning-aided"
+    },
+    {
+      "end": "00:08:28.133",
+      "start": "00:08:26.297",
+      "text": " auto dark algorithm feature."
+    },
+    {
+      "end": "00:08:32.804",
+      "start": "00:08:28.133",
+      "text": " This feature will include auto darkened websites along with a few affordances to opt out of"
+    },
+    {
+      "end": "00:08:36.474",
+      "start": "00:08:32.804",
+      "text": " the auto dark functionality on a more granular level."
+    },
+    {
+      "end": "00:08:40.478",
+      "start": "00:08:36.474",
+      "text": " We're still in the early stages of feature development and we need your help to get it"
+    },
+    {
+      "end": "00:08:41.479",
+      "start": "00:08:40.478",
+      "text": " right."
+    },
+    {
+      "end": "00:08:45.442",
+      "start": "00:08:41.479",
+      "text": " To try it out now, you can open the DevTools rendering panel in Chrome Canary and enable"
+    },
+    {
+      "end": "00:08:47.610",
+      "start": "00:08:45.442",
+      "text": " auto dark mode emulation."
+    },
+    {
+      "end": "00:08:50.655",
+      "start": "00:08:47.610",
+      "text": " Check out the link to learn more and to give us your thoughts."
+    },
+    {
+      "end": "00:08:53.241",
+      "start": "00:08:50.655",
+      "text": " Now I'll pass back to Ben one last time."
+    },
+    {
+      "end": "00:08:55.034",
+      "start": "00:08:53.241",
+      "text": " Thanks, Yuna."
+    },
+    {
+      "end": "00:08:59.205",
+      "start": "00:08:55.744",
+      "text": " You know, we've seen a lot of change in the web over the past year and we're still"
+    },
+    {
+      "end": "00:09:03.710",
+      "start": "00:08:59.205",
+      "text": " more optimistic than ever about the future of the platform across the areas we just talked"
+    },
+    {
+      "end": "00:09:06.296",
+      "start": "00:09:03.710",
+      "text": " about and more."
+    },
+    {
+      "end": "00:09:11.926",
+      "start": "00:09:06.296",
+      "text": " In the years ahead, you can expect to see us continue to push hard to make the web more"
+    },
+    {
+      "end": "00:09:18.725",
+      "start": "00:09:11.926",
+      "text": " private and powerful and to provide developers with better tools and guidance to create top"
+    },
+    {
+      "end": "00:09:21.436",
+      "start": "00:09:18.725",
+      "text": " quality experiences for people all over the world."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Chrome for Developers",
+  "youtube_channel_follower_count": 757000,
+  "youtube_comment_count": 269,
+  "youtube_description": "Join us as we discuss the latest updates on UI styling, DevTools, and the evolution of responsive design.  \n\nResources:\nThe new responsive: Web design in a component-driven world → https://goo.gle/WebDevNewResponsive\nLearn responsive design → https://goo.gle/WebDevLearnDesign\nLearn CSS → https://goo.gle/WebDevLearnCSS\nCSS accent-color → https://goo.gle/WebDevAccentColor\nCSS size-adjust for @font-face → https://goo.gle/WebDevSizeAdjust\nBuilding a color scheme → https://goo.gle/WebDevColorScheme\n\nWatch more:\nWatch all Chrome Developer Summit videos → https://goo.gle/cds21-allsessions\n\nSubscribe to Google Chrome Developers → https://goo.gle/ChromeDevs\n\n#ChromeDevSummit",
+  "youtube_like_count": 11283,
+  "youtube_tags": [
+    "Chrome Dev Summit",
+    "Chrome Dev Summit 21",
+    "Chrome Dev Summit 2021",
+    "Chrome",
+    "Chrome Developers",
+    "Chrome Development",
+    "what's new in chrome",
+    "chrome development updates",
+    "Chrome developer updates",
+    "new in chrome",
+    "type: Conference Talk (Full production)",
+    "pr_pr: Chrome"
+  ],
+  "youtube_title": "The new responsive design",
+  "youtube_upload_date": "20211115",
+  "youtube_view_count": 282624
+}

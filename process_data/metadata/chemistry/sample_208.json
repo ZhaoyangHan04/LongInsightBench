@@ -1,0 +1,752 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "none",
+        "description": "There are no identifiable characters in this video. It primarily uses text and diagrams for explanation.",
+        "name": "None"
+      }
+    ],
+    "description": "A detailed video presentation explaining the derivation of Nernst's equation using electrochemical principles, chemical equilibrium, and thermodynamics.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "M^n+ + ne^- ⇌ M, where M^n+ represents the metal ion in solution, ne^- represents n number of electrons, and M represents the metal in its solid state.",
+        "question": "What is the chemical reaction occurring at the metal-solution interface?"
+      },
+      {
+        "answer": "The HED arises due to a potential difference between the metal and the solution. This potential difference is known as the electrode potential.",
+        "question": "What is the significance of the electrical double layer (HED)?"
+      },
+      {
+        "answer": "W_max depends on the number of Coulombs of charge flowing across the interface (nF) and the energy available for each Coulomb (E).",
+        "question": "What factors influence the maximum electrical work done (W_max) at equilibrium?"
+      },
+      {
+        "answer": "Van't Hoff's reaction isotherm: ∆G = ∆G° + RT ln K, where ∆G° is the standard free energy change, R is the gas constant, T is the temperature in Kelvin, and K is the equilibrium constant.",
+        "question": "What is the key equation used to relate the change in free energy (∆G) with temperature and equilibrium constant?"
+      },
+      {
+        "answer": "By measuring the EMF of a cell containing a hydrogen electrode and the unknown solution, and using the simplified Nernst equation at 298K, one can calculate the hydrogen ion concentration [H+], which is directly related to the pH of the solution.",
+        "question": "How does the Nernst equation help in determining the pH of an unknown solution?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene provides introductory context and establishes the topic of the video.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the video topic and brief overview of the content to be covered.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title card: \"Derivation of Nernst's Equation\"",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Presentation slide: \"Contents\", with bullet points \"Nernst's equation - Derivation\" and \"Applications\"",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Electrochemistry, Thermodynamics.",
+        "timestamps": {
+          "end_timestamp": "00:00:17.600",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Simple transition between title card and presentation slide.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene explains the setup of the electrode system and introduces key reactions and constants.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of a basic electrode system using a metal rod in its solution.",
+            "timestamp": "00:00:23.000"
+          },
+          {
+            "description": "Explanation of the spontaneous reaction within the electrode system.",
+            "timestamp": "00:00:39.000"
+          },
+          {
+            "description": "Introduction of the equilibrium constant (K) based on the Law of Mass Action.",
+            "timestamp": "00:00:51.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide: \"Derivation of Nernst's equation\"",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:17.633"
+            }
+          },
+          {
+            "name": "Diagram of a beaker with a metal strip dipped in a solution",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:17.633"
+            }
+          },
+          {
+            "name": "Text labels: \"Metal strip,\" \"Metal sulphate solution (1 mol dm^-3),\" \"Zn/Zn^2+\"",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:17.633"
+            }
+          },
+          {
+            "name": "Chemical equation: \"M^n+ + ne^- ⇌ M.........(i)\"",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:39.000"
+            }
+          },
+          {
+            "name": "Chemical equation: \"K = [M]/[M^n+]..............(ii)\"",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Electrochemistry, Chemical equilibrium, Law of mass action.",
+        "timestamps": {
+          "end_timestamp": "00:01:11.167",
+          "start_timestamp": "00:00:17.633"
+        },
+        "title": "Introduction to Electrode System",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene explains the concept of electrical double layer formation and its importance to the electrode potential.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the electrical double layer (HED).",
+            "timestamp": "00:01:11.200"
+          },
+          {
+            "description": "Explanation of the origin of electrode potential due to HED.",
+            "timestamp": "00:01:22.000"
+          },
+          {
+            "description": "Introduction of maximum electrical work done (W_max) at equilibrium.",
+            "timestamp": "00:01:46.000"
+          },
+          {
+            "description": "Explanation of the factors affecting W_max: number of Coulombs (nF) and energy per Coulomb (E).",
+            "timestamp": "00:01:58.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide: \"Derivation of Nernst's equation (continue)\"",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:11.200"
+            }
+          },
+          {
+            "name": "Diagram of a beaker with a metal rod dipped in a solution, focusing on the interface between metal and solution",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:11.200"
+            }
+          },
+          {
+            "name": "Text labels: \"Metal rod,\" \"Solution\"",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:11.200"
+            }
+          },
+          {
+            "name": "Text box: \"Electrical double layer (HED)\"",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "name": "Text box: \"At equilibrium, electrical work done is maximum. It is referred to as W_max\"",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:46.000"
+            }
+          },
+          {
+            "name": "Text box: \"The maximum electrical work done (W_max) depends upon (i) Number of Coulombs of charge flowing across the interphase (nF) (ii) Energy available for each coulomb (E)\"",
+            "timestamp": {
+              "end_timestamp": "00:02:13.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Electrochemistry, Electrical double layer, Electrode potential, Electrical work.",
+        "timestamps": {
+          "end_timestamp": "00:02:13.867",
+          "start_timestamp": "00:01:11.200"
+        },
+        "title": "Formation of Electrical Double Layer",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene links the concepts of electrical work and free energy changes, important for understanding electrode reactions.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Definition of W_max in terms of nF and E.",
+            "timestamp": "00:02:14.000"
+          },
+          {
+            "description": "Rearrangement of W_max equation based on Faraday's Law.",
+            "timestamp": "00:02:19.000"
+          },
+          {
+            "description": "Relationship between decrease in free energy and maximum electrical work done.",
+            "timestamp": "00:02:33.000"
+          },
+          {
+            "description": "Expressing ∆G and ∆G° in terms of nEF and nE°F respectively.",
+            "timestamp": "00:02:45.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide: \"Derivation of Nernst's equation (continue)\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:13.900"
+            }
+          },
+          {
+            "name": "Equations: \"W_max = (nF)(E)\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:14.000"
+            }
+          },
+          {
+            "name": "\"W_max = nEF.............3\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          },
+          {
+            "name": "Text box: \"According to Faraday's law, 1 mole of electrons = 1 Faraday of charge\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:19.000"
+            }
+          },
+          {
+            "name": "Text box: \"Decrease in free energy = Maximum electrical work done\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:33.000"
+            }
+          },
+          {
+            "name": "Equations: \"-∆G = W_max\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          },
+          {
+            "name": "\"But, W_max = nEF\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          },
+          {
+            "name": "\"∆G = -nEF..............4\"",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          },
+          {
+            "name": "\"Similarly, -∆G° = nE°F..............5",
+            "timestamp": {
+              "end_timestamp": "00:03:07.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Electrochemistry, Faraday's law, Free energy.",
+        "timestamps": {
+          "end_timestamp": "00:03:07.000",
+          "start_timestamp": "00:02:13.900"
+        },
+        "title": "Relating Work and Free Energy",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene completes the derivation of Nernst's equation, essential for understanding its practical applications.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of Van't Hoff's reaction isotherm.",
+            "timestamp": "00:03:07.033"
+          },
+          {
+            "description": "Substitution of ∆G and ∆G° into the Van't Hoff equation to derive the general Nernst Equation.",
+            "timestamp": "00:03:44.000"
+          },
+          {
+            "description": "Rearrangement of the general Nernst equation to express E in terms of E°, R, T, n, F and metal ion concentration.",
+            "timestamp": "00:04:03.000"
+          },
+          {
+            "description": "Substitution of values for R, T and F at 298K to derive a simplified Nernst Equation for calculations.",
+            "timestamp": "00:04:18.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide: \"Derivation of Nernst's equation (continue)\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:07.033"
+            }
+          },
+          {
+            "name": "Equation: \"∆G = ∆G° + RT ln K..............6\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:07.033"
+            }
+          },
+          {
+            "name": "Text box: \"Van't hoff's reaction isotherm\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:07.033"
+            }
+          },
+          {
+            "name": "Equation: \"nEF = nE°F - RT/nF ln [M]/[M^n+]\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:03:44.000"
+            }
+          },
+          {
+            "name": "Equation: \"E = E° - 2.303RT/nF log [1]/[M^n+]\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:03.000"
+            }
+          },
+          {
+            "name": "Text box: \"T=298K\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:11.000"
+            }
+          },
+          {
+            "name": "Text labels: \"R= 8.314 J/K, mol,\" \"F= 96500 C/mol\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:11.000"
+            }
+          },
+          {
+            "name": "Equation: \"E = E° - 0.0591/n log [1]/[M^n+]\"",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:18.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Electrochemistry, Van't Hoff's reaction isotherm, Nernst equation.",
+        "timestamps": {
+          "end_timestamp": "00:05:26.700",
+          "start_timestamp": "00:03:07.033"
+        },
+        "title": "Deriving and Simplifying Nernst Equation",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Presentation of the simplified Nernst equation at a specific temperature after substituting values for constants.",
+        "timestamp": "00:04:18.000"
+      },
+      "description": "A complete walkthrough of the derivation of Nernst's Equation using electrochemical and thermodynamic principles.",
+      "scenes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Derivation of Nernst's Equation",
+    "trimmingSuggestions": [
+      {
+        "description": "Reduce time spent on static equations by verbally explaining steps and highlighting key changes.",
+        "timestamps": {
+          "end_timestamp": "00:04:56.000",
+          "start_timestamp": "00:03:07.033"
+        }
+      },
+      {
+        "description": "Use animations or dynamic visuals, especially to illustrate formation of the electrical double layer (HED).",
+        "timestamps": {
+          "end_timestamp": "00:03:07.033",
+          "start_timestamp": "00:03:07.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 327,
+  "original_json_filename": "BufmCjkrtQ8.json",
+  "original_video_filename": "BufmCjkrtQ8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in today's class we will derive a quantitative relationship between free energy change and potential of an electrode by using thermodynamical concept that is nest equation and its applications derivation of nourished equation let us consider a metal rod dipped in its solution for example zinc rod dipped in zinc sulphate are copper are dipped in copper sulphate or any metal dipped in its solution as a result an electrode system develops for such an electrode assembly spontaneous reaction can be given as it is metal ion will combine with n number of electron is reversible with metal called as equation number one as this system is in equilibrium by using law of mass section we can calculate the equilibrium constant equilibrium constant k equals to constant risk of the product divided by concentration of the reactant that is k is equal to concentration of the metal divided by concentration of metal ion called as equation number two as the reaction proceeds there is a formation of electrical double layer that is helmholtz electrical double layer hed this arises due to the potential difference between metal and the solution at the contact are at the inter surface it is called as electrode potential this electro potential can be defined as the potential that exists between the metal and its ions in solution at their equilibrium when they are in contact with each other because of formation of electrical double layer some sort of electrical work done at the contact position at equilibrium it is called as w maximum this w maximum mainly depend upon two factors we don't know how many number of charges flowing across the inter surface and where's the energy available for each column that is n f and e also w maximum given as multiplication of n f and e this equation can be realized as w maximum is equal to n into e into f this is based on according to fardeslaw one mole of electrons is equal to one third of charge as the reaction spontaneous there is a decrease in free energy this decrease in free energy is equal to maximum electrical work done delta g is equal to w maximum but delta g is negative for spontaneous reaction we know that w maximum is equal to n e f by substituting this value delta g is equal to minus n ef called as equation number four similarly we can write delta g net relation also called as equation number five where delta z naught and e naught are the change in free energy and electrode potential under standard conditions respectively delta z change in frequency it varies with the temperature and concentration of the product as well as reactants it is given by one relation called vantov's reaction isotherm delta z is equal to delta g naught plus rt lan k called as equation number six substitute the value of delta g and delta g naught in the equation number six we will get this equation k value concentration of the metal divided by concentration of the metal ion and delta g value minus n e f and delta g net value minus n e f on rearranging and convert converting natural logarithm to base 10 looking at final equation like this this equation is called as nurse equation at 298 kelvin by substituting the value of r and f we can get the final equation it is also another equation e is equal to e naught minus 0.059 1 divided by n log of 1 over meter ion concentration this nest equation is useful in calculating the potential of electrode and emf of a cell at any temperature and concentration knowing the potential of electrode the concentration of the reactant can be calculated the concentration of a solution in the caloric cell is also measured by using nest equation with the help of nernst equation we can calculate the ph of unknown solution by measuring the emf of a cell also in this equation e naught is standard electropotential it is defined as the potential that exists between metal and its solution of unit concentration at 298 kelvin when sum of partial process of gaseous reactant and products is equal to one atmosphere pressure",
+  "text_to_speech_word_count": 713,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.000",
+      "start": "00:00:00.000",
+      "text": " In today's class, we will derive a quantitative relationship between free energy change and"
+    },
+    {
+      "end": "00:00:14.400",
+      "start": "00:00:10.000",
+      "text": " potential for an electrode by using thermodynamic concept."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:14.400",
+      "text": " That is nest equation and its applications."
+    },
+    {
+      "end": "00:00:22.300",
+      "start": "00:00:19.000",
+      "text": " Derivation of nest equation."
+    },
+    {
+      "end": "00:00:25.500",
+      "start": "00:00:22.300",
+      "text": " Let us consider a metal rod depredinit solution."
+    },
+    {
+      "end": "00:00:32.500",
+      "start": "00:00:25.500",
+      "text": " For example, zinc rod depredin, zinc sulphate or copper rod depredin, copper sulphate or any metal rod depredinit solution."
+    },
+    {
+      "end": "00:00:36.500",
+      "start": "00:00:32.500",
+      "text": " As a result, an electrode system develops."
+    },
+    {
+      "end": "00:00:43.500",
+      "start": "00:00:36.500",
+      "text": " For such an electrode assembly, spontaneous reaction can be given as it is."
+    },
+    {
+      "end": "00:00:50.500",
+      "start": "00:00:43.500",
+      "text": " Metal ion will come in with N number of electron is reversible with metal, called as the question number 1."
+    },
+    {
+      "end": "00:00:57.500",
+      "start": "00:00:50.500",
+      "text": " As this system is an equilibrium by using law of mass action, we can calculate the equilibrium constant."
+    },
+    {
+      "end": "00:01:04.500",
+      "start": "00:00:57.500",
+      "text": " Equal to K equals to concentration of the product divided by concentration of the reactant."
+    },
+    {
+      "end": "00:01:11.500",
+      "start": "00:01:04.500",
+      "text": " That is K is equal to concentration of the metal divided by concentration of metal ion called as equation number 2."
+    },
+    {
+      "end": "00:01:17.500",
+      "start": "00:01:12.500",
+      "text": " As the reaction proceeds, there is a formation of electrical double layer."
+    },
+    {
+      "end": "00:01:22.500",
+      "start": "00:01:17.500",
+      "text": " That is Helmholtz electrical double layer HED."
+    },
+    {
+      "end": "00:01:31.500",
+      "start": "00:01:22.500",
+      "text": " This arises due to the potential difference between metal and the solution at the contact or at the intersurface."
+    },
+    {
+      "end": "00:01:34.500",
+      "start": "00:01:31.500",
+      "text": " It is called as electrode potential."
+    },
+    {
+      "end": "00:01:46.500",
+      "start": "00:01:34.500",
+      "text": " This electrode potential can be defined as the potential that exists between the metal and its ions in solution at the equilibrium when they are in contact with each other."
+    },
+    {
+      "end": "00:01:53.500",
+      "start": "00:01:46.500",
+      "text": " Because of formation of electrical double layer, some sort of electrical work done at the contact position."
+    },
+    {
+      "end": "00:01:58.500",
+      "start": "00:01:53.500",
+      "text": " At the equilibrium, it is called as double maximum."
+    },
+    {
+      "end": "00:02:02.500",
+      "start": "00:01:58.500",
+      "text": " This double maximum mainly depends upon two factors."
+    },
+    {
+      "end": "00:02:09.500",
+      "start": "00:02:02.500",
+      "text": " We do not know how many charges flowing across the intersurface and where the energy available for each couloum."
+    },
+    {
+      "end": "00:02:13.500",
+      "start": "00:02:09.500",
+      "text": " That is NF and E also."
+    },
+    {
+      "end": "00:02:19.500",
+      "start": "00:02:13.500",
+      "text": " Double maximum is given as multiplication of NF and E."
+    },
+    {
+      "end": "00:02:25.500",
+      "start": "00:02:19.500",
+      "text": " This equation can be rearranged as double maximum is equal to N into E into F."
+    },
+    {
+      "end": "00:02:29.500",
+      "start": "00:02:25.500",
+      "text": " This is based on according to FADESLA."
+    },
+    {
+      "end": "00:02:34.500",
+      "start": "00:02:29.500",
+      "text": " One mole of electrons is equal to 1 third F charge."
+    },
+    {
+      "end": "00:02:38.500",
+      "start": "00:02:34.500",
+      "text": " As the reaction is spontaneous, there is a decrease in frequency."
+    },
+    {
+      "end": "00:02:43.500",
+      "start": "00:02:38.500",
+      "text": " This decrease in frequency is equal to Magzou electrical work done."
+    },
+    {
+      "end": "00:02:47.500",
+      "start": "00:02:43.500",
+      "text": " Delta G is equal to W Magzou."
+    },
+    {
+      "end": "00:02:51.500",
+      "start": "00:02:47.500",
+      "text": " But Delta G is negative first spontaneous reaction."
+    },
+    {
+      "end": "00:02:55.500",
+      "start": "00:02:51.500",
+      "text": " We know that W Magzou is equal to N E F."
+    },
+    {
+      "end": "00:03:02.500",
+      "start": "00:02:55.500",
+      "text": " By substituting this value, Delta G is equal to minus N E F, Delta G equation number 4."
+    },
+    {
+      "end": "00:03:06.500",
+      "start": "00:03:02.500",
+      "text": " Similarly, we can write Delta G in our relation also."
+    },
+    {
+      "end": "00:03:17.500",
+      "start": "00:03:06.500",
+      "text": " Delta G equation number 5, where Delta G and E are the change in free energy and electrode potential under standard conditions respectively."
+    },
+    {
+      "end": "00:03:24.500",
+      "start": "00:03:17.500",
+      "text": " Delta G, change in free energy, it varies with the temperature and constant pressure of the product as well as reactant."
+    },
+    {
+      "end": "00:03:29.500",
+      "start": "00:03:24.500",
+      "text": " It is given by one relation called Wantov's reaction isotherm."
+    },
+    {
+      "end": "00:03:35.500",
+      "start": "00:03:29.500",
+      "text": " Delta G is equal to Delta G naught plus RT ln K, Delta G equation number 6."
+    },
+    {
+      "end": "00:03:41.500",
+      "start": "00:03:35.500",
+      "text": " Substitute the value of Delta G and Delta G naught in the equation number 6."
+    },
+    {
+      "end": "00:03:45.500",
+      "start": "00:03:41.500",
+      "text": " We will get this equation."
+    },
+    {
+      "end": "00:03:50.500",
+      "start": "00:03:45.500",
+      "text": " K value, concentration of the metal divided by the concentration of the metal ion."
+    },
+    {
+      "end": "00:03:56.500",
+      "start": "00:03:50.500",
+      "text": " Delta G value minus N E F and Delta G naught value minus N E F."
+    },
+    {
+      "end": "00:04:05.500",
+      "start": "00:03:56.500",
+      "text": " On rearranging and converting, natural algorithm to base 10, we can get final equation like this."
+    },
+    {
+      "end": "00:04:09.500",
+      "start": "00:04:05.500",
+      "text": " This equation is called as NERS equation."
+    },
+    {
+      "end": "00:04:18.500",
+      "start": "00:04:09.500",
+      "text": " At two-mentary at Kelvin, by substituting the value of R and F, we can get the final equation."
+    },
+    {
+      "end": "00:04:27.500",
+      "start": "00:04:18.500",
+      "text": " It is also a NERS equation E is equal to E naught minus 0.059, 1 divided by N, log of 1 over metal ion concentration."
+    },
+    {
+      "end": "00:04:37.500",
+      "start": "00:04:27.500",
+      "text": " This NERS equation is useful in calculating the potential of electrode and E M F of the cell at any temperature and concentration."
+    },
+    {
+      "end": "00:04:41.500",
+      "start": "00:04:37.500",
+      "text": " Knowing the potential of electrode, the concentration of the reactant can be calculated."
+    },
+    {
+      "end": "00:04:47.500",
+      "start": "00:04:41.500",
+      "text": " The concentration of a solution in the galvanic cell is also measured by using NERS equation."
+    },
+    {
+      "end": "00:04:56.500",
+      "start": "00:04:47.500",
+      "text": " With the help of NERS equation, we can calculate the pH of unknown solution by measuring the E M F of a cell also."
+    },
+    {
+      "end": "00:05:03.500",
+      "start": "00:04:56.500",
+      "text": " In this equation, E naught is standard electro-pollensial."
+    },
+    {
+      "end": "00:05:11.500",
+      "start": "00:05:03.500",
+      "text": " It is defined as the potential that exists between metal and its solution of unit concentration at two-mentary at Kelvin,"
+    },
+    {
+      "end": "00:05:20.500",
+      "start": "00:05:11.500",
+      "text": " when some of partial process of gas is reactant and produce is equal to one atmosphere pressure."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Dr. Mahesh R",
+  "youtube_channel_follower_count": 239,
+  "youtube_comment_count": 1,
+  "youtube_description": "",
+  "youtube_like_count": 5,
+  "youtube_tags": [],
+  "youtube_title": "Nernst's equation derivation",
+  "youtube_upload_date": "20210207",
+  "youtube_view_count": 161
+}

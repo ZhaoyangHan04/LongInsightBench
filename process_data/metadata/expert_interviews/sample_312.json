@@ -1,0 +1,442 @@
+{
+  "content_fine_category": "Expert Interviews",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Young man with short brown hair, wearing glasses and a gray shirt. Seated on the left side of the screen. Wears a headset with a microphone.",
+        "name": "Jared McDonald"
+      },
+      {
+        "characterId": "2",
+        "description": "Man with short blonde hair, wearing a black polo shirt. Seated on the right side of the screen. Wears a headset with a microphone.",
+        "name": "Interviewer"
+      }
+    ],
+    "description": "An interview with Jared McDonald about his experience at the AT&T Hackathon, his team's project 'Night Watch', and collaboration with IBM technology.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Night Watch",
+        "question": "What is the name of Jared's team's project?"
+      },
+      {
+        "answer": "IBM",
+        "question": "What is the primary technology partner Jared's team leveraged for their project?"
+      },
+      {
+        "answer": "It is a mental health dashboard for professional sports teams that provides quick analytics on players.",
+        "question": "What is the main function of the Night Watch project?"
+      },
+      {
+        "answer": "3:00 PM",
+        "question": "What time did the code freeze occur at the hackathon?"
+      },
+      {
+        "answer": "In a Butler University dorm.",
+        "question": "Where did Jared sleep during the hackathon?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Interviewer asks questions",
+            "timestamp": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Jared answers questions",
+            "timestamp": {
+              "end_timestamp": "00:03:57.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jared McDonald",
+          "Interviewer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Interviewer",
+              "Jared McDonald"
+            ],
+            "description": "Friendly and engaging conversation. The interviewer leads the conversation while Jared provides detailed information and insights."
+          }
+        ],
+        "contextualRelevance": "The scene highlights the transformative potential of hackathons in fostering innovation and providing real-world experience. It emphasizes industry partnerships.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Happy, Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of Jared McDonald and his background",
+            "timestamp": "00:00:03.000"
+          },
+          {
+            "description": "Jared discusses his team's project, 'Night Watch'",
+            "timestamp": "00:00:28.000"
+          },
+          {
+            "description": "Jared explains the use of IBM technology in their project",
+            "timestamp": "00:00:48.000"
+          },
+          {
+            "description": "Jared shares his experience working with the IBM team",
+            "timestamp": "00:01:11.000"
+          },
+          {
+            "description": "Jared reflects on his overall hackathon experience",
+            "timestamp": "00:02:26.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Headsets with microphones",
+            "timestamp": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "name": "'AT&T 5G Sports Hackathon' sign",
+            "timestamp": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "name": "Presentation screen in the background",
+            "timestamp": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technology innovation, Collaboration, Problem-solving",
+        "timestamps": {
+          "end_timestamp": "00:04:03.700",
+          "start_timestamp": "00:00:02.567"
+        },
+        "title": "Interview with Jared McDonald",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to blue screen with event logo at the end of the scene",
+            "timestamps": {
+              "end_timestamp": "00:04:00.000",
+              "start_timestamp": "00:03:59.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Discussion of Jared's team's project 'Night Watch' and its potential impact.",
+        "timestamp": "00:00:28.000"
+      },
+      "description": "Jared McDonald's experience at the AT&T Hackathon focusing on his project 'Night Watch'.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "AT&T Hackathon Interview",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove some of the repeated information about the IBM partnership and technology. Focus on highlighting the unique aspects of Jared's project and his personal insights.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "News & Politics",
+  "duration_seconds": 244,
+  "original_json_filename": "lebiPdTNfN8.json",
+  "original_video_filename": "lebiPdTNfN8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "what's up everyone i'm here live with one of our other participants uh jared mcdonald here can you tell us a little bit about you know who you are university age major first off definitely for sure so again i'm jared mcdonald i'm reigning from indiana university purdue university indianapolis or locally iupui i'm going into this is my senior year uh and i'm an it major and i think that's all you asked yeah yeah absolutely so your team i believe is called night watch is that right that's correct so um inspired by bobby knight is kind of where we're going i love it i love it it's a mental health dashboard for professionals to get a quick iot enabled kind of high level excel spreadsheet in a way um for you to get quick analytics on your players oh that's fantastic are you just out of curiosity are you leveraging any of the industry partners here definitely um biggest one we've been relying on here is ibm okay so we've gone full serverless uh full ibm cloud so we're hosting in a object storage is where the front end is placed we're using kubernetes yeah to manage our sql server and then we're also using their containerization platform for the python flask back end that's awesome just out of curiosity how's it been engaging with the ibm team here oh they have been tremendous so uh we've also been using watson which is one of their proprietary um machine learning algorithms and with watson we had a lot of hiccups along the way it's a brand new technology for us so it was very important that we kind of figured that out and they were able to help us get going they showed us some examples and then they helped us debug a little bit too yeah and that's what i love about kind of this conglomeration between students and participants like yourself as well as industry leaders that real hands-on experience with some cutting-edge technology from some big names like ibm definitely and it's it's been very cool to uh just have them you know right next to us if we have a question i got stuck on a kubernetes configuration and you know usually you're reading through the docs for 20 30 minutes hey i'm stuck on this how can i how can i get this fixed yeah because to your point i mean this is a crash course it's 48 hours and last thing you want to do is be scanning a code for 30 minutes for one semicolon or one you know hiccup that you may have not seen that they may see just through a quick glance too definitely and that's been a huge thing as well you know we were up until 6 a.m last night and the night before and one of the big things we would do is i would just read line by line my code to one of my teammates and just talking through it you really find a lot of those errors but staying up that late you run into a lot more bugs than you usually do yeah how has this experience been for you it's been really awesome this is uh my first hackathon okay so it's been really interesting this is honestly how i spend most of my weekends but having the ability to do it in person with a team has been awesome and when there's prizes on the line too it never hurts right definitely not your weekend mood very exciting so usually i'm writing a bunch of open source code where uh hopefully some developers see it but now we get to write some open source code that hopefully we can win some prizes as well yeah absolutely so it sounds like you've been staying up late are you sleeping here too are you going off or luckily one of my uh uh teammates is actually a butler student sleeping in the dorm but uh it's not sponsored by bang energy but bang energy and red bull have been keeping us going i can imagine i remember those days too you know so how are you feeling you know so i think the pencils down code freeze was at 3 p.m how are you guys feeling good is it working definitely yeah um we got about 95 percent rough and running so our front end doesn't have quite the api backing we want but pretty much otherwise our api is working great our sql uh procedures are working and our flash back end is working great with watson so overall you know i wish we could have had you know another 20 30 minutes but i think that's always going to be the case yeah i mean the fact that you were able to accomplish what you could in this short time frame and utilizing technology like the like ibm is no easy feat we know how complicated that can be because it is such an industry-leading technology so kudos to you guys and kind of your team and and all honestly just hope the best for you guys it sounds like you guys have a really cool technology and looking forward to hear from it here soon brother gotcha awesome i appreciate it for you joining me and uh all the best of luck thank you have a good one you too",
+  "text_to_speech_word_count": 913,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.233",
+      "start": "00:00:00.000",
+      "text": " What's up everyone? I'm here live with one of our other participants, Jared Mcdonald here."
+    },
+    {
+      "end": "00:00:12.633",
+      "start": "00:00:08.233",
+      "text": " Can you tell us a little bit about who you are university age major first off?"
+    },
+    {
+      "end": "00:00:17.033",
+      "start": "00:00:12.633",
+      "text": " Definitely for sure. So again, I'm Jared Mcdonald. I'm writing from Indiana University"
+    },
+    {
+      "end": "00:00:23.600",
+      "start": "00:00:17.033",
+      "text": " Purdue University Indianapolis or, luckily, IUPUI. I'm going into this is my senior year."
+    },
+    {
+      "end": "00:00:26.867",
+      "start": "00:00:23.600",
+      "text": " And I'm an IT major and I think that's all yes."
+    },
+    {
+      "end": "00:00:30.133",
+      "start": "00:00:26.867",
+      "text": " Yeah, yeah, absolutely. So your team, I believe, is called Nightwatch. Is that right?"
+    },
+    {
+      "end": "00:00:33.600",
+      "start": "00:00:30.133",
+      "text": " That's correct. So inspired by Bobby Knight. It's kind of what we're going to hear."
+    },
+    {
+      "end": "00:00:39.833",
+      "start": "00:00:33.600",
+      "text": " I love it. It's a mental health dashboard for professionals to get a quick IoT enabled"
+    },
+    {
+      "end": "00:00:46.467",
+      "start": "00:00:39.833",
+      "text": " kind of high-level Excel spreadsheet in a way for you to get quick analytics on your players."
+    },
+    {
+      "end": "00:00:51.433",
+      "start": "00:00:46.467",
+      "text": " Oh, that's fantastic. Are you just out of curiosity? Are you leveraging any of the industry partners here?"
+    },
+    {
+      "end": "00:00:54.233",
+      "start": "00:00:51.433",
+      "text": " Definitely. Biggest one we've been relying on here is IBM."
+    },
+    {
+      "end": "00:00:59.100",
+      "start": "00:00:54.233",
+      "text": " Okay. So we've gone full serverless, full IBM cloud. So we're hosting in a"
+    },
+    {
+      "end": "00:01:04.800",
+      "start": "00:00:59.100",
+      "text": " object storage is where the front end is placed, using Kubernetes to manage our SQL server."
+    },
+    {
+      "end": "00:01:09.333",
+      "start": "00:01:04.800",
+      "text": " And then we're also using their containerization platform for the Python Flash backend."
+    },
+    {
+      "end": "00:01:13.200",
+      "start": "00:01:09.333",
+      "text": " That's awesome. Just out of curiosity, how's it been engaging with the IBM team here?"
+    },
+    {
+      "end": "00:01:17.500",
+      "start": "00:01:13.200",
+      "text": " Oh, they've been tremendous. So we've also been using Watson, which is one of their proprietary"
+    },
+    {
+      "end": "00:01:23.667",
+      "start": "00:01:18.700",
+      "text": " machine learning algorithms. And with Watson, we had a lot of hiccups along the way. It's a brand"
+    },
+    {
+      "end": "00:01:28.300",
+      "start": "00:01:23.667",
+      "text": " new technology for us. So it was very important that we kind of figure that out and they were able"
+    },
+    {
+      "end": "00:01:33.033",
+      "start": "00:01:28.300",
+      "text": " to help us get going. They showed us some examples and then they helped us debug a little bit too."
+    },
+    {
+      "end": "00:01:37.733",
+      "start": "00:01:33.033",
+      "text": " Yeah, and that's what I love about kind of this conglomeration between students and participants"
+    },
+    {
+      "end": "00:01:42.067",
+      "start": "00:01:37.733",
+      "text": " like yourself as well as industry leaders. That real hands-on experience with some cutting-edge"
+    },
+    {
+      "end": "00:01:47.833",
+      "start": "00:01:42.067",
+      "text": " technology from some big names like IBM. Definitely. And it's been very cool to just have them,"
+    },
+    {
+      "end": "00:01:52.400",
+      "start": "00:01:47.833",
+      "text": " you know, right next to us. If we have a question, I got stuck on a Kubernetes configuration. And,"
+    },
+    {
+      "end": "00:01:56.633",
+      "start": "00:01:52.633",
+      "text": " you know, usually you're reading through the docs for 20, 30 minutes. Hey, I'm stuck on this."
+    },
+    {
+      "end": "00:02:00.300",
+      "start": "00:01:56.633",
+      "text": " How can I, how can I get this fixed? Yeah, because to your point, I mean, this is a crash course."
+    },
+    {
+      "end": "00:02:04.467",
+      "start": "00:02:00.300",
+      "text": " It's 48 hours. And last thing you're going to do is be scanning a code for 30 minutes for one"
+    },
+    {
+      "end": "00:02:08.933",
+      "start": "00:02:04.467",
+      "text": " semi colon or one, you know, hiccup that you may have not seen that they may see just do a quick"
+    },
+    {
+      "end": "00:02:13.033",
+      "start": "00:02:08.933",
+      "text": " glance too. Definitely. And that's been a huge thing as well. You know, we were up until 6 a.m."
+    },
+    {
+      "end": "00:02:17.600",
+      "start": "00:02:13.033",
+      "text": " last night in the night before. And one of the big things we would do is I would just read line by"
+    },
+    {
+      "end": "00:02:21.833",
+      "start": "00:02:17.600",
+      "text": " line my code to one of my teammates and just talking through it. You really find a lot of those errors."
+    },
+    {
+      "end": "00:02:25.733",
+      "start": "00:02:21.833",
+      "text": " But staying up that late, you run into a lot more bugs than you usually do. Yeah. How has this"
+    },
+    {
+      "end": "00:02:30.400",
+      "start": "00:02:25.733",
+      "text": " experience been for you? It's been really awesome. This is my first hackathon. Okay. So it's been"
+    },
+    {
+      "end": "00:02:34.633",
+      "start": "00:02:30.400",
+      "text": " really interesting. This is honestly, I spent most of my weekends by having the ability to do it"
+    },
+    {
+      "end": "00:02:38.800",
+      "start": "00:02:34.633",
+      "text": " in person with a team has been awesome. And when there's prizes on the line, too, it never"
+    },
+    {
+      "end": "00:02:43.433",
+      "start": "00:02:38.800",
+      "text": " hurts, right? Definitely. Now on a weekend, very exciting. So usually I'm writing a bunch of"
+    },
+    {
+      "end": "00:02:47.733",
+      "start": "00:02:43.433",
+      "text": " open source code where hopefully some developers see it. But now we get to write some open source code"
+    },
+    {
+      "end": "00:02:51.900",
+      "start": "00:02:47.833",
+      "text": " that hopefully we can win some prizes as well. Yeah, absolutely. So it sounds like keeping staying"
+    },
+    {
+      "end": "00:02:57.500",
+      "start": "00:02:51.900",
+      "text": " up late. Are you sleeping here, too? Or are you going off? Luckily, one of my teammates is actually"
+    },
+    {
+      "end": "00:03:03.433",
+      "start": "00:02:57.500",
+      "text": " a Butler students sleeping in the dorm. But it's not sponsored by Bang Energy. Bang Energy and Red Bull have"
+    },
+    {
+      "end": "00:03:08.867",
+      "start": "00:03:03.433",
+      "text": " been keeping us going. I can imagine. I remember those days, too. So how are you feeling? So I think"
+    },
+    {
+      "end": "00:03:14.300",
+      "start": "00:03:08.867",
+      "text": " the pencil's down code freeze was at 3 p.m. How are you guys feeling? Good. Is it working? Definitely."
+    },
+    {
+      "end": "00:03:19.433",
+      "start": "00:03:14.300",
+      "text": " Yeah. We got about 95% rather than running. So our front end doesn't have quite the API back"
+    },
+    {
+      "end": "00:03:24.533",
+      "start": "00:03:19.433",
+      "text": " and we want, but pretty much otherwise our API is working great. Our SQL procedures are working"
+    },
+    {
+      "end": "00:03:29.833",
+      "start": "00:03:24.533",
+      "text": " and our flashback and is working great with Watson. So overall, I wish we could have had another 20,"
+    },
+    {
+      "end": "00:03:33.500",
+      "start": "00:03:29.833",
+      "text": " 30 minutes, but I think that's always going to be the case. Yeah, I mean, the fact that you were"
+    },
+    {
+      "end": "00:03:39.733",
+      "start": "00:03:33.500",
+      "text": " able to accomplish what you could in this short time frame and utilizing technology like IBM is"
+    },
+    {
+      "end": "00:03:45.267",
+      "start": "00:03:39.733",
+      "text": " no easy feat. We know how complicated that can be because it is such an industry leading technology."
+    },
+    {
+      "end": "00:03:49.733",
+      "start": "00:03:45.267",
+      "text": " So kudos to you guys and kind of your team and honestly, I just hope the best for you guys."
+    },
+    {
+      "end": "00:03:53.733",
+      "start": "00:03:49.733",
+      "text": " It sounds like you guys have a really cool technology and looking forward to hear from it here soon,"
+    },
+    {
+      "end": "00:03:57.200",
+      "start": "00:03:53.733",
+      "text": " brother. Gotcha. Awesome. Thank you. Appreciate for joining me and all the best of luck."
+    },
+    {
+      "end": "00:03:59.200",
+      "start": "00:03:57.200",
+      "text": " Thank you. Have a good one. You too."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Jared McDonald",
+  "youtube_channel_follower_count": 1010,
+  "youtube_comment_count": 3,
+  "youtube_description": "My take on the AT&T 5G Sports Hackathon as a guest panelist",
+  "youtube_like_count": 16,
+  "youtube_tags": [
+    "hackathon",
+    "Interview"
+  ],
+  "youtube_title": "Butler Hackathon Interview | Jared McDonald",
+  "youtube_upload_date": "20211025",
+  "youtube_view_count": 411
+}

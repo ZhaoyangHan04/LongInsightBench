@@ -1,0 +1,558 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Light skinned female with yellow shirt and red hair talking to a bank representative on a desk.",
+        "name": "Bank Customer 1 (Woman 1)"
+      },
+      {
+        "characterId": "2",
+        "description": "Dark skinned female with black hair and wearing a white shirt and blue jacket. She is standing behind a counter in a bank.",
+        "name": "Bank Representative (Woman 2)"
+      },
+      {
+        "characterId": "3",
+        "description": "Light skinned male with red shirt, sitting in a bank's waiting area.",
+        "name": "Waiting Customer"
+      },
+      {
+        "characterId": "4",
+        "description": "Light skinned male wearing a blue shirt and sitting on a desk while looking at a tablet. The tablet shows graphs and data.",
+        "name": "Data Scientist"
+      },
+      {
+        "characterId": "5",
+        "description": "Light skinned male wearing a blue shirt and looking at a laptop. The laptop shows a spreadsheet.",
+        "name": "Loan Officer"
+      },
+      {
+        "characterId": "6",
+        "description": "Light skinned female with red hair wearing a yellow shirt and looking at a laptop. The laptop shows charts, tables and text content.",
+        "name": "Customer Service Representative"
+      },
+      {
+        "characterId": "7",
+        "description": "A family composed by a dark skinned male and female, a little girl with purple hair and a woman with red hair. They are standing in front of a house. The woman is giving the keys to the family.",
+        "name": "Family"
+      }
+    ],
+    "description": "A video introducing IBM's AI Explainability 360 Toolkit, its importance in making AI decisions transparent and trustworthy, and its practical applications in banking scenarios.",
+    "fps": 23.976023976023978,
+    "qAndA": [
+      {
+        "answer": "The video doesn't explicitly state the reason for rejection. However, it suggests that the Data Scientist can use the toolkit to analyze the AI's decision and that the Customer Service Representative can explain the risk factors to the customer.",
+        "question": "Why was the first customer's mortgage loan application rejected?"
+      },
+      {
+        "answer": "He analyzed a spreadsheet comparing the rejected applicant's data with other customers who had similar credit scores, checking if they repaid or defaulted on their loans.",
+        "question": "What specific information did the Loan Officer analyze on his laptop?"
+      },
+      {
+        "answer": "An abstract cube with gears inside is used consistently to represent AI and its inner workings.",
+        "question": "What visual element represents the concept of AI throughout the video?"
+      },
+      {
+        "answer": "The upbeat and technological music creates a sense of optimism and progress, reinforcing the idea that explainable AI is a positive development.",
+        "question": "How does the music contribute to the overall mood of the video?"
+      },
+      {
+        "answer": "It suggests a link between explainable AI and positive real-world outcomes, implying that fair and transparent AI decisions can lead to happy customers achieving their goals.",
+        "question": "What subtle message does the final scene with the family convey?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Presentation of the AI Explainability 360 Toolkit",
+            "timestamp": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sets the stage by introducing the problem of AI explainability and IBM's solution, which is practical and relevant to developers.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious - The visuals and music are engaging and suggest a technological theme. The text poses questions and introduces a problem, sparking curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the importance of AI explainability.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Highlights the need for AI to explain its recommendations and introduces the AI Explainability 360 Toolkit.",
+            "timestamp": "00:00:09.009"
+          },
+          {
+            "description": "Explains the toolkit's features and its availability to the developer community.",
+            "timestamp": "00:00:18.018"
+          }
+        ],
+        "props": [
+          {
+            "name": "Bank Building",
+            "timestamp": {
+              "end_timestamp": "00:00:09.009",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "name": "Bank Interior",
+            "timestamp": {
+              "end_timestamp": "00:00:14.014",
+              "start_timestamp": "00:00:09.009"
+            }
+          },
+          {
+            "name": "Computer Screen",
+            "timestamp": {
+              "end_timestamp": "00:00:18.018",
+              "start_timestamp": "00:00:14.014"
+            }
+          },
+          {
+            "name": "Abstract Cube",
+            "timestamp": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Credit Score Gauges",
+            "timestamp": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:28.987"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Trust in AI, Explainable AI, Open Source Development",
+        "timestamps": {
+          "end_timestamp": "00:00:30.948",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to AI Explainability 360 Toolkit",
+        "videoEditingDetails": [
+          {
+            "description": "Title card, IBM Research tagline, explanatory text throughout the scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Smooth cuts between different visuals.",
+            "timestamps": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Upbeat, technological background music throughout.",
+            "timestamps": {
+              "end_timestamp": "00:00:28.987",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Bank Customer 1's loan application is rejected.",
+            "timestamp": {
+              "end_timestamp": "00:00:36.995",
+              "start_timestamp": "00:00:36.995"
+            }
+          },
+          {
+            "description": "Data Scientist analyzes data on a tablet to check risk factors.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.003",
+              "start_timestamp": "00:00:39.998"
+            }
+          },
+          {
+            "description": "Loan Officer analyzes data on a laptop to compare customers with similar scores.",
+            "timestamp": {
+              "end_timestamp": "00:00:52.010",
+              "start_timestamp": "00:00:46.004"
+            }
+          },
+          {
+            "description": "Customer Service Representative uses the toolkit to explain risk factors to customers.",
+            "timestamp": {
+              "end_timestamp": "00:01:02.020",
+              "start_timestamp": "00:00:53.011"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Bank Customer 1",
+          "Bank Representative",
+          "Data Scientist",
+          "Loan Officer",
+          "Customer Service Representative"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Bank Customer 1",
+              "Bank Representative"
+            ],
+            "description": "No direct interaction, but connected actions through shared loan application context."
+          },
+          {
+            "characters": [
+              "Data Scientist",
+              "Loan Officer"
+            ],
+            "description": "Both analyze data to understand AI decisions."
+          },
+          {
+            "characters": [
+              "Customer Service Representative"
+            ],
+            "description": "Uses toolkit to explain risk factors to customers."
+          }
+        ],
+        "contextualRelevance": "The scene shows practical toolkit applications in banking, making AI decisions transparent for stakeholders.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Intrigued and Hopeful - The rejection of the loan application introduces tension, followed by hope as stakeholders use the toolkit to address problems.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift from abstract gauges to a concrete loan application, introducing a visual representation of the problem.",
+              "timestamp": "00:00:36.995"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Sets up a scenario where a customer's loan is rejected.",
+            "timestamp": "00:00:30.989"
+          },
+          {
+            "description": "Shows how a data scientist can use the toolkit to understand the AI's decision.",
+            "timestamp": "00:00:38.997"
+          },
+          {
+            "description": "Illustrates how a loan officer can use the toolkit to analyze similar customer profiles.",
+            "timestamp": "00:00:45.003"
+          },
+          {
+            "description": "Demonstrates how the toolkit can help customer service explain the reasons for rejection and provide advice.",
+            "timestamp": "00:00:52.010"
+          }
+        ],
+        "props": [
+          {
+            "name": "Credit Score Gauges",
+            "timestamp": {
+              "end_timestamp": "00:00:30.989",
+              "start_timestamp": "00:00:30.989"
+            }
+          },
+          {
+            "name": "Loan Application",
+            "timestamp": {
+              "end_timestamp": "00:00:38.997",
+              "start_timestamp": "00:00:36.995"
+            }
+          },
+          {
+            "name": "Tablet",
+            "timestamp": {
+              "end_timestamp": "00:00:45.003",
+              "start_timestamp": "00:00:39.998"
+            }
+          },
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:00:52.010",
+              "start_timestamp": "00:00:46.004"
+            }
+          },
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:01:02.020",
+              "start_timestamp": "00:00:53.011"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Practical Uses of AI Explainability, Improving Decision-Making, Customer Transparency",
+        "timestamps": {
+          "end_timestamp": "00:01:03.981",
+          "start_timestamp": "00:00:30.989"
+        },
+        "title": "Practical Applications in Banking",
+        "videoEditingDetails": [
+          {
+            "description": "Explanatory text about different user perspectives and how the toolkit can be used.",
+            "timestamps": {
+              "end_timestamp": "00:01:02.020",
+              "start_timestamp": "00:00:30.989"
+            }
+          },
+          {
+            "description": "Smooth cuts between different characters and their actions.",
+            "timestamps": {
+              "end_timestamp": "00:01:02.020",
+              "start_timestamp": "00:00:30.989"
+            }
+          },
+          {
+            "description": "Upbeat, technological music continues.",
+            "timestamps": {
+              "end_timestamp": "00:01:02.020",
+              "start_timestamp": "00:00:30.989"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A family receives keys to their new home.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.987",
+              "start_timestamp": "00:01:04.022"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Family"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Family"
+            ],
+            "description": "The real estate agent is interacting with the family, handing them the keys."
+          }
+        ],
+        "contextualRelevance": "The scene provides an emotional payoff, reinforcing the toolkit's positive potential.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Happy - The visuals of the family moving into their new home convey a sense of happiness and achievement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents a family happily receiving the keys to their new home.",
+            "timestamp": "00:01:04.022"
+          },
+          {
+            "description": "Concludes by inviting viewers to use and improve the toolkit, emphasizing its role in trust-building.",
+            "timestamp": "00:01:09.987"
+          }
+        ],
+        "props": [
+          {
+            "name": "House",
+            "timestamp": {
+              "end_timestamp": "00:01:09.987",
+              "start_timestamp": "00:01:04.022"
+            }
+          },
+          {
+            "name": "Keys",
+            "timestamp": {
+              "end_timestamp": "00:01:07.985",
+              "start_timestamp": "00:01:05.983"
+            }
+          },
+          {
+            "name": "Sold Sign",
+            "timestamp": {
+              "end_timestamp": "00:01:09.987",
+              "start_timestamp": "00:01:04.022"
+            }
+          },
+          {
+            "name": "Mortgage Loan Application",
+            "timestamp": {
+              "end_timestamp": "00:01:09.987",
+              "start_timestamp": "00:01:04.022"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Positive Impact of AI, Achieving Goals, Building Trust in AI",
+        "timestamps": {
+          "end_timestamp": "00:01:19.997",
+          "start_timestamp": "00:01:04.022"
+        },
+        "title": "Positive Outcomes with AI",
+        "videoEditingDetails": [
+          {
+            "description": "Explanatory text highlighting the toolkit's role in building transparent AI and call to action.",
+            "timestamps": {
+              "end_timestamp": "00:01:18.996",
+              "start_timestamp": "00:01:09.987"
+            }
+          },
+          {
+            "description": "Smooth cut to the final scene with the IBM logo.",
+            "timestamps": {
+              "end_timestamp": "00:01:18.996",
+              "start_timestamp": "00:01:09.987"
+            }
+          },
+          {
+            "description": "Upbeat music continues, fades out at the end.",
+            "timestamps": {
+              "end_timestamp": "00:01:18.996",
+              "start_timestamp": "00:01:04.022"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Implicit climax in Scene 2 with practical toolkit applications in banking and explicit climax in Scene 3 with the family's positive outcome.",
+        "timestamp": "00:00:45.003"
+      },
+      "description": "The video presents two main storylines: the importance of explainable AI and the positive impacts of such AI, illustrated through practical banking applications and happy customer outcomes, respectively.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "IBM AI Explainability 360 Toolkit",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment listing the toolkit's features could be shortened or presented more concisely to maintain a dynamic pace.",
+        "timestamps": {
+          "end_timestamp": "00:01:04.022",
+          "start_timestamp": "00:01:04.022"
+        }
+      },
+      {
+        "description": "The final segment with the call to action could be shortened and made more impactful by concluding immediately after the family enters their new home.",
+        "timestamps": {
+          "end_timestamp": "00:01:18.996",
+          "start_timestamp": "00:01:07.985"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 80,
+  "original_json_filename": "dSYnNtH_8LY.json",
+  "original_video_filename": "dSYnNtH_8LY.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "businesses increasingly rely on AI to help make important decisions but for AI to be trusted it must be able to explain how it reached a recommendation IBM Research is committed to building explainable AI and bringing it to the developer community the open source a I explained ability 360 tool kit offers IBM algorithms along with demos tutorials guides and other resources here's how a bank could use the toolkit different audiences require different kinds of explanation when a customer's loan application is rejected a banks data scientist can use an algorithm from the toolkit to check whether the AI is properly weighing risk factors meanwhile another algorithm can help a loan officer analyze whether customers with similar scores repaid or defaulted on their loans a customer service tool built using a different explained ability algorithm could explain risk factors and prioritization and suggests how to improve the customers credit score with the a I explained ability 360 toolkit IBM Research helps the open-source community build more transparent and trustworthy AI we invite you to use it and improve it [Music]",
+  "text_to_speech_word_count": 182,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.842",
+      "start": "00:00:00.000",
+      "text": " This is increasingly rely on AI to help make important decisions."
+    },
+    {
+      "end": "00:00:14.223",
+      "start": "00:00:08.842",
+      "text": " But for AI to be trusted, it must be able to explain how it reached a recommendation."
+    },
+    {
+      "end": "00:00:20.145",
+      "start": "00:00:14.223",
+      "text": " IBM Research is committed to building explainable AI and bringing it to the developer community."
+    },
+    {
+      "end": "00:00:25.275",
+      "start": "00:00:20.145",
+      "text": " The open source AI explainability 360 toolkit offers IBM algorithms,"
+    },
+    {
+      "end": "00:00:29.196",
+      "start": "00:00:25.275",
+      "text": " along with demos, tutorials, guides, and other resources."
+    },
+    {
+      "end": "00:00:31.740",
+      "start": "00:00:29.905",
+      "text": " Here's how a bank could use the toolkit."
+    },
+    {
+      "end": "00:00:35.494",
+      "start": "00:00:32.449",
+      "text": " Different audiences require different kinds of explanation."
+    },
+    {
+      "end": "00:00:40.999",
+      "start": "00:00:36.286",
+      "text": " When a customer's loan application is rejected, a bank's data scientist can use an algorithm"
+    },
+    {
+      "end": "00:00:45.254",
+      "start": "00:00:40.999",
+      "text": " from the toolkit to check whether the AI is properly weighing risk factors."
+    },
+    {
+      "end": "00:00:50.550",
+      "start": "00:00:45.254",
+      "text": " Meanwhile, another algorithm can help a loan officer analyze whether customers with similar scores"
+    },
+    {
+      "end": "00:00:55.639",
+      "start": "00:00:50.550",
+      "text": " repaid or defaulted on their loans. A customer service tool built using a different"
+    },
+    {
+      "end": "00:01:01.103",
+      "start": "00:00:55.639",
+      "text": " explainability algorithm could explain risk factors and prioritization and suggest how to improve"
+    },
+    {
+      "end": "00:01:07.567",
+      "start": "00:01:01.103",
+      "text": " the customer's credit score. With the AI explainability 360 toolkit, IBM Research helps the"
+    },
+    {
+      "end": "00:01:14.199",
+      "start": "00:01:07.567",
+      "text": " open source community build more transparent and trustworthy AI. We invite you to use it and improve it."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "IBM Research",
+  "youtube_channel_follower_count": 100000,
+  "youtube_comment_count": 0,
+  "youtube_description": "The AI Explainability 360 Toolkit from IBM Research is an open-source library for data scientists and developers. It includes algorithms, guides and tutorials to bring explainability to AI, thereby making it more trusted.",
+  "youtube_like_count": 88,
+  "youtube_tags": [
+    "AI",
+    "IBM Research",
+    "Research",
+    "360 Toolkit",
+    "Ai Explainability",
+    "open-source",
+    "developers",
+    "developer open-source",
+    "Trusted AI",
+    "data scientists"
+  ],
+  "youtube_title": "Making AI more trusted, by making it explainable.",
+  "youtube_upload_date": "20190808",
+  "youtube_view_count": 7198
+}

@@ -1,0 +1,1193 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "An Indian man with short black hair and a beard. He is wearing a black t-shirt.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A detailed tutorial guiding viewers on how to host a static website for free using GitHub Pages.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": ".github.io",
+        "question": "What is the unique ending required for the repository name to host a website on GitHub?"
+      },
+      {
+        "answer": "GitHub Desktop",
+        "question": "What is the desktop application recommended for managing repositories and simplifying interactions with GitHub?"
+      },
+      {
+        "answer": "Wait for at least 4-5 minutes and check again.",
+        "question": "What should viewers do if they encounter a 404 error when trying to access their published website?"
+      },
+      {
+        "answer": "Ensure that the account logged in on GitHub Desktop matches the account used to create the repository on the GitHub website.",
+        "question": "What is the essential troubleshooting step related to the account used in GitHub Desktop?"
+      },
+      {
+        "answer": "The narrator uses a friendly and conversational tone, addresses viewers directly, and frequently emphasizes the ease and simplicity of the hosting process. He celebrates the successful publication of the website, creating a sense of accomplishment and fostering a positive learning experience.",
+        "question": "How does the narrator convey his enthusiasm and encouragement throughout the tutorial?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The narrator introduces the topic of the video: hosting a website for free on GitHub. He explains that he will show how to host a static website using GitHub Pages.",
+            "timestamp": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction sets the stage for the entire tutorial.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited - The narrator's fast-paced speech and positive tone set an enthusiastic mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator introduces the concept and shows a live example of a hosted website, creating anticipation for the tutorial.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Demonstrates a website hosted on GitHub Pages.",
+            "timestamp": "00:00:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Website Demo",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          },
+          {
+            "name": "GitHub Pages Settings",
+            "timestamp": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to free website hosting.",
+        "timestamps": {
+          "end_timestamp": "00:00:31.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlays throughout the scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Zoom-in effect on the website URL.",
+            "timestamps": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator discusses the importance of understanding GitHub for hosting websites for free. He promotes his previous Git tutorial videos.",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:00:31.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides context and resources before the main tutorial progresses.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious - The scene encourages viewers unfamiliar with GitHub to learn more.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Emphasizes the importance of understanding GitHub for free hosting.",
+            "timestamp": "00:00:31.033"
+          },
+          {
+            "description": "Showcases playlist of GIT tutorial videos for beginners.",
+            "timestamp": "00:00:56.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Youtube Playlist of GIT Tutorials",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Promoting GitHub understanding and additional resources.",
+        "timestamps": {
+          "end_timestamp": "00:01:14.267",
+          "start_timestamp": "00:00:31.033"
+        },
+        "title": "Understanding GitHub",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay 'show the world, who really are you'",
+            "timestamps": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          },
+          {
+            "description": "Text overlay 'host for free 2020'",
+            "timestamps": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator opens GitHub and shows how to create a new repository. He explains the importance of choosing a unique name ending in \".github.io\" and demonstrates the process.",
+            "timestamp": {
+              "end_timestamp": "00:02:34.000",
+              "start_timestamp": "00:01:14.300"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Crucial steps for hosting on GitHub Pages.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Calm - The scene focuses on practical steps delivered with clear instructions.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Opening the GitHub account and navigating to the 'Repositories' section.",
+            "timestamp": "00:01:14.300"
+          },
+          {
+            "description": "Clicking on the 'New' button to create a new repository.",
+            "timestamp": "00:01:47.000"
+          },
+          {
+            "description": "Choosing a repository name ending in \".github.io\".",
+            "timestamp": "00:01:54.000"
+          },
+          {
+            "description": "Initializing the repository with a README file.",
+            "timestamp": "00:02:27.000"
+          },
+          {
+            "description": "Creating the repository.",
+            "timestamp": "00:02:34.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GitHub website",
+            "timestamp": {
+              "end_timestamp": "00:02:34.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Step-by-step guide to repository creation.",
+        "timestamps": {
+          "end_timestamp": "00:02:34.000",
+          "start_timestamp": "00:01:14.300"
+        },
+        "title": "Creating a Repository",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom-in effect on the 'New' button in the Github repository list.",
+            "timestamps": {
+              "end_timestamp": "00:02:34.000",
+              "start_timestamp": "00:01:50.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator guides viewers through downloading GitHub Desktop and explains the installation process.",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:34.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Simplifies interactions with GitHub for the tutorial.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Calm -  A straightforward demonstration of the download and installation process maintains a calm and informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Navigating to the GitHub Desktop website.",
+            "timestamp": "00:02:34.033"
+          },
+          {
+            "description": "Downloading the GitHub Desktop application for Windows.",
+            "timestamp": "00:02:48.000"
+          },
+          {
+            "description": "Locating the downloaded file in the 'Downloads' folder.",
+            "timestamp": "00:03:11.000"
+          },
+          {
+            "description": "Running the installer as administrator.",
+            "timestamp": "00:03:15.000"
+          },
+          {
+            "description": "Demonstrating the initial page after installation and login.",
+            "timestamp": "00:03:21.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GitHub Desktop website",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:02:48.000"
+            }
+          },
+          {
+            "name": "Download Folder",
+            "timestamp": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:03:11.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Installing GitHub Desktop for easier repository management.",
+        "timestamps": {
+          "end_timestamp": "00:03:29.000",
+          "start_timestamp": "00:02:34.033"
+        },
+        "title": "Downloading and Installing GitHub Desktop",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay 'guys, check video timeline at 6:55 on how to login on GIT desktop app'.",
+            "timestamps": {
+              "end_timestamp": "00:03:29.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains the process of cloning the repository and adding files.",
+            "timestamp": {
+              "end_timestamp": "00:05:09.000",
+              "start_timestamp": "00:03:29.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Essential for transitioning from code to hosted website.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Focused - The narrator concentrates on guiding viewers through essential steps, creating a focused atmosphere.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Accessing the 'Current repository' section in GitHub Desktop.",
+            "timestamp": "00:03:29.033"
+          },
+          {
+            "description": "Adding a new repository by cloning the one created on the GitHub website.",
+            "timestamp": "00:03:47.000"
+          },
+          {
+            "description": "Copying the URL of the repository.",
+            "timestamp": "00:03:56.000"
+          },
+          {
+            "description": "Pasting the URL into the GitHub Desktop cloning dialog.",
+            "timestamp": "00:04:13.000"
+          },
+          {
+            "description": "Initiating the cloning process.",
+            "timestamp": "00:04:17.000"
+          },
+          {
+            "description": "Opening the local repository folder.",
+            "timestamp": "00:04:37.000"
+          },
+          {
+            "description": "Copying website files from another location.",
+            "timestamp": "00:04:47.000"
+          },
+          {
+            "description": "Dragging and dropping website files into the repository folder.",
+            "timestamp": "00:04:59.000"
+          },
+          {
+            "description": "Writing a summary for the commit.",
+            "timestamp": "00:05:05.000"
+          },
+          {
+            "description": "Committing the changes to the repository.",
+            "timestamp": "00:05:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GitHub Desktop application",
+            "timestamp": {
+              "end_timestamp": "00:05:09.000",
+              "start_timestamp": "00:03:29.033"
+            }
+          },
+          {
+            "name": "Local folder with website files",
+            "timestamp": {
+              "end_timestamp": "00:05:09.000",
+              "start_timestamp": "00:03:47.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Fundamental steps to add content to the GitHub repository.",
+        "timestamps": {
+          "end_timestamp": "00:05:09.000",
+          "start_timestamp": "00:03:29.033"
+        },
+        "title": "Cloning the Repository and Adding Files",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator guides viewers through the final steps of publishing the website and demonstrates how to check if the website is live.",
+            "timestamp": {
+              "end_timestamp": "00:06:52.000",
+              "start_timestamp": "00:05:09.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Final steps to make the website publicly accessible.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited -  The successful publication of the website and the completion of the tutorial generate a sense of achievement and excitement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Pushing the committed changes to the GitHub repository.",
+            "timestamp": "00:05:09.033"
+          },
+          {
+            "description": "Observing the progress of the push operation.",
+            "timestamp": "00:05:31.000"
+          },
+          {
+            "description": "Navigating to the 'Settings' tab of the repository.",
+            "timestamp": "00:05:43.000"
+          },
+          {
+            "description": "Enabling GitHub Pages in the repository settings.",
+            "timestamp": "00:06:09.000"
+          },
+          {
+            "description": "Checking the website URL to confirm its availability online.",
+            "timestamp": "00:06:18.000"
+          },
+          {
+            "description": "Encountering a 404 error initially and advising viewers to wait.",
+            "timestamp": "00:06:24.000"
+          },
+          {
+            "description": "Returning to the settings page and confirming the green status of GitHub Pages.",
+            "timestamp": "00:06:30.000"
+          },
+          {
+            "description": "Successfully accessing the published website.",
+            "timestamp": "00:06:46.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Github Desktop application",
+            "timestamp": {
+              "end_timestamp": "00:06:52.000",
+              "start_timestamp": "00:05:09.033"
+            }
+          },
+          {
+            "name": "Github Repository",
+            "timestamp": {
+              "end_timestamp": "00:06:52.000",
+              "start_timestamp": "00:05:43.000"
+            }
+          },
+          {
+            "name": "Published Website",
+            "timestamp": {
+              "end_timestamp": "00:06:52.000",
+              "start_timestamp": "00:06:46.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Culmination of efforts with website publication.",
+        "timestamps": {
+          "end_timestamp": "00:06:52.000",
+          "start_timestamp": "00:05:09.033"
+        },
+        "title": "Publishing the Website",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator emphasizes checking the login status and account details on GitHub Desktop for troubleshooting potential issues. He encourages viewers to subscribe to his channel and ask questions in the comments.",
+            "timestamp": {
+              "end_timestamp": "00:08:06.000",
+              "start_timestamp": "00:06:52.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Wraps up the tutorial with final tips and community engagement.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Happy - The narrator's enthusiasm and friendly tone create a happy and encouraging mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Briefly reiterating the key steps for successful hosting.",
+            "timestamp": "00:06:52.033"
+          },
+          {
+            "description": "Advising viewers to check their login status and account details in GitHub Desktop.",
+            "timestamp": "00:06:59.000"
+          },
+          {
+            "description": "Highlighting the importance of matching the GitHub Desktop account with the one used for creating the repository.",
+            "timestamp": "00:07:34.000"
+          },
+          {
+            "description": "Encouraging viewers to like the video and subscribe to the channel for more content.",
+            "timestamp": "00:07:45.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GitHub Desktop application",
+            "timestamp": {
+              "end_timestamp": "00:08:06.000",
+              "start_timestamp": "00:06:59.000"
+            }
+          },
+          {
+            "name": "Github Repository",
+            "timestamp": {
+              "end_timestamp": "00:08:06.000",
+              "start_timestamp": "00:07:09.000"
+            }
+          },
+          {
+            "name": "Youtube Channel",
+            "timestamp": {
+              "end_timestamp": "00:08:06.000",
+              "start_timestamp": "00:07:48.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Conclusion with troubleshooting tips and call to action.",
+        "timestamps": {
+          "end_timestamp": "00:08:06.267",
+          "start_timestamp": "00:06:52.033"
+        },
+        "title": "Troubleshooting and Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay 'video pasand aaye tho LIKE jarrror krna'.",
+            "timestamps": {
+              "end_timestamp": "00:08:06.000",
+              "start_timestamp": "00:07:45.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Successfully accessing the published website.",
+        "timestamp": "00:06:46.000"
+      },
+      "description": "A step-by-step tutorial on how to host a website for free on GitHub using GitHub Pages.",
+      "scenes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Free Website Hosting Tutorial on GitHub",
+    "trimmingSuggestions": [
+      {
+        "description": "Text overlays 'show the world, who really are you' and 'host for free 2020' can be trimmed to maintain focus on the core steps.",
+        "timestamps": {
+          "end_timestamp": "00:06:52.033",
+          "start_timestamp": "00:06:52.033"
+        }
+      },
+      {
+        "description": "Replace the text overlay 'guys, check video timeline...' with a clickable pop-up link to the relevant video.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The text overlay 'video pasand aaye tho LIKE jarrror krna' can be shortened to 'Like this video!'.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 486,
+  "original_json_filename": "A2R-CMMyp64.json",
+  "original_video_filename": "A2R-CMMyp64.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello what's up guys my name is Bernard Baruch haba and during this video we will see how to host your website for free on github in Hindi totally Liceu regard so guys as mokuba tanya lucky history kazakh Juby a static website dropped great car to and objects it to currently may recede right it means made a local machine pay and many already schoo host car to car to auger my speaker tahoe click and suit three two one and one guy saab Dixit through online hosted sugar dome a receipt or a primary local machine with her Oscar many free may host Kia on github and up the acceptor coronavirus dot github.com I sub is link auger up apne PC maybe on guru Toby have up could be Heidegger and this is addressed awesome we do me a Hideki Maliki kiss turkeys have Joby we've said kid cut and other up duniya ke saamne schooled iconic Otto and you know if you don't want to buy hosting then a free make it up meals co-hosts cursor:auto guys my baton a stronger if you really don't know ki github kya hai' and other up we get have become key Avenue to Corrie ten surname and already get tutorial in Hindi up the exactly many complete get up Cooper tutorial create culture Karthik humanik build overnight job permanent-like I get get lab and get up in one video for beginners in Hindi say business is quite the kyoraku way I'd any and if you know key github caja nan recipes video for leukemia push still passionate make history case a upkeep machine kazoo website Joe apne creativity use Kalki create caves could duniya ke saamne off free my rucksack 32 guys Abenaki see their case to consider him subset Bella guys have my github dot-com account open Kanda hands up up github.com open guru go to guys mera already login thigh that's why Merrill login pager else other applicable login name key so you have to first login of capella sign-in karna and then Java korugar login taka a page open oh hey I gotta get to guys hammer sub-sahara dandanakka hemay a capo banana hammock repository create karna online folder click on we have a plus sign the exact - yeah PP up new P the expected ticket Oh up quiz new picker then I had click and then job up new picker will click to create a new repository dig up co-op K website like an American boy yattapelican a bodega so let me lick the thermistor kiss a rock on corona virus is three Kosilek data coronavirus TK of the exactly this is available dot and one thing up who makes her karna a PV German aapko online hood a big circle dot github dot of cool dick nahi pata this is mandatory figure to here you have to write github dot and then I up will ignite bodega and this is available to up initialize the repository with a readme chatter click bigger second I become in a clicker the bus America readme Kratos data and this is it guys approval said mr patanè got nothing now Papa Canada be a page open hygge APNIC online repick red curly website can and area approvals cakana our github for Windows digger windows say yeah Mac are physically be scoop on collective basically I'm are fasiq desktop version you have to simply click on this get a desktop dot github.com all right now you have to guys have dick sick to Mac other up on Mac you squirty booth to and agar up window semi said to basically window setup simply download for windows nor pep curd is a click and my butternut song I'm in are already school download kurchuk ahead Tigger and Java visco carrucha download the guys have khaki G simply you have to come on the download section John Paris cook or death hit download and a pop they accepted I said downloaded sugar download Kirkus could run as administrator' NetHope scopin Gurkha is to simply install Guardium and Java visco Caraga installed so aapke saamne guys could take a suprise egg I mean APNIC a install then up Nakia login simply tough is how many pages are in a picker intrepid with display home cam Carissa collegio hosts many Kiowa in happy would you be up Queenie up with the Khedira yalla we've said this coast K basically current repo here he made a master branch and fetch or is it so guys have cook yeah Canada him up Cunha happy adjudicator I user you arrow button expect liquor now all right and then up up Co icon website add karna right - yeah PAP add quickly Kesey clone repository pic click easy all right hand github.com happy already of course our project resigning in fury URL pay up coach Jana have a happy Apple judicata the cook clone or download espaço click on ahead and they already cloned with HTTP that is the secure his coop coop Wakanda has simply all right dig in happy Jackie up cook with Sarah Pocock are they're not have paste and you have to click on clone this is it and objects at the cloning coronavirus dot github die and once they will clone who jaga through guys ik page open holla and up the acceptor and this is it so hemara a page open Otsuka fetch origin and perfect looking after no local changes you have three options throw up open in sublime text so in Explorer view on github so in Explorer click on ya apke official page algebra postcard to to Apopka got the public underscore HTML McCarthy in a papaya official page a cookie a Ghana guys aapko mixer Kenickie up to quantify spared con named after already guys my name's file could include Kerkyra Chi static or own of the excessive it's cook a letter who make copy taken a toga a biscuit dragon Rob because like the Tessa cuchini dag and drop this is a district is happening in the--not file could include curly perfect minimize car though and it's good Jesse averted okay guys have the exactly after automatic Oh Agatha many couch sneaky automatic idea right and up in happiness had a changes you have to write something Sakia be scooped commit cursor Co my Corona website abyss 3 kiss elixir description may have lacunae liquids totally up to you but up were at least year to filter night but I got a key up commit cursor cool and once Java is cook or do get commit so this is it guys now you have to only click on post origin Malawi Africa MIT successful Hosea and he got a break set to writing object 26% alright and total 23% Huachuca have fetching origin hang on but are all right and this is it complete yeah a magician like eyes jo pehli up capacious has the high data we have only read me dot MD page Kumar Tom click and this is abreast of the acceptor himera sorry page actually though commits and Amara Sawatzky mucho caja a vehicle Kakaako Jonna has settings P you have to go on setting exam me J X again niches and sapele up they city of Konami up a website Agora for next time Camila gichan's kanata premium course active sub Sydney Chiana high in a fabric sector guys github pages soon after they excite to get up with is currently disabled floppy happen on Picaro click master branch break or the click and this is it guys up they said again up Cooney chana now your site is ready to be published at this one - espera car then I click and ABI Java for 0 for D can wait for at least four to five minutes think of a possibly and Jeb whoppers are back our two guys up notice curuvija green McConville futsuka erotic to make were whopper subpoena official site which Alta yep Mei and again weapon is setting pizza just up shake Arturo makes your guru key whoa all right guys up the exactly your site is published at latina and boom guys are they still just monopoly some history fans minute me if school I butcher kid dick idea so this is advanced I hope up Koopman what person Diegans if function it may happen in both easily school complete Kathy they can feel remake which is every button a song or guys you have to make sure he a girl hysterically succumbed nahi Cara so up a Kakuna guys have Co file page Anna hey here we have a option while Hobson thing pepper a well click guru and makes Haruki up this account syphon who opening official github page pay me up Quebec shell Kelly keetchadam yeah a kazoo official github page picking up nom the kid that is up with the head Agatha per technical image Joey morena public sector topper technical we see say he up could login on an integration of complete una chief give him proper e-mail ID and name on achaya parents how could they cannot advance me where I could check on a subsidy importantly a key account up G's may up near the appropriate here you see accounts F Kellogg you know but Sydney up who makes ur karna Bakke sub comic or behind the scene get up car data so this is it guys as is Bill Clinton he and a really of guys have quartz capita both personal manager how guys made daily AC awesome video scared Carter Otto and me bill Cohen each other yeah booze Comiskey G so please subscribe my channel topper technical and right side my cred Calaca Bell I can ignorant in the guys like a hit key G click is it tacky up si awesome videos Commission occur would you be down to the brave Figaro Kenichi comment get my picture would have carumba so pill and guys thank you so much take care",
+  "text_to_speech_word_count": 1686,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.000",
+      "start": "00:00:00.000",
+      "text": " Hello what's up guys, my name is Penoj Badoodh Hapa and today in this video we will see how to host your website for free on Github in Hindi"
+    },
+    {
+      "end": "00:00:09.000",
+      "start": "00:00:07.000",
+      "text": " So let's start"
+    },
+    {
+      "end": "00:00:16.500",
+      "start": "00:00:09.000",
+      "text": " So guys today I am going to tell you how you can create this website and you can see it currently on my C-Dripe"
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:16.500",
+      "text": " It means my local machine and I have already hosted it so if I do it on it click and so 3 to 1 and we will see it online"
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:26.000",
+      "text": " So guys if you want to see my local machine on my C-Dripe, then you can see it on Github."
+    },
+    {
+      "end": "00:00:38.000",
+      "start": "00:00:32.000",
+      "text": " So if you want to see this link on your PC, then you can see it now"
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:38.000",
+      "text": " And this is it guys, today in the video I am going to show you how to create this website"
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:43.000",
+      "text": " And if you want to show it to the world and if you don't want to buy hosting then you can host it in free"
+    },
+    {
+      "end": "00:00:56.000",
+      "start": "00:00:50.000",
+      "text": " So guys I want to tell you if you really don't know what is Github and if you have never done it on Github"
+    },
+    {
+      "end": "00:01:00.000",
+      "start": "00:00:56.000",
+      "text": " So no tension here, I have already seen it on Github in Hindi"
+    },
+    {
+      "end": "00:01:07.000",
+      "start": "00:01:00.000",
+      "text": " I have already created a complete Github on Github and I have written GithLab and Github in one video for beginners"
+    },
+    {
+      "end": "00:01:12.500",
+      "start": "00:01:07.000",
+      "text": " So give it to me just 20 minutes, if you have no idea and if you know what is Github"
+    },
+    {
+      "end": "00:01:22.500",
+      "start": "00:01:12.500",
+      "text": " Then guys follow this video, I will show you in 5 minutes how your website is created in free"
+    },
+    {
+      "end": "00:01:25.500",
+      "start": "00:01:22.500",
+      "text": " So guys let's start without any delay"
+    },
+    {
+      "end": "00:01:32.500",
+      "start": "00:01:25.500",
+      "text": " First of all we have to open our Github.com account and when you open Github.com, then you will already be logged in"
+    },
+    {
+      "end": "00:01:38.500",
+      "start": "00:01:32.500",
+      "text": " That's why my login is on it, else if you have never logged in, then you have to first login, you have to sign in first"
+    },
+    {
+      "end": "00:01:44.500",
+      "start": "00:01:38.500",
+      "text": " And then when you do it, your login will be on it, so guys we have to first of all make a repo"
+    },
+    {
+      "end": "00:01:51.500",
+      "start": "00:01:44.500",
+      "text": " We have to create a repository, online folder, so you can see plus sign here, you can also see on the new"
+    },
+    {
+      "end": "00:01:57.500",
+      "start": "00:01:51.500",
+      "text": " So you have to click on this new, and then when you click on new, click on create a new repository"
+    },
+    {
+      "end": "00:02:01.500",
+      "start": "00:01:57.500",
+      "text": " You have to keep your website name, you have to write here"
+    },
+    {
+      "end": "00:02:07.500",
+      "start": "00:02:01.500",
+      "text": " So guys I will write it in this, like this, like this, like this, like this, like this, like this, like this, like this"
+    },
+    {
+      "end": "00:02:13.500",
+      "start": "00:02:07.500",
+      "text": " Okay you can see this is available. And one thing you have to make sure, when I show you online"
+    },
+    {
+      "end": "00:02:18.500",
+      "start": "00:02:13.500",
+      "text": " You can see that you have to write this as a Github.io, this is mandatory"
+    },
+    {
+      "end": "00:02:27.500",
+      "start": "00:02:18.500",
+      "text": " Okay so here you have to write Github.io, this is available, so you can initialize the repository with a readme"
+    },
+    {
+      "end": "00:02:32.500",
+      "start": "00:02:27.500",
+      "text": " You can also click, I can also not click, so I have just created a readme"
+    },
+    {
+      "end": "00:02:37.500",
+      "start": "00:02:32.500",
+      "text": " And this is it guys, you have to write it in the website now, now what you have to do, when you have to write this"
+    },
+    {
+      "end": "00:02:42.500",
+      "start": "00:02:37.500",
+      "text": " You have to create an online repo, and then give the website name, what you have to do is"
+    },
+    {
+      "end": "00:02:49.500",
+      "start": "00:02:42.500",
+      "text": " Github for Windows, so Windows or Mac, you can also open it for someone, basically we have a desktop version"
+    },
+    {
+      "end": "00:02:53.500",
+      "start": "00:02:49.500",
+      "text": " You have to simply click on this desktop.github.com, alright"
+    },
+    {
+      "end": "00:03:00.500",
+      "start": "00:02:53.500",
+      "text": " Now you can see here you can see Mac, if you use Mac, and if you have Windows MS, then basically you can simply download"
+    },
+    {
+      "end": "00:03:06.500",
+      "start": "00:03:00.500",
+      "text": " For Windows, now you can click on it, and I will tell you, I have already downloaded it, okay"
+    },
+    {
+      "end": "00:03:12.500",
+      "start": "00:03:06.500",
+      "text": " And when you download it, then what you have to do is simply come on the download section, where you can download it"
+    },
+    {
+      "end": "00:03:19.500",
+      "start": "00:03:12.500",
+      "text": " And you can see here you can download it, download it, and run as administrator, then you can open it, then you can just install it"
+    },
+    {
+      "end": "00:03:26.500",
+      "start": "00:03:19.500",
+      "text": " And when you will do it, install it, then in front of you guys, you will have to do something like this, I mean you will install it, then you will have to install it"
+    },
+    {
+      "end": "00:03:32.500",
+      "start": "00:03:26.500",
+      "text": " And simply in front of you, you will have to do this, here you have a current repository, which we are working on, basically the host"
+    },
+    {
+      "end": "00:03:40.500",
+      "start": "00:03:32.500",
+      "text": " I have done here, the one that you are showing here, this website that is hosted, basically current repo, this is my master branch and fetch origin"
+    },
+    {
+      "end": "00:03:47.500",
+      "start": "00:03:40.500",
+      "text": " So how do you see this, you can see here, the user that you have to click on the arrow button, alright"
+    },
+    {
+      "end": "00:03:55.500",
+      "start": "00:03:47.500",
+      "text": " And then you have to add one more website, so click on the add here, click on the clone repository, click on the"
+    },
+    {
+      "end": "00:04:01.500",
+      "start": "00:03:55.500",
+      "text": " All right, here is github.com, here already you will get all the projects, then you have to go to URL,"
+    },
+    {
+      "end": "00:04:09.500",
+      "start": "00:04:01.500",
+      "text": " Here you have to click on the clone and download it, and you already click on the sttps that is the secure,"
+    },
+    {
+      "end": "00:04:16.500",
+      "start": "00:04:09.500",
+      "text": " You have to copy it, simply alright, so here you have to paste and paste and you have to click on clone,"
+    },
+    {
+      "end": "00:04:25.500",
+      "start": "00:04:16.500",
+      "text": " This is it, and you can see the cloning, coronavirus.github.io, and once you have a clone, you guys can see a page open and you can see it,"
+    },
+    {
+      "end": "00:04:32.500",
+      "start": "00:04:25.500",
+      "text": " And this is it, so our page open is now fetch origin and perfect, so here no local changes, you have three options,"
+    },
+    {
+      "end": "00:04:40.500",
+      "start": "00:04:32.500",
+      "text": " So you open in sublime text, so in explorer view on github, you have to click on this explorer, this is your official page,"
+    },
+    {
+      "end": "00:04:44.500",
+      "start": "00:04:40.500",
+      "text": " Whenever you post it, what you do there, you publish it, you get it in the scroll,"
+    },
+    {
+      "end": "00:04:50.500",
+      "start": "00:04:44.500",
+      "text": " Here you have to pay this official page, what you have to do, you have to make sure that you have to add it on the file,"
+    },
+    {
+      "end": "00:04:56.500",
+      "start": "00:04:50.500",
+      "text": " Here already guys, I have included that file, you can see it, I will do it, I will copy it,"
+    },
+    {
+      "end": "00:05:03.500",
+      "start": "00:04:56.500",
+      "text": " Okay guys, you can drop it, nothing like that, drag and drop, this is it, you have included these three files,"
+    },
+    {
+      "end": "00:05:10.500",
+      "start": "00:05:03.500",
+      "text": " You can minimize it, and as you can see you can see automatically, I have not done anything,"
+    },
+    {
+      "end": "00:05:15.500",
+      "start": "00:05:10.500",
+      "text": " And you have to write all the changes here, so that you can commit it,"
+    },
+    {
+      "end": "00:05:21.500",
+      "start": "00:05:15.500",
+      "text": " You can write it on my coron or website, you can write it in description, you can write it in the description,"
+    },
+    {
+      "end": "00:05:25.500",
+      "start": "00:05:21.500",
+      "text": " But you have to fill this file, so that you can commit it,"
+    },
+    {
+      "end": "00:05:30.500",
+      "start": "00:05:25.500",
+      "text": " And once you commit it, so this is it guys, now you have to click on push origin,"
+    },
+    {
+      "end": "00:05:34.500",
+      "start": "00:05:30.500",
+      "text": " Means your commit will be successful, and you can see here,"
+    },
+    {
+      "end": "00:05:39.500",
+      "start": "00:05:34.500",
+      "text": " You can see that right thing, object 26%, all right, and total 23%,"
+    },
+    {
+      "end": "00:05:43.500",
+      "start": "00:05:39.500",
+      "text": " So you have fetching origin, hang on, but I am telling you, all right, and this is it complete,"
+    },
+    {
+      "end": "00:05:48.500",
+      "start": "00:05:43.500",
+      "text": " Here I have to go, all the first page, as I showed you, we have only read me.md page,"
+    },
+    {
+      "end": "00:05:52.500",
+      "start": "00:05:48.500",
+      "text": " I will do this, click and this is it guys, you can see that all of us have been paid,"
+    },
+    {
+      "end": "00:05:57.500",
+      "start": "00:05:52.500",
+      "text": " Two commits and everything has been worked, now you have to go to settings,"
+    },
+    {
+      "end": "00:06:01.500",
+      "start": "00:05:57.500",
+      "text": " You have to go on setting, one by one, you can see that you can see from the bottom,"
+    },
+    {
+      "end": "00:06:06.500",
+      "start": "00:06:01.500",
+      "text": " Your name is on the website, if you can even rename it next time,"
+    },
+    {
+      "end": "00:06:10.500",
+      "start": "00:06:06.500",
+      "text": " You can come down, you can see here, this is the GitHub pages,"
+    },
+    {
+      "end": "00:06:13.500",
+      "start": "00:06:10.500",
+      "text": " So you can see here, GitHub pages is currently disabled,"
+    },
+    {
+      "end": "00:06:16.500",
+      "start": "00:06:13.500",
+      "text": " So now click on the line, master branch, click on the click,"
+    },
+    {
+      "end": "00:06:20.500",
+      "start": "00:06:17.500",
+      "text": " And this is it guys, you can see, again you have to go down,"
+    },
+    {
+      "end": "00:06:22.500",
+      "start": "00:06:20.500",
+      "text": " Now your site is ready to be published at this one,"
+    },
+    {
+      "end": "00:06:25.500",
+      "start": "00:06:22.500",
+      "text": " So you have to click on this, and now you can see the 404,"
+    },
+    {
+      "end": "00:06:30.500",
+      "start": "00:06:25.500",
+      "text": " Wait for at least 4 to 5 minutes, okay, go back, and when you will come back,"
+    },
+    {
+      "end": "00:06:33.500",
+      "start": "00:06:30.500",
+      "text": " You will notice that this is converted into green,"
+    },
+    {
+      "end": "00:06:37.500",
+      "start": "00:06:33.500",
+      "text": " So once again, I am going on the official site,"
+    },
+    {
+      "end": "00:06:40.500",
+      "start": "00:06:37.500",
+      "text": " Here I have come and I am going on setting again,"
+    },
+    {
+      "end": "00:06:43.500",
+      "start": "00:06:40.500",
+      "text": " Just check, you can make sure that you can see,"
+    },
+    {
+      "end": "00:06:46.500",
+      "start": "00:06:44.500",
+      "text": " Your site is published at this one, and boom guys,"
+    },
+    {
+      "end": "00:06:49.500",
+      "start": "00:06:46.500",
+      "text": " You can see, just in your front, just in 5 minutes,"
+    },
+    {
+      "end": "00:06:52.500",
+      "start": "00:06:49.500",
+      "text": " You have shown it live, so this is it guys,"
+    },
+    {
+      "end": "00:06:56.500",
+      "start": "00:06:52.500",
+      "text": " I hope you liked it, and you have completed it very easily in 5 minutes,"
+    },
+    {
+      "end": "00:06:59.500",
+      "start": "00:06:56.500",
+      "text": " But I will also have to tell you something, guys, you have to make sure,"
+    },
+    {
+      "end": "00:07:02.500",
+      "start": "00:06:59.500",
+      "text": " that if you are not working like this,"
+    },
+    {
+      "end": "00:07:04.500",
+      "start": "00:07:02.500",
+      "text": " So what you have to do guys, you have to go on the file,"
+    },
+    {
+      "end": "00:07:07.500",
+      "start": "00:07:04.500",
+      "text": " Here we have an option, it is fine, click on this,"
+    },
+    {
+      "end": "00:07:10.500",
+      "start": "00:07:07.500",
+      "text": " And make sure that you are open with this account,"
+    },
+    {
+      "end": "00:07:14.500",
+      "start": "00:07:10.500",
+      "text": " Open with your official website, I will go back to you on the page of the guide,"
+    },
+    {
+      "end": "00:07:16.500",
+      "start": "00:07:14.500",
+      "text": " This is your official guide page,"
+    },
+    {
+      "end": "00:07:19.500",
+      "start": "00:07:16.500",
+      "text": " Okay, you can see that your dad will show you,"
+    },
+    {
+      "end": "00:07:21.500",
+      "start": "00:07:19.500",
+      "text": " It was technical, the image you are looking at,"
+    },
+    {
+      "end": "00:07:22.500",
+      "start": "00:07:21.500",
+      "text": " You can see it was technical,"
+    },
+    {
+      "end": "00:07:24.500",
+      "start": "00:07:22.500",
+      "text": " Similarly, you have to log in,"
+    },
+    {
+      "end": "00:07:25.500",
+      "start": "00:07:24.500",
+      "text": " Your integration should be complete,"
+    },
+    {
+      "end": "00:07:28.500",
+      "start": "00:07:25.500",
+      "text": " You have to get a proper email ID and name,"
+    },
+    {
+      "end": "00:07:30.500",
+      "start": "00:07:28.500",
+      "text": " Now you have to check the appearance,"
+    },
+    {
+      "end": "00:07:31.500",
+      "start": "00:07:30.500",
+      "text": " You have to check in advance,"
+    },
+    {
+      "end": "00:07:33.500",
+      "start": "00:07:31.500",
+      "text": " The most important thing is that,"
+    },
+    {
+      "end": "00:07:36.500",
+      "start": "00:07:33.500",
+      "text": " Account, you have created your own repo,"
+    },
+    {
+      "end": "00:07:37.500",
+      "start": "00:07:36.500",
+      "text": " This is the account of your login,"
+    },
+    {
+      "end": "00:07:39.500",
+      "start": "00:07:37.500",
+      "text": " You can just use it,"
+    },
+    {
+      "end": "00:07:41.500",
+      "start": "00:07:39.500",
+      "text": " and you will have to do all your work,"
+    },
+    {
+      "end": "00:07:43.500",
+      "start": "00:07:41.500",
+      "text": " Behind the scene, get up,"
+    },
+    {
+      "end": "00:07:45.500",
+      "start": "00:07:43.500",
+      "text": " So this is it guys, today I have taken this video,"
+    },
+    {
+      "end": "00:07:47.500",
+      "start": "00:07:45.500",
+      "text": " And really guys, today is a very good time,"
+    },
+    {
+      "end": "00:07:49.500",
+      "start": "00:07:47.500",
+      "text": " I would like to tell you guys,"
+    },
+    {
+      "end": "00:07:51.500",
+      "start": "00:07:49.500",
+      "text": " I have created awesome videos,"
+    },
+    {
+      "end": "00:07:53.500",
+      "start": "00:07:51.500",
+      "text": " And I don't want to miss this,"
+    },
+    {
+      "end": "00:07:55.500",
+      "start": "00:07:53.500",
+      "text": " Please subscribe my channel,"
+    },
+    {
+      "end": "00:07:57.500",
+      "start": "00:07:55.500",
+      "text": " And right side, I will show you a red card,"
+    },
+    {
+      "end": "00:07:59.500",
+      "start": "00:07:57.500",
+      "text": " Hit the hit button,"
+    },
+    {
+      "end": "00:08:01.500",
+      "start": "00:07:59.500",
+      "text": " So that you can miss awesome videos."
+    },
+    {
+      "end": "00:08:03.500",
+      "start": "00:08:01.500",
+      "text": " If you doubt anything, then don't worry,"
+    },
+    {
+      "end": "00:08:05.500",
+      "start": "00:08:03.500",
+      "text": " I will help you,"
+    },
+    {
+      "end": "00:08:07.500",
+      "start": "00:08:05.500",
+      "text": " Thank you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Thapa Technical",
+  "youtube_channel_follower_count": 683000,
+  "youtube_comment_count": 556,
+  "youtube_description": "Welcome, How to Host your Website for FREE on Github in Hindi. Github has a feature called Github Pages, which makes it easy and free for you to create a multi-file website hosted at yourusername.github.io. Today in this video I will show you how to host or publish your website for free on GitHub under 5minutes only. Also, about using GitHub to host our website, without paying anything at all, using GitHub Pages.\n\n🔥🔥Git & Github Sikhe Sirf 20min me: https://youtu.be/v4TMaD9v5kM\n\n➡️ Git & GitHub Tutorial Playlist in Hindi: https://www.youtube.com/playlist?list=PLwGdqUZWnOp2Hjzqctj2kER5I0oyAGXOf\n\n***************** MUST WATCH VIDEOS ****************** \n\n➡️ Git & GitHub Tutorial Playlist in Hindi: https://www.youtube.com/playlist?list=PLwGdqUZWnOp2Hjzqctj2kER5I0oyAGXOf\n\n➡️ Advanced JavaScript Tutorial in Hindi 2020: https://www.youtube.com/playlist?list=PLwGdqUZWnOp0hSGwasCjbrWSPrEKqB_kz\n\n➡️ Modern JavaScript ES6 Tutorial in Hindi in 2020: https://www.youtube.com/playlist?list=PLwGdqUZWnOp19VX-DM4oHtmWhDfWblFh-\n\n➡️ ReactJS For Beginners in One Video in Hindi: https://youtu.be/43IbFDSVdB0\n\n➡️ API Explained | Difference between API and Web Services: https://youtu.be/GByLcDHXs2o\n\n➡️ Create Project using API in Website in Hindi 2019: https://youtu.be/6ZG9rJCQyIE \n\n➡️ AJAX tutorial for beginners in Hindi: https://www.youtube.com/playlist?list=PLwGdqUZWnOp3ZgLj8upMGSRSC1ezBfEZs\n\n➡️ Complete PHP PDO Source Code for FREE: https://www.thapatechnical.com/2020/04/php-pdo-tutorial-in-hindi.html\n\n➡️ Upload and Display Multiple Images using PHP MySQLi: https://youtu.be/KFgha79S8cI\n\n➡️ Register with Email Verification Link in PHP and MySQLi: https://youtu.be/aCrGIFspU4A\n\n➡️ User Registration Form in PHP with MySQL: https://youtu.be/qEm2bZZdMsE\n\n➡️ User Login and Logout with Session in PHP & MySQLi: https://youtu.be/F65zrW7Jbus\n\n➡️ PHP MAIL CODE: https://www.thapatechnical.com/2020/03/how-to-send-mail-from-localhost-xampp.html\n\n➡️PHP Password Encrypt Hashing Algo: https://www.thapatechnical.com/2020/03/php-crypt-vs-passwordhash-functions.html\n\n➡️ Dynamic Responsive Website against CORONA VIRUS: https://youtu.be/TefnsQg0RIU\n\n➡️➡️ How To Get Source Code of this Video: https://www.thapatechnical.com/2019/12/how-to-get-source-code.html\n\n➡️ Home Page Website Using HTML And CSS in Hindi 2020: https://youtu.be/a11EyHO_nrE\n\n➡️➡️PHP MYSQL CRUD SERIES PLAYLIST: https://www.youtube.com/playlist?list=PLwGdqUZWnOp1SWXrE9Pd9ktzgz6U4Wgg-\n\n\n➡️ XAMPP Tutorial In One Video In Hindi: https://www.youtube.com/playlist?list=https://youtu.be/fV8ointgMeQ\n\n\n💻 Complete MS PowerPoint In One Video In Hindi in 2020 💻:  https://youtu.be/P50_HCfMh24\n\n\n➡️ Backend Development Tutorial: https://www.youtube.com/playlist?list=PLwGdqUZWnOp1U4kemcU_vF9KQuHXlNxkb \n\n\n➡️ Complete HTML and CSS Tutorial In One Video In Hindi 2020: https://youtu.be/5p8e2ZkbOFU\n\n\n➡️ How to become a Full Stack Developer 2020: https://youtu.be/etZ4jq_YjyM\n\n\n➡️ How To Become a Web Developer 2020: https://youtu.be/Ur9LGVT-GXs\n\n\n➡️ How JavaScript Works:  https://youtu.be/VaBP6_pBOgM\n\n\n\n➡️  Follow me on Instagram: https://www.instagram.com/vinodthapa55/\n\n\n\n************* Must Watch Videos For Web Development.*************\n\n\n\n➡️ HTML in One Video: https://youtu.be/pN7BFLfSjFw\n\n\n➡️ CSS in One video:  https://youtu.be/hkQv0NIxKQY\n\n\n➡️ CSS FlexBox in 30 Minutes: https://youtu.be/6L-PAmZajfA\n\n\n➡️ JavaScript in One video:   https://youtu.be/PODgPW-hbfU\n\n\n➡️  ECMAScript 6 in One Video:  https://youtu.be/Iek4DtRobLA\n\n\n➡️ HTML5 in one video:  https://youtu.be/4V0-YpO-KZo\n\n\n➡️ CSS3 in one video:  https://youtu.be/TFrFx7H5ZI8\n\n\n➡️ Bootstrap4 in One video:   https://youtu.be/yZnNnvXO8HI\n\n\n➡️ Jquery in One video:  https://youtu.be/PNvyPEQ0y-I\n\n\n➡️ JSON in one video:  https://youtu.be/bMqevPKAPD4\n\n\n➡️ ReactJS in one video:  https://youtu.be/43IbFDSVdB0\n\n\n➡️ PHP in One Video:  https://youtu.be/3024Kc6SDJ0\n\n\n➡️ NodeJS in one video:  https://youtu.be/ipnWAKoiBt\n\n\n➡️ MySQL in one video:   https://youtu.be/5bFxbwjN-Gk\n\n\n\nMake Website Responsive Using Media Queries in One Video in Hindi | Web Design Tutorial in Hindi\n\n\n➡️ Link: https://youtu.be/cKR9gzco3Kc\n\n\n\nDONATION FOR SUPPORT:    PhonePay = vinodbahadur@ybl      GooglePay: vbthapa55@oksbi\n\n\n\nBelieve me, all this money will be used to make more quality videos and to make my channel grow. So that I can always provide you awesome free videos :)\n\n\nGuys, Please support my channel by SUBSCRIBE to my channel and share my videos in your Social Network TimeLines.\n\n\n\nDon't Forget to Follow  me on all Social Network, \n\n\nWebsite Link:  https://www.thapatechnical.com\n\n\nInstagram Link:     https://www.instagram.com/vinodthapa55\n\n\nFacebook Link:     https://www.facebook.com/vinodthapa55\n\n\nTwitter       Link:     https://twitter.com/vb55thapa\n\n\nFacebook ThapaTechnical Page Link: https://www.facebook.com/vinodbahadurthapa/?ref=aymt_homepage_panel&eid=ARCTi5kdE1POliSOXnW51qZdo6NcpcSOqrioqut1KDac_CfgY5OCey-vcHlgRDgc_OK6eYNFCF_Rrfiq",
+  "youtube_like_count": 9426,
+  "youtube_tags": [
+    "Hosting your website on Github",
+    "github pages",
+    "website",
+    "github",
+    "host github pages in hindi",
+    "free hosting website hindi",
+    "website hosting for free",
+    "free web hosting in hindi",
+    "free hosting in hindi",
+    "host website in github",
+    "how to host website on github in hindi",
+    "free me website host kaise kare",
+    "publish a website online for free",
+    "website hosting free"
+  ],
+  "youtube_title": "Host Website for FREE on GitHub in 5 Minute Only in Hindi 🔥",
+  "youtube_upload_date": "20200419",
+  "youtube_view_count": 456392
+}

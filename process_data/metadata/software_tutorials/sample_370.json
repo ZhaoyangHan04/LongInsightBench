@@ -1,0 +1,912 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A silver robot with red eyes and a circular head. It appears throughout the video, explaining reCAPTCHA v3 and its benefits.",
+        "name": "Main Robot"
+      },
+      {
+        "characterId": "2",
+        "description": "Two silver robots with red eyes and circular heads. One holds balloons and the other wears a pink lampshade hat. They appear briefly, celebrating the success of bots bypassing security.",
+        "name": "Party Robots"
+      },
+      {
+        "characterId": "3",
+        "description": "A silver robot with red eyes and a circular head, holding a paper with a red 'X' mark, representing a low reCAPTCHA score. It appears briefly to illustrate how bots can post fake reviews.",
+        "name": "Review Bot"
+      },
+      {
+        "characterId": "4",
+        "description": "Various cartoon human faces appear to represent website users. They have diverse skin tones, hairstyles, and facial expressions.",
+        "name": "Human Faces"
+      }
+    ],
+    "description": "This video examines the features and benefits of reCAPTCHA v3, focusing on its ability to protect websites from bot activities.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The video mentions that bots can try leaked passwords, post spam, and scrape website content.",
+        "question": "What are some examples of harmful activities that bots can perform on websites?"
+      },
+      {
+        "answer": "Unlike reCAPTCHA v2, which requires users to solve challenges, reCAPTCHA v3 works in the background, assigning risk scores to user interactions and allowing website owners to take appropriate actions based on those scores.",
+        "question": "How does reCAPTCHA v3 differ from previous versions?"
+      },
+      {
+        "answer": "He marked the low-scoring review as risky and added it to a verification queue for further investigation.",
+        "question": "What specific action did the online store owner take to address the bot-generated reviews?"
+      },
+      {
+        "answer": "The video shows a bar chart with color-coded bars representing different risk levels. Lower scores are indicated by red bars, while higher scores are represented by green bars.",
+        "question": "What are the visual cues used to represent risky traffic in the reCAPTCHA admin console?"
+      },
+      {
+        "answer": "The video primarily conveys a neutral and informative tone, focusing on explaining reCAPTCHA v3 and its benefits. However, there are brief moments of concern and satisfaction as the problem is presented and subsequently resolved. The overall mood becomes positive and reassuring towards the end, emphasizing the effectiveness of the solution.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Main Robot introduces the need for website protection from bots",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Party Robots celebrate successful bot activity",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Main Robot explains reCAPTCHA's 'I'm not a robot' checkbox and its limitations",
+            "timestamp": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Main Robot",
+          "Party Robots"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Main Robot"
+            ],
+            "description": "The Main Robot acts as a narrator."
+          },
+          {
+            "characters": [
+              "Party Robots"
+            ],
+            "description": "The Party Robots briefly represent the success of bots."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Starts neutral, briefly shifts to Happy when bots succeed, then back to neutral as limitations are discussed.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the problem of bots and the need for a more robust solution.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Bots successfully bypass security, highlighting the issue.",
+            "timestamp": "00:00:05.000"
+          },
+          {
+            "description": "Existing solutions are presented, but their limitations are emphasized.",
+            "timestamp": "00:00:09.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Website with cat logo and login fields",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Balloons and confetti",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "'I'm not a robot' reCAPTCHA checkbox",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Website security, the challenge of bots, limitations of current solutions.",
+        "timestamps": {
+          "end_timestamp": "00:00:18.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Existing Challenges",
+        "videoEditingDetails": [
+          {
+            "description": "Animated robot movements",
+            "timestamps": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text appears on screen with key phrases",
+            "timestamps": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Background color changes from white to yellow during bot celebration",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "reCAPTCHA checkbox animation",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Main Robot introduces reCAPTCHA v3 and its score-based approach",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:18.033"
+            }
+          },
+          {
+            "description": "Main Robot explains how scores are assigned and used to identify risky traffic",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Main Robot",
+          "Human Faces",
+          "Review Bot"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Main Robot"
+            ],
+            "description": "The Main Robot acts as a narrator and explainer."
+          },
+          {
+            "characters": [
+              "Human Faces"
+            ],
+            "description": "Human Faces represent website users."
+          },
+          {
+            "characters": [
+              "Review Bot"
+            ],
+            "description": "Review Bot acts as an example of risky traffic."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral and informative, with a slight sense of concern as the problem is explored.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "reCAPTCHA v3 is introduced, highlighting its score-based approach.",
+            "timestamp": "00:00:18.033"
+          },
+          {
+            "description": "The concept of assigning scores to traffic is explained.",
+            "timestamp": "00:00:25.000"
+          },
+          {
+            "description": "Examples of actions based on reCAPTCHA scores are provided.",
+            "timestamp": "00:00:33.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Website with colored bars representing reCAPTCHA scores",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:18.033"
+            }
+          },
+          {
+            "name": "Question marks linked to the bars, illustrating uncertainty",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "name": "Icons representing actions (email, message, account)",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "name": "Review Bot holding a low-scoring review",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:39.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Score-based risk assessment, user experience, customizable security actions.",
+        "timestamps": {
+          "end_timestamp": "00:00:41.000",
+          "start_timestamp": "00:00:18.033"
+        },
+        "title": "Introduction to reCAPTCHA v3",
+        "videoEditingDetails": [
+          {
+            "description": "Animated movement of bars and icons",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:18.033"
+            }
+          },
+          {
+            "description": "Text appears on screen with key phrases",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:18.033"
+            }
+          },
+          {
+            "description": "Color coding of bars to represent risk levels",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:18.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Main Robot explains how he implemented reCAPTCHA v3 on his own online store",
+            "timestamp": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Main Robot"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Main Robot"
+            ],
+            "description": "The Main Robot acts as the narrator and problem-solver."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral and slightly curious, as the focus is on problem-solving and investigation.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The Main Robot introduces his online store and the problem he faced.",
+            "timestamp": "00:00:41.033"
+          },
+          {
+            "description": "Traffic and conversion data are presented, highlighting the issue.",
+            "timestamp": "00:00:46.000"
+          },
+          {
+            "description": "reCAPTCHA v3 is implemented on key pages of the website.",
+            "timestamp": "00:01:00.000"
+          },
+          {
+            "description": "The technical integration process is demonstrated.",
+            "timestamp": "00:01:08.000"
+          },
+          {
+            "description": "The reCAPTCHA admin console is introduced, providing insights into bot activity.",
+            "timestamp": "00:01:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Online store website with various pages",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:41.033"
+            }
+          },
+          {
+            "name": "Line graphs showing traffic and conversions",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          },
+          {
+            "name": "reCAPTCHA v3 logo appearing on each page",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "name": "Code snippet representing the reCAPTCHA integration",
+            "timestamp": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          },
+          {
+            "name": "reCAPTCHA admin console showing score distribution",
+            "timestamp": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:17.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Practical implementation, data analysis, identifying bot behavior, customizing security measures.",
+        "timestamps": {
+          "end_timestamp": "00:01:17.000",
+          "start_timestamp": "00:00:41.033"
+        },
+        "title": "Practical Implementation on Online Store",
+        "videoEditingDetails": [
+          {
+            "description": "Transition from human face icons to online store website",
+            "timestamps": {
+              "end_timestamp": "00:00:41.033",
+              "start_timestamp": "00:00:41.033"
+            }
+          },
+          {
+            "description": "Animated line graph movements",
+            "timestamps": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          },
+          {
+            "description": "reCAPTCHA logos appear on each website page",
+            "timestamps": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Close-up view of code snippet",
+            "timestamps": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          },
+          {
+            "description": "Transition to reCAPTCHA admin console",
+            "timestamps": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:17.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Main Robot examines the reCAPTCHA scores in the admin console and identifies a low-scoring review",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:01:17.033"
+            }
+          },
+          {
+            "description": "Main Robot flags the review as risky and adds it to a verification queue",
+            "timestamp": {
+              "end_timestamp": "00:01:39.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "description": "Main Robot explains that the bots have been turned away and customers can now trust the reviews",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:39.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Main Robot",
+          "Review Bot",
+          "Human Faces"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Main Robot"
+            ],
+            "description": "The Main Robot acts as the problem-solver."
+          },
+          {
+            "characters": [
+              "Review Bot"
+            ],
+            "description": "Review Bot represents the problematic bot activity."
+          },
+          {
+            "characters": [
+              "Human Faces"
+            ],
+            "description": "Human Faces represent the beneficiaries of the solution."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral with a sense of satisfaction as the problem is resolved.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The admin console reveals that bots are posting many reviews.",
+            "timestamp": "00:01:17.033"
+          },
+          {
+            "description": "A specific low-scoring review by a bot is identified.",
+            "timestamp": "00:01:26.000"
+          },
+          {
+            "description": "The review is flagged as risky and added to a verification queue.",
+            "timestamp": "00:01:30.000"
+          },
+          {
+            "description": "The successful outcome is highlighted, emphasizing customer trust and website security.",
+            "timestamp": "00:01:39.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "reCAPTCHA admin console with score distribution chart",
+            "timestamp": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:17.033"
+            }
+          },
+          {
+            "name": "Website page showing reviews, with one highlighted as risky",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Data-driven decision making, effective bot mitigation, protecting user experience, maintaining website integrity.",
+        "timestamps": {
+          "end_timestamp": "00:01:45.000",
+          "start_timestamp": "00:01:17.033"
+        },
+        "title": "Addressing Bot-Generated Reviews",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom into specific data points on the score distribution chart",
+            "timestamps": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:17.033"
+            }
+          },
+          {
+            "description": "Transition from admin console to website reviews page",
+            "timestamps": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          },
+          {
+            "description": "Highlighted review with warning icon",
+            "timestamps": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Main Robot explains how reCAPTCHA v3's adaptive risk analysis engine works, using various signals to predict bot activity",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:45.033"
+            }
+          },
+          {
+            "description": "Main Robot summarizes the benefits of reCAPTCHA v3 for both users and website owners",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Main Robot",
+          "Human Faces"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Main Robot"
+            ],
+            "description": "The Main Robot acts as the narrator and explainer."
+          },
+          {
+            "characters": [
+              "Human Faces"
+            ],
+            "description": "Human Faces represent the beneficiaries of the solution."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Positive and reassuring, highlighting the benefits and effectiveness of reCAPTCHA v3.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The inner workings of reCAPTCHA v3 are explained.",
+            "timestamp": "00:01:45.033"
+          },
+          {
+            "description": "The benefits of reCAPTCHA v3 for both users and websites are summarized.",
+            "timestamp": "00:02:05.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Website page with a scrolling list of reviews",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:45.033"
+            }
+          },
+          {
+            "name": "reCAPTCHA engine icon overlayed on the scrolling reviews, representing its analysis",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "name": "Circular arrangement of Human Face icons, with one central robot icon being pushed away",
+            "timestamp": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Adaptive risk analysis, user-friendly security, comprehensive bot protection, enhanced website experience.",
+        "timestamps": {
+          "end_timestamp": "00:02:25.100",
+          "start_timestamp": "00:01:45.033"
+        },
+        "title": "Conclusion and Benefits",
+        "videoEditingDetails": [
+          {
+            "description": "Transition from review section to a circular arrangement of icons",
+            "timestamps": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          },
+          {
+            "description": "Animated movement of scrolling reviews",
+            "timestamps": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:45.033"
+            }
+          },
+          {
+            "description": "reCAPTCHA engine icon analyzes reviews as they scroll",
+            "timestamps": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "description": "Robot icon being pushed away by surrounding human icons",
+            "timestamps": {
+              "end_timestamp": "00:02:18.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 4 (1:17-1:45) when the Main Robot successfully identifies and addresses a bot-generated review using reCAPTCHA v3, demonstrating its effectiveness.",
+        "timestamp": "00:01:17.000"
+      },
+      "description": "The entire video follows a single storyline focused on explaining reCAPTCHA v3 and its benefits. It progresses from introducing the problem of bots to explaining the solution and its practical implementation.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Video Analysis of reCAPTCHA v3 Explained",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment with Party Robots celebrating successful bot activity could be shortened. While it emphasizes the problem, it slightly disrupts the flow of information and adds a brief moment of 'happy' mood that feels out of place.",
+        "timestamps": {
+          "end_timestamp": "00:01:45.033",
+          "start_timestamp": "00:01:45.033"
+        }
+      },
+      {
+        "description": "The close-up view of the code snippet could be shortened or replaced with a more visually engaging representation of the integration process. It might be less relevant for viewers who are not technically inclined.",
+        "timestamps": {
+          "end_timestamp": "00:01:45.033",
+          "start_timestamp": "00:01:45.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 145,
+  "original_json_filename": "tbvxFW4UJdU.json",
+  "original_video_filename": "tbvxFW4UJdU.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "If you have a website, you need to protect your users from bots. Bots are trying leaked passwords, posting spam and scraping your content. The reCAPTCHA, \"I'm not a robot\" checkbox, changed the way to protect your websites. But it's one-time verification doesn't fit every use case. reCAPTCHA v3 does away with the need for interactive tests and gives you a score to let you know when you have risky traffic. It never interrupts users so you're in control of when to run risk analysis and what do to with the results. For instance, requiring email verification for risky logins, sending a spammy post to moderation or filtering fake friend requests. Let's look at how reCAPTCHA v3 works. This is my online store. I've recently noticed a lot more traffic that wasn't turning into conversions. I was concerned that they might not be real customers, but I didn't know where they were on my site or what they were trying to do. To tackle this problem, I decided to add reCAPTCHA v3 to each major part of my site. Such as when users sign in, checkout, and write product reviews. For each page, I added the reCAPTCHA script tag and code snippet. Doing this gave me visibility into what the bots were doing on my site. I went to the reCAPTCHA admin console to look at the scores. It seems that these bots were posting lots of reviews. To stop the bots, I needed to verify the reCAPTCHA score on my server. Here was a bot posting a review for a competitors cat food. Because this review received a lot reCAPTCHA score, I marked it as risky and added it to a verification queue. Now the bots have been turned away, and my customers can trust the reviews that they see. So, how does this work? reCAPTCHA's adaptive risk analysis engine takes in various signals about the interaction, and predicts the likelihood that the request was generated by a bot. It works best with context about how humans and bots interact with your website, so for best performance include reCAPTCHA in many places. With reCAPTCHA v3, you can keep your site safe without any user friction and get more control to stop attacks in your own way. So everyone stays happy... ...except bots.",
+  "text_to_speech_word_count": 383,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.000",
+      "start": "00:00:00.000",
+      "text": " If you have a website, you need to protect your users from bots."
+    },
+    {
+      "end": "00:00:09.000",
+      "start": "00:00:05.000",
+      "text": " Bots are trying leaked passwords, hosting spam, and scraping your content."
+    },
+    {
+      "end": "00:00:14.000",
+      "start": "00:00:09.000",
+      "text": " The recapsha, I'm not a robot checkbox, changed the way to protect your websites,"
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:14.000",
+      "text": " but it's one time verification doesn't fit every use case."
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:18.000",
+      "text": " Recapsha V3 does away with the need for interactive tests"
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:22.000",
+      "text": " and gives you a score to let you know when you have risky traffic."
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:26.000",
+      "text": " It never interrupts users, so you're in control of when to run risk analysis and what to do with the results."
+    },
+    {
+      "end": "00:00:36.000",
+      "start": "00:00:32.000",
+      "text": " For instance, requiring email verification for risky logins,"
+    },
+    {
+      "end": "00:00:41.000",
+      "start": "00:00:36.000",
+      "text": " sending a spammy post to moderation, or filtering fake friend requests."
+    },
+    {
+      "end": "00:00:44.000",
+      "start": "00:00:41.000",
+      "text": " Let's look at how recapsha V3 works."
+    },
+    {
+      "end": "00:00:47.000",
+      "start": "00:00:44.000",
+      "text": " This is my online store."
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:47.000",
+      "text": " I've recently noticed a lot more traffic that wasn't turning into conversions."
+    },
+    {
+      "end": "00:00:54.000",
+      "start": "00:00:51.000",
+      "text": " I was concerned that they might not be real customers,"
+    },
+    {
+      "end": "00:00:58.000",
+      "start": "00:00:54.000",
+      "text": " but I didn't know where they were on my site or what they were trying to do."
+    },
+    {
+      "end": "00:01:03.000",
+      "start": "00:00:58.000",
+      "text": " To tackle this problem, I decided to add recapsha V3 to each major part of my site,"
+    },
+    {
+      "end": "00:01:08.000",
+      "start": "00:01:03.000",
+      "text": " such as when users sign in, check out, and write product reviews."
+    },
+    {
+      "end": "00:01:12.000",
+      "start": "00:01:08.000",
+      "text": " For each page, I added the recapsha script tag and code snippet."
+    },
+    {
+      "end": "00:01:17.000",
+      "start": "00:01:12.000",
+      "text": " Doing this gave me visibility into what the bots were doing on my site."
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:17.000",
+      "text": " I went to the recapsha admin console to look at the scores."
+    },
+    {
+      "end": "00:01:25.000",
+      "start": "00:01:21.000",
+      "text": " It seems that these bots were posting lots of reviews."
+    },
+    {
+      "end": "00:01:29.000",
+      "start": "00:01:25.000",
+      "text": " To stop the bots, I needed to verify the recapsha score on my server."
+    },
+    {
+      "end": "00:01:33.000",
+      "start": "00:01:29.000",
+      "text": " Here was a bot hosting a review for a competitor's cap food."
+    },
+    {
+      "end": "00:01:36.000",
+      "start": "00:01:33.000",
+      "text": " Because this review received a low recapsha score,"
+    },
+    {
+      "end": "00:01:40.000",
+      "start": "00:01:36.000",
+      "text": " I marked it as risky and added it to a verification queue."
+    },
+    {
+      "end": "00:01:45.000",
+      "start": "00:01:40.000",
+      "text": " Now the bots have been turned away, and my customers can trust the reviews that they see."
+    },
+    {
+      "end": "00:01:47.000",
+      "start": "00:01:45.000",
+      "text": " So how does this work?"
+    },
+    {
+      "end": "00:01:52.000",
+      "start": "00:01:47.000",
+      "text": " Recapsha's adaptive risk analysis engine takes in various signals about the interaction"
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:52.000",
+      "text": " and predicts the likelihood that the request was generated by a bot."
+    },
+    {
+      "end": "00:02:01.000",
+      "start": "00:01:56.000",
+      "text": " It works best with context about how both humans and bots interact with your website,"
+    },
+    {
+      "end": "00:02:05.000",
+      "start": "00:02:01.000",
+      "text": " so for best performance, include recapsha in many places."
+    },
+    {
+      "end": "00:02:10.000",
+      "start": "00:02:05.000",
+      "text": " With recapsha V3, you can keep your site safe without any user friction"
+    },
+    {
+      "end": "00:02:14.000",
+      "start": "00:02:10.000",
+      "text": " and get more control to stop attacks in your own way."
+    },
+    {
+      "end": "00:02:17.000",
+      "start": "00:02:14.000",
+      "text": " So everyone stays happy, except bots."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Google Search Central",
+  "youtube_channel_follower_count": 651000,
+  "youtube_comment_count": 160,
+  "youtube_description": "reCAPTCHA v3 is a new version that detects abusive traffic on your website without user friction. It returns a score for each request you send to reCAPTCHA and gives you more flexibility to fight against spam and abuse in your own way.\n\nLearn more about reCAPTCHA v3 API → http://bit.ly/2BSRvmy\n\nSubscribe to Google Search Central Channel → https://goo.gle/SearchCentral",
+  "youtube_like_count": 6975,
+  "youtube_tags": [
+    "webmasters",
+    "google webmasters",
+    "recaptcha",
+    "recaptcha version 3",
+    "reCAPTCHA",
+    "reCAPTCHA v3",
+    "re captcha",
+    "website traffic",
+    "website bots",
+    "website security",
+    "web security",
+    "app security",
+    "chrome",
+    "chrome developers",
+    "safari",
+    "firefox",
+    "mozilla firefox",
+    "google chrome",
+    "recaptcha score",
+    "web abuse",
+    "web spam",
+    "website spam",
+    "reCAPTCHA v3 API",
+    "recaptcha api",
+    "GDS: Yes;",
+    "Google Search Central"
+  ],
+  "youtube_title": "Introducing reCAPTCHA v3",
+  "youtube_upload_date": "20181029",
+  "youtube_view_count": 1788409
+}

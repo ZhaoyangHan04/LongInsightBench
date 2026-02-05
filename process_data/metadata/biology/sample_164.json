@@ -1,0 +1,638 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A large, brown, amorphous blob.",
+        "name": "RNA Polymerase"
+      },
+      {
+        "characterId": "2",
+        "description": "A large, brown, amorphous blob, slightly smaller and rounder than the RNA polymerase.",
+        "name": "Ribosome"
+      },
+      {
+        "characterId": "3",
+        "description": "A small, orange, cylindrical protein.",
+        "name": "Histone"
+      },
+      {
+        "characterId": "4",
+        "description": "A large, purple, X-shaped structure.",
+        "name": "Chromosome"
+      },
+      {
+        "characterId": "5",
+        "description": "A double helix structure composed of colored vertical bars (bases) connected by a grey spine.",
+        "name": "DNA"
+      },
+      {
+        "characterId": "6",
+        "description": "A single strand structure composed of colored vertical bars (bases) connected by a dark grey spine.",
+        "name": "Messenger RNA (mRNA)"
+      },
+      {
+        "characterId": "7",
+        "description": "A small, blue, cross-shaped structure with three colored vertical bars (bases) at the bottom and a purple sphere (amino acid) attached at the top.",
+        "name": "Transfer RNA (tRNA)"
+      },
+      {
+        "characterId": "8",
+        "description": "Small, purple spheres.",
+        "name": "Amino Acid"
+      },
+      {
+        "characterId": "9",
+        "description": "A large, amorphous brown structure.",
+        "name": "Protein"
+      },
+      {
+        "characterId": "10",
+        "description": "A large, purple sphere with a textured surface.",
+        "name": "Cell"
+      }
+    ],
+    "description": "The video explains the biological process that transforms DNA into proteins, covering transcription, mRNA processing, and translation.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The nucleus. (0:14)",
+        "question": "What structure contains the human genome?"
+      },
+      {
+        "answer": "Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). (Visible in the DNA structure throughout the video)",
+        "question": "What are the four bases found in DNA?"
+      },
+      {
+        "answer": "Transfer RNA (tRNA). (2:00)",
+        "question": "What type of molecule carries amino acids to the ribosome?"
+      },
+      {
+        "answer": "By the sequence of bases in the messenger RNA (mRNA). (1:47, 2:07)",
+        "question": "How is the order of amino acids in a protein determined?"
+      },
+      {
+        "answer": "It folds into a complex 3D shape to form the protein. (2:26)",
+        "question": "What happens to the chain of amino acids once it is complete?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Cell"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sets up the foundational concept of the cell, which is crucial for understanding subsequent processes involving genetic material and protein synthesis.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the cell as the basic unit of life.",
+            "timestamp": "00:00:06.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Basic biology, introduction to cells.",
+        "timestamps": {
+          "end_timestamp": "00:00:10.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: \"DNA to Protein\"",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"Cell\"",
+            "timestamps": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Zooming into the cell, revealing the nucleus, chromosome, DNA.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:10.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Cell",
+          "Nucleus",
+          "Chromosome",
+          "Histone",
+          "DNA"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene describes the structural hierarchy within a cell necessary for understanding DNA and how it is packaged.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Exploration of the cell's internal structure and its genetic material.",
+            "timestamp": "00:00:14.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Cellular structure, DNA packaging, organization of genetic material.",
+        "timestamps": {
+          "end_timestamp": "00:00:28.000",
+          "start_timestamp": "00:00:10.040"
+        },
+        "title": "Inside the Cell",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom transition into the cell",
+            "timestamps": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:10.040"
+            }
+          },
+          {
+            "description": "Text overlay: \"Nucleus\"",
+            "timestamps": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "Zoom transition into the nucleus",
+            "timestamps": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:16.000"
+            }
+          },
+          {
+            "description": "Transition to chromosome",
+            "timestamps": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"Chromosome\"",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "description": "Unwinding animation of DNA from chromosome",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "RNA polymerase attaches to DNA and transcribes it into mRNA.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.880",
+              "start_timestamp": "00:00:28.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "DNA",
+          "RNA polymerase",
+          "Messenger RNA (mRNA)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "RNA polymerase",
+              "DNA",
+              "Messenger RNA (mRNA)"
+            ],
+            "description": "RNA polymerase interacts with the DNA strand, creating mRNA."
+          }
+        ],
+        "contextualRelevance": "This segment is fundamental in explaining how genetic information in DNA is transcribed to mRNA, a critical step in the central dogma of molecular biology.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of gene activation and the transcription process.",
+            "timestamp": "00:00:38.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Gene expression, transcription, protein synthesis.",
+        "timestamps": {
+          "end_timestamp": "00:01:10.880",
+          "start_timestamp": "00:00:28.040"
+        },
+        "title": "Transcription",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: \"Histone\"",
+            "timestamps": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"DNA\"",
+            "timestamps": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"Gene\"",
+            "timestamps": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"RNA polymerase\"",
+            "timestamps": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:49.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"base\"",
+            "timestamps": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "mRNA is processed by removing and adding sections.",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Messenger RNA (mRNA)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene discusses modifications necessary for mRNA prior to its translation into proteins, making it crucial for subsequent steps in protein synthesis.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Preparation of the mRNA for protein production.",
+            "timestamp": "00:01:15.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 4,
+        "thematicElements": "mRNA processing, post-transcriptional modification.",
+        "timestamps": {
+          "end_timestamp": "00:01:29.000",
+          "start_timestamp": "00:01:10.920"
+        },
+        "title": "mRNA Processing",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: \"Messenger RNA\"",
+            "timestamps": {
+              "end_timestamp": "00:01:17.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Ribosomes bind to mRNA and translate it into a chain of amino acids, forming a protein.",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:01:29.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Messenger RNA (mRNA)",
+          "Ribosome",
+          "Transfer RNA (tRNA)",
+          "Amino Acid",
+          "Protein"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Ribosome",
+              "Messenger RNA (mRNA)",
+              "Transfer RNA (tRNA)",
+              "Amino Acid"
+            ],
+            "description": "Ribosomes interact with mRNA, tRNA delivers amino acids to the ribosome, amino acids link together to form a protein."
+          }
+        ],
+        "contextualRelevance": "This part of the video explains translation, turning genetic codes into functional proteins, which is the endpoint of gene expression.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The mRNA code is translated into a protein.",
+            "timestamp": "00:01:40.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Translation, protein synthesis, amino acid chain formation.",
+        "timestamps": {
+          "end_timestamp": "00:02:41.680",
+          "start_timestamp": "00:01:29.040"
+        },
+        "title": "Translation",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: \"Ribosome\"",
+            "timestamps": {
+              "end_timestamp": "00:01:46.000",
+              "start_timestamp": "00:01:43.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"Messenger RNA\"",
+            "timestamps": {
+              "end_timestamp": "00:01:46.000",
+              "start_timestamp": "00:01:45.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"Amino acid\"",
+            "timestamps": {
+              "end_timestamp": "00:01:55.000",
+              "start_timestamp": "00:01:52.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"Transfer RNA\"",
+            "timestamps": {
+              "end_timestamp": "00:02:03.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"Protein\"",
+            "timestamps": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:35.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The formation of the protein.",
+        "timestamp": "00:02:26.000"
+      },
+      "description": "Informative, factual explanation of the process of protein synthesis.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "DNA to Protein",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten Scene 4 (mRNA processing): Although important, the scene could be condensed, as it is visually less dynamic.",
+        "timestamps": {
+          "end_timestamp": "00:01:29.040",
+          "start_timestamp": "00:01:29.040"
+        }
+      },
+      {
+        "description": "Condense some of the longer pauses between voiceover lines to maintain a brisker pace.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 162,
+  "original_json_filename": "OAmQPeLielE.json",
+  "original_video_filename": "OAmQPeLielE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "here is a cell the basic unit of all living tissue in most human cells there is a structure called a nucleus the nucleus contains the genome in humans The genome is split between 23 pairs of chromosomes each chromosome contains a long strand of DNA tightly packaged around proteins called histones within the DNA are sections called genes these genes contain the instructions for making proteins when a gene is switched on an enzyme called RNA polymerase attaches to the start of the gene it moves along the DNA making a strand of messenger RNA out of free bases in the nucleus the DNA code determines the order in which the free bases are added to the messenger RNA this process is called transcription before the messenger RNA can be used as a template for the production of proteins it needs to be processed this involves removing and adding sections of RNA the messenger RNA then moves out of the nucleus into the cytoplasm protein factories in the cytoplasm called ribosomes bind to the messenger RNA the ribosome reads the code in the messenger RNA to produce a chain made up of amino acids there are 20 different types of amino acid Transfer RNA molecules carry the amino acids to the ribosome the messenger RNA is read three bases at a time as each triplet is read a transfer RNA delivers the corresponding amino acid this is added to a growing chain of amino acids once the last amino acid has been added the chain folds into a complex 3D shape to form the protein",
+  "text_to_speech_word_count": 266,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.440",
+      "start": "00:00:00.000",
+      "text": " Here is a cell, the basic unit of all living tissue."
+    },
+    {
+      "end": "00:00:16.360",
+      "start": "00:00:11.440",
+      "text": " In most human cells there is a structure called the nucleus."
+    },
+    {
+      "end": "00:00:19.800",
+      "start": "00:00:16.360",
+      "text": " The nucleus contains the genome."
+    },
+    {
+      "end": "00:00:26.200",
+      "start": "00:00:19.800",
+      "text": " In humans the genome is split between 23 pairs of chromosomes."
+    },
+    {
+      "end": "00:00:31.440",
+      "start": "00:00:26.200",
+      "text": " Each chromosome contains a long strand of DNA, tightly packaged around proteins called"
+    },
+    {
+      "end": "00:00:36.080",
+      "start": "00:00:31.440",
+      "text": " histomes."
+    },
+    {
+      "end": "00:00:40.080",
+      "start": "00:00:36.080",
+      "text": " Within the DNA are sections called genes."
+    },
+    {
+      "end": "00:00:45.680",
+      "start": "00:00:40.080",
+      "text": " These genes contain the instructions for making proteins."
+    },
+    {
+      "end": "00:00:51.080",
+      "start": "00:00:45.680",
+      "text": " When a gene is switched on, an enzyme called RNA polymerase attaches to the start of the"
+    },
+    {
+      "end": "00:00:53.160",
+      "start": "00:00:51.080",
+      "text": " gene."
+    },
+    {
+      "end": "00:01:00.760",
+      "start": "00:00:53.160",
+      "text": " It moves along the DNA, making a strand of messenger RNA out of free bases in the nucleus."
+    },
+    {
+      "end": "00:01:07.880",
+      "start": "00:01:00.760",
+      "text": " The DNA code determines the order in which the free bases are added to the messenger RNA."
+    },
+    {
+      "end": "00:01:15.640",
+      "start": "00:01:07.880",
+      "text": " This process is called transcription."
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:15.640",
+      "text": " Before the messenger RNA can be used as a template for the production of proteins, it needs to be"
+    },
+    {
+      "end": "00:01:23.360",
+      "start": "00:01:21.040",
+      "text": " processed."
+    },
+    {
+      "end": "00:01:29.520",
+      "start": "00:01:23.360",
+      "text": " This involves removing and adding sections of RNA."
+    },
+    {
+      "end": "00:01:40.120",
+      "start": "00:01:29.520",
+      "text": " The messenger RNA then moves out of the nucleus into the cytoplasm."
+    },
+    {
+      "end": "00:01:47.800",
+      "start": "00:01:40.120",
+      "text": " Protein factories in the cytoplasm called ribosomes bind to the messenger RNA."
+    },
+    {
+      "end": "00:01:55.320",
+      "start": "00:01:47.800",
+      "text": " The ribosome reads the code in the messenger RNA to produce a chain made up of amino acids."
+    },
+    {
+      "end": "00:01:59.560",
+      "start": "00:01:55.320",
+      "text": " There are 20 different types of amino acid."
+    },
+    {
+      "end": "00:02:05.720",
+      "start": "00:01:59.560",
+      "text": " Transfer RNA molecules carry the amino acids to the ribosome."
+    },
+    {
+      "end": "00:02:10.600",
+      "start": "00:02:05.720",
+      "text": " The messenger RNA is read three bases at a time."
+    },
+    {
+      "end": "00:02:19.000",
+      "start": "00:02:10.600",
+      "text": " As each triplet is read, a transfer RNA delivers the corresponding amino acid."
+    },
+    {
+      "end": "00:02:26.560",
+      "start": "00:02:19.000",
+      "text": " This is added to a growing chain of amino acids."
+    },
+    {
+      "end": "00:02:32.600",
+      "start": "00:02:26.560",
+      "text": " Once the last amino acid has been added, the chain folds into a complex 3D shape to form"
+    },
+    {
+      "end": "00:02:33.560",
+      "start": "00:02:32.600",
+      "text": " the protein."
+    },
+    {
+      "end": "00:02:47.600",
+      "start": "00:02:40.600",
+      "text": " The first amino acid is a protein that is used to form the protein."
+    },
+    {
+      "end": "00:02:54.600",
+      "start": "00:02:47.600",
+      "text": " The second amino acid is a protein that is used to form the protein."
+    },
+    {
+      "end": "00:02:59.600",
+      "start": "00:02:54.600",
+      "text": " The second amino acid is used to form the protein."
+    },
+    {
+      "end": "00:03:05.600",
+      "start": "00:02:59.600",
+      "text": " The second amino acid is used to form the protein."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Smart Medico",
+  "youtube_channel_follower_count": 99,
+  "youtube_comment_count": 0,
+  "youtube_description": "This 3D animation shows you how DNA is copied in a cell. It shows how both strands of the DNA helix are unzipped and copied to produce two identical DNA molecules.  \n#biology #dna #protein #3danimation #3dbiology #physicswallah #motivation #alakhsir #bio #ncert",
+  "youtube_like_count": 2,
+  "youtube_tags": [
+    "dna",
+    "protein",
+    "dna to protein",
+    "bio",
+    "biology",
+    "ncert",
+    "3dbiology"
+  ],
+  "youtube_title": "From DNA to protein 3D YouTube",
+  "youtube_upload_date": "20221002",
+  "youtube_view_count": 9
+}

@@ -1,0 +1,586 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Animated 3D model, brown and segmented body with thin legs and wings. Appears in various sizes.",
+        "name": "Mosquito"
+      },
+      {
+        "characterId": "2",
+        "description": "Simplified 3D model, orange-toned, partially transparent. Only the back torso and head are shown.",
+        "name": "Human"
+      }
+    ],
+    "description": "An animated 3D representation detailing the malaria parasite's life cycle, from mosquito transmission to human infection and back.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The narrator mentions the 'circumsporozoite protein' as crucial for the sporozoites' ability to invade liver cells.",
+        "question": "What protein helps the sporozoites infect the liver cells?"
+      },
+      {
+        "answer": "The stage is called the 'schizont' stage, visualized by a large, multiplying cell within the liver cell.",
+        "question": "What is the name of the stage where the parasite multiplies rapidly within the liver cells?"
+      },
+      {
+        "answer": "The mosquito turns red after ingesting the gametocytes, marking it as a carrier of the malaria parasite.",
+        "question": "How does the video visually represent the infected status of the mosquito in the final scene?"
+      },
+      {
+        "answer": "Gametocytes are the only stage that can infect a mosquito, making them a crucial link in the transmission cycle and a target for interrupting the spread of malaria.",
+        "question": "Why is the formation of gametocytes significant in the malaria life cycle?"
+      },
+      {
+        "answer": "The video evokes anxiety and concern through its rapid animations and visual metaphors, balanced by a factual tone providing hope for scientific intervention.",
+        "question": "What is the overall mood and tone of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Mosquito flies towards the camera and passes by the human.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Mosquito lands on human skin.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Mosquito",
+          "Human"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Mosquito",
+              "Human"
+            ],
+            "description": "The mosquito briefly interacts with the human, implying the beginning of the malaria transmission process."
+          }
+        ],
+        "contextualRelevance": "The close-up shots of the mosquito create a sense of unease, foreshadowing the potential danger of the parasite it carries.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the mosquito and hints at its role in transmitting malaria.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Parasite transmission, mosquito as a vector.",
+        "timestamps": {
+          "end_timestamp": "00:00:06.733",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom in on the mosquito.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Close-up on the mosquito landing on human skin.",
+            "timestamps": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Sporozoites travel through the bloodstream.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:06.767"
+            }
+          },
+          {
+            "description": "Sporozoites reach the liver and infect liver cells.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          },
+          {
+            "description": "Parasite develops into schizonts inside liver cells.",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          },
+          {
+            "description": "Schizonts release merozoites, which enter the bloodstream.",
+            "timestamp": {
+              "end_timestamp": "00:00:29.933",
+              "start_timestamp": "00:00:25.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The sheer number of merozoites released emphasizes the overwhelming nature of the infection.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Tense",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from slow development to rapid spreading of merozoites to increase tension.",
+              "timestamp": "00:00:25.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Details the initial stages of malaria infection in the human body.",
+            "timestamp": "00:00:06.767"
+          }
+        ],
+        "props": [
+          {
+            "name": "Sporozoites",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "Liver cells",
+            "timestamp": {
+              "end_timestamp": "00:00:29.933",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "name": "Schizonts",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "name": "Merozoites",
+            "timestamp": {
+              "end_timestamp": "00:00:29.933",
+              "start_timestamp": "00:00:25.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Parasite life cycle, infection process, liver stage of malaria.",
+        "timestamps": {
+          "end_timestamp": "00:00:29.933",
+          "start_timestamp": "00:00:06.767"
+        },
+        "title": "Sporozoites in the Bloodstream",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a microscopic view inside the bloodstream.",
+            "timestamps": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:06.767"
+            }
+          },
+          {
+            "description": "Sporozoites are highlighted as they infect liver cells.",
+            "timestamps": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          },
+          {
+            "description": "Zoom in on a liver cell with a developing schizont.",
+            "timestamps": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          },
+          {
+            "description": "Rapid animation of merozoites bursting out of the liver cell and entering the bloodstream.",
+            "timestamps": {
+              "end_timestamp": "00:00:29.933",
+              "start_timestamp": "00:00:25.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Merozoites infect healthy red blood cells.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          },
+          {
+            "description": "Merozoites reproduce inside red blood cells, eventually rupturing them and releasing more merozoites.",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The visual of healthy red blood cells being destroyed emphasizes the destructive nature of the disease.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Anxious, Alarming",
+          "keyMoments": [
+            {
+              "changeDescription": "Focus shifts from individual infected cells to many being destroyed, raising alarm.",
+              "timestamp": "00:00:43.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the cyclical process of infection and destruction of red blood cells.",
+            "timestamp": "00:00:30.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Merozoites",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          },
+          {
+            "name": "Red blood cells",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Blood stage of malaria, red blood cell destruction, cyclical nature of infection.",
+        "timestamps": {
+          "end_timestamp": "00:00:48.267",
+          "start_timestamp": "00:00:29.967"
+        },
+        "title": "Merozoites Infect Red Blood Cells",
+        "videoEditingDetails": [
+          {
+            "description": "Close-up view of merozoites targeting and entering red blood cells.",
+            "timestamps": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          },
+          {
+            "description": "Accelerated animation showing the reproduction of merozoites inside red blood cells, followed by the cells bursting.",
+            "timestamps": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Some merozoites develop into gametocytes.",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:48.300"
+            }
+          },
+          {
+            "description": "Gametocytes remain in the bloodstream and are ingested by another mosquito during feeding.",
+            "timestamp": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:00:53.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Gametocytes as a strategy for breaking the cycle emphasize their importance in prevention.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Transitional, Slightly Hopeful",
+          "keyMoments": [
+            {
+              "changeDescription": "Introduction of gametocytes breaks the replication pattern, suggesting a narrative shift.",
+              "timestamp": "00:00:48.300"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains how the parasite can be transmitted back to the mosquito.",
+            "timestamp": "00:00:48.300"
+          }
+        ],
+        "props": [
+          {
+            "name": "Gametocytes",
+            "timestamp": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:00:48.300"
+            }
+          },
+          {
+            "name": "Merozoites",
+            "timestamp": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:48.300"
+            }
+          },
+          {
+            "name": "Red blood cells",
+            "timestamp": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:00:48.300"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Sexual stage of the parasite, transmission back to the mosquito vector.",
+        "timestamps": {
+          "end_timestamp": "00:01:03.000",
+          "start_timestamp": "00:00:48.300"
+        },
+        "title": "Gametocyte Formation and Transmission",
+        "videoEditingDetails": [
+          {
+            "description": "Zoom in on a red blood cell showing a merozoite transforming into a gametocyte.",
+            "timestamps": {
+              "end_timestamp": "00:00:53.000",
+              "start_timestamp": "00:00:48.300"
+            }
+          },
+          {
+            "description": "Transition back to the wider view of the bloodstream with gametocytes circulating.",
+            "timestamps": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:00:53.000"
+            }
+          },
+          {
+            "description": "Superimposed animation of a mosquito feeding, highlighting the ingestion of gametocytes.",
+            "timestamps": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Mosquito flies away after feeding, carrying the gametocytes.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:01:03.033"
+            }
+          },
+          {
+            "description": "The mosquito is now capable of infecting another human, restarting the cycle.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Mosquito",
+          "Human"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Mosquito"
+            ],
+            "description": "Mosquito now capable of spreading malaria again."
+          }
+        ],
+        "contextualRelevance": "Mosquito's color change serves as a reminder of malaria's transmission threat.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Ominous, Cyclical",
+          "keyMoments": [
+            {
+              "changeDescription": "Mosquito color change to red, indicating infected status.",
+              "timestamp": "00:01:06.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Connects the end of the cycle back to the beginning, showing its continuous nature.",
+            "timestamp": "00:01:03.033"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Cyclical nature of disease transmission, importance of mosquito control in malaria prevention.",
+        "timestamps": {
+          "end_timestamp": "00:01:10.633",
+          "start_timestamp": "00:01:03.033"
+        },
+        "title": "Completion of the Life Cycle",
+        "videoEditingDetails": [
+          {
+            "description": "Transition back to the initial view of the mosquito and human.",
+            "timestamps": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:01:03.033"
+            }
+          },
+          {
+            "description": "The mosquito is now red-tinted, visually signifying its infected status.",
+            "timestamps": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Introduction of gametocytes marks a turning point in the cycle, suggesting a potential interruption but ultimately showing its continuation.",
+        "timestamp": "00:00:47.000"
+      },
+      "description": "The video focuses on the life cycle of the malaria parasite through various stages, visually illustrating each step from mosquito transmission to infection and back.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Malaria Parasite Life Cycle",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten the introduction by cutting the initial close-up and directly showing the mosquito landing.",
+        "timestamps": {
+          "end_timestamp": "00:01:03.033",
+          "start_timestamp": "00:01:03.033"
+        }
+      },
+      {
+        "description": "Fade out sooner, leaving an impression of the red-tinted mosquito, suggesting cyclical nature without explicitly stating it.",
+        "timestamps": {
+          "end_timestamp": "00:01:10.000",
+          "start_timestamp": "00:01:03.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 71,
+  "original_json_filename": "8-zawXTRS_E.json",
+  "original_video_filename": "8-zawXTRS_E.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "the Millea parasites life cycle is very complex involving many stages as the mosquito feeds malaya sporozoites enter into the human bloodstream they quickly make their way to deliver and infect liver cells with the help of the circumspect protein the parasite develops into mature sky zone's creating tens of thousands of millets which burst out of the cell and journey back toward the bloodstream they then infect healthy red blood cells reproducing and eventually rupturing the cell liberating more Maronite which in turn go on to infect other cells leading to the massive destruction of red blood cells a few of the infected cells develop into gamma - sites which can remain in the bloodstream for several days and may be ingested by another mosquito during the subsequent feeding inside the mosquito the gamma t sites develop into new spores lights so now the human has infected the mosquito the life cycle comes full circle and continues",
+  "text_to_speech_word_count": 158,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.700",
+      "start": "00:00:00.000",
+      "text": " The Malaya Parasite's life cycle is very complex, involving many stages."
+    },
+    {
+      "end": "00:00:12.467",
+      "start": "00:00:06.700",
+      "text": " As the mosquito feeds, Malaya's porousoites enter into the human bloodstream."
+    },
+    {
+      "end": "00:00:18.300",
+      "start": "00:00:12.467",
+      "text": " They quickly make their way to deliver and, in fact, liver cells, with the help of the"
+    },
+    {
+      "end": "00:00:25.100",
+      "start": "00:00:18.300",
+      "text": " circumsporousoid protein. The parasite develops into mature skyzons, creating tens of thousands"
+    },
+    {
+      "end": "00:00:30.867",
+      "start": "00:00:25.100",
+      "text": " of merosoites, which burst out of the cell and journey back toward the bloodstream."
+    },
+    {
+      "end": "00:00:36.800",
+      "start": "00:00:30.867",
+      "text": " They then infect healthy red blood cells, reproducing and eventually rupturing the cell,"
+    },
+    {
+      "end": "00:00:44.400",
+      "start": "00:00:36.800",
+      "text": " liberating more merosoite, which in turn go on to infect other cells, leading to the massive"
+    },
+    {
+      "end": "00:00:50.633",
+      "start": "00:00:44.400",
+      "text": " destruction of red blood cells. A few of the infected cells develop into gamutocytes,"
+    },
+    {
+      "end": "00:00:56.400",
+      "start": "00:00:50.633",
+      "text": " which can remain in the bloodstream for several days and may be ingested by another mosquito"
+    },
+    {
+      "end": "00:01:03.333",
+      "start": "00:00:56.400",
+      "text": " during a subsequent feeding. Inside the mosquito, the gamutocytes develop into new sporesolites."
+    },
+    {
+      "end": "00:01:10.467",
+      "start": "00:01:03.333",
+      "text": " So now the human has infected the mosquito, the life cycle comes full circle and continues."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "atom study. com",
+  "youtube_channel_follower_count": 1870,
+  "youtube_comment_count": 0,
+  "youtube_description": "Life cycle of malarial parasites by atomstudy.com",
+  "youtube_like_count": 8,
+  "youtube_tags": [
+    "Life cycle of malarial parasites",
+    "malarial parasites",
+    "how malari effects",
+    "malaria explain",
+    "malaria for MBBS",
+    "parasites",
+    "malaria"
+  ],
+  "youtube_title": "Life cycle of malarial parasites|  neet _aiims",
+  "youtube_upload_date": "20190821",
+  "youtube_view_count": 168
+}

@@ -1,0 +1,587 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male, wearing a black t-shirt and jeans, walking in and out of rooms.",
+        "name": "Person 1"
+      },
+      {
+        "characterId": "2",
+        "description": "Female, wearing a white shirt and black pants, often wearing a face mask.",
+        "name": "Person 2"
+      },
+      {
+        "characterId": "3",
+        "description": "Male, wearing a blue t-shirt and jeans, sometimes wearing a face mask, seen interacting with other characters.",
+        "name": "Person 3"
+      },
+      {
+        "characterId": "4",
+        "description": "Male, wearing a black shirt and jeans, seen briefly in outdoor scenes.",
+        "name": "Person 4"
+      },
+      {
+        "characterId": "5",
+        "description": "Female, wearing a white shirt, seen briefly in outdoor scenes.",
+        "name": "Person 5"
+      }
+    ],
+    "description": "A video demonstration of ST's people counting technology using computer vision, showcasing its application in various settings and emphasizing its robustness.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Two people are initially detected, Person 4 and Person 5.",
+        "question": "In the outdoor scene, how many people are initially detected sitting at the table?"
+      },
+      {
+        "answer": "The sign is green when the location is empty.",
+        "question": "What color is the sign on the right side of the screen that indicates when the monitored location is empty?"
+      },
+      {
+        "answer": "The system briefly draws a green bounding box around the coat rack, mistaking it for a person.",
+        "question": "In the coffee room scene, how does the system initially misinterpret the coat rack?"
+      },
+      {
+        "answer": "Sending only the count ensures that visual information about individuals is not transmitted, protecting their privacy.",
+        "question": "Why does the narrator suggest that sending only the number of people detected, instead of the video stream, enhances data privacy?"
+      },
+      {
+        "answer": "The final scene serves as a call to action, providing viewers with contact information and encouraging them to learn more about the technology.",
+        "question": "What is the purpose of the final scene of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "People sitting at an outdoor table.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Person 1 walking through a sliding door.",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Person 4",
+          "Person 5",
+          "Person 1",
+          "Person 2"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video subtly suggests the potential applications of this technology for optimizing space utilization and improving living conditions.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstration of people detection in an outdoor setting.",
+            "timestamp": "00:00:05.000"
+          },
+          {
+            "description": "Demonstration of people detection in an indoor setting.",
+            "timestamp": "00:00:13.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Outdoor table and chairs",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Sliding door",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technological innovation, people counting, occupancy monitoring.",
+        "timestamps": {
+          "end_timestamp": "00:00:16.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Outdoor and Indoor Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay with title and description.",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition: Fade to white.",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Transition: Cut to outdoor scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Transition: Cut to indoor scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Person 1 walking through a corridor.",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:16.040"
+            }
+          },
+          {
+            "description": "Person 2 walking into a room and interacting with Person 1.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Person 1",
+          "Person 2"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Person 1",
+              "Person 2"
+            ],
+            "description": "Brief interaction between Person 1 and 2 in the room."
+          }
+        ],
+        "contextualRelevance": "The scene highlights the technology's potential for security applications by tracking people's movement.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Person 1 is detected while walking through the corridor.",
+            "timestamp": "00:00:16.040"
+          },
+          {
+            "description": "Both Person 1 and 2 are detected when they enter the room.",
+            "timestamp": "00:00:20.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "People counting, occupancy monitoring, real-time detection.",
+        "timestamps": {
+          "end_timestamp": "00:00:24.360",
+          "start_timestamp": "00:00:16.040"
+        },
+        "title": "Corridor Detection",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay with text \"Detecting people's presence in a corridor.\"",
+            "timestamps": {
+              "end_timestamp": "00:00:24.360",
+              "start_timestamp": "00:00:24.360"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Person 2 walking through a doorway.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:24.400"
+            }
+          },
+          {
+            "description": "Person 1 walking through the doorway.",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "description": "Person 2 and Person 1 interacting in a room.",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "description": "Person 3 entering the room and interacting with Person 1 and 2.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Person 2",
+          "Person 1",
+          "Person 3"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Person 1",
+              "Person 2"
+            ],
+            "description": "Person 1 and 2 interact with each other."
+          },
+          {
+            "characters": [
+              "Person 3"
+            ],
+            "description": "Person 3 joins the interaction."
+          }
+        ],
+        "contextualRelevance": "This scene emphasizes the potential of this technology for applications such as access control and room utilization analysis.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Individual detection of Person 2 and Person 1 as they enter the room.",
+            "timestamp": "00:00:24.400"
+          },
+          {
+            "description": "Detection of multiple people interacting within the room.",
+            "timestamp": "00:00:33.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Doorway",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:24.400"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "People counting, real-time monitoring, occupancy tracking.",
+        "timestamps": {
+          "end_timestamp": "00:00:59.000",
+          "start_timestamp": "00:00:24.400"
+        },
+        "title": "Doorway Monitoring",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay with text \"Detecting people's presence at a door.\"",
+            "timestamps": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Person 2 and Person 3 sitting at a table, Person 1 enters the room.",
+            "timestamp": {
+              "end_timestamp": "00:01:08.000",
+              "start_timestamp": "00:00:59.040"
+            }
+          },
+          {
+            "description": "Person 1 joins Person 2 and 3 at the table.",
+            "timestamp": {
+              "end_timestamp": "00:01:24.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          },
+          {
+            "description": "Person 1 gets up and leaves the room.",
+            "timestamp": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "description": "Person 2 and 3 remain seated.",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:28.000"
+            }
+          },
+          {
+            "description": "Person 1 returns to the room, now holding a coat rack.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Person 2",
+          "Person 3",
+          "Person 1"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Person 1",
+              "Person 2",
+              "Person 3"
+            ],
+            "description": "Person 1 interacts with Person 2 and 3 at the table."
+          }
+        ],
+        "contextualRelevance": "The scene emphasizes data privacy by only sending the number of people detected over the network, not video streams.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The system accurately counts three people despite Person 1 partially blocking Person 3.",
+            "timestamp": "00:01:08.000"
+          },
+          {
+            "description": "The system briefly misidentifies the coat rack as a person.",
+            "timestamp": "00:02:08.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Table and chairs",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:00:59.040"
+            }
+          },
+          {
+            "name": "Coat rack",
+            "timestamp": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "People counting, accuracy in cluttered environments, robustness to distractions, data privacy.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.000",
+          "start_timestamp": "00:00:59.040"
+        },
+        "title": "Coffee Room Complexity",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay with text \"Detecting people's presence in a coffee room.\"",
+            "timestamps": {
+              "end_timestamp": "00:01:32.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene provides a call to action for viewers to contact the company for further information.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Contact information, call to action.",
+        "timestamps": {
+          "end_timestamp": "00:03:08.640",
+          "start_timestamp": "00:02:28.040"
+        },
+        "title": "Conclusion and Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay with contact information and website links.",
+            "timestamps": {
+              "end_timestamp": "00:03:00.000",
+              "start_timestamp": "00:02:47.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The system accurately counts three people in a cluttered coffee room environment, demonstrating its robustness.",
+        "timestamp": "00:01:08.000"
+      },
+      "description": "A demonstration of ST's people counting technology using computer vision.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "People Counting AI Demo",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove the fade to white transition as it adds unnecessary length and disrupts flow.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.040",
+          "start_timestamp": "00:02:28.040"
+        }
+      },
+      {
+        "description": "Shorten the stationary scene of Person 2 and Person 3 as it does not add significant information.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.040",
+          "start_timestamp": "00:02:28.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 189,
+  "original_json_filename": "cMnQ6PAR6DQ.json",
+  "original_video_filename": "cMnQ6PAR6DQ.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] sc developed a people counting solution based on advanced model detections in computer vision the solution can be deployed in various places in buildings to optimize the occupancy and living conditions it runs on an stm32h747i discovery board with big momv mounted it in various places of st office to show you a short demo today you can see in this corridor but this low resolution camera is able to detect people's presence to help understand the overall building occupancy the system was also placed in front of a door to check on people entering our living rooms typically a green sign is shown on the right of the board to indicate when the monitor location is empty and a red sign shows when people are passing by each person is detected and indicated with a green bounding box which enables our application to come pivot and it could also be extended to check if they are standing or sitting for instance [Music] we've now placed the system to monitor the coffee room this is a bit more challenging as people are now sitting and can be confused with the furnitures the system actually produce several bonding boxes it's up to the application to filter out the wrong ones here the application is displaying the bounding boxes in real time obviously in the end application if the goal is to calm people sitting in the coffee room there will be additional filtering that could be done to make this more stable the detection is done in real time locally on the board with absolutely no connectivity requirement this helps reduce its power consumption and also have the overall system as being more robust to attacks as the data is kept locally at all times you can imagine that only the number of people detected is sent over low with network at lower consumption rather than sending the entire streams of video to be analyzed remotely [Music] and just for fun we played with the coat hanger to show the model is properly trained to recognize people and is robust to simple furniture [Music] if you are interested to know more or discuss your computer vision project with us don't hesitate to contact us at edge.ai lst.com [Music] you",
+  "text_to_speech_word_count": 379,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:16.000",
+      "start": "00:00:00.000",
+      "text": " As she developed, the people-conting solution based on advanced model detection in computer vision."
+    },
+    {
+      "end": "00:00:23.000",
+      "start": "00:00:16.000",
+      "text": " This solution can be deployed in various places and buildings to optimize your occupancy and living conditions."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:24.000",
+      "text": " It runs on an STM32H747i Discovery Board with PCAMO MV."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:29.000",
+      "text": " We've mounted it in various places of STOFIS to show you and have a short demo today."
+    },
+    {
+      "end": "00:00:45.000",
+      "start": "00:00:35.000",
+      "text": " You can see this corridor, but this low resolution camera is able to detect people's presence to help understand the overall building occupancy."
+    },
+    {
+      "end": "00:00:52.000",
+      "start": "00:00:45.000",
+      "text": " The system was also placed in front of the door to check on people entering or living rooms typically."
+    },
+    {
+      "end": "00:01:01.000",
+      "start": "00:00:53.000",
+      "text": " A green sign is shown on the right of the board to indicate when the monitor location is empty and a red sign shows when people are passing by."
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:01.000",
+      "text": " Each person is detected and indicated with a green boarding box, which enables the application to come people and it could also be extended to check if their standing or sitting for instance."
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:24.000",
+      "text": " With no place to system to monitor the coffee room, this is a bit more challenging as people are no sitting and can be confused with the furniture."
+    },
+    {
+      "end": "00:01:46.000",
+      "start": "00:01:37.000",
+      "text": " The system actually produced several boarding boxes and it's up to the application to filter out the warm ones."
+    },
+    {
+      "end": "00:01:51.000",
+      "start": "00:01:46.000",
+      "text": " Here the application is displaying the boarding boxes in real time."
+    },
+    {
+      "end": "00:02:02.000",
+      "start": "00:01:52.000",
+      "text": " Obviously in the end application, if the goal is to come people sitting in the coffee room, there will be additional filtering that could be done to make this more stable."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:02:02.000",
+      "text": " The detection is done in real time, locally on the board with absolutely no connectivity requirement."
+    },
+    {
+      "end": "00:02:17.000",
+      "start": "00:02:08.000",
+      "text": " This helps reduce its board consumption, also have the overall system as being more robust to attacks, as the data is kept locally at all times."
+    },
+    {
+      "end": "00:02:29.000",
+      "start": "00:02:17.000",
+      "text": " You can imagine that only the number of people detected is sent over open-wiz network and local consumption, rather than sending the entire stream of video to be analyzed remotely."
+    },
+    {
+      "end": "00:02:38.000",
+      "start": "00:02:29.000",
+      "text": " And just for fun, we played with Kotranger to show the model his properly trained to recognize people and his robust to simple furniture."
+    },
+    {
+      "end": "00:02:57.000",
+      "start": "00:02:47.000",
+      "text": " If you are interested in more, or discuss your computer vision project with us, don't hesitate to contact us at edge.ti."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "STMicroelectronics",
+  "youtube_channel_follower_count": 65900,
+  "youtube_comment_count": 2,
+  "youtube_description": "- Find out more information: \nhttps://bit.ly/CountingAI\nhttps://bit.ly/fp-ai-vision1\n\nThis video shows our demo for people counting that leverages our function pack, FP-AI-VISION1.\n\nFP-AI-VISION1 is an STM32Cube function pack featuring examples of computer vision applications based on Convolutional Neural Network (CNN). FP-AI-VISION1 is composed of software components generated by the X-CUBE-AI Expansion Package complemented with application software components dedicated to the AI-based computer vision application.\nThe application examples provided in the function pack are food recognition (recognizing among 18 classes of common food), person presence detection (identifying whether a person is present in the image or not), and people counting (counting the number of persons in a scene) based on an object detection Neural Network model.\nFP-AI-VISION1 implements advanced computer vision application using STM32_AI_Runtime Neural Networks libraries. Libraries are based on pre-trained models and are generated with the X-CUBE-AI Expansion Package for the STM32CubeMX tool.\nThe function pack demonstrates the integration of two types of Neural Network model: 32-bit floating-point model and 8-bit quantized model. It also demonstrates model integration in different memory configurations (relying only on MCU internal memory or using also external memories).\nThe FP-AI-VISION1 function pack features an image library, STM32_Image, that can be used to develop specific computer vision applications, together with the suggested combination of hardware boards. It includes various processing functions to process the content of the frame buffer.\nThe FP-AI-VISION1 function pack also includes the drivers for the camera as well as the framework for capturing images into the frame buffer, preprocessing the content of the frame buffer, and running the Neural Network inference.\nThe FP-AI-VISION1 function pack features a USB webcam application, which can be used to create image and video datasets as well as to perform live testing on the host. The FP-AI-VISION1 runs on the STM32H747I-DISCO Discovery board connected to the B-CAMS-OMV camera module bundle (advised) or STM32F4DIS-CAM camera daughterboard (legacy only).\n\nFeatures \nComplete firmware to develop a computer vision application on STM32 microcontroller\nImage pre-processing library (STM32_Image)\nNeural Network library optimized for STM32 (STM32_AI_Runtime) generated by means of the X-CUBE-AI Expansion Package for STM32CubeMX\nFood recognition application based on Convolutional Neural Network\nPerson presence detection application based on Convolutional Neural Network\nPeople counting application based on object detection Neural Network model\nUSB webcam application enabling the STM32H747I-DISCO board to act as a USB video camera (UVC) device when connected to a host\nIntegration examples based on float and quantized models\nLibraries enabling the test, debug and validation of the embedded application\nSupport for camera frame capture to enable image dataset collection\nSample implementations available for the STM32H747I-DISCO Discovery board connected to the B-CAMS-OMV camera module bundle\nFree and user-friendly license terms",
+  "youtube_like_count": 27,
+  "youtube_tags": [
+    "ST",
+    "STMicro",
+    "STMicroelectronics",
+    "&s5hQ4xYa9L2th_#"
+  ],
+  "youtube_title": "AI on STM32 : People Counting Demonstration - Advanced model detection in computer vision",
+  "youtube_upload_date": "20210902",
+  "youtube_view_count": 3926
+}

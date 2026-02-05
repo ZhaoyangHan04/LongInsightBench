@@ -1,0 +1,927 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A woman with short, gray hair, wearing glasses and a dark-colored patterned blouse. She stands in front of a whiteboard and explains friction concepts.",
+        "name": "Lecturer"
+      }
+    ],
+    "description": "An educational lecture focused on various aspects of friction, including dry friction characteristics, tipping and slipping conditions, friction angles, and friction force scenarios.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The normal force shifts to maintain rotational equilibrium. As the applied force increases, the moment created by the applied force also increases. To counter this and keep the block from tipping, the normal force must shift its position to increase its moment arm.",
+        "question": "Why does the normal force shift its position as the applied force increases?"
+      },
+      {
+        "answer": "Impending motion refers to the point just before an object begins to move. At this point, the friction force reaches its maximum value (Fmax), which is equal to the coefficient of static friction (μs) multiplied by the normal force (N).",
+        "question": "What does the term 'impending motion' signify in the context of friction?"
+      },
+      {
+        "answer": "The tangent of the friction angle (tan Φ) is equal to the coefficient of static friction (μs) at impending motion.",
+        "question": "How is the friction angle (Φ) related to the coefficient of static friction (μs)?"
+      },
+      {
+        "answer": "Both terms represent the same concept, but they are used in different contexts. 'Angle of static friction' is a general term for the angle between the resultant force and the normal force. 'Angle of repose' specifically refers to this angle when a block is resting on an incline, and it is the maximum angle of the incline before the block begins to slide.",
+        "question": "What is the difference between 'angle of static friction' and 'angle of repose'?"
+      },
+      {
+        "answer": "Friction always opposes the relative motion between two surfaces. To determine the direction of the friction force, it is crucial to understand how one object moves relative to the other. For example, if block A moves upward relative to block B, friction on block A will act downward to oppose this motion.",
+        "question": "Why is it necessary to consider relative motion when analyzing friction between two objects?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Lecturer introduces the topic of dry friction.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.010",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Discusses the characteristics of dry friction.",
+            "timestamp": {
+              "end_timestamp": "00:00:19.987",
+              "start_timestamp": "00:00:10.010"
+            }
+          },
+          {
+            "description": "Explains the three ways to model surfaces in terms of friction.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.007",
+              "start_timestamp": "00:00:19.987"
+            }
+          },
+          {
+            "description": "Emphasizes the limited magnitude of friction.",
+            "timestamp": {
+              "end_timestamp": "00:01:04.998",
+              "start_timestamp": "00:00:40.007"
+            }
+          },
+          {
+            "description": "Uses a diagram to illustrate friction force, normal force, and applied force.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.012",
+              "start_timestamp": "00:01:04.998"
+            }
+          },
+          {
+            "description": "Explains the relationship between friction force and applied force through a graph.",
+            "timestamp": {
+              "end_timestamp": "00:01:35.996",
+              "start_timestamp": "00:01:19.012"
+            }
+          },
+          {
+            "description": "Introduces the coefficients of static and kinetic friction.",
+            "timestamp": {
+              "end_timestamp": "00:02:07.995",
+              "start_timestamp": "00:01:35.996"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lecturer"
+            ],
+            "description": "The lecturer directly addresses the viewers, explaining the concepts."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious. The lecturer's calm tone and straightforward explanations contribute to a curious mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The lecturer introduces and explains fundamental concepts of dry friction.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with written information and diagrams",
+            "timestamp": {
+              "end_timestamp": "00:02:07.995",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Dry friction characteristics, Relationship between friction force and applied force, Coefficients of friction.",
+        "timestamps": {
+          "end_timestamp": "00:02:07.995",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Dry Friction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Lecturer elaborates on the free body diagram by adding distances and forces.",
+            "timestamp": {
+              "end_timestamp": "00:02:22.009",
+              "start_timestamp": "00:02:08.028"
+            }
+          },
+          {
+            "description": "Discusses the location of the normal force relative to the weight.",
+            "timestamp": {
+              "end_timestamp": "00:02:30.017",
+              "start_timestamp": "00:02:22.009"
+            }
+          },
+          {
+            "description": "Explains how the x-value of normal force changes with increasing applied force.",
+            "timestamp": {
+              "end_timestamp": "00:02:36.990",
+              "start_timestamp": "00:02:30.017"
+            }
+          },
+          {
+            "description": "Discusses equilibrium equations and conditions for tipping.",
+            "timestamp": {
+              "end_timestamp": "00:03:15.996",
+              "start_timestamp": "00:02:36.990"
+            }
+          },
+          {
+            "description": "Explains the possibility of slipping and the condition for its occurrence.",
+            "timestamp": {
+              "end_timestamp": "00:03:28.008",
+              "start_timestamp": "00:03:15.996"
+            }
+          },
+          {
+            "description": "Outlines the steps to analyze tipping and slipping scenarios.",
+            "timestamp": {
+              "end_timestamp": "00:03:50.997",
+              "start_timestamp": "00:03:28.008"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lecturer"
+            ],
+            "description": "The lecturer directly addresses the audience, guiding them through the analysis."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Curious. The lecturer continues with clear explanations and a calm tone, maintaining a curious and focused mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The lecturer focuses on potential tipping and slipping conditions considering applied force and friction.",
+            "timestamp": "00:02:36.990"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with a diagram of a block, forces, and distances",
+            "timestamp": {
+              "end_timestamp": "00:03:50.997",
+              "start_timestamp": "00:02:08.028"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Tipping and slipping conditions, Equilibrium equations for analyzing friction problems.",
+        "timestamps": {
+          "end_timestamp": "00:03:52.966",
+          "start_timestamp": "00:02:08.028"
+        },
+        "title": "Tipping and Slipping Conditions",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Lecturer introduces the concept of friction angle (Φ).",
+            "timestamp": {
+              "end_timestamp": "00:04:06.012",
+              "start_timestamp": "00:03:52.999"
+            }
+          },
+          {
+            "description": "Explains the relevance of friction angle in reducing forces for force triangle analysis.",
+            "timestamp": {
+              "end_timestamp": "00:04:17.991",
+              "start_timestamp": "00:04:06.012"
+            }
+          },
+          {
+            "description": "Defines tan Φ and its significance in calculating the angle.",
+            "timestamp": {
+              "end_timestamp": "00:04:37.010",
+              "start_timestamp": "00:04:17.991"
+            }
+          },
+          {
+            "description": "Discusses friction angle at impending motion.",
+            "timestamp": {
+              "end_timestamp": "00:04:47.988",
+              "start_timestamp": "00:04:37.010"
+            }
+          },
+          {
+            "description": "Introduces the terms 'angle of static friction' and 'angle of repose.'",
+            "timestamp": {
+              "end_timestamp": "00:05:07.007",
+              "start_timestamp": "00:04:47.988"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lecturer"
+            ],
+            "description": "The lecturer explains the concepts directly to the viewers."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious. The introduction of new concepts and their applications continues to foster curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The lecturer introduces friction angle, its calculation, and practical applications in simplifying force analysis.",
+            "timestamp": "00:03:52.999"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with diagrams and equations related to friction angle",
+            "timestamp": {
+              "end_timestamp": "00:05:07.007",
+              "start_timestamp": "00:03:52.999"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Friction angle and its calculation, Application of friction angle in force triangle analysis, Angle of static friction and angle of repose.",
+        "timestamps": {
+          "end_timestamp": "00:05:08.975",
+          "start_timestamp": "00:03:52.999"
+        },
+        "title": "Friction Angle and Its Applications",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Lecturer presents four cases based on the friction force vs. applied force graph.",
+            "timestamp": {
+              "end_timestamp": "00:05:19.986",
+              "start_timestamp": "00:05:09.009"
+            }
+          },
+          {
+            "description": "Discusses the case with no friction (θ = 90°).",
+            "timestamp": {
+              "end_timestamp": "00:05:43.009",
+              "start_timestamp": "00:05:19.986"
+            }
+          },
+          {
+            "description": "Explains the case with friction but no impending motion.",
+            "timestamp": {
+              "end_timestamp": "00:06:02.996",
+              "start_timestamp": "00:05:43.009"
+            }
+          },
+          {
+            "description": "Describes the case with impending motion.",
+            "timestamp": {
+              "end_timestamp": "00:06:18.011",
+              "start_timestamp": "00:06:02.996"
+            }
+          },
+          {
+            "description": "Explains the case with motion occurring.",
+            "timestamp": {
+              "end_timestamp": "00:06:33.994",
+              "start_timestamp": "00:06:18.011"
+            }
+          },
+          {
+            "description": "Emphasizes the importance of relative motion in friction analysis.",
+            "timestamp": {
+              "end_timestamp": "00:06:49.009",
+              "start_timestamp": "00:06:33.994"
+            }
+          },
+          {
+            "description": "Explains the concept of equal and opposite loads in friction between two objects.",
+            "timestamp": {
+              "end_timestamp": "00:08:11.992",
+              "start_timestamp": "00:06:49.009"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lecturer"
+            ],
+            "description": "The lecturer guides the audience through the four cases, highlighting important points and equations."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral - Curious. The analysis of various friction cases maintains the audience's curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The lecturer analyzes four distinct friction scenarios based on the graph and explains how equations change depending on the presence and nature of motion.",
+            "timestamp": "00:05:19.986"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard with a friction force vs. applied force graph, diagram of a block on an incline, and diagrams showing friction between two blocks",
+            "timestamp": {
+              "end_timestamp": "00:08:11.992",
+              "start_timestamp": "00:05:09.009"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Different friction scenarios and their corresponding equations, Importance of relative motion in determining friction direction, Equal and opposite loads in friction between two objects.",
+        "timestamps": {
+          "end_timestamp": "00:08:12.025",
+          "start_timestamp": "00:05:09.009"
+        },
+        "title": "Four Cases of Friction Analysis",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "",
+        "timestamp": null
+      },
+      "description": "The video primarily focuses on conveying information about dry friction and its analysis. It is structured as a non-narrative presentation, with each scene building upon the previous one to explain different aspects of friction. There is no traditional climax in this format.",
+      "scenes": []
+    },
+    "title": "Video Analysis of Friction Lecture",
+    "trimmingSuggestions": [
+      {
+        "description": "The scene transition between Scene 3 (3:51) and Scene 4 (5:07) could be trimmed as the lecturer fumbles with the whiteboard and laughs. This brief interruption doesn't add to the content and slightly disrupts the flow.",
+        "timestamps": {
+          "end_timestamp": "00:05:09.009",
+          "start_timestamp": "00:05:09.009"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 492,
+  "original_json_filename": "FjJgQfxMbLg.json",
+  "original_video_filename": "FjJgQfxMbLg.mp4",
+  "resolution": "636x360",
+  "text_to_speech": "&gt;&gt; We want to talk about friction today. We want to limit ourselves here to dry friction or Coulomb friction. We're not talking about anything lubricated here. Friction is another force. We treat it like a point force acting tangent to the surface in the opposite direction from how motion would occur if there were no friction. This is another of the three kinds of ways we can model a surface. We can model a surface as a frictionless thing so there are no tangential forces, or as a completely rough surface where you can have as much tangential force as you need to prohibit motion along the surface, or as friction. Here, motion might occur, but it might not. That's what we need to know about. Friction depends on the surface nature. So it comes from irregularities in the surface or some sort of molecular attraction between the two surfaces. It does not depend on the area of the contents. So if you have two great big things and they're touching at one tiny point or one huge surface, it doesn't make any difference. The big point here is that it is limited in magnitude. This comes in with this word “might.” So if you have a block here, and you're pushing on it with a force P, the friction force acts tangent to the surface opposite the way it would move if there were no friction, and you obviously have a normal force. If you plotted these two you'd have, “How is F changing as P changes.” At the first part, they're one to one because the sum of the forces in x gives you F equals P, but we know that if you're pushing on something, sooner or later, it will move. Sooner or later you get to F-max. F-max is equal to some constant times N. This constant is called the coefficient of static friction: mu_s. After that, friction is only one value. It comes in at mu_k times n. That's the coefficient of kinetic friction. This is true F equals mu*N only at this one point, at the very top of this curve. So those of you who learned in friction that F equals mu*N, this is only true if motion is impending. Let's blow up this free-body diagram a little bit more and put some distances on it. So if I say my box is 2b wide and the P is pushing at a height h, the N cannot act right under the weight. It has to act somewhere on this side of it. As P increases, this x value is going to increase as well. Anything it can to keep this in equilibrium. So let's look at what these equations are. The sum of the forces in x just tells you P equals F. The sum of the forces in y tells you N equals W. The sum of the moments, if you take it right under the weight tells you that N times that x is equal to P times h. If there's no x, if N acts right under the weight, you can't have a P to maintain equilibrium. As P increases, this x has to increase as well. Until you get to a certain point when this N has moved over this way as far as it'll go, and it can't go any farther – then you have your tipping condition. If x equals b, tipping occurs. We also have the possibility now that it could slip. We could get past our maximum friction force, then we'll have slipping. These are not both going to happen. One of them's going to happen, the other one won't. So how do we handle this? We draw a free-body diagram, and write equations of equilibrium for our case. We're going to assume that it's not going to tip. We're going to assume it's not going to slip, and then you have to come back and check. Did it slip? Did it tip? If rotation cannot occur, so if your box is stuck into a corner where it can't possibly tip over, then you can treat it like a particle, and you don't have to worry about this. The friction angle is called phi. There are a lot of different ways you can define a force. You can say it's magnitude and direction, Cartesian form, or magnitude along a line. When we're talking about F and N, we're talking about a Cartesian form. Something perpendicular to and along the surface, but this all makes up simply the reaction at the surface. If you add them together, we call that the resultant R, and the angle is usually called phi. So tan(phi) where phi is between N and R, tan(phi) is F over N. This gets to be useful when you've got only a couple of extra forces. So if you have a block sliding down an incline, if it's on a cord, that kind of thing. Then we can use a force triangle with this resultant r. At our magic top point of the graph where I have impending motion, tan(phi) is going to be F_max over N, or tan(phi)_s equals mu_s. This phi_s is called the angle of static friction where if you're talking about a block and an incline, we call it the angle of repose. (Whoops. What a mess.) I have four cases here of looking at my graph. I can look at where it's 0, I can look at it somewhere along in here, I can look at it at the top, or I can look at it past where it has gotten to the flat part. (Let me put this here so it doesn't fall over.) So here's my free-body diagram. Now I want to let P be at some sort of angle. If P is at some sort of angle, theta, how does this whole system change as theta changes? If theta is 90, so you're pushing straight down, that's, I have no friction. That's living at this origin here. F can be 0, and will be in some cases where tan(phi) is equal to 0. Or you can have friction but no motion, and not even close to it. Then I get from my sum of the forces in x, F equals P cosine(theta) or P_x. tan(phi) is still F over N by definition, but I don't have F_max equals mu times N. I'm not equal to that until I get to motion impending. When I get to motion impending, F is equal to P_x still because of the sum of the forces in x, but now it's equal to F_max or mu_s times N. This is my angle of static friction phi_s where I have tan(phi) is equal to mu_s. Or I could live out here on this part of the graph where I have F is equal to P_x, but now this is F_k or mu_k times N or tan(phi)_k. All the s's become k's. That's how that works. So those are my four possibilities. The other two things you got to remember is that friction, or, one thing is that friction has to be relative motion. So if you're looking at the friction between the surface, and you draw the free-body diagram of one side or the other, friction is going to oppose how the block moves relative to the rest of the world if it were staying still. So I can consider the red block as if the green block were standing still, or the other way around. When you draw the free-body diagram of both of them, you have to use equal and opposite forces on each side, and by that, I mean the same label and opposite in, arrow's in the other direction. So if I look at the red block, the red block is moving up relative to the green one. That means that friction is acting down, and the normal force has to be there. Note: you cannot have a friction force without a normal force because F_max equals mu times N. So if there's no N, there's no F. So this is my relative motion of the red block. The green block has to have equal and opposite things on the other side. So if F_a's going down, F_a's going up. If N_a is going to the left, N_a's going to the right on the green block. And how does that work? If you look at the green block, the green block is moving down relative to the universe. That means friction is acting up relative to the universe. If you picked this up and superimposed it back on top of this, these forces would be internal if you considered it all together, and these have to go away. So when you look at the free-body diagrams of both sides, you have to make sure you're using equal amounts as your reactions. In the next video, we'll look at the steps you use for solving some of these equations and a couple of examples. Thanks.",
+  "text_to_speech_word_count": 1517,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.837",
+      "start": "00:00:00.000",
+      "text": " We want to talk about friction today and we want to limit ourselves here to"
+    },
+    {
+      "end": "00:00:07.908",
+      "start": "00:00:03.837",
+      "text": " dry friction or cool on friction. We're not talking about anything lubricated"
+    },
+    {
+      "end": "00:00:13.180",
+      "start": "00:00:07.908",
+      "text": " here. Friction is another force. We treat it like a point force acting tangent"
+    },
+    {
+      "end": "00:00:18.452",
+      "start": "00:00:13.180",
+      "text": " to the surface in an opposite direction from how motion would occur if there"
+    },
+    {
+      "end": "00:00:22.890",
+      "start": "00:00:18.452",
+      "text": " were no friction. This is another of the three kinds of ways we can model of"
+    },
+    {
+      "end": "00:00:26.293",
+      "start": "00:00:22.890",
+      "text": " surface. We can model of surface as a frictionless thing so there are no"
+    },
+    {
+      "end": "00:00:31.131",
+      "start": "00:00:26.293",
+      "text": " tangential forces or as a completely rough surface where you can have as much"
+    },
+    {
+      "end": "00:00:35.869",
+      "start": "00:00:31.131",
+      "text": " tangential forces you need to prohibit motion along a surface or as friction."
+    },
+    {
+      "end": "00:00:40.474",
+      "start": "00:00:35.869",
+      "text": " Here motion might occur but it might not. That's what we need to know about."
+    },
+    {
+      "end": "00:00:46.513",
+      "start": "00:00:40.474",
+      "text": " Friction depends on the surface nature so if it comes from irregularities in the"
+    },
+    {
+      "end": "00:00:50.417",
+      "start": "00:00:46.513",
+      "text": " surface or some sort of molecular attraction between the two surfaces it does"
+    },
+    {
+      "end": "00:00:53.820",
+      "start": "00:00:50.417",
+      "text": " not depend on the area of the contact. So if you have two great big things in"
+    },
+    {
+      "end": "00:00:57.457",
+      "start": "00:00:53.820",
+      "text": " the touching at one point tiny point or one huge surface it doesn't make any"
+    },
+    {
+      "end": "00:01:02.529",
+      "start": "00:00:57.457",
+      "text": " difference. The big point here is that it is limited in magnitude. This comes in"
+    },
+    {
+      "end": "00:01:08.035",
+      "start": "00:01:02.529",
+      "text": " all with this word might. So if you have block here and you're pushing on it with"
+    },
+    {
+      "end": "00:01:14.207",
+      "start": "00:01:08.035",
+      "text": " a force P the friction force acts tangent to the surface opposite the way it"
+    },
+    {
+      "end": "00:01:18.679",
+      "start": "00:01:14.207",
+      "text": " would move if there were no friction and you obviously have a normal force. If you"
+    },
+    {
+      "end": "00:01:23.750",
+      "start": "00:01:18.679",
+      "text": " plotted these two so you have a how is F changing as P changes at the"
+    },
+    {
+      "end": "00:01:28.422",
+      "start": "00:01:23.750",
+      "text": " first part there one to one because the sum of the forces and I give you F equals"
+    },
+    {
+      "end": "00:01:32.759",
+      "start": "00:01:28.422",
+      "text": " P but we know that if you're pushing on something sooner or later it will move."
+    },
+    {
+      "end": "00:01:40.000",
+      "start": "00:01:32.759",
+      "text": " Sooner or later you get to F max. F max is equal to some constant times N. This"
+    },
+    {
+      "end": "00:01:45.739",
+      "start": "00:01:40.000",
+      "text": " constant is called the coefficient of static friction. Mew S. After that"
+    },
+    {
+      "end": "00:01:51.612",
+      "start": "00:01:45.739",
+      "text": " friction is only one value it comes in at mu sub k times N. That's the coefficient"
+    },
+    {
+      "end": "00:01:58.752",
+      "start": "00:01:51.612",
+      "text": " of kinetic friction. This is true F equals mu N only at this one point at the"
+    },
+    {
+      "end": "00:02:02.756",
+      "start": "00:01:58.752",
+      "text": " very top of this curve. So those of you who learned in friction that F equals"
+    },
+    {
+      "end": "00:02:12.132",
+      "start": "00:02:02.756",
+      "text": " mu N this is only true if motion is impending. Let's blow up this free body"
+    },
+    {
+      "end": "00:02:17.104",
+      "start": "00:02:12.132",
+      "text": " diagram a little bit more puts some distances on it. So if I say my box is 2B"
+    },
+    {
+      "end": "00:02:25.145",
+      "start": "00:02:17.104",
+      "text": " wide and the P is pushing at a height H the N cannot act right under the weight."
+    },
+    {
+      "end": "00:02:32.653",
+      "start": "00:02:25.145",
+      "text": " It has to act somewhere on this side of it. As P increases this X value is going"
+    },
+    {
+      "end": "00:02:37.991",
+      "start": "00:02:32.653",
+      "text": " to increase as well. Anything it can to keep this in equal and grim. So let's look"
+    },
+    {
+      "end": "00:02:41.495",
+      "start": "00:02:37.991",
+      "text": " at what these equations are. That some of the forces on X just tells you P"
+    },
+    {
+      "end": "00:02:46.066",
+      "start": "00:02:41.495",
+      "text": " equals F. That some of the forces on Y tells you N equals W. That some of the"
+    },
+    {
+      "end": "00:02:50.570",
+      "start": "00:02:46.066",
+      "text": " moments if you take it right under the weight tells you the N times that X is"
+    },
+    {
+      "end": "00:02:56.143",
+      "start": "00:02:50.570",
+      "text": " equal to P times H. If there's no X if N acts right under the weight you can't"
+    },
+    {
+      "end": "00:03:03.216",
+      "start": "00:02:56.143",
+      "text": " have a P to maintain equilibrium. As P increases this X has to increase as well."
+    },
+    {
+      "end": "00:03:07.854",
+      "start": "00:03:03.216",
+      "text": " Until you get to a certain point when this N has moved over this way as far as"
+    },
+    {
+      "end": "00:03:13.193",
+      "start": "00:03:07.854",
+      "text": " it'll go and it can't go any further then you have your tipping condition. If X"
+    },
+    {
+      "end": "00:03:19.299",
+      "start": "00:03:13.193",
+      "text": " equals B tipping occurs. We also have the possibility now that it could slip. We"
+    },
+    {
+      "end": "00:03:24.438",
+      "start": "00:03:19.299",
+      "text": " could get past our maximum friction force then we'll have slipping. These are not"
+    },
+    {
+      "end": "00:03:28.575",
+      "start": "00:03:24.438",
+      "text": " both going to happen. One of them is going to happen the other one won't. So how"
+    },
+    {
+      "end": "00:03:31.411",
+      "start": "00:03:28.575",
+      "text": " do we handle this? We draw the free-body diagram and write equations of"
+    },
+    {
+      "end": "00:03:35.816",
+      "start": "00:03:31.411",
+      "text": " equilibrium for our case. We're going to assume that it's not going to tip."
+    },
+    {
+      "end": "00:03:39.019",
+      "start": "00:03:35.816",
+      "text": " We're going to assume it's not going to slip and then you have to come back and"
+    },
+    {
+      "end": "00:03:45.192",
+      "start": "00:03:39.019",
+      "text": " check did it slip did it tip. If rotation can occur so if your box is stuck into"
+    },
+    {
+      "end": "00:03:48.829",
+      "start": "00:03:45.192",
+      "text": " a corner where it can't possibly tip over then you can treat it like a particle"
+    },
+    {
+      "end": "00:03:59.039",
+      "start": "00:03:48.829",
+      "text": " and you don't have to worry about this. The friction angle is called feet. There"
+    },
+    {
+      "end": "00:04:02.476",
+      "start": "00:03:59.039",
+      "text": " are a lot of different ways to define a force you can say it's magnitude"
+    },
+    {
+      "end": "00:04:06.613",
+      "start": "00:04:02.476",
+      "text": " direction, Cartesian form or magnitude along the line. When we're talking about F"
+    },
+    {
+      "end": "00:04:10.350",
+      "start": "00:04:06.613",
+      "text": " and N we're talking about a Cartesian form something perpendicular to and"
+    },
+    {
+      "end": "00:04:14.254",
+      "start": "00:04:10.350",
+      "text": " along the surface. But this all makes up simply the reaction of the surface. If"
+    },
+    {
+      "end": "00:04:19.092",
+      "start": "00:04:14.254",
+      "text": " you add them together we call that the resultant R and the angle is usually"
+    },
+    {
+      "end": "00:04:26.967",
+      "start": "00:04:19.092",
+      "text": " called feet. So tan phi where phi is between N and R tan phi is F over N. This"
+    },
+    {
+      "end": "00:04:30.737",
+      "start": "00:04:26.967",
+      "text": " gets to be useful when you've got only a couple extra forces. So if you have a"
+    },
+    {
+      "end": "00:04:34.708",
+      "start": "00:04:30.737",
+      "text": " blocks lagging down and inclined of its own accord or that kind of thing then we"
+    },
+    {
+      "end": "00:04:39.779",
+      "start": "00:04:34.708",
+      "text": " can use a force triangle with this resultant R. At our magic top point of the"
+    },
+    {
+      "end": "00:04:45.819",
+      "start": "00:04:39.779",
+      "text": " graph where I have impending motion tan phi is going to be F max over N or tan"
+    },
+    {
+      "end": "00:04:50.757",
+      "start": "00:04:45.819",
+      "text": " phi S equals mu S. This phi S is called the angle of static friction or if you're"
+    },
+    {
+      "end": "00:04:55.428",
+      "start": "00:04:50.757",
+      "text": " talking about a block in an inclined we call it the angle of repose."
+    },
+    {
+      "end": "00:04:58.431",
+      "start": "00:04:56.429",
+      "text": " Oops!"
+    },
+    {
+      "end": "00:05:08.175",
+      "start": "00:05:02.435",
+      "text": " What about this? I have four cases here of looking at my graph. I can look at it"
+    },
+    {
+      "end": "00:05:12.279",
+      "start": "00:05:08.175",
+      "text": " where it's zero. I can look at it somewhere along in here. I can look at it at the"
+    },
+    {
+      "end": "00:05:16.750",
+      "start": "00:05:12.279",
+      "text": " top or I can look at it past where it has gotten to the flat part. Let me put this"
+    },
+    {
+      "end": "00:05:22.088",
+      "start": "00:05:16.750",
+      "text": " here so it doesn't fall over. So here's my free-bodied diagram. Now I want to let"
+    },
+    {
+      "end": "00:05:27.727",
+      "start": "00:05:22.088",
+      "text": " P be at some sort of angle. If P is at some sort of angle theta how does this"
+    },
+    {
+      "end": "00:05:33.500",
+      "start": "00:05:27.727",
+      "text": " whole system change as theta changes? If theta is 90 so you're pushing straight"
+    },
+    {
+      "end": "00:05:38.538",
+      "start": "00:05:33.500",
+      "text": " down that's I have no friction that's living at this origin here. F can be zero"
+    },
+    {
+      "end": "00:05:44.911",
+      "start": "00:05:38.538",
+      "text": " and will be in some cases or tan phi is equal to zero or you can have friction"
+    },
+    {
+      "end": "00:05:50.116",
+      "start": "00:05:44.911",
+      "text": " but no motion and not even close to it. Now I get from my some of the forces and"
+    },
+    {
+      "end": "00:05:57.691",
+      "start": "00:05:50.116",
+      "text": " x f equals p cosine theta or p x. Tan phi is still up over n by definition but I"
+    },
+    {
+      "end": "00:06:03.396",
+      "start": "00:05:57.691",
+      "text": " don't have f max equals mu times n. I'm not equal to that until I get to motion"
+    },
+    {
+      "end": "00:06:07.234",
+      "start": "00:06:03.396",
+      "text": " and pending. When I get to motion and pending f is equal to p x still because of"
+    },
+    {
+      "end": "00:06:12.305",
+      "start": "00:06:07.234",
+      "text": " the some of the forces and x but now it's equal to f max from U S times n. This is my"
+    },
+    {
+      "end": "00:06:18.945",
+      "start": "00:06:12.305",
+      "text": " angle of static friction phi s where I have tan phi s equals mu s. L or I could live"
+    },
+    {
+      "end": "00:06:23.650",
+      "start": "00:06:18.945",
+      "text": " out here on this part of the graph where I have f is equal to p x but now this is"
+    },
+    {
+      "end": "00:06:30.190",
+      "start": "00:06:23.650",
+      "text": " f sub k or mu k times n or tan phi k. All the s's become k's that's how that"
+    },
+    {
+      "end": "00:06:38.398",
+      "start": "00:06:30.190",
+      "text": " works. So those are my four possibilities. The other two things you got to"
+    },
+    {
+      "end": "00:06:43.103",
+      "start": "00:06:38.398",
+      "text": " remember is that friction or one thing. The friction has to be relative motion."
+    },
+    {
+      "end": "00:06:46.172",
+      "start": "00:06:43.103",
+      "text": " So if you're looking at the friction between a surface and you draw the"
+    },
+    {
+      "end": "00:06:50.410",
+      "start": "00:06:46.172",
+      "text": " free body diagram of one side or the other friction is going to oppose how the"
+    },
+    {
+      "end": "00:06:55.115",
+      "start": "00:06:50.410",
+      "text": " block moves relative to the rest of the world if it were staying still. So I can"
+    },
+    {
+      "end": "00:06:58.785",
+      "start": "00:06:55.115",
+      "text": " consider the red block as if the green block were staying still or the other"
+    },
+    {
+      "end": "00:07:02.422",
+      "start": "00:06:58.785",
+      "text": " way around. When you draw the free body diagram of both of them you have to use"
+    },
+    {
+      "end": "00:07:06.559",
+      "start": "00:07:02.422",
+      "text": " equal and opposite forces on each side and by that I mean the same level and"
+    },
+    {
+      "end": "00:07:11.831",
+      "start": "00:07:06.559",
+      "text": " opposite in the arrows in the other direction. So if I look at the red block the"
+    },
+    {
+      "end": "00:07:16.303",
+      "start": "00:07:11.831",
+      "text": " red block is moving up relative to the green one. That means that friction is"
+    },
+    {
+      "end": "00:07:21.775",
+      "start": "00:07:16.303",
+      "text": " acting down and the normal force has to be there. No you cannot have a friction"
+    },
+    {
+      "end": "00:07:25.945",
+      "start": "00:07:21.775",
+      "text": " force without a normal force because f max equals mu times n. So if there's no"
+    },
+    {
+      "end": "00:07:31.384",
+      "start": "00:07:25.945",
+      "text": " n there's no f. So this is my relative motion of the red block. The green block"
+    },
+    {
+      "end": "00:07:36.222",
+      "start": "00:07:31.384",
+      "text": " has to have equal and opposite things on the other side. So if f is going down"
+    },
+    {
+      "end": "00:07:40.160",
+      "start": "00:07:36.222",
+      "text": " f is going up. If n a is going to the left n a is going to the right on the"
+    },
+    {
+      "end": "00:07:43.830",
+      "start": "00:07:40.160",
+      "text": " green block. And how does that work? If you look at the green block the green"
+    },
+    {
+      "end": "00:07:48.902",
+      "start": "00:07:43.830",
+      "text": " block is moving down relative to the universe. That means friction is acting up"
+    },
+    {
+      "end": "00:07:53.540",
+      "start": "00:07:48.902",
+      "text": " relative to the universe. If you picked this up and superimposed it back on top"
+    },
+    {
+      "end": "00:07:58.011",
+      "start": "00:07:53.540",
+      "text": " of this these forces would be internal if you considered it all together and"
+    },
+    {
+      "end": "00:08:02.248",
+      "start": "00:07:58.011",
+      "text": " these have to go away. So when you look at the free body diagrams of both sides"
+    },
+    {
+      "end": "00:08:06.553",
+      "start": "00:08:02.248",
+      "text": " you have to make sure you're using equal and opposite reactions. In the next"
+    },
+    {
+      "end": "00:08:10.457",
+      "start": "00:08:06.553",
+      "text": " video we'll look at the steps you've used for solving some of these equations"
+    },
+    {
+      "end": "00:08:13.993",
+      "start": "00:08:10.457",
+      "text": " and a couple examples. Thanks."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "StaticsProf",
+  "youtube_channel_follower_count": 4530,
+  "youtube_comment_count": 0,
+  "youtube_description": "",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "Friction",
+    "Engineering Mechanics",
+    "Statics"
+  ],
+  "youtube_title": "Friction Introduction",
+  "youtube_upload_date": "20121027",
+  "youtube_view_count": 10263
+}

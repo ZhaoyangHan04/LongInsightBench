@@ -1,0 +1,946 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Not visible",
+        "name": "Narrator"
+      }
+    ],
+    "description": "This video is a lecture about NMR Spectroscopy. It begins by explaining why different peaks are possible for the same type of nuclei in an NMR Spectra. It then introduces the concept of chemical equivalence and spin-spin coupling. Lastly, it explains how to use Pascal's triangle to predict the relative peak intensity for any NMR spectra.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The splitting of peaks in NMR spectra is due to spin-spin coupling. This occurs when the spins of chemically inequivalent hydrogens that are adjacent to each other interact. The interaction can either enhance or shield the local magnetic field experienced by the hydrogen nuclei, leading to a splitting of the signal into multiple peaks.",
+        "question": "Why do we see a splitting of peaks in the NMR Spectra?"
+      },
+      {
+        "answer": "The typical reference used in proton NMR is Tetramethylsilane (TMS). It is used because it produces a single sharp peak in the NMR spectra, making it easy to identify and use as a reference point for measuring chemical shifts.",
+        "question": "What is the typical reference used in proton NMR?"
+      },
+      {
+        "answer": "The shielding constant reflects the degree to which a nucleus is shielded from the applied magnetic field by the surrounding electrons. A higher shielding constant means the nucleus experiences a weaker effective magnetic field, resulting in a lower chemical shift. Conversely, a lower shielding constant means the nucleus experiences a stronger effective magnetic field, leading to a higher chemical shift.",
+        "question": "How does the shielding constant affect the chemical shift observed in an NMR spectra?"
+      },
+      {
+        "answer": "The 'N + 1 rule' states that if a nucleus is coupled to N equivalent neighboring nuclei with spin 1/2, its NMR signal will be split into N + 1 peaks. For example, if a proton (Ha) is coupled to two equivalent protons (Hb), its signal will be split into three peaks (2 + 1 = 3). The intensity distribution of these peaks follows Pascal's Triangle.",
+        "question": "What is the 'N + 1 rule' in NMR spectroscopy?"
+      },
+      {
+        "answer": "No, chemically equivalent protons do not split each other's signals. They experience the same local magnetic field and therefore resonate at the same frequency, resulting in a single peak.",
+        "question": "Do chemically equivalent protons split each other's signals?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [
+          {
+            "name": "A sample NMR spectra of 1,1,2 - trichloroethane.",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Formula: v = ynBo/ 2 pi",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Shielding Constant",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "A diagram shows red arrow pointing upward in direction of Applied field( from magnet) . A dotted box shows a green arrow upwards in direction of Effective field experienced by protons and a blue arrow downwards in direction of Shielding magnetic field from electrons ( induced field) . ",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "Formula: d = v - v0/v0 * 10 ^ 6, where v = yn (1 - s) Bo / 2 pi",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Tetramethylsilane (TMS)",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Range of Typical Chemical Shifts",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "name": "Spin-Spin Coupling - H a",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Glycine",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "name": "Acetaldehyde",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "name": "Para-xylene",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "name": "Main B-Field",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Hb spin with B-field, Hb spin against B-field",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Lots of molecules in the sample and both spins exist in large quantities",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Spin-Spin Coupling - Hb",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "name": "Hb signal splits into three",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "name": "Local B-field at Hb modified by the spin of Has",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "name": "Two Has means there are four combinations of their intrinsic spins",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "Enhances local B-field",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "Reduces applied B-field locally",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "No change to applied B-field",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "Twice as many ways to achieve this result means double the signal",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "Spin-Spin Coupling Notes",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "Equivalent hydrogens do not split each other's signals",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "Ha protons are 5 bonds away from Hb - no coupling",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "name": "Pascal's Triangle",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "name": "1 Hb: Splits signal of Has (1+1) = 2 ways, 2 Has: Splits signal of Hb (2+1) = 3 ways",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "name": "Row chosen matches number of peaks in signal",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "Numeral indicates the relative intensity of each peak",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "Peaks have equal heights, Middle peak is twice as large",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "Summary",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "sceneId": 0,
+        "thematicElements": "NMR Spectroscopy, Chemical Equivalence, Spin-Spin Coupling, Shielding Constant, Pascal's Triangle",
+        "timestamps": {
+          "end_timestamp": "00:10:26.067",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to NMR Spectroscopy",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "",
+        "timestamp": null
+      },
+      "description": "This video is a lecture about NMR Spectroscopy. It begins by explaining why different peaks are possible for the same type of nuclei in an NMR Spectra. It then introduces the concept of chemical equivalence and spin-spin coupling. Lastly, it explains how to use Pascal's triangle to predict the relative peak intensity for any NMR spectra.",
+      "scenes": [
+        0
+      ]
+    },
+    "title": "Lecture on NMR Spectroscopy",
+    "trimmingSuggestions": []
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 626,
+  "original_json_filename": "lAJrnphlRPM.json",
+  "original_video_filename": "lAJrnphlRPM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "here is an example NMR spectra of one one two trichloroethane will cover the Delta scale in parts per million the units of the x-axis later for now think of it as being related to the larmor precession frequency well you should focus on now is that there are two peaks a peak called H a at above 4 parts per million and a peak called HB at about five point seven five parts per million even though this spectra is coming from the protons and they all have the same total intrinsic spin the proton labeled H a have different larmor precession frequencies than those of H B recall how we quantified the larmor precession frequency and that it was equal to the gyromagnetic ratio times the magnetic field divided by 2 pi since the gyromagnetic ratio is the same for all the protons then the magnetic field must be different for protons labeled H a and H B which will explain the two peaks recall that moving charges induce magnetic fields so the observed shifts in the peaks called chemical shifts is due to the applied magnetic field inducing a circulation of electrons in a molecule the circulation of electrons gives rise to an additional magnetic field that either adds or subtracts to the externally applied one therefore the local magnetic field seen by a given nuclei is equal to the applied magnetic field B not plus the induced magnetic field B induced and this can alternatively be expressed as 1 minus Sigma times B not where the shielding constant Sigma takes into account effects of the local magnetic field from the atoms electrons the atoms neighbors as well as the solvent here is a schematic which illustrates the effect of the shielding constant the red arrow represents the direction and magnitude of the applied magnetic field a given nucleus is shielded from the applied field by the movement of electrons near it the induced magnetic field is then illustrated by the blue arrow this results in an effective magnetic field which is actually experienced by the nucleus illustrated by the green arrow the chemical ships we saw before reported on a delta scale in parts-per-million this is calculated by finding the larmor precession frequency of a given nuclei and finding it relative difference from a reference larmor precession frequency and multiplying that by a million so Delta is equal to nu minus nu naught divided by nu naught times 1 times 10 to the power of 6 the typical reference used for proton NMR is that from tetramethylsilane or TMS which is illustrated on the right the larmor precession frequency for the nuclei and the reference is calculated by using an updated version of the previously defined equation now taking into account the shielding constant Sigma it is now nu is equal to the gyromagnetic ratio times 1 minus Sigma times the applied magnetic field divided by 2 pi the ranges of typical chemical shifts measured in parts per million are illustrated in the figure again these ships are determined relative to TMS so back to our sample NMR spectra of 1 1 2 trichloroethane we can see that the protons listed as H a are in a different bonding environment than the one identified as H B the H a protons have 2 protons bound to the central carbon atom with one chlorine while the HB proton has only one proton bound to the central carbon atom with two chlorines this difference in bonding leads to different shielding constants which modifies the local magnetic field experienced by H a and H B finally this difference in the local magnetic field modifies the larmor precession frequency meaning that H a will have a different chemical shift than H B this is how NMR can be such a powerful and sensitive technique as it can detect differences in the local environment around each proton and these differences can result in identifying molecule structure to a high degree of accuracy now that we have rationalized why there are different Peaks possible for the same type of nuclei let's zoom in on the two peaks H a and H B we can see that the peak assigned to H a is actually two peaks and the peak for HB is actually three P we will now examine why this is first we will define the term chemical equivalents nuclei in the same bonding environment are generally considered to be chemically equivalent for example in glycine which is illustrated on the far left has two types of chemically equivalent protons H a which are both bound to the nitrogen and HB which are both bound to the central carbon the same goes for acetaldehyde illustrated in the center where H a represents the three protons bound to one of the carbons an HB for the single hydrogen bound to the other carbon para xylene on the right is a little larger with 10 hydrogen's but it has only two types of chemically equivalent hydrogen's this final example really illustrates the idea of chemical equivalents the hydrogen's labeled H a on either methyl carbon exist in the same bonding arrangement and as a result are chemically equivalent additionally the hydrogen's labeled as HB on the central ring also exists in the same bonding arrangement therefore they are also chemically equivalent to see how chemically inequivalent nuclei that are adjacent to each other affect one another let's return to the spectra from one one to trichloroethylene let's focus on the signal from H a there is only one hydrogen which is chemically inequivalent to the H a hydrogen's and it is labeled as HB it can have a spin that points with the applied magnetic field or against the magnetic field there are many one-one-two trichloroethane molecules in the sample so it's equally likely for the HB proton to be parallel or antiparallel to the applied magnetic field the reason why this matters is that chemically inequivalent hydrogens can either enhance or shield the local magnetic field experienced by the adjacent inequivalent nuclei therefore the one HB hydrogen depending upon the direction of the spin of its nucleus enhances or shields the applied magnetic field experienced by the h a hydrogens this results in a slight splitting of the signal into two since there are only two possibilities for the spin of HB this effect is called spin spin coupling let's now look at the spin-spin coupling effect for HB the signal for HB is split into three because there are more possibilities for the spin combinations of the H a nuclei so again starting with the signal for the HB nuclei it experiences a local magnetic field that is modified by the chemically inequivalent hydrogens thas since there are two of them there are four combinations for their intrinsic spin both being parallel both anti parallel and the two mixed States the two parallel states enhance the local magnetic field experienced by HB the two anti parallel cases shield the HB proton from the applied magnetic field and the two mixed States cause no change at all since their effect is canceled this is why there are three peaks the relative magnitude of each of the three Peaks is determined by the number of ways that peak is produced and so since there are twice as many ways to have h a cause no change to the local magnetic field at HB then its signal is twice as large this spin-spin coupling has some limitations first chemically equivalent hydrogen's do not split each other signals so in 1:1 to trichloroethane the two a chaise do not split each other signals second there is a limit in how far away chemically inequivalent nuclei can be before splitting no longer occurs for example in ethyl acetate there are three groups of chemically equivalent hydrogen's since there are roughly five bond lengths between the H a nuclei and the nearest chemically equivalent nuclei in this case being HB then H a does not experience any splitting due to spin-spin coupling an equivalent spin 1/2 nuclei split the signal of a nearby chemically inequivalent group of nuclei into n plus 1 lines with an intensity distribution given by something called Pascal's triangle which is illustrated here so using one 1/2 trichloroethane again as an example there is one HB so it splits the signal from the AAS into one plus one or two signals additionally there are two jiae's so the signal from HB will be split into two plus one or three signals to use Pascal's triangle we first find the row with as many entries as we do peaks in the signal the numbers indicate how large each peak will be so for H a since there are two peaks we look at the second row which says the peak heights are the same and for HB since there are three peaks we choose the third row which says that the middle peak will be twice as large as the outer two Peaks Pascal's triangle is meant to be an easy way to predict the relative peak intensity for any NMR spectra due to spin-spin coupling in this lecture we qualitatively examine NMR spectroscopy the spectra from this type of spectroscopy is dependent upon how nuclei have spins and those spins are affected by magnetic fields by measuring how the magnetic moments of these nuclei with intrinsic angular momentum relax when perturbed can show the chemical makeup of a sample this is NMR spectroscopy peak shifts relative to a reference are based on the local magnetic field at each nuclei this local magnetic field is affected by the local bonding arrangement as well as the spin-spin coupling of nearby chemically inequivalent nuclei [Music]",
+  "text_to_speech_word_count": 1639,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.500",
+      "start": "00:00:00.000",
+      "text": " Here is an example NMR spectra of 1-1-2 trichloral ethane."
+    },
+    {
+      "end": "00:00:10.500",
+      "start": "00:00:05.500",
+      "text": " We'll cover the delta scale in parts per million, the units of the x-axis later."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:10.500",
+      "text": " For now, think of it as being related to the law and more procession frequency."
+    },
+    {
+      "end": "00:00:20.000",
+      "start": "00:00:15.000",
+      "text": " What you should focus on now is that there are two peaks, a peak called HA,"
+    },
+    {
+      "end": "00:00:26.500",
+      "start": "00:00:20.000",
+      "text": " at about 4 parts per million, and a peak called HB, at about 5.75 parts per million."
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:26.500",
+      "text": " Even though this spectra is coming from the protons, and they all have the same total intrinsic spin,"
+    },
+    {
+      "end": "00:00:38.500",
+      "start": "00:00:32.000",
+      "text": " the proton labeled HA have different larmor procession frequencies than those of HB."
+    },
+    {
+      "end": "00:00:42.500",
+      "start": "00:00:38.500",
+      "text": " Recall how we quantified the larmor procession frequency,"
+    },
+    {
+      "end": "00:00:47.500",
+      "start": "00:00:42.500",
+      "text": " and that it was equal to the gyromagnetic ratio times the magnetic field divided by 2 pi."
+    },
+    {
+      "end": "00:00:51.500",
+      "start": "00:00:47.500",
+      "text": " Since the gyromagnetic ratio is the same for all the protons,"
+    },
+    {
+      "end": "00:00:56.500",
+      "start": "00:00:51.500",
+      "text": " then the magnetic field must be different for protons labeled HA and HB,"
+    },
+    {
+      "end": "00:00:59.500",
+      "start": "00:00:56.500",
+      "text": " which will explain the two peaks."
+    },
+    {
+      "end": "00:01:02.500",
+      "start": "00:00:59.500",
+      "text": " Recall that moving charges induce magnetic fields."
+    },
+    {
+      "end": "00:01:06.500",
+      "start": "00:01:02.500",
+      "text": " So the observed shifts in the peaks, called chemical shifts,"
+    },
+    {
+      "end": "00:01:12.500",
+      "start": "00:01:06.500",
+      "text": " is due to the applied magnetic field inducing a circulation of electrons in a molecule."
+    },
+    {
+      "end": "00:01:16.500",
+      "start": "00:01:12.500",
+      "text": " The circulation of electrons gives rise to an additional magnetic field"
+    },
+    {
+      "end": "00:01:19.500",
+      "start": "00:01:16.500",
+      "text": " that either adds or subtracts to the externally applied one."
+    },
+    {
+      "end": "00:01:26.500",
+      "start": "00:01:19.500",
+      "text": " Therefore, the local magnetic field seen by a given nuclei is equal to the applied magnetic field B0,"
+    },
+    {
+      "end": "00:01:29.500",
+      "start": "00:01:26.500",
+      "text": " plus the induced magnetic field B induced."
+    },
+    {
+      "end": "00:01:34.500",
+      "start": "00:01:29.500",
+      "text": " And this can alternatively be expressed as 1-sigma times B0,"
+    },
+    {
+      "end": "00:01:41.500",
+      "start": "00:01:34.500",
+      "text": " where the shielding constant sigma takes into account effects of the local magnetic field from the atoms electrons,"
+    },
+    {
+      "end": "00:01:45.500",
+      "start": "00:01:41.500",
+      "text": " the atoms neighbors, as well as the solvent."
+    },
+    {
+      "end": "00:01:49.500",
+      "start": "00:01:45.500",
+      "text": " Here is a schematic which illustrates the effect of the shielding constant."
+    },
+    {
+      "end": "00:01:54.500",
+      "start": "00:01:49.500",
+      "text": " The red arrow represents the direction and magnitude of the applied magnetic field."
+    },
+    {
+      "end": "00:01:59.500",
+      "start": "00:01:54.500",
+      "text": " A given nucleus is shielded from the applied field by the movement of electrons near it."
+    },
+    {
+      "end": "00:02:03.500",
+      "start": "00:01:59.500",
+      "text": " The induced magnetic field is then illustrated by the blue arrow."
+    },
+    {
+      "end": "00:02:08.500",
+      "start": "00:02:03.500",
+      "text": " This results in an effective magnetic field which is actually experienced by the nucleus,"
+    },
+    {
+      "end": "00:02:11.500",
+      "start": "00:02:08.500",
+      "text": " illustrated by the green arrow."
+    },
+    {
+      "end": "00:02:16.500",
+      "start": "00:02:11.500",
+      "text": " The chemical ships we saw before reported on a delta scale in parts per million."
+    },
+    {
+      "end": "00:02:20.500",
+      "start": "00:02:16.500",
+      "text": " This is calculated by finding the LARMOR procession frequency of a given nuclei"
+    },
+    {
+      "end": "00:02:25.500",
+      "start": "00:02:20.500",
+      "text": " and finding it relative difference from a reference LARMOR procession frequency"
+    },
+    {
+      "end": "00:02:28.500",
+      "start": "00:02:25.500",
+      "text": " and multiplying that by a million."
+    },
+    {
+      "end": "00:02:35.500",
+      "start": "00:02:28.500",
+      "text": " So, delta is equal to new minus nu knot divided by nu knot times 1 times 10 to the power of 6."
+    },
+    {
+      "end": "00:02:41.500",
+      "start": "00:02:36.500",
+      "text": " The typical reference used for proton NMR is that from tetra methylsilane or TMS,"
+    },
+    {
+      "end": "00:02:44.500",
+      "start": "00:02:41.500",
+      "text": " which is illustrated on the right."
+    },
+    {
+      "end": "00:02:51.500",
+      "start": "00:02:44.500",
+      "text": " The LARMOR procession frequency for the nuclei and the reference is calculated by using an updated version of the previously defined equation,"
+    },
+    {
+      "end": "00:02:54.500",
+      "start": "00:02:51.500",
+      "text": " now taking into account the shielding constant sigma."
+    },
+    {
+      "end": "00:03:04.500",
+      "start": "00:02:54.500",
+      "text": " It is now nu is equal to the gyromagnetic ratio times 1 minus sigma times the applied magnetic field divided by 2 pi."
+    },
+    {
+      "end": "00:03:09.500",
+      "start": "00:03:04.500",
+      "text": " The ranges of typical chemical shifts measured in parts per million are illustrated in the figure."
+    },
+    {
+      "end": "00:03:14.500",
+      "start": "00:03:09.500",
+      "text": " Again, these shifts are determined relative to TMS."
+    },
+    {
+      "end": "00:03:19.500",
+      "start": "00:03:14.500",
+      "text": " So, back to our sample NMR spectra of 112 tri-chloroethane."
+    },
+    {
+      "end": "00:03:27.500",
+      "start": "00:03:19.500",
+      "text": " We can see that the protons listed as HA are in a different bonding environment than the one identified as HB."
+    },
+    {
+      "end": "00:03:32.500",
+      "start": "00:03:27.500",
+      "text": " The HA protons have two protons bound to the central carbon atom with one chlorine,"
+    },
+    {
+      "end": "00:03:38.500",
+      "start": "00:03:32.500",
+      "text": " while the HB proton has only one proton bound to the central carbon atom with two chlorines."
+    },
+    {
+      "end": "00:03:42.500",
+      "start": "00:03:38.500",
+      "text": " This difference in bonding leads to different shielding constants,"
+    },
+    {
+      "end": "00:03:46.500",
+      "start": "00:03:42.500",
+      "text": " which modifies the local magnetic field experienced by HA and HB."
+    },
+    {
+      "end": "00:03:51.500",
+      "start": "00:03:46.500",
+      "text": " Finally, this difference in the local magnetic field modifies the LARMOR procession frequency,"
+    },
+    {
+      "end": "00:03:55.500",
+      "start": "00:03:51.500",
+      "text": " meaning that HA will have a different chemical shift than HB."
+    },
+    {
+      "end": "00:03:59.500",
+      "start": "00:03:55.500",
+      "text": " This is how NMR can be such a powerful and sensitive technique,"
+    },
+    {
+      "end": "00:04:02.500",
+      "start": "00:03:59.500",
+      "text": " as it can detect differences in the local environment around each proton,"
+    },
+    {
+      "end": "00:04:09.500",
+      "start": "00:04:02.500",
+      "text": " and these differences can result in identifying molecule structure to a high degree of accuracy."
+    },
+    {
+      "end": "00:04:14.500",
+      "start": "00:04:09.500",
+      "text": " Now that we have rationalized why there are different peaks possible for the same type of nuclei,"
+    },
+    {
+      "end": "00:04:18.500",
+      "start": "00:04:14.500",
+      "text": " let's zoom in on the two peaks HA and HB."
+    },
+    {
+      "end": "00:04:23.500",
+      "start": "00:04:18.500",
+      "text": " We can see that the peak assigned to HA is actually two peaks,"
+    },
+    {
+      "end": "00:04:26.500",
+      "start": "00:04:23.500",
+      "text": " and the peak for HB is actually three peaks."
+    },
+    {
+      "end": "00:04:29.500",
+      "start": "00:04:26.500",
+      "text": " We will now examine why this is."
+    },
+    {
+      "end": "00:04:33.500",
+      "start": "00:04:29.500",
+      "text": " First, we will define the term chemical equivalence."
+    },
+    {
+      "end": "00:04:38.500",
+      "start": "00:04:33.500",
+      "text": " Nuclear and the same bonding environment are generally considered to be chemically equivalent."
+    },
+    {
+      "end": "00:04:42.500",
+      "start": "00:04:38.500",
+      "text": " For example, in glycine, which is illustrated on the far left,"
+    },
+    {
+      "end": "00:04:45.500",
+      "start": "00:04:42.500",
+      "text": " has two types of chemically equivalent protons,"
+    },
+    {
+      "end": "00:04:49.500",
+      "start": "00:04:45.500",
+      "text": " HA, which are both bound to the nitrogen and HB,"
+    },
+    {
+      "end": "00:04:52.500",
+      "start": "00:04:49.500",
+      "text": " which are both bound to the central carbon."
+    },
+    {
+      "end": "00:04:55.500",
+      "start": "00:04:52.500",
+      "text": " The same goes for a seed aldehyde, illustrated in the center,"
+    },
+    {
+      "end": "00:05:00.500",
+      "start": "00:04:55.500",
+      "text": " where HA represents the three protons bound to one of the carbons and HB"
+    },
+    {
+      "end": "00:05:03.500",
+      "start": "00:05:00.500",
+      "text": " for the single hydrogen bound to the other carbon."
+    },
+    {
+      "end": "00:05:07.500",
+      "start": "00:05:03.500",
+      "text": " Parasylene on the right is a little larger with 10 hydrogens,"
+    },
+    {
+      "end": "00:05:11.500",
+      "start": "00:05:07.500",
+      "text": " but it is only two types of chemically equivalent hydrogens."
+    },
+    {
+      "end": "00:05:15.500",
+      "start": "00:05:11.500",
+      "text": " This final example really illustrates the idea of chemical equivalence."
+    },
+    {
+      "end": "00:05:20.500",
+      "start": "00:05:15.500",
+      "text": " The hydrogens labeled HA on either methyl carbon exist in the same bonding arrangement"
+    },
+    {
+      "end": "00:05:23.500",
+      "start": "00:05:20.500",
+      "text": " and as a result are chemically equivalent."
+    },
+    {
+      "end": "00:05:29.500",
+      "start": "00:05:23.500",
+      "text": " Additionally, the hydrogens labeled as HB on the central ring also exist in the same bonding arrangement."
+    },
+    {
+      "end": "00:05:32.500",
+      "start": "00:05:29.500",
+      "text": " Therefore, they are also chemically equivalent."
+    },
+    {
+      "end": "00:05:38.500",
+      "start": "00:05:32.500",
+      "text": " To see how chemically inequivalent nuclei that are adjacent to each other affect one another,"
+    },
+    {
+      "end": "00:05:42.500",
+      "start": "00:05:38.500",
+      "text": " let's return to the spectra from 112 tri-chloroethane."
+    },
+    {
+      "end": "00:05:45.500",
+      "start": "00:05:42.500",
+      "text": " Let's focus on the signal from HA."
+    },
+    {
+      "end": "00:05:50.500",
+      "start": "00:05:45.500",
+      "text": " There is only one hydrogen which is chemically inequivalent to the HA hydrogens,"
+    },
+    {
+      "end": "00:05:52.500",
+      "start": "00:05:50.500",
+      "text": " and it is labeled as HB."
+    },
+    {
+      "end": "00:05:58.500",
+      "start": "00:05:52.500",
+      "text": " It can have a spin that points with the applied magnetic field or against the magnetic field."
+    },
+    {
+      "end": "00:06:02.500",
+      "start": "00:05:58.500",
+      "text": " There are many 112 tri-chloroethane molecules in the sample,"
+    },
+    {
+      "end": "00:06:08.500",
+      "start": "00:06:02.500",
+      "text": " which is equally likely for the HB proton to be parallel or antiparallel to the applied magnetic field."
+    },
+    {
+      "end": "00:06:13.500",
+      "start": "00:06:08.500",
+      "text": " The reason why this matters is that chemically inequivalent hydrogens can either enhance"
+    },
+    {
+      "end": "00:06:19.500",
+      "start": "00:06:13.500",
+      "text": " or shield the local magnetic field experienced by the adjacent inequivalent nuclei."
+    },
+    {
+      "end": "00:06:24.500",
+      "start": "00:06:19.500",
+      "text": " Therefore, the one HB hydrogen, depending upon the direction of the spin of its nucleus,"
+    },
+    {
+      "end": "00:06:29.500",
+      "start": "00:06:24.500",
+      "text": " enhances or shields the applied magnetic field experienced by the HA hydrogens."
+    },
+    {
+      "end": "00:06:33.500",
+      "start": "00:06:29.500",
+      "text": " This results in a slight splitting of the signal into two,"
+    },
+    {
+      "end": "00:06:37.500",
+      "start": "00:06:33.500",
+      "text": " since there are only two possibilities for the spin of HB."
+    },
+    {
+      "end": "00:06:40.500",
+      "start": "00:06:37.500",
+      "text": " This effect is called spin-spin coupling."
+    },
+    {
+      "end": "00:06:44.500",
+      "start": "00:06:40.500",
+      "text": " Let's now look at the spin-spin coupling effect for HB."
+    },
+    {
+      "end": "00:06:47.500",
+      "start": "00:06:44.500",
+      "text": " The signal for HB is split into three,"
+    },
+    {
+      "end": "00:06:52.500",
+      "start": "00:06:47.500",
+      "text": " because there are more possibilities for the spin combinations of the HA nuclei."
+    },
+    {
+      "end": "00:06:55.500",
+      "start": "00:06:52.500",
+      "text": " So again, starting with the signal for the HB nuclei,"
+    },
+    {
+      "end": "00:07:02.500",
+      "start": "00:06:55.500",
+      "text": " it experiences a local magnetic field that is modified by the chemically inequivalent hydrogens, the HAs."
+    },
+    {
+      "end": "00:07:06.500",
+      "start": "00:07:02.500",
+      "text": " Since there are two of them, there are four combinations for their intrinsic spin,"
+    },
+    {
+      "end": "00:07:11.500",
+      "start": "00:07:06.500",
+      "text": " both being parallel, both antiparallel, and the two mixed states."
+    },
+    {
+      "end": "00:07:16.500",
+      "start": "00:07:11.500",
+      "text": " The two parallel states enhance the local magnetic field experienced by HB."
+    },
+    {
+      "end": "00:07:22.500",
+      "start": "00:07:16.500",
+      "text": " The two antiparallel cases shield the HB proton from the applied magnetic field,"
+    },
+    {
+      "end": "00:07:27.500",
+      "start": "00:07:22.500",
+      "text": " and the two mixed states cause no change at all since their effect is canceled."
+    },
+    {
+      "end": "00:07:29.500",
+      "start": "00:07:27.500",
+      "text": " This is why there are three peaks."
+    },
+    {
+      "end": "00:07:35.500",
+      "start": "00:07:29.500",
+      "text": " The relative magnitude of each of the three peaks is determined by the number of ways that peak is produced,"
+    },
+    {
+      "end": "00:07:41.500",
+      "start": "00:07:35.500",
+      "text": " and so since there are twice as many ways to have HA cause no change to the local magnetic field at HB,"
+    },
+    {
+      "end": "00:07:43.500",
+      "start": "00:07:41.500",
+      "text": " then its signal is twice as large."
+    },
+    {
+      "end": "00:07:47.500",
+      "start": "00:07:43.500",
+      "text": " This spin-spin coupling has some limitations."
+    },
+    {
+      "end": "00:07:51.500",
+      "start": "00:07:47.500",
+      "text": " First, chemically equivalent hydrogens do not split each other's signals."
+    },
+    {
+      "end": "00:07:58.500",
+      "start": "00:07:51.500",
+      "text": " So in 112 trichloroethane, the two HAs do not split each other's signals."
+    },
+    {
+      "end": "00:08:05.500",
+      "start": "00:07:58.500",
+      "text": " Second, there is a limit in how far away chemically inequivalent nuclei can be before splitting no longer occurs."
+    },
+    {
+      "end": "00:08:11.500",
+      "start": "00:08:05.500",
+      "text": " For example, in ethyl acetate, there are three groups of chemically equivalent hydrogens."
+    },
+    {
+      "end": "00:08:17.500",
+      "start": "00:08:11.500",
+      "text": " Since there are roughly five bond lengths between the HA nuclei and the nearest chemically equivalent nuclei,"
+    },
+    {
+      "end": "00:08:24.500",
+      "start": "00:08:17.500",
+      "text": " in this case being HB, then HA does not experience any splitting due to spin-spin coupling."
+    },
+    {
+      "end": "00:08:31.500",
+      "start": "00:08:24.500",
+      "text": " N equivalent spin one-half nuclei split the signal of a nearby chemically inequivalent group of nuclei"
+    },
+    {
+      "end": "00:08:37.500",
+      "start": "00:08:31.500",
+      "text": " into N plus one lines, with an intensity distribution given by something called Pascal's triangle,"
+    },
+    {
+      "end": "00:08:39.500",
+      "start": "00:08:37.500",
+      "text": " which is illustrated here."
+    },
+    {
+      "end": "00:08:45.500",
+      "start": "00:08:39.500",
+      "text": " So using 112 trichloroethane again as an example, there is one HB,"
+    },
+    {
+      "end": "00:08:51.500",
+      "start": "00:08:45.500",
+      "text": " so it splits the signal from the HAs into one plus one or two signals."
+    },
+    {
+      "end": "00:08:58.500",
+      "start": "00:08:51.500",
+      "text": " Additionally, there are two HAs, so the signal from HB will be split into two plus one or three signals."
+    },
+    {
+      "end": "00:09:05.500",
+      "start": "00:08:58.500",
+      "text": " To use Pascal's triangle, we first find the row with as many entries as we do peaks in the signal."
+    },
+    {
+      "end": "00:09:08.500",
+      "start": "00:09:05.500",
+      "text": " The numbers indicate how large each peak will be."
+    },
+    {
+      "end": "00:09:14.500",
+      "start": "00:09:08.500",
+      "text": " So for HA, since there are two peaks, we look at the second row, which says the peak heights are the same."
+    },
+    {
+      "end": "00:09:22.500",
+      "start": "00:09:14.500",
+      "text": " And for HAB, since there are three peaks, we choose the third row, which says that the middle peak will be twice as large as the outer two peaks."
+    },
+    {
+      "end": "00:09:29.500",
+      "start": "00:09:22.500",
+      "text": " Pascal's triangle is meant to be an easy way to predict the relative peak intensity for any NMR spectra due to spin-spin coupling."
+    },
+    {
+      "end": "00:09:34.500",
+      "start": "00:09:29.500",
+      "text": " In this lecture, we qualitatively examine NMR spectroscopy."
+    },
+    {
+      "end": "00:09:42.500",
+      "start": "00:09:34.500",
+      "text": " The spectra from this type of spectroscopy is dependent upon how nuclei have spins and those spins are affected by magnetic fields,"
+    },
+    {
+      "end": "00:09:52.500",
+      "start": "00:09:42.500",
+      "text": " by measuring how the magnetic moments of these nuclei within intrinsic angular momentum relax when perturbed can show the chemical makeup of a sample."
+    },
+    {
+      "end": "00:09:54.500",
+      "start": "00:09:52.500",
+      "text": " This is NMR spectroscopy."
+    },
+    {
+      "end": "00:09:59.500",
+      "start": "00:09:54.500",
+      "text": " Peak shifts relative to a reference are based on the local magnetic field at each nuclei."
+    },
+    {
+      "end": "00:10:09.500",
+      "start": "00:09:59.500",
+      "text": " This local magnetic field is affected by the local bonding arrangement, as well as the spin-spin coupling of nearby chemically inequivalent nuclei."
+    },
+    {
+      "end": "00:10:25.500",
+      "start": "00:10:12.500",
+      "text": " Music"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "Michael Groves",
+  "youtube_channel_follower_count": 630,
+  "youtube_comment_count": 0,
+  "youtube_description": "",
+  "youtube_like_count": 1,
+  "youtube_tags": [
+    "CHEM 361B"
+  ],
+  "youtube_title": "Lecture 18 (2 of 2) - NMR Spectra",
+  "youtube_upload_date": "20190123",
+  "youtube_view_count": 478
+}

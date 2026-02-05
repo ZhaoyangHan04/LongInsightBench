@@ -1,0 +1,659 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with short brown hair, wearing a light gray button-down shirt. He appears to be in his late 20s or early 30s.",
+        "name": "Dr. Florian Dubost"
+      }
+    ],
+    "description": "This analysis details a video focused on the challenge of false positives in automated epilepsy seizure detection due to activities like patting. It presents a novel approach using video analysis and neural networks to address this issue.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Patting neonates can create EEG signals resembling seizures, leading to false positive detection by automated methods. This is shown in the video at 1:06.",
+        "question": "What is a specific example of an activity that might trigger a false positive in automated seizure detection?"
+      },
+      {
+        "answer": "The researchers are using video analysis and a neural network to identify patting. They compute a frame-to-frame correlation matrix and use it as input to the network. The goal is to use this information to filter out false positives caused by patting in EEG-based seizure detection.",
+        "question": "How does the research approach in the video aim to address the issue of false positives due to patting?"
+      },
+      {
+        "answer": "Recall is the primary metric used, reflecting the model's ability to correctly identify patting instances. It achieved approximately 87% on the validation set (shown in the table at 3:03).",
+        "question": "What is the main metric used to evaluate the performance of the patting detection model, and what is its approximate value in the research?"
+      },
+      {
+        "answer": "The network's attention map is used to visualize which areas of the correlation matrix are being prioritized by the network for decision-making. This map, shown in the split screen at 3:38, highlights the areas with periodic patterns related to patting.",
+        "question": "What specific visual element is used to confirm that the neural network focuses on the correct features for patting detection?"
+      },
+      {
+        "answer": "The researcher plans to combine the patting detection model with the EEG-based seizure detection model. If both models detect their respective events simultaneously, it will provide more confidence in the seizure detection, reducing false positives related to patting (explained at 4:11 and 4:29).",
+        "question": "What future research direction is mentioned to improve the accuracy of automated seizure detection?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Dr. Dubost speaks directly to the camera, providing an overview of epilepsy.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Video footage of a young child experiencing a seizure in a car is shown.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dr. Florian Dubost"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informative, slightly somber. The visual of the child having a seizure adds a touch of seriousness to the informative tone.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Dr. Dubost introduces epilepsy, its prevalence, and the impact of seizures on patients and their families.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Importance of epilepsy treatment and monitoring.",
+        "timestamps": {
+          "end_timestamp": "00:00:17.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Epilepsy",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to footage of a child experiencing a seizure.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dr. Dubost continues speaking to the camera, discussing continuous monitoring of epilepsy patients and challenges in automated seizure detection.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:17.040"
+            }
+          },
+          {
+            "description": "Video footage of a neonate hooked to medical equipment with a nurse patting the baby.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.080",
+              "start_timestamp": "00:01:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dr. Florian Dubost"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "1:06 - The video footage demonstrating patting is key to understanding the challenge being addressed.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Informative, slightly concerned. The topic of false positives in automated detection introduces a sense of concern.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Dr. Dubost explains the need for continuous monitoring but highlights the issue of false positives caused by activities like patting.",
+            "timestamp": "00:00:17.040"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "The difficulty in distinguishing true seizures from other activities.",
+        "timestamps": {
+          "end_timestamp": "00:01:06.080",
+          "start_timestamp": "00:00:17.040"
+        },
+        "title": "Continuous Monitoring and Challenges",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to footage of a neonate being patted by a nurse.",
+            "timestamps": {
+              "end_timestamp": "00:01:06.080",
+              "start_timestamp": "00:01:06.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dr. Dubost describes their research project focusing on automatically identifying patting from videos to improve automated seizure detection.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:01:06.120"
+            }
+          },
+          {
+            "description": "Description of the video dataset and its labeling.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "description": "Two videos of a neonate, one labeled 'Patting' and the other 'No Patting'.",
+            "timestamp": {
+              "end_timestamp": "00:02:04.000",
+              "start_timestamp": "00:01:56.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dr. Florian Dubost"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative, optimistic. Dr. Dubost introduces a potential solution and explains their research approach.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The research goal and the specific data used to achieve it are outlined.",
+            "timestamp": "00:01:06.120"
+          },
+          {
+            "description": "Research aim is to identify patting from videos.",
+            "timestamp": "00:01:19.000"
+          },
+          {
+            "description": "35 videos were used in the research.",
+            "timestamp": "00:01:31.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Use of video analysis and machine learning to address the patting detection issue.",
+        "timestamps": {
+          "end_timestamp": "00:02:04.120",
+          "start_timestamp": "00:01:06.120"
+        },
+        "title": "Research Approach and Data",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen showing two videos with labels 'Patting' and 'No Patting'.",
+            "timestamps": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:56.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dr. Dubost explains the method used in their research, including computing a frame-to-frame correlation matrix and using a neural network. The presentation of their research results and observations are presented.",
+            "timestamp": {
+              "end_timestamp": "00:03:03.000",
+              "start_timestamp": "00:02:04.160"
+            }
+          },
+          {
+            "description": "A correlation matrix is shown.",
+            "timestamp": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:17.000"
+            }
+          },
+          {
+            "description": "Two correlation matrices are presented, one labeled 'Patting' and the other 'No Patting'.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:24.000"
+            }
+          },
+          {
+            "description": "Research paper with the title 'Deep Residual Learning for Image Recognition'.",
+            "timestamp": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:02:43.000"
+            }
+          },
+          {
+            "description": "Table displaying results metrics.",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:03:03.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dr. Florian Dubost"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative, analytical. The focus shifts to the technical aspects of the research and the obtained results.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The method employed and its performance are detailed, showcasing the research findings.",
+            "timestamp": "00:02:04.160"
+          },
+          {
+            "description": "Frame-to-frame correlation matrix is computed instead of using video data directly.",
+            "timestamp": "00:02:12.000"
+          },
+          {
+            "description": "Hypothesis is that patting is a repeated motion.",
+            "timestamp": "00:02:22.000"
+          },
+          {
+            "description": "Neural network is used to classify the segments.",
+            "timestamp": "00:02:35.000"
+          },
+          {
+            "description": "High recall means the system can identify most patting samples.",
+            "timestamp": "00:03:08.000"
+          },
+          {
+            "description": "The system generates false alarms.",
+            "timestamp": "00:03:16.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Correlation matrices.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:17.000"
+            }
+          },
+          {
+            "name": "Research paper.",
+            "timestamp": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:02:43.000"
+            }
+          },
+          {
+            "name": "Results table.",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:03:03.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "The effectiveness of their approach, as demonstrated by the results.",
+        "timestamps": {
+          "end_timestamp": "00:03:16.000",
+          "start_timestamp": "00:02:04.160"
+        },
+        "title": "Method and Results",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to the correlation matrix.",
+            "timestamps": {
+              "end_timestamp": "00:02:19.000",
+              "start_timestamp": "00:02:17.000"
+            }
+          },
+          {
+            "description": "Split screen showing two correlation matrices.",
+            "timestamps": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:24.000"
+            }
+          },
+          {
+            "description": "Cut to a research paper.",
+            "timestamps": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:02:43.000"
+            }
+          },
+          {
+            "description": "Cut to a table displaying results.",
+            "timestamps": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:03:03.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dr. Dubost explains network attention analysis, providing evidence for their approach and outlining future research directions.",
+            "timestamp": {
+              "end_timestamp": "00:04:11.000",
+              "start_timestamp": "00:03:16.040"
+            }
+          },
+          {
+            "description": "Two photos of neonates are shown along with their corresponding correlation matrices and CNN attention maps.",
+            "timestamp": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:38.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dr. Florian Dubost"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative, forward-looking. Dr. Dubost emphasizes the strengths of their method and highlights areas for further improvement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of how the network identifies patting and discussion of future work to refine the approach.",
+            "timestamp": "00:03:16.040"
+          },
+          {
+            "description": "Verification of whether the neural network identifies the correct features in the correlation matrix.",
+            "timestamp": "00:03:20.000"
+          },
+          {
+            "description": "Attention analysis is used to highlight the areas the network focuses on.",
+            "timestamp": "00:03:30.000"
+          },
+          {
+            "description": "Future work will include running the seizure detection model on the portions of data with patting.",
+            "timestamp": "00:04:11.000"
+          },
+          {
+            "description": "If the seizure detection model and the patting detection model work correctly, then the system can discard false positives.",
+            "timestamp": "00:04:29.000"
+          },
+          {
+            "description": "Cross-correlation will be computed on shorter segments to get a more precise definition of patting time.",
+            "timestamp": "00:04:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Photos of neonates, correlation matrices, and CNN attention maps.",
+            "timestamp": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:38.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Network validation and the potential for this research to contribute to more accurate seizure detection.",
+        "timestamps": {
+          "end_timestamp": "00:05:10.120",
+          "start_timestamp": "00:03:16.040"
+        },
+        "title": "Network Attention and Future Work",
+        "videoEditingDetails": [
+          {
+            "description": "Split screen with photos, correlation matrices, and CNN attention maps.",
+            "timestamps": {
+              "end_timestamp": "00:03:45.000",
+              "start_timestamp": "00:03:38.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The research results are presented, demonstrating the initial success of the method.",
+        "timestamp": "00:03:03.000"
+      },
+      "description": "The challenge of false positives in automated epilepsy seizure detection, specifically due to patting. The video presents a novel approach using video analysis and a neural network to identify patting, aiming to reduce false positives.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Video Analysis: Automated Detection of Patting in Neonates with Epilepsy",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten introductory segment focusing on key points about epilepsy.",
+        "timestamps": {
+          "end_timestamp": "00:03:16.040",
+          "start_timestamp": "00:03:16.040"
+        }
+      },
+      {
+        "description": "Combine Scene 2 & 3 for smoother flow and increased engagement.",
+        "timestamps": {
+          "end_timestamp": "00:03:16.040",
+          "start_timestamp": "00:03:16.040"
+        }
+      },
+      {
+        "description": "Reduce duration of visual aids to maintain viewer engagement.",
+        "timestamps": {
+          "end_timestamp": "00:03:16.040",
+          "start_timestamp": "00:03:16.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 310,
+  "original_json_filename": "JZKVZjy55j8.json",
+  "original_video_filename": "JZKVZjy55j8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "affecting 50 million people worldwide epilepsy is one of the most common neurological disorders patients with epilepsy have chronic seizures which are episodes in which the subject experiences involuntary movement and sometimes even loses consciousness it has been estimated that 70 percent of affected people could live a life without seizures if treated adequately the unpredictability and frequency of suture onset sometimes once per week forces strong socioeconomic constraint on the life of patients and that of their relatives by monitoring patients at risks a doctor can make meaningful therapeutic decisions however continuous military of patient creates vast amounts of data and observation is extremely time consuming researchers have developed methods to automatically detect seizure relying on eeg data however there can be artifacts that trigger the detection of false positives for example patting neonates can trigger an eeg signal that resembles that of a seizure and mislead the automated methods in this presentation i will go over a recent work which aims to identify patching from video recordings of neonate with epilepsy and eventually discard false positive detections in this work we have 35 videos that have been labeled with the beginning of patting and the end of patting these are video recordings of neonates from lucid packards hospital from stanford to optimize and evaluate our models we extracted five second segments from these videos each of this segment is consequently labeled as patting or no patching depending on whether it falls within the annotated padding time our objectives was to classify the segments into patching or note padding we didn't use directly the video data but instead computed a frame to frame correlation matrix for each frame of the segment the idea is that patching is a repetitive motion that could show some periodicity in the cross correlation matrix we then input this cross correlation matrix to a neural network we use a very simple neural network design that resembles that of resnet network which is a standard neural network architecture we use at the delta optimizer we did flipping of the correlation matrix for data augmentation and we use a weighted binary cross entropy function for the loss function in this table you can see the results on the validation set it is interesting to note that thanks to the i recall we will be able to identify most of the patting samples however there will be some false alarms to verify that the neural network identified the correct features in the cross-correlation metrics and not some randomly correlated artifacts we computed the attention of the network this the attention of the network highlights in the image areas that were discriminative for the network to carry on their prediction we notice indeed that the areas with this periodic pattern in the cross correlation matrix are picked up by the network where the rest of the correlation matrix is ignored this confirms our hypothesis that the network uses the periodicity in the cross correlation matrix to be able to accurately detect the patching from the video data in future work we will run the eeg based seashore detection model on the portion of the data where we know that there is petting and we will see whether there are false position detection in those cases if the if the seizure eeg model detects a seizure while dispatching and our patching model detects a patching when they're expatting we'll be able to discard that detection as being a false positive corresponding to patching and improve the performance of our seizure detection models eventually we will also compute the cross-correlation metrics on shorter segments for example two seconds to have a more precise definition of the betting time thank you very much for your attention and i wish you a pleasant day",
+  "text_to_speech_word_count": 632,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.000",
+      "start": "00:00:00.000",
+      "text": " Effecting 50 million people worldwide, APLFC is one of the most common neurological disorders."
+    },
+    {
+      "end": "00:00:14.000",
+      "start": "00:00:06.000",
+      "text": " Patients with APLFC have chronic seizures, which are episodes in which the subject experiences involuntary movement"
+    },
+    {
+      "end": "00:00:17.000",
+      "start": "00:00:14.000",
+      "text": " and sometimes even lose this consciousness."
+    },
+    {
+      "end": "00:00:25.000",
+      "start": "00:00:17.000",
+      "text": " It has been estimated that 70% of affected people could live a life without seizures if treated adequately."
+    },
+    {
+      "end": "00:00:36.000",
+      "start": "00:00:26.000",
+      "text": " The unpredictability and frequency of seizure and set sometimes once per week forces strong socio-economic constraints on the life of patients and that of their relatives."
+    },
+    {
+      "end": "00:00:42.000",
+      "start": "00:00:36.000",
+      "text": " By monitoring patients at risk, doctors can make meaningful therapeutic decisions."
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:42.000",
+      "text": " However, continuous monitoring of patients creates vast amounts of data and observation is extremely time-consuming."
+    },
+    {
+      "end": "00:00:59.000",
+      "start": "00:00:52.000",
+      "text": " Researchers have developed methods to automatically detect seizure, relying on EEG data."
+    },
+    {
+      "end": "00:01:05.000",
+      "start": "00:00:59.000",
+      "text": " However, there can be artifact that trigger detection of force positives."
+    },
+    {
+      "end": "00:01:15.000",
+      "start": "00:01:05.000",
+      "text": " For example, petting neonates can trigger an EEG signal that resembles that of a seizure and mislead the automated methods."
+    },
+    {
+      "end": "00:01:29.000",
+      "start": "00:01:15.000",
+      "text": " In this presentation, I will go over a recent work which aims to identify petting from video recordings of neonates with APLFC and eventually discard force-positive detections."
+    },
+    {
+      "end": "00:01:38.000",
+      "start": "00:01:30.000",
+      "text": " In this work, we have 35 videos that have been labeled with the beginning of petting and the end of petting."
+    },
+    {
+      "end": "00:01:44.000",
+      "start": "00:01:38.000",
+      "text": " These are video recordings of neonates from Lucid Packard's Hospital from Stanford."
+    },
+    {
+      "end": "00:01:52.000",
+      "start": "00:01:45.000",
+      "text": " To optimize and evaluate our models, we extracted 5 second segments from these videos."
+    },
+    {
+      "end": "00:02:03.000",
+      "start": "00:01:53.000",
+      "text": " Each of these segments is consequently labeled as petting or no petting depending on whether it falls within the annotated petting time."
+    },
+    {
+      "end": "00:02:10.000",
+      "start": "00:02:04.000",
+      "text": " Our objectives were to classify the segments into petting or no petting."
+    },
+    {
+      "end": "00:02:21.000",
+      "start": "00:02:10.000",
+      "text": " We didn't use directly the video data but instead computed a frame-to-frame correlation matrix for each frame of the segment."
+    },
+    {
+      "end": "00:02:30.000",
+      "start": "00:02:22.000",
+      "text": " The idea is that petting is a repeated motion that could show some periodicity in the cross-correlation matrix."
+    },
+    {
+      "end": "00:02:36.000",
+      "start": "00:02:31.000",
+      "text": " We then input this cross-correlation matrix to a neural network."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:37.000",
+      "text": " We use a very simple neural network design that resembles that of a resonating network which is a standard neural network texture."
+    },
+    {
+      "end": "00:02:51.000",
+      "start": "00:02:49.000",
+      "text": " We use add-a-delta optimizer."
+    },
+    {
+      "end": "00:03:01.000",
+      "start": "00:02:51.000",
+      "text": " We did flipping of the correlation matrix for data augmentation and we used a weighted binary cross-entropy function for the loss function."
+    },
+    {
+      "end": "00:03:05.000",
+      "start": "00:03:02.000",
+      "text": " In this table, you can see the results on the validation set."
+    },
+    {
+      "end": "00:03:15.000",
+      "start": "00:03:06.000",
+      "text": " It is interesting to note that thanks to the I recall, we will be able to identify most of the petting samples."
+    },
+    {
+      "end": "00:03:19.000",
+      "start": "00:03:16.000",
+      "text": " However, there will be some force alarms."
+    },
+    {
+      "end": "00:03:33.000",
+      "start": "00:03:20.000",
+      "text": " To verify that the neural network identified the correct features in the cross-correlation matrix and not some randomly correlated artifacts, we computed the attention of the network."
+    },
+    {
+      "end": "00:03:45.000",
+      "start": "00:03:34.000",
+      "text": " The attention of the network highlights in the image, areas that were discriminative for the network to carry on their prediction."
+    },
+    {
+      "end": "00:03:58.000",
+      "start": "00:03:46.000",
+      "text": " We notice indeed that the areas with this periodic pattern in the cross-correlation matrix are picked up by the network while the rest of the correlation matrix is ignored."
+    },
+    {
+      "end": "00:04:11.000",
+      "start": "00:03:59.000",
+      "text": " This confirms our hypothesis that the network uses the periodicity in the cross-correlation matrix to be able to accurately detect the petting from the video data."
+    },
+    {
+      "end": "00:04:24.000",
+      "start": "00:04:12.000",
+      "text": " In future work, we will run the EEG-based seizure detection model on the portion of the data where we know that there is petting."
+    },
+    {
+      "end": "00:04:29.000",
+      "start": "00:04:25.000",
+      "text": " And we will see whether there are force-positive detection in those cases."
+    },
+    {
+      "end": "00:04:53.000",
+      "start": "00:04:30.000",
+      "text": " If the seizure EEG model detects a seizure while the petting and a petting model detects a petting when the petting will be able to discard that detection as being a force-positive corresponding to petting and improve the performance of our seizure detection models."
+    },
+    {
+      "end": "00:05:06.000",
+      "start": "00:04:54.000",
+      "text": " Eventually, we will also compute the cross-correlation matrix on shorter segments, for example, two seconds, to have a more precise definition of the petting time."
+    },
+    {
+      "end": "00:05:10.000",
+      "start": "00:05:07.000",
+      "text": " Thank you very much for your attention and I wish you a pleasant day."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Florian Dubost",
+  "youtube_channel_follower_count": 33,
+  "youtube_comment_count": 0,
+  "youtube_description": "You can have a look at the manuscript here:\nhttps://arxiv.org/abs/2011.14101\nhttps://arxiv.org/pdf/2011.14101.pdf",
+  "youtube_like_count": 4,
+  "youtube_tags": [
+    "3D",
+    "rendering",
+    "neuro"
+  ],
+  "youtube_title": "Patting detection with AI to improve seizure detection",
+  "youtube_upload_date": "20210104",
+  "youtube_view_count": 158
+}

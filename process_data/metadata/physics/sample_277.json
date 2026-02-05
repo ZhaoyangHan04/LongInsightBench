@@ -1,0 +1,1055 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A red sphere representing a moving particle in space.",
+        "name": "Red Particle"
+      },
+      {
+        "characterId": "2",
+        "description": "A green sphere representing the change in one coordinate of the red particle's position over time.",
+        "name": "Green Particle"
+      },
+      {
+        "characterId": "3",
+        "description": "A pink sphere representing the change in another coordinate of the red particle's position over time.",
+        "name": "Pink Particle"
+      },
+      {
+        "characterId": "4",
+        "description": "A blue sphere fixed at the origin of the coordinate system.",
+        "name": "Blue Particle"
+      }
+    ],
+    "description": "This animation video explains the concepts of position and displacement vectors using particles as visual representations. The video transitions from simple one-dimensional motion to more complex two-dimensional and three-dimensional motions.",
+    "fps": 24.0,
+    "qAndA": [
+      {
+        "answer": "Green.",
+        "question": "What color is the particle representing the change in one of the coordinates of the red particle's motion?"
+      },
+      {
+        "answer": "Δr = r2 - r1, where r1 is the initial position vector and r2 is the final position vector.",
+        "question": "What is the formula for calculating the displacement vector?"
+      },
+      {
+        "answer": "By analyzing the changes in each coordinate (x and y) separately, you can represent the two-dimensional motion as two independent one-dimensional motions.",
+        "question": "How can you describe a two-dimensional motion in terms of one-dimensional motions?"
+      },
+      {
+        "answer": "It demonstrates how the same three-dimensional motion can appear different depending on the perspective from which it is viewed.",
+        "question": "What is the significance of the camera rotating around the three-dimensional animation in Scene 5?"
+      },
+      {
+        "answer": "It appears the narrator made a mistake. The equation presented describes instantaneous velocity, but the narrator referred to it as \"instantaneous speed.\" This is a common confusion as speed is the magnitude of velocity.",
+        "question": "Why did the narrator emphasize \"instantaneous velocity\" at the end of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Red particle hangs from a string in a room with a green wall.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Yellow line representing position vector extends from the origin (blue particle) to the red particle.",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "description": "The red particle moves down closer to the origin.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          },
+          {
+            "description": "The red particle changes position, moving higher up and further away from the origin. A new, longer yellow position vector extends to its new location. A blue line representing displacement vector connects the initial and final positions of the red particle.",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Red Particle",
+          "Blue Particle"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The animation visually emphasizes the difference between position and displacement.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious - The visuals and audio focus on explaining the concept of position and displacement vectors, making the viewer curious to learn more.",
+          "keyMoments": [
+            {
+              "changeDescription": "The introduction of the second red particle and displacement vector adds a layer of complexity, shifting the mood from a simple explanation to a more intriguing demonstration.",
+              "timestamp": "00:00:28.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the position vector.",
+            "timestamp": "00:00:09.000"
+          },
+          {
+            "description": "Introduction of the displacement vector.",
+            "timestamp": "00:00:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "String",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Yellow line representing position vector",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "name": "Blue line representing displacement vector",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Motion, position, displacement, vectors.",
+        "timestamps": {
+          "end_timestamp": "00:00:42.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Vectors",
+        "videoEditingDetails": [
+          {
+            "description": "Camera angle shifts to provide a better view of the position vector.",
+            "timestamps": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          },
+          {
+            "description": "Second red particle appears to show the final position.",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Transition to a 2D representation on a green chalkboard. The red particle is on a curved path represented by a light blue line. Yellow lines represent the initial (r1) and final (r2) position vectors. The displacement vector (Δr) is shown as a green line.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:00:42.042"
+            }
+          },
+          {
+            "description": "The particle moves along the curved path.",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Red Particle"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Emphasis on the fact that displacement depends only on the initial and final positions, not the path taken.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious - The visual representation and the narrator's explanation further intrigue the viewer about the concept of displacement in two dimensions.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Formula for displacement vector is introduced.",
+            "timestamp": "00:00:42.042"
+          },
+          {
+            "description": "Visual representation of displacement along a curved path.",
+            "timestamp": "00:01:20.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Chalkboard",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:42.042"
+            }
+          },
+          {
+            "name": "Curved path (light blue line)",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:42.042"
+            }
+          },
+          {
+            "name": "Position vectors (yellow lines)",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:42.042"
+            }
+          },
+          {
+            "name": "Displacement vector (green line)",
+            "timestamp": {
+              "end_timestamp": "00:01:47.000",
+              "start_timestamp": "00:00:42.042"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Motion in two dimensions, displacement vector, curved path.",
+        "timestamps": {
+          "end_timestamp": "00:01:48.875",
+          "start_timestamp": "00:00:42.042"
+        },
+        "title": "Displacement in Two Dimensions",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a 2D representation.",
+            "timestamps": {
+              "end_timestamp": "00:00:42.042",
+              "start_timestamp": "00:00:42.042"
+            }
+          },
+          {
+            "description": "Particle begins to move, demonstrating the concept of displacement along a curved path.",
+            "timestamps": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Transition to a new animation on a green surface. The red particle moves along a curved path (red line), demonstrating its two-dimensional motion. The pink and green particles move along straight lines representing the changes in each coordinate of the red particle's position.",
+            "timestamp": {
+              "end_timestamp": "00:02:07.000",
+              "start_timestamp": "00:01:48.917"
+            }
+          },
+          {
+            "description": "Pink and green particles move to their final positions.",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Red Particle",
+          "Pink Particle",
+          "Green Particle"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Visualization of how individual coordinate changes contribute to overall displacement in two dimensions.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious - The visual demonstration of how a two-dimensional motion can be described by two one-dimensional motions further piques the viewer's curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Red particle's motion is shown as a combination of the pink and green particles' motions.",
+            "timestamp": "00:01:48.917"
+          },
+          {
+            "description": "Focus on the displacement of the pink and green particles, highlighting the concept.",
+            "timestamp": "00:02:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Curved path (red line)",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:01:48.917"
+            }
+          },
+          {
+            "name": "Green surface",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:01:48.917"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Two-dimensional motion, one-dimensional motions, coordinate changes.",
+        "timestamps": {
+          "end_timestamp": "00:02:48.000",
+          "start_timestamp": "00:01:48.917"
+        },
+        "title": "Two-dimensional Motion Breakdown",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new animation.",
+            "timestamps": {
+              "end_timestamp": "00:01:48.917",
+              "start_timestamp": "00:01:48.917"
+            }
+          },
+          {
+            "description": "The animation focuses on the final positions of the pink and green particles, emphasizing their displacement.",
+            "timestamps": {
+              "end_timestamp": "00:02:07.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The red particle continues moving along its curved path. The pink and green particles follow its coordinate changes along their respective straight lines.",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:02:48.042"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Red Particle",
+          "Pink Particle",
+          "Green Particle"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides further visual evidence for the concept being explained.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious - The continuation of the animation reinforces the concept and keeps the viewer engaged.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Reinforces the idea that any two-dimensional motion can be described by two independent one-dimensional motions.",
+            "timestamp": "00:02:48.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "Curved path (red line)",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:02:48.042"
+            }
+          },
+          {
+            "name": "Green surface",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:02:48.042"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Two-dimensional motion, one-dimensional motions, coordinate changes.",
+        "timestamps": {
+          "end_timestamp": "00:03:08.000",
+          "start_timestamp": "00:02:48.042"
+        },
+        "title": "Continued Two-dimensional Description",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Transition to a more complex path for the red particle, resembling a ballistic shot. The pink and green particles still track its coordinate changes.",
+            "timestamp": {
+              "end_timestamp": "00:03:52.000",
+              "start_timestamp": "00:03:08.042"
+            }
+          },
+          {
+            "description": "The scene shifts to a three-dimensional representation with the addition of a blue particle along a vertical axis.",
+            "timestamp": {
+              "end_timestamp": "00:05:56.000",
+              "start_timestamp": "00:03:52.000"
+            }
+          },
+          {
+            "description": "The camera rotates around the animation, showing the three-dimensional motion from different angles.",
+            "timestamp": {
+              "end_timestamp": "00:06:23.000",
+              "start_timestamp": "00:05:56.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Red Particle",
+          "Pink Particle",
+          "Green Particle",
+          "Blue Particle"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The visual representation effectively clarifies the connection between three one-dimensional motions and the resulting three-dimensional motion.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Insightful - The transition to three dimensions and the camera movement provide a deeper understanding of how motion can be broken down into components.",
+          "keyMoments": [
+            {
+              "changeDescription": "The shift to three dimensions significantly enhances the visual and conceptual understanding, making the scene more insightful.",
+              "timestamp": "00:03:52.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstration of the concept with a more complex two-dimensional motion.",
+            "timestamp": "00:03:08.042"
+          },
+          {
+            "description": "Introduction of the third dimension and the blue particle.",
+            "timestamp": "00:03:52.000"
+          },
+          {
+            "description": "Emphasizing the perspective and how the same motion can appear different depending on the viewpoint.",
+            "timestamp": "00:05:56.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Curved path (red line)",
+            "timestamp": {
+              "end_timestamp": "00:06:23.000",
+              "start_timestamp": "00:03:08.042"
+            }
+          },
+          {
+            "name": "Green surface",
+            "timestamp": {
+              "end_timestamp": "00:06:23.000",
+              "start_timestamp": "00:03:08.042"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Three-dimensional motion, decomposition into one-dimensional motions, perspective.",
+        "timestamps": {
+          "end_timestamp": "00:06:23.000",
+          "start_timestamp": "00:03:08.042"
+        },
+        "title": "Introduction to Three-dimensional Motion",
+        "videoEditingDetails": [
+          {
+            "description": "The red particle takes a more complex path.",
+            "timestamps": {
+              "end_timestamp": "00:03:08.042",
+              "start_timestamp": "00:03:08.042"
+            }
+          },
+          {
+            "description": "Transition to a three-dimensional representation.",
+            "timestamps": {
+              "end_timestamp": "00:03:52.000",
+              "start_timestamp": "00:03:52.000"
+            }
+          },
+          {
+            "description": "Camera movement to showcase the three-dimensional motion from different perspectives.",
+            "timestamps": {
+              "end_timestamp": "00:05:56.000",
+              "start_timestamp": "00:05:56.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The camera focuses on the three one-dimensional motions along each axis, highlighting the individual displacements.",
+            "timestamp": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:06:23.042"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Red Particle",
+          "Pink Particle",
+          "Green Particle",
+          "Blue Particle"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Visually connects the individual displacements along each axis with the overall displacement in three-dimensional space.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Analytical - The focus on the individual components encourages a more analytical approach to understanding the three-dimensional motion.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Further breakdown of the three-dimensional motion into its constituent parts.",
+            "timestamp": "00:06:23.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "Curved path (red line)",
+            "timestamp": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:06:23.042"
+            }
+          },
+          {
+            "name": "Green surface",
+            "timestamp": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:06:23.042"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Displacement components, relationship between one-dimensional and three-dimensional motion.",
+        "timestamps": {
+          "end_timestamp": "00:08:07.000",
+          "start_timestamp": "00:06:23.042"
+        },
+        "title": "Analytical Breakdown of Motion",
+        "videoEditingDetails": [
+          {
+            "description": "Camera focuses on each axis separately.",
+            "timestamps": {
+              "end_timestamp": "00:08:07.000",
+              "start_timestamp": "00:06:23.042"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The equations connect the previously visualized concepts to their mathematical counterparts.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Instructive - The mathematical formulas provide a precise and formal explanation of the concepts discussed in previous scenes.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Transition from visual demonstration to mathematical representation.",
+            "timestamp": "00:08:07.042"
+          }
+        ],
+        "props": [
+          {
+            "name": "Chalkboard with mathematical equations",
+            "timestamp": {
+              "end_timestamp": "00:09:27.000",
+              "start_timestamp": "00:08:07.042"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Mathematical equations for displacement, average velocity, and instantaneous velocity.",
+        "timestamps": {
+          "end_timestamp": "00:09:45.708",
+          "start_timestamp": "00:08:07.042"
+        },
+        "title": "Mathematical Representation",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a static chalkboard displaying various mathematical equations related to displacement, average velocity, and instantaneous velocity in three dimensions.",
+            "timestamps": {
+              "end_timestamp": "00:09:27.000",
+              "start_timestamp": "00:08:07.042"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Introduction of the third dimension and the shift to a three-dimensional representation.",
+        "timestamp": "00:03:52.000"
+      },
+      "description": "Explaining the concept of position and displacement vectors, extending from simple one-dimensional motion to more complex two-dimensional and three-dimensional motions.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Particle Motion Animation",
+    "trimmingSuggestions": [
+      {
+        "description": "The static chalkboard scene (Scene 7) could be shortened or integrated more dynamically by overlaying the formulas onto the animations.",
+        "timestamps": {
+          "end_timestamp": "00:09:27.000",
+          "start_timestamp": "00:08:07.042"
+        }
+      },
+      {
+        "description": "The repetitive animation in Scene 4 could be trimmed slightly to avoid redundancy.",
+        "timestamps": {
+          "end_timestamp": "00:08:07.042",
+          "start_timestamp": "00:08:07.042"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 586,
+  "original_json_filename": "r2eYEak5TGY.json",
+  "original_video_filename": "r2eYEak5TGY.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "to determine the position of a particle in space we use a position vector that starts at the origin and ends at the location where the particle is using the position vector we can uniquely determine the position of an object in space also the motion of a particle can be described by using the position vector precisely when the particle is changing position in time the position vector also changes and that leads to the formation of the displacement vector which is equal to the final position minus initial position as a vector let's look at what happens when we have motion in two dimensions that is when we have motion in play later on we will easily go to three dimensions to do this I will use some kind of trick and I think those more careful listener will figure it out what it is before I discover it let's work in two dimensions for now the difference between the two positions of the particle can be defined by the differences between two position vectors thus if we have the particle at one moment being in the position r1 call this position initial at another moment in position r2 called this position final position then we can talk about displacement in the plate Delta R is equal R two minus R one as it is shown right here remember displacement is always equal to the final position minus initial position okay now let's look at this motion in two dimensions let the red particle move along the path indicated by the red line observe this motion of this particle between two moments we have the initial and final position of the particle of course then we have a displacement in plane how can we describe this kind of motion I already mentioned such a motion in one of the previous videos but anyway two-dimensional motion can be described by two one-dimensional motions let's repeat how well each point in two dimensions is uniquely defined by the two coordinates we can label them as we want but it is common to use x and y i deliberately omit these labels from the graphics because i think it's important that your imagination is constantly working in the learning process so let's put it this way the position of the red particle is determined by two coordinates and as particle moves its coordinates also changed now let's imagine a virtual particle that moves along an axis just like the coordinates are changing for example let take virtual particle to be a green one obviously it is a motion on a straight line this green particle represents changes of one coordinate of the red particle similarly pink particle represents changes of another coordinate just a little comment the displacement of the red particle can therefore be determined by using the displacement of the pink particle and the displacement of the green particle when we know these two displacements then their sum is the displacement of the red particle does anyone already understand the trick I mentioned still let's look at some other characteristic two-dimensional motions in fines if they can be described by two one-dimensional motions for example this one a little more complicated than the previous one can of course be described by two one-dimensional motions displacement of the red particle can be determined by two displacements on the corresponding axis again displacement of the red particle is the sum of two displacements at the axis what about trick now they'll get it of course but let's look just one more emotion this one looks like a ballistic shot again the motion of the red particle can be described by two one-dimensional motions displacement of the red particle is the sum of two displacements at the axis trick of course now everyone figured out what is going on here I'm actually showing to you a single three-dimensional motion all the time we observed the motion of the same red particle the only thing was changing is the perspective and if you thought so you are right actually the true meaning of this is to show how can you describe three-dimensional motion using three one-dimensional motion now let's look at these three motions at the axis by analyzing these three motions we can describe the observed three-dimensional motions can it be mathematically related I mean how to mathematically relate three one-dimensional motions to one three-dimensional motion quite simple all we need to know is where the particle is at any given moment so it is a positional vector that we need to know precise we need to know the dependence of the position vector on time with this we can determine other kinematic quantities such as displacement distance velocity speed and acceleration obviously the connection is this each position vector is expressed by its three components so if we want to determine displacement in space we need to know three displacements on the observed axis we see that the vector sum of these three displacements is equal to the displacements in space therefore displacement can be represented as three consecutive displacements parallel to the axis so if we want to know the displacement in space then we must know the components of the initial position vector and the components of the final position vector it is then obvious that the displacement Delta R can be expressed over three displacements Delta X Delta Y and Delta Z perhaps it is better from this point of view now average velocity average velocity which is defined as Delta / delta T can be expressed by three components delta x / delta t delta y / delta t and delta z / delta t of course instantaneous speed can be expressed by its three components DX / DT dy / DT and D said / DT I hope this video was helpful to you thanks for watching what nobody repels does anybody notice a mistake of course it is about instantaneous velocity not instantaneous speed",
+  "text_to_speech_word_count": 1009,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:00.000",
+      "text": " To determine the position of a particle in space, we use a position vector that starts at the origin and ends at the location where the particle is."
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:12.000",
+      "text": " Using the position vector, we can uniquely determine the position of an object in space."
+    },
+    {
+      "end": "00:00:28.000",
+      "start": "00:00:18.000",
+      "text": " Also, the motion of a particle can be described by using the position vector precisely when the particle is changing position in time."
+    },
+    {
+      "end": "00:00:40.000",
+      "start": "00:00:28.000",
+      "text": " The position vector also changes and that leads to the formation of the displacement vector which is equal to the final position minus initial position as a vector."
+    },
+    {
+      "end": "00:00:46.000",
+      "start": "00:00:40.000",
+      "text": " Let's look at what happens when we have motion in two dimensions."
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:46.000",
+      "text": " That is, when we have motion in play."
+    },
+    {
+      "end": "00:00:54.000",
+      "start": "00:00:50.000",
+      "text": " Later on, we will easily go to three dimensions."
+    },
+    {
+      "end": "00:01:06.000",
+      "start": "00:00:54.000",
+      "text": " To do this, I will use some kind of trick and I think those more careful listener will figure out what it is before I discovered."
+    },
+    {
+      "end": "00:01:10.000",
+      "start": "00:01:06.000",
+      "text": " Let's work in two dimensions for now."
+    },
+    {
+      "end": "00:01:18.000",
+      "start": "00:01:10.000",
+      "text": " The difference between the two positions of the particle can be defined by the difference between the two position vectors."
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:18.000",
+      "text": " Thus, if we have the particle at one moment being in the position R1, call this position initial, at another moment in position R2, call this position final position, then we can talk about displacement in the play."
+    },
+    {
+      "end": "00:01:40.000",
+      "start": "00:01:34.000",
+      "text": " Delta R is equal R2 minus R1, as it is shown right here."
+    },
+    {
+      "end": "00:01:48.000",
+      "start": "00:01:40.000",
+      "text": " Remember, displacement is always equal to the final position minus initial position."
+    },
+    {
+      "end": "00:01:54.000",
+      "start": "00:01:48.000",
+      "text": " Okay, now let's look at this motion in two dimensions."
+    },
+    {
+      "end": "00:02:01.000",
+      "start": "00:01:54.000",
+      "text": " Let the red particle move along the path indicated by the red line."
+    },
+    {
+      "end": "00:02:07.000",
+      "start": "00:02:01.000",
+      "text": " Reserve this motion of this particle between two moments."
+    },
+    {
+      "end": "00:02:13.000",
+      "start": "00:02:07.000",
+      "text": " We have the initial and the final position of the particle."
+    },
+    {
+      "end": "00:02:19.000",
+      "start": "00:02:13.000",
+      "text": " Of course, then we have a displacement in play."
+    },
+    {
+      "end": "00:02:23.000",
+      "start": "00:02:19.000",
+      "text": " How can we describe this kind of motion?"
+    },
+    {
+      "end": "00:02:36.000",
+      "start": "00:02:23.000",
+      "text": " I already mentioned such a motion in one of the previous videos, but anyway, two dimensional motion can be described by two one dimensional motions."
+    },
+    {
+      "end": "00:02:39.000",
+      "start": "00:02:36.000",
+      "text": " Let's repeat how."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:39.000",
+      "text": " Well, each point in two dimensions is uniquely defined by the two coordinates."
+    },
+    {
+      "end": "00:02:56.000",
+      "start": "00:02:48.000",
+      "text": " We can label them as we want, but it is common to use X and Y."
+    },
+    {
+      "end": "00:03:08.000",
+      "start": "00:02:56.000",
+      "text": " I deliberately omit these labels from the graphics, because I think it's important that your imagination is constantly working in the learning process."
+    },
+    {
+      "end": "00:03:10.000",
+      "start": "00:03:08.000",
+      "text": " So, let's put it this way."
+    },
+    {
+      "end": "00:03:23.000",
+      "start": "00:03:10.000",
+      "text": " The position of the red particle is determined by two coordinates, and as particle moves, its coordinates also change."
+    },
+    {
+      "end": "00:03:33.000",
+      "start": "00:03:23.000",
+      "text": " Now, let's imagine a virtual particle that moves along an axis just like the coordinates are changing."
+    },
+    {
+      "end": "00:03:40.000",
+      "start": "00:03:33.000",
+      "text": " For example, let's take virtual particle to be a green one."
+    },
+    {
+      "end": "00:03:45.000",
+      "start": "00:03:40.000",
+      "text": " Obviously, it is a motion on a straight line."
+    },
+    {
+      "end": "00:03:52.000",
+      "start": "00:03:45.000",
+      "text": " This green particle represents changes of one coordinate of the red particle."
+    },
+    {
+      "end": "00:04:00.000",
+      "start": "00:03:52.000",
+      "text": " Similarly, pink particle represents changes of another coordinate."
+    },
+    {
+      "end": "00:04:02.000",
+      "start": "00:04:00.000",
+      "text": " Just a little comment."
+    },
+    {
+      "end": "00:04:18.000",
+      "start": "00:04:02.000",
+      "text": " The displacement of the red particle can therefore be determined by using the displacement of the pink particle and the displacement of the green particle."
+    },
+    {
+      "end": "00:04:29.000",
+      "start": "00:04:18.000",
+      "text": " When we know these two displacements, then there's some is the displacement of the red particle."
+    },
+    {
+      "end": "00:04:35.000",
+      "start": "00:04:29.000",
+      "text": " Does anyone already understand the trick I mentioned?"
+    },
+    {
+      "end": "00:04:40.000",
+      "start": "00:04:35.000",
+      "text": " Still, let's look at some other characteristic two-dimensional motions."
+    },
+    {
+      "end": "00:04:47.000",
+      "start": "00:04:40.000",
+      "text": " And, finds, if they can be described by two one-dimensional motions."
+    },
+    {
+      "end": "00:04:49.000",
+      "start": "00:04:47.000",
+      "text": " For example, this one."
+    },
+    {
+      "end": "00:04:57.000",
+      "start": "00:04:49.000",
+      "text": " A little more complicated than the previous one can of course be described by two one-dimensional motions."
+    },
+    {
+      "end": "00:05:05.000",
+      "start": "00:04:57.000",
+      "text": " Displacement of the red particle can be determined by two displacements on the corresponding axis."
+    },
+    {
+      "end": "00:05:13.000",
+      "start": "00:05:05.000",
+      "text": " Again, displacement of the red particle is the sum of two displacements at the axis."
+    },
+    {
+      "end": "00:05:15.000",
+      "start": "00:05:13.000",
+      "text": " What about trick now?"
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:15.000",
+      "text": " They're getting it."
+    },
+    {
+      "end": "00:05:22.000",
+      "start": "00:05:17.000",
+      "text": " Of course, but let's look just one more motion."
+    },
+    {
+      "end": "00:05:26.000",
+      "start": "00:05:22.000",
+      "text": " This one looks like a ballistic shot."
+    },
+    {
+      "end": "00:05:34.000",
+      "start": "00:05:26.000",
+      "text": " Again, the motion of the red particle can be described by two one-dimensional motions."
+    },
+    {
+      "end": "00:05:42.000",
+      "start": "00:05:34.000",
+      "text": " Displacement of the red particle is the sum of two displacements at the axis."
+    },
+    {
+      "end": "00:05:44.000",
+      "start": "00:05:42.000",
+      "text": " Trick?"
+    },
+    {
+      "end": "00:05:50.000",
+      "start": "00:05:44.000",
+      "text": " Of course, now everyone figured out what is going on here."
+    },
+    {
+      "end": "00:05:56.000",
+      "start": "00:05:50.000",
+      "text": " I'm actually showing to you a single three-dimensional motion."
+    },
+    {
+      "end": "00:06:02.000",
+      "start": "00:05:56.000",
+      "text": " All the time we observed the motion of the same red particle."
+    },
+    {
+      "end": "00:06:06.000",
+      "start": "00:06:02.000",
+      "text": " The only thing was changing is the perspective."
+    },
+    {
+      "end": "00:06:09.000",
+      "start": "00:06:06.000",
+      "text": " If you told so, you were right."
+    },
+    {
+      "end": "00:06:23.000",
+      "start": "00:06:09.000",
+      "text": " Actually, the true meaning of this is to show how can you describe three-dimensional motion using three one-dimensional motion."
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:23.000",
+      "text": " Now, let's look at these three motions at the axis."
+    },
+    {
+      "end": "00:06:39.000",
+      "start": "00:06:30.000",
+      "text": " By analyzing these three motions, we can describe the observed three-dimensional motions."
+    },
+    {
+      "end": "00:06:42.000",
+      "start": "00:06:39.000",
+      "text": " Can it be mathematically related?"
+    },
+    {
+      "end": "00:06:52.000",
+      "start": "00:06:42.000",
+      "text": " I mean, how to mathematically relate three one-dimensional motions to one three-dimensional motion?"
+    },
+    {
+      "end": "00:06:54.000",
+      "start": "00:06:52.000",
+      "text": " Quite simple."
+    },
+    {
+      "end": "00:07:02.000",
+      "start": "00:06:54.000",
+      "text": " All we need to know is where the particle is at any given moment."
+    },
+    {
+      "end": "00:07:06.000",
+      "start": "00:07:02.000",
+      "text": " So, it is a position of vector that we need to know."
+    },
+    {
+      "end": "00:07:14.000",
+      "start": "00:07:06.000",
+      "text": " Precise, we need to know the dependence of the position vector on time."
+    },
+    {
+      "end": "00:07:25.000",
+      "start": "00:07:14.000",
+      "text": " With this, we can determine other kinematic quantities such as displacement, distance, velocity, speed and acceleration."
+    },
+    {
+      "end": "00:07:28.000",
+      "start": "00:07:25.000",
+      "text": " Obviously, the connection is this."
+    },
+    {
+      "end": "00:07:35.000",
+      "start": "00:07:28.000",
+      "text": " Each position vector is expressed by its three components."
+    },
+    {
+      "end": "00:07:47.000",
+      "start": "00:07:35.000",
+      "text": " So, if we want to determine displacement in space, we need to know three displacements on the observed axis."
+    },
+    {
+      "end": "00:07:57.000",
+      "start": "00:07:47.000",
+      "text": " We see that the vector sum of these three displacements is equal to the displacements in space."
+    },
+    {
+      "end": "00:08:07.000",
+      "start": "00:07:57.000",
+      "text": " Therefore, displacement can be represented as three consecutive displacements parallel to the axis."
+    },
+    {
+      "end": "00:08:24.000",
+      "start": "00:08:07.000",
+      "text": " So, if we want to know the displacement in space, then we must know the components of the initial position vector and the components of the final position vector."
+    },
+    {
+      "end": "00:08:39.000",
+      "start": "00:08:24.000",
+      "text": " It is then obvious that the displacement delta R can be expressed over three displacements delta X, delta Y and delta Z."
+    },
+    {
+      "end": "00:08:45.000",
+      "start": "00:08:39.000",
+      "text": " Perhaps it is better from this point of view."
+    },
+    {
+      "end": "00:08:49.000",
+      "start": "00:08:45.000",
+      "text": " Now, average velocity."
+    },
+    {
+      "end": "00:08:58.000",
+      "start": "00:08:49.000",
+      "text": " Average velocity, which is defined as delta R per delta T, can be expressed by three components."
+    },
+    {
+      "end": "00:09:05.000",
+      "start": "00:08:58.000",
+      "text": " Delta X per delta T, delta Y per delta T and delta Z per delta T."
+    },
+    {
+      "end": "00:09:13.000",
+      "start": "00:09:05.000",
+      "text": " Of course, instantaneous speed can be expressed by its three components."
+    },
+    {
+      "end": "00:09:21.000",
+      "start": "00:09:13.000",
+      "text": " The X per DT, the Y per DT and the Z per DT."
+    },
+    {
+      "end": "00:09:28.000",
+      "start": "00:09:21.000",
+      "text": " I hope this video was helpful to you. Thanks for watching."
+    },
+    {
+      "end": "00:09:37.000",
+      "start": "00:09:28.000",
+      "text": " What? Nobody repels. Does anybody notice a mistake?"
+    },
+    {
+      "end": "00:09:45.000",
+      "start": "00:09:37.000",
+      "text": " Of course, it is about instantaneous velocity, not instantaneous speed."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "General Physics - Problems and Solutions",
+  "youtube_channel_follower_count": 504,
+  "youtube_comment_count": 7,
+  "youtube_description": "Here you can see position vector and displacement in 3D. Also, you can find equations for average velocity and instantaneous velocity. The connection between one-dimensional and three-dimensional motions",
+  "youtube_like_count": 45,
+  "youtube_tags": [
+    "Position vector",
+    "Displacement",
+    "Three-dimensional motion",
+    "3D",
+    "Average velocity",
+    "Instantaneous velocity",
+    "vektor položaja",
+    "udaljenost",
+    "tro-dimenziono kretanje",
+    "srednja brzina",
+    "trenutna brzina"
+  ],
+  "youtube_title": "Position vector, displacement, average and instantaneous velocity in 3D. Three-dimensional motions.",
+  "youtube_upload_date": "20190908",
+  "youtube_view_count": 1853
+}

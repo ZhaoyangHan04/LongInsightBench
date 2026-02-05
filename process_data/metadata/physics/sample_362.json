@@ -1,0 +1,222 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [],
+    "description": "This video showcases the process of simulating and analyzing the adsorption of cobalt on graphene using the Materials Square 3.0 software. It includes building a graphene structure, setting simulation parameters, and visualizing the charge density difference to understand interaction dynamics.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "A graphene structure.",
+        "question": "What type of structure is used as a base for the simulation?"
+      },
+      {
+        "answer": "Cobalt (Co).",
+        "question": "What element is added to the graphene structure?"
+      },
+      {
+        "answer": "Materials Square 3.0.",
+        "question": "What software is being used for this simulation?"
+      },
+      {
+        "answer": "Charge density difference.",
+        "question": "What is the primary visualization method used to analyze the results?"
+      },
+      {
+        "answer": "While not explicitly stated, these colors likely represent areas of electron accumulation (blue) and depletion (yellow) due to the interaction between cobalt and graphene. This difference in charge density highlights the bonding and interaction between the two materials.",
+        "question": "What do the blue and yellow colors in the final visualization represent?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Building a graphene structure in Materials Square 3.0 software.",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Setting simulation parameters for Quantum Espresso and submitting the job.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          },
+          {
+            "description": "Visualizing and analyzing the charge density difference of cobalt adsorbed on graphene.",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.6,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The video implicitly highlights the power of computational tools in materials science, enabling researchers to visualize and analyze complex chemical interactions.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic of adsorption of cobalt on graphene.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Building the base graphene structure and adding a cobalt atom.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Running a simulation to understand the interaction.",
+            "timestamp": "00:00:21.000"
+          },
+          {
+            "description": "Analyzing the results by visualizing the charge density difference.",
+            "timestamp": "00:00:34.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Materials Square 3.0 software interface",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Graphene structure",
+            "timestamp": {
+              "end_timestamp": "00:00:21.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Cobalt atom",
+            "timestamp": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "name": "Charge density difference visualization",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Scientific exploration, materials science, computational chemistry",
+        "timestamps": {
+          "end_timestamp": "00:00:54.200",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Building Graphene Structure and Analyzing Charge Density",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects used.",
+            "timestamps": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Segments that could be removed: Adding cobalt atom",
+            "timestamps": {
+              "end_timestamp": "00:00:13.000",
+              "start_timestamp": "00:00:10.000"
+            }
+          },
+          {
+            "description": "Segments that could be removed: Setting parameters",
+            "timestamps": {
+              "end_timestamp": "00:00:31.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The final charge density difference visualization is shown, revealing the interaction between cobalt and graphene.",
+        "timestamp": "00:00:48.000"
+      },
+      "description": "Visualization of Cobalt Adsorption on Graphene using Materials Square 3.0",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Materials Square 3.0 - Adsorption of Cobalt on Graphene: Charge Density Difference",
+    "trimmingSuggestions": [
+      {
+        "description": "This segment could be sped up as it doesn't add significant information.",
+        "timestamps": {
+          "end_timestamp": "00:00:13.000",
+          "start_timestamp": "00:00:10.000"
+        }
+      },
+      {
+        "description": "This segment could be sped up or shortened, focusing on the key parameters modified.",
+        "timestamps": {
+          "end_timestamp": "00:00:31.000",
+          "start_timestamp": "00:00:23.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 55,
+  "original_json_filename": "xMb8FntlK5M.json",
+  "original_video_filename": "xMb8FntlK5M.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Add Graphene unit cell at the 'Preset Structure'. Clone the cell sufficiently. Click mouse right button to popup Select window. Select atoms to determine where Cobalt be added. Add Cobalt at the 'Add atom' menu. Select the Cobalt atom and move vertically to graphene basal plane. Click 'x' key to see yz plane Add Quantum Espresso module Click 'Structure Builder' module to assign the model as a DFT calculation model. Setting input parameters with GUI. Put the Job name. Click 'Start Job!' to perform DFT calculation. Repeat calculation. Add 'Charge Density' module. Connect to the three Quantum Espresso modules. Click 'Diff' tab to display the Charge Density Difference. Set isovalue at the setting window.",
+  "text_to_speech_word_count": 114,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:02.000",
+      "start": "00:00:00.000",
+      "text": " you"
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:30.000",
+      "text": " you"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Materials Square",
+  "youtube_channel_follower_count": 2320,
+  "youtube_comment_count": 4,
+  "youtube_description": "Materials Square - www.materialssquare.com\n-\nAdsorption of Cobalt on Graphene:\nCharge Density Difference\n-\nMaterials Square is a web service that has implemented the experience of DFT/MD and high-performance computing experts in web-based user-friend working environment.\nYou can produce even complex structure easily through a user-friendly and 3D graphics interface for FREE.\nYou can directly check the calculation result on the web without complex post-processing.\nYou pay only when you perform computation. Pay-As-You-Go pricing policy.",
+  "youtube_like_count": 26,
+  "youtube_tags": [
+    "Materials Simulation",
+    "Materials Square",
+    "Quantum Espresso",
+    "Charge Density",
+    "Adsorption",
+    "3D modeling",
+    "Graphene",
+    "Cobalt",
+    "Metal",
+    "Semimetal",
+    "Molecule",
+    "Orbital",
+    "HOMO",
+    "LUMO",
+    "Atom",
+    "Sheet",
+    "2D material",
+    "Polarization"
+  ],
+  "youtube_title": "[Materials Square] Charge Density Difference with Quantum Espresso | not a tutorial",
+  "youtube_upload_date": "20190925",
+  "youtube_view_count": 4513
+}

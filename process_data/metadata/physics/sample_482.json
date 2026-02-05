@@ -1,0 +1,801 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young boy with brown hair, glasses, and a blue t-shirt. He is smiling and appears curious.",
+        "name": "Boy"
+      },
+      {
+        "characterId": "2",
+        "description": "A small, yellow robot with red accents and a single eye. It has a question mark in a thought bubble above its head.",
+        "name": "Robot"
+      }
+    ],
+    "description": "A video that explains the concept of electromagnetic induction through a series of scenes involving definitions, a hands-on demonstration, and an exploration of factors influencing the phenomenon.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The solenoid is constructed using copper wire.",
+        "question": "What type of material is used to make the solenoid?"
+      },
+      {
+        "answer": "The electronic device used is labeled \"evive\" and functions as a mini oscilloscope.",
+        "question": "What device is used to visualize the induced voltage?"
+      },
+      {
+        "answer": "Increasing the speed of the magnet results in a larger peak on the oscilloscope, indicating a greater induced voltage.",
+        "question": "How does the speed of the magnet affect the induced voltage?"
+      },
+      {
+        "answer": "A coil with more turns generates a larger peak, demonstrating that more turns increase the induced voltage.",
+        "question": "How does the number of turns in the coil affect the induced voltage?"
+      },
+      {
+        "answer": "The first peak is smaller because the magnet starts from a resting position. As it falls, gravity accelerates its speed, leading to a higher speed and a larger second peak.",
+        "question": "Why is the first peak on the graph smaller than the second when the magnet is dropped through the solenoid?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Boy looks at a book with a curious expression",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Boy",
+          "Robot"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Boy",
+              "Robot"
+            ],
+            "description": "The boy and robot are positioned as if engaged in a conversation. The boy appears to be asking a question about electricity."
+          }
+        ],
+        "contextualRelevance": "The scene sets the theme of curiosity and introduces the main topic of electromagnetic induction.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious - The boy's curious expression, the robot's question mark, and the animated background fading in all contribute to a sense of intrigue.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The boy's curiosity about how electricity is generated sets the stage for the topic of the video: electromagnetic induction.",
+            "timestamp": "00:00:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Book",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "pen",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "phone",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Robot",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Curiosity, learning, electricity",
+        "timestamps": {
+          "end_timestamp": "00:00:07.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Animated background fades in",
+            "timestamps": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene provides foundational information on magnetic fields, essential for understanding electromagnetic induction.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral:  The scene focuses on providing factual information about magnetic fields.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the concept of magnetic fields and explains their properties.",
+            "timestamp": "00:00:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated diagram of a bar magnet with magnetic field lines",
+            "timestamp": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:07.040"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Science, magnetism, forces",
+        "timestamps": {
+          "end_timestamp": "00:00:42.000",
+          "start_timestamp": "00:00:07.040"
+        },
+        "title": "What is a Magnetic Field?",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to white screen with text and diagram",
+            "timestamps": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:07.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Wrapping colored paper around a PVC pipe",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "description": "Winding copper coil around the pipe",
+            "timestamp": {
+              "end_timestamp": "00:01:21.000",
+              "start_timestamp": "00:01:11.000"
+            }
+          },
+          {
+            "description": "Connecting ends of the coil to a device",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:37.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Hands"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene demonstrates the practical aspects of building a solenoid, crucial for understanding the experiment.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral: The scene focuses on constructing a solenoid.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene demonstrates how to build a solenoid, which is used for the experiment.",
+            "timestamp": "00:01:37.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "PVC pipe",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "name": "colored paper",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          },
+          {
+            "name": "copper wire",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:11.000"
+            }
+          },
+          {
+            "name": "scissors",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          },
+          {
+            "name": "electronic device labeled \"evive\"",
+            "timestamp": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "name": "rubber band",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Hands-on learning, experimentation, construction",
+        "timestamps": {
+          "end_timestamp": "00:01:37.000",
+          "start_timestamp": "00:00:42.040"
+        },
+        "title": "What is a Solenoid?",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a green gridded background with hands assembling the solenoid.",
+            "timestamps": {
+              "end_timestamp": "00:01:37.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Connecting the solenoid to a device",
+            "timestamp": {
+              "end_timestamp": "00:01:39.000",
+              "start_timestamp": "00:01:37.040"
+            }
+          },
+          {
+            "description": "Selecting \"mini oscilloscope\" on the device",
+            "timestamp": {
+              "end_timestamp": "00:01:49.000",
+              "start_timestamp": "00:01:47.000"
+            }
+          },
+          {
+            "description": "Passing a magnet through the solenoid",
+            "timestamp": {
+              "end_timestamp": "00:02:03.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          },
+          {
+            "description": "Dropping the magnet through the solenoid with the south pole first",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:09.000"
+            }
+          },
+          {
+            "description": "Holding the magnet stationary",
+            "timestamp": {
+              "end_timestamp": "00:02:20.000",
+              "start_timestamp": "00:02:18.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Hands"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "This scene provides a direct demonstration of electromagnetic induction and its principles.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious - The introduction of the experiment and the observation of different graph patterns contribute to a sense of curiosity.",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual change when the magnet is passed through the solenoid, a peak appears on the graph creating visual intrigue.",
+              "timestamp": "00:02:04.000"
+            },
+            {
+              "changeDescription": "Visual change when the magnet is dropped through with the south pole first, the graph becomes reversed highlighting a change in the outcome.",
+              "timestamp": "00:02:14.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene presents the experiment demonstrating electromagnetic induction.",
+            "timestamp": "00:03:00.000"
+          },
+          {
+            "description": "The changing graph patterns illustrate how the movement of the magnet induces a voltage and generates current.",
+            "timestamp": "00:02:14.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Solenoid",
+            "timestamp": {
+              "end_timestamp": "00:03:00.000",
+              "start_timestamp": "00:01:37.040"
+            }
+          },
+          {
+            "name": "electronic device labeled \"evive\"",
+            "timestamp": {
+              "end_timestamp": "00:03:00.000",
+              "start_timestamp": "00:01:37.040"
+            }
+          },
+          {
+            "name": "magnet",
+            "timestamp": {
+              "end_timestamp": "00:03:00.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Experimentation, observation, scientific principles, Faraday's laws",
+        "timestamps": {
+          "end_timestamp": "00:03:00.000",
+          "start_timestamp": "00:01:37.040"
+        },
+        "title": "Experiment & Faraday's Laws",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a close-up of the device screen showing a flat graph.",
+            "timestamps": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          },
+          {
+            "description": "Suggested Removal: The segment where the hand is holding a red LED could be removed as it is not used in the experiment and creates confusion.",
+            "timestamps": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Showing solenoids with varying numbers of turns",
+            "timestamp": {
+              "end_timestamp": "00:03:28.000",
+              "start_timestamp": "00:03:24.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Hands"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene provides insight into the various factors that affect electromagnetic induction, key to understanding the breadth of the topic.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral: The scene focuses on explaining factors that influence electromagnetic induction.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene explores factors influencing electromagnetic induction, specifically the speed of the magnet and the number of turns in the coil.",
+            "timestamp": "00:03:36.600"
+          }
+        ],
+        "props": [
+          {
+            "name": "Three solenoids labeled \"100 Turns\",\"400 Turns\", and \"800 Turns\"",
+            "timestamp": {
+              "end_timestamp": "00:03:36.600",
+              "start_timestamp": "00:03:24.000"
+            }
+          },
+          {
+            "name": "electronic device labeled \"evive\"",
+            "timestamp": {
+              "end_timestamp": "00:03:36.600",
+              "start_timestamp": "00:03:24.000"
+            }
+          },
+          {
+            "name": "magnet",
+            "timestamp": {
+              "end_timestamp": "00:03:36.600",
+              "start_timestamp": "00:03:00.040"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Scientific variables, cause and effect, experimental design",
+        "timestamps": {
+          "end_timestamp": "00:03:36.600",
+          "start_timestamp": "00:03:00.040"
+        },
+        "title": "Factors Affecting the Change",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a screen with text outlining factors affecting electromagnetic induction. Then transition back to the green gridded background showing the three solenoids.",
+            "timestamps": {
+              "end_timestamp": "00:03:04.000",
+              "start_timestamp": "00:03:00.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Robot asks a question about the graph",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:03:37.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Robot"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Robot"
+            ],
+            "description": "The robot directly addresses the viewers, encouraging them to think critically about the experiment's results."
+          }
+        ],
+        "contextualRelevance": "The scene encourages viewers to engage with the content critically, fostering deeper understanding.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious: The robot's question encourages viewers to think further about the observed phenomenon.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The outro poses a final question about the differences in the peak sizes in the graph, prompting viewers to reflect on gravity's influence.",
+            "timestamp": "00:03:56.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Robot",
+            "timestamp": {
+              "end_timestamp": "00:03:56.000",
+              "start_timestamp": "00:03:37.000"
+            }
+          },
+          {
+            "name": "cropped image of the oscilloscope screen",
+            "timestamp": {
+              "end_timestamp": "00:03:56.000",
+              "start_timestamp": "00:03:37.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Curiosity, critical thinking, further exploration",
+        "timestamps": {
+          "end_timestamp": "00:03:56.280",
+          "start_timestamp": "00:03:36.640"
+        },
+        "title": "Outro",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a white screen with the robot and the cropped image of the oscilloscope. Then transition to an outro screen with subscription call to action.",
+            "timestamps": {
+              "end_timestamp": "00:03:56.000",
+              "start_timestamp": "00:03:37.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs when the magnet is moved through the solenoid, and the resulting voltage fluctuations are observed on the oscilloscope, visually demonstrating Faraday's Laws.",
+        "timestamp": "00:01:57.000"
+      },
+      "description": "This storyline encompasses all scenes, presenting a progressive explanation of the concept through definitions, a hands-on demonstration, and an exploration of factors influencing the phenomenon.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Understanding Electromagnetic Induction",
+    "trimmingSuggestions": [
+      {
+        "description": "Consider removing the segment with the red LED as it is not used and creates confusion.",
+        "timestamps": {
+          "end_timestamp": "00:03:36.640",
+          "start_timestamp": "00:03:36.640"
+        }
+      },
+      {
+        "description": "Consider accelerating the pacing of Scene 5 by editing down the narration while maintaining clarity.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 236,
+  "original_json_filename": "5kZgGMDqXz8.json",
+  "original_video_filename": "5kZgGMDqXz8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Have you ever wondered, how the electricity that powers up the lights and charges your phone is generated? Today we are going to learn about the underlying concept that lights of the entire world Electromagnetic Induction. Let's begin by understanding what is the magnetic field? Magnetic field is the area around a magnet in which there is a magnetic force, a force that attracts or repels magnetic objects. Have a look at this figure, crowded magnetic lines indicate a strong magnetic force in that area spread out magnetic lines indicate a weak magnetic force in the area. The direction of the magnetic field is always from north to south. Let's start by making a solenoid. A solenoid is a cylindrical coil that act as a magnet when current passes through it. Here we are using a PVC pipe and copper coil to make the solenoid. Wrap the colored paper around the PVC pipe. Once done wrap the copper coil around it. Connect the ends to evive's graph pin to close the circuit. Next select the mini oscilloscope from the menu. You will notice that the graph is flat. Now take a magnet and pass it through the solenoid. You will notice a peak on the TFT screen in a positive direction. Now try dropping the magnet so that the South Pole enters the solenoid first. You will notice that this time the graph is reversed. Now hold the magnet stationary, you will observe that no Peaks are generated. This indicates that the current is generated in the coil when the magnet moves through it. The relative motion between the coil and the magnet induces a voltage across the coil called the electromotive force, which in turn generates the current. The process of inducing an EMF in a closed circuit is called Electromagnetic Induction. This gives us Faraday's first law. Now let's have a look at Faraday's second law of electromagnetic induction. according to it the electro-motive force generated in the circuit changes with the change in flux linkage let's have a look at the factors that cause d change First, the speed of the magnet. We have placed the coil in the center of the pipe. Thus increasing its distance from the top. In this case, the speed of the magnet is more when it reaches the coil as compared to when the coil is at the top. You will notice the following changes. Here we have solenoids of 100 turns, 400 turns, and 800 turns respectively. You can compare the graph generated by the different solenoids. Thank you for watching. If you like this video go ahead and give it a thumbs up. For more of such engaging videos don't forget to subscribe to our Channel.",
+  "text_to_speech_word_count": 457,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.880",
+      "start": "00:00:00.000",
+      "text": " Have you ever wondered how the electricity that powers up the lights and charges your phone is generated?"
+    },
+    {
+      "end": "00:00:10.840",
+      "start": "00:00:06.280",
+      "text": " Today we are going to learn about the underlying concept that lights up the entire world"
+    },
+    {
+      "end": "00:00:13.360",
+      "start": "00:00:11.560",
+      "text": " electromagnetic induction"
+    },
+    {
+      "end": "00:00:16.800",
+      "start": "00:00:13.360",
+      "text": " Let's begin by understanding what is the magnetic field?"
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:17.640",
+      "text": " Magnetic field is the area around a magnet in which there is a magnetic force a force that attracts or repels magnetic optics"
+    },
+    {
+      "end": "00:00:28.520",
+      "start": "00:00:26.520",
+      "text": " How will look at this figure?"
+    },
+    {
+      "end": "00:00:32.440",
+      "start": "00:00:28.520",
+      "text": " Crowded magnetic lines indicate a strong magnetic force in that area"
+    },
+    {
+      "end": "00:00:37.040",
+      "start": "00:00:33.240",
+      "text": " Spread out magnetic lines indicate a weak magnetic force in the area"
+    },
+    {
+      "end": "00:00:41.800",
+      "start": "00:00:37.680",
+      "text": " The direction of the magnetic field is always from north to south"
+    },
+    {
+      "end": "00:00:44.440",
+      "start": "00:00:42.440",
+      "text": " Let's start by making a solenoid"
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:44.440",
+      "text": " A solenoid is a cylindrical coil that acts as a magnet when current passes through it"
+    },
+    {
+      "end": "00:00:54.080",
+      "start": "00:00:50.160",
+      "text": " Here we are using a PVC pipe and copper coil to make the solenoid"
+    },
+    {
+      "end": "00:00:59.040",
+      "start": "00:00:54.080",
+      "text": " Wrap the colored paper around the PVC pipe"
+    },
+    {
+      "end": "00:01:12.360",
+      "start": "00:01:09.720",
+      "text": " Once done, wrap the copper coil around it"
+    },
+    {
+      "end": "00:01:42.560",
+      "start": "00:01:24.800",
+      "text": " Connect the ends to a vif's graph pin to close the circuit"
+    },
+    {
+      "end": "00:01:49.840",
+      "start": "00:01:46.880",
+      "text": " Next, select the mini oscilloscope from the menu"
+    },
+    {
+      "end": "00:01:52.640",
+      "start": "00:01:50.560",
+      "text": " You will notice that the graph is flat"
+    },
+    {
+      "end": "00:02:00.080",
+      "start": "00:01:55.080",
+      "text": " Now take a magnet and pass it through the solenoid"
+    },
+    {
+      "end": "00:02:08.040",
+      "start": "00:02:04.080",
+      "text": " You will notice a peak on the DFD screen in a positive direction"
+    },
+    {
+      "end": "00:02:13.400",
+      "start": "00:02:09.040",
+      "text": " Now try dropping the magnet so that the south pole enters the solenoid first"
+    },
+    {
+      "end": "00:02:17.040",
+      "start": "00:02:14.040",
+      "text": " You will notice that this time the graph is reversed"
+    },
+    {
+      "end": "00:02:20.040",
+      "start": "00:02:18.040",
+      "text": " Now hold the magnet stationary"
+    },
+    {
+      "end": "00:02:23.040",
+      "start": "00:02:20.040",
+      "text": " You will observe that no peaks are generated"
+    },
+    {
+      "end": "00:02:28.080",
+      "start": "00:02:23.080",
+      "text": " This indicates that the current is generated in the coil when the magnet moves through it"
+    },
+    {
+      "end": "00:02:33.080",
+      "start": "00:02:28.080",
+      "text": " The relative motion between the coil and the magnet induces a voltage across the coil"
+    },
+    {
+      "end": "00:02:38.080",
+      "start": "00:02:34.080",
+      "text": " Called the electro-motor force which unturned generates the current"
+    },
+    {
+      "end": "00:02:44.080",
+      "start": "00:02:39.080",
+      "text": " The process of inducing an EMF in a closed circuit is called electromagnetic induction"
+    },
+    {
+      "end": "00:02:47.080",
+      "start": "00:02:45.080",
+      "text": " This gives us Faraday's first law"
+    },
+    {
+      "end": "00:02:52.080",
+      "start": "00:02:48.080",
+      "text": " Now let's have a look at Faraday's second law of electromagnetic induction"
+    },
+    {
+      "end": "00:03:00.080",
+      "start": "00:02:53.080",
+      "text": " According to it, the electro-motor force generated in the circuit changes with the change in flux linkage"
+    },
+    {
+      "end": "00:03:03.080",
+      "start": "00:03:01.080",
+      "text": " Let's have a look at the factors that caused the change"
+    },
+    {
+      "end": "00:03:06.080",
+      "start": "00:03:04.080",
+      "text": " First, the speed of the magnet"
+    },
+    {
+      "end": "00:03:09.080",
+      "start": "00:03:07.080",
+      "text": " We have placed the coil in the center of the pipe"
+    },
+    {
+      "end": "00:03:12.080",
+      "start": "00:03:10.080",
+      "text": " Thus increasing its distance from the top"
+    },
+    {
+      "end": "00:03:18.080",
+      "start": "00:03:13.080",
+      "text": " In this case, the speed of the magnet is more when it reaches the coil as compared to when the coil is at the top"
+    },
+    {
+      "end": "00:03:21.080",
+      "start": "00:03:19.080",
+      "text": " You will notice the following changes"
+    },
+    {
+      "end": "00:03:29.080",
+      "start": "00:03:23.080",
+      "text": " Here we have solenoids of 100 turns, 400 turns and 800 turns respectively"
+    },
+    {
+      "end": "00:03:33.080",
+      "start": "00:03:30.080",
+      "text": " You can compare the graph generated by the different solenoids"
+    },
+    {
+      "end": "00:03:43.080",
+      "start": "00:03:42.080",
+      "text": " Thank you for watching"
+    },
+    {
+      "end": "00:03:46.080",
+      "start": "00:03:43.080",
+      "text": " If you liked this video, go ahead and give it a thumbs up"
+    },
+    {
+      "end": "00:03:50.080",
+      "start": "00:03:46.080",
+      "text": " For more of such engaging videos, don't forget to subscribe to our channel"
+    },
+    {
+      "end": "00:03:56.080",
+      "start": "00:03:53.080",
+      "text": " Thank you for watching"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "STEMpedia",
+  "youtube_channel_follower_count": 20600,
+  "youtube_comment_count": 0,
+  "youtube_description": "Explore Faraday's and Lenz' law of electromagnetic induction and all the major concepts of electromagnetic theory by performing a science experiment using a coil and an evive- an Arduino embedded prototyping platform.\n\nPerform an experiment and learn all about the magnetic field, magnetic flux, electromagnetic induction, and induced emf.\n\n00:14 What is Magnetic Field?\n\n00:46 What is a Solenoid?\n\n02:25 What is Electromagnetic Induction?\n\n02:49 Understand Faraday's Second Law\n\nGet ready to be awed by the wonder that is electromagnetic induction!\nhttps://thestempedia.com/project/understanding-electromagnetic-induction/\n\nAbout STEMpedia:\n\nWith STEMpedia, turn your home into a project-making studio and create wonders every Wednesday! \n\nWhat do we have for you?\n\nDIY STEM kits for a learning-by-doing approach to build 21st-century skills and innovate the future:\nhttps://thestempedia.com/product/\n\nA vast treasury of endless learning resources to experience STEM the fun way: \nhttps://thestempedia.com/learn/\n\n100+ DIY project to make:\nhttps://thestempedia.com/project/\n\nSubscribe to bring STEMpedia to your doorstep!\n\nGet social with STEMpedia!\n\n@theSTEMpedia | #theSTEMpedia\n- Facebook: https://www.facebook.com/theSTEMpedia/\n- Instagram: https://www.instagram.com/theSTEMpedia/\n- Twitter: https://twitter.com/theSTEMpedia\n\nVisit us at: https://thestempedia.com\n\nMusic credit:\nTrack Name: Lakey Inspired - Memories With You\nFollow LAKEY INSPIRED\nFacebook: https://www.facebook.com/LAKEYINSPIRED\nSoundcloud: https://soundcloud.com/lakeyinspired\nInstagram: https://www.instagram.com/lakeyinspired/\n\n#ElectromagneticInduction #Faraday #Physics",
+  "youtube_like_count": 147,
+  "youtube_tags": [
+    "electromagnetic induction",
+    "lenz law",
+    "law of electromagnetic induction",
+    "faraday's law",
+    "faraday's law experiment",
+    "electromagnetic theory",
+    "induced emf",
+    "induced current",
+    "emf law",
+    "direction of induced current",
+    "principle of electromagnetic induction",
+    "faraday's law physics",
+    "faraday's law of induction",
+    "state faraday's law of electromagnetic induction",
+    "faraday's experiment on electromagnetic induction",
+    "electromagnetic induction experiment"
+  ],
+  "youtube_title": "Learn Faraday's Laws of Electromagnetic Induction | Science and Physics Experiments",
+  "youtube_upload_date": "20190326",
+  "youtube_view_count": 12014
+}

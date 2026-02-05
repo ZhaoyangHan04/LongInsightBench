@@ -1,0 +1,1241 @@
+{
+  "content_fine_category": "Astronomy",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male voice, off-screen. Provides explanation and demonstration.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial on reducing space noise in astro images using step-by-step Photoshop instructions and a free Photoshop action.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "It selectively darkens the darker areas of the image, where noise is most prominent, without significantly affecting the brighter areas and preserving detail.",
+        "question": "What is the primary benefit of using the 'Softlight' layer mode for noise reduction?"
+      },
+      {
+        "answer": "It ensures that the Median Filter and 'Softlight' effects are primarily applied to the darker areas of the image, protecting the brighter areas with celestial features from being blurred.",
+        "question": "How does the inverted mask help in the noise reduction process?"
+      },
+      {
+        "answer": "While a larger radius might be more effective at reducing noise, it can also lead to the loss of finer details in the image, particularly features smaller than the filter radius.",
+        "question": "What is the disadvantage of using a Median Filter with a larger radius?"
+      },
+      {
+        "answer": "Non-destructive actions allow for flexibility in adjusting the effects after they have been applied without altering the original image data, making it easier to fine-tune the noise reduction without compromising image quality.",
+        "question": "Why does the author recommend using a 'non-destructive' action in Photoshop?"
+      },
+      {
+        "answer": "The video likely explains how to reduce the overly bright appearance of saturated stars, which can be a common issue in astrophotography due to the long exposure times necessary to capture faint celestial objects.",
+        "question": "What specific detail is the author addressing in the linked video about fixing over-saturated stars?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explaining the space noise reduction process",
+            "timestamp": {
+              "end_timestamp": "00:00:39.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Solo explanation of the space noise reduction process"
+          }
+        ],
+        "contextualRelevance": "Sets the stage for the tutorial by introducing the problem and planned steps.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the problem and the objectives of the process.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Clarification of the problem: reducing noise in areas without celestial features.",
+            "timestamp": "00:00:06.000"
+          },
+          {
+            "description": "Outline of the video structure, promising a demonstration and a free automation tool.",
+            "timestamp": "00:00:13.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Introduction to the problem of space noise and overview of the solution.",
+        "timestamps": {
+          "end_timestamp": "00:00:40.480",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining the challenges of space noise",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:40.520"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Solo explanation of space noise considerations"
+          }
+        ],
+        "contextualRelevance": "Establishes the importance of noise reduction techniques for astrophotography.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Space noise is explained, particularly its prominence in dark areas due to low signal-to-noise ratio.",
+            "timestamp": "00:00:40.520"
+          },
+          {
+            "description": "Desired outcome: reduce noise in dark areas without affecting brighter parts and preserving detail.",
+            "timestamp": "00:00:57.000"
+          },
+          {
+            "description": "Transition to the next section: understanding underlying techniques.",
+            "timestamp": "00:01:08.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides with text and a noisy image",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:00:40.520"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Explanation of space noise challenges and desired outcomes.",
+        "timestamps": {
+          "end_timestamp": "00:01:15.800",
+          "start_timestamp": "00:00:40.520"
+        },
+        "title": "Objective & Considerations",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining Layer Modes and their impact",
+            "timestamp": {
+              "end_timestamp": "00:02:01.000",
+              "start_timestamp": "00:01:15.840"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Solo explanation of different Layer Modes"
+          }
+        ],
+        "contextualRelevance": "Provides foundational understanding necessary for applying noise reduction techniques.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of Layer Modes: multiple layers in images, default 'Normal' mode, and how layers interact.",
+            "timestamp": "00:01:15.840"
+          },
+          {
+            "description": "Exploring 'Darken' and 'Lighten' layer modes and their specific effects.",
+            "timestamp": "00:01:28.000"
+          },
+          {
+            "description": "Introducing 'Softlight' as the desired layer mode and transitioning to its explanation.",
+            "timestamp": "00:01:45.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slides with diagrams illustrating Normal, Darken, Lighten layer modes",
+            "timestamp": {
+              "end_timestamp": "00:02:01.000",
+              "start_timestamp": "00:01:15.840"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Detailed insights into Photoshop layer modes and how they can be used for noise reduction.",
+        "timestamps": {
+          "end_timestamp": "00:02:01.000",
+          "start_timestamp": "00:01:15.840"
+        },
+        "title": "Understanding Layer Modes",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Deep dive into the 'Softlight' layer mode",
+            "timestamp": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:02:01.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Solo explanation of Softlight Layer Mode"
+          }
+        ],
+        "contextualRelevance": "Crucial for understanding how the 'Softlight' layer impacts noise reduction.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Confused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Simplifying the graph to focus on the key elements: horizontal axis (lower layer pixel color), vertical axis (resultant pixel color), and a line representing mid-gray pixel value.",
+            "timestamp": "00:02:01.040"
+          },
+          {
+            "description": "The line color denotes the upper layer pixel color, focusing on mid-gray as a neutral point between black and white.",
+            "timestamp": "00:02:11.000"
+          },
+          {
+            "description": "Detailed explanation of how 'Softlight' affects pixel values based on their position relative to mid-gray.",
+            "timestamp": "00:02:24.000"
+          },
+          {
+            "description": "Exploring the effect of black and white upper layer pixels and the impact on different grayscales.",
+            "timestamp": "00:02:53.000"
+          },
+          {
+            "description": "Adding more grays to the graph for a comprehensive understanding of 'Softlight' behavior.",
+            "timestamp": "00:03:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Graph illustrating the effects of 'Softlight' layer mode",
+            "timestamp": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:02:01.040"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "In-depth exploration of the 'Softlight' layer mode and its functionality.",
+        "timestamps": {
+          "end_timestamp": "00:03:58.000",
+          "start_timestamp": "00:02:01.040"
+        },
+        "title": "Softlight Layer Mode",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining Masks and their role in image manipulation",
+            "timestamp": {
+              "end_timestamp": "00:04:44.000",
+              "start_timestamp": "00:03:58.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Solo explanation of using masks in Photoshop"
+          }
+        ],
+        "contextualRelevance": "Explains how masks work, allowing for selective noise reduction in images.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explaining the purpose of masks: selective application of layer effects at the pixel level.",
+            "timestamp": "00:03:58.040"
+          },
+          {
+            "description": "Exploring the effect of black (transparent) and white (full effect) mask pixels on the underlying image.",
+            "timestamp": "00:04:15.000"
+          },
+          {
+            "description": "Comparing mask functionality to the opacity slider, emphasizing pixel-level control.",
+            "timestamp": "00:04:30.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram illustrating how masks affect the image based on transparency",
+            "timestamp": {
+              "end_timestamp": "00:04:44.000",
+              "start_timestamp": "00:03:58.040"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Introduction to the concept of masks for selective image editing.",
+        "timestamps": {
+          "end_timestamp": "00:04:44.000",
+          "start_timestamp": "00:03:58.040"
+        },
+        "title": "Understanding Masks",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining Median Pass Filters and their function",
+            "timestamp": {
+              "end_timestamp": "00:05:10.000",
+              "start_timestamp": "00:04:44.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Solo explanation of the Median Filter"
+          }
+        ],
+        "contextualRelevance": "Describes how Median Filters work, detailing their effectiveness and limitations.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explaining the Median Filter: calculating the median pixel value within a specified radius.",
+            "timestamp": "00:04:44.040"
+          },
+          {
+            "description": "Median Filters effectiveness in reducing noise at the expense of detail, particularly features smaller than the filter radius.",
+            "timestamp": "00:04:58.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images demonstrating the effect of a Median Filter with different radii",
+            "timestamp": {
+              "end_timestamp": "00:05:10.000",
+              "start_timestamp": "00:04:44.040"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Introduction to Median Filters as a tool for noise reduction in images.",
+        "timestamps": {
+          "end_timestamp": "00:05:10.280",
+          "start_timestamp": "00:04:44.040"
+        },
+        "title": "Median Pass Filters",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Outlining and demonstrating the space noise reduction process in Photoshop",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:05:10.320"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator demonstrates the noise reduction process in Photoshop"
+          }
+        ],
+        "contextualRelevance": "This scene conveys the practical application of learned techniques to reduce space noise.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Duplicate the image layer.",
+            "timestamp": "00:05:10.320"
+          },
+          {
+            "description": "Create an inverted mask for the new layer to protect brighter areas.",
+            "timestamp": "00:05:24.000"
+          },
+          {
+            "description": "Apply a Median Filter to the duplicated layer to reduce noise.",
+            "timestamp": "00:05:40.000"
+          },
+          {
+            "description": "Change layer mode to 'Softlight' for a refined result and showcase before & after examples.",
+            "timestamp": "00:06:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images and Photoshop application interface",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:05:10.320"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Step-by-step demonstration of the noise reduction process using Photoshop tools.",
+        "timestamps": {
+          "end_timestamp": "00:06:48.000",
+          "start_timestamp": "00:05:10.320"
+        },
+        "title": "Process for Reducing Sky Noise",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstrating the free Photoshop Action",
+            "timestamp": {
+              "end_timestamp": "00:10:06.000",
+              "start_timestamp": "00:06:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Demonstration of the Photoshop action"
+          }
+        ],
+        "contextualRelevance": "Highlights an automated method for reducing space noise efficiently using a provided action.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Briefly revisiting the manual process for comparison.",
+            "timestamp": "00:06:49.000"
+          },
+          {
+            "description": "Loading and applying the free 'Space Noise Main' action, showing its non-destructive nature and the ability to fine-tune the effect.",
+            "timestamp": "00:08:41.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Photoshop application interface",
+            "timestamp": {
+              "end_timestamp": "00:10:06.000",
+              "start_timestamp": "00:06:49.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Introduction and demonstration of a free automation tool for space noise reduction.",
+        "timestamps": {
+          "end_timestamp": "00:10:06.000",
+          "start_timestamp": "00:06:48.040"
+        },
+        "title": "Photoshop Action Demonstration",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Thanking the viewers and encouraging subscription",
+            "timestamp": {
+              "end_timestamp": "00:10:21.000",
+              "start_timestamp": "00:10:06.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator concludes the video and invites viewers to subscribe"
+          }
+        ],
+        "contextualRelevance": "Generates viewer engagement by expressing gratitude and inviting subscriptions.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Positive - Grateful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Ending the video.",
+            "timestamp": "00:10:06.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image with text 'Thanks for watching! Don't forget to subscribe!'",
+            "timestamp": {
+              "end_timestamp": "00:10:21.000",
+              "start_timestamp": "00:10:06.040"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Expressing gratitude and encouraging viewer engagement.",
+        "timestamps": {
+          "end_timestamp": "00:10:22.200",
+          "start_timestamp": "00:10:06.040"
+        },
+        "title": "Outro",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Climax of the tutorial when the 'Softlight' layer mode is applied, revealing the final refined result.",
+        "timestamp": "00:06:10.000"
+      },
+      "description": "Space noise reduction tutorial using Photoshop",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "How to Reduce Space Noise in Astronomical Images Using Photoshop",
+    "trimmingSuggestions": [
+      {
+        "description": "Scene 4 (Softlight Layer Mode): Some parts of the detailed graph explanation could be condensed to avoid redundancy.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "Scene 8 (Photoshop Action Demonstration): The initial recap of the manual process could be shortened, as it was already covered extensively in Scene 7.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 622,
+  "original_json_filename": "AnRa4_ukBp0.json",
+  "original_video_filename": "AnRa4_ukBp0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "this is the process that i use to reduce space noise by this i mean reduce the noise in the parts of your image that don't contain features such as stars and nebulae i'll introduce the problem discuss the components we need to improve our images and then we'll assemble the components into a process in this way i hope that you'll better understand what is happening at each step in the process i will then demo the process in photoshop and then finally i'll demo my free astro action that automates the process so that you don't have to remember it space noise is associated with the darker parts of the image this is because the signal is very low and the noise in an image is generally the same level across the whole image and therefore the signal-to-noise ratio in the darker parts of the image are very low our process needs to reduce the noise in the darker parts of the image without affecting the brighter parts and we need to ensure that we preserve the details now we understand what we want to do let's look at some of the underlying techniques we'll need our images can have multiple layers how those layers interact depends on the layer mode the default layer mode is called normal this replaces the layer below with the layer on top layer modes change how the layer interacts with the layers below for example darken allows darker pixels from layers below to pass through the layer and lighten does the opposite allowing lighter areas of the image to pass through the layer the layer mode we're going to use is called soft light and it requires a bit of explanation it's supposed to mimic soft lighting conditions so let's delve into what this layer mode does as it plays an important part in our process first let's simplify the graph the horizontal axis indicates the color of the pixel in the lower layer the color of the line indicates the color of the corresponding pixel in the upper layer here i'm only showing a line for mid gray this is the midpoint between black and white the vertical axis represents the colour of the corresponding pixel when soft light is used so if we have a mid gray pixel in the upper layer we can read the graph to find the corresponding result and you can see from this if the upper layer is mid gray that the soft light mode has no effect on the final image each color in the lower layer translates to the same color in the resultant image now let's consider what happens if the upper layer pixel is black if the lower layer pixel is black the resultant pixel remains black and the same applies if the lower layer is white the result is also white but in between you can see that the result is always darker than the underlying layer you might also notice that dark colours are darkened more than the lighter colours we see the opposite effect when the upper layer is white the colour of the lower layer is brightened but the effect is still larger for pixels that are darker in the lower layer adding some intermediate grays into the graph we can see that overall if the upper layer is darker than mid gray the result is a darker image if it is lighter than mid gray the result is a lighter image and that the effect is more most prominent when the lower layer pixels are dark we'll look at how we can apply this later in the video now let us quickly discuss masks without masks the whole layer will be affected by the layer mode masks allow us to define at a pixel level which pixels will be affected by the mask if the mask pixel is black the corresponding pixel is completely transparent so the underlying pixel is shown unaffected if the mask pixel is white the layer mode has the full effect on the corresponding pixel and all shades of grey in between effectively change the transparency masks therefore work a little bit like the opacity slider but on an individual pixel level the final thing we need to understand is the median filter the median filter takes the median of the pixels in a specified radius around a target pixel and replaces the target pixel with that value medium filters are good at reducing noise but at the expense of losing detail generally medium filters will remove details smaller than the radius of the filter okay so that's all the components of the space noise filter let's look at how we combine these layer effects masks and filters to reduce space noise first we duplicate our image as a new layer we then create a mask for the new layer using an inverse of the image remember the darker the mask the less impact the layer mode will have on the resultant image so by using an inverse of the image we are protecting the brighter parts of the image incidentally masks can be edited just like images so you can edit the mask to make the layer more or less transparent or to enhance or reduce specific parts of the image however we don't need to do this for our space noise filter we now apply a medium blur on the new layer but not the mask you can see that this reduces the noise significantly but it is not selective and our faint galaxy has also been unacceptably blurred now we change the layer mode to soft light the darks are darkened and the blurred image works as a map to smooth the effect whilst the mask protects the galaxy here are some before and after shots this is an image of a supernova in ngc 3643 click the in video link to watch a video on how i fixed the oval stars in this image this is m1 the crab nebula which is a supernova remnant and here's a colour image of the eskimo nebula now i'll demonstrate the process in photoshop is an image of the heart and soul nebula first thing we're going to do duplicate the layer create a mask for the layer i'm just going to select all copy ctrl c go to the mask paste now going to invert the mask layer mode to soft light and that's the result so that's of light soft light it makes it a lot more punchy then just how much the effect you want but turn the opacity of the layer together okay let me delete this layer show you how my space noise button read the instructions almost all of my extra actions are non-destructive so i don't always create these layers they always act on the layer you've got selected and i always create a history snapshot these things just make them a little bit easier to use to recover from if you don't like the results now i can still adjust the level of the effect slide out to get it how i like it off see what differences you can download the action from the link in the description then from inside photoshop select the load actions option from the actions menu and you'll be able to install it thanks for watching if you enjoyed this video please click the thumbs up if you'd like to see more videos like this please click subscribe i'll see you in the next video",
+  "text_to_speech_word_count": 1268,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.320",
+      "start": "00:00:00.000",
+      "text": " This is the process that I use to reduce space noise."
+    },
+    {
+      "end": "00:00:10.200",
+      "start": "00:00:06.320",
+      "text": " By this I mean reduce the noise in the parts of your image that don't contain features"
+    },
+    {
+      "end": "00:00:14.120",
+      "start": "00:00:10.200",
+      "text": " such as stars and nebulae."
+    },
+    {
+      "end": "00:00:20.040",
+      "start": "00:00:14.120",
+      "text": " I'll introduce the problem, discuss the components we need to improve our images, and then we'll"
+    },
+    {
+      "end": "00:00:23.160",
+      "start": "00:00:20.040",
+      "text": " assemble the components into a process."
+    },
+    {
+      "end": "00:00:28.920",
+      "start": "00:00:23.160",
+      "text": " In this way I hope that you'll better understand what is happening at each step in the process."
+    },
+    {
+      "end": "00:00:33.480",
+      "start": "00:00:28.920",
+      "text": " I will then demo the process in Photoshop and then finally I'll demo my free astro"
+    },
+    {
+      "end": "00:00:40.760",
+      "start": "00:00:33.480",
+      "text": " action that automates the process so that you don't have to remember it."
+    },
+    {
+      "end": "00:00:44.400",
+      "start": "00:00:40.760",
+      "text": " Space noise is associated with the darker parts of the image."
+    },
+    {
+      "end": "00:00:48.720",
+      "start": "00:00:44.400",
+      "text": " This is because the signal is very low and the noise in an image is generally the same level"
+    },
+    {
+      "end": "00:00:50.800",
+      "start": "00:00:48.720",
+      "text": " across the whole image."
+    },
+    {
+      "end": "00:00:58.000",
+      "start": "00:00:50.800",
+      "text": " And therefore the signal to noise ratio in the darker parts of the image are very low."
+    },
+    {
+      "end": "00:01:02.520",
+      "start": "00:00:58.000",
+      "text": " Our process needs to reduce the noise in the darker parts of the image without affecting"
+    },
+    {
+      "end": "00:01:04.560",
+      "start": "00:01:02.520",
+      "text": " the brighter parts."
+    },
+    {
+      "end": "00:01:09.160",
+      "start": "00:01:04.560",
+      "text": " And we need to ensure that we preserve the details."
+    },
+    {
+      "end": "00:01:11.720",
+      "start": "00:01:09.160",
+      "text": " Now we understand what we want to do."
+    },
+    {
+      "end": "00:01:15.560",
+      "start": "00:01:11.720",
+      "text": " Let's look at some of the underlying techniques we'll need."
+    },
+    {
+      "end": "00:01:18.120",
+      "start": "00:01:15.560",
+      "text": " Our images can have multiple layers."
+    },
+    {
+      "end": "00:01:22.200",
+      "start": "00:01:18.120",
+      "text": " How those layers interact depends on the layer mode."
+    },
+    {
+      "end": "00:01:24.240",
+      "start": "00:01:22.200",
+      "text": " The default layer mode is called normal."
+    },
+    {
+      "end": "00:01:28.960",
+      "start": "00:01:24.240",
+      "text": " This replaces the layer below with the layer on top."
+    },
+    {
+      "end": "00:01:32.760",
+      "start": "00:01:28.960",
+      "text": " Layer modes change how the layer interacts with the layers below."
+    },
+    {
+      "end": "00:01:39.560",
+      "start": "00:01:32.760",
+      "text": " For example, darker and allows darker pixels from layers below to pass through the layer."
+    },
+    {
+      "end": "00:01:47.080",
+      "start": "00:01:39.560",
+      "text": " And lighten does the opposite, allowing lighter areas of the image to pass through the layer."
+    },
+    {
+      "end": "00:01:53.000",
+      "start": "00:01:47.080",
+      "text": " The layer mode we're going to use is called soft light and it requires a bit of explanation."
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:53.000",
+      "text": " It's supposed to mimic soft lighting conditions."
+    },
+    {
+      "end": "00:02:03.160",
+      "start": "00:01:56.000",
+      "text": " So let's delve into what this layer mode does as it plays an important part in our process."
+    },
+    {
+      "end": "00:02:05.040",
+      "start": "00:02:03.160",
+      "text": " First let's simplify the graph."
+    },
+    {
+      "end": "00:02:12.360",
+      "start": "00:02:05.040",
+      "text": " The horizontal axis indicates the colour of the pixel in the lower layer."
+    },
+    {
+      "end": "00:02:18.080",
+      "start": "00:02:12.360",
+      "text": " The colour of the line indicates the colour of the corresponding pixel in the upper layer."
+    },
+    {
+      "end": "00:02:20.760",
+      "start": "00:02:18.080",
+      "text": " Here I'm only showing a line for mid-gray."
+    },
+    {
+      "end": "00:02:24.880",
+      "start": "00:02:20.760",
+      "text": " This is the midpoint between black and white."
+    },
+    {
+      "end": "00:02:32.640",
+      "start": "00:02:24.880",
+      "text": " The vertical axis represents the colour of the corresponding pixel when soft light is used."
+    },
+    {
+      "end": "00:02:38.760",
+      "start": "00:02:32.640",
+      "text": " So if we have a mid-gray pixel in the upper layer, we can read the graph to find the corresponding"
+    },
+    {
+      "end": "00:02:41.040",
+      "start": "00:02:38.760",
+      "text": " result."
+    },
+    {
+      "end": "00:02:45.920",
+      "start": "00:02:41.040",
+      "text": " And you can see from this, if the upper layer is mid-gray, that the soft light mode has"
+    },
+    {
+      "end": "00:02:51.200",
+      "start": "00:02:45.960",
+      "text": " no effect on the final image, each colour in the lower layer translates to the same colour"
+    },
+    {
+      "end": "00:02:54.280",
+      "start": "00:02:51.200",
+      "text": " in the resultant image."
+    },
+    {
+      "end": "00:03:00.240",
+      "start": "00:02:54.280",
+      "text": " Now let's consider what happens if the upper layer pixel is black."
+    },
+    {
+      "end": "00:03:06.480",
+      "start": "00:03:00.240",
+      "text": " If the lower layer pixel is black, the resultant pixel remains black."
+    },
+    {
+      "end": "00:03:09.280",
+      "start": "00:03:06.480",
+      "text": " And the same applies if the lower layer is white."
+    },
+    {
+      "end": "00:03:12.120",
+      "start": "00:03:09.280",
+      "text": " The result is also white."
+    },
+    {
+      "end": "00:03:17.120",
+      "start": "00:03:12.160",
+      "text": " But in between you can see that the result is always darker than the underlying layer."
+    },
+    {
+      "end": "00:03:22.720",
+      "start": "00:03:17.120",
+      "text": " You might also notice that dark colours are darkened more than the lighter colours."
+    },
+    {
+      "end": "00:03:26.400",
+      "start": "00:03:22.720",
+      "text": " We see the opposite effect when the upper layer is white."
+    },
+    {
+      "end": "00:03:32.160",
+      "start": "00:03:26.400",
+      "text": " The colour of the lower layer is brightened, but the effect is still larger for pixels"
+    },
+    {
+      "end": "00:03:35.960",
+      "start": "00:03:32.160",
+      "text": " that are darker in the lower layer."
+    },
+    {
+      "end": "00:03:41.280",
+      "start": "00:03:35.960",
+      "text": " Adding some intermediate grays into the graph, we can see that overall if the upper layer"
+    },
+    {
+      "end": "00:03:46.080",
+      "start": "00:03:41.280",
+      "text": " is darker than mid-gray, the result is a darker image."
+    },
+    {
+      "end": "00:03:51.000",
+      "start": "00:03:46.080",
+      "text": " If it is lighter than mid-gray, the result is a lighter image."
+    },
+    {
+      "end": "00:03:56.360",
+      "start": "00:03:51.000",
+      "text": " And that the effect is most prominent when the lower layer pixels are dark."
+    },
+    {
+      "end": "00:04:01.280",
+      "start": "00:03:56.360",
+      "text": " We'll look at how we can apply this later in the video."
+    },
+    {
+      "end": "00:04:04.480",
+      "start": "00:04:01.280",
+      "text": " Now let us quickly discuss masks."
+    },
+    {
+      "end": "00:04:08.640",
+      "start": "00:04:04.480",
+      "text": " Without masks, the whole layer would be affected by the layer mode."
+    },
+    {
+      "end": "00:04:14.880",
+      "start": "00:04:08.640",
+      "text": " masks allow us to define at a pixel level which pixels would be affected by the mask."
+    },
+    {
+      "end": "00:04:19.680",
+      "start": "00:04:14.880",
+      "text": " If the mask pixel is black, the corresponding pixel is completely transparent."
+    },
+    {
+      "end": "00:04:22.800",
+      "start": "00:04:19.680",
+      "text": " So the underlying pixel is shown unaffected."
+    },
+    {
+      "end": "00:04:31.080",
+      "start": "00:04:22.800",
+      "text": " If the mask pixel is white, the layer mode has the full effect on the corresponding pixel."
+    },
+    {
+      "end": "00:04:36.120",
+      "start": "00:04:31.080",
+      "text": " And all shades of grey in between effectively change the transparency."
+    },
+    {
+      "end": "00:04:42.760",
+      "start": "00:04:36.160",
+      "text": " That's therefore work a little bit like the opacity slider, but on an individual pixel"
+    },
+    {
+      "end": "00:04:45.680",
+      "start": "00:04:42.760",
+      "text": " level."
+    },
+    {
+      "end": "00:04:49.360",
+      "start": "00:04:45.680",
+      "text": " The final thing we need to understand is the median filter."
+    },
+    {
+      "end": "00:04:54.000",
+      "start": "00:04:49.360",
+      "text": " The median filter takes the median of the pixels in a specified radius around a target"
+    },
+    {
+      "end": "00:04:58.960",
+      "start": "00:04:54.000",
+      "text": " pixel and replaces the target pixel with that value."
+    },
+    {
+      "end": "00:05:03.240",
+      "start": "00:04:58.960",
+      "text": " Medium filters are good at reducing noise but at the expense of losing detail."
+    },
+    {
+      "end": "00:05:10.240",
+      "start": "00:05:03.560",
+      "text": " Generally, medium filters will remove detail smaller than the radius of the filter."
+    },
+    {
+      "end": "00:05:14.240",
+      "start": "00:05:10.240",
+      "text": " Okay, so that's all the components of the space noise filter."
+    },
+    {
+      "end": "00:05:20.840",
+      "start": "00:05:14.240",
+      "text": " Let's look at how we combine these layer effects, masks and filters to reduce space noise."
+    },
+    {
+      "end": "00:05:25.240",
+      "start": "00:05:20.840",
+      "text": " First, we duplicate our image as a new layer."
+    },
+    {
+      "end": "00:05:30.920",
+      "start": "00:05:25.240",
+      "text": " We then create a mask for the new layer using an inverse of the image."
+    },
+    {
+      "end": "00:05:35.760",
+      "start": "00:05:30.920",
+      "text": " Remember the darker the mask, the less impact the layer mode will have on the resultant"
+    },
+    {
+      "end": "00:05:36.760",
+      "start": "00:05:35.760",
+      "text": " image."
+    },
+    {
+      "end": "00:05:42.360",
+      "start": "00:05:36.760",
+      "text": " So by using an inverse of the image, we are protecting the brighter parts of the image."
+    },
+    {
+      "end": "00:05:48.080",
+      "start": "00:05:42.360",
+      "text": " Incidentally, masks can be edited just like images, so you can edit the mask to make the"
+    },
+    {
+      "end": "00:05:53.840",
+      "start": "00:05:48.080",
+      "text": " layer more or less transparent or to enhance or reduce specific parts of the image."
+    },
+    {
+      "end": "00:05:58.360",
+      "start": "00:05:53.840",
+      "text": " However, we don't need to do this for our space noise filter."
+    },
+    {
+      "end": "00:06:02.320",
+      "start": "00:05:58.360",
+      "text": " We now apply a medium blur on the new layer but not the mask."
+    },
+    {
+      "end": "00:06:08.000",
+      "start": "00:06:02.320",
+      "text": " You can see that this reduces the noise significantly but it is not selective and our faint galaxy"
+    },
+    {
+      "end": "00:06:11.040",
+      "start": "00:06:08.000",
+      "text": " has also been unacceptably blurred."
+    },
+    {
+      "end": "00:06:13.680",
+      "start": "00:06:11.040",
+      "text": " Now we change the layer mode to soft light."
+    },
+    {
+      "end": "00:06:19.520",
+      "start": "00:06:13.680",
+      "text": " The darks are darkened and the blurred image works as a map to smooth the effect, whilst"
+    },
+    {
+      "end": "00:06:23.400",
+      "start": "00:06:19.520",
+      "text": " the mask protects the galaxy."
+    },
+    {
+      "end": "00:06:25.920",
+      "start": "00:06:23.400",
+      "text": " Here are some before and after shots."
+    },
+    {
+      "end": "00:06:31.480",
+      "start": "00:06:25.920",
+      "text": " Here is an image of a supernova in NGC3643."
+    },
+    {
+      "end": "00:06:38.400",
+      "start": "00:06:31.480",
+      "text": " Click the in video link to watch a video on how I fix the oval stars in this image."
+    },
+    {
+      "end": "00:06:45.000",
+      "start": "00:06:38.400",
+      "text": " This is M1, the crab nebula, which is a supernova remnant."
+    },
+    {
+      "end": "00:06:50.360",
+      "start": "00:06:45.000",
+      "text": " And here is a colour image of the Eskimo nebula."
+    },
+    {
+      "end": "00:06:53.560",
+      "start": "00:06:50.360",
+      "text": " Now I will demonstrate the process in Photoshop."
+    },
+    {
+      "end": "00:06:57.560",
+      "start": "00:06:53.560",
+      "text": " Here is an image of the heart and soul maybe a little."
+    },
+    {
+      "end": "00:07:03.560",
+      "start": "00:06:57.560",
+      "text": " The first thing we are going to do is duplicate the layer."
+    },
+    {
+      "end": "00:07:10.560",
+      "start": "00:07:03.560",
+      "text": " I create a mask for the layer."
+    },
+    {
+      "end": "00:07:26.560",
+      "start": "00:07:10.560",
+      "text": " I will select all the copy and the copy and go to the mask."
+    },
+    {
+      "end": "00:07:34.560",
+      "start": "00:07:26.560",
+      "text": " Now I will go to the mask and go to the mask."
+    },
+    {
+      "end": "00:07:44.560",
+      "start": "00:07:34.560",
+      "text": " I will go to the mask and go to the mask and go to the mask."
+    },
+    {
+      "end": "00:07:54.560",
+      "start": "00:07:45.560",
+      "text": " I will go to the mask and go to the mask and go to the mask."
+    },
+    {
+      "end": "00:08:06.560",
+      "start": "00:07:55.560",
+      "text": " Now I will check the layer mode to soft light."
+    },
+    {
+      "end": "00:08:09.560",
+      "start": "00:08:06.560",
+      "text": " And that is the result."
+    },
+    {
+      "end": "00:08:19.560",
+      "start": "00:08:09.560",
+      "text": " So that soft light and soft light makes it a lot more punchy."
+    },
+    {
+      "end": "00:08:24.560",
+      "start": "00:08:20.560",
+      "text": " And then just how much of the effect you want."
+    },
+    {
+      "end": "00:08:30.560",
+      "start": "00:08:24.560",
+      "text": " I will turn the opacity of the layer to the mask."
+    },
+    {
+      "end": "00:08:37.520",
+      "start": "00:08:30.560",
+      "text": " Now I will go to the mask and go to the mask and go to the mask."
+    },
+    {
+      "end": "00:08:47.520",
+      "start": "00:08:38.520",
+      "text": " I will go to the mask and go to the mask and go to the mask."
+    },
+    {
+      "end": "00:08:55.520",
+      "start": "00:08:47.520",
+      "text": " I will go to the mask and go to the mask and go to the mask."
+    },
+    {
+      "end": "00:09:02.520",
+      "start": "00:08:55.520",
+      "text": " I will go to the mask and go to the mask and go to the mask."
+    },
+    {
+      "end": "00:09:10.520",
+      "start": "00:09:03.520",
+      "text": " I will suggest you to try to look how they look."
+    },
+    {
+      "end": "00:09:19.520",
+      "start": "00:09:10.520",
+      "text": "DRSA's important."
+    },
+    {
+      "end": "00:09:23.520",
+      "start": "00:09:19.520",
+      "text": " A little bit easier to recover from."
+    },
+    {
+      "end": "00:09:25.520",
+      "start": "00:09:23.520",
+      "text": " continue"
+    },
+    {
+      "end": "00:09:29.240",
+      "start": "00:09:27.240",
+      "text": " Done"
+    },
+    {
+      "end": "00:09:38.520",
+      "start": "00:09:33.520",
+      "text": " Now I can still adjust the level of the effect"
+    },
+    {
+      "end": "00:09:42.280",
+      "start": "00:09:40.280",
+      "text": " If I don't get it out of like it"
+    },
+    {
+      "end": "00:09:45.000",
+      "start": "00:09:43.000",
+      "text": " It's all done off"
+    },
+    {
+      "end": "00:09:47.520",
+      "start": "00:09:45.520",
+      "text": " Six different days"
+    },
+    {
+      "end": "00:09:51.040",
+      "start": "00:09:49.040",
+      "text": " It's at easy"
+    },
+    {
+      "end": "00:09:56.520",
+      "start": "00:09:53.520",
+      "text": " You can download the action from the link in the description"
+    },
+    {
+      "end": "00:09:59.520",
+      "start": "00:09:57.520",
+      "text": " Then from inside Photoshop"
+    },
+    {
+      "end": "00:10:03.520",
+      "start": "00:09:59.520",
+      "text": " Select the load actions option from the actions menu"
+    },
+    {
+      "end": "00:10:05.520",
+      "start": "00:10:03.520",
+      "text": " And you'll be able to install it"
+    },
+    {
+      "end": "00:10:09.520",
+      "start": "00:10:08.520",
+      "text": " Thanks for watching"
+    },
+    {
+      "end": "00:10:12.520",
+      "start": "00:10:09.520",
+      "text": " If you enjoyed this video please click the thumbs up"
+    },
+    {
+      "end": "00:10:15.520",
+      "start": "00:10:12.520",
+      "text": " If you'd like to see more videos like this please click subscribe"
+    },
+    {
+      "end": "00:10:17.520",
+      "start": "00:10:15.520",
+      "text": " I'll see you in the next video"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "SimonTelescopium",
+  "youtube_channel_follower_count": 124,
+  "youtube_comment_count": 4,
+  "youtube_description": "Find out how to reduce noise in the dark areas of your astro images.\nI use this process on every Astro Image - you should too!.\n\nIn this video I will take you through a process that will reduce noise in the darker parts of your astro-images, that I call 'space noise'. I'll take you through each step explaining the process, and will then demo it in photoshop - although the process is equally valid in GIMP, I'll then demo my free photoshop action for reducing space noice and tell you how to get it.\n\n\nLink to free Photoshop Astronom Actions https://drive.google.com/drive/folders/1JCyqpbub8I1x1vNEzN_w8APr-UhqABZc?usp=sharing\n\n#Astronomy #AstroImaging #SimonTelescopiumAstroActions",
+  "youtube_like_count": 8,
+  "youtube_tags": [
+    "photoshop action",
+    "macro",
+    "GIMP",
+    "astro photography",
+    "astro imaging",
+    "processing",
+    "noice reduction",
+    "photoshop"
+  ],
+  "youtube_title": "How to reduce 'Space' noise in your Astro-Images",
+  "youtube_upload_date": "20200914",
+  "youtube_view_count": 131
+}

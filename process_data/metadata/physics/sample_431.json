@@ -1,0 +1,820 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with long dark hair and glasses, wearing a light grey suit and a light blue shirt.",
+        "name": "Nembo"
+      },
+      {
+        "characterId": "2",
+        "description": "A man wearing a light blue shirt and dark pants, only his back is visible.",
+        "name": "Man 1"
+      },
+      {
+        "characterId": "3",
+        "description": "A man with short dark hair wearing glasses, a light blue shirt and dark pants.",
+        "name": "Man 2"
+      },
+      {
+        "characterId": "4",
+        "description": "A man with a shaved head, wearing a camouflage short-sleeved shirt and light brown pants.",
+        "name": "Man 3"
+      },
+      {
+        "characterId": "5",
+        "description": "A man sitting in the audience wearing a light blue shirt. He's not visible at first, he appears at 0:09 sitting next to Man 2.",
+        "name": "Martin"
+      },
+      {
+        "characterId": "6",
+        "description": "A man sitting in the audience wearing a grey shirt. He's not visible at first, he appears at 0:09 sitting next to Martin.",
+        "name": "George"
+      }
+    ],
+    "description": "A presentation detailing research conducted on the Mach Effect, showcasing experimental setups, results, and addressing audience questions.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "It's not clear as the speaker doesn't mention it during his speech but we can read on the graph on the right that the force scale is 0.15 micro Newton.",
+        "question": "What's the magnitude of the thrust measured?"
+      },
+      {
+        "answer": "The fact that the peaks have the same shape in the different graphs.",
+        "question": "Which element of the graphs is relevant to prove that the force measured is not a calibration error?"
+      },
+      {
+        "answer": "FOTEC",
+        "question": "What's the name of the company where the research was conducted?"
+      },
+      {
+        "answer": "When high currents are flowing through liquid metal conductors, they can exert a torque that can influence the measurements, especially if the pivot point is off-center.",
+        "question": "How are Ampere forces potentially relevant to the research?"
+      },
+      {
+        "answer": "High voltage (around 100 volts) is used in the experiment, potentially leading to Coulomb repulsion effects that could influence the measurements and even pose a safety risk to the researchers.",
+        "question": "What's the concern about Coulomb repulsion in the context of this research?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "presenting",
+            "timestamp": {
+              "end_timestamp": "00:06:16.009",
+              "start_timestamp": "00:00:15.015"
+            }
+          },
+          {
+            "description": "clapping",
+            "timestamp": {
+              "end_timestamp": "00:06:16.009",
+              "start_timestamp": "00:06:10.003"
+            }
+          },
+          {
+            "description": "asking a question",
+            "timestamp": {
+              "end_timestamp": "00:06:36.997",
+              "start_timestamp": "00:06:36.997"
+            }
+          },
+          {
+            "description": "commenting",
+            "timestamp": {
+              "end_timestamp": "00:08:00.013",
+              "start_timestamp": "00:06:44.004"
+            }
+          },
+          {
+            "description": "sharing an experience",
+            "timestamp": {
+              "end_timestamp": "00:09:14.988",
+              "start_timestamp": "00:08:30.010"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Nembo",
+          "Man 1",
+          "Man 2",
+          "Man 3",
+          "Martin",
+          "George"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Nembo",
+              "Man 2"
+            ],
+            "description": "Nembo is presenting and Man 2 interjects to make a comment."
+          },
+          {
+            "characters": [
+              "Nembo",
+              "Man 3"
+            ],
+            "description": "Nembo is presenting and Man 3 asks a question, Nembo answers and Man 3 continues commenting."
+          },
+          {
+            "characters": [
+              "Nembo",
+              "Martin"
+            ],
+            "description": "Nembo is presenting and Martin asks a question, Nembo answers and Martin continues commenting."
+          }
+        ],
+        "contextualRelevance": "Relevant to experimental physics and audience engagement in scientific presentations.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The speaker introduces the topic of the Mach effect",
+            "timestamp": "00:00:10.010"
+          },
+          {
+            "description": "The speaker shows images of the device used in the research and the setup at the laboratory.",
+            "timestamp": "00:00:26.994"
+          },
+          {
+            "description": "The speaker continues to describe the research setup.",
+            "timestamp": "00:01:25.986"
+          },
+          {
+            "description": "The speaker shows graphs that represent the measured thrust and compares them with previous research by another researcher named Jim.",
+            "timestamp": "00:02:09.997"
+          },
+          {
+            "description": "The speaker explains that although the magnitude of the thrust is different, the shape of the graphs is similar, suggesting the effect is not a calibration error.",
+            "timestamp": "00:03:26.006"
+          },
+          {
+            "description": "The speaker shows a graph of the thrust when the device is mounted in the reversed direction, revealing the thrust also reversed.",
+            "timestamp": "00:04:36.009"
+          },
+          {
+            "description": "The audience claps and the speaker thanks them",
+            "timestamp": "00:06:10.003"
+          },
+          {
+            "description": "The audience asks about the importance of Ampere forces in the setup.",
+            "timestamp": "00:06:36.997"
+          },
+          {
+            "description": "A member of the audience mentions that he also measured micro Newton forces in his research, mentioning the possibility of Coulomb repulsion.",
+            "timestamp": "00:08:30.010"
+          }
+        ],
+        "props": [
+          {
+            "name": "presentation screen",
+            "timestamp": {
+              "end_timestamp": "00:09:15.989",
+              "start_timestamp": "00:00:07.007"
+            }
+          },
+          {
+            "name": "whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:09:15.989",
+              "start_timestamp": "00:00:09.009"
+            }
+          },
+          {
+            "name": "laser pointer",
+            "timestamp": {
+              "end_timestamp": "00:09:15.989",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "name": "microphone",
+            "timestamp": {
+              "end_timestamp": "00:09:15.989",
+              "start_timestamp": "00:00:23.991"
+            }
+          },
+          {
+            "name": "videocamera",
+            "timestamp": {
+              "end_timestamp": "00:09:15.989",
+              "start_timestamp": "00:06:59.986"
+            }
+          },
+          {
+            "name": "laptop",
+            "timestamp": {
+              "end_timestamp": "00:09:14.988",
+              "start_timestamp": "00:08:40.987"
+            }
+          },
+          {
+            "name": "notepad",
+            "timestamp": {
+              "end_timestamp": "00:09:14.988",
+              "start_timestamp": "00:08:47.994"
+            }
+          },
+          {
+            "name": "pen",
+            "timestamp": {
+              "end_timestamp": "00:09:14.988",
+              "start_timestamp": "00:08:54.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Mach Effect, Experimental Results, Ampere Forces, Coulomb Repulsion",
+        "timestamps": {
+          "end_timestamp": "00:09:21.261",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Data Presentation",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The speaker shows a graph of the thrust when the device is mounted in the reversed direction, revealing the thrust also reversed.",
+        "timestamp": "00:04:42.015"
+      },
+      "description": "The presentation of a research about the Mach Effect",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "The Mach Effect Research Presentation",
+    "trimmingSuggestions": [
+      {
+        "description": "The clapping part from 6:10 to 6:16 could be trimmed as it's not relevant to the content of the presentation.",
+        "timestamps": {
+          "end_timestamp": "00:06:16.009",
+          "start_timestamp": "00:06:10.003"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 561,
+  "original_json_filename": "avjvI9Ifp9A.json",
+  "original_video_filename": "avjvI9Ifp9A.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "this would be just a slice it is to make Betty believe so that two years ago Jim sent me a device of the type for that we already so previously based on the steak which is basically of the same sort that Jim also as and George also I mean and Marcus okay so it's based on there is a optical sensor which is measuring the displacement of the armor this is basically rotating you have here in the center a series of contact uh based on this galliston concept which was the same invented by regime switching on the people so if you have a rotation with there is no problem with forces and so the device here it's shown with the so often a Faraday cage and so this is the direction the direction of the traffic so we did this for theta which is the company I work for they're usually we are measuring we are mentioning the trust of ion thrusters okay and this can measure trust down to the submicron Newton error okay and what I saw what I record that is what you see on the right side okay and on the left side that you see Chima skating so what you can see here I mean the first thing that can that is evident is the shape of the of the of the curve you see so we have this bumps here which is that said free peak which is happening when you switch on and off the device and then we have also stable trust okay they I mean the only thing in any problem is that the magnitude of the trust is different okay and it's not yet clear this is due to a calibration problem domain it would lower but nevertheless it's not important I don't think it's important the level trust also because this is the same level that Martin and George were obtaining okay what is important are this are this is this shape okay it is Peaks which are present on all three replications this indicates that it's not a facility effect that this is not an interaction of the device with the surrounding but it is something which is coming from the device itself [Music] cuz you don't have any actually make this is going up you see okay so that's another very important thing is that when I reverse the device directional okay yeah the thrust reversers as well so this is also an indication that it's it's an effect which is produced in the device itself see so in this case I add the three pulses in sequence so it's not just a single thing so you see how it's happening so we we see that we have a drifter this is normal what you see here so that the great area is when the device is switched on and the rest is off then on again and you see as soon as it is which at all you have this peak on the reverse direction and then it comes see a stable trust you switch it off so reverse the direction then back to zero and so on okay and we decided yeah with the thruster which reverses with the reverse of the device so tells you that it's again not an effect of an interaction of the device I mean I mean most probably it's not due to that effect of the interaction of the device with the chamber with environment okay that's all actually yeah these three slides were taken from a presentation I had a small sensitive workshop that I do with in science fiction conference in Italy which it was called la longest are the para would drive that means the long road to the world I thank you [Applause] mmm that's yeah someone we can recognize this is today high current applications currents flowing through liquid metal conductors you will have forces usually circulating forces circular forces which actually can exert a little bit of a liquid and if you're offset if you're off-center if you're center pivot part is off-center those forces can be magnified and also if you are bringing the current in to the top of gallons then from point and you're taking the current out from the center sometimes there are additional force that are really small but the people who are using Gauss that including me should be aware of that at high currents and I can't tell 29 calculations is maybe tens of a shorter but just yeah and there's a man who's gonna have I would like to share some experience into because something else that I measured poof discover some complex worth that you have Coulomb repulsion to so you have the constant contact you have the pin in there and if you have something like one of the boats which is on the order of magnitude was we have here right you can measure my canoodle forces of this team pushed out of there but this is something that if you do weight measurements which are due to that can kill you",
+  "text_to_speech_word_count": 864,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.974",
+      "start": "00:00:00.000",
+      "text": " So your attention please."
+    },
+    {
+      "end": "00:00:17.985",
+      "start": "00:00:06.974",
+      "text": " This will be just a please slides presentation."
+    },
+    {
+      "end": "00:00:23.991",
+      "start": "00:00:17.985",
+      "text": " So short, the panelists, if you could mind, but English."
+    },
+    {
+      "end": "00:00:37.971",
+      "start": "00:00:23.991",
+      "text": " So, two years ago, Jim sent me a device of the type that we already saw previously, based on the PCT stack."
+    },
+    {
+      "end": "00:00:46.980",
+      "start": "00:00:37.971",
+      "text": " And with the idea to test it on a trust balance, which is basically of the same sort that Jim also has."
+    },
+    {
+      "end": "00:00:51.985",
+      "start": "00:00:46.980",
+      "text": " And George also, a similar, I mean, and Martinez."
+    },
+    {
+      "end": "00:01:01.995",
+      "start": "00:00:51.985",
+      "text": " So, it's based on, there is an optical sensor, which is measuring the displacement of the arm."
+    },
+    {
+      "end": "00:01:04.998",
+      "start": "00:01:01.995",
+      "text": " This is basically rotating like that."
+    },
+    {
+      "end": "00:01:14.975",
+      "start": "00:01:04.998",
+      "text": " You have here in the center a series of contact, there's no discarding stack concept, which was invented by Jim."
+    },
+    {
+      "end": "00:01:21.982",
+      "start": "00:01:14.975",
+      "text": " So, it's on the pivot, so if you have adaptation, there is no problem with the input input in forces."
+    },
+    {
+      "end": "00:01:33.994",
+      "start": "00:01:21.982",
+      "text": " And so, the device, here it's shown with, so open a Faraday cage, and there it's shown mounted on the balance."
+    },
+    {
+      "end": "00:01:42.970",
+      "start": "00:01:33.994",
+      "text": " So, this is the direction, the direction the trust is calling, so like that, push, tear, so like that, okay."
+    },
+    {
+      "end": "00:01:44.972",
+      "start": "00:01:42.970",
+      "text": " Like that, like that."
+    },
+    {
+      "end": "00:01:55.983",
+      "start": "00:01:44.972",
+      "text": " And we did this, yeah, at the photo, which is the company, which I work for."
+    },
+    {
+      "end": "00:02:02.990",
+      "start": "00:01:55.983",
+      "text": " Usually we are measuring, we are measuring the trust of I'm trust, okay."
+    },
+    {
+      "end": "00:02:08.996",
+      "start": "00:02:02.990",
+      "text": " And this can measure trust down to the sub-micronuton levels, okay."
+    },
+    {
+      "end": "00:02:17.971",
+      "start": "00:02:08.996",
+      "text": " And what I saw, what I recorded, is what you see on the right side, okay."
+    },
+    {
+      "end": "00:02:22.976",
+      "start": "00:02:17.971",
+      "text": " And on the left side, you see what Jim was getting."
+    },
+    {
+      "end": "00:02:32.986",
+      "start": "00:02:22.976",
+      "text": " So, what you can see here, I mean the first thing that can, that is evident, is the shape of the curve, you see."
+    },
+    {
+      "end": "00:02:43.997",
+      "start": "00:02:32.986",
+      "text": " So, we have this bump sphere, which is, let's say, the three peak, which is happening when you switch on and off the device."
+    },
+    {
+      "end": "00:02:47.968",
+      "start": "00:02:43.997",
+      "text": " And then we have also stable trust, okay."
+    },
+    {
+      "end": "00:02:53.974",
+      "start": "00:02:47.968",
+      "text": " The only thing, the only problem is that the magnitude of the trust is different, okay."
+    },
+    {
+      "end": "00:03:01.982",
+      "start": "00:02:53.974",
+      "text": " And it's not yet clear if this is due to a calibration problem, please."
+    },
+    {
+      "end": "00:03:06.987",
+      "start": "00:03:01.982",
+      "text": " Let me just interject, there's a factor of two different speakers in case of our result."
+    },
+    {
+      "end": "00:03:09.990",
+      "start": "00:03:06.987",
+      "text": " It's a 4-1-1, I assume, works."
+    },
+    {
+      "end": "00:03:11.992",
+      "start": "00:03:09.990",
+      "text": " Okay, I assume that that's a single."
+    },
+    {
+      "end": "00:03:12.993",
+      "start": "00:03:11.992",
+      "text": " This is a single, yeah, okay."
+    },
+    {
+      "end": "00:03:17.998",
+      "start": "00:03:12.993",
+      "text": " So, it's the open-tree kind of ending."
+    },
+    {
+      "end": "00:03:24.971",
+      "start": "00:03:17.998",
+      "text": " But still, I mean, we are in all the many two lower, okay."
+    },
+    {
+      "end": "00:03:29.976",
+      "start": "00:03:24.971",
+      "text": " But nevertheless, it's not important, I don't think it's important the level fast also,"
+    },
+    {
+      "end": "00:03:36.983",
+      "start": "00:03:29.976",
+      "text": " because this is the same level that Martin and George were obtaining, okay."
+    },
+    {
+      "end": "00:03:45.992",
+      "start": "00:03:36.983",
+      "text": " What is important is this shape, okay, this peaks, which are present on all three replications."
+    },
+    {
+      "end": "00:03:53.967",
+      "start": "00:03:45.992",
+      "text": " Okay, this indicates that it's not a facility effect, that this is not an interaction of the device with the surrounding,"
+    },
+    {
+      "end": "00:03:58.972",
+      "start": "00:03:53.967",
+      "text": " but it is something which is coming from the device itself, okay."
+    },
+    {
+      "end": "00:04:06.980",
+      "start": "00:03:58.972",
+      "text": " Is there any significance between on Jim's, the red trace kind of goes down below the zero line,"
+    },
+    {
+      "end": "00:04:08.982",
+      "start": "00:04:06.980",
+      "text": " and you know, during that..."
+    },
+    {
+      "end": "00:04:12.986",
+      "start": "00:04:08.982",
+      "text": " You know, there's always some drift on the mortgage."
+    },
+    {
+      "end": "00:04:15.989",
+      "start": "00:04:12.986",
+      "text": " Yes, because you don't have it."
+    },
+    {
+      "end": "00:04:18.992",
+      "start": "00:04:15.989",
+      "text": " You actually make this squig up, it will be in the seat."
+    },
+    {
+      "end": "00:04:22.996",
+      "start": "00:04:18.992",
+      "text": " Okay, so that going on does not represent the actual, it's going the same."
+    },
+    {
+      "end": "00:04:24.998",
+      "start": "00:04:22.996",
+      "text": " But then, it's to drift."
+    },
+    {
+      "end": "00:04:25.999",
+      "start": "00:04:24.998",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:26.967",
+      "start": "00:04:25.999",
+      "text": " Yeah."
+    },
+    {
+      "end": "00:04:38.979",
+      "start": "00:04:26.967",
+      "text": " Another very important thing is that when I reverse the device direction, okay, if it goes on, yeah."
+    },
+    {
+      "end": "00:04:41.982",
+      "start": "00:04:38.979",
+      "text": " The thrust reverses as well."
+    },
+    {
+      "end": "00:04:48.989",
+      "start": "00:04:41.982",
+      "text": " So this is also an indication that it's an effect, which is produced in the device itself, see."
+    },
+    {
+      "end": "00:04:52.993",
+      "start": "00:04:48.989",
+      "text": " So in this case, I add the three passes in sequence."
+    },
+    {
+      "end": "00:04:56.997",
+      "start": "00:04:52.993",
+      "text": " So it's not just a single thing, as well you see how it's happening."
+    },
+    {
+      "end": "00:05:01.968",
+      "start": "00:04:56.997",
+      "text": " So we see that we have a drift, like that, okay, of the level of the balance."
+    },
+    {
+      "end": "00:05:08.975",
+      "start": "00:05:01.968",
+      "text": " This is normal, but you see here, so that the great area is when the device is switched on,"
+    },
+    {
+      "end": "00:05:13.980",
+      "start": "00:05:08.975",
+      "text": " and the rest is off, then on again, you know, and you see as soon as it is switched on,"
+    },
+    {
+      "end": "00:05:21.988",
+      "start": "00:05:13.980",
+      "text": " you have this peak on the reverse direction, and then you come see a stable thrust, you switch it off."
+    },
+    {
+      "end": "00:05:26.993",
+      "start": "00:05:21.988",
+      "text": " So a reverse direction, then back to zero, and so on."
+    },
+    {
+      "end": "00:05:34.968",
+      "start": "00:05:26.993",
+      "text": " And the fact that, yeah, the thrust, which reverses with the reverse of the device,"
+    },
+    {
+      "end": "00:05:38.972",
+      "start": "00:05:34.968",
+      "text": " tells you that it's again not an effect of an interaction with the device."
+    },
+    {
+      "end": "00:05:47.981",
+      "start": "00:05:38.972",
+      "text": " I mean, most probably, it's not due to the interaction of the device with the chamber, with the environment."
+    },
+    {
+      "end": "00:05:48.982",
+      "start": "00:05:47.981",
+      "text": " That's all."
+    },
+    {
+      "end": "00:05:50.984",
+      "start": "00:05:48.982",
+      "text": " Actually, yeah."
+    },
+    {
+      "end": "00:05:55.989",
+      "start": "00:05:50.984",
+      "text": " These three slides were taken from a presentation."
+    },
+    {
+      "end": "00:06:03.997",
+      "start": "00:05:55.989",
+      "text": " I had a small scientific workshop that I do within a science fiction conference in Italy,"
+    },
+    {
+      "end": "00:06:09.970",
+      "start": "00:06:03.997",
+      "text": " which it was called the long strata per la world drive, that means the long road to the world drive."
+    },
+    {
+      "end": "00:06:10.971",
+      "start": "00:06:09.970",
+      "text": " Thank you."
+    },
+    {
+      "end": "00:06:17.978",
+      "start": "00:06:10.971",
+      "text": " Thank you."
+    },
+    {
+      "end": "00:06:19.980",
+      "start": "00:06:17.978",
+      "text": " That's your picture."
+    },
+    {
+      "end": "00:06:26.987",
+      "start": "00:06:19.980",
+      "text": " That's, yeah, someone of you can recognize this is the cover of James."
+    },
+    {
+      "end": "00:06:29.990",
+      "start": "00:06:26.987",
+      "text": " That's how I normally knew to you."
+    },
+    {
+      "end": "00:06:30.991",
+      "start": "00:06:29.990",
+      "text": " Who's up there?"
+    },
+    {
+      "end": "00:06:32.993",
+      "start": "00:06:30.991",
+      "text": " Any question?"
+    },
+    {
+      "end": "00:06:36.997",
+      "start": "00:06:32.993",
+      "text": " I'm Jeremy Lillian."
+    },
+    {
+      "end": "00:06:40.000",
+      "start": "00:06:36.997",
+      "text": " Can you bring another question?"
+    },
+    {
+      "end": "00:06:44.971",
+      "start": "00:06:40.000",
+      "text": " I'd like to make one comment."
+    },
+    {
+      "end": "00:06:45.972",
+      "start": "00:06:44.971",
+      "text": " Yeah."
+    },
+    {
+      "end": "00:06:52.979",
+      "start": "00:06:45.972",
+      "text": " When dealing with gallons then, or any liquid metal contact,"
+    },
+    {
+      "end": "00:06:59.986",
+      "start": "00:06:52.979",
+      "text": " once you keep, be aware of ampere forces."
+    },
+    {
+      "end": "00:07:10.997",
+      "start": "00:06:59.986",
+      "text": " In a high, at least in high currents, applications of currents flowing through liquid metal conductors,"
+    },
+    {
+      "end": "00:07:21.975",
+      "start": "00:07:10.997",
+      "text": " you will have forces, usually circulating forces, circular forces, which actually can exert a little bit of a torque on,"
+    },
+    {
+      "end": "00:07:27.981",
+      "start": "00:07:21.975",
+      "text": " unless they have implements in the pot of liquid metal."
+    },
+    {
+      "end": "00:07:37.991",
+      "start": "00:07:27.981",
+      "text": " And if you're offset, if you're offsetter, if you're center pivot parties, off-center, those forces can be magnified."
+    },
+    {
+      "end": "00:07:47.000",
+      "start": "00:07:37.991",
+      "text": " And also, if you are bringing the current in to the pot of gallons then, from one point,"
+    },
+    {
+      "end": "00:07:51.971",
+      "start": "00:07:47.000",
+      "text": " and you're taking the current out from the center, sometimes there are additional forces."
+    },
+    {
+      "end": "00:07:57.978",
+      "start": "00:07:51.971",
+      "text": " They're really small, but the people who are using gallons that, including me,"
+    },
+    {
+      "end": "00:08:02.983",
+      "start": "00:07:57.978",
+      "text": " should be aware of that at high currents."
+    },
+    {
+      "end": "00:08:05.986",
+      "start": "00:08:02.983",
+      "text": " And I can't tell it's a medium of calculations."
+    },
+    {
+      "end": "00:08:07.988",
+      "start": "00:08:05.986",
+      "text": " I'm pairs, right?"
+    },
+    {
+      "end": "00:08:11.992",
+      "start": "00:08:07.988",
+      "text": " Maybe tens of amps in silence."
+    },
+    {
+      "end": "00:08:14.995",
+      "start": "00:08:11.992",
+      "text": " In this case, yeah, it was less than normal."
+    },
+    {
+      "end": "00:08:17.998",
+      "start": "00:08:14.995",
+      "text": " I'm not sure, but just, I think it's..."
+    },
+    {
+      "end": "00:08:22.969",
+      "start": "00:08:17.998",
+      "text": " And there's a man who's going to have quite a short check for his reverse interversion."
+    },
+    {
+      "end": "00:08:23.970",
+      "start": "00:08:22.969",
+      "text": " You're true."
+    },
+    {
+      "end": "00:08:24.971",
+      "start": "00:08:23.970",
+      "text": " No, they have."
+    },
+    {
+      "end": "00:08:25.972",
+      "start": "00:08:24.971",
+      "text": " Except, yeah."
+    },
+    {
+      "end": "00:08:27.974",
+      "start": "00:08:25.972",
+      "text": " Yeah, absolutely."
+    },
+    {
+      "end": "00:08:37.984",
+      "start": "00:08:27.974",
+      "text": " I would like to share some experience here too, because something else I mentioned with the skeleton context was that you have coulomb repulsion too."
+    },
+    {
+      "end": "00:08:42.989",
+      "start": "00:08:37.984",
+      "text": " So you have the gallons in contact, you have the pin in there."
+    },
+    {
+      "end": "00:08:48.995",
+      "start": "00:08:42.989",
+      "text": " If you have something like one on a pulse, which is the owner of Magnetyl towards, we have here, right?"
+    },
+    {
+      "end": "00:08:54.968",
+      "start": "00:08:48.995",
+      "text": " You can measure microuten forces of this pin being pushed out of the gallon stand."
+    },
+    {
+      "end": "00:08:58.972",
+      "start": "00:08:54.968",
+      "text": " So if you're not again here in the perfect center, then it's too."
+    },
+    {
+      "end": "00:08:59.973",
+      "start": "00:08:58.972",
+      "text": " That's..."
+    },
+    {
+      "end": "00:09:02.976",
+      "start": "00:08:59.973",
+      "text": " I was an aerosol that I was looking for a long time."
+    },
+    {
+      "end": "00:09:03.977",
+      "start": "00:09:02.976",
+      "text": " But again, that's..."
+    },
+    {
+      "end": "00:09:06.980",
+      "start": "00:09:03.977",
+      "text": " We've not got the mercy, we've got the mercy, we've got the mercy."
+    },
+    {
+      "end": "00:09:07.981",
+      "start": "00:09:06.980",
+      "text": " Oh, sure, right?"
+    },
+    {
+      "end": "00:09:09.983",
+      "start": "00:09:07.981",
+      "text": " And it's independent, of course, of polarity."
+    },
+    {
+      "end": "00:09:16.990",
+      "start": "00:09:09.983",
+      "text": " But this is something that if you do weight measurements, which I'm doing too, that can kill you with the skeleton context."
+    },
+    {
+      "end": "00:09:17.991",
+      "start": "00:09:16.990",
+      "text": " Okay."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "SSI: Space Studies Institute",
+  "youtube_channel_follower_count": 2430,
+  "youtube_comment_count": 0,
+  "youtube_description": "Nembo Buldrini, FOTEC Forschungs- und Technologietransfer GmbH, presents \"Test of Woodward's MET at the FOTEC,\" the third of four sessions introducing and setting the stage for Dr. James Woodward's presentation \"Mach Effect Concepts and Experiments.\"\n\nBreakthrough Propulsion Workshop, Estes Park, Colorado. September 22, 2016. Session 5",
+  "youtube_like_count": 14,
+  "youtube_tags": [
+    "Physics",
+    "Mach Effect",
+    "Nembo Buldrini",
+    "James Woodward",
+    "Warp Drive",
+    "EM Drive",
+    "Space",
+    "Space Studies Institute"
+  ],
+  "youtube_title": "BPW 2016: 22. Nembo Buldrini \"Test of Woodward's MET at the FOTEC\"",
+  "youtube_upload_date": "20161219",
+  "youtube_view_count": 789
+}

@@ -1,0 +1,607 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Video game character wearing red hat and blue overalls",
+        "name": "Mario"
+      },
+      {
+        "characterId": "2",
+        "description": "Yellow rubber duck",
+        "name": "Duck"
+      },
+      {
+        "characterId": "3",
+        "description": "Person wearing a gray sweater and a black watch",
+        "name": "Teacher"
+      },
+      {
+        "characterId": "4",
+        "description": "Man wearing blue t-shirt and a black necklace",
+        "name": "Presenter"
+      }
+    ],
+    "description": "A video exploring a physics problem involving a rubber duck and a bullet, focusing on concepts like gravity, air resistance, and terminal velocity.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "Yellow",
+        "question": "What color is the rubber duck?"
+      },
+      {
+        "answer": "Mario",
+        "question": "What video game character shoots the duck?"
+      },
+      {
+        "answer": "The duck stops accelerating because it reaches terminal velocity, where the force of gravity is balanced by air friction.",
+        "question": "Why does the duck stop accelerating during its fall?"
+      },
+      {
+        "answer": "The two forces are gravity pulling the duck down, and air friction opposing the duck's motion.",
+        "question": "What two forces are acting on the duck as it falls?"
+      },
+      {
+        "answer": "Differential equations and integration were used to solve the equation of motion and find the velocity of the duck as a function of time.",
+        "question": "What mathematical concept was used to find the solution for the duck's velocity?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Sets the stage by showing an image of Geneva, Switzerland, known for its lake and ducks.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Introductory setup",
+        "timestamps": {
+          "end_timestamp": "00:00:09.343",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Running",
+            "timestamp": {
+              "end_timestamp": "00:00:10.010",
+              "start_timestamp": "00:00:09.376"
+            }
+          },
+          {
+            "description": "Shooting",
+            "timestamp": {
+              "end_timestamp": "00:00:26.994",
+              "start_timestamp": "00:00:25.993"
+            }
+          },
+          {
+            "description": "Falling",
+            "timestamp": {
+              "end_timestamp": "00:00:29.997",
+              "start_timestamp": "00:00:27.995"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Mario",
+          "Duck"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Mario",
+              "Duck"
+            ],
+            "description": "Mario shoots the duck"
+          }
+        ],
+        "contextualRelevance": "Explores a physics problem involving projectile motion and gravity.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from static to dynamic visuals and sounds.",
+              "timestamp": "00:00:25.993"
+            },
+            {
+              "changeDescription": "Transition from crickets chirping to gunshot sound.",
+              "timestamp": "00:00:25.993"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Mario shoots the duck",
+            "timestamp": "00:00:25.993"
+          },
+          {
+            "description": "The duck falls",
+            "timestamp": "00:00:27.995"
+          }
+        ],
+        "props": [
+          {
+            "name": "Gun",
+            "timestamp": {
+              "end_timestamp": "00:00:10.010",
+              "start_timestamp": "00:00:09.376"
+            }
+          },
+          {
+            "name": "Bullet",
+            "timestamp": {
+              "end_timestamp": "00:00:26.994",
+              "start_timestamp": "00:00:25.993"
+            }
+          },
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:00:29.997",
+              "start_timestamp": "00:00:09.376"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Physics, Problem-solving",
+        "timestamps": {
+          "end_timestamp": "00:00:34.601",
+          "start_timestamp": "00:00:09.376"
+        },
+        "title": "Mario Shoots the Duck",
+        "videoEditingDetails": [
+          {
+            "description": "Text Overlay: 'WHAT JUST HAPPENED?'",
+            "timestamps": {
+              "end_timestamp": "00:00:34.601",
+              "start_timestamp": "00:00:34.601"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Writing",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:36.003"
+            }
+          },
+          {
+            "description": "Explaining",
+            "timestamp": {
+              "end_timestamp": "00:01:28.989",
+              "start_timestamp": "00:00:36.003"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Teacher"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Teacher explains concepts like velocity, gravity, and projectile motion.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Teacher explains the physics behind the duck and bullet falling",
+            "timestamp": "00:00:36.003"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:01:28.989",
+              "start_timestamp": "00:00:36.003"
+            }
+          },
+          {
+            "name": "Marker",
+            "timestamp": {
+              "end_timestamp": "00:01:28.989",
+              "start_timestamp": "00:00:36.003"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Physics, Problem-solving",
+        "timestamps": {
+          "end_timestamp": "00:01:30.958",
+          "start_timestamp": "00:00:34.635"
+        },
+        "title": "Explaining the Physics",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Writing",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:30.991"
+            }
+          },
+          {
+            "description": "Explaining",
+            "timestamp": {
+              "end_timestamp": "00:05:09.009",
+              "start_timestamp": "00:01:30.991"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Presenter"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Explains the concept of air resistance and terminal velocity applied to the duck's motion.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presenter explains terminal velocity",
+            "timestamp": "00:01:30.991"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:05:36.002",
+              "start_timestamp": "00:01:30.991"
+            }
+          },
+          {
+            "name": "Marker",
+            "timestamp": {
+              "end_timestamp": "00:05:36.002",
+              "start_timestamp": "00:01:30.991"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Physics, Calculus, Terminal Velocity",
+        "timestamps": {
+          "end_timestamp": "00:05:37.070",
+          "start_timestamp": "00:01:30.991"
+        },
+        "title": "Terminal Velocity",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Showcases image sources used in the video, serving as an attribution segment.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Attribution",
+        "timestamps": {
+          "end_timestamp": "00:05:51.751",
+          "start_timestamp": "00:05:37.103"
+        },
+        "title": "Conclusion and Attribution",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The duck stops accelerating due to equilibrium between gravity and air resistance.",
+        "timestamp": "00:01:28.989"
+      },
+      "description": "The storyline explores a physics problem where Mario shoots a rubber duck with a toy gun. The focus is on gravity, air resistance, and terminal velocity.",
+      "scenes": [
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "The Duck and the Bullet: A Physics Exploration",
+    "trimmingSuggestions": [
+      {
+        "description": "Consider trimming the extended mathematical derivations in scenes 3 and 4 to enhance dynamism by focusing on essential steps and explanations.",
+        "timestamps": {
+          "end_timestamp": "00:05:37.103",
+          "start_timestamp": "00:05:37.103"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 352,
+  "original_json_filename": "aPENpbmO2Fg.json",
+  "original_video_filename": "aPENpbmO2Fg.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "welcome to Geneva home to many rare species of duck and an exact American loser did you print a fairly recent experiments am-7 study me what did I do you never do you like you bad duck I catch you it is how you be just after the bullet is objected from the gun the distance between the duck and the bullet is D the velocity vector of Bolivia can be expressed as VX I plus nu IJ where I and J unit vectors we can look at each component separately the X stays constant and V no X which is the initial horizontal speed when it was ejected from the gun and view I equals V naught y plus G times T which is the initial vertical speed versus the additional speed caused by acceleration due to gravity similarly if the velocity of the drug new is your excited as u IJ in this case you x equals u naught X which equals zero mr. Duff is not in this case UX equals u not act equals zero because the duck is not moving horizontally UI equals u naught y plus 2 u T V naught y and you know life both equals zero as both objects for with no initial velocity vertically therefore v UI becomes G times T and UI becomes T times T as well in they are both equal for all values of T this means they're always for the same velocity as each other we can also look at a position the distance a bullet travels vertically which is V notes Y times t plus half of GT squared we're now equal to half GT squared this will also be the same for the talk again we didn't always travel the same vertical distance in the same time so are always at the same height so are always at the same height when the Zarkana Buddhists Clyde there were both be at Adi this means that a time taken for the bullets to reach the same horizontal position as a duck is d over venal tax this is a time at which the bullet flies with a duck mariette really sees the duck falling however he observes that he stops accelerating at some point before hitting the ground he wonders why once it starts falling only gravity in air fridge once it starts falling only gravity and air friction act on the duck the force due to gravity is M times G the force due to F friction is minus beta times B what meat says the friction coefficient and B is the velocity of the duck we take downwards as positive for y direction and that is why the minus sign is here as friction acts upwards reducing the total acceleration the total force felt by the duck is the sum of these two forces this is equal to the mass of the duck times its total acceleration and here we have our equation of motion acceleration is the first derivative of velocity with respect of time as the velocity is dependent on time and so we substitute that into our equation of motion we can rearrange our expression by multiplying both sides by DT of M and also dividing both sides by the expression we have on the left hand side before that after that we've been factor out the beats and the denominator so we have V with respect to T alone we'll multiply both sides by minus beta and so we have an expression on the right only depended on DV and on and on the left hand side we have an expression only dependent on DT Mario trophy sees the duck falling however he observes that it stops accelerating at some point before hitting the ground he wonders why once it starts falling only gravity and air friction act on the duck the force due to gravity we integrate both sides so depending on time and velocity and we obtain this expression here we exponentiate it so that E and the natural log cancel out and rearranging we obtain an expression for the velocity we have this arbitrary constant a that comes from the constant we add when integrating this constant can be determined by the initial conditions in this general equation we can find that a equals this expression here and our final solution for the velocity of the duck if it starts with zero velocity in the y axis is this we can see that as time becomes larger and this term goes to zero thus the velocity stops increasing and reaches its specific value the largest it can be this is called terminal velocity and at this point the two forces air friction and gravity are in equilibrium and so the duct stops accelerating",
+  "text_to_speech_word_count": 808,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.974",
+      "start": "00:00:00.000",
+      "text": " Welcome to Geneva, home to many rare species of duck."
+    },
+    {
+      "end": "00:00:10.978",
+      "start": "00:00:06.974",
+      "text": " Hello, I'm the daughter of Airfiction."
+    },
+    {
+      "end": "00:00:13.981",
+      "start": "00:00:10.978",
+      "text": " This you teach you for interfering with certain experiments."
+    },
+    {
+      "end": "00:00:15.983",
+      "start": "00:00:13.981",
+      "text": " And how?"
+    },
+    {
+      "end": "00:00:16.984",
+      "start": "00:00:15.983",
+      "text": " Someone's shooting me."
+    },
+    {
+      "end": "00:00:17.985",
+      "start": "00:00:16.984",
+      "text": " What did I do?"
+    },
+    {
+      "end": "00:00:18.986",
+      "start": "00:00:17.985",
+      "text": " You never did me a life."
+    },
+    {
+      "end": "00:00:19.987",
+      "start": "00:00:18.986",
+      "text": " You bad duck."
+    },
+    {
+      "end": "00:00:21.989",
+      "start": "00:00:19.987",
+      "text": " I catch you and it's how you're big."
+    },
+    {
+      "end": "00:00:39.973",
+      "start": "00:00:29.997",
+      "text": " Just after the bullet is ejected from the gun, the distance between the duck and the bullet is D."
+    },
+    {
+      "end": "00:00:48.982",
+      "start": "00:00:39.973",
+      "text": " The last vector of Bolivie can be expressed is VXI plus VYJ, where I and J unit vectors."
+    },
+    {
+      "end": "00:00:50.984",
+      "start": "00:00:48.982",
+      "text": " We can look at each component separately."
+    },
+    {
+      "end": "00:00:54.988",
+      "start": "00:00:50.984",
+      "text": " VX stays constant at V0X, which is the initial horizontal speed when it was ejected from the gun."
+    },
+    {
+      "end": "00:01:00.994",
+      "start": "00:00:54.988",
+      "text": " VY equals V0Y plus G times T, which is the initial vertical speed for the additional speed caused by acceleration due to gravity."
+    },
+    {
+      "end": "00:01:03.997",
+      "start": "00:01:00.994",
+      "text": " Similarly, the velocity of the duck U is UxI plus UYJ."
+    },
+    {
+      "end": "00:01:07.968",
+      "start": "00:01:03.997",
+      "text": " In this case, Ux equals U0X, which equals 0, because the duck is not..."
+    },
+    {
+      "end": "00:01:12.973",
+      "start": "00:01:07.968",
+      "text": " In this case, Ux equals U0X, which equals 0, because the duck is not moving horizontally."
+    },
+    {
+      "end": "00:01:15.976",
+      "start": "00:01:12.973",
+      "text": " Uy equals U0Y plus GT."
+    },
+    {
+      "end": "00:01:22.983",
+      "start": "00:01:15.976",
+      "text": " V0Y and U0Y, both equals 0, that's both objects for with no initial velocity, vertically."
+    },
+    {
+      "end": "00:01:29.990",
+      "start": "00:01:22.983",
+      "text": " Therefore, Uy becomes G times T, and Uy becomes G times T as well, being they are both equal for all values of T."
+    },
+    {
+      "end": "00:01:33.994",
+      "start": "00:01:29.990",
+      "text": " This means they're always for the same velocity as each other."
+    },
+    {
+      "end": "00:01:40.000",
+      "start": "00:01:37.998",
+      "text": " We can also look at a position."
+    },
+    {
+      "end": "00:01:46.974",
+      "start": "00:01:40.000",
+      "text": " The distance of bullet travels vertically, which is V0Y times T, plus half of GT squared, we're now equal to half of GT squared."
+    },
+    {
+      "end": "00:01:48.976",
+      "start": "00:01:46.974",
+      "text": " This will also be the same for the duck."
+    },
+    {
+      "end": "00:01:54.982",
+      "start": "00:01:48.976",
+      "text": " Again, we didn't always travel the same vertical distance in the same time, so I always add the same height."
+    },
+    {
+      "end": "00:01:56.984",
+      "start": "00:01:54.982",
+      "text": " So I always add the same height."
+    },
+    {
+      "end": "00:02:00.988",
+      "start": "00:01:56.984",
+      "text": " When the duck and the bullet is applied, they will both be at D."
+    },
+    {
+      "end": "00:02:25.979",
+      "start": "00:02:17.971",
+      "text": " This means that the time taken for the bullet to reach the same horizontal position as the duck is D over V0X."
+    },
+    {
+      "end": "00:02:33.987",
+      "start": "00:02:29.983",
+      "text": " This is the time at which the bullet clies with the duck."
+    },
+    {
+      "end": "00:02:38.992",
+      "start": "00:02:36.990",
+      "text": " Mario triumphantly sees the duck falling."
+    },
+    {
+      "end": "00:02:43.997",
+      "start": "00:02:38.992",
+      "text": " However, he observes that it stops accelerating at some point before hitting the ground. He wonders why."
+    },
+    {
+      "end": "00:02:49.970",
+      "start": "00:02:43.997",
+      "text": " Once it starts falling on the gravity and air friction, once it starts falling on the gravity and air friction act on the duck."
+    },
+    {
+      "end": "00:02:57.978",
+      "start": "00:02:49.970",
+      "text": " The force due to gravity is M times G. The force due to air friction is minus beta times V, where beta is the friction coefficient and V is the velocity of the duck."
+    },
+    {
+      "end": "00:03:03.984",
+      "start": "00:02:57.978",
+      "text": " We take downward-dispositive y-direction, and that is y-sinus here as friction acts upward, reducing the total acceleration."
+    },
+    {
+      "end": "00:03:06.987",
+      "start": "00:03:03.984",
+      "text": " The total force fell by the duck is the sum of these two forces."
+    },
+    {
+      "end": "00:03:11.992",
+      "start": "00:03:06.987",
+      "text": " This is equal to the mass of the duck times its total acceleration, and here we have our equation of motion."
+    },
+    {
+      "end": "00:03:18.999",
+      "start": "00:03:11.992",
+      "text": " Acceleration is the first derivative of velocity with respect of time, as the velocity is dependent on time, and so we substitute that into our equation of motion."
+    },
+    {
+      "end": "00:03:25.972",
+      "start": "00:03:18.999",
+      "text": " We can rearrange our expression by multiplying both sides by DT or M, and also dividing both sides by the expression we have on the left hand side before that."
+    },
+    {
+      "end": "00:03:29.976",
+      "start": "00:03:25.972",
+      "text": " After that, we can factor out the beta in the denominator, so we have V with respect to T alone."
+    },
+    {
+      "end": "00:03:38.985",
+      "start": "00:03:29.976",
+      "text": " We multiply both sides by minus beta, and so we have an expression on the right only dependent on DV and on the left hand side we have an expression only dependent on DT."
+    },
+    {
+      "end": "00:03:45.992",
+      "start": "00:03:39.986",
+      "text": " Mario triumphacy sees the duck falling. However, he observes that it stops accelerating at some point before hitting the ground. He wonders why."
+    },
+    {
+      "end": "00:03:51.998",
+      "start": "00:03:45.992",
+      "text": " Once it starts falling, only gravity and air friction act on the duck. The force due to gravity's M is..."
+    },
+    {
+      "end": "00:04:00.974",
+      "start": "00:03:54.968",
+      "text": " We integrate both sides so that we have an expression dependent on time and velocity, and we obtain this expression here."
+    },
+    {
+      "end": "00:04:08.982",
+      "start": "00:04:01.975",
+      "text": " We exponentiate it so that E and the natural log cancel out, and we are ranging, we obtain an expression for the velocity."
+    },
+    {
+      "end": "00:04:16.990",
+      "start": "00:04:08.982",
+      "text": " We have this arbitrary constant A that comes from the constant we add when integrating. This constant can be determined by the initial conditions."
+    },
+    {
+      "end": "00:04:25.999",
+      "start": "00:04:16.990",
+      "text": " In this general equation, we can find that A equals this expression here, and our final solution for the velocity of the duck if it starts with zero velocity in the y-axis is this."
+    },
+    {
+      "end": "00:05:27.994",
+      "start": "00:05:00.967",
+      "text": " We can see that as time becomes larger and larger, this term goes to zero. Thus the velocity stops increasing and reaches its specific value, the largest it can be. This is called terminal velocity, and at this point the two forces, air friction and gravity are in equilibrium, and so the duck stops accelerating."
+    },
+    {
+      "end": "00:05:37.971",
+      "start": "00:05:31.998",
+      "text": " The second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck."
+    },
+    {
+      "end": "00:05:38.972",
+      "start": "00:05:37.971",
+      "text": " The second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the second force is the velocity of the duck, and the"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "Muneeb Maaz",
+  "youtube_channel_follower_count": 14,
+  "youtube_comment_count": 0,
+  "youtube_description": "",
+  "youtube_like_count": 4,
+  "youtube_tags": [],
+  "youtube_title": "Projectile Motion and Motion under Air Friction",
+  "youtube_upload_date": "20191028",
+  "youtube_view_count": 148
+}

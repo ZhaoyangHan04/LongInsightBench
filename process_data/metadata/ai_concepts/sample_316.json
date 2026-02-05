@@ -1,0 +1,926 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Represented by small, isometric cubes with a skull and crossbones on top. They are animated to move towards networks of buildings.",
+        "name": "Adversaries"
+      },
+      {
+        "characterId": "2",
+        "description": "Represented by an office setting with people working at desks. They are static throughout the video.",
+        "name": "Network Defenders"
+      }
+    ],
+    "description": "The video discusses the increasing complexity of cyber threats and the evolution of defensive strategies, highlighting the integration of AI and SOAR through IACD's research and the Darklight experiment to create a more effective and modular cyber defense system.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The symbols are a magnifying glass (detection), a target with a crosshair (containment), a plane (response), and a target with a radiation symbol (mitigation).",
+        "question": "What are the four cyber security symbols shown at the beginning of the video?"
+      },
+      {
+        "answer": "The line is blue.",
+        "question": "What color is the line that appears in Scene 2, symbolizing a solution to the cyber threats?"
+      },
+      {
+        "answer": "The AI servers, initially one, multiply to fill the screen, visually representing the ability of AI to scale to handle large amounts of data.",
+        "question": "In Scene 3, how is the concept of AI's scalability visually represented?"
+      },
+      {
+        "answer": "The adversaries are small, isometric cubes.",
+        "question": "What shape are the adversaries that attempt to attack the networks?"
+      },
+      {
+        "answer": "Darklight distinguished between malware that exfiltrated data (represented by a green upward arrow) and malware with characteristics of ransomware (represented by a padlock).",
+        "question": "In Scene 7, what two types of malware did Darklight distinguish between?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Adversaries appearing and attempting to breach networks of buildings.",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Adversaries"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Adversaries"
+            ],
+            "description": "Adversaries are shown as active agents attempting to breach networks, implying a sense of aggression and threat."
+          }
+        ],
+        "contextualRelevance": "Establishes the central threat posed by cyber adversaries and the context for the defensive strategies discussed in the video.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Anxious. The adversaries attempting to breach networks accompanied by ominous music create a sense of unease.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Establishes the context of the video – the ever-evolving challenge of cyber threats and the increasing complexity of protecting against them.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The visual of adversaries attempting to breach networks establishes the central threat.",
+            "timestamp": "00:00:05.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Isometric buildings representing networks.",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Shields around some buildings, representing protection.",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Adversary cubes representing cyber threats.",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The increasing complexity of cyber threats. The importance of effective defense strategies.",
+        "timestamps": {
+          "end_timestamp": "00:00:12.533",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introducing the Threat",
+        "videoEditingDetails": [
+          {
+            "description": "Blue background with white title text, \"Effects Based Courses of Action,\" appearing and fading out. Four isometric squares with cybersecurity symbols fade in and out.",
+            "timestamps": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Transition to a white background.",
+            "timestamps": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.7,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduces the technological solutions, AI and SOAR, that are central to the video's discussion of advanced cyber defense.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Hopeful. The introduction of AI and SOAR as potential solutions creates a sense of optimism.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concepts of AI and SOAR as tools for countering cyber threats.",
+            "timestamp": "00:00:12.567"
+          },
+          {
+            "description": "The visual of a blue line cutting through the network symbolizes a potential solution to the threat.",
+            "timestamp": "00:00:19.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Isometric buildings representing networks.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:12.567"
+            }
+          },
+          {
+            "name": "Shields around some buildings, representing protection.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:12.567"
+            }
+          },
+          {
+            "name": "Adversary cubes representing cyber threats.",
+            "timestamp": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:12.567"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "The use of technology in cyber defense. The promise of AI and SOAR in mitigating threats.",
+        "timestamps": {
+          "end_timestamp": "00:00:23.867",
+          "start_timestamp": "00:00:12.567"
+        },
+        "title": "AI and SOAR Integration",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a dark blue background with a white line.",
+            "timestamps": {
+              "end_timestamp": "00:00:23.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A glowing blue brain icon appears on a server platform, symbolizing AI.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates how AI can enhance cyber defense by processing large data volumes efficiently and automating tasks, building on previously introduced concepts.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Futuristic, confident. The visuals of advanced technology and the narrator's positive tone create a sense of power and capability.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the benefits of AI in cyber defense, focusing on its ability to make faster decisions and automate tasks.",
+            "timestamp": "00:00:23.900"
+          },
+          {
+            "description": "The AI brain icon visually reinforces the concept being discussed.",
+            "timestamp": "00:00:26.000"
+          },
+          {
+            "description": "The multiplication of AI servers emphasizes the concept of scalability.",
+            "timestamp": "00:00:39.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Server racks with data scrolling.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:23.900"
+            }
+          },
+          {
+            "name": "AI brain icon.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          },
+          {
+            "name": "Digital code displays.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:23.900"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "The speed and efficiency of AI in mitigating threats. The ability of AI to handle large volumes of data.",
+        "timestamps": {
+          "end_timestamp": "00:00:45.333",
+          "start_timestamp": "00:00:23.900"
+        },
+        "title": "AI in Action",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a white background.",
+            "timestamps": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "A SOAR tower appears, connecting to buildings.",
+            "timestamp": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Focuses on how SOAR enhances automation and organization of security operations, expanding on defensive strategies.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Organized, Efficient. The visual representation of SOAR as a central tower connecting to networks conveys a sense of control and coordination.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces SOAR and its role in orchestrating automated security tasks.",
+            "timestamp": "00:00:45.367"
+          },
+          {
+            "description": "The SOAR tower visually represents the orchestration of security tasks.",
+            "timestamp": "00:00:50.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Isometric buildings representing networks.",
+            "timestamp": {
+              "end_timestamp": "00:00:57.633",
+              "start_timestamp": "00:00:45.367"
+            }
+          },
+          {
+            "name": "SOAR tower.",
+            "timestamp": {
+              "end_timestamp": "00:00:57.633",
+              "start_timestamp": "00:00:50.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "The benefits of automation in security operations. The importance of a centralized system for managing security tasks.",
+        "timestamps": {
+          "end_timestamp": "00:00:57.633",
+          "start_timestamp": "00:00:45.367"
+        },
+        "title": "SOAR Implementation",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a white grid background.",
+            "timestamps": {
+              "end_timestamp": "00:00:57.633",
+              "start_timestamp": "00:00:57.633"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Adversaries move towards the network.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "description": "Green lines appear, symbolizing mitigation actions taken by SOAR.",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Data flows from the SOAR tower to an AI server.",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Adversaries"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Adversaries"
+            ],
+            "description": "Adversaries continue to act as a threat, but the combined actions of SOAR and AI effectively counter them."
+          }
+        ],
+        "contextualRelevance": "Highlights the collaboration between AI and SOAR in practical applications, effectively demonstrating key strategies.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Determined, Reassuring. The visuals demonstrate how SOAR and AI work together to counter threats, conveying a sense of confidence and effectiveness.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shows how AI and SOAR work together for faster threat identification and mitigation.",
+            "timestamp": "00:00:58.000"
+          },
+          {
+            "description": "Green lines demonstrate the automated response initiated by SOAR.",
+            "timestamp": "00:01:00.000"
+          },
+          {
+            "description": "Data flow between SOAR and AI represents the collaborative effort.",
+            "timestamp": "00:01:08.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Isometric buildings representing networks.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.500",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "name": "SOAR tower.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.500",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "name": "AI server platform with the AI brain icon.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.500",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "name": "Adversary cubes.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.500",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "name": "Green lines representing mitigation actions.",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "name": "Server racks with data scrolling.",
+            "timestamp": {
+              "end_timestamp": "00:01:19.500",
+              "start_timestamp": "00:00:58.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "The synergy between AI and SOAR in creating a robust defense system. The importance of speed and automation in responding to cyber threats.",
+        "timestamps": {
+          "end_timestamp": "00:01:19.500",
+          "start_timestamp": "00:00:57.667"
+        },
+        "title": "SOAR and AI Collaboration",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a white background with the IACD logo.",
+            "timestamps": {
+              "end_timestamp": "00:01:19.500",
+              "start_timestamp": "00:01:19.500"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Data flows from the SOAR tower and AI server to the Network Defenders.",
+            "timestamp": {
+              "end_timestamp": "00:01:32.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Network Defenders"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Network Defenders"
+            ],
+            "description": "The Network Defenders are now actively involved in the process, receiving information and making decisions based on the data provided by AI and SOAR. This highlights the collaboration between humans and technology in cyber defense."
+          }
+        ],
+        "contextualRelevance": "Introduces the role of human decision-makers in cyber defense, showing how they collaborate with AI and SOAR to achieve strategic goals.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Collaborative, Strategic. The visuals emphasize the human element in cyber defense and the importance of strategic decision-making.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces IACD and its research on combining SOAR and AI for effects-based Courses of Action (COAs).",
+            "timestamp": "00:01:20.000"
+          },
+          {
+            "description": "Data flow to the Network Defenders emphasizes their role in the process.",
+            "timestamp": "00:01:27.000"
+          },
+          {
+            "description": "The \"Cyber Effects\" square highlights the desired outcomes of cyber defense.",
+            "timestamp": "00:01:51.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "IACD logo.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          },
+          {
+            "name": "SOAR tower.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          },
+          {
+            "name": "AI server platform with the AI brain icon.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          },
+          {
+            "name": "Network Defender office space.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          },
+          {
+            "name": "Isometric square representing \"Cyber Effects.\"",
+            "timestamp": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:51.000"
+            }
+          },
+          {
+            "name": "Data flow lines.",
+            "timestamp": {
+              "end_timestamp": "00:01:32.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "The importance of human control in cyber defense. The need for modular and adaptable solutions. The concept of effects-based COAs.",
+        "timestamps": {
+          "end_timestamp": "00:01:58.000",
+          "start_timestamp": "00:01:19.533"
+        },
+        "title": "IACD and Effects-Based COAs",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a dark blue background with a white line.",
+            "timestamps": {
+              "end_timestamp": "00:01:58.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Darklight server appears with data flowing in.",
+            "timestamp": {
+              "end_timestamp": "00:02:32.000",
+              "start_timestamp": "00:02:27.000"
+            }
+          },
+          {
+            "description": "Green arrow appears and moves to the top while padlock appears on the server screen.",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates a practical experiment using AI to enhance understanding of specific malware threats and design tailored responses.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative, Technical. The visuals focus on specific examples of how Darklight, an AI expert system, was used to determine desired cyber effects.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains how IACD used Darklight to distinguish between two types of malware and demonstrate the effectiveness of effects-based COAs.",
+            "timestamp": "00:01:58.033"
+          },
+          {
+            "description": "The appearance of the Darklight server visually introduces the specific AI system used in the experiment.",
+            "timestamp": "00:02:27.000"
+          },
+          {
+            "description": "The green arrow and padlock symbolize the different types of malware and the desired cyber effects to counter them.",
+            "timestamp": "00:02:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Darklight server.",
+            "timestamp": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:02:27.000"
+            }
+          },
+          {
+            "name": "Server racks with data scrolling.",
+            "timestamp": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:01:58.033"
+            }
+          },
+          {
+            "name": "Digital code displays.",
+            "timestamp": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:01:58.033"
+            }
+          },
+          {
+            "name": "Isometric squares representing different cyber effects (\"Detect,\" \"Recover,\" \"Contain\").",
+            "timestamp": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:01:58.033"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "The practical application of AI in malware analysis and mitigation. The ability of AI to identify specific threats and recommend tailored responses.",
+        "timestamps": {
+          "end_timestamp": "00:02:56.067",
+          "start_timestamp": "00:01:58.033"
+        },
+        "title": "Darklight Experiment",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a white background.",
+            "timestamps": {
+              "end_timestamp": "00:02:56.000",
+              "start_timestamp": "00:02:56.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "XSodar tower and Darklight servers appear.",
+            "timestamp": {
+              "end_timestamp": "00:03:11.000",
+              "start_timestamp": "00:03:09.000"
+            }
+          },
+          {
+            "description": "Data flows between the XSodar tower and Darklight server.",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Illustrates the successful integration of modular components in cyber defense and encourages future exploration of such strategies.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Successful, Promising. The visuals emphasize the modularity and effectiveness of the effects-based approach, creating a sense of optimism for the future of cyber defense.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes by highlighting the benefits of the modular workflow and encouraging viewers to learn more about IACDA.",
+            "timestamp": "00:02:56.100"
+          },
+          {
+            "description": "The appearance of both the XSodar and Darklight servers emphasizes the collaboration between the systems.",
+            "timestamp": "00:03:09.000"
+          },
+          {
+            "description": "Data flow between the systems visually reinforces the concept of a modular workflow.",
+            "timestamp": "00:03:12.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "XSodar tower.",
+            "timestamp": {
+              "end_timestamp": "00:03:36.000",
+              "start_timestamp": "00:03:09.000"
+            }
+          },
+          {
+            "name": "Darklight server.",
+            "timestamp": {
+              "end_timestamp": "00:03:36.000",
+              "start_timestamp": "00:03:09.000"
+            }
+          },
+          {
+            "name": "Server racks with data scrolling.",
+            "timestamp": {
+              "end_timestamp": "00:03:36.000",
+              "start_timestamp": "00:02:56.100"
+            }
+          },
+          {
+            "name": "Digital code displays.",
+            "timestamp": {
+              "end_timestamp": "00:03:36.000",
+              "start_timestamp": "00:02:56.100"
+            }
+          },
+          {
+            "name": "Data flow lines.",
+            "timestamp": {
+              "end_timestamp": "00:03:16.000",
+              "start_timestamp": "00:03:12.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "The modularity and adaptability of the effects-based approach. The potential for this approach to improve cyber defense capabilities.",
+        "timestamps": {
+          "end_timestamp": "00:03:48.333",
+          "start_timestamp": "00:02:56.100"
+        },
+        "title": "Modular Workflow",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a white background with a computer screen displaying a website about the IACDA.",
+            "timestamps": {
+              "end_timestamp": "00:03:36.000",
+              "start_timestamp": "00:03:36.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The Darklight experiment demonstrates the successful application of effects-based COAs to counter specific malware threats.",
+        "timestamp": "00:02:27.000"
+      },
+      "description": "The video presents a narrative journey of the increasing complexity of cyber threats and the evolution of defensive strategies. It highlights how the integration of AI and SOAR, specifically through the IACD's research and the Darklight experiment, can create a more effective and modular cyber defense system.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "Effects-based Courses of Action",
+    "trimmingSuggestions": [
+      {
+        "description": "While it introduces important concepts, the lack of dynamic visuals could be shortened by removing some of the static building shots.",
+        "timestamps": {
+          "end_timestamp": "00:02:56.100",
+          "start_timestamp": "00:02:56.100"
+        }
+      },
+      {
+        "description": "Could be shortened slightly by speeding up the animation of the SOAR tower connecting to networks.",
+        "timestamps": {
+          "end_timestamp": "00:02:56.100",
+          "start_timestamp": "00:02:56.100"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 228,
+  "original_json_filename": "1ekNhvzEabY.json",
+  "original_video_filename": "1ekNhvzEabY.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "protecting against cyber threats continues to be an evolving challenge adversaries are developing rapidly advancing and complex tactics to compromise enterprise systems and networks the number and complexity of the systems needed to conduct defensive cyber operations is also increasing at an exponential rate the solution space abounds with technology to find and mitigate threats organizations are turning to artificial intelligence or ai to aid in their mission to counter adversary cyber threats by helping identify patterns in enterprise attacks the key benefit of ai is its ability to make mitigating decisions faster and at the scale required of today's digital ecosystem organizations are also adopting security orchestration automation and response or soar platforms into their protective architecture for faster actions at the required digital scale threat identification and mitigation can occur faster and with greater efficiency and consistency through increased orchestration of automated delegated tasks combining faster action from soar with faster decisions from ai will yield the type of response needed to not only mitigate but anticipate sophisticated cyber threats the integrated adaptive cyber defense team or iacd conducted research to understand how to combine soar with ai the team investigated how to bridge these technologies while maintaining human control key objectives of the research were to leverage the strengths of both soar and ai platforms to create a more modular architecture that simplifies decision making while maintaining the system's ability to adapt its responses the iacd team achieved this by identifying high-level desired outcomes known as cyber effects from a decision-making platform as inputs to a soar platform these outcomes describe the net effects without having to specify the exact steps or actions to execute in countering a threat once an effect is selected after an event additional information is gathered and a set of policies applied the combination of the desired effect contextual information and predefined policies allows for the selection of appropriate effects-based courses of actions or koas iacd utilized dark light an ai expert system as a primary decision maker within a defensive cyber operations workflow in the effects-based coat experiment these scenarios demonstrated tasks within dark light to distinguish between two types of malicious software one that executed data exfiltration and the other that contained characteristics of ransomware dark light determined the desired cyber effect for each triggered malicious behavior the scenario also utilized orchestration workflows for three separate cyber effects detect recover and contain by implementing an effects-based coa approach to the workflow the experiment leveraged the strengths of both the decision-making and soar platforms by dividing up the responsibilities the overall workflow was more modular which simplify the development testing and implementation in each platform defining effects-based koas gives network defenders the tools they need to bridge the gaps between soar ai and human users for a better and faster decision-making process to counter today's cyber threats for more information on how to utilize soar to defend your networks visit iacdautomate.org [Music] you",
+  "text_to_speech_word_count": 492,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.667",
+      "start": "00:00:00.000",
+      "text": " Protecting against cyber threats continues to be an evolving challenge."
+    },
+    {
+      "end": "00:00:12.067",
+      "start": "00:00:04.667",
+      "text": " Adversaries are developing rapidly advancing and complex tactics to compromise enterprise systems and networks."
+    },
+    {
+      "end": "00:00:19.867",
+      "start": "00:00:12.067",
+      "text": " The number and complexity of the systems needed to conduct defensive cyber operations is also increasing at an exponential rate."
+    },
+    {
+      "end": "00:00:24.933",
+      "start": "00:00:19.867",
+      "text": " The solution space abounds with technology to find and mitigate threats."
+    },
+    {
+      "end": "00:00:36.200",
+      "start": "00:00:25.433",
+      "text": " Organizations are turning to artificial intelligence or AI to aid in their mission to counter adversary cyber threats by helping identify patterns in enterprise attacks."
+    },
+    {
+      "end": "00:00:45.400",
+      "start": "00:00:36.200",
+      "text": " The key benefit of AI is its ability to make mitigating decisions faster and at the scale required of today's digital ecosystem."
+    },
+    {
+      "end": "00:00:54.233",
+      "start": "00:00:45.400",
+      "text": " Organizations are also adopting security, orchestration, automation, and response or SOAR platforms into their protective architecture"
+    },
+    {
+      "end": "00:00:57.933",
+      "start": "00:00:54.233",
+      "text": " for faster actions at the required digital scale."
+    },
+    {
+      "end": "00:01:08.433",
+      "start": "00:00:57.933",
+      "text": " Threat identification and mitigation can occur faster and with greater efficiency and consistency through increased orchestration of automated delegated tasks."
+    },
+    {
+      "end": "00:01:19.533",
+      "start": "00:01:08.433",
+      "text": " Combining faster action from SOAR with faster decisions from AI will yield the type of response needed to not only mitigate but anticipate sophisticated cyber threats."
+    },
+    {
+      "end": "00:01:27.933",
+      "start": "00:01:19.533",
+      "text": " The Integrated Adaptive Cyber Defense Team, or IACD, conducted research to understand how to combine SOAR with AI."
+    },
+    {
+      "end": "00:01:33.633",
+      "start": "00:01:27.933",
+      "text": " The team investigated how to bridge these technologies while maintaining human control."
+    },
+    {
+      "end": "00:01:47.267",
+      "start": "00:01:33.633",
+      "text": " Key objectives of the research were to leverage the strengths of both SOAR and AI platforms to create a more modular architecture that simplifies decision making while maintaining the system's ability to adapt its responses."
+    },
+    {
+      "end": "00:01:57.667",
+      "start": "00:01:47.267",
+      "text": " The IACD team achieved this by identifying high-level desired outcomes known as cyber effects from a decision-making platform as inputs to a SOAR platform."
+    },
+    {
+      "end": "00:02:06.033",
+      "start": "00:01:57.667",
+      "text": " These outcomes describe the net effects without having to specify the exact steps or actions to execute encountering a threat."
+    },
+    {
+      "end": "00:02:12.933",
+      "start": "00:02:06.033",
+      "text": " Once an effect is selected after an event, additional information is gathered and a set of policies applied."
+    },
+    {
+      "end": "00:02:24.333",
+      "start": "00:02:12.933",
+      "text": " The combination of the desired effect, contextual information, and predefined policies allows for the selection of appropriate effects-based courses of actions, or COAS."
+    },
+    {
+      "end": "00:02:33.333",
+      "start": "00:02:24.333",
+      "text": " IACD utilized Dark Light, an AI expert system as a primary decision-maker within a defensive cyber operations workflow."
+    },
+    {
+      "end": "00:02:42.667",
+      "start": "00:02:33.333",
+      "text": " In the effects-based COAS experiment, these scenarios demonstrated tasks within Dark Light to distinguish between two types of malicious software."
+    },
+    {
+      "end": "00:02:49.133",
+      "start": "00:02:42.667",
+      "text": " One that executed data exfiltration, and the other that contained characteristics of ransomware."
+    },
+    {
+      "end": "00:02:54.533",
+      "start": "00:02:49.133",
+      "text": " Dark Light determined the desired cyber effect for each triggered malicious behavior."
+    },
+    {
+      "end": "00:02:59.833",
+      "start": "00:02:54.533",
+      "text": " The scenario also utilized orchestration workflows for three separate cyber effects."
+    },
+    {
+      "end": "00:03:03.233",
+      "start": "00:02:59.833",
+      "text": " Detect, recover, and contain."
+    },
+    {
+      "end": "00:03:12.633",
+      "start": "00:03:03.233",
+      "text": " By implementing an effects-based COA approach to the workflow, the experiment leveraged the strengths of both the decision-making and SOAR platforms."
+    },
+    {
+      "end": "00:03:22.000",
+      "start": "00:03:12.667",
+      "text": " By dividing up the responsibilities, the overall workflow was more modular, which simplified the development, testing, and implementation in each platform."
+    },
+    {
+      "end": "00:03:36.900",
+      "start": "00:03:22.000",
+      "text": " Defining effects-based COAs gives network defenders the tools they need to bridge the gaps between SOAR, AI, and human users for a better and faster decision-making process to counter today's cyber threats."
+    },
+    {
+      "end": "00:03:43.900",
+      "start": "00:03:36.900",
+      "text": " For more information on how to utilize SOAR to defend your networks, visit IACDautomate.org."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "IACD",
+  "youtube_channel_follower_count": 163,
+  "youtube_comment_count": 0,
+  "youtube_description": "In this video, IACD presents a technique for combining SOAR for machine speed action with Artificial Intelligence for machine speed decision making. This is done through defining \"Effects Based Courses of Action\" and training the AI to identify which effect will address various situations that then call the appropriate SOAR actions to achieve the effect within the situation at hand.",
+  "youtube_like_count": 7,
+  "youtube_tags": [
+    "IACD",
+    "Integrated Adaptive Cyber Defense",
+    "Integrated Cyber",
+    "Cyber Security",
+    "Cyber Defense",
+    "Automation",
+    "Orchestration",
+    "Information Sharing",
+    "Synchronization"
+  ],
+  "youtube_title": "Effects Based Courses of Action",
+  "youtube_upload_date": "20210105",
+  "youtube_view_count": 436
+}

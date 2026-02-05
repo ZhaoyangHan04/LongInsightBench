@@ -1,0 +1,323 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [],
+    "description": "A research paper presented in a still image video format, focusing on methods for spherical view synthesis in 360-degree depth estimation for self-supervised learning.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The research paper focuses on spherical view synthesis for self-supervised 360-degree depth estimation.",
+        "question": "What is the main focus of the research paper displayed in the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Display of the research paper title and abstract.",
+            "timestamp": {
+              "end_timestamp": "00:03:49.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 5.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The video serves as an informational and visual aid to understand the research topic presented.",
+        "dynamismScore": 2.0,
+        "mood": {
+          "description": "Informative and academic.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the research topic through a static display.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Research Paper",
+            "timestamp": {
+              "end_timestamp": "00:03:49.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Academic and technical exploration of 360-degree depth estimation.",
+        "timestamps": {
+          "end_timestamp": "00:03:49.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Main Still Image",
+        "videoEditingDetails": [
+          {
+            "description": "Still image throughout the video duration.",
+            "timestamps": {
+              "end_timestamp": "00:03:49.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Full display of the paper's title and abstract.",
+        "timestamp": "00:00:00.000"
+      },
+      "description": "The storyline revolves around presenting a research paper and its core concepts visually.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Spherical View Synthesis for Self-Supervised 360° Depth Estimation",
+    "trimmingSuggestions": [
+      {
+        "description": "The entire video consists of a single static image, so trimming can be applied to reduce video length while maintaining content.",
+        "timestamps": {
+          "end_timestamp": "00:03:49.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 230,
+  "original_json_filename": "7sWUyoJNe-U.json",
+  "original_video_filename": "7sWUyoJNe-U.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "we present our work on cells supervised 360 depth estimation based on spherical view synthesis data-driven depth perception needs to overcome the challenge of high quality data collection while low cost sensors provide an easy means to create data sets these suffer from systematic measurement noise and artifacts like holes synthetic data generation is another option which nonetheless needs to overcome the evident domain gap as a result indirect approaches surfaced using view synthesis exploiting the easy availability of stereo data or even unstructured videos these cells supervised approaches rely on view synthesis or provision via inverse warping for spherical images there is a lack of stereo datasets and a full disparity model has not been defined we overcome the difficulty in collecting 360 stereo data by generating a data set through ray tracing 3d scenes and produce renders for two different 360 stereo setups we additionally derive the complete spherical disparity model based on Cartesian displaced viewpoint by taking the analytic derivatives of the spherical coordinates with respect to the Cartesian ones the spherical disparity gamma is expressed as a function of depth and the displacement vector or otherwise the baseline B we can then arrive to a disparity definition for traditional single axis baselines we observed that there is no horizontal disparity on the equal rectangular image for the vertical placement while both disparity directions are needed for horizontally displaced viewpoints for the simpler vertical stereo view synthesis l supervision can be achieved using inverse warping however horizontal stereo is more challenging due to the irregular disparity patterns and the singularities where disparity approaches zero making gradients inconsistent spiracle distortion also produces one too many pixel mappings as well as many to one pixel mappings consequently learning cannot be achieved with inverse warping necessitating the use of splatting our architecture uses a large receptive field with pre-activated residual blocks and exponential linear unit activations through the estimated depth we synthesized the other stereo views to reduce the effect of inconsistent gradient flows and regularize the effect of distortion we employ an attention mechanism we supervise our model with a reconstruction loss and a total variation smoothness prior moreover our model uses coordinate convolutions to allow implicit learning of the Eco rectangular context we also investigate the complementarity of Atronach Euler stereo setup using a blending factor interestingly we find that there exists blending factors that deteriorate performance while vertical stereo offers good performance we managed to successfully train a horizontal model our ablation analysis reveals the coordinate convolutions greatly improved the performance in the vertical case while spherical attention considerably improved the performance of the horizontal one finally we are in the unique position to compare self supervision to fully supervised approaches our results showcase the quantitative superiority of the fully supervised model nonetheless cells supervise models produced smoother results and qualitatively better right your reconstruction results concluding we trained a 360 depth estimation model using view synthesis in a horizontal stereo setup something that was not possible with traditional warping and without a full spherical disparity model our work can enable future research for self supervised learning using unstructured 360 videos but also raises an open question whether this is the right direction",
+  "text_to_speech_word_count": 536,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.533",
+      "start": "00:00:00.000",
+      "text": " We present our work on cell supervised 360-depth estimation based on spherical view synthesis."
+    },
+    {
+      "end": "00:00:11.500",
+      "start": "00:00:06.533",
+      "text": " Data-driven depth perception needs to overcome the challenge of high-quality data collection."
+    },
+    {
+      "end": "00:00:15.500",
+      "start": "00:00:11.500",
+      "text": " While low-cost sensors provide an easy means to create datasets,"
+    },
+    {
+      "end": "00:00:19.500",
+      "start": "00:00:15.500",
+      "text": " these suffer from systematic measurement noise and artifacts like holes."
+    },
+    {
+      "end": "00:00:25.267",
+      "start": "00:00:19.500",
+      "text": " Synthetic data generation is another option, which nonetheless needs to overcome the evident domain gap."
+    },
+    {
+      "end": "00:00:29.033",
+      "start": "00:00:25.267",
+      "text": " As a result, indirect approaches surfaced using view synthesis,"
+    },
+    {
+      "end": "00:00:33.600",
+      "start": "00:00:29.033",
+      "text": " exploiting the easy availability of stereo data or even unstructured videos."
+    },
+    {
+      "end": "00:00:39.333",
+      "start": "00:00:33.600",
+      "text": " These cell supervised approaches rely on view synthesis supervision via inverse warping."
+    },
+    {
+      "end": "00:00:46.633",
+      "start": "00:00:40.400",
+      "text": " For spherical images, there is a lack of stereo datasets, and a full disparity model has not been defined."
+    },
+    {
+      "end": "00:00:52.933",
+      "start": "00:00:46.633",
+      "text": " We overcome the difficulty in collecting 360 stereo data by generating a dataset through ray tracing"
+    },
+    {
+      "end": "00:00:57.900",
+      "start": "00:00:52.933",
+      "text": " 3D scenes and produce renders for two different 360 stereo setups."
+    },
+    {
+      "end": "00:01:03.500",
+      "start": "00:00:57.900",
+      "text": " We additionally derive the complete spherical disparity model based on Cartesian displaced viewpoint"
+    },
+    {
+      "end": "00:01:08.633",
+      "start": "00:01:03.500",
+      "text": " by taking the analytic derivatives of the spherical coordinates with respect to the Cartesian ones,"
+    },
+    {
+      "end": "00:01:13.600",
+      "start": "00:01:08.633",
+      "text": " the spherical disparity gamma is expressed as a function of depth and the displacement vector,"
+    },
+    {
+      "end": "00:01:19.600",
+      "start": "00:01:13.600",
+      "text": " or otherwise the baseline B. We can then arrive to a disparity definition for traditional single axis"
+    },
+    {
+      "end": "00:01:25.900",
+      "start": "00:01:19.600",
+      "text": " baselines. We observe that there is no horizontal disparity on the equirect angular image for the vertical placement,"
+    },
+    {
+      "end": "00:01:30.000",
+      "start": "00:01:25.900",
+      "text": " while both disparity directions are needed for horizontally displaced viewpoints."
+    },
+    {
+      "end": "00:01:39.333",
+      "start": "00:01:33.333",
+      "text": " For the simpler vertical stereo, view synthesis else supervision can be achieved using inverse warping."
+    },
+    {
+      "end": "00:01:44.367",
+      "start": "00:01:39.333",
+      "text": " However, horizontal stereo is more challenging due to the irregular disparity patterns,"
+    },
+    {
+      "end": "00:01:48.867",
+      "start": "00:01:44.400",
+      "text": " and the singularities where disparity approaches zero, making gradients inconsistent."
+    },
+    {
+      "end": "00:01:58.233",
+      "start": "00:01:51.900",
+      "text": " Sphereical distortion also produces one to many pixel mappings, as well as many to one pixel mappings."
+    },
+    {
+      "end": "00:02:03.500",
+      "start": "00:01:58.233",
+      "text": " Consequently, learning can't be achieved within inverse warping, necessitating the use of splitting."
+    },
+    {
+      "end": "00:02:10.400",
+      "start": "00:02:05.600",
+      "text": " Our architecture uses a large receptive field with pre-activated residual blocks and"
+    },
+    {
+      "end": "00:02:16.400",
+      "start": "00:02:10.400",
+      "text": " exponential linear unit activations. Through the estimated depth we synthesize the other stereo views."
+    },
+    {
+      "end": "00:02:21.267",
+      "start": "00:02:16.400",
+      "text": " To reduce the effect of inconsistent gradient flows and regularize the effect of distortion,"
+    },
+    {
+      "end": "00:02:23.033",
+      "start": "00:02:21.267",
+      "text": " we employ an attention mechanism."
+    },
+    {
+      "end": "00:02:32.933",
+      "start": "00:02:27.667",
+      "text": " We supervise our model with a reconstruction loss and a total variation smoothness prior."
+    },
+    {
+      "end": "00:02:39.200",
+      "start": "00:02:32.933",
+      "text": " Moreover, our model uses coordinate convolutions to allow implicit learning of the equirect angular context."
+    },
+    {
+      "end": "00:02:44.300",
+      "start": "00:02:39.200",
+      "text": " We also investigate the complementarity of a translocular stereo setup using a blending factor."
+    },
+    {
+      "end": "00:02:50.000",
+      "start": "00:02:45.267",
+      "text": " Interestingly we find that there exist blending factors that deteriorate performance."
+    },
+    {
+      "end": "00:02:55.667",
+      "start": "00:02:50.000",
+      "text": " While vertical stereo offers good performance, we manage to successfully train a horizontal model."
+    },
+    {
+      "end": "00:03:00.700",
+      "start": "00:02:55.667",
+      "text": " Our ablation analysis reveals the coordinate convolutions greatly improved the performance in the"
+    },
+    {
+      "end": "00:03:06.067",
+      "start": "00:03:00.700",
+      "text": " vertical case, while spherical attention considerably improved the performance of the horizontal one."
+    },
+    {
+      "end": "00:03:11.733",
+      "start": "00:03:06.067",
+      "text": " Finally, we are in the unique position to compare cell supervision to fully supervised approaches."
+    },
+    {
+      "end": "00:03:16.400",
+      "start": "00:03:11.733",
+      "text": " Our results showcase the quantitative superiority of the fully supervised model."
+    },
+    {
+      "end": "00:03:20.933",
+      "start": "00:03:16.400",
+      "text": " Nonetheless, cell supervised models produce smoother results and qualitatively better"
+    },
+    {
+      "end": "00:03:26.867",
+      "start": "00:03:20.933",
+      "text": " write-view reconstruction results, including, we train to 360-depth estimation model using"
+    },
+    {
+      "end": "00:03:32.533",
+      "start": "00:03:26.867",
+      "text": " view synthesis in a horizontal stereo setup, something that was not possible with traditional warping"
+    },
+    {
+      "end": "00:03:35.267",
+      "start": "00:03:32.533",
+      "text": " and without a full spherical disparity model."
+    },
+    {
+      "end": "00:03:41.200",
+      "start": "00:03:35.267",
+      "text": " Our work can enable future research for cell supervised learning using unstructured 360 videos,"
+    },
+    {
+      "end": "00:03:44.633",
+      "start": "00:03:41.200",
+      "text": " but also raises an open question whether this is the right direction."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Nick Z",
+  "youtube_channel_follower_count": 3,
+  "youtube_comment_count": 0,
+  "youtube_description": "Learning based approaches for depth perception are limited by the availability of clean training data. This has led to the utilization of view synthesis as an indirect objective for learning depth estimation using efficient data acquisition procedures. Nonetheless, most research focuses on pinhole based monocular vision, with scarce works presenting results for omnidirectional input. In this work, we explore spherical view synthesis for learning monocular 360 depth in a self-supervised manner and demonstrate its feasibility. Under a purely geometrically derived formulation we present results for horizontal and vertical baselines, as well as for the trinocular case. Further, we show how to better exploit the expressiveness of traditional CNNs when applied to the equirectangular domain in an efficient manner. Finally, given the availability of ground truth depth data, our work is uniquely positioned to compare view synthesis against direct supervision in a consistent and fair manner. The results indicate that alternative research directions might be better suited to enable higher quality depth perception. Our data, models and code are publicly available at https://vcl3d.github.io/SphericalViewSynthesis/.",
+  "youtube_like_count": 6,
+  "youtube_tags": [
+    "CNN",
+    "Deep Learning",
+    "360",
+    "Spherical Panorama",
+    "Omnidirectional Image",
+    "Omnidirectional Stereo",
+    "Stereo Vision",
+    "Depth Estimation"
+  ],
+  "youtube_title": "Spherical View Synthesis for Self-Supervised 360 Depth Estimation",
+  "youtube_upload_date": "20190918",
+  "youtube_view_count": 947
+}

@@ -1,0 +1,947 @@
+{
+  "content_fine_category": "TED Talks",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man with dark hair and a beard, wearing a light gray hoodie and dark pants, with a name tag around his neck.",
+        "name": "Speaker"
+      }
+    ],
+    "description": "A conference presentation about the concept of stochastic depth in deep learning by a speaker.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The vertical bars represent different layers in a neural network. The height of the blue portion indicates the probability of a layer being active, while the red portion shows the chance of it being inactive.",
+        "question": "What are the vertical bars in the 'Stochastic Depth' diagram meant to represent?"
+      },
+      {
+        "answer": "The speaker states that residual learning primarily addresses the vanishing gradient problem, which hinders training deep neural networks.",
+        "question": "What does the speaker say is the primary problem that residual learning is trying to solve?"
+      },
+      {
+        "answer": "The speaker mentions using ImageNet and CIFAR.",
+        "question": "What data sets does the speaker mention using to test the effectiveness of residual networks?"
+      },
+      {
+        "answer": "The speaker believes that adding the residual provides context from the previous layer to the current input, aiding in the backpropagation process and improving the overall optimization of the function.",
+        "question": "What is the speaker's intuition behind why adding the residual from a previous layer helps the network?"
+      },
+      {
+        "answer": "The speaker explains that the sudden drop is due to the change in the learning rate, a common practice in training deep learning models.",
+        "question": "Why is there a sudden drop in accuracy around epoch 200 in one of the graphs?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaker explains the concept of stochastic depth.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker is presenting to an unseen audience."
+          }
+        ],
+        "contextualRelevance": "The conference setting and the topic of deep learning.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to stochastic depth.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Explanation of how stochastic depth works with layers.",
+            "timestamp": "00:00:10.000"
+          },
+          {
+            "description": "Explanation of how stochastic depth helps with regularization and speed.",
+            "timestamp": "00:00:26.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Podium",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Exploration of stochastic depth in neural networks.",
+        "timestamps": {
+          "end_timestamp": "00:00:40.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Stochastic Depth",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker continues explaining the benefits of stochastic depth, showing its impact on accuracy and speed-up.",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker continues presenting to the unseen audience."
+          }
+        ],
+        "contextualRelevance": "The positive results displayed in the graphs and the speaker's enthusiasm.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Discussing the impact of stochastic depth on accuracy.",
+            "timestamp": "00:00:41.000"
+          },
+          {
+            "description": "Explaining how stochastic depth achieves speed-up.",
+            "timestamp": "00:00:55.000"
+          },
+          {
+            "description": "Further analysis of stochastic depth's speed-up and regularization advantages.",
+            "timestamp": "00:01:25.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          },
+          {
+            "name": "Podium",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          },
+          {
+            "name": "Slides with graphs",
+            "timestamp": {
+              "end_timestamp": "00:01:59.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Demonstration of stochastic depth's benefits in deep learning models.",
+        "timestamps": {
+          "end_timestamp": "00:01:59.000",
+          "start_timestamp": "00:00:40.033"
+        },
+        "title": "Benefits of Stochastic Depth",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Speaker briefly introduces other interesting methods in deep learning.",
+            "timestamp": {
+              "end_timestamp": "00:03:01.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "description": "Speaker highlights three other methods and gives brief descriptions.",
+            "timestamp": {
+              "end_timestamp": "00:03:53.000",
+              "start_timestamp": "00:03:02.000"
+            }
+          },
+          {
+            "description": "Speaker mentions the implementation details and thanks the audience.",
+            "timestamp": {
+              "end_timestamp": "00:04:01.000",
+              "start_timestamp": "00:03:54.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Speaker"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker"
+            ],
+            "description": "The speaker is wrapping up his presentation to the unseen audience."
+          }
+        ],
+        "contextualRelevance": "Offering additional avenues for exploration fosters a sense of curiosity.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious -> Neutral -> Grateful",
+          "keyMoments": [
+            {
+              "changeDescription": "Transition from Neutral to Grateful as the speaker thanks the audience.",
+              "timestamp": "00:03:54.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Transitioning from stochastic depth to other interesting methods.",
+            "timestamp": "00:02:00.000"
+          },
+          {
+            "description": "Brief overview of three additional methods.",
+            "timestamp": "00:03:02.000"
+          },
+          {
+            "description": "Conclusion and thank you.",
+            "timestamp": "00:03:54.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:04:01.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "name": "Podium",
+            "timestamp": {
+              "end_timestamp": "00:04:01.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "name": "Slides with text and graphs",
+            "timestamp": {
+              "end_timestamp": "00:04:01.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Introduction of other significant methods and a conclusion.",
+        "timestamps": {
+          "end_timestamp": "00:04:01.000",
+          "start_timestamp": "00:01:59.033"
+        },
+        "title": "Conclusion and Additional Methods",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Q&A session with the audience.",
+            "timestamp": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:04:02.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Speaker",
+          "Audience (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker",
+              "Audience (voice only)"
+            ],
+            "description": "The speaker interacts with the audience by answering their questions."
+          }
+        ],
+        "contextualRelevance": "The Q&A session indicates a desire to clarify information and engage in further discussion.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Addressing audience questions, providing additional insights into the topic.",
+            "timestamp": null
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:04:02.000"
+            }
+          },
+          {
+            "name": "Podium",
+            "timestamp": {
+              "end_timestamp": "00:04:50.000",
+              "start_timestamp": "00:04:02.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Audience engagement through Q&A.",
+        "timestamps": {
+          "end_timestamp": "00:04:50.000",
+          "start_timestamp": "00:04:01.033"
+        },
+        "title": "Q&A Session Part 1",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Q&A session continues with the audience.",
+            "timestamp": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:04:51.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Speaker",
+          "Audience (voice only)"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Speaker",
+              "Audience (voice only)"
+            ],
+            "description": "The speaker continues to interact with the audience by responding to their questions."
+          }
+        ],
+        "contextualRelevance": "The ongoing Q&A session suggests the audience's interest in the topic.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Focused on the Q&A interaction, continuing to provide insights.",
+            "timestamp": null
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:04:51.000"
+            }
+          },
+          {
+            "name": "Podium",
+            "timestamp": {
+              "end_timestamp": "00:07:48.000",
+              "start_timestamp": "00:04:51.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Extended audience engagement and insights during Q&A.",
+        "timestamps": {
+          "end_timestamp": "00:07:48.100",
+          "start_timestamp": "00:04:50.033"
+        },
+        "title": "Q&A Session Part 2",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Speaker shows the graphs demonstrating benefits of stochastic depth in terms of accuracy and speed-up.",
+        "timestamp": "00:01:25.000"
+      },
+      "description": "Main storyline is the explanation of stochastic depth, with the climax involving the demonstration of its benefits, while the supporting storyline focuses on the Q&A session.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Deep Learning Conference Talk on Stochastic Depth",
+    "trimmingSuggestions": [
+      {
+        "description": "The brief descriptions of other methods could be trimmed or omitted to maintain a tighter focus on stochastic depth.",
+        "timestamps": {
+          "end_timestamp": "00:04:50.033",
+          "start_timestamp": "00:04:50.033"
+        }
+      },
+      {
+        "description": "Scenes 4 and 5 are very long and could be significantly condensed, focusing on the most relevant questions and answers.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 468,
+  "original_json_filename": "tL5gyHLPBXE.json",
+  "original_video_filename": "tL5gyHLPBXE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so what stochastic depth is doing is it tries to ignore adding Identity or adding f of x sometimes to the end of the result okay let me clearly explain as you can see this let's say the vertical lines are layers and the number above the vertical lines is probability that you will add the residual to the output so what stochastic depth CSS let us say there is a probability I will draw a unique number if my unique number is lesser than the probability I'll add my residual to the output of the layer so how does this help one ah one and a direct help is regularization so if you keep on training your net continuously over the images it starts over fitting to the image you doing like like what every other method which says drop a parameter or or anything else does dropping a layer also helps you with regularization and what else it helps with the speed as well why so when you are choose picking and choosing which layer to run or when to run a corn net you are ignoring running coordinates certain times also you are just sending the identity from previous function through and you are not running the residual so from the computation uh around 70 you're only running corn has 70 percent of the time if you are assigning DK probability to a layer so this so so one direct output of it is accuracy you can see that till 400 epochs residual networks without stochastic depth and weak stochastic depth are performing same so after 400 epochs what is happening the regularization part of the advantage comes in handy and resonates with stochastic depth give a greater accuracy and what else as I told speed up you can see almost so I'm giving test errors on y-axis and server well probability the numbers above the vertical lines on x-axis by choosing what kind of a test error you want and what kind of survival problem probability you want for the layers you can see that you can get a speed up up to 2x so why the speed up still we are able to train it in one week why the speed up let's say tomorrow you want to run a resnet which is 1200 layers deep so 1200 layers deep is the difference between months to couple of weeks probably takes you to run a 1200 layer resnet for four weeks and stochastic depth can run it just in two weeks so uh boring graph on Vanishing gradient if you actually care about that and other methods which I want to leave you with this because I have couple of minutes I'll try to I'm not doing Justice to the methods but I'll try to explain what they are the recent past they have published something called a swap out method swap out method is also a regularization method where they add residual feed forward and drop out as well fractal Nets which are hyped called Ultra deep neural Nets which say that we don't need residuals by stacking these fractal Nets together we'll still give our output and residual the third one which says that instead of just adding the residual from the previous layer you can add an ensemble of previous layers residual also to the current layer and give you the output so last one yeah so I've done implementation of the stochastic depth method and residual learning it's on my GitHub page that's it thank you [Applause] okay thank you oh yeah so what is the problem you have used for you know use this residual so can you speak loudly what was the problem you were trying to solve with this residual neural network was that the imagenet problem or was it something else some so primarily it was the vanishing gradient problem so but it was the simple motivation is well from eight layers to 22 layers I could go easily without facing any problems but when I am trying to do that after 20 when I go 50 doing this similar thing my accuracy is going down instead of going up so that was reduced to the vanishing gradient problem and to solve that we can they came up with the residual learning idea oh imagine it imagine it and cifr AG hi uh this is hi this is dilip so yeah I had two questions one why should this adding the residue help and to in one of the graphs that you shot maybe around 200 epochs after that was a sudden drop why was there a sudden drop so the the silent drop is because change of learning rate the in usual methods what you do is you write a callback for changing your rate of learning after changing sub certain number of epochs so that was the certain drop and intuition behind residual net like ah it it still the risk of astounding stupid uh deep learning is still a very black box method but if you ask my intuition it's like you are you are adding the state of a previous layer to give the context to the current input so this will help with the gradient cause back propagation method you need to have a context of the whole thing and you are optimizing the whole function hello so can you speak up please your lstm analogy I mean your gut feeling on how close is the lstm analogy okay uh it it was its widely discussed on Reddit if Reddit is not a very credible source of discussions there is a publication by MIT PhD students which draws a close analogy between residual Nets and rnns so I could offline give you the paper as well if you like it So yeah thank you [Applause]",
+  "text_to_speech_word_count": 983,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.000",
+      "start": "00:00:00.000",
+      "text": " So, what stochastic depth is doing is it tries to ignore adding identity or adding f of x"
+    },
+    {
+      "end": "00:00:10.633",
+      "start": "00:00:08.000",
+      "text": " sometimes to the end of the result."
+    },
+    {
+      "end": "00:00:13.533",
+      "start": "00:00:10.633",
+      "text": " Okay, let me clearly explain."
+    },
+    {
+      "end": "00:00:19.467",
+      "start": "00:00:13.533",
+      "text": " As you can see this, let's say the vertical lines are layers and the number above the vertical"
+    },
+    {
+      "end": "00:00:25.000",
+      "start": "00:00:19.467",
+      "text": " lines is probability that you will add the residual to the output."
+    },
+    {
+      "end": "00:00:33.233",
+      "start": "00:00:25.467",
+      "text": " So, what stochastic depth says is, let's say there's a probability, I'll draw a unique number."
+    },
+    {
+      "end": "00:00:39.133",
+      "start": "00:00:33.233",
+      "text": " If my unique number is lesser than the probability, I'll add my residual to the output of the"
+    },
+    {
+      "end": "00:00:40.133",
+      "start": "00:00:39.133",
+      "text": " layer."
+    },
+    {
+      "end": "00:00:43.433",
+      "start": "00:00:40.133",
+      "text": " So, how does this help?"
+    },
+    {
+      "end": "00:00:47.533",
+      "start": "00:00:43.433",
+      "text": " One, one and a direct help is regularization."
+    },
+    {
+      "end": "00:00:53.033",
+      "start": "00:00:47.533",
+      "text": " So, if you keep on training your net continuously over the images, it starts overfitting to the"
+    },
+    {
+      "end": "00:00:54.033",
+      "start": "00:00:53.033",
+      "text": " image."
+    },
+    {
+      "end": "00:01:02.033",
+      "start": "00:00:54.033",
+      "text": " So, doing like what every other method which says drop a parameter or anything else does,"
+    },
+    {
+      "end": "00:01:05.933",
+      "start": "00:01:02.033",
+      "text": " dropping a layer also helps you with regularization and what else?"
+    },
+    {
+      "end": "00:01:07.800",
+      "start": "00:01:05.933",
+      "text": " It helps you with the speed as well."
+    },
+    {
+      "end": "00:01:08.800",
+      "start": "00:01:07.800",
+      "text": " Why?"
+    },
+    {
+      "end": "00:01:15.833",
+      "start": "00:01:08.800",
+      "text": " So, when you're picking and choosing which layer to run or when to run a connet, you're"
+    },
+    {
+      "end": "00:01:18.200",
+      "start": "00:01:15.833",
+      "text": " ignoring running connet certain times also."
+    },
+    {
+      "end": "00:01:22.900",
+      "start": "00:01:18.200",
+      "text": " You're just sending the identity from previous function through and you're not running the"
+    },
+    {
+      "end": "00:01:23.900",
+      "start": "00:01:22.900",
+      "text": " residual."
+    },
+    {
+      "end": "00:01:31.467",
+      "start": "00:01:23.900",
+      "text": " So, from the computation around 70 percent, you're only running connet 70 percent of the"
+    },
+    {
+      "end": "00:01:35.000",
+      "start": "00:01:31.467",
+      "text": " time if you're assigning dk probability to a layer."
+    },
+    {
+      "end": "00:01:43.300",
+      "start": "00:01:35.000",
+      "text": " So, this, so, so, one direct output of it is accuracy."
+    },
+    {
+      "end": "00:01:49.133",
+      "start": "00:01:43.300",
+      "text": " You can see that till 400 epochs residual networks without stochastic depth and weak"
+    },
+    {
+      "end": "00:01:51.267",
+      "start": "00:01:49.133",
+      "text": " stochastic depth are performing same."
+    },
+    {
+      "end": "00:01:55.000",
+      "start": "00:01:51.267",
+      "text": " So, after 400 epochs what is happening?"
+    },
+    {
+      "end": "00:02:02.100",
+      "start": "00:01:55.000",
+      "text": " The regularization part of the advantage comes in handy and the rest nets with stochastic"
+    },
+    {
+      "end": "00:02:06.500",
+      "start": "00:02:02.100",
+      "text": " depth give a greater accuracy and what else?"
+    },
+    {
+      "end": "00:02:13.067",
+      "start": "00:02:06.500",
+      "text": " As I told speed up, you can see almost, so, I'm giving test errors on y-axis and survival"
+    },
+    {
+      "end": "00:02:19.233",
+      "start": "00:02:13.067",
+      "text": " probability, the numbers above the vertical lines on x-axis by choosing what kind of a test"
+    },
+    {
+      "end": "00:02:25.333",
+      "start": "00:02:19.300",
+      "text": " error you want and what kind of survival probability you want for the layers."
+    },
+    {
+      "end": "00:02:28.467",
+      "start": "00:02:25.333",
+      "text": " You can see that you can get a speed up up to 2 x."
+    },
+    {
+      "end": "00:02:30.600",
+      "start": "00:02:28.467",
+      "text": " So, why the speed up?"
+    },
+    {
+      "end": "00:02:33.833",
+      "start": "00:02:30.600",
+      "text": " Still, we are able to train it in one week, why the speed up?"
+    },
+    {
+      "end": "00:02:39.600",
+      "start": "00:02:33.833",
+      "text": " Let's say tomorrow you want to run a, ResNet which is 1200 layers deep."
+    },
+    {
+      "end": "00:02:46.233",
+      "start": "00:02:39.600",
+      "text": " So, 1200 layers deep is the difference between months to couple of weeks."
+    },
+    {
+      "end": "00:02:52.600",
+      "start": "00:02:46.233",
+      "text": " Probably it takes you to run a 1200 layer ResNet for 4 weeks and stochastic depth can run"
+    },
+    {
+      "end": "00:02:54.467",
+      "start": "00:02:52.600",
+      "text": " it just in 2 weeks."
+    },
+    {
+      "end": "00:03:02.800",
+      "start": "00:02:54.467",
+      "text": " So, boring graph on vanishing gradient if you actually care about that and other methods"
+    },
+    {
+      "end": "00:03:05.100",
+      "start": "00:03:02.800",
+      "text": " which I want to leave you with."
+    },
+    {
+      "end": "00:03:10.200",
+      "start": "00:03:05.100",
+      "text": " This because of couple of minutes I will try to, I'm not doing justice to the methods"
+    },
+    {
+      "end": "00:03:12.600",
+      "start": "00:03:10.200",
+      "text": " but I will try to explain what they are."
+    },
+    {
+      "end": "00:03:16.133",
+      "start": "00:03:12.600",
+      "text": " The recent past they have published something called a swap out method."
+    },
+    {
+      "end": "00:03:23.800",
+      "start": "00:03:16.133",
+      "text": " A swap out method is also a regularization method where they add residual, feed forward"
+    },
+    {
+      "end": "00:03:26.433",
+      "start": "00:03:23.800",
+      "text": " and drop out as well."
+    },
+    {
+      "end": "00:03:32.700",
+      "start": "00:03:26.433",
+      "text": " Fractal nets which are hyped called ultra deep neural nets which say that we do not need"
+    },
+    {
+      "end": "00:03:38.067",
+      "start": "00:03:32.700",
+      "text": " residuals by stacking these fractal nets together will still give a output."
+    },
+    {
+      "end": "00:03:44.267",
+      "start": "00:03:38.067",
+      "text": " And residual the third one which says that instead of just adding the residual from the"
+    },
+    {
+      "end": "00:03:49.933",
+      "start": "00:03:44.267",
+      "text": " previous layer you can add a ensemble of previous layers residual also to the current"
+    },
+    {
+      "end": "00:03:52.600",
+      "start": "00:03:49.933",
+      "text": " layer and give you the output."
+    },
+    {
+      "end": "00:03:54.133",
+      "start": "00:03:52.600",
+      "text": " So, last one yeah."
+    },
+    {
+      "end": "00:03:59.833",
+      "start": "00:03:54.133",
+      "text": " So, I've done implementation of the stochastic depth method and residual learning it's on"
+    },
+    {
+      "end": "00:04:00.833",
+      "start": "00:03:59.833",
+      "text": " my GitHub page."
+    },
+    {
+      "end": "00:04:01.833",
+      "start": "00:04:00.833",
+      "text": " That's it."
+    },
+    {
+      "end": "00:04:02.833",
+      "start": "00:04:01.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:03.833",
+      "start": "00:04:02.833",
+      "text": " Thank you."
+    },
+    {
+      "end": "00:04:04.833",
+      "start": "00:04:03.833",
+      "text": " Oh."
+    },
+    {
+      "end": "00:04:05.833",
+      "start": "00:04:04.833",
+      "text": " Yeah."
+    },
+    {
+      "end": "00:04:07.833",
+      "start": "00:04:05.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:09.833",
+      "start": "00:04:07.833",
+      "text": " Thank you."
+    },
+    {
+      "end": "00:04:13.833",
+      "start": "00:04:09.833",
+      "text": " Oh, yeah."
+    },
+    {
+      "end": "00:04:23.833",
+      "start": "00:04:13.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:27.833",
+      "start": "00:04:23.833",
+      "text": " Thank you."
+    },
+    {
+      "end": "00:04:42.833",
+      "start": "00:04:27.833",
+      "text": " Oh, yeah."
+    },
+    {
+      "end": "00:04:52.833",
+      "start": "00:04:42.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:02.833",
+      "start": "00:04:52.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:12.833",
+      "start": "00:05:02.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:20.833",
+      "start": "00:05:12.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:30.833",
+      "start": "00:05:20.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:38.833",
+      "start": "00:05:30.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:48.833",
+      "start": "00:05:38.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:05:50.833",
+      "start": "00:05:48.833",
+      "text": " Hi."
+    },
+    {
+      "end": "00:05:52.833",
+      "start": "00:05:50.833",
+      "text": " This is the lip."
+    },
+    {
+      "end": "00:05:54.833",
+      "start": "00:05:52.833",
+      "text": " I had two questions."
+    },
+    {
+      "end": "00:05:56.833",
+      "start": "00:05:54.833",
+      "text": " One, why should this add the residue help?"
+    },
+    {
+      "end": "00:06:02.833",
+      "start": "00:05:56.833",
+      "text": " And two, in one of the graphs that you showed, maybe around 200 epochs after that was a sudden drop."
+    },
+    {
+      "end": "00:06:04.833",
+      "start": "00:06:02.833",
+      "text": " Why was there a sudden drop?"
+    },
+    {
+      "end": "00:06:08.833",
+      "start": "00:06:04.833",
+      "text": " Because the sudden drop is because of the change of learning rate."
+    },
+    {
+      "end": "00:06:12.833",
+      "start": "00:06:08.833",
+      "text": " The unusual method, what you do is you write a call back for changing your rate of learning after changing"
+    },
+    {
+      "end": "00:06:14.833",
+      "start": "00:06:12.833",
+      "text": " some certain number of epochs."
+    },
+    {
+      "end": "00:06:16.833",
+      "start": "00:06:14.833",
+      "text": " So that was the sudden drop."
+    },
+    {
+      "end": "00:06:20.833",
+      "start": "00:06:16.833",
+      "text": " And intuition behind residual net."
+    },
+    {
+      "end": "00:06:24.833",
+      "start": "00:06:20.833",
+      "text": " Like, it's still the risk of stoning stupid."
+    },
+    {
+      "end": "00:06:28.833",
+      "start": "00:06:24.833",
+      "text": " Deep learning is still a very black box method."
+    },
+    {
+      "end": "00:06:32.833",
+      "start": "00:06:28.833",
+      "text": " But if you ask my intuition, it's like you're adding the same method."
+    },
+    {
+      "end": "00:06:38.833",
+      "start": "00:06:32.833",
+      "text": " So you're adding the state of a previous layer to give the context to the current input."
+    },
+    {
+      "end": "00:06:42.833",
+      "start": "00:06:38.833",
+      "text": " So this will help with the gradient cost back propagation method."
+    },
+    {
+      "end": "00:06:44.833",
+      "start": "00:06:42.833",
+      "text": " You need to have a context of the whole thing."
+    },
+    {
+      "end": "00:06:50.833",
+      "start": "00:06:44.833",
+      "text": " And you're optimizing the whole function."
+    },
+    {
+      "end": "00:06:52.833",
+      "start": "00:06:50.833",
+      "text": " Hello."
+    },
+    {
+      "end": "00:06:54.833",
+      "start": "00:06:52.833",
+      "text": " How close is the LST?"
+    },
+    {
+      "end": "00:06:56.833",
+      "start": "00:06:54.833",
+      "text": " Sir, can you speak up please?"
+    },
+    {
+      "end": "00:06:58.833",
+      "start": "00:06:56.833",
+      "text": " How close is your LSTM analogy?"
+    },
+    {
+      "end": "00:07:02.833",
+      "start": "00:06:58.833",
+      "text": " I mean, your gut feeling on how close is the LSTM analogy?"
+    },
+    {
+      "end": "00:07:04.833",
+      "start": "00:07:02.833",
+      "text": " Okay."
+    },
+    {
+      "end": "00:07:08.833",
+      "start": "00:07:04.833",
+      "text": " It was, it's widely discussed on Reddit."
+    },
+    {
+      "end": "00:07:18.833",
+      "start": "00:07:08.833",
+      "text": " If Reddit is not a very credible source of discussions, there is a publication by MIT PSD students,"
+    },
+    {
+      "end": "00:07:22.833",
+      "start": "00:07:18.833",
+      "text": " which draws a close analogy between residual nets and RNNs."
+    },
+    {
+      "end": "00:07:26.833",
+      "start": "00:07:22.833",
+      "text": " So I could offline give you the paper as well if you like it."
+    },
+    {
+      "end": "00:07:36.833",
+      "start": "00:07:26.833",
+      "text": " So yeah, thank you."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Hasgeek TV",
+  "youtube_channel_follower_count": 35500,
+  "youtube_comment_count": 0,
+  "youtube_description": "The talk will introduce Deep Residual Learning and provide an in depth idea of how Residual Networks work. It will also cover stochastic depth method which helps to increase the depth of residual networks beyond 1200 layers.",
+  "youtube_like_count": 10,
+  "youtube_tags": [
+    "hasgeek"
+  ],
+  "youtube_title": "Pradyumna Reddy - Residual Learning and Stochastic Depth in Deep Neural Networks",
+  "youtube_upload_date": "20160705",
+  "youtube_view_count": 1032
+}

@@ -1,0 +1,742 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male voice, not visible on screen.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A detailed analysis of a video tutorial on calculating FWHM using Origin software for XRD peaks.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "0.19842",
+        "question": "What is the value of FWHM obtained for the single peak fit?"
+      },
+      {
+        "answer": "Origin",
+        "question": "What software is used for the Gaussian fitting in this tutorial?"
+      },
+      {
+        "answer": "Older versions may not have the necessary features for Gaussian fitting.",
+        "question": "Why does the narrator suggest using a recent version of Origin?"
+      },
+      {
+        "answer": "It allows the software to automatically iterate the fit until it achieves the best possible results.",
+        "question": "What is the advantage of using the 'Fit until converged' option in Origin?"
+      },
+      {
+        "answer": "The third peak was significantly smaller than the other two, making it difficult for the software to find a suitable fit.",
+        "question": "Why did the narrator encounter problems when trying to fit three peaks simultaneously?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the tutorial topic: how to calculate FWHM for various peaks in an XRD pattern.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Curious. The narrator's introduction piques interest in learning the process.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the tutorial topic.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Title screen 'FWHM using ORIGIN' with a background image of an XRD pattern and a Gaussian curve diagram.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "XRD analysis, FWHM calculation.",
+        "timestamps": {
+          "end_timestamp": "00:00:09.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to FWHM Tutorial",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or special effects.",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the Scherrer formula for calculating crystallite size, highlighting the role of FWHM.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:09.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Educational. The narrator explains a scientific formula and its application.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of the theoretical background.",
+            "timestamp": "00:00:09.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Slide with title 'Crystallite Size Broadening' containing the Scherrer formula and bullet points explaining its components.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:09.040"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Crystallite size, peak broadening, Scherrer formula.",
+        "timestamps": {
+          "end_timestamp": "00:01:09.000",
+          "start_timestamp": "00:00:09.040"
+        },
+        "title": "Explanation of Scherrer Formula",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene.",
+            "timestamps": {
+              "end_timestamp": "00:00:09.040",
+              "start_timestamp": "00:00:09.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator discusses the Origin software and the importance of using recent versions.",
+            "timestamp": {
+              "end_timestamp": "00:02:52.520",
+              "start_timestamp": "00:01:09.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Informative. The narrator provides practical advice about the software used in the tutorial.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Transition to practical application, setting up the software.",
+            "timestamp": "00:01:09.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blank screen of Origin software.",
+            "timestamp": {
+              "end_timestamp": "00:02:52.520",
+              "start_timestamp": "00:01:09.040"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Origin software, Gaussian fitting, XRD analysis.",
+        "timestamps": {
+          "end_timestamp": "00:02:52.520",
+          "start_timestamp": "00:01:09.040"
+        },
+        "title": "Introduction to Origin Software",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene.",
+            "timestamps": {
+              "end_timestamp": "00:01:09.040",
+              "start_timestamp": "00:01:09.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator imports XRD data from a Notepad file into Origin.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          },
+          {
+            "description": "Narrator plots the XRD data in Origin, creating a graph.",
+            "timestamp": {
+              "end_timestamp": "00:03:52.000",
+              "start_timestamp": "00:03:30.000"
+            }
+          },
+          {
+            "description": "Narrator demonstrates how to perform a Gaussian fit on a single peak in the XRD pattern using Origin.",
+            "timestamp": {
+              "end_timestamp": "00:04:58.000",
+              "start_timestamp": "00:03:52.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Instructive. The narrator provides step-by-step instructions for importing, plotting, and fitting the data.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstration of data import, plotting, and Gaussian fitting on a single peak.",
+            "timestamp": "00:02:53.000"
+          },
+          {
+            "description": "Narrator confirms the data is imported.",
+            "timestamp": "00:03:31.000"
+          },
+          {
+            "description": "Narrator confirms the graph is created.",
+            "timestamp": "00:03:52.000"
+          },
+          {
+            "description": "Narrator selects the Gaussian function for fitting.",
+            "timestamp": "00:04:47.000"
+          },
+          {
+            "description": "Narrator confirms the Gaussian fit is complete.",
+            "timestamp": "00:04:58.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Notepad file containing XRD data.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          },
+          {
+            "name": "Origin software window with imported data and graph.",
+            "timestamp": {
+              "end_timestamp": "00:04:58.000",
+              "start_timestamp": "00:03:30.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Data import, plotting, Gaussian fitting, XRD analysis.",
+        "timestamps": {
+          "end_timestamp": "00:04:58.000",
+          "start_timestamp": "00:02:52.560"
+        },
+        "title": "Importing and Plotting XRD Data",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene.",
+            "timestamps": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          },
+          {
+            "description": "Quick cut to the plotted graph in Origin.",
+            "timestamps": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:03:30.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator further explores Gaussian fitting, attempting to fit multiple peaks simultaneously and highlighting potential challenges.",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:04:58.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Instructive but with a hint of challenge. The narrator demonstrates a more complex process and acknowledges potential difficulties.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Exploration of fitting multiple peaks, encountering issues, and providing solutions.",
+            "timestamp": "00:04:58.040"
+          },
+          {
+            "description": "Narrator shows the statistical data table.",
+            "timestamp": "00:06:09.000"
+          },
+          {
+            "description": "Narrator discusses the Gaussian fit equation, parameters, and their values.",
+            "timestamp": "00:06:47.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Origin software window with the graph and Gaussian fit results.",
+            "timestamp": {
+              "end_timestamp": "00:06:48.000",
+              "start_timestamp": "00:04:58.040"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Gaussian fitting, multiple peak fitting, XRD analysis, potential challenges in data analysis.",
+        "timestamps": {
+          "end_timestamp": "00:06:48.000",
+          "start_timestamp": "00:04:58.040"
+        },
+        "title": "Fitting Multiple Peaks",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene.",
+            "timestamps": {
+              "end_timestamp": "00:04:58.040",
+              "start_timestamp": "00:04:58.040"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator performs a successful Gaussian fit on two peaks, explaining the results and concluding the tutorial.",
+            "timestamp": {
+              "end_timestamp": "00:09:31.000",
+              "start_timestamp": "00:06:48.040"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Successful and concluding. The narrator achieves a good fit, summarizes the process, and encourages further engagement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Successful fitting of multiple peaks and conclusion of the tutorial.",
+            "timestamp": "00:06:48.040"
+          },
+          {
+            "description": "Narrator aborts the previous attempt and performs a successful fit on two peaks.",
+            "timestamp": "00:07:47.000"
+          },
+          {
+            "description": "Narrator confirms a good fit for two peaks.",
+            "timestamp": "00:09:02.000"
+          },
+          {
+            "description": "Narrator concludes the tutorial and thanks viewers.",
+            "timestamp": "00:09:20.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Origin software window with the graph and Gaussian fit results.",
+            "timestamp": {
+              "end_timestamp": "00:09:31.000",
+              "start_timestamp": "00:06:48.040"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Gaussian fitting, multiple peak fitting, XRD analysis, successful data analysis, conclusion.",
+        "timestamps": {
+          "end_timestamp": "00:09:46.640",
+          "start_timestamp": "00:06:48.040"
+        },
+        "title": "Concluding the Gaussian Fit",
+        "videoEditingDetails": [
+          {
+            "description": "Cut transition from the previous scene.",
+            "timestamps": {
+              "end_timestamp": "00:06:48.040",
+              "start_timestamp": "00:06:48.040"
+            }
+          },
+          {
+            "description": "Transition to an end screen with subscription prompts.",
+            "timestamps": {
+              "end_timestamp": "00:09:31.000",
+              "start_timestamp": "00:09:31.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The narrator successfully fits two peaks simultaneously.",
+        "timestamp": "00:07:47.000"
+      },
+      "description": "The tutorial demonstrating how to calculate FWHM of XRD peaks using Origin software.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "FWHM Tutorial Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "The blank Origin screen could be shortened or replaced with a more dynamic visual, such as a screenshot of the software's fitting capabilities or a brief animation of the import process.",
+        "timestamps": {
+          "end_timestamp": "00:06:48.040",
+          "start_timestamp": "00:06:48.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 587,
+  "original_json_filename": "PwCc4ecj2w0.json",
+  "original_video_filename": "PwCc4ecj2w0.mp4",
+  "resolution": "640x348",
+  "text_to_speech": "hey guys how's it going so in this tutorial I'm gonna show you guys how to calculate FWHM for the various peaks in your XID pattern now the FWHM is given by a formula something like this this is called the shear formula so here beta is your full width at half maximum and it is really proportional to 2 theta or dependent on that then it is equal to K lambda by L cos theta where LLC crystallite size therefore the peak width is needed to calculate the crystallite size for your sample and that is what I'm gonna show you how to do that and the factor K here is you know it can take several values depending on the type or the shape and size of your sample so it can either take point eight nine point nine four and many people just take it to be one it doesn't really matter that much then lambda is the wavelength of your x-ray and cos theta here as theta would be the angle or the positional angular position of the peak and beta that is a full width at half maximum or the FWHM should be ingredients so many people make the mistake when I used to do that or did that one time at least that I took beta in you know degrees you have to take that ingredients and another way to calculate the crystallite size could be to use the integral bread instead of FWHM and that can also be done pretty easily but I will show that in some other video and this video will be dedicated to only you know learning how to carefully DFT H and so how to calculate the FWHM would be to use some kind of software that performs a Gaussian fit for my excited beta and in my case I'll be using origin and so you should you know if you don't have origin then you should get origin maybe what some of the tutorial because this one is based on origin so another thing to know is that I I'm not sure about that but I don't think that origin version less than 8 or 8.5 can do this I have got origin 9 but you know just make sure that you get some latest origin to do this because I'm not sure if fortunes before 8.5 could do that I mean they do have you know wizard that performs of it but I'm not really sure how well that you know is okay so enough with the chitchat and now let's begin to calculate the FWHM for my exciting pattern so I have my you know x ha d data in this notepad file or txt file so let me just copy all that and you know okay so let's copy all the data and now we will plot it Oh oops gonna have to repeat that again okay so just copy all the data down till the very end press ctrl C and paste it in the Excel window okay so now I have the data okay so just what I did was I press control and selected the two columns and right clicked on them and went to plot and we went to lined and aligned so that will plot your exciting pattern okay so here is the exciting pattern as you can see I have a ready-made team that shows tooth here here intensity here and you can just label whatever you want here okay so let's say I want to get the FWHM for this particular peak right this is the highest intensity peaks and it should be noted that you get you know the press light size it is advised to get the width of the most intense peaks of your exotic pattern so just press here to scale in to this peak okay and make sure you have some of your background radiation on the both sides and then go to analysis then two peaks and baselines then multiple peak faked and open the dialog okay so in this dialog what you need to do is you need to select a peak function and I'll be using Gaussian function okay it will prompt you to double click to pick the peaks in my case it's just one so I'll just go here ahead and here I'll double click it and then open any lift that is that sense for nonlinear fit okay so here it is showing you various parameters like base and amplitude after blue HM etcetera now what you need to do is you need to click here that is fit until converged and voila your Gaussian fit is ready and you can get the parameters from here that is the FWHM for this particular fade is point four nine eight four two okay then and you know this you know dialog box.also shows you that kind of function that you know you are using to ratio data and you can use many of the functions by you know just going to settings and bringing up some other function and you know feeling guilty that so anywho what we needed was have tableau hm using the Gaussian fit and we got it so just go ahead and press done and it will generate a good you know nice table for you so this is some statistical data like the R square values etc and a lot of data is here and you can just you know check the fitted points also here then I don't need that all I need is you know the plot right here so I've got that so here I have my you know equation of the Gaussian fit the our reduce chi-square value the adjusted r-square cetera and all the parameters for the fit okay so that's how you calculate the Gaussian fit for a particular peak and in case you wanted to do a lot of peaks at once and what you could have done was you know just okay so to illustrate that let me just create a another graph so I'll just go to this book back sheet one and let me just create another graph to show you how to you know get the Gaussian fit for over a number of peaks at once so what you need to do is basically just go ahead and select multiple Peaks and then go to analysis multiple peak fit that is what we use last time okay so Gaussian okay selected peaks by double-clicking on those open and lift nonlinear fit okay and then just fit them until they converge okay now as you can see the iterations keep on going and going and they will probably go on till 100 but I'll just go ahead and stop it right now so what you can see is that even after so many iterations it just couldn't provide a fit for this third peak so maybe we should you know select Peaks a little differently so maybe we can get you know these two peaks at once but not the third peak along with them so that is a common problem so it is usually advised still you know only take the most intense peaks for your you know for the analysis of crystallite size and as you could see that that peak the third peak was pretty much you know really chilly really small compared to these two so there was some problem with that and here what I've done is I just dressed it and I got up you know the Gaussian fit for the two peaks at once and you can see that it was pretty good actually the blue curve if you see it is pretty much same same or is approximating the original data pretty good so the two FWHM for the two peaks are you know point 199 and point two one okay so well that's it that's how you perform a Gaussian fit for your peaks in your XID data and get the FWHM and does calculate it with large size using the formula that I just mentioned okay but I hope you enjoyed this video and learned something from it if you did don't forget to hit the like button and subscribe to my channel for more videos like this and thanks for watching and have a great day [Music]",
+  "text_to_speech_word_count": 1416,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.000",
+      "start": "00:00:00.000",
+      "text": " Hey guys, how's it going? So in this tutorial, I'm going to show you guys how to calculate FWHM for the various peaks in your X-RD pattern."
+    },
+    {
+      "end": "00:00:16.000",
+      "start": "00:00:08.000",
+      "text": " Now the FWHM is given by a formula something like this. This is called the ShrR formula."
+    },
+    {
+      "end": "00:00:28.000",
+      "start": "00:00:16.000",
+      "text": " So here beta is your full width at half maximum and it is very proportional to 2 theta or dependent on that."
+    },
+    {
+      "end": "00:00:39.000",
+      "start": "00:00:28.000",
+      "text": " Then it is equal to K lambda by L cos theta where L is the crystallite size. Therefore the peak width is needed to calculate the crystallite size for your sample."
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:39.000",
+      "text": " And that is what I'm going to show you how to do that."
+    },
+    {
+      "end": "00:00:53.000",
+      "start": "00:00:43.000",
+      "text": " And the factor K here is, you know, it can take several values depending on the type or the shape and size of your sample."
+    },
+    {
+      "end": "00:01:02.000",
+      "start": "00:00:53.000",
+      "text": " So it can either take 0.89.94 and many people just take it to be 1. It doesn't really matter that much."
+    },
+    {
+      "end": "00:01:14.000",
+      "start": "00:01:02.000",
+      "text": " Then lambda is the wavelength of your X-ray. And cos theta here, theta would be the angle or the position of the peak and beta."
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:14.000",
+      "text": " That is a full width at half maximum or the FWHM should be in gradients. So many people make the mistake."
+    },
+    {
+      "end": "00:01:31.000",
+      "start": "00:01:21.000",
+      "text": " When I used to do that or did that one time at least, that I took beta in, you know, degrees. So you have to take that in gradients."
+    },
+    {
+      "end": "00:01:39.000",
+      "start": "00:01:31.000",
+      "text": " And another way to calculate the crystallite size could be to use the integral breadth instead of FWHM."
+    },
+    {
+      "end": "00:01:49.000",
+      "start": "00:01:39.000",
+      "text": " And that can also be done pretty easily. But I will show that in some other video and this video will be dedicated to only, you know, learning how to calculate the FWHM."
+    },
+    {
+      "end": "00:01:58.000",
+      "start": "00:01:49.000",
+      "text": " So how to calculate the FWHM would be to use some kind of software that performs a Gaussian fit for my X-ray beta."
+    },
+    {
+      "end": "00:02:07.000",
+      "start": "00:01:58.000",
+      "text": " And in my case, I will be using origin. And so you should, you know, if you don't have origin, then you should get origin."
+    },
+    {
+      "end": "00:02:19.000",
+      "start": "00:02:07.000",
+      "text": " Or maybe it was some of the tutorial because this one is based on origin. So another thing to know is that I'm not sure about that."
+    },
+    {
+      "end": "00:02:37.000",
+      "start": "00:02:19.000",
+      "text": " But I don't think that origin version less than 8 or 8.5 can do this. I have got origin 9, but, you know, just make sure that you get some latest origin to do this because I'm not sure if versions before 8.5 could do this."
+    },
+    {
+      "end": "00:02:45.000",
+      "start": "00:02:37.000",
+      "text": " I mean, they do have, you know, wizard that performs a fit, but I'm not really sure how well that, you know, is."
+    },
+    {
+      "end": "00:02:57.000",
+      "start": "00:02:45.000",
+      "text": " Okay, so enough with the chit chat. And now let's begin to calculate the FWHM for my exciting pattern. So I have my, you know, ex-hardy data in this notepad file or TXT file."
+    },
+    {
+      "end": "00:03:07.000",
+      "start": "00:02:57.000",
+      "text": " So let me just copy all that. And, you know, okay, so let's copy all the data."
+    },
+    {
+      "end": "00:03:14.000",
+      "start": "00:03:07.000",
+      "text": " And now we will plot it. Oh, oops. I'm going to have to repeat that again."
+    },
+    {
+      "end": "00:03:33.000",
+      "start": "00:03:14.000",
+      "text": " Okay, so just copy all the data down till the very end. Press Ctrl C and paste it in the ex-old. Okay, so now I have the data."
+    },
+    {
+      "end": "00:03:48.000",
+      "start": "00:03:33.000",
+      "text": " Okay, so just what I did was I pressed Ctrl and selected the two columns and right-click on them, then went to plot and went to line, then line."
+    },
+    {
+      "end": "00:03:54.000",
+      "start": "00:03:48.000",
+      "text": " So that will plot your ex-hardy pattern. Okay, so here is the ex-hardy pattern."
+    },
+    {
+      "end": "00:04:02.000",
+      "start": "00:03:54.000",
+      "text": " As you can see, I have already made TNT that shows two TNT here and the XCD here. And you can just label whatever you want here."
+    },
+    {
+      "end": "00:04:09.000",
+      "start": "00:04:02.000",
+      "text": " Okay, so let's say I want to get the FWHM for this particular peak. Right? This is the highest intensity peak."
+    },
+    {
+      "end": "00:04:18.000",
+      "start": "00:04:09.000",
+      "text": " And it should be noted that to get, you know, the pristly side it is advised to get the width of the most intense peaks of your ex-hardy pattern."
+    },
+    {
+      "end": "00:04:27.000",
+      "start": "00:04:18.000",
+      "text": " So just press here to scale in to this peak. Okay, and make sure you have some of the background radiation on the both sides."
+    },
+    {
+      "end": "00:04:37.000",
+      "start": "00:04:27.000",
+      "text": " And then go to analysis, then two peaks and baselines, then multiple peakfict and open the dialog."
+    },
+    {
+      "end": "00:04:48.000",
+      "start": "00:04:37.000",
+      "text": " Okay, so in this dialog, what you need to do is you need to select a peak function and I'll be using Gaussian function."
+    },
+    {
+      "end": "00:05:01.000",
+      "start": "00:04:48.000",
+      "text": " Okay, I will prompt you to double-click to pick the peaks. In my case, it's just one. So I'll just go ahead and here I'll double-click it and then open N-lift."
+    },
+    {
+      "end": "00:05:12.000",
+      "start": "00:05:01.000",
+      "text": " That is, that stands for non-linear fit. Okay, so here it is showing you various parameters like base, center amplitude, FWHM, etc."
+    },
+    {
+      "end": "00:05:23.000",
+      "start": "00:05:12.000",
+      "text": " Now what you need to do is you need to click here that is fit until converged and voila your Gaussian fit is ready and you can get the parameters from here."
+    },
+    {
+      "end": "00:05:44.000",
+      "start": "00:05:23.000",
+      "text": " So that is the FWHM for this particular fit is 0.49842. Okay, then and you know this, you know, dialog box also shows you the kind of function that you are using to fit your data."
+    },
+    {
+      "end": "00:05:53.000",
+      "start": "00:05:44.000",
+      "text": " And you can use many of the functions by, you know, just into settings and bringing up some of the functions, you know, filling your data."
+    },
+    {
+      "end": "00:06:07.000",
+      "start": "00:05:53.000",
+      "text": " So any who what we needed was after BWHM using the Gaussian fit and we got it. So just go ahead and press done and it will generate a good, you know, nice table for you."
+    },
+    {
+      "end": "00:06:18.000",
+      "start": "00:06:08.000",
+      "text": " So this is some statistical data like the R2 values, etc."
+    },
+    {
+      "end": "00:06:33.000",
+      "start": "00:06:18.000",
+      "text": " And a lot of data is here and you can just, you know, check the fitted points also here. Then I don't need that. All I need is, you know, the plot right here. So I've got that."
+    },
+    {
+      "end": "00:06:46.000",
+      "start": "00:06:33.000",
+      "text": " So here I have my, you know, equation of the Gaussian fit, the R reduced sky square value, the adjuster square, etc. and all the parameters for the fit."
+    },
+    {
+      "end": "00:07:02.000",
+      "start": "00:06:46.000",
+      "text": " Okay, so that's how you calculate the Gaussian fit for a particular peak. And in case you wanted to do a lot of peak set ones, then what you could have done was, you know, just, okay, so to illustrate that, let me just create another graph."
+    },
+    {
+      "end": "00:07:15.000",
+      "start": "00:07:02.000",
+      "text": " So I'll just go to this book back sheet one. And let me just create another graph to show you how to, you know, get the Gaussian fit for a number of peaks at once."
+    },
+    {
+      "end": "00:07:28.000",
+      "start": "00:07:15.000",
+      "text": " So what you need to do is basically just go ahead and select multiple peaks and then go to analysis multiple peak fit. That is what we use last time."
+    },
+    {
+      "end": "00:07:44.000",
+      "start": "00:07:28.000",
+      "text": " Okay, so Gaussian, okay, select the peaks by double clicking on those open and left non-linear fit."
+    },
+    {
+      "end": "00:07:54.000",
+      "start": "00:07:44.000",
+      "text": " Okay, and then just fit them until they converge. Okay, now as you can see the iterations keep on going and going and they will probably go until 100."
+    },
+    {
+      "end": "00:08:04.000",
+      "start": "00:07:54.000",
+      "text": " I'll just go ahead and start with right now. So what you can see is that even after so many iterations, it just couldn't provide a fit for this third peak."
+    },
+    {
+      "end": "00:08:15.000",
+      "start": "00:08:04.000",
+      "text": " So maybe we should, you know, select the peaks a little differently. So maybe we can get, you know, these two peaks at once, but not the third peak along with them."
+    },
+    {
+      "end": "00:08:29.000",
+      "start": "00:08:15.000",
+      "text": " So that is a common problem. So it is usually advised to, you know, only take the most intense peaks for your, you know, for the analysis of crystallite size."
+    },
+    {
+      "end": "00:08:40.000",
+      "start": "00:08:29.000",
+      "text": " And as you could see that that peak, the third peak was pretty much, you know, relatively really small compared to these two. So they were some problem with that."
+    },
+    {
+      "end": "00:08:55.000",
+      "start": "00:08:40.000",
+      "text": " And here what I've done is I just press this and I got, you know, the Gaussian fit for the two peaks at once. And we can see that it's pretty good actually the blue curve if you see."
+    },
+    {
+      "end": "00:09:08.000",
+      "start": "00:08:55.000",
+      "text": " It is pretty much the same or is approximating the original data pretty good. So the two FWHM for the two peaks are, you know, 0.199 and 0.21."
+    },
+    {
+      "end": "00:09:20.000",
+      "start": "00:09:08.000",
+      "text": " Okay, so well that's it. That's how you perform a Gaussian fit for your peaks and your excited data and get the FWHM and does calculate the crystallite size using the formula that I just mentioned."
+    },
+    {
+      "end": "00:09:32.000",
+      "start": "00:09:20.000",
+      "text": " Okay, well hope you enjoyed this video and learned something from it. And if you did, don't forget to hit the like button and subscribe to my channel for more videos like this. And thanks for watching and have a great day."
+    },
+    {
+      "end": "00:09:45.000",
+      "start": "00:09:38.000",
+      "text": " ."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Phys Whiz",
+  "youtube_channel_follower_count": 18500,
+  "youtube_comment_count": 49,
+  "youtube_description": "A detailed explanation of how to calculate the Full Width At Half Maximum(FWHM) for the peaks in the XRD pattern.\nThe video demonstrates the use of Origin to perform a Gaussian fit of the XRD data to get the FWHM.\n\nResources:\nhttp://www.bragitoff.com/2017/08/x-ray-diffraction-xrd/\nhttp://www.bragitoff.com/2017/08/faq-x-ray-diffraction-viva-questions/",
+  "youtube_like_count": 2679,
+  "youtube_tags": [
+    "XRD",
+    "X Ray Diffraction",
+    "Peak",
+    "Peak Width",
+    "FWHM",
+    "Origin",
+    "Integral"
+  ],
+  "youtube_title": "Calculating FWHM for XRD Peaks using ORIGIN",
+  "youtube_upload_date": "20170910",
+  "youtube_view_count": 313030
+}

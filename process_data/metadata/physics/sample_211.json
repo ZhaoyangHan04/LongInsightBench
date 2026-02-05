@@ -1,0 +1,635 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A middle-aged man with short dark hair and tanned skin. He is wearing a black shirt and is holding a pen. He writes equations on a whiteboard.",
+        "name": "Lecturer"
+      }
+    ],
+    "description": "A math lecture focusing on the mathematical concepts of divergence and curl, providing examples of calculating each for a given vector field.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "v = -2xy**i** + (x^2 - y^2)**j**",
+        "question": "What is the given vector field for which the divergence and curl are calculated?"
+      },
+      {
+        "answer": "-4y",
+        "question": "What is the final result of the divergence calculation?"
+      },
+      {
+        "answer": "In the z-hat direction.",
+        "question": "In what direction does the curl of the vector field point?"
+      },
+      {
+        "answer": "Divergence represents how much the field spreads out at a given point.",
+        "question": "What physical interpretation does the lecturer give for divergence?"
+      },
+      {
+        "answer": "He encourages viewers to practice calculating divergence and curl, emphasizing their importance in electromagnetism.",
+        "question": "What advice does the lecturer give to viewers regarding these concepts?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Writing equations on a whiteboard and explaining them",
+            "timestamp": {
+              "end_timestamp": "00:07:27.013",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lecturer"
+            ],
+            "description": "The lecturer directly addresses the viewer, explaining the concepts and calculations."
+          }
+        ],
+        "contextualRelevance": "The lecturer's choice of a simple vector field makes the calculations easier to follow and understand.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious. The scene focuses on explaining mathematical concepts, sparking curiosity in viewers who wish to understand them. The calm voice of the lecturer and the clear presentation contribute to this mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction, stating the problem to be solved (finding divergence and curl of a given vector field).",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Calculating the divergence of the vector field.",
+            "timestamp": "00:00:23.991"
+          },
+          {
+            "description": "Calculating the curl of the vector field.",
+            "timestamp": "00:02:33.987"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:07:27.013",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Pen",
+            "timestamp": {
+              "end_timestamp": "00:07:27.013",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Vector calculus, divergence, curl.",
+        "timestamps": {
+          "end_timestamp": "00:07:27.614",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Explaining Divergence and Curl",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects. The video is a single static shot of the whiteboard.",
+            "timestamps": {
+              "end_timestamp": "00:07:27.013",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The lecturer completes the calculation of the curl.",
+        "timestamp": "00:07:27.013"
+      },
+      "description": "Calculating the divergence and curl of a given vector field.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Math Lecture: Divergence and Curl",
+    "trimmingSuggestions": [
+      {
+        "description": "The entire video could be trimmed. The calculations are presented in a lengthy manner, and the video could be made more concise by condensing the explanations and showing only the key steps of the calculations. Adding visual aids like diagrams or animations could also increase dynamism.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 448,
+  "original_json_filename": "DMt9erUmiJE.json",
+  "original_video_filename": "DMt9erUmiJE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "okay so what I'd like to do is just go through I've got two of these things I'd like to do that are fairly simple more or less like the book does where I just have some sort of function and I got this function here I chose it for a reason but you know you'll see p you'll see what that is later on this is a vector field with components in the X in the Y direction it has nothing in the Z direction I want to find its divergence and its curl ok so the divergence is a scalar right that it comes about from taking del V right so it's a scalar derivative and it basically shows you know whether or not there are scalar sources at some point that's one that's one way of thinking about it shows how much the field separates if you're going to be taking electricity and magnetism that's actually exactly what it is it is a it is going to tell you about um scalar sources if you're taking something that has to do with you know plasma dynamics it might have something to do with compressibility of the gas and things like that so there are some other interpretations depending on the actual physical situations are some other things that can happen with the divergence so we've got this guy coming here and now we just want to do this operator so the dot product remember is just X component next 10 y component Y component Z component Z component right so we take the X derivative of the X component minus 2xy and then we add in the Y component that the y derivative of the Y component so ddy x squared minus y squared and then just for completeness sake could normally I just ignore this eye candy DZ and multiply it by the Z component which is 0 which is always going to be 0 so I'm not really worried about it at the moment now I can go ahead and I can go through and hit this derivative right so i take the derivative of minus 2x Y with respect to X that just gets rid of the X so we have minus 2y and I do the same thing for d dy and that's DD y x squared minus y squared x squared D dy 0 y squared it's minus 2y again so we've got minus 4y as our divergence all right so that's how that's how much the field is spreading out it spreads out depending basically on how high it is right how far up the UM it is in the y-direction be we want to do the curl right the curls the other of these vector products the other derivatives on a vector function with respect to the vector components which is again you take this del operator and now you're going to find about find out how much it's swirling around or another way to think about it is where are the vector where are the vector sources vector sources have something to do with this cross product right x squared Y squared Z X Y Z D DX dy DZ cross this fun function that I wrote up there it's going to be one of your favorites right you're going to write poems epic poetry to this wonderful function here um now I can what should I do with this why don't you tell me what I should do with this oh well I'm going to go ahead and I'll do with this cyclically so what that means is I just take the for the X component I do things with the y and z components so I start with the X component then I take the next one which is why and take the group why for the first vector and then Z for the for the second vector and that's the Z component there so be 0 right there so we have x d dy of 0 and then we subtract the third from the second so the Z from the y so we have D DZ or the multics of the third and a second DBZ x squared Y squared so that has nothing to do with Z so this guys want to end up being 0 and the y hat direction I start start started with y so I do z x x so d DZ minus 2xy right minus x x z so that's d 0 DX so again we've got something that's going to be 0 so we're only going to have a Z component so getting this last one right is probably pretty important so now for the Z the next one is you come all the way back around and that's 1 so 1 1 x 2 all right well that's going to be d DX of x squared minus y squared minus d dy 2 times 1 of minus 2xy alright so that's all in the Z direction and let me see how would I how would I say something about this okay d DX that's 2x minus minus 2x so that's plus 2x which is equal to 4x in the Z hat direction alright so that's pointy not so whatever this is it's circulating around in the XY plane which makes a lot of sense because I got these XY things here and this is actually proportional to us I think sine 2 theta and this is proportional to cosine two theta so that makes some sense to me in general um so this is what we get for these two for these two operations the dot product takes a vector turns it into it into a scale or derivative a dot product is a scalar and for the vector V that's for the cross product that turns it into another vector there are some issues with that I could talk about them but I won't but this only works really really well in this only works this way in three dimensions so only think about the curl in three dimensions if you want to go to multiple dimensions talk to me and we'll talk about all the issues that you'll have with it all right so um anyways this is where you get to start with all these vector functions or vector derivatives and that and I gotta tell you you're going to see this a lot in electricity and magnetism so you know go ahead practice practice practice get this done because this is something that you don't want to be behind on when you get into e in it all right thank you very much for listening and I will see you soon bye",
+  "text_to_speech_word_count": 1138,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.977",
+      "start": "00:00:00.000",
+      "text": " Okay, so what I'd like to do is just go through, I've got two of these things I'd like to do that are fairly simple, more or less like the book does where I just have some sort of function."
+    },
+    {
+      "end": "00:00:15.983",
+      "start": "00:00:09.977",
+      "text": " And I've got this function here, I chose it for a reason, but you'll see what that is later on."
+    },
+    {
+      "end": "00:00:20.988",
+      "start": "00:00:15.983",
+      "text": " This is a vector field with components in the x in the y direction and has nothing in the z direction."
+    },
+    {
+      "end": "00:00:23.991",
+      "start": "00:00:20.988",
+      "text": " I want to find its divergence and its curl."
+    },
+    {
+      "end": "00:00:34.968",
+      "start": "00:00:23.991",
+      "text": " Okay, so the divergence is a scalar, right, that it comes about from taking del dot v, right, so it's a scalar derivative."
+    },
+    {
+      "end": "00:00:48.982",
+      "start": "00:00:34.968",
+      "text": " And it basically shows, you know, whether or not there are scalar sources at some point, that's one that's one way of thinking about it, shows how much the field separates."
+    },
+    {
+      "end": "00:00:53.987",
+      "start": "00:00:48.982",
+      "text": " If you're going to be taking electricity and magnetism, that's actually exactly what it is."
+    },
+    {
+      "end": "00:00:57.991",
+      "start": "00:00:53.987",
+      "text": " It is going to tell you about scalar sources."
+    },
+    {
+      "end": "00:01:06.967",
+      "start": "00:00:57.991",
+      "text": " If you're taking something that has to do with, you know, plasma dynamics, it might have something to do with compressibility of the gas and things like that."
+    },
+    {
+      "end": "00:01:13.974",
+      "start": "00:01:06.967",
+      "text": " So there are some other interpretations, depending on the actual physical situation."
+    },
+    {
+      "end": "00:01:16.977",
+      "start": "00:01:13.974",
+      "text": " There are some other things that can happen with the divergence."
+    },
+    {
+      "end": "00:01:22.983",
+      "start": "00:01:17.978",
+      "text": " So we've got this guy coming here, and now we just want to do this operator."
+    },
+    {
+      "end": "00:01:28.989",
+      "start": "00:01:22.983",
+      "text": " So that product, remember, is just x component, x component, y component, y component, z component, z component."
+    },
+    {
+      "end": "00:01:36.997",
+      "start": "00:01:28.989",
+      "text": " Right, so we take the extra derivative of the x component, minus 2 x y."
+    },
+    {
+      "end": "00:01:43.971",
+      "start": "00:01:36.997",
+      "text": " And then we add in the y component, the y derivative of the y component."
+    },
+    {
+      "end": "00:01:47.975",
+      "start": "00:01:43.971",
+      "text": " So ddy x squared minus y squared."
+    },
+    {
+      "end": "00:01:52.980",
+      "start": "00:01:47.975",
+      "text": " And then I just, for completeness sake, could normally just ignore this."
+    },
+    {
+      "end": "00:01:58.986",
+      "start": "00:01:52.980",
+      "text": " I can do ddz and multiply it by the z component, which is zero, which is always going to be zero."
+    },
+    {
+      "end": "00:02:01.989",
+      "start": "00:01:58.986",
+      "text": " So I'm not really worried about it at the moment."
+    },
+    {
+      "end": "00:02:10.998",
+      "start": "00:02:01.989",
+      "text": " Now I can go ahead and I can go through and hit this derivative."
+    },
+    {
+      "end": "00:02:15.969",
+      "start": "00:02:10.998",
+      "text": " So I take the derivative of minus 2xy with respect to x. That just gets rid of the x."
+    },
+    {
+      "end": "00:02:17.971",
+      "start": "00:02:15.969",
+      "text": " So we have minus 2y."
+    },
+    {
+      "end": "00:02:20.974",
+      "start": "00:02:17.971",
+      "text": " And I do the same thing for ddy."
+    },
+    {
+      "end": "00:02:23.977",
+      "start": "00:02:20.974",
+      "text": " And that's ddy x squared minus y squared."
+    },
+    {
+      "end": "00:02:26.980",
+      "start": "00:02:23.977",
+      "text": " x squared ddy zero."
+    },
+    {
+      "end": "00:02:29.983",
+      "start": "00:02:26.980",
+      "text": " y squared it's minus 2y again."
+    },
+    {
+      "end": "00:02:32.986",
+      "start": "00:02:29.983",
+      "text": " So we've got minus 4y as our divergence."
+    },
+    {
+      "end": "00:02:36.990",
+      "start": "00:02:32.986",
+      "text": " All right, so that's how much the field is spreading out."
+    },
+    {
+      "end": "00:02:41.995",
+      "start": "00:02:36.990",
+      "text": " It spreads out, depending basically on how high it is."
+    },
+    {
+      "end": "00:02:46.967",
+      "start": "00:02:41.995",
+      "text": " Right, how far up the it is in the y direction."
+    },
+    {
+      "end": "00:02:48.969",
+      "start": "00:02:46.967",
+      "text": " B, we want to do the curl, right?"
+    },
+    {
+      "end": "00:02:53.974",
+      "start": "00:02:48.969",
+      "text": " The curl is the other of these vector products."
+    },
+    {
+      "end": "00:03:05.986",
+      "start": "00:02:53.974",
+      "text": " The other derivatives on a vector function with respect to the vector components, which is again you take this Dell operator."
+    },
+    {
+      "end": "00:03:15.996",
+      "start": "00:03:05.986",
+      "text": " And now you're going to find out how much it's swirling around or another way to think about it is where are the vector?"
+    },
+    {
+      "end": "00:03:18.999",
+      "start": "00:03:15.996",
+      "text": " Where are the vector sources?"
+    },
+    {
+      "end": "00:03:24.971",
+      "start": "00:03:18.999",
+      "text": " Right, vector sources have something to do with this cross product."
+    },
+    {
+      "end": "00:03:33.980",
+      "start": "00:03:24.971",
+      "text": " x squared y squared zxyz, ddx, dy, dz cross this function that I wrote up there."
+    },
+    {
+      "end": "00:03:37.984",
+      "start": "00:03:33.980",
+      "text": " It's going to be one of your favorites, right?"
+    },
+    {
+      "end": "00:03:43.990",
+      "start": "00:03:37.984",
+      "text": " You're going to write poems epic poetry to this wonderful function here."
+    },
+    {
+      "end": "00:03:50.997",
+      "start": "00:03:44.991",
+      "text": " Now I can... what should I do with this?"
+    },
+    {
+      "end": "00:03:53.967",
+      "start": "00:03:50.997",
+      "text": " Why don't you tell me what I should do with this?"
+    },
+    {
+      "end": "00:03:56.970",
+      "start": "00:03:53.967",
+      "text": " Oh, well, I'm going to go ahead and I'll do with this cyclically."
+    },
+    {
+      "end": "00:04:02.976",
+      "start": "00:03:56.970",
+      "text": " So what that means is I just take the, for the x component, I do things with the y and z components."
+    },
+    {
+      "end": "00:04:04.978",
+      "start": "00:04:02.976",
+      "text": " So I start with the x component."
+    },
+    {
+      "end": "00:04:12.986",
+      "start": "00:04:04.978",
+      "text": " And then I take the next one, which is y, and take the y for the first vector, and then z for the second vector."
+    },
+    {
+      "end": "00:04:15.989",
+      "start": "00:04:12.986",
+      "text": " And that's the z component there, so the zero right there."
+    },
+    {
+      "end": "00:04:22.996",
+      "start": "00:04:15.989",
+      "text": " So we have x, ddy of zero."
+    },
+    {
+      "end": "00:04:26.967",
+      "start": "00:04:22.996",
+      "text": " And then we subtract the third from the second."
+    },
+    {
+      "end": "00:04:28.969",
+      "start": "00:04:26.967",
+      "text": " So the z from the y."
+    },
+    {
+      "end": "00:04:36.977",
+      "start": "00:04:28.969",
+      "text": " So we have ddz, or the product of the third in the second, ddz, x squared, y squared."
+    },
+    {
+      "end": "00:04:38.979",
+      "start": "00:04:36.977",
+      "text": " So that has nothing to do with z."
+    },
+    {
+      "end": "00:04:41.982",
+      "start": "00:04:38.979",
+      "text": " So this guy's going to end up being zero."
+    },
+    {
+      "end": "00:04:45.986",
+      "start": "00:04:41.982",
+      "text": " And the y hat direction, I start with y."
+    },
+    {
+      "end": "00:04:49.990",
+      "start": "00:04:45.986",
+      "text": " So I do z multiplied by x."
+    },
+    {
+      "end": "00:04:53.994",
+      "start": "00:04:49.990",
+      "text": " So ddz minus 2xy."
+    },
+    {
+      "end": "00:04:54.995",
+      "start": "00:04:53.994",
+      "text": " Right."
+    },
+    {
+      "end": "00:04:58.999",
+      "start": "00:04:54.995",
+      "text": " Minus x multiplied by z."
+    },
+    {
+      "end": "00:05:00.967",
+      "start": "00:04:58.999",
+      "text": " So that's d0dx."
+    },
+    {
+      "end": "00:05:03.970",
+      "start": "00:05:00.967",
+      "text": " So again, we've got something that's going to be zero."
+    },
+    {
+      "end": "00:05:06.973",
+      "start": "00:05:03.970",
+      "text": " So we're only going to have a z component."
+    },
+    {
+      "end": "00:05:10.977",
+      "start": "00:05:06.973",
+      "text": " So getting this last one right is probably pretty important."
+    },
+    {
+      "end": "00:05:15.982",
+      "start": "00:05:10.977",
+      "text": " So now for the z, the next one is, you come all the way back around in that one."
+    },
+    {
+      "end": "00:05:19.986",
+      "start": "00:05:15.982",
+      "text": " So one, one times two, right."
+    },
+    {
+      "end": "00:05:34.968",
+      "start": "00:05:19.986",
+      "text": " Well, that's going to be ddx of x squared minus y squared minus ddy, two times one of minus 2xy."
+    },
+    {
+      "end": "00:05:35.969",
+      "start": "00:05:34.968",
+      "text": " All right."
+    },
+    {
+      "end": "00:05:38.972",
+      "start": "00:05:35.969",
+      "text": " So that's all in the z direction."
+    },
+    {
+      "end": "00:05:40.974",
+      "start": "00:05:38.972",
+      "text": " And let me see."
+    },
+    {
+      "end": "00:05:44.978",
+      "start": "00:05:40.974",
+      "text": " How would I say something about this?"
+    },
+    {
+      "end": "00:05:48.982",
+      "start": "00:05:44.978",
+      "text": " Okay, ddx, that's 2x."
+    },
+    {
+      "end": "00:05:50.984",
+      "start": "00:05:48.982",
+      "text": " Minus minus 2x."
+    },
+    {
+      "end": "00:05:55.989",
+      "start": "00:05:50.984",
+      "text": " So that's plus 2x, which is equal to 4x in the z hat direction."
+    },
+    {
+      "end": "00:05:56.990",
+      "start": "00:05:55.989",
+      "text": " That's it."
+    },
+    {
+      "end": "00:05:57.991",
+      "start": "00:05:56.990",
+      "text": " All right."
+    },
+    {
+      "end": "00:05:58.992",
+      "start": "00:05:57.991",
+      "text": " So that's pointing out."
+    },
+    {
+      "end": "00:06:05.999",
+      "start": "00:05:58.992",
+      "text": " So whatever this is, it's circulating around in the xy plane, which makes a lot of sense because I've got these xy things here."
+    },
+    {
+      "end": "00:06:11.972",
+      "start": "00:06:05.999",
+      "text": " And this is actually proportional to, I think sine 2 theta."
+    },
+    {
+      "end": "00:06:13.974",
+      "start": "00:06:11.972",
+      "text": " And this is proportional to cosine 2 theta."
+    },
+    {
+      "end": "00:06:17.978",
+      "start": "00:06:13.974",
+      "text": " So that makes some sense to me in general."
+    },
+    {
+      "end": "00:06:23.984",
+      "start": "00:06:17.978",
+      "text": " And so this is what we get for these two operations."
+    },
+    {
+      "end": "00:06:32.993",
+      "start": "00:06:23.984",
+      "text": " The dot product takes a vector, turns it into a scalar, a derivative of a dot product is a scalar."
+    },
+    {
+      "end": "00:06:40.000",
+      "start": "00:06:32.993",
+      "text": " And for the vector v, that's for the cross product that turns it into another vector."
+    },
+    {
+      "end": "00:06:41.968",
+      "start": "00:06:40.000",
+      "text": " There are some issues with that."
+    },
+    {
+      "end": "00:06:43.970",
+      "start": "00:06:41.968",
+      "text": " I could talk about them, but I won't."
+    },
+    {
+      "end": "00:06:50.977",
+      "start": "00:06:43.970",
+      "text": " But this only works really, really well in, this only works this way in three dimensions."
+    },
+    {
+      "end": "00:06:52.979",
+      "start": "00:06:50.977",
+      "text": " So only think about the curl in three dimensions."
+    },
+    {
+      "end": "00:06:55.982",
+      "start": "00:06:52.979",
+      "text": " If you want to go to multiple dimensions, talk to me."
+    },
+    {
+      "end": "00:06:58.985",
+      "start": "00:06:55.982",
+      "text": " And we'll talk about all the issues that you'll have with it."
+    },
+    {
+      "end": "00:06:59.986",
+      "start": "00:06:58.985",
+      "text": " All right."
+    },
+    {
+      "end": "00:07:07.994",
+      "start": "00:06:59.986",
+      "text": " So anyways, this is where you get to start with all of these vector functions or vector derivatives."
+    },
+    {
+      "end": "00:07:12.999",
+      "start": "00:07:07.994",
+      "text": " And I got to tell you, you're going to see this a lot in electricity and magnetism."
+    },
+    {
+      "end": "00:07:17.971",
+      "start": "00:07:12.999",
+      "text": " So, you know, go ahead, practice, practice, practice, get this done,"
+    },
+    {
+      "end": "00:07:22.976",
+      "start": "00:07:17.971",
+      "text": " because this is something that you don't want to be behind on when you get into Ian."
+    },
+    {
+      "end": "00:07:23.977",
+      "start": "00:07:22.976",
+      "text": " All right."
+    },
+    {
+      "end": "00:07:26.980",
+      "start": "00:07:23.977",
+      "text": " Thank you very much for listening and I will see you soon."
+    },
+    {
+      "end": "00:07:27.981",
+      "start": "00:07:26.980",
+      "text": " Bye."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "James Rantschler",
+  "youtube_channel_follower_count": 756,
+  "youtube_comment_count": 0,
+  "youtube_description": "A quick example of taking the divergence and the curl of a simple vector field:\n\nv(r) = [-2xy,x^2-y^2,0]",
+  "youtube_like_count": 0,
+  "youtube_tags": [
+    "Curl",
+    "Divergence",
+    "Calculus (Field Of Study)",
+    "euclidean vector"
+  ],
+  "youtube_title": "Divergence and Curl",
+  "youtube_upload_date": "20150714",
+  "youtube_view_count": 401
+}

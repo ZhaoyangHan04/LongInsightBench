@@ -1,0 +1,644 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Not visible.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video on various methods to fix DNS server issues.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The three methods are: 1) Resetting IP address and Winsock, 2) Flushing DNS resolver cache, and 3) Manually setting DNS server addresses.",
+        "question": "What are the three methods shown in the video to fix DNS server problems?"
+      },
+      {
+        "answer": "The command is 'netsh int ip reset c:\\resetlog.txt'.",
+        "question": "What command is used to reset the IP address?"
+      },
+      {
+        "answer": "The narrator suggests restarting the computer.",
+        "question": "What does the narrator suggest doing after typing 'netsh int ip reset c:\\resetlog.txt' and 'netsh winsock reset' commands?"
+      },
+      {
+        "answer": "The preferred DNS server address is 8.8.8.8.",
+        "question": "What is the preferred DNS server address that Google uses according to the video?"
+      },
+      {
+        "answer": "The narrator mentions Norton as an example.",
+        "question": "What is the name of the security software mentioned by the narrator that could potentially interfere with DNS server function?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explains how to fix DNS server issues",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Types 'CMD' in the search bar",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          },
+          {
+            "description": "Right clicks on 'cmd.exe' and selects 'Run as administrator'",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:35.000"
+            }
+          },
+          {
+            "description": "Types 'netsh int ip reset c:\\resetlog.txt",
+            "timestamp": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:52.000"
+            }
+          },
+          {
+            "description": "Presses Enter",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          },
+          {
+            "description": "Types 'netsh winsock reset",
+            "timestamp": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          },
+          {
+            "description": "Presses Enter",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          },
+          {
+            "description": "Types 'ipconfig /flushdns",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Presses Enter",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "Types 'ncpa.cpl' in the search bar",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Presses Enter",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Right clicks on 'Wireless Network Connection' and selects 'Properties'",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "Double clicks on 'Internet Protocol Version 4 (TCP/IPv4)'",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:22.000"
+            }
+          },
+          {
+            "description": "Clicks 'Properties'",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          },
+          {
+            "description": "Types 'ipconfig' in the command prompt",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video is relevant for users facing DNS server issues and needing technical guidance.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator introduces the topic of fixing DNS server issues.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The narrator explains the first method, which involves resetting the IP address and Winsock.",
+            "timestamp": "00:00:32.000"
+          },
+          {
+            "description": "The narrator instructs the viewer to restart their computer for the changes to take effect.",
+            "timestamp": "00:00:15.000"
+          },
+          {
+            "description": "The narrator explains the second method, which involves flushing the DNS resolver cache.",
+            "timestamp": "00:00:52.000"
+          },
+          {
+            "description": "The narrator explains the third method, which involves manually setting the DNS server addresses.",
+            "timestamp": "00:00:27.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Desktop background of planets and mountains",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Windows search bar",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:32.000"
+            }
+          },
+          {
+            "name": "Command Prompt window",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          },
+          {
+            "name": "'Network Connections' window",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "'Wireless Network Connection Properties' window",
+            "timestamp": {
+              "end_timestamp": "00:00:19.000",
+              "start_timestamp": "00:00:19.000"
+            }
+          },
+          {
+            "name": "'Internet Protocol Version 4 (TCP/IPv4) Properties' window",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:27.000"
+            }
+          }
+        ],
+        "sceneId": 0,
+        "thematicElements": "Technical Troubleshooting, Computer Networking",
+        "timestamps": {
+          "end_timestamp": "00:05:35.533",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Fixing DNS Server Issues Tutorial",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Manually setting DNS server addresses.",
+        "timestamp": "00:00:27.000"
+      },
+      "description": "The video instructs viewers on resolving DNS server problems through three methods.",
+      "scenes": [
+        0
+      ]
+    },
+    "title": "How to Fix DNS Server Problems",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim down explanations of 'netsh', 'int', 'ip', 'reset' to focus more on visual demonstration.",
+        "timestamps": {
+          "end_timestamp": "00:01:52.000",
+          "start_timestamp": "00:01:07.000"
+        }
+      },
+      {
+        "description": "Shorten section on manually setting the IP address to maintain focus on DNS issues.",
+        "timestamps": {
+          "end_timestamp": "00:03:52.000",
+          "start_timestamp": "00:03:32.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 336,
+  "original_json_filename": "1iAM5N_ySRo.json",
+  "original_video_filename": "1iAM5N_ySRo.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hey guys today I'm going to show you how to uh fix some DNS server problems um I had a few problems with my um computer not connecting to the internet properly and I found a few fixes and hopefully uh one of the methods that I show you here will help uh and fix your Internet or your connection to the internet with your computer so uh the first method we're going to do is resetting some um some stuff like our IP and wind sock so you need to click here type CMD and you right click on the CMD here and run as administrator and you need to do that because it um requires some permissions that uh you won't be able to do unless you have the uh administrator so um in here then you want to type netsh in IP reset C do/ reset uh log.txt so netsh stands for Network shell int internal IP Internet Protocol and reset so this basically reset your IP address then you press enter and it'll say resetting Global okay resetting interface okay restart the computer to complete this action so obviously you need to restart the computer for this to take effect um but don't restart your computer yet because there's another thing we're going to have to reset so then next you want to type net sh uh wind sock and reset so this is net shell again uh wind sock is a thing for God's sake you need to reset wind sock as well so when you press enter it'll also say successfully reset the windo catalog um once you restart your computer then that'll work as well so the last thing we're going to do is flush DNS um so you need to type IP config I said that wrong IP config space for SL flush DNS enter so I successfully flush the DNS resolver cache so um make sure when you're typing this in you have like a backslash the colon in the right place and all the letters are lowercase if you have the wrong kind of stuff like that uh it'll just f up so yeah if if you get some error here just make sure you typed everything in properly so that's the first method done uh hopefully this should work after you restart your computer but if this doesn't work um then try uh try shutting down your computer and unplugging it and unplugging your modem and router at the same time and leave them both unplugged for like 5 minutes and plug them back in and then hopefully it should work then if that doesn't work then there's another thing you can do where uh so type or click on start again and type in here and ncpa.cpl and press enter and then it'll bring you to network connections folder or not folder whatever and then uh you'll have your wireless network connection or whatever here this is my one so then you right click on this and go to or right click on this go to properties it will bring you here Internet Protocol version 4 that's your ipv4 address click on that click properties so now you've got this window here and um you can um if you want to use the following IP address you can you can click here and go to the CMD again and type ip config and then you'll see default gateway here ipv4 address here and then you can just subnet mask there you can just fill all that in um I didn't need to do that because that wasn't a problem with my internet then also you have it this should normally be clicked then you click this use the following DNS server addresses so I have some here that you can use and the first one is 20867 space 222222 for the preferred DNS server and then for the alternate one it's 208 67 space 220220 um so that's the first one uh or there's one that Google has uh that's Google's preferred DNS address is uh eight 888 for the preferred one and 8844 so uh yeah I don't need to use them but you could try that and click okay and hopefully that will work for you and um if none of this worked uh you might have like a security issue and the DNS server might not be working because of like a virus or something um so you want to try uh disabling your firewalls and then check if it's fixed and also you could um disable the security software like maffy or Norton or whatever and um you could also try starting your computer with uh in safe mode with networking and if it works there then it's probably a problem with Norton so you can just uninstall Norton and then when you when your internet works again then you can reinstall it so um hopefully this helped um if you uh found this video helpful please click the like button and if you uh if this didn't work then tell me in the comments what the problem is and I might know how to fix it so thanks for watching and goodbye",
+  "text_to_speech_word_count": 879,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.500",
+      "start": "00:00:00.000",
+      "text": " Hi guys today I'm going to show you how to fix some DNS server problems. I had a few problems at my"
+    },
+    {
+      "end": "00:00:13.333",
+      "start": "00:00:08.500",
+      "text": " computer not connecting to the internet properly and I found a few fixes and hopefully"
+    },
+    {
+      "end": "00:00:16.633",
+      "start": "00:00:13.933",
+      "text": " One of the methods that I show you here will help"
+    },
+    {
+      "end": "00:00:24.600",
+      "start": "00:00:17.400",
+      "text": " fix your internet or your connection to the internet with your computer. So the first method we're going to do is resetting some"
+    },
+    {
+      "end": "00:00:37.233",
+      "start": "00:00:25.600",
+      "text": " Some stuff like our IP and Wensok. So you need to click here type cmd and you right click on the cmd here and run as administrator"
+    },
+    {
+      "end": "00:00:43.133",
+      "start": "00:00:37.233",
+      "text": " And you need to do that because it requires some permissions that"
+    },
+    {
+      "end": "00:00:48.800",
+      "start": "00:00:44.900",
+      "text": " You won't be able to do unless you have the administrator. So"
+    },
+    {
+      "end": "00:00:55.100",
+      "start": "00:00:49.800",
+      "text": " In here then you want to type netsh int IP"
+    },
+    {
+      "end": "00:00:58.133",
+      "start": "00:00:56.467",
+      "text": " reset"
+    },
+    {
+      "end": "00:01:00.533",
+      "start": "00:00:58.133",
+      "text": " c.buxlash"
+    },
+    {
+      "end": "00:01:02.533",
+      "start": "00:01:00.533",
+      "text": " reset"
+    },
+    {
+      "end": "00:01:04.800",
+      "start": "00:01:02.533",
+      "text": " log dot xt. So"
+    },
+    {
+      "end": "00:01:13.233",
+      "start": "00:01:05.567",
+      "text": " Netsh since for network shell int internal IP internet protocol and reset. So this basically reset your IP address"
+    },
+    {
+      "end": "00:01:20.300",
+      "start": "00:01:13.500",
+      "text": " And you press enter and it'll say resetting global. Okay resetting interface. Okay, we start the computer to complete this action"
+    },
+    {
+      "end": "00:01:23.533",
+      "start": "00:01:20.300",
+      "text": " So obviously you need to restart the computer for this to take effect"
+    },
+    {
+      "end": "00:01:31.300",
+      "start": "00:01:24.133",
+      "text": " But don't restart your computer yet because there's another time we're gonna have to reset so then next you want to type netsh"
+    },
+    {
+      "end": "00:01:34.300",
+      "start": "00:01:32.300",
+      "text": " Wensok"
+    },
+    {
+      "end": "00:01:35.300",
+      "start": "00:01:34.300",
+      "text": " and"
+    },
+    {
+      "end": "00:01:36.300",
+      "start": "00:01:35.300",
+      "text": " reset"
+    },
+    {
+      "end": "00:01:38.933",
+      "start": "00:01:36.300",
+      "text": " So this is net shell again"
+    },
+    {
+      "end": "00:01:41.667",
+      "start": "00:01:39.667",
+      "text": " Wensok is a thing"
+    },
+    {
+      "end": "00:01:49.100",
+      "start": "00:01:43.367",
+      "text": " God sake you need to reset Wensok as well. So when you press enter it allows us a successfully reset the Wensok catalog"
+    },
+    {
+      "end": "00:01:56.433",
+      "start": "00:01:50.300",
+      "text": " Once you restart your computer then that will work as well. So the last thing we're gonna do is flush DNS"
+    },
+    {
+      "end": "00:01:59.800",
+      "start": "00:01:57.800",
+      "text": " So you need to type IP"
+    },
+    {
+      "end": "00:02:02.033",
+      "start": "00:02:00.033",
+      "text": " config"
+    },
+    {
+      "end": "00:02:07.800",
+      "start": "00:02:02.033",
+      "text": " I said that wrong IP config space forward slash flush DNS"
+    },
+    {
+      "end": "00:02:14.267",
+      "start": "00:02:08.733",
+      "text": " So they successfully flush the DNS resolver cache so"
+    },
+    {
+      "end": "00:02:23.800",
+      "start": "00:02:15.800",
+      "text": " Make sure when you're typing this in you've like a backslash the colon in the right place and all the letters are lowercase if you have the wrong kind of"
+    },
+    {
+      "end": "00:02:26.633",
+      "start": "00:02:24.633",
+      "text": " Stuff like that"
+    },
+    {
+      "end": "00:02:30.500",
+      "start": "00:02:26.633",
+      "text": " It'll just fake up. So yeah if you get some error here"
+    },
+    {
+      "end": "00:02:36.133",
+      "start": "00:02:30.500",
+      "text": " Just make sure you type everything in properly. So that's the first method on hopefully this should work after you restart your computer"
+    },
+    {
+      "end": "00:02:38.133",
+      "start": "00:02:36.133",
+      "text": " but if this doesn't work and"
+    },
+    {
+      "end": "00:02:40.933",
+      "start": "00:02:38.933",
+      "text": " then try"
+    },
+    {
+      "end": "00:02:46.133",
+      "start": "00:02:40.933",
+      "text": " Try shutting down your computer and unplugging it and unplugging your modem and write her at the same time and"
+    },
+    {
+      "end": "00:02:53.667",
+      "start": "00:02:47.700",
+      "text": " Leave them both unplugged for like five minutes and plug them back in and then hopefully it should work then if that doesn't work"
+    },
+    {
+      "end": "00:03:00.267",
+      "start": "00:02:53.667",
+      "text": " Then there's another thing you can do where so type or click on start again and type in here and see"
+    },
+    {
+      "end": "00:03:02.500",
+      "start": "00:03:00.500",
+      "text": " P.A.C.P.L"
+    },
+    {
+      "end": "00:03:07.200",
+      "start": "00:03:02.667",
+      "text": " I'm press enter and then we'll bring you to network connections folder"
+    },
+    {
+      "end": "00:03:13.000",
+      "start": "00:03:07.900",
+      "text": " I'll folder whatever and then you'll have your list network connection or whatever here"
+    },
+    {
+      "end": "00:03:16.533",
+      "start": "00:03:13.100",
+      "text": " This is my one so then you right click on this and go to or"
+    },
+    {
+      "end": "00:03:19.300",
+      "start": "00:03:17.300",
+      "text": " Like click on this go to properties"
+    },
+    {
+      "end": "00:03:26.500",
+      "start": "00:03:20.033",
+      "text": " We'll bring you here internet protocol version 4 that's your IPv4 address click on that click properties"
+    },
+    {
+      "end": "00:03:31.200",
+      "start": "00:03:27.267",
+      "text": " So now you've got this window here and then you can"
+    },
+    {
+      "end": "00:03:41.500",
+      "start": "00:03:33.633",
+      "text": " If you want to use the following IP address you can you can click here and go to the cmd again and type"
+    },
+    {
+      "end": "00:03:44.500",
+      "start": "00:03:42.500",
+      "text": " IP config"
+    },
+    {
+      "end": "00:03:52.100",
+      "start": "00:03:44.500",
+      "text": " And then you'll see default gateway here IPv4 address here and then you can just subnet mask there. You can just fill out that in"
+    },
+    {
+      "end": "00:03:57.233",
+      "start": "00:03:53.100",
+      "text": " I don't need to do that because that wasn't the problem my internet then also you have"
+    },
+    {
+      "end": "00:04:02.600",
+      "start": "00:03:57.700",
+      "text": " Edition normally be clicked so then you click this use the following DNS server addresses"
+    },
+    {
+      "end": "00:04:07.100",
+      "start": "00:04:02.600",
+      "text": " So I have some here that you can use and the first one is"
+    },
+    {
+      "end": "00:04:09.700",
+      "start": "00:04:07.700",
+      "text": " 20867 space"
+    },
+    {
+      "end": "00:04:16.100",
+      "start": "00:04:10.700",
+      "text": " 222 222 for the preferred DNS server and for the alternate one it's 208"
+    },
+    {
+      "end": "00:04:19.367",
+      "start": "00:04:16.600",
+      "text": " 67 space 220 220 and"
+    },
+    {
+      "end": "00:04:24.633",
+      "start": "00:04:19.733",
+      "text": " So that's the first one or there's one that Google has"
+    },
+    {
+      "end": "00:04:33.867",
+      "start": "00:04:25.533",
+      "text": " That's Google's preferred DNS address is a 8 8 8 8 for the preferred one and 8 8"
+    },
+    {
+      "end": "00:04:35.900",
+      "start": "00:04:34.400",
+      "text": " 4 4"
+    },
+    {
+      "end": "00:04:41.900",
+      "start": "00:04:35.900",
+      "text": " So yeah, I don't need to use them, but you could try that and click okay, and hopefully that will work for you and"
+    },
+    {
+      "end": "00:04:43.633",
+      "start": "00:04:42.633",
+      "text": " And"
+    },
+    {
+      "end": "00:04:51.633",
+      "start": "00:04:43.633",
+      "text": " If none of this worked you might have like a security issue and the DNS server might not be working because of like a virus"
+    },
+    {
+      "end": "00:04:54.000",
+      "start": "00:04:51.633",
+      "text": " You're sold and so you want to try"
+    },
+    {
+      "end": "00:05:03.200",
+      "start": "00:04:54.733",
+      "text": " Disabling your firewalls and then check if it's fixed and also you could disable the security software like McAfee or"
+    },
+    {
+      "end": "00:05:07.133",
+      "start": "00:05:04.067",
+      "text": " Norton or whatever and then you could also try"
+    },
+    {
+      "end": "00:05:13.200",
+      "start": "00:05:07.867",
+      "text": " Starting your computer with this in safe mode with networking and if it works there"
+    },
+    {
+      "end": "00:05:18.867",
+      "start": "00:05:13.200",
+      "text": " That's probably a problem with Norton so you can just uninstall Norton and then when you in when you're internet works again"
+    },
+    {
+      "end": "00:05:23.067",
+      "start": "00:05:18.867",
+      "text": " Then you can reinstall it. So and hopefully this helped and if you"
+    },
+    {
+      "end": "00:05:27.700",
+      "start": "00:05:23.833",
+      "text": " Find this video helpful please click the like button and if you"
+    },
+    {
+      "end": "00:05:32.267",
+      "start": "00:05:28.200",
+      "text": " If this didn't work then tell me in the comments what the problem is and I might know how to fix it"
+    },
+    {
+      "end": "00:05:34.267",
+      "start": "00:05:32.267",
+      "text": " So thanks for watching and goodbye"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Gaming"
+  ],
+  "youtube_channel": "Oisin Nolan",
+  "youtube_channel_follower_count": 645,
+  "youtube_comment_count": 551,
+  "youtube_description": "If this video helped you, please check out my new iphone app 'potshot' : https://www.youtube.com/watch?v=lFxEAX0kqXU\n\nThanks for watching,\nHopefully this helped, leave a like if it did and comment your problem if it didn't i might know what to do.\n\nCommands used: (Make sure to run CMD as administrator)\n\nnetsh int ip reset c:\\resetlog.txt \n\n- this resets your internal IP address\n\nnetsh winsock reset\n\n- this resets winsock (Winsock is a programming interface and the supporting program that handles input/output requests for Internet applications)\n\nipconfig /flushdns\n\n- this command flushes and resets a client resolver cache.",
+  "youtube_like_count": 1859,
+  "youtube_tags": [
+    "Server",
+    "Name Server",
+    "Domain Name System (Protocol)",
+    "Fire",
+    "Not",
+    "Windows",
+    "Metin2",
+    "windows",
+    "server",
+    "internet",
+    "broken",
+    "not",
+    "respoding",
+    "connected",
+    "disconneting",
+    "randomly",
+    "periodically",
+    "fix",
+    "easy",
+    "quick",
+    "reset",
+    "ip",
+    "adress",
+    "winsock",
+    "flush",
+    "dns",
+    "connect"
+  ],
+  "youtube_title": "How to fix DNS Server not responding error (windows)",
+  "youtube_upload_date": "20140406",
+  "youtube_view_count": 328236
+}

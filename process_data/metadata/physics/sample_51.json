@@ -1,0 +1,409 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male with fair skin, wearing a black shirt. His face is not visible.",
+        "name": "Lecturer"
+      }
+    ],
+    "description": "A lecture on calculating the moment of inertia of a rectangular sheet with variable density.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "This term represents the linear reduction in density from the maximum value 'σ_0' at y=0 to zero density at y=H.",
+        "question": "Why does the density equation include the term (1 - y/H)?"
+      },
+      {
+        "answer": "It represents the squared distance of an infinitesimal area element from the x-axis, which is the axis of rotation in this case.",
+        "question": "What does 'r²' in the integral represent?"
+      },
+      {
+        "answer": "The integrand is independent of 'x,' making the x-integral essentially the length of the sheet along the x-axis, which is 'w.'",
+        "question": "Why is the x-integral simplified to just 'w'?"
+      },
+      {
+        "answer": "It quantifies the sheet's resistance to rotational acceleration around the x-axis, taking into account its variable density.",
+        "question": "What does the final answer for 'Ix' tell us about the sheet?"
+      },
+      {
+        "answer": "This could model a wedge-shaped object where the density gradually decreases from one edge to the other, like a thin piece of metal that tapers off.",
+        "question": "What type of physical object might this problem model?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduces the problem: calculating the moment of inertia of a rectangular sheet with variable density.",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Lists the given information: a rectangular sheet with width 'w,' height 'h,' and variable density.",
+            "timestamp": {
+              "end_timestamp": "00:01:30.991",
+              "start_timestamp": "00:00:50.017"
+            }
+          },
+          {
+            "description": "Defines the goal: find the moment of inertia 'Ix' for rotation around the x-axis.",
+            "timestamp": {
+              "end_timestamp": "00:02:28.015",
+              "start_timestamp": "00:01:30.991"
+            }
+          },
+          {
+            "description": "Sets up the double integral for calculating Ix.",
+            "timestamp": {
+              "end_timestamp": "00:03:58.004",
+              "start_timestamp": "00:02:28.015"
+            }
+          },
+          {
+            "description": "Solves the double integral step by step.",
+            "timestamp": {
+              "end_timestamp": "00:06:19.012",
+              "start_timestamp": "00:03:58.004"
+            }
+          },
+          {
+            "description": "Concludes the calculation and offers a brief reflection on the problem's complexity.",
+            "timestamp": {
+              "end_timestamp": "00:07:18.004",
+              "start_timestamp": "00:06:19.012"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The focus is on solving a complex mathematical physics problem.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Logical progression of steps in solving a mathematical problem.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard and blue marker",
+            "timestamp": {
+              "end_timestamp": "00:07:18.004",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "A rectangle representing the sheet with marked axes, dimensions, and density",
+            "timestamp": {
+              "end_timestamp": "00:07:18.004",
+              "start_timestamp": "00:00:10.010"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The scene primarily focuses on the theme of applying calculus to physics problems.",
+        "timestamps": {
+          "end_timestamp": "00:07:20.106",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1: Introduction and Problem Setup",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs at 6:19 when the final solution for the moment of inertia is reached.",
+        "timestamp": "00:06:19.012"
+      },
+      "description": "Storyline 1: Calculating Moment of Inertia",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Video Analysis: Moment of Inertia Calculation",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial statement of the problem could be shortened or presented visually on the whiteboard, allowing the lecturer to directly start with the diagram.",
+        "timestamps": {
+          "end_timestamp": "00:00:10.010",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "The listing of givens and goal could be streamlined by integrating them into the diagram explanation.",
+        "timestamps": {
+          "end_timestamp": "00:02:28.015",
+          "start_timestamp": "00:01:30.991"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 440,
+  "original_json_filename": "6cqWCzjn9tg.json",
+  "original_video_filename": "6cqWCzjn9tg.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "all right so I'd like to take a look at this guy here real quick I'd like to find the moment of inertia of the rectangular sheet all right and it's going to rotate around a line that has a maximal density and that density is going to reduce so I can't really draw that reduction in the the density very well okay I have ways of trying to do it but they don't really look all that great and shading and stuff takes a long time in doing this isn't the most amazing thing so if this is say the Y Direction this is the X direction and so forth and so on rotating around that X direction and right down here at 0 we have sort of the maximal density right there right that's the maximum density and we'll call that maximum density Sigma naught all right and then when it goes all the way up to the maximum height here H the density is going to be 0 there's going to be it's just going to taper off to 0 I don't know how that works you could do this as an approximation for a very you know for a thin wedge for example would work pretty well then on either side of the y axis we go minus W over 2 and over here W over 2 for the width so we've got all the things that we really need right right in that description or what we want to find we want to find its moment of inertia all right so the first thing I always do is I just tally up what I know and what I want to find right so we want to so if I've got a rectangular sheet right that has a width of W and a height of H and has a variable density I should have said with a variable density but same with me and that variable density is going to be Sigma of XY equal to Sigma naught can we use Sigma for the density if it's a surface sensitive as two-dimensional density you'll see a lot of that in the electric electricity magnetism class so we'll do lambda for line density Sigma for surface density and Rho for volume density lambda and Sigma make a lot of sense right lambda for lying densities or linear density that's that's just the same that lambda is L in Greek right and Sigma is so those are making sense Centro that doesn't make sense but hey not everything has to make sense right anyways you already know about Rho right you've been using Rosalia for the density for a long time then you had this moment of inertia okay and that's X so it's rotating around X we'll call it I X and so that's going to be equal to in general it's going to be equal to a double integral of R times Sigma XY or just Sigma which is called Sigma it's a variable Sigma and then some distance the distance from from the axis to the point so it's always going to be perpendicular to this rotational axis and that's a square there we square that distance for the second moment right so it is a moment of inertia but you use moments for other things too and that's okay and and scroll over this entire area so we have little area that's a little area element da right there okay alright so then we start filling these things in right like the X stuff that's minus W over to 2w over to the Y that's the zero to H right zero to H then Sigma is Sigma naught 1 minus y over H and this distance here is just the y coordinate which is why I started at the zero in the first place is to make life easy for me and then we have dy DX right so we're not getting anything really complicated the X integral is comes out so we can pull out this differential element and just integrate minus W over 2 to W over 2 DX which is just W right this minus F we can pull out the Sigma not because it's a constant then we have our integral 0 to H Y squared minus y cubed over H dy all right and these aren't you know sort of the world's most complicated integrals which is again one of the reasons why I chose this you know it's not really the most realistic example what it is isn't simple right so hopefully you can understand what I'm doing so now I've got Sigma naught and W I divide or integrate Y squared and that's 1/2 or 1 q 1/3 H cubed right and then we subtract zero from that and so we don't have to worry about that and then we subtract 1/4 H to the fourth over H which is still an H cubed so you know nothing strange or mind-blowing has happened what else would we like to do well now we can start pulling these things together right so this H cubed thing comes out so we have Sigma naught WH cubed and then we have 1/3 minus 1/4 and you'll remember that 1/3 minus 1/4 is something fairly simple called 1/12 so we have Sigma naught WH cubed over 12 and that is the moment of inertia for that thing so that's reasonably simple that doesn't make any that doesn't make your life really really hard so I think that will that will be enough for Anna Coren example for these moment of inertia problems I know in physics - you didn't really do a lot of these integrals from moment of inertia things and the ones you did were really quite simple and so you know I just want to remind you about how this works because some of the moment of inertia things that they do in this book are a little bit complicated so because it's a math class basically so they just want to give you most complicated things they can without breaking your brain and you know I think it's completely reasonable I mean that they shouldn't want to break your brain right so you should just be happy and um thankful for that anyways I will see you next time and have a great time",
+  "text_to_speech_word_count": 1077,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.973",
+      "start": "00:00:00.000",
+      "text": " Alright, so I'd like to take a look at this guy here real quick. I'd like to find the moment of inertia of the rectangular sheet."
+    },
+    {
+      "end": "00:00:13.981",
+      "start": "00:00:05.973",
+      "text": " Alright, and it's going to rotate around a line that has a maximal density, and that density is going to reduce."
+    },
+    {
+      "end": "00:00:26.994",
+      "start": "00:00:13.981",
+      "text": " So I can't really draw that reduction in the density very well. I have ways of trying to do it, but they don't really look all that great."
+    },
+    {
+      "end": "00:00:34.968",
+      "start": "00:00:27.995",
+      "text": " And shading and stuff takes a long time in doing this isn't the most amazing thing."
+    },
+    {
+      "end": "00:00:46.980",
+      "start": "00:00:34.968",
+      "text": " So if this is, say, the wide direction, and this is the x direction, and so forth, and so on, rotating around that x direction, and right down here at zero, we have sort of the maximal density right there."
+    },
+    {
+      "end": "00:00:52.986",
+      "start": "00:00:46.980",
+      "text": " Right? That's the maximum density. We'll call that maximum density sigma naught."
+    },
+    {
+      "end": "00:01:00.994",
+      "start": "00:00:52.986",
+      "text": " Alright? And then when it goes all the way up to the maximum height here, H, the density is going to be zero."
+    },
+    {
+      "end": "00:01:12.973",
+      "start": "00:01:00.994",
+      "text": " There's going to be, it's just going to taper off to zero. I don't know how that works. You could do this as an approximation for a very, for a thin wedge, for example, would work pretty well."
+    },
+    {
+      "end": "00:01:22.983",
+      "start": "00:01:13.974",
+      "text": " Then I'm either side of the y axis, we go minus w over 2 and over here, w over 2 for the width."
+    },
+    {
+      "end": "00:01:31.992",
+      "start": "00:01:22.983",
+      "text": " So we've got all the things that we really need, right in that description, or what we want to find, and we want to find its moment of inertia."
+    },
+    {
+      "end": "00:01:42.970",
+      "start": "00:01:32.993",
+      "text": " So the first thing I always do is I just tally up what I know and what I want to find, right? So we want to, so if I've got a rectangular sheet."
+    },
+    {
+      "end": "00:01:46.974",
+      "start": "00:01:45.973",
+      "text": " Right?"
+    },
+    {
+      "end": "00:01:58.986",
+      "start": "00:01:47.975",
+      "text": " That has a width of w, and a height of H, and has a variable density."
+    },
+    {
+      "end": "00:02:07.995",
+      "start": "00:02:01.989",
+      "text": " I'm going to be, I should have said, with a variable density, but say, let me."
+    },
+    {
+      "end": "00:02:18.972",
+      "start": "00:02:07.995",
+      "text": " And that variable density is going to be sigma of x, y equal to sigma naught. And we use sigma for the density if it's a surface density, if it's two dimensional density."
+    },
+    {
+      "end": "00:02:30.984",
+      "start": "00:02:19.973",
+      "text": " You'll see a lot of that in the electrician magnetism class. So we'll do lambda for line density, sigma for surface density, and rho for volume density."
+    },
+    {
+      "end": "00:02:44.998",
+      "start": "00:02:32.986",
+      "text": " Lambda and sigma make a lot of sex, right? Lambda is for line density is, or linear density, that's just the same, that lambda is L in Greek, right?"
+    },
+    {
+      "end": "00:02:54.975",
+      "start": "00:02:44.998",
+      "text": " And sigma is S in Greek. So those are making sense. So that row that doesn't make sense, but hey, not everything has to make sense."
+    },
+    {
+      "end": "00:03:01.982",
+      "start": "00:02:54.975",
+      "text": " Right? Anyways, you already know about row, right? You've been using row for the density for a long time."
+    },
+    {
+      "end": "00:03:04.985",
+      "start": "00:03:01.982",
+      "text": " Then you have this moment of inertia."
+    },
+    {
+      "end": "00:03:10.991",
+      "start": "00:03:04.985",
+      "text": " Right? And that's I x. So it's rotating around x. We'll call it I x."
+    },
+    {
+      "end": "00:03:26.973",
+      "start": "00:03:11.992",
+      "text": " And so that's going to be equal to in general, it's going to be equal to a double integral of r times sigma x, y, or just sigma, which is called sigma."
+    },
+    {
+      "end": "00:03:40.987",
+      "start": "00:03:27.974",
+      "text": " So they're able sigma and then some distance, the distance from the axis to the point. So it's always going to be perpendicular to this rotational axis."
+    },
+    {
+      "end": "00:03:49.996",
+      "start": "00:03:40.987",
+      "text": " And that's a square there. We square that distance for the second moment. Right? So it is a moment of inertia, but you use moments for other things too."
+    },
+    {
+      "end": "00:03:58.972",
+      "start": "00:03:49.996",
+      "text": " And that's an integral over this entire area. So we have little area. That's a little area element dA right there."
+    },
+    {
+      "end": "00:03:59.973",
+      "start": "00:03:58.972",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:08.982",
+      "start": "00:03:59.973",
+      "text": " All right. So then we start filling these things in, right? Like the x stuff, that's minus w over 2 to w over 2, the y, that's 0 to h, right?"
+    },
+    {
+      "end": "00:04:10.984",
+      "start": "00:04:08.982",
+      "text": " 0 to h."
+    },
+    {
+      "end": "00:04:24.998",
+      "start": "00:04:10.984",
+      "text": " And then sigma is sigma not 1 minus y over h. And this distance here is just the y coordinate, which is why I started at the zero in the first place is to make life easy for me."
+    },
+    {
+      "end": "00:04:30.971",
+      "start": "00:04:24.998",
+      "text": " And then we have d y dx, right?"
+    },
+    {
+      "end": "00:04:44.985",
+      "start": "00:04:30.971",
+      "text": " So we're not getting anything really complicated. The x interval is comes out so we can pull out this differential element and just integrate minus w over 2 to w over 2 dx, which is just w, right?"
+    },
+    {
+      "end": "00:04:46.987",
+      "start": "00:04:44.985",
+      "text": " This minus that."
+    },
+    {
+      "end": "00:05:00.967",
+      "start": "00:04:46.987",
+      "text": " We can pull out the sigma not because it's a constant. Then we have our integral 0 to h, y squared minus y cubed over h dy."
+    },
+    {
+      "end": "00:05:12.979",
+      "start": "00:05:00.967",
+      "text": " All right. And these aren't, you know, sort of the world's most complicated integrals, which is, again, one of the reasons why I chose this. You know, it's not really the most realistic example."
+    },
+    {
+      "end": "00:05:17.984",
+      "start": "00:05:12.979",
+      "text": " What it is is simple, right? So hopefully you can understand what I'm doing."
+    },
+    {
+      "end": "00:05:34.968",
+      "start": "00:05:17.984",
+      "text": " So now I've got sigma not in w, I divide or integrate y squared. And that's one half or one cube, one third h cubed, right?"
+    },
+    {
+      "end": "00:05:45.979",
+      "start": "00:05:34.968",
+      "text": " And then we subtract zero from that. And so we don't have to worry about that. And then we subtract one quarter h to the fourth over h, which is still an h cubed."
+    },
+    {
+      "end": "00:05:52.986",
+      "start": "00:05:45.979",
+      "text": " So, you know, nothing strange or mind blowing has happened."
+    },
+    {
+      "end": "00:06:05.999",
+      "start": "00:05:52.986",
+      "text": " What else would we like to do? Well, now we can start pulling these things together, right? So this h cubed thing comes out. So we have sigma not w, h cubed."
+    },
+    {
+      "end": "00:06:18.979",
+      "start": "00:06:05.999",
+      "text": " And then we have one third minus one quarter. And you'll remember that one third minus one quarter is something fairly simple called one 12. So we have sigma not w, h cubed over 12."
+    },
+    {
+      "end": "00:06:29.990",
+      "start": "00:06:18.979",
+      "text": " And that is the moment of inertia for that thing. So that's reasonably simple. That doesn't make any, that doesn't make your life really, really hard."
+    },
+    {
+      "end": "00:06:42.969",
+      "start": "00:06:29.990",
+      "text": " So I think that will, that will be enough for an example for these moment of inertia problems. I know in physics two, you didn't really do a lot of these integrals for moment of inertia things."
+    },
+    {
+      "end": "00:06:56.983",
+      "start": "00:06:42.969",
+      "text": " And the ones you did were really quite simple. And so, you know, I just want to remind you about how this works because some of the moment of inertia things that they do in this book are a little bit complicated."
+    },
+    {
+      "end": "00:07:04.991",
+      "start": "00:06:56.983",
+      "text": " So because it's a math class, basically. So they just want to give you most complicated things they can without breaking your brain."
+    },
+    {
+      "end": "00:07:14.968",
+      "start": "00:07:04.991",
+      "text": " And you know, I think that's completely reasonable. I mean, that, they shouldn't want to break your brain. Right? So you should just be happy and thankful for that."
+    },
+    {
+      "end": "00:07:19.973",
+      "start": "00:07:14.968",
+      "text": " Anyways, I will see you next time and have a great time. Bye."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "James Rantschler",
+  "youtube_channel_follower_count": 756,
+  "youtube_comment_count": 8,
+  "youtube_description": "Find the moment inertia of a rectangular object with variable density around the y-axis.  The density is constant along any horizontal line and decreases linearly to zero from the y-axis on any vertical line.",
+  "youtube_like_count": 18,
+  "youtube_tags": [
+    "Moment Of Inertia",
+    "Density (Dimension)",
+    "Physics (Field Of Study)",
+    "Calculus (Field Of Study)"
+  ],
+  "youtube_title": "Moment of Inertia with Variable Density",
+  "youtube_upload_date": "20150721",
+  "youtube_view_count": 5448
+}

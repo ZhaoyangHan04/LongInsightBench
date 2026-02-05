@@ -1,0 +1,585 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short black hair and a mustache, wearing a red and blue plaid shirt and khaki pants. He is an IBM research scientist.",
+        "name": "Geethan Karunaratne"
+      }
+    ],
+    "description": "A demonstration of an in-memory few-shot continual learning system by Geethan Karunaratne, an IBM research scientist.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "An in-memory compute chip developed at the IBM Research Zurich lab.",
+        "question": "What type of chip is being used in the demo?"
+      },
+      {
+        "answer": "They represent the conductance values of the devices on the selected rows of the in-memory compute array. Red indicates high conductance, blue indicates low conductance.",
+        "question": "What are the colors on the heatmap representing?"
+      },
+      {
+        "answer": "The image is converted to a high-dimensional vector by a neural network and applied as voltage pulses to one side of the in-memory compute array. The resulting similarity vector is received on the other side.",
+        "question": "What happens when a query image is fed to the learner?"
+      },
+      {
+        "answer": "Because the learner has not been trained on any images from the leopard class prior to the query.",
+        "question": "Why does the learner initially misclassify the leopard images?"
+      },
+      {
+        "answer": "It shows the voltage pulses that represent the query vector being applied to the in-memory compute array, illustrating the physical implementation of the computation.",
+        "question": "What is the significance of the oscilloscope display?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Geethan introduces himself and the topic of the demo.",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Geethan Karunaratne"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Geethan Karunaratne"
+            ],
+            "description": "Geethan addresses the viewer directly."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious, intrigued",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the demo and its purpose.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer monitor",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "keyboard",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "mouse",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "circuit boards",
+            "timestamp": {
+              "end_timestamp": "00:00:17.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "In-memory compute chip, few-shot continual learning, image recognition.",
+        "timestamps": {
+          "end_timestamp": "00:00:17.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Fade in from black to video of Geethan.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Geethan explains how to select classes (elephant).",
+            "timestamp": {
+              "end_timestamp": "00:00:26.000",
+              "start_timestamp": "00:00:17.040"
+            }
+          },
+          {
+            "description": "Geethan describes feeding training examples (elephant images) to the neural network.",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:26.000"
+            }
+          },
+          {
+            "description": "Geethan explains the process of vector representation and programming the chip.",
+            "timestamp": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          },
+          {
+            "description": "Geethan demonstrates selecting a second class (wolf) and repeating the programming process.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Geethan Karunaratne"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Geethan Karunaratne"
+            ],
+            "description": "Geethan explains the process directly to the viewer."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative, focused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the process of selecting classes and programming the in-memory compute chip with training data.",
+            "timestamp": "00:00:17.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer monitor displaying a GUI with image grids and a heatmap.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:00:17.040"
+            }
+          },
+          {
+            "name": "Circuit board with the in-memory compute chip.",
+            "timestamp": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Neural networks, vector representation, phase-change memory, image classification.",
+        "timestamps": {
+          "end_timestamp": "00:01:09.000",
+          "start_timestamp": "00:00:17.040"
+        },
+        "title": "Demonstrating Class Selection and Programming",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to close-up of the in-memory compute chip on a circuit board.",
+            "timestamps": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:46.000"
+            }
+          },
+          {
+            "description": "Cut back to the GUI screen.",
+            "timestamps": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:48.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Geethan queries the learner with wolf images and demonstrates successful classification (100% accuracy).",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:01:09.040"
+            }
+          },
+          {
+            "description": "Geethan queries the learner with leopard images and shows misclassification (elephant or wolf) due to lack of prior leopard data.",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:27.000"
+            }
+          },
+          {
+            "description": "Geethan introduces leopard training images to enable continual learning and demonstrates successful leopard classification (100% accuracy).",
+            "timestamp": {
+              "end_timestamp": "00:02:15.000",
+              "start_timestamp": "00:01:57.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Geethan Karunaratne"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Geethan Karunaratne"
+            ],
+            "description": "Geethan explains the process and observations directly to the viewer."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Informative, intriguing",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the learner's performance, highlighting misclassification when encountering new classes, and showcasing the continual learning capability by adding new training data.",
+            "timestamp": "00:01:09.040"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer monitor displaying GUI with image grids, heatmap, query vector display, and accuracy.",
+            "timestamp": {
+              "end_timestamp": "00:02:15.000",
+              "start_timestamp": "00:01:09.040"
+            }
+          },
+          {
+            "name": "Oscilloscope displaying voltage pulses.",
+            "timestamp": {
+              "end_timestamp": "00:01:43.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Continual learning, adaptive machine learning, in-memory compute architecture, voltage-based computation.",
+        "timestamps": {
+          "end_timestamp": "00:02:16.320",
+          "start_timestamp": "00:01:09.040"
+        },
+        "title": "Querying the Learner and Evaluating Performance",
+        "videoEditingDetails": [
+          {
+            "description": "Cut to an oscilloscope displaying voltage pulses representing the query vector.",
+            "timestamps": {
+              "end_timestamp": "00:01:43.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          },
+          {
+            "description": "Cut back to the GUI screen.",
+            "timestamps": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:01:43.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Geethan expresses excitement about the technology and its potential impact.",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:16.360"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Geethan Karunaratne"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Geethan Karunaratne"
+            ],
+            "description": "Geethan addresses the viewer directly."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Excited, optimistic",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concluding remarks about the potential of the technology.",
+            "timestamp": "00:02:16.360"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer monitor",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:16.360"
+            }
+          },
+          {
+            "name": "keyboard",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:16.360"
+            }
+          },
+          {
+            "name": "mouse",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:16.360"
+            }
+          },
+          {
+            "name": "circuit boards",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:16.360"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Future applications, wider adoption of in-memory compute.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.560",
+          "start_timestamp": "00:02:16.360"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The continual learning capability is successfully demonstrated by adding new data (leopard class) and achieving 100% classification accuracy.",
+        "timestamp": "00:02:09.000"
+      },
+      "description": "A demonstration of an in-memory few-shot continual learning system.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Video Analysis: In-Memory Few Shot Continual Learning",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial static shot of Geethan could be shortened to increase dynamism.",
+        "timestamps": {
+          "end_timestamp": "00:02:16.360",
+          "start_timestamp": "00:02:16.360"
+        }
+      },
+      {
+        "description": "The conclusion could be more concise.",
+        "timestamps": {
+          "end_timestamp": "00:02:21.000",
+          "start_timestamp": "00:02:16.360"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 148,
+  "original_json_filename": "FIzWdO6O5lw.json",
+  "original_video_filename": "FIzWdO6O5lw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello in this demo I'm going to show you for the first time how few short container learning can be done on in-memory compute chip this chip was developed at IBM research Zurich lab we are using images from Cipher 100 data set first thing we do is we select classes we are using animal classes for example we can choose elephant as our first class and what we do next is we are going to feed a few training examples from the elephant class one by one through a neural network the neural network is pre-trained and meta trained the result of the neural network is a high dimensional Vector representation and we are sending these vectors one by one to this in memory compute chip inside the chip it will select a one of the rows on the array and then they get programmed using partial crystallization set pulses then we select the second class which can be something like wolf similarly wolf images are fed through the same neural network and the array is programmed you can see how the conductance of the devices on the selected rows varies to represent the vector updates at this moment we can query our learner from query examples from let's say wolf class and we can see that it gets 100 accuracy when a query image is given similar to the training images they will be converted to a high dimensional vector and applied as voltage pulses on one side of the in-memory compute array the resulting similarity Vector is received on the other side however if we evaluate the learner on images from a different class for example like leopard class having seen no images from this class so far the learner will misclassify it as either elephant or wolf to enable continual learning capability we just need to feed in a few training images from the leopard class once a row on the in-memory compute array is programmed to represent the leopard class we are able to successfully classify the leopard query images we are very excited to bring this new technology to a wider audience in the near future",
+  "text_to_speech_word_count": 362,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.800",
+      "start": "00:00:00.000",
+      "text": " Hello, in this demo I am going to show you for the first time how few short"
+    },
+    {
+      "end": "00:00:10.400",
+      "start": "00:00:06.800",
+      "text": " continual learning can be done on in memory compute chip."
+    },
+    {
+      "end": "00:00:13.600",
+      "start": "00:00:10.400",
+      "text": " This chip was developed at IBM Research SuriClap."
+    },
+    {
+      "end": "00:00:17.600",
+      "start": "00:00:13.600",
+      "text": " We are using images from Cypher 100 data set."
+    },
+    {
+      "end": "00:00:21.320",
+      "start": "00:00:17.600",
+      "text": " First thing we do is we select classes."
+    },
+    {
+      "end": "00:00:23.000",
+      "start": "00:00:21.320",
+      "text": " We are using animal classes."
+    },
+    {
+      "end": "00:00:28.280",
+      "start": "00:00:23.000",
+      "text": " For example, we can choose elephant as our first class and what we do next is we are going"
+    },
+    {
+      "end": "00:00:34.720",
+      "start": "00:00:28.280",
+      "text": " to feed a few training examples from the elephant class one by one through a neural network."
+    },
+    {
+      "end": "00:00:38.680",
+      "start": "00:00:34.720",
+      "text": " The neural network is pre-trained and metatrain."
+    },
+    {
+      "end": "00:00:43.280",
+      "start": "00:00:38.680",
+      "text": " The result of the neural network is a high dimensional vector representation and we are sending"
+    },
+    {
+      "end": "00:00:48.480",
+      "start": "00:00:43.280",
+      "text": " these vectors one by one to this in memory compute chip."
+    },
+    {
+      "end": "00:00:54.680",
+      "start": "00:00:48.480",
+      "text": " Inside the chip, it will select one of the rows on the array and then they get programmed"
+    },
+    {
+      "end": "00:00:58.480",
+      "start": "00:00:54.680",
+      "text": " using partial crystallization set passes."
+    },
+    {
+      "end": "00:01:02.960",
+      "start": "00:00:58.480",
+      "text": " Then we select the second class which can be something like wolf."
+    },
+    {
+      "end": "00:01:09.200",
+      "start": "00:01:02.960",
+      "text": " Similarly wolf images are fed through the same neural network and the array is programmed."
+    },
+    {
+      "end": "00:01:14.280",
+      "start": "00:01:09.200",
+      "text": " You can see how the conductance of the devices on the selected rows varies to represent"
+    },
+    {
+      "end": "00:01:16.200",
+      "start": "00:01:14.280",
+      "text": " the vector updates."
+    },
+    {
+      "end": "00:01:23.640",
+      "start": "00:01:16.200",
+      "text": " At this moment we can query our learner from query examples from let us say wolf class"
+    },
+    {
+      "end": "00:01:27.800",
+      "start": "00:01:23.640",
+      "text": " and we can see that it gets 100 percent accuracy."
+    },
+    {
+      "end": "00:01:32.600",
+      "start": "00:01:27.800",
+      "text": " When a query image is given similar to the training images, they will be converted to"
+    },
+    {
+      "end": "00:01:38.320",
+      "start": "00:01:32.600",
+      "text": " a high dimensional vector and applied as voltage pulses on one side of the in memory compute"
+    },
+    {
+      "end": "00:01:39.320",
+      "start": "00:01:38.320",
+      "text": " array."
+    },
+    {
+      "end": "00:01:43.240",
+      "start": "00:01:39.320",
+      "text": " The resulting similarity vector is received on the other side."
+    },
+    {
+      "end": "00:01:49.000",
+      "start": "00:01:43.240",
+      "text": " However, if we evaluate the learner on images from a different class, for example like"
+    },
+    {
+      "end": "00:01:55.400",
+      "start": "00:01:49.080",
+      "text": " leopard class, having seen no images from this class so far, the learner will misclassify"
+    },
+    {
+      "end": "00:01:58.880",
+      "start": "00:01:55.400",
+      "text": " it as either elephant or wolf."
+    },
+    {
+      "end": "00:02:04.240",
+      "start": "00:01:58.880",
+      "text": " To enable continual learning capability, we just need to feed in a few training images"
+    },
+    {
+      "end": "00:02:06.280",
+      "start": "00:02:04.240",
+      "text": " from the leopard class."
+    },
+    {
+      "end": "00:02:11.280",
+      "start": "00:02:06.280",
+      "text": " Once a row on the in memory compute array is programmed to represent the leopard class,"
+    },
+    {
+      "end": "00:02:16.560",
+      "start": "00:02:11.280",
+      "text": " we are able to successfully classify the leopard query images."
+    },
+    {
+      "end": "00:02:21.360",
+      "start": "00:02:16.560",
+      "text": " We are very excited to bring this new technology to a wider audience in the near future."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "IBM Research",
+  "youtube_channel_follower_count": 100000,
+  "youtube_comment_count": 5,
+  "youtube_description": "Deep convolutional neural networks (CNNs) have achieved remarkable success in computer vision tasks, like image classification. This is the result of the availability of a large amount of training samples, as well as being able to leverage huge computational and memory resources.\n\nThis, however, poses challenges for their applicability to standalone smart agents deployed in new and dynamic environments. In these cases, there is a need for agents to continually learn about novel classes they encounter from very few training samples without forgetting previous knowledge of old classes. At the same time, these agents need to learn efficiently even when computing resources are extremely limited. Our research aims to find solutions to these problems via the physics of in-memory computing, and mathematical models that can efficiently run on in-memory computing hardware.\nhttps://arxiv.org/abs/2207.06810",
+  "youtube_like_count": 71,
+  "youtube_tags": [
+    "IBM",
+    "IBMResearch"
+  ],
+  "youtube_title": "In-memory physical superposition meets few-shot continual learning",
+  "youtube_upload_date": "20221019",
+  "youtube_view_count": 1976
+}

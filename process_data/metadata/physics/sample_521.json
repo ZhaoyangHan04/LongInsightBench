@@ -1,0 +1,365 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice, unseen, providing the explanation of Stokes' Theorem.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "Video explaining the concept of Stokes' Theorem through visualizations of vector fields and mathematical implications.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The gray arrows represent the vector field, while the yellow arrows show the curl of that vector field at each point.",
+        "question": "What visual element represents the curl of the vector field?"
+      },
+      {
+        "answer": "The purple surface initially appears as a flat oval and later morphs into a curved, hat-like shape. This transformation emphasizes that Stokes' Theorem holds true regardless of the specific surface shape as long as it shares the same boundary.",
+        "question": "How does the purple surface change throughout the video, and what does it illustrate?"
+      },
+      {
+        "answer": "Stokes' Theorem establishes an equivalence between the surface integral of the curl of a vector field over a surface and the line integral of that vector field around the closed boundary of the same surface.",
+        "question": "What mathematical concept does Stokes' Theorem connect?"
+      },
+      {
+        "answer": "The yellow line highlights the boundary of the purple surface. Stokes' Theorem tells us that calculating the line integral of the vector field along this boundary is equivalent to calculating the surface integral of the curl over the entire purple surface.",
+        "question": "What is the significance of the yellow line that appears around the purple surface?"
+      },
+      {
+        "answer": "Stokes’ Theorem is used in deriving some of Maxwell’s Equations, which form the foundation of electromagnetism.",
+        "question": "Why is Stokes' Theorem important in physics?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Visualization of a vector field and its curl. The vector field arrows change direction, showing a swirling pattern. A purple surface appears within the vector field.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Introduction of the concept of calculating the total amount of curl within the surface.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduces basic concepts necessary for understanding Stokes' Theorem.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift piques curiosity.",
+              "timestamp": "00:00:08.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concept of curl in a vector field and sets the stage for explaining Stokes' Theorem using a surface integral.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The narrator introduces the idea of taking a surface integral of the curl.",
+            "timestamp": "00:00:08.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Vector field visualization (arrows)",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Curl visualization (arrows)",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Purple surface",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Vector calculus, Stokes' Theorem, Curl, Surface Integral",
+        "timestamps": {
+          "end_timestamp": "00:00:10.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Visualizing Curl",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to focusing on the concept of surface integral by highlighting the purple surface.",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining the calculation of the effective amount of curl by traversing the boundary of the surface.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "description": "Introducing Stokes' Theorem, stating the equality between surface integral of curl and line integral along the boundary.",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "description": "Highlighting the independence of the line integral from the surface shape and the implication for closed surfaces.",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          },
+          {
+            "description": "Mentioning the importance of Stokes' Theorem in Maxwell's equations.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Shows the practical importance of Stokes' Theorem in physics, especially electromagnetism.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Pensive",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift towards confusion due to mathematical notation.",
+              "timestamp": "00:00:28.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains Stokes' Theorem, its implications, and its significance in physics.",
+            "timestamp": "00:00:10.033"
+          },
+          {
+            "description": "The narrator states Stokes' Theorem.",
+            "timestamp": "00:00:28.000"
+          },
+          {
+            "description": "The narrator highlights that the line integral is independent of the surface shape.",
+            "timestamp": "00:00:38.000"
+          },
+          {
+            "description": "The narrator mentions the application of Stokes’ Theorem in Maxwell’s Equations.",
+            "timestamp": "00:00:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Vector field visualization (arrows)",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "name": "Curl visualization (arrows)",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "name": "Purple surface (changing shape)",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "name": "Yellow line highlighting the boundary of the surface",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "name": "Mathematical equations illustrating Stokes’ Theorem",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Vector calculus, Stokes' Theorem, Line Integral, Surface Independence, Maxwell's Equations",
+        "timestamps": {
+          "end_timestamp": "00:01:00.967",
+          "start_timestamp": "00:00:10.033"
+        },
+        "title": "Introducing Stokes' Theorem",
+        "videoEditingDetails": [
+          {
+            "description": "On-screen text appears showcasing Stokes’ Theorem equation.",
+            "timestamps": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "description": "The purple surface changes shape to emphasize the point about the line integral's independence from the surface shape.",
+            "timestamps": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Statement of Stokes’ Theorem",
+        "timestamp": "00:00:28.000"
+      },
+      "description": "Explanation of Stokes' Theorem",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Stokes' Theorem Explained",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial animation of the vector field could be shortened slightly to jumpstart the explanation of the theorem.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 61,
+  "original_json_filename": "vY888dIgm5o.json",
+  "original_video_filename": "vY888dIgm5o.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "starting with the curl of a vector field we can interpret the resulting vector field as the extent to which the initial vector field curls around a particular point say we now take a surface integral of the curl of a vector field we are basically calculating the total amount of curl in this surface and you can imagine that this girl can add up constructively or destructively so we might as well calculate the effective amount of curl but going along the boundary of the surface this is called Stokes theorem it tells you that the surface integral of the curl of a vector field is equal to the line integral of the vector field along the boundary since the right-hand side depends only on the path and not on the particular surface that is chosen the left hand side doesn't depend on the shape of the surface and since for any closed surface the path is essentially zero so the closed surface integral of the curl should also be zero Stokes theorem plays an important role in several Maxwell equations",
+  "text_to_speech_word_count": 182,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.800",
+      "start": "00:00:00.000",
+      "text": " Starting with the curl of a vector field, we can interpret the resulting vector field as"
+    },
+    {
+      "end": "00:00:11.000",
+      "start": "00:00:05.800",
+      "text": " the extent to which the initial vector field curls around a particular point."
+    },
+    {
+      "end": "00:00:14.700",
+      "start": "00:00:11.000",
+      "text": " Say we now take a service integral of the curl of a vector field."
+    },
+    {
+      "end": "00:00:19.200",
+      "start": "00:00:14.700",
+      "text": " We are basically calculating the total amount of curl in this surface."
+    },
+    {
+      "end": "00:00:23.600",
+      "start": "00:00:19.200",
+      "text": " And you can imagine that this curl can add up constructively or destructively."
+    },
+    {
+      "end": "00:00:27.800",
+      "start": "00:00:23.600",
+      "text": " So we might as well calculate the effective amount of curl by going along the boundary"
+    },
+    {
+      "end": "00:00:29.800",
+      "start": "00:00:27.800",
+      "text": " of the surface."
+    },
+    {
+      "end": "00:00:31.600",
+      "start": "00:00:29.800",
+      "text": " This is called Stokes-theorem."
+    },
+    {
+      "end": "00:00:35.900",
+      "start": "00:00:31.600",
+      "text": " It tells you that the surface integral of the curl of a vector field is equal to the line"
+    },
+    {
+      "end": "00:00:39.667",
+      "start": "00:00:35.900",
+      "text": " integral of the vector field along the boundary."
+    },
+    {
+      "end": "00:00:43.467",
+      "start": "00:00:39.667",
+      "text": " Since the right-hand side depends only on the path and not on the particular surface that"
+    },
+    {
+      "end": "00:00:48.533",
+      "start": "00:00:43.467",
+      "text": " is chosen, the left-hand side doesn't depend on the shape of the surface."
+    },
+    {
+      "end": "00:00:52.667",
+      "start": "00:00:48.533",
+      "text": " And since for any closed surface, the path is essentially zero, so the closed surface"
+    },
+    {
+      "end": "00:00:56.300",
+      "start": "00:00:52.667",
+      "text": " integral of the curl should also be zero."
+    },
+    {
+      "end": "00:00:59.433",
+      "start": "00:00:56.300",
+      "text": " Stokes-theorem plays an important role in several Maxwell equations."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "ICTO-FNWI",
+  "youtube_channel_follower_count": 482,
+  "youtube_comment_count": 5,
+  "youtube_description": "",
+  "youtube_like_count": 221,
+  "youtube_tags": [],
+  "youtube_title": "Stokes Theorem",
+  "youtube_upload_date": "20170125",
+  "youtube_view_count": 19177
+}

@@ -1,0 +1,921 @@
+{
+  "content_fine_category": "Science Explainers",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "An Indian man with a beard and dark hair, wearing a blue shirt.",
+        "name": "Man 1"
+      },
+      {
+        "characterId": "2",
+        "description": "A Caucasian man with short brown hair, wearing a black suit and tie.",
+        "name": "Man 2"
+      },
+      {
+        "characterId": "3",
+        "description": "A Caucasian woman with long brown hair, wearing a dark blue top.",
+        "name": "Woman 1"
+      },
+      {
+        "characterId": "4",
+        "description": "A Caucasian woman with blonde hair, wearing a dark top with thin straps.",
+        "name": "Woman 2"
+      },
+      {
+        "characterId": "5",
+        "description": "A Caucasian man with short blonde hair, wearing a gray patterned shirt.",
+        "name": "Man 3"
+      },
+      {
+        "characterId": "6",
+        "description": "A Caucasian woman with long dark hair, wearing a black jacket.",
+        "name": "Woman 3"
+      },
+      {
+        "characterId": "7",
+        "description": "A famous actress, recognizable from her iconic blonde hair and red lipstick.",
+        "name": "Marilyn Monroe"
+      },
+      {
+        "characterId": "8",
+        "description": "A famous artist, recognizable from his distinctive mustache and upward-pointing eyebrows.",
+        "name": "Salvador Dali"
+      },
+      {
+        "characterId": "9",
+        "description": "A Russian novelist, recognizable from his beard and serious expression.",
+        "name": "Fyodor Dostoevsky"
+      },
+      {
+        "characterId": "10",
+        "description": "A famous physicist, recognizable from his white hair and mustache.",
+        "name": "Albert Einstein"
+      },
+      {
+        "characterId": "11",
+        "description": "A famous woman depicted in a painting, recognizable from her enigmatic smile.",
+        "name": "Mona Lisa"
+      },
+      {
+        "characterId": "12",
+        "description": "A woman from a classical painting, recognizable by her dark hair, delicate features, and white feather hat.",
+        "name": "Woman 4"
+      }
+    ],
+    "description": "This video showcases a new AI system that can learn realistic talking head models from a small number of images. It demonstrates the capabilities of the system and its potential applications, particularly in creating 'living portraits.'",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The system can learn from as few as one image (one-shot learning) to generate a basic model.",
+        "question": "How many training images are needed to generate a basic talking head model?"
+      },
+      {
+        "answer": "Adversarial fine-tuning helps improve the realism and identity matching of the generated talking heads.",
+        "question": "Why is adversarial fine-tuning important in this system?"
+      },
+      {
+        "answer": "The VoxCeleb2 dataset, a large collection of videos, is used in the Meta-learning stage to train the initial models.",
+        "question": "What is the significance of the VoxCeleb2 dataset in this research?"
+      },
+      {
+        "answer": "The system sometimes struggles with the significant difference in visual style between paintings and the YouTube videos used in training.",
+        "question": "What challenges arise when applying the system to artistic portraits?"
+      },
+      {
+        "answer": "The video primarily conveys a neutral and informative mood, with a shift towards curiosity and intrigue in the final scene showcasing 'living portraits.'",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction to the research and capabilities of the AI system.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral, informative.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the topic of the video.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "AI, Deep Learning, Facial Recognition, Talking Head Models.",
+        "timestamps": {
+          "end_timestamp": "00:00:02.569",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Title of the research paper and authors' names displayed as a text overlay.",
+            "timestamps": {
+              "end_timestamp": "00:00:01.001",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Fade-in from black to the title slide.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.569",
+              "start_timestamp": "00:00:01.001"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking, Lip Syncing.",
+            "timestamp": {
+              "end_timestamp": "00:00:36.003",
+              "start_timestamp": "00:00:04.004"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Man 1",
+          "Man 2"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Technical explanation of the AI learning process.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, informative.",
+          "keyMoments": [
+            {
+              "changeDescription": "Introduction of visual diagram",
+              "timestamp": "00:00:03.003"
+            },
+            {
+              "changeDescription": "Explanation of minimal requirement for images",
+              "timestamp": "00:00:10.010"
+            },
+            {
+              "changeDescription": "Instruction on learned model driving",
+              "timestamp": "00:00:16.984"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of how the system learns talking head models from a few examples.",
+            "timestamp": "00:00:03.003"
+          }
+        ],
+        "props": [
+          {
+            "name": "Line drawings of faces (Landmarks)",
+            "timestamp": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:10.010"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "AI, Deep Learning, Facial Recognition, Talking Head Models.",
+        "timestamps": {
+          "end_timestamp": "00:00:36.703",
+          "start_timestamp": "00:00:02.603"
+        },
+        "title": "System Explanation",
+        "videoEditingDetails": [
+          {
+            "description": "Text Overlay: 'Learning talking heads from few examples,' 'Training frames,' 'Driving sequence,' 'Face Landmarks,' 'Learned talking head.'",
+            "timestamps": {
+              "end_timestamp": "00:00:36.003",
+              "start_timestamp": "00:00:05.005"
+            }
+          },
+          {
+            "description": "Cuts between different examples.",
+            "timestamps": {
+              "end_timestamp": "00:00:36.003",
+              "start_timestamp": "00:00:07.007"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking, Lip Syncing.",
+            "timestamp": {
+              "end_timestamp": "00:01:02.996",
+              "start_timestamp": "00:00:38.005"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Woman 1"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Showing the impact of the number of training frames on model quality.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral, informative.",
+          "keyMoments": [
+            {
+              "changeDescription": "Narration on learning from different frame numbers",
+              "timestamp": "00:00:47.014"
+            },
+            {
+              "changeDescription": "Demonstration of one-shot learning",
+              "timestamp": "00:00:50.017"
+            },
+            {
+              "changeDescription": "Highlight on realism improvement with multiple frames",
+              "timestamp": "00:00:54.988"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating how the quality of the generated talking head model improves with an increasing number of training frames.",
+            "timestamp": "00:00:37.004"
+          }
+        ],
+        "props": [
+          {
+            "name": "Line drawing of a face (Landmarks)",
+            "timestamp": {
+              "end_timestamp": "00:00:59.993",
+              "start_timestamp": "00:00:40.007"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "AI Training Data, Model Accuracy, Realism in AI-Generated Content.",
+        "timestamps": {
+          "end_timestamp": "00:01:05.165",
+          "start_timestamp": "00:00:36.737"
+        },
+        "title": "Quality of Generated Models",
+        "videoEditingDetails": [
+          {
+            "description": "Text Overlay: 'Varying the number of frames,' 'Training frames,' 'Face Landmarks,' '1-shot result,' '8-shot result,' '32-shot result.'",
+            "timestamps": {
+              "end_timestamp": "00:01:02.996",
+              "start_timestamp": "00:00:41.008"
+            }
+          },
+          {
+            "description": "Cuts between results obtained using different numbers of training frames.",
+            "timestamps": {
+              "end_timestamp": "00:01:00.994",
+              "start_timestamp": "00:00:42.009"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking, Lip Syncing.",
+            "timestamp": {
+              "end_timestamp": "00:02:50.003",
+              "start_timestamp": "00:01:05.198"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Man 1"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Details of the system's architecture and learning methodology.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral, informative.",
+          "keyMoments": [
+            {
+              "changeDescription": "Intro to Meta-learning model",
+              "timestamp": "00:01:05.198"
+            },
+            {
+              "changeDescription": "VoxCeleb2 dataset explanation",
+              "timestamp": "00:01:18.011"
+            },
+            {
+              "changeDescription": "Network breakdown in Meta-learning",
+              "timestamp": "00:01:22.015"
+            },
+            {
+              "changeDescription": "Shift to Few-shot learning model explanation",
+              "timestamp": "00:02:05.993"
+            },
+            {
+              "changeDescription": "Fine-tuning explanation",
+              "timestamp": "00:02:20.007"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "A technical explanation of the underlying architecture of the system, highlighting the Meta-learning and Few-shot learning stages.",
+            "timestamp": "00:01:05.198"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram of the Meta-learning model",
+            "timestamp": {
+              "end_timestamp": "00:02:20.007",
+              "start_timestamp": "00:01:10.003"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "AI Architecture, Meta-learning, Few-shot Learning, Adversarial Networks, Content Generation.",
+        "timestamps": {
+          "end_timestamp": "00:02:53.440",
+          "start_timestamp": "00:01:05.198"
+        },
+        "title": "Technical Explanation of the System",
+        "videoEditingDetails": [
+          {
+            "description": "Text Overlay: 'Meta-learning model,' 'Landmarks,' 'Generator,' 'Synthesized,' 'Fake pair,' 'Discriminator,' 'Real pair,' 'AdaIN parameters,' 'MLP,' 'Embedder,' 'RGB & Landmarks (few-shot train set),' 'Ground truth,' 'Content loss,' 'Match loss,' 'Realism score,' 'Few-shot learning model'.",
+            "timestamps": {
+              "end_timestamp": "00:02:18.005",
+              "start_timestamp": "00:01:08.001"
+            }
+          },
+          {
+            "description": "Cuts between different parts of the diagram as the narrator explains each component.",
+            "timestamps": {
+              "end_timestamp": "00:02:19.006",
+              "start_timestamp": "00:01:09.002"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Woman 2",
+          "Man 3"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstration of system output with different amounts of training data.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral, informative.",
+          "keyMoments": [
+            {
+              "changeDescription": "Emphasis on adversarial fine-tuning",
+              "timestamp": "00:02:53.473"
+            },
+            {
+              "changeDescription": "Highlight on identity preservation improvement",
+              "timestamp": "00:02:59.012"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcasing the results of the Few-shot learning stage for two different individuals, with varying numbers of training images.",
+            "timestamp": "00:02:53.473"
+          }
+        ],
+        "props": [
+          {
+            "name": "Still images demonstrating 'Few-shot learning results.'",
+            "timestamp": {
+              "end_timestamp": "00:03:14.995",
+              "start_timestamp": "00:02:55.008"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "AI-Generated Content, Realism, Identity Preservation, Fine-tuning.",
+        "timestamps": {
+          "end_timestamp": "00:03:20.967",
+          "start_timestamp": "00:02:53.473"
+        },
+        "title": "Few-Shot Learning Results",
+        "videoEditingDetails": [
+          {
+            "description": "Text Overlay: 'Few-shot learning results,' 'Ground truth,' '1-shot results,' '8-shot results,' '32-shot results.'",
+            "timestamps": {
+              "end_timestamp": "00:03:18.999",
+              "start_timestamp": "00:02:53.473"
+            }
+          },
+          {
+            "description": "Cuts between examples for two different individuals.",
+            "timestamps": {
+              "end_timestamp": "00:03:17.998",
+              "start_timestamp": "00:02:54.007"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking, Lip Syncing.",
+            "timestamp": {
+              "end_timestamp": "00:04:15.989",
+              "start_timestamp": "00:03:21.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Eight different individuals"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Examples showcasing the versatility and application of the system.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral, demonstrative.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the system's ability to generate realistic talking head models for various individuals, using eight training images each.",
+            "timestamp": "00:03:21.001"
+          }
+        ],
+        "props": [],
+        "sceneId": 6,
+        "thematicElements": "AI Versatility, Diverse Applications, Human-like Facial Animation.",
+        "timestamps": {
+          "end_timestamp": "00:04:17.124",
+          "start_timestamp": "00:03:21.001"
+        },
+        "title": "More Examples with Few-Shot Learning",
+        "videoEditingDetails": [
+          {
+            "description": "Text Overlay: 'More examples (8-shot, VoxCeleb2).'",
+            "timestamps": {
+              "end_timestamp": "00:04:14.988",
+              "start_timestamp": "00:03:22.002"
+            }
+          },
+          {
+            "description": "Cuts between short video clips of different individuals.",
+            "timestamps": {
+              "end_timestamp": "00:04:13.987",
+              "start_timestamp": "00:03:23.003"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Talking, Lip Syncing",
+            "timestamp": {
+              "end_timestamp": "00:05:29.996",
+              "start_timestamp": "00:04:17.991"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Marilyn Monroe",
+          "Salvador Dali",
+          "Fyodor Dostoevsky",
+          "Albert Einstein",
+          "Mona Lisa",
+          "Woman 4"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Exploration of artistic and historical applications of the technology.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, intriguing.",
+          "keyMoments": [
+            {
+              "changeDescription": "Exploration of selfie results begins",
+              "timestamp": "00:04:17.157"
+            },
+            {
+              "changeDescription": "Showcase of talking head from selfies",
+              "timestamp": "00:04:21.995"
+            },
+            {
+              "changeDescription": "Transition to portrait applications",
+              "timestamp": "00:04:33.006"
+            },
+            {
+              "changeDescription": "Challenge of applying to paintings discussed",
+              "timestamp": "00:04:56.997"
+            },
+            {
+              "changeDescription": "Sensitivity to landmark geometry highlighted",
+              "timestamp": "00:05:16.016"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Pushing the boundaries of the system by applying it to selfies and artistic representations, showcasing its potential for creating 'living portraits.'",
+            "timestamp": "00:04:17.157"
+          }
+        ],
+        "props": [
+          {
+            "name": "Paintings and photographs of the individuals.",
+            "timestamp": {
+              "end_timestamp": "00:05:24.991",
+              "start_timestamp": "00:04:19.993"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "'Living Portraits,' Historical Figures, Artistic Applications of AI.",
+        "timestamps": {
+          "end_timestamp": "00:05:33.633",
+          "start_timestamp": "00:04:17.157"
+        },
+        "title": "Living Portraits",
+        "videoEditingDetails": [
+          {
+            "description": "Text Overlay: 'Selfie results,' 'Training frames,' 'Driving sequence,' 'Face landmarks,' 'Learned talking head,' 'Living portraits.'",
+            "timestamps": {
+              "end_timestamp": "00:05:27.994",
+              "start_timestamp": "00:04:21.995"
+            }
+          },
+          {
+            "description": "Cuts between examples of talking heads generated from selfies and famous paintings/photographs.",
+            "timestamps": {
+              "end_timestamp": "00:05:29.996",
+              "start_timestamp": "00:04:24.998"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The versatility of the system and its application in artistic and historical domains, as seen in the animation of the Mona Lisa.",
+        "timestamp": "00:05:00.000"
+      },
+      "description": "The video showcases an AI system capable of learning realistic talking head models from few images, leading to potential applications in 'living portraits.'",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models",
+    "trimmingSuggestions": [
+      {
+        "description": "The detailed technical explanation could be condensed or moved to a supplementary video.",
+        "timestamps": {
+          "end_timestamp": "00:04:17.157",
+          "start_timestamp": "00:04:17.157"
+        }
+      },
+      {
+        "description": "Some of the less impressive or repetitive examples in Scene 6 could be removed, keeping only the most striking results.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The less successful examples in Scene 7 focusing on 'living portraits' could be trimmed, highlighting only the most impactful results.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 334,
+  "original_json_filename": "p1b5aiTrGzY.json",
+  "original_video_filename": "p1b5aiTrGzY.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] we present a system that can learn realistic talking-head models notably learning of a new head model requires just a handful of images in this example the model was learned from eight frames once a talking head model was learned it can be driven by the positions of the face landmarks in this case we extract landmarks by running an off-the-shelf face landmark tracker on a different video of the same person effectively the learned model serves as a realistic avatar of a person our talking head models work well even for new view angles not present in the training examples are shown here our system can learn from different numbers of frames one shot learning from a single frame as possible of course increasing the number of frames leads to head models of higher realism and to better identity preservation [Music] our approach uses a meta learning stage which is performed on a huge data set of videos for the results in its presentation the voxel M - data set is used 3 networks are trained during the meta learning stage the embedded Network Maps frames concatenated with the landmarks into vectors containing pose independent information these vectors are used to initialize the parameters of adapted layers inside the generating network which Maps landmarks into the synthesized video finally the discriminator Network assesses the realism pose and identity preservation of the generated frames better identity preservation is achieved by having a trainable embedding vector inside the discriminator for each training video for more details please refer to the paper after metal early were able to fine tune the generator on a discriminator for a new person the generator and the discriminator networks have tens of millions of parameters still such fine tuning is possible on just a few images thanks to the good initialization provided by the male early stage before fine-tuning for a new person we initialize the adaptive parameters of the generator and the video embedding inside the discriminator using the output of the embedded network after that we train the generator and the discriminator on the available few images using the same adversarial objective as in the meta learning stage the adversarial fine-tuning is very important for the improvement of realism and identity matching also it allows us to get a more personalized model given a larger image set for fine-tuning the identity match improvement is particularly noticeable in the bottom example [Music] here we show more results for holdout identities on the Vox celeb 2 data set that were unseen by the system at the meta learning stage these talking head models are obtained using 8 frames although in some cases there was limited diversity between the head pose in those 8 frames we also show how the system generalizes to selfie photographs which are quite different from YouTube video frames in the Vox celeb 2 data set here is one more talking head model learned on 16 selfie photographs [Music] we can push the generalization even further applying the system to famous photos in each case we automatically find people in the voxel m2 data set with landmarks suitable for the animation of a particular portrait [Music] with a certain degree of success we can even apply the model to paintings despite the large domain gap between paintings and YouTube videos here we can see that in some cases the model might be very sensitive to the geometry of the landmarks driving Mona Lisa with landmarks from three different people results in videos with very distinct personalities landmark adaptation and tight integration of our system with landmark tracking remains future work",
+  "text_to_speech_word_count": 608,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.808",
+      "start": "00:00:00.000",
+      "text": " We present a system that can learn realistic talking head models."
+    },
+    {
+      "end": "00:00:12.946",
+      "start": "00:00:07.808",
+      "text": " Notably, learning of a new head model requires just a handful of images."
+    },
+    {
+      "end": "00:00:16.984",
+      "start": "00:00:12.946",
+      "text": " In this example, the model was learned from eight frames."
+    },
+    {
+      "end": "00:00:23.390",
+      "start": "00:00:16.984",
+      "text": " Once a talking head model was learned, it can be driven by the positions of the face landmarks."
+    },
+    {
+      "end": "00:00:28.328",
+      "start": "00:00:23.390",
+      "text": " In this case, we extract landmarks by running an off-the-shelf face landmark tracker on a"
+    },
+    {
+      "end": "00:00:31.265",
+      "start": "00:00:28.328",
+      "text": " different video of the same person."
+    },
+    {
+      "end": "00:00:37.971",
+      "start": "00:00:31.265",
+      "text": " Effectively, the learned model serves as a realistic avatar of a person."
+    },
+    {
+      "end": "00:00:43.410",
+      "start": "00:00:37.971",
+      "text": " Our talking head models work well, even for new view angles, not present in the training"
+    },
+    {
+      "end": "00:00:47.014",
+      "start": "00:00:43.410",
+      "text": " examples as shown here."
+    },
+    {
+      "end": "00:00:51.151",
+      "start": "00:00:47.014",
+      "text": " Our system can learn from different numbers of frames."
+    },
+    {
+      "end": "00:00:54.488",
+      "start": "00:00:51.151",
+      "text": " One shot learning from a single frame is possible."
+    },
+    {
+      "end": "00:00:59.192",
+      "start": "00:00:54.488",
+      "text": " Of course, increasing the number of frames leads to head models of higher realism and to"
+    },
+    {
+      "end": "00:01:06.733",
+      "start": "00:00:59.192",
+      "text": " better identity preservation."
+    },
+    {
+      "end": "00:01:13.407",
+      "start": "00:01:06.733",
+      "text": " Our approach uses a meta-learning stage, which is performed on a huge data set of videos."
+    },
+    {
+      "end": "00:01:18.712",
+      "start": "00:01:13.407",
+      "text": " For the results in this presentation, the Vox Celeb 2 data set is used."
+    },
+    {
+      "end": "00:01:22.182",
+      "start": "00:01:18.712",
+      "text": " Three networks are trained during the meta-learning stage."
+    },
+    {
+      "end": "00:01:28.255",
+      "start": "00:01:22.182",
+      "text": " The embedded network maps frames concatenated with the landmarks into vectors, containing"
+    },
+    {
+      "end": "00:01:31.391",
+      "start": "00:01:28.255",
+      "text": " pose independent information."
+    },
+    {
+      "end": "00:01:37.931",
+      "start": "00:01:31.391",
+      "text": " These vectors are used to initialize the parameters of adapted layers inside the Generator Network,"
+    },
+    {
+      "end": "00:01:41.768",
+      "start": "00:01:37.931",
+      "text": " which maps landmarks into the synthesized video."
+    },
+    {
+      "end": "00:01:48.108",
+      "start": "00:01:41.768",
+      "text": " Finally, the discriminator network assesses the realism, pose, and identity preservation"
+    },
+    {
+      "end": "00:01:51.211",
+      "start": "00:01:48.108",
+      "text": " of the generated frames."
+    },
+    {
+      "end": "00:01:57.050",
+      "start": "00:01:51.211",
+      "text": " Data identity preservation is achieved by having a trainable embedding vector inside the"
+    },
+    {
+      "end": "00:02:01.021",
+      "start": "00:01:57.050",
+      "text": " discriminator for each training video."
+    },
+    {
+      "end": "00:02:06.793",
+      "start": "00:02:01.021",
+      "text": " For more details, please refer to the paper."
+    },
+    {
+      "end": "00:02:12.032",
+      "start": "00:02:06.793",
+      "text": " After meta-learning, we're able to fine-tune the generator and the discriminator for a new"
+    },
+    {
+      "end": "00:02:13.667",
+      "start": "00:02:12.032",
+      "text": " person."
+    },
+    {
+      "end": "00:02:18.271",
+      "start": "00:02:13.667",
+      "text": " The generator and the discriminator networks have tens of millions of parameters."
+    },
+    {
+      "end": "00:02:24.544",
+      "start": "00:02:18.271",
+      "text": " Still, such fine-tuning is possible on just a few images, thanks to the good initialization"
+    },
+    {
+      "end": "00:02:28.415",
+      "start": "00:02:24.544",
+      "text": " provided by the meta-learning stage."
+    },
+    {
+      "end": "00:02:34.421",
+      "start": "00:02:28.415",
+      "text": " Before fine-tuning for a new person, we initialize the adapted parameters of the generator"
+    },
+    {
+      "end": "00:02:41.495",
+      "start": "00:02:34.421",
+      "text": " and the video embedding inside the discriminator using the output of the embedded network."
+    },
+    {
+      "end": "00:02:46.967",
+      "start": "00:02:41.495",
+      "text": " After that, we train the generator and the discriminator on the available few images"
+    },
+    {
+      "end": "00:02:54.007",
+      "start": "00:02:46.967",
+      "text": " using the same adversarial objective as in the meta-learning stage."
+    },
+    {
+      "end": "00:02:59.613",
+      "start": "00:02:54.007",
+      "text": " The adversarial fine-tuning is very important for the improvement of realism and identity"
+    },
+    {
+      "end": "00:03:00.614",
+      "start": "00:02:59.613",
+      "text": " matching."
+    },
+    {
+      "end": "00:03:08.188",
+      "start": "00:03:00.614",
+      "text": " Also, it allows us to get a more personalized model, given a larger image set for fine-tuning."
+    },
+    {
+      "end": "00:03:15.195",
+      "start": "00:03:08.188",
+      "text": " The identity matching improvement is particularly noticeable in the bottom example."
+    },
+    {
+      "end": "00:03:28.108",
+      "start": "00:03:15.195",
+      "text": " Here, we show more results for holdout identities on the Vox Celeb 2 data set that were unseen"
+    },
+    {
+      "end": "00:03:31.878",
+      "start": "00:03:28.108",
+      "text": " by the system at the meta-learning stage."
+    },
+    {
+      "end": "00:03:37.117",
+      "start": "00:03:31.878",
+      "text": " These talking head models are obtained using eight frames, although in some cases there"
+    },
+    {
+      "end": "00:03:44.758",
+      "start": "00:03:37.117",
+      "text": " was limited diversity between the head pose in those eight frames."
+    },
+    {
+      "end": "00:03:50.464",
+      "start": "00:03:44.758",
+      "text": " We also show how the system generalizes to selfie photographs, which are quite different"
+    },
+    {
+      "end": "00:04:01.575",
+      "start": "00:03:50.464",
+      "text": " from YouTube video frames in the Vox Celeb 2 data set."
+    },
+    {
+      "end": "00:04:18.558",
+      "start": "00:04:01.575",
+      "text": " Here is one more talking head model, learned on 16 selfie photographs."
+    },
+    {
+      "end": "00:04:24.598",
+      "start": "00:04:18.558",
+      "text": " We can push the generalization even further, applying the system to famous photographs."
+    },
+    {
+      "end": "00:04:30.504",
+      "start": "00:04:24.598",
+      "text": " In each case, we automatically find people in the Vox Celeb 2 data set with landmark suitable"
+    },
+    {
+      "end": "00:04:56.596",
+      "start": "00:04:30.504",
+      "text": " for the animation of a particular portrait."
+    },
+    {
+      "end": "00:05:01.568",
+      "start": "00:04:56.596",
+      "text": " With a certain degree of success, we can even apply the models of paintings, despite the"
+    },
+    {
+      "end": "00:05:08.508",
+      "start": "00:05:01.568",
+      "text": " large domain gap between paintings and YouTube videos."
+    },
+    {
+      "end": "00:05:13.547",
+      "start": "00:05:08.508",
+      "text": " Here we can see that in some cases, the model might be very sensitive to the geometry of"
+    },
+    {
+      "end": "00:05:16.116",
+      "start": "00:05:13.547",
+      "text": " the landmarks."
+    },
+    {
+      "end": "00:05:20.887",
+      "start": "00:05:16.116",
+      "text": " Driving Mona Lisa with landmarks from three different people results in videos with very"
+    },
+    {
+      "end": "00:05:24.090",
+      "start": "00:05:20.887",
+      "text": " distinct personalities."
+    },
+    {
+      "end": "00:05:29.262",
+      "start": "00:05:24.090",
+      "text": " That adaptation and tighter integration of our system with landmark tracking remains"
+    },
+    {
+      "end": "00:05:30.063",
+      "start": "00:05:29.262",
+      "text": " future work."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Egor Zakharov",
+  "youtube_channel_follower_count": 2770,
+  "youtube_comment_count": 2000,
+  "youtube_description": "Statement regarding the purpose and effect of the technology\n(NB: this statement reflects personal opinions of the authors and not of their organizations)\n\nWe believe that telepresence technologies in AR, VR and other media are to transform the world in the not-so-distant future. Shifting a part of human life-like communication to the virtual and augmented worlds will have several positive effects. It will lead to a reduction in long-distance travel and short-distance commute. It will democratize education, and improve the quality of life for people with disabilities. It will distribute jobs more fairly and uniformly around the World. It will better connect relatives and friends separated by distance. To achieve all these effects, we need to make human communication in AR and VR as realistic and compelling as possible, and the creation of photorealistic avatars is one (small) step towards this future. In other words, in future telepresence systems, people will need to be represented by the realistic semblances of themselves, and creating such avatars should be easy for the users. This application and scientific curiosity is what drives the research in our group, including the project presented in this video.\n\nWe realize that our technology can have a negative use for the so-called “deepfake” videos. However, it is important to realize, that Hollywood has been making fake videos (aka “special effects”) for a century, and deep networks with similar capabilities have been available for the past several years (see links in the paper). Our work (and quite a few parallel works) will lead to the democratization of the certain special effects technologies. And the democratization of the technologies has always had negative effects. Democratizing sound editing tools lead to the rise of pranksters and fake audios, democratizing video recording lead to the appearance of footage taken without consent. In each of the past cases, the net effect of democratization on the World has been positive, and mechanisms for stemming the negative effects have been developed. We believe that the case of neural avatar technology will be no different. Our belief is supported by the ongoing development of tools for fake video detection and face spoof detection alongside with the ongoing shift for privacy and data security in major IT companies. \n\nAuthors:\nEgor Zakharov, Aliaksandra Shysheya, Egor Burkov, Victor Lempitsky\n\nPaper:\nhttps://arxiv.org/abs/1905.08233v1\n\nMusic:\n\"Fresh Fallen Snow\" by Chris Haugen",
+  "youtube_like_count": 19617,
+  "youtube_tags": [
+    "generative networks",
+    "generative adversarial networks",
+    "gans",
+    "image synthesis",
+    "video synthesis",
+    "deep learning",
+    "machine learning",
+    "computer vision",
+    "telepresence",
+    "voxceleb2",
+    "talking heads",
+    "neural talking heads",
+    "talking head models",
+    "few-shot",
+    "one-shot"
+  ],
+  "youtube_title": "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models",
+  "youtube_upload_date": "20190521",
+  "youtube_view_count": 1705158
+}

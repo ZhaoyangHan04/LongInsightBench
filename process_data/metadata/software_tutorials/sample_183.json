@@ -1,0 +1,1344 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [],
+    "description": "This video tutorial guides viewers through the process of tidying up a 3D object imported from Google Maps 3D data into Blender. It covers merging objects, removing unnecessary materials using a script, generating UV maps, and texture baking.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Ctrl+J",
+        "question": "What keyboard shortcut is used to join multiple objects into a single mesh in Blender?"
+      },
+      {
+        "answer": "MeshLab",
+        "question": "What external software is recommended for unwrapping complex meshes with a large number of vertices?"
+      },
+      {
+        "answer": "Diffuse",
+        "question": "What bake type is used to transfer color information from the original object to the cleaned-up mesh?"
+      },
+      {
+        "answer": "8192 pixels",
+        "question": "What resolution is chosen for the final baked texture image?"
+      },
+      {
+        "answer": "PNG; to preserve transparency.",
+        "question": "What file format is used to save the baked texture image and why?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduction to the topic",
+            "timestamp": {
+              "end_timestamp": "00:00:18.633",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Relevant for Blender users and 3D modelers working with Google Maps data",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the purpose of the video, which is to show how to tidy up a 3D object imported from Google Maps 3D data into Blender.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The narrator begins by referring to a previous video where they showed how to import Google Maps 3D data into Blender.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The narrator states the goal of this video: cleaning up the imported 3D object.",
+            "timestamp": "00:00:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender software interface with a 3D model of a city",
+            "timestamp": {
+              "end_timestamp": "00:00:18.633",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Tutorial on the clean-up of 3D models",
+        "timestamps": {
+          "end_timestamp": "00:00:18.633",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to the Topic",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'i) mesh'",
+            "timestamps": {
+              "end_timestamp": "00:00:18.633",
+              "start_timestamp": "00:00:18.633"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Merging multiple objects into one mesh",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Useful for combining meshes in 3D modeling",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Indifferent)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator walks the viewer through the process of merging multiple small tiles of the 3D object into a single mesh using Blender's features.",
+            "timestamp": "00:00:20.000"
+          },
+          {
+            "description": "The narrator identifies the first issue: the data is imported as separate tiles.",
+            "timestamp": "00:00:20.000"
+          },
+          {
+            "description": "The narrator shows how to select all objects in a collection.",
+            "timestamp": "00:00:28.000"
+          },
+          {
+            "description": "The narrator uses 'Ctrl+J' to join all objects into one.",
+            "timestamp": "00:00:36.000"
+          },
+          {
+            "description": "The narrator points out overlapping vertices as a consequence of merging.",
+            "timestamp": "00:00:40.000"
+          },
+          {
+            "description": "The narrator enters edit mode using 'Tab'.",
+            "timestamp": "00:00:44.000"
+          },
+          {
+            "description": "The narrator merges vertices by distance.",
+            "timestamp": "00:00:47.000"
+          },
+          {
+            "description": "The narrator confirms that the merged mesh is intact.",
+            "timestamp": "00:00:57.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender software interface with a 3D model of a city",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Object merging in Blender",
+        "timestamps": {
+          "end_timestamp": "00:01:00.000",
+          "start_timestamp": "00:00:18.667"
+        },
+        "title": "Merging Multiple Objects into One Mesh",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'i) mesh'",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Ctrl+J'",
+            "timestamps": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:37.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Tab'",
+            "timestamps": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Removing unnecessary materials using a script",
+            "timestamp": {
+              "end_timestamp": "00:02:04.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Relevant for reducing material complexity in 3D projects",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Indifferent)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator demonstrates how to remove hundreds of materials associated with the original tiles using a Python script within Blender.",
+            "timestamp": "00:01:01.000"
+          },
+          {
+            "description": "The narrator highlights the issue of numerous materials after merging.",
+            "timestamp": "00:01:01.000"
+          },
+          {
+            "description": "The narrator's goal: combining materials into one with a single texture.",
+            "timestamp": "00:01:09.000"
+          },
+          {
+            "description": "The narrator duplicates the object using 'Shift+D'.",
+            "timestamp": "00:01:19.000"
+          },
+          {
+            "description": "The narrator disables visibility of the original object.",
+            "timestamp": "00:01:29.000"
+          },
+          {
+            "description": "The narrator explains that deleting materials one-by-one is tedious.",
+            "timestamp": "00:01:30.000"
+          },
+          {
+            "description": "The narrator introduces a faster method using a script.",
+            "timestamp": "00:01:35.000"
+          },
+          {
+            "description": "The narrator splits the workspace and opens the text editor.",
+            "timestamp": "00:01:37.000"
+          },
+          {
+            "description": "The narrator explains that the script code will be provided in the description.",
+            "timestamp": "00:01:42.000"
+          },
+          {
+            "description": "The narrator pastes and briefly explains the script code.",
+            "timestamp": "00:01:47.000"
+          },
+          {
+            "description": "The narrator executes the script using 'Run Script'.",
+            "timestamp": "00:01:57.000"
+          },
+          {
+            "description": "The narrator confirms that all materials are removed.",
+            "timestamp": "00:02:01.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender software interface with a 3D model of a city",
+            "timestamp": {
+              "end_timestamp": "00:02:04.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Material management in Blender",
+        "timestamps": {
+          "end_timestamp": "00:02:04.367",
+          "start_timestamp": "00:01:00.033"
+        },
+        "title": "Removing Unnecessary Materials Using a Script",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'ii) materials'",
+            "timestamps": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'Shift+D'",
+            "timestamps": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:23.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Generating a new UV map using Smart UV Project",
+            "timestamp": {
+              "end_timestamp": "00:03:20.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Important for texture application in 3D models",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Indifferent)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator focuses on creating a new UV map for the cleaned-up object to replace the chaotic original UV map.",
+            "timestamp": "00:02:05.000"
+          },
+          {
+            "description": "The narrator outlines the plan for baking textures onto the new object.",
+            "timestamp": "00:02:06.000"
+          },
+          {
+            "description": "The narrator explains the need for a new UV map for the blank object.",
+            "timestamp": "00:02:22.000"
+          },
+          {
+            "description": "The narrator switches to the UV Editor workspace in Blender.",
+            "timestamp": "00:02:28.000"
+          },
+          {
+            "description": "The narrator enters edit mode and showcases the chaotic existing UV map.",
+            "timestamp": "00:02:32.000"
+          },
+          {
+            "description": "The narrator decides to create a new unwrap using 'Smart UV Project'.",
+            "timestamp": "00:02:40.000"
+          },
+          {
+            "description": "The narrator warns that unwrapping a large mesh takes time.",
+            "timestamp": "00:02:45.000"
+          },
+          {
+            "description": "The narrator advises saving the file before proceeding.",
+            "timestamp": "00:02:56.000"
+          },
+          {
+            "description": "The narrator starts the unwrapping process and mentions the estimated time.",
+            "timestamp": "00:03:04.000"
+          },
+          {
+            "description": "The narrator shows the final unwrapped UV map.",
+            "timestamp": "00:03:14.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender software interface with a 3D model of a city",
+            "timestamp": {
+              "end_timestamp": "00:03:20.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "UV mapping in Blender",
+        "timestamps": {
+          "end_timestamp": "00:03:20.367",
+          "start_timestamp": "00:02:04.400"
+        },
+        "title": "Generating a New UV Map Using Smart UV Project",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'iii) uv map'",
+            "timestamps": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:02:05.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'warning'",
+            "timestamps": {
+              "end_timestamp": "00:02:53.000",
+              "start_timestamp": "00:02:53.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Generating a new UV map using MeshLab as an alternative method",
+            "timestamp": {
+              "end_timestamp": "00:05:14.000",
+              "start_timestamp": "00:03:21.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Beneficial for handling large meshes in 3D projects",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Indifferent)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator presents an alternative method for creating a UV map using the external software MeshLab, which is faster than Blender's internal 'Smart UV Project' for large meshes.",
+            "timestamp": "00:03:21.000"
+          },
+          {
+            "description": "The narrator introduces a quicker alternative for unwrapping the model.",
+            "timestamp": "00:03:21.000"
+          },
+          {
+            "description": "The narrator emphasizes that the result may be slightly inferior but still good.",
+            "timestamp": "00:03:33.000"
+          },
+          {
+            "description": "The narrator starts the alternative process by exporting the object as an OBJ.",
+            "timestamp": "00:03:34.000"
+          },
+          {
+            "description": "The narrator opens MeshLab.",
+            "timestamp": "00:03:39.000"
+          },
+          {
+            "description": "The narrator imports the exported OBJ into MeshLab.",
+            "timestamp": "00:03:57.000"
+          },
+          {
+            "description": "The narrator applies the 'Parameterization: Trivial Per Triangle' filter in MeshLab.",
+            "timestamp": "00:04:06.000"
+          },
+          {
+            "description": "The narrator sets the texture dimensions to 8192 pixels and applies the filter.",
+            "timestamp": "00:04:14.000"
+          },
+          {
+            "description": "The narrator visualizes the new UV mapping grid in MeshLab.",
+            "timestamp": "00:04:26.000"
+          },
+          {
+            "description": "The narrator exports the model back to OBJ format from MeshLab.",
+            "timestamp": "00:04:37.000"
+          },
+          {
+            "description": "The narrator switches back to Blender and deletes the duplicated object.",
+            "timestamp": "00:04:56.000"
+          },
+          {
+            "description": "The narrator imports the newly unwrapped OBJ file into Blender.",
+            "timestamp": "00:05:01.000"
+          },
+          {
+            "description": "The narrator confirms the successful import of the gridded UV map from MeshLab.",
+            "timestamp": "00:05:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender software interface and MeshLab software interface with a 3D model of a city",
+            "timestamp": {
+              "end_timestamp": "00:05:14.000",
+              "start_timestamp": "00:03:21.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Alternative UV mapping methods",
+        "timestamps": {
+          "end_timestamp": "00:05:14.467",
+          "start_timestamp": "00:03:20.400"
+        },
+        "title": "Generating a New UV Map Using MeshLab",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'iiia) uv map - alternative method'",
+            "timestamps": {
+              "end_timestamp": "00:03:21.000",
+              "start_timestamp": "00:03:21.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Baking textures from the original object to the new object",
+            "timestamp": {
+              "end_timestamp": "00:08:55.000",
+              "start_timestamp": "00:05:15.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Essential for finalizing textures on cleaned-up models",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Indifferent)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator guides the viewer through the final step of the process: baking the color and texture information from the original object onto the new object with the improved UV map.",
+            "timestamp": "00:05:15.000"
+          },
+          {
+            "description": "The narrator begins the texture baking process.",
+            "timestamp": "00:05:16.000"
+          },
+          {
+            "description": "The narrator explains the purpose of baking: transferring colors and textures from the original object to the new one.",
+            "timestamp": "00:05:21.000"
+          },
+          {
+            "description": "The narrator creates a new material for the new object in the Shader Editor.",
+            "timestamp": "00:05:26.000"
+          },
+          {
+            "description": "The narrator adds an 'Image Texture' node and creates a new image with a resolution of 8192 pixels.",
+            "timestamp": "00:05:39.000"
+          },
+          {
+            "description": "The narrator advises choosing appropriate texture resolution based on desired quality.",
+            "timestamp": "00:05:56.000"
+          },
+          {
+            "description": "The narrator sets the background to black with transparency.",
+            "timestamp": "00:06:14.000"
+          },
+          {
+            "description": "The narrator mentions that the texture node should be disconnected for baking.",
+            "timestamp": "00:06:23.000"
+          },
+          {
+            "description": "The narrator accesses the 'Render Properties' panel to configure baking settings.",
+            "timestamp": "00:06:25.000"
+          },
+          {
+            "description": "The narrator sets the Render Engine to 'Cycles'.",
+            "timestamp": "00:06:32.000"
+          },
+          {
+            "description": "The narrator advises keeping the Device set to 'CPU' for potentially better results.",
+            "timestamp": "00:06:36.000"
+          },
+          {
+            "description": "The narrator navigates to the 'Bake' section and sets the Bake Type to 'Diffuse' to bake only color information.",
+            "timestamp": "00:06:47.000"
+          },
+          {
+            "description": "The narrator activates the 'Selected to Active' option for baking.",
+            "timestamp": "00:06:56.000"
+          },
+          {
+            "description": "The narrator sets the Ray Distance to 0.1 and the Margin to 1 pixel.",
+            "timestamp": "00:07:02.000"
+          },
+          {
+            "description": "The narrator advises saving the file before baking.",
+            "timestamp": "00:07:19.000"
+          },
+          {
+            "description": "The narrator selects the newly created image texture.",
+            "timestamp": "00:07:26.000"
+          },
+          {
+            "description": "The narrator selects the original object and, while holding 'Ctrl', selects the new mesh to initiate baking.",
+            "timestamp": "00:07:31.000"
+          },
+          {
+            "description": "The narrator starts the baking process.",
+            "timestamp": "00:07:37.000"
+          },
+          {
+            "description": "The narrator connects the color output to the Principled BSDF in the Shader Editor.",
+            "timestamp": "00:07:47.000"
+          },
+          {
+            "description": "The narrator turns off the visibility of the original object.",
+            "timestamp": "00:07:55.000"
+          },
+          {
+            "description": "The narrator suggests adjusting the specular value in the Principled BSDF if needed.",
+            "timestamp": "00:08:11.000"
+          },
+          {
+            "description": "The narrator saves the baked texture as a PNG.",
+            "timestamp": "00:08:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender software interface with two 3D models of a city (one original, one cleaned-up)",
+            "timestamp": {
+              "end_timestamp": "00:08:55.000",
+              "start_timestamp": "00:05:15.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Texture baking process",
+        "timestamps": {
+          "end_timestamp": "00:08:56.133",
+          "start_timestamp": "00:05:14.500"
+        },
+        "title": "Baking Textures from the Original to the New Object",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'iv) texture baking'",
+            "timestamps": {
+              "end_timestamp": "00:05:15.000",
+              "start_timestamp": "00:05:15.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "There is no distinct climax as the video progresses through a step-by-step guide to achieve the desired outcome: a clean 3D model with a single texture and UV map.",
+        "timestamp": null
+      },
+      "description": "This video primarily presents a non-narrative, instructional storyline focused on cleaning up a 3D object imported from Google Maps 3D data into Blender.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Cleaning Up 3D Models Imported from Google Maps into Blender",
+    "trimmingSuggestions": [
+      {
+        "description": "The unwrap process in Scene 4 could be significantly shortened by showing only the beginning and the end of the process, highlighting the time it takes without requiring the viewer to watch the whole process.",
+        "timestamps": {
+          "end_timestamp": "00:05:14.500",
+          "start_timestamp": "00:05:14.500"
+        }
+      },
+      {
+        "description": "Some of the menu navigation in Scene 5 could be sped up slightly to maintain dynamism.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 536,
+  "original_json_filename": "XUkMY8Sp_AM.json",
+  "original_video_filename": "XUkMY8Sp_AM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "okay so in a previous video I showed you how you could import Google Maps 3d data into blender and in this video I wanted to show you how you can take that 3d object and tidy up the mesh tidy up the materials and tidy up the textures and the UV maps in order to make it more useful in your projects so the first issue is that the 3d data comes in in lots of these little tiles and it would be nicer if it was joined together all as one object so I'm gonna go over here select the collection right click go to select objects and that will select all of the objects in the collection then I'm going to press ctrl J to join them together so because of the way that these tiles are arranged there's gonna be lots of overlapping vertices inside the mesh so what I'm gonna do is I'm gonna press tab to go into edit mode and then I'm going to right-click go to you know G vertices and by distance and you can see we've managed to remove about 300 thousand vertices which is pretty good if I go back into object mode you can see that the mesh is still pretty much intact so now that we've joined all of our objects together we can go over to the material tab we can see here that we have basically hundreds of materials and each one flies to one of the original tiles that we had and what I want to do is basically combine all these materials into one with a single texture and a single UV map so first of all I'm gonna duplicate the object so with the object selected I'm going to press shift D and then press escape and you can see in the outliner here that we have two objects now so I'm gonna turn off the visibility of the first one and select the second one and then we could go through and delete all of these materials one by one but there's a quicker way to do this and that's using a script so if we just pull this workspace into two and then change it to the text editor and if I create a new text and then I'll put the code in the description you can just paste that into here so here is the code and basically what this does is it takes the active object and goes through each material slot which is these and then just removes them so if I go over to where it says run script and press this we can see that all the materials have now been removed from the object the plan is to take our original object here and use the colors and textures from that and bake them onto this new object here except that this new object will only have a single material and a single texture so in order to do that we need to take our blank object and we need to give it a new UV map so with the object selected I'm going to go over to my other workspace here and I'm gonna change it to the UV editor and then I'm gonna go back to this object I'm gonna press tab to go into edit mode and you can see that the existing UV map is very chaotic it's just got hundreds and hundreds of vertices all mapped on top of each other so what we're gonna do is we're gonna create a new unwrapping a new UV map for this object okay so the gold standard here would be to go over to the mesh press you to unwrap UVs and go to smart UV project however before doing this I'd advise you to save your file because it can take a very long time to unwrap this mesh here which is about 100,000 vertices took about 15 minutes so with all the vertices selected pressing you go to smart TV project press ok and go and make yourself a cup of coffee or something because it's probably gonna take a while but once it's done you should have a nice UV map like this where all of the islands are separated so if you can't afford to gamble with time there's a quicker way to do this which gives you slightly inferior results but it's still a pretty good way to unwrap the model so to do that we need to export this object as an obj and then bring you into a free software called mesh lab link in the description so I'm gonna press tab to go into object mode then I'm gonna go to file export obj and make sure that selection only is selected and then I'm gonna save the file to a location that's convenient then I'm gonna go over to mesh lab and I'm gonna go to file import mesh then I'm going to choose the mesh that I just exported and you should see it appear in the viewport here you can click to navigate and then with the mesh selected here I'm going to go to filters texture and parameterization trivial per triangle I'm going to set the texture dimension in pixels to 8192 and I'm going to leave the inter Triangle border at 2 pixels and a press apply and it should do it pretty quickly and then if I go to render and show you VTEC spur am you should see this little overlay pop-up which has all of the triangles neatly laid out into a big grid and so now we can export this back to the obj and then put it back into blender so with it selected again I'm gonna go to file export mesh and I'm just going to disable normal and face color and leave texture coordinates enabled press ok and that will save it back to the obj file that we just created so now we can go back to blender and in blender I'm going to delete the duplicated object I'm gonna go to file import obj then I'm gonna select the obj again and press important and now if I select the object press tab we can see that we've got that nice gridded UV map that we took from mesh lab so now we're ready to bake the texture from the original object this one onto the new object this one and in order to do that we need to make sure that the new object has gotten a material so with the new object selected I'm gonna go over to the shader editor and if it doesn't already have one you can press add new here and it will create a default shader with the principal psdf and I'm going to add a new node into this so I'm gonna press shift a to search and I'm gonna search for image texture and add that node and I'm going to create a new image so i'm gonna click add new and i'm going to set the resolution to 8,000 192 pixels now here you can use the 4096 pixel texture or 2048 it really depends how much quality you need for your final result and higher resolutions will give you better quality but will take longer to process and I found that with these Google Maps meshes 8,000 works the best I'm gonna set the background as black with alpha set to 0 so it's transparent and then I'm gonna press ok and I'm not gonna link it up to the node tree just yet because it needs to be disconnected for baking so now we're ready to set our bake settings and in order to do that I'm gonna go over to the render properties panel and I'm gonna make sure that I've changed my render engine cycles so whilst making this tutorial one thing I tried was setting the device to GPU and I found that it produced glitchy was so if you're having trouble with glitches i'd recommend keeping this set to CPU and then i'm gonna go down to the bake section and under bake type I'm going to choose diffuse because we only want the color and I'm gonna disable direct and I'm gonna disable indirect I'm going to select this option here selected to active because we're going to do a selective to active bake in the settings under that I'm gonna choose array distance of naught point one and that's gonna vary slightly offset the new mesh away from the existing one so that the color rays can be transferred on the inside and in the section here where it says output I'm gonna change the margin to one pixel so now we're pretty much ready to bake baking can't take a long time so at this point it's a good idea to save your file and so with this new image texture selected I'm going to turn on my existing mesh I'm going to select it and then holding down control I'm going to select my new mesh and we're ready to press bake and again here depending on your computer this may take a long time but this time at least we have progress bar so now that the baking is finished we can connect the color output to the principal psdf in the shade editor and if I then turn off the visibility for my original object we can see that the texture that we baked is now being mapped onto our geometry so we successfully transferred it you might find that this specular value is turned up and the principle be SDF so you might want to turn that down and the other thing that you'll want to do is save the image that was generated so here I'm just gonna rename the image quickly I'm gonna call it Bates texture then I'm gonna go over to the image editor I'm gonna select baked texture from the drop-down menu there it is and I'm just going to go to image save as and then I'm just gonna save it in a location that's useful for me I'm gonna use a PNG that's good if you want to preserve the transparency you can also use a JPEG and that's basically how you clean up a mesh that's been imported from Google Maps 3d thank you very much for watching",
+  "text_to_speech_word_count": 1760,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.500",
+      "start": "00:00:00.000",
+      "text": " Okay, so in a previous video I showed you how you could import Google Maps 3D data"
+    },
+    {
+      "end": "00:00:10.000",
+      "start": "00:00:05.500",
+      "text": " into Blender. And in this video I wanted to show you how you can take that 3D object"
+    },
+    {
+      "end": "00:00:16.000",
+      "start": "00:00:10.000",
+      "text": " and tidy up the mesh, tidy up the materials and tidy up the textures and the UV maps"
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:16.000",
+      "text": " in order to make it more useful in your projects."
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:20.000",
+      "text": " So the first issue is that the 3D data comes in in lots of these little tiles"
+    },
+    {
+      "end": "00:00:28.000",
+      "start": "00:00:24.000",
+      "text": " and it would be nicer if it was joined together all as one object."
+    },
+    {
+      "end": "00:00:33.000",
+      "start": "00:00:28.000",
+      "text": " So I'm going to go over here, select the collection, right click, go to select objects"
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:33.000",
+      "text": " and that will select all of the objects in the collection."
+    },
+    {
+      "end": "00:00:38.000",
+      "start": "00:00:35.000",
+      "text": " Then I'm going to press Ctrl J to join them together."
+    },
+    {
+      "end": "00:00:43.000",
+      "start": "00:00:38.000",
+      "text": " So because of the way that these tiles are arranged there's going to be lots of overlapping vertices"
+    },
+    {
+      "end": "00:00:47.000",
+      "start": "00:00:43.000",
+      "text": " inside the mesh. So what I'm going to do is I'm going to press Tab to go into Edit Mode"
+    },
+    {
+      "end": "00:00:51.000",
+      "start": "00:00:47.000",
+      "text": " and then I'm going to right click, go to Merge Vertices and by distance."
+    },
+    {
+      "end": "00:00:55.000",
+      "start": "00:00:51.000",
+      "text": " And you can see we've managed to remove about 300,000 vertices which is pretty good."
+    },
+    {
+      "end": "00:01:00.000",
+      "start": "00:00:55.000",
+      "text": " If I go back into Object Mode you can see that the mesh is still pretty much intact."
+    },
+    {
+      "end": "00:01:06.000",
+      "start": "00:01:02.000",
+      "text": " So now that we've joined all of our objects together we can go over to the Material tab."
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:06.000",
+      "text": " We can see here that we have basically hundreds of materials and each one flies to one of the original tiles that we had."
+    },
+    {
+      "end": "00:01:19.000",
+      "start": "00:01:13.000",
+      "text": " And what I want to do is basically combine all these materials into one with a single texture and a single UV map."
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:19.000",
+      "text": " So first of all I'm going to duplicate the object."
+    },
+    {
+      "end": "00:01:24.000",
+      "start": "00:01:21.000",
+      "text": " So with the object selected I'm going to press Shift D and then press Escape."
+    },
+    {
+      "end": "00:01:27.000",
+      "start": "00:01:24.000",
+      "text": " And you can see in the Outliner here that we have two objects now."
+    },
+    {
+      "end": "00:01:30.000",
+      "start": "00:01:27.000",
+      "text": " So I'm going to turn off the visibility of the first one and select the second one."
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:30.000",
+      "text": " And then we could go through and delete all of these materials one by one."
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:34.000",
+      "text": " But there's a quicker way to do this and that's using a script."
+    },
+    {
+      "end": "00:01:41.000",
+      "start": "00:01:37.000",
+      "text": " So if we just pull this workspace into two and then change it to the Text Editor."
+    },
+    {
+      "end": "00:01:47.000",
+      "start": "00:01:41.000",
+      "text": " And if I create a new text and then I'll put the code in the description you can just paste that into here."
+    },
+    {
+      "end": "00:01:51.000",
+      "start": "00:01:47.000",
+      "text": " So here is the code and basically what this does is it takes the Active Object"
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:51.000",
+      "text": " and goes through each material slot, which is the ease, and then just removes them."
+    },
+    {
+      "end": "00:02:00.000",
+      "start": "00:01:56.000",
+      "text": " So if I go over to where it says Run Script and press this,"
+    },
+    {
+      "end": "00:02:05.000",
+      "start": "00:02:00.000",
+      "text": " we can see that all the materials have now been removed from the object."
+    },
+    {
+      "end": "00:02:11.000",
+      "start": "00:02:05.000",
+      "text": " The plan is to take our original object here and use the colors and textures from that"
+    },
+    {
+      "end": "00:02:18.000",
+      "start": "00:02:11.000",
+      "text": " and bake them onto this new object here except that this new object will only have a single material and a single texture."
+    },
+    {
+      "end": "00:02:23.000",
+      "start": "00:02:18.000",
+      "text": " So in order to do that, we need to take our blank object and we need to give it a new UV map."
+    },
+    {
+      "end": "00:02:26.000",
+      "start": "00:02:23.000",
+      "text": " So with the object selected, I'm going to go over to my other workspace here"
+    },
+    {
+      "end": "00:02:29.000",
+      "start": "00:02:26.000",
+      "text": " and I'm going to change it to the UV Editor."
+    },
+    {
+      "end": "00:02:31.000",
+      "start": "00:02:29.000",
+      "text": " And then I'm going to go back to this object."
+    },
+    {
+      "end": "00:02:33.000",
+      "start": "00:02:31.000",
+      "text": " I'm going to press Tab to go into Edit Mode."
+    },
+    {
+      "end": "00:02:36.000",
+      "start": "00:02:33.000",
+      "text": " And you can see that the existing UV map is very chaotic."
+    },
+    {
+      "end": "00:02:40.000",
+      "start": "00:02:36.000",
+      "text": " It's just got hundreds and hundreds of vertices all mapped on top of each other."
+    },
+    {
+      "end": "00:02:45.000",
+      "start": "00:02:40.000",
+      "text": " So what we're going to do is we're going to create a new unwrapping, a new UV map for this object."
+    },
+    {
+      "end": "00:02:50.000",
+      "start": "00:02:45.000",
+      "text": " Okay, so the gold standard here will be to go over to the mesh, press U to unwrap UVs"
+    },
+    {
+      "end": "00:02:52.000",
+      "start": "00:02:50.000",
+      "text": " and go to Smart UV Project."
+    },
+    {
+      "end": "00:03:00.000",
+      "start": "00:02:52.000",
+      "text": " However, before doing this, I would advise you to save your file because it can take a very long time to unwrap."
+    },
+    {
+      "end": "00:03:05.000",
+      "start": "00:03:00.000",
+      "text": " This mesh here, which is about 100,000 vertices, took about 15 minutes."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:03:05.000",
+      "text": " So with all the vertices selected, press U, go to Smart UV Project, press OK"
+    },
+    {
+      "end": "00:03:14.000",
+      "start": "00:03:09.000",
+      "text": " and go and make yourself a cup of coffee or something because it's probably going to take a while."
+    },
+    {
+      "end": "00:03:21.000",
+      "start": "00:03:14.000",
+      "text": " But once it's done, you should have a nice UV map like this where all of the islands are separated."
+    },
+    {
+      "end": "00:03:27.000",
+      "start": "00:03:21.000",
+      "text": " So if you can't afford to gamble with time, there's a quicker way to do this,"
+    },
+    {
+      "end": "00:03:33.000",
+      "start": "00:03:27.000",
+      "text": " which gives you slightly inferior results, but is still a pretty good way to unwrap the model."
+    },
+    {
+      "end": "00:03:38.000",
+      "start": "00:03:33.000",
+      "text": " So to do that, we need to export this object as an OBJ"
+    },
+    {
+      "end": "00:03:40.000",
+      "start": "00:03:38.000",
+      "text": " and then bring it into a free software called MeshLab."
+    },
+    {
+      "end": "00:03:41.000",
+      "start": "00:03:40.000",
+      "text": " Link in the description."
+    },
+    {
+      "end": "00:03:47.000",
+      "start": "00:03:41.000",
+      "text": " So I'm going to press Tab to go into Object Mode, then I'm going to go to File, Export, OBJ"
+    },
+    {
+      "end": "00:03:50.000",
+      "start": "00:03:47.000",
+      "text": " and make sure that selection only is selected."
+    },
+    {
+      "end": "00:03:54.000",
+      "start": "00:03:50.000",
+      "text": " And then I'm going to save the file to a location that's convenient."
+    },
+    {
+      "end": "00:03:59.000",
+      "start": "00:03:54.000",
+      "text": " Then I'm going to go over to MeshLab and I'm going to go to File, Import Mesh."
+    },
+    {
+      "end": "00:04:04.000",
+      "start": "00:03:59.000",
+      "text": " Then I'm going to choose the mesh that I just exported and you should see it appear in the Viewport here."
+    },
+    {
+      "end": "00:04:06.000",
+      "start": "00:04:04.000",
+      "text": " You can click to navigate."
+    },
+    {
+      "end": "00:04:14.000",
+      "start": "00:04:06.000",
+      "text": " And then with the mesh selected here, I'm going to go to Filters, Texture and Parameterisation, Trivial per Triangle."
+    },
+    {
+      "end": "00:04:23.000",
+      "start": "00:04:14.000",
+      "text": " I'm going to set the Texture Dimension in pixels to 8192 and I'm going to leave the Intertriangle border at two pixels."
+    },
+    {
+      "end": "00:04:26.000",
+      "start": "00:04:23.000",
+      "text": " I'm going to press Apply and it should do it pretty quickly."
+    },
+    {
+      "end": "00:04:32.000",
+      "start": "00:04:26.000",
+      "text": " And then if I go to Render and show UV Text Param, you should see this little overlay pop up,"
+    },
+    {
+      "end": "00:04:37.000",
+      "start": "00:04:32.000",
+      "text": " which has all of the triangles neatly laid out into a big grid."
+    },
+    {
+      "end": "00:04:42.000",
+      "start": "00:04:37.000",
+      "text": " And so now we can export this back to the OBJ and then put it back into Blender."
+    },
+    {
+      "end": "00:04:50.000",
+      "start": "00:04:42.000",
+      "text": " So with it selected again, I'm going to go to File, Export Mesh, and I'm just going to disable Normal and Face Color"
+    },
+    {
+      "end": "00:04:52.000",
+      "start": "00:04:50.000",
+      "text": " and leave Texture coordinates enabled."
+    },
+    {
+      "end": "00:04:56.000",
+      "start": "00:04:52.000",
+      "text": " Press OK, and that will save it back to the OBJ if all that we just created."
+    },
+    {
+      "end": "00:04:57.000",
+      "start": "00:04:56.000",
+      "text": " So now we can go back to Blender."
+    },
+    {
+      "end": "00:05:00.000",
+      "start": "00:04:57.000",
+      "text": " And in Blender, I'm going to delete the Duplicated Object."
+    },
+    {
+      "end": "00:05:06.000",
+      "start": "00:05:00.000",
+      "text": " I'm going to go to File, Import, OBJ, then I'm going to select the OBJ again and press Import."
+    },
+    {
+      "end": "00:05:15.000",
+      "start": "00:05:06.000",
+      "text": " And now if I select the Object, press Tab, we can see that we've got that nice gridded UV map that we took from Mesh Lab."
+    },
+    {
+      "end": "00:05:25.000",
+      "start": "00:05:16.000",
+      "text": " So now we're ready to bake the Texture from the original object, this one, onto the new object, this one."
+    },
+    {
+      "end": "00:05:29.000",
+      "start": "00:05:25.000",
+      "text": " And in order to do that, we need to make sure that the new object has got the material."
+    },
+    {
+      "end": "00:05:32.000",
+      "start": "00:05:29.000",
+      "text": " So with the new object selected, I'm going to go over to the Shader Editor."
+    },
+    {
+      "end": "00:05:36.000",
+      "start": "00:05:32.000",
+      "text": " And if it doesn't already have one, you can press Add New here."
+    },
+    {
+      "end": "00:05:39.000",
+      "start": "00:05:36.000",
+      "text": " And it will create a default shader with the principal PSDF."
+    },
+    {
+      "end": "00:05:41.000",
+      "start": "00:05:39.000",
+      "text": " And I'm going to add a new node into this."
+    },
+    {
+      "end": "00:05:44.000",
+      "start": "00:05:41.000",
+      "text": " So I'm going to press Shift A to search."
+    },
+    {
+      "end": "00:05:47.000",
+      "start": "00:05:44.000",
+      "text": " And then I'm going to search for Image Texture and add that node."
+    },
+    {
+      "end": "00:05:49.000",
+      "start": "00:05:47.000",
+      "text": " And I'm going to create a new image."
+    },
+    {
+      "end": "00:05:51.000",
+      "start": "00:05:49.000",
+      "text": " So I'm going to click Add New."
+    },
+    {
+      "end": "00:05:56.000",
+      "start": "00:05:51.000",
+      "text": " And I'm going to set the resolution to 8192 pixels."
+    },
+    {
+      "end": "00:06:01.000",
+      "start": "00:05:56.000",
+      "text": " Now here you can use the 41986 pixel texture or 2048."
+    },
+    {
+      "end": "00:06:05.000",
+      "start": "00:06:01.000",
+      "text": " It really depends how much quality you need for your final result."
+    },
+    {
+      "end": "00:06:09.000",
+      "start": "00:06:05.000",
+      "text": " And higher resolutions will give you better quality, but we'll take longer to process."
+    },
+    {
+      "end": "00:06:14.000",
+      "start": "00:06:09.000",
+      "text": " And I found that with these Google Maps meshes 8000 works the best."
+    },
+    {
+      "end": "00:06:17.000",
+      "start": "00:06:14.000",
+      "text": " I'm going to set the background as black with Alpha set to zero."
+    },
+    {
+      "end": "00:06:18.000",
+      "start": "00:06:17.000",
+      "text": " So it's transparent."
+    },
+    {
+      "end": "00:06:20.000",
+      "start": "00:06:18.000",
+      "text": " And then I'm going to press OK."
+    },
+    {
+      "end": "00:06:24.000",
+      "start": "00:06:20.000",
+      "text": " And I'm not going to link it up to the node tree just yet because it needs to be disconnected for baking."
+    },
+    {
+      "end": "00:06:27.000",
+      "start": "00:06:24.000",
+      "text": " So now we're ready to set our bake settings."
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:27.000",
+      "text": " And in order to do that, I'm going to go over to the Render Properties panel."
+    },
+    {
+      "end": "00:06:33.000",
+      "start": "00:06:30.000",
+      "text": " And I'm going to make sure that I've changed my Render Engine to cycles."
+    },
+    {
+      "end": "00:06:39.000",
+      "start": "00:06:33.000",
+      "text": " So whilst making this tutorial, one thing I tried was setting the device to GPU."
+    },
+    {
+      "end": "00:06:41.000",
+      "start": "00:06:39.000",
+      "text": " And I found that it produced glitchy results."
+    },
+    {
+      "end": "00:06:46.000",
+      "start": "00:06:41.000",
+      "text": " So if you're having trouble with glitches, I'd recommend keeping this set to CPU."
+    },
+    {
+      "end": "00:06:49.000",
+      "start": "00:06:46.000",
+      "text": " And then I'm going to go down to the bake section."
+    },
+    {
+      "end": "00:06:53.000",
+      "start": "00:06:49.000",
+      "text": " And under bake type, I'm going to choose diffuse because we only want the color."
+    },
+    {
+      "end": "00:06:55.000",
+      "start": "00:06:53.000",
+      "text": " And I'm going to disable direct."
+    },
+    {
+      "end": "00:06:56.000",
+      "start": "00:06:55.000",
+      "text": " And I'm going to disable indirect."
+    },
+    {
+      "end": "00:06:59.000",
+      "start": "00:06:56.000",
+      "text": " I'm going to select this option here, selected to active."
+    },
+    {
+      "end": "00:07:03.000",
+      "start": "00:06:59.000",
+      "text": " Because we're going to do a selective to active bake in the settings under that."
+    },
+    {
+      "end": "00:07:07.000",
+      "start": "00:07:03.000",
+      "text": " I'm going to choose a ray distance of 0.1."
+    },
+    {
+      "end": "00:07:12.000",
+      "start": "00:07:07.000",
+      "text": " And that's going to very slightly offset the new mesh away from the existing one"
+    },
+    {
+      "end": "00:07:15.000",
+      "start": "00:07:12.000",
+      "text": " so that the color rays can be transferred on the inside."
+    },
+    {
+      "end": "00:07:19.000",
+      "start": "00:07:15.000",
+      "text": " And in this section here where it says output, I'm going to change the margin to 1 pixel."
+    },
+    {
+      "end": "00:07:21.000",
+      "start": "00:07:19.000",
+      "text": " So now we're pretty much ready to bake."
+    },
+    {
+      "end": "00:07:23.000",
+      "start": "00:07:21.000",
+      "text": " Baking can take a long time."
+    },
+    {
+      "end": "00:07:26.000",
+      "start": "00:07:23.000",
+      "text": " So at this point, it's a good idea to save your file."
+    },
+    {
+      "end": "00:07:31.000",
+      "start": "00:07:26.000",
+      "text": " And so with this new image texture selected, I'm going to turn on my existing mesh."
+    },
+    {
+      "end": "00:07:32.000",
+      "start": "00:07:31.000",
+      "text": " I'm going to select it."
+    },
+    {
+      "end": "00:07:35.000",
+      "start": "00:07:32.000",
+      "text": " And then holding down control, I'm going to select my new mesh."
+    },
+    {
+      "end": "00:07:37.000",
+      "start": "00:07:35.000",
+      "text": " And we're ready to press bake."
+    },
+    {
+      "end": "00:07:41.000",
+      "start": "00:07:37.000",
+      "text": " And again here, depending on your computer, this may take a long time."
+    },
+    {
+      "end": "00:07:44.000",
+      "start": "00:07:41.000",
+      "text": " But this time, at least we have progress bar."
+    },
+    {
+      "end": "00:07:54.000",
+      "start": "00:07:47.000",
+      "text": " So now that the baking is finished, we can connect the color output to the principal BSDF in the shader editor."
+    },
+    {
+      "end": "00:07:59.000",
+      "start": "00:07:54.000",
+      "text": " And if I then turn off the visibility for my original object,"
+    },
+    {
+      "end": "00:08:06.000",
+      "start": "00:07:59.000",
+      "text": " we can see that the texture that we baked is now being mapped onto our geometry."
+    },
+    {
+      "end": "00:08:09.000",
+      "start": "00:08:06.000",
+      "text": " So we successfully transferred it."
+    },
+    {
+      "end": "00:08:13.000",
+      "start": "00:08:10.000",
+      "text": " You might find that this specular value is turned up."
+    },
+    {
+      "end": "00:08:16.000",
+      "start": "00:08:13.000",
+      "text": " And the principal BSDF, so you might want to turn that down."
+    },
+    {
+      "end": "00:08:20.000",
+      "start": "00:08:16.000",
+      "text": " And the other thing that you'll want to do is save the image that was generated."
+    },
+    {
+      "end": "00:08:23.000",
+      "start": "00:08:20.000",
+      "text": " So here I'm just going to rename the image quickly."
+    },
+    {
+      "end": "00:08:26.000",
+      "start": "00:08:23.000",
+      "text": " I'm going to call it bait texture."
+    },
+    {
+      "end": "00:08:29.000",
+      "start": "00:08:26.000",
+      "text": " Then I'm going to go over to the image editor."
+    },
+    {
+      "end": "00:08:33.000",
+      "start": "00:08:29.000",
+      "text": " I'm going to select bait texture from the drop down menu."
+    },
+    {
+      "end": "00:08:34.000",
+      "start": "00:08:33.000",
+      "text": " There it is."
+    },
+    {
+      "end": "00:08:37.000",
+      "start": "00:08:34.000",
+      "text": " And I'm just going to go to image save as."
+    },
+    {
+      "end": "00:08:42.000",
+      "start": "00:08:37.000",
+      "text": " And then I'm just going to save it in a location that's useful for me."
+    },
+    {
+      "end": "00:08:44.000",
+      "start": "00:08:42.000",
+      "text": " I'm going to use a PNG."
+    },
+    {
+      "end": "00:08:46.000",
+      "start": "00:08:44.000",
+      "text": " That's good if you want to preserve the transparency."
+    },
+    {
+      "end": "00:08:47.000",
+      "start": "00:08:46.000",
+      "text": " But you can also use a JPEG."
+    },
+    {
+      "end": "00:08:53.000",
+      "start": "00:08:47.000",
+      "text": " And that's basically how you clean up a mesh that's been imported from Google Maps 3D."
+    },
+    {
+      "end": "00:08:55.000",
+      "start": "00:08:53.000",
+      "text": " Thank you very much for watching."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Nicko16",
+  "youtube_channel_follower_count": 36000,
+  "youtube_comment_count": 305,
+  "youtube_description": "In this video I show you how to clean up a mesh imported from Google maps 3D.  This tutorial covers mesh clean-up, removing materials, two methods for uv unwrapping, and how to bake colours from the old mesh to the new one.\n\nYou can see the previous video on how to extract Google maps 3D data here:\nhttps://youtu.be/F_XsmoZJmG8\n\nYou can download the incredibly useful Meshlab here:\nhttp://www.meshlab.net/#download\n\nAnd here is the code for removing all the materials from the active object (make sure you have only one object selected when you run it):\n\nimport bpy\n\nC = bpy.context\n\nfor i in range(0,len(C.object.material_slots)):\n    C.object.active_material_index = 1\n    bpy.ops.object.material_slot_remove()\n\nbpy.ops.object.mode_set(mode = 'EDIT') \nbpy.ops.mesh.select_all(action = 'SELECT')\nbpy.ops.object.material_slot_assign()\nbpy.ops.object.mode_set(mode = 'OBJECT')\n\nThis process can now be automated! Check it out:\nhttps://www.youtube.com/watch?v=aQnkMUATdzI",
+  "youtube_like_count": 5578,
+  "youtube_tags": [
+    "photogrammetry",
+    "blender",
+    "texture bake",
+    "mesh",
+    "uv map",
+    "baking",
+    "texture",
+    "google maps",
+    "3d",
+    "b3d"
+  ],
+  "youtube_title": "Google Maps 3D: Photogrammetry Mesh Clean-up",
+  "youtube_upload_date": "20200418",
+  "youtube_view_count": 212426
+}

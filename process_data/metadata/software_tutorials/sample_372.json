@@ -1,0 +1,1339 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "c1",
+        "description": "A bald man in a white suit, seen briefly in various game footage examples.",
+        "name": "Agent 47"
+      },
+      {
+        "characterId": "c2",
+        "description": "A woman with brown hair wearing dark clothing, seen briefly in Tomb Raider game footage.",
+        "name": "Lara Croft"
+      },
+      {
+        "characterId": "c3",
+        "description": "A man with dark hair wearing a black jacket and blue jeans, seen briefly in Just Cause 3 game footage.",
+        "name": "Rico Rodriguez"
+      }
+    ],
+    "description": "A tutorial and demonstration on using post-processing techniques to enhance visual fidelity in video games, illustrated with examples from various game footages and a detailed explanation of using Unity's post-processing stack.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Enabling 'Is Global' makes the volume's effect apply to the entire scene, regardless of the volume's position or the camera's location within it.",
+        "question": "What is the purpose of enabling the 'Is Global' toggle on the Post Process Volume?"
+      },
+      {
+        "answer": "The narrator suggests cranking up the directional light intensity higher than 1.",
+        "question": "What is the recommended value for the directional light intensity to make the auto-exposure effect work more effectively?"
+      },
+      {
+        "answer": "Lowering the 'Aperture' value increases the blur in the areas outside of the focus distance, creating a more pronounced depth of field effect.",
+        "question": "What effect does lowering the 'Aperture' value have on the Depth of Field effect?"
+      },
+      {
+        "answer": "Increasing the 'Shutter Angle' will create a stronger motion blur effect, making moving objects appear more blurred.",
+        "question": "How does the 'Shutter Angle' setting in the Motion Blur effect impact the visual result?"
+      },
+      {
+        "answer": "The primary goal is to improve the visual fidelity and cinematic quality of the game scene.",
+        "question": "What is the primary goal of the post-processing techniques demonstrated in the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Agent 47 walking up stairs",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Rico Rodriguez gliding through the air",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Lara Croft running through a dark forest",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          },
+          {
+            "description": "SimCity gameplay with tilt-shift effect",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:37.000"
+            }
+          },
+          {
+            "description": "Agent 47 walking on a sunny street",
+            "timestamp": {
+              "end_timestamp": "00:00:54.000",
+              "start_timestamp": "00:00:53.000"
+            }
+          },
+          {
+            "description": "First-person shooter gameplay with auto exposure",
+            "timestamp": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "Lara Croft aiming a bow and arrow",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "description": "Rico Rodriguez driving through a tunnel",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Agent 47",
+          "Lara Croft",
+          "Rico Rodriguez"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "An introduction to how post-processing can enhance visuals in video games, using various game characters and settings to illustrate.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Excited. Fast-paced music, visually dynamic with diverse game footage.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift to more informative tone when discussing tilt-shift in SimCity",
+              "timestamp": "00:00:37.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to post-processing and how it enhances visuals in games.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Demonstrates how post-processing enhances visuals by showcasing the tilt-shift effect in SimCity.",
+            "timestamp": "00:00:37.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Stairs",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Trash can",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Greenery, buildings, streets",
+            "timestamp": {
+              "end_timestamp": "00:01:11.567",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Grappling hook",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "name": "Gun",
+            "timestamp": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "name": "Gun",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "name": "Gun",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          },
+          {
+            "name": "Bow and arrow",
+            "timestamp": {
+              "end_timestamp": "00:01:04.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "name": "Car",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:08.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Visual fidelity, post-processing techniques, game design.",
+        "timestamps": {
+          "end_timestamp": "00:01:11.567",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Post-processing",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth cuts between game footage",
+            "timestamps": {
+              "end_timestamp": "00:01:11.567",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Tilt-shift effect demonstration in SimCity",
+            "timestamps": {
+              "end_timestamp": "00:00:52.000",
+              "start_timestamp": "00:00:37.000"
+            }
+          },
+          {
+            "description": "Upbeat, electronic music",
+            "timestamps": {
+              "end_timestamp": "00:01:11.567",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Opening Unity project",
+            "timestamp": {
+              "end_timestamp": "00:01:25.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "description": "Adding Post-Process Layer to a camera",
+            "timestamp": {
+              "end_timestamp": "00:01:54.000",
+              "start_timestamp": "00:01:53.000"
+            }
+          },
+          {
+            "description": "Setting Rendering Path to Deferred",
+            "timestamp": {
+              "end_timestamp": "00:02:09.000",
+              "start_timestamp": "00:02:08.000"
+            }
+          },
+          {
+            "description": "Setting Layer to Postprocessing",
+            "timestamp": {
+              "end_timestamp": "00:02:26.000",
+              "start_timestamp": "00:02:25.000"
+            }
+          },
+          {
+            "description": "Enabling Anti-Aliasing and demonstrating effect",
+            "timestamp": {
+              "end_timestamp": "00:02:32.000",
+              "start_timestamp": "00:02:31.000"
+            }
+          },
+          {
+            "description": "Creating a Post Process Volume",
+            "timestamp": {
+              "end_timestamp": "00:03:03.000",
+              "start_timestamp": "00:03:02.000"
+            }
+          },
+          {
+            "description": "Adding Color Grading effect and desaturating the image",
+            "timestamp": {
+              "end_timestamp": "00:03:26.000",
+              "start_timestamp": "00:03:25.000"
+            }
+          },
+          {
+            "description": "Adding a Box Collider to the volume",
+            "timestamp": {
+              "end_timestamp": "00:03:33.000",
+              "start_timestamp": "00:03:32.000"
+            }
+          },
+          {
+            "description": "Demonstrating how the volume affects the camera when entering and blending",
+            "timestamp": {
+              "end_timestamp": "00:03:39.000",
+              "start_timestamp": "00:03:38.000"
+            }
+          },
+          {
+            "description": "Enabling Is Global toggle on the volume",
+            "timestamp": {
+              "end_timestamp": "00:04:08.000",
+              "start_timestamp": "00:04:07.000"
+            }
+          },
+          {
+            "description": "Enabling High Definition Range and setting Tonemapping to ACES in Color Grading",
+            "timestamp": {
+              "end_timestamp": "00:04:24.000",
+              "start_timestamp": "00:04:23.000"
+            }
+          },
+          {
+            "description": "Increasing the Directional Light intensity",
+            "timestamp": {
+              "end_timestamp": "00:05:36.000",
+              "start_timestamp": "00:05:35.000"
+            }
+          },
+          {
+            "description": "Setting exposure on the Skybox",
+            "timestamp": {
+              "end_timestamp": "00:05:41.000",
+              "start_timestamp": "00:05:40.000"
+            }
+          },
+          {
+            "description": "Adding Auto Exposure effect",
+            "timestamp": {
+              "end_timestamp": "00:05:48.000",
+              "start_timestamp": "00:05:47.000"
+            }
+          },
+          {
+            "description": "Adjusting minimum and maximum values, exposure compensation, and filtering on Auto Exposure",
+            "timestamp": {
+              "end_timestamp": "00:05:48.000",
+              "start_timestamp": "00:05:47.000"
+            }
+          },
+          {
+            "description": "Adding Depth Of Field effect",
+            "timestamp": {
+              "end_timestamp": "00:07:05.000",
+              "start_timestamp": "00:07:04.000"
+            }
+          },
+          {
+            "description": "Enabling focus distance, aperture and focal length on Depth Of Field",
+            "timestamp": {
+              "end_timestamp": "00:07:18.000",
+              "start_timestamp": "00:07:17.000"
+            }
+          },
+          {
+            "description": "Adjusting focus distance and focal length",
+            "timestamp": {
+              "end_timestamp": "00:07:31.000",
+              "start_timestamp": "00:07:30.000"
+            }
+          },
+          {
+            "description": "Adding Motion Blur effect",
+            "timestamp": {
+              "end_timestamp": "00:08:04.000",
+              "start_timestamp": "00:08:03.000"
+            }
+          },
+          {
+            "description": "Adjusting shutter angle on Motion Blur",
+            "timestamp": {
+              "end_timestamp": "00:08:10.000",
+              "start_timestamp": "00:08:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "An in-depth tutorial on utilizing Unity's features to enhance game visuals.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Educational, informative. The narrator explains the process clearly and methodically.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "A tutorial on using Unity's post-processing stack to improve visuals.",
+            "timestamp": "00:01:12.000"
+          },
+          {
+            "description": "Demonstrates how to use a Post Process Volume to desaturate an image.",
+            "timestamp": "00:03:25.000"
+          },
+          {
+            "description": "Explains how to use the Auto Exposure effect to adjust brightness based on the scene's luminance.",
+            "timestamp": "00:05:47.000"
+          },
+          {
+            "description": "Shows how Depth Of Field can be used to create a tilt-shift effect.",
+            "timestamp": "00:07:17.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unity interface",
+            "timestamp": {
+              "end_timestamp": "00:09:19.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "name": "Cityscape scene",
+            "timestamp": {
+              "end_timestamp": "00:09:19.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "name": "Post Process Volume",
+            "timestamp": {
+              "end_timestamp": "00:03:03.000",
+              "start_timestamp": "00:03:02.000"
+            }
+          },
+          {
+            "name": "Box Collider",
+            "timestamp": {
+              "end_timestamp": "00:03:33.000",
+              "start_timestamp": "00:03:32.000"
+            }
+          },
+          {
+            "name": "Directional Light",
+            "timestamp": {
+              "end_timestamp": "00:05:36.000",
+              "start_timestamp": "00:05:35.000"
+            }
+          },
+          {
+            "name": "Skybox",
+            "timestamp": {
+              "end_timestamp": "00:05:41.000",
+              "start_timestamp": "00:05:40.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Unity game engine, post-processing techniques, visual fidelity.",
+        "timestamps": {
+          "end_timestamp": "00:09:22.100",
+          "start_timestamp": "00:01:11.600"
+        },
+        "title": "Unity Post-processing Tutorial",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth cuts between different parts of the Unity interface",
+            "timestamps": {
+              "end_timestamp": "00:09:19.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "description": "Zoom in on specific settings in Unity",
+            "timestamps": {
+              "end_timestamp": "00:09:19.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "description": "Upbeat, electronic music",
+            "timestamps": {
+              "end_timestamp": "00:09:19.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The final combined effect of all post-processing elements.",
+        "timestamp": "00:08:44.000"
+      },
+      "description": "The video demonstrates using various post-processing techniques to enhance the visual fidelity of video games, using character examples and technical tutorials in Unity.",
+      "scenes": [
+        1,
+        2
+      ]
+    },
+    "title": "Improving Visuals with Post-processing",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial montage of game footage could be shortened to keep the introduction concise and impactful.",
+        "timestamps": {
+          "end_timestamp": "00:01:11.600",
+          "start_timestamp": "00:01:11.600"
+        }
+      },
+      {
+        "description": "The explanation of HDR and tonemapping could be replaced with a visual demonstration of its effect in the scene.",
+        "timestamps": {
+          "end_timestamp": "00:04:51.000",
+          "start_timestamp": "00:04:23.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 562,
+  "original_json_filename": "_PzYAbPpK8k.json",
+  "original_video_filename": "_PzYAbPpK8k.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "many of us want our games to look and feel really good and while art direction is clearly the most important factor in how a game actually looks there's a few tricks we can use to give our games that extra bit of shine a lot of what we perceive as visual polish in the games we play is often achieved through post-processing effects post processes are fullscreen filters and effects performed on a camera's image buffer before displaying the image on-screen post-processing is commonly used to add cinematic qualities to our scenes as they regularly simulate qualities of film cameras such as depth of field or motion blur a great example of post-processing for me is the tilt shift effect on the camera in Sim City this effect gave the game this sense of playfulness and it came from an understanding of how the image would look if it were a physical miniature toy and we were capturing it through a macro lens another one of my favorite examples is how the post-processing and high-definition range workflow is used to simulate our eyes adjusting to drastic changes in light as the player moves between environments if something that we've seen frequently in large-scale productions and it's an incredibly subtle touch that goes a long way to improving the visual fidelity of your game hi there I'm Matt and welcome to game dev guide and today's video if you haven't figured out already from the title is about how we can use unities post-processing stack to improve the visual fidelity of our projects to get started you'll first need to grab the post-processing stack from either the package manager or alternatively if you start a new project and choose 3d with extras the post-processing package will be included in your project so I've seen here is quite nice but it's generally a bit flat we're going to add some grading an auto exposure effect motion blur and some depth of field to make it a bit more vibrant and more realistic there's two key components to getting post-processing effects working in unity a post-process layer and a post processed volume the post process layer sits on the camera and registers the effects of post-processing volumes let's add a post process layer to our camera here and let's also make sure that the rendering path for our camera is set to deferred as this will give us some extra options to play with post-processing volumes can be a two different layers for instance this could be useful if you want specific post processes to occur on specific cameras for now though we're going to keep all of our post process volumes on the same layer so let's set this to post processing now before even creating a volume we actually have access to a post process anti-aliasing anti-aliasing smooths out the edges of objects so if we take a look at the edge of our building here and swap between no anti-aliasing and fast approximate anti-aliasing you can see the difference it makes now you can play around with the three versions of a a here to get the best results but I tend to be happy with the results from fxaa with that let's take a look at building our post processes and improving the look of our image let's create a new game object and call it post effects here let's add a new post process volume to give you an idea of how these work volumes are actually physical objects that you can place in your scene to cause the camera to render post processes when inside or nearby you can also blend different volumes together let's place a volume over here and we'll create a new profile on it then we'll set the lair of the game object to post-processing so that our camera will register effects let's add a color grading effect and then we'll desaturate the image finally we'll add a box Collider to define the size of the volume now when our camera enters the volume the effect occurs on the camera if we adjust the blend distance we can get a smooth blend from our normal image to our D saturated image the closer we get to the volume placing volumes in your environment like this can be an extremely cool way to change how your level looks in certain areas however we can also just set our post-process volume onto the camera directly by enabling the is global toggle so let's go ahead and do that now you can see our post-processing profile is active on our camera regardless of where it is in the scene so let's get started adding some juice to our visuals here the first thing I'm going to do is set the high-definition range and the tone mapping mode to aces for those who don't know tone mapping is a process of mapping color values from high dynamic range to low dynamic range I'll post some links to information in the description below but essentially by enabling high definition range in our color grading we're telling unity to map greater differences of luminance or light values to our standard image this enables us to work with higher light intensity values in our scene and get cool-looking results aces or the academy color encoding system is a tone mapping algorithm that is regularly used in the movie industry and I quote is becoming the industry standard for managing color throughout the lifecycle of a motion picture or television production so it's definitely worth using if you're going for a cinematic look next I'm going to enable the saturation and contrast here setting the saturation to around 30 and lowering the contrast slightly to about minus 5 I want this scene to feel quite vibrant and playful so it's important to me that the colors pop a little bit now with that the first effect is done from there let's look at creating our auto exposure effect this is the effect that simulates our eyes adjusting to various levels of darkness keep in mind this will work best when there's a greater difference of luminance values in your scene I found that the best way to achieve this is to crank up your directional lights intensity higher than 1 and set the exposure on your skybox to a similar value the skybox should then match the auto exposure as it averages out the luminance value from the main light the minimum and maximum values here determined the average luminance to consider for the auto exposure effect the filtering value determines the upper and lower percentages of the histogram to be used to find a stable luminance one histogram I hear you ask let's select our camera and add a post processed debug component and then let's enable the light meter and as we move our camera around you can see how the histogram changes to show the different levels with this we can now start defining our auto exposure effect if we point to the sky we can see that our highest value is about 1 so let's set this as our maximum if we look down to the ground we can see much darker values along the left here so let's drag our maximum down to about minus 7 now I'll ground is super bright but if we point up to the sky here notice how the camera adapts and brings it down to the correct brightness all we need to do is bring our exposure compensation down to about not point 7 to average it out a bit then it's just worth moving the filtering around until you get a range between the two that you're happy with and already that's looking pretty good you can really notice if we move from a place of deep shadow out into the open now finally let's add our depth of field effect to create our macro look there are plenty of resources online explaining how depth of field works so I'm not going to go too much into it but essentially it recreates the effect of your eye when focusing on something closer to you so let's enable focus distance aperture and focal length the basic logic here is that the smaller the aperture the more out-of-focus things will be and vice versa so let's set our aperture to 1.8 then let's increase the focus length a bit and increase our focus distance to about 32 and there's your tilt shift effect we can actually visualize how our depth of field works by enabling the depth of field debug overlay if we change our focus distance you can see that the red band moves to show what's currently in focus anything that's in red is more in focus than anything that's in grey so if we crank up that focal length we can get an extremely tight taupe shift effect as you can see there's plenty to play with here to get your intended results finally let's add some motion blur to our camera this is fairly simple the higher the shutter angle the longer the exposure and therefore the stronger the motion blur now I quite like adding subtle motion blur so it's not too noticeable so let's bring this down to about 120 it just adds a little something to the camera to smooth it out a bit as it's moving hopefully you can see with just these four effects we've got a much more interesting looking scene we now have a nice tilt shift effect and a camera that reacts to different variations in luminance as you can see here by adding even more effects from the stack you can combine a number of these different post-processing effects to get some really valuable results and add some extra fidelity to your scene and that's all for this video I wanted to give a brief overview of some of the tricks I've been using the post-processing stack for I thought it could be fun to do something a little different and focus a bit more on visuals rather than systems for a change if you enjoyed the video be sure to hit the like button and let me know your thoughts below if you're new to the channel and want to see more videos then please consider subscribing additionally if you want more tips tricks and tutorials then feel free to check out some of these other videos already on the channel otherwise as always thank you very much for watching and I'll see you again next time [Music]",
+  "text_to_speech_word_count": 1782,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.233",
+      "start": "00:00:00.000",
+      "text": " Many of us want our games to look and feel really good, and while art direction is clearly"
+    },
+    {
+      "end": "00:00:10.500",
+      "start": "00:00:06.233",
+      "text": " the most important factor in how a game actually looks, there's a few tricks we can use to"
+    },
+    {
+      "end": "00:00:13.333",
+      "start": "00:00:10.500",
+      "text": " give our games that extra bit of shine."
+    },
+    {
+      "end": "00:00:17.833",
+      "start": "00:00:13.333",
+      "text": " A lot of what we perceive as visual polish in the games we play is often achieved through"
+    },
+    {
+      "end": "00:00:20.400",
+      "start": "00:00:17.833",
+      "text": " post-processing effects."
+    },
+    {
+      "end": "00:00:25.133",
+      "start": "00:00:20.400",
+      "text": " Post-processes are full screen filters and effects performed on a camera's image buffer"
+    },
+    {
+      "end": "00:00:27.633",
+      "start": "00:00:25.133",
+      "text": " before displaying the image on screen."
+    },
+    {
+      "end": "00:00:32.433",
+      "start": "00:00:27.633",
+      "text": " Post-processing is commonly used to add cinematic qualities to our scenes as they regularly"
+    },
+    {
+      "end": "00:00:37.400",
+      "start": "00:00:32.433",
+      "text": " simulate qualities of film cameras such as depth of field or motion blur."
+    },
+    {
+      "end": "00:00:41.400",
+      "start": "00:00:37.400",
+      "text": " A great example of post-processing for me is the tilt shift effect on the camera in"
+    },
+    {
+      "end": "00:00:42.700",
+      "start": "00:00:41.400",
+      "text": " SimCity."
+    },
+    {
+      "end": "00:00:46.833",
+      "start": "00:00:42.700",
+      "text": " This effect gave the game this sense of playfulness and it came from an understanding of how the"
+    },
+    {
+      "end": "00:00:51.233",
+      "start": "00:00:46.833",
+      "text": " image would look if it were a physical miniature toy and we were capturing it through macro"
+    },
+    {
+      "end": "00:00:52.533",
+      "start": "00:00:51.233",
+      "text": " lens."
+    },
+    {
+      "end": "00:00:56.100",
+      "start": "00:00:52.533",
+      "text": " Another one of my favourite examples is how the post-processing and high definition range"
+    },
+    {
+      "end": "00:01:01.267",
+      "start": "00:00:56.100",
+      "text": " workflow is used to simulate our eyes adjusting to drastic changes in light as the player moves"
+    },
+    {
+      "end": "00:01:03.400",
+      "start": "00:01:01.267",
+      "text": " between environments."
+    },
+    {
+      "end": "00:01:07.233",
+      "start": "00:01:03.400",
+      "text": " It's something that we've seen frequently in large scale productions and it's an incredibly"
+    },
+    {
+      "end": "00:01:12.100",
+      "start": "00:01:07.233",
+      "text": " subtle touch that goes a long way to improving the visual fidelity of your game."
+    },
+    {
+      "end": "00:01:15.433",
+      "start": "00:01:12.100",
+      "text": " Hi there, I'm Matt and welcome to Game Dev Guide."
+    },
+    {
+      "end": "00:01:19.067",
+      "start": "00:01:15.433",
+      "text": " And today's video, if you haven't figured out already from the title, is about how we"
+    },
+    {
+      "end": "00:01:25.433",
+      "start": "00:01:19.067",
+      "text": " can use Unity's post-processing stack to improve the visual fidelity of our projects."
+    },
+    {
+      "end": "00:01:28.933",
+      "start": "00:01:25.433",
+      "text": " To get started, you'll first need to grab the post-processing stack from either the"
+    },
+    {
+      "end": "00:01:33.933",
+      "start": "00:01:28.933",
+      "text": " package manager or alternatively if you start a new project and choose 3D with extras,"
+    },
+    {
+      "end": "00:01:37.667",
+      "start": "00:01:33.933",
+      "text": " the post-processing package will be included in your project."
+    },
+    {
+      "end": "00:01:40.900",
+      "start": "00:01:37.667",
+      "text": " So our scene here is quite nice but it's generally a bit flat."
+    },
+    {
+      "end": "00:01:46.200",
+      "start": "00:01:40.900",
+      "text": " We're going to add some grading, an auto exposure effect, motion blur and some depth of field"
+    },
+    {
+      "end": "00:01:49.200",
+      "start": "00:01:46.200",
+      "text": " to make it a bit more vibrant and more realistic."
+    },
+    {
+      "end": "00:01:53.600",
+      "start": "00:01:49.200",
+      "text": " There's two key components to getting post-processing effects working in Unity."
+    },
+    {
+      "end": "00:01:57.367",
+      "start": "00:01:53.600",
+      "text": " A post-process layer and a post-process volume."
+    },
+    {
+      "end": "00:02:02.600",
+      "start": "00:01:57.367",
+      "text": " The post-process layer sits on the camera and registers the effects of post-processing volumes."
+    },
+    {
+      "end": "00:02:07.100",
+      "start": "00:02:02.600",
+      "text": " Let's add a post-process layer to our camera here and let's also make sure that the rendering"
+    },
+    {
+      "end": "00:02:11.233",
+      "start": "00:02:07.100",
+      "text": " path for our camera is set to deferred as this will give us some extra options to play"
+    },
+    {
+      "end": "00:02:12.533",
+      "start": "00:02:11.233",
+      "text": " with."
+    },
+    {
+      "end": "00:02:15.667",
+      "start": "00:02:12.533",
+      "text": " Post-processing volumes can be assigned to different layers."
+    },
+    {
+      "end": "00:02:19.600",
+      "start": "00:02:15.667",
+      "text": " For instance, this could be useful if you want specific post-processes to occur on specific"
+    },
+    {
+      "end": "00:02:20.600",
+      "start": "00:02:19.600",
+      "text": " cameras."
+    },
+    {
+      "end": "00:02:24.333",
+      "start": "00:02:20.733",
+      "text": " For now though, we're going to keep all of our post-process volumes on the same layer,"
+    },
+    {
+      "end": "00:02:27.100",
+      "start": "00:02:24.333",
+      "text": " so let's set this to post-processing."
+    },
+    {
+      "end": "00:02:31.600",
+      "start": "00:02:27.100",
+      "text": " Now, before even creating a volume, we actually have access to a post-process."
+    },
+    {
+      "end": "00:02:32.600",
+      "start": "00:02:31.600",
+      "text": " Anti-aliasing."
+    },
+    {
+      "end": "00:02:35.300",
+      "start": "00:02:32.600",
+      "text": " Anti-aliasing smooths out the edges of objects."
+    },
+    {
+      "end": "00:02:40.667",
+      "start": "00:02:35.300",
+      "text": " So if we take a look at the edge of our building here and swap between no anti-aliasing and"
+    },
+    {
+      "end": "00:02:45.600",
+      "start": "00:02:40.667",
+      "text": " faster approximate anti-aliasing, you can see the difference it makes."
+    },
+    {
+      "end": "00:02:48.900",
+      "start": "00:02:45.600",
+      "text": " Now you can play around with the three versions of AA here to get the best results but I tend"
+    },
+    {
+      "end": "00:02:54.367",
+      "start": "00:02:48.900",
+      "text": " to be happy with the results from FXAA."
+    },
+    {
+      "end": "00:02:57.833",
+      "start": "00:02:54.367",
+      "text": " With that, let's take a look at building our post-processes and improving the look of"
+    },
+    {
+      "end": "00:02:58.833",
+      "start": "00:02:57.833",
+      "text": " our image."
+    },
+    {
+      "end": "00:03:02.000",
+      "start": "00:02:58.833",
+      "text": " Let's create a new game object and call it post-effects."
+    },
+    {
+      "end": "00:03:05.733",
+      "start": "00:03:02.000",
+      "text": " Here, let's add a new post-process volume."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:03:05.733",
+      "text": " To give you an idea of how these work, volumes are actually physical objects that you can"
+    },
+    {
+      "end": "00:03:14.267",
+      "start": "00:03:09.000",
+      "text": " place in your scene to cause the camera to render post-processes when inside or nearby."
+    },
+    {
+      "end": "00:03:16.533",
+      "start": "00:03:14.267",
+      "text": " You can also blend different volumes together."
+    },
+    {
+      "end": "00:03:20.467",
+      "start": "00:03:16.533",
+      "text": " Just place a volume over here and we'll create a new profile on it."
+    },
+    {
+      "end": "00:03:23.800",
+      "start": "00:03:20.467",
+      "text": " Then we'll set the layer of the game object to post-processing so that our camera will"
+    },
+    {
+      "end": "00:03:24.867",
+      "start": "00:03:23.800",
+      "text": " register the effects."
+    },
+    {
+      "end": "00:03:30.467",
+      "start": "00:03:24.867",
+      "text": " Let's add a color grading effect and then we'll desaturate the image."
+    },
+    {
+      "end": "00:03:38.800",
+      "start": "00:03:30.467",
+      "text": " Finally, we'll add a box collider to define the size of the volume."
+    },
+    {
+      "end": "00:03:46.400",
+      "start": "00:03:38.800",
+      "text": " Now when our camera enters the volume, the effect occurs on the camera."
+    },
+    {
+      "end": "00:03:50.300",
+      "start": "00:03:46.400",
+      "text": " If we adjust the blend distance, we can get a smooth blend from our normal image to our"
+    },
+    {
+      "end": "00:03:59.200",
+      "start": "00:03:50.300",
+      "text": " desaturated image the closer we get to the volume."
+    },
+    {
+      "end": "00:04:02.933",
+      "start": "00:03:59.200",
+      "text": " Placing volumes in your environment like this can be an extremely cool way to change how"
+    },
+    {
+      "end": "00:04:05.133",
+      "start": "00:04:02.933",
+      "text": " your level looks in certain areas."
+    },
+    {
+      "end": "00:04:09.900",
+      "start": "00:04:05.133",
+      "text": " However, we can also just set our post-process volume onto the camera directly by enabling"
+    },
+    {
+      "end": "00:04:12.100",
+      "start": "00:04:09.900",
+      "text": " the is global toggle."
+    },
+    {
+      "end": "00:04:14.733",
+      "start": "00:04:12.100",
+      "text": " So let's go ahead and do that."
+    },
+    {
+      "end": "00:04:18.500",
+      "start": "00:04:14.733",
+      "text": " Now you can see our post-processing profile is active on our camera regardless of where"
+    },
+    {
+      "end": "00:04:20.233",
+      "start": "00:04:18.500",
+      "text": " it is in the scene."
+    },
+    {
+      "end": "00:04:22.533",
+      "start": "00:04:20.233",
+      "text": " So let's get started adding some juice to our visuals here."
+    },
+    {
+      "end": "00:04:26.033",
+      "start": "00:04:22.533",
+      "text": " The first thing I'm going to do is set the high definition range and the tone mapping"
+    },
+    {
+      "end": "00:04:27.433",
+      "start": "00:04:26.033",
+      "text": " mode to Aces."
+    },
+    {
+      "end": "00:04:31.067",
+      "start": "00:04:27.433",
+      "text": " For those who don't know, tone mapping is a process of mapping color values from high dynamic"
+    },
+    {
+      "end": "00:04:33.033",
+      "start": "00:04:31.067",
+      "text": " range to low dynamic range."
+    },
+    {
+      "end": "00:04:36.667",
+      "start": "00:04:33.033",
+      "text": " I'll post some links to information in the description below, but essentially by enabling"
+    },
+    {
+      "end": "00:04:40.533",
+      "start": "00:04:36.667",
+      "text": " high definition range in our color grading, we're telling Unity to map greater differences"
+    },
+    {
+      "end": "00:04:43.633",
+      "start": "00:04:40.533",
+      "text": " of luminance or light values to our standard image."
+    },
+    {
+      "end": "00:04:47.400",
+      "start": "00:04:43.633",
+      "text": " This enables us to work with higher light intensity values in our scene and get cool looking"
+    },
+    {
+      "end": "00:04:48.400",
+      "start": "00:04:47.400",
+      "text": " results."
+    },
+    {
+      "end": "00:04:53.200",
+      "start": "00:04:48.400",
+      "text": " Aces or the Academy Color encoding system is a tone mapping algorithm that is regularly"
+    },
+    {
+      "end": "00:04:57.500",
+      "start": "00:04:53.200",
+      "text": " used in the movie industry and I quote, is becoming the industry standard for managing"
+    },
+    {
+      "end": "00:05:01.567",
+      "start": "00:04:57.500",
+      "text": " color throughout the life cycle of a motion picture or television production."
+    },
+    {
+      "end": "00:05:04.867",
+      "start": "00:05:01.567",
+      "text": " So it's definitely worth using if you're going for a cinematic look."
+    },
+    {
+      "end": "00:05:09.133",
+      "start": "00:05:04.867",
+      "text": " Next, I'm going to enable the saturation and contrast here, setting the saturation to"
+    },
+    {
+      "end": "00:05:13.533",
+      "start": "00:05:09.133",
+      "text": " around 30 and lowering the contrast slightly to about minus 5."
+    },
+    {
+      "end": "00:05:16.833",
+      "start": "00:05:13.533",
+      "text": " I want this scene to feel quite vibrant and playful, so it's important to me that the"
+    },
+    {
+      "end": "00:05:18.000",
+      "start": "00:05:16.833",
+      "text": " colors pop a little bit."
+    },
+    {
+      "end": "00:05:21.233",
+      "start": "00:05:18.000",
+      "text": " And with that, the first effect is done."
+    },
+    {
+      "end": "00:05:26.533",
+      "start": "00:05:21.233",
+      "text": " From there, let's look at creating our auto exposure effect."
+    },
+    {
+      "end": "00:05:30.433",
+      "start": "00:05:26.533",
+      "text": " This is the effect that simulates our eyes adjusting to various levels of darkness."
+    },
+    {
+      "end": "00:05:34.033",
+      "start": "00:05:30.433",
+      "text": " Keep in mind, this will work best when there's a greater difference of luminance values in"
+    },
+    {
+      "end": "00:05:35.033",
+      "start": "00:05:34.033",
+      "text": " your scene."
+    },
+    {
+      "end": "00:05:38.267",
+      "start": "00:05:35.033",
+      "text": " I've found that the best way to achieve this is to crank up your directional light intensity"
+    },
+    {
+      "end": "00:05:42.567",
+      "start": "00:05:38.333",
+      "text": " higher than one and set the exposure on your skybox to a similar value."
+    },
+    {
+      "end": "00:05:46.467",
+      "start": "00:05:42.567",
+      "text": " The skybox should then match the auto exposure as it averages out the luminance value from"
+    },
+    {
+      "end": "00:05:48.200",
+      "start": "00:05:46.467",
+      "text": " the main light."
+    },
+    {
+      "end": "00:05:51.833",
+      "start": "00:05:48.200",
+      "text": " The minimum and maximum values here determine the average luminance to consider for the"
+    },
+    {
+      "end": "00:05:53.667",
+      "start": "00:05:51.833",
+      "text": " auto exposure effect."
+    },
+    {
+      "end": "00:05:57.500",
+      "start": "00:05:53.667",
+      "text": " The filtering value determines the upper and lower percentages of the histogram to be"
+    },
+    {
+      "end": "00:06:00.300",
+      "start": "00:05:57.500",
+      "text": " used to find stable luminance."
+    },
+    {
+      "end": "00:06:06.933",
+      "start": "00:06:00.300",
+      "text": " What histogram, I hear you ask, let's select our camera and add a post-process debug component."
+    },
+    {
+      "end": "00:06:10.233",
+      "start": "00:06:06.933",
+      "text": " And then let's enable the light meter."
+    },
+    {
+      "end": "00:06:13.267",
+      "start": "00:06:10.233",
+      "text": " And as we move our camera around, you can see how the histogram changes to show the"
+    },
+    {
+      "end": "00:06:14.733",
+      "start": "00:06:13.267",
+      "text": " different levels."
+    },
+    {
+      "end": "00:06:18.267",
+      "start": "00:06:14.733",
+      "text": " With this, we can now start defining our auto exposure effect."
+    },
+    {
+      "end": "00:06:22.233",
+      "start": "00:06:18.267",
+      "text": " If we point to the sky, we can see that our highest value is about 1."
+    },
+    {
+      "end": "00:06:27.433",
+      "start": "00:06:22.233",
+      "text": " So let's set this as our maximum."
+    },
+    {
+      "end": "00:06:30.833",
+      "start": "00:06:27.433",
+      "text": " If we look down to the ground, we can see much darker values along the left here."
+    },
+    {
+      "end": "00:06:33.833",
+      "start": "00:06:30.833",
+      "text": " So let's drag our maximum down to about minus 7."
+    },
+    {
+      "end": "00:06:37.900",
+      "start": "00:06:33.833",
+      "text": " Now our ground is super bright, but if we point up to the sky here, notice how the camera"
+    },
+    {
+      "end": "00:06:41.100",
+      "start": "00:06:37.900",
+      "text": " adapts and brings it down to the correct brightness."
+    },
+    {
+      "end": "00:06:49.333",
+      "start": "00:06:41.100",
+      "text": " All we need to do is bring our exposure compensation down to about 0.7 to average it out a bit."
+    },
+    {
+      "end": "00:06:53.133",
+      "start": "00:06:49.333",
+      "text": " Then it's just worth moving the filtering around until you get a range between the two"
+    },
+    {
+      "end": "00:06:55.767",
+      "start": "00:06:53.133",
+      "text": " that you're happy with."
+    },
+    {
+      "end": "00:06:57.900",
+      "start": "00:06:55.767",
+      "text": " And already that's looking pretty good."
+    },
+    {
+      "end": "00:07:02.267",
+      "start": "00:06:57.900",
+      "text": " You can really notice if we move from a place of deep shadow out into the open."
+    },
+    {
+      "end": "00:07:06.700",
+      "start": "00:07:02.267",
+      "text": " Now finally, let's add our depth of field effect to create our macro look."
+    },
+    {
+      "end": "00:07:10.733",
+      "start": "00:07:06.700",
+      "text": " There are plenty of resources online explaining how depth of field works, so I'm not going"
+    },
+    {
+      "end": "00:07:14.900",
+      "start": "00:07:10.733",
+      "text": " to go too much into it, but essentially it recreates the effect of your eye when focusing"
+    },
+    {
+      "end": "00:07:16.733",
+      "start": "00:07:14.900",
+      "text": " on something closer to you."
+    },
+    {
+      "end": "00:07:21.000",
+      "start": "00:07:16.733",
+      "text": " So let's enable focus distance, aperture and focal length."
+    },
+    {
+      "end": "00:07:24.733",
+      "start": "00:07:21.000",
+      "text": " The basic logic here is that the smaller the aperture, the more outer focus things will"
+    },
+    {
+      "end": "00:07:27.000",
+      "start": "00:07:24.733",
+      "text": " be and vice versa."
+    },
+    {
+      "end": "00:07:29.833",
+      "start": "00:07:27.000",
+      "text": " So let's set our aperture to 1.8."
+    },
+    {
+      "end": "00:07:34.033",
+      "start": "00:07:29.833",
+      "text": " And let's increase the focus length a bit and increase our focus distance to about"
+    },
+    {
+      "end": "00:07:35.500",
+      "start": "00:07:34.033",
+      "text": " 32."
+    },
+    {
+      "end": "00:07:38.033",
+      "start": "00:07:35.500",
+      "text": " And there's your tilt shift effect."
+    },
+    {
+      "end": "00:07:41.300",
+      "start": "00:07:38.033",
+      "text": " We can actually visualize how our depth of field works by enabling the depth of field"
+    },
+    {
+      "end": "00:07:43.267",
+      "start": "00:07:41.300",
+      "text": " debug overlay."
+    },
+    {
+      "end": "00:07:47.467",
+      "start": "00:07:43.267",
+      "text": " If we change our focus distance, you can see that the red band moves to show what's currently"
+    },
+    {
+      "end": "00:07:48.933",
+      "start": "00:07:47.467",
+      "text": " in focus."
+    },
+    {
+      "end": "00:07:52.500",
+      "start": "00:07:48.933",
+      "text": " Anything that's in red is more in focus than anything that's in gray."
+    },
+    {
+      "end": "00:07:58.700",
+      "start": "00:07:52.500",
+      "text": " So if we crank up that focal length, we can get an extremely tight tilt shift effect."
+    },
+    {
+      "end": "00:08:02.033",
+      "start": "00:07:58.700",
+      "text": " As you can see, there's plenty to play with here to get your intended results."
+    },
+    {
+      "end": "00:08:05.333",
+      "start": "00:08:02.033",
+      "text": " Finally, let's add some motion blur to our camera."
+    },
+    {
+      "end": "00:08:09.200",
+      "start": "00:08:05.333",
+      "text": " This is fairly simple, the higher the shutter angle, the longer the exposure, and therefore"
+    },
+    {
+      "end": "00:08:10.633",
+      "start": "00:08:09.200",
+      "text": " the stronger the motion blur."
+    },
+    {
+      "end": "00:08:14.600",
+      "start": "00:08:10.633",
+      "text": " Now I quite like adding subtle motion blur, so it's not too noticeable."
+    },
+    {
+      "end": "00:08:18.333",
+      "start": "00:08:14.600",
+      "text": " So let's bring this down to about 120."
+    },
+    {
+      "end": "00:08:22.600",
+      "start": "00:08:18.333",
+      "text": " It just adds a little something to the camera to smooth it out a bit as it's moving."
+    },
+    {
+      "end": "00:08:26.133",
+      "start": "00:08:22.600",
+      "text": " Hopefully you can see with just these four effects, we've got a much more interesting looking"
+    },
+    {
+      "end": "00:08:27.400",
+      "start": "00:08:26.133",
+      "text": " scene."
+    },
+    {
+      "end": "00:08:30.900",
+      "start": "00:08:27.400",
+      "text": " We now have a nice tilt shift effect and a camera that reacts to different variations"
+    },
+    {
+      "end": "00:08:34.000",
+      "start": "00:08:30.900",
+      "text": " in luminance."
+    },
+    {
+      "end": "00:08:37.933",
+      "start": "00:08:34.000",
+      "text": " As you can see here, by adding even more effects from the stack, you can combine a number"
+    },
+    {
+      "end": "00:08:42.067",
+      "start": "00:08:37.933",
+      "text": " of these different post-processing effects to get some really valuable results and add"
+    },
+    {
+      "end": "00:08:45.700",
+      "start": "00:08:42.067",
+      "text": " some extra fidelity to your scene."
+    },
+    {
+      "end": "00:08:47.033",
+      "start": "00:08:45.700",
+      "text": " And that's all for this video."
+    },
+    {
+      "end": "00:08:50.900",
+      "start": "00:08:47.033",
+      "text": " I wanted to give a brief overview of some of the tricks I've been using the post-processing"
+    },
+    {
+      "end": "00:08:51.900",
+      "start": "00:08:50.900",
+      "text": " stack for."
+    },
+    {
+      "end": "00:08:55.233",
+      "start": "00:08:51.900",
+      "text": " I thought it could be fun to do something a little different and focus a bit more on visuals"
+    },
+    {
+      "end": "00:08:56.700",
+      "start": "00:08:55.233",
+      "text": " rather than systems for a change."
+    },
+    {
+      "end": "00:08:59.533",
+      "start": "00:08:56.700",
+      "text": " If you enjoyed the video, be sure to hit the like button and let me know your thoughts"
+    },
+    {
+      "end": "00:09:00.533",
+      "start": "00:08:59.533",
+      "text": " below."
+    },
+    {
+      "end": "00:09:04.533",
+      "start": "00:09:00.533",
+      "text": " If you're new to the channel and want to see more videos, then please consider subscribing."
+    },
+    {
+      "end": "00:09:08.700",
+      "start": "00:09:04.533",
+      "text": " Additionally, if you want more tips, tricks and tutorials, then feel free to check out some"
+    },
+    {
+      "end": "00:09:10.833",
+      "start": "00:09:08.700",
+      "text": " of these other videos already on the channel."
+    },
+    {
+      "end": "00:09:14.833",
+      "start": "00:09:10.833",
+      "text": " Otherwise, as always, thank you very much for watching, and I'll see you again next time."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Game Dev Guide",
+  "youtube_channel_follower_count": 113000,
+  "youtube_comment_count": 175,
+  "youtube_description": "In this video we take a look at how to use the Post-Processing Stack in Unity to drastically improve the look of our visuals in our project.\n\nWe take a look at how to get started using post-processing and work to create a realistic auto-exposure effect.\n\nWe also take a look at how to use the depth of field effect to create a tilt-shift effect on our camera. \n\nBe sure to LIKE and SUBSCRIBE if you enjoyed this guide! Share the video for extra love!\n\n- - - - - - - - - - - - - \nI've set up a Discord so viewers can hangout, chat and share their own game dev tips and tricks. It's also a perfect place to hear about what videos I'm working on, or discussing episodes in more detail with other members of the Game Dev Guide community. \n\nYou're invited to join the Discord at http://www.discord.gg/yYcww7U\n\n- - - - - - - - - - - - - \nSocials:\nTwitter - http://www.twitter.com/GameDevGuideYT\nFacebook - http://www.facebook.com/GameDevGuideYT",
+  "youtube_like_count": 6645,
+  "youtube_tags": [
+    "unity",
+    "learn",
+    "games",
+    "gamedev",
+    "how to",
+    "making games in unity",
+    "tutorial",
+    "unity tutorial",
+    "learning unity",
+    "unity3d tutorial",
+    "programming",
+    "making games",
+    "tilt-shift",
+    "post processing",
+    "depth of field",
+    "dof",
+    "motion blur",
+    "bloom",
+    "postfx",
+    "post process",
+    "tilt shift",
+    "anti aliasing",
+    "visuals",
+    "improve",
+    "better effects",
+    "visual effects",
+    "filters"
+  ],
+  "youtube_title": "Using Post-Processing to improve visuals in Unity",
+  "youtube_upload_date": "20190826",
+  "youtube_view_count": 241211
+}

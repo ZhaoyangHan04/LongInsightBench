@@ -1,0 +1,844 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice, not shown visually.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A video tutorial helping users resolve a Skype login issue by disabling UPnP.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Quit Skype.",
+        "question": "What is the first step the narrator asks the viewers to do after demonstrating the Skype login issue?"
+      },
+      {
+        "answer": "shared.xml",
+        "question": "What file needs to be edited to disable UPnP?"
+      },
+      {
+        "answer": "A five-digit number that does not start with six.",
+        "question": "What kind of number does the narrator recommend for the port, and what is the restriction on the first digit?"
+      },
+      {
+        "answer": "Between the <Connection> and </Connection> tags.",
+        "question": "Where does the code snippet to disable UPnP need to be pasted within the shared.xml file?"
+      },
+      {
+        "answer": "The mood transitions from neutral to slightly more positive, as the narrator's tone reflects satisfaction with the solution's effectiveness.",
+        "question": "How does the mood change after the successful login into Skype?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces the tutorial as a follow-up to a blog post",
+            "timestamp": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Demonstrates the Skype login issue with spinning icon",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "Explains the need to quit Skype",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral, informative. The narrator explains the purpose of the video and the problem he's addressing.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Sets up the problem of Skype failing to login.",
+            "timestamp": "00:00:14.000"
+          },
+          {
+            "description": "He instructs viewers to quit Skype",
+            "timestamp": "00:00:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Desktop computer with Skype login screen",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Sticky note with IP address and instruction to disable UPnP",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technical troubleshooting.",
+        "timestamps": {
+          "end_timestamp": "00:00:37.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Problem Statement",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Restarts Skype and navigates to Connection Options",
+            "timestamp": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          },
+          {
+            "description": "Explains the need to disable UPnP and edit the shared.xml file",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:00:57.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral, instructional. The narrator provides steps to resolve the Skype login issue.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the technical solution: disabling UPnP.",
+            "timestamp": "00:00:50.000"
+          },
+          {
+            "description": "Emphasizes the need to disable UPnP",
+            "timestamp": "00:01:36.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Desktop computer with Skype Connection Options window",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          },
+          {
+            "name": "Sticky note with IP address and instruction to disable UPnP",
+            "timestamp": {
+              "end_timestamp": "00:01:57.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical instructions, problem-solving.",
+        "timestamps": {
+          "end_timestamp": "00:01:57.000",
+          "start_timestamp": "00:00:37.033"
+        },
+        "title": "Technical Solution Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Opens 'Run' dialog and navigates to the shared.xml file",
+            "timestamp": {
+              "end_timestamp": "00:02:54.000",
+              "start_timestamp": "00:01:57.033"
+            }
+          },
+          {
+            "description": "Explains how to edit the shared.xml file to disable UPnP",
+            "timestamp": {
+              "end_timestamp": "00:04:15.000",
+              "start_timestamp": "00:02:55.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, instructional, detailed. The narrator provides step-by-step instructions on editing the shared.xml file.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrates the process of disabling UPnP by editing the configuration file.",
+            "timestamp": "00:01:57.033"
+          },
+          {
+            "description": "Explains the specific edit to disable UPnP",
+            "timestamp": "00:02:55.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Desktop computer with 'Run' dialog",
+            "timestamp": {
+              "end_timestamp": "00:02:40.000",
+              "start_timestamp": "00:01:57.033"
+            }
+          },
+          {
+            "name": "File explorer window showing Roaming folder and Skype folder",
+            "timestamp": {
+              "end_timestamp": "00:04:15.000",
+              "start_timestamp": "00:02:40.000"
+            }
+          },
+          {
+            "name": "Notepad window showing shared.xml file",
+            "timestamp": {
+              "end_timestamp": "00:04:15.000",
+              "start_timestamp": "00:02:55.000"
+            }
+          },
+          {
+            "name": "Sticky note with code snippet to disable UPnP",
+            "timestamp": {
+              "end_timestamp": "00:04:15.000",
+              "start_timestamp": "00:02:55.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "File editing, configuration changes.",
+        "timestamps": {
+          "end_timestamp": "00:04:15.000",
+          "start_timestamp": "00:01:57.033"
+        },
+        "title": "Editing Configuration File",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Closes the shared.xml file and restarts Skype",
+            "timestamp": {
+              "end_timestamp": "00:04:27.000",
+              "start_timestamp": "00:04:15.033"
+            }
+          },
+          {
+            "description": "Navigates to Connection Options and enters an arbitrary port number",
+            "timestamp": {
+              "end_timestamp": "00:05:54.000",
+              "start_timestamp": "00:04:27.000"
+            }
+          },
+          {
+            "description": "Saves the changes and restarts Skype again",
+            "timestamp": {
+              "end_timestamp": "00:06:19.000",
+              "start_timestamp": "00:05:54.000"
+            }
+          },
+          {
+            "description": "Demonstrates that Skype now logs in successfully",
+            "timestamp": {
+              "end_timestamp": "00:07:26.000",
+              "start_timestamp": "00:06:19.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the audience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral, slightly positive at the end. The narrator methodically completes the process and shows the successful login.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Tests the solution and demonstrates the successful outcome.",
+            "timestamp": "00:04:15.033"
+          },
+          {
+            "description": "Successful login into Skype",
+            "timestamp": "00:06:19.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Desktop computer with Skype Connection Options window",
+            "timestamp": {
+              "end_timestamp": "00:05:54.000",
+              "start_timestamp": "00:04:27.000"
+            }
+          },
+          {
+            "name": "Skype home screen",
+            "timestamp": {
+              "end_timestamp": "00:07:26.000",
+              "start_timestamp": "00:06:19.000"
+            }
+          },
+          {
+            "name": "Sticky note with IP address",
+            "timestamp": {
+              "end_timestamp": "00:07:26.000",
+              "start_timestamp": "00:04:15.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Solution testing, problem resolution, success.",
+        "timestamps": {
+          "end_timestamp": "00:07:26.500",
+          "start_timestamp": "00:04:15.033"
+        },
+        "title": "Implementation and Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is the successful login into Skype after applying the solution.",
+        "timestamp": "00:06:19.000"
+      },
+      "description": "The main storyline revolves around the tutorial for resolving the Skype login issue through disabling UPnP.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Skype Tutorial",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove the segment where the narrator struggles to locate the file.",
+        "timestamps": {
+          "end_timestamp": "00:04:15.033",
+          "start_timestamp": "00:04:15.033"
+        }
+      },
+      {
+        "description": "Trim some of the pauses where Skype is loading.",
+        "timestamps": {
+          "end_timestamp": "00:06:42.000",
+          "start_timestamp": "00:06:27.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 447,
+  "original_json_filename": "F3aFcf2YxGI.json",
+  "original_video_filename": "F3aFcf2YxGI.mp4",
+  "resolution": "640x342",
+  "text_to_speech": "okay welcome everybody um this is a video tutorial it's actually a followup to the tutorial I placed on my blog uh gisto blogspot.com um yeah I will give you the link later and um yeah basically we start Skype and we try to log in and then after entering your password we get this uh spinning icon and this is not what we want we want uh to enter Skype so what do we do first of all you have to quit Skype um yes we want to quit Skype definitely and then you start Skype again you have to quit it otherwise you wouldn't be able to enter the options menu so you quit Skype and then you come to tools and then connection options yeah so when you come to conne options you have a a dialog box like this and uh yeah so basically you are supposed to enter a port within the range of uh uh 1024 and uh six whatever I forgotten the number but it's supposed to be a five figure uh a five figure number starting with six so um you're supposed to enter ports number and then you connect through https py but then you have to disable the upm and this has been a challenge for most of the people who have been trying my uh Solution on the blog so um quickly I would uh show you how you can work around that and then we come back here so we cancel this and then we quit Skype one more time uh there's a lot of back and forth here it took me a while to get this figured out so um basically you would have to go to run that is Windows logo plus r Windows logo plus r or you could just click Start and then uh you click run and then you type percentage updat percentage again just like uh on the right here type this uh right here into the dialog box here and you click okay you run it and then open uh this folder and then you scroll down to Skype so you come to Skype and you see this shared. XML uh file this is what we want to edit so you double click it should open with a a text Ed dat otherwise you just right click and say open with notepad notepad and here we want to edit um this shed XML so that we can disable the upm because it doesn't show in the user interface uh under the control under the options so yeah but forget about all that technical Jon all you have to do is just copy this here or you type in uh this code maybe you can write it down and type it in but I have here so I just copy uh and then come under the connection where the connection tab starts okay this is the starting tag for connection and the end is uh down there when you scroll down you see it but anywhere between the connection tag you just uh paste it so we just um bring is down here yep and we paste this here very good so um you can close and save what you have done now voila so let's go to Skype start it once more and see if it works okay back to Skype we go to tools connection options again and uh don't worry if you don't see the enable upm down here it has already been disabled in the share. XML file so we come here we enter any um port number make it uh my advice is that you make it a five digigit port number but make sure it doesn't start with six we have 2 3 4 six okay you could type any number just make sure it's a digit number and it does not start with six and then we come here and we select https because we'll be connecting through proxy so um when you go on my blog which is uh Jo Aristo blogspot.com that is uh Jo Aristo blockport you will find um updated IP addresses and ports but currently this is working for me so I just copy this and paste here you find uh other ports if this does not work so don't worry and you paste them in uh 3128 okay and then that's it you leave everything access and you click on Save and it says your changes will be applied the next time you start Skype click on okay and then we quit Skype one more time because we want our changes to take effect so we quit Skype and then we restart okay so we start Skype one more time and put our solution to the test okay I enter my password one more time let's see what happens while it's taking a long while right there so it works at last uh I hope you are able to fix it if not you can uh leave a message uh under the blog uh post under this using this uh address can find the blog post there um just type in the um challenges you have with it there and I will be happy to help you and uh yeah so I hope it works for you and uh enjoy Skyping happy Skyping like I always say okay byebye",
+  "text_to_speech_word_count": 910,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.800",
+      "start": "00:00:00.000",
+      "text": " Okay, welcome everybody. This is a video tutorial. It's actually a follow up to the tutorial."
+    },
+    {
+      "end": "00:00:13.200",
+      "start": "00:00:08.800",
+      "text": " I please on my blog, JuryStole, www.blogspots.com."
+    },
+    {
+      "end": "00:00:22.400",
+      "start": "00:00:13.200",
+      "text": " Yeah, I will give you the link later. And yeah, basically we start Skype and we try to log in."
+    },
+    {
+      "end": "00:00:33.600",
+      "start": "00:00:22.400",
+      "text": " And then after entering your password, we get this spin-in icon. And this is not all we want to enter Skype."
+    },
+    {
+      "end": "00:00:42.567",
+      "start": "00:00:33.600",
+      "text": " So what do we do first of all? You have to quit Skype. Yes, we want to quit Skype, definitely."
+    },
+    {
+      "end": "00:00:50.800",
+      "start": "00:00:42.567",
+      "text": " And then you start Skype again. You have to quit it otherwise you will be able to enter the options menu."
+    },
+    {
+      "end": "00:00:56.800",
+      "start": "00:00:50.800",
+      "text": " So you quit Skype and then you come to choose and then connection options."
+    },
+    {
+      "end": "00:01:03.800",
+      "start": "00:00:56.800",
+      "text": " Yeah, so when you come to connection options, you have a dialog box like this."
+    },
+    {
+      "end": "00:01:19.000",
+      "start": "00:01:04.000",
+      "text": " And yeah, so basically you are supposed to enter a port within a range of 1024 and 6 whatever,"
+    },
+    {
+      "end": "00:01:26.200",
+      "start": "00:01:19.000",
+      "text": " according to the number, but it's supposed to be a 5-figure number starting with 6."
+    },
+    {
+      "end": "00:01:35.400",
+      "start": "00:01:26.400",
+      "text": " So you're supposed to enter a port number and then you connect through HTTP as policy."
+    },
+    {
+      "end": "00:01:45.400",
+      "start": "00:01:35.400",
+      "text": " But then you have to disable the UPMP. And this has been a challenge for most of the people who have been trying my solution on the blog."
+    },
+    {
+      "end": "00:01:53.400",
+      "start": "00:01:45.400",
+      "text": " So quickly I will show you how you can work around that and then we come back here."
+    },
+    {
+      "end": "00:01:59.400",
+      "start": "00:01:53.400",
+      "text": " So we cancel this and then we quit Skype one more time."
+    },
+    {
+      "end": "00:02:09.600",
+      "start": "00:02:03.400",
+      "text": " There's a lot of back and forth here. It took me a while to get this figured out."
+    },
+    {
+      "end": "00:02:18.800",
+      "start": "00:02:09.600",
+      "text": " So basically you will have to go to run that is Winidows logo plus R."
+    },
+    {
+      "end": "00:02:24.800",
+      "start": "00:02:19.800",
+      "text": " Winidows logo plus R or you could just click Start and then you click Run."
+    },
+    {
+      "end": "00:02:29.800",
+      "start": "00:02:24.800",
+      "text": " And then you type percentage, update percentage again."
+    },
+    {
+      "end": "00:02:37.800",
+      "start": "00:02:29.800",
+      "text": " Just like on the right here, type this right here into the dialog box here."
+    },
+    {
+      "end": "00:02:46.800",
+      "start": "00:02:37.800",
+      "text": " And you click OK. You run it now open this folder and then you scroll down to Skype."
+    },
+    {
+      "end": "00:02:53.800",
+      "start": "00:02:47.800",
+      "text": " So you come to Skype and you see this shed.xml file."
+    },
+    {
+      "end": "00:02:57.800",
+      "start": "00:02:53.800",
+      "text": " This is what we want to edit. So you double click."
+    },
+    {
+      "end": "00:03:05.800",
+      "start": "00:02:57.800",
+      "text": " It should open with that text editor. Otherwise you just right click and say open with NotePad."
+    },
+    {
+      "end": "00:03:15.800",
+      "start": "00:03:05.800",
+      "text": " And here we want to edit this shed XML so that we can disable the UPMP."
+    },
+    {
+      "end": "00:03:21.800",
+      "start": "00:03:15.800",
+      "text": " Because it doesn't show in the user interface under the options."
+    },
+    {
+      "end": "00:03:25.800",
+      "start": "00:03:21.800",
+      "text": " So yeah, but forget about all that technical jagging."
+    },
+    {
+      "end": "00:03:31.800",
+      "start": "00:03:25.800",
+      "text": " All you have to do is just copy this here or you type in this code."
+    },
+    {
+      "end": "00:03:36.800",
+      "start": "00:03:31.800",
+      "text": " Maybe you can write it down and type it in. But I have this right just copy."
+    },
+    {
+      "end": "00:03:43.800",
+      "start": "00:03:36.800",
+      "text": " And then come under the connection. Where the connection tag starts."
+    },
+    {
+      "end": "00:03:49.800",
+      "start": "00:03:44.800",
+      "text": " OK, this is the starting tag for connection and the end is down there."
+    },
+    {
+      "end": "00:03:56.800",
+      "start": "00:03:49.800",
+      "text": " You scroll down here. But anywhere between the connection tag you just paste it."
+    },
+    {
+      "end": "00:04:00.800",
+      "start": "00:03:56.800",
+      "text": " So we just bring this down here."
+    },
+    {
+      "end": "00:04:06.800",
+      "start": "00:04:00.800",
+      "text": " Yeah, we paste this here. Very good."
+    },
+    {
+      "end": "00:04:15.800",
+      "start": "00:04:06.800",
+      "text": " So you can close and save what you have done now."
+    },
+    {
+      "end": "00:04:24.800",
+      "start": "00:04:15.800",
+      "text": " Voilà. So let's go to Skype. Start it once more and see if it works."
+    },
+    {
+      "end": "00:04:27.800",
+      "start": "00:04:24.800",
+      "text": " OK, back to Skype."
+    },
+    {
+      "end": "00:04:31.800",
+      "start": "00:04:27.800",
+      "text": " We go to Tools, Connections, again."
+    },
+    {
+      "end": "00:04:35.800",
+      "start": "00:04:31.800",
+      "text": " And don't worry if you don't see the enable UPMP down here."
+    },
+    {
+      "end": "00:04:39.800",
+      "start": "00:04:35.800",
+      "text": " It has already been disabled in the shed XML file."
+    },
+    {
+      "end": "00:04:44.800",
+      "start": "00:04:39.800",
+      "text": " So we come here. We enter any ports number."
+    },
+    {
+      "end": "00:04:49.800",
+      "start": "00:04:44.800",
+      "text": " Make it my advice is that you make it a five digit port number."
+    },
+    {
+      "end": "00:04:51.800",
+      "start": "00:04:49.800",
+      "text": " But make sure it doesn't start with six."
+    },
+    {
+      "end": "00:04:55.800",
+      "start": "00:04:51.800",
+      "text": " We have two, three, four, one, six."
+    },
+    {
+      "end": "00:05:00.800",
+      "start": "00:04:55.800",
+      "text": " OK, if we type any number, just make sure it's a five digit number and it does not start with six."
+    },
+    {
+      "end": "00:05:12.800",
+      "start": "00:05:00.800",
+      "text": " And then we come here and we select 80TPS because you reconnect in through policy."
+    },
+    {
+      "end": "00:05:27.800",
+      "start": "00:05:12.800",
+      "text": " So when you go on my blog, which is your arrestal.blocksport.com, that is your arrestal.blocksport.com."
+    },
+    {
+      "end": "00:05:32.800",
+      "start": "00:05:27.800",
+      "text": " You will find updated IP addresses and ports."
+    },
+    {
+      "end": "00:05:37.800",
+      "start": "00:05:32.800",
+      "text": " But currently this is working for me. So I just copy this and paste here."
+    },
+    {
+      "end": "00:05:43.800",
+      "start": "00:05:37.800",
+      "text": " You find other ports. If there's no work, don't worry."
+    },
+    {
+      "end": "00:05:47.800",
+      "start": "00:05:43.800",
+      "text": " And you paste them in."
+    },
+    {
+      "end": "00:05:50.800",
+      "start": "00:05:47.800",
+      "text": " If you want to wait."
+    },
+    {
+      "end": "00:05:52.800",
+      "start": "00:05:50.800",
+      "text": " OK."
+    },
+    {
+      "end": "00:05:56.800",
+      "start": "00:05:52.800",
+      "text": " And then let's leave everything in access and you click on save."
+    },
+    {
+      "end": "00:06:00.800",
+      "start": "00:05:56.800",
+      "text": " And we say, the changes will be applied the next time you start Skype."
+    },
+    {
+      "end": "00:06:02.800",
+      "start": "00:06:00.800",
+      "text": " Click on OK."
+    },
+    {
+      "end": "00:06:07.800",
+      "start": "00:06:02.800",
+      "text": " And then we quit Skype one more time because one our changes to take effect."
+    },
+    {
+      "end": "00:06:12.800",
+      "start": "00:06:07.800",
+      "text": " So we quit Skype and then we restart."
+    },
+    {
+      "end": "00:06:15.800",
+      "start": "00:06:12.800",
+      "text": " OK."
+    },
+    {
+      "end": "00:06:22.800",
+      "start": "00:06:15.800",
+      "text": " So we start Skype one more time and put our solution to the test."
+    },
+    {
+      "end": "00:06:24.800",
+      "start": "00:06:22.800",
+      "text": " OK."
+    },
+    {
+      "end": "00:06:27.800",
+      "start": "00:06:24.800",
+      "text": " And time I pass it one more time."
+    },
+    {
+      "end": "00:06:35.800",
+      "start": "00:06:27.800",
+      "text": " Let me see what happens."
+    },
+    {
+      "end": "00:06:40.800",
+      "start": "00:06:35.800",
+      "text": " Sticking the wall."
+    },
+    {
+      "end": "00:06:43.800",
+      "start": "00:06:40.800",
+      "text": " Sticking the wall."
+    },
+    {
+      "end": "00:06:46.800",
+      "start": "00:06:43.800",
+      "text": " So it works."
+    },
+    {
+      "end": "00:06:50.800",
+      "start": "00:06:46.800",
+      "text": " I hope you are able to fix it."
+    },
+    {
+      "end": "00:06:55.800",
+      "start": "00:06:50.800",
+      "text": " If not, you can leave a message under the blog post."
+    },
+    {
+      "end": "00:06:59.800",
+      "start": "00:06:55.800",
+      "text": " And this is using this address."
+    },
+    {
+      "end": "00:07:01.800",
+      "start": "00:06:59.800",
+      "text": " You can find the blog post there."
+    },
+    {
+      "end": "00:07:05.800",
+      "start": "00:07:01.800",
+      "text": " Just type in the challenges you have."
+    },
+    {
+      "end": "00:07:10.800",
+      "start": "00:07:05.800",
+      "text": " And now I will be happy to help you."
+    },
+    {
+      "end": "00:07:15.800",
+      "start": "00:07:10.800",
+      "text": " So I hope you worked with you and enjoy Skype."
+    },
+    {
+      "end": "00:07:18.800",
+      "start": "00:07:15.800",
+      "text": " I like that we say."
+    },
+    {
+      "end": "00:07:19.800",
+      "start": "00:07:18.800",
+      "text": " OK."
+    },
+    {
+      "end": "00:07:22.800",
+      "start": "00:07:19.800",
+      "text": " Bye bye."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "JoeAristo",
+  "youtube_channel_follower_count": 373,
+  "youtube_comment_count": 147,
+  "youtube_description": "Tutorial on how to disable UPnP in Skype and Connect through HTTPS Proxy\nVisit http://joearisto.blogspot.com for a step by step text tutorial.\n\nGet latest proxies (HTTPS)  at hidemyass\n\nHappy Skyping\n*Sorry for poor sound*",
+  "youtube_like_count": 172,
+  "youtube_tags": [
+    "Walk Through",
+    "Ghana",
+    "Google",
+    "Force",
+    "Account",
+    "Happy",
+    "Windows",
+    "Port",
+    "Altavista",
+    "Going",
+    "cant",
+    "Dorothy",
+    "Drive",
+    "Hacker (Character Power)",
+    "Skype",
+    "Bebo",
+    "Thru",
+    "Birthday",
+    "Tutorial (Industry)",
+    "Eyes",
+    "Fury",
+    "Dragonforce",
+    "Skype (Software)",
+    "Cidt",
+    "Forest",
+    "Check",
+    "Expert",
+    "connect",
+    "Pass",
+    "Uni",
+    "Driving",
+    "Skype Upnp",
+    "Tunnel",
+    "Hack",
+    "Games",
+    "Fire Flames",
+    "Faculty",
+    "Through",
+    "Hacked",
+    "Run",
+    "Follow",
+    "College",
+    "Upnp",
+    "Ffrt",
+    "Youtube",
+    "Intro",
+    "Software (Musical Album)",
+    "Messenger",
+    "Fire",
+    "Forwarding",
+    "Glass",
+    "Hotmail",
+    "Flames",
+    "Proxy",
+    "Through Fire",
+    "Herman"
+  ],
+  "youtube_title": "Fix Skype Connection Problems - [SOLVED]",
+  "youtube_upload_date": "20130606",
+  "youtube_view_count": 238564
+}

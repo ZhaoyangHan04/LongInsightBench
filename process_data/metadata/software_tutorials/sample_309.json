@@ -1,0 +1,1233 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "narrator",
+        "description": "A young man with a beard, wearing an olive-green shirt and facing the camera. He speaks clearly and concisely about the new features in Blender 3.1.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "This video provides an overview of the new features in Blender 3.1, focusing on performance and speed improvements. It covers various topics, including modeling performance enhancements, GPU support, point cloud features, ray tracing precision, asset browser improvements, geometry nodes enhancements, and more.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "It now benefits from GPU acceleration, potentially making it up to ten times faster.",
+        "question": "What specific change was made to the subdivision surface modifier in Blender 3.1 to enhance its performance?"
+      },
+      {
+        "answer": "Artifacts that can occur in small, large, and faraway objects.",
+        "question": "What type of artifacts does the ray tracing precision improvement in Blender 3.1 aim to eliminate?"
+      },
+      {
+        "answer": "The node timings display, which shows how long each node takes to calculate.",
+        "question": "What visual feature in the graph editor helps animators identify heavy calculations within their animation setup?"
+      },
+      {
+        "answer": "The Shrinkwrap modifier, which can wrap Grease Pencil objects to 3D meshes.",
+        "question": "What new feature in the Grease Pencil modifier allows for creating depth and perspective in 2D animations?"
+      },
+      {
+        "answer": "It automatically creates lower-resolution versions of video files for smoother editing, but avoids creating proxies for videos that are already small or easy to decode.",
+        "question": "How does the automatic proxy building feature in the Video Sequence Editor contribute to a more efficient workflow?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator introduces himself and the topic of the video, which is the new features in Blender 3.1 focused on performance and speed.",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator introduces the video topic."
+          }
+        ],
+        "contextualRelevance": "Sets the stage for understanding Blender 3.1's performance and speed enhancements.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction and setup for the topic.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:07.033",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording shows various 3D models and highlights performance improvements in modeling tools.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:07.067"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights key updates in Blender modeling features.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Details the performance improvements in modeling tools.",
+            "timestamp": "00:00:07.067"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models of a forest scene with a deer",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:07.067"
+            }
+          },
+          {
+            "name": "sphere with a textured surface",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:07.067"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Performance enhancement in modeling.",
+        "timestamps": {
+          "end_timestamp": "00:00:24.800",
+          "start_timestamp": "00:00:07.067"
+        },
+        "title": "Modeling Performance",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording showcases Cycles' metal GPU support for Apple users.",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:24.833"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explains Metal GPU support for improved rendering on Apple devices.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Details the Metal GPU support for Cycles.",
+            "timestamp": "00:00:24.833"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a retro handheld gaming console",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:24.833"
+            }
+          },
+          {
+            "name": "screenshot of macOS 12.3 beta release notes",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:24.833"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Rendering enhancement.",
+        "timestamps": {
+          "end_timestamp": "00:00:37.733",
+          "start_timestamp": "00:00:24.833"
+        },
+        "title": "Metal GPU Support",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording demonstrates the new features for point clouds.",
+            "timestamp": {
+              "end_timestamp": "00:00:47.367",
+              "start_timestamp": "00:00:37.767"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Describes new features and optimizations for point clouds.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains point cloud improvements and usage.",
+            "timestamp": "00:00:37.767"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models of a deer with glowing point cloud particles",
+            "timestamp": {
+              "end_timestamp": "00:00:47.367",
+              "start_timestamp": "00:00:37.767"
+            }
+          },
+          {
+            "name": "forest scene with detailed point clouds",
+            "timestamp": {
+              "end_timestamp": "00:00:47.367",
+              "start_timestamp": "00:00:37.767"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Point cloud rendering and memory optimization.",
+        "timestamps": {
+          "end_timestamp": "00:00:47.367",
+          "start_timestamp": "00:00:37.767"
+        },
+        "title": "Point Cloud",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording focuses on improvements in ray tracing precision.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.933",
+              "start_timestamp": "00:00:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Covers improvements in rendering precision with ray tracing.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Highlights ray tracing precision enhancements.",
+            "timestamp": "00:00:48.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models of a scene with a cartoon character",
+            "timestamp": {
+              "end_timestamp": "00:01:00.933",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "name": "sphere with a textured surface",
+            "timestamp": {
+              "end_timestamp": "00:01:00.933",
+              "start_timestamp": "00:00:48.000"
+            }
+          },
+          {
+            "name": "room with a window",
+            "timestamp": {
+              "end_timestamp": "00:01:00.933",
+              "start_timestamp": "00:00:48.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Precision enhancements in rendering.",
+        "timestamps": {
+          "end_timestamp": "00:01:00.933",
+          "start_timestamp": "00:00:47.400"
+        },
+        "title": "Ray Tracing",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording showcases faster loading of Asset Browser and Image Editor's capability to handle large images.",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Showcases improvements in managing and editing visual assets.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains improvements in Asset Browser and Image Editor.",
+            "timestamp": "00:01:01.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a monkey head",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          },
+          {
+            "name": "landscape image of Mount Fuji",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          },
+          {
+            "name": "thumbnail view of various fonts",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Enhancements in asset management and image handling.",
+        "timestamps": {
+          "end_timestamp": "00:01:13.067",
+          "start_timestamp": "00:01:00.967"
+        },
+        "title": "Asset Browser & Image Editor",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Extensive screen recording showcasing multiple performance improvements and new features in Geometry Nodes.",
+            "timestamp": {
+              "end_timestamp": "00:02:49.500",
+              "start_timestamp": "00:01:13.100"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Explores significant enhancements in node-based functionalities.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": [
+            {
+              "changeDescription": "Significant enhancements and new nodes.",
+              "timestamp": "00:01:40.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Details the numerous updates and enhancements to Geometry Nodes.",
+            "timestamp": "00:01:13.100"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models of a house with vines",
+            "timestamp": {
+              "end_timestamp": "00:02:49.500",
+              "start_timestamp": "00:01:13.100"
+            }
+          },
+          {
+            "name": "sphere with different patterns",
+            "timestamp": {
+              "end_timestamp": "00:02:49.500",
+              "start_timestamp": "00:01:13.100"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Major updates in node-based workflows.",
+        "timestamps": {
+          "end_timestamp": "00:02:49.500",
+          "start_timestamp": "00:01:13.100"
+        },
+        "title": "Geometry Nodes",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording demonstrates the new Custom Action Frame Range feature for animators.",
+            "timestamp": {
+              "end_timestamp": "00:03:09.767",
+              "start_timestamp": "00:02:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Provides insights on new tools for better control in animations.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the new Action Frame Range feature for animators.",
+            "timestamp": "00:02:50.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a blue bird character",
+            "timestamp": {
+              "end_timestamp": "00:03:09.767",
+              "start_timestamp": "00:02:50.000"
+            }
+          },
+          {
+            "name": "animation timeline and graph editor interface",
+            "timestamp": {
+              "end_timestamp": "00:03:09.767",
+              "start_timestamp": "00:02:50.000"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Customization in animation frame management.",
+        "timestamps": {
+          "end_timestamp": "00:03:09.767",
+          "start_timestamp": "00:02:49.533"
+        },
+        "title": "Action Frame Range",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording demonstrates the integration of the Blend Shapes and Breakdown operator in the Graph Editor.",
+            "timestamp": {
+              "end_timestamp": "00:03:33.000",
+              "start_timestamp": "00:03:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Details new tools for animators in graph editing.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Showcases Blend Shapes, Breakdown operator, and handle easing in Graph Editor.",
+            "timestamp": "00:03:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models of a girl character with a bird",
+            "timestamp": {
+              "end_timestamp": "00:03:33.000",
+              "start_timestamp": "00:03:10.000"
+            }
+          },
+          {
+            "name": "man swimming in a pool",
+            "timestamp": {
+              "end_timestamp": "00:03:33.000",
+              "start_timestamp": "00:03:10.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Improvements in animation ease and shape manipulation.",
+        "timestamps": {
+          "end_timestamp": "00:03:33.300",
+          "start_timestamp": "00:03:09.800"
+        },
+        "title": "Graph Editor",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording demonstrates the Copy Global Transform feature.",
+            "timestamp": {
+              "end_timestamp": "00:03:47.833",
+              "start_timestamp": "00:03:33.333"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights the Copy Global Transform feature for user efficiency.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the Copy Global Transform functionality.",
+            "timestamp": "00:03:33.333"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D models of monkey heads",
+            "timestamp": {
+              "end_timestamp": "00:03:47.833",
+              "start_timestamp": "00:03:33.333"
+            }
+          },
+          {
+            "name": "interface of Blender",
+            "timestamp": {
+              "end_timestamp": "00:03:47.833",
+              "start_timestamp": "00:03:33.333"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Enhancements in transform manipulation.",
+        "timestamps": {
+          "end_timestamp": "00:03:47.833",
+          "start_timestamp": "00:03:33.333"
+        },
+        "title": "Copy Global Transform",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording highlights new features for Grease Pencil, including a shrinkwrap modifier.",
+            "timestamp": {
+              "end_timestamp": "00:04:23.367",
+              "start_timestamp": "00:03:48.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Offers insights into new Grease Pencil capabilities.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": [
+            {
+              "changeDescription": "Demonstration of shrinkwrap and PDF export.",
+              "timestamp": "00:04:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents the updates and new features for Grease Pencil.",
+            "timestamp": "00:03:48.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of a monkey head with grease pencil drawings",
+            "timestamp": {
+              "end_timestamp": "00:04:23.367",
+              "start_timestamp": "00:03:48.000"
+            }
+          },
+          {
+            "name": "Adobe Acrobat Reader showing a PDF storyboard",
+            "timestamp": {
+              "end_timestamp": "00:04:23.367",
+              "start_timestamp": "00:03:48.000"
+            }
+          }
+        ],
+        "sceneId": 11,
+        "thematicElements": "Innovations in 2D and 3D sketching tools.",
+        "timestamps": {
+          "end_timestamp": "00:04:23.367",
+          "start_timestamp": "00:03:47.867"
+        },
+        "title": "Grease Pencil",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording showcases the automatic proxy building feature in the Video Sequence Editor.",
+            "timestamp": {
+              "end_timestamp": "00:04:30.000",
+              "start_timestamp": "00:04:24.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator explains the Video Sequence Editor feature."
+          }
+        ],
+        "contextualRelevance": "Describes improved editing efficiency in video projects.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the automatic proxy building in Video Sequence Editor.",
+            "timestamp": "00:04:24.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Video editing interface with video clip of the Narrator",
+            "timestamp": {
+              "end_timestamp": "00:04:30.000",
+              "start_timestamp": "00:04:24.000"
+            }
+          }
+        ],
+        "sceneId": 12,
+        "thematicElements": "Enhancements in video editing workflow.",
+        "timestamps": {
+          "end_timestamp": "00:04:30.667",
+          "start_timestamp": "00:04:23.400"
+        },
+        "title": "Video Sequence Editor",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstrates the addition of the Scene Time Node and Color Space Conversion Node to the Compositor.",
+            "timestamp": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:30.700"
+            }
+          },
+          {
+            "description": "Demonstrates Batch Renaming functionality.",
+            "timestamp": {
+              "end_timestamp": "00:04:43.000",
+              "start_timestamp": "00:04:37.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Highlights key additions to compositing and organization in Blender.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains new nodes in the Compositor and Batch Renaming for core elements.",
+            "timestamp": "00:04:30.700"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D scene of a retro TV with a cartoon whale",
+            "timestamp": {
+              "end_timestamp": "00:04:43.000",
+              "start_timestamp": "00:04:30.700"
+            }
+          }
+        ],
+        "sceneId": 13,
+        "thematicElements": "Efficiency improvements in core features.",
+        "timestamps": {
+          "end_timestamp": "00:04:43.667",
+          "start_timestamp": "00:04:30.700"
+        },
+        "title": "Compositor & Core",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording showcases Alembic support for exporting animated vertex colors.",
+            "timestamp": {
+              "end_timestamp": "00:04:51.000",
+              "start_timestamp": "00:04:43.700"
+            }
+          },
+          {
+            "description": "Demonstrates improvements to UDIM for texturing.",
+            "timestamp": {
+              "end_timestamp": "00:05:03.000",
+              "start_timestamp": "00:04:51.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Covers notable updates in handling project files and textures.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral, informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Details improvements in import/export functionalities and UDIM.",
+            "timestamp": "00:04:43.700"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender interface for Import/Export options",
+            "timestamp": {
+              "end_timestamp": "00:05:03.000",
+              "start_timestamp": "00:04:43.700"
+            }
+          }
+        ],
+        "sceneId": 14,
+        "thematicElements": "Enhancements in import/export processes.",
+        "timestamps": {
+          "end_timestamp": "00:05:03.000",
+          "start_timestamp": "00:04:43.700"
+        },
+        "title": "Import/Export",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Screen recording highlights minor UI improvements, Narrator mentions bug fixes and encourages support for Blender.",
+            "timestamp": {
+              "end_timestamp": "00:05:17.000",
+              "start_timestamp": "00:05:03.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator concludes the video and thanks viewers."
+          }
+        ],
+        "contextualRelevance": "Wraps up feature presentations with encouragement for community engagement.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral, informative; Transitions to Grateful (towards Blender developers)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Covers UI improvements and concludes the video.",
+            "timestamp": "00:05:03.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Thumbnail view of various fonts",
+            "timestamp": {
+              "end_timestamp": "00:05:17.000",
+              "start_timestamp": "00:05:03.033"
+            }
+          }
+        ],
+        "sceneId": 15,
+        "thematicElements": "Overall improvements and community support.",
+        "timestamps": {
+          "end_timestamp": "00:05:17.900",
+          "start_timestamp": "00:05:03.033"
+        },
+        "title": "User Interface & Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Geometry Nodes, showcasing the most significant improvements and new additions.",
+        "timestamp": "00:01:13.000"
+      },
+      "description": "All scenes are part of this primary storyline, presenting a comprehensive overview of the performance-enhancing features in Blender 3.1.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "title": "Blender 3.1 New Features (Performance & Speed)",
+    "trimmingSuggestions": [
+      {
+        "description": "Could be shortened by focusing on the key information (macOS 12.3 and compatible graphics cards) without showing the entire release notes document.",
+        "timestamps": {
+          "end_timestamp": "00:05:03.033",
+          "start_timestamp": "00:05:03.033"
+        }
+      },
+      {
+        "description": "Could be condensed by simply mentioning the automatic proxy feature and its efficiency in avoiding unnecessary proxies.",
+        "timestamps": {
+          "end_timestamp": "00:05:03.033",
+          "start_timestamp": "00:05:03.033"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 318,
+  "original_json_filename": "BCi0QRM1ADY.json",
+  "original_video_filename": "BCi0QRM1ADY.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi I'm Southern shoddy and today we're going to be going through the blender 3.1 new features which is all about performance and speed let's get started so we'll be happy to hear that mesh bounding now utilizes multi-threading nerve's accuracy has been improved mesh normals have been refactored and last but not least subdivision surface modifier now benefits from GPU acceleration improving speeds by up to 10 times for this one to work it needs to be the last modifier in the stack Cycles now supports metal GPU for all you Apple users currently this release is only for Apple silicon and AMD graphics cards and needs to be Mac OS 12.3 more performance updates are in the way in future releases Point clouds now support Direction rendering objects as spheres helping reduce memory usage Point clouds can be imported from other software or generated via geometry nodes to create sand water splashes and Motrin graphic Style renderings Ray tracing Precision has been improved specifically in small large and Far Away objects helping eliminate artifacts at the cost of overlapping geometry artifacts becoming worse so be mindful of overlapping geometry in your scenes the asset browser libraries are now indexed to load faster and the image editor can now handle huge huge images something that was a bit laggy in the past this update also helps in preventing tearing artifacts geometry nodes has also seen a host of Speedy updates overall the node editor has seen improvements for calculating large node trees and the node editor can also display no timings now to help identify heavy calculations and slowdowns in the node tree field evaluation has been improved reducing memory usage by up to 100 times improving the performance by three to four times and a number of nodes such as set position realize instances set spline type Cube grid and more have all seen large performance gains of up to four times faster there's a full list of all these improvements Below in the description an awesome new quality of life feature in Geometry nodes is context aware search menu when dragging links it looks inside drop downs for operators like math and can match the relevant socket type even better this has been applied to shaders compositor and texture nodes this update we're getting a lot more control over meshes and geometry nodes with a batch of new nodes including the Dual mesh node which lets you transform faces into vertices and vice versa and extrude mesh node to perform extrusions there's a new primitive mesh called The Arc and there's several new nodes that have been added to provide access to mesh topology information as usual for the last few updates we have a lot of micro updates for geometry nodes as well and some of the highlights are a new scene time node which can be used to replace the hashtag frame driver used in the past a new accumulate field node useful as a building block for more complex setups and building sums of values inside multiple groups a merge by distance node which can be used on point clouds as well as meshes a domain size node to give the size of any attribute domain such as the number of vertices on a mesh instances now support Dynamic properties allowing you to treat instances as if they were real objects and you can convert geometry to an instant with the geometry to instance node there's also an awesome new update for animators and it's this custom action frame rage this allows you to set a frame range for actions and indicate whether it is cyclable or not this Frame range is used when adding the action strip to an nla instead of the actual range of keys in the action the cyclic setting uses the cycle aware keying option to automatically make curves at the right point in time if you remember the blend in neighbor pose mode feature added in 3.0 so you'll be happy to hear that it is now accessible in the graph editor in addition a breakdown operator has been added as well Armature opacity can now be adjusted in wireframe mode helping reduce clutter when working in the viewport the graph editor now has an equalized handle feature allowing you to equalize the easing of all handles at once this is amazing for matching easing across complex graph setups there's also an awesome new add-on called the copy Global transform which makes it possible to copy the world space transform of the active object bone and paste it to another object or bone this is incredibly useful for rigs with ik FK switches or moving between various character rigs Breeze pencil received a cool new modifier and allowing you to shrink wrap your grease pencil objects to meshes this could be used to add simple depth to some of your more complex camera moves additional options have also been added to the line art modifier for the grease pencil you can now invert your selection preserve contour lines through face Mark filtering use back face calling and more The Fill tool now has an option to dilate at a negative value allowing you to offset the filled area and leave a gap for a stylized look new operators have been added including a merge all layers option and a new option to export PDFs to a full scene frame range this would be great for working through storyboards as a team the video sequence editor now supports automatic proxy building but if a video is already small or fast to decode blender won't create unnecessary proxies for it the compositors also received the scene time node and a new color space conversion node allowing you to convert between different color spaces in the compositor batch renaming has received support in the form of renaming collections volumes lights and selected items in the outliner the limit now supports exporting animated vertex colors and override layers use D can now export a preview surface material and the obga export has been Rewritten and is now magnitudes of times faster fbx and other exporters received additional performance improvements as well udem has been improved for texturing with additional tile naming support minor UI improvements have been made including default thumbnail mode when exploring fonts and as usual there are hundreds of bug fixes minor features and improvements which of course can be seen at the link in the description below and if you'd like what you see go support blender and join the Development Fund",
+  "text_to_speech_word_count": 1104,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.133",
+      "start": "00:00:00.000",
+      "text": " Hi, I'm Southern Chaudy and today we're going to be going through the Blender 3.1 new features,"
+    },
+    {
+      "end": "00:00:08.067",
+      "start": "00:00:04.133",
+      "text": " which is all about performance and speed. Let's get started. So, it'll be happy to hear that"
+    },
+    {
+      "end": "00:00:12.633",
+      "start": "00:00:08.067",
+      "text": " mesh bounding now utilizes multi-threading. NERB's accuracy has been improved."
+    },
+    {
+      "end": "00:00:17.033",
+      "start": "00:00:12.633",
+      "text": " Mesh normals have been refactored and last but not least, subdivision surface modifier"
+    },
+    {
+      "end": "00:00:22.467",
+      "start": "00:00:17.033",
+      "text": " now benefits from GPU acceleration. Improving speeds by up to 10 times. For this one to work,"
+    },
+    {
+      "end": "00:00:27.433",
+      "start": "00:00:22.467",
+      "text": " it needs to be the last modifier in the stack. Cycles now supports Metal GPU for all you Apple"
+    },
+    {
+      "end": "00:00:31.833",
+      "start": "00:00:27.433",
+      "text": " users. Currently, this releases only for Apple Silicon and AMD graphics cards,"
+    },
+    {
+      "end": "00:00:37.733",
+      "start": "00:00:31.833",
+      "text": " and needs to be Mac OS 12.3. More performance updates are in the way in future releases."
+    },
+    {
+      "end": "00:00:41.833",
+      "start": "00:00:37.733",
+      "text": " Point clouds now support direction rendering objects as spheres, helping reduce memory usage."
+    },
+    {
+      "end": "00:00:46.133",
+      "start": "00:00:41.833",
+      "text": " Point clouds can be imported from other software or generated via geometry nodes to create sand,"
+    },
+    {
+      "end": "00:00:50.867",
+      "start": "00:00:46.133",
+      "text": " water splashes, and motion graphic style renderings. Ray tracing precision has been improved,"
+    },
+    {
+      "end": "00:00:55.267",
+      "start": "00:00:50.867",
+      "text": " specifically in small, large, and far-away objects helping eliminate artifacts of the cost of"
+    },
+    {
+      "end": "00:01:00.800",
+      "start": "00:00:55.267",
+      "text": " overlapping geometry artifacts becoming worse. So be mindful of overlapping geometry in your scenes."
+    },
+    {
+      "end": "00:01:05.500",
+      "start": "00:01:00.800",
+      "text": " The asset browser libraries are now indexed to load faster, and the image editor can now handle"
+    },
+    {
+      "end": "00:01:12.800",
+      "start": "00:01:07.200",
+      "text": " images. Something that was a bit laggy in the past, this update also helps in preventing tearing artifacts."
+    },
+    {
+      "end": "00:01:17.033",
+      "start": "00:01:12.800",
+      "text": " The geometry nodes has also seen a hostess speedy updates. Overall, the node editor has seen"
+    },
+    {
+      "end": "00:01:21.500",
+      "start": "00:01:17.033",
+      "text": " improvements for calculating large node trees, and the node editor can also display node timings,"
+    },
+    {
+      "end": "00:01:25.267",
+      "start": "00:01:21.500",
+      "text": " now to help identify heavy calculations and slowdowns in the node tree."
+    },
+    {
+      "end": "00:01:29.033",
+      "start": "00:01:25.267",
+      "text": " Field evaluation has been improved for reducing memory usage by up to 100 times,"
+    },
+    {
+      "end": "00:01:33.733",
+      "start": "00:01:29.033",
+      "text": " improving the performance by 3 to 4 times, and a number of nodes such as set position,"
+    },
+    {
+      "end": "00:01:38.867",
+      "start": "00:01:33.733",
+      "text": " realize instances, set spline type, cube, grid, and more have all seen large performance gains"
+    },
+    {
+      "end": "00:01:43.333",
+      "start": "00:01:38.867",
+      "text": " up to 4 times faster. There's a full list of all these improvements below in the description."
+    },
+    {
+      "end": "00:01:48.467",
+      "start": "00:01:43.333",
+      "text": " An awesome new quality of life feature in geometry nodes is context-aware search menu when dragging links."
+    },
+    {
+      "end": "00:01:52.800",
+      "start": "00:01:48.467",
+      "text": " It looks inside drop downs for operators like math and can match the relevant socket type."
+    },
+    {
+      "end": "00:01:57.433",
+      "start": "00:01:52.800",
+      "text": " Even better, this has been applied to shaders, compositor, and texture nodes."
+    },
+    {
+      "end": "00:02:00.933",
+      "start": "00:01:57.433",
+      "text": " This update, we're getting a lot more control over meshes in geometry nodes with the batch of"
+    },
+    {
+      "end": "00:02:06.067",
+      "start": "00:02:00.933",
+      "text": " new nodes, including the dual mesh node, which lets you transform faces into vertices and vice versa,"
+    },
+    {
+      "end": "00:02:10.800",
+      "start": "00:02:06.067",
+      "text": " and extrude mesh node to perform extrusions. There's a new primitive mesh called the arc,"
+    },
+    {
+      "end": "00:02:14.867",
+      "start": "00:02:10.800",
+      "text": " and there's several new nodes that have been added to provide access to mesh topology information."
+    },
+    {
+      "end": "00:02:18.700",
+      "start": "00:02:14.867",
+      "text": " As usual, for the last few updates, we have a lot of micro-updates for geometry nodes as well,"
+    },
+    {
+      "end": "00:02:22.633",
+      "start": "00:02:18.700",
+      "text": " and some of the highlights are a new scene-time node, which can be used to replace the hashtag"
+    },
+    {
+      "end": "00:02:28.300",
+      "start": "00:02:22.633",
+      "text": " frame driver used in the past. A new accumulate field node, useful as a building block for more complex"
+    },
+    {
+      "end": "00:02:33.267",
+      "start": "00:02:28.300",
+      "text": " setups and building sums of values inside multiple groups. A merge by distance node, which can be used"
+    },
+    {
+      "end": "00:02:38.067",
+      "start": "00:02:33.267",
+      "text": " on point clouds as well as meshes, a domain-sized node to give the size of any attribute domain,"
+    },
+    {
+      "end": "00:02:42.633",
+      "start": "00:02:38.067",
+      "text": " such as the number of vertices on a mesh. Instances now support dynamic properties and letting you"
+    },
+    {
+      "end": "00:02:47.733",
+      "start": "00:02:42.767",
+      "text": " to treat instances as if they were real objects, and you can convert geometry to an instant with the"
+    },
+    {
+      "end": "00:02:52.867",
+      "start": "00:02:47.733",
+      "text": " geometry to instance node. There's also an awesome new update for animators, and it's this custom"
+    },
+    {
+      "end": "00:02:57.033",
+      "start": "00:02:52.867",
+      "text": " action frame range. This allows you to set a frame range for actions and indicate whether it is"
+    },
+    {
+      "end": "00:03:02.133",
+      "start": "00:02:57.033",
+      "text": " cycleable or not. This frame range is used when adding the action strip to an NLA instead of the"
+    },
+    {
+      "end": "00:03:07.200",
+      "start": "00:03:02.133",
+      "text": " actual range of keys in the action. This cyclic setting uses the cycle-aware-keying option to"
+    },
+    {
+      "end": "00:03:11.100",
+      "start": "00:03:07.200",
+      "text": " automatically make curves at the right point in time. If you remember the blend-enable"
+    },
+    {
+      "end": "00:03:15.667",
+      "start": "00:03:11.100",
+      "text": " pose mode feature added in 3.0, you'll be happy to hear that it is now accessible in the graph"
+    },
+    {
+      "end": "00:03:20.700",
+      "start": "00:03:15.667",
+      "text": " editor. In addition, a breakdown operator has been added as well. Armature opacity can now be"
+    },
+    {
+      "end": "00:03:24.933",
+      "start": "00:03:20.700",
+      "text": " adjusted in wireframe mode, helping reduce clutter when working in the viewport. The graph editor"
+    },
+    {
+      "end": "00:03:29.600",
+      "start": "00:03:24.933",
+      "text": " now has an equalized handle feature allowing you to equalize the easing of all handles at once."
+    },
+    {
+      "end": "00:03:34.300",
+      "start": "00:03:29.600",
+      "text": " This is amazing for matching easing across complex graph setups. There's also an awesome new"
+    },
+    {
+      "end": "00:03:38.867",
+      "start": "00:03:34.300",
+      "text": " addon called the Copy Global Transform, which makes it possible to copy the world-space transform"
+    },
+    {
+      "end": "00:03:43.600",
+      "start": "00:03:38.867",
+      "text": " of the active object bone and paste it to another object or bone. This is incredibly useful for"
+    },
+    {
+      "end": "00:03:48.933",
+      "start": "00:03:43.600",
+      "text": " rigs with IKFK switches or moving between various character rigs. Rease Pencil received a cool"
+    },
+    {
+      "end": "00:03:54.233",
+      "start": "00:03:48.933",
+      "text": " new modifier and allowing you to shrinkrap your grease pencil objects to meshes. This could be"
+    },
+    {
+      "end": "00:03:58.400",
+      "start": "00:03:54.233",
+      "text": " used to add simple depth to some of your more complex camera moves. Additional options have also"
+    },
+    {
+      "end": "00:04:02.067",
+      "start": "00:03:58.400",
+      "text": " been added to the line art modifier for the grease pencil. You can now invert your selection,"
+    },
+    {
+      "end": "00:04:06.400",
+      "start": "00:04:02.067",
+      "text": " preserve contour lines through face mark filtering, use back face culling, and more. The"
+    },
+    {
+      "end": "00:04:12.467",
+      "start": "00:04:06.400",
+      "text": " fill tool now has an option to dilate at a negative value, allowing you to offset the filled area"
+    },
+    {
+      "end": "00:04:17.333",
+      "start": "00:04:12.467",
+      "text": " and leave a gap for a stylized look. New operatives have been added, including a merge all layers option,"
+    },
+    {
+      "end": "00:04:22.000",
+      "start": "00:04:17.333",
+      "text": " and a new option to export PDFs to a full scene frame range. This would be great for working"
+    },
+    {
+      "end": "00:04:26.000",
+      "start": "00:04:22.000",
+      "text": " through storyboards as a team. The video sequence editor now supports automatic proxy building,"
+    },
+    {
+      "end": "00:04:30.633",
+      "start": "00:04:26.000",
+      "text": " but if a video is already small or fast to decode, Blender won't create unnecessary proxies for it."
+    },
+    {
+      "end": "00:04:34.800",
+      "start": "00:04:30.633",
+      "text": " The compositor has also received the scene time node and a new color space conversion node,"
+    },
+    {
+      "end": "00:04:38.000",
+      "start": "00:04:34.800",
+      "text": " allowing you to convert between different color spaces in the compositor."
+    },
+    {
+      "end": "00:04:41.600",
+      "start": "00:04:38.000",
+      "text": " Batch renaming has received support in the form of renaming collections, volumes,"
+    },
+    {
+      "end": "00:04:46.233",
+      "start": "00:04:41.600",
+      "text": " lights, and selected items in the outliner. Alimic now supports exporting animated vertex colors"
+    },
+    {
+      "end": "00:04:52.300",
+      "start": "00:04:46.233",
+      "text": " and override layers. USD can now export a preview surface material, and the OBGA export has been"
+    },
+    {
+      "end": "00:04:57.900",
+      "start": "00:04:52.300",
+      "text": " rewritten and is now magnitudes of times faster. FBX and other exporters received additional"
+    },
+    {
+      "end": "00:05:02.700",
+      "start": "00:04:57.900",
+      "text": " performance improvements as well. UDIM has been improved for texturing with additional tile naming"
+    },
+    {
+      "end": "00:05:07.033",
+      "start": "00:05:02.700",
+      "text": " support. Minor UI improvements have been made, including default thumbnail mode when exploring"
+    },
+    {
+      "end": "00:05:11.733",
+      "start": "00:05:07.033",
+      "text": " fonts. And as usual, there are hundreds of bug fixes, minor features, and improvements,"
+    },
+    {
+      "end": "00:05:15.333",
+      "start": "00:05:11.733",
+      "text": " which of course can be seen at the link in the description below, and if you like what you see,"
+    },
+    {
+      "end": "00:05:17.733",
+      "start": "00:05:15.333",
+      "text": " go support Blender and join the development fund."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Film & Animation"
+  ],
+  "youtube_channel": "Blender",
+  "youtube_channel_follower_count": 1150000,
+  "youtube_comment_count": 551,
+  "youtube_description": "See what's new and download Blender at https://www.blender.org/download/releases/3-1/ \n\nSupport the future of Blender at: https://fund.blender.org\n\nVideo by @SouthernShotty \n\n--\n\nFollow Blender:\n* Twitter: https://twitter.com/blender\n* Instagram: https://instagram.com/blender.official\n* YouTube: https://youtube.com/BlenderFoundation\n* Facebook: https://facebook.com/YourOwn3DSoftware\n\n--\n\nFollow Blender Development:\n* Blog: https://code.blender.org\n* Twitter: https://twitter.com/BlenderDev",
+  "youtube_like_count": 12072,
+  "youtube_tags": [
+    "blender",
+    "b3d",
+    "blender 3d",
+    "blender foundation",
+    "tutorial",
+    "training",
+    "free",
+    "open source",
+    "animation",
+    "grease pencil",
+    "eevee",
+    "3d",
+    "2d",
+    "Blender 3",
+    "3.0",
+    "3.1"
+  ],
+  "youtube_title": "What's New in Blender 3.1 in Five Minutes",
+  "youtube_upload_date": "20220309",
+  "youtube_view_count": 404275
+}

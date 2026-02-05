@@ -1,0 +1,975 @@
+{
+  "content_fine_category": "Expert Interviews",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young man wearing glasses and a fake, messy black beard and brown hoodie, seated in front of a computer.",
+        "name": "Jack"
+      }
+    ],
+    "description": "A humorous video featuring Jack, a developer, talking about the love-hate relationship with JavaScript.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Four.",
+        "question": "How many production outages were named after Jack?"
+      },
+      {
+        "answer": "It appears to be coffee or tea based on the mug.",
+        "question": "What drink is Jack having?"
+      },
+      {
+        "answer": "He expresses a love-hate relationship, acknowledging its messy and unpredictable nature while also recognizing its dominance and the lack of viable alternatives.",
+        "question": "What is Jack's overall sentiment toward JavaScript?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Speaking about JavaScript.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Reaches out of frame and retrieves a mug.",
+            "timestamp": {
+              "end_timestamp": "00:01:14.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Picks up mug and drinks from it.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Jack"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jack"
+            ],
+            "description": "Jack is the only character, directly addressing the viewer throughout the scene."
+          }
+        ],
+        "contextualRelevance": "Reflects the common experiences and frustrations of JavaScript developers.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Confused, Pensive. The scene shifts between humorous yet contradictory statements about JavaScript and pondering its complexities.",
+          "keyMoments": [
+            {
+              "changeDescription": "Shifts from Confused to Pensive as he describes his job.",
+              "timestamp": "00:00:15.000"
+            },
+            {
+              "changeDescription": "Shifts back to Confused with contradictory 'Nope, Nope' answers.",
+              "timestamp": "00:00:22.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the topic as JavaScript.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Mentions production outages named after him, hinting at the difficulty of working with JavaScript.",
+            "timestamp": "00:00:10.000"
+          },
+          {
+            "description": "Explains his job is to maintain code while others change theirs, adding to the complexity.",
+            "timestamp": "00:00:15.000"
+          },
+          {
+            "description": "Questions and answers about learning JavaScript, highlighting the inevitability of needing to learn it.",
+            "timestamp": "00:00:22.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer monitor displaying code.",
+            "timestamp": {
+              "end_timestamp": "00:05:27.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "White mug.",
+            "timestamp": {
+              "end_timestamp": "00:05:27.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The chaotic and unpredictable nature of JavaScript and the developers' love-hate relationship with it.",
+        "timestamps": {
+          "end_timestamp": "00:05:27.240",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "JavaScript Confessions",
+        "videoEditingDetails": [
+          {
+            "description": "Lower third text overlay appears with Jack's name and title.",
+            "timestamps": {
+              "end_timestamp": "00:00:14.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Lower third text overlay reappears with Jack's name and title.",
+            "timestamps": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:19.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The video is a humorous rant reflecting JavaScript developers' frustrations.",
+        "timestamp": "00:00:52.000"
+      },
+      "description": "This storyline encompasses the entire video, focusing on Jack's mixed feelings about the language and its ecosystem.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "JavaScript: Love-Hate Relationship",
+    "trimmingSuggestions": [
+      {
+        "description": "This segment feels repetitive, reiterating points about JavaScript’s suitability for finance applications.",
+        "timestamps": {
+          "end_timestamp": "00:01:25.000",
+          "start_timestamp": "00:01:19.000"
+        }
+      },
+      {
+        "description": "Condense the discussion about various state management libraries to avoid overwhelming the viewer.",
+        "timestamps": {
+          "end_timestamp": "00:02:26.000",
+          "start_timestamp": "00:02:15.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "News & Politics",
+  "duration_seconds": 328,
+  "original_json_filename": "Uo3cL4nrGOk.json",
+  "original_video_filename": "Uo3cL4nrGOk.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "well that was our tool chain from last week this week is different javascript let me just put this i have a three production already just named after me four my job is to keep our code running while other packages are changing theirs should you learn javascript nope is there any other option no oh look another library was added today to patch the problems of the other 150 that were also released did you know javascript was actually written in seven days such a messy language i love it did you know javascript was actually not written in seven days no one ever knows what value variable is or what its type is now we use typescript we still don't know i'd rather use rust or webassembly they say adoption is coming they said that 10 years ago they say that every year but this year is different is it scalable no is it maintainable no is it portable not really yeah we use react we actually use pre-act we actually use svelter we actually went back to vanilla javascript yeah we're using a library for this that we rewrote to vanilla javascript because it wasn't efficient we're stuck with this messy language now i love it javascript yeah it's the de facto standard do you know there's a library for that i wouldn't trust the let's say finance application with javascript what our finance application does is totally fine to use javascript but i'd recommend using typescript not that we do we had callback hell and then we went to promises await came out went back to promises and now we rewrote everything back to callbacks because it's just more comfortable at least you know it's bad oh it's probably just a quick fix will take me three to five days to find it we tried coffeescript rewrote our codebase try typescript rewrote our codebase and then we went back to vanilla javascript because it's just more comfortable so we rewrote our codebase again yeah we used react and then react 16.8 came out and we had to rewrite everything to hooks react 17 came out we had to rewrite everything again and then react script was updated to version 0.4 and we had to fix everything to work with local images and now react version 18 is coming out we'll rewrite everything again we rewrote our code base around nine times this month yeah you can use redux totally fine but but if you're on it i'd recommend you use redux toolkit but actually it's better to use flux or flumax or flexible actually better to use recall not that we do but now react came out with the hooks and context api which apparently is better than redux apparently we'll rewrite everything again sometimes it just doesn't transpire we usually rewrite our code base now we actually wrote a custom transpirer to transpile transpider it's such a messy language we use it for our website desktop app mobile app for the fridge the tesla is not actually native i mean it is actually native but it's sort of not really native it's sort of hybrid native but some of it is native i mean some people use it in a native way but we don't really use it in a native way technically a lot of people are switching back to native no one has switched yet angular talk to me when you use angular 2 or react npm is such a bad package manager no one uses that anymore npm is such a good package manager how many languages have one so that major version breaks our code but our code breaks the minor version i still don't know how to fix pure dependencies until this day yarn bpnpn turbo would make sense right javascript doesn't think so jquery what are you five we use jj query global variables no one uses them it must be somewhere in the window how do you debug node apps you don't you just write good code but not in javascript no one ever masters javascript i get a hundred thousand points in stack overflow i'm still a noob node is technically multi-threaded javascript is technically performant our code is never safe when they'll blow up probably won't work anymore probably will be using rust or webassembly or whatever j s an array is technically just an object object or object null is technically not an object but objects can be known so they technically can be non-object unless they're an object right so technically null is an object yes it's a bit hacky i admit but javascript is by design is it easy to learn have you tried javascript probably will be a bit hacky have you used javascript before i don't recommend i don't like our tool chain documentation and another advantage is that it's free so was java before it was bought by oracle so we prepare ourselves by installing modules from npm then we compile it to typescript then we use a term spyler called bubble to transpile it to es5 load it with system.js file for bankruptcy bundle it all up with webpack use it in a framework like react and let the state be managed by redux or flux flummox or flexible or recoil or whatever js and voila all of this just to avoid using jquery or in our case jj query but that'll be probably less performant as most of the things this isn't our production code it will be tomorrow though probably gonna get fired again i mean there's really no alternative to javascript right now de facto no one really knows what the value is until we get an error i love it well try writing anything without javascript nowadays javascript i love it no i don't recommend it",
+  "text_to_speech_word_count": 981,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.720",
+      "start": "00:00:00.000",
+      "text": " Well that was a tool chain from last week. This week is different."
+    },
+    {
+      "end": "00:00:04.960",
+      "start": "00:00:03.720",
+      "text": " Java script."
+    },
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:09.200",
+      "text": " I have a three production audits just named after me."
+    },
+    {
+      "end": "00:00:17.840",
+      "start": "00:00:14.400",
+      "text": " Four. My job is to keep our code running"
+    },
+    {
+      "end": "00:00:21.600",
+      "start": "00:00:18.680",
+      "text": " while other packages are changing theirs."
+    },
+    {
+      "end": "00:00:23.120",
+      "start": "00:00:21.600",
+      "text": " Should you learn JavaScript?"
+    },
+    {
+      "end": "00:00:24.840",
+      "start": "00:00:23.120",
+      "text": " Nope. Is there any other option?"
+    },
+    {
+      "end": "00:00:25.960",
+      "start": "00:00:24.840",
+      "text": " Nope. Oh look."
+    },
+    {
+      "end": "00:00:27.600",
+      "start": "00:00:25.960",
+      "text": " Another library was added today."
+    },
+    {
+      "end": "00:00:30.800",
+      "start": "00:00:27.600",
+      "text": " The patch, the problems of the other 150 that were also released."
+    },
+    {
+      "end": "00:00:33.320",
+      "start": "00:00:30.800",
+      "text": " Did you know JavaScript was actually written in seven days?"
+    },
+    {
+      "end": "00:00:34.400",
+      "start": "00:00:33.320",
+      "text": " Such a messy language."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:34.400",
+      "text": " I love it."
+    },
+    {
+      "end": "00:00:38.080",
+      "start": "00:00:35.000",
+      "text": " Did you know JavaScript was actually not written in seven days?"
+    },
+    {
+      "end": "00:00:41.720",
+      "start": "00:00:38.080",
+      "text": " No one ever knows what value variable is or what it's type is."
+    },
+    {
+      "end": "00:00:43.880",
+      "start": "00:00:41.720",
+      "text": " Now we use TypeScript. We still don't know."
+    },
+    {
+      "end": "00:00:45.880",
+      "start": "00:00:43.880",
+      "text": " I'd rather use Rust or WebAssembly."
+    },
+    {
+      "end": "00:00:47.320",
+      "start": "00:00:45.880",
+      "text": " They say adoption has come in."
+    },
+    {
+      "end": "00:00:49.000",
+      "start": "00:00:47.840",
+      "text": " They said that 10 years ago."
+    },
+    {
+      "end": "00:00:51.200",
+      "start": "00:00:49.000",
+      "text": " They say that every year, but this year is different."
+    },
+    {
+      "end": "00:00:52.720",
+      "start": "00:00:51.200",
+      "text": " Is it scalable? No."
+    },
+    {
+      "end": "00:00:54.080",
+      "start": "00:00:52.720",
+      "text": " Is it maintainable? No."
+    },
+    {
+      "end": "00:00:55.080",
+      "start": "00:00:54.080",
+      "text": " Is it portable?"
+    },
+    {
+      "end": "00:00:56.360",
+      "start": "00:00:55.680",
+      "text": " Not really."
+    },
+    {
+      "end": "00:00:57.320",
+      "start": "00:00:56.360",
+      "text": " Yeah, we used React."
+    },
+    {
+      "end": "00:00:58.640",
+      "start": "00:00:57.320",
+      "text": " Or we actually used Pre-Act."
+    },
+    {
+      "end": "00:00:59.960",
+      "start": "00:00:58.640",
+      "text": " We actually used Svelta."
+    },
+    {
+      "end": "00:01:02.720",
+      "start": "00:00:59.960",
+      "text": " We actually went back to Vanilla JavaScript."
+    },
+    {
+      "end": "00:01:04.000",
+      "start": "00:01:02.720",
+      "text": " Yeah, we're using a library for this."
+    },
+    {
+      "end": "00:01:07.360",
+      "start": "00:01:04.000",
+      "text": " Well, that we rewrote to Vanilla JavaScript because it wasn't efficient."
+    },
+    {
+      "end": "00:01:09.160",
+      "start": "00:01:07.360",
+      "text": " We stuck with this messy language now."
+    },
+    {
+      "end": "00:01:11.920",
+      "start": "00:01:10.120",
+      "text": " I love it. JavaScript."
+    },
+    {
+      "end": "00:01:13.680",
+      "start": "00:01:11.920",
+      "text": " Yeah, it's the defect of standard."
+    },
+    {
+      "end": "00:01:15.200",
+      "start": "00:01:13.680",
+      "text": " Do you know there's a library for that?"
+    },
+    {
+      "end": "00:01:16.840",
+      "start": "00:01:15.200",
+      "text": " I wouldn't trust the, let's say,"
+    },
+    {
+      "end": "00:01:18.760",
+      "start": "00:01:16.840",
+      "text": " finance application with JavaScript."
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:18.760",
+      "text": " What our finance application does is,"
+    },
+    {
+      "end": "00:01:23.120",
+      "start": "00:01:21.000",
+      "text": " yeah, it's only fine to use JavaScript,"
+    },
+    {
+      "end": "00:01:25.040",
+      "start": "00:01:23.120",
+      "text": " but I'd recommend using TypeScript."
+    },
+    {
+      "end": "00:01:25.880",
+      "start": "00:01:25.040",
+      "text": " Not that we do."
+    },
+    {
+      "end": "00:01:27.720",
+      "start": "00:01:25.880",
+      "text": " We had callback hell."
+    },
+    {
+      "end": "00:01:29.560",
+      "start": "00:01:27.720",
+      "text": " And then we went to promises."
+    },
+    {
+      "end": "00:01:31.760",
+      "start": "00:01:29.560",
+      "text": " A wait came out, went back to promises."
+    },
+    {
+      "end": "00:01:33.800",
+      "start": "00:01:31.760",
+      "text": " Now we rewrote everything back to callbacks"
+    },
+    {
+      "end": "00:01:35.160",
+      "start": "00:01:33.800",
+      "text": " because it's just more comfortable."
+    },
+    {
+      "end": "00:01:37.640",
+      "start": "00:01:36.360",
+      "text": " At least you know it's bad."
+    },
+    {
+      "end": "00:01:39.440",
+      "start": "00:01:37.640",
+      "text": " Oh, it's probably just a quick fix."
+    },
+    {
+      "end": "00:01:42.000",
+      "start": "00:01:39.440",
+      "text": " We'll take me three to five days to find it."
+    },
+    {
+      "end": "00:01:44.720",
+      "start": "00:01:42.000",
+      "text": " We tried CoffeeScript, rewrote our code base,"
+    },
+    {
+      "end": "00:01:46.880",
+      "start": "00:01:44.720",
+      "text": " try TypeScript, rewrote our code base,"
+    },
+    {
+      "end": "00:01:48.880",
+      "start": "00:01:46.880",
+      "text": " and then we went back to Vanilla JavaScript"
+    },
+    {
+      "end": "00:01:50.040",
+      "start": "00:01:48.880",
+      "text": " because it's just more comfortable."
+    },
+    {
+      "end": "00:01:52.000",
+      "start": "00:01:50.040",
+      "text": " So we rewrote our code base again."
+    },
+    {
+      "end": "00:01:55.400",
+      "start": "00:01:52.000",
+      "text": " Yeah, we used React and then React 16.8 came out"
+    },
+    {
+      "end": "00:01:57.360",
+      "start": "00:01:55.400",
+      "text": " and we had to rewrite everything to hooks."
+    },
+    {
+      "end": "00:02:00.360",
+      "start": "00:01:57.360",
+      "text": " React 17 came out, we had to rewrite everything again."
+    },
+    {
+      "end": "00:02:03.320",
+      "start": "00:02:00.360",
+      "text": " And then ReactScript was updated to version 4"
+    },
+    {
+      "end": "00:02:07.560",
+      "start": "00:02:03.320",
+      "text": " and we had to fix everything to work local images."
+    },
+    {
+      "end": "00:02:10.080",
+      "start": "00:02:07.560",
+      "text": " And now React version 18 is coming out."
+    },
+    {
+      "end": "00:02:11.400",
+      "start": "00:02:10.080",
+      "text": " We'll rewrite everything again."
+    },
+    {
+      "end": "00:02:15.200",
+      "start": "00:02:11.400",
+      "text": " We rewrote our code base around nine times this month."
+    },
+    {
+      "end": "00:02:17.200",
+      "start": "00:02:15.200",
+      "text": " Yeah, you can use React solely fine."
+    },
+    {
+      "end": "00:02:19.080",
+      "start": "00:02:17.200",
+      "text": " But what if you're on it, I'd recommend you use"
+    },
+    {
+      "end": "00:02:21.760",
+      "start": "00:02:19.080",
+      "text": " React's toolkit, but actually it's better to use flux"
+    },
+    {
+      "end": "00:02:23.480",
+      "start": "00:02:21.760",
+      "text": " or flumuck or fluxable."
+    },
+    {
+      "end": "00:02:26.160",
+      "start": "00:02:23.440",
+      "text": " Actually, better to use recall, not that we do."
+    },
+    {
+      "end": "00:02:29.160",
+      "start": "00:02:26.160",
+      "text": " But now React came out with the hooks and contacts API,"
+    },
+    {
+      "end": "00:02:30.920",
+      "start": "00:02:29.160",
+      "text": " which apparently is better than Redux."
+    },
+    {
+      "end": "00:02:32.920",
+      "start": "00:02:30.920",
+      "text": " Apparently, we'll rewrite everything again."
+    },
+    {
+      "end": "00:02:34.560",
+      "start": "00:02:32.920",
+      "text": " Sometimes it just doesn't transpire."
+    },
+    {
+      "end": "00:02:36.800",
+      "start": "00:02:34.560",
+      "text": " We usually rewrite our code base then."
+    },
+    {
+      "end": "00:02:39.120",
+      "start": "00:02:36.800",
+      "text": " We actually wrote a custom transpider"
+    },
+    {
+      "end": "00:02:41.160",
+      "start": "00:02:39.120",
+      "text": " to transpire transpider."
+    },
+    {
+      "end": "00:02:42.440",
+      "start": "00:02:41.160",
+      "text": " It's such a messy language."
+    },
+    {
+      "end": "00:02:46.080",
+      "start": "00:02:42.440",
+      "text": " We use it for our website, desktop app, mobile app,"
+    },
+    {
+      "end": "00:02:47.760",
+      "start": "00:02:46.080",
+      "text": " for the fridge, the Tesla."
+    },
+    {
+      "end": "00:02:48.920",
+      "start": "00:02:47.760",
+      "text": " It's not actually native."
+    },
+    {
+      "end": "00:02:50.520",
+      "start": "00:02:48.920",
+      "text": " I mean, it is actually native,"
+    },
+    {
+      "end": "00:02:52.880",
+      "start": "00:02:50.520",
+      "text": " but it's sort of not really native."
+    },
+    {
+      "end": "00:02:54.160",
+      "start": "00:02:52.880",
+      "text": " It's sort of hybrid native."
+    },
+    {
+      "end": "00:02:55.320",
+      "start": "00:02:54.160",
+      "text": " But some of it is native."
+    },
+    {
+      "end": "00:02:58.600",
+      "start": "00:02:55.320",
+      "text": " I mean, some people use it in a native way,"
+    },
+    {
+      "end": "00:03:01.280",
+      "start": "00:02:58.600",
+      "text": " but we don't really use it in a native way, technically."
+    },
+    {
+      "end": "00:03:02.800",
+      "start": "00:03:01.280",
+      "text": " A lot of people are switching back to native."
+    },
+    {
+      "end": "00:03:03.880",
+      "start": "00:03:02.800",
+      "text": " No one has switched yet."
+    },
+    {
+      "end": "00:03:06.800",
+      "start": "00:03:03.880",
+      "text": " Angular, talk to me when you use Angular too."
+    },
+    {
+      "end": "00:03:07.760",
+      "start": "00:03:06.800",
+      "text": " Or React."
+    },
+    {
+      "end": "00:03:10.280",
+      "start": "00:03:07.760",
+      "text": " NPM is such a bad package manager."
+    },
+    {
+      "end": "00:03:11.520",
+      "start": "00:03:10.280",
+      "text": " No one uses that anymore."
+    },
+    {
+      "end": "00:03:13.280",
+      "start": "00:03:11.520",
+      "text": " NPM is such a good package manager."
+    },
+    {
+      "end": "00:03:14.520",
+      "start": "00:03:13.280",
+      "text": " How many languages have one?"
+    },
+    {
+      "end": "00:03:16.640",
+      "start": "00:03:14.520",
+      "text": " So that major version breaks our code,"
+    },
+    {
+      "end": "00:03:18.720",
+      "start": "00:03:16.640",
+      "text": " but our code breaks the minor version."
+    },
+    {
+      "end": "00:03:20.840",
+      "start": "00:03:18.720",
+      "text": " I still don't know how to fix pure dependencies"
+    },
+    {
+      "end": "00:03:21.880",
+      "start": "00:03:20.840",
+      "text": " until this day."
+    },
+    {
+      "end": "00:03:23.960",
+      "start": "00:03:23.120",
+      "text": " Yarn."
+    },
+    {
+      "end": "00:03:26.640",
+      "start": "00:03:23.960",
+      "text": " The PNPM Turbo would make sense, right?"
+    },
+    {
+      "end": "00:03:28.080",
+      "start": "00:03:26.640",
+      "text": " JavaScript doesn't think so."
+    },
+    {
+      "end": "00:03:30.200",
+      "start": "00:03:28.080",
+      "text": " Jake query, what are you five?"
+    },
+    {
+      "end": "00:03:32.280",
+      "start": "00:03:31.120",
+      "text": " We use jj query."
+    },
+    {
+      "end": "00:03:34.960",
+      "start": "00:03:32.280",
+      "text": " Global variables, no one uses them."
+    },
+    {
+      "end": "00:03:37.200",
+      "start": "00:03:34.960",
+      "text": " It must be somewhere in the window."
+    },
+    {
+      "end": "00:03:38.480",
+      "start": "00:03:37.200",
+      "text": " How do you debug node apps?"
+    },
+    {
+      "end": "00:03:39.320",
+      "start": "00:03:38.480",
+      "text": " You don't."
+    },
+    {
+      "end": "00:03:40.240",
+      "start": "00:03:39.320",
+      "text": " You just write good code."
+    },
+    {
+      "end": "00:03:41.160",
+      "start": "00:03:40.240",
+      "text": " We're not in JavaScript."
+    },
+    {
+      "end": "00:03:43.160",
+      "start": "00:03:41.160",
+      "text": " No one ever masters JavaScript."
+    },
+    {
+      "end": "00:03:45.760",
+      "start": "00:03:43.160",
+      "text": " I get a hundred thousand points in Stack Overflow."
+    },
+    {
+      "end": "00:03:46.640",
+      "start": "00:03:45.760",
+      "text": " I'm still in noob."
+    },
+    {
+      "end": "00:03:48.920",
+      "start": "00:03:46.640",
+      "text": " Node is technically multi-threaded."
+    },
+    {
+      "end": "00:03:51.200",
+      "start": "00:03:48.920",
+      "text": " JavaScript is technically performance."
+    },
+    {
+      "end": "00:03:53.520",
+      "start": "00:03:51.200",
+      "text": " Our code is never safe."
+    },
+    {
+      "end": "00:03:55.720",
+      "start": "00:03:53.520",
+      "text": " When they'll blow up, probably won't work anymore."
+    },
+    {
+      "end": "00:03:59.080",
+      "start": "00:03:55.720",
+      "text": " Probably we'll be using Rust or WebAssembly or whatever."
+    },
+    {
+      "end": "00:03:59.920",
+      "start": "00:03:59.080",
+      "text": " JS."
+    },
+    {
+      "end": "00:04:01.800",
+      "start": "00:03:59.920",
+      "text": " And erase technically just an object."
+    },
+    {
+      "end": "00:04:03.040",
+      "start": "00:04:01.800",
+      "text": " Object are objects."
+    },
+    {
+      "end": "00:04:06.640",
+      "start": "00:04:03.040",
+      "text": " Node is technically not an object, but objects can be null."
+    },
+    {
+      "end": "00:04:10.600",
+      "start": "00:04:06.640",
+      "text": " So they technically can be non-objects,"
+    },
+    {
+      "end": "00:04:12.160",
+      "start": "00:04:10.600",
+      "text": " unless they're an object, right?"
+    },
+    {
+      "end": "00:04:14.200",
+      "start": "00:04:12.160",
+      "text": " So technically, null is an object."
+    },
+    {
+      "end": "00:04:15.240",
+      "start": "00:04:14.200",
+      "text": " Yes."
+    },
+    {
+      "end": "00:04:17.360",
+      "start": "00:04:15.280",
+      "text": " It's a bit hacky, I admit."
+    },
+    {
+      "end": "00:04:19.160",
+      "start": "00:04:17.360",
+      "text": " But JavaScript is, by design."
+    },
+    {
+      "end": "00:04:20.320",
+      "start": "00:04:19.160",
+      "text": " Is it easy to learn?"
+    },
+    {
+      "end": "00:04:23.480",
+      "start": "00:04:22.320",
+      "text": " Have you tried JavaScript?"
+    },
+    {
+      "end": "00:04:25.240",
+      "start": "00:04:23.480",
+      "text": " Probably will be a bit hacky."
+    },
+    {
+      "end": "00:04:26.720",
+      "start": "00:04:25.240",
+      "text": " Have you used JavaScript before?"
+    },
+    {
+      "end": "00:04:27.640",
+      "start": "00:04:26.720",
+      "text": " I don't recommend."
+    },
+    {
+      "end": "00:04:29.240",
+      "start": "00:04:27.640",
+      "text": " I don't like our tool chain."
+    },
+    {
+      "end": "00:04:30.640",
+      "start": "00:04:29.240",
+      "text": " Documentation."
+    },
+    {
+      "end": "00:04:32.520",
+      "start": "00:04:30.640",
+      "text": " And another advantage is that it's free."
+    },
+    {
+      "end": "00:04:34.800",
+      "start": "00:04:32.520",
+      "text": " So it was Java before it was bought by Oracle."
+    },
+    {
+      "end": "00:04:38.920",
+      "start": "00:04:35.920",
+      "text": " So we prepare ourselves by installing modules from NPM."
+    },
+    {
+      "end": "00:04:40.840",
+      "start": "00:04:38.920",
+      "text": " Then we compile it to TypeScript."
+    },
+    {
+      "end": "00:04:43.160",
+      "start": "00:04:40.840",
+      "text": " Then we use a transpiler called bubble"
+    },
+    {
+      "end": "00:04:45.120",
+      "start": "00:04:43.160",
+      "text": " to transpile it to ES5."
+    },
+    {
+      "end": "00:04:48.080",
+      "start": "00:04:45.120",
+      "text": " Loaded with system.js, file for bankruptcy,"
+    },
+    {
+      "end": "00:04:51.720",
+      "start": "00:04:48.080",
+      "text": " bundle it all up with WebPec, use it in a framework like React,"
+    },
+    {
+      "end": "00:04:55.480",
+      "start": "00:04:51.720",
+      "text": " and let the state be managed by Redux or Flux Flamux,"
+    },
+    {
+      "end": "00:04:58.120",
+      "start": "00:04:55.480",
+      "text": " or flexible, or recoil, or whatever."
+    },
+    {
+      "end": "00:04:58.920",
+      "start": "00:04:58.120",
+      "text": " JS."
+    },
+    {
+      "end": "00:05:02.720",
+      "start": "00:04:58.920",
+      "text": " And voila, all of this just to avoid using JQuery,"
+    },
+    {
+      "end": "00:05:04.360",
+      "start": "00:05:02.720",
+      "text": " or in our case, JJQuery."
+    },
+    {
+      "end": "00:05:07.880",
+      "start": "00:05:04.360",
+      "text": " But there'll be probably less performance as most of the things."
+    },
+    {
+      "end": "00:05:09.360",
+      "start": "00:05:07.880",
+      "text": " This is not a production code."
+    },
+    {
+      "end": "00:05:10.520",
+      "start": "00:05:09.360",
+      "text": " It will be tomorrow though."
+    },
+    {
+      "end": "00:05:13.080",
+      "start": "00:05:10.520",
+      "text": " Probably gonna get fired again."
+    },
+    {
+      "end": "00:05:15.680",
+      "start": "00:05:13.080",
+      "text": " I mean, there is really no alternative to JavaScript right now."
+    },
+    {
+      "end": "00:05:16.520",
+      "start": "00:05:15.680",
+      "text": " Defected."
+    },
+    {
+      "end": "00:05:19.800",
+      "start": "00:05:16.520",
+      "text": " No one really knows what the value is until we get an error."
+    },
+    {
+      "end": "00:05:20.640",
+      "start": "00:05:19.800",
+      "text": " I love it."
+    },
+    {
+      "end": "00:05:23.320",
+      "start": "00:05:20.640",
+      "text": " Well, try writing anything without JavaScript nowadays."
+    },
+    {
+      "end": "00:05:24.320",
+      "start": "00:05:23.320",
+      "text": " JavaScript."
+    },
+    {
+      "end": "00:05:26.000",
+      "start": "00:05:24.320",
+      "text": " I love it."
+    },
+    {
+      "end": "00:05:27.320",
+      "start": "00:05:26.000",
+      "text": " No, I don't recommend it."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Howto & Style"
+  ],
+  "youtube_channel": "Programmers are also human",
+  "youtube_channel_follower_count": 191000,
+  "youtube_comment_count": 2200,
+  "youtube_description": "👔 Merch drop 2023: https://posix.store\n\nJavascript programming language\n\nInterview with a Javascript developer with Jack Borrough - aired on © The Javascript.\nFind more Javascript opinions under:\nhttps://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f\n\nProgrammer humor\nJavascript humor\nProgramming jokes\nProgramming memes\nJavascript\nJs memes\njs jokes\ncallbacks\nasync await\npromises\nreact\ntypescript\ncoffescript\nwebassembly\n\n#programming\n#jokes\n#javascript",
+  "youtube_like_count": 68568,
+  "youtube_tags": [
+    "javascript jokes",
+    "programming memes",
+    "js jokes",
+    "web programming",
+    "programming humor",
+    "js humor"
+  ],
+  "youtube_title": "Interview with Senior JS Developer",
+  "youtube_upload_date": "20220131",
+  "youtube_view_count": 2001401
+}

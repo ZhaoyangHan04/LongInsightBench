@@ -1,0 +1,686 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [],
+    "description": "An educational video presentation explaining the Biot-Savart Law using text, diagrams, and narration.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The three factors are the amount of current, the distance from the current, and the geometry of the wire.",
+        "question": "What three factors affect the strength of the magnetic field created by an electric current?"
+      },
+      {
+        "answer": "The symbol is μ₀ (mu naught), and its name is the 'permeability of free space.'",
+        "question": "What is the symbol and name of the magnetic constant in the Biot-Savart Equation?"
+      },
+      {
+        "answer": "'r-hat' represents the radial direction from a line segment on the wire to the point in space where the magnetic field is being calculated. In the diagram, it is depicted by purple arrows.",
+        "question": "What does 'r-hat' represent in the Biot-Savart Equation, and how is it visually depicted in the diagram?"
+      },
+      {
+        "answer": "The integral symbol indicates that we need to 'sum up' the contributions to the magnetic field from every tiny line segment along the current-carrying wire.",
+        "question": "How does the integral in the Biot-Savart Equation relate to the concept of summing contributions from different line segments?"
+      },
+      {
+        "answer": "The final units are Tesla (T), which is the standard unit for measuring magnetic field strength.",
+        "question": "Based on the unit analysis, what are the final units of the magnetic field calculated using the Biot-Savart Law?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Title card displayed 'Biot-Savart Law'.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.733",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene sets the premise of the video, introducing the Biot-Savart Law as the central topic.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the topic of the presentation.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Introduction to Biot-Savart Law",
+        "timestamps": {
+          "end_timestamp": "00:00:05.733",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Title",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Display of two bullet points about the source of magnetic fields.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Sets the foundational understanding needed before delving deeper into the Biot-Savart Law.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Provides context and background for the Biot-Savart Law.",
+            "timestamp": "00:00:06.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Magnetic field and its source",
+        "timestamps": {
+          "end_timestamp": "00:00:35.533",
+          "start_timestamp": "00:00:05.767"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Display and explanation of the Biot-Savart Equation.",
+            "timestamp": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:00:35.567"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Presents the core equation essential to understanding the law's application.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral - Confused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the mathematical formulation of the Biot-Savart Law.",
+            "timestamp": "00:00:35.567"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Mathematical expression of the Biot-Savart Law",
+        "timestamps": {
+          "end_timestamp": "00:01:13.400",
+          "start_timestamp": "00:00:35.567"
+        },
+        "title": "Biot-Savart Equation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Explanation of the magnetic constant μ₀.",
+            "timestamp": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:13.433"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Detailing the role and properties of μ₀ enriches understanding of the equation's components.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Elaborates on the 'Magnetic Constant' component from the previous scene.",
+            "timestamp": "00:01:13.433"
+          }
+        ],
+        "props": [],
+        "sceneId": 4,
+        "thematicElements": "Explains the magnetic constant μ₀",
+        "timestamps": {
+          "end_timestamp": "00:02:02.200",
+          "start_timestamp": "00:01:13.433"
+        },
+        "title": "Magnetic Constant",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Explanation of the Biot-Savart Equation using a diagram.",
+            "timestamp": {
+              "end_timestamp": "00:04:31.000",
+              "start_timestamp": "00:02:02.233"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Transforms abstract concepts into tangible understanding using diagrams.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Provides a visual and conceptual explanation of the equation.",
+            "timestamp": "00:02:02.233"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Visual representation of the equation",
+        "timestamps": {
+          "end_timestamp": "00:04:32.267",
+          "start_timestamp": "00:02:02.233"
+        },
+        "title": "Diagram Explanation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Analysis of the units in the Biot-Savart Equation.",
+            "timestamp": {
+              "end_timestamp": "00:05:43.000",
+              "start_timestamp": "00:04:32.300"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Ensures viewers can verify the equation's outcome using unit analysis.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Confirms the consistency of the equation's units.",
+            "timestamp": "00:04:32.300"
+          }
+        ],
+        "props": [],
+        "sceneId": 6,
+        "thematicElements": "Contextualizes equation components to their respective units",
+        "timestamps": {
+          "end_timestamp": "00:05:43.900",
+          "start_timestamp": "00:04:32.300"
+        },
+        "title": "Units Analysis",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Displays 'The End' and acknowledges funding support.",
+            "timestamp": {
+              "end_timestamp": "00:05:52.000",
+              "start_timestamp": "00:05:43.933"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Finalizes the presentation and acknowledges contributions.",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral - Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Marks the end of the video.",
+            "timestamp": "00:05:43.933"
+          }
+        ],
+        "props": [],
+        "sceneId": 7,
+        "thematicElements": "Concludes the educational presentation",
+        "timestamps": {
+          "end_timestamp": "00:05:52.300",
+          "start_timestamp": "00:05:43.933"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Diagram Explanation - where abstract equation becomes tangible with diagrams.",
+        "timestamp": "00:02:02.000"
+      },
+      "description": "The video is non-narrative and educational, focusing on the Biot-Savart Law, its equation, and applications.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Biot Savart Law Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "The 'Title' scene could be shortened to a few seconds for faster pacing.",
+        "timestamps": {
+          "end_timestamp": "00:05:43.933",
+          "start_timestamp": "00:05:43.933"
+        }
+      },
+      {
+        "description": "The 'Magnetic Constant' scene could be integrated into the 'Biot-Savart Equation' scene to streamline the explanation.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 352,
+  "original_json_filename": "1BoIH6Quhiw.json",
+  "original_video_filename": "1BoIH6Quhiw.mp4",
+  "resolution": "484x360",
+  "text_to_speech": "now we look at the bio sart law now bio and sart were two scientists who were looking at the source of the magnetic field and experiments showed that electric currents can create magnetic fields but it depended on a few things it depended on how much current you had depended on how far away you were from that current and it also depended on other geometry factors now the bios of art equation is kind of complicated so let's take a few minutes here to sort of break this down first off we have the current I we know that the magnetic field from a current has to depend on how much current we have so that's our I in the equation all of this stuff over here with the integral well that describes our geometry and our distance and this little guy over here is our magnetic constant let's look at that a little bit more closely so this magnetic constant well it's given this symbol here and that's actually the Greek letter mu with a subscript of zero so that's a mu knot and its name is the permeability of free space as a value this is a constant 4 piun * 10us 7th Tesla meter per amp you could also multiply that 4 Pi out and you could write M as 1.25 7 e- 6 Tesla meter per amp now you remember we had an Epsilon knot back from electrostatics which was the permitivity of free space and Epsilon KN and mu together are related to the speed of light so now back to our equation and let's focus in now on the side where we're talking about geometry and distance to help explain this a little bit clearer let's actually give ourselves a diagram so imagine you've got some wire it could be curvy it could be straight whatever out in space and we want to find the magnetic field at some other point in space separated from that wire well the DS part of our integral over here stands for a line segment and we're going to have little line segments all up and down this wire and notice that each one of these little line segments is the same length but they could point in different directions now the r here on the bottom represents the distance and it's specifically the distance from a line segment to the point p in space and again each different little line segment may have a different distance from that segment to our point in Space the r Hat part here is a radial Direction and the hat lets us know that it's a unit Vector so it points in the same direction as this radial distance but it's only indicating the direction it doesn't go all the way there and again each point along our line may have a different R hat radial Direction being shown now the top part of this integral here is a cross product and it's the cross product between these two vectors for the line segment and the radial distance so when you take that cross product that also helps determine the direction of the magnetic field field we can do that for each individual segment but the integral tells us that what we really want to do is we want to sum up the contributions over all of those different L line segments and that will give us the overall magnetic field at our Point P out in space so while the equation itself is a little bit complicated it helps to break it down into things that we can understand from a picture of geometry now let's take a look at the equation from the standpoint of units well we said our mu KN had a constants of Tesla meter per amp current we know has units of amps 4 Pi doesn't have any units the DS part of our integral has units of meters while the r squared part has meter squared and my R hat you might think it's meters but it's a unit Vector so again no units there so once we've collected all these together what we see is that we have an amp on the bottom and the top of the equation which are going to cancel each other out and then I've got two meters on the top and a meter squared on the bottom which will also cancel each other out so everything from my right hand side all I've got left is Tesla which is the unit I expect for the magnetic field so every time we've got a current carrying wire we're going to end up having something of this form which ends up having a units of Tesla so that's the end of our introduction to the bios of art law",
+  "text_to_speech_word_count": 812,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.000",
+      "start": "00:00:00.000",
+      "text": " Now we look at the Biosavart law."
+    },
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:05.000",
+      "text": " A bio and Savart were two scientists who were looking at the source of the magnetic field."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:12.000",
+      "text": " And experiments showed that electric currents can create magnetic fields."
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:19.000",
+      "text": " But it depended on a few things."
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:22.000",
+      "text": " It depended on how much current you had."
+    },
+    {
+      "end": "00:00:31.000",
+      "start": "00:00:26.000",
+      "text": " It depended on how far away you were from that current."
+    },
+    {
+      "end": "00:00:36.000",
+      "start": "00:00:31.000",
+      "text": " And it also depended on other geometry factors."
+    },
+    {
+      "end": "00:00:41.000",
+      "start": "00:00:36.000",
+      "text": " Now the Biosavart equation is kind of complicated."
+    },
+    {
+      "end": "00:00:45.000",
+      "start": "00:00:41.000",
+      "text": " So let's take a few minutes here to sort of break this down."
+    },
+    {
+      "end": "00:00:48.000",
+      "start": "00:00:45.000",
+      "text": " First off, we have the current i."
+    },
+    {
+      "end": "00:00:54.000",
+      "start": "00:00:48.000",
+      "text": " We know that the magnetic field from a current has to depend on how much current we have."
+    },
+    {
+      "end": "00:00:57.000",
+      "start": "00:00:54.000",
+      "text": " So that's our i in the equation."
+    },
+    {
+      "end": "00:01:01.000",
+      "start": "00:00:57.000",
+      "text": " All of this stuff over here with the integral,"
+    },
+    {
+      "end": "00:01:06.000",
+      "start": "00:01:01.000",
+      "text": " well that describes our geometry and our distance."
+    },
+    {
+      "end": "00:01:11.000",
+      "start": "00:01:06.000",
+      "text": " And this little guy over here is our magnetic constant."
+    },
+    {
+      "end": "00:01:14.000",
+      "start": "00:01:11.000",
+      "text": " Let's look at that a little bit more closely."
+    },
+    {
+      "end": "00:01:18.000",
+      "start": "00:01:14.000",
+      "text": " So this magnetic constant, well it's given this symbol here."
+    },
+    {
+      "end": "00:01:23.000",
+      "start": "00:01:18.000",
+      "text": " And that's actually the Greek letter mu with a subscript of zero."
+    },
+    {
+      "end": "00:01:25.000",
+      "start": "00:01:23.000",
+      "text": " So that's a mu naught."
+    },
+    {
+      "end": "00:01:31.000",
+      "start": "00:01:25.000",
+      "text": " And its name is the permeability of free space."
+    },
+    {
+      "end": "00:01:38.000",
+      "start": "00:01:31.000",
+      "text": " As a value, this is a constant 4 pi times 10 to the minus 7th Tesla meter per amp."
+    },
+    {
+      "end": "00:01:41.000",
+      "start": "00:01:38.000",
+      "text": " You could also multiply that 4 pi out."
+    },
+    {
+      "end": "00:01:45.000",
+      "start": "00:01:41.000",
+      "text": " And you could write mu naught as 1.257,"
+    },
+    {
+      "end": "00:01:49.000",
+      "start": "00:01:45.000",
+      "text": " e to the minus 6th Tesla meter per amp."
+    },
+    {
+      "end": "00:01:53.000",
+      "start": "00:01:49.000",
+      "text": " Now you remember we had an epsilon naught back from electrostatics,"
+    },
+    {
+      "end": "00:01:55.000",
+      "start": "00:01:53.000",
+      "text": " which was the permittivity of free space."
+    },
+    {
+      "end": "00:02:03.000",
+      "start": "00:01:55.000",
+      "text": " An epsilon naught and mu naught together are related to the speed of light."
+    },
+    {
+      "end": "00:02:05.000",
+      "start": "00:02:03.000",
+      "text": " So now back to our equation."
+    },
+    {
+      "end": "00:02:10.000",
+      "start": "00:02:05.000",
+      "text": " And let's focus in now on the side where we're talking about geometry and distance."
+    },
+    {
+      "end": "00:02:13.000",
+      "start": "00:02:11.000",
+      "text": " To help explain this a little bit clearer,"
+    },
+    {
+      "end": "00:02:15.000",
+      "start": "00:02:13.000",
+      "text": " let's actually give ourselves a diagram."
+    },
+    {
+      "end": "00:02:17.000",
+      "start": "00:02:15.000",
+      "text": " So imagine you've got some wire."
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:17.000",
+      "text": " It can be curvy, it could be straight, whatever, out in space."
+    },
+    {
+      "end": "00:02:27.000",
+      "start": "00:02:22.000",
+      "text": " And we want to find a magnetic field at some other point in space,"
+    },
+    {
+      "end": "00:02:32.000",
+      "start": "00:02:27.000",
+      "text": " separated from that wire."
+    },
+    {
+      "end": "00:02:38.000",
+      "start": "00:02:32.000",
+      "text": " Well the ds part of our integral over here stands for a line segment."
+    },
+    {
+      "end": "00:02:42.000",
+      "start": "00:02:38.000",
+      "text": " And we're going to have little line segments all up and down this wire."
+    },
+    {
+      "end": "00:02:48.000",
+      "start": "00:02:42.000",
+      "text": " And notice that each one of these little line segments is the same length,"
+    },
+    {
+      "end": "00:02:53.000",
+      "start": "00:02:48.000",
+      "text": " but they could point in different directions."
+    },
+    {
+      "end": "00:02:58.000",
+      "start": "00:02:53.000",
+      "text": " Now the r here on the bottom represents the distance."
+    },
+    {
+      "end": "00:03:04.000",
+      "start": "00:02:58.000",
+      "text": " And it's specifically the distance from a line segment to the point P in space."
+    },
+    {
+      "end": "00:03:11.000",
+      "start": "00:03:04.000",
+      "text": " And again, each different little line segment may have a different distance"
+    },
+    {
+      "end": "00:03:16.000",
+      "start": "00:03:11.000",
+      "text": " from that segment to our point in space."
+    },
+    {
+      "end": "00:03:21.000",
+      "start": "00:03:16.000",
+      "text": " The r hat part here is a radial direction."
+    },
+    {
+      "end": "00:03:25.000",
+      "start": "00:03:21.000",
+      "text": " And the hat lets us know that it's a unit vector."
+    },
+    {
+      "end": "00:03:30.000",
+      "start": "00:03:25.000",
+      "text": " So it points in the same direction as this radial distance,"
+    },
+    {
+      "end": "00:03:32.000",
+      "start": "00:03:30.000",
+      "text": " but it's only indicating the direction."
+    },
+    {
+      "end": "00:03:35.000",
+      "start": "00:03:32.000",
+      "text": " It doesn't go all the way there."
+    },
+    {
+      "end": "00:03:44.000",
+      "start": "00:03:35.000",
+      "text": " And again, each point along our line may have a different r hat radial direction being shown."
+    },
+    {
+      "end": "00:03:49.000",
+      "start": "00:03:44.000",
+      "text": " Now the top part of this integral here is a cross product."
+    },
+    {
+      "end": "00:03:55.000",
+      "start": "00:03:49.000",
+      "text": " And it's the cross product between these two vectors for the line segment and the radial distance."
+    },
+    {
+      "end": "00:04:03.000",
+      "start": "00:03:55.000",
+      "text": " So when you take that cross product, that also helps determine the direction of the magnetic field."
+    },
+    {
+      "end": "00:04:08.000",
+      "start": "00:04:03.000",
+      "text": " We can do that for each individual segment, but the integral tells us that what we really want to do"
+    },
+    {
+      "end": "00:04:15.000",
+      "start": "00:04:08.000",
+      "text": " is we want to sum up the contributions over all of those different line segments."
+    },
+    {
+      "end": "00:04:22.000",
+      "start": "00:04:15.000",
+      "text": " And that will give us the overall magnetic field at our point P out in space."
+    },
+    {
+      "end": "00:04:28.000",
+      "start": "00:04:22.000",
+      "text": " So while the equation itself is a little bit complicated, it helps to break it down into things"
+    },
+    {
+      "end": "00:04:34.000",
+      "start": "00:04:28.000",
+      "text": " that we can understand from a picture of geometry."
+    },
+    {
+      "end": "00:04:38.000",
+      "start": "00:04:34.000",
+      "text": " Now let's take a look at the equation from the standpoint of units."
+    },
+    {
+      "end": "00:04:44.000",
+      "start": "00:04:38.000",
+      "text": " Well, we said our mu naught had a constants of Tesla meter per amp."
+    },
+    {
+      "end": "00:04:48.000",
+      "start": "00:04:44.000",
+      "text": " Current, we know, has units of amps."
+    },
+    {
+      "end": "00:04:51.000",
+      "start": "00:04:48.000",
+      "text": " 4 pi doesn't have any units."
+    },
+    {
+      "end": "00:05:00.000",
+      "start": "00:04:51.000",
+      "text": " The ds part of our integral has units of meters while the r squared part has meter squared."
+    },
+    {
+      "end": "00:05:04.000",
+      "start": "00:05:00.000",
+      "text": " And my r hat, you might think it's meters, but it's a unit vector."
+    },
+    {
+      "end": "00:05:08.000",
+      "start": "00:05:04.000",
+      "text": " So again, no units there."
+    },
+    {
+      "end": "00:05:14.000",
+      "start": "00:05:08.000",
+      "text": " So once we've collected all these together, what we see is that we have an amp on the bottom and the top of the equation"
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:14.000",
+      "text": " which are going to cancel each other out."
+    },
+    {
+      "end": "00:05:25.000",
+      "start": "00:05:17.000",
+      "text": " And I've got two meters on the top and a meter squared on the bottom, which will also cancel each other out."
+    },
+    {
+      "end": "00:05:35.000",
+      "start": "00:05:25.000",
+      "text": " So everything from my right hand side, all I've got left is Tesla, which is the unit I expect for the magnetic field."
+    },
+    {
+      "end": "00:05:45.000",
+      "start": "00:05:35.000",
+      "text": " So every time we've got a current carrying wire, we're going to end up having something of this form which ends up having a units of Tesla."
+    },
+    {
+      "end": "00:05:50.000",
+      "start": "00:05:45.000",
+      "text": " So that's the end of our introduction to the BIOS of our law."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Jennifer Cash",
+  "youtube_channel_follower_count": 11500,
+  "youtube_comment_count": 74,
+  "youtube_description": "This video describes the Biot-Savart Law and explains each part of the equation.",
+  "youtube_like_count": 1490,
+  "youtube_tags": [
+    "Biot–Savart Law",
+    "Physics (Field Of Study)",
+    "Magnetic Field"
+  ],
+  "youtube_title": "The Biot-Savart Law",
+  "youtube_upload_date": "20150702",
+  "youtube_view_count": 106890
+}

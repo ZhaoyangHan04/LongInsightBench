@@ -1,0 +1,906 @@
+{
+  "content_fine_category": "Academic Lectures",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with a blue and white checked shirt, likely a teacher or instructor, presenting information on a whiteboard.",
+        "name": "Jesse Mason"
+      }
+    ],
+    "description": "A tutorial video where Jesse Mason presents a structured approach to solving a circuit problem using Kirchhoff's Rules and linear algebra.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "He is using Kirchhoff's Junction Rule, which states that the sum of currents entering a junction equals the sum of currents leaving a junction. This helps simplify the problem by expressing one current in terms of the other two.",
+        "question": "Why does Jesse Mason write 'I3 = I1 - I2' on one of the branches of the circuit?"
+      },
+      {
+        "answer": "The negative sign indicates that the current is actually flowing in the opposite direction to what was initially assumed.",
+        "question": "What is the significance of the negative sign in the current value for the 2-ohm resistor in the upper right branch?"
+      },
+      {
+        "answer": "He expresses surprise and joy because the solution is a simple and clean fraction, 7/10, suggesting the problem was set up to yield elegant results.",
+        "question": "Why does Jesse Mason seem particularly excited when he finds the solution for I3 in the matrix?"
+      },
+      {
+        "answer": "The table provides a structured and organized way to list the resistance, current, voltage, and power for each resistor, making it easy to perform calculations and spot patterns.",
+        "question": "How does the table help in finding the voltage and power values for each resistor?"
+      },
+      {
+        "answer": "The 6-ohm resistor sees no current flowing through it (I2 = 0A), so no power is dissipated (P = IV = 0).",
+        "question": "Why is the power dissipated by the 6-ohm resistor zero?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Introduces himself and the topic of the video.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Describes the problem to be solved and the steps involved.",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jesse Mason"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jesse Mason"
+            ],
+            "description": "Jesse Mason is presenting directly to the camera, engaging with the audience."
+          }
+        ],
+        "contextualRelevance": "The organized step-by-step approach creates a clear path for understanding the complex concepts presented.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the speaker and the topic, establishing the context for the video.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The scene outlines the problem to be solved, including using Kirchhoff's rules, matrices, and determining current, voltage, and power dissipation, providing a roadmap for the video.",
+            "timestamp": "00:00:05.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Red marker",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Black marker, whiteboard with a circuit diagram",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Physics, electrical circuits, problem-solving.",
+        "timestamps": {
+          "end_timestamp": "00:00:29.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Problem Description",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new scene with a blank whiteboard.",
+            "timestamps": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Labels junctions, currents, and loops in the circuit diagram.",
+            "timestamp": {
+              "end_timestamp": "00:02:06.000",
+              "start_timestamp": "00:00:29.033"
+            }
+          },
+          {
+            "description": "Applies Kirchhoff's Loop Rule to create three equations.",
+            "timestamp": {
+              "end_timestamp": "00:03:49.000",
+              "start_timestamp": "00:02:06.000"
+            }
+          },
+          {
+            "description": "Creates an augmented matrix from the equations.",
+            "timestamp": {
+              "end_timestamp": "00:04:20.000",
+              "start_timestamp": "00:03:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jesse Mason"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jesse Mason"
+            ],
+            "description": "Jesse Mason continues to engage with the audience, explaining each step."
+          }
+        ],
+        "contextualRelevance": "Simplifying the currents through junction rules reduces the complexity of the matrix and makes the solution more manageable.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, then Content as the solution progresses",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene demonstrates how to label the circuit to prepare for applying Kirchhoff's Rules.",
+            "timestamp": "00:00:29.033"
+          },
+          {
+            "description": "The scene applies Kirchhoff's Loop Rule, creating three equations that will be used to solve for the unknown currents.",
+            "timestamp": "00:02:06.000"
+          },
+          {
+            "description": "The scene organizes the equations into an augmented matrix, setting up the use of linear algebra techniques to solve the system of equations.",
+            "timestamp": "00:03:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black marker, green marker, whiteboard with a circuit diagram",
+            "timestamp": {
+              "end_timestamp": "00:04:20.000",
+              "start_timestamp": "00:00:29.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Physics, electrical circuits, problem-solving, linear algebra.",
+        "timestamps": {
+          "end_timestamp": "00:04:20.000",
+          "start_timestamp": "00:00:29.033"
+        },
+        "title": "Labeling and Equation Formation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Performs row reduction on the augmented matrix to solve for the three unknown currents.",
+            "timestamp": {
+              "end_timestamp": "00:06:08.000",
+              "start_timestamp": "00:04:20.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jesse Mason"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jesse Mason"
+            ],
+            "description": "Jesse Mason maintains his engagement with the audience, explaining each row operation."
+          }
+        ],
+        "contextualRelevance": "The emergence of surprisingly clean and simple solutions for the currents adds a touch of humor and lightheartedness to the scene.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious, then Excited as solutions emerge",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene focuses on using Gauss-Jordan elimination to systematically solve the system of equations represented by the augmented matrix.",
+            "timestamp": "00:04:20.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black marker, whiteboard with augmented matrices",
+            "timestamp": {
+              "end_timestamp": "00:06:08.000",
+              "start_timestamp": "00:04:20.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Linear algebra, problem-solving.",
+        "timestamps": {
+          "end_timestamp": "00:06:08.000",
+          "start_timestamp": "00:04:20.033"
+        },
+        "title": "Row Reduction and Solutions",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Creates a table to organize the results for each resistor (resistance, current, voltage, power).",
+            "timestamp": {
+              "end_timestamp": "00:06:45.000",
+              "start_timestamp": "00:06:08.033"
+            }
+          },
+          {
+            "description": "Uses Ohm's Law (V=IR) to calculate the voltage across each resistor and fills in the table.",
+            "timestamp": {
+              "end_timestamp": "00:08:29.000",
+              "start_timestamp": "00:06:45.000"
+            }
+          },
+          {
+            "description": "Calculates the power dissipated by each resistor (P=IV) and fills in the table, then concludes the video.",
+            "timestamp": {
+              "end_timestamp": "00:09:08.000",
+              "start_timestamp": "00:08:29.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Jesse Mason"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Jesse Mason"
+            ],
+            "description": "Jesse Mason continues to address the audience directly, guiding them through the final calculations."
+          }
+        ],
+        "contextualRelevance": "The use of the table to organize data makes the calculations straightforward and visually appealing, showcasing the value of structured problem-solving.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces a table to organize the data for calculating voltage and power, enhancing clarity.",
+            "timestamp": "00:06:08.033"
+          },
+          {
+            "description": "The scene applies Ohm's Law to calculate the voltage across each resistor, demonstrating the practical use of the derived currents.",
+            "timestamp": "00:06:45.000"
+          },
+          {
+            "description": "The scene concludes the problem-solving by calculating the power dissipated by each resistor, offering a comprehensive analysis of the circuit.",
+            "timestamp": "00:08:29.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black marker, circuit diagram on paper, whiteboard with table and formulas",
+            "timestamp": {
+              "end_timestamp": "00:09:08.000",
+              "start_timestamp": "00:06:08.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Physics, electrical circuits, problem-solving, organization.",
+        "timestamps": {
+          "end_timestamp": "00:09:25.133",
+          "start_timestamp": "00:06:08.033"
+        },
+        "title": "Organizing Results and Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a new scene with the circuit diagram on paper.",
+            "timestamps": {
+              "end_timestamp": "00:06:08.033",
+              "start_timestamp": "00:06:08.033"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The final solutions for the currents are obtained from the row-reduced matrix.",
+        "timestamp": "00:06:08.000"
+      },
+      "description": "Solving a circuit problem using Kirchhoff's Rules and linear algebra.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Solving a Circuit Problem using Kirchhoff's Rules and Linear Algebra",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial part of the scene where junctions are labelled could be shortened as it's fairly straightforward.",
+        "timestamps": {
+          "end_timestamp": "00:06:08.033",
+          "start_timestamp": "00:06:08.033"
+        }
+      },
+      {
+        "description": "The video could potentially fast-forward through some of the row reduction steps, focusing on the key operations that lead to the solution.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 565,
+  "original_json_filename": "_xomX-d8XU4.json",
+  "original_video_filename": "_xomX-d8XU4.mp4",
+  "resolution": "480x360",
+  "text_to_speech": "hello everyone I'm Jesse Mason and in this edition of teach me we'll use Kirk off's rules to obtain three linear equations with three unknown currents then we'll set these equations into an augmented Matrix and row reduce to determine values for each current finally we'll use the current values along with the resistance values to determine the voltage across and power dissipated by our resistors here all right y'all ready for this let's begin when using Kirk off's rules to analyze a circuit we always start by labeling our Junctions and then our currents and then our Loops okay starting with our Junctions we have J1 J2 j3 and we'll call this j4 moving on to currents we'll start with a current coming out of the 2vt battery we'll call that i1 and since any amount of current leaving a battery must necessarily reenter the battery we'll call this i1 as well now when i1 reaches Junction one it splits into two two currents we'll call this current I2 and normally we'd call this current here I3 instead we're going to invoke The Junction rule up front and say i1 is equal to I2 + I3 and if we rearrange this equation we have I3 is equal to i1 minus I2 and that is how we're going to label this current and we're going to do the same with Junction 2 here we'll call this our new I3 and this current will be the difference between i1 minus I2 and I3 so we'll write this current as i1 - I2 - I3 and just to be good and thorough will indicate the continuation of the current down here by the way what all of this is doing is reducing the number of current variables that we're dealing with which will in turn reduce the size of our Matrix making it a little less complex okay when these two currents rejoin they become i1 - I2 and that's it for labeling currents now we label our Loop Loops this would be Loop a here we have Loop B and loop C now that our circuit's labeled we can apply the loop rule the loop rule states that the sum of the voltages around a closed loop is equal to zero we'll start by labeling Loop a here we're going to start in the upper left hand corner and move clockwise around our Loop so we have minus 5 i1 - 6 I2 - 3 i1 + 2 equals 0 this simplifies to8 i1 - 6 I2 and since we need an entry for I3 we're going to just write 0 I3 here equals -2 and we'll multiply through by negative 1 to get rid of those negative signs okay for Loop B we have Min -2 * i1 - I2 the current there minus 5 I3 + 4 plus cuz we're going against the current 6 I2 equals 0 and to simplify we'll distribute combine like terms and multiply through by Nega 1 and we do we get 2 i1 - 8 I2 + 5 I3 = 4 okay now we apply the loop rule to Loop C and the 2 ohm and 8 Ohm resistor I'm going to combine as a 10 ohm resistor so we get - 10 * i1 - I2 - i3 3 - 8 + 5 I3 = 0 we'll distribute and combine like terms and this equation simplifies to -10 i1 + 10 I2 + 15 I3 = 8 wonderful we have three equations and three unknowns to solve these equations we're going to set up an augmented Matrix now I like to draw mine right on top of my equations so I can see the entries more clearly so the first row we have 8 6 0 and 2 second row we have two8 5 and 4 third row -10 10 15 and 8 okay so there's our augmented Matrix time to flex that Matrix muscle of yours and do some gaus Jordon elimination now if the following Matrix Maneuvers move too quickly for your taste feel free to click the link below for a more thorough explanation of all the linear algebra that we're doing here okay so the first row operation we'll do on our original Matrix is multiply Row Two by 5 add Row three to it and replace Row three with the result this gives us a zero in the first entry of Row three next we'll take Row one subtract four * row two and replace row two with the result this gives us a zero in the first entry of row two and at this point all of our entries are even numbers so we'll do three steps in one and multiply every row by 1/2 next we'll take row two and add to it 9 195 * Row 3 and we'll replace Row 3 with the result this gives us a zero in the second column third row now we'll multiply Row 3 by 346 and this will give us our first solution which is why you see a little happy face here hey it's a small things in life right okay now we're going to take row two and add to it 10 * Row three replace row two with the result this will give us a zero in the third column of the second row next we'll multiply row 2 x 11 19th and that gives us our second solution smiley face okay now we're going to take Row one and subtract 3 * row two and replace Row one with the result this gives us a zero in the second column of the first row we're almost there last thing we're going to do multiply Row 1 by 1/4 and then our Matrix is in row reduced Echelon form okay summarizing our results we have i1 is equal to .25 amp I2 is equal to 0 amps and I3 is equal to 7 amps and believe it or not I didn't rig this problem to have such gorgeous results matter of fact if I told you how I came up with the initial numbers here you'd probably call me up to see if I was pulling your leg okay so the last thing we're going to do here is set up a Solutions table this table will not only allow us to organize our results but will make our final calculations much quicker so in the First Column we'll have resistance second column current through the resistor third column voltage across the resistor and last column power dissipated by that resistor we'll start with resistances first we have the 5 ohm on the left the 2 ohm in the center then the 2 ohm on the right then the 3 ohm on bottom the 6 ohm in the center the 5 ohm in the center and then the 8 ohm on the right next we move to currents the current through the 5 ohm resistor is just i1 which is 0.25 the current through the 2 ohm resistor is i1 - I2 that difference is also 0.25 amps and the current through this 2 ohm resistor here is i1 - I2 - i3 that difference is actually negative we get .45 amps this negative sign tells us that the direction we chose to describe positive charge flow through that leg is not the right direction it's actually going the other way but that's part of the beauty of Kirk off's rules you choose the directions arbitrarily and in the end you find out if you've chosen wisely okay so the 3 Ohm resistor here sees i1 which is25 amps the 6 ohm in the center leg here sees I2 which is 0 amps again unplanned but really cool then the 5 Ohm resistor sees I3 which is 7 amps and the 8 Ohm resistor just like the 2 ohm above it sees .45 amps excellent now that we have all these currents we can use ohms law to determine the voltages across our resistors and now you can see why we used a table we just need to multiply columns so this first product is equal to 1.25 volts product of the second two numbers here is 050 here we have negative n0 volts this negative sign is actually telling us that the direction of the voltage drop is right to left not left to right like we had assumed our next product is going to be 75 volts and the voltage drop across a resistor which sees no current is not surprisingly zero here we have 3.5 volt and this one is 3.6 vol okay lastly to determine the power dissipated across each one of these resistors we multiply you guessed it the previous two columns current and voltage of course if you prefer to use the formula that has i s r instead of IV that's just fine too more power to you actually it's the same amount of power hey look the resistor that sees no current dissipates no power good thing well there you have it using Kirk off's rules in conjunction with some linear algebra techniques to determine the current through voltage across and power dissipated by a bunch of resistors I'm Jesse Mason I hope you found this video helpful and until next time happy [Music] learning",
+  "text_to_speech_word_count": 1570,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.333",
+      "start": "00:00:00.000",
+      "text": " Hello everyone, I'm Jesse Mason and in this edition of Teach Me we'll use"
+    },
+    {
+      "end": "00:00:09.467",
+      "start": "00:00:05.333",
+      "text": " Kirchhoff's rules to obtain three linear equations with three unknown"
+    },
+    {
+      "end": "00:00:14.067",
+      "start": "00:00:09.467",
+      "text": " currents. Then we'll set these equations into an augmented matrix and row"
+    },
+    {
+      "end": "00:00:18.400",
+      "start": "00:00:14.067",
+      "text": " reduced to determine values for each current. Finally we'll use the current"
+    },
+    {
+      "end": "00:00:22.500",
+      "start": "00:00:18.400",
+      "text": " values along with the resistance values to determine the voltage across and"
+    },
+    {
+      "end": "00:00:28.233",
+      "start": "00:00:22.500",
+      "text": " power dissipated by our resistors here. Alright, y'all ready for this? Let's"
+    },
+    {
+      "end": "00:00:32.400",
+      "start": "00:00:28.233",
+      "text": " begin. When using Kirchhoff's rules to analyze a circuit we always start by"
+    },
+    {
+      "end": "00:00:37.000",
+      "start": "00:00:32.400",
+      "text": " labeling our junctions and then our currents and then our loops. Okay, starting"
+    },
+    {
+      "end": "00:00:44.867",
+      "start": "00:00:37.000",
+      "text": " with our junctions we have J1, J2, J3 and we'll call this J4. Moving on to"
+    },
+    {
+      "end": "00:00:47.567",
+      "start": "00:00:44.867",
+      "text": " currents we'll start with the current coming out of the two-volt battery. We'll"
+    },
+    {
+      "end": "00:00:53.233",
+      "start": "00:00:47.567",
+      "text": " call that I1 and since any amount of current leaving a battery must"
+    },
+    {
+      "end": "00:00:57.933",
+      "start": "00:00:53.233",
+      "text": " necessarily re-enter the battery, we'll call this I1 as well. Now when I"
+    },
+    {
+      "end": "00:01:01.467",
+      "start": "00:00:57.933",
+      "text": " want to reach this junction one it splits into two currents. We'll call this"
+    },
+    {
+      "end": "00:01:08.200",
+      "start": "00:01:01.467",
+      "text": " current I2 and normally we'd call this current here I3. Instead we're going to"
+    },
+    {
+      "end": "00:01:12.933",
+      "start": "00:01:08.200",
+      "text": " invoke the junction rule up front and say I1 is equal to I2 plus I3 and if we"
+    },
+    {
+      "end": "00:01:19.867",
+      "start": "00:01:12.933",
+      "text": " rearrange this equation we have I3 is equal to I1 minus I2 and that is how we're"
+    },
+    {
+      "end": "00:01:25.500",
+      "start": "00:01:19.867",
+      "text": " going to label this current. And we're going to do the same with junction 2. Here"
+    },
+    {
+      "end": "00:01:29.833",
+      "start": "00:01:25.500",
+      "text": " we'll call this our new I3 and this current will be the difference between I1 minus"
+    },
+    {
+      "end": "00:01:37.733",
+      "start": "00:01:29.833",
+      "text": " I2 and I3. So we'll write this current as I1 minus I2 minus I3 and just to be"
+    },
+    {
+      "end": "00:01:42.033",
+      "start": "00:01:37.733",
+      "text": " good and thorough we'll indicate the continuation of the current down here. By"
+    },
+    {
+      "end": "00:01:45.500",
+      "start": "00:01:42.033",
+      "text": " the way what all of this is doing is reducing the number of current variables"
+    },
+    {
+      "end": "00:01:49.300",
+      "start": "00:01:45.500",
+      "text": " that we're dealing with which will in turn reduce the size of our matrix making"
+    },
+    {
+      "end": "00:01:55.333",
+      "start": "00:01:49.300",
+      "text": " it a little less complex. Okay, when these two currents rejoin they become I1"
+    },
+    {
+      "end": "00:02:01.400",
+      "start": "00:01:55.333",
+      "text": " minus I2 and that's it for labeling currents. Now we label our loops. This would"
+    },
+    {
+      "end": "00:02:07.667",
+      "start": "00:02:01.400",
+      "text": " be loop A, here we have loop B and loop C. Now that our circuits labeled we"
+    },
+    {
+      "end": "00:02:10.433",
+      "start": "00:02:07.667",
+      "text": " can apply the loop rule. The loop rule states that the sum of the voltages"
+    },
+    {
+      "end": "00:02:15.833",
+      "start": "00:02:10.433",
+      "text": " around a closed loop is equal to zero. We'll start by labeling loop A. Here we're"
+    },
+    {
+      "end": "00:02:20.533",
+      "start": "00:02:15.833",
+      "text": " going to start in the upper left hand corner and move clockwise around our loop."
+    },
+    {
+      "end": "00:02:32.900",
+      "start": "00:02:21.067",
+      "text": " So we have minus 5 I1 minus 6 I2 minus 3 I1 plus 2 equals 0. This simplifies"
+    },
+    {
+      "end": "00:02:39.333",
+      "start": "00:02:32.900",
+      "text": " to negative 8 I1 minus 6 I2 and since we need an entry for I3 we're going to"
+    },
+    {
+      "end": "00:02:44.700",
+      "start": "00:02:39.333",
+      "text": " just write 0 I3 here equals negative 2 and we'll multiply through by negative 1"
+    },
+    {
+      "end": "00:02:51.100",
+      "start": "00:02:44.700",
+      "text": " to get rid of those negative signs. Okay, for loop B we have minus 2 times I1 minus"
+    },
+    {
+      "end": "00:03:01.600",
+      "start": "00:02:51.100",
+      "text": " I2 the current there minus 5 I3 plus 4 plus because we're going against the"
+    },
+    {
+      "end": "00:03:09.667",
+      "start": "00:03:01.600",
+      "text": " current 6 I2 equals 0. And the simplify will distribute combine-like terms and"
+    },
+    {
+      "end": "00:03:18.667",
+      "start": "00:03:09.667",
+      "text": " multiply through by negative 1 and we do we get 2 I1 minus 8 I2 plus 5 I3 equals 4."
+    },
+    {
+      "end": "00:03:24.467",
+      "start": "00:03:18.667",
+      "text": " Okay, now we apply the loop rule to loop C and the 2 O and 8 O resistor I'm going to"
+    },
+    {
+      "end": "00:03:36.667",
+      "start": "00:03:24.467",
+      "text": " combine as a 10 O resistor. So we get minus 10 times I1 minus I2 minus I3 minus 8 plus 5 I3 equals 0."
+    },
+    {
+      "end": "00:03:49.667",
+      "start": "00:03:37.267",
+      "text": " We'll distribute and combine-like terms and this equation simplifies to negative 10 I1 plus 10 I2 plus 15 I3 equals 8."
+    },
+    {
+      "end": "00:03:54.200",
+      "start": "00:03:49.667",
+      "text": " Wonderful, we have three equations and three unknowns. To solve these equations we're"
+    },
+    {
+      "end": "00:03:58.600",
+      "start": "00:03:54.200",
+      "text": " going to set up an augmented matrix. Now I like to draw mine right on top of my"
+    },
+    {
+      "end": "00:04:05.667",
+      "start": "00:03:58.600",
+      "text": " equations so I can see the entries more clearly. So the first row we have 8, 6, 0 and 2,"
+    },
+    {
+      "end": "00:04:12.667",
+      "start": "00:04:05.667",
+      "text": " second row we have 2, negative 8, 5 and 4, third row, negative 10, 10, 15 and 8."
+    },
+    {
+      "end": "00:04:17.667",
+      "start": "00:04:12.667",
+      "text": " Okay, so there's our augmented matrix. Time to flex that matrix muscle of yours and"
+    },
+    {
+      "end": "00:04:23.667",
+      "start": "00:04:17.667",
+      "text": " do some goussjord on elimination. Now if the following matrix maneuvers move to"
+    },
+    {
+      "end": "00:04:26.667",
+      "start": "00:04:23.667",
+      "text": " quickly for your taste, feel free to click the link below for a more thorough"
+    },
+    {
+      "end": "00:04:31.667",
+      "start": "00:04:26.667",
+      "text": " explanation of all the linear algebra that we're doing here. Okay, so the first row"
+    },
+    {
+      "end": "00:04:35.667",
+      "start": "00:04:31.667",
+      "text": " operation we'll do on our original matrix is multiply row 2 by 5, add row 3 to it,"
+    },
+    {
+      "end": "00:04:40.667",
+      "start": "00:04:35.667",
+      "text": " and replace row 3 with the result. This gives us a 0 in the first entry of row 3."
+    },
+    {
+      "end": "00:04:44.667",
+      "start": "00:04:40.667",
+      "text": " Next we'll take row 1, subtract 4 times row 2, and replace row 2 with the result."
+    },
+    {
+      "end": "00:04:49.667",
+      "start": "00:04:44.667",
+      "text": " This gives us a 0 in the first entry of row 2. And at this point all of our"
+    },
+    {
+      "end": "00:04:53.667",
+      "start": "00:04:49.667",
+      "text": " entries are even numbers. So we'll do three steps in one and multiply every row by"
+    },
+    {
+      "end": "00:05:01.667",
+      "start": "00:04:53.667",
+      "text": " 1 half. Next we'll take row 2 and add to it 19, 15 times row 3, and we'll replace"
+    },
+    {
+      "end": "00:05:06.667",
+      "start": "00:05:01.667",
+      "text": " row 3 with the result. This gives us a 0 in the second column third row."
+    },
+    {
+      "end": "00:05:12.667",
+      "start": "00:05:06.667",
+      "text": " Now we'll multiply row 3 by 3, 46, and this will give us our first solution,"
+    },
+    {
+      "end": "00:05:17.667",
+      "start": "00:05:12.667",
+      "text": " which is why you see a little happy face here. Hey, it's the small things in life,"
+    },
+    {
+      "end": "00:05:22.667",
+      "start": "00:05:17.667",
+      "text": " right? Okay, now we're going to take row 2 and add to it 10 times row 3, replace row"
+    },
+    {
+      "end": "00:05:27.667",
+      "start": "00:05:23.667",
+      "text": " 2 with the result. This will give us a 0 in the third column of the second row."
+    },
+    {
+      "end": "00:05:32.667",
+      "start": "00:05:27.667",
+      "text": " Next we'll multiply row 2 by 1 19th, and that gives us our second solution."
+    },
+    {
+      "end": "00:05:39.667",
+      "start": "00:05:32.667",
+      "text": " Yeah, that's my only face. Okay, now we're going to take row 1 and subtract"
+    },
+    {
+      "end": "00:05:43.667",
+      "start": "00:05:39.667",
+      "text": " 3 times row 2, and replace row 1 with the result. This gives us a 0 in the second"
+    },
+    {
+      "end": "00:05:48.667",
+      "start": "00:05:43.667",
+      "text": " column of the first row. We're almost there. Last thing we're going to do,"
+    },
+    {
+      "end": "00:05:52.667",
+      "start": "00:05:48.667",
+      "text": " we're going to multiply row 1 by 1 fourth, and then our matrix is in row reduced"
+    },
+    {
+      "end": "00:05:58.667",
+      "start": "00:05:52.667",
+      "text": " echelon form. Okay, summarizing our results, we have I1 is equal to 0.25 amperes,"
+    },
+    {
+      "end": "00:06:04.667",
+      "start": "00:05:58.667",
+      "text": " I2 is equal to 0 amps, and I3 is equal to 0.7 amps. And believe it or not,"
+    },
+    {
+      "end": "00:06:09.667",
+      "start": "00:06:04.667",
+      "text": " I didn't rig this problem to have such gorgeous results. Matter of fact,"
+    },
+    {
+      "end": "00:06:14.667",
+      "start": "00:06:09.667",
+      "text": " if I told you how it came up with the initial numbers here, you'd probably call me up to see if I was pulling your leg."
+    },
+    {
+      "end": "00:06:19.667",
+      "start": "00:06:14.667",
+      "text": " Okay, so the last thing we're going to do here is set up a solutions table. This table will not only allow us to organize"
+    },
+    {
+      "end": "00:06:24.667",
+      "start": "00:06:19.667",
+      "text": " a results, but we'll make our final calculations much quicker. So in the first column we'll have"
+    },
+    {
+      "end": "00:06:29.667",
+      "start": "00:06:24.667",
+      "text": " resistance, second column current through the resistor, third column voltage across the resistor,"
+    },
+    {
+      "end": "00:06:34.667",
+      "start": "00:06:29.667",
+      "text": " and last column power dissipated by that resistor. We'll start with resistances."
+    },
+    {
+      "end": "00:06:40.667",
+      "start": "00:06:34.667",
+      "text": " First we have the 5 on the left, the 2 on the center, then the 2 on the right, then the 3 on the bottom,"
+    },
+    {
+      "end": "00:06:45.667",
+      "start": "00:06:40.667",
+      "text": " the 6 on the center, the 5 on the center, and then the 8 on the right."
+    },
+    {
+      "end": "00:06:51.667",
+      "start": "00:06:45.667",
+      "text": " Next we move to currents. The current through the 5 on resistors is just I1, which is 0.25."
+    },
+    {
+      "end": "00:06:55.667",
+      "start": "00:06:51.667",
+      "text": " The current through the 2 on resistors, I1 minus I2, that difference is also 0.25 amps."
+    },
+    {
+      "end": "00:06:59.667",
+      "start": "00:06:55.667",
+      "text": " And the current through this 2 on resistor here is I1 minus I2 minus I3."
+    },
+    {
+      "end": "00:07:04.667",
+      "start": "00:06:59.667",
+      "text": " That difference is actually negative. We get negative 0.45 amps."
+    },
+    {
+      "end": "00:07:09.667",
+      "start": "00:07:04.667",
+      "text": " This negative sign tells us that the direction we chose to describe positive charge flow through that"
+    },
+    {
+      "end": "00:07:12.667",
+      "start": "00:07:09.667",
+      "text": " leg is not the right direction. It's actually going the other way."
+    },
+    {
+      "end": "00:07:16.667",
+      "start": "00:07:12.667",
+      "text": " But that's part of the beauty of Kirchhoff's rules. You choose the directions arbitrarily,"
+    },
+    {
+      "end": "00:07:19.667",
+      "start": "00:07:16.667",
+      "text": " and in the end you find out if you've chosen wisely."
+    },
+    {
+      "end": "00:07:23.667",
+      "start": "00:07:19.667",
+      "text": " Okay, so the 3 on resistor here is CsI1, which is 0.25 amps."
+    },
+    {
+      "end": "00:07:31.667",
+      "start": "00:07:23.667",
+      "text": " The 6 on the center leg here is CsI2, which is 0 amps. Again, unplanned, but really cool."
+    },
+    {
+      "end": "00:07:38.667",
+      "start": "00:07:32.667",
+      "text": " Then the 5 on resistor CsI3, which is 0.7 amps, and the 8 on resistor, just like the 2 on above it,"
+    },
+    {
+      "end": "00:07:43.667",
+      "start": "00:07:38.667",
+      "text": " sees negative 0.45 amps. Excellent. Now that we have all these currents,"
+    },
+    {
+      "end": "00:07:47.667",
+      "start": "00:07:43.667",
+      "text": " we can use Ohm's Law to determine the voltages across our resistors."
+    },
+    {
+      "end": "00:07:52.667",
+      "start": "00:07:47.667",
+      "text": " And now you can see why we use the table. We just need to multiply columns."
+    },
+    {
+      "end": "00:07:55.667",
+      "start": "00:07:52.667",
+      "text": " So this first product is equal to 1.25 volts."
+    },
+    {
+      "end": "00:07:59.667",
+      "start": "00:07:55.667",
+      "text": " Product to the second two numbers here is 0.50."
+    },
+    {
+      "end": "00:08:06.667",
+      "start": "00:07:59.667",
+      "text": " Here we have negative 0.90 volts. This negative sign is actually telling us that the direction of the voltage drop"
+    },
+    {
+      "end": "00:08:11.667",
+      "start": "00:08:06.667",
+      "text": " is right to left, not left to right like we had assumed."
+    },
+    {
+      "end": "00:08:16.667",
+      "start": "00:08:11.667",
+      "text": " Our next product is going to be 0.75 volts."
+    },
+    {
+      "end": "00:08:23.667",
+      "start": "00:08:16.667",
+      "text": " And the voltage drop across a resistor, which CsI0 current is not surprisingly 0."
+    },
+    {
+      "end": "00:08:29.667",
+      "start": "00:08:23.667",
+      "text": " Here we have 3.5 volts, and this one is negative 3.6 volts."
+    },
+    {
+      "end": "00:08:34.667",
+      "start": "00:08:29.667",
+      "text": " Okay, lastly, to determine the power dissipated across each one of these resistors,"
+    },
+    {
+      "end": "00:08:38.667",
+      "start": "00:08:34.667",
+      "text": " we multiply, you guessed it, the previous two columns, current and voltage."
+    },
+    {
+      "end": "00:08:42.667",
+      "start": "00:08:38.667",
+      "text": " Of course, if you prefer to use the formula that has I squared R instead of IV,"
+    },
+    {
+      "end": "00:08:45.667",
+      "start": "00:08:42.667",
+      "text": " that's just fine too. More power to you."
+    },
+    {
+      "end": "00:08:48.667",
+      "start": "00:08:46.667",
+      "text": " Actually, it's the same amount of power."
+    },
+    {
+      "end": "00:08:52.667",
+      "start": "00:08:49.667",
+      "text": " Hey look, the resistor that CsI0 current dissipates no power."
+    },
+    {
+      "end": "00:08:54.667",
+      "start": "00:08:52.667",
+      "text": " Good thing."
+    },
+    {
+      "end": "00:08:59.667",
+      "start": "00:08:54.667",
+      "text": " Well, there you have it. Using Kirkoffs rules and conjunction with some linear algebra techniques"
+    },
+    {
+      "end": "00:09:04.667",
+      "start": "00:08:59.667",
+      "text": " to determine the current through, voltage across and power dissipated by a bunch of resistors."
+    },
+    {
+      "end": "00:09:09.667",
+      "start": "00:09:04.667",
+      "text": " I'm Jesse Mason, I hope you found this video helpful, and until next time, happy learning."
+    },
+    {
+      "end": "00:09:25.667",
+      "start": "00:09:18.667",
+      "text": " ."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Jesse Mason",
+  "youtube_channel_follower_count": 107000,
+  "youtube_comment_count": 333,
+  "youtube_description": "ROW REDUCE LIKE DR SEUSS: \nOh, all those numerous and nasty equations!\nAll the plugging and chugging, it takes too much patience.\nI've got just the thing for such an awful occasion:\nIt's mighty, it's sleighty! It's Gauss-Jordan Elimination!\n \nFirst, our equations enjoy preparation.\nEach variable is queued in ascending gradation.\nOnce aligned and accounted, their nice numeral agents,\nGet bumped to a matrix in corresponding locations.\n \nNext, we apply a few matrix operations:\nAddition and subtraction. Division, multiplication.\nYes, our rows are massaged with arithmetication,\nUntil they're reduced to the simplest notation.\n \nLo', all of our multiplex math manueveration,\nConcludes with a comely, concise configuration.\nThe name of this sexy and subtle sophistication?\nShe goes by Row Reduced Echelon Formation.\n \nTo the left: a delightful diag-one-alation.\nTo the right: our solutions, in column notation. \nSuch a time-saving tool! Such a cool calculation!\nIt's mighty, it's sleighty! It's Gauss-Jordan Elimation!\n\nMy video on solving equations with a matrix: http://www.youtube.com/watch?v=I134Xk4521k",
+  "youtube_like_count": 4854,
+  "youtube_tags": [
+    "Kirchoff's Rules",
+    "Linear Algebra",
+    "Matrix",
+    "Circuit",
+    "Laws",
+    "Millish",
+    "Electronics",
+    "Kirchoff",
+    "Physics"
+  ],
+  "youtube_title": "How to Solve a Kirchhoff's Rules Problem - Matrix Example",
+  "youtube_upload_date": "20120410",
+  "youtube_view_count": 471400
+}

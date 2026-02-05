@@ -1,0 +1,692 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young woman with long brown hair, wearing a black T-shirt with the word 'orange' written on it. She sits behind a white table with a laptop that has an orange sticker on it.",
+        "name": "Woman"
+      },
+      {
+        "characterId": "2",
+        "description": "An animated orange wearing black glasses.",
+        "name": "Orange"
+      }
+    ],
+    "description": "A tutorial video focusing on the process of making predictions in data science using Orange software. Covers data classification with practical demonstrations.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "Calories per 100g, Vitamin A percentage, and protein content.",
+        "question": "What are the three most important features according to the classification tree?"
+      },
+      {
+        "answer": "She copies the shareable link from Google Sheets and pastes it into the 'URL' section of the 'File' widget in Orange.",
+        "question": "What method does the woman use to load her test data into Orange?"
+      },
+      {
+        "answer": "She uses data for a kiwi, asparagus, and raspberry, knowing their real classifications, and the models successfully predict their classifications as two fruits and one vegetable.",
+        "question": "How does the woman confirm that the model is working correctly?"
+      },
+      {
+        "answer": "To compare the predictions from different models and ensure they lead to similar results, providing a greater degree of confidence in the classification.",
+        "question": "Why does the woman test the predictions with two different classification methods?"
+      },
+      {
+        "answer": "Model evaluation and scoring, which will help determine how good the predictive models are.",
+        "question": "What topic does the woman suggest will be covered in future videos?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Woman introduces the topic of making predictions in data science.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:06.006"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Woman"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduction to the topic and objectives.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the concept of predicting the future in data science.",
+            "timestamp": "00:00:06.006"
+          },
+          {
+            "description": "Clarification that this involves prediction from data, not magic.",
+            "timestamp": "00:00:12.012"
+          },
+          {
+            "description": "Introduction to the specific task: predicting fruit vs. vegetable classification.",
+            "timestamp": "00:00:16.984"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:06.006"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Data science, prediction, classification",
+        "timestamps": {
+          "end_timestamp": "00:00:29.963",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Data Predictions",
+        "videoEditingDetails": [
+          {
+            "description": "Animated intro sequence with title 'Getting Started with Orange: Making Predictions'.",
+            "timestamps": {
+              "end_timestamp": "00:00:05.005",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Smooth transition to Woman speaking.",
+            "timestamps": {
+              "end_timestamp": "00:00:06.006",
+              "start_timestamp": "00:00:05.005"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Woman demonstrates a dataset on fruits and vegetables and explains the features.",
+            "timestamp": {
+              "end_timestamp": "00:01:07.000",
+              "start_timestamp": "00:00:29.997"
+            }
+          },
+          {
+            "description": "Woman introduces the Classification Tree widget and analyzes the important features for classification.",
+            "timestamp": {
+              "end_timestamp": "00:01:27.988",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Woman"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Exploration of dataset and classification method.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Pensive",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the dataset and its features.",
+            "timestamp": "00:00:29.997"
+          },
+          {
+            "description": "Explanation of the classification task: fruit vs. vegetable.",
+            "timestamp": "00:00:48.015"
+          },
+          {
+            "description": "Using the Classification Tree to visualize important features for classification.",
+            "timestamp": "00:00:53.987"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:01:27.988",
+              "start_timestamp": "00:00:29.997"
+            }
+          },
+          {
+            "name": "Dataset on fruits and vegetables visualized on the laptop screen",
+            "timestamp": {
+              "end_timestamp": "00:01:27.988",
+              "start_timestamp": "00:00:29.997"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Data analysis, classification, features, decision trees",
+        "timestamps": {
+          "end_timestamp": "00:01:29.957",
+          "start_timestamp": "00:00:29.997"
+        },
+        "title": "Dataset Exploration and Classification",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transition to dataset visualization.",
+            "timestamps": {
+              "end_timestamp": "00:00:29.997",
+              "start_timestamp": "00:00:29.997"
+            }
+          },
+          {
+            "description": "Smooth transition to Classification Tree widget visualization.",
+            "timestamps": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:01:07.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Woman introduces the task of making predictions on a new dataset.",
+            "timestamp": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:01:29.990"
+            }
+          },
+          {
+            "description": "Woman creates a test dataset in Google Sheets and loads it in Orange.",
+            "timestamp": {
+              "end_timestamp": "00:02:09.997",
+              "start_timestamp": "00:01:36.997"
+            }
+          },
+          {
+            "description": "Woman connects the test dataset to the Predictions widget and demonstrates the prediction process using the Classification Tree model.",
+            "timestamp": {
+              "end_timestamp": "00:02:37.991",
+              "start_timestamp": "00:02:09.997"
+            }
+          },
+          {
+            "description": "Woman tests the prediction with a Logistic Regression model.",
+            "timestamp": {
+              "end_timestamp": "00:03:06.987",
+              "start_timestamp": "00:02:37.991"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Woman"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Detailed walkthrough of prediction process.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious, Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introducing the need for making predictions on new data.",
+            "timestamp": "00:01:29.990"
+          },
+          {
+            "description": "Creating and loading the test dataset.",
+            "timestamp": "00:01:36.997"
+          },
+          {
+            "description": "Connecting the dataset to Predictions widget and demonstrating predictions with the Classification Tree model.",
+            "timestamp": "00:02:09.997"
+          },
+          {
+            "description": "Comparing predictions with a different model (Logistic Regression).",
+            "timestamp": "00:02:37.991"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:03:06.987",
+              "start_timestamp": "00:01:29.990"
+            }
+          },
+          {
+            "name": "Google Sheets window showing the test dataset",
+            "timestamp": {
+              "end_timestamp": "00:02:09.997",
+              "start_timestamp": "00:01:36.997"
+            }
+          },
+          {
+            "name": "Orange software window with prediction widgets",
+            "timestamp": {
+              "end_timestamp": "00:03:06.987",
+              "start_timestamp": "00:02:09.997"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Data prediction, model application, comparison of models",
+        "timestamps": {
+          "end_timestamp": "00:03:08.955",
+          "start_timestamp": "00:01:29.990"
+        },
+        "title": "Making and Testing Predictions",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transition to Google Sheets window.",
+            "timestamps": {
+              "end_timestamp": "00:01:38.999",
+              "start_timestamp": "00:01:36.997"
+            }
+          },
+          {
+            "description": "Smooth transition back to Orange software window.",
+            "timestamps": {
+              "end_timestamp": "00:02:11.999",
+              "start_timestamp": "00:02:09.997"
+            }
+          },
+          {
+            "description": "Quick transition to Logistic Regression model.",
+            "timestamps": {
+              "end_timestamp": "00:02:38.992",
+              "start_timestamp": "00:02:37.991"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Woman reveals the actual classifications of her 'plants' and confirms the model's accuracy.",
+            "timestamp": {
+              "end_timestamp": "00:03:17.998",
+              "start_timestamp": "00:03:08.989"
+            }
+          },
+          {
+            "description": "Woman concludes the video by summarizing the learning points and mentioning future topics.",
+            "timestamp": {
+              "end_timestamp": "00:03:38.985",
+              "start_timestamp": "00:03:17.998"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Woman"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Summarization and closure of the tutorial.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Happy, Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Revealing the actual classifications and confirming model accuracy.",
+            "timestamp": "00:03:08.989"
+          },
+          {
+            "description": "Summarizing the learning points and mentioning future topics.",
+            "timestamp": "00:03:17.998"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:03:39.986",
+              "start_timestamp": "00:03:08.989"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Model accuracy, summary, future learning",
+        "timestamps": {
+          "end_timestamp": "00:03:44.791",
+          "start_timestamp": "00:03:08.989"
+        },
+        "title": "Conclusion and Summary",
+        "videoEditingDetails": [
+          {
+            "description": "Smooth transition to final remarks.",
+            "timestamps": {
+              "end_timestamp": "00:03:08.989",
+              "start_timestamp": "00:03:08.989"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Comparison of predictions from Classification Tree and Logistic Regression models",
+        "timestamp": "00:02:37.991"
+      },
+      "description": "The video focuses on the process of making predictions in data science using Orange software.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Orange: Making Predictions",
+    "trimmingSuggestions": [
+      {
+        "description": "The introductory segment could be shortened by directly focusing on the task at hand.",
+        "timestamps": {
+          "end_timestamp": "00:03:08.989",
+          "start_timestamp": "00:03:08.989"
+        }
+      },
+      {
+        "description": "The explanation of the dataset features could be condensed to maintain a faster pace.",
+        "timestamps": {
+          "end_timestamp": "00:03:08.989",
+          "start_timestamp": "00:03:08.989"
+        }
+      },
+      {
+        "description": "The transition to Logistic Regression could be smoother and integrated into the ongoing workflow.",
+        "timestamps": {
+          "end_timestamp": "00:03:08.989",
+          "start_timestamp": "00:03:08.989"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 226,
+  "original_json_filename": "D6zd7m2aYqU.json",
+  "original_video_filename": "D6zd7m2aYqU.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "One of the great things about being a data scientist is being able to predict the future. Of course I'm not talking about an old lady and a crystal ball rather predicting from solid data, with some degree of certainty Today I'll show you how to use Predictions widget to predict class labels for instances in our data set. This time I'll be using data on fruits and vegetables. Because I will use these data to train my classifier I will refer to it as a training data set. We have nine features in the training set including the calorie count, proteins, fiber, vitamin and mineral content. Based on these features, we would like to predict whether a plant is a fruit or a vegetable. Of course we're interested in which features are the most important for our classification. What tells us best if something is a fruit or a vegetable? We'll check this with classification Tree Viewer. Here, we can nicely visualize which features best split the data to pure subsets where one of the classes prevails. In our case, the most important feature is the calorie count and then the content of vitamin A and proteins so most likely these will be the deciding factors in our predictions. Ok, now it's time to make some predictions. Say I have my own three plants for which I would like to know whether they're a fruit or a vegetable. I know their potassium, vitamin and calorie values, so let's write this down in Google sheets. The one thing I need to be careful of, is to use the exact same names for the features in my test data set so that Orange can match them correctly. Now let's load the data in Orange and read it in the Data Table widget. Ok, all of our data is here. Connect the File widget with Predictions. Do we see anything yet? Of course not. We need to give the widget some classification model first. Actually, I've already built the model from my training set with the Classification Tree widget. Now all I need to do, is connect the Classification Tree to Predictions. I can now view the predictions directly in the widget. Seems like two of my plants are fruit and one is a vegetable. Of course I can use other classifiers as well. A fast and simple one is logistic regression. I wonder if its predictions will be different. Let's check. Again, I will connect Logistic Regression widget to the File widget and then pass the predictor to Predictions. Seems like Logistic Regression agrees with predictions from Classification Tree. As a matter of fact, I have used the actual data for a kiwi, asparagus and a raspberry. That is two fruits and a vegetable. Predictions were, indeed, correct. Today we've learned how to classify our data with classification tree, how to build prediction models, and, finally, how to use them on a new data set. While we have made the predictions, we have not really evaluated how good this prediction models were. In the upcoming video we'll talk about model evaluation and scoring.",
+  "text_to_speech_word_count": 522,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:12.546",
+      "start": "00:00:00.000",
+      "text": " One of the great things about being a data scientist is being able to predict the future."
+    },
+    {
+      "end": "00:00:17.184",
+      "start": "00:00:12.546",
+      "text": " Of course I'm not talking about a node-ladie and a crystal ball, but rather predicting"
+    },
+    {
+      "end": "00:00:20.888",
+      "start": "00:00:17.184",
+      "text": " from solid data with some degree of certainty."
+    },
+    {
+      "end": "00:00:26.360",
+      "start": "00:00:20.888",
+      "text": " Today I'll show you how to use predictions widget to predict class labels for instances"
+    },
+    {
+      "end": "00:00:28.829",
+      "start": "00:00:26.360",
+      "text": " in our data set."
+    },
+    {
+      "end": "00:00:33.100",
+      "start": "00:00:28.829",
+      "text": " This time I'll be using data on fruits and vegetables."
+    },
+    {
+      "end": "00:00:39.473",
+      "start": "00:00:33.100",
+      "text": " Because I will use this data to train my classifier, I will refer to it as a training data set."
+    },
+    {
+      "end": "00:00:45.979",
+      "start": "00:00:39.473",
+      "text": " We have nine features in the training set, including the calorie count, proteins, fiber,"
+    },
+    {
+      "end": "00:00:48.949",
+      "start": "00:00:45.979",
+      "text": " vitamin and mineral content."
+    },
+    {
+      "end": "00:00:55.389",
+      "start": "00:00:48.949",
+      "text": " Based on these features we would like to predict whether a plant is a fruit or a vegetable."
+    },
+    {
+      "end": "00:01:01.061",
+      "start": "00:00:55.389",
+      "text": " Of course we're interested in which features are the most important for our classification."
+    },
+    {
+      "end": "00:01:05.198",
+      "start": "00:01:01.061",
+      "text": " What tells us best if something is a fruit or a vegetable?"
+    },
+    {
+      "end": "00:01:08.569",
+      "start": "00:01:05.198",
+      "text": " We'll check this with classification-trivier."
+    },
+    {
+      "end": "00:01:13.907",
+      "start": "00:01:08.569",
+      "text": " Here we can nicely visualize which features best split the data to pure subsets where"
+    },
+    {
+      "end": "00:01:16.343",
+      "start": "00:01:13.907",
+      "text": " one of the classes prevails."
+    },
+    {
+      "end": "00:01:21.615",
+      "start": "00:01:16.343",
+      "text": " In our case the most important feature is the calorie count and then the content of vitamin"
+    },
+    {
+      "end": "00:01:24.017",
+      "start": "00:01:21.615",
+      "text": " A and proteins."
+    },
+    {
+      "end": "00:01:28.255",
+      "start": "00:01:24.017",
+      "text": " So most likely these will be the deciding factors in our predictions."
+    },
+    {
+      "end": "00:01:32.259",
+      "start": "00:01:28.255",
+      "text": " Okay, now it's time to make some predictions."
+    },
+    {
+      "end": "00:01:35.862",
+      "start": "00:01:32.259",
+      "text": " Say I have my own fruit plants for which I would like to know whether they are fruit or"
+    },
+    {
+      "end": "00:01:38.498",
+      "start": "00:01:35.862",
+      "text": " a vegetable."
+    },
+    {
+      "end": "00:01:42.636",
+      "start": "00:01:38.498",
+      "text": " I know they're potassium, vitamin and calorie values."
+    },
+    {
+      "end": "00:01:45.639",
+      "start": "00:01:42.636",
+      "text": " So let's write this down in Google Sheets."
+    },
+    {
+      "end": "00:01:49.977",
+      "start": "00:01:45.639",
+      "text": " The one thing I need to be careful of is to use the exact same names for the features"
+    },
+    {
+      "end": "00:01:55.148",
+      "start": "00:01:49.977",
+      "text": " in my test data set so that orange can match them correctly."
+    },
+    {
+      "end": "00:02:02.055",
+      "start": "00:01:55.148",
+      "text": " Now let's load the data in orange and read it in the data table widget."
+    },
+    {
+      "end": "00:02:11.298",
+      "start": "00:02:02.055",
+      "text": " Okay, all of our data is here."
+    },
+    {
+      "end": "00:02:17.571",
+      "start": "00:02:11.298",
+      "text": " Connect the file widget with predictions."
+    },
+    {
+      "end": "00:02:20.073",
+      "start": "00:02:17.571",
+      "text": " Do we see anything yet?"
+    },
+    {
+      "end": "00:02:21.341",
+      "start": "00:02:20.073",
+      "text": " Of course not."
+    },
+    {
+      "end": "00:02:24.344",
+      "start": "00:02:21.341",
+      "text": " We need to give the widget some classification model first."
+    },
+    {
+      "end": "00:02:29.149",
+      "start": "00:02:24.344",
+      "text": " Actually, I've already built the model for my training set with the classification tree"
+    },
+    {
+      "end": "00:02:30.150",
+      "start": "00:02:29.149",
+      "text": " widget."
+    },
+    {
+      "end": "00:02:35.155",
+      "start": "00:02:30.150",
+      "text": " Now, all I need to do is connect the classification tree to predictions."
+    },
+    {
+      "end": "00:02:39.059",
+      "start": "00:02:35.155",
+      "text": " I can now view the predictions directly in the widget."
+    },
+    {
+      "end": "00:02:42.996",
+      "start": "00:02:39.059",
+      "text": " Seems like two of my plants are fruit and one is a vegetable."
+    },
+    {
+      "end": "00:02:46.233",
+      "start": "00:02:42.996",
+      "text": " Of course I can use other classifiers as well."
+    },
+    {
+      "end": "00:02:49.736",
+      "start": "00:02:46.233",
+      "text": " A fast and simple one is logistic regression."
+    },
+    {
+      "end": "00:02:52.506",
+      "start": "00:02:49.736",
+      "text": " I wonder if its predictions will be different."
+    },
+    {
+      "end": "00:02:53.774",
+      "start": "00:02:52.506",
+      "text": " Let's check."
+    },
+    {
+      "end": "00:02:58.545",
+      "start": "00:02:53.774",
+      "text": " Again, I will connect logistic regression widget to the file widget and then pass the predictor"
+    },
+    {
+      "end": "00:03:00.914",
+      "start": "00:02:58.545",
+      "text": " to predictions."
+    },
+    {
+      "end": "00:03:08.255",
+      "start": "00:03:00.914",
+      "text": " Seems like logistic regression agrees with predictions from classification tree."
+    },
+    {
+      "end": "00:03:13.794",
+      "start": "00:03:08.255",
+      "text": " As a matter of fact, I have used the actual data for a kiwi asparagus in a raspberry."
+    },
+    {
+      "end": "00:03:16.096",
+      "start": "00:03:13.794",
+      "text": " That is the fruits in a vegetable."
+    },
+    {
+      "end": "00:03:19.199",
+      "start": "00:03:16.096",
+      "text": " The predictions were indeed correct."
+    },
+    {
+      "end": "00:03:23.770",
+      "start": "00:03:19.199",
+      "text": " Today we've learned how to classify our data with classification tree, how to build prediction"
+    },
+    {
+      "end": "00:03:28.775",
+      "start": "00:03:23.770",
+      "text": " models and finally how to use them on a new data set."
+    },
+    {
+      "end": "00:03:32.813",
+      "start": "00:03:28.775",
+      "text": " While we have made the predictions, we have not really evaluated how good this prediction"
+    },
+    {
+      "end": "00:03:34.781",
+      "start": "00:03:32.813",
+      "text": " models were."
+    },
+    {
+      "end": "00:03:38.919",
+      "start": "00:03:34.781",
+      "text": " In the upcoming video, we'll talk about model evaluation and scoring."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Orange Data Mining",
+  "youtube_channel_follower_count": 38300,
+  "youtube_comment_count": 125,
+  "youtube_description": "Making predictions with classification tree and logistic regression.\n\nThe data is no longer available. Follow the procedure with any classification datasets from the Datasets widget or a simple Iris dataset from the File widget.\n\nLicense: GNU GPL + CC\nMusic by: http://www.bensound.com/\nWebsite: https://orangedatamining.com\nCreated by: Laboratory for Bioinformatics, Faculty of Computer and Information Science, University of Ljubljana",
+  "youtube_like_count": 1294,
+  "youtube_tags": [
+    "machine learning",
+    "data mining",
+    "classification tree",
+    "logistic regression",
+    "predictions",
+    "orange3"
+  ],
+  "youtube_title": "Getting Started with Orange 06: Making Predictions",
+  "youtube_upload_date": "20160223",
+  "youtube_view_count": 271418
+}

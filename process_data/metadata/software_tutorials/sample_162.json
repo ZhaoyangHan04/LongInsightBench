@@ -1,0 +1,857 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male character with a shaved head, beard and mustache. He is wearing a white and grey t-shirt.",
+        "name": "Luke"
+      }
+    ],
+    "description": "A comprehensive overview of Artix Linux, its features, benefits, and Luke's personal experience with it.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Artix Linux offers versions with preconfigured desktops like Cinnamon, XFCE, and Plasma.",
+        "question": "Besides base installs, what other types of Artix Linux versions are available?"
+      },
+      {
+        "answer": "Luke uses the command `pacman -Qs networkmanager` to search for packages related to network management.",
+        "question": "What command does Luke use to demonstrate how runit works in Artix?"
+      },
+      {
+        "answer": "Luke prefers runit because he finds it faster on startup and updates compared to OpenRC.",
+        "question": "Which init system does Luke prefer and why?"
+      },
+      {
+        "answer": "Luke mentions that Manjaro (based on Arch) adds unnecessary wrappers and hooks to Pacman, while Artix avoids such additions.",
+        "question": "What specific example does Luke provide to illustrate the difference between Artix and Arch Linux?"
+      },
+      {
+        "answer": "Artix works so smoothly and seamlessly that Luke often forgets he is not using a more common distribution like Arch.",
+        "question": "What is the main reason Luke forgets he is using Artix Linux?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Talking about Artix Linux",
+            "timestamp": {
+              "end_timestamp": "00:10:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Searching Artix Linux website",
+            "timestamp": {
+              "end_timestamp": "00:00:24.000",
+              "start_timestamp": "00:00:20.000"
+            }
+          },
+          {
+            "description": "Showing Artix Linux download page",
+            "timestamp": {
+              "end_timestamp": "00:04:55.000",
+              "start_timestamp": "00:02:06.000"
+            }
+          },
+          {
+            "description": "Demonstrating runit command",
+            "timestamp": {
+              "end_timestamp": "00:06:27.000",
+              "start_timestamp": "00:05:01.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Luke"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Luke's preference for Artix Linux over Arch Linux suggests a desire for a more minimalist and streamlined experience. The discussion of distro reviews highlights the shift from technical analysis to personal storytelling on YouTube.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Luke introduces Artix Linux and discusses his personal experience with it",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Luke explores the Artix Linux download page and explains the different init system options",
+            "timestamp": "00:02:06.000"
+          },
+          {
+            "description": "Luke uses the terminal to demonstrate how runit works in Artix Linux",
+            "timestamp": "00:05:01.000"
+          },
+          {
+            "description": "Luke shares his preference for runit over OpenRC and discusses the history of Linux distribution reviews on YouTube",
+            "timestamp": "00:06:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Artix Linux website",
+            "timestamp": {
+              "end_timestamp": "00:10:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Terminal window",
+            "timestamp": {
+              "end_timestamp": "00:06:27.000",
+              "start_timestamp": "00:05:01.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The benefits of using a Linux distribution without systemd. The importance of understanding different init systems. The evolution of Linux distribution reviews on YouTube.",
+        "timestamps": {
+          "end_timestamp": "00:10:07.500",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is not clearly defined as the scene is more of an informative review than a narrative story.",
+        "timestamp": "00:00:00.000"
+      },
+      "description": "This storyline encompasses the entire scene as Luke explores and explains the features, benefits, and his personal experience with Artix Linux.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Artix Linux Review",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment where Luke searches for the \"networkmanager-openrc\" package could be trimmed as it does not add significant information and slightly disrupts the flow of the demonstration.",
+        "timestamps": {
+          "end_timestamp": "00:05:28.000",
+          "start_timestamp": "00:05:19.000"
+        }
+      },
+      {
+        "description": "The rambling segment where Luke discusses his thoughts on Linux distribution reviews could be condensed to maintain a more focused and dynamic pace.",
+        "timestamps": {
+          "end_timestamp": "00:09:18.000",
+          "start_timestamp": "00:08:42.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 608,
+  "original_json_filename": "SVc6n5aOzy0.json",
+  "original_video_filename": "SVc6n5aOzy0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "you know it's weird I sometimes forget I don't use arched Linux I haven't used Arch Linux in like a year I know there's this meme out there that I do or in fact that I am the quintessential arts user but that's that's not true I don't use arch and I don't really plan on ever using it again the distribution I actually uses this right here artx artx Linux if you go to RTX linux org and I sort of installed it first off what is it now if you are just out there you want to install a cool distribution or something like that Ardex Linux actually even if you're a newbie this might be an excellent distribution to install because it hits everything exactly perfectly okay but if you just want to look cool on the internet it has all the perks of arch it's just like having arch but you also it's it's calling card is that it does not have soy stem D as it's a simple fast system D free so you guys know if you've watched my channel for a while I'm not against system B really I I don't know maybe you're a newbie you don't know what this is basically it's this init system that gradually started taking over all these other processes on the machine and some people think it's terrible and bloat and evil and you know I've even put out videos basically simple for system D saying it's not really that bad it's not a big problem especially for new users but you know Rx is so a lot of people who use artx or these people who are just really against system D or at least somewhat against it and I'm not really one of them but I will say that I have installed and run Ardex for around a year or so and it works fine I and again I I forget that I use it sometimes I sort of feel like because the experience you know it has all the benefits of using Arch it is just yeah I mean it's just basically the same thing there's some minor differences I'll talk about a couple of them in this video anyway you're funny if you want to go to it now here's the nice thing and now it works as a arch equivalent again if you just want to have a system without system D maybe maybe you don't like something about system D maybe again you just want to look cool on the internet but it's also potentially very good for people who have not used Linux before because well where I should say where Arctic's came from is there were people who made this fork of Arch Linux and they called it Arch open RC and there are these people who made a similar of course running open are see as an init system and there were these people who are running met or who forked Manjaro into a Manjaro open RC and they sort of joined forces for arts or art X Linux but one of the things about that is of course they have the base installs so I you know I use the run at version of this but they have base installs of if you want to install it like Arch Linux but additionally like Manjaro if you want to send them in desktop you want to you want to install it and have a desktop configured by default you can do that as well they have cinnamon xfce plasma whatever you want they have some community versions wonder what that's supposed to be gtk that's very nondescript but anyway so this is one of the I know I did this video around a week or so ago on Manjaro and one of the reasons I recommend Manjaro usually for new users is it has a lot of the benefits of arch but it also you know you can just install a graphical environment if you don't know how to do it but now that I think about it again now that I remember that I use artx and that it actually works great it might actually be even better to just use Arctic's instead because man Jarrah does add in some stuff that I don't necessarily like again just like weird wrappers and hooks on pac-man and they throw a bunch of cruft in there that is unnecessary whereas it probably would be just as easy easy to install you know one of these debt like a cinnamon desktop okay so I should be clear I I said that Arctic's doesn't have system D you might notice here if you read it that you know you actually have three different varieties of artx now for the most part they're gonna work the same way but they have open RC the open RC in its system that I think that's really their default they also have run it and s6 I have never used s6 in my life I have used both open RC and run it quite a good deal and the version is actually running I really like run it because now I should say if your your thing if you've never used any of these and you're trying to make up your mind the safest in this case might be open RC because it's more default but you know if you could figure out run it pretty easily it's basically the same concept you know you just look up on the Arctic's wiki and they'll tell you how to tell you how to work it but so they you do have three different versions of it which is pretty cool but of course the packages are basically the same way I mean I mean they're the same repositories and stuff just a little couple differences I mean just to show you here's an example you know let's say so for any package that you're in it system might be starting for you let's say network manager there's gonna be the network manager package I'm not quite sure I think this might come with the open RC I don't know is there a package called a network manager open or see is that how they do it okay yeah so basically how they do it is there's a network manager package and if you're running run it you also install network manager - run it and that will give you the ability to auto start that or you know - open RC if you're using that oh maybe there's maybe that's how they do s-six I don't even know how s6 works okay yeah that is how they do it so within their repositories actually keep all these different things now 99% of the time it's not really gonna matter what in this init system you're running just as long as you can dab on system D users that's the important thing now in run it I'll go ahead and say I think they keep their XE run it SV yeah that's it so here you see all these little things that I have all the things that I can saw I don't know what the name is for them the profiles of programs I can start with my init system you know tor MPD I don't know why I have light DM installed do I have like the uninstalled okay maybe that's not his package name who cares but anyway so if you're a newbie I would probably go with open RC although if you went with run it i I think run it's a little better it's a little quick her on startup and stuff like that open our see like well okay I don't think open RC parallel Isis things at startup so it might take a little longer you can tell it to do you can change the configuration file but there are other little things about run it that make me prefer it and I've never tried s6 maybe it's good or maybe it's not pronounced s6 is it I don't know you never know with these computer programs nowadays I don't know I just don't know anything about it but yeah so artx as a review I can say that I've used it for a year and it is so it I guess the best testimony I can give it is that it works so well I forget that I'm running it and I think I'm just running arch or some other distribution you don't think about it that's usually the good sign of a good distribution I've actually said this about arch because once you install Arch Linux you know you don't really think that much about okay my face is out of sync again of so annoying you don't really think about it once you have it installed but so yeah I guess that's about it um yeah that's about it I think I might do a little video installing it or something like that actually I think I was going to then I said these to download yeah I think I had it I think I'm gonna have it download the cinnamon desktop just cuz why not I'm gonna try it out you know back in the day I will say that here's a little boomer reminiscence okay back before I came to YouTube or I mean it's not really about me back when I started YouTube every like every Linux channel what they did just non-stop is distro reviews distro reviews distro reviews disre reviews and like I don't know it was just so annoying to me like I never did those videos this is not you I don't know if you want to even call this a distro review here but I sort of feel weird even talking about it but that's the weird thing and it still get clicked it still gets clicks mind you if you just do a video like I'm like oh bun 2 versus Arch Linux or something like that that's like catnip to people and the word thing is all right I'm just gonna ramble a little bit cuz why not I don't know it's funny because like the comments you get in videos like this are so interesting because people just like tell you their story oh I installed Ubuntu and then for three weeks I did this and lava blunts like I don't know how does this elicit we're just talking about distributions and you're just I don't know sharing your life story with us or something I don't know that's just I'll never understand the the sort of maybe it's just that special area where you're learning about technology and you just want to talk about it all the time okay that's maybe that's it but either way if you're in that state art artx Linux is a good distribution to try if you are a power user and you just want to dab on people because you don't use soy stem D artx Linux is also an excellent distribution I like it more than arch I mean it's not that much different to for me to have a really really strong opinion but it's good and basically everything app that applies to arch so long as it's not like a system v specific thing applies to this so I highly recommend it yeah I'll probably do some kind of installation video for this but yeah see you guys next time can you believe this look at that 958 all right now I'm over ten minutes that'll be enough I gotta get my edit companies see you guys next time",
+  "text_to_speech_word_count": 1974,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.233",
+      "start": "00:00:00.000",
+      "text": " You know, it's weird. I sometimes forget I don't use arch Linux. I haven't used arch Linux in like a year"
+    },
+    {
+      "end": "00:00:12.800",
+      "start": "00:00:07.233",
+      "text": " I know there's this meme out there that I do or in fact that I am the quintessential arch user"
+    },
+    {
+      "end": "00:00:18.033",
+      "start": "00:00:12.800",
+      "text": " But that's just that's not true. I don't use arch and I don't really plan on ever using it again"
+    },
+    {
+      "end": "00:00:24.633",
+      "start": "00:00:18.600",
+      "text": " The distribution I actually use is this right here artics artics Linux if you go to artics linux.org"
+    },
+    {
+      "end": "00:00:32.833",
+      "start": "00:00:24.633",
+      "text": " And I sort of installed it first off. What is it now if you're just out there you want to install a cool distribution or something like that"
+    },
+    {
+      "end": "00:00:39.133",
+      "start": "00:00:32.833",
+      "text": " Artics Linux actually even if you're a newbie this might be an excellent distribution to install because it hits everything"
+    },
+    {
+      "end": "00:00:43.300",
+      "start": "00:00:39.333",
+      "text": " Exactly perfectly, okay, but if you just want to look cool on the internet"
+    },
+    {
+      "end": "00:00:46.533",
+      "start": "00:00:43.300",
+      "text": " It has all the perks of arch. It's just like having arch"
+    },
+    {
+      "end": "00:00:54.500",
+      "start": "00:00:46.700",
+      "text": " But you also it's it's calling card is that it does not have soystem D as it's a simple fast system D free"
+    },
+    {
+      "end": "00:01:00.833",
+      "start": "00:00:54.500",
+      "text": " So you guys know if you've watched my channel for a while. I'm not against system D really I"
+    },
+    {
+      "end": "00:01:08.033",
+      "start": "00:01:01.400",
+      "text": " I don't know maybe you're a newbie. You don't know what this is basically. It's this init system that gradually started taking over"
+    },
+    {
+      "end": "00:01:13.333",
+      "start": "00:01:08.800",
+      "text": " All these other processes on the machine and some people think it's terrible and bloat and evil and"
+    },
+    {
+      "end": "00:01:19.533",
+      "start": "00:01:14.533",
+      "text": " You know, I've even put out videos basically simping for system D saying it's not really that bad"
+    },
+    {
+      "end": "00:01:21.833",
+      "start": "00:01:19.533",
+      "text": " I've it's not a big problem especially for new users"
+    },
+    {
+      "end": "00:01:24.133",
+      "start": "00:01:22.067",
+      "text": " But you know"
+    },
+    {
+      "end": "00:01:29.333",
+      "start": "00:01:24.700",
+      "text": " Artics is so a lot of the people who use artics are these people who are just really against system D"
+    },
+    {
+      "end": "00:01:32.600",
+      "start": "00:01:29.733",
+      "text": " Or at least somewhat against it and I'm not really one of them"
+    },
+    {
+      "end": "00:01:37.033",
+      "start": "00:01:32.600",
+      "text": " But I will say that I have installed and run artics for around a year or so and"
+    },
+    {
+      "end": "00:01:40.400",
+      "start": "00:01:38.233",
+      "text": " It works fine. I and again"
+    },
+    {
+      "end": "00:01:41.267",
+      "start": "00:01:40.400",
+      "text": " I"
+    },
+    {
+      "end": "00:01:48.467",
+      "start": "00:01:41.267",
+      "text": " Forget that I use it sometimes. I sort of feel like because the experience it has all the benefits of using arch"
+    },
+    {
+      "end": "00:01:50.467",
+      "start": "00:01:48.700",
+      "text": " It is just"
+    },
+    {
+      "end": "00:01:55.733",
+      "start": "00:01:50.467",
+      "text": " Yeah, I mean it's just basically the same thing. There's some minor differences. I'll talk about a couple of them in this video"
+    },
+    {
+      "end": "00:02:02.200",
+      "start": "00:01:56.133",
+      "text": " Anyway, if you want to go to it now here's the nice thing and now it works as a arch equivalent again"
+    },
+    {
+      "end": "00:02:04.600",
+      "start": "00:02:02.200",
+      "text": " If you just want to have a system without system D"
+    },
+    {
+      "end": "00:02:10.900",
+      "start": "00:02:05.233",
+      "text": " Maybe maybe you don't like something about system D. Maybe again you just want to look cool on the internet, but it's also"
+    },
+    {
+      "end": "00:02:19.033",
+      "start": "00:02:11.900",
+      "text": " Potentially very good for people who have not used Linux before because well where I should say where artics came from is"
+    },
+    {
+      "end": "00:02:24.933",
+      "start": "00:02:19.667",
+      "text": " There were people who made this fork of arch Linux and they called it arch open RC"
+    },
+    {
+      "end": "00:02:29.767",
+      "start": "00:02:24.933",
+      "text": " And there were these people who made a similar of course running open RC as an init system"
+    },
+    {
+      "end": "00:02:31.767",
+      "start": "00:02:29.767",
+      "text": " And there were these people who were running"
+    },
+    {
+      "end": "00:02:39.067",
+      "start": "00:02:32.100",
+      "text": " Or who forked a man jarro into a man jarro open RC and they sort of joined forces for arch or our artics Linux"
+    },
+    {
+      "end": "00:02:43.433",
+      "start": "00:02:39.667",
+      "text": " But one of the things about that is of course they have the base installs"
+    },
+    {
+      "end": "00:02:48.300",
+      "start": "00:02:43.733",
+      "text": " So you know, I use the run it version of this, but they have base installs of"
+    },
+    {
+      "end": "00:02:56.333",
+      "start": "00:02:50.400",
+      "text": " If you want to install it like arch Linux, but additionally like man jarro if you want a cinnamon desktop"
+    },
+    {
+      "end": "00:03:01.200",
+      "start": "00:02:56.333",
+      "text": " You want to you want to install it and have a desktop configured by default you can do that as well"
+    },
+    {
+      "end": "00:03:03.200",
+      "start": "00:03:01.200",
+      "text": " They have cinnamon XFCE"
+    },
+    {
+      "end": "00:03:06.833",
+      "start": "00:03:03.433",
+      "text": " Plasma whatever you want they have some community versions"
+    },
+    {
+      "end": "00:03:10.633",
+      "start": "00:03:07.400",
+      "text": " I wonder what that's supposed to be GTK. That's very"
+    },
+    {
+      "end": "00:03:15.400",
+      "start": "00:03:11.233",
+      "text": " Non-descript, but anyway, so this is one of the I know I did this video"
+    },
+    {
+      "end": "00:03:22.933",
+      "start": "00:03:16.100",
+      "text": " Around a week or so ago on man jarro and one of the reasons I recommend man jarro usually for new users is"
+    },
+    {
+      "end": "00:03:25.100",
+      "start": "00:03:22.933",
+      "text": " It has a lot of the benefits of arch"
+    },
+    {
+      "end": "00:03:30.267",
+      "start": "00:03:25.433",
+      "text": " But it also you know, you can just install a graphical environment if you don't know how to do it"
+    },
+    {
+      "end": "00:03:35.833",
+      "start": "00:03:30.267",
+      "text": " But now that I think about it again now that I remember that I use artics and that it actually works great"
+    },
+    {
+      "end": "00:03:43.267",
+      "start": "00:03:36.333",
+      "text": " It might actually be even better to just use artics instead because man jarro does add in some stuff that I don't necessarily like"
+    },
+    {
+      "end": "00:03:50.900",
+      "start": "00:03:44.400",
+      "text": " Again, just like weird rappers and hooks on Pac-Man and they throw a bunch of cruffed in there that is unnecessary"
+    },
+    {
+      "end": "00:03:54.833",
+      "start": "00:03:51.133",
+      "text": " Whereas it probably would be just as easy to install"
+    },
+    {
+      "end": "00:03:58.267",
+      "start": "00:03:55.400",
+      "text": " You know one of these like a cinnamon desktop, okay?"
+    },
+    {
+      "end": "00:04:02.533",
+      "start": "00:03:58.533",
+      "text": " So I should be clear I said that artics doesn't have system D"
+    },
+    {
+      "end": "00:04:08.867",
+      "start": "00:04:02.533",
+      "text": " You might notice here if you read it that it actually have three different varieties of artics now for the most part"
+    },
+    {
+      "end": "00:04:12.267",
+      "start": "00:04:08.867",
+      "text": " They're gonna work the same way, but they have open RC"
+    },
+    {
+      "end": "00:04:16.867",
+      "start": "00:04:13.300",
+      "text": " The open RC in its system that I think that's really their default"
+    },
+    {
+      "end": "00:04:22.300",
+      "start": "00:04:17.267",
+      "text": " They also have run it and S6 I have never used S6 in my life"
+    },
+    {
+      "end": "00:04:27.600",
+      "start": "00:04:22.300",
+      "text": " I have used both open RC and run it quite a good deal and the version I run is actually running"
+    },
+    {
+      "end": "00:04:31.667",
+      "start": "00:04:27.600",
+      "text": " I really like run it because now I should say if you're you're a thing"
+    },
+    {
+      "end": "00:04:34.800",
+      "start": "00:04:31.667",
+      "text": " If you've never used any of these and you're trying to make up your mind"
+    },
+    {
+      "end": "00:04:39.333",
+      "start": "00:04:35.267",
+      "text": " The safest in this case might be open RC because it's more default"
+    },
+    {
+      "end": "00:04:45.233",
+      "start": "00:04:39.900",
+      "text": " But you know if you could figure out run it pretty easily. It's basically the same concept"
+    },
+    {
+      "end": "00:04:50.533",
+      "start": "00:04:45.900",
+      "text": " You know you just look up on the artics wiki and they'll tell you how to work it"
+    },
+    {
+      "end": "00:04:54.467",
+      "start": "00:04:51.067",
+      "text": " But so they you do have three different versions of it, which is pretty cool"
+    },
+    {
+      "end": "00:04:59.933",
+      "start": "00:04:54.700",
+      "text": " But of course the packages are basically the same way I mean they're the same repositories and stuff"
+    },
+    {
+      "end": "00:05:04.900",
+      "start": "00:04:59.933",
+      "text": " Just a little couple differences. I mean just to show you here's an example. You know, let's say"
+    },
+    {
+      "end": "00:05:11.067",
+      "start": "00:05:07.067",
+      "text": " So for any package that your init system might be starting for you"
+    },
+    {
+      "end": "00:05:17.133",
+      "start": "00:05:12.267",
+      "text": " Let's say network manager. There's gonna be the network manager package. I'm not quite sure"
+    },
+    {
+      "end": "00:05:20.567",
+      "start": "00:05:17.133",
+      "text": " I think this might come with the open RC. I don't know is there a package called"
+    },
+    {
+      "end": "00:05:25.633",
+      "start": "00:05:21.467",
+      "text": " Network manager open RC. Is that how they do it?"
+    },
+    {
+      "end": "00:05:28.567",
+      "start": "00:05:26.567",
+      "text": " Okay, yeah"
+    },
+    {
+      "end": "00:05:34.567",
+      "start": "00:05:29.233",
+      "text": " So basically how they do it is there's a network manager package and if you're running run it"
+    },
+    {
+      "end": "00:05:41.300",
+      "start": "00:05:34.567",
+      "text": " You also install network manager hyphen rennet and that will give you the ability to auto start that or you know"
+    },
+    {
+      "end": "00:05:46.000",
+      "start": "00:05:41.400",
+      "text": " hyphen open RC if you're using that. I don't know. Maybe there's maybe that's how they do S6"
+    },
+    {
+      "end": "00:05:49.133",
+      "start": "00:05:46.000",
+      "text": " I don't even know how S6 works. Okay. Yeah, that is how they do it"
+    },
+    {
+      "end": "00:05:55.067",
+      "start": "00:05:49.633",
+      "text": " So within the there were repositories actually keep all these different things now in 99% of the time"
+    },
+    {
+      "end": "00:05:58.100",
+      "start": "00:05:55.067",
+      "text": " It's not really gonna matter what in this init system you're running"
+    },
+    {
+      "end": "00:06:02.667",
+      "start": "00:05:58.667",
+      "text": " Just as long as you can dab on system D users. That's the important thing"
+    },
+    {
+      "end": "00:06:06.667",
+      "start": "00:06:03.533",
+      "text": " Now in run it. I'll go ahead and say I think they keep their"
+    },
+    {
+      "end": "00:06:13.867",
+      "start": "00:06:08.100",
+      "text": " Etsy run it SV. Yeah, that's it. So here you see all these little things that I have all the"
+    },
+    {
+      "end": "00:06:20.033",
+      "start": "00:06:15.000",
+      "text": " Things that I can saw. I don't know what the name is for them the profiles of programs. I can start with my init system"
+    },
+    {
+      "end": "00:06:25.133",
+      "start": "00:06:21.000",
+      "text": " You know tour impd. I don't know why I have light dm installed. Do I have"
+    },
+    {
+      "end": "00:06:28.033",
+      "start": "00:06:26.033",
+      "text": " light dm installed"
+    },
+    {
+      "end": "00:06:30.100",
+      "start": "00:06:28.100",
+      "text": " Okay, maybe that's not his package name who cares"
+    },
+    {
+      "end": "00:06:32.600",
+      "start": "00:06:30.667",
+      "text": " But anyway, so if you're newbie"
+    },
+    {
+      "end": "00:06:36.600",
+      "start": "00:06:32.667",
+      "text": " I would probably go with open RC although if you want with run it"
+    },
+    {
+      "end": "00:06:41.533",
+      "start": "00:06:36.667",
+      "text": " I think run it's a little better. It's a little quicker on startup and stuff like that open RC"
+    },
+    {
+      "end": "00:06:47.533",
+      "start": "00:06:42.833",
+      "text": " Like well, okay. I don't think open RC parallelizes things at startup"
+    },
+    {
+      "end": "00:06:51.800",
+      "start": "00:06:47.633",
+      "text": " So it might take a little longer you can tell it to do you can change the configuration file"
+    },
+    {
+      "end": "00:06:56.267",
+      "start": "00:06:51.933",
+      "text": " But there are other little things about run it that make me prefer it and I've never tried s6"
+    },
+    {
+      "end": "00:07:03.000",
+      "start": "00:06:56.333",
+      "text": " Maybe it's good or maybe it's not pronounced s6 is it I don't know you never know with these computer programs nowadays"
+    },
+    {
+      "end": "00:07:05.233",
+      "start": "00:07:03.233",
+      "text": " I don't know. I just don't know anything about it"
+    },
+    {
+      "end": "00:07:08.433",
+      "start": "00:07:05.867",
+      "text": " But yeah, so artics as a review"
+    },
+    {
+      "end": "00:07:13.400",
+      "start": "00:07:09.633",
+      "text": " I can say that I've used it for a year and it is so"
+    },
+    {
+      "end": "00:07:17.933",
+      "start": "00:07:14.333",
+      "text": " It I guess the best testimony I can give it is that it works so well"
+    },
+    {
+      "end": "00:07:23.067",
+      "start": "00:07:18.033",
+      "text": " I forget that I'm running it and I think I'm just running arch or some other distribution"
+    },
+    {
+      "end": "00:07:28.033",
+      "start": "00:07:23.067",
+      "text": " You don't think about it. That's usually the good sign of a good distribution. I've actually said this about arch"
+    },
+    {
+      "end": "00:07:31.133",
+      "start": "00:07:29.000",
+      "text": " Because once you install arch Linux"
+    },
+    {
+      "end": "00:07:33.633",
+      "start": "00:07:31.767",
+      "text": " You know, you don't really think that much about"
+    },
+    {
+      "end": "00:07:37.467",
+      "start": "00:07:34.200",
+      "text": " um, okay, my face is out of sync again. Oh, it's so annoying"
+    },
+    {
+      "end": "00:07:40.500",
+      "start": "00:07:38.267",
+      "text": " You don't really think about it once you have it installed"
+    },
+    {
+      "end": "00:07:43.000",
+      "start": "00:07:41.467",
+      "text": " but"
+    },
+    {
+      "end": "00:07:44.200",
+      "start": "00:07:43.000",
+      "text": " so"
+    },
+    {
+      "end": "00:07:46.200",
+      "start": "00:07:44.200",
+      "text": " Yeah, I guess that's about it um"
+    },
+    {
+      "end": "00:07:50.667",
+      "start": "00:07:46.433",
+      "text": " Yeah, that's about it. I think I might do a little video installing it or something like that"
+    },
+    {
+      "end": "00:07:52.667",
+      "start": "00:07:50.667",
+      "text": " I actually I think I was going to"
+    },
+    {
+      "end": "00:07:54.600",
+      "start": "00:07:52.667",
+      "text": " Did I set these download?"
+    },
+    {
+      "end": "00:07:56.267",
+      "start": "00:07:54.600",
+      "text": " Yeah, I think I had it"
+    },
+    {
+      "end": "00:07:59.233",
+      "start": "00:07:56.267",
+      "text": " I think I'm gonna have it download the cinnamon desktop just because why not?"
+    },
+    {
+      "end": "00:08:03.867",
+      "start": "00:07:59.233",
+      "text": " I'm gonna try it out, you know back in the day. I will say that like here's here's a little boomer reminiscence, okay?"
+    },
+    {
+      "end": "00:08:10.033",
+      "start": "00:08:05.400",
+      "text": " Back before I came to youtube or I mean, it's not really about me back when I started youtube"
+    },
+    {
+      "end": "00:08:11.533",
+      "start": "00:08:10.500",
+      "text": " um"
+    },
+    {
+      "end": "00:08:16.433",
+      "start": "00:08:11.533",
+      "text": " Every like every Linux channel what they did just nonstop is distro reviews"
+    },
+    {
+      "end": "00:08:23.233",
+      "start": "00:08:16.667",
+      "text": " distro reviews distro reviews distro reviews and like I don't know like it was just so annoying to me like I"
+    },
+    {
+      "end": "00:08:28.267",
+      "start": "00:08:23.233",
+      "text": " I never did those videos. This is not I don't know if you want to even call this a distro review here"
+    },
+    {
+      "end": "00:08:32.667",
+      "start": "00:08:28.267",
+      "text": " But I sort of feel weird even talking about it, but that's a weird thing and it still get clicked"
+    },
+    {
+      "end": "00:08:34.733",
+      "start": "00:08:32.733",
+      "text": " It still gets clicks mind you"
+    },
+    {
+      "end": "00:08:37.233",
+      "start": "00:08:35.067",
+      "text": " If you just do a video like on like oh"
+    },
+    {
+      "end": "00:08:43.233",
+      "start": "00:08:37.633",
+      "text": " Ubuntu versus Arch Linux or something like that. That's like catnip to people and the word thing is all right"
+    },
+    {
+      "end": "00:08:45.867",
+      "start": "00:08:43.400",
+      "text": " I'm just gonna ramble a little bit because why not? I don't know"
+    },
+    {
+      "end": "00:08:50.033",
+      "start": "00:08:47.067",
+      "text": " It's funny because like the comments you get in videos like this are so"
+    },
+    {
+      "end": "00:08:52.667",
+      "start": "00:08:51.000",
+      "text": " interesting because"
+    },
+    {
+      "end": "00:08:58.900",
+      "start": "00:08:52.667",
+      "text": " People just want to like tell you their story. Oh, I installed Ubuntu and then for three weeks I did this and blah blah blah"
+    },
+    {
+      "end": "00:09:04.667",
+      "start": "00:08:58.900",
+      "text": " And it's like I don't how does this elicit? We're just talking about distributions and you're just I don't know sharing"
+    },
+    {
+      "end": "00:09:09.233",
+      "start": "00:09:04.833",
+      "text": " Your life story with us or something. I don't I don't know that's just I'll never understand"
+    },
+    {
+      "end": "00:09:17.867",
+      "start": "00:09:10.100",
+      "text": " The sort of maybe it's just that that special area where you're learning about technology and you just want to talk about it all the time"
+    },
+    {
+      "end": "00:09:20.100",
+      "start": "00:09:18.100",
+      "text": " Okay, that maybe that's it"
+    },
+    {
+      "end": "00:09:22.267",
+      "start": "00:09:20.267",
+      "text": " But either way if you're in that state"
+    },
+    {
+      "end": "00:09:30.733",
+      "start": "00:09:22.833",
+      "text": " Art artics Linux is a good distribution to try if you are a power user and you just want to dab on people because you don't use"
+    },
+    {
+      "end": "00:09:32.033",
+      "start": "00:09:30.833",
+      "text": " Soystem D"
+    },
+    {
+      "end": "00:09:34.833",
+      "start": "00:09:32.033",
+      "text": " Artics Linux is also an excellent distribution"
+    },
+    {
+      "end": "00:09:36.433",
+      "start": "00:09:35.400",
+      "text": " um"
+    },
+    {
+      "end": "00:09:39.933",
+      "start": "00:09:36.433",
+      "text": " I I like it more than arch. I mean, it's not that much different to"
+    },
+    {
+      "end": "00:09:43.633",
+      "start": "00:09:40.667",
+      "text": " For me to have a really really strong opinion, but it's good and"
+    },
+    {
+      "end": "00:09:50.333",
+      "start": "00:09:44.500",
+      "text": " The basically everything that applies to arch as so long as it's not like a system D specific thing applies to this"
+    },
+    {
+      "end": "00:09:57.700",
+      "start": "00:09:50.900",
+      "text": " So I highly recommend it. Yeah, I'll probably do some kind of installation video for this, but yeah, see you guys next time"
+    },
+    {
+      "end": "00:10:01.000",
+      "start": "00:09:58.433",
+      "text": " Can you believe this look at that?"
+    },
+    {
+      "end": "00:10:07.467",
+      "start": "00:10:01.467",
+      "text": " 958. All right now I'm over 10 minutes. That'll be enough. I got to get my ed. Come these. See you guys next time"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Luke Smith",
+  "youtube_channel_follower_count": 206000,
+  "youtube_comment_count": 664,
+  "youtube_description": "Artix has all the advantages of Arch Linux, it also provides isos with pre-installed graphical environments, but importantly it does not systemd, allows users to dab on others in internet discussions. I installed it on my computer to do testing of LARBS, but it ended up being so seamless I kept it on, despite the fact that I am a confirmed soystemd shill who has defended it in the past.\n\nIt has OpenRC, runit and s6 versions (I use runit). You can install the base/minimal install just like how you'd do Arch with minor differences or install one of the many desktop environments: Cinnamon, XFCE, Plasma, LXDE, LXQT, etc.\n\nWEBSITE: https://lukesmith.xyz 🌐❓🔎\nDONATE: https://lukesmith.xyz/donate 💰😎👌💯\nOR affiliate links to things l use:\nhttps://www.epik.com/?affid=we2ro7sa6 Get a cheap and reliable domain name with Epik.\nhttps://www.vultr.com/?ref=8384069-6G Get a VPS and host a website or server for anything else.\nhttps://brave.com/luk005 Get the Brave browser.\nhttps://lbry.tv/$/invite/@Luke View my videos on LBRY.\nhttps://www.coinbase.com/join/smith_5to1 Get crypto-rich on Coinbase.",
+  "youtube_like_count": 5562,
+  "youtube_tags": [
+    "arch",
+    "linux",
+    "artix",
+    "gentoo",
+    "openrc",
+    "systemd",
+    "init",
+    "runit",
+    "s6",
+    "manjaro",
+    "beginner",
+    "distribution",
+    "system",
+    "gnu",
+    "free",
+    "software",
+    "download",
+    "install",
+    "installation guide"
+  ],
+  "youtube_title": "One EASY TRICK to Feel Superior to Arch Linux Users!",
+  "youtube_upload_date": "20200624",
+  "youtube_view_count": 198301
+}

@@ -1,0 +1,1017 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male, Caucasian, wears round glasses and a light blue shirt.",
+        "name": "Dr. Mathieu Sinn"
+      },
+      {
+        "characterId": "2",
+        "description": "Female, Caucasian, curly brown hair, wears a black shirt with white patterns.",
+        "name": "Dr. Maria-Irina Nicolae"
+      },
+      {
+        "characterId": "3",
+        "description": "Male, Caucasian, wears glasses and has a beard, wears a dark shirt with a brown pattern.",
+        "name": "Dr. Ian Molloy"
+      },
+      {
+        "characterId": "4",
+        "description": "Male, Middle Eastern ethnicity, mustache, wears a black sweatshirt and headband with a camera attached.",
+        "name": "Man with Puzzle"
+      },
+      {
+        "characterId": "5",
+        "description": "Male, South Asian ethnicity, black hair, wears glasses and a blue and white striped shirt.",
+        "name": "Man in Office 1"
+      },
+      {
+        "characterId": "6",
+        "description": "Male, Caucasian, brown hair, wears a blue sweater.",
+        "name": "Man in Office 2"
+      },
+      {
+        "characterId": "7",
+        "description": "Female, Caucasian, brown hair in a bun, wears a burgundy shirt.",
+        "name": "Woman in Meeting"
+      }
+    ],
+    "description": "This video explores the topic of AI, focusing on the threat of adversarial attacks and efforts to mitigate them. It features industry experts and animated explanations to illustrate the concepts discussed.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "By wearing specially designed glasses that confuse the system. (Illustrated in the video at 1:16).",
+        "question": "What is one way attackers can evade facial recognition systems?"
+      },
+      {
+        "answer": "By placing patches on traffic signs, causing the vehicle to misinterpret the sign. (Illustrated in the video at 1:26).",
+        "question": "How can attackers manipulate autonomous vehicles?"
+      },
+      {
+        "answer": "The Adversarial Robustness Toolbox.",
+        "question": "What is the name of the open-source library developed by IBM Research Island to help defend DNNs?"
+      },
+      {
+        "answer": "Hardening models, measuring robustness, and detecting adversarial inputs at runtime.",
+        "question": "What are the three key elements of defending DNNs against adversarial attacks?"
+      },
+      {
+        "answer": "The video starts with an informative and curious tone, shifts to a slightly anxious tone when presenting the threats of adversarial attacks, and ultimately ends on a hopeful and collaborative note as solutions and research efforts are highlighted.",
+        "question": "What is the overall tone of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Dr. Sinn speaks to the camera, explaining the progress of AI and its potential to solve modern problems.",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Dr. Mathieu Sinn"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dr. Mathieu Sinn"
+            ],
+            "description": "Dr. Sinn speaks directly to the camera, addressing the viewer."
+          }
+        ],
+        "contextualRelevance": "The use of imagery showcasing modern life suggests that AI is not a distant future concept but rather a technology already intertwined with our present and poised to shape our future.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "The transition from the dark background to the city scene signifies a shift from a neutral, introductory tone to a more hopeful and curious mood.",
+              "timestamp": "00:00:25.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the topic of AI and its potential benefits.",
+            "timestamp": "00:00:14.000"
+          },
+          {
+            "description": "Visuals shift to depict a bustling city and a highway, illustrating the potential impact of AI on society.",
+            "timestamp": "00:00:25.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "The potential benefits and impact of AI, the evolution of AI technology.",
+        "timestamps": {
+          "end_timestamp": "00:00:33.160",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to AI and Its Potential",
+        "videoEditingDetails": [
+          {
+            "description": "Fade In",
+            "timestamps": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Title card: IBM Research AI, Adversarial Robustness Toolbox",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Fade Out",
+            "timestamps": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Title card: IBM Research | Ireland",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Fade Out",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "Dr. Sinn appears on a dark background",
+            "timestamps": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "description": "Transition to a city scene with people walking on stairs, shot from above",
+            "timestamps": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:25.000"
+            }
+          },
+          {
+            "description": "Transition to a highway with cars driving at night, shot from above",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Animated explanation of Deep Neural Networks (DNNs) and their vulnerability to adversarial attacks.",
+            "timestamp": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The misclassification of the cat as a donkey, despite the imperceptible change to the image, emphasizes the potential severity of adversarial attacks and the need for robust defenses.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative, slightly anxious",
+          "keyMoments": [
+            {
+              "changeDescription": "The introduction of 'adversarial noise' marks a shift from a neutral explanation of DNNs to a slightly anxious mood, highlighting the vulnerability of AI systems.",
+              "timestamp": "00:00:54.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene explains the core concept of DNNs and then introduces the vulnerability of these networks to adversarial attacks.",
+            "timestamp": "00:00:34.000"
+          },
+          {
+            "description": "Laptop screen displays a cat silhouette, representing an image being classified by the DNN.",
+            "timestamp": "00:00:42.000"
+          },
+          {
+            "description": "\"Adversarial noise\" is introduced, altering the image imperceptibly.",
+            "timestamp": "00:00:54.000"
+          },
+          {
+            "description": "The DNN misclassifies the altered image as a \"donkey.\"",
+            "timestamp": "00:01:10.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop screen with a cat silhouette and \"adversarial noise\" label",
+            "timestamp": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Deep Neural Networks (DNNs), adversarial attacks, AI vulnerability.",
+        "timestamps": {
+          "end_timestamp": "00:01:11.000",
+          "start_timestamp": "00:00:33.200"
+        },
+        "title": "Understanding DNNs and Vulnerabilities",
+        "videoEditingDetails": [
+          {
+            "description": "Simple animated graphics depicting DNNs and adversarial attacks.",
+            "timestamps": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          },
+          {
+            "description": "Subtle background music.",
+            "timestamps": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          },
+          {
+            "description": "Text labels explaining key concepts (DNN, adversarial noise).",
+            "timestamps": {
+              "end_timestamp": "00:01:11.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Animated examples of real-world adversarial attacks.",
+            "timestamp": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene emphasizes the potential dangers of adversarial attacks in security-critical applications, highlighting the need for robust and reliable AI systems in such contexts.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Anxious, cautionary",
+          "keyMoments": [
+            {
+              "changeDescription": "The shift from the conceptual explanation of adversarial attacks to real-world examples intensifies the anxious mood, emphasizing the tangible risks involved.",
+              "timestamp": "00:01:12.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene transitions from the theoretical to the practical, showcasing real-world examples of how adversarial attacks can be exploited.",
+            "timestamp": "00:01:12.000"
+          },
+          {
+            "description": "Animated figure evades facial recognition system by wearing specially designed glasses.",
+            "timestamp": "00:01:12.000"
+          },
+          {
+            "description": "Animated figure manipulates a speed limit sign, causing an autonomous vehicle to misinterpret the sign.",
+            "timestamp": "00:01:21.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "\"WANTED\" posters",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "name": "Security camera",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:13.000"
+            }
+          },
+          {
+            "name": "Laptop screen",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          },
+          {
+            "name": "Speed limit sign",
+            "timestamp": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:21.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Real-world application of adversarial attacks, security risks of AI in critical systems.",
+        "timestamps": {
+          "end_timestamp": "00:01:29.120",
+          "start_timestamp": "00:01:11.040"
+        },
+        "title": "Real-World Adversarial Attack Examples",
+        "videoEditingDetails": [
+          {
+            "description": "Simple animated graphics depicting adversarial attacks in real-world scenarios.",
+            "timestamps": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          },
+          {
+            "description": "Subtle background music continues.",
+            "timestamps": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:12.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Men working on a computer and looking at graphs on the monitor.",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:29.160"
+            }
+          },
+          {
+            "description": "Man in Office 1 types on the keyboard.",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Man in Office 1",
+          "Man in Office 2"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Man in Office 1",
+              "Man in Office 2"
+            ],
+            "description": "The two men seem to be working together, collaborating on the task at hand."
+          }
+        ],
+        "contextualRelevance": "The scene demonstrates that there are active efforts underway to tackle the challenges posed by adversarial attacks, providing reassurance and highlighting the commitment to developing secure AI.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Hopeful, focused",
+          "keyMoments": [
+            {
+              "changeDescription": "The transition from the anxious examples of adversarial attacks to a scene of researchers working on solutions marks a shift to a more hopeful and proactive mood.",
+              "timestamp": "00:01:29.160"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the efforts of IBM Research Island to develop solutions and tools for defending DNNs against adversarial attacks.",
+            "timestamp": "00:01:29.160"
+          },
+          {
+            "description": "Focus shifts to the keyboard, emphasizing the active work being done to develop solutions.",
+            "timestamp": "00:01:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer monitor with graphs",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:29.160"
+            }
+          },
+          {
+            "name": "Keyboard",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          },
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          },
+          {
+            "name": "Notebook",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Research and development efforts to address adversarial attacks, creating robust AI systems.",
+        "timestamps": {
+          "end_timestamp": "00:01:41.440",
+          "start_timestamp": "00:01:29.160"
+        },
+        "title": "Research Efforts on Adversarial Defense",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a bright office environment, showcasing researchers working on the problem of adversarial attacks.",
+            "timestamps": {
+              "end_timestamp": "00:01:29.160",
+              "start_timestamp": "00:01:29.160"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dr. Nicolae speaks to the camera, introducing the Adversarial Robustness Toolbox.",
+            "timestamp": {
+              "end_timestamp": "00:02:01.040",
+              "start_timestamp": "00:01:41.480"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Dr. Maria-Irina Nicolae"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dr. Maria-Irina Nicolae"
+            ],
+            "description": "Dr. Nicolae addresses the viewer directly, explaining the functionalities of the toolbox."
+          }
+        ],
+        "contextualRelevance": "The scene emphasizes the collaborative nature of research and development in the field of AI security, highlighting the importance of open-source tools like the Adversarial Robustness Toolbox to facilitate progress.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Informative, hopeful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene focuses on the introduction and explanation of the Adversarial Robustness Toolbox, highlighting its functionalities and potential impact.",
+            "timestamp": "00:01:41.480"
+          },
+          {
+            "description": "She explains how researchers can use the toolbox to develop defenses against adversarial attacks.",
+            "timestamp": "00:01:49.000"
+          },
+          {
+            "description": "Visuals shift to researchers writing equations on a whiteboard, symbolizing the work being done with the toolbox.",
+            "timestamp": "00:01:54.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Adversarial Robustness Toolbox, developing defenses against attacks, open-source tools for secure AI.",
+        "timestamps": {
+          "end_timestamp": "00:02:01.040",
+          "start_timestamp": "00:01:41.480"
+        },
+        "title": "Adversarial Robustness Toolbox Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Dr. Nicolae appears on a dark background.",
+            "timestamps": {
+              "end_timestamp": "00:01:41.480",
+              "start_timestamp": "00:01:41.480"
+            }
+          },
+          {
+            "description": "Cut to Man in Office 1 and Man in Office 2 writing on a whiteboard.",
+            "timestamps": {
+              "end_timestamp": "00:01:54.000",
+              "start_timestamp": "00:01:54.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dr. Molloy speaks to the camera, outlining the three key elements of defending DNNs.",
+            "timestamp": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:02.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Dr. Ian Molloy"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dr. Ian Molloy"
+            ],
+            "description": "Dr. Molloy speaks directly to the viewer, providing a technical overview of DNN defense strategies."
+          }
+        ],
+        "contextualRelevance": "The scene provides a deeper understanding of the technical complexity involved in securing AI systems against adversarial attacks, emphasizing the importance of continuous research and development in this area.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Informative, technical",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene expands on the capabilities of the toolbox, detailing the specific methods used to harden DNN models, measure their robustness, and detect adversarial inputs.",
+            "timestamp": "00:02:02.000"
+          },
+          {
+            "description": "Animated visuals re-appear to illustrate the three elements explained by Dr. Molloy, demonstrating how they can be implemented to protect DNNs.",
+            "timestamp": "00:02:11.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated laptop screen with a cat silhouette",
+            "timestamp": {
+              "end_timestamp": "00:02:49.000",
+              "start_timestamp": "00:02:11.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Model hardening techniques, measuring DNN robustness, detecting adversarial inputs at runtime.",
+        "timestamps": {
+          "end_timestamp": "00:02:49.000",
+          "start_timestamp": "00:02:01.080"
+        },
+        "title": "Technical Aspects of DNN Defense",
+        "videoEditingDetails": [
+          {
+            "description": "Dr. Molloy appears on screen.",
+            "timestamps": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:02:02.000"
+            }
+          },
+          {
+            "description": "Animated graphics of the DNN are re-introduced to illustrate the elements Dr. Molloy is explaining.",
+            "timestamps": {
+              "end_timestamp": "00:02:11.000",
+              "start_timestamp": "00:02:11.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Researchers engage in a group discussion, exchanging ideas and collaborating on a project.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:02:49.040"
+            }
+          },
+          {
+            "description": "Dr. Sinn gestures while interacting with the other researchers.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:02:58.000"
+            }
+          },
+          {
+            "description": "Man in Office 1 talks to the other researchers.",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:03:08.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Man in Office 1",
+          "Man in Office 2",
+          "Woman in Meeting",
+          "Dr. Mathieu Sinn"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Man in Office 1",
+              "Man in Office 2",
+              "Woman in Meeting",
+              "Dr. Mathieu Sinn"
+            ],
+            "description": "The researchers actively interact with each other, sharing ideas, brainstorming, and working collaboratively."
+          }
+        ],
+        "contextualRelevance": "The visual transitions to the call center and Dubai cityscape suggest that the research being done in the lab is not just theoretical but has practical implications for securing AI in various domains of modern life.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Hopeful, collaborative",
+          "keyMoments": [
+            {
+              "changeDescription": "The transition to the busy call center shifts focus from the researchers to a real-world setting, suggesting potential applications of their work.",
+              "timestamp": "00:03:21.000"
+            },
+            {
+              "changeDescription": "The aerial shot of Dubai's cityscape further emphasizes the broader societal impact of secure AI.",
+              "timestamp": "00:03:27.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene emphasizes the collaborative efforts to develop and implement secure AI in real-world applications.",
+            "timestamp": "00:02:49.040"
+          },
+          {
+            "description": "Researchers are shown in a lively discussion, highlighting the importance of teamwork in advancing the field.",
+            "timestamp": "00:03:08.000"
+          },
+          {
+            "description": "Visuals transition to a call center, representing one potential application for secure AI.",
+            "timestamp": "00:03:21.000"
+          },
+          {
+            "description": "The Dubai cityscape emphasizes the widespread impact and importance of AI security in modern society.",
+            "timestamp": "00:03:27.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:03:30.000",
+              "start_timestamp": "00:02:49.040"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Collaboration in AI research, real-world applications of secure AI, building a vibrant ecosystem for AI development.",
+        "timestamps": {
+          "end_timestamp": "00:03:37.760",
+          "start_timestamp": "00:02:49.040"
+        },
+        "title": "Collaboration and Real-World AI Applications",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to a group of researchers seated around a table, engaged in a discussion, with a laptop on the table.",
+            "timestamps": {
+              "end_timestamp": "00:02:49.040",
+              "start_timestamp": "00:02:49.040"
+            }
+          },
+          {
+            "description": "Cut to a busy call center with employees wearing headsets, working at their computers.",
+            "timestamps": {
+              "end_timestamp": "00:03:21.000",
+              "start_timestamp": "00:03:21.000"
+            }
+          },
+          {
+            "description": "Cut to two women laughing.",
+            "timestamps": {
+              "end_timestamp": "00:03:23.000",
+              "start_timestamp": "00:03:23.000"
+            }
+          },
+          {
+            "description": "Cut to Man in Office 1 smiling and looking at his computer screen.",
+            "timestamps": {
+              "end_timestamp": "00:03:25.000",
+              "start_timestamp": "00:03:25.000"
+            }
+          },
+          {
+            "description": "Cut back to the group of researchers.",
+            "timestamps": {
+              "end_timestamp": "00:03:26.000",
+              "start_timestamp": "00:03:26.000"
+            }
+          },
+          {
+            "description": "Transition to an aerial shot of Dubai's cityscape with traffic flowing on the highway at dusk.",
+            "timestamps": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:03:27.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Real-world examples of adversarial attacks are shown, highlighting the potential threat.",
+        "timestamp": "00:01:12.000"
+      },
+      "description": "The video follows a narrative that addresses the threat of adversarial attacks on AI systems and the corresponding mitigation efforts by researchers.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Video Analysis of AI and Adversarial Attacks",
+    "trimmingSuggestions": [
+      {
+        "description": "This scene could be shortened by focusing on the most engaging moments of the researchers working together, such as them looking at the graph and discussing, rather than the static shots of typing.",
+        "timestamps": {
+          "end_timestamp": "00:02:49.040",
+          "start_timestamp": "00:02:49.040"
+        }
+      },
+      {
+        "description": "Similar to Scene 4, the static shot of Dr. Nicolae speaking could be trimmed to keep only the most impactful points of her explanation.",
+        "timestamps": {
+          "end_timestamp": "00:02:49.040",
+          "start_timestamp": "00:02:49.040"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 218,
+  "original_json_filename": "gguyhEwoecI.json",
+  "original_video_filename": "gguyhEwoecI.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "Artificial intelligence technology has evolved significantly over the past few years. Modern AI systems are achieving human level performance or cognitive tasks like converting speech to text recognizing objects and images or translating between different languages. This evolution holds the promise of helping us understand and perhaps solve the environmental, economic and societal challenges of the 21st century. Many breakthroughs in AI are obtained using Deep Neural Networks or DNNs. DNNs are complex machine learning models that are a bit like interconnected neurons in the human brain. They are capable of dealing with high dimensional inputs like photographs. But DNNs are susceptible to attack specifically where an attacker can modify an input to produce an incorrect response. By adding an imperceptible amount of noise to an image it completely alters the internal activations in the DNN leading it to misclassify the image. Attackers can also evade face recognition systems by wearing specially designed glasses or defeat visual recognition systems in autonomous vehicles by sticking patches to traffic signs. This poses a real threat to the deployment of AI and security critical applications. IBM Research - Ireland is working to mitigate those threats and is releasing the Adversarial Robustness Toolbox. The toolbox is an open-source library designed to help researchers and developers in defending DNNs against attacks. Researchers can use the toolbox to develop and benchmark novel defenses against state-of-the-art attacks. For developers,  the library provides interfaces which support the composition of comprehensive defense systems using individual methods as building blocks. Defending DNNs against adversarial attacks has three elements: (1) Hardening models, (2) Measuring robustness and (3) Detecting adversarial inputs at test time. Common approaches for model hardening include filtering the inputs or changing the internal architecture at the Deep Neural Network such that the adversarial samples do not propagate through the internal hidden layers. The robustness of a DNN can be assessed by measuring the loss of accuracy on adversarial inputs. Other approaches quantify how much the internal representation and output of the DNN vary when small changes are applied to its input.  Finally, run time detection methods can be applied to flag any inputs an adversary may have tampered with by identifying abnormal activations caused by the adversarial inputs. Ultimately, any defense system needs to stay one step ahead of the attackers that would try to bypass it. Our Adversary Robustness Toolbox provides a testbed for researchers to design comprehensive defense methods and for developers to deploy them in real-world AI systems. The Adversarial Robustness Toolbox is publicly available on github.com. The release includes extensive documentation and tutorials to help researchers and developers get quickly started. Our ambition is to create a vibrant ecosystem of contributors that will stimulate research and development around adversarial robustness and advance the deployment of secure AI in real world applications. you",
+  "text_to_speech_word_count": 468,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:13.600",
+      "start": "00:00:00.000",
+      "text": " Artificial intelligence technology has evolved significantly over the past few years."
+    },
+    {
+      "end": "00:00:18.680",
+      "start": "00:00:13.600",
+      "text": " Modern AI systems are achieving human level performance or cognitive tasks like converting,"
+    },
+    {
+      "end": "00:00:24.240",
+      "start": "00:00:18.680",
+      "text": " speech to text, recognizing objects and images or translating between different languages."
+    },
+    {
+      "end": "00:00:29.720",
+      "start": "00:00:24.240",
+      "text": " This evolution holds the promise of helping us understand and perhaps solve the environmental,"
+    },
+    {
+      "end": "00:00:33.800",
+      "start": "00:00:29.720",
+      "text": " economic and societal challenges of the 21st century."
+    },
+    {
+      "end": "00:00:38.480",
+      "start": "00:00:33.800",
+      "text": " Many of breakthroughs in AI are obtained using deep neural networks or DNNs."
+    },
+    {
+      "end": "00:00:42.920",
+      "start": "00:00:38.480",
+      "text": " DNNs are complex machine learning models that are a bit like interconnected neurons in"
+    },
+    {
+      "end": "00:00:44.720",
+      "start": "00:00:42.920",
+      "text": " the human brain."
+    },
+    {
+      "end": "00:00:52.560",
+      "start": "00:00:44.720",
+      "text": " They are capable of dealing with high-dimensional inputs like photographs."
+    },
+    {
+      "end": "00:00:58.720",
+      "start": "00:00:52.560",
+      "text": " But DNNs are susceptible to attack, specifically where an attacker can modify an input to produce"
+    },
+    {
+      "end": "00:01:00.440",
+      "start": "00:00:58.720",
+      "text": " an incorrect response."
+    },
+    {
+      "end": "00:01:05.240",
+      "start": "00:01:00.440",
+      "text": " By adding an imperceptible amount of noise to an image, it completely alters the internal"
+    },
+    {
+      "end": "00:01:12.920",
+      "start": "00:01:05.240",
+      "text": " activations in the DNN, leading it to misclassify the image."
+    },
+    {
+      "end": "00:01:21.680",
+      "start": "00:01:12.920",
+      "text": " Attacks can also evade face recognition systems by wearing specially designed glasses."
+    },
+    {
+      "end": "00:01:27.320",
+      "start": "00:01:21.680",
+      "text": " Or defeat visual recognition systems in autonomous vehicles by sticking patches to traffic"
+    },
+    {
+      "end": "00:01:29.640",
+      "start": "00:01:27.320",
+      "text": " signs."
+    },
+    {
+      "end": "00:01:34.880",
+      "start": "00:01:29.640",
+      "text": " This poses a real threat to the deployment of AI in security critical applications."
+    },
+    {
+      "end": "00:01:39.600",
+      "start": "00:01:34.880",
+      "text": " IBM Research Island is working to mitigate those threats and is releasing the adversarial"
+    },
+    {
+      "end": "00:01:41.240",
+      "start": "00:01:39.600",
+      "text": " robustness toolbox."
+    },
+    {
+      "end": "00:01:46.840",
+      "start": "00:01:41.240",
+      "text": " The toolbox is an open source library designed to help researchers and developers in defending"
+    },
+    {
+      "end": "00:01:48.680",
+      "start": "00:01:46.840",
+      "text": " DNNs against attacks."
+    },
+    {
+      "end": "00:01:53.000",
+      "start": "00:01:48.680",
+      "text": " Researchers can use a toolbox to develop and benchmark novel defenses against state-of-the-art"
+    },
+    {
+      "end": "00:01:54.000",
+      "start": "00:01:53.000",
+      "text": " attacks."
+    },
+    {
+      "end": "00:01:58.760",
+      "start": "00:01:54.000",
+      "text": " For developers, the library provides interfaces which support the composition of comprehensive"
+    },
+    {
+      "end": "00:02:02.800",
+      "start": "00:01:58.760",
+      "text": " defense systems using individual methods as building blocks."
+    },
+    {
+      "end": "00:02:07.880",
+      "start": "00:02:02.800",
+      "text": " Defending DNNs against adversarial attacks has three elements, hardening models, measuring"
+    },
+    {
+      "end": "00:02:11.560",
+      "start": "00:02:07.880",
+      "text": " robustness, and detecting adversarial inputs at test time."
+    },
+    {
+      "end": "00:02:16.040",
+      "start": "00:02:11.560",
+      "text": " Common approaches for model hardening include filtering the inputs or changing the internal"
+    },
+    {
+      "end": "00:02:20.840",
+      "start": "00:02:16.040",
+      "text": " architecture of the D-mail network such that the adversarial samples do not propagate"
+    },
+    {
+      "end": "00:02:25.160",
+      "start": "00:02:20.840",
+      "text": " through the internal hidden layers."
+    },
+    {
+      "end": "00:02:30.040",
+      "start": "00:02:25.160",
+      "text": " The robustness of a DNN can be assessed by measuring the loss of accuracy on adversarial"
+    },
+    {
+      "end": "00:02:31.040",
+      "start": "00:02:30.040",
+      "text": " inputs."
+    },
+    {
+      "end": "00:02:35.360",
+      "start": "00:02:31.040",
+      "text": " Other approaches quantify how much the internal representation and output of the DNN"
+    },
+    {
+      "end": "00:02:39.040",
+      "start": "00:02:35.360",
+      "text": " vary when small changes are applied to its input."
+    },
+    {
+      "end": "00:02:43.760",
+      "start": "00:02:39.040",
+      "text": " Finally, runtime detection methods can be applied to flag any inputs an adversary may"
+    },
+    {
+      "end": "00:02:50.800",
+      "start": "00:02:43.800",
+      "text": " have tampered with by identifying abnormal activations caused by the adversarial inputs."
+    },
+    {
+      "end": "00:02:56.480",
+      "start": "00:02:50.800",
+      "text": " Ultimately, any defense system needs to stay one step ahead of the attackers that will"
+    },
+    {
+      "end": "00:02:57.840",
+      "start": "00:02:56.480",
+      "text": " try to bypass it."
+    },
+    {
+      "end": "00:03:03.280",
+      "start": "00:02:57.840",
+      "text": " Our adversarial robustness toolbox provides a testbed for researchers to design comprehensive"
+    },
+    {
+      "end": "00:03:08.360",
+      "start": "00:03:03.280",
+      "text": " defense methods and for developers to deploy them in real-world AI systems."
+    },
+    {
+      "end": "00:03:13.200",
+      "start": "00:03:08.360",
+      "text": " The adversarial robustness toolbox is publicly available on github.com."
+    },
+    {
+      "end": "00:03:18.320",
+      "start": "00:03:13.200",
+      "text": " The release includes extensive documentation and tutorials to help researchers and developers"
+    },
+    {
+      "end": "00:03:19.640",
+      "start": "00:03:18.320",
+      "text": " get quickly started."
+    },
+    {
+      "end": "00:03:24.560",
+      "start": "00:03:19.640",
+      "text": " Our ambition is to create vibrant ecosystem of contributors that will stimulate research"
+    },
+    {
+      "end": "00:03:29.680",
+      "start": "00:03:24.560",
+      "text": " and development around adversarial robustness and advance the deployment of secure AI in"
+    },
+    {
+      "end": "00:03:30.920",
+      "start": "00:03:29.680",
+      "text": " real-world applications."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "IBM Research",
+  "youtube_channel_follower_count": 100000,
+  "youtube_comment_count": 0,
+  "youtube_description": "The Adversarial Robustness Toolbox (https://github.com/IBM/adversarial-robustness-toolbox) is an open-source software library, to support both researchers and developers in defending DNNs against adversarial attacks and thereby making AI systems more secure.\n\nThe Adversarial Robustness Toolbox is designed to support researchers and developers in creating novel defense techniques, as well as in deploying practical defenses of real-world AI systems. Researchers can use the Adversarial Robustness Toolbox to benchmark novel defenses against the state-of-the-art. For developers, the library provides interfaces which support the composition of comprehensive defense systems using individual methods as building blocks.\n\nLearn more:\nhttps://www.ibm.com/blogs/research/2018/04/ai-adversarial-robustness-toolbox/",
+  "youtube_like_count": 65,
+  "youtube_tags": [
+    "adversarial robustness toolbox",
+    "AI",
+    "technology",
+    "research",
+    "artificial intelligence",
+    "security"
+  ],
+  "youtube_title": "IBM Adversarial Robustness Toolbox",
+  "youtube_upload_date": "20180810",
+  "youtube_view_count": 3695
+}

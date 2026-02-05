@@ -1,0 +1,68 @@
+[
+  {
+    "chunk_id": 0,
+    "start": "00:00:00.000",
+    "end": "00:00:27.779",
+    "audio_caption": "The clip starts with sound effects mimicking wobbling and falling, eliciting a \"wow\" from a male speaker. A second male speaker follows, asserting, \"This is nothing. In a few years, that bot will move so fast you'll need a strobe light to see it. Sweet dreams,\" delivered in a conversational tone. Finally, a third male speaker responds with a lighthearted tone, \"Well, I'm still waiting for my atomic car and my hoverboard.\""
+  },
+  {
+    "chunk_id": 1,
+    "start": "00:00:27.779",
+    "end": "00:01:38.631",
+    "audio_caption": "The audio begins with a male speaker discussing the progress in robotics locomotion, focusing on robots imitating human and animal motion. He acknowledges the technicality of the topic, but promises a clear understanding by the end of the discussion. Then, an upbeat, electronic track starts playing. The speaker discusses previous work, specifically using reinforcement learning to teach a robotic dog to move, explaining his use of a handcrafted reward function and challenges to it."
+  },
+  {
+    "chunk_id": 2,
+    "start": "00:01:38.631",
+    "end": "00:02:20.547",
+    "audio_caption": "The clip begins with one male speaker discussing unusual behaviors, mentioning \"flying, walking on the knees, standing on the head,\" and moving feet quickly. He then explains a reward function, defining it as \"the difference between the random commands and the actual velocity of the robot.\" He gives an example of telling a robot to move forward and measuring its actual velocity. The difference, he says, is the reward or punishment."
+  },
+  {
+    "chunk_id": 3,
+    "start": "00:02:20.547",
+    "end": "00:02:47.578",
+    "audio_caption": "The audio clip features a single male speaker explaining that a primary component is not enough. He describes the addition of other elements, such as the fit, ground time, joint location, termination reward, and punishment, to the reward function. He speaks with a relatively neutral tone. The clip then closes with a subtle, but quick, \"Really?\""
+  },
+  {
+    "chunk_id": 4,
+    "start": "00:02:47.578",
+    "end": "00:03:19.247",
+    "audio_caption": "The audio clip begins with a single male speaker discussing the time-consuming nature of reward function fine-tuning, even with tools like Isaac Gym. His tone is conversational and somewhat critical, suggesting that \"walking is not rocket science.\" The clip includes no background music, ambient sounds or other speaker."
+  },
+  {
+    "chunk_id": 5,
+    "start": "00:03:19.247",
+    "end": "00:03:43.867",
+    "audio_caption": "The clip features a single male speaker discussing a robot's walking ability, stating that \"we don't really want the robot to figure out walking from scratch,\" and suggesting that the robot can be \"told approximately what walking is like.\" He notes that this idea is not too complex and that \"some smart people wrote papers on that topic.\""
+  },
+  {
+    "chunk_id": 6,
+    "start": "00:03:43.867",
+    "end": "00:04:36.314",
+    "audio_caption": "A male speaker with an analytical tone is introducing the idea of teaching locomotion by providing hints to a robot's policy using motion capture files, further mentioning \"adversarial motion priors.\" Continuing his explanation, he details a paper, describing its interesting nature and visual demos, highlighting that there are \"two reward components:\" a discriminatory reward and a task reward. Elaborating, he says the task reward is moving in certain directions or velocity commands. The speaker concludes that, when combined, the goal is to complete the task while imitating the style of movement from the motion capture files."
+  },
+  {
+    "chunk_id": 7,
+    "start": "00:04:36.314",
+    "end": "00:05:40.985",
+    "audio_caption": "The audio clip begins with someone discussing motion files sourced from Carnegie Mellon University, describing the library's contents as including movements like \"walking, running, jumping, yoga poses,\" with a thoughtful and explanatory tone. The speaker notes that there is no direct correlation required between tasks and motion capture files, because the discriminator evaluates how closely the policy movement resembles the motion capture file's movement. The speaker's intention is to ascertain, \"if the observations come from a robot or the policy, or they come from the motion capture files.\" As the speaker concludes, they clarify the approach as that of generative adversarial networks, or GANs, previously used for generating images before the introduction of stable diffusion."
+  },
+  {
+    "chunk_id": 8,
+    "start": "00:05:40.985",
+    "end": "00:06:55.351",
+    "audio_caption": "The audio clip begins with a speaker emphasizing that an approach \"works really well for robotic movements.\" They proceed to explain a powerful aspect of adversarial motion priors, mentioning how one only has observations in motion capture files without knowing the actions or angles of joints. The adversarial motion priors do not require such information. The discriminator, according to the speaker, \"only judges the observations.\" Afterward, the speaker mentions a video about a tool and expresses interest in how animal movements could benefit policy, referring to a quadruped robot. The speaker then recalls finding an implementation of adversarial motion priors in an Isaac gym environment repository, specifically, the style component from a paper. The speaker expresses optimism that after tweaking, this implementation would work well."
+  },
+  {
+    "chunk_id": 9,
+    "start": "00:06:55.351",
+    "end": "00:07:13.841",
+    "audio_caption": "The audio clip begins with a speaker, likely male, referencing YouTube and researchers. He mentions \"adversarial motion priors\" for a robot, and how well it worked for them.  He states he wants to \"give it a shot\" with something else."
+  },
+  {
+    "chunk_id": 10,
+    "start": "00:07:13.841",
+    "end": "00:08:35.553",
+    "audio_caption": "The clip starts with a male speaker discussing Boston Dynamics' Atlas, acknowledging the unlikelihood of testing his work on a real robot, but remaining hopeful. He explains he used motion files for a humanoid robot and embarked on an exploration, noting Nvidia's code is reproducible for humanoid characters, but challenging for custom robots. He aims to give an overview of the steps, hoping listeners will avoid many pitfalls. He then provides instructions in a normal tone. He ends by offering alternatives if you're interested in large language models. In the background there is light music."
+  }
+]

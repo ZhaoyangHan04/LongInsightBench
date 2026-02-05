@@ -1,0 +1,1154 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "mario",
+        "description": "A stick figure with a circular head, drawn in black. Sometimes filled in with blue.",
+        "name": "Mario"
+      }
+    ],
+    "description": "This video explains the concept of fictitious forces and their applications in real-world scenarios. It features a stick figure, Mario, illustrated in different non-inertial frames to demonstrate various fictitious forces such as translational, centrifugal, Coriolis, and Euler forces.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "Upwards.",
+        "question": "What direction does the force push you when you are in an elevator going down?"
+      },
+      {
+        "answer": "Because it is caused by the car's deceleration, making your frame of reference non-inertial. The actual force acting on you is your inertia trying to keep you moving at the original speed.",
+        "question": "In the car crash scenario, why is the force throwing you forward fictitious?"
+      },
+      {
+        "answer": "Cross product.",
+        "question": "What mathematical operation is involved in calculating the Coriolis force?"
+      },
+      {
+        "answer": "Its angular velocity.",
+        "question": "In the Euler force scenario, what changes in the merry-go-round's motion?"
+      },
+      {
+        "answer": "The video starts with a neutral and informative mood, gradually building curiosity and then transitions to a more cautionary mood in the car crash scene. The ending is a blend of neutral and thought-provoking.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Mario is shown in an airplane taking off",
+            "timestamp": {
+              "end_timestamp": "00:00:01.001",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Mario is shown on a merry-go-round",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:02.002"
+            }
+          },
+          {
+            "description": "Mario is shown in an elevator going down",
+            "timestamp": {
+              "end_timestamp": "00:00:08.008",
+              "start_timestamp": "00:00:05.005"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the feeling of being pushed back in an airplane during takeoff",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Introduces the feeling of being pushed outwards on a merry-go-round",
+            "timestamp": "00:00:02.002"
+          },
+          {
+            "description": "Introduces the feeling of weightlessness in a descending elevator",
+            "timestamp": "00:00:05.005"
+          },
+          {
+            "description": "Poses the question of what these experiences have in common",
+            "timestamp": "00:00:16.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Airplane",
+            "timestamp": {
+              "end_timestamp": "00:00:01.001",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Merry-go-round",
+            "timestamp": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:02.002"
+            }
+          },
+          {
+            "name": "Elevator",
+            "timestamp": {
+              "end_timestamp": "00:00:08.008",
+              "start_timestamp": "00:00:05.005"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to fictitious forces.",
+        "timestamps": {
+          "end_timestamp": "00:00:17.985",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Simple hand-drawn animations",
+            "timestamps": {
+              "end_timestamp": "00:00:16.016",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Arrows are used to indicate the direction of movement and force",
+            "timestamps": {
+              "end_timestamp": "00:00:16.016",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains the concept of fictitious forces",
+            "timestamp": {
+              "end_timestamp": "00:00:29.863",
+              "start_timestamp": "00:00:18.018"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Defines fictitious forces as apparent forces felt in non-inertial reference frames",
+            "timestamp": "00:00:18.018"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "Definition of fictitious forces, inertial and non-inertial reference frames.",
+        "timestamps": {
+          "end_timestamp": "00:00:29.863",
+          "start_timestamp": "00:00:18.018"
+        },
+        "title": "Fictitious Forces Defined",
+        "videoEditingDetails": [
+          {
+            "description": "Text: 'FICTITIOUS FORCES' appears on screen",
+            "timestamps": {
+              "end_timestamp": "00:00:29.863",
+              "start_timestamp": "00:00:27.995"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator explains the difference between inertial and non-inertial reference frames",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:29.997"
+            }
+          },
+          {
+            "description": "An airplane takes off, transitioning from inertial to non-inertial frame",
+            "timestamp": {
+              "end_timestamp": "00:01:10.003",
+              "start_timestamp": "00:00:50.984"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains inertial frames using the example of an airport",
+            "timestamp": "00:00:29.997"
+          },
+          {
+            "description": "Explains non-inertial frames using the example of an accelerating airplane and introduces the concept of fictitious forces being used to apply Newton's laws in these frames",
+            "timestamp": "00:00:50.984"
+          }
+        ],
+        "props": [
+          {
+            "name": "Airport",
+            "timestamp": {
+              "end_timestamp": "00:00:45.012",
+              "start_timestamp": "00:00:42.009"
+            }
+          },
+          {
+            "name": "Airplane",
+            "timestamp": {
+              "end_timestamp": "00:00:55.989",
+              "start_timestamp": "00:00:45.012"
+            }
+          },
+          {
+            "name": "Mountains and road",
+            "timestamp": {
+              "end_timestamp": "00:00:54.988",
+              "start_timestamp": "00:00:51.985"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Inertial vs. non-inertial frames, Newton's laws of motion.",
+        "timestamps": {
+          "end_timestamp": "00:01:11.972",
+          "start_timestamp": "00:00:29.897"
+        },
+        "title": "Inertial vs. Non-Inertial Frames",
+        "videoEditingDetails": [
+          {
+            "description": "Text: 'INERTIAL FRAME' and 'NON-INERTIAL FRAME' appear on screen",
+            "timestamps": {
+              "end_timestamp": "00:00:50.984",
+              "start_timestamp": "00:00:40.007"
+            }
+          },
+          {
+            "description": "Hand-drawn animation of airport and airplane taking off",
+            "timestamps": {
+              "end_timestamp": "00:01:10.003",
+              "start_timestamp": "00:00:45.012"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Mario is shown standing in an accelerating airplane",
+            "timestamp": {
+              "end_timestamp": "00:01:15.008",
+              "start_timestamp": "00:01:12.005"
+            }
+          },
+          {
+            "description": "The narrator explains the translational fictitious force",
+            "timestamp": {
+              "end_timestamp": "00:01:20.013",
+              "start_timestamp": "00:01:16.009"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Defines and explains the translational fictitious force using the example of an accelerating plane, and how it makes Mario feel pushed back",
+            "timestamp": "00:01:12.005"
+          }
+        ],
+        "props": [
+          {
+            "name": "Airplane",
+            "timestamp": {
+              "end_timestamp": "00:01:29.623",
+              "start_timestamp": "00:01:12.005"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Translational fictitious force.",
+        "timestamps": {
+          "end_timestamp": "00:01:29.623",
+          "start_timestamp": "00:01:12.005"
+        },
+        "title": "Translational Fictitious Force",
+        "videoEditingDetails": [
+          {
+            "description": "Hand-drawn animation of an airplane taking off with Mario inside",
+            "timestamps": {
+              "end_timestamp": "00:01:29.623",
+              "start_timestamp": "00:01:12.005"
+            }
+          },
+          {
+            "description": "Arrows indicate the direction of acceleration and force",
+            "timestamps": {
+              "end_timestamp": "00:01:29.623",
+              "start_timestamp": "00:01:12.005"
+            }
+          },
+          {
+            "description": "Formula: 'a=d²R/dt²' (acceleration) is shown",
+            "timestamps": {
+              "end_timestamp": "00:01:16.009",
+              "start_timestamp": "00:01:15.008"
+            }
+          },
+          {
+            "description": "Formula: 'F=-md²R/dt²' (translational fictitious force) is shown",
+            "timestamps": {
+              "end_timestamp": "00:01:19.012",
+              "start_timestamp": "00:01:18.011"
+            }
+          },
+          {
+            "description": "Text: 'TRANSLATIONAL FORCE' appears",
+            "timestamps": {
+              "end_timestamp": "00:01:29.623",
+              "start_timestamp": "00:01:25.986"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Mario is shown standing on a spinning merry-go-round",
+            "timestamp": {
+              "end_timestamp": "00:01:45.005",
+              "start_timestamp": "00:01:34.995"
+            }
+          },
+          {
+            "description": "The narrator explains the centrifugal force",
+            "timestamp": {
+              "end_timestamp": "00:01:59.987",
+              "start_timestamp": "00:01:46.006"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Defines and explains the centrifugal force using a merry-go-round example and highlights its opposite direction and equal magnitude to the centripetal force",
+            "timestamp": "00:01:29.990"
+          },
+          {
+            "description": "Relates angular velocity (ω) and linear velocity (v) to express the centrifugal force in terms of angular velocity",
+            "timestamp": "00:02:14.001"
+          }
+        ],
+        "props": [
+          {
+            "name": "Merry-go-round",
+            "timestamp": {
+              "end_timestamp": "00:01:45.005",
+              "start_timestamp": "00:01:34.995"
+            }
+          },
+          {
+            "name": "Circle diagram illustrating centripetal and centrifugal forces",
+            "timestamp": {
+              "end_timestamp": "00:01:52.012",
+              "start_timestamp": "00:01:42.002"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Centrifugal force, centripetal force, angular velocity, linear velocity.",
+        "timestamps": {
+          "end_timestamp": "00:02:27.948",
+          "start_timestamp": "00:01:29.656"
+        },
+        "title": "Centrifugal Force",
+        "videoEditingDetails": [
+          {
+            "description": "Hand-drawn animation of a merry-go-round spinning with Mario on it",
+            "timestamps": {
+              "end_timestamp": "00:01:45.005",
+              "start_timestamp": "00:01:34.995"
+            }
+          },
+          {
+            "description": "Arrows indicate the direction of velocity, centripetal force, and centrifugal force",
+            "timestamps": {
+              "end_timestamp": "00:01:45.005",
+              "start_timestamp": "00:01:40.000"
+            }
+          },
+          {
+            "description": "Formula: '|F|= mv²/r' (centripetal force) is shown",
+            "timestamps": {
+              "end_timestamp": "00:01:55.015",
+              "start_timestamp": "00:01:52.012"
+            }
+          },
+          {
+            "description": "Formula: 'F(centrifugal) = -F(centripetal)' is shown",
+            "timestamps": {
+              "end_timestamp": "00:02:17.004",
+              "start_timestamp": "00:02:13.000"
+            }
+          },
+          {
+            "description": "Formula: 'V=ωr' (velocity) is shown",
+            "timestamps": {
+              "end_timestamp": "00:02:20.007",
+              "start_timestamp": "00:02:18.005"
+            }
+          },
+          {
+            "description": "Formula: '|F(centrifugal)| = mω²r' is shown",
+            "timestamps": {
+              "end_timestamp": "00:02:27.014",
+              "start_timestamp": "00:02:22.009"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Mario is running across a spinning merry-go-round",
+            "timestamp": {
+              "end_timestamp": "00:02:57.010",
+              "start_timestamp": "00:02:27.981"
+            }
+          },
+          {
+            "description": "The narrator explains the Coriolis force",
+            "timestamp": {
+              "end_timestamp": "00:03:16.997",
+              "start_timestamp": "00:02:58.011"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concept of the Coriolis force acting on a body moving in a rotating frame of reference",
+            "timestamp": "00:02:27.981"
+          },
+          {
+            "description": "Defines the formula for the Coriolis force and uses the right-hand rule to determine its direction in the given scenario",
+            "timestamp": "00:02:57.010"
+          }
+        ],
+        "props": [
+          {
+            "name": "Merry-go-round",
+            "timestamp": {
+              "end_timestamp": "00:02:57.010",
+              "start_timestamp": "00:02:27.981"
+            }
+          },
+          {
+            "name": "3D diagram showing the direction of the Coriolis force",
+            "timestamp": {
+              "end_timestamp": "00:03:16.997",
+              "start_timestamp": "00:03:03.984"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Coriolis force, angular velocity vector, cross product.",
+        "timestamps": {
+          "end_timestamp": "00:03:17.998",
+          "start_timestamp": "00:02:27.981"
+        },
+        "title": "Coriolis Force",
+        "videoEditingDetails": [
+          {
+            "description": "Hand-drawn animation of a merry-go-round with Mario running across it",
+            "timestamps": {
+              "end_timestamp": "00:02:57.010",
+              "start_timestamp": "00:02:27.981"
+            }
+          },
+          {
+            "description": "Arrows indicate the direction of Mario's velocity, angular velocity vector (Ω), and the Coriolis force",
+            "timestamps": {
+              "end_timestamp": "00:02:57.010",
+              "start_timestamp": "00:02:30.017"
+            }
+          },
+          {
+            "description": "Text: 'ANGULAR VELOCITY VECTOR Ω' is shown",
+            "timestamps": {
+              "end_timestamp": "00:02:50.003",
+              "start_timestamp": "00:02:47.000"
+            }
+          },
+          {
+            "description": "Formula: 'F(coriolis) = -m v x Ω' is shown",
+            "timestamps": {
+              "end_timestamp": "00:03:00.013",
+              "start_timestamp": "00:02:56.009"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Mario is standing on a merry-go-round that's being pushed, causing a change in angular velocity",
+            "timestamp": {
+              "end_timestamp": "00:03:37.984",
+              "start_timestamp": "00:03:18.031"
+            }
+          },
+          {
+            "description": "The narrator explains the Euler force",
+            "timestamp": {
+              "end_timestamp": "00:03:45.726",
+              "start_timestamp": "00:03:38.985"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Informative",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the Euler force as a result of a changing angular velocity in a rotating frame of reference",
+            "timestamp": "00:03:18.031"
+          },
+          {
+            "description": "Defines the formula for the Euler force and illustrates its direction using the animation",
+            "timestamp": "00:03:38.985"
+          }
+        ],
+        "props": [
+          {
+            "name": "Merry-go-round",
+            "timestamp": {
+              "end_timestamp": "00:03:37.984",
+              "start_timestamp": "00:03:18.031"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Euler force, changing angular velocity.",
+        "timestamps": {
+          "end_timestamp": "00:03:45.726",
+          "start_timestamp": "00:03:18.031"
+        },
+        "title": "Euler Force",
+        "videoEditingDetails": [
+          {
+            "description": "Hand-drawn animation of Mario on a merry-go-round with a changing angular velocity",
+            "timestamps": {
+              "end_timestamp": "00:03:37.984",
+              "start_timestamp": "00:03:18.031"
+            }
+          },
+          {
+            "description": "Arrows indicate the direction of angular velocity (ω), the change in angular velocity (dΩ/dt), and the Euler force",
+            "timestamps": {
+              "end_timestamp": "00:03:37.984",
+              "start_timestamp": "00:03:20.000"
+            }
+          },
+          {
+            "description": "Formula: 'F(euler) = -m (dΩ/dt) x r' is shown",
+            "timestamps": {
+              "end_timestamp": "00:03:45.726",
+              "start_timestamp": "00:03:37.984"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "The narrator summarizes the concept of fictitious forces and their application in non-inertial frames",
+            "timestamp": {
+              "end_timestamp": "00:04:09.015",
+              "start_timestamp": "00:03:45.992"
+            }
+          },
+          {
+            "description": "A car crash scenario is presented to demonstrate the real-world implications of fictitious forces",
+            "timestamp": {
+              "end_timestamp": "00:04:28.001",
+              "start_timestamp": "00:04:10.016"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Mario"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative/Cautionary",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Summarizes that all real and fictitious forces must be considered in non-inertial frames to determine acceleration using Newton's Second Law",
+            "timestamp": "00:03:45.992"
+          },
+          {
+            "description": "Uses a car crash scenario to demonstrate that while the feeling of being thrown forward during deceleration is a fictitious force, the impact is real. Emphasizes the importance of seatbelts",
+            "timestamp": "00:04:09.015"
+          }
+        ],
+        "props": [
+          {
+            "name": "Car",
+            "timestamp": {
+              "end_timestamp": "00:04:28.001",
+              "start_timestamp": "00:04:10.016"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Fictitious forces in real-world applications, safety.",
+        "timestamps": {
+          "end_timestamp": "00:04:28.235",
+          "start_timestamp": "00:03:45.759"
+        },
+        "title": "Summary and Application",
+        "videoEditingDetails": [
+          {
+            "description": "Formula: 'F(real) + F(translational) + F(centrifugal) + F(coriolis) + F(euler) = ma' is shown",
+            "timestamps": {
+              "end_timestamp": "00:04:00.006",
+              "start_timestamp": "00:03:55.001"
+            }
+          },
+          {
+            "description": "Text: 'ACCELERATING NON-INERTIAL REFERENCE FRAME' is shown",
+            "timestamps": {
+              "end_timestamp": "00:03:49.996",
+              "start_timestamp": "00:03:47.994"
+            }
+          },
+          {
+            "description": "Hand-drawn animation of a car crashing with Mario inside",
+            "timestamps": {
+              "end_timestamp": "00:04:28.001",
+              "start_timestamp": "00:04:10.016"
+            }
+          },
+          {
+            "description": "Visual effects of stars and motion lines to emphasize the crash",
+            "timestamps": {
+              "end_timestamp": "00:04:28.001",
+              "start_timestamp": "00:04:14.988"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator speaks to the audience",
+            "timestamp": {
+              "end_timestamp": "00:04:30.003",
+              "start_timestamp": "00:04:28.268"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Direct address to the audience"
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator concludes the video with a rhetorical question: 'It's real, no?' emphasizing the real-world impact of fictitious forces",
+            "timestamp": "00:04:28.268"
+          }
+        ],
+        "props": [],
+        "sceneId": 9,
+        "thematicElements": "Reinforces the real-world significance of fictitious forces.",
+        "timestamps": {
+          "end_timestamp": "00:04:35.509",
+          "start_timestamp": "00:04:28.268"
+        },
+        "title": "Outro",
+        "videoEditingDetails": [
+          {
+            "description": "Blurred image of the narrator appears briefly",
+            "timestamps": {
+              "end_timestamp": "00:04:30.003",
+              "start_timestamp": "00:04:28.268"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 8 (4:09 - 4:28), the car crash scenario. This scene brings the abstract concept of fictitious forces into a relatable real-world context and highlights their potential consequences.",
+        "timestamp": "00:04:09.015"
+      },
+      "description": "The video presents a combination of factual information and narrative storytelling. It defines fictitious forces and their types using clear explanations, formulas, and animations. The car crash scenario introduces a narrative element, showcasing the real-world application and importance of understanding these forces.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "title": "Fictitious Forces",
+    "trimmingSuggestions": [
+      {
+        "description": "The definition of fictitious forces could be shortened or integrated with Scene 3.",
+        "timestamps": {
+          "end_timestamp": "00:04:28.268",
+          "start_timestamp": "00:04:28.268"
+        }
+      },
+      {
+        "description": "The explanation of inertial frames could be made more concise.",
+        "timestamps": {
+          "end_timestamp": "00:04:28.268",
+          "start_timestamp": "00:04:28.268"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 276,
+  "original_json_filename": "Bb28z28EmEs.json",
+  "original_video_filename": "Bb28z28EmEs.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "consider taking off on an airplane now riding a merry-go-round and finally going down and lift on the airplane with Phil's if you're being pushed backwards into your seat on a merry-go-round you'd feel as if you're being pushed outwards on the lift you'd feel as if you're floating now what do all these events have in common well it turns out that all these forces pushing us up down or outwards are actually not real the only appear to act on objects were in this case us we call them fictitious forces a fictitious force is an apparent force that acts upon all masses whose motion is described using a non inertial frame of reference an inertial frame is one where there is no acceleration so either remain stationary or moves at constant velocity Newton's laws of motion apply for example an airport a non inertial reference frame moves in a non uniform or accelerated motion so when the plane leaves a runaway it is accelerating so it is a non inertial reference frame here Newton's laws of motion do not apply fictitious forces are introduced so that Newton's second law is valid in a non inertial frame imagine that Mary is standing on a plane which is taking off with an acceleration a he feels a force pushing him backwards due to the reference frames motion it appears that Mary is being pushed in the direction opposite the acceleration of the plane this is called the translational fictitious force the second fictitious force is called the centrifugal force imagine mario is standing on a merry-go-round which is spinning with an angular velocity omega2 an inertial observer on the ground it is easy to see that to keep Mario and his rotational motion a continuous centripetal force must be applied perpendicular to his direction of motion this is equal to M V squared over R this force will be pushing Mario radially inwards now for Mario's point of view of the rotating non inertial frame he feels an apparent force pushing him outwards this is called the centrifugal force and will be equal in modulus and opposite in direction with respect to the centripetal force we also know that the velocity V is equal to the angular velocity Omega multiplied by the radius so we can rewrite the centrifugal force as M R Omega squared to explain the cruellest force we first need to introduce a new vector so imagine America rally is spinning with an angular velocity Omega we introduce a vector perpendicular to the plane of rotation represented by capital omega called angular velocity vector imagine Mario is running across the merry-go-round with a velocity V there will be a fictitious force the Coriolis force acts Moulton which is given by negative M times V cross Omega we'll need to use the right hand rule because of the cross product the negative sign and the equation means that Coriolis force is pointing in the opposite direction so in this case of rural schools we were pointing inwards an aspect Isha's force is called the universe or azimuthal force imagine mario is standing on the merry-go-round or the distance R from the center and someone is pushing it this will cause a change in angular velocity we can express this as a back to D Omega DT the fictitious Euler force acting on it is given by negative M T Omega DT cross R in this case the cross product will give vector crushing Mario inwards if a person in an accelerating inertial reference frame wanted to find their acceleration then we need to add up all the real and fictitious forces together this is the form that Newton's second law takes in non inertial frames fictitious forces are present in our everyday lives just grown so used to them that we very noticed them anymore now remember the pseudo force that is felt during acceleration can also be felt during deceleration only in the other direction so next time you get in a car put on your seat belt the force throwing you forward during crash might be fictitious for the impact will be real 3",
+  "text_to_speech_word_count": 699,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.371",
+      "start": "00:00:00.000",
+      "text": " Consider taking off on an airplane, now riding a merry-go-round."
+    },
+    {
+      "end": "00:00:07.007",
+      "start": "00:00:04.371",
+      "text": " And finally, going down and lift."
+    },
+    {
+      "end": "00:00:10.611",
+      "start": "00:00:07.007",
+      "text": " On the airplane, we'll fill us if you're being pushed backwards into your seat."
+    },
+    {
+      "end": "00:00:13.780",
+      "start": "00:00:10.611",
+      "text": " On a merry-go-round, you'd fill us if you're being pushed outwards."
+    },
+    {
+      "end": "00:00:16.316",
+      "start": "00:00:13.780",
+      "text": " On the lifts, you'd fill us if you're floating."
+    },
+    {
+      "end": "00:00:18.752",
+      "start": "00:00:16.316",
+      "text": " Now what do all these events have in common?"
+    },
+    {
+      "end": "00:00:23.957",
+      "start": "00:00:18.752",
+      "text": " Well, it turns out that all these forces pushing us up, down or outwards are actually not real."
+    },
+    {
+      "end": "00:00:27.527",
+      "start": "00:00:23.957",
+      "text": " They only appear to act on objects, or in this case us."
+    },
+    {
+      "end": "00:00:30.130",
+      "start": "00:00:27.527",
+      "text": " We call them Fixitious Forces."
+    },
+    {
+      "end": "00:00:34.735",
+      "start": "00:00:30.130",
+      "text": " A Fixitious Force is an apparent force that acts upon all masses whose motion is described"
+    },
+    {
+      "end": "00:00:39.373",
+      "start": "00:00:34.735",
+      "text": " using a non-inertial frame of reference."
+    },
+    {
+      "end": "00:00:44.311",
+      "start": "00:00:39.373",
+      "text": " An inertial frame is one where there is direct acceleration, so either remain stationary"
+    },
+    {
+      "end": "00:00:46.380",
+      "start": "00:00:44.311",
+      "text": " or move that constant velocity."
+    },
+    {
+      "end": "00:00:50.550",
+      "start": "00:00:46.380",
+      "text": " Newton's laws of motion apply, for example an airport."
+    },
+    {
+      "end": "00:00:55.355",
+      "start": "00:00:50.550",
+      "text": " A non-inertial reference frame moves in a non-uniform or accelerated motion,"
+    },
+    {
+      "end": "00:01:00.794",
+      "start": "00:00:55.355",
+      "text": " so when the plane leaves the runway, it is accelerating, so it is a non-inertial reference frame."
+    },
+    {
+      "end": "00:01:03.730",
+      "start": "00:01:00.794",
+      "text": " Here Newton's laws of motion do not apply."
+    },
+    {
+      "end": "00:01:10.837",
+      "start": "00:01:03.730",
+      "text": " Fixitious forces are introduced so that Newton's second law is valid in a non-inertial frame."
+    },
+    {
+      "end": "00:01:17.144",
+      "start": "00:01:10.837",
+      "text": " Imagine that Mario is standing on a plane, which is taking off with an acceleration A."
+    },
+    {
+      "end": "00:01:19.613",
+      "start": "00:01:17.144",
+      "text": " He feels the force pushing him backwards."
+    },
+    {
+      "end": "00:01:24.818",
+      "start": "00:01:19.613",
+      "text": " Due to the reference frame's motion, it appears that Mario is being pushed in the direction opposite"
+    },
+    {
+      "end": "00:01:26.620",
+      "start": "00:01:24.818",
+      "text": " to acceleration of the plane."
+    },
+    {
+      "end": "00:01:30.357",
+      "start": "00:01:26.620",
+      "text": " This is called the Translation of Fixitious Force."
+    },
+    {
+      "end": "00:01:34.261",
+      "start": "00:01:30.357",
+      "text": " The second Fixitious Force is called the centrifugal force."
+    },
+    {
+      "end": "00:01:40.100",
+      "start": "00:01:34.261",
+      "text": " Imagine Mario is standing on a merry-go-round, which is spinning with an angular velocity omega."
+    },
+    {
+      "end": "00:01:45.973",
+      "start": "00:01:40.100",
+      "text": " To an inertial observer on the ground, it is easy to see that to keep Mario in his rotational motion,"
+    },
+    {
+      "end": "00:01:51.712",
+      "start": "00:01:45.973",
+      "text": " a continuous centripetal force must be applied perpendicular to his direction of motion."
+    },
+    {
+      "end": "00:01:55.349",
+      "start": "00:01:51.745",
+      "text": " This is equal to M v squared over R."
+    },
+    {
+      "end": "00:01:59.119",
+      "start": "00:01:55.349",
+      "text": " This force will be pushing Mario radially inwards."
+    },
+    {
+      "end": "00:02:02.990",
+      "start": "00:01:59.119",
+      "text": " Now, from Mario's point of view of the rotating non-inertial frame,"
+    },
+    {
+      "end": "00:02:06.627",
+      "start": "00:02:02.990",
+      "text": " he feels an apparent force pushing him outwards."
+    },
+    {
+      "end": "00:02:11.531",
+      "start": "00:02:06.627",
+      "text": " This is called the centrifugal force, and will be equal in modulus and opposite in direction"
+    },
+    {
+      "end": "00:02:14.234",
+      "start": "00:02:11.531",
+      "text": " with respect to the centripetal force."
+    },
+    {
+      "end": "00:02:21.108",
+      "start": "00:02:14.234",
+      "text": " We also know that the velocity v is equal to the angular velocity omega multiplied by the radius,"
+    },
+    {
+      "end": "00:02:26.780",
+      "start": "00:02:21.108",
+      "text": " so we can rewrite the centrifugal force as M R omega squared."
+    },
+    {
+      "end": "00:02:38.025",
+      "start": "00:02:33.186",
+      "text": " To explain the cruelest force, we first need to introduce a new vector."
+    },
+    {
+      "end": "00:02:42.195",
+      "start": "00:02:38.025",
+      "text": " So imagine a merry-go-round, this spinning with an angular velocity omega."
+    },
+    {
+      "end": "00:02:46.033",
+      "start": "00:02:42.195",
+      "text": " We introduce a vector perpendicular to the plane of rotation,"
+    },
+    {
+      "end": "00:02:50.904",
+      "start": "00:02:46.033",
+      "text": " represented by a capital omega, called angular velocity vector."
+    },
+    {
+      "end": "00:02:55.175",
+      "start": "00:02:50.904",
+      "text": " Imagine Mario is running across the merry-go-round with a velocity v."
+    },
+    {
+      "end": "00:02:59.579",
+      "start": "00:02:55.175",
+      "text": " There will be a fictitious force, the cruelest force acting on him,"
+    },
+    {
+      "end": "00:03:04.184",
+      "start": "00:02:59.579",
+      "text": " which is given by an active M times v cross omega."
+    },
+    {
+      "end": "00:03:07.788",
+      "start": "00:03:04.184",
+      "text": " We'll need to use the right hand rule because of the cross-product."
+    },
+    {
+      "end": "00:03:13.493",
+      "start": "00:03:07.788",
+      "text": " The next tip sign in the equation means that the cruelest force is pointing in the opposite direction."
+    },
+    {
+      "end": "00:03:18.598",
+      "start": "00:03:13.493",
+      "text": " So in this case, the cruelest force will be pointing inwards."
+    },
+    {
+      "end": "00:03:22.969",
+      "start": "00:03:18.632",
+      "text": " The last fictitious force is called the u-the-force or as a muthophores."
+    },
+    {
+      "end": "00:03:27.374",
+      "start": "00:03:22.969",
+      "text": " Imagine Mario is standing on the merry-go-round with a distance R from the center,"
+    },
+    {
+      "end": "00:03:29.142",
+      "start": "00:03:27.374",
+      "text": " and someone is pushing him."
+    },
+    {
+      "end": "00:03:31.678",
+      "start": "00:03:29.142",
+      "text": " This will cause a change in angular velocity."
+    },
+    {
+      "end": "00:03:35.916",
+      "start": "00:03:31.678",
+      "text": " We can express this as a vector d omega dt."
+    },
+    {
+      "end": "00:03:42.055",
+      "start": "00:03:35.916",
+      "text": " The fictitious u-the-force acting on him is given by negative M d omega dt cross R."
+    },
+    {
+      "end": "00:03:46.760",
+      "start": "00:03:42.055",
+      "text": " In this case, the cross-product will give vector-cushing Mario inwards."
+    },
+    {
+      "end": "00:03:50.831",
+      "start": "00:03:46.760",
+      "text": " If a person in an accelerating non-inertial reference string"
+    },
+    {
+      "end": "00:03:53.467",
+      "start": "00:03:50.831",
+      "text": " wanted to find their acceleration,"
+    },
+    {
+      "end": "00:03:58.171",
+      "start": "00:03:53.467",
+      "text": " then we need to add up all the real and fictitious forces together."
+    },
+    {
+      "end": "00:04:02.976",
+      "start": "00:03:58.171",
+      "text": " This is the form that Newton's second law takes in non-inertial frames."
+    },
+    {
+      "end": "00:04:05.812",
+      "start": "00:04:02.976",
+      "text": " Fictitious forces are present in our everyday lives."
+    },
+    {
+      "end": "00:04:09.449",
+      "start": "00:04:05.812",
+      "text": " We've just grown so used to them that we've very noticed them anymore."
+    },
+    {
+      "end": "00:04:12.719",
+      "start": "00:04:09.449",
+      "text": " Now remember, the pseudo-force that is felt during acceleration"
+    },
+    {
+      "end": "00:04:17.457",
+      "start": "00:04:12.719",
+      "text": " can also be felt during deceleration only in the other direction."
+    },
+    {
+      "end": "00:04:20.227",
+      "start": "00:04:17.457",
+      "text": " So next time you get in a car, put on your seatbelt."
+    },
+    {
+      "end": "00:04:23.096",
+      "start": "00:04:20.227",
+      "text": " The force from your forward during crash might be fictitious,"
+    },
+    {
+      "end": "00:04:24.798",
+      "start": "00:04:23.096",
+      "text": " but the impact will be real."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Camilla Tac",
+  "youtube_channel_follower_count": 75,
+  "youtube_comment_count": 8,
+  "youtube_description": "Fictitious Forces can often be confusing. Why do we use them if they are just apparent forces? In which cases do we use each force? \nThis video by UCL Physics Students will try to explain with simple but effective examples what each fictitious force represents and why they are so useful in describing non-inertial frames.",
+  "youtube_like_count": 276,
+  "youtube_tags": [
+    "fictitious forces",
+    "ucl",
+    "physics",
+    "newton's law",
+    "non-inertial reference frames",
+    "frames",
+    "angular velocity",
+    "coriolis",
+    "euler",
+    "azimuthal",
+    "force",
+    "translational",
+    "merry-go-round"
+  ],
+  "youtube_title": "Fictitious Forces",
+  "youtube_upload_date": "20181019",
+  "youtube_view_count": 18112
+}

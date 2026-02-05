@@ -1,0 +1,900 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male hand demonstrating the use of an oscilloscope.",
+        "name": "Instructor"
+      }
+    ],
+    "description": "A video demonstration on using an oscilloscope to measure voltage, period, and frequency of an A/C signal.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "TIME/DIV",
+        "question": "What is the specific label on the dial used to change the time scale of the displayed signal?"
+      },
+      {
+        "answer": "CAL (Calibrated mode)",
+        "question": "What should the VAR dial be set to for accurate voltage measurements?"
+      },
+      {
+        "answer": "Frequency is the inverse of the period (f = 1/T).",
+        "question": "What is the relationship between the period and frequency of a signal?"
+      },
+      {
+        "answer": "Choosing an inappropriate scale can introduce uncertainty into the measurement, leading to less accurate results.",
+        "question": "What is the significance of choosing the appropriate scale when measuring voltage or period?"
+      },
+      {
+        "answer": "To ensure that the input signal is displayed correctly and stably on the screen.",
+        "question": "What is the primary purpose of the trigger controls on the oscilloscope?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The introduction sets up the viewer to understand what the video will cover in terms of using an oscilloscope.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the topic of the video: using an oscilloscope to measure the frequency and voltage of a signal.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Oscilloscope with a sine wave displayed",
+            "timestamp": {
+              "end_timestamp": "00:00:11.011",
+              "start_timestamp": "00:00:04.004"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to oscilloscopes, measuring electrical signals.",
+        "timestamps": {
+          "end_timestamp": "00:00:12.079",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'USING AN OSCILLOSCOPE WITH AN A/C SOURCE'",
+            "timestamps": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Text overlay: 'For this example, an oscilloscope will be used to measure the frequency and voltage of a signal.'",
+            "timestamps": {
+              "end_timestamp": "00:00:11.011",
+              "start_timestamp": "00:00:04.004"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Plugging in a lead to the oscilloscope's CH1 terminal",
+            "timestamp": {
+              "end_timestamp": "00:00:18.986",
+              "start_timestamp": "00:00:18.986"
+            }
+          },
+          {
+            "description": "Selecting CH1 mode on the oscilloscope",
+            "timestamp": {
+              "end_timestamp": "00:00:25.993",
+              "start_timestamp": "00:00:19.987"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Instructor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Instructor"
+            ],
+            "description": "The Instructor demonstrates the steps."
+          }
+        ],
+        "contextualRelevance": "The scene provides a practical demonstration of how to begin using an oscilloscope by setting it up properly.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene demonstrates the initial steps of connecting a single source to the oscilloscope and selecting the correct input channel.",
+            "timestamp": "00:00:18.986"
+          },
+          {
+            "description": "CH1 mode is selected.",
+            "timestamp": "00:00:25.993"
+          }
+        ],
+        "props": [
+          {
+            "name": "Oscilloscope",
+            "timestamp": {
+              "end_timestamp": "00:00:29.997",
+              "start_timestamp": "00:00:12.112"
+            }
+          },
+          {
+            "name": "Lead",
+            "timestamp": {
+              "end_timestamp": "00:00:29.997",
+              "start_timestamp": "00:00:12.112"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Connecting and setting up the oscilloscope for measurement.",
+        "timestamps": {
+          "end_timestamp": "00:00:30.931",
+          "start_timestamp": "00:00:12.112"
+        },
+        "title": "Plugging in the Lead and Selecting the Source",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'PLUGGING IN THE LEAD AND SELECTING THE SOURCE'",
+            "timestamps": {
+              "end_timestamp": "00:00:16.016",
+              "start_timestamp": "00:00:12.112"
+            }
+          },
+          {
+            "description": "Text overlay: 'When measuring a single source, attach the lead to the CH1 terminal, and select CH1 mode.'",
+            "timestamps": {
+              "end_timestamp": "00:00:29.997",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "description": "Close-up zoom on the CH1 terminal and lead connection",
+            "timestamps": {
+              "end_timestamp": "00:00:25.993",
+              "start_timestamp": "00:00:18.986"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Pointing to the trigger controls section",
+            "timestamp": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "description": "Pressing the trigger holdoff button",
+            "timestamp": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:45.012"
+            }
+          },
+          {
+            "description": "Setting the trigger source to CH1",
+            "timestamp": {
+              "end_timestamp": "00:00:56.990",
+              "start_timestamp": "00:00:50.017"
+            }
+          },
+          {
+            "description": "Turning the VAR dial clockwise",
+            "timestamp": {
+              "end_timestamp": "00:01:10.938",
+              "start_timestamp": "00:01:01.995"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Instructor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Instructor"
+            ],
+            "description": "The Instructor continues to demonstrate the steps."
+          }
+        ],
+        "contextualRelevance": "The scene educates viewers on the importance of trigger settings for displaying signals accurately on the oscilloscope.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the function of trigger controls and demonstrates how to set them for proper signal display, including calibration.",
+            "timestamp": "00:00:35.002"
+          },
+          {
+            "description": "Trigger holdoff is set to AUTO.",
+            "timestamp": "00:00:50.017"
+          },
+          {
+            "description": "Trigger source is set to CH1.",
+            "timestamp": "00:00:56.990"
+          },
+          {
+            "description": "VAR dial is set to CAL.",
+            "timestamp": "00:01:01.995"
+          }
+        ],
+        "props": [
+          {
+            "name": "Oscilloscope",
+            "timestamp": {
+              "end_timestamp": "00:01:10.938",
+              "start_timestamp": "00:00:30.964"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Triggering and signal calibration for accurate measurement.",
+        "timestamps": {
+          "end_timestamp": "00:01:10.938",
+          "start_timestamp": "00:00:30.964"
+        },
+        "title": "The Trigger Channel and Calibration",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'THE TRIGGER CHANNEL AND CALIBRATION'",
+            "timestamps": {
+              "end_timestamp": "00:00:35.002",
+              "start_timestamp": "00:00:30.964"
+            }
+          },
+          {
+            "description": "Highlight box around the trigger control section",
+            "timestamps": {
+              "end_timestamp": "00:00:59.993",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "description": "Text overlay: 'The group of trigger controls on the right of the oscilloscope is used to ensure that the input signal is displayed correctly on the oscilloscope screen.'",
+            "timestamps": {
+              "end_timestamp": "00:00:45.012",
+              "start_timestamp": "00:00:35.002"
+            }
+          },
+          {
+            "description": "Text overlay: 'Ensure that the trigger holdoff button is set to AUTO...'",
+            "timestamps": {
+              "end_timestamp": "00:00:50.017",
+              "start_timestamp": "00:00:45.012"
+            }
+          },
+          {
+            "description": "Text overlay: '...and that the trigger source is also set to CH1.'",
+            "timestamps": {
+              "end_timestamp": "00:00:59.993",
+              "start_timestamp": "00:00:50.017"
+            }
+          },
+          {
+            "description": "Text overlay: 'The VAR dial is used to vary the gain of the input signal. It should be set to CAL by turning the dial clockwise until it clicks.'",
+            "timestamps": {
+              "end_timestamp": "00:01:10.938",
+              "start_timestamp": "00:00:59.993"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Highlighting the vertical controls section",
+            "timestamp": {
+              "end_timestamp": "00:01:16.009",
+              "start_timestamp": "00:01:16.009"
+            }
+          },
+          {
+            "description": "Turning the vertical position dial",
+            "timestamp": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "description": "Turning the VOLTS/DIV dial",
+            "timestamp": {
+              "end_timestamp": "00:01:50.010",
+              "start_timestamp": "00:01:41.001"
+            }
+          },
+          {
+            "description": "Turning the VOLTS/DIV dial",
+            "timestamp": {
+              "end_timestamp": "00:02:21.008",
+              "start_timestamp": "00:02:14.001"
+            }
+          },
+          {
+            "description": "Pointing to the peaks of the sine wave",
+            "timestamp": {
+              "end_timestamp": "00:02:03.991",
+              "start_timestamp": "00:01:55.015"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Instructor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Instructor"
+            ],
+            "description": "The Instructor demonstrates the steps and explains the concepts."
+          }
+        ],
+        "contextualRelevance": "The scene is vital for viewers to learn how to properly interpret and measure voltage using an oscilloscope.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Focuses on measuring voltage, explaining the use of vertical controls and demonstrating how to calculate the peak-to-peak voltage of a signal.",
+            "timestamp": "00:01:16.009"
+          },
+          {
+            "description": "Example calculation with a VOLTS/DIV setting of 1V is shown.",
+            "timestamp": "00:02:14.001"
+          },
+          {
+            "description": "An example calculation with a VOLTS/DIV setting of 2V is shown, highlighting the impact of scale on measurement.",
+            "timestamp": "00:02:21.008"
+          }
+        ],
+        "props": [
+          {
+            "name": "Oscilloscope",
+            "timestamp": {
+              "end_timestamp": "00:02:42.629",
+              "start_timestamp": "00:01:11.004"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Measuring voltage, understanding oscilloscope controls, considering measurement uncertainty.",
+        "timestamps": {
+          "end_timestamp": "00:02:42.629",
+          "start_timestamp": "00:01:10.971"
+        },
+        "title": "Measuring Voltage",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'MEASURING VOLTAGE'",
+            "timestamps": {
+              "end_timestamp": "00:01:16.009",
+              "start_timestamp": "00:01:11.004"
+            }
+          },
+          {
+            "description": "Highlight box around the vertical controls section",
+            "timestamps": {
+              "end_timestamp": "00:01:26.987",
+              "start_timestamp": "00:01:16.009"
+            }
+          },
+          {
+            "description": "Text overlay: 'The set of controls on the left of the oscilloscope vary the position and scaling of the vertical or voltage axis of the signal displayed on the oscilloscope screen.'",
+            "timestamps": {
+              "end_timestamp": "00:01:26.987",
+              "start_timestamp": "00:01:16.009"
+            }
+          },
+          {
+            "description": "Text overlay: 'The vertical position dial is used to change the position of the signal's display relative to the grid. It does not alter the actual input signal.'",
+            "timestamps": {
+              "end_timestamp": "00:01:36.997",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "description": "Text overlay: 'The VOLTS/DIV dial changes the scale of the displayed signal voltage, and can be used to ensure that the entire range of the signal is displayed on the screen.'",
+            "timestamps": {
+              "end_timestamp": "00:01:50.010",
+              "start_timestamp": "00:01:36.997"
+            }
+          },
+          {
+            "description": "Text overlay: 'To calculate the peak-to-peak voltage of the signal, the number of divisions between the maximum and minimum of the signal must be counted.'",
+            "timestamps": {
+              "end_timestamp": "00:02:03.991",
+              "start_timestamp": "00:01:50.010"
+            }
+          },
+          {
+            "description": "Text overlay: 'This value, multiplied by the VOLTS/DIV setting, gives a peak-to-peak voltage.'",
+            "timestamps": {
+              "end_timestamp": "00:02:14.001",
+              "start_timestamp": "00:02:03.991"
+            }
+          },
+          {
+            "description": "Text overlay: 'In this case, there are 5.6 divisions, multiplied by a VOLTS/DIV of 1V, giving Vp-to-p = 5.6V'",
+            "timestamps": {
+              "end_timestamp": "00:02:21.008",
+              "start_timestamp": "00:02:14.001"
+            }
+          },
+          {
+            "description": "Text overlay: 'Adjusting the VOLTS/DIV dial will change the size of the signal on the screen, but not the signal itself.'",
+            "timestamps": {
+              "end_timestamp": "00:02:21.008",
+              "start_timestamp": "00:02:14.001"
+            }
+          },
+          {
+            "description": "Text overlay: 'With this alternative scale, there are 2.4 divisions, multiplied by a VOLTS/DIV of 2V, giving Vp-to-p = 5.8V'",
+            "timestamps": {
+              "end_timestamp": "00:02:30.017",
+              "start_timestamp": "00:02:21.008"
+            }
+          },
+          {
+            "description": "Text overlay: 'The difference in the two readings is due to uncertainty. Always choose the scale appropriately.'",
+            "timestamps": {
+              "end_timestamp": "00:02:42.629",
+              "start_timestamp": "00:02:30.017"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Highlighting the horizontal controls section",
+            "timestamp": {
+              "end_timestamp": "00:02:45.999",
+              "start_timestamp": "00:02:45.999"
+            }
+          },
+          {
+            "description": "Turning the horizontal position dial",
+            "timestamp": {
+              "end_timestamp": "00:03:03.016",
+              "start_timestamp": "00:02:56.009"
+            }
+          },
+          {
+            "description": "Turning the TIME/DIV dial",
+            "timestamp": {
+              "end_timestamp": "00:03:15.996",
+              "start_timestamp": "00:03:03.984"
+            }
+          },
+          {
+            "description": "Pointing to the peaks of the sine wave",
+            "timestamp": {
+              "end_timestamp": "00:03:29.009",
+              "start_timestamp": "00:03:22.002"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Instructor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Instructor"
+            ],
+            "description": "The Instructor continues to demonstrate the steps and explain the concepts."
+          }
+        ],
+        "contextualRelevance": "This scene educates viewers on the complementary relationship between period and frequency and how to measure these with an oscilloscope.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shifts the focus to measuring period and frequency, explaining the use of horizontal controls and demonstrating how to calculate the period and frequency of a signal.",
+            "timestamp": "00:02:45.999"
+          },
+          {
+            "description": "Calculation of period is explained.",
+            "timestamp": "00:03:15.996"
+          },
+          {
+            "description": "An example calculation with a TIME/DIV setting of 10 μs is shown.",
+            "timestamp": "00:03:33.013"
+          },
+          {
+            "description": "The relationship between period and frequency is explained.",
+            "timestamp": "00:03:41.988"
+          }
+        ],
+        "props": [
+          {
+            "name": "Oscilloscope",
+            "timestamp": {
+              "end_timestamp": "00:03:49.996",
+              "start_timestamp": "00:02:42.996"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Measuring period and frequency, understanding oscilloscope controls.",
+        "timestamps": {
+          "end_timestamp": "00:03:51.064",
+          "start_timestamp": "00:02:42.662"
+        },
+        "title": "Measuring Period and Frequency",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay: 'MEASURING PERIOD AND FREQUENCY'",
+            "timestamps": {
+              "end_timestamp": "00:02:45.999",
+              "start_timestamp": "00:02:42.996"
+            }
+          },
+          {
+            "description": "Highlight box around the horizontal controls section",
+            "timestamps": {
+              "end_timestamp": "00:02:56.009",
+              "start_timestamp": "00:02:45.999"
+            }
+          },
+          {
+            "description": "Text overlay: 'The set of controls in the middle of the oscilloscope vary the position and scaling of the horizontal or time axis of the signal displayed on the oscilloscope screen.'",
+            "timestamps": {
+              "end_timestamp": "00:02:56.009",
+              "start_timestamp": "00:02:45.999"
+            }
+          },
+          {
+            "description": "Text overlay: 'The horizontal position dial is used to change the position of the signal's display relative to the grid.'",
+            "timestamps": {
+              "end_timestamp": "00:03:03.016",
+              "start_timestamp": "00:02:56.009"
+            }
+          },
+          {
+            "description": "Text overlay: 'The TIME/DIV dial changes the time scale of the displayed signal, and is used to ensure that an entire cycle of the signal is displayed on the screen.'",
+            "timestamps": {
+              "end_timestamp": "00:03:15.996",
+              "start_timestamp": "00:03:03.016"
+            }
+          },
+          {
+            "description": "Text overlay: 'To calculate the period of the signal, the number of horizontal divisions between successive crests of the signal must be counted.'",
+            "timestamps": {
+              "end_timestamp": "00:03:29.009",
+              "start_timestamp": "00:03:15.996"
+            }
+          },
+          {
+            "description": "Text overlay: 'This value, multiplied by the TIME/DIV setting, gives the period of the signal.'",
+            "timestamps": {
+              "end_timestamp": "00:03:33.013",
+              "start_timestamp": "00:03:29.009"
+            }
+          },
+          {
+            "description": "Text overlay: 'In this case, there are 3.4 divisions, multiplied by a TIME/DIV of 10 μs, giving t = 34 μs.'",
+            "timestamps": {
+              "end_timestamp": "00:03:41.988",
+              "start_timestamp": "00:03:33.013"
+            }
+          },
+          {
+            "description": "Text overlay: 'From this, the frequency can be calculated, as the inverse of period.'",
+            "timestamps": {
+              "end_timestamp": "00:03:49.996",
+              "start_timestamp": "00:03:41.988"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax of the video could be considered the calculation of the peak-to-peak voltage and the period, as these demonstrate the practical application of the explained concepts.",
+        "timestamp": "00:02:14.001"
+      },
+      "description": "The video focuses on demonstrating how to use an oscilloscope to measure the voltage, period, and frequency of an A/C signal.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Using an Oscilloscope with an A/C Source",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove the initial text overlay and start directly with the oscilloscope displaying the sine wave.",
+        "timestamps": {
+          "end_timestamp": "00:02:42.662",
+          "start_timestamp": "00:02:42.662"
+        }
+      },
+      {
+        "description": "Shorten the explanations of the trigger controls and focus on practical steps.",
+        "timestamps": {
+          "end_timestamp": "00:02:42.662",
+          "start_timestamp": "00:02:42.662"
+        }
+      },
+      {
+        "description": "Trim lengthy explanations of each section's purpose in favor of practical demonstrations.",
+        "timestamps": {
+          "end_timestamp": "00:02:56.009",
+          "start_timestamp": "00:02:45.999"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 232,
+  "original_json_filename": "g0tBJlOEz00.json",
+  "original_video_filename": "g0tBJlOEz00.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "for this example and Cannell when measuring a single-source attach the lead to the channel one terminal and select the channel one mode the group of trigger controls on the right of the oscilloscope is used to ensure that the input signal is displayed correctly on the oscilloscope screen ensure that the trigger hold-off is set to auto by pressing the button in and make sure that the source channel is set to the same channel that the input source is connected to in this case channel 1 the VAR dial is used to vary their gain of the input signal it should be set to calibrated mode by turning the dial clockwise until the click is heard the set of controls on the left of the oscilloscope vary the position and scaling of the vertical or voltage axis of the signal displayed on the oscilloscope screen the vertical position dial is used to change the position of the signals display relative to the grid it does not alter the actual input signal the volts per division dial changes the scale of the displayed signal voltage and can be used to ensure that the entire range of the signal is displayed on the screen to calculate the peak-to-peak voltage of the signal the number of divisions between the maximum and minimum of the signal must be counted this value multiplied by the volts per division setting gives a peak to peak voltage in this case there are five point six divisions multiplied by a volts per division of one volt giving a peak to peak voltage of 5 point 6 volts adjusting the volts per division dial will change the size of the signal on the screen but not the signal itself with this alternate scale there are two point four divisions multiplied by a volts per division of two volts giving a peak to peak voltage of five point eight volts the difference in the two readings is due to uncertainty always choose the scale appropriately make sure that the signal spans as much of the screen as possible while still allowing you to measure both Peaks the set of control in the middle of the oscilloscope vary the position and scaling of the horizontal or time axis of the signal displayed on the oscilloscope screen the horizontal position dial is used to change the position of the signals display relative to the grid the time per division dial changes the time scale of the displayed signal and is used to ensure that an entire cycle of the signal is displayed on the screen to calculate the period of the signal the number of horizontal divisions between successive crests of the signal must be counted this number multiplied by the time per division setting gives the period of the signal in this case there are three point four divisions multiplied by a time per division of ten microseconds giving a period of 34 microseconds from this the frequency can be calculated as the inverse of the period",
+  "text_to_speech_word_count": 508,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.743",
+      "start": "00:00:00.000",
+      "text": " For this example, an oscilloscope will be used to measure the frequency and voltage of"
+    },
+    {
+      "end": "00:00:19.753",
+      "start": "00:00:09.743",
+      "text": " a signal."
+    },
+    {
+      "end": "00:00:24.391",
+      "start": "00:00:19.753",
+      "text": " When measuring a single source, attach the lead to the channel 1 terminal and select the"
+    },
+    {
+      "end": "00:00:35.269",
+      "start": "00:00:24.391",
+      "text": " channel 1 mode."
+    },
+    {
+      "end": "00:00:39.740",
+      "start": "00:00:35.269",
+      "text": " The group of trigger controls on the right of the oscilloscope is used to ensure that the"
+    },
+    {
+      "end": "00:00:45.012",
+      "start": "00:00:39.740",
+      "text": " input signal is displayed correctly on the oscilloscope screen."
+    },
+    {
+      "end": "00:00:50.050",
+      "start": "00:00:45.012",
+      "text": " Ensure that the trigger hold off is set to auto by pressing the button in and make sure"
+    },
+    {
+      "end": "00:00:54.221",
+      "start": "00:00:50.050",
+      "text": " that the source channel is set to the same channel that the input source is connected"
+    },
+    {
+      "end": "00:00:59.793",
+      "start": "00:00:54.221",
+      "text": " to, in this case channel 1."
+    },
+    {
+      "end": "00:01:03.897",
+      "start": "00:00:59.793",
+      "text": " The var dial is used to vary the gain of the input signal."
+    },
+    {
+      "end": "00:01:16.576",
+      "start": "00:01:03.897",
+      "text": " It should be set to calibrated mode by turning the dial clockwise until the click is heard."
+    },
+    {
+      "end": "00:01:21.748",
+      "start": "00:01:16.576",
+      "text": " The set of controls on the left of the oscilloscope vary the position and scaling of the vertical"
+    },
+    {
+      "end": "00:01:27.654",
+      "start": "00:01:21.748",
+      "text": " or voltage axis of the signal displayed on the oscilloscope screen."
+    },
+    {
+      "end": "00:01:32.559",
+      "start": "00:01:27.654",
+      "text": " The vertical position dial is used to change the position of the signal's display relative"
+    },
+    {
+      "end": "00:01:34.027",
+      "start": "00:01:32.559",
+      "text": " to the grid."
+    },
+    {
+      "end": "00:01:37.931",
+      "start": "00:01:34.027",
+      "text": " It does not alter the actual input signal."
+    },
+    {
+      "end": "00:01:43.070",
+      "start": "00:01:37.931",
+      "text": " The volts per division dial changes the scale of the displayed signal voltage and can"
+    },
+    {
+      "end": "00:01:51.078",
+      "start": "00:01:43.070",
+      "text": " be used to ensure that the entire range of the signal is displayed on the screen."
+    },
+    {
+      "end": "00:01:55.148",
+      "start": "00:01:51.078",
+      "text": " To calculate the peak-to-peak voltage of the signal, the number of divisions between"
+    },
+    {
+      "end": "00:01:58.919",
+      "start": "00:01:55.148",
+      "text": " the maximum and minimum of the signal must be counted."
+    },
+    {
+      "end": "00:02:05.192",
+      "start": "00:01:58.919",
+      "text": " This value, multiplied by the volts per division setting, gives a peak-to-peak voltage."
+    },
+    {
+      "end": "00:02:11.264",
+      "start": "00:02:05.192",
+      "text": " In this case, there are 5.6 divisions, multiplied by a volts per division of 1 volt, giving"
+    },
+    {
+      "end": "00:02:14.968",
+      "start": "00:02:11.264",
+      "text": " a peak-to-peak voltage of 5.6 volts."
+    },
+    {
+      "end": "00:02:19.239",
+      "start": "00:02:14.968",
+      "text": " Adjusting the volts per division dial will change the size of the signal on the screen,"
+    },
+    {
+      "end": "00:02:21.375",
+      "start": "00:02:19.239",
+      "text": " but not the signal itself."
+    },
+    {
+      "end": "00:02:27.581",
+      "start": "00:02:21.375",
+      "text": " With this alternate scale, there are 2.4 divisions, multiplied by a volts per division of 2 volts,"
+    },
+    {
+      "end": "00:02:30.984",
+      "start": "00:02:27.581",
+      "text": " giving a peak-to-peak voltage of 5.8 volts."
+    },
+    {
+      "end": "00:02:34.821",
+      "start": "00:02:30.984",
+      "text": " The difference in the two readings is due to uncertainty."
+    },
+    {
+      "end": "00:02:37.157",
+      "start": "00:02:34.821",
+      "text": " Always choose the scale appropriately."
+    },
+    {
+      "end": "00:02:41.228",
+      "start": "00:02:37.157",
+      "text": " Make sure that the signal spans as much of the screen as possible, while still allowing"
+    },
+    {
+      "end": "00:02:45.866",
+      "start": "00:02:41.228",
+      "text": " you to measure both peaks."
+    },
+    {
+      "end": "00:02:51.304",
+      "start": "00:02:45.866",
+      "text": " The set of controls in the middle of the oscilloscope vary the position and scaling of the horizontal"
+    },
+    {
+      "end": "00:02:56.143",
+      "start": "00:02:51.304",
+      "text": " or time axis of the signal displayed on the oscilloscope screen."
+    },
+    {
+      "end": "00:03:00.914",
+      "start": "00:02:56.143",
+      "text": " The horizontal position dial is used to change the position of the signal's display relative"
+    },
+    {
+      "end": "00:03:03.784",
+      "start": "00:03:00.914",
+      "text": " to the grid."
+    },
+    {
+      "end": "00:03:08.455",
+      "start": "00:03:03.784",
+      "text": " The time per division dial changes the time scale of the displayed signal, and is used"
+    },
+    {
+      "end": "00:03:17.597",
+      "start": "00:03:08.455",
+      "text": " to ensure that an entire cycle of the signal is displayed on the screen."
+    },
+    {
+      "end": "00:03:22.302",
+      "start": "00:03:17.597",
+      "text": " To calculate the period of the signal, the number of horizontal divisions between successive"
+    },
+    {
+      "end": "00:03:25.105",
+      "start": "00:03:22.302",
+      "text": " crests of the signal must be counted."
+    },
+    {
+      "end": "00:03:33.747",
+      "start": "00:03:25.105",
+      "text": " This number, multiplied by the time per division setting, gives the period of the signal."
+    },
+    {
+      "end": "00:03:40.454",
+      "start": "00:03:33.747",
+      "text": " In this case, there are 3.4 divisions, multiplied by a time per division of 10 microseconds, giving"
+    },
+    {
+      "end": "00:03:43.290",
+      "start": "00:03:40.454",
+      "text": " a period of 34 microseconds."
+    },
+    {
+      "end": "00:03:47.227",
+      "start": "00:03:43.290",
+      "text": " From this, the frequency can be calculated as the inverse of the period."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "UCTPhysics",
+  "youtube_channel_follower_count": 2980,
+  "youtube_comment_count": 81,
+  "youtube_description": "This clips shows how to use an oscilloscope to measure the frequency and voltage of a signal from an A/C source",
+  "youtube_like_count": 2390,
+  "youtube_tags": [
+    "oscilloscope"
+  ],
+  "youtube_title": "How to use an oscilloscope with an A/C source",
+  "youtube_upload_date": "20110829",
+  "youtube_view_count": 532736
+}

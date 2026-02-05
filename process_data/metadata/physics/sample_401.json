@@ -1,0 +1,556 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Middle-aged man with curly brown hair and a receding hairline. Wears a blue and white checked shirt and jeans.",
+        "name": "Professor"
+      }
+    ],
+    "description": "A classroom lecture by a professor explaining the scientific concept of light field propagation using mathematical formulas and Fourier transforms.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The professor explains that the Z component is determined by the X and Y components, making integration over Z redundant.",
+        "question": "Why does the professor only integrate over the transverse components, 'd new x' and 'd new y'?"
+      },
+      {
+        "answer": "The 'angular spectrum' refers to the function A(new), derived from the Fourier transform of the initial field.",
+        "question": "What does the term 'angular spectrum' refer to?"
+      },
+      {
+        "answer": "Evaluating the field at z=0 provides the initial field distribution, which is then used to determine the angular spectrum A(new) through Fourier transform.",
+        "question": "What is the significance of evaluating the field at z=0?"
+      },
+      {
+        "answer": "In this context, the 'signal' refers to the initial field distribution, and the 'response' refers to the final field distribution after propagation through space.",
+        "question": "What does the professor mean when he refers to 'signal' and 'response'?"
+      },
+      {
+        "answer": "The professor promises to start from the final equation derived in this lecture and further explore the uncertainty relation and other properties related to light field propagation. He will also demonstrate on the computer how this can be used for propagation and other applications.",
+        "question": "What does the professor promise to cover in the next lecture?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Professor lectures and writes on the chalkboard.",
+            "timestamp": {
+              "end_timestamp": "00:07:23.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Students getting up from their chairs.",
+            "timestamp": {
+              "end_timestamp": "00:07:27.000",
+              "start_timestamp": "00:07:23.000"
+            }
+          },
+          {
+            "description": "Professor leaves the classroom.",
+            "timestamp": {
+              "end_timestamp": "00:07:44.000",
+              "start_timestamp": "00:07:28.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Professor"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Professor"
+            ],
+            "description": "The professor is the sole speaker, directly addressing the unseen students."
+          }
+        ],
+        "contextualRelevance": "The lecture is part of the Winter College on Optics, covering advanced optical techniques for bio-imaging.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Curious. The classroom setting and professor's lecture create a curious mood. The focus is on understanding the technical information being presented.",
+          "keyMoments": [
+            {
+              "changeDescription": "Mood transition as students prepare for a break or end of lecture.",
+              "timestamp": "00:07:23.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Professor introduces the concept of integrating over transverse components.",
+            "timestamp": "00:00:09.000"
+          },
+          {
+            "description": "Mentions using a Fourier approach to decompose the field.",
+            "timestamp": "00:00:25.000"
+          },
+          {
+            "description": "Explains how the Z component is determined by the X and Y components.",
+            "timestamp": "00:00:47.000"
+          },
+          {
+            "description": "Introduces the term 'angular spectrum.'",
+            "timestamp": "00:01:16.000"
+          },
+          {
+            "description": "Shows how the field can be expressed using inverse Fourier transforms.",
+            "timestamp": "00:03:32.000"
+          },
+          {
+            "description": "Summarizes the process of propagating a field from a known initial plane using Fourier transforms and the transfer function.",
+            "timestamp": "00:06:03.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Chalkboard with mathematical formulas",
+            "timestamp": {
+              "end_timestamp": "00:07:44.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:07:44.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Chalk",
+            "timestamp": {
+              "end_timestamp": "00:07:23.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Wooden desk with water bottle and laptop",
+            "timestamp": {
+              "end_timestamp": "00:07:44.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Chairs",
+            "timestamp": {
+              "end_timestamp": "00:07:44.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Light field propagation, Fourier transforms, Transfer functions",
+        "timestamps": {
+          "end_timestamp": "00:07:47.680",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Light Field Propagation Lecture",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-in from black.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Fade-out to black and a slide with text 'Preparatory School to the Winter College on Optics: Advanced Optical Techniques for Bio-Imaging (smr 3169) 6 - 10 February 2017 More videos on: https://indico.ictp.it'.",
+            "timestamps": {
+              "end_timestamp": "00:07:47.000",
+              "start_timestamp": "00:07:45.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The professor summarizes the process of propagating a field from a known initial plane.",
+        "timestamp": "00:06:03.000"
+      },
+      "description": "The video presents a segment of a lecture focused on explaining a scientific concept.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Lecture on Advanced Optical Techniques for Bio-Imaging",
+    "trimmingSuggestions": [
+      {
+        "description": "The beginning fade-in could be shortened to start the lecture more quickly.",
+        "timestamps": {
+          "end_timestamp": "00:00:02.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      },
+      {
+        "description": "The ending segment where the students get up and the professor leaves the classroom could be trimmed or removed. This section doesn't contribute new information and slows down the pace.",
+        "timestamps": {
+          "end_timestamp": "00:07:44.000",
+          "start_timestamp": "00:07:23.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 468,
+  "original_json_filename": "xV6fmbY8Uzw.json",
+  "original_video_filename": "xV6fmbY8Uzw.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "where I'm gonna integrate over all the transverse components and of course I need to give them some different amplitudes to each one so I'm thinking like 4e again you can decompose anything into things that oscillate I just need to find what they are so I'm going to put something here depends on these transverse sayings here and I'm gonna integrate only over these new X and D new why why not not why not the C component why only X and why because the C one is determined by the X&amp;Y but if I write this again substituting this form then this is the same as the integral and it's from minus infinity to infinity a of new e to the minus I 2 pi nu dot X and this part that I can write as e to the I let me write this part as H of new the new X the new Y where H of new is that exponential eat e to the I 2 pi and then I can bring that lambda inside of the square root so this gives me 1 over lambda squared minus nu x squared minus nu y squared is that okay and it is assumed that when this is bigger than 1 this is positive when this is smaller than 1 the square root is positive imaginary so that this whole thing the case times C times C now how do I find this a for minutes how I find this a so the this this H depends on you and depends on Z what happens if I let Z equal zero what is what is the exponential equal to one so notice that H of new comma zero is equal to e to the I 0 equal to 1 so if I evaluate the field at the initial plane U at X comma Y comma the mrs. Z equals 0 then what I have is the integral from minus infinity to infinity of a of new e to the minus I 2 pi new dot x the new X the new Y the H goes away and what is this formula how we've seen this before is the inverse Fourier transform the inverse Fourier transform of a is equal to the field at the first plane so I can call this let me call this the initial plane of X comma Y that means that a is the Fourier transform of the initial plane so therefore this a of new which is called the angular spectrum is the Fourier transform as X goes to new X let's say Y goes to new Y of the initial field so if I have a field and I know what it is at the initial plane I fully transform that and that tells me what the play the weight of the plane waves is from there to propagate I just let these plane waves travel in other words then the field at X comma Y comma Z is now this is the inverse we transform of what of this now this whole expression looks now like an embrace free transform of the product of this times H so that is and this is the fully transform of the initial field so this is the inverse Fourier transform as nu X goes to X nu Y goes to Y of the transfer function times the Fourier transform as X goes to Nu X Y goes to new Y of the initial field so to propagate a field from a known initial plane the plane waves the property tells me I just have to do the free transform multiply it by this simple transfer function and the inverse Fourier transform so it's again our signal and response the signal is now what is the initial field and the response is the final field after propagation and transfer function is this phase that accumulates in the propagation or the exponential decay so the plane waves give us this connection between solving the hormones equation and Fourier theory so I'm going to start from this tomorrow and try to interpret again the uncertainty relation and all these properties in terms of this and show you on the computer how this can be used to propagate and all the properties and those and then we'll go into measuring the resolution of an imaging system etc I just wanted to get to the to the to the punchline before we leave all right so coffee break and at 4:00 please be here for professor sorry ok so about that green fluorescent proteins very good",
+  "text_to_speech_word_count": 777,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:12.360",
+      "start": "00:00:00.000",
+      "text": " And where I'm going to integrate over all the transverse components."
+    },
+    {
+      "end": "00:00:16.800",
+      "start": "00:00:12.360",
+      "text": " And of course, I need to give them some different amplitude to which one."
+    },
+    {
+      "end": "00:00:19.880",
+      "start": "00:00:16.800",
+      "text": " So I'm thinking like Fourier again."
+    },
+    {
+      "end": "00:00:22.920",
+      "start": "00:00:19.880",
+      "text": " You can decompose anything into things that oscillate."
+    },
+    {
+      "end": "00:00:24.720",
+      "start": "00:00:22.920",
+      "text": " I just need to find what they are."
+    },
+    {
+      "end": "00:00:27.600",
+      "start": "00:00:24.720",
+      "text": " So I'm going to put something here."
+    },
+    {
+      "end": "00:00:30.600",
+      "start": "00:00:27.600",
+      "text": " Depends on these transverse things here."
+    },
+    {
+      "end": "00:00:35.120",
+      "start": "00:00:30.600",
+      "text": " And I'm going to integrate only over D, new X, and D, new Y."
+    },
+    {
+      "end": "00:00:38.840",
+      "start": "00:00:35.120",
+      "text": " Why not the C component?"
+    },
+    {
+      "end": "00:00:42.800",
+      "start": "00:00:38.840",
+      "text": " Why only X and Y?"
+    },
+    {
+      "end": "00:00:47.200",
+      "start": "00:00:42.800",
+      "text": " Because the C1 is determined by the X and Y."
+    },
+    {
+      "end": "00:00:52.560",
+      "start": "00:00:47.200",
+      "text": " But if I write this again, substituting this form,"
+    },
+    {
+      "end": "00:00:55.360",
+      "start": "00:00:52.600",
+      "text": " then this is the same as the integral."
+    },
+    {
+      "end": "00:01:12.440",
+      "start": "00:00:55.360",
+      "text": " And it's from minus infinity to infinity, A of nu, e to the minus i 2 pi nu dot X."
+    },
+    {
+      "end": "00:01:22.400",
+      "start": "00:01:12.440",
+      "text": " And this part that I can write as e to the i, let me write this part as h of nu."
+    },
+    {
+      "end": "00:01:38.040",
+      "start": "00:01:22.400",
+      "text": " The nu X, the nu Y, where h of nu is that exponential, e to the i, 2 pi."
+    },
+    {
+      "end": "00:01:40.880",
+      "start": "00:01:38.040",
+      "text": " And then I can bring that lambda instead of the square root."
+    },
+    {
+      "end": "00:01:49.000",
+      "start": "00:01:40.880",
+      "text": " So this gives me 1 over lambda squared minus nu X squared minus nu Y squared."
+    },
+    {
+      "end": "00:01:52.480",
+      "start": "00:01:49.000",
+      "text": " Is that OK?"
+    },
+    {
+      "end": "00:01:57.640",
+      "start": "00:01:52.480",
+      "text": " And it is assumed that when this is bigger than 1, this is positive."
+    },
+    {
+      "end": "00:02:02.760",
+      "start": "00:01:57.640",
+      "text": " When this is smaller than 1, the square root is positive imaginary."
+    },
+    {
+      "end": "00:02:12.760",
+      "start": "00:02:02.760",
+      "text": " So that this whole thing, the case, times C, times C."
+    },
+    {
+      "end": "00:02:16.920",
+      "start": "00:02:12.760",
+      "text": " Now, how do I find this A?"
+    },
+    {
+      "end": "00:02:17.880",
+      "start": "00:02:16.920",
+      "text": " Four minutes."
+    },
+    {
+      "end": "00:02:20.880",
+      "start": "00:02:17.880",
+      "text": " How I find this A?"
+    },
+    {
+      "end": "00:02:32.720",
+      "start": "00:02:20.880",
+      "text": " So this h depends on nu and depends on z."
+    },
+    {
+      "end": "00:02:35.440",
+      "start": "00:02:32.720",
+      "text": " What happens if I let z equal 0?"
+    },
+    {
+      "end": "00:02:41.960",
+      "start": "00:02:39.440",
+      "text": " What is the exponential equal to?"
+    },
+    {
+      "end": "00:02:44.600",
+      "start": "00:02:41.960",
+      "text": " 1."
+    },
+    {
+      "end": "00:03:01.320",
+      "start": "00:02:44.600",
+      "text": " So notice that h of nu comma 0 is equal to e to the i, 0 equal to 1."
+    },
+    {
+      "end": "00:03:13.720",
+      "start": "00:03:01.320",
+      "text": " So if I evaluate the field at the initial plane, u at X, Y, let me say z equal 0."
+    },
+    {
+      "end": "00:03:23.880",
+      "start": "00:03:13.720",
+      "text": " And then what I have is the integral from minus infinity to infinity of A of nu e to the"
+    },
+    {
+      "end": "00:03:36.560",
+      "start": "00:03:23.880",
+      "text": " minus i, 2 pi nu dot X, the nu X, the nu Y, the h goes away."
+    },
+    {
+      "end": "00:03:37.560",
+      "start": "00:03:36.560",
+      "text": " And what is this formula?"
+    },
+    {
+      "end": "00:03:38.560",
+      "start": "00:03:37.560",
+      "text": " I will see in this before."
+    },
+    {
+      "end": "00:03:45.360",
+      "start": "00:03:38.560",
+      "text": " Is the inverse Fourier transform?"
+    },
+    {
+      "end": "00:03:50.080",
+      "start": "00:03:45.360",
+      "text": " The inverse Fourier transform of A is equal to the field at the first plane."
+    },
+    {
+      "end": "00:03:58.240",
+      "start": "00:03:50.080",
+      "text": " So I can call this, let me call this the initial plane of X, Y."
+    },
+    {
+      "end": "00:04:07.320",
+      "start": "00:03:58.240",
+      "text": " That means that A is the Fourier transform of the initial plane."
+    },
+    {
+      "end": "00:04:17.880",
+      "start": "00:04:07.320",
+      "text": " So therefore, this A of nu, which is called the angular spectrum, is the Fourier transform."
+    },
+    {
+      "end": "00:04:27.800",
+      "start": "00:04:17.880",
+      "text": " As X goes to nu X, let's say Y goes to nu Y of the initial field."
+    },
+    {
+      "end": "00:04:36.560",
+      "start": "00:04:28.120",
+      "text": " So if I have a field and I know what it is at the initial plane, I Fourier transform that."
+    },
+    {
+      "end": "00:04:43.080",
+      "start": "00:04:36.560",
+      "text": " And that tells me what the weight of the plane waves is."
+    },
+    {
+      "end": "00:04:48.360",
+      "start": "00:04:43.080",
+      "text": " From there to propagate, I just let this plane waves travel."
+    },
+    {
+      "end": "00:05:13.200",
+      "start": "00:04:48.360",
+      "text": " In other words, then the field at X, Y, Z is now, this is the inverse Fourier transform of what?"
+    },
+    {
+      "end": "00:05:15.880",
+      "start": "00:05:13.200",
+      "text": " Of this?"
+    },
+    {
+      "end": "00:05:24.480",
+      "start": "00:05:15.880",
+      "text": " This whole expression looks now like an inverse Fourier transform of the product of this times h."
+    },
+    {
+      "end": "00:05:28.600",
+      "start": "00:05:24.480",
+      "text": " So that is, and this is the Fourier transform of the initial field."
+    },
+    {
+      "end": "00:05:33.080",
+      "start": "00:05:28.600",
+      "text": " So this is the inverse Fourier transform."
+    },
+    {
+      "end": "00:05:50.000",
+      "start": "00:05:33.080",
+      "text": " As nu X goes to X, nu Y goes to Y of the transfer function times the Fourier transform."
+    },
+    {
+      "end": "00:05:59.600",
+      "start": "00:05:50.000",
+      "text": " As X goes to nu X, and Y goes to nu Y of the initial field."
+    },
+    {
+      "end": "00:06:08.880",
+      "start": "00:05:59.600",
+      "text": " So to propagate the field from a known initial plane, the plane waves that the professor tells me,"
+    },
+    {
+      "end": "00:06:16.160",
+      "start": "00:06:08.880",
+      "text": " I just have to do the Fourier transform, multiplied by this simple transfer function, and the inverse Fourier transform."
+    },
+    {
+      "end": "00:06:19.320",
+      "start": "00:06:16.160",
+      "text": " So it's again our signal and response."
+    },
+    {
+      "end": "00:06:24.160",
+      "start": "00:06:19.320",
+      "text": " The signal is now what?"
+    },
+    {
+      "end": "00:06:32.040",
+      "start": "00:06:24.160",
+      "text": " It is the initial field, and the response is the final field after propagation."
+    },
+    {
+      "end": "00:06:40.080",
+      "start": "00:06:32.040",
+      "text": " And transfer function is this phase that accumulates in the propagation or the exponential decay."
+    },
+    {
+      "end": "00:06:51.600",
+      "start": "00:06:40.080",
+      "text": " So the plane waves give us this connection between solving the Hamilton's equation and Fourier theory."
+    },
+    {
+      "end": "00:07:01.840",
+      "start": "00:06:51.600",
+      "text": " So I'm going to start from this tomorrow, and try to interpret again the uncertainty relation and all these properties in terms of this,"
+    },
+    {
+      "end": "00:07:11.920",
+      "start": "00:07:01.840",
+      "text": " and show you on the computer how this can be used to propagate and all the properties, and then we'll go into measuring the resolution of an imaging system, et cetera."
+    },
+    {
+      "end": "00:07:17.960",
+      "start": "00:07:11.920",
+      "text": " I just wanted to get to the punch line before we leave."
+    },
+    {
+      "end": "00:07:25.760",
+      "start": "00:07:17.960",
+      "text": " All right, so coffee break, and at 4, please be here for Professor."
+    },
+    {
+      "end": "00:07:26.760",
+      "start": "00:07:25.760",
+      "text": " Sorry?"
+    },
+    {
+      "end": "00:07:29.760",
+      "start": "00:07:26.760",
+      "text": " It's about being free for us in protein."
+    },
+    {
+      "end": "00:07:33.160",
+      "start": "00:07:29.760",
+      "text": " OK, so about that."
+    },
+    {
+      "end": "00:07:34.440",
+      "start": "00:07:33.160",
+      "text": " Green Flores in proteins."
+    },
+    {
+      "end": "00:07:35.600",
+      "start": "00:07:34.440",
+      "text": " Very good."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "ICTP Science, Technology and Innovation",
+  "youtube_channel_follower_count": 9510,
+  "youtube_comment_count": 0,
+  "youtube_description": "Speaker: Miguel Alonso Gonzalez and Anna Consortini (University of Rochester, USA; University of Florence, Italy)\nPreparatory School to the Winter College on Optics: Advanced Optical Techniques for Bio-imaging | (smr 3169)\n2017_02_07-14_00-smr3169-2",
+  "youtube_like_count": 1,
+  "youtube_tags": [],
+  "youtube_title": "Physical Optics I: Interference and diffraction - Part 2",
+  "youtube_upload_date": "20171124",
+  "youtube_view_count": 180
+}

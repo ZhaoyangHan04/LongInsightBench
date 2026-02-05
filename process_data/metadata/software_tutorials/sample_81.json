@@ -1,0 +1,1012 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The person speaking offscreen.",
+        "name": "Brian"
+      }
+    ],
+    "description": "This video tutorial shows the process of creating a basic GUI (Graphical User Interface) application using Qt and C++. It provides step-by-step guidance on setting up a project in Qt Creator, understanding the structure of a GUI application, and implementing event-driven programming concepts with signals and slots.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Brian creates a Qt GUI Application.",
+        "question": "What type of application does Brian create in the video?"
+      },
+      {
+        "answer": "The base class is 'QMainWindow'.",
+        "question": "What is the base class for the main window in this example?"
+      },
+      {
+        "answer": "Qt Creator uses the '.ui' extension for form files.",
+        "question": "What file extension does Qt Creator use for form files?"
+      },
+      {
+        "answer": "Brian uses the code 'ui->pushButton->setText(\"Close\");' to change the button's text.",
+        "question": "How does Brian programmatically change the text on the push button?"
+      },
+      {
+        "answer": "Qt uses the 'signal and slot' mechanism to connect events to actions. A signal is emitted when an event occurs, and a slot is a function that responds to the signal.",
+        "question": "What mechanism does Qt use to connect events to actions in GUI applications?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explains what will be done in the video.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Opens the file tab and selects 'New File or Project'.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Selects 'Qt GUI Application' and clicks 'Choose'.",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Types 'gui' in the name field and clicks 'Next'.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Brian introduces the video and explains they will be building a simple GUI application using C++.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Brian starts a new project in Qt Creator.",
+            "timestamp": "00:00:02.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "QT Creator software",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The scene focuses on the initial steps of creating a GUI application using Qt Creator and C++. Demonstrates the basic steps involved in starting a new software development project, including project setup and selecting the application type.",
+        "timestamps": {
+          "end_timestamp": "00:00:10.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Project Setup",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Clicks 'Next' and explains different elements on the screen.",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          },
+          {
+            "description": "Moves some elements on the screen.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:13.000"
+            }
+          },
+          {
+            "description": "Clicks 'Next' again.",
+            "timestamp": {
+              "end_timestamp": "00:00:18.000",
+              "start_timestamp": "00:00:16.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Brian navigates through the project setup wizard, explaining the purpose of the class name, base class, and other generated files.",
+            "timestamp": "00:00:16.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "QT Creator software",
+            "timestamp": {
+              "end_timestamp": "00:00:25.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "The scene introduces the concept of classes, base classes, and inheritance in the context of GUI application development. Explains the basic files and components involved in a Qt GUI application, including header files, source files, and UI files.",
+        "timestamps": {
+          "end_timestamp": "00:00:25.000",
+          "start_timestamp": "00:00:10.033"
+        },
+        "title": "Navigating Project Setup Wizard",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Clicks 'Finish' and explains the structure of the program.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.000",
+              "start_timestamp": "00:00:25.033"
+            }
+          },
+          {
+            "description": "Opens 'main.cpp'.",
+            "timestamp": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:28.000"
+            }
+          },
+          {
+            "description": "Opens 'mainwindow.h'.",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Brian finishes the project setup and begins exploring the project structure.",
+            "timestamp": "00:00:25.033"
+          },
+          {
+            "description": "Brian opens the main.cpp file, which contains the main function of the application.",
+            "timestamp": "00:00:28.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "QT Creator software",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:25.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "The scene provides an overview of the program structure, highlighting the key files and their roles in the application. Briefly touches upon the main function in C++, which serves as the entry point for program execution.",
+        "timestamps": {
+          "end_timestamp": "00:00:37.000",
+          "start_timestamp": "00:00:25.033"
+        },
+        "title": "Exploring Project Structure",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Explains different functions.",
+            "timestamp": {
+              "end_timestamp": "00:00:40.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          },
+          {
+            "description": "Opens 'mainwindow.cpp' and edits the program.",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:41.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Brian dives deeper into the code, explaining the QApplication, MainWindow, and the 'show' function.",
+            "timestamp": "00:00:37.033"
+          },
+          {
+            "description": "Brian opens the mainwindow.cpp file and demonstrates how to access and modify the push button's text property.",
+            "timestamp": "00:00:41.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "QT Creator software",
+            "timestamp": {
+              "end_timestamp": "00:00:58.000",
+              "start_timestamp": "00:00:37.033"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Explains the importance of QObject and its central role in the Qt framework. Shows how to programmatically interact with GUI elements, specifically changing the text of a push button.",
+        "timestamps": {
+          "end_timestamp": "00:00:58.000",
+          "start_timestamp": "00:00:37.033"
+        },
+        "title": "Understanding Basic Qt Functions",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Runs the program and shows the result.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.000",
+              "start_timestamp": "00:00:58.033"
+            }
+          },
+          {
+            "description": "Explains how to connect signals and slots.",
+            "timestamp": {
+              "end_timestamp": "00:01:03.000",
+              "start_timestamp": "00:01:01.000"
+            }
+          },
+          {
+            "description": "Shows how to edit the text on the button.",
+            "timestamp": {
+              "end_timestamp": "00:01:06.000",
+              "start_timestamp": "00:01:04.000"
+            }
+          },
+          {
+            "description": "Shows the resulting GUI.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.000",
+              "start_timestamp": "00:01:07.000"
+            }
+          },
+          {
+            "description": "Explains how to detach the tool bar.",
+            "timestamp": {
+              "end_timestamp": "00:01:12.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Brian"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Brian runs the program, showcasing the GUI window with the push button labeled 'Hello'.",
+            "timestamp": "00:00:58.033"
+          },
+          {
+            "description": "Brian introduces the concept of signals and slots in Qt, which allow for event-driven programming.",
+            "timestamp": "00:01:01.000"
+          },
+          {
+            "description": "Brian demonstrates how to connect the 'clicked' signal of the push button to the 'close' slot of the main window, enabling the button to close the window when clicked.",
+            "timestamp": "00:01:01.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "QT Creator software",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:00:58.033"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Showcases the signal and slot mechanism, a fundamental aspect of event-driven programming in Qt. Demonstrates how to handle user interactions with GUI elements, specifically how to respond to a button click.",
+        "timestamps": {
+          "end_timestamp": "00:09:28.867",
+          "start_timestamp": "00:00:58.033"
+        },
+        "title": "Running the Application and Signal-Slot Mechanism",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Brian runs the program, showcasing the GUI window with the push button labeled 'Hello'.",
+        "timestamp": "00:00:58.000"
+      },
+      "description": "Creating a basic GUI application",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Creating a Basic GUI Application with Qt",
+    "trimmingSuggestions": [
+      {
+        "description": "Segments where Brian is rearranging the windows could be trimmed or sped up.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The part where the video is paused to attend the cat is not necessary.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 569,
+  "original_json_filename": "GxlB34Cn0zw.json",
+  "original_video_filename": "GxlB34Cn0zw.mp4",
+  "resolution": "514x360",
+  "text_to_speech": "everybody's Brian this is our third cute video using C++ today we are going to build a GUI application just a very simple one want to show you what it looks like and then we'll call this GUI hit next and then you see class name main window base class cue main window header source what are all these things well let's go over real quick main window this is going to be the name of your class the way this works is it creates a form and it creates a class to go along with it if you're used to visual basic or c-sharp this is a familiar concept to you okay base class cue main window you can also do qwidget cue dialogue we'll cover those in a later tutorial but today just cue main window and the header file it'll generate the source file and generate form yes keep that checked form filename main window UI UI that is the extension that cute Creator uses to create the form files and a version control we choose none and select the version of cute you wish to use and Wow we get a lot of stuff here let's move some stuff around see if we make this a little more visible for you this is your form I realize it's kind of cramped due to some space limitations here here is your controls here are your actions down here it will cover actions later here's your object Explorer and here's your properties window now I must apologize for the cramped space here I try to keep these videos small in pixel size that way it doesn't take forever to data upload them alright and go to here and click Edit I want to kind of show you you see how it instantly turns into an XML file that's really all you I file is is an XML file switch mode to design mode and there's your form again so if you're sitting there working and suddenly it turns into XML have no fear that's what's going on alright now this is the structure of your program notice it's got the profile we cover that last tutorial here's your UI file which is your form itself your main window th in main window dot cpp and here's main dot cpp let's open main up you can see this is a standard C++ file here's our main function right here and you see it's just generating a queue application calling a with the args main window wwo return eight exec this looks strikingly similar to the console application that we created except for now we've got a main window and we're doing main window show now what that is doing is generating this main window class that we created remember at one at a class name let me pause the video for a minute my cat needs some attention okay I'm back sorry about that cat for whatever reason leaves me alone until I start recording and then just wants my attention all right in the main window H you can see that we are including the namespace UI UI that goes into your user interface elements in the main window you I will show you that here in a second class main window and here's your main window class you see we're adding this macro queue object remember our last c++ tutorial was the macro tutorial that's really all that does is converts us into a queue object everything in cute stems from what's called a queue object you see how this main window is a queue main window well a queue main window is actually a queue object under the hood but in order to be a queue object you have to have this macro which converts it it gets into some complex stuff in the background but really all you need to know is at the base level everything in cute is an object similar to Java or.net where everything is an object all right moving right along here is your public and here are your private and you see here is UI namespace main window and there is a pointer to you I here is your implementation file here's the constructor and you're saying you I setup UI this basically it just creates the user interface and then main window delete UI one thing you should note about cute this is why this framework is so powerful and so popular is that it makes pointers insanely easy to work with because they delete themselves now I don't mean the pointers delete themselves I mean everything deletes themselves for example let's go to our main window here and let's just want to filter this up we type 'button and you notice how it filters the list automatically and we'll just add a push button here go over here main window whoops now what it didn't do was add a reference to this button you notice how your class isn't mucked up with a pointer to a button and all this other hoopla but if you go in here you can go you I push button set text hello the UI actually holds a reference to the push-button class which you know if you hover over you see this little cube push button f1 if you press f1 it'll actually take you to the help file for the cue push button that is a very helpful feature admittedly they've kind of taken that concept from other IDs but anyways let's just run this and let's see it work I want to show you a couple neat things about the queue forms here is your main window there's your button with absolutely zero coding you have a button positioned on the form some things you should know is you have a status bar and a tool bar we didn't add anything to them but they're there here's your toolbar you notice how you can actually move this toolbar around I mean you can set the toolbar there you can actually detach it let's see if it will detach yeah it's right there it's there's nothing on it but believe me it attaches you get all that for free and we're going to cover all that later in other tutorials the whole point of this tutorial is just to get you familiar with the very bare-bones elements of a GUI programming cute here's your button and let's close this and let's actually make that button do something go back to your design mode and up here you have these little things edit widgets edit signals and slots now when you click Edit signals and slots you notice how things change when you mouse over them let's actually mouse over the button click and drag and then just unclick over the form and you get this little configure connection select clicked and then select show signals and slots inherited from qwidget and in the main window we're going to choose close so what we're saying is we're connecting the push-button to the main windows closed and so when they press click or when they press it click is fired and the close function is called you just hit OK and you can see how that's graphically represented now you can do that programmatically too but you can do it graphically it's just easier to learn in the very beginning to do it graphically so let's go back here and just want to tweak a little something here oops let's just change the text close just to clean it up a little bit here so when you run this and you click close now the form closes that's called the signal and slot method um that's not unique to cute programming um it's actually a concept in C++ special if you use like the boost libraries signals and slots are like events in Java and.net a signal is emitted that's an event being fired and it's consumed by a slot so the signal here is the clicked and the slot is closed signals and slots must have the same arguments you can't do push-button with an argument of one to close an argument you'll get a big error message and bad things happen so running short on time but I wanted to show you those bare bones elements and that's really it I mean it's very simple very easy to use very easy to understand go ahead and you know play around with some of these other controls I mean there's a well foam here just add them in and you know see what you can do anyways this is Brian thank you for watching I hope you found this video educational and entertaining",
+  "text_to_speech_word_count": 1472,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.000",
+      "start": "00:00:00.000",
+      "text": " Everybody it's Brian, this is our third cute video using C++."
+    },
+    {
+      "end": "00:00:08.000",
+      "start": "00:00:04.000",
+      "text": " Today we are going to build a GUI application, just a very simple one."
+    },
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:08.000",
+      "text": " I want to show you what it looks like."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:12.000",
+      "text": " Name will call this GUI."
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:15.000",
+      "text": " Hit next, and then you see class name, main window, base class, Q main window,"
+    },
+    {
+      "end": "00:00:25.000",
+      "start": "00:00:22.000",
+      "text": " header, source, what are all these things? Well, let's go over them real quick."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:25.000",
+      "text": " Main window, this is going to be the name of your class. The way this works is it creates a form."
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:29.000",
+      "text": " It creates a class to go along with it."
+    },
+    {
+      "end": "00:00:38.000",
+      "start": "00:00:32.000",
+      "text": " If you are used to visual basic or C sharp, this is a familiar concept to you."
+    },
+    {
+      "end": "00:00:42.000",
+      "start": "00:00:38.000",
+      "text": " Okay, base class, Q main window, you can also do Q widget, Q dialogue."
+    },
+    {
+      "end": "00:00:46.000",
+      "start": "00:00:42.000",
+      "text": " We'll cover those in a later tutorial. But today just Q main window."
+    },
+    {
+      "end": "00:00:49.000",
+      "start": "00:00:46.000",
+      "text": " And the header file will generate in the source file and generate form."
+    },
+    {
+      "end": "00:00:53.000",
+      "start": "00:00:49.000",
+      "text": " Yes, keep that checked, form file name, main window dot UI."
+    },
+    {
+      "end": "00:01:00.000",
+      "start": "00:00:53.000",
+      "text": " That is the extension that Qt creator uses to create the form files."
+    },
+    {
+      "end": "00:01:03.000",
+      "start": "00:01:00.000",
+      "text": " In a version control, we choose none."
+    },
+    {
+      "end": "00:01:08.000",
+      "start": "00:01:03.000",
+      "text": " And select the version of Qt you wish to use."
+    },
+    {
+      "end": "00:01:12.000",
+      "start": "00:01:08.000",
+      "text": " And wow, we get a lot of stuff here."
+    },
+    {
+      "end": "00:01:17.000",
+      "start": "00:01:12.000",
+      "text": " Let's move some stuff around. See if we can make this a little more visible for you."
+    },
+    {
+      "end": "00:01:20.000",
+      "start": "00:01:17.000",
+      "text": " This is your form."
+    },
+    {
+      "end": "00:01:25.000",
+      "start": "00:01:21.000",
+      "text": " I realize it's kind of cramped due to some space limitations here."
+    },
+    {
+      "end": "00:01:27.000",
+      "start": "00:01:25.000",
+      "text": " Here is your controls."
+    },
+    {
+      "end": "00:01:31.000",
+      "start": "00:01:27.000",
+      "text": " Here are your actions. Down here, we'll cover actions later."
+    },
+    {
+      "end": "00:01:34.000",
+      "start": "00:01:31.000",
+      "text": " Here's your object explorer and here's your properties window."
+    },
+    {
+      "end": "00:01:41.000",
+      "start": "00:01:34.000",
+      "text": " Now, I must apologize for the cramped space here. I try to keep these videos small."
+    },
+    {
+      "end": "00:01:44.000",
+      "start": "00:01:41.000",
+      "text": " In pixel size, that way it doesn't take forever to data upload them."
+    },
+    {
+      "end": "00:01:48.000",
+      "start": "00:01:44.000",
+      "text": " All right. And go to who you're and click edit."
+    },
+    {
+      "end": "00:01:51.000",
+      "start": "00:01:48.000",
+      "text": " I want to kind of show you, you see how it instantly turns into an XML file."
+    },
+    {
+      "end": "00:01:54.000",
+      "start": "00:01:51.000",
+      "text": " That's really all UI file is, is an XML file."
+    },
+    {
+      "end": "00:02:00.000",
+      "start": "00:01:54.000",
+      "text": " You switch mode to design mode and there's your form again."
+    },
+    {
+      "end": "00:02:03.000",
+      "start": "00:02:00.000",
+      "text": " So if you're sitting there working and suddenly it turns into XML, have no fear."
+    },
+    {
+      "end": "00:02:05.000",
+      "start": "00:02:03.000",
+      "text": " That's what's going on."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:02:05.000",
+      "text": " All right. Now, this is the structure of your program."
+    },
+    {
+      "end": "00:02:11.000",
+      "start": "00:02:08.000",
+      "text": " Notice it's got the profile."
+    },
+    {
+      "end": "00:02:16.000",
+      "start": "00:02:11.000",
+      "text": " We covered that in the last tutorial. Here's your UI file, which is your form itself."
+    },
+    {
+      "end": "00:02:19.000",
+      "start": "00:02:16.000",
+      "text": " Your main window.h and main window.cpp."
+    },
+    {
+      "end": "00:02:23.000",
+      "start": "00:02:19.000",
+      "text": " And here's main.cpp. Let's open main up."
+    },
+    {
+      "end": "00:02:27.000",
+      "start": "00:02:23.000",
+      "text": " You can see this is a standard C++ file."
+    },
+    {
+      "end": "00:02:30.000",
+      "start": "00:02:27.000",
+      "text": " Here's our main function right here."
+    },
+    {
+      "end": "00:02:36.000",
+      "start": "00:02:30.000",
+      "text": " And you see it's just generating a queue application, calling A with the args."
+    },
+    {
+      "end": "00:02:39.000",
+      "start": "00:02:36.000",
+      "text": " Main window.w.w.show, return.a.exec."
+    },
+    {
+      "end": "00:02:45.000",
+      "start": "00:02:39.000",
+      "text": " This looks strikingly similar to the console application that we created."
+    },
+    {
+      "end": "00:02:51.000",
+      "start": "00:02:45.000",
+      "text": " Except for now we've got a main window and we're doing main window show."
+    },
+    {
+      "end": "00:02:56.000",
+      "start": "00:02:51.000",
+      "text": " Now what that is doing is generating this main window class that we created."
+    },
+    {
+      "end": "00:02:59.000",
+      "start": "00:02:56.000",
+      "text": " Remember it wanted a class name."
+    },
+    {
+      "end": "00:03:02.000",
+      "start": "00:02:59.000",
+      "text": " Let me pause the video for a minute. My cat needs some attention."
+    },
+    {
+      "end": "00:03:08.000",
+      "start": "00:03:02.000",
+      "text": " Okay, I'm back. Sorry about that. The cat for whatever reason leaves me alone until I start recording and then just wants my attention."
+    },
+    {
+      "end": "00:03:18.000",
+      "start": "00:03:08.000",
+      "text": " Alright, in the main window.h, you can see that we are including the namespace UI."
+    },
+    {
+      "end": "00:03:24.000",
+      "start": "00:03:18.000",
+      "text": " UI, that goes into your user interface elements in the main window.u.i."
+    },
+    {
+      "end": "00:03:31.000",
+      "start": "00:03:24.000",
+      "text": " We'll show you that here in a second. Class, main window, and here's your main window class."
+    },
+    {
+      "end": "00:03:38.000",
+      "start": "00:03:31.000",
+      "text": " You see we're adding this macro queue object. Remember our last C++ tutorial was the macro tutorial."
+    },
+    {
+      "end": "00:03:42.000",
+      "start": "00:03:38.000",
+      "text": " That's really all that does is convert this into a queue object."
+    },
+    {
+      "end": "00:03:48.000",
+      "start": "00:03:42.000",
+      "text": " Everything in queue stems from what's called a queue object."
+    },
+    {
+      "end": "00:03:55.000",
+      "start": "00:03:48.000",
+      "text": " You see how this main window is a queue main window. Well, a queue main window is actually a queue object under the hood."
+    },
+    {
+      "end": "00:04:00.000",
+      "start": "00:03:55.000",
+      "text": " But in order to be a queue object you have to have this macro which converts it."
+    },
+    {
+      "end": "00:04:08.000",
+      "start": "00:04:00.000",
+      "text": " It gets into some complex stuff in the background but really all you need to know is at the base level everything in queue is an object."
+    },
+    {
+      "end": "00:04:12.000",
+      "start": "00:04:08.000",
+      "text": " Similar to Java or dot-net where everything is an object."
+    },
+    {
+      "end": "00:04:19.000",
+      "start": "00:04:12.000",
+      "text": " Alright, moving right along. Here is your public and here are your private."
+    },
+    {
+      "end": "00:04:26.000",
+      "start": "00:04:19.000",
+      "text": " You see here is UI namespace main window and there is a pointer to UI."
+    },
+    {
+      "end": "00:04:33.000",
+      "start": "00:04:26.000",
+      "text": " Here is your implementation file. Here is the constructor and you're saying UI. Set up UI this."
+    },
+    {
+      "end": "00:04:39.000",
+      "start": "00:04:33.000",
+      "text": " Basically it just creates the user interface and then main window delete UI."
+    },
+    {
+      "end": "00:04:51.000",
+      "start": "00:04:39.000",
+      "text": " One thing you should note about queue. This is why this framework is so powerful and so popular is that it makes pointers insanely easy to work with because they delete themselves."
+    },
+    {
+      "end": "00:04:56.000",
+      "start": "00:04:51.000",
+      "text": " Now I don't mean the pointers delete themselves. I mean everything to delete themselves."
+    },
+    {
+      "end": "00:05:02.000",
+      "start": "00:04:56.000",
+      "text": " For example, let's go to our main window here and let's just want to filter this out."
+    },
+    {
+      "end": "00:05:11.000",
+      "start": "00:05:02.000",
+      "text": " We type button. You notice how it filters the list automatically and we'll just add a push button here."
+    },
+    {
+      "end": "00:05:12.000",
+      "start": "00:05:11.000",
+      "text": " Go over here."
+    },
+    {
+      "end": "00:05:19.000",
+      "start": "00:05:12.000",
+      "text": " Main window. Whoops."
+    },
+    {
+      "end": "00:05:24.000",
+      "start": "00:05:19.000",
+      "text": " Now what it didn't do was add a reference to this button."
+    },
+    {
+      "end": "00:05:30.000",
+      "start": "00:05:24.000",
+      "text": " You notice how your class isn't mocked up with a pointer to a button and all this other hoopla."
+    },
+    {
+      "end": "00:05:40.000",
+      "start": "00:05:30.000",
+      "text": " But if you go in here you can go UI push button. Set text."
+    },
+    {
+      "end": "00:05:46.000",
+      "start": "00:05:40.000",
+      "text": " Hello."
+    },
+    {
+      "end": "00:06:01.000",
+      "start": "00:05:46.000",
+      "text": " The UI actually holds a reference to the push button. Class which if you hover over and you see this little queue push button, f1 if you press f1 it will actually take you to the help file for the queue push button."
+    },
+    {
+      "end": "00:06:08.000",
+      "start": "00:06:01.000",
+      "text": " That is a very helpful feature. Admittedly they've kind of taken that concept from other IDEs."
+    },
+    {
+      "end": "00:06:12.000",
+      "start": "00:06:08.000",
+      "text": " But anyways let's just run this and let's see it work."
+    },
+    {
+      "end": "00:06:18.000",
+      "start": "00:06:12.000",
+      "text": " I want to show you a couple neat things about the queue forms."
+    },
+    {
+      "end": "00:06:26.000",
+      "start": "00:06:18.000",
+      "text": " Here is your main window. There's your button with absolutely zero coding. You have a button positioned on the form."
+    },
+    {
+      "end": "00:06:31.000",
+      "start": "00:06:26.000",
+      "text": " Something you should know is you have a status bar and a toolbar. We didn't add anything to them."
+    },
+    {
+      "end": "00:06:33.000",
+      "start": "00:06:31.000",
+      "text": " But they're there. Here's your toolbar."
+    },
+    {
+      "end": "00:06:38.000",
+      "start": "00:06:34.000",
+      "text": " You can move this toolbar around."
+    },
+    {
+      "end": "00:06:44.000",
+      "start": "00:06:38.000",
+      "text": " You can set the toolbar there. You can detach it. Let's see if it will detach."
+    },
+    {
+      "end": "00:06:48.000",
+      "start": "00:06:44.000",
+      "text": " There's nothing on it but believe me it detaches. You get all that for free."
+    },
+    {
+      "end": "00:06:51.000",
+      "start": "00:06:48.000",
+      "text": " We're going to cover all that later in other tutorials."
+    },
+    {
+      "end": "00:06:58.000",
+      "start": "00:06:51.000",
+      "text": " The whole point of this tutorial was just to get you familiar with the very bearbond elements of a GUI programming queue."
+    },
+    {
+      "end": "00:07:00.000",
+      "start": "00:06:58.000",
+      "text": " Here's your button."
+    },
+    {
+      "end": "00:07:07.000",
+      "start": "00:07:00.000",
+      "text": " Let's close this. Let's actually make that button do something."
+    },
+    {
+      "end": "00:07:14.000",
+      "start": "00:07:07.000",
+      "text": " Go back to your design mode. Up here you have these little things. Edit widgets."
+    },
+    {
+      "end": "00:07:21.000",
+      "start": "00:07:14.000",
+      "text": " Edit signals and slots. Now when you click edit signals and slots you notice how things change when you mouse over them."
+    },
+    {
+      "end": "00:07:27.000",
+      "start": "00:07:21.000",
+      "text": " Let's actually mouse over the button. Click and drag. Then just unclick over the form."
+    },
+    {
+      "end": "00:07:34.000",
+      "start": "00:07:27.000",
+      "text": " You get this little configure connection. Select clicked."
+    },
+    {
+      "end": "00:07:38.000",
+      "start": "00:07:34.000",
+      "text": " Then select show signals and slots inherited from QIGIT."
+    },
+    {
+      "end": "00:07:41.000",
+      "start": "00:07:38.000",
+      "text": " In the main window we're going to choose close."
+    },
+    {
+      "end": "00:07:47.000",
+      "start": "00:07:41.000",
+      "text": " What we're saying is we're connecting the push button to the main window's close."
+    },
+    {
+      "end": "00:07:53.000",
+      "start": "00:07:47.000",
+      "text": " When they press click or when they press it click is fired and the close function is called."
+    },
+    {
+      "end": "00:07:57.000",
+      "start": "00:07:53.000",
+      "text": " You can see how that's graphically represented."
+    },
+    {
+      "end": "00:08:00.000",
+      "start": "00:07:57.000",
+      "text": " You can do that programmatically too but you can do it graphically."
+    },
+    {
+      "end": "00:08:04.000",
+      "start": "00:08:00.000",
+      "text": " It's just easier to learn in the very beginning to do it graphically."
+    },
+    {
+      "end": "00:08:13.000",
+      "start": "00:08:04.000",
+      "text": " Let's go back here and just want to tweak a little something here."
+    },
+    {
+      "end": "00:08:17.000",
+      "start": "00:08:13.000",
+      "text": " Let's just change the text to close."
+    },
+    {
+      "end": "00:08:20.000",
+      "start": "00:08:17.000",
+      "text": " Just to clean it up a little bit here."
+    },
+    {
+      "end": "00:08:23.000",
+      "start": "00:08:20.000",
+      "text": " Now you click close. Now the form closes."
+    },
+    {
+      "end": "00:08:27.000",
+      "start": "00:08:23.000",
+      "text": " That's called the signal and slot method."
+    },
+    {
+      "end": "00:08:30.000",
+      "start": "00:08:27.000",
+      "text": " That's not unique to QIT programming."
+    },
+    {
+      "end": "00:08:34.000",
+      "start": "00:08:30.000",
+      "text": " It's actually a concept in C++ especially if you use the push libraries."
+    },
+    {
+      "end": "00:08:38.000",
+      "start": "00:08:34.000",
+      "text": " Signals and slots are like events in Java and .NET."
+    },
+    {
+      "end": "00:08:41.000",
+      "start": "00:08:38.000",
+      "text": " A signal is emitted. That's an event being fired."
+    },
+    {
+      "end": "00:08:45.000",
+      "start": "00:08:41.000",
+      "text": " It's consumed by a slot."
+    },
+    {
+      "end": "00:08:50.000",
+      "start": "00:08:45.000",
+      "text": " The signal here is the clicked and the slot is closed."
+    },
+    {
+      "end": "00:08:53.000",
+      "start": "00:08:50.000",
+      "text": " Signals and slots must have the same arguments."
+    },
+    {
+      "end": "00:08:57.000",
+      "start": "00:08:53.000",
+      "text": " You can't do push button with an argument of one to close with an argument."
+    },
+    {
+      "end": "00:09:00.000",
+      "start": "00:08:57.000",
+      "text": " You'll get a big error message and bad things happen."
+    },
+    {
+      "end": "00:09:05.000",
+      "start": "00:09:00.000",
+      "text": " Run and short on time but I wanted to show you those bare bones elements."
+    },
+    {
+      "end": "00:09:09.000",
+      "start": "00:09:05.000",
+      "text": " That's really it."
+    },
+    {
+      "end": "00:09:12.000",
+      "start": "00:09:09.000",
+      "text": " It's very simple. Very easy to use. Very easy to understand."
+    },
+    {
+      "end": "00:09:16.000",
+      "start": "00:09:12.000",
+      "text": " Go ahead and play around with some of these other controls."
+    },
+    {
+      "end": "00:09:19.000",
+      "start": "00:09:16.000",
+      "text": " There's a wealth of them here."
+    },
+    {
+      "end": "00:09:23.000",
+      "start": "00:09:19.000",
+      "text": " Just add them in and see what you can do."
+    },
+    {
+      "end": "00:09:25.000",
+      "start": "00:09:23.000",
+      "text": " This is Brian. Thank you for watching."
+    },
+    {
+      "end": "00:09:28.000",
+      "start": "00:09:25.000",
+      "text": " I hope you found this video educational and entertaining."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "VoidRealms",
+  "youtube_channel_follower_count": 84000,
+  "youtube_comment_count": 117,
+  "youtube_description": "QML Beginners: https://www.udemy.com/course/qml-for-beginners/?referralCode=3B69B9927B587BBF40F1\nQt Core Beginners: https://www.udemy.com/course/qt-core-for-beginners/?referralCode=E2115FC6B3CC3BD742AF\nQt Core Intermediate: https://www.udemy.com/course/qt-core-intermediate/?referralCode=1F1A60AF279FEE1719CD\nQT Core Advanced: https://www.udemy.com/course/qt-core-advanced/?referralCode=8DB432110F38B253D251\nQt Widgets Beginners: https://www.udemy.com/course/qt-widgets-beginners/?referralCode=1B2FA9787D88D97D38D3",
+  "youtube_like_count": 2132,
+  "youtube_tags": [
+    "QT",
+    "03",
+    "Intro",
+    "to",
+    "GUI",
+    "programming"
+  ],
+  "youtube_title": "C++ Qt 3 - Intro to GUI programming",
+  "youtube_upload_date": "20110105",
+  "youtube_view_count": 415342
+}

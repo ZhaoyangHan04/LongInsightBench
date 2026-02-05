@@ -1,0 +1,900 @@
+{
+  "content_fine_category": "Astronomy",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with dark hair in his 30s or 40s, wearing a white lab coat over a black t-shirt, and passionate about astrophotography.",
+        "name": "Dylan O'Donnell"
+      }
+    ],
+    "description": "Dylan O'Donnell, an astrophotography enthusiast, shares his journey and techniques for capturing and processing images of the galaxy Centaurus A.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Centaurus A.",
+        "question": "What is the name of the galaxy Dylan is trying to photograph?"
+      },
+      {
+        "answer": "Full Width Half Maximum (FWHM) and Star Count.",
+        "question": "What two factors does Dylan prioritize when selecting subframes?"
+      },
+      {
+        "answer": "Including bad frames can degrade the final image quality.",
+        "question": "Why does Dylan say that stacking all data isn't always the best approach?"
+      },
+      {
+        "answer": "He uses 'Star Count' in Subframe Selector to remove images with fewer stars.",
+        "question": "What method does Dylan use to deal with high cloud cover affecting his images?"
+      },
+      {
+        "answer": "He shares his experience of having skin cancer removed, emphasizing sun protection.",
+        "question": "What personal health issue does Dylan mention at the end of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Dylan introduces himself and his YouTube channel.",
+            "timestamp": {
+              "end_timestamp": "00:00:11.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Dylan talks about the galaxy Centaurus A.",
+            "timestamp": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          },
+          {
+            "description": "Dylan discusses the importance of quality data in astrophotography.",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dylan O'Donnell"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dylan O'Donnell"
+            ],
+            "description": "Dylan speaks directly to the audience."
+          }
+        ],
+        "contextualRelevance": "None",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to Dylan's work and focus on Centaurus A.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Bookshelves (background)",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Couch (background)",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Astrophotography, importance of data quality, passion for space.",
+        "timestamps": {
+          "end_timestamp": "00:00:43.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Astrophotography",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay with Dylan's name and observatory.",
+            "timestamps": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Screen recording of an app showing Centaurus A location.",
+            "timestamps": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:17.000"
+            }
+          },
+          {
+            "description": "Transition to montage of Dylan taking photos.",
+            "timestamps": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dylan explains equipment setup and importance of frames.",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "description": "Dylan discusses PixInsight software for image processing.",
+            "timestamp": {
+              "end_timestamp": "00:03:20.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          },
+          {
+            "description": "Dylan demonstrates Subframe Selector use in PixInsight.",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:03:34.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dylan O'Donnell"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dylan O'Donnell"
+            ],
+            "description": "Dylan speaks directly to the audience."
+          }
+        ],
+        "contextualRelevance": "Minor leaks in observatory add realism.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Technical, Focused",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explaining frames, setup, and software for processing.",
+            "timestamp": "00:01:58.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Telescope (Celestron 11\")",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Camera (QHYCCD 268M)",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Off-axis guider",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Telescope mount (Sky-Watcher EQ8-Rh PRO)",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          },
+          {
+            "name": "Computer with PixInsight software",
+            "timestamp": {
+              "end_timestamp": "00:03:43.000",
+              "start_timestamp": "00:01:58.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Astrophotography, equipment setup, image processing.",
+        "timestamps": {
+          "end_timestamp": "00:03:43.240",
+          "start_timestamp": "00:00:43.040"
+        },
+        "title": "Technical Setup and Software Explanation",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay explaining telescope parts.",
+            "timestamps": {
+              "end_timestamp": "00:02:28.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          },
+          {
+            "description": "Text overlay for PixInsight weighting formula.",
+            "timestamps": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:02:59.000"
+            }
+          },
+          {
+            "description": "Highlighting minor leaks in observatory.",
+            "timestamps": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:03:20.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dylan shares anecdote about CPU usage.",
+            "timestamp": {
+              "end_timestamp": "00:04:01.000",
+              "start_timestamp": "00:03:43.280"
+            }
+          },
+          {
+            "description": "Dylan calibrates images in PixInsight.",
+            "timestamp": {
+              "end_timestamp": "00:04:09.000",
+              "start_timestamp": "00:04:01.000"
+            }
+          },
+          {
+            "description": "Dylan selects best images using Subframe Selector.",
+            "timestamp": {
+              "end_timestamp": "00:06:51.000",
+              "start_timestamp": "00:04:09.000"
+            }
+          },
+          {
+            "description": "Dylan aligns and stacks images, reveals final result.",
+            "timestamp": {
+              "end_timestamp": "00:09:02.000",
+              "start_timestamp": "00:07:18.000"
+            }
+          },
+          {
+            "description": "Dylan concludes and talks about skin cancer removal.",
+            "timestamp": {
+              "end_timestamp": "00:10:25.000",
+              "start_timestamp": "00:09:34.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Dylan O'Donnell"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Dylan O'Donnell"
+            ],
+            "description": "Humorous address to Mr. Brown."
+          }
+        ],
+        "contextualRelevance": "Personal health issue shared.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Focused, Informative, Humorous",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Process and refine image data of Centaurus A.",
+            "timestamp": "00:03:43.280"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer with PixInsight",
+            "timestamp": {
+              "end_timestamp": "00:10:25.000",
+              "start_timestamp": "00:03:43.280"
+            }
+          },
+          {
+            "name": "Final image of Centaurus A",
+            "timestamp": {
+              "end_timestamp": "00:10:25.000",
+              "start_timestamp": "00:09:02.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Astrophotography, image processing, humor, perseverance.",
+        "timestamps": {
+          "end_timestamp": "00:10:52.520",
+          "start_timestamp": "00:03:43.280"
+        },
+        "title": "Image Processing Journey",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recordings of PixInsight steps.",
+            "timestamps": {
+              "end_timestamp": "00:09:00.000",
+              "start_timestamp": "00:08:30.000"
+            }
+          },
+          {
+            "description": "Text overlays explaining process steps.",
+            "timestamps": {
+              "end_timestamp": "00:07:00.000",
+              "start_timestamp": "00:06:00.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The reveal of the final color image of Centaurus A.",
+        "timestamp": "00:09:02.000"
+      },
+      "description": "The journey of processing astrophotography data, from initial calibration to the final color image of Centaurus A.",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Astrophotography Journey with Dylan O'Donnell",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten waiting period during Subframe Selector processing.",
+        "timestamps": {
+          "end_timestamp": "00:07:18.000",
+          "start_timestamp": "00:06:51.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 653,
+  "original_json_filename": "dkVLdvtRxKY.json",
+  "original_video_filename": "dkVLdvtRxKY.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "g'day dylan o'donnell here from the byron bay observatory i take photos of space and on this channel i try to share with you some of the tips and techniques that i use to get the best possible pictures of space now recently i've been just concentrating on one particular galaxy a really weird galaxy centaurus a now the thing about centaurus a is it has a lot of little dark dust lanes in the middle of it dust lanes that we don't get to see in any other galaxy in such high detail and quality because we're so close to this galaxy so i've really been trying to get a lot of data now i normally don't get a lot of data i normally try and bang out images as quick as i can but in this particular instance i had everything set up and i just wanted to do it slowly and carefully so i gather data over an entire five nights now a lot of times in astrophotography we talk about getting as much data as possible and having more data allows us to draw out that signal-to-noise ratio but when i was a kid i saw these ads and i don't know if they're on now they probably are that john west the tuna fishing company their motto was it's what john west rejects that makes john west the best so this is the fish john west reject right and the same is true for astronomy we don't actually want more data we want less we want the best out of all the data we get different programs will have different image grading techniques to allow you to measure the quality of each frame so that you can trim off the best and stack those only i'll be using the subframe selector and i'll show you a couple of different methods but one that i think works really well my name is dylan o'donnell and you're watching star stuff there is some seriously loud construction going on next door so i do apologize about the noise here but i just wanted to point out oh it might be stopping but i just wanted to point out the particular image train that i'm using here for this galaxy and why it's so important to get the best frames possible i'm using the full 2800 millimeter focal length of this c11 telescope which means i'm zoomed in really far into space my image train here just goes straight into the off axis guider i have the guide camera off the top of the chip here this chip is in sort of landscape mode so the top of the chip the flat top of the chip here is where the prism will be for the off axis guider so it won't get in the way of anything other than that i have a filter drawer which is blank right now because i'm just using no filter so i'm getting the galaxy in its full broadband spectrum i'm using the qhy268m which is just a fantastic 16-bit aspc sized camera and it's working really well the other thing i should mention is that i'm using the skywatcher eq8rh pro which is just such a rock-solid mount that while i'm waiting the images in picks inside i actually don't care too much about eccentricity because i know that my stars are fully round now so i'm going to concentrate more on the half flux radius or full width half maximum which is basically a measurement of the focus of the stars and i'll also use star count which i'll show you in a [Music] moment [Music] when i was studying computers in high school we had this teacher i think his name was mr brown and he told the class that none of us are using our cpu to its full potential every time during this video where my cpu is just doing overtime i'll be referring to mr brown who i think was clearly an idiot okay first things first you want to calibrate your images so do your flats do your darks or whatever you need to do and get your full list of subs calibrated then we can start measuring see mr brown do you see me using my cpu now come on okay so now i've got about 140 images here yep that looks pretty good there's a bit of a dust smoke up here it's a sort of a negative dust mote that the flat didn't truly deal with but it's pretty good you can see that the detail in the dust lanes is pretty sharp but i have a suspicion that on the second night some of my frames weren't quite so good yeah the stars just aren't quite as good they're just not as sharp they just don't compare so we need to get rid of all this guff but i've got so many files so now we're going to load up this little guy the subframe selector so the first thing we're going to do is add all these files and it's set to measure subframes and we're just going to go global apply here look at that mr brown my cpu is spiking and the fans are spinning okay now we have this cool looking graph which makes you look really sciencey and smart and stuff now the weight column is zero here because we're not using weight if you want to measure by weights you can click on this little fx button up here and then in the expressions area and a formula this is one that rogue from the astrophotography discord gave to me and you know it's all right it'll give you this weight column and it will populate this with a number i found that the waiting didn't truly reflect what i wanted to get out of the image and what i want is to know which stars were in focus the most so i'm going to change measurement table to full width half maximum descending or ascending it doesn't matter so now this column here shows me the focus for all of them the best focus we got was 4.6 and the worst was up here 7.8 on the graph here it says the halfway point is about 6.2 so i'm going to take it from about 6.2 onwards i'm going to shift all of those and then i'm just going to click remove now they're all gone that's pretty good so that'll show me every time the stars are in focus however there is another issue some of these nights that i was shooting i had high cloud and some of them had low full width half maximum readings but that's because the high cloud was really just destroying the signal and when the signal is destroyed it gets really low and it looks like a good focused picture but actually the signal is quite low and when you stretch it it looks horrible so i'm going to apply a second reason to get rid of half of these frames and that's the stars column here this allows you to see how many stars pixel insight was able to count in every frame so i'm going to go over to the measurements table drop down here and change it to stars now this sorts them all by star count and go down to the bottom and i'm just going to select and click on remove i've got 39 of the best quality focus subs with the highest star counts so these are going to be good frames at this point we're going to go into the directory for output here and change the folder to something where we can store some good subs i'm going to call it good subs2 and we're going to change this drop down from measure to output now all this is going to do is simply move the remaining files that were in here that we didn't delete off to a folder called good subs it actually doesn't do anything to the image it's just taking those files and shuffling them somewhere else i have no idea why this part is so slow if i was just selecting 39 files in the file system and copying them to a folder it would take a couple of seconds now that that's done for a sanity check i'm just going to blink all of those files so of course i'm going to star align all of these files with drizzle data which will take a million years because mr brown my cpu is going crazy by the way if you're a subscriber thanks for subscribing to this channel 34 400 viewers and every time this goes up by another 100 it plays super mario brothers for me so i know that my subscriber count is going up if you like these videos and sometimes stupid astronomy comedy uh feel free to subscribe and now i'm just going to stack all of those registered files added the drizzle files as well global apply and offer another cup of coffee do you see my cpu mr brown i love this bit when you get to this the final stack and it's not stretched yet so you can't see anything and then you hit the auto stretch and it just pops out of you i just love it ah look at this chef's kiss he's just so sharp it really is the stuff that you don't use that gives you the best possible result at the end i had a lot of data there like i could have stacked four hours worth of data i'm only stacking one hour so i'm just taking basically 25 of all the data i had and just using the best of it it's basically lucky imaging for deep space objects [Music] so i hope you enjoyed that video on sub frame selection and image grading in general remember the aim is not to get just lots and lots of data it's to get lots of the best data you can by really throwing away a lot of data throw away all the trash and just stack the good stuff thanks also for everyone who shared some concern about my nose i did go to the skin cancer clinic and the doctor blasted me in the face with liquid nitrogen and removed a bunch of trouble spots but they were benign and i've got nothing to worry about however you should slip slop slap make sure if you go out in the sun especially if you live in the uv capital of australia because while we're all going to die dying of skin cancer early probably isn't fun thanks for taking me in your images and i hope your astro photography journey is going well my name is dylan o'donnell you've been watching star stuff remember everything is meaningless and we're all going to [Music] die [Music] you",
+  "text_to_speech_word_count": 1847,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:02.880",
+      "start": "00:00:00.000",
+      "text": " G'day, Dylan O'Donnell here from the Barring Bay Observatory."
+    },
+    {
+      "end": "00:00:06.880",
+      "start": "00:00:02.880",
+      "text": " I take photos of space and on this channel I try to share with you some of the tips and"
+    },
+    {
+      "end": "00:00:10.880",
+      "start": "00:00:06.880",
+      "text": " techniques that I use to get the best possible pictures of space."
+    },
+    {
+      "end": "00:00:17.680",
+      "start": "00:00:10.880",
+      "text": " Now recently I've been just concentrating on one particular galaxy, a really weird galaxy"
+    },
+    {
+      "end": "00:00:23.280",
+      "start": "00:00:17.680",
+      "text": " Centaurus A. Now the thing about Centaurus A is it has a lot of little dark dust lanes in the"
+    },
+    {
+      "end": "00:00:28.880",
+      "start": "00:00:23.280",
+      "text": " middle of it. Dust lanes that we don't get to see in any other galaxy in such high detail and"
+    },
+    {
+      "end": "00:00:33.760",
+      "start": "00:00:28.880",
+      "text": " quality because we're so close to this galaxy. So I've really been trying to get a lot of data."
+    },
+    {
+      "end": "00:00:39.480",
+      "start": "00:00:33.760",
+      "text": " Now I normally don't get a lot of data. I normally try and bang out images as quick as I can."
+    },
+    {
+      "end": "00:00:44.160",
+      "start": "00:00:39.480",
+      "text": " But in this particular instance I had everything set up and I just wanted to do it slowly and"
+    },
+    {
+      "end": "00:00:50.560",
+      "start": "00:00:44.160",
+      "text": " carefully. So I gather data over an entire five nights. Now a lot of times in astrophotography we"
+    },
+    {
+      "end": "00:00:55.520",
+      "start": "00:00:50.560",
+      "text": " talk about getting as much data as possible and having more data allows us to draw out that signal"
+    },
+    {
+      "end": "00:01:00.880",
+      "start": "00:00:55.520",
+      "text": " to noise ratio. But when I was a kid I saw these ads and I don't know if they're on now they"
+    },
+    {
+      "end": "00:01:07.920",
+      "start": "00:01:00.880",
+      "text": " probably are that John West the tuna fishing company. Their motto was it's what John West rejects"
+    },
+    {
+      "end": "00:01:13.600",
+      "start": "00:01:07.920",
+      "text": " that makes John West the best. So this is the fish John West reject. Right. And the same is true"
+    },
+    {
+      "end": "00:01:19.520",
+      "start": "00:01:13.600",
+      "text": " for astronomy. We don't actually want more data. We want less. We want the best out of all the"
+    },
+    {
+      "end": "00:01:24.000",
+      "start": "00:01:19.520",
+      "text": " data we get. Different programs will have different image grading techniques to allow you to measure"
+    },
+    {
+      "end": "00:01:28.960",
+      "start": "00:01:24.000",
+      "text": " the quality of each frame so that you can trim off the best and stack those only. I'll be using"
+    },
+    {
+      "end": "00:01:33.760",
+      "start": "00:01:28.960",
+      "text": " the subframe selector and I'll show you a couple of different methods but one that I think works"
+    },
+    {
+      "end": "00:01:43.040",
+      "start": "00:01:33.760",
+      "text": " really well. My name is Dylan O'Donnell and you're watching Star Stuff."
+    },
+    {
+      "end": "00:02:03.040",
+      "start": "00:01:54.080",
+      "text": " There is some seriously loud construction going on next door so I do apologise about the noise here"
+    },
+    {
+      "end": "00:02:09.280",
+      "start": "00:02:03.040",
+      "text": " but I just wanted to point out it might be stopping but I just wanted to point out the particular"
+    },
+    {
+      "end": "00:02:13.440",
+      "start": "00:02:09.280",
+      "text": " image train that I'm using here for this galaxy and why it's so important to get the best frames"
+    },
+    {
+      "end": "00:02:19.600",
+      "start": "00:02:13.440",
+      "text": " possible. I'm using the full 2800 millimeter focal length of this C11 telescope which means I'm"
+    },
+    {
+      "end": "00:02:24.400",
+      "start": "00:02:19.600",
+      "text": " zoomed in really far into space. My image train here just goes straight into the off-axis"
+    },
+    {
+      "end": "00:02:30.880",
+      "start": "00:02:24.400",
+      "text": " guide. I have the guide camera off the top of the chip here. This chip is in sort of landscape"
+    },
+    {
+      "end": "00:02:36.240",
+      "start": "00:02:30.880",
+      "text": " mode so the top of the chip, the flat top of the chip here is where the prism will be for the off-axis"
+    },
+    {
+      "end": "00:02:40.760",
+      "start": "00:02:36.240",
+      "text": " guide. So it won't get in the way of anything. Other than that I have a filter draw which is blank"
+    },
+    {
+      "end": "00:02:45.680",
+      "start": "00:02:40.760",
+      "text": " right now because I'm just using no filter so I'm getting the galaxy in its full broadband spectrum."
+    },
+    {
+      "end": "00:02:54.400",
+      "start": "00:02:45.680",
+      "text": " I'm using the QHY268M which is just a fantastic 16-bit ASPC sized camera and it's working really"
+    },
+    {
+      "end": "00:02:59.600",
+      "start": "00:02:54.400",
+      "text": " well. The other thing I should mention is that I'm using the Skywatcher EQ8RH Pro which is just"
+    },
+    {
+      "end": "00:03:05.360",
+      "start": "00:02:59.600",
+      "text": " such a rock solid amount that while I'm waiting the images in picks inside I actually don't care"
+    },
+    {
+      "end": "00:03:10.800",
+      "start": "00:03:05.360",
+      "text": " too much about eccentricity because I know that my stars are fully round now so I'm going to"
+    },
+    {
+      "end": "00:03:15.920",
+      "start": "00:03:10.800",
+      "text": " concentrate more on the half flux radius or full width half maximum which is basically a measurement"
+    },
+    {
+      "end": "00:03:26.720",
+      "start": "00:03:15.920",
+      "text": " of the focus of the stars and I'll also use star count which I'll show you in a moment."
+    },
+    {
+      "end": "00:03:48.080",
+      "start": "00:03:41.200",
+      "text": " When I was studying computers in high school we had this teacher I think his name was Mr Brown"
+    },
+    {
+      "end": "00:03:53.600",
+      "start": "00:03:48.080",
+      "text": " and he told the class that none of us are using our CPU to its full potential. Every time during"
+    },
+    {
+      "end": "00:03:59.600",
+      "start": "00:03:53.600",
+      "text": " this video where my CPU is just doing overtime I'll be referring to Mr Brown who I think was clearly"
+    },
+    {
+      "end": "00:04:03.680",
+      "start": "00:03:59.600",
+      "text": " an idiot. Okay first things first you want to calibrate your images so do your flats, do your"
+    },
+    {
+      "end": "00:04:08.560",
+      "start": "00:04:03.680",
+      "text": " darks or whatever you need to do and get your full list of subs calibrated then we can start"
+    },
+    {
+      "end": "00:04:15.840",
+      "start": "00:04:08.640",
+      "text": " measuring. Mr Brown do you see me using my CPU now? Come on okay so now I've got about 140"
+    },
+    {
+      "end": "00:04:20.160",
+      "start": "00:04:15.840",
+      "text": " images here yep that looks pretty good there's a bit of a dust smoke up here it's a sort of a"
+    },
+    {
+      "end": "00:04:26.240",
+      "start": "00:04:20.160",
+      "text": " negative dust smoke that the flat didn't truly deal with but it's pretty good you can see that the"
+    },
+    {
+      "end": "00:04:32.360",
+      "start": "00:04:26.240",
+      "text": " detail in the dust lanes is pretty sharp but I have a suspicion that on the second night"
+    },
+    {
+      "end": "00:04:38.000",
+      "start": "00:04:33.040",
+      "text": " some of my frames weren't quite so good yeah the stars just aren't quite as good they're just not"
+    },
+    {
+      "end": "00:04:42.800",
+      "start": "00:04:38.000",
+      "text": " a sharp they just don't compare so we need to get rid of all this guff but I've got so many files"
+    },
+    {
+      "end": "00:04:46.920",
+      "start": "00:04:42.800",
+      "text": " so now we're going to load up this little guy the subframe selector so the first thing we're going"
+    },
+    {
+      "end": "00:04:54.720",
+      "start": "00:04:46.920",
+      "text": " to do is add all these files and it's set to measure subframes and we're just going to go global apply"
+    },
+    {
+      "end": "00:05:01.920",
+      "start": "00:04:54.720",
+      "text": " here look at that Mr Brown my CPU is spiking and the fans are spinning okay now we have this cool"
+    },
+    {
+      "end": "00:05:06.720",
+      "start": "00:05:01.920",
+      "text": " looking graph which makes you look really shiny and smart and stuff now the weight column is zero"
+    },
+    {
+      "end": "00:05:10.880",
+      "start": "00:05:06.720",
+      "text": " here because we're not using weight if you want to measure by weight so you can click on this little"
+    },
+    {
+      "end": "00:05:17.920",
+      "start": "00:05:10.880",
+      "text": " FX button up here and then in the expressions area and a formula this is one that rogue from"
+    },
+    {
+      "end": "00:05:23.200",
+      "start": "00:05:17.920",
+      "text": " the astrophotography discord gave to me and you know it's all right it'll give you this weight"
+    },
+    {
+      "end": "00:05:27.920",
+      "start": "00:05:23.200",
+      "text": " column and it will populate this with a number of I found that the weighting didn't truly reflect"
+    },
+    {
+      "end": "00:05:33.840",
+      "start": "00:05:27.920",
+      "text": " what I wanted to get out of the image and what I want is to know which stars were in focus the most"
+    },
+    {
+      "end": "00:05:38.320",
+      "start": "00:05:33.840",
+      "text": " so we're going to change these are been tabled to full width half maximum descending or ascending"
+    },
+    {
+      "end": "00:05:43.280",
+      "start": "00:05:38.320",
+      "text": " it doesn't matter so now this column here shows me the focus for all of them the best focus we got"
+    },
+    {
+      "end": "00:05:51.280",
+      "start": "00:05:43.280",
+      "text": " was 4.6 and the worst was up here 7.8 on the graph here it says the halfway point is about 6.2 so"
+    },
+    {
+      "end": "00:05:56.720",
+      "start": "00:05:51.280",
+      "text": " I'm going to take it from about 6.2 onwards I'm going to shift all of those and then I'm just going"
+    },
+    {
+      "end": "00:06:00.960",
+      "start": "00:05:56.720",
+      "text": " to click remove now they're all gone that's pretty good so that will show me every time the stars"
+    },
+    {
+      "end": "00:06:05.600",
+      "start": "00:06:01.040",
+      "text": " are in focus however there is another issue some of these nights that I was shooting I had high"
+    },
+    {
+      "end": "00:06:11.440",
+      "start": "00:06:05.600",
+      "text": " cloud and some of them had low full width half maximum readings but that's because the high cloud"
+    },
+    {
+      "end": "00:06:16.880",
+      "start": "00:06:11.440",
+      "text": " was really just destroying the signal and when the signals destroy it gets really low and it looks"
+    },
+    {
+      "end": "00:06:21.320",
+      "start": "00:06:16.880",
+      "text": " like a good focused picture but actually the signal is quite low and when you stretch it it looks"
+    },
+    {
+      "end": "00:06:25.520",
+      "start": "00:06:21.320",
+      "text": " horrible so I'm going to apply a second reason to get rid of half of these frames and that's these"
+    },
+    {
+      "end": "00:06:31.600",
+      "start": "00:06:25.520",
+      "text": " stars column here this allows you to see how many stars pixel inside was able to count in every"
+    },
+    {
+      "end": "00:06:36.000",
+      "start": "00:06:31.600",
+      "text": " frame so I'm going to go over to the measurements table drop down here and change it to stars now"
+    },
+    {
+      "end": "00:06:42.720",
+      "start": "00:06:36.000",
+      "text": " this sorts them all by star count and go down at the bottom and I'm just going to select and click"
+    },
+    {
+      "end": "00:06:50.240",
+      "start": "00:06:42.720",
+      "text": " on remove I've got 39 of the best quality focus subs with the highest star counts so these are"
+    },
+    {
+      "end": "00:06:55.120",
+      "start": "00:06:50.240",
+      "text": " going to be good frames at this point we're going to go into the directory for output here and"
+    },
+    {
+      "end": "00:07:01.840",
+      "start": "00:06:55.120",
+      "text": " change the folder to something where we can store some good subs I'm going to call it good subs"
+    },
+    {
+      "end": "00:07:07.520",
+      "start": "00:07:01.840",
+      "text": " too and we're going to change this drop down from measure to output now all this is going to do"
+    },
+    {
+      "end": "00:07:12.560",
+      "start": "00:07:07.520",
+      "text": " is simply move the remaining files that were in here that we didn't delete off to a folder called"
+    },
+    {
+      "end": "00:07:17.520",
+      "start": "00:07:12.560",
+      "text": " good subs it actually doesn't do anything to the image it's just taking those files and shuffling"
+    },
+    {
+      "end": "00:07:23.360",
+      "start": "00:07:17.520",
+      "text": " them somewhere else I have no idea why this part is so slow if I was just selecting 39 files in the"
+    },
+    {
+      "end": "00:07:28.080",
+      "start": "00:07:23.360",
+      "text": " file system and copying them to a folder it'll take a couple of seconds now that that's done for"
+    },
+    {
+      "end": "00:07:32.640",
+      "start": "00:07:28.080",
+      "text": " a sanity check I'm just going to blink all of those files so of course I'm going to star align all"
+    },
+    {
+      "end": "00:07:40.320",
+      "start": "00:07:32.640",
+      "text": " of these files with drizzle data which will take a million years because mr brown my CPU is going"
+    },
+    {
+      "end": "00:07:45.440",
+      "start": "00:07:40.320",
+      "text": " crazy by the way if you're a subscriber thanks for subscribing to this channel 34,400 viewers and"
+    },
+    {
+      "end": "00:07:49.840",
+      "start": "00:07:45.440",
+      "text": " every time this goes up by another hundred it plays super Mario brothers for me so I know that my"
+    },
+    {
+      "end": "00:07:56.000",
+      "start": "00:07:49.840",
+      "text": " subscriber count is getting up if you like these videos and sometimes stupid astronomy comedy feel"
+    },
+    {
+      "end": "00:08:01.600",
+      "start": "00:07:56.000",
+      "text": " free to subscribe and now I'm just going to stack all of those registered files added the drizzle"
+    },
+    {
+      "end": "00:08:09.200",
+      "start": "00:08:01.600",
+      "text": " files as well global apply and off for another couple coffee do you see my CPU mr brown I love this"
+    },
+    {
+      "end": "00:08:13.840",
+      "start": "00:08:09.200",
+      "text": " bit when you get to this the final stack and it's not stretched yet so you can't see anything and"
+    },
+    {
+      "end": "00:08:18.960",
+      "start": "00:08:13.840",
+      "text": " then you hit the auto stretch and it just pops out of you I just love it oh oh"
+    },
+    {
+      "end": "00:08:38.240",
+      "start": "00:08:30.720",
+      "text": " look at this chefs kiss he's just so sharp it really is the stuff that you don't use that gives you"
+    },
+    {
+      "end": "00:08:43.120",
+      "start": "00:08:38.240",
+      "text": " the best possible result at the end I had a lot of data there like I could have stacked four hours"
+    },
+    {
+      "end": "00:08:50.320",
+      "start": "00:08:43.120",
+      "text": " worth of data I'm only stacking one hour so I'm just taking basically 25% of all the data I had"
+    },
+    {
+      "end": "00:08:54.560",
+      "start": "00:08:50.320",
+      "text": " and just using the best of it it's basically lucky imaging for deep space objects"
+    },
+    {
+      "end": "00:09:20.720",
+      "start": "00:09:13.120",
+      "text": " so"
+    },
+    {
+      "end": "00:09:42.240",
+      "start": "00:09:38.080",
+      "text": " I hope you enjoyed that video on subframe selection and image grading in general remember the"
+    },
+    {
+      "end": "00:09:47.200",
+      "start": "00:09:42.240",
+      "text": " aim is not to get just lots and lots of data it's to get lots of the best study you can by really"
+    },
+    {
+      "end": "00:09:52.720",
+      "start": "00:09:47.200",
+      "text": " throwing away a lot of data throw away all the trash and just stack the good stuff thanks also"
+    },
+    {
+      "end": "00:09:57.840",
+      "start": "00:09:52.720",
+      "text": " for everyone who shared some concern about my nose I did go to these skin cans clinic and the doctor"
+    },
+    {
+      "end": "00:10:02.400",
+      "start": "00:09:57.840",
+      "text": " blasted me in the face with liquid nitrogen and removed a bunch of trouble spots but they were"
+    },
+    {
+      "end": "00:10:07.440",
+      "start": "00:10:02.400",
+      "text": " benign and I've got nothing to worry about however you should slip slop slap make sure if you go"
+    },
+    {
+      "end": "00:10:12.240",
+      "start": "00:10:07.520",
+      "text": " out in the sun especially if you live in the UV capital of Australia because while we're all going"
+    },
+    {
+      "end": "00:10:17.280",
+      "start": "00:10:12.240",
+      "text": " to die dying of skin cancer early probably isn't fun thanks for tagging me in your images and I hope"
+    },
+    {
+      "end": "00:10:21.840",
+      "start": "00:10:17.280",
+      "text": " your astro photography journey is going well my name is Dylan O'Donnell you've been watching star"
+    },
+    {
+      "end": "00:10:30.880",
+      "start": "00:10:21.840",
+      "text": " stuff remember everything is meaningless and we're all going to die"
+    },
+    {
+      "end": "00:10:42.240",
+      "start": "00:10:38.080",
+      "text": " don't"
+    },
+    {
+      "end": "00:10:53.760",
+      "start": "00:10:53.520",
+      "text": " you"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Dylan O'Donnell",
+  "youtube_channel_follower_count": 49700,
+  "youtube_comment_count": 355,
+  "youtube_description": "I'm too drunk to write a good description here. Just watch the damn video. \n\nPixInsight Weighted Image Formula if you want it via Rogue from /r/astrophotography \n\nWeighted Sub selection \n(15*(1-(FWHM-FWHMMin)/(FWHMMax-FWHMMin))\n+ 20*(1-(Eccentricity-EccentricityMin)/(EccentricityMax-EccentricityMin))\n+ 30*(1-(Median-MedianMin)/(MedianMax-MedianMin))\n+ 15*(SNRWeight-SNRWeightMin)/(SNRWeightMax-SNRWeightMin)\n+ 15*(Stars-StarsMin)/(StarsMax-StarsMin))\n+ 15\n\n\n\nSupport the channel by buying Dylan's Telescopes, Cameras & Equipment using the links below!\n\nEQUIPMENT LIST \n————\nCelestron 11\" Edge HD Telescope\nUSA : https://bit.ly/3JB95JE\n\nCelestron RASA F2 11\" Telescope\nUSA : https://bit.ly/3Jy4Ezl\nInternational : https://amzn.to/3ABsVBz\n\nQHY268M Mono CMOS Camera\nUSA : https://bit.ly/33u4k5w\n\nSkywatcher EQ8Rh Pro Mount\nUSA : https://bit.ly/3gTdWJX\nAUS : https://bit.ly/3dxdRv1\n\nNexDome Observatory by Sidereal Trading (Australia)\nhttps://www.siderealtrading.com.au\n\nCelestron RASA 8\" F2 Telescope\nUSA : https://bit.ly/3GTUwiU\nInternational : https://amzn.to/3G4nlbP\n\nCelestron NexYZ 3-Axis Smartphone Adapter\nUSA : https://bit.ly/351K2ki\nInternational : https://amzn.to/3g20wLd\n\nCelestron CGX Mount\nUSA : https://bit.ly/3BtPVCF\n\nLunt40mm Solar Telescope\nUSA : https://bit.ly/3sP8KMX\n\nSky-Watcher Star Adventurer 2i Pro Pack\nUSA : https://bit.ly/3uUVw3O\nInternational : https://amzn.to/3ABLAwQ\n\nZWO ASI 174MM (Planetary / Solar Camera) \nUSA : https://bit.ly/3uXpEM8\nInternational : https://amzn.to/3rXqJAj\n\nZWO ASI 120MM (Guide Camera) \nUSA : https://bit.ly/352iBXg\n\nZWO ASI 1600MM (Deep Space Camera)\nUSA : https://bit.ly/3HVtvg1\nInternational : https://amzn.to/3rXqJAj\n\nCelestron 0.7x reducer for 11\" Edge HD\nUSA : https://bit.ly/3gTDJSy\n\nCelestron 0.7x reducer for 9.25” Edge HD\nUSA : https://bit.ly/3sNyY2o\n\nCelestron 9.25” Edge HD \nUSA : https://bit.ly/3LISupw\n\nCanon 6D mkII DSLR \nInternational : https://amzn.to/2CbiVER\n\nTokina 16-28mm Lens \nInternational : https://amzn.to/3fdFJCo\n\nCanon EF 16-35mm f/2.8L III USM Ultra Wide Angle Zoom Full Frame\nInternational : https://amzn.to/3G9kjmP\n\nCanon EF 100-400mm f/4.5-5.6L IS II USM Lens\nInternational : https://amzn.to/3H9yPfA\n\n\nSupport my alcoholism by getting some Star Stuff stuff MERCH:\nhttps://www.youtube.com/channel/UCgOf4wBnoGg8WHHHr_h4otQ/store\n\n\n\nDylan’s links\n————\nPATREON : https://www.patreon.com/dylanodonnell\nWEB : https://deography.com\nFACEBOOK : https://facebook.com/dylanodonnell\nTWITTER : https://twitter.com/erfmufn\nINSTAGRAM : https://instagram.com/dylan_odonnell_ \nAPPLE MUSIC : https://music.apple.com/au/artist/dylan-odonnell/1558954204\nSPOTIFY : https://open.spotify.com/artist/3npvCdR9vg17f6WotLvNPv\n  \nIntro Music - \"Moving the Ocean (Aerologic Edit)\" by Blastculture.\nBackground Music - \"Astronomical Twilight\" by Dylan O'Donnell, available on iTunes and Spotify and whatever soon.",
+  "youtube_like_count": 1894,
+  "youtube_tags": [],
+  "youtube_title": "Use Less Data - Get Better Space Photos!",
+  "youtube_upload_date": "20210510",
+  "youtube_view_count": 24822
+}

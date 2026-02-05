@@ -1,0 +1,1307 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A pixel art robot with a pink body and white legs.",
+        "name": "Pink Robot"
+      },
+      {
+        "characterId": "2",
+        "description": "A pixel art girl with pink hair and a blue shirt.",
+        "name": "Girl"
+      }
+    ],
+    "description": "A detailed walkthrough of creating a Celeste-inspired platforming game using Unity, focusing on mechanics, pixel art integration, and visual effects.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Celeste",
+        "question": "What indie game inspired this Unity project?"
+      },
+      {
+        "answer": "LERP (Linear Interpolation)",
+        "question": "What is the name of the technique used to achieve smoother movement after the character jumps?"
+      },
+      {
+        "answer": "Tilemap",
+        "question": "What tool in Unity was used to create the level?"
+      },
+      {
+        "answer": "Keijiro's GitHub repository",
+        "question": "Where did the creator find the shader that creates a ripple effect?"
+      },
+      {
+        "answer": "Screen shake",
+        "question": "What visual effect was added to the dash to give it more intensity?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.7,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The pink background and cheerful music contribute to the excited mood.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The video starts with an exciting and playful intro featuring the Mix and Jam logo.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:04.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Exciting Intro",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.5,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The plain pink background and calm voiceover contribute to a curious mood.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The video transitions to a plain pink background with a voiceover introducing the channel and today's project.",
+            "timestamp": "00:00:04.033"
+          }
+        ],
+        "props": [],
+        "sceneId": 2,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:10.000",
+          "start_timestamp": "00:00:04.033"
+        },
+        "title": "Introduction to Project",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Jumping",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:11.000"
+            }
+          },
+          {
+            "description": "Climbing",
+            "timestamp": {
+              "end_timestamp": "00:00:15.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          },
+          {
+            "description": "Dashing",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:21.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Girl"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The fast-paced gameplay of Celeste, combined with upbeat music, creates an excited mood.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Excited",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The video showcases gameplay footage of Celeste, highlighting its smooth movement and tight controls, which are the inspiration for the project.",
+            "timestamp": "00:00:10.033"
+          }
+        ],
+        "props": [],
+        "sceneId": 3,
+        "thematicElements": "Game Development, Inspiration, Platforming Mechanics",
+        "timestamps": {
+          "end_timestamp": "00:00:28.000",
+          "start_timestamp": "00:00:10.033"
+        },
+        "title": "Celeste Gameplay Showcase",
+        "videoEditingDetails": [
+          {
+            "description": "Gameplay footage of Celeste",
+            "timestamps": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:10.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Jumping",
+            "timestamp": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:29.000"
+            }
+          },
+          {
+            "description": "Walking",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:33.000"
+            }
+          },
+          {
+            "description": "Grabbing onto walls",
+            "timestamp": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:36.000"
+            }
+          },
+          {
+            "description": "Dashing",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:37.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Pink Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The focus shifts to the technical aspects of recreating Celeste's movement in Unity.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The video outlines the steps involved in recreating Celeste's movement, including basic platforming, pixel art animation, and scene polishing.",
+            "timestamp": "00:00:28.033"
+          }
+        ],
+        "props": [],
+        "sceneId": 4,
+        "thematicElements": "Game Development Process, Technical Implementation, Visual Enhancement",
+        "timestamps": {
+          "end_timestamp": "00:00:49.200",
+          "start_timestamp": "00:00:28.033"
+        },
+        "title": "Recreating Movement in Unity",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Unity editor and game view",
+            "timestamps": {
+              "end_timestamp": "00:00:49.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "description": "Text overlay: \"STEPS\" and \"Celeste's Movement\"",
+            "timestamps": {
+              "end_timestamp": "00:00:30.000",
+              "start_timestamp": "00:00:28.033"
+            }
+          },
+          {
+            "description": "Text overlay: \"STEP 1\" and \"BASIC PLATFORMING\"",
+            "timestamps": {
+              "end_timestamp": "00:00:37.000",
+              "start_timestamp": "00:00:31.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"STEP 2\" and \"PIXEL ART\"",
+            "timestamps": {
+              "end_timestamp": "00:00:42.000",
+              "start_timestamp": "00:00:38.000"
+            }
+          },
+          {
+            "description": "Text overlay: \"STEP 3\" and \"POLISH\"",
+            "timestamps": {
+              "end_timestamp": "00:00:48.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Falling due to gravity",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:54.000"
+            }
+          },
+          {
+            "description": "Walking",
+            "timestamp": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "Jumping",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:01:14.000"
+            }
+          },
+          {
+            "description": "Wall sliding",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          },
+          {
+            "description": "Wall grabbing",
+            "timestamp": {
+              "end_timestamp": "00:01:27.167",
+              "start_timestamp": "00:01:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Pink Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The voiceover provides a detailed walkthrough of the coding process.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene dives into the technical implementation of basic platforming in Unity, covering character movement, jumping, collision detection, and wall interactions.",
+            "timestamp": "00:00:49.233"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unity editor interface",
+            "timestamp": {
+              "end_timestamp": "00:00:50.000",
+              "start_timestamp": "00:00:49.233"
+            }
+          },
+          {
+            "name": "Code editor",
+            "timestamp": {
+              "end_timestamp": "00:00:57.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "name": "Ground",
+            "timestamp": {
+              "end_timestamp": "00:01:16.000",
+              "start_timestamp": "00:01:15.000"
+            }
+          },
+          {
+            "name": "Walls",
+            "timestamp": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:01:26.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Coding, Unity Engine, Game Physics, Character Controllers",
+        "timestamps": {
+          "end_timestamp": "00:01:27.167",
+          "start_timestamp": "00:00:49.233"
+        },
+        "title": "Coding Basic Platforming",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Unity editor and game view",
+            "timestamps": {
+              "end_timestamp": "00:01:27.000",
+              "start_timestamp": "00:00:49.233"
+            }
+          },
+          {
+            "description": "Text overlay: \"STEP 1\" and \"BASIC PLATFORMING\"",
+            "timestamps": {
+              "end_timestamp": "00:00:56.000",
+              "start_timestamp": "00:00:49.233"
+            }
+          },
+          {
+            "description": "Zoom in on code in code editor",
+            "timestamps": {
+              "end_timestamp": "00:01:13.000",
+              "start_timestamp": "00:00:58.000"
+            }
+          },
+          {
+            "description": "Embedded video tutorial from Board To Bits Games",
+            "timestamps": {
+              "end_timestamp": "00:01:26.000",
+              "start_timestamp": "00:01:18.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Jumping",
+            "timestamp": {
+              "end_timestamp": "00:01:39.000",
+              "start_timestamp": "00:01:38.000"
+            }
+          },
+          {
+            "description": "Wall jumping",
+            "timestamp": {
+              "end_timestamp": "00:02:08.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          },
+          {
+            "description": "Dashing",
+            "timestamp": {
+              "end_timestamp": "00:02:37.000",
+              "start_timestamp": "00:02:36.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Pink Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene continues to explore the technical details of implementing wall jumping and dashing mechanics.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene delves further into refining the character's movement, focusing on implementing wall jumping and a dashing mechanic with particle effects.",
+            "timestamp": "00:01:27.200"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unity editor interface",
+            "timestamp": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:27.200"
+            }
+          },
+          {
+            "name": "Code editor",
+            "timestamp": {
+              "end_timestamp": "00:01:28.000",
+              "start_timestamp": "00:01:27.200"
+            }
+          },
+          {
+            "name": "Walls",
+            "timestamp": {
+              "end_timestamp": "00:02:08.000",
+              "start_timestamp": "00:02:07.000"
+            }
+          },
+          {
+            "name": "Particle effects",
+            "timestamp": {
+              "end_timestamp": "00:02:47.000",
+              "start_timestamp": "00:02:46.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Game Mechanics, Unity's LERP function, Particle Systems, Visual Feedback",
+        "timestamps": {
+          "end_timestamp": "00:02:49.700",
+          "start_timestamp": "00:01:27.200"
+        },
+        "title": "Advanced Movement Mechanics",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Unity editor and game view",
+            "timestamps": {
+              "end_timestamp": "00:02:49.700",
+              "start_timestamp": "00:01:27.200"
+            }
+          },
+          {
+            "description": "Zoom in on code in code editor",
+            "timestamps": {
+              "end_timestamp": "00:02:35.000",
+              "start_timestamp": "00:01:27.200"
+            }
+          },
+          {
+            "description": "Close up on Unity's Inspector panel",
+            "timestamps": {
+              "end_timestamp": "00:02:49.700",
+              "start_timestamp": "00:02:40.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Walking",
+            "timestamp": {
+              "end_timestamp": "00:03:05.000",
+              "start_timestamp": "00:03:04.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Pink Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The voiceover expresses gratitude towards Nate Kling for his collaboration on the project.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Grateful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene shifts the focus to the visual aspect of the project, introducing Nate Kling as the collaborator responsible for the pixel art and animation.",
+            "timestamp": "00:02:51.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Nate Kling's Twitter profile",
+            "timestamp": {
+              "end_timestamp": "00:02:52.000",
+              "start_timestamp": "00:02:51.000"
+            }
+          },
+          {
+            "name": "Nate Kling's online portfolio",
+            "timestamp": {
+              "end_timestamp": "00:02:58.000",
+              "start_timestamp": "00:02:57.000"
+            }
+          },
+          {
+            "name": "Pixel art sprites",
+            "timestamp": {
+              "end_timestamp": "00:03:04.000",
+              "start_timestamp": "00:03:03.000"
+            }
+          },
+          {
+            "name": "Level design",
+            "timestamp": {
+              "end_timestamp": "00:03:08.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "Collaboration, Pixel Art, Character Design, Level Design",
+        "timestamps": {
+          "end_timestamp": "00:03:09.000",
+          "start_timestamp": "00:02:49.733"
+        },
+        "title": "Introducing Pixel Art and Animation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Walking",
+            "timestamp": {
+              "end_timestamp": "00:03:26.000",
+              "start_timestamp": "00:03:25.000"
+            }
+          },
+          {
+            "description": "Jumping",
+            "timestamp": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:03:26.000"
+            }
+          },
+          {
+            "description": "Dashing",
+            "timestamp": {
+              "end_timestamp": "00:04:03.000",
+              "start_timestamp": "00:04:02.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Pink Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene continues with the technical implementation, explaining the process of integrating pixel art animations, creating the level using tilemaps, and adding visual polish.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene focuses on the implementation of the pixel art and animation, level creation using Unity's tilemap, and adding various visual effects to enhance the overall look and feel.",
+            "timestamp": "00:03:09.033"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unity editor interface",
+            "timestamp": {
+              "end_timestamp": "00:03:10.000",
+              "start_timestamp": "00:03:09.033"
+            }
+          },
+          {
+            "name": "Sprite sheet",
+            "timestamp": {
+              "end_timestamp": "00:03:10.000",
+              "start_timestamp": "00:03:09.033"
+            }
+          },
+          {
+            "name": "Animation editor",
+            "timestamp": {
+              "end_timestamp": "00:03:23.000",
+              "start_timestamp": "00:03:22.000"
+            }
+          },
+          {
+            "name": "Level design",
+            "timestamp": {
+              "end_timestamp": "00:03:42.000",
+              "start_timestamp": "00:03:41.000"
+            }
+          },
+          {
+            "name": "Particle effects",
+            "timestamp": {
+              "end_timestamp": "00:04:05.000",
+              "start_timestamp": "00:04:04.000"
+            }
+          },
+          {
+            "name": "Ghost trails",
+            "timestamp": {
+              "end_timestamp": "00:04:11.867",
+              "start_timestamp": "00:04:11.867"
+            }
+          }
+        ],
+        "sceneId": 8,
+        "thematicElements": "Sprite Animation, Animator Controller, Tilemaps, Pixel Perfect Rendering, Screen Shake Effect",
+        "timestamps": {
+          "end_timestamp": "00:04:11.867",
+          "start_timestamp": "00:03:09.033"
+        },
+        "title": "Integrating Visual Effects",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of Unity editor and game view",
+            "timestamps": {
+              "end_timestamp": "00:04:11.867",
+              "start_timestamp": "00:03:09.033"
+            }
+          },
+          {
+            "description": "Text overlay: \"STEP 2\" and \"PIXEL ART\"",
+            "timestamps": {
+              "end_timestamp": "00:03:22.000",
+              "start_timestamp": "00:03:09.033"
+            }
+          },
+          {
+            "description": "Text overlay: \"STEP 3\" and \"POLISH\"",
+            "timestamps": {
+              "end_timestamp": "00:03:49.000",
+              "start_timestamp": "00:03:41.000"
+            }
+          },
+          {
+            "description": "Close up on Unity's Package Manager window",
+            "timestamps": {
+              "end_timestamp": "00:03:58.000",
+              "start_timestamp": "00:03:51.000"
+            }
+          },
+          {
+            "description": "Close up on Unity's Inspector panel",
+            "timestamps": {
+              "end_timestamp": "00:04:11.867",
+              "start_timestamp": "00:04:04.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Dashing",
+            "timestamp": {
+              "end_timestamp": "00:04:18.000",
+              "start_timestamp": "00:04:17.000"
+            }
+          },
+          {
+            "description": "Leaving ghost trails",
+            "timestamp": {
+              "end_timestamp": "00:04:18.000",
+              "start_timestamp": "00:04:17.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Pink Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The voiceover explains the implementation of the ghost trail effect and highlights the use of a shader from GitHub.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene focuses on the final visual polish, including replicating the ghost trail effect seen in Celeste.",
+            "timestamp": "00:04:12.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Level design",
+            "timestamp": {
+              "end_timestamp": "00:04:13.000",
+              "start_timestamp": "00:04:12.000"
+            }
+          },
+          {
+            "name": "Ghost trails",
+            "timestamp": {
+              "end_timestamp": "00:04:18.000",
+              "start_timestamp": "00:04:17.000"
+            }
+          },
+          {
+            "name": "GitHub repository",
+            "timestamp": {
+              "end_timestamp": "00:04:39.000",
+              "start_timestamp": "00:04:38.000"
+            }
+          }
+        ],
+        "sceneId": 9,
+        "thematicElements": "Visual Effects, Shaders, GitHub",
+        "timestamps": {
+          "end_timestamp": "00:04:45.567",
+          "start_timestamp": "00:04:11.900"
+        },
+        "title": "Final Visual Polish",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of game view",
+            "timestamps": {
+              "end_timestamp": "00:04:37.000",
+              "start_timestamp": "00:04:12.000"
+            }
+          },
+          {
+            "description": "Close up on GitHub repository page",
+            "timestamps": {
+              "end_timestamp": "00:04:45.000",
+              "start_timestamp": "00:04:38.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Walking",
+            "timestamp": {
+              "end_timestamp": "00:04:47.000",
+              "start_timestamp": "00:04:46.000"
+            }
+          },
+          {
+            "description": "Jumping",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:55.000"
+            }
+          },
+          {
+            "description": "Dashing",
+            "timestamp": {
+              "end_timestamp": "00:04:58.000",
+              "start_timestamp": "00:04:57.000"
+            }
+          },
+          {
+            "description": "Wall sliding",
+            "timestamp": {
+              "end_timestamp": "00:05:00.000",
+              "start_timestamp": "00:04:59.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Pink Robot"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene shifts to a grateful mood as the voiceover expresses appreciation to the Patreon supporters and encourages viewers to subscribe and follow on Twitter.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Grateful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This concluding scene showcases the final result of the project, highlighting the successful implementation of Celeste-inspired movement in Unity.",
+            "timestamp": "00:04:46.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Level design",
+            "timestamp": {
+              "end_timestamp": "00:04:47.000",
+              "start_timestamp": "00:04:46.000"
+            }
+          },
+          {
+            "name": "Patreon logo",
+            "timestamp": {
+              "end_timestamp": "00:05:08.000",
+              "start_timestamp": "00:05:07.000"
+            }
+          },
+          {
+            "name": "List of Patreon supporters",
+            "timestamp": {
+              "end_timestamp": "00:05:14.000",
+              "start_timestamp": "00:05:13.000"
+            }
+          },
+          {
+            "name": "\"Subscribe\" button",
+            "timestamp": {
+              "end_timestamp": "00:05:24.000",
+              "start_timestamp": "00:05:23.000"
+            }
+          },
+          {
+            "name": "Twitter logo",
+            "timestamp": {
+              "end_timestamp": "00:05:30.000",
+              "start_timestamp": "00:05:29.000"
+            }
+          }
+        ],
+        "sceneId": 10,
+        "thematicElements": "Final Result, Patreon Support, Community Engagement",
+        "timestamps": {
+          "end_timestamp": "00:05:46.433",
+          "start_timestamp": "00:04:45.600"
+        },
+        "title": "Project Conclusion and Community Engagement",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of game view",
+            "timestamps": {
+              "end_timestamp": "00:05:28.000",
+              "start_timestamp": "00:04:46.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The final implementation of Celeste-inspired movement mechanics, showcased with all added visual effects and polish.",
+        "timestamp": "00:04:46.000"
+      },
+      "description": "The storyline follows the process of creating a Celeste-inspired platforming game utilizing Unity, focusing on recreating the game's movement mechanics, integrating pixel art graphics, and enhancing with visual effects.",
+      "scenes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Celeste-Inspired Platforming in Unity",
+    "trimmingSuggestions": [
+      {
+        "description": "Segments showcasing code in the code editor could be trimmed or sped up as they are visually less engaging and slow down the pace of the video.",
+        "timestamps": {
+          "end_timestamp": "00:04:45.600",
+          "start_timestamp": "00:04:45.600"
+        }
+      },
+      {
+        "description": null,
+        "timestamps": {
+          "end_timestamp": "00:04:45.600",
+          "start_timestamp": "00:04:45.600"
+        }
+      },
+      {
+        "description": null,
+        "timestamps": {
+          "end_timestamp": "00:04:45.600",
+          "start_timestamp": "00:04:45.600"
+        }
+      },
+      {
+        "description": "The close-up shots of the Unity Inspector panel could be shortened to maintain a faster pace.",
+        "timestamps": {
+          "end_timestamp": "00:04:45.600",
+          "start_timestamp": "00:04:45.600"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 346,
+  "original_json_filename": "STyY26a_dPY.json",
+  "original_video_filename": "STyY26a_dPY.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] hi welcome to mix and jam Patel about game development experimentation today's project is inspired by the indie game Celeste Celeste is an incredible game with amazing art and one of the tightest platforming controls out there my goal for this project is to try and achieve a similar movement and feel using unity so here are the steps I needed to follow for this recreation implement the basic movement of the character which includes walking jumping grabbing to the walls and dashi add some pics art animations to the characters movement and then polish the scene by working on the environment some particles and extra effects I started by creating a game object with a sprite renderer and applying gravity to it by adding a 2d rigidbody component to make the character move I created a script that modify the velocity from the rigidbody by getting the values of the horizontal and vertical axis on unities input for the jump I changed the rigid bodies Y velocity when the action button is pressed but by doing that the jump always has the same linear motion so I followed this tutorial from board to bits games on how to make better jumping by modifying the character's gravity depending on how long you press the button next thing was the detective players collisions so omit a script they used the overlap circle function to see if the character was grounded or on the wall with that detection I was able to make the cactus slide when it was colliding against the wall by subtracting from its Y velocity and when the character was on the wall and holding the trigger I activated the wall grab bullion that allowed the player to climb the wall modifying the Y velocity just like in the game another thing the player can do while colliding with the ball is a wall jump the first thing I tried to do was to deactivate the cactus movement for a bit after jumping so it wouldn't allow the player to immediately get back to the wall but that turned out not feeling great instead I decided to leave the movement after the cactus jump so that the player could still have control over the character but not that much to work on a - I get the direction based on the horizontal and vertical axis and use that to add velocity to the rich body in order to make the - really quick without going very far and increase the rich bodies drag property while the character is dashing then I decided to add a particle system to the - just so I could look a little bit better for this project I collaborated with Nate clink for all the pixel art and animation Nate super talented so I was super excited to work with him so make sure to check out his work he designed a character based on the mix and jam colors and he also did all the animation and the art for the environment I'll be put in a link in the description if you just want to download his art so you can play around with it to implement the cactus images on the project I first had to slice up the sprite sheet by using the sprite editor then when that was done I created all of the animations for the character using uniess animator to make the transition between those animations the one solution I found was to create parameters on the animator that were similar to the ones on the character script and use them as conditions for the transitions after that I started creating the level using unities tile map with tile map I could easily select the image I wanted to paint over the environment on the tile grid then to make everything pixel perfect I installed the unities pixel camera packaged and apply it to my camera the great thing about using this package is that I was able to create normal particles that rendered like pixel so I created particles for the character jump slide and even want to simulate the wind ease now to replicate the ghost trail celeste leaves behind when dashing I created a sequence of three images that moved on the characters position while dashing and then I made them fade away to add more intensity to the - I added a screen shake to the camera using do tweens new shake position on the game there's a little ripple effect that happens on the dash so I found this shader on Keros github that does a similar effect and apply it to my project after a bit of adjustments this is how it turned out [Music] the link for the project's repository is on the description below mixing Jam is only possible because of the incredible people helping out on patreon including these top-tier supporters I'm absolutely grateful for all this support seriously you guys are the best if you're new to the channel don't forget to subscribe let's check out the future projects and I'll see you in the next one [Music]",
+  "text_to_speech_word_count": 863,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.533",
+      "start": "00:00:00.000",
+      "text": " Hi, welcome to Mix and Jam, a channel about game development experimentation."
+    },
+    {
+      "end": "00:00:16.167",
+      "start": "00:00:10.533",
+      "text": " Today's project is inspired by the indie game Celeste."
+    },
+    {
+      "end": "00:00:20.500",
+      "start": "00:00:16.167",
+      "text": " Celeste is an incredible game with amazing art and one of the tightest platforming controls"
+    },
+    {
+      "end": "00:00:22.000",
+      "start": "00:00:20.500",
+      "text": " out there."
+    },
+    {
+      "end": "00:00:27.600",
+      "start": "00:00:22.000",
+      "text": " My goal for this project is to try and achieve a similar movement and feel using Unity."
+    },
+    {
+      "end": "00:00:32.100",
+      "start": "00:00:27.600",
+      "text": " To hear the steps I needed to follow for this recreation."
+    },
+    {
+      "end": "00:00:36.533",
+      "start": "00:00:32.100",
+      "text": " Implement the basic movement of the character, which includes walking, jumping, grabbing"
+    },
+    {
+      "end": "00:00:39.200",
+      "start": "00:00:36.533",
+      "text": " to the walls and dashing."
+    },
+    {
+      "end": "00:00:43.300",
+      "start": "00:00:39.200",
+      "text": " Add some pixel art animations to the character's movement."
+    },
+    {
+      "end": "00:00:49.200",
+      "start": "00:00:43.300",
+      "text": " And then polish the scene by working on the environment, some particles and extra effects."
+    },
+    {
+      "end": "00:00:53.600",
+      "start": "00:00:49.200",
+      "text": " I started by creating a game object with a sprite renderer and applying gravity to it"
+    },
+    {
+      "end": "00:00:57.867",
+      "start": "00:00:53.600",
+      "text": " by adding a 2D rigid body component."
+    },
+    {
+      "end": "00:01:02.267",
+      "start": "00:00:57.867",
+      "text": " To make the character move, I created a script that modified the velocity from the rigid"
+    },
+    {
+      "end": "00:01:09.267",
+      "start": "00:01:02.267",
+      "text": " body by getting the values of the horizontal and vertical axis on Unity's input."
+    },
+    {
+      "end": "00:01:14.667",
+      "start": "00:01:09.267",
+      "text": " For the jump, I changed the rigid body's y velocity when the action button is pressed."
+    },
+    {
+      "end": "00:01:18.833",
+      "start": "00:01:14.667",
+      "text": " But by doing that, the jump always has the same linear motion."
+    },
+    {
+      "end": "00:01:22.933",
+      "start": "00:01:18.833",
+      "text": " So I followed this tutorial from Bored to Bits games on how to make better jumping by"
+    },
+    {
+      "end": "00:01:29.933",
+      "start": "00:01:22.933",
+      "text": " modifying the character's gravity depending on how long you pressed the button."
+    },
+    {
+      "end": "00:01:32.900",
+      "start": "00:01:29.933",
+      "text": " Next thing was to detect the player's collisions."
+    },
+    {
+      "end": "00:01:38.033",
+      "start": "00:01:32.900",
+      "text": " So I made a script that used the overlap circle function to see if the character was grounded"
+    },
+    {
+      "end": "00:01:41.533",
+      "start": "00:01:38.033",
+      "text": " or on the wall."
+    },
+    {
+      "end": "00:01:46.067",
+      "start": "00:01:41.533",
+      "text": " With that detection, I was able to make the character's light when it was colliding against the"
+    },
+    {
+      "end": "00:01:50.800",
+      "start": "00:01:46.067",
+      "text": " wall by subtracting from its y velocity."
+    },
+    {
+      "end": "00:01:55.400",
+      "start": "00:01:50.800",
+      "text": " And when the character was on the wall and holding the trigger, I activated the wall-grab"
+    },
+    {
+      "end": "00:02:00.733",
+      "start": "00:01:55.400",
+      "text": " boolean that allowed the player to climb the wall modifying the y velocity just like in"
+    },
+    {
+      "end": "00:02:03.667",
+      "start": "00:02:00.733",
+      "text": " the game."
+    },
+    {
+      "end": "00:02:08.000",
+      "start": "00:02:03.667",
+      "text": " Another thing the player can do while colliding with the wall is a wall jump."
+    },
+    {
+      "end": "00:02:12.867",
+      "start": "00:02:08.000",
+      "text": " The first thing I tried to do was to deactivate the character's movement for a bit after jumping,"
+    },
+    {
+      "end": "00:02:16.333",
+      "start": "00:02:12.867",
+      "text": " so it wouldn't allow the player to immediately get back to the wall."
+    },
+    {
+      "end": "00:02:18.633",
+      "start": "00:02:16.333",
+      "text": " But that turned out not really great."
+    },
+    {
+      "end": "00:02:22.933",
+      "start": "00:02:18.633",
+      "text": " Instead, I decided to learn the movement after the character jump so that the player could"
+    },
+    {
+      "end": "00:02:28.667",
+      "start": "00:02:22.933",
+      "text": " still have control over the character, but not that much."
+    },
+    {
+      "end": "00:02:33.800",
+      "start": "00:02:28.667",
+      "text": " To work on the dash, I get the direction based on the horizontal and vertical axis and"
+    },
+    {
+      "end": "00:02:37.600",
+      "start": "00:02:33.800",
+      "text": " use that to add velocity to the rigid body."
+    },
+    {
+      "end": "00:02:42.467",
+      "start": "00:02:37.600",
+      "text": " In order to make the dash really quick, without going very far, I increased the rigid body"
+    },
+    {
+      "end": "00:02:46.367",
+      "start": "00:02:42.467",
+      "text": " strike property while the character is dashing."
+    },
+    {
+      "end": "00:02:50.467",
+      "start": "00:02:46.367",
+      "text": " Then I decided to add a particle system to the dash just so it could look a little bit"
+    },
+    {
+      "end": "00:02:52.667",
+      "start": "00:02:50.467",
+      "text": " better."
+    },
+    {
+      "end": "00:02:57.767",
+      "start": "00:02:52.667",
+      "text": " For this project, I collaborated with Nate Kling for all the pixel art and animation."
+    },
+    {
+      "end": "00:03:00.900",
+      "start": "00:02:57.767",
+      "text": " Nate super talented, so I was super excited to work with him."
+    },
+    {
+      "end": "00:03:02.933",
+      "start": "00:03:00.900",
+      "text": " So make sure to check out his work."
+    },
+    {
+      "end": "00:03:07.133",
+      "start": "00:03:02.933",
+      "text": " He designed a character based on the mix and jam colors and he also did all the animation"
+    },
+    {
+      "end": "00:03:08.733",
+      "start": "00:03:07.133",
+      "text": " and the art for the environment."
+    },
+    {
+      "end": "00:03:13.033",
+      "start": "00:03:09.067",
+      "text": " I'll be putting a link in the description if you just want to download his art so you"
+    },
+    {
+      "end": "00:03:15.200",
+      "start": "00:03:13.033",
+      "text": " can play around with it."
+    },
+    {
+      "end": "00:03:19.500",
+      "start": "00:03:15.200",
+      "text": " To implement the character's images on the project, I first had to slice up the sprite"
+    },
+    {
+      "end": "00:03:22.067",
+      "start": "00:03:19.500",
+      "text": " sheet by using the sprite editor."
+    },
+    {
+      "end": "00:03:26.700",
+      "start": "00:03:22.067",
+      "text": " Then when that was done, I created all of the animations for the character using these"
+    },
+    {
+      "end": "00:03:28.467",
+      "start": "00:03:26.700",
+      "text": " animators."
+    },
+    {
+      "end": "00:03:33.767",
+      "start": "00:03:28.467",
+      "text": " To make the transition between those animations, the one solution I found was to create parameters"
+    },
+    {
+      "end": "00:03:38.367",
+      "start": "00:03:33.767",
+      "text": " on the animator that were similar to the ones on the character script and use them as"
+    },
+    {
+      "end": "00:03:41.300",
+      "start": "00:03:38.400",
+      "text": " conditions for the transitions."
+    },
+    {
+      "end": "00:03:45.433",
+      "start": "00:03:41.300",
+      "text": " After that, I started creating the level using Unity's tile map."
+    },
+    {
+      "end": "00:03:49.867",
+      "start": "00:03:45.433",
+      "text": " With tile map, I could easily select the image I wanted to paint over the environment"
+    },
+    {
+      "end": "00:03:52.400",
+      "start": "00:03:49.867",
+      "text": " on the tile grid."
+    },
+    {
+      "end": "00:03:57.833",
+      "start": "00:03:52.400",
+      "text": " Then to make everything pixel perfect, I installed the Unity's pixel camera package and applied"
+    },
+    {
+      "end": "00:04:00.067",
+      "start": "00:03:57.833",
+      "text": " it to my camera."
+    },
+    {
+      "end": "00:04:04.300",
+      "start": "00:04:00.067",
+      "text": " The great thing about using this package is that I was able to create normal particles"
+    },
+    {
+      "end": "00:04:06.400",
+      "start": "00:04:04.300",
+      "text": " that rendered like pixel art."
+    },
+    {
+      "end": "00:04:10.900",
+      "start": "00:04:06.400",
+      "text": " So I created particles for the character jump, slide, and even want to simulate the"
+    },
+    {
+      "end": "00:04:14.067",
+      "start": "00:04:10.900",
+      "text": " windies now."
+    },
+    {
+      "end": "00:04:18.667",
+      "start": "00:04:14.067",
+      "text": " To replicate the ghost trail, Celeste leaves behind when dashing, I created a sequence"
+    },
+    {
+      "end": "00:04:23.467",
+      "start": "00:04:18.667",
+      "text": " of three images that moved on the character's position while dashing, and then I made"
+    },
+    {
+      "end": "00:04:25.633",
+      "start": "00:04:23.467",
+      "text": " it fade away."
+    },
+    {
+      "end": "00:04:29.900",
+      "start": "00:04:25.633",
+      "text": " To add more intensity to the dash, I added a screen shake to the camera using due"
+    },
+    {
+      "end": "00:04:34.200",
+      "start": "00:04:29.900",
+      "text": " tween's due shake position."
+    },
+    {
+      "end": "00:04:38.533",
+      "start": "00:04:34.200",
+      "text": " On the game, there's a little ripple effect that happens on the dash, so I found this"
+    },
+    {
+      "end": "00:04:44.500",
+      "start": "00:04:38.533",
+      "text": " shader on Kijiro's GitHub that does a similar effect and apply it to my project."
+    },
+    {
+      "end": "00:04:49.500",
+      "start": "00:04:44.500",
+      "text": " After a bit of adjustments, this is how it turned out."
+    },
+    {
+      "end": "00:05:10.533",
+      "start": "00:04:49.500",
+      "text": " The link for the project's repository is in the description below."
+    },
+    {
+      "end": "00:05:14.967",
+      "start": "00:05:10.533",
+      "text": " Mixing Jam is only possible because of the incredible people helping out on Patreon,"
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:14.967",
+      "text": " including these top tier supporters."
+    },
+    {
+      "end": "00:05:21.933",
+      "start": "00:05:17.000",
+      "text": " I'm absolutely grateful for all this support, seriously, you guys are the best."
+    },
+    {
+      "end": "00:05:26.467",
+      "start": "00:05:21.933",
+      "text": " If you're new to the channel, don't forget to subscribe to check out the future projects,"
+    },
+    {
+      "end": "00:05:27.867",
+      "start": "00:05:26.467",
+      "text": " and I'll see you in the next one."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Gaming"
+  ],
+  "youtube_channel": "Mix and Jam",
+  "youtube_channel_follower_count": 153000,
+  "youtube_comment_count": 479,
+  "youtube_description": "Support Mix and Jam on Patreon!\nhttps://www.patreon.com/mixandjam\n\nPROJECT REPOSITORY\n-------------------------------------\nhttps://github.com/mixandjam/Celeste-Movement\n\nREFERENCES\n-------------------------------\nBetter Jumping in Unity With Four Lines of Code\n(Board to Bits Games)\nhttps://youtu.be/7KiK0Aqtmzc\n\nNate Kling\n(Pixelart)\nhttps://twitter.com/NateKling\nhttps://drive.google.com/open?id=1hNrC1vZqzQ7fjO3Q1qFxWe0PERl8dXDs\n\nRipple Effect\nhttps://github.com/keijiro/RippleEffect\n\nEXTRA FOOTAGE\n-------------------------------------\nCeleste Walkthrough Part 1 No Commentary\n(Noire Blue)\nhttps://youtu.be/HV0yJ2cae9Q\n\nMUSIC\n-------------------------------------\nReach for the Summit [8-Bit; 2A03] - Celeste\n(branflakes)\nhttps://youtu.be/NbMoFhKAvpU",
+  "youtube_like_count": 11853,
+  "youtube_tags": [
+    "mixandjam",
+    "mix and jam",
+    "unity tutorial",
+    "unity engine",
+    "game development",
+    "celeste unity",
+    "celeste indie",
+    "indie game dev",
+    "indie game development"
+  ],
+  "youtube_title": "Recreating Celeste's Movement | Mix and Jam",
+  "youtube_upload_date": "20190529",
+  "youtube_view_count": 235502
+}

@@ -1,0 +1,1465 @@
+{
+  "content_fine_category": "Science Explainers",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A pedestrian difficult to describe visually due to small size and brief appearances.",
+        "name": "Pedestrian (dark clothing)"
+      },
+      {
+        "characterId": "2",
+        "description": "A motorcyclist riding a bicycle, difficult to describe visually.",
+        "name": "Motorcyclist (light clothing)"
+      },
+      {
+        "characterId": "3",
+        "description": "A pedestrian crossing the street later in the footage.",
+        "name": "Pedestrian (white shirt, dark pants)"
+      }
+    ],
+    "description": "This video explains and demonstrates a technical method for enhancing photorealism in video games using GTA V as a case study.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The appearance of the text labels 'GTA V' (for original footage) and 'Ours' (for the method's output) in the respective corners of the screen signifies the transition.",
+        "question": "In the first few scenes, what visual cue indicates the transition between the original GTA V footage and the output of your method?"
+      },
+      {
+        "answer": "The method employs a sampling strategy that extracts corresponding image patches from both real and rendered datasets, focusing on regions with similar semantic content. This helps the network learn a more consistent model of realism and reduces the occurrence of hallucinations.",
+        "question": "How does your method address the issue of 'hallucinations' seen in other image-to-image translation techniques, such as the 'CUT' method?"
+      },
+      {
+        "answer": "A G-buffer is a set of rendering buffers that store geometric and material information about a scene, such as surface normals, depth, albedo, and glossiness. These buffers provide valuable information about the scene's structure and lighting, which our method leverages to create more realistic enhancements.",
+        "question": "What is a G-buffer, and how does it contribute to your method's effectiveness in enhancing realism?"
+      },
+      {
+        "answer": "The enhanced footage exhibits smoother asphalt roads, increased glossiness on car paint, and a more realistic representation of the sun-drenched hills in the game.",
+        "question": "What specific visual improvements are evident in the footage processed by your method, compared to the original GTA V?"
+      },
+      {
+        "answer": "While color transfer merely adjusts the color distribution of images, our method goes beyond color modifications, enhancing the realism of various materials and textures. It also maintains temporal stability, unlike color transfer, which can result in flickering or inconsistent visuals over time.",
+        "question": "How does your method differ from traditional color transfer techniques, such as the one demonstrated in the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Cars driving on a city street",
+            "timestamp": {
+              "end_timestamp": "00:00:14.014",
+              "start_timestamp": "00:00:03.303"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": [
+            {
+              "changeDescription": "",
+              "timestamp": "00:00:03.303"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces a typical city street environment in GTA V.",
+            "timestamp": "00:00:03.303"
+          }
+        ],
+        "props": [
+          {
+            "name": "Black cars",
+            "timestamp": {
+              "end_timestamp": "00:00:14.014",
+              "start_timestamp": "00:00:03.303"
+            }
+          },
+          {
+            "name": "Traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:00:14.014",
+              "start_timestamp": "00:00:03.303"
+            }
+          },
+          {
+            "name": "Street signs",
+            "timestamp": {
+              "end_timestamp": "00:00:14.014",
+              "start_timestamp": "00:00:03.303"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:15.983",
+          "start_timestamp": "00:00:03.303"
+        },
+        "title": "City Street with Black Cars",
+        "videoEditingDetails": [
+          {
+            "description": "Text 'GTA V' appears on the bottom left corner",
+            "timestamps": {
+              "end_timestamp": "00:00:14.014",
+              "start_timestamp": "00:00:08.008"
+            }
+          },
+          {
+            "description": "Scene abruptly cuts to the next scene",
+            "timestamps": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:14.014"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars driving on a city street",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:16.016"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": [
+            {
+              "changeDescription": "",
+              "timestamp": "00:00:16.016"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene showcases the results of the 'Enhancing Photorealism Enhancement' method applied to GTA V.",
+            "timestamp": "00:00:16.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "name": "Trucks",
+            "timestamp": {
+              "end_timestamp": "00:00:29.997",
+              "start_timestamp": "00:00:21.989"
+            }
+          },
+          {
+            "name": "Bus",
+            "timestamp": {
+              "end_timestamp": "00:00:27.995",
+              "start_timestamp": "00:00:22.990"
+            }
+          },
+          {
+            "name": "Traffic lights",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "name": "Street signs",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "name": "Billboards",
+            "timestamp": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:27.995"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:33.834",
+          "start_timestamp": "00:00:16.016"
+        },
+        "title": "Enhanced City Street (Our Method)",
+        "videoEditingDetails": [
+          {
+            "description": "Text 'Ours' appears on the bottom right corner",
+            "timestamps": {
+              "end_timestamp": "00:00:33.000",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "description": "Scene abruptly cuts to the next scene",
+            "timestamps": {
+              "end_timestamp": "00:00:33.834",
+              "start_timestamp": "00:00:33.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars driving on various city streets",
+            "timestamp": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:33.867"
+            }
+          },
+          {
+            "description": "Pedestrians walking",
+            "timestamp": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:33.867"
+            }
+          },
+          {
+            "description": "Cyclist riding a bike",
+            "timestamp": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:38.005"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.5,
+        "cast": [
+          "Pedestrians",
+          "Cyclists"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces the Cityscapes dataset used for training the model to achieve photorealism.",
+            "timestamp": "00:00:33.867"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:33.867"
+            }
+          },
+          {
+            "name": "Buildings",
+            "timestamp": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:33.867"
+            }
+          },
+          {
+            "name": "Streets",
+            "timestamp": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:33.867"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:00:43.644",
+          "start_timestamp": "00:00:33.867"
+        },
+        "title": "The Cityscapes Dataset",
+        "videoEditingDetails": [
+          {
+            "description": "Title card: 'The Cityscapes dataset'",
+            "timestamps": {
+              "end_timestamp": "00:00:34.001",
+              "start_timestamp": "00:00:33.867"
+            }
+          },
+          {
+            "description": "Split-screen displaying four simultaneous footage segments",
+            "timestamps": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:34.001"
+            }
+          },
+          {
+            "description": "Scene fades to black",
+            "timestamps": {
+              "end_timestamp": "00:00:43.644",
+              "start_timestamp": "00:00:43.644"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars driving on a city street",
+            "timestamp": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:00:44.011"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene directly compares the visual output of the method against the original GTA V footage.",
+            "timestamp": "00:00:44.011"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:00:44.011"
+            }
+          },
+          {
+            "name": "Trucks",
+            "timestamp": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:00:44.011"
+            }
+          },
+          {
+            "name": "Buildings",
+            "timestamp": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:00:44.011"
+            }
+          },
+          {
+            "name": "Street signs",
+            "timestamp": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:00:44.011"
+            }
+          },
+          {
+            "name": "Hills",
+            "timestamp": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:00:44.011"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:05.699",
+          "start_timestamp": "00:00:43.677"
+        },
+        "title": "GTA V vs. Our Method (Side-by-Side)",
+        "videoEditingDetails": [
+          {
+            "description": "Split-screen comparison: Left side 'GTA V,' right side 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:00:44.011"
+            }
+          },
+          {
+            "description": "Scene abruptly cuts to the next",
+            "timestamps": {
+              "end_timestamp": "00:01:05.699",
+              "start_timestamp": "00:01:05.699"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars driving on a city street",
+            "timestamp": {
+              "end_timestamp": "00:01:24.985",
+              "start_timestamp": "00:01:05.999"
+            }
+          },
+          {
+            "description": "Pedestrians walking",
+            "timestamp": {
+              "end_timestamp": "00:01:24.985",
+              "start_timestamp": "00:01:05.999"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene compares the method's output against the 'CUT' method.",
+            "timestamp": "00:01:05.999"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:01:24.985",
+              "start_timestamp": "00:01:05.999"
+            }
+          },
+          {
+            "name": "Buildings",
+            "timestamp": {
+              "end_timestamp": "00:01:24.985",
+              "start_timestamp": "00:01:05.999"
+            }
+          },
+          {
+            "name": "Trees",
+            "timestamp": {
+              "end_timestamp": "00:01:24.985",
+              "start_timestamp": "00:01:05.999"
+            }
+          },
+          {
+            "name": "Street signs",
+            "timestamp": {
+              "end_timestamp": "00:01:24.985",
+              "start_timestamp": "00:01:05.999"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:26.954",
+          "start_timestamp": "00:01:05.732"
+        },
+        "title": "GTA V vs. CUT (Side-by-Side)",
+        "videoEditingDetails": [
+          {
+            "description": "Split-screen comparison: Left side 'GTA V,' right side 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:01:16.009",
+              "start_timestamp": "00:01:05.999"
+            }
+          },
+          {
+            "description": "Text changes to 'CUT' on the left side",
+            "timestamps": {
+              "end_timestamp": "00:01:24.985",
+              "start_timestamp": "00:01:16.009"
+            }
+          },
+          {
+            "description": "Scene abruptly cuts to the next",
+            "timestamps": {
+              "end_timestamp": "00:01:25.986",
+              "start_timestamp": "00:01:24.985"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars driving on a city street",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "description": "Pedestrian walking",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "description": "Motorcyclist riding",
+            "timestamp": {
+              "end_timestamp": "00:01:31.992",
+              "start_timestamp": "00:01:27.988"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene compares the method's output to another state-of-the-art method, 'TSIT.'",
+            "timestamp": "00:01:26.987"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "name": "Buildings",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "name": "Trees",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "name": "Street signs",
+            "timestamp": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "name": "Truck",
+            "timestamp": {
+              "end_timestamp": "00:01:38.999",
+              "start_timestamp": "00:01:33.994"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:01:41.902",
+          "start_timestamp": "00:01:26.987"
+        },
+        "title": "GTA V vs. TSIT (Side-by-Side)",
+        "videoEditingDetails": [
+          {
+            "description": "Split-screen comparison: Left side 'TSIT,' right side 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:01:41.001",
+              "start_timestamp": "00:01:26.987"
+            }
+          },
+          {
+            "description": "Scene abruptly cuts to the next",
+            "timestamps": {
+              "end_timestamp": "00:01:41.902",
+              "start_timestamp": "00:01:41.001"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene provides a detailed explanation of the method's architecture and components.",
+            "timestamp": "00:01:41.935"
+          }
+        ],
+        "props": [],
+        "sceneId": 7,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:02:43.797",
+          "start_timestamp": "00:01:41.935"
+        },
+        "title": "Method Diagram (Animated)",
+        "videoEditingDetails": [
+          {
+            "description": "Animated diagram explaining the method's architecture",
+            "timestamps": {
+              "end_timestamp": "00:02:42.996",
+              "start_timestamp": "00:01:41.935"
+            }
+          },
+          {
+            "description": "Scene transitions through zoom and fade effects",
+            "timestamps": {
+              "end_timestamp": "00:02:42.996",
+              "start_timestamp": "00:01:41.935"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene delves deeper into the G-buffer encoder component.",
+            "timestamp": "00:02:43.830"
+          }
+        ],
+        "props": [],
+        "sceneId": 8,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:03:17.697",
+          "start_timestamp": "00:02:43.830"
+        },
+        "title": "G-buffer Encoder (Animated)",
+        "videoEditingDetails": [
+          {
+            "description": "Animated diagram focusing on the G-buffer encoder",
+            "timestamps": {
+              "end_timestamp": "00:03:16.997",
+              "start_timestamp": "00:02:43.830"
+            }
+          },
+          {
+            "description": "Scene transitions using zoom and highlight effects",
+            "timestamps": {
+              "end_timestamp": "00:03:16.997",
+              "start_timestamp": "00:02:43.830"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene details the image enhancement network and its operation.",
+            "timestamp": "00:03:17.731"
+          }
+        ],
+        "props": [],
+        "sceneId": 9,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:03:56.103",
+          "start_timestamp": "00:03:17.731"
+        },
+        "title": "Image Enhancement Network (Animated)",
+        "videoEditingDetails": [
+          {
+            "description": "Animated diagram highlighting the image enhancement network",
+            "timestamps": {
+              "end_timestamp": "00:03:56.103",
+              "start_timestamp": "00:03:17.731"
+            }
+          },
+          {
+            "description": "Scene transitions using zoom and animation effects",
+            "timestamps": {
+              "end_timestamp": "00:03:56.103",
+              "start_timestamp": "00:03:17.731"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene explains the function of the perceptual discriminator network and its impact on realism.",
+            "timestamp": "00:03:57.003"
+          }
+        ],
+        "props": [],
+        "sceneId": 10,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:04:57.964",
+          "start_timestamp": "00:03:56.136"
+        },
+        "title": "Perceptual Discriminator (Animated)",
+        "videoEditingDetails": [
+          {
+            "description": "Animated diagram illustrating the perceptual discriminator",
+            "timestamps": {
+              "end_timestamp": "00:04:55.996",
+              "start_timestamp": "00:03:57.003"
+            }
+          },
+          {
+            "description": "Scene transitions using zoom and highlight effects",
+            "timestamps": {
+              "end_timestamp": "00:04:55.996",
+              "start_timestamp": "00:03:57.003"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars driving on different roads",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:57.998"
+            }
+          },
+          {
+            "description": "Pedestrian walking on a sidewalk",
+            "timestamp": {
+              "end_timestamp": "00:05:35.001",
+              "start_timestamp": "00:05:31.998"
+            }
+          },
+          {
+            "description": "Motorcyclist riding a bike",
+            "timestamp": {
+              "end_timestamp": "00:05:40.006",
+              "start_timestamp": "00:05:37.003"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Pedestrian (dark clothing)",
+          "Motorcyclist (light clothing)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene explains the challenges of varying scene layouts between real and rendered images and the importance of sampling.",
+            "timestamp": "00:04:57.998"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:57.998"
+            }
+          },
+          {
+            "name": "Trucks",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:57.998"
+            }
+          },
+          {
+            "name": "Buildings",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:57.998"
+            }
+          },
+          {
+            "name": "Trees",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:57.998"
+            }
+          },
+          {
+            "name": "Roads",
+            "timestamp": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:57.998"
+            }
+          }
+        ],
+        "sceneId": 11,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:06:10.670",
+          "start_timestamp": "00:04:57.998"
+        },
+        "title": "Training Strategy (Split-Screen)",
+        "videoEditingDetails": [
+          {
+            "description": "Split-screen showing Cityscapes (top) and GTA V (bottom)",
+            "timestamps": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:04:57.998"
+            }
+          },
+          {
+            "description": "Scene abruptly cuts to black at the end",
+            "timestamps": {
+              "end_timestamp": "00:06:10.670",
+              "start_timestamp": "00:06:10.670"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Cars driving on various roads",
+            "timestamp": {
+              "end_timestamp": "00:08:30.010",
+              "start_timestamp": "00:06:11.004"
+            }
+          },
+          {
+            "description": "Pedestrian crossing the street",
+            "timestamp": {
+              "end_timestamp": "00:08:27.007",
+              "start_timestamp": "00:08:24.004"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Pedestrian (white shirt, dark pants)"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene provides a comprehensive demonstration of the method's capabilities, showcasing its effectiveness in enhancing the realism of GTA V footage and comparing it to other approaches.",
+            "timestamp": "00:06:11.004"
+          }
+        ],
+        "props": [
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:08:30.010",
+              "start_timestamp": "00:06:11.004"
+            }
+          },
+          {
+            "name": "Bus",
+            "timestamp": {
+              "end_timestamp": "00:06:33.994",
+              "start_timestamp": "00:06:11.004"
+            }
+          },
+          {
+            "name": "Buildings",
+            "timestamp": {
+              "end_timestamp": "00:08:30.010",
+              "start_timestamp": "00:06:11.004"
+            }
+          },
+          {
+            "name": "Trees",
+            "timestamp": {
+              "end_timestamp": "00:08:30.010",
+              "start_timestamp": "00:06:11.004"
+            }
+          },
+          {
+            "name": "Roads",
+            "timestamp": {
+              "end_timestamp": "00:08:30.010",
+              "start_timestamp": "00:06:11.004"
+            }
+          },
+          {
+            "name": "Motorcycles",
+            "timestamp": {
+              "end_timestamp": "00:08:11.992",
+              "start_timestamp": "00:08:06.987"
+            }
+          }
+        ],
+        "sceneId": 12,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:08:32.979",
+          "start_timestamp": "00:06:10.704"
+        },
+        "title": "Enhanced City Driving (Our Method)",
+        "videoEditingDetails": [
+          {
+            "description": "Text 'GTA V' on the bottom left",
+            "timestamps": {
+              "end_timestamp": "00:06:17.010",
+              "start_timestamp": "00:06:11.004"
+            }
+          },
+          {
+            "description": "Split-screen comparison: Left side 'GTA V,' right side 'Ours'",
+            "timestamps": {
+              "end_timestamp": "00:06:33.994",
+              "start_timestamp": "00:06:17.010"
+            }
+          },
+          {
+            "description": "Text 'Color Transfer' on the left",
+            "timestamps": {
+              "end_timestamp": "00:06:54.014",
+              "start_timestamp": "00:06:33.994"
+            }
+          },
+          {
+            "description": "Text 'WCT2' on the left",
+            "timestamps": {
+              "end_timestamp": "00:07:07.994",
+              "start_timestamp": "00:06:54.014"
+            }
+          },
+          {
+            "description": "Text 'CUT' on the left",
+            "timestamps": {
+              "end_timestamp": "00:07:23.009",
+              "start_timestamp": "00:07:07.994"
+            }
+          },
+          {
+            "description": "Text 'TSIT' on the left",
+            "timestamps": {
+              "end_timestamp": "00:07:40.994",
+              "start_timestamp": "00:07:23.009"
+            }
+          },
+          {
+            "description": "Only 'Ours' on the right side",
+            "timestamps": {
+              "end_timestamp": "00:08:30.010",
+              "start_timestamp": "00:07:40.994"
+            }
+          },
+          {
+            "description": "Scene fades to black at the end",
+            "timestamps": {
+              "end_timestamp": "00:08:31.011",
+              "start_timestamp": "00:08:30.010"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The method's final results are shown in Scene 12, comparing to other state-of-the-art approaches.",
+        "timestamp": "00:06:11.004"
+      },
+      "description": "The video presents a non-narrative structure focused on explaining and demonstrating a technical method for enhancing photorealism in video games. It establishes context, provides technical details, and compares the method's results against other approaches.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "title": "GTA V Photorealism Enhancement Method",
+    "trimmingSuggestions": [
+      {
+        "description": "Reduce the length of Scene 1 (GTA V) to just a few key establishing shots of the original game graphics.",
+        "timestamps": {
+          "end_timestamp": "00:06:10.704",
+          "start_timestamp": "00:06:10.704"
+        }
+      },
+      {
+        "description": "Consolidate Comparison Scenes (4-6) by intercutting shorter clips from 'Ours' with clips from the other methods for more rapid and engaging comparisons.",
+        "timestamps": {
+          "end_timestamp": "00:06:10.704",
+          "start_timestamp": "00:06:10.704"
+        }
+      },
+      {
+        "description": "Shorten Diagram Scenes (7-10) to maintain a fast pace, removing less essential details and focusing on key elements.",
+        "timestamps": {
+          "end_timestamp": "00:06:10.704",
+          "start_timestamp": "00:06:10.704"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 513,
+  "original_json_filename": "P1IcaBn3ej0.json",
+  "original_video_filename": "P1IcaBn3ej0.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in this work we are enhancing photo realism enhancement to understand what that means let us have a look at some footage from the game grand theft auto 5. the game looks great but it is not quite photorealistic let us now turn on our method our method modifies the images from the game to look more realistic it is a convolutional network which produces images frame by frame and can be run at interactive rates this model was trained to translate gta 5 to the cityscapes dataset cityscapes contains mostly images of german cities recorded with an automotive grade camera here are a few examples from the dataset with the model of reality induced by cityscapes our method paves the roads with smoother asphalt increases the glossiness of car paint and greens the sun-dried hills of gta's california the results are geometrically and semantically consistent with the input images and temporally stable let us have a look at the state of the art in comparison to our work here is contrastive unpaired image to image translation or cut for short cut is less temporally stable and hallucinates objects such as trees in the sky or mercedes stars on the hood of the car here's another state-of-the-art approach similar to cut t-set is less temporally stable and adds many artifacts to the images let us now look at our method in detail to understand why it is more stable and produces less artifacts our method takes a rendered image from the game and passes it through an image enhancement network to produce an enhanced image we further extract a set of rendering buffers called g buffers produced by the game engine g buffers contain geometric information such as surface normals or distance to the camera material information such as albedo or glossiness they may also contain information about the lighting in a scene we pass the buffers through a g-buffer encoder network to produce feature tensors at multiple scales the tensors encode the information about the rendered scene to train our networks for enhancing realism we employ a perceptual discriminator for each image it takes in it produces a realism score to make it understand what the real world looks like we also feed it real photos to ensure that our networks retain the structure of rendered images we further add them to the discriminator inputs and employ a perceptual loss let us now zoom in on the g buffer encoder from the g buffers we can derive a semantic class label map which assigns an object id to every pixel we pass the g buffers through multiple convolutional network streams and fuse the streams again based on the object ids this allows the encoder to learn different ways of processing for each type of object for example trees will be treated differently from cars the resulting feature tensors are further processed by residual blocks which output tensors at multiple scales let us now look at the image enhancement network to see what we can do with these multi-scale tensors the enhancement network is based on hr net which processes images at multiple scales in parallel each scale of the feature tensors matches a scale in the network the network consists of many residual blocks at each scale within the residual blocks we replace the batch normalization layers with our own rendering aware denormalization blocks or rad for short the rad layers modulate features based on the rendering information in the g buffer feature tensors for more details we refer to our paper let us now look at how the perceptual discriminator works the discriminator contains a robust semantic segmentation network and a network for extracting perceptual features in this case a vgg-16 we extract features from the vgg at multiple levels and pass them through a convolutional network this differs from prior work that trains discriminators directly on images training on vgg features allows our network to quickly learn a model of realism at multiple perceptual levels we further pass the unmodified rendered image as well as real images through the segmentation network to obtain a label map for each the label map is used to specialize the discriminator on individual object classes since we use a pre-trained robust segmentation network the object classes are consistent for rendered and real images for more details we refer to our paper there is one more thing for training discriminator networks the common choice is to take in as much of an image as possible the reasoning is that the more context of a scene the network sees the better we started with this strategy as well and found it to be sub-optimal because scene layouts between real and rendered images can be quite different here we see the probabilities for each pixel to contain a certain type of object the top row shows cityscapes the bottom gta 5. images from gta contain much more sky at the top where cityscapes images contain vegetation images from cityscapes have a mercedes star at the bottom if we train our network with full images from both data sets it will start adding mercedes stars and place trees in the sky we observe this effect in many other approaches one part of our solution is to decrease the field of view for the network and show it corresponding scenes from both data sets when training our network we sample rendered and real image patches that roughly contain the same things this is done automatically and requires no access to semantic label maps more details can be found in our paper let us now look at more results and comparisons here we see gta again and on the right the results produced by our method here we see the results from classic color transfer color transfer matches the color distribution of gta to cityscapes but it does not modify images beyond the colors roads and trees keep their synthetic appearance unlike many other approaches color transfer is temporally stable here is wct2 a state of the art photo style transfer approach wct2 requires a reference photo it can become temporally unstable if rendered images and the reference diverge here we see again results from cut cut commonly hallucinates objects like trees in the sky and the star on the hood the sampling strategy of our approach alleviates such artifacts here we see t-set an image to image translation approach tcit also requires a favorable reference photo which may cause artifacts and temporal instability if rendered images and the reference diverge finally let us look at gta again and here's our method trained on the mapillary vistas dataset vistas features diverse images from around the world recorded with different types of cameras our method captures the style of this data set with its vibrant colors while keeping the semantic and geometric content of the underlying game you",
+  "text_to_speech_word_count": 1150,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:03.670",
+      "start": "00:00:00.000",
+      "text": " In this work, we are enhancing photo realism enhancement."
+    },
+    {
+      "end": "00:00:09.142",
+      "start": "00:00:03.670",
+      "text": " To understand what that means, let us have a look at some footage from the game Grand Theft Auto 5."
+    },
+    {
+      "end": "00:00:12.946",
+      "start": "00:00:09.142",
+      "text": " The game looks great, but it is not quite photo realistic."
+    },
+    {
+      "end": "00:00:15.215",
+      "start": "00:00:12.946",
+      "text": " Let us now turn on our method."
+    },
+    {
+      "end": "00:00:19.152",
+      "start": "00:00:15.215",
+      "text": " Our method modifies the images from the game to look more realistic."
+    },
+    {
+      "end": "00:00:25.392",
+      "start": "00:00:19.152",
+      "text": " It is a convolutional network which produces images frame by frame and can be run at interactive rates."
+    },
+    {
+      "end": "00:00:32.399",
+      "start": "00:00:25.392",
+      "text": " This model was trained to translate GTA 5 to the cityscapes dataset."
+    },
+    {
+      "end": "00:00:40.374",
+      "start": "00:00:32.399",
+      "text": " Cityscapes contains mostly images of German cities recorded with an automotive grade camera."
+    },
+    {
+      "end": "00:00:43.377",
+      "start": "00:00:40.374",
+      "text": " Here are a few examples from the dataset."
+    },
+    {
+      "end": "00:00:52.386",
+      "start": "00:00:43.377",
+      "text": " With a model of reality induced by cityscapes, our method paves the roads with smoother asphalt,"
+    },
+    {
+      "end": "00:00:58.392",
+      "start": "00:00:52.386",
+      "text": " increases the glossiness of car paint and greens the sun-dried hills of GTA's California."
+    },
+    {
+      "end": "00:01:07.367",
+      "start": "00:00:58.392",
+      "text": " The results are geometrically and semantically consistent with the input images and temporally stable."
+    },
+    {
+      "end": "00:01:10.370",
+      "start": "00:01:07.367",
+      "text": " Let us have a look at the state of the art in comparison to our work."
+    },
+    {
+      "end": "00:01:16.376",
+      "start": "00:01:10.370",
+      "text": " Here is contrastive, unpaired image to image translation, or cut for short."
+    },
+    {
+      "end": "00:01:24.384",
+      "start": "00:01:16.376",
+      "text": " Cut is less temporally stable and hallucinates objects, such as trees in the sky or Mercedes stars on the hood of the car."
+    },
+    {
+      "end": "00:01:27.387",
+      "start": "00:01:24.384",
+      "text": " Here is another state of the art approach."
+    },
+    {
+      "end": "00:01:34.394",
+      "start": "00:01:27.387",
+      "text": " Similar to cut, T-SIT is less temporally stable and adds many artifacts to the images."
+    },
+    {
+      "end": "00:01:42.369",
+      "start": "00:01:34.394",
+      "text": " Let us now look at our method in detail to understand why it is more stable and produces less artifacts."
+    },
+    {
+      "end": "00:01:50.377",
+      "start": "00:01:43.370",
+      "text": " Our method takes a rendered image from the game and passes it through an image enhancement network to produce an enhanced image."
+    },
+    {
+      "end": "00:01:56.383",
+      "start": "00:01:50.377",
+      "text": " We further extract a set of rendering buffers called G-Buffers produced by the game engine."
+    },
+    {
+      "end": "00:02:05.392",
+      "start": "00:01:56.383",
+      "text": " G-Buffers contain geometric information, such as surface normals or distance to the camera, material information such as albedo or glossiness."
+    },
+    {
+      "end": "00:02:09.396",
+      "start": "00:02:05.392",
+      "text": " They may also contain information about the lighting in a scene."
+    },
+    {
+      "end": "00:02:16.370",
+      "start": "00:02:09.396",
+      "text": " We pass the buffers through a G-Buffer and Coder network to produce feature tensors at multiple scales."
+    },
+    {
+      "end": "00:02:20.374",
+      "start": "00:02:16.370",
+      "text": " The tensors encode the information about the rendered scene."
+    },
+    {
+      "end": "00:02:25.379",
+      "start": "00:02:20.374",
+      "text": " To train our networks for enhancing realism, we employ a perceptual discriminator."
+    },
+    {
+      "end": "00:02:29.383",
+      "start": "00:02:25.379",
+      "text": " For each image it takes in, it produces a realism score."
+    },
+    {
+      "end": "00:02:34.388",
+      "start": "00:02:29.383",
+      "text": " To make it understand what the real world looks like, we also feed it real photos."
+    },
+    {
+      "end": "00:02:43.397",
+      "start": "00:02:34.388",
+      "text": " To ensure that our networks retain the structure of rendered images, we further add them to the discriminator inputs and employ a perceptual loss."
+    },
+    {
+      "end": "00:02:46.400",
+      "start": "00:02:43.397",
+      "text": " Let us now zoom in on the G-Buffer encoder."
+    },
+    {
+      "end": "00:02:53.373",
+      "start": "00:02:46.400",
+      "text": " From the G-Buffers, we can derive a semantic class label map, which assigns an object ID to every pixel."
+    },
+    {
+      "end": "00:03:01.381",
+      "start": "00:02:53.373",
+      "text": " We pass the G-Buffers through multiple convolutional network streams and fuse the streams again based on the object IDs."
+    },
+    {
+      "end": "00:03:06.386",
+      "start": "00:03:01.381",
+      "text": " This allows the encoder to learn different ways of processing for each type of object."
+    },
+    {
+      "end": "00:03:10.390",
+      "start": "00:03:06.386",
+      "text": " For example, trees will be treated differently from cars."
+    },
+    {
+      "end": "00:03:17.397",
+      "start": "00:03:10.390",
+      "text": " The resulting feature tensors are further processed by residual blocks, which output tensors at multiple scales."
+    },
+    {
+      "end": "00:03:23.370",
+      "start": "00:03:17.397",
+      "text": " Let us now look at the Image Enhancement Network to see what we can do with these Multi-Scale tensors."
+    },
+    {
+      "end": "00:03:30.377",
+      "start": "00:03:23.370",
+      "text": " The Enhancement Network is based on HRNet, which processes images at multiple scales in parallel."
+    },
+    {
+      "end": "00:03:34.381",
+      "start": "00:03:30.377",
+      "text": " Each scale of the feature tensors matches a scale in the network."
+    },
+    {
+      "end": "00:03:38.385",
+      "start": "00:03:34.381",
+      "text": " The network consists of many residual blocks at each scale."
+    },
+    {
+      "end": "00:03:48.395",
+      "start": "00:03:38.385",
+      "text": " Within the residual blocks, we replace the batch normalization layers with our own rendering-aware denormalization blocks, or RAID for short."
+    },
+    {
+      "end": "00:03:54.367",
+      "start": "00:03:48.395",
+      "text": " The RAID layers modulate features based on the rendering information in the G-Buffer feature tensors."
+    },
+    {
+      "end": "00:03:57.370",
+      "start": "00:03:54.367",
+      "text": " For more details, we refer to our paper."
+    },
+    {
+      "end": "00:04:02.375",
+      "start": "00:03:58.371",
+      "text": " Let us now look at how the Perceptual Discriminator works."
+    },
+    {
+      "end": "00:04:12.385",
+      "start": "00:04:02.375",
+      "text": " The discriminator contains a robust semantic segmentation network and a network for extracting perceptual features, in this case a VGG-16."
+    },
+    {
+      "end": "00:04:19.392",
+      "start": "00:04:12.385",
+      "text": " We extract features from the VGG at multiple levels and pass them through a convolutional network."
+    },
+    {
+      "end": "00:04:24.397",
+      "start": "00:04:19.392",
+      "text": " This differs from prior work that trains discriminators directly on images."
+    },
+    {
+      "end": "00:04:32.372",
+      "start": "00:04:24.397",
+      "text": " Training on VGG features allows our network to quickly learn a model of realism at multiple perceptual levels."
+    },
+    {
+      "end": "00:04:40.380",
+      "start": "00:04:32.372",
+      "text": " We further pass the unmodified rendered image, as well as real images, through the segmentation network to obtain a label map for each."
+    },
+    {
+      "end": "00:04:45.385",
+      "start": "00:04:40.380",
+      "text": " The label map is used to specialize the discriminator on individual object classes."
+    },
+    {
+      "end": "00:04:53.393",
+      "start": "00:04:45.385",
+      "text": " Since we use a pre-trained, robust segmentation network, the object classes are consistent for rendered and real images."
+    },
+    {
+      "end": "00:04:56.396",
+      "start": "00:04:53.393",
+      "text": " For more details, we refer to our paper."
+    },
+    {
+      "end": "00:05:03.370",
+      "start": "00:04:56.396",
+      "text": " There is one more thing. For training discriminator networks, the common choice is to take in as much of an image as possible."
+    },
+    {
+      "end": "00:05:08.375",
+      "start": "00:05:03.370",
+      "text": " The reasoning is that the more context of a scene the network sees, the better."
+    },
+    {
+      "end": "00:05:17.384",
+      "start": "00:05:08.375",
+      "text": " We started with this strategy as well and found it to be suboptimal because scene layouts between real and rendered images can be quite different."
+    },
+    {
+      "end": "00:05:22.389",
+      "start": "00:05:17.384",
+      "text": " Here we see the probabilities for each pixel to contain a certain type of object."
+    },
+    {
+      "end": "00:05:34.367",
+      "start": "00:05:22.389",
+      "text": " The top row shows cityscapes, the bottom GTA 5. Images from GTA contain much more sky at the top, where cityscapes images contain vegetation."
+    },
+    {
+      "end": "00:05:45.378",
+      "start": "00:05:34.367",
+      "text": " Images from cityscapes have a Mercedes star at the bottom. If we train our network with full images from both datasets, it will start adding Mercedes stars and place trees in the sky."
+    },
+    {
+      "end": "00:05:48.381",
+      "start": "00:05:45.378",
+      "text": " We observe this effect in many other approaches."
+    },
+    {
+      "end": "00:05:56.389",
+      "start": "00:05:49.382",
+      "text": " One part of our solution is to decrease the field of view for the network and show it corresponding scenes from both datasets."
+    },
+    {
+      "end": "00:06:02.395",
+      "start": "00:05:56.389",
+      "text": " When training our network, we sample rendered and real image patches that roughly contain the same things."
+    },
+    {
+      "end": "00:06:07.367",
+      "start": "00:06:02.395",
+      "text": " This is done automatically and requires no access to semantic label maps."
+    },
+    {
+      "end": "00:06:10.370",
+      "start": "00:06:07.367",
+      "text": " More details can be found in our paper."
+    },
+    {
+      "end": "00:06:16.376",
+      "start": "00:06:10.370",
+      "text": " Let us now look at more results and comparisons. Here we see GTA again."
+    },
+    {
+      "end": "00:06:20.380",
+      "start": "00:06:17.377",
+      "text": " And on the right, the results produced by our method."
+    },
+    {
+      "end": "00:06:42.369",
+      "start": "00:06:34.394",
+      "text": " Here we see the results from classic color transfer. Color transfer matches the color distribution of GTA to cityscapes."
+    },
+    {
+      "end": "00:06:48.375",
+      "start": "00:06:42.369",
+      "text": " But it does not modify images beyond the colors. Roads and trees keep their synthetic appearance."
+    },
+    {
+      "end": "00:06:53.380",
+      "start": "00:06:48.375",
+      "text": " Unlike many other approaches, color transfer is temporarily stable."
+    },
+    {
+      "end": "00:07:06.393",
+      "start": "00:06:53.380",
+      "text": " Here is WCT2, a state-of-the-art photo-style transfer approach. WCT2 requires a reference photo. It can become temporarily unstable if rendered images and the reference diverge."
+    },
+    {
+      "end": "00:07:14.367",
+      "start": "00:07:07.394",
+      "text": " Here we see again results from cut. Cut commonly hallucinates objects like trees in the sky and the star on the hood."
+    },
+    {
+      "end": "00:07:18.371",
+      "start": "00:07:14.367",
+      "text": " The sampling strategy of our approach alleviates such artifacts."
+    },
+    {
+      "end": "00:07:27.380",
+      "start": "00:07:23.376",
+      "text": " Here we see T-SIT, an image-to-image translation approach."
+    },
+    {
+      "end": "00:07:36.389",
+      "start": "00:07:27.380",
+      "text": " T-SIT also requires a favorable reference photo, which may cause artifacts and temporal instability if rendered images and the reference diverge."
+    },
+    {
+      "end": "00:07:45.398",
+      "start": "00:07:42.395",
+      "text": " Finally, let us look at GTA again."
+    },
+    {
+      "end": "00:07:56.376",
+      "start": "00:07:47.367",
+      "text": " And here is our method trained on the Mapillary Vista's data set. Vista's features diverse images from around the world recorded with different types of cameras."
+    },
+    {
+      "end": "00:08:04.384",
+      "start": "00:07:56.376",
+      "text": " Our method captures the style of this data set with its vibrant colors while keeping the semantic and geometric content of the underlying game."
+    },
+    {
+      "end": "00:08:31.378",
+      "start": "00:08:27.374",
+      "text": " The map is a map of the map that is used to create a map of the map."
+    },
+    {
+      "end": "00:08:38.385",
+      "start": "00:08:32.379",
+      "text": " The map is used to create a map of the map that is used to create a map of the map that is used to create a map of the map that is used to create a map of the map."
+    },
+    {
+      "end": "00:08:47.394",
+      "start": "00:08:39.386",
+      "text": " The map is used to create a map of the map that is used to create a map of the map that is used to create a map of the map."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "ISL and Collaborators",
+  "youtube_channel_follower_count": 12400,
+  "youtube_comment_count": 11000,
+  "youtube_description": "Enhancing Photorealism Enhancement\nStephan R. Richter, Hassan Abu AlHaija, and Vladlen Koltun\n\nPaper: https://arxiv.org/abs/2105.04619\nCode and data: https://github.com/isl-org/PhotorealismEnhancement\nProject page: https://isl-org.github.io/PhotorealismEnhancement/\n\nWe present an approach to enhancing the realism of synthetic images. The images are enhanced by a convolutional network that leverages intermediate representations produced by conventional rendering pipelines. The network is trained via a novel adversarial objective, which provides strong supervision at multiple perceptual levels. We analyze scene layout distributions in commonly used datasets and find that they differ in important ways. We hypothesize that this is one of the causes of strong artifacts that can be observed in the results of many prior methods. To address this we propose a new strategy for sampling image patches during training. We also introduce multiple architectural improvements in the deep network modules used for photorealism enhancement. We confirm the benefits of our contributions in controlled experiments and report substantial gains in stability and realism in comparison to recent image-to-image translation methods and a variety of other baselines.",
+  "youtube_like_count": 159001,
+  "youtube_tags": [],
+  "youtube_title": "Enhancing Photorealism Enhancement",
+  "youtube_upload_date": "20210510",
+  "youtube_view_count": 6077586
+}

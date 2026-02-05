@@ -1,0 +1,825 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A drone with multiple cameras and sensors labeled 'Aerial Robot'.",
+        "name": "Aerial Robot"
+      },
+      {
+        "characterId": "2",
+        "description": "A small, wheeled robot designed for planetary exploration with a metallic body and robotic arm.",
+        "name": "Space Rover"
+      },
+      {
+        "characterId": "3",
+        "description": "A static lander with two solar panels for planetary exploration.",
+        "name": "Space Lander"
+      }
+    ],
+    "description": "A detailed exploration of uncertainty estimation in deep learning, applied to robotics and space exploration.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "The bounding boxes are blue.",
+        "question": "What color are the bounding boxes used for the Space Lander in the initial object detection demonstration?"
+      },
+      {
+        "answer": "The electronics of the Space Rover are exposed.",
+        "question": "What modification is made to the Space Rover to introduce uncertainty?"
+      },
+      {
+        "answer": "Mixture of Gaussian Process Experts (GP Experts).",
+        "question": "What is the name given to the variant of scalable Gaussian processes used for uncertainty estimation?"
+      },
+      {
+        "answer": "Orange concentric circles surrounding the detected object. Larger circles represent higher uncertainty.",
+        "question": "How is the uncertainty about the object's location visually represented in the drone camera feed?"
+      },
+      {
+        "answer": "The video starts with curiosity, progresses through confusion and anxiety, and culminates in excitement and pride, showcasing a journey of problem-solving and innovation.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Aerial Robot takes off",
+            "timestamp": {
+              "end_timestamp": "00:00:09.009",
+              "start_timestamp": "00:00:09.009"
+            }
+          },
+          {
+            "description": "Scene transitions to a volcanic landscape featuring Space Rover and Space Lander",
+            "timestamp": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:15.015"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Aerial Robot",
+          "Space Rover",
+          "Space Lander"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Aerial Robot",
+              "Space Rover",
+              "Space Lander"
+            ],
+            "description": "Sets the stage with the main robotic entities engaged in space exploration."
+          }
+        ],
+        "contextualRelevance": "Connects deep neural networks to practical space exploration challenges, emphasizing safety.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious transitioning to Excited",
+          "keyMoments": [
+            {
+              "changeDescription": "Curious to Excited",
+              "timestamp": "00:00:16.984"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the concept of using deep neural networks for safety-critical applications in space exploration.",
+            "timestamp": "00:00:09.009"
+          },
+          {
+            "description": "Highlights the importance of uncertainty estimation.",
+            "timestamp": "00:00:15.015"
+          }
+        ],
+        "props": [
+          {
+            "name": "Parking lot",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Cars",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Drone",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Volcanic landscape",
+            "timestamp": {
+              "end_timestamp": "00:00:16.984",
+              "start_timestamp": "00:00:16.984"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Safety-critical applications, deep neural networks, uncertainty estimation, space exploration",
+        "timestamps": {
+          "end_timestamp": "00:00:17.284",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "DLR logo animation with transforming geometric shape",
+            "timestamps": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Fade to black transition",
+            "timestamps": {
+              "end_timestamp": "00:00:03.003",
+              "start_timestamp": "00:00:03.003"
+            }
+          },
+          {
+            "description": "Title card with text overlay",
+            "timestamps": {
+              "end_timestamp": "00:00:09.009",
+              "start_timestamp": "00:00:09.009"
+            }
+          },
+          {
+            "description": "Fade transition to a volcanic landscape",
+            "timestamps": {
+              "end_timestamp": "00:00:16.984",
+              "start_timestamp": "00:00:16.984"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "An animated diagram showcases the drone's task of classifying and locating the Space Rover and Space Lander",
+            "timestamp": {
+              "end_timestamp": "00:00:24.992",
+              "start_timestamp": "00:00:24.992"
+            }
+          },
+          {
+            "description": "The drone's camera feed shows its object detection capabilities, identifying the Space Rover and Space Lander",
+            "timestamp": {
+              "end_timestamp": "00:00:34.001",
+              "start_timestamp": "00:00:34.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Aerial Robot",
+          "Space Rover",
+          "Space Lander"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Aerial Robot"
+            ],
+            "description": "Performs object detection task."
+          }
+        ],
+        "contextualRelevance": "Highlights object detection accuracy in controlled conditions.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Indifferent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces a specific example of object detection using deep neural networks.",
+            "timestamp": "00:00:24.992"
+          },
+          {
+            "description": "Demonstrates the accuracy of existing methods in ideal conditions.",
+            "timestamp": "00:00:34.001"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated diagram",
+            "timestamp": {
+              "end_timestamp": "00:00:24.992",
+              "start_timestamp": "00:00:24.992"
+            }
+          },
+          {
+            "name": "Drone camera feed",
+            "timestamp": {
+              "end_timestamp": "00:00:34.001",
+              "start_timestamp": "00:00:34.001"
+            }
+          },
+          {
+            "name": "Laboratory environment",
+            "timestamp": {
+              "end_timestamp": "00:00:17.985",
+              "start_timestamp": "00:00:17.985"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Object detection, deep neural networks, accuracy, certainty",
+        "timestamps": {
+          "end_timestamp": "00:00:47.581",
+          "start_timestamp": "00:00:17.317"
+        },
+        "title": "Object Detection Task",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay explaining the task",
+            "timestamps": {
+              "end_timestamp": "00:00:17.985",
+              "start_timestamp": "00:00:17.985"
+            }
+          },
+          {
+            "description": "Animated diagram with a blue cone representing the drone's field of view",
+            "timestamps": {
+              "end_timestamp": "00:00:24.992",
+              "start_timestamp": "00:00:24.992"
+            }
+          },
+          {
+            "description": "Transition to drone camera feed",
+            "timestamps": {
+              "end_timestamp": "00:00:34.001",
+              "start_timestamp": "00:00:34.001"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Images demonstrate modified Space Rover and Space Lander configurations",
+            "timestamp": {
+              "end_timestamp": "00:00:48.015",
+              "start_timestamp": "00:00:48.015"
+            }
+          },
+          {
+            "description": "Drone camera feed shows object detector failing to classify Space Lander",
+            "timestamp": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:01:08.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Aerial Robot",
+          "Space Rover",
+          "Space Lander"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Demonstrates challenges with uncertainty estimation under distribution shifts.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Confused transitioning to Anxious",
+          "keyMoments": [
+            {
+              "changeDescription": "Confused to Anxious",
+              "timestamp": "00:01:08.001"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents a challenging scenario in uncertainty estimation where object detector fails.",
+            "timestamp": "00:00:48.015"
+          },
+          {
+            "description": "Emphasizes overconfidence issue with high-certainty incorrect predictions.",
+            "timestamp": "00:01:08.001"
+          }
+        ],
+        "props": [
+          {
+            "name": "Images of modified Space Rover and Space Lander",
+            "timestamp": {
+              "end_timestamp": "00:00:48.015",
+              "start_timestamp": "00:00:48.015"
+            }
+          },
+          {
+            "name": "Drone camera feed",
+            "timestamp": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:01:08.001"
+            }
+          },
+          {
+            "name": "Laboratory environment",
+            "timestamp": {
+              "end_timestamp": "00:00:48.015",
+              "start_timestamp": "00:00:48.015"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Uncertainty estimation, object detector failure, overconfidence, distribution shift, safety risks",
+        "timestamps": {
+          "end_timestamp": "00:01:30.958",
+          "start_timestamp": "00:00:47.614"
+        },
+        "title": "Introducing Uncertainty",
+        "videoEditingDetails": [
+          {
+            "description": "Text overlay explaining the modified scenario",
+            "timestamps": {
+              "end_timestamp": "00:00:48.015",
+              "start_timestamp": "00:00:48.015"
+            }
+          },
+          {
+            "description": "Transition to drone camera feed with object detector errors",
+            "timestamps": {
+              "end_timestamp": "00:01:08.001",
+              "start_timestamp": "00:01:08.001"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Introduces a novel approach to addressing uncertainty estimation challenges.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents the proposed solution for uncertainty estimation using scalable Gaussian processes and deep neural networks.",
+            "timestamp": "00:01:30.991"
+          }
+        ],
+        "props": [
+          {
+            "name": "Diagram of proposed predictive model",
+            "timestamp": {
+              "end_timestamp": "00:01:30.991",
+              "start_timestamp": "00:01:30.991"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Uncertainty estimation, scalable Gaussian processes, deep neural networks, speed, accuracy",
+        "timestamps": {
+          "end_timestamp": "00:02:54.975",
+          "start_timestamp": "00:01:30.991"
+        },
+        "title": "Proposed Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to static image showcasing the proposed predictive model",
+            "timestamps": {
+              "end_timestamp": "00:01:30.991",
+              "start_timestamp": "00:01:30.991"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Drone explores the laboratory, classifying Space Rover and Space Lander in modified configurations",
+            "timestamp": {
+              "end_timestamp": "00:02:55.008",
+              "start_timestamp": "00:02:55.008"
+            }
+          },
+          {
+            "description": "Drone camera displays accurate object detection and uncertainty estimates",
+            "timestamp": {
+              "end_timestamp": "00:03:30.010",
+              "start_timestamp": "00:03:30.010"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Aerial Robot",
+          "Space Rover",
+          "Space Lander"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Aerial Robot"
+            ],
+            "description": "Demonstrating object detection with uncertainty estimation."
+          }
+        ],
+        "contextualRelevance": "Validates the proposed method's effectiveness in practical environments.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited transitioning to Proud",
+          "keyMoments": [
+            {
+              "changeDescription": "Excited to Proud",
+              "timestamp": "00:03:30.010"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Shows effectiveness of the proposed method in real-world scenarios.",
+            "timestamp": "00:02:55.008"
+          },
+          {
+            "description": "Highlights correction of overconfidence and accurate uncertainty estimates.",
+            "timestamp": "00:03:30.010"
+          }
+        ],
+        "props": [
+          {
+            "name": "Drone camera feed",
+            "timestamp": {
+              "end_timestamp": "00:02:55.008",
+              "start_timestamp": "00:02:55.008"
+            }
+          },
+          {
+            "name": "Laboratory environment with modified configurations",
+            "timestamp": {
+              "end_timestamp": "00:02:55.008",
+              "start_timestamp": "00:02:55.008"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Real-world implementation, uncertainty estimation, overconfidence correction, aerial robot",
+        "timestamps": {
+          "end_timestamp": "00:05:00.534",
+          "start_timestamp": "00:02:55.008"
+        },
+        "title": "Robot Demonstration",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to drone camera feed showing real-world implementation",
+            "timestamps": {
+              "end_timestamp": "00:02:55.008",
+              "start_timestamp": "00:02:55.008"
+            }
+          },
+          {
+            "description": "'Post-processed offline' text indicating results are not real-time",
+            "timestamps": {
+              "end_timestamp": "00:03:18.999",
+              "start_timestamp": "00:03:18.999"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Successful demonstration of the proposed method with accurate uncertainty estimates using the aerial robot.",
+        "timestamp": "00:03:30.010"
+      },
+      "description": "The video illustrates the journey of addressing uncertainty estimation in deep learning for robotic systems.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "DLR Robotics and Predictive Uncertainty Estimation",
+    "trimmingSuggestions": [
+      {
+        "description": "The extended drone camera feed demonstrating 100% certainty could be shortened.",
+        "timestamps": {
+          "end_timestamp": "00:02:55.008",
+          "start_timestamp": "00:02:55.008"
+        }
+      },
+      {
+        "description": "The static diagram explaining the proposed method could use animations to highlight key points.",
+        "timestamps": {
+          "end_timestamp": "00:02:55.008",
+          "start_timestamp": "00:02:55.008"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 301,
+  "original_json_filename": "vu2TnDEqDRk.json",
+  "original_video_filename": "vu2TnDEqDRk.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] imagine deploying deep neural networks for safety critical applications such as autonomous driving or space robotics for planetary exploration for these applications it is crucial to estimate well-calibrated uncertainty but it is hard to do so with deep neural networks as an example consider a task for a drone which is to classify and locate two objects in an image the objects are a space rover and a spacelander we show the real-world performance of the standard state-of-the-art 2d object detector for this task using deep neural networks as you can see in the video it detects the objects successfully with 100 certainty now let us change the evaluation scenario by modifying the configurations of the objects instead of the normal space rover we expose the electronics also we put the solar panels of the lander up the trained object detector has never seen such configurations of the objects therefore the natural answer should be i do not know in this new evaluation scenario we see that the object detector fails this is expected as we have violated the assumption that the training data and the testing data should come from the same distribution here the more important problem is the issue of overconfidence the neural network wrongly predicts with very high confidence whenever the predictions are wrong the confidence should also be low and vice versa this problem of uncertainty estimation and deep learning is what we address in this work with a focus on being faster and accurate our main idea is to perform uncertainty predictions with scalable gaussian processes and deep neural networks we illustrate the proposed predictive model here to explain our approach has a deep neural network module that computes a single most likely prediction for a given input we also have an uncertainty estimation module that is comprised of a variant of scalable gaussian processes called mixtures of gaussian process experts or gp experts the mixtures of experts model has a gating function and gp experts the role of gating function is to partition the input data and assign it to an expert or learner then the assigned expert learn and make uncertainty predictions on this partition data here each gp experts uses the jacobian of deep neural networks to estimate the network's uncertainty the main advantage is that we inherit the benefits of deep neural networks for the predictions and gaussian processes for uncertainty estimates which is a widely known golden standard for probabilistic machine learning importantly our approach does not require combining multiple predictions of neural networks as opposed to many existing methods such as deep ensembles and bayesian neural networks and so it can be fast and accurate in our paper we theoretically show how deep neural networks and mixtures of gp experts are connected and demonstrate practical ways to exploit the derived duality between these two models in practice now we revisit the problem of overconfidence and show that we can obtain well-calibrated uncertainty estimates to this end we show the first integration of our method to an aerial robot for the results we see that our method confidently classifies the known configurations of the objects we see that our method largely corrects the overconfidence of the object detector and also computes the uncertainty about their locations [Music] you",
+  "text_to_speech_word_count": 550,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:14.314",
+      "start": "00:00:00.000",
+      "text": " Imagine deploying deep neural networks for safety critical applications, such as autonomous"
+    },
+    {
+      "end": "00:00:18.051",
+      "start": "00:00:14.314",
+      "text": " driving or space robotics for planetary exploration."
+    },
+    {
+      "end": "00:00:23.023",
+      "start": "00:00:18.051",
+      "text": " For these applications, it is crucial to estimate well-calibrated uncertainty, but it is hard"
+    },
+    {
+      "end": "00:00:25.692",
+      "start": "00:00:23.023",
+      "text": " to do so with deep neural networks."
+    },
+    {
+      "end": "00:00:30.397",
+      "start": "00:00:25.692",
+      "text": " As an example, consider a task for a drone which is to classify and locate two objects"
+    },
+    {
+      "end": "00:00:31.698",
+      "start": "00:00:30.397",
+      "text": " in an image."
+    },
+    {
+      "end": "00:00:34.735",
+      "start": "00:00:31.698",
+      "text": " The objects are a space rover and a space lander."
+    },
+    {
+      "end": "00:00:39.139",
+      "start": "00:00:34.735",
+      "text": " We show the real world performance of the standard state of the R2D object detector for this"
+    },
+    {
+      "end": "00:00:42.276",
+      "start": "00:00:39.139",
+      "text": " task, using deep neural networks."
+    },
+    {
+      "end": "00:00:47.748",
+      "start": "00:00:42.276",
+      "text": " As you can see in the video, it detects the objects successfully with 100% certainty."
+    },
+    {
+      "end": "00:00:52.953",
+      "start": "00:00:47.748",
+      "text": " Now let us change the evaluation scenario by modifying the configurations of the objects."
+    },
+    {
+      "end": "00:00:56.757",
+      "start": "00:00:52.953",
+      "text": " Instead of the normal space rover, we expose the electronics."
+    },
+    {
+      "end": "00:01:00.060",
+      "start": "00:00:56.757",
+      "text": " Also, we put the solar panels of the lander up."
+    },
+    {
+      "end": "00:01:04.464",
+      "start": "00:01:00.060",
+      "text": " The trained object detector has never seen such configurations of the objects."
+    },
+    {
+      "end": "00:01:07.901",
+      "start": "00:01:04.464",
+      "text": " Therefore, the natural answer should be, I do not know."
+    },
+    {
+      "end": "00:01:12.739",
+      "start": "00:01:07.901",
+      "text": " In this new evaluation scenario, we see that the object detector fails."
+    },
+    {
+      "end": "00:01:16.910",
+      "start": "00:01:12.739",
+      "text": " This is expected as we have violated the assumption that the training data and the testing data"
+    },
+    {
+      "end": "00:01:19.212",
+      "start": "00:01:16.910",
+      "text": " should come from the same distribution."
+    },
+    {
+      "end": "00:01:23.216",
+      "start": "00:01:19.212",
+      "text": " Here, the more important problem is the issue of overconfidence."
+    },
+    {
+      "end": "00:01:26.787",
+      "start": "00:01:23.216",
+      "text": " The neural network wrongly predicts with very high confidence."
+    },
+    {
+      "end": "00:01:31.959",
+      "start": "00:01:26.787",
+      "text": " Whenever the predictions are wrong, the confidence should also be low and vice versa."
+    },
+    {
+      "end": "00:01:36.129",
+      "start": "00:01:31.959",
+      "text": " This problem of uncertainty estimation and deep learning is what we address in this work,"
+    },
+    {
+      "end": "00:01:38.532",
+      "start": "00:01:36.129",
+      "text": " with a focus on being faster and accurate."
+    },
+    {
+      "end": "00:01:44.104",
+      "start": "00:01:38.532",
+      "text": " Our main idea is, to perform uncertainty predictions, with scalable Gaussian processes,"
+    },
+    {
+      "end": "00:01:45.839",
+      "start": "00:01:44.104",
+      "text": " and deep neural networks."
+    },
+    {
+      "end": "00:01:48.909",
+      "start": "00:01:45.839",
+      "text": " We illustrate the proposed predictive model here."
+    },
+    {
+      "end": "00:01:53.947",
+      "start": "00:01:48.909",
+      "text": " To explain, our approach has a deep neural network module, that computes a single, most"
+    },
+    {
+      "end": "00:01:56.783",
+      "start": "00:01:53.947",
+      "text": " likely prediction, for a given input."
+    },
+    {
+      "end": "00:02:01.188",
+      "start": "00:01:56.783",
+      "text": " We also have an uncertainty estimation module, that is comprised of a variant of scalable"
+    },
+    {
+      "end": "00:02:07.060",
+      "start": "00:02:01.188",
+      "text": " Gaussian processes, called mixtures of Gaussian process experts, or GP experts."
+    },
+    {
+      "end": "00:02:11.498",
+      "start": "00:02:07.060",
+      "text": " The mixtures of experts model has a gating function, and GP experts."
+    },
+    {
+      "end": "00:02:15.969",
+      "start": "00:02:11.498",
+      "text": " The role of gating function is, to partition the input data, and assign it to an expert"
+    },
+    {
+      "end": "00:02:16.970",
+      "start": "00:02:15.969",
+      "text": " or learner."
+    },
+    {
+      "end": "00:02:21.708",
+      "start": "00:02:16.970",
+      "text": " Then, the assigned expert learn and make uncertainty predictions on this partition data."
+    },
+    {
+      "end": "00:02:27.114",
+      "start": "00:02:21.708",
+      "text": " Here, each GP expert uses the Jacobian of deep neural networks, to estimate the network's"
+    },
+    {
+      "end": "00:02:28.548",
+      "start": "00:02:27.114",
+      "text": " uncertainty."
+    },
+    {
+      "end": "00:02:33.387",
+      "start": "00:02:28.548",
+      "text": " The main advantages, that we inherit the benefits of deep neural networks for the predictions,"
+    },
+    {
+      "end": "00:02:38.492",
+      "start": "00:02:33.387",
+      "text": " and Gaussian processes for uncertainty estimates, which is a widely known, golden standard for"
+    },
+    {
+      "end": "00:02:40.794",
+      "start": "00:02:38.492",
+      "text": " probabilistic machine learning."
+    },
+    {
+      "end": "00:02:46.099",
+      "start": "00:02:40.794",
+      "text": " Importantly, our approach does not require, combining multiple predictions of neural networks,"
+    },
+    {
+      "end": "00:02:51.438",
+      "start": "00:02:46.099",
+      "text": " as opposed to many existing methods, such as deep ensembles, and Bayesian neural networks,"
+    },
+    {
+      "end": "00:02:53.974",
+      "start": "00:02:51.438",
+      "text": " and so, it can be fast and accurate."
+    },
+    {
+      "end": "00:02:59.012",
+      "start": "00:02:53.974",
+      "text": " In our paper, we theoretically show how deep neural networks, and mixtures of GP experts"
+    },
+    {
+      "end": "00:03:03.750",
+      "start": "00:02:59.012",
+      "text": " are connected, and demonstrate practical ways, to exploit the derived duality between"
+    },
+    {
+      "end": "00:03:05.552",
+      "start": "00:03:03.750",
+      "text": " these two models in practice."
+    },
+    {
+      "end": "00:03:10.857",
+      "start": "00:03:05.552",
+      "text": " Now, we revisit the problem of overconfidence, and show that we can obtain well calibrated"
+    },
+    {
+      "end": "00:03:12.592",
+      "start": "00:03:10.857",
+      "text": " uncertainty estimates."
+    },
+    {
+      "end": "00:03:19.666",
+      "start": "00:03:12.592",
+      "text": " To this end, we show the first integration of our method to an aerial robot."
+    },
+    {
+      "end": "00:03:24.171",
+      "start": "00:03:19.666",
+      "text": " For the results, we see that our method confidently classifies the known configurations of"
+    },
+    {
+      "end": "00:03:30.710",
+      "start": "00:03:24.171",
+      "text": " the objects."
+    },
+    {
+      "end": "00:03:35.248",
+      "start": "00:03:30.710",
+      "text": " We see that our method largely corrects, the overconfidence of the object detector, and"
+    },
+    {
+      "end": "00:03:37.951",
+      "start": "00:03:35.248",
+      "text": " also computes the uncertainty about their locations."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "DLR RM",
+  "youtube_channel_follower_count": 5330,
+  "youtube_comment_count": 0,
+  "youtube_description": "This video presents an uncertainty estimation algorithm for planetary exploration aerial robots - ARDEA. The robot detects rovers and landers semantically. The key technology behind is a sparse Gaussian Processes with the Neural Tangent Kernel, which provides fast and reliable uncertainty estimates for neural networks. An in-depth discussion of the presented results is provided in the paper \"Trust Your Robots! Predictive Uncertainty Estimation of Neural Networks with Sparse Gaussian Processes\" at the 5th Conference on Robot Learning (CoRL) 2021.\n\n\nDLR (CC-BY 3.0)",
+  "youtube_like_count": 27,
+  "youtube_tags": [
+    "DLR;",
+    "Deutsches",
+    "Zentrum",
+    "für",
+    "Luft-",
+    "und",
+    "Raumfahrt;",
+    "robotics;",
+    "robots",
+    "Artificial Intelligence",
+    "Robot Perception",
+    "Introspection",
+    "Deep Learning"
+  ],
+  "youtube_title": "Predictive Uncertainty Estimation of Neural Networks with Sparse Gaussian Processes",
+  "youtube_upload_date": "20211027",
+  "youtube_view_count": 991
+}

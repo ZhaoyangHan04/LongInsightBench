@@ -1,0 +1,902 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with dark skin and short black hair, wearing a blue and white checked shirt and black trousers. He demonstrates the steps for installing Android Pie on a device.",
+        "name": "Man"
+      }
+    ],
+    "description": "A tutorial video demonstrating the steps to install Android 9.0 Pie on Treble enabled devices using Project Treble.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The app is called \"Treble Check.\"",
+        "question": "What app is used to verify if the phone supports Project Treble?"
+      },
+      {
+        "answer": "TWRP (Team Win Recovery Project)",
+        "question": "Which custom recovery is recommended in the video?"
+      },
+      {
+        "answer": "Mokee ROM. It is used as a base because it has built-in Project Treble support and supports most of the devices that support Project Treble.",
+        "question": "What is the base ROM used in the video? Why?"
+      },
+      {
+        "answer": "They are installed separately to fix potential issues with Google apps and camera functionality after the initial installation of Android Pie. This ensures the ROM becomes suitable for daily use.",
+        "question": "Why are Google Play Services and Camera APKs installed separately?"
+      },
+      {
+        "answer": "The video encourages viewers to leave a comment describing their issue so the creator can offer assistance.",
+        "question": "What does the video suggest doing if you encounter any issues during the procedure?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Animated introduction showcasing a mobile phone, animated text \"INSTALL ANDROID 9.0 PIE ON TREBLE DEVICES\", and the xtream droid logo.",
+            "timestamp": {
+              "end_timestamp": "00:00:58.640",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Sets the context for the whole tutorial and prepares the audience for the technical content to follow.",
+        "dynamismScore": 1.0,
+        "mood": {
+          "description": "Excited. The fast-paced animation, upbeat music, and promise of installing the latest Android version create a feeling of anticipation and excitement.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene serves as an introduction, setting the stage for the tutorial on installing Android Pie on Treble devices.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Mobile phone",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Text \"INSTALL ANDROID 9.0 PIE ON TREBLE DEVICES\"",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "xtream droid logo",
+            "timestamp": {
+              "end_timestamp": "00:00:58.640",
+              "start_timestamp": "00:00:58.640"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Technology, Innovation",
+        "timestamps": {
+          "end_timestamp": "00:00:58.640",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction Animation",
+        "videoEditingDetails": [
+          {
+            "description": "Fast-paced, dynamic animation with quick cuts and transitions.",
+            "timestamps": {
+              "end_timestamp": "00:00:58.640",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Man explains Project Treble and its benefits.",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          },
+          {
+            "description": "Man lists the pre-requisites for installing Android Pie on Treble devices.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:01:29.000"
+            }
+          },
+          {
+            "description": "Man explains how to check device partitions using the Terminal Emulator app.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          },
+          {
+            "description": "Man lists the required files for installation.",
+            "timestamp": {
+              "end_timestamp": "00:03:06.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Man"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Gives crucial insights and background information needed to proceed with the installation process.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative and Curious. The scene conveys information about Project Treble, installation prerequisites, and required files, prompting curiosity in the viewer to learn more about the process.",
+          "keyMoments": [
+            {
+              "changeDescription": "The visuals transition from a close-up of the mobile phone to a computer screen showing a list of supported devices, enhancing the informative mood and raising curiosity about the viewer's own device.",
+              "timestamp": "00:01:45.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene provides the necessary context and information for understanding the installation process.",
+            "timestamp": "00:01:06.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Mobile phone (showing Android Pie logo)",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          },
+          {
+            "name": "Mobile phone (showing Treble Check app)",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:30.000"
+            }
+          },
+          {
+            "name": "Laptop",
+            "timestamp": {
+              "end_timestamp": "00:01:29.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "name": "Mobile phone (showing TWRP recovery)",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "name": "Mobile phone (showing Terminal Emulator app)",
+            "timestamp": {
+              "end_timestamp": "00:02:29.000",
+              "start_timestamp": "00:02:29.000"
+            }
+          },
+          {
+            "name": "Computer screen (showing list of supported devices)",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:45.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Information, Technology",
+        "timestamps": {
+          "end_timestamp": "00:03:06.560",
+          "start_timestamp": "00:00:58.680"
+        },
+        "title": "Understanding Project Treble and Pre-requisites",
+        "videoEditingDetails": [
+          {
+            "description": "Moderate pace with smooth transitions between shots.",
+            "timestamps": {
+              "end_timestamp": "00:03:06.000",
+              "start_timestamp": "00:01:06.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Man demonstrates the installation process step-by-step.",
+            "timestamp": {
+              "end_timestamp": "00:05:45.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          },
+          {
+            "description": "Man shows the final result of the installation.",
+            "timestamp": {
+              "end_timestamp": "00:05:57.000",
+              "start_timestamp": "00:05:45.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Man"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "This part visually guides viewers through each step, enabling them to perform the installation themselves.",
+        "dynamismScore": 0.9,
+        "mood": {
+          "description": "Focused and Proud. The scene guides the viewer through the installation process, showcasing each step meticulously, creating a focused atmosphere. The successful installation of Android Pie evokes a sense of accomplishment and pride.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This is the climax of the tutorial, demonstrating the actual process of installing Android Pie on a Treble device.",
+            "timestamp": "00:03:07.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Mobile phone",
+            "timestamp": {
+              "end_timestamp": "00:05:57.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          },
+          {
+            "name": "Computer screen",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:03:35.000"
+            }
+          },
+          {
+            "name": "USB cable",
+            "timestamp": {
+              "end_timestamp": "00:03:40.000",
+              "start_timestamp": "00:03:33.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Technology, Achievement",
+        "timestamps": {
+          "end_timestamp": "00:05:58.120",
+          "start_timestamp": "00:03:06.600"
+        },
+        "title": "Step-by-Step Installation Process",
+        "videoEditingDetails": [
+          {
+            "description": "Fast-paced, action-oriented with quick cuts highlighting each step.",
+            "timestamps": {
+              "end_timestamp": "00:05:57.000",
+              "start_timestamp": "00:03:07.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Outro animation displaying the xtream droid logo.",
+            "timestamp": {
+              "end_timestamp": "00:06:02.000",
+              "start_timestamp": "00:05:58.160"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Gives a final touch to the tutorial, creating an avenue for further engagement with the content.",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral. The outro provides a clean and simple ending to the video.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The outro concludes the tutorial, leaving the viewer with a sense of completion and inviting them to explore more content from the channel.",
+            "timestamp": "00:05:58.160"
+          }
+        ],
+        "props": [
+          {
+            "name": "xtream droid logo",
+            "timestamp": {
+              "end_timestamp": "00:06:02.000",
+              "start_timestamp": "00:05:58.160"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Completion, Invitation",
+        "timestamps": {
+          "end_timestamp": "00:06:03.120",
+          "start_timestamp": "00:05:58.160"
+        },
+        "title": "Outro Animation",
+        "videoEditingDetails": [
+          {
+            "description": "Brief outro animation with a fading transition.",
+            "timestamps": {
+              "end_timestamp": "00:06:02.000",
+              "start_timestamp": "00:05:58.160"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 3 shows the actual installation process, showcasing the peak of action and achievement.",
+        "timestamp": "00:03:07.000"
+      },
+      "description": "The video adopts a narrative structure, guiding the viewer step-by-step through the process of installing Android Pie, much like a story with a beginning, rising action, climax, and resolution.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Installing Android Pie on Treble Devices",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial animation in Scene 1 could be shortened to make the intro more concise and dynamic.",
+        "timestamps": {
+          "end_timestamp": "00:05:58.160",
+          "start_timestamp": "00:05:58.160"
+        }
+      },
+      {
+        "description": "The segment showcasing the list of supported devices in Scene 2 could be omitted. The information could be provided in the description instead, focusing the video on the installation process.",
+        "timestamps": {
+          "end_timestamp": "00:05:58.160",
+          "start_timestamp": "00:05:58.160"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 363,
+  "original_json_filename": "rsowKDZzxoo.json",
+  "original_video_filename": "rsowKDZzxoo.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[Music] project rebel was released back in 2017 along with Android Oreo it is certainly one of the most significant low level change in the OS the idea behind the newly architecture is to separate android framework from the vendor implementation thus enabling faster software updates for supported devices it is also the reason why several OEM devices became the first non Google phone to receive Android Pi Developer Preview and if your device also supports project rebel officially or unofficially then you can also try latest Android Pi on your Android devices but before we get started to the actual process the very first thing that you should keep in mind that the process is little bit different from installing a custom ROM so if it suggests you to follow their steps as shown in the video and don't skip any step so in this video I'll be showing a step by step guide to install Android 9.0 Pi on any trouble enabled Android device excited so let's get started [Music] the prerequisites are first your Android device should have official or an official tribal support if you are not sure that your device supports tribal or not then you can use this trouble check app to confirm that second you should have a lock bootloader with a custom recovery installed like t WRP if you don't know how to install a t WRP recovery then i have made a separate video on that using which you can easily install TW RP recovery I'll be linking that video in the description down below so do check out third make a full backup of your device since you have to fully wipe your internal storage fourth your battery should be at least 60% charged as of now these are the officially supported devices there are also some devices that are unofficially supported I will keep updating the list of the supported devices in the description down below so if your device is in the list then you're good to go next step is to find what's your device partition now basically there are two types of device partition in Android system one is a only and another is a B partition now I don't want to go in-depth regarding how they are different but in order to install Android PI on your Android device you must know your device partition so to check your partition download an app called terminal emulator for Android and type this command if this will return true the device supports dual partition which is a B partition if not it means your device has a only partitions the next step is to download the required files and these are the files that you will be needing first Android by generic system image file according to your partition meaning if your device supports a only partition then download a only gsi file and the same goes for a b partition second post gsi one two and three zip files third mochi rom zip file which we will be using as a base rom as it has full trouble support built-in and mock Iran supports most of the devices that supports project rebel fourth Google Play services apk to fix C apps after the device boots up now let's begin the actual procedure of ROM installation bar of your device and boot your device into T WRP recovery by using the specific combination which includes power and volume once you have successfully booted into T WRP Recovery click on vibe and format data now type years to format the data now at this point if you haven't backup your data then it will be erased so it's better to make a full backup once then go back and reboot your device to recovery now connect your device to PC via USB cable and transfer only the Maquis ROM to the internal storage of your device once done click on install and flash the maquis rom zip file it will take like two to three minutes to flash the ROM after that is done reboot your device here we are installing Maki ROM as a base ROM as it has built-in project rebel support now go through the initial setup once you boot to the home screen of Maki ROM now again boot a device into twip recovery and transfer the remaining files that is Android PI GSI image post gsi one two three and Google Play services apk file make sure you have extracted the Android by gsi image from the zip file once all the files are transferred click on vibe and swipe this blue button to right in order to wipe the system partitions now go back and click on mount and select vendor once then again go back and click install then select install image and navigate the Android by gsi file and select it now click on system image and swipe this blue button to right it will take only two minute to flash the gsi file once that is done go back and again click on install and flash the post ESI files in order meaning first you have to flash post ESI one then post ESI two and the three make sure to flash post ESI files in order otherwise your device may get braked so now you're almost done just reboot your device and it will take around five minutes to boot your device so there you have it guys I have tried my best to make this guide as simple as I can so anyone with no past experience of flashing roms can follow this method to install Android PI on any tribal enabled devices I have been using Android PI on my one plus five from last two days and I am really impressed with the stability everything is working just fine I didn't face any issue or bug whatsoever if you followed everything accordingly then you should have the latest Android pie on your device in all its glory once you boot up into the system set everything up avoid any forced closes or error message and proceed to install Play services and camera apk to make the ROM a daily driver if you had any issue regarding the procedure it is down in the comments down below I'd be glad to assist you so that's it for this video I hope you guys liked it and if you do then to consider subscribing and hit the bell icon so that you'll never miss any future videos from extreme droid so this is some beer signing off and I'll see you guys in my next one [Music]",
+  "text_to_speech_word_count": 1120,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.960",
+      "start": "00:00:00.000",
+      "text": " Project Trouble was released back in 2017 along with Android Oreo."
+    },
+    {
+      "end": "00:00:12.640",
+      "start": "00:00:08.960",
+      "text": " It is certainly one of the most significant low-level change in the OS."
+    },
+    {
+      "end": "00:00:16.680",
+      "start": "00:00:12.640",
+      "text": " The idea behind the new re-architecture is to separate Android Framework from the vendor"
+    },
+    {
+      "end": "00:00:21.640",
+      "start": "00:00:16.680",
+      "text": " implementation, thus enabling faster software updates for supported devices."
+    },
+    {
+      "end": "00:00:26.320",
+      "start": "00:00:21.640",
+      "text": " It is also the reason why several OEM devices became the first non-Google phone to receive"
+    },
+    {
+      "end": "00:00:28.240",
+      "start": "00:00:26.320",
+      "text": " Android Pie developer preview."
+    },
+    {
+      "end": "00:00:32.400",
+      "start": "00:00:28.240",
+      "text": " And if your device also supports Project Trouble officially or unofficially, then you can"
+    },
+    {
+      "end": "00:00:35.560",
+      "start": "00:00:32.400",
+      "text": " also try latest Android Pie on your Android devices."
+    },
+    {
+      "end": "00:00:39.120",
+      "start": "00:00:35.560",
+      "text": " But before we get started to the actual process, the very first thing that you should"
+    },
+    {
+      "end": "00:00:43.640",
+      "start": "00:00:39.120",
+      "text": " keep in mind that the process is little bit different from installing a custom ROM."
+    },
+    {
+      "end": "00:00:47.600",
+      "start": "00:00:43.640",
+      "text": " So I would suggest you to follow their steps as shown in the video and don't skip any"
+    },
+    {
+      "end": "00:00:48.600",
+      "start": "00:00:47.600",
+      "text": " step."
+    },
+    {
+      "end": "00:00:54.120",
+      "start": "00:00:48.600",
+      "text": " So, in this video, I'll be showing a step-by-step guide to install Android 9.0 Pie on any"
+    },
+    {
+      "end": "00:00:56.440",
+      "start": "00:00:54.120",
+      "text": " triple enabled Android device."
+    },
+    {
+      "end": "00:00:57.440",
+      "start": "00:00:56.440",
+      "text": " Excited?"
+    },
+    {
+      "end": "00:01:07.000",
+      "start": "00:00:57.440",
+      "text": " So let's get started."
+    },
+    {
+      "end": "00:01:11.640",
+      "start": "00:01:07.000",
+      "text": " The prerequisites are, first, your Android device should have official or unofficial"
+    },
+    {
+      "end": "00:01:12.640",
+      "start": "00:01:11.640",
+      "text": " triple support."
+    },
+    {
+      "end": "00:01:16.280",
+      "start": "00:01:12.640",
+      "text": " If you are not sure that your device supports treble or not, then you can use this"
+    },
+    {
+      "end": "00:01:19.120",
+      "start": "00:01:16.280",
+      "text": " treble check app to confirm that."
+    },
+    {
+      "end": "00:01:24.600",
+      "start": "00:01:19.680",
+      "text": " Second, you should have unlock bootloader with a custom recovery installed like TWRP."
+    },
+    {
+      "end": "00:01:28.640",
+      "start": "00:01:24.600",
+      "text": " If you don't know how to install a TWRP recovery, then I have made a separate video on"
+    },
+    {
+      "end": "00:01:32.240",
+      "start": "00:01:28.640",
+      "text": " that using which you can easily install TWRP recovery."
+    },
+    {
+      "end": "00:01:36.240",
+      "start": "00:01:32.240",
+      "text": " I'll be linking that video in the description down below, so do check out."
+    },
+    {
+      "end": "00:01:41.280",
+      "start": "00:01:36.240",
+      "text": " Third, make a full backup of your device since you have to fully wipe your internal storage."
+    },
+    {
+      "end": "00:01:45.040",
+      "start": "00:01:41.280",
+      "text": " Fourth, your battery should be at least 60% charged."
+    },
+    {
+      "end": "00:01:48.280",
+      "start": "00:01:45.040",
+      "text": " As of now, these are the officially supported devices."
+    },
+    {
+      "end": "00:01:51.640",
+      "start": "00:01:48.280",
+      "text": " There are also some devices that are unofficial supported."
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:51.640",
+      "text": " I will keep updating the list of the supported devices in the description down below."
+    },
+    {
+      "end": "00:01:59.480",
+      "start": "00:01:56.000",
+      "text": " So if your device is in the list, then you're good to go."
+    },
+    {
+      "end": "00:02:01.640",
+      "start": "00:01:59.480",
+      "text": " Next step is to find what's your device partition."
+    },
+    {
+      "end": "00:02:05.520",
+      "start": "00:02:01.640",
+      "text": " Now, basically, there are two types of device partition in Android system."
+    },
+    {
+      "end": "00:02:08.560",
+      "start": "00:02:05.520",
+      "text": " One is A, only, and another is AB partition."
+    },
+    {
+      "end": "00:02:11.720",
+      "start": "00:02:08.560",
+      "text": " Now I don't want to go in depth regarding how they are different."
+    },
+    {
+      "end": "00:02:15.560",
+      "start": "00:02:11.720",
+      "text": " But in order to install Android Pie on your Android device, you must know your device"
+    },
+    {
+      "end": "00:02:16.880",
+      "start": "00:02:15.560",
+      "text": " partition."
+    },
+    {
+      "end": "00:02:20.840",
+      "start": "00:02:16.880",
+      "text": " Before to check your partition, download an app called Terminal Emulator for Android"
+    },
+    {
+      "end": "00:02:22.240",
+      "start": "00:02:20.840",
+      "text": " and type this command."
+    },
+    {
+      "end": "00:02:26.760",
+      "start": "00:02:22.240",
+      "text": " If this will return true, the device supports 12 partition, which is AB partition."
+    },
+    {
+      "end": "00:02:30.240",
+      "start": "00:02:26.760",
+      "text": " If not, it means your device has A only partitions."
+    },
+    {
+      "end": "00:02:33.880",
+      "start": "00:02:30.240",
+      "text": " The next step is to download the required files, and these are the files that you will"
+    },
+    {
+      "end": "00:02:34.880",
+      "start": "00:02:33.880",
+      "text": " be needing."
+    },
+    {
+      "end": "00:02:38.880",
+      "start": "00:02:34.880",
+      "text": " First, Android Pie generic system image file, according to your partition, meaning if"
+    },
+    {
+      "end": "00:02:43.720",
+      "start": "00:02:38.880",
+      "text": " your device supports A only partition, then download A only GSI file, and the same goes"
+    },
+    {
+      "end": "00:02:45.480",
+      "start": "00:02:43.720",
+      "text": " for AB partition."
+    },
+    {
+      "end": "00:02:48.840",
+      "start": "00:02:45.480",
+      "text": " The second post GSI 1, 2, and 3 zip files."
+    },
+    {
+      "end": "00:02:53.360",
+      "start": "00:02:48.840",
+      "text": " Third, Mochaerom zip file, which we will be using as a base ROM as it has full treble"
+    },
+    {
+      "end": "00:02:57.760",
+      "start": "00:02:53.360",
+      "text": " support built in, and Mochaerom supports most of the devices that supports project"
+    },
+    {
+      "end": "00:02:58.760",
+      "start": "00:02:57.760",
+      "text": " treble."
+    },
+    {
+      "end": "00:03:03.080",
+      "start": "00:02:58.760",
+      "text": " Fourth, Google Play Services APK to fix the apps after the device boots up."
+    },
+    {
+      "end": "00:03:06.920",
+      "start": "00:03:03.080",
+      "text": " Now, let's begin the actual procedure of ROM installation."
+    },
+    {
+      "end": "00:03:11.760",
+      "start": "00:03:06.920",
+      "text": " Power of your device and boot your device into TWR per recovery by using the specific combination"
+    },
+    {
+      "end": "00:03:14.480",
+      "start": "00:03:11.760",
+      "text": " which includes power and volume buttons."
+    },
+    {
+      "end": "00:03:18.720",
+      "start": "00:03:14.480",
+      "text": " Once you have successfully booted into TWR per recovery, click on Wipe, then form it"
+    },
+    {
+      "end": "00:03:22.040",
+      "start": "00:03:18.720",
+      "text": " data, now type years to form it the data."
+    },
+    {
+      "end": "00:03:26.000",
+      "start": "00:03:22.040",
+      "text": " Now at this point, if you haven't backup your data, then it will be erased, so it's"
+    },
+    {
+      "end": "00:03:28.040",
+      "start": "00:03:26.000",
+      "text": " better to make a full backup."
+    },
+    {
+      "end": "00:03:32.280",
+      "start": "00:03:28.040",
+      "text": " Once done, go back and reboot your device to recovery."
+    },
+    {
+      "end": "00:03:36.760",
+      "start": "00:03:32.280",
+      "text": " Now connect your device to PC, where USB cable and transfer only the Mochaerom to the"
+    },
+    {
+      "end": "00:03:40.880",
+      "start": "00:03:36.760",
+      "text": " internal storage of your device."
+    },
+    {
+      "end": "00:03:44.560",
+      "start": "00:03:40.880",
+      "text": " Once done, click on install and flash the Mochaerom zip file."
+    },
+    {
+      "end": "00:03:49.760",
+      "start": "00:03:44.560",
+      "text": " It will take like 2-3 minutes to flash the ROM, after that is done, reboot your device."
+    },
+    {
+      "end": "00:03:54.800",
+      "start": "00:03:49.760",
+      "text": " Here we are installing Mochaerom as a base ROM as it has built in project treble support."
+    },
+    {
+      "end": "00:03:58.600",
+      "start": "00:03:54.800",
+      "text": " Now go through the initial setup, once you boot to the home screen of Mochaerom, now"
+    },
+    {
+      "end": "00:04:03.480",
+      "start": "00:03:58.600",
+      "text": " again boot your device into TWR per recovery and transfer the remaining files, that is Android"
+    },
+    {
+      "end": "00:04:09.440",
+      "start": "00:04:03.480",
+      "text": " Pi GSI image, post GSI 1, 2, 3 and Google Play Services APK file."
+    },
+    {
+      "end": "00:04:14.320",
+      "start": "00:04:09.440",
+      "text": " Make sure you have extracted the Android Pi GSI image from the zip file."
+    },
+    {
+      "end": "00:04:18.120",
+      "start": "00:04:14.320",
+      "text": " Once all the files are transferred, click on wipe and swipe this blue button to write"
+    },
+    {
+      "end": "00:04:21.480",
+      "start": "00:04:18.120",
+      "text": " in order to wipe the system partitions."
+    },
+    {
+      "end": "00:04:24.560",
+      "start": "00:04:21.480",
+      "text": " Now go back and click on mount and select vendor."
+    },
+    {
+      "end": "00:04:29.120",
+      "start": "00:04:24.560",
+      "text": " Once done, again go back and click install, then select install image and navigate the"
+    },
+    {
+      "end": "00:04:34.040",
+      "start": "00:04:29.120",
+      "text": " Android Pi GSI file and select 8, now click on system image and swipe this blue button"
+    },
+    {
+      "end": "00:04:35.240",
+      "start": "00:04:34.040",
+      "text": " to write."
+    },
+    {
+      "end": "00:04:38.680",
+      "start": "00:04:35.240",
+      "text": " It will take only 2 minutes to flash the GSI file."
+    },
+    {
+      "end": "00:04:43.160",
+      "start": "00:04:38.680",
+      "text": " Once that is done, go back and again click on install and flash the post GSI files in"
+    },
+    {
+      "end": "00:04:44.160",
+      "start": "00:04:43.160",
+      "text": " order."
+    },
+    {
+      "end": "00:04:48.840",
+      "start": "00:04:44.160",
+      "text": " Meaning first you have to flash post GSI 1, then post GSI 2 and 3."
+    },
+    {
+      "end": "00:04:54.360",
+      "start": "00:04:48.840",
+      "text": " Make sure to flash post GSI files in order otherwise your device may get bricked."
+    },
+    {
+      "end": "00:04:58.640",
+      "start": "00:04:54.360",
+      "text": " So now here almost done, just reboot your device and it will take around 5 minutes to boot"
+    },
+    {
+      "end": "00:05:00.320",
+      "start": "00:04:58.640",
+      "text": " your device."
+    },
+    {
+      "end": "00:05:05.200",
+      "start": "00:05:00.320",
+      "text": " So there you have it guys, I have tried my best to make this guide as simple as I can,"
+    },
+    {
+      "end": "00:05:09.680",
+      "start": "00:05:05.200",
+      "text": " so anyone with no past experience of flashing ROMs can follow this method to install Android"
+    },
+    {
+      "end": "00:05:12.560",
+      "start": "00:05:09.680",
+      "text": " Pi on any treble enabled devices."
+    },
+    {
+      "end": "00:05:17.240",
+      "start": "00:05:12.560",
+      "text": " I have been using Android Pi on my OnePlus 5 from last 2 days and I am really impressed"
+    },
+    {
+      "end": "00:05:18.920",
+      "start": "00:05:17.240",
+      "text": " with this stability."
+    },
+    {
+      "end": "00:05:23.520",
+      "start": "00:05:18.920",
+      "text": " Everything is working just fine, I didn't face any issue or berg whatsoever."
+    },
+    {
+      "end": "00:05:27.240",
+      "start": "00:05:23.520",
+      "text": " If you followed everything accordingly, then you should have the latest Android Pi on"
+    },
+    {
+      "end": "00:05:29.560",
+      "start": "00:05:27.240",
+      "text": " your device in all its glory."
+    },
+    {
+      "end": "00:05:34.480",
+      "start": "00:05:29.560",
+      "text": " Once you boot up into the system, set everything up, avoid any false closes or error message"
+    },
+    {
+      "end": "00:05:39.520",
+      "start": "00:05:34.480",
+      "text": " and proceed to install play services and camera APK to make the ROM a daily driver."
+    },
+    {
+      "end": "00:05:43.560",
+      "start": "00:05:39.520",
+      "text": " If you had any issue regarding the procedure, hit us down in the comments down below,"
+    },
+    {
+      "end": "00:05:45.840",
+      "start": "00:05:43.560",
+      "text": " or be glad to assist you."
+    },
+    {
+      "end": "00:05:49.760",
+      "start": "00:05:45.840",
+      "text": " So that's it for this video, I hope you guys liked it and if you do, then do consider"
+    },
+    {
+      "end": "00:05:53.720",
+      "start": "00:05:49.760",
+      "text": " subscribing and hit the bell icon so that you never miss any future videos from Extreme"
+    },
+    {
+      "end": "00:05:54.720",
+      "start": "00:05:53.720",
+      "text": " Droid."
+    },
+    {
+      "end": "00:05:58.000",
+      "start": "00:05:54.720",
+      "text": " So this is some of your signing off and I'll see you guys in my next one."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Xtream Droid",
+  "youtube_channel_follower_count": 220000,
+  "youtube_comment_count": 292,
+  "youtube_description": "Install Android 9.0 Pie on Any Treble Enabled Android Device! (FULL GUIDE) #Androidpie #Android9 #google\n\nProject Treble was released back in 2017 along with Android Oreo. It is certainly one of the most significant low-level change in the OS. The idea behind the new re-architecture is to separate the Android Framework from the vendor implementation, thus enabling faster software updates for supported devices. It is also the reason why several OEM devices became the first non-Google phones to receive the Android Pie Developer Preview.\n\n[Required Files]\n\nDownloads - https://androidfilehost.com/?w=files&flid=280192\n\nMokee Rom - https://download.mokeedev.com/?device\n\nGoogle Play Services APK - https://apkdot.com/apk/google-llc/google-play-services/google-play-services-12-8-66-100400-200774163-beta-041/\n\nXDA thread - https://forum.xda-developers.com/project-treble/trebleenabled-device-development/rom-android-p-developer-preview-t3816659\n\nInstall TWRP recovery - https://youtu.be/L8IpN1JpGAk\n\n\nS U B S C R I B E  T O  S U P P O R T :\nhttps://www.youtube.com/channel/UCWsj...\n\nF O L L O W  U S :\n\nFacebook= https://www.facebook.com/XTREAMDROID/\nTwitter= https://twitter.com/XtreamDroid\nYoutube= https://www.youtube.com/channel/UCWsj...\n\n\nC A M E R A  G E A R  &  E Q U I P M E N T S :\n\nCamera - http://amzn.to/2G3ehFu\nMain Mic - http://amzn.to/2ESb78d\nPrimary Lens - http://amzn.to/2G3BYO2\nSecondary Lens - http://amzn.to/2Ez3G8a\nLaptop - http://amzn.to/2nSgWLx\nTripod - http://amzn.to/2H77ax9\n\n\nE D I T I N G   S O F T W A R E :\n\nVideo Editing - Adobe Premier Pro\nPhoto Editing - Adobe Photoshop & Lightroom\nAnimation - Adobe After Effects\nAudio - Adobe Audition",
+  "youtube_like_count": 3018,
+  "youtube_tags": [
+    "Install",
+    "Android",
+    "pie",
+    "9.0",
+    "android p",
+    "android 9.0",
+    "android 9.0 pie",
+    "android pie 9.0",
+    "Any Android Device",
+    "Install Android",
+    "Install Android 9.0",
+    "Install Android 9.0 Pie",
+    "Install Android 9.0 Pie on Any Android Device",
+    "install android p",
+    "how to install android p",
+    "android pie oneplus 6",
+    "android pie redmi",
+    "android pie samsung",
+    "android p xiaomi",
+    "android pie official",
+    "android p install",
+    "google",
+    "redmi",
+    "oneplus",
+    "samsung",
+    "oneplus 3t android p",
+    "get android p"
+  ],
+  "youtube_title": "Install Android 9.0 Pie on Any Android Device! (Treble Enabled)",
+  "youtube_upload_date": "20180815",
+  "youtube_view_count": 341043
+}

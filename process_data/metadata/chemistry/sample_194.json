@@ -1,0 +1,688 @@
+{
+  "content_fine_category": "Chemistry",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "Male voice, off-screen.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "An instructional video showcasing the process of creating a label printer using KiCad, LibreOffice, and a Python script for generating chemical labels.",
+    "fps": 29.97,
+    "qAndA": [
+      {
+        "answer": "KiCad.",
+        "question": "What software does the narrator use to design the labels?"
+      },
+      {
+        "answer": "The retrieved chemical data, specifically the density, is sometimes inaccurate.",
+        "question": "What is the main issue the narrator has with the generated labels?"
+      },
+      {
+        "answer": "The PubChem website.",
+        "question": "Where does the narrator get the chemical information for the labels?"
+      },
+      {
+        "answer": "The narrator only has a black and white printer.",
+        "question": "Why does the script convert the chemical structures to black and white?"
+      },
+      {
+        "answer": "Publish it on GitHub for others to use.",
+        "question": "What does the narrator plan to do with the Python script?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Narrator shows and describes old labels.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Narrator explains the type of paper and design used for new labels.",
+            "timestamp": {
+              "end_timestamp": "00:00:31.999",
+              "start_timestamp": "00:00:16.016"
+            }
+          },
+          {
+            "description": "Narrator shows the new label style.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.990",
+              "start_timestamp": "00:00:33.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 5.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the viewers."
+          }
+        ],
+        "contextualRelevance": "The introduction sets the stage for the need and motivation behind creating a label printer.",
+        "dynamismScore": 6.0,
+        "mood": {
+          "description": "Neutral - Curious. The narrator's enthusiasm and the novelty of the new label style contribute to a sense of curiosity.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator establishes the problem of messy labels and presents a solution by creating a label printer.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Three amber glass bottles with old labels.",
+            "timestamp": {
+              "end_timestamp": "00:00:15.015",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Sheet of paper with label outlines.",
+            "timestamp": {
+              "end_timestamp": "00:00:26.994",
+              "start_timestamp": "00:00:16.984"
+            }
+          },
+          {
+            "name": "New labels on bottles.",
+            "timestamp": {
+              "end_timestamp": "00:00:56.990",
+              "start_timestamp": "00:00:33.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Organization, DIY solutions, chemistry.",
+        "timestamps": {
+          "end_timestamp": "00:00:58.058",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Basic cuts between shots.",
+            "timestamps": {
+              "end_timestamp": "00:00:56.990",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains the software used for label design.",
+            "timestamp": {
+              "end_timestamp": "00:01:14.007",
+              "start_timestamp": "00:00:58.091"
+            }
+          },
+          {
+            "description": "Screen recording of label design in KiCad.",
+            "timestamp": {
+              "end_timestamp": "00:01:33.994",
+              "start_timestamp": "00:01:16.009"
+            }
+          },
+          {
+            "description": "Explanation of PDF export and import into a label template.",
+            "timestamp": {
+              "end_timestamp": "00:01:57.985",
+              "start_timestamp": "00:01:34.995"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 5.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the viewers."
+          }
+        ],
+        "contextualRelevance": "The scene details the technical process and challenges of label creation.",
+        "dynamismScore": 5.0,
+        "mood": {
+          "description": "Neutral - Confused. The technical details and narrator's slight frustration with software limitations contribute to a feeling of confusion.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator explains the technical steps involved in creating the labels using KiCad and LibreOffice Draw.",
+            "timestamp": "00:00:58.091"
+          }
+        ],
+        "props": [
+          {
+            "name": "LibreOffice Draw window with label template.",
+            "timestamp": {
+              "end_timestamp": "00:01:57.985",
+              "start_timestamp": "00:00:58.091"
+            }
+          },
+          {
+            "name": "KiCad window with label design.",
+            "timestamp": {
+              "end_timestamp": "00:01:33.994",
+              "start_timestamp": "00:01:16.009"
+            }
+          },
+          {
+            "name": "File explorer window.",
+            "timestamp": {
+              "end_timestamp": "00:01:57.985",
+              "start_timestamp": "00:01:56.016"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical process, software limitations.",
+        "timestamps": {
+          "end_timestamp": "00:01:59.953",
+          "start_timestamp": "00:00:58.091"
+        },
+        "title": "Label Creation Process",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recordings of software interfaces. Basic cuts between shots. No music or special effects.",
+            "timestamps": {
+              "end_timestamp": "00:01:57.985",
+              "start_timestamp": "00:00:58.091"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Narrator explains and demonstrates Python script for generating labels.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.016",
+              "start_timestamp": "00:01:59.987"
+            }
+          },
+          {
+            "description": "Narrator adds labels to LibreOffice template and discusses features.",
+            "timestamp": {
+              "end_timestamp": "00:03:57.004",
+              "start_timestamp": "00:02:30.017"
+            }
+          },
+          {
+            "description": "Narrator shows website used for chemical information retrieval.",
+            "timestamp": {
+              "end_timestamp": "00:04:16.990",
+              "start_timestamp": "00:03:58.005"
+            }
+          },
+          {
+            "description": "Narrator generates label for ethanol and discusses inaccuracies.",
+            "timestamp": {
+              "end_timestamp": "00:06:48.008",
+              "start_timestamp": "00:04:17.991"
+            }
+          },
+          {
+            "description": "Narrator explains plans to publish the script on GitHub.",
+            "timestamp": {
+              "end_timestamp": "00:07:07.995",
+              "start_timestamp": "00:06:49.009"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 4.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "Narrator speaks directly to the viewers, expressing frustration and anger towards the software limitations and data inconsistencies."
+          }
+        ],
+        "contextualRelevance": "The frustration and anger towards data inaccuracies emphasize the importance of reliable chemical information for safety and accurate labeling.",
+        "dynamismScore": 7.0,
+        "mood": {
+          "description": "Neutral - Confused, then Negative - Angry. The initial confusion stems from the technical aspects of the script and website. The anger arises from the inaccuracies in the retrieved chemical information.",
+          "keyMoments": [
+            {
+              "changeDescription": "Mood shifts from confused to frustrated as the narrator struggles with rearranging the labels.",
+              "timestamp": "00:03:00.013"
+            },
+            {
+              "changeDescription": "Mood becomes angry when the narrator encounters inaccurate data.",
+              "timestamp": "00:06:19.012"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator showcases the functionality of the Python script, highlights its features, and addresses its limitations with data accuracy.",
+            "timestamp": "00:01:59.987"
+          }
+        ],
+        "props": [
+          {
+            "name": "LibreOffice Draw window with label template.",
+            "timestamp": {
+              "end_timestamp": "00:07:07.995",
+              "start_timestamp": "00:01:59.987"
+            }
+          },
+          {
+            "name": "File explorer window.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.016",
+              "start_timestamp": "00:01:59.987"
+            }
+          },
+          {
+            "name": "File explorer window.",
+            "timestamp": {
+              "end_timestamp": "00:03:16.997",
+              "start_timestamp": "00:03:14.995"
+            }
+          },
+          {
+            "name": "File explorer window.",
+            "timestamp": {
+              "end_timestamp": "00:04:32.005",
+              "start_timestamp": "00:04:29.002"
+            }
+          },
+          {
+            "name": "File explorer window.",
+            "timestamp": {
+              "end_timestamp": "00:07:07.995",
+              "start_timestamp": "00:06:49.009"
+            }
+          },
+          {
+            "name": "Command prompt window.",
+            "timestamp": {
+              "end_timestamp": "00:02:29.016",
+              "start_timestamp": "00:02:05.993"
+            }
+          },
+          {
+            "name": "Command prompt window.",
+            "timestamp": {
+              "end_timestamp": "00:03:39.987",
+              "start_timestamp": "00:03:18.999"
+            }
+          },
+          {
+            "name": "Command prompt window.",
+            "timestamp": {
+              "end_timestamp": "00:04:29.002",
+              "start_timestamp": "00:04:14.988"
+            }
+          },
+          {
+            "name": "Notepad++ window with Python script.",
+            "timestamp": {
+              "end_timestamp": "00:04:57.998",
+              "start_timestamp": "00:04:42.015"
+            }
+          },
+          {
+            "name": "PubChem website.",
+            "timestamp": {
+              "end_timestamp": "00:06:48.008",
+              "start_timestamp": "00:05:51.985"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Data accuracy, software functionality, open source contribution.",
+        "timestamps": {
+          "end_timestamp": "00:07:45.232",
+          "start_timestamp": "00:01:59.987"
+        },
+        "title": "Label Generator Demonstration",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recordings of software interfaces and websites. Basic cuts between shots. No music or special effects.",
+            "timestamps": {
+              "end_timestamp": "00:07:07.995",
+              "start_timestamp": "00:01:59.987"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The demonstration of the functional Python label generator.",
+        "timestamp": "00:01:58.986"
+      },
+      "description": "Storyline 1: Label Printer Creation",
+      "scenes": [
+        1,
+        2,
+        3
+      ]
+    },
+    "title": "Video Analysis: Label Printer Creation",
+    "trimmingSuggestions": [
+      {
+        "description": "Remove the section where the narrator struggles with accidentally copy-pasting labels and rearranging them. The frustration adds little value and slows down the video.",
+        "timestamps": {
+          "end_timestamp": "00:03:14.995",
+          "start_timestamp": "00:03:00.013"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 465,
+  "original_json_filename": "QCkaiycRD3g.json",
+  "original_video_filename": "QCkaiycRD3g.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "I I wanted to up my game a little bit and so I decided to make a label printer so here you can see pretty much how I labeled stuff with like some painters type because why not really so I I bought paper before labels like this one and so I use Sky cut and I draw a pattern of the grid and then I put some text on that which is like okay but sure why so then I've decided to make something that like is a little bit nicer so you have like even called structure which is like really I guess necessary but some useful properties there and okay I can write something on there still I mean quite a lot of real estate is wasted here but uh doesn't matter that much for me so there's method to this madness and so hear me out I am using LibreOffice draw and this is because I could not make any other application to print like A4 format from like edge to edge and this is because the labels are made this way and even with the the Libra of his draw it was quite challenging so what I have done is I have made stuff like this with in key cut or kai-cat or however you want to pronounce it and this is basically the grid like this this stuff and then exported PDF and then I imported that in here which I can edit so that's great so here is the labels basically whatever here is or like great here are the labels so I don't manipulate with crit because it would be like what the and so the way you add label to here is pretty much you run this python script and it will ask you for CID formula or name so I I don't know let's let's do this one any comments so you can uh type in date with like when you have synthesized this or anything you really want uh but I don't mean to comment it generates this Lego PNG and you can drag and drop and I really want to drag and drop this thing because as you can as you print stuff you you like peel off the labels and so let's say I have free space right of my gun here I don't need this thing anymore I can make a video on that if you really want it's it's good stuff come on oh my god apparently I copy pasted it quite a lot okay I don't need this and I can make some more labels like [Music] um I don't know [Music] and I don't know [Applause] like like stuff like this and this this comment is not like not like it's typed in here as you can see you can uh see density which is like mildly important like one out of ten oh no three out of ten molecular weight is quite nice to have because I really don't like to search for it all the time so that's like four out of ten and melting and boiling point boiling point is nice because you know what I need label for a tunnel I guess I can do toh and this is 80 percent around all right and I guess this will be printed right here okay and just if you are interested the I have this here so this is uh not using like uh pumpkin pie or maybe it is but yeah it's just used for to get CID but then it uses this this API to get Json and then it passes it and it's not it's not perfect because yeah here the density is like greater like what the but this is because it's probably greater than something something so also the multi-game and boiling points it's uh it is determined by looking at page and it's Trace to find something that has some number with degrees C I guess because there can be some garbage on the in the website basically some garbage data and this image is you know what let's um yeah so let's say I am looking for this tcca and so let's say I'm looking for this tcca and uh it uses this image just convert it to black and white and then to transparency because I don't have color printer but anyway then it goes to chemical and physical properties I guess uh density is yeah greater than whatever and this is completely garbage to me I I cannot even parse this what what it means even like okay this I kind of understand but why like which one is correct anyway so yeah yeah yeah yeah so it basically parses this page and uses information from here and that's about it anyway so I will publish this on GitHub so people can use it because I found some label generators on GitHub but they are like um I'm not sure if on GitHub but these are like web-based and which is nice but I can't like configure the label to because I can buy I can pretty much buy only this paper like which is convenient to me yeah so point of this video is basically around this uh or drag this to this document and print here and of course the issue is sometimes that first of all you sometimes Sprint on the other side but then the label that I really need actually well really I want it actually to use is printed like on different site anyway",
+  "text_to_speech_word_count": 939,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.305",
+      "start": "00:00:00.000",
+      "text": " I wanted to up my game a little bit and so I decided to make a label printer."
+    },
+    {
+      "end": "00:00:15.315",
+      "start": "00:00:05.305",
+      "text": " So you can see pretty much how I labeled stuff with some painters stuff because why not really."
+    },
+    {
+      "end": "00:00:26.426",
+      "start": "00:00:15.315",
+      "text": " So I bought paper with labels like this one and so I used Kijkat and I draw a pattern of the grid"
+    },
+    {
+      "end": "00:00:32.733",
+      "start": "00:00:26.426",
+      "text": " and then I put some text on that which is like okay but sure why."
+    },
+    {
+      "end": "00:00:39.740",
+      "start": "00:00:32.733",
+      "text": " And so then I decided to make something that is a little bit nicer so you have like even"
+    },
+    {
+      "end": "00:00:47.915",
+      "start": "00:00:39.740",
+      "text": " a structure which is not really necessary but some useful properties there and okay I"
+    },
+    {
+      "end": "00:00:50.417",
+      "start": "00:00:47.915",
+      "text": " can write something on there still."
+    },
+    {
+      "end": "00:00:58.559",
+      "start": "00:00:50.417",
+      "text": " I mean quite a lot of real estate is wasted here but it doesn't matter that much for me."
+    },
+    {
+      "end": "00:01:02.996",
+      "start": "00:00:58.559",
+      "text": " So there's method to this madness and so hear me out."
+    },
+    {
+      "end": "00:01:09.970",
+      "start": "00:01:02.996",
+      "text": " I am using LibreOffice draw and this is because I could not make any other application to print"
+    },
+    {
+      "end": "00:01:16.210",
+      "start": "00:01:09.970",
+      "text": " like a4 format from like edge to edge and this is because the labels are made this way."
+    },
+    {
+      "end": "00:01:23.417",
+      "start": "00:01:16.210",
+      "text": " And even with the LibreOffice draw it was quite challenging so what I have done is I have"
+    },
+    {
+      "end": "00:01:30.624",
+      "start": "00:01:23.417",
+      "text": " made stuff like this with in Kijkat or Kijkat or however you want to pronounce it and this"
+    },
+    {
+      "end": "00:01:37.831",
+      "start": "00:01:30.624",
+      "text": " is basically the grid like this stuff and then I exported PDF and then I imported that"
+    },
+    {
+      "end": "00:01:40.868",
+      "start": "00:01:37.831",
+      "text": " in here which I can edit so that's great."
+    },
+    {
+      "end": "00:01:50.544",
+      "start": "00:01:40.868",
+      "text": " So here is the labels basically whatever here is or like grid here are the labels so I don't"
+    },
+    {
+      "end": "00:01:55.382",
+      "start": "00:01:50.544",
+      "text": " money play with grid because it would be like what the fuck."
+    },
+    {
+      "end": "00:02:07.261",
+      "start": "00:01:55.382",
+      "text": " And so the way you add label to here is pretty much you run this python script and it will"
+    },
+    {
+      "end": "00:02:14.868",
+      "start": "00:02:07.261",
+      "text": " ask you for CID formula or name so I don't know let's do this one."
+    },
+    {
+      "end": "00:02:21.608",
+      "start": "00:02:14.868",
+      "text": " Any comments you can type in date with like when you have synthesized this or anything"
+    },
+    {
+      "end": "00:02:28.749",
+      "start": "00:02:21.608",
+      "text": " you really want but I don't need comment it generates this label png and you can drag"
+    },
+    {
+      "end": "00:02:36.223",
+      "start": "00:02:28.749",
+      "text": " and drop and I really want to drag and drop this thing because as you can as you print"
+    },
+    {
+      "end": "00:02:46.200",
+      "start": "00:02:36.223",
+      "text": " stuff you like peel off the labels and so let's say I have free space right of my fucking"
+    },
+    {
+      "end": "00:02:56.176",
+      "start": "00:02:46.200",
+      "text": " god here I don't need this thing anymore I can make a video on that if you really want"
+    },
+    {
+      "end": "00:03:06.153",
+      "start": "00:02:56.176",
+      "text": " it's it's good stuff come on all my fucking god apparently copypasted it quite a"
+    },
+    {
+      "end": "00:03:07.154",
+      "start": "00:03:06.153",
+      "text": " lot."
+    },
+    {
+      "end": "00:03:23.871",
+      "start": "00:03:07.154",
+      "text": " Okay I don't need this and I can make some more labels like I don't know like this"
+    },
+    {
+      "end": "00:03:47.728",
+      "start": "00:03:23.871",
+      "text": " and I don't know like stuff like this and this this comment is not like not like it's"
+    },
+    {
+      "end": "00:03:53.300",
+      "start": "00:03:47.728",
+      "text": " typed in here this you can see you can see density which is like mildly important"
+    },
+    {
+      "end": "00:04:01.308",
+      "start": "00:03:53.867",
+      "text": " like one out of ten or now three out of ten molecule rate is quite nice to have because"
+    },
+    {
+      "end": "00:04:07.915",
+      "start": "00:04:01.308",
+      "text": " I really don't like to search for it all the time so that's like four out of ten and"
+    },
+    {
+      "end": "00:04:12.619",
+      "start": "00:04:07.915",
+      "text": " melting and boiling point boiling point is nice because you know what I need label"
+    },
+    {
+      "end": "00:04:37.578",
+      "start": "00:04:12.619",
+      "text": " for a tunnel I guess I can do the OH and this is 80% around all right and I guess this"
+    },
+    {
+      "end": "00:04:48.055",
+      "start": "00:04:37.578",
+      "text": " will print it right here okay and just if you are interested the I have this here so this"
+    },
+    {
+      "end": "00:04:56.930",
+      "start": "00:04:48.055",
+      "text": " is not using like a pop can tie or maybe it is but yeah it's just used for to get the"
+    },
+    {
+      "end": "00:05:09.610",
+      "start": "00:04:56.930",
+      "text": " ID but then it uses this this API to get JSON and then it passes it and it's not it's not"
+    },
+    {
+      "end": "00:05:19.820",
+      "start": "00:05:09.610",
+      "text": " perfect because yeah here the density is like greater like what the fuck but this is because"
+    },
+    {
+      "end": "00:05:26.393",
+      "start": "00:05:19.820",
+      "text": " it's probably greater than something something something so also the melting and boiling"
+    },
+    {
+      "end": "00:05:36.103",
+      "start": "00:05:26.393",
+      "text": " point it's determined by looking at page and it tries to find something that has some number"
+    },
+    {
+      "end": "00:05:44.411",
+      "start": "00:05:36.103",
+      "text": " with degrees C I guess because there can be some garbage on the in the website basically some"
+    },
+    {
+      "end": "00:05:54.555",
+      "start": "00:05:44.411",
+      "text": " garbage data and this image is you know what let's yeah so let's say I am looking for this"
+    },
+    {
+      "end": "00:06:05.699",
+      "start": "00:05:54.555",
+      "text": " DCCA and so let's say I'm looking for this DCCA and it uses this image just convert it to black"
+    },
+    {
+      "end": "00:06:14.474",
+      "start": "00:06:05.699",
+      "text": " and white and then to transparency because I don't have color printer but anyway then it goes"
+    },
+    {
+      "end": "00:06:22.816",
+      "start": "00:06:14.474",
+      "text": " to chemical and physical properties I guess density is yeah greater than whatever and this is"
+    },
+    {
+      "end": "00:06:29.489",
+      "start": "00:06:22.816",
+      "text": " completely garbage to me I cannot even parse this what what it means even like okay this I can"
+    },
+    {
+      "end": "00:06:43.270",
+      "start": "00:06:29.489",
+      "text": " understand but what which one is correct anyway so yeah yeah yeah yeah so it basically parses"
+    },
+    {
+      "end": "00:06:52.479",
+      "start": "00:06:43.270",
+      "text": " this page and uses information from here and let's build it anyway so I will publish this on"
+    },
+    {
+      "end": "00:07:00.687",
+      "start": "00:06:52.479",
+      "text": " GitHub so people can use it because I found some label generators on GitHub but they are like"
+    },
+    {
+      "end": "00:07:09.663",
+      "start": "00:07:03.190",
+      "text": " not sure if on GitHub but these are like web based and which is nice but I cannot like configure"
+    },
+    {
+      "end": "00:07:17.171",
+      "start": "00:07:09.663",
+      "text": " the label to because I can buy I can pretty much buy only this paper like which is convenient to me"
+    },
+    {
+      "end": "00:07:24.378",
+      "start": "00:07:17.337",
+      "text": " yeah so point of this video is basically run this or drag this to this document and print yeah"
+    },
+    {
+      "end": "00:07:31.818",
+      "start": "00:07:25.012",
+      "text": " and of course the issue is sometimes that first of all you will sometimes print on the other side"
+    },
+    {
+      "end": "00:07:40.794",
+      "start": "00:07:31.818",
+      "text": " but then the label that I really need actually well really I want it actually to use is printed"
+    },
+    {
+      "end": "00:07:44.865",
+      "start": "00:07:40.794",
+      "text": " like on different side fuck anyway"
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Ilusys Systems",
+  "youtube_channel_follower_count": 8620,
+  "youtube_comment_count": 5,
+  "youtube_description": "See https://github.com/RichardAntalik/ChemLabelGen",
+  "youtube_like_count": 12,
+  "youtube_tags": [],
+  "youtube_title": "Label generator for chemical compounds",
+  "youtube_upload_date": "20230302",
+  "youtube_view_count": 165
+}

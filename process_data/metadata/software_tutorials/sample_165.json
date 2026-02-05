@@ -1,0 +1,773 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with short hair and a beard, wearing a dark shirt.",
+        "name": "Marcus"
+      }
+    ],
+    "description": "An instructional video where Marcus demonstrates how to turn an existing application into a Progressive Web Application (PWA), step by step.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "A manifest.webmanifest file.",
+        "question": "What file is created to provide metadata about the application?"
+      },
+      {
+        "answer": "A JavaScript file with the extension .js.",
+        "question": "What type of file is used for a service worker?"
+      },
+      {
+        "answer": "The \"install\" event.",
+        "question": "What event in the service worker is used to cache static assets?"
+      },
+      {
+        "answer": "Cache-first and network-and-cache.",
+        "question": "What are the two caching strategies implemented in the video?"
+      },
+      {
+        "answer": "By checking if the application can load and function correctly when the network connection is disabled.",
+        "question": "How does the browser verify that the page works offline?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Marcus explains how to turn an existing application into a PWA.",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Marcus shows the news reader application.",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Marcus opens the Application tab in Chrome Dev Tools.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Marcus creates a manifest.webmanifest file.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Marcus links the manifest file to the index.html file.",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Marcus refreshes the application in the browser.",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "description": "Marcus clicks on the \"Add to homescreen\" button.",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Marcus creates a serviceworker.js file.",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Marcus registers the service worker.",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "description": "Marcus refreshes the application in the browser.",
+            "timestamp": {
+              "end_timestamp": "00:00:04.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Marcus adds a listener for the \"install\" event.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:04.000"
+            }
+          },
+          {
+            "description": "Marcus defines static assets to be cached.",
+            "timestamp": {
+              "end_timestamp": "00:00:05.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Marcus adds a listener for the \"activate\" event.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:05.000"
+            }
+          },
+          {
+            "description": "Marcus refreshes the application in the browser.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Marcus checks the cache storage in Chrome Dev Tools.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Marcus clicks on the \"Add to homescreen\" button.",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:06.000"
+            }
+          },
+          {
+            "description": "Marcus adds a listener for the \"fetch\" event.",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "description": "Marcus implements cache-first and network-and-cache strategies.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          },
+          {
+            "description": "Marcus refreshes the application in the browser.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "description": "Marcus checks the cache storage in Chrome Dev Tools.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "description": "Marcus clicks on the \"Add to homescreen\" button.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          },
+          {
+            "description": "Marcus takes the application offline.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:09.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Marcus"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The video is relevant for web developers looking to convert traditional web applications into PWAs.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Marcus provides a step-by-step tutorial on transforming an application into a PWA by adding essential components such as a manifest.webmanifest file and a service worker, along with incorporating caching strategies.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "News reader application",
+            "timestamp": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "manifest.webmanifest file",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "index.html file",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:01.000"
+            }
+          },
+          {
+            "name": "serviceworker.js file",
+            "timestamp": {
+              "end_timestamp": "00:00:02.000",
+              "start_timestamp": "00:00:02.000"
+            }
+          },
+          {
+            "name": "Chrome Dev Tools",
+            "timestamp": {
+              "end_timestamp": "00:00:01.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The video emphasizes themes related to Progressive Web Applications (PWAs), focusing on service workers, caching, and practical web development techniques.",
+        "timestamps": {
+          "end_timestamp": "00:10:48.933",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Tutorial: Converting Web App to PWA",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Marcus demonstrates that the application can now work offline, showcasing the effectiveness of the conversion.",
+        "timestamp": "00:00:09.000"
+      },
+      "description": "The storyline follows Marcus' journey of converting a regular web application into a PWA, illustrating key steps and concepts.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Turning a Regular Web Application into a PWA",
+    "trimmingSuggestions": []
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 649,
+  "original_json_filename": "E8BeSSdIUW4.json",
+  "original_video_filename": "E8BeSSdIUW4.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hi there I'm Marcus in this second part of this video series I will show you how to turn an existing application into a progressive web application using just a plain JavaScript API so if you want to see how we built this application go ahead and check out the first video let's get started so our application is a newsreader we have a plain application with just some news articles being displayed what I want to do now is turn this application into a progressive web application what I want to be able to do is install this application on devices that support it and have it run offline so that we can see some previously fetched news even if we are offline now when we're building a progressive web application a good place to start is the application tab in chrome dev tools it will essentially guide you through the steps needed we'll start up here at the manifest tab and right now we can see that there's no manifest detected so that's a good indication of what we need to do first so we'll jump into our code here and we will create a new file a any test web any first the web manifest is just a JSON file containing some of the basic information about our application like its name what URL should start some basic things like icons as such once we have the file itself will go into our index file and we'll link to our manifest so just the same way as we would link to a style sheet we will link to our manifest file we'll save this go back to our browser refresh and we should be able to see that we have our manifest file here so we can see our icons we can see the name we can also see that there's an add to homescreen link here now so this is a good way for us to check if our application is in fact installable so let's click on it ok so we can see that we can't install this because there's no matching serviceworker detected so that's again a good indication on what we need to do next so I'll create a new service worker phone service worker jeaious if you're not familiar with a service worker it's essentially a JavaScript worker that sits between your application and the network this means that whenever your application goes out to the network it will pass through the service worker it'll allow us to do things like caching in between so we can decide ourselves whether or not we actually want to go out to the network for a particular resource we can also decide that we can return some things from our cache if we are offline so this will allow us to make our application work offline ok so we have our service worker file the next part of using a service worker is registering it so we'll go into our load listener here and once we've fetched our noose the user is already happily using the application we can go ahead and register our service worker call this register SW so we'll implement this service worker register the registration looks something like this so we have a quick feature detection first we want to make sure that the browser actually does support service worker before we try to register it we then call service worker dot register on the navigator object and pass in our service worker file so let's save this let's go back to our application refresh and see if we got an service worker it's a little bit smaller so we can now see that we do in fact have a service worker file while you're developing it's really good to keep this update on reload check that way you'll get all the new changes that you make to service who are very visible immediately instead of having to close the window and reopen it which would normally be required for a service worker to take take effect so we'll go back and turn the manifest file here our manifest tab will click on add to homescreen and see if we're there already turns out worse able to install the application because the browser is telling us that the page doesn't work offline now that makes sense because our Service Worker file is completely empty and the Service Worker is a completely event-driven thing so it can only run code if some event triggers that the first event that gets triggered on a serviceworker is the install event so we'll add a listener for the install event on the serviceworker itself typically what we want to do in the install event is cache some like static files that we know our application will need the way we do that is by using the cache API so we'll open up a cache with a given name and then we will add a list of static assets that we have so let's define our cache net first cache name let's call this use v1 and then we'll define an area of the different static assets that we have so our index page CSS and JavaScript files and so on we'll save those the final thing that we do here is we call skip waiting which will cost the serviceworker to move into the activate face the activate faces essentially when a new service worker takes over from any previous service workers normally what you would do here is clean out any previous versions of your cache for instance what I'm calling here is self got clients that claim which will essentially tell my service worker to start servicing the running application immediately instead of waiting until the next time we get to this application this will allow us to keep start fetching and caching the newest articles already on the first time all right so we'll go back to our application will refresh here make sure that we have a new Service Worker up and running we can go in and check in our cache tab here that everything that we defined in that static array did get cashed now that we have stuff in the cache let's go back to our manifest tab here and see if we're able to add this to the home screen it turns out that we are still not able to do add this to our home screen because it's still not working offline the way the browser knows that it's not working offline is because even though we did put stuff into the cache we haven't used any of that stuff so we still need to prove to the browser that we work offline the way we do that is by listening for yet another event so we'll add a listener for the fetch event now this listener will get essentially this listener will intercept any fetch request going from our application out to the network so this will allow us to handle these requests any way we want to essentially what I'm doing here is I'm differentiating on traffic based on where it's going so if we're fetching something from our own application so that would be any of these static resources we want to check first if it's in our cache and return that and if not then we could go to the network if we're fetching news though what we want to do is we want to fetch the latest news first and then only if we're unable to do that because we're offline or whatever then we want to see if we might have an older version in our cache so the cache first strategy would look something like this so first of all we will open up the same cache that we had from before we will then call cached match see if there's something in our cache that matches this request if there is we'll return that if not we will fall back on the network the network first strategy will look a little bit different but should be pretty straightforward as well so what we do here is we will open up the same cache but we'll first try to see if we were able to fetch that from the network if we are able to fetch it from the network we will put that version into the cache so we'll put a clone of it just because we're only able to read a response once so that way we can put one version into the cache and then return the other one if any of this fails so if we're unable to fetch the latest news we'll fall back on something that we have in our cache so we'll again call this cache that match and return that so let's go to our browser let's refresh here let's look at the serviceworker here we have a serviceworker here just registered we can go into our cache storage here verify that we're caching stuff not only those static assets that we have but also some stuff from the network and if we now go into the manifest file tab here click on add to home screen it will actually trigger the Add to Home screen logic we should always also be able to go to the serviceworker tab here and take our application offline and still be able to refresh and see that it's working so hopefully this gave you a good idea of what it's like to turn an application into a progressive web application by adding that manifest file and adding that serviceworker now normally if you're building an app for yourself you probably don't want to use this very low-level API that I just showed you there are libraries like workbox that I'll link in the show notes below that you can use to kind of simplify this a whole lot and gives you much more tools to do things like manage your cache size and how many how many images you want to cache or how long you want to keep something in the cache for all right so thanks for watching I hope you enjoyed it I'll see you later",
+  "text_to_speech_word_count": 1725,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:00.000",
+      "text": " Hi there. I'm Marcus. In this second part of this video series, I will show you how to turn an existing application into a progressive web application using just a plain JavaScript APIs."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:12.000",
+      "text": " If you want to see how we built this application, go ahead and check out the first video. Let's get started."
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:19.000",
+      "text": " Our application is a newsreader. We have a plain application with just some news articles being displayed."
+    },
+    {
+      "end": "00:00:31.000",
+      "start": "00:00:26.000",
+      "text": " What I want to do now is turn this application into a progressive web application."
+    },
+    {
+      "end": "00:00:45.000",
+      "start": "00:00:31.000",
+      "text": " What I want to be able to do is install this application on devices that support it and have it run offline so that we can see some previously fetched news even if we are offline."
+    },
+    {
+      "end": "00:00:55.000",
+      "start": "00:00:45.000",
+      "text": " Now when we're building a progressive web application, a good place to start is the application tab in Chrome DevTools. It will essentially guide you through the steps needed."
+    },
+    {
+      "end": "00:01:05.000",
+      "start": "00:00:55.000",
+      "text": " We'll start up here at the manifest tab and right now we can see that there's no manifest detected so that's a good indication of what we need to do first."
+    },
+    {
+      "end": "00:01:15.000",
+      "start": "00:01:05.000",
+      "text": " We'll jump into our code here and we will create a new file, a manifest.web manifest."
+    },
+    {
+      "end": "00:01:22.000",
+      "start": "00:01:15.000",
+      "text": " The web manifest is just a JSON file containing some of the basic information about our application."
+    },
+    {
+      "end": "00:01:28.000",
+      "start": "00:01:22.000",
+      "text": " Like it's name, what URL should start, some basic things like icons and such."
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:29.000",
+      "text": " Once we have the file itself, we'll go into our index file and we'll link to our manifest."
+    },
+    {
+      "end": "00:01:42.000",
+      "start": "00:01:37.000",
+      "text": " So just the same way as we would link to a stylesheet, we will link to our manifest file."
+    },
+    {
+      "end": "00:01:53.000",
+      "start": "00:01:42.000",
+      "text": " We'll save this, go back to our browser, refresh, and we should be able to see that we have our manifest file here so we can see our icons, we can see the name."
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:53.000",
+      "text": " We can also see that there's an add to home screen link here now."
+    },
+    {
+      "end": "00:02:00.000",
+      "start": "00:01:56.000",
+      "text": " So this is a good way for us to check if our application is in fact installable."
+    },
+    {
+      "end": "00:02:03.000",
+      "start": "00:02:00.000",
+      "text": " So let's click on it."
+    },
+    {
+      "end": "00:02:09.000",
+      "start": "00:02:03.000",
+      "text": " Okay, so we can see that we can install this because there's no matching service worker detected."
+    },
+    {
+      "end": "00:02:13.000",
+      "start": "00:02:09.000",
+      "text": " So that's again a good indication of what we need to do next."
+    },
+    {
+      "end": "00:02:18.000",
+      "start": "00:02:13.000",
+      "text": " So I'll create a new service worker file, serviceworker.js."
+    },
+    {
+      "end": "00:02:25.000",
+      "start": "00:02:18.000",
+      "text": " If you're not familiar with a service worker, it's essentially a JavaScript worker that sits between your application and the network."
+    },
+    {
+      "end": "00:02:31.000",
+      "start": "00:02:25.000",
+      "text": " This means that whenever your application goes out to the network, it will pass through the service worker."
+    },
+    {
+      "end": "00:02:41.000",
+      "start": "00:02:31.000",
+      "text": " It'll allow us to do things like caching in between so we can decide ourselves whether or not we actually want to go out to the network for a particular resource."
+    },
+    {
+      "end": "00:02:47.000",
+      "start": "00:02:41.000",
+      "text": " We can also decide that we can return some things from our cache if we are offline."
+    },
+    {
+      "end": "00:02:51.000",
+      "start": "00:02:47.000",
+      "text": " So this will allow us to make our application work offline."
+    },
+    {
+      "end": "00:02:53.000",
+      "start": "00:02:51.000",
+      "text": " Okay, so we have our service worker file."
+    },
+    {
+      "end": "00:02:57.000",
+      "start": "00:02:53.000",
+      "text": " The next part of using a service worker is registering it."
+    },
+    {
+      "end": "00:03:00.000",
+      "start": "00:02:57.000",
+      "text": " So we'll go into our load listener here."
+    },
+    {
+      "end": "00:03:05.000",
+      "start": "00:03:00.000",
+      "text": " And once we've fetched our news, the user is already happily using the application."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:03:05.000",
+      "text": " We can go ahead and register our service worker."
+    },
+    {
+      "end": "00:03:14.000",
+      "start": "00:03:09.000",
+      "text": " Call this register SW."
+    },
+    {
+      "end": "00:03:18.000",
+      "start": "00:03:14.000",
+      "text": " So we'll implement this service worker register."
+    },
+    {
+      "end": "00:03:20.000",
+      "start": "00:03:18.000",
+      "text": " Redistration looks something like this."
+    },
+    {
+      "end": "00:03:24.000",
+      "start": "00:03:20.000",
+      "text": " So we have a quick feature detection first."
+    },
+    {
+      "end": "00:03:30.000",
+      "start": "00:03:24.000",
+      "text": " We want to make sure that the browser actually does support service worker before we try to register it."
+    },
+    {
+      "end": "00:03:37.000",
+      "start": "00:03:30.000",
+      "text": " We then call serviceworker.register on the navigator object and pass it in our service worker file."
+    },
+    {
+      "end": "00:03:39.000",
+      "start": "00:03:37.000",
+      "text": " So let's save this."
+    },
+    {
+      "end": "00:03:46.000",
+      "start": "00:03:39.000",
+      "text": " Let's go back to our application refresh and see if we got a service worker."
+    },
+    {
+      "end": "00:03:51.000",
+      "start": "00:03:46.000",
+      "text": " It's a little bit smaller."
+    },
+    {
+      "end": "00:03:57.000",
+      "start": "00:03:51.000",
+      "text": " So we can now see that we do in fact have a service worker file."
+    },
+    {
+      "end": "00:04:01.000",
+      "start": "00:03:57.000",
+      "text": " While you're developing, it's really good to keep this update on reload."
+    },
+    {
+      "end": "00:04:19.000",
+      "start": "00:04:01.000",
+      "text": " So if you could check that way, you'll get all the new changes that you make to service worker visible immediately instead of having to close the window and reopen it, which would normally be required for a service worker to take take effect."
+    },
+    {
+      "end": "00:04:22.000",
+      "start": "00:04:19.000",
+      "text": " So we'll go back and turn manifest file here or manifest tab."
+    },
+    {
+      "end": "00:04:27.000",
+      "start": "00:04:22.000",
+      "text": " We'll click on add to home screen and see if we're there already."
+    },
+    {
+      "end": "00:04:34.000",
+      "start": "00:04:27.000",
+      "text": " We're still not able to install the application because the browser is telling us that the page doesn't work offline."
+    },
+    {
+      "end": "00:04:39.000",
+      "start": "00:04:34.000",
+      "text": " Now that makes sense because our service worker file is completely empty."
+    },
+    {
+      "end": "00:04:44.000",
+      "start": "00:04:39.000",
+      "text": " Now the service worker is a completely event driven thing."
+    },
+    {
+      "end": "00:04:49.000",
+      "start": "00:04:44.000",
+      "text": " So it can only run code if some event triggers that."
+    },
+    {
+      "end": "00:04:54.000",
+      "start": "00:04:49.000",
+      "text": " The first event that gets triggered on service worker is the install event."
+    },
+    {
+      "end": "00:05:02.000",
+      "start": "00:04:54.000",
+      "text": " We'll add a listener for the install event on the service worker itself."
+    },
+    {
+      "end": "00:05:11.000",
+      "start": "00:05:02.000",
+      "text": " Typically what we want to do in the install event is cash some like static files that we know our application will need."
+    },
+    {
+      "end": "00:05:14.000",
+      "start": "00:05:11.000",
+      "text": " The way we do that is by using the cache API."
+    },
+    {
+      "end": "00:05:20.000",
+      "start": "00:05:14.000",
+      "text": " So we'll open up a cache with a given name and then we will add a list of static assets that we have."
+    },
+    {
+      "end": "00:05:26.000",
+      "start": "00:05:20.000",
+      "text": " So let's define our cache name first."
+    },
+    {
+      "end": "00:05:31.000",
+      "start": "00:05:26.000",
+      "text": " Cache name. Let's call this V1."
+    },
+    {
+      "end": "00:05:36.000",
+      "start": "00:05:31.000",
+      "text": " And then we'll define an array of the different static assets that we have."
+    },
+    {
+      "end": "00:05:41.000",
+      "start": "00:05:36.000",
+      "text": " So our index page CSS and JavaScript files and so on."
+    },
+    {
+      "end": "00:05:44.000",
+      "start": "00:05:41.000",
+      "text": " So let's define those."
+    },
+    {
+      "end": "00:05:52.000",
+      "start": "00:05:44.000",
+      "text": " The final thing that we do here is we call skip waiting, which will cost the service worker to move into the activate phase."
+    },
+    {
+      "end": "00:05:59.000",
+      "start": "00:05:52.000",
+      "text": " The activate phase is essentially when a new service worker takes over from any previous service workers."
+    },
+    {
+      "end": "00:06:05.000",
+      "start": "00:05:59.000",
+      "text": " Normally what you would do here is clean out any previous versions of your cache, for instance."
+    },
+    {
+      "end": "00:06:18.000",
+      "start": "00:06:05.000",
+      "text": " So this is a self. clients. claim, which will essentially tell my service worker to start servicing the running application immediately instead of waiting until the next time we get to this application."
+    },
+    {
+      "end": "00:06:26.000",
+      "start": "00:06:18.000",
+      "text": " This will allow us to keep start fetching and caching the news articles already on the first time."
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:26.000",
+      "text": " So we'll go back to our application. We'll refresh here."
+    },
+    {
+      "end": "00:06:34.000",
+      "start": "00:06:30.000",
+      "text": " Make sure that we have a new service worker up and running."
+    },
+    {
+      "end": "00:06:43.000",
+      "start": "00:06:34.000",
+      "text": " We can go in and check in our cache tab here that everything that we define in that static rate actually did get cached."
+    },
+    {
+      "end": "00:06:50.000",
+      "start": "00:06:43.000",
+      "text": " Now that we have stuff in the cache, let's go back to our manifest tab here and see if we're able to add this to the home screen."
+    },
+    {
+      "end": "00:06:53.000",
+      "start": "00:06:50.000",
+      "text": " It turns out that we're still not able to do."
+    },
+    {
+      "end": "00:06:57.000",
+      "start": "00:06:53.000",
+      "text": " Add this to our home screen because it's still not working offline."
+    },
+    {
+      "end": "00:07:04.000",
+      "start": "00:06:57.000",
+      "text": " The way the browser knows that it's not working offline is because even though we did put stuff into the cache, we haven't used any of that stuff."
+    },
+    {
+      "end": "00:07:08.000",
+      "start": "00:07:04.000",
+      "text": " So we still need to prove to the browser that we work offline."
+    },
+    {
+      "end": "00:07:17.000",
+      "start": "00:07:08.000",
+      "text": " The way we do that is by listening for yet another event. So we'll add a listener for the fetch event."
+    },
+    {
+      "end": "00:07:27.000",
+      "start": "00:07:17.000",
+      "text": " Now this listener will get essentially this listener will intercept any fetch request going from our application out to the network."
+    },
+    {
+      "end": "00:07:32.000",
+      "start": "00:07:27.000",
+      "text": " So this will allow us to handle these requests anyway we want to."
+    },
+    {
+      "end": "00:07:38.000",
+      "start": "00:07:32.000",
+      "text": " Essentially what I'm doing here is I'm differentiating on traffic based on where it's going."
+    },
+    {
+      "end": "00:07:43.000",
+      "start": "00:07:38.000",
+      "text": " So if we're fetching something from our own application, so that would be any of these static resources."
+    },
+    {
+      "end": "00:07:50.000",
+      "start": "00:07:43.000",
+      "text": " We want to check first if it's in our cache and return that and if not then we could go to the network."
+    },
+    {
+      "end": "00:08:06.000",
+      "start": "00:07:50.000",
+      "text": " If we're fetching news though, what we want to do is we want to fetch the latest news first and then only if we're unable to do that because we're offline or whenever, then we want to see if we might have an older version in our cache."
+    },
+    {
+      "end": "00:08:13.000",
+      "start": "00:08:06.000",
+      "text": " So the cache first strategy would look something like this."
+    },
+    {
+      "end": "00:08:18.000",
+      "start": "00:08:13.000",
+      "text": " So first of all, we will open up the same cache that we had from before."
+    },
+    {
+      "end": "00:08:25.000",
+      "start": "00:08:18.000",
+      "text": " We'll then call cache.match see if there's something in our cache that matches this request."
+    },
+    {
+      "end": "00:08:31.000",
+      "start": "00:08:25.000",
+      "text": " If there is, we'll return that. If not, we will fall back on the network."
+    },
+    {
+      "end": "00:08:39.000",
+      "start": "00:08:31.000",
+      "text": " The network first strategy will look a little bit different, but should be pretty straightforward as well."
+    },
+    {
+      "end": "00:08:47.000",
+      "start": "00:08:39.000",
+      "text": " So what we do here is we will open up the same cache, but we'll first try to see if we are able to fetch that from the network."
+    },
+    {
+      "end": "00:08:53.000",
+      "start": "00:08:47.000",
+      "text": " If we are able to fetch it from the network, we will put that version into the cache."
+    },
+    {
+      "end": "00:09:07.000",
+      "start": "00:08:53.000",
+      "text": " So we'll put a clone of it just because we're only able to read a response once so that way we can put one version into the cache and then return the other one."
+    },
+    {
+      "end": "00:09:15.000",
+      "start": "00:09:07.000",
+      "text": " If any of this fails, so if we're unable to fetch the latest news, we'll fall back on something that we have in our cache."
+    },
+    {
+      "end": "00:09:20.000",
+      "start": "00:09:15.000",
+      "text": " So we'll again call this cache.match and return that."
+    },
+    {
+      "end": "00:09:26.000",
+      "start": "00:09:20.000",
+      "text": " So let's go to our browser. Let's refresh here. Let's look at the service worker here."
+    },
+    {
+      "end": "00:09:43.000",
+      "start": "00:09:26.000",
+      "text": " We have a new service worker here, just registered. We can go into our cache storage here, verify that we're caching stuff, not only those static assets that we have, but also some stuff from the network."
+    },
+    {
+      "end": "00:09:54.000",
+      "start": "00:09:44.000",
+      "text": " And if we now go into the manifest tab here, click on add to home screen, it will actually trigger the add to home screen logic."
+    },
+    {
+      "end": "00:10:06.000",
+      "start": "00:09:54.000",
+      "text": " We should always also be able to go to the service worker tab here and take our application offline and still be able to refresh and see that it's working."
+    },
+    {
+      "end": "00:10:17.000",
+      "start": "00:10:06.000",
+      "text": " So hopefully this gave you a good idea of what it's like to turn an application into a progressive web application by adding that manifest file and adding that service worker."
+    },
+    {
+      "end": "00:10:25.000",
+      "start": "00:10:17.000",
+      "text": " Now normally if you're building an app for yourself, you probably don't want to use this very low level API that I just showed you."
+    },
+    {
+      "end": "00:10:46.000",
+      "start": "00:10:26.000",
+      "text": " There are libraries like workbox that I'll link in the show notes below that you can use to kind of simplify this a whole lot and gives you much more tools to do things like manage your cache size and how many, how many images you want to cache or how long you want to keep something in the cache for."
+    },
+    {
+      "end": "00:10:49.000",
+      "start": "00:10:46.000",
+      "text": " Thanks for watching, I hope you enjoyed it, I'll see you later."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "vaadinofficial",
+  "youtube_channel_follower_count": 24200,
+  "youtube_comment_count": 99,
+  "youtube_description": "Part 1 here: https://www.youtube.com/watch?v=mTNdTcwK3MM\n\nThis second part shows you how to turn an existing web app into a PWA using the browser API. Once you understand the ServiceWorker, you can use a library like workbox to help you build a more robust ServiceWorker easier: https://developers.google.com/web/tools/workbox/\n\nCode: https://github.com/marcushellberg/bad-news",
+  "youtube_like_count": 2766,
+  "youtube_tags": [
+    "Vaadin",
+    "pwa",
+    "serviceworker",
+    "javascript",
+    "tutorial"
+  ],
+  "youtube_title": "Turn a web app into a PWA in 10 minutes",
+  "youtube_upload_date": "20181011",
+  "youtube_view_count": 192661
+}

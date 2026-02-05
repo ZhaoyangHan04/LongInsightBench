@@ -1,0 +1,931 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [],
+    "description": "This video presents the development and application of Implicit Displacement Fields for improved 3D shape representation, addressing the limitations of existing methods and introducing novel solutions.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "Their ability to represent high-frequency geometry details is limited by the spectral bias of neural networks.",
+        "question": "What is the main limitation of existing neural implicit functions when representing 3D shapes?"
+      },
+      {
+        "answer": "Spatial partitioning and increasing the signal's frequency.",
+        "question": "What are the two main directions explored in related work to address this limitation?"
+      },
+      {
+        "answer": "It introduces constraints by making the high-frequency signal dependent on the low-frequency base, ensuring more stable optimization.",
+        "question": "How does the proposed Implicit Displacement Field solution address the limitations of the naive approach?"
+      },
+      {
+        "answer": "It avoids the discrete nature of classic methods and allows for a more accurate and robust representation of details.",
+        "question": "What are the advantages of generalizing classic displacement maps to the continuous R3 domain?"
+      },
+      {
+        "answer": "It enables the transfer of learned details to unseen target shapes without requiring parameterization or correspondence mapping, opening up possibilities for shape manipulation and modeling.",
+        "question": "How does the concept of transferability enhance the applicability of Implicit Displacement Fields?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The presentation aims to address the limitations of existing neural implicit shape representations in capturing high-frequency geometric details.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the research topic and authors.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen: Title of research, authors, institution",
+            "timestamp": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "3D shape representation, implicit displacement fields",
+        "timestamps": {
+          "end_timestamp": "00:00:08.100",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Simple white background with black text",
+            "timestamps": {
+              "end_timestamp": "00:00:08.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The presentation emphasizes the need for a novel approach to overcome the limitations of existing methods and achieve high-quality geometric detail reconstruction.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious, Pensive",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift from text to 3D models increases visual engagement.",
+              "timestamp": "00:00:08.133"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the goal of achieving high-fidelity 3D representations and highlights the limitations of existing neural implicit functions.",
+            "timestamp": "00:00:08.133"
+          },
+          {
+            "description": "Presentation of the goal.",
+            "timestamp": "00:00:08.133"
+          },
+          {
+            "description": "Mentioning the theoretical infinite resolution of neural implicit functions.",
+            "timestamp": "00:00:11.000"
+          },
+          {
+            "description": "Highlighting the practical limitations in representing high-frequency geometry details.",
+            "timestamp": "00:00:14.000"
+          },
+          {
+            "description": "Identifying spectral bias of neural networks as the cause of the limitation.",
+            "timestamp": "00:00:20.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen: 'Goal: high-fidelity 3D representation for geometric details'",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:08.133"
+            }
+          },
+          {
+            "name": "Two 3D models of an ornate sculpture, one labeled 'ours' and one labeled 'reference'",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "High-fidelity 3D representation, limitations of existing methods, spectral bias, need for robust, efficient, and accurate reconstruction.",
+        "timestamps": {
+          "end_timestamp": "00:00:32.700",
+          "start_timestamp": "00:00:08.133"
+        },
+        "title": "Motivation and Problem",
+        "videoEditingDetails": [
+          {
+            "description": "Side-by-side comparison of the 3D models, highlighting the achieved level of detail.",
+            "timestamps": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "Smooth transitions between normal maps and the models.",
+            "timestamps": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:15.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene underscores the complexity of the problem and the need for a more sophisticated solution.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Curious, Confused",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to a noisy 3D model highlights the problem of overfitting, introducing a slight negative element.",
+              "timestamp": "00:00:52.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents existing approaches to tackling the problem and explains their limitations.",
+            "timestamp": "00:00:32.733"
+          },
+          {
+            "description": "Introduction of the concept of spatial partitioning.",
+            "timestamp": "00:00:33.000"
+          },
+          {
+            "description": "Highlighting the drawbacks of spatial partitioning, including cubic memory growth.",
+            "timestamp": "00:00:39.000"
+          },
+          {
+            "description": "Discussing the challenges associated with increasing signal frequency, including overfitting and divergence.",
+            "timestamp": "00:00:47.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen: 'Related Work'",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:32.733"
+            }
+          },
+          {
+            "name": "Images of a 3D model of an angel with different file sizes.",
+            "timestamp": {
+              "end_timestamp": "00:00:36.000",
+              "start_timestamp": "00:00:34.000"
+            }
+          },
+          {
+            "name": "Text: 'Geometry resolution' and 'Spatial resolution'.",
+            "timestamp": {
+              "end_timestamp": "00:00:38.000",
+              "start_timestamp": "00:00:36.000"
+            }
+          },
+          {
+            "name": "A curved line representing a signal.",
+            "timestamp": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:39.000"
+            }
+          },
+          {
+            "name": "Two images of a 3D model of a sculpture with increasing detail.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          },
+          {
+            "name": "An image of a 3D model with noise and artifacts.",
+            "timestamp": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:52.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Spatial partitioning, signal frequency, overfitting, divergence, limitations of existing approaches.",
+        "timestamps": {
+          "end_timestamp": "00:00:59.867",
+          "start_timestamp": "00:00:32.733"
+        },
+        "title": "Related Work",
+        "videoEditingDetails": [
+          {
+            "description": "Progression from images of models with increasing detail to one with artifacts, visually demonstrating the challenges.",
+            "timestamps": {
+              "end_timestamp": "00:00:55.000",
+              "start_timestamp": "00:00:42.000"
+            }
+          },
+          {
+            "description": "Use of simple diagrams to illustrate the concept of spatial resolution and signal frequency.",
+            "timestamps": {
+              "end_timestamp": "00:00:41.000",
+              "start_timestamp": "00:00:36.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene highlights the innovative nature of the proposed solution, its ability to overcome limitations of existing approaches, and its potential for efficient and accurate 3D model reconstruction from point cloud data.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Curious, Content",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual comparison of the naive approach and ground truth clearly demonstrates the problem, introducing a temporary negative element.",
+              "timestamp": "00:01:21.000"
+            },
+            {
+              "changeDescription": "Introduction of the solution with a positive tone and improved visuals creates a sense of optimism.",
+              "timestamp": "00:01:34.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the idea of frequency partition, explains the naive approach and its limitations, and presents the solution of Implicit Displacement Field.",
+            "timestamp": "00:01:00.000"
+          },
+          {
+            "description": "Introduction of frequency partition as the core idea.",
+            "timestamp": "00:01:00.000"
+          },
+          {
+            "description": "Explanation of the concept and visual representation of frequency decomposition.",
+            "timestamp": "00:01:07.000"
+          },
+          {
+            "description": "Demonstration of the naive approach and its failure.",
+            "timestamp": "00:01:21.000"
+          },
+          {
+            "description": "Introduction of the Implicit Displacement Field solution.",
+            "timestamp": "00:01:34.000"
+          },
+          {
+            "description": "Highlighting the continuous nature of the proposed field in contrast to existing discrete methods.",
+            "timestamp": "00:01:53.000"
+          },
+          {
+            "description": "Emphasis on the ability to learn from point cloud data without ground truth SDF values.",
+            "timestamp": "00:02:04.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen: 'Idea: frequency partition'",
+            "timestamp": {
+              "end_timestamp": "00:01:05.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "name": "Two spheres, one smooth and one with high-frequency detail.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:05.000"
+            }
+          },
+          {
+            "name": "Diagram illustrating frequency partition with three squares representing a composed surface, base SDF, and displacement.",
+            "timestamp": {
+              "end_timestamp": "00:01:15.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          },
+          {
+            "name": "Graphs representing different frequencies.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:15.000"
+            }
+          },
+          {
+            "name": "Text on screen: 'Naive approach: direct sum', 'Without constraints high-frequency signal causes optimization problems.'",
+            "timestamp": {
+              "end_timestamp": "00:01:25.000",
+              "start_timestamp": "00:01:20.000"
+            }
+          },
+          {
+            "name": "Two 3D models of a dragon, one with artifacts (naive approach) and one clean (ground truth).",
+            "timestamp": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:01:25.000"
+            }
+          },
+          {
+            "name": "Text on screen: 'Solution: Implicit Displacement Field', 'High-frequency signal is dependent on the low-frequency base.'",
+            "timestamp": {
+              "end_timestamp": "00:01:40.000",
+              "start_timestamp": "00:01:35.000"
+            }
+          },
+          {
+            "name": "Graphs representing signal decomposition.",
+            "timestamp": {
+              "end_timestamp": "00:01:45.000",
+              "start_timestamp": "00:01:40.000"
+            }
+          },
+          {
+            "name": "Images of a smooth surface and a detailed surface with displacement mapping.",
+            "timestamp": {
+              "end_timestamp": "00:01:50.000",
+              "start_timestamp": "00:01:45.000"
+            }
+          },
+          {
+            "name": "Text: 'Discrete', 'Defined only on the surface'.",
+            "timestamp": {
+              "end_timestamp": "00:01:55.000",
+              "start_timestamp": "00:01:50.000"
+            }
+          },
+          {
+            "name": "Diagram illustrating implicit displacement field and its inverse.",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:55.000"
+            }
+          },
+          {
+            "name": "Text on screen: 'Generalize classic displacement maps to the continuous R3 domain.', 'Supervision without ground truth SDF to learn from point cloud.'",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "name": "Two 3D models of a dragon's head, showcasing detail improvement.",
+            "timestamp": {
+              "end_timestamp": "00:02:15.000",
+              "start_timestamp": "00:02:10.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Frequency partition, implicit displacement field, classic displacement maps, continuous R3 domain, supervision without ground truth, point cloud learning.",
+        "timestamps": {
+          "end_timestamp": "00:02:18.167",
+          "start_timestamp": "00:00:59.900"
+        },
+        "title": "Proposed Solution",
+        "videoEditingDetails": [
+          {
+            "description": "Transition from simple shapes to complex diagrams and 3D models, gradually explaining the proposed solution.",
+            "timestamps": {
+              "end_timestamp": "00:02:17.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          },
+          {
+            "description": "Use of graphs and diagrams to illustrate concepts like frequency partition, implicit displacement field, and detail transfer.",
+            "timestamps": {
+              "end_timestamp": "00:01:55.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          },
+          {
+            "description": "Side-by-side comparison of the naive approach and the ground truth, highlighting the effectiveness of the proposed solution.",
+            "timestamps": {
+              "end_timestamp": "00:01:30.000",
+              "start_timestamp": "00:01:25.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene emphasizes the practical benefits of the proposed method, including efficient detail representation, ability to transfer details to unseen shapes, and potential for new applications in shape manipulation and modeling.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Excited, Proud",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual shift to high-quality 3D models showcasing detailed results immediately increases excitement.",
+              "timestamp": "00:02:18.200"
+            },
+            {
+              "changeDescription": "Introduction of transferability as a novel application expands the possibilities, adding to the excitement.",
+              "timestamp": "00:02:42.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents results demonstrating the effectiveness of the proposed method, introduces the concept of transferability, and showcases its application in detail transfer.",
+            "timestamp": "00:02:18.200"
+          },
+          {
+            "description": "Presentation of high-quality results, highlighting detail and memory efficiency.",
+            "timestamp": "00:02:18.200"
+          },
+          {
+            "description": "Introduction of transferability as a key feature.",
+            "timestamp": "00:02:42.000"
+          },
+          {
+            "description": "Demonstration of detail transfer application.",
+            "timestamp": "00:02:56.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen: 'Results', 'NGLOD LOD6 (945MB)', 'Ours (3MB)'",
+            "timestamp": {
+              "end_timestamp": "00:02:22.000",
+              "start_timestamp": "00:02:18.200"
+            }
+          },
+          {
+            "name": "Two 3D models of a dragon, showcasing the detail achieved with the proposed method compared to NGLOD.",
+            "timestamp": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:02:22.000"
+            }
+          },
+          {
+            "name": "Close-up images highlighting the details of the dragon models.",
+            "timestamp": {
+              "end_timestamp": "00:02:40.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          },
+          {
+            "name": "Text on screen: 'Transferable', 'Untie the displacement from global coordinates.'",
+            "timestamp": {
+              "end_timestamp": "00:02:45.000",
+              "start_timestamp": "00:02:40.000"
+            }
+          },
+          {
+            "name": "Diagram illustrating the transferability of the implicit displacement field.",
+            "timestamp": {
+              "end_timestamp": "00:02:50.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          },
+          {
+            "name": "Text on screen: 'Application: Detail transfer'.",
+            "timestamp": {
+              "end_timestamp": "00:02:55.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          },
+          {
+            "name": "Six images illustrating detail transfer from a source shape (shorts) to a target shape (shorts).",
+            "timestamp": {
+              "end_timestamp": "00:03:05.000",
+              "start_timestamp": "00:02:56.000"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Detail representation, memory efficiency, transferability, implicit displacement field, detail transfer, no parameterization required.",
+        "timestamps": {
+          "end_timestamp": "00:03:32.433",
+          "start_timestamp": "00:02:18.200"
+        },
+        "title": "Results and Transferability",
+        "videoEditingDetails": [
+          {
+            "description": "Side-by-side comparison of 3D models and close-up images emphasize the detail captured by the proposed method.",
+            "timestamps": {
+              "end_timestamp": "00:02:40.000",
+              "start_timestamp": "00:02:18.200"
+            }
+          },
+          {
+            "description": "Smooth transitions between models and diagrams to illustrate the concepts of transferability and detail transfer.",
+            "timestamps": {
+              "end_timestamp": "00:02:55.000",
+              "start_timestamp": "00:02:45.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene reinforces the significance of the research, highlighting its impact on the field of 3D shape representation and modeling.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Content, Proud",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Summarizes the research's key achievements and contributions.",
+            "timestamp": "00:03:32.467"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen: 'Implicit Displacement Field in summary'",
+            "timestamp": {
+              "end_timestamp": "00:03:35.000",
+              "start_timestamp": "00:03:32.467"
+            }
+          },
+          {
+            "name": "A 3D model of an ornate sculpture, similar to the one shown in Scene 2.",
+            "timestamp": {
+              "end_timestamp": "00:03:37.000",
+              "start_timestamp": "00:03:35.000"
+            }
+          },
+          {
+            "name": "Bullet points summarizing the key aspects of the research.",
+            "timestamp": {
+              "end_timestamp": "00:03:55.000",
+              "start_timestamp": "00:03:37.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Implicit displacement field, extension of classic displacement mapping, unsupervised frequency decomposition, transferability, implicit geometry manipulation, shape modeling.",
+        "timestamps": {
+          "end_timestamp": "00:04:02.200",
+          "start_timestamp": "00:03:32.467"
+        },
+        "title": "Summary",
+        "videoEditingDetails": [
+          {
+            "description": "Simple visual with summarized text emphasizes the key takeaways.",
+            "timestamps": {
+              "end_timestamp": "00:04:01.000",
+              "start_timestamp": "00:03:32.467"
+            }
+          },
+          {
+            "description": "Use of bullet points for easy readability.",
+            "timestamps": {
+              "end_timestamp": "00:03:55.000",
+              "start_timestamp": "00:03:37.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Grateful",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Concludes the presentation.",
+            "timestamp": "00:04:02.233"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text on screen: 'Thank you'",
+            "timestamp": {
+              "end_timestamp": "00:04:04.000",
+              "start_timestamp": "00:04:02.233"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:04:04.333",
+          "start_timestamp": "00:04:02.233"
+        },
+        "title": "Thank You",
+        "videoEditingDetails": [
+          {
+            "description": "Simple white background with black text",
+            "timestamps": {
+              "end_timestamp": "00:04:04.000",
+              "start_timestamp": "00:04:02.233"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs in Scene 5 (2:17) with the presentation of impressive results showcasing the method's effectiveness.",
+        "timestamp": "00:02:17.000"
+      },
+      "description": "The presentation focuses on the development and application of Implicit Displacement Fields for improved 3D shape representation.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Video Analysis: Geometry-Consistent Neural Shape Representation with Implicit Displacement Fields",
+    "trimmingSuggestions": [
+      {
+        "description": "The summary scene (Scene 6) could potentially be shortened or integrated with the final 'Thank you' slide.",
+        "timestamps": {
+          "end_timestamp": "00:04:02.233",
+          "start_timestamp": "00:04:02.233"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 244,
+  "original_json_filename": "fl4Rje8HM3I.json",
+  "original_video_filename": "fl4Rje8HM3I.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "we present implicit displacement fields novel neural implicit representation for detailed 3d geometries neural implicit functions have theoretically infinite resolution but in practice a variability to represent high frequency geometry details is limited by neural network's spectral bias this work aims to reformulate the existing neural implicit shape representation for more robust efficient and accurate geometry detail reconstruction one direction to tackle this issue focuses on spatial partition but doing so makes the geometry resolution dependent on the spatial resolution incurring cubic memory growth the other direction focuses on increasing the signal's frequency but high frequency signals are extremely difficult to optimize often fall into overfitting local minima and even divergence our idea is to decompose a surface into a smooth base and a high frequency displacement in particular we make the separation happen automatically by utilizing periodic activation functions and setting the frequency parameters for the base and displacement respectively lower and higher but this is not all naively adding a low and high frequency parts together leads to very bad result as the high frequency component causes optimization problems in lack of constraints our solution is inspired by the classic shape deformation technique displacement mapping which creates detailed surface from a smooth one by displacing sample points along the normal directions obviously though this definition is discrete and is defined only on the surface hence our work proposes a theoretically grounded extension to generalize classic displacement maps to the continuous r3 domain we pay extra attention in a formulation to avoid requiring ground truth sdf values for supervision such that we can directly learn from the point cloud by solving iconon equation and boundary constraints combining this idea with a few other architectural and training optimizations that we introduce in our paper our model outperforms the state-of-the-art method in detailed representation while having only a fraction of parameters furthermore we also explore the transferability of the implicit displacement field by untying the displacement prediction from the global coordinates with a carefully constructed transferable feature one application of this is detail transfer for example given the detailed source shape on the left we learn a transferable displacement field to capture its surface details once trained this detail can be transferred to a new unseen target by simply swapping the base shapes no parameterization nor correspondence mapping is required compared to existing detail transfer with explicit representation implicit shape editing bypasses common artifacts such as self-intersections in summary we propose implicit displacement fields which extend explicit discrete displacement mapping to implicit formulation in doing so we achieve frequency-based geometry decomposition in an unsupervised manner lastly we introduce transferability to implicit displacement fields thus opening new opportunities for implicit geometry manipulation and shape modeling thank you for your attention",
+  "text_to_speech_word_count": 458,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.533",
+      "start": "00:00:00.000",
+      "text": " We present implicit displacement fields, novel neuro-implicit representation for detailed"
+    },
+    {
+      "end": "00:00:08.833",
+      "start": "00:00:06.533",
+      "text": " 3D geometries."
+    },
+    {
+      "end": "00:00:15.033",
+      "start": "00:00:08.833",
+      "text": " Neuro-implicit functions have theoretically infinite resolution, but in practice, a variability"
+    },
+    {
+      "end": "00:00:22.033",
+      "start": "00:00:15.033",
+      "text": " to represent high-friculty geometry details is limited by neural network spectral bias."
+    },
+    {
+      "end": "00:00:28.500",
+      "start": "00:00:22.033",
+      "text": " This work aims to reformulate the existing neuro-implicit shift representation for more robust,"
+    },
+    {
+      "end": "00:00:33.933",
+      "start": "00:00:28.500",
+      "text": " efficient and accurate geometry-detail reconstruction."
+    },
+    {
+      "end": "00:00:40.433",
+      "start": "00:00:33.933",
+      "text": " One direction the TACOVS issue focuses on spatial partition, but doing so makes the geometry"
+    },
+    {
+      "end": "00:00:46.900",
+      "start": "00:00:40.433",
+      "text": " resolution dependent on the spatial resolution, incurring cubic memory growth."
+    },
+    {
+      "end": "00:00:52.633",
+      "start": "00:00:46.900",
+      "text": " The other direction focuses on increasing a signal's frequency, but high-friculty signals"
+    },
+    {
+      "end": "00:00:58.533",
+      "start": "00:00:52.633",
+      "text": " are extremely difficult to optimize, often falling to overfitting low-communima and even"
+    },
+    {
+      "end": "00:01:00.833",
+      "start": "00:00:58.533",
+      "text": " divergence."
+    },
+    {
+      "end": "00:01:07.733",
+      "start": "00:01:00.833",
+      "text": " Our idea is to decompose a surface into a smooth base and a high-friculty displacement."
+    },
+    {
+      "end": "00:01:13.533",
+      "start": "00:01:07.733",
+      "text": " In particular, we make this separation happen automatically by utilizing periodic activation"
+    },
+    {
+      "end": "00:01:19.033",
+      "start": "00:01:13.533",
+      "text": " functions and setting the frequency parameters for the base and displacement respectively"
+    },
+    {
+      "end": "00:01:21.800",
+      "start": "00:01:19.033",
+      "text": " lower and higher."
+    },
+    {
+      "end": "00:01:23.367",
+      "start": "00:01:21.800",
+      "text": " So this is not all."
+    },
+    {
+      "end": "00:01:28.867",
+      "start": "00:01:23.367",
+      "text": " Now you can add in a low and high-friculty parts together leads to a very bad result,"
+    },
+    {
+      "end": "00:01:35.533",
+      "start": "00:01:28.867",
+      "text": " as the high-frequency component causes optimization problems in lack of constraints."
+    },
+    {
+      "end": "00:01:41.533",
+      "start": "00:01:35.533",
+      "text": " Our solution is inspired by a classic shape deformation technique, displacement mapping,"
+    },
+    {
+      "end": "00:01:46.267",
+      "start": "00:01:41.533",
+      "text": " which creates detailed surface from a smooth one by displacing sample points along the"
+    },
+    {
+      "end": "00:01:47.867",
+      "start": "00:01:46.267",
+      "text": " normal directions."
+    },
+    {
+      "end": "00:01:54.733",
+      "start": "00:01:48.167",
+      "text": " Obviously though, this definition is discrete and is defined only on the surface."
+    },
+    {
+      "end": "00:02:01.000",
+      "start": "00:01:54.733",
+      "text": " Hence our work proposes a theoretically grounded extension to generalize classic displacement"
+    },
+    {
+      "end": "00:02:04.600",
+      "start": "00:02:01.000",
+      "text": " maps to the continuous R3 domain."
+    },
+    {
+      "end": "00:02:09.933",
+      "start": "00:02:04.600",
+      "text": " We pay extra attention in a formulation to avoid requiring ground truth SDF values for"
+    },
+    {
+      "end": "00:02:15.133",
+      "start": "00:02:09.933",
+      "text": " supervision, such that we can directly learn from the point cloud by solving an economic"
+    },
+    {
+      "end": "00:02:19.767",
+      "start": "00:02:15.133",
+      "text": " equation and boundary constraints."
+    },
+    {
+      "end": "00:02:25.700",
+      "start": "00:02:19.767",
+      "text": " Combining this idea with a few other architectural and training optimizations that we introduce"
+    },
+    {
+      "end": "00:02:31.700",
+      "start": "00:02:25.700",
+      "text": " in our paper, our model outperforms the state of the art method in detailed representation"
+    },
+    {
+      "end": "00:02:37.133",
+      "start": "00:02:31.700",
+      "text": " while having only a fraction of parameters."
+    },
+    {
+      "end": "00:02:48.833",
+      "start": "00:02:37.767",
+      "text": " Furthermore, we also explore the transferability of the implicit displacement field by untying"
+    },
+    {
+      "end": "00:02:53.467",
+      "start": "00:02:48.833",
+      "text": " the displacement prediction from the global coordinates with a carefully constructed"
+    },
+    {
+      "end": "00:02:56.833",
+      "start": "00:02:53.467",
+      "text": " transferable feature."
+    },
+    {
+      "end": "00:03:00.333",
+      "start": "00:02:56.833",
+      "text": " One application of this is detailed transfer."
+    },
+    {
+      "end": "00:03:06.133",
+      "start": "00:03:00.333",
+      "text": " For example, given the detailed source shape on the left, we learn a transferable displacement"
+    },
+    {
+      "end": "00:03:09.667",
+      "start": "00:03:06.467",
+      "text": " field to capture its surface details."
+    },
+    {
+      "end": "00:03:15.033",
+      "start": "00:03:09.667",
+      "text": " Once trained, this detail can be transferred to a new unseen target by simply swapping the"
+    },
+    {
+      "end": "00:03:21.667",
+      "start": "00:03:15.033",
+      "text": " base shapes. No parameterization nor corresponding mapping is required."
+    },
+    {
+      "end": "00:03:26.400",
+      "start": "00:03:21.667",
+      "text": " Compared to existing detailed transfer with explicit representation,"
+    },
+    {
+      "end": "00:03:31.667",
+      "start": "00:03:26.400",
+      "text": " implicit shape editing bypasses common artifacts such as self-intersections."
+    },
+    {
+      "end": "00:03:40.233",
+      "start": "00:03:32.533",
+      "text": " In summary, we propose implicit displacement fields, which extend explicit discrete"
+    },
+    {
+      "end": "00:03:46.133",
+      "start": "00:03:40.233",
+      "text": " displacement mapping to implicit formulation. In doing so, we achieve frequency-based"
+    },
+    {
+      "end": "00:03:49.433",
+      "start": "00:03:46.133",
+      "text": " geometry decomposition in an unsupervised manner."
+    },
+    {
+      "end": "00:03:56.400",
+      "start": "00:03:50.533",
+      "text": " Lastly, we introduce transferability to implicit displacement fields, thus opening new"
+    },
+    {
+      "end": "00:04:00.867",
+      "start": "00:03:56.400",
+      "text": " opportunities for implicit geometry manipulation and shape modeling."
+    },
+    {
+      "end": "00:04:04.233",
+      "start": "00:04:02.467",
+      "text": " Thank you for your attention."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Yifan Wang",
+  "youtube_channel_follower_count": 73,
+  "youtube_comment_count": 0,
+  "youtube_description": "Accompanying video for paper \"Geometry-Consistent Neural Shape Representation with Implicit Displacement Fields\"",
+  "youtube_like_count": 30,
+  "youtube_tags": [
+    "neural implicit functions",
+    "3D shape",
+    "shape representation"
+  ],
+  "youtube_title": "Implicit Displacement Field",
+  "youtube_upload_date": "20210609",
+  "youtube_view_count": 1393
+}

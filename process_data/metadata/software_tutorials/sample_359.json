@@ -1,0 +1,1047 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "shane-whittington",
+        "description": "Narrator and demonstrator. Appears as a caucasian male with brown hair. Sometimes appears as a meme image of Robert Downey Junior.",
+        "name": "Shane Whittington"
+      }
+    ],
+    "description": "A video tutorial demonstrating techniques to break up tiling textures in Unreal Engine 5, presented by Shane Whittington.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "T_MacroVariation.",
+        "question": "What is the name of the texture Shane uses for the micro-variation blend?"
+      },
+      {
+        "answer": "0.5.",
+        "question": "What default value does Shane set for the 'NoiseContrast' parameter?"
+      },
+      {
+        "answer": "To prevent the textures from looking too tiled when viewed in the distance.",
+        "question": "Why does Shane change the tiling of the textures based on distance from the camera?"
+      },
+      {
+        "answer": "Pixel Depth node.",
+        "question": "What node does Shane use to calculate the distance from the camera?"
+      },
+      {
+        "answer": "The noise creates darker patches, making the grass texture look more natural and less uniform.",
+        "question": "How does the addition of noise affect the overall appearance of the grass texture?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Shane explains how poorly executed tiling textures can ruin game immersion.",
+            "timestamp": {
+              "end_timestamp": "00:00:07.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Shane introduces the topic, himself, and the four techniques he will be demonstrating.",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:07.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Shane Whittington"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Shane Whittington"
+            ],
+            "description": "Shane introduces himself and the topic."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Curious). Visuals are simple and informative. Shane's tone is conversational and engaging.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the problem and the solution.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The solution: four techniques for breaking up tiling.",
+            "timestamp": "00:00:14.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Game footage demonstrating bad tiling textures.",
+            "timestamp": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "name": "Animated comparison of various grass textures showing different levels of tiling.",
+            "timestamp": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "The importance of good tiling techniques in game development.",
+        "timestamps": {
+          "end_timestamp": "00:00:32.667",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Explanation",
+        "videoEditingDetails": [
+          {
+            "description": "Title card with a blue background and text “BREAK UP TILING TEXTURES IN UNREAL ENGINE 5”.",
+            "timestamps": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Game footage is outlined with yellow boxes to highlight bad tiling.",
+            "timestamps": {
+              "end_timestamp": "00:00:12.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "Text labels 'Bad Texture', 'Seamless Texture', 'Microvariation', 'MacrovariationNoise' appear over each corresponding grass texture.",
+            "timestamps": {
+              "end_timestamp": "00:00:32.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Shane shows a bad grass texture and explains the importance of seamless textures.",
+            "timestamp": {
+              "end_timestamp": "00:00:45.000",
+              "start_timestamp": "00:00:32.700"
+            }
+          },
+          {
+            "description": "Shane searches for and downloads a seamless grass texture from Megascans.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "description": "Shane imports the textures into Unreal Engine and creates a material with the new texture.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          },
+          {
+            "description": "Shane compares the seamless texture to the bad texture.",
+            "timestamp": {
+              "end_timestamp": "00:01:38.000",
+              "start_timestamp": "00:01:23.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Shane Whittington"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Shane Whittington"
+            ],
+            "description": "Shane demonstrates seamless texture usage."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Curious). Visuals focus on practical demonstration. Shane's tone remains calm and instructional.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the first technique (seamless textures) and its effectiveness.",
+            "timestamp": "00:00:32.700"
+          },
+          {
+            "description": "Shane starts looking for a seamless texture.",
+            "timestamp": "00:00:45.000"
+          },
+          {
+            "description": "Shane imports the new texture.",
+            "timestamp": "00:01:10.000"
+          },
+          {
+            "description": "Shane compares the new texture to the bad texture.",
+            "timestamp": "00:01:23.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unreal Engine editor.",
+            "timestamp": {
+              "end_timestamp": "00:01:38.000",
+              "start_timestamp": "00:00:32.700"
+            }
+          },
+          {
+            "name": "Megascans website.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:45.000"
+            }
+          },
+          {
+            "name": "Sphere displaying the various textures.",
+            "timestamp": {
+              "end_timestamp": "00:01:38.000",
+              "start_timestamp": "00:00:32.700"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Practical application of game development techniques.",
+        "timestamps": {
+          "end_timestamp": "00:01:38.000",
+          "start_timestamp": "00:00:32.700"
+        },
+        "title": "Seamless Textures",
+        "videoEditingDetails": [
+          {
+            "description": "A window pops up saying 'Texture: [filename] was imported as a normal map.'",
+            "timestamps": {
+              "end_timestamp": "00:01:12.000",
+              "start_timestamp": "00:01:10.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Shane adds a 'MicroTiling' scalar parameter to control texture tiling.",
+            "timestamp": {
+              "end_timestamp": "00:02:02.000",
+              "start_timestamp": "00:01:38.033"
+            }
+          },
+          {
+            "description": "Shane adds a 'MicroTint' parameter to control color variation and sets its default value to white.",
+            "timestamp": {
+              "end_timestamp": "00:02:21.000",
+              "start_timestamp": "00:02:02.000"
+            }
+          },
+          {
+            "description": "Shane creates two groups for color variation using a black and white texture.",
+            "timestamp": {
+              "end_timestamp": "00:02:55.000",
+              "start_timestamp": "00:02:21.000"
+            }
+          },
+          {
+            "description": "Shane adds a 'MicroVariationTiling' parameter and blends color variations.",
+            "timestamp": {
+              "end_timestamp": "00:03:15.000",
+              "start_timestamp": "00:02:55.000"
+            }
+          },
+          {
+            "description": "Shane sets up a blend using a linear interpolate node.",
+            "timestamp": {
+              "end_timestamp": "00:03:42.000",
+              "start_timestamp": "00:03:15.000"
+            }
+          },
+          {
+            "description": "Shane applies the material and analyzes the result, showing the effect of micro variation.",
+            "timestamp": {
+              "end_timestamp": "00:04:17.000",
+              "start_timestamp": "00:03:42.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Shane Whittington"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Shane Whittington"
+            ],
+            "description": "Shane explains and demonstrates micro variation."
+          }
+        ],
+        "contextualRelevance": "The 'Oops!' meme suggests that even experienced developers make mistakes, making the tutorial relatable.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Curious) - Continues with practical demonstration, a lighthearted moment with the 'Oops!' meme adds a touch of humor.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the second technique (micro variation) and its impact on breaking up tiling.",
+            "timestamp": "00:01:38.033"
+          },
+          {
+            "description": "Shane begins adding micro variation parameters.",
+            "timestamp": "00:02:55.000"
+          },
+          {
+            "description": "Shane introduces a black and white texture for blending.",
+            "timestamp": "00:03:42.000"
+          },
+          {
+            "description": "Shane applies the material and shows the results.",
+            "timestamp": "00:03:42.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unreal Engine editor.",
+            "timestamp": {
+              "end_timestamp": "00:04:17.000",
+              "start_timestamp": "00:01:38.033"
+            }
+          },
+          {
+            "name": "Sphere displaying the various textures.",
+            "timestamp": {
+              "end_timestamp": "00:04:17.000",
+              "start_timestamp": "00:01:38.033"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "The importance of detail and nuance in creating realistic textures.",
+        "timestamps": {
+          "end_timestamp": "00:04:17.000",
+          "start_timestamp": "00:01:38.033"
+        },
+        "title": "Micro Variation",
+        "videoEditingDetails": [
+          {
+            "description": "A meme image of Robert Downey Jr. with the caption 'Oops!' briefly appears.",
+            "timestamps": {
+              "end_timestamp": "00:02:44.000",
+              "start_timestamp": "00:02:43.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Shane adds noise to the material using a 'MacroVariationNoise' group.",
+            "timestamp": {
+              "end_timestamp": "00:04:56.000",
+              "start_timestamp": "00:04:17.033"
+            }
+          },
+          {
+            "description": "Shane adds a 'NoiseContrast' parameter to control noise intensity.",
+            "timestamp": {
+              "end_timestamp": "00:05:33.000",
+              "start_timestamp": "00:04:56.000"
+            }
+          },
+          {
+            "description": "Shane adds distance-controlled tiling with different tiling parameters.",
+            "timestamp": {
+              "end_timestamp": "00:06:29.000",
+              "start_timestamp": "00:05:33.000"
+            }
+          },
+          {
+            "description": "Shane sets up a blend using Pixel Depth and subtract nodes.",
+            "timestamp": {
+              "end_timestamp": "00:07:13.000",
+              "start_timestamp": "00:06:29.000"
+            }
+          },
+          {
+            "description": "Shane adds a clamp node to control blending range and tidies up comments.",
+            "timestamp": {
+              "end_timestamp": "00:08:00.000",
+              "start_timestamp": "00:07:13.000"
+            }
+          },
+          {
+            "description": "Shane demonstrates the effect of distance-controlled tiling.",
+            "timestamp": {
+              "end_timestamp": "00:09:14.000",
+              "start_timestamp": "00:08:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Shane Whittington"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Shane Whittington"
+            ],
+            "description": "Shane demonstrates advanced techniques for breaking up tiling."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral (Curious). Focused on demonstrating advanced techniques with an instructional tone.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Demonstrating the final two techniques (macro variation noise and distance-controlled tiling).",
+            "timestamp": "00:04:17.033"
+          },
+          {
+            "description": "Shane introduces macro variation noise.",
+            "timestamp": "00:05:33.000"
+          },
+          {
+            "description": "Shane starts setting up distance-controlled tiling.",
+            "timestamp": "00:08:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Unreal Engine editor.",
+            "timestamp": {
+              "end_timestamp": "00:09:14.000",
+              "start_timestamp": "00:04:17.033"
+            }
+          },
+          {
+            "name": "Sphere displaying the various textures.",
+            "timestamp": {
+              "end_timestamp": "00:05:33.000",
+              "start_timestamp": "00:04:17.033"
+            }
+          },
+          {
+            "name": "Two landscapes showcasing the texture with different tiling settings.",
+            "timestamp": {
+              "end_timestamp": "00:09:14.000",
+              "start_timestamp": "00:05:33.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "The value of mastering advanced techniques for professional-level game art.",
+        "timestamps": {
+          "end_timestamp": "00:09:14.000",
+          "start_timestamp": "00:04:17.033"
+        },
+        "title": "Macro Variation Noise and Distance Controlled Tiling",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Shane concludes the tutorial and asks viewers for feedback.",
+            "timestamp": {
+              "end_timestamp": "00:09:24.000",
+              "start_timestamp": "00:09:14.033"
+            }
+          },
+          {
+            "description": "Shane encourages viewers to subscribe and support him on Patreon.",
+            "timestamp": {
+              "end_timestamp": "00:09:45.000",
+              "start_timestamp": "00:09:24.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.7,
+        "cast": [
+          "Shane Whittington"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Shane Whittington"
+            ],
+            "description": "Shane concludes and calls to action."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Neutral (Content). Concludes with a positive, appreciative tone.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Conclusion of the tutorial with a call to action for continued engagement.",
+            "timestamp": "00:09:14.033"
+          },
+          {
+            "description": "Shane thanks viewers for watching.",
+            "timestamp": "00:09:24.000"
+          },
+          {
+            "description": "Shane encourages subscriptions and Patreon support.",
+            "timestamp": "00:09:33.000"
+          }
+        ],
+        "props": [],
+        "sceneId": 5,
+        "thematicElements": "Building a community around game development knowledge sharing.",
+        "timestamps": {
+          "end_timestamp": "00:09:45.433",
+          "start_timestamp": "00:09:14.033"
+        },
+        "title": "Outro and Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "End screen with red and blue background with text “FAIREON SUPPORTERS”, “NEXT VIDEO” and a list of Patreon supporters.",
+            "timestamps": {
+              "end_timestamp": "00:09:45.000",
+              "start_timestamp": "00:09:24.000"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Scene 4 where the final result of the combined techniques is showcased.",
+        "timestamp": "00:08:00.000"
+      },
+      "description": "The video tutorial on breaking up tiling textures with Shane Whittington.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "title": "Break Up Tiling Textures in Unreal Engine 5",
+    "trimmingSuggestions": [
+      {
+        "description": "The game footage demonstrating bad tiling could be shortened as it is relatively long and repetitive.",
+        "timestamps": {
+          "end_timestamp": "00:09:14.033",
+          "start_timestamp": "00:09:14.033"
+        }
+      },
+      {
+        "description": "The segment showing Shane searching for a texture on the Megascans website could be trimmed.",
+        "timestamps": {
+          "end_timestamp": "00:09:14.033",
+          "start_timestamp": "00:09:14.033"
+        }
+      },
+      {
+        "description": "The end screen listing all Patreon supporters could be shortened or displayed as text on screen while Shane speaks.",
+        "timestamps": {
+          "end_timestamp": "00:09:45.000",
+          "start_timestamp": "00:09:24.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 585,
+  "original_json_filename": "zY8AtjM2Jxg.json",
+  "original_video_filename": "zY8AtjM2Jxg.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "tiling textures are a staple of game art but when it's done badly it can really ruin the sense of immersion in a game you're a good game artist though and you want to make sure your talent textures don't actually look like hot garbage well then my friend you have come to the right place I'm Shane this is Game Dev Academy and in this week's class I'll give you four Pro techniques for breaking up the tiling in your textures you can stack each of these techniques up to make it so that your textures don't even look tiled at all so make sure you stick around to the end of the video to get the full effect if your textures look really tiled the first thing you should do is make sure that the texture is actually seamless this means that the colors at the edges of the texture will match up when it's repeated in both the X and Y Direction in this example here you can see that the seams are very noticeable and that's because I've purposefully chosen a texture that I know isn't seamless here it is on Google image search in all of its unseamless Glory let's swap this out for a seamless texture then to show the difference it can make I'm going to go to Mega scans as I know that all of their textures are seamless I'll search for a wild guess material that I like the look of and then download it next I'll need to import the textures into a real engine and then I'll create a new material for the wild grass I'll just add the base color and normal textures and then also add a constant for the roughness and that's all I need to do this material is identical to the one I created with the texture that isn't seamless so let's see what a difference using good seamless textures makes and as you can see this already looks way better than the original now we'll add some micro variation to our material to break up the tiling even more the first thing I want to do for this is to add the ability to tile the texture by differing amounts so to do that I'll add in a texture coordinate node and multiply it by a scalar parameter which I will call Micro tiling I'll set the default value of this to 0.5 as I think this gives a better result by default next I'll add in the ability to add a tint to the color with a vector parameter which I'll call Micro tint and then multiply that by the texture for the base color I just need to make sure I set the default color of this to White by default which means it won't change the color unless I change this value now I'll stick all of this into a comment and then copy and paste everything down here I'll change the name in the comment to micro color variation then I'll replace the scalar parameter and call the new one micro variation tiling I should also have changed the default value of this parameter to 0.5 but I forgot to do this when I was recording the video now I need to change the name of the vector parameter to micro variation tint and then I'll take the green channel of the graph texture to multiply this by now I can change the value of the micro variation tint to a pale yellow color now I have a microcolor and micro color variation I need a pleasing way to blend between them for this I'll create a new texture sample and the texture I'm going to use is called T underscore macro variation which is available in the Unreal Engine starter content I want to have control over how this texture tiles so I'll create another texture coordinate node and multiply this by a scalar which I will call Micro variation Alpha tiling and I'll set the default value of this to 0.01 now for the blend I will create a linear interpolate node and then I can plug in the red channel of the result of the micro variation blend to drive the transition between the two variations then I'll set the result of our micro color 2A and the result of our micro color variation to B and then finally take the result of the alert and plug it into our base color now I'll save it and check out the result once it's applied you can see that the tailing is broken up by the difference between the two variations and that I can also use the material instance to change the color of the tints to keep the transition from being too jarring so this looks better again and this is even before I remember to go back and set the default tiling value for the micro variation now I'll break up the tiling even further by adding some noise to the material in the form of Darker patches of the grass I'll go back into the material and then create another texture sample using the T underscore macro variation by cupping and pasting the one I already have next I'll put it in a texture coordinate node and multiply it by a constant which I'll set to a value of 0.005 then I'll make a copy of all that and set the value of the constant on this one to 0.0015 just control the brightness of these textures I'll take the red channel of each and add 0.5 to it and then I'll multiply the results together then I'll stick it all into a comment named macro variation noise now I'll just give myself control over the contrast of the Noise by creating a scalar parameter called noise contrast I'll set the default value to 0.5 and then put this into the a input of alert I'll leave B set to 1 and then I'll take the result of our macro variation noise and plug it into the alpha of the alert now I can add a quick comment neaten things up a little and then multiply the result of our macro variation Noise by everything we already had going into the base color now I can take a look at the result and compare it to our previous work straight away you can see the difference but I'll just match the tint colors to the previous material to get a better comparison and then you can see the effect that the macro variation noise is having more clearly if I change the value of the noise contrast parameter at this stage it's almost impossible to tell that this material is made up of the same tile and texture even with all the variation we've added to the material so far the textures can still look tiled on large environments when you're viewing them in the distance I've created a nice long strip of landscape to illustrate that here to solve this issue we'll make it so that the towing of the material can be changed when it's further away from the camera I'll go back into my material for one final time and then select the micro color micro color variation and micro variation blend groups and put them into a comment which I'll call near then I'll select everything in that comment and copy and paste them below the originals then I'll rename this comment too far now I replace and rename the parameters of everything in the file group so I'll call this far tiling and this one far variation tiling it's also at this stage that I realized that I had forgotten to set the default value of the micro variation tiling so I corrected that now and then I set the far tiling to 0.05 and the fart variation tiling to 0.05 next I went to the micro variation blend in the far comment replace the scalar parameter and named it far variation Alpha tiling and set the default value of this to 0.001 I also change the name of the tint to far tint and far variation tint next I created alert and connected everything for the far part of the material up to it now I just need a way to show the near textures up close the far textures far away and to blend between them smoothly to do that I'll create a pixel depth node and then from that I'll create a subtract node into B of the subtract I'll create a scalar call it far distance and set the default value to 5000. now I'll come out of the subtract and create a divide I'll create a scalar to go into B of the Divide call it far fade amount and then set this value to 7500. now I'll take the result of the divide and create a clump leaving the values at 0 and 1 to make sure that I get black and white values which I can use to drive a loop I'll stick this into a comment and just to show you what this does I'll plug it straight into the base color and then apply the material to the other landscape over here as you can see close to the camera the color is black further away it's white and there is a smooth gradient fading between the two colors black will be where we have our near textures and white will be our far textures let's set it up so back in the material I'll put everything back as it was and then create a new alert then I'll take the result of the lurp from the near group and plug this into a and take the result of the alert from the file group and plug this into B and lastly I'll take the result of the crate gradient far from camera group and plug this into the alpha I'll then take the result of the loop and put this into the B input of the multiply which adds a noise and that's everything I need to do so I'll save the material create an instance and then apply it to the second landscape next I'll just match up the colors for the tint to get a better comparison and then using the material instance I can change the values for a far distance and the far fade amount parameters to get a result that looks like this and that is everything I have to teach you for today I hope you found all of this useful and if you have be an absolute G and give that Thumbs Up Button a thorough spanking if you want to get more from Game Dev Academy then please subscribe and also consider supporting my work on patreon the link for this can be found in the description below the video for my next video I am considering creating a devlog for a PS1 style horror game that I've started making in a small amount of free time that I get let me know if you want to see that video in the comments thanks so much for watching and I'll see you next time",
+  "text_to_speech_word_count": 1894,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:07.000",
+      "start": "00:00:00.000",
+      "text": " Tiling textures are a staple of game art, but when it's done badly it can really ruin the sense of immersion in a game."
+    },
+    {
+      "end": "00:00:13.000",
+      "start": "00:00:07.000",
+      "text": " You're a good game artist though, and you want to make sure your tiling textures don't actually look like hot garbage."
+    },
+    {
+      "end": "00:00:23.000",
+      "start": "00:00:13.000",
+      "text": " Well then my friend, you have come to the right place. I'm Shane, this is Game Dev Academy and in this week's class I'll give you 4 pro techniques for breaking up the tiling in your textures."
+    },
+    {
+      "end": "00:00:33.000",
+      "start": "00:00:24.000",
+      "text": " You can stack each of these techniques up to make it so that your textures don't even look tile-to-tile, so make sure you stick around to the end of the video to get the full effect."
+    },
+    {
+      "end": "00:00:39.000",
+      "start": "00:00:33.000",
+      "text": " If your textures look really tile, the first thing you should do is make sure that the texture is actually seamless."
+    },
+    {
+      "end": "00:00:45.000",
+      "start": "00:00:39.000",
+      "text": " This means that the colours at the edges of the texture will match up when it's repeated in both the x and y direction."
+    },
+    {
+      "end": "00:00:53.000",
+      "start": "00:00:46.000",
+      "text": " In this example here you can see that the seams are very noticeable, and that's because I've purposefully chosen a texture that I know isn't seamless."
+    },
+    {
+      "end": "00:00:57.000",
+      "start": "00:00:53.000",
+      "text": " Here it is on Google Image Search in all of its unseamless glory."
+    },
+    {
+      "end": "00:01:01.000",
+      "start": "00:00:57.000",
+      "text": " Let's swap this out for a seamless texture then to show the difference it can make."
+    },
+    {
+      "end": "00:01:09.000",
+      "start": "00:01:01.000",
+      "text": " I'm going to go to Megascans as I know that all of their textures are seamless. I'll search for a wildgrass material that I like to look of and then download it."
+    },
+    {
+      "end": "00:01:15.000",
+      "start": "00:01:10.000",
+      "text": " Next I'll need to import the textures into a real engine and then I'll create a new material for the wildgrass."
+    },
+    {
+      "end": "00:01:21.000",
+      "start": "00:01:15.000",
+      "text": " I'll just add the base colour and normal textures and then also add a constant for the roughness."
+    },
+    {
+      "end": "00:01:23.000",
+      "start": "00:01:21.000",
+      "text": " And that's all I need to do."
+    },
+    {
+      "end": "00:01:32.000",
+      "start": "00:01:23.000",
+      "text": " This material is identical to the one I created with the texture that isn't seamless, so let's see what a difference using good seamless textures makes."
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:32.000",
+      "text": " And as you can see, this already looks way better than the original."
+    },
+    {
+      "end": "00:01:43.000",
+      "start": "00:01:38.000",
+      "text": " Now we'll add some micro variation to our material to break up the tiling even more."
+    },
+    {
+      "end": "00:01:48.000",
+      "start": "00:01:43.000",
+      "text": " The first thing I want to do for this is to add the ability to tile the texture by differing amounts."
+    },
+    {
+      "end": "00:01:56.000",
+      "start": "00:01:48.000",
+      "text": " So to do that I'll add in a texture coordinate node and multiply it by a scalar parameter which I will call micro tiling."
+    },
+    {
+      "end": "00:02:02.000",
+      "start": "00:01:56.000",
+      "text": " I'll set the default value of this to 0.5 as I think this gives a better result by default."
+    },
+    {
+      "end": "00:02:13.000",
+      "start": "00:02:02.000",
+      "text": " Next I'll add in the ability to add a tint to the colour with a vector parameter which I'll call micro tint and then multiply that by the texture for the base colour."
+    },
+    {
+      "end": "00:02:22.000",
+      "start": "00:02:13.000",
+      "text": " I just need to make sure I set the default colour of this to white by default which means it won't change the colour unless I change this value."
+    },
+    {
+      "end": "00:02:27.000",
+      "start": "00:02:22.000",
+      "text": " Now I'll stick all of this into a comment and then copy and paste everything down here."
+    },
+    {
+      "end": "00:02:37.000",
+      "start": "00:02:27.000",
+      "text": " I'll change the name in the comment to micro colour variation then I'll replace the scalar parameter and call the new one micro variation tiling."
+    },
+    {
+      "end": "00:02:45.000",
+      "start": "00:02:37.000",
+      "text": " I should also have changed the default value of this parameter to 0.5 but I forgot to do this when I was recording the video."
+    },
+    {
+      "end": "00:02:54.000",
+      "start": "00:02:45.000",
+      "text": " Now I need to change the name of the vector parameter to micro variation tint and then I'll take the green channel of the grass texture to multiply this by."
+    },
+    {
+      "end": "00:02:59.000",
+      "start": "00:02:54.000",
+      "text": " Now I can change the value of the micro variation tint to a pale yellow colour."
+    },
+    {
+      "end": "00:03:05.000",
+      "start": "00:02:59.000",
+      "text": " Now I have a micro colour and micro colour variation and I need a pleasing way to blend between them."
+    },
+    {
+      "end": "00:03:15.000",
+      "start": "00:03:05.000",
+      "text": " For this I'll create a new texture sample and the texture I'm going to use is called t underscore macro variation which is available in the Unreal Engine starter content."
+    },
+    {
+      "end": "00:03:26.000",
+      "start": "00:03:15.000",
+      "text": " I want to have control over how this texture tiles so I'll create another texture coordinate node and multiply this by a scalar which I will call micro variation alpha tiling."
+    },
+    {
+      "end": "00:03:30.000",
+      "start": "00:03:26.000",
+      "text": " And I'll set the default value of this to 0.01."
+    },
+    {
+      "end": "00:03:41.000",
+      "start": "00:03:30.000",
+      "text": " Now for the blend I will create a linear interpolate node and then I can plug in the red channel of the result of the micro variation blend to drive the transition between the two variations."
+    },
+    {
+      "end": "00:03:49.000",
+      "start": "00:03:42.000",
+      "text": " Then I'll set the result of our micro colour to a and the result of our micro colour variation to b."
+    },
+    {
+      "end": "00:03:53.000",
+      "start": "00:03:49.000",
+      "text": " And then finally take the result of the lurp and plug it into our base colour."
+    },
+    {
+      "end": "00:03:56.000",
+      "start": "00:03:53.000",
+      "text": " Now I'll save it and check out the result."
+    },
+    {
+      "end": "00:04:07.000",
+      "start": "00:03:56.000",
+      "text": " Once it's applied you can see that the tiling is broken up by the difference between the two variations and that I can also use the material instance to change the colour of the tint to keep the transition from being too jarring."
+    },
+    {
+      "end": "00:04:16.000",
+      "start": "00:04:08.000",
+      "text": " So this looks better again and this is even before I remember to go back and set the default tiling value for the micro variation."
+    },
+    {
+      "end": "00:04:23.000",
+      "start": "00:04:16.000",
+      "text": " Now I'll break up the tiling even further by adding some noise to the material in the form of darker patches of the grass."
+    },
+    {
+      "end": "00:04:32.000",
+      "start": "00:04:23.000",
+      "text": " I'll go back into the material and then create another texture sample using the t underscore macro variation by cupping and pasting the one I already have."
+    },
+    {
+      "end": "00:04:40.000",
+      "start": "00:04:32.000",
+      "text": " Next I'll put it in a texture coordinate node and multiply it by a constant which I'll set to a value of 0.005."
+    },
+    {
+      "end": "00:04:47.000",
+      "start": "00:04:40.000",
+      "text": " Then I'll make a copy of all that and set the value of the constant on this one to 0.0015."
+    },
+    {
+      "end": "00:04:56.000",
+      "start": "00:04:47.000",
+      "text": " To just control the brightness of these textures I'll take the red channel of each and add 0.5 to it and then I'll multiply the results together."
+    },
+    {
+      "end": "00:05:00.000",
+      "start": "00:04:56.000",
+      "text": " Then I'll stick it all into a comment named macro variation noise."
+    },
+    {
+      "end": "00:05:07.000",
+      "start": "00:05:00.000",
+      "text": " Now I'll just give myself control over the contrast of the noise by creating a scalar parameter called noise contrast."
+    },
+    {
+      "end": "00:05:14.000",
+      "start": "00:05:07.000",
+      "text": " I'll set the default value to 0.5 and then put this into the A input of alert."
+    },
+    {
+      "end": "00:05:22.000",
+      "start": "00:05:14.000",
+      "text": " I'll leave B set to 1 and then I'll take the result of our macro variation noise and plug it into the alpha of the alert."
+    },
+    {
+      "end": "00:05:30.000",
+      "start": "00:05:22.000",
+      "text": " Now I can add a quick comment, needing things up a little and then multiply the result of our macro variation noise by everything we already had going into the base color."
+    },
+    {
+      "end": "00:05:34.000",
+      "start": "00:05:30.000",
+      "text": " Now I can take a look at the result and compare it to our previous work."
+    },
+    {
+      "end": "00:05:41.000",
+      "start": "00:05:34.000",
+      "text": " Straight away you can see the difference but I'll just match the tint colors to the previous material to get a better comparison."
+    },
+    {
+      "end": "00:05:47.000",
+      "start": "00:05:41.000",
+      "text": " Then you can see the effect that the macro variation noise is having more clearly if it changes the value of the noise contrast parameter."
+    },
+    {
+      "end": "00:05:53.000",
+      "start": "00:05:47.000",
+      "text": " At this stage it's almost impossible to tell that this material is made up of the same talent texture."
+    },
+    {
+      "end": "00:06:01.000",
+      "start": "00:05:53.000",
+      "text": " Even with all the variation we've added to the material so far, the textures can still look tiled on large environments when you're viewing them in the distance."
+    },
+    {
+      "end": "00:06:05.000",
+      "start": "00:06:01.000",
+      "text": " I've created a nice long strip of landscape to illustrate that here."
+    },
+    {
+      "end": "00:06:12.000",
+      "start": "00:06:05.000",
+      "text": " To solve this issue we'll make it so that the talent of the material can be changed when it's further away from the camera."
+    },
+    {
+      "end": "00:06:24.000",
+      "start": "00:06:12.000",
+      "text": " I'll go back into my material for one final time and then select the micro color, micro color variation and micro variation blend groups and put them into a comment which I'll call near."
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:24.000",
+      "text": " Then I'll select everything in that comment and copy and paste them below the originals."
+    },
+    {
+      "end": "00:06:33.000",
+      "start": "00:06:30.000",
+      "text": " Then I'll rename this comment to far."
+    },
+    {
+      "end": "00:06:37.000",
+      "start": "00:06:33.000",
+      "text": " Now I'll replace and rename the parameters of everything in the far group."
+    },
+    {
+      "end": "00:06:41.000",
+      "start": "00:06:37.000",
+      "text": " I'll call this far tiling and this one far variation tiling."
+    },
+    {
+      "end": "00:06:47.000",
+      "start": "00:06:41.000",
+      "text": " It's also at this stage that I realised that I had gotten to set the default value of the macro variation tiling."
+    },
+    {
+      "end": "00:06:56.000",
+      "start": "00:06:47.000",
+      "text": " So I corrected that now and then I set the far tiling to 0.05 and the far variation tiling to 0.05."
+    },
+    {
+      "end": "00:06:59.000",
+      "start": "00:06:56.000",
+      "text": " Next I went to the macro variation blend in the far comment."
+    },
+    {
+      "end": "00:07:04.000",
+      "start": "00:06:59.000",
+      "text": " Replace the scalar parameter and name it far variation of a tiling."
+    },
+    {
+      "end": "00:07:08.000",
+      "start": "00:07:04.000",
+      "text": " And set the default value of this to 0.001."
+    },
+    {
+      "end": "00:07:13.000",
+      "start": "00:07:08.000",
+      "text": " I also changed the name of the tint to far tint and far variation tint."
+    },
+    {
+      "end": "00:07:18.000",
+      "start": "00:07:13.000",
+      "text": " Next I created a lurp and connected everything for the far part of the material up to it."
+    },
+    {
+      "end": "00:07:25.000",
+      "start": "00:07:18.000",
+      "text": " Now I just need a way to show the near textures up close, the far textures far away and to blend between them smoothly."
+    },
+    {
+      "end": "00:07:31.000",
+      "start": "00:07:25.000",
+      "text": " To do that I'll create a pixel depth node and then from that I'll create a subtract node."
+    },
+    {
+      "end": "00:07:39.000",
+      "start": "00:07:31.000",
+      "text": " Into B of the subtract I'll create a scalar, call it far distance and set the default value to 5000."
+    },
+    {
+      "end": "00:07:42.000",
+      "start": "00:07:39.000",
+      "text": " Now I'll come out of the subtract and create a divide."
+    },
+    {
+      "end": "00:07:50.000",
+      "start": "00:07:42.000",
+      "text": " I'll create a scalar to go into B of the divide, call it far fade amount and then set this value to 7500."
+    },
+    {
+      "end": "00:08:00.000",
+      "start": "00:07:50.000",
+      "text": " Now I'll take the result of the divide and create a clump, leaving the values at 0 and 1 to make sure that I get black and white values which I can use to drive away."
+    },
+    {
+      "end": "00:08:11.000",
+      "start": "00:08:00.000",
+      "text": " I'll stick this into a comment and just to show you what this does I'll plug it straight into the base color and then apply the material to the other landscape over here."
+    },
+    {
+      "end": "00:08:19.000",
+      "start": "00:08:11.000",
+      "text": " As you can see, close to the camera the color is black, further away it's white and there is a smooth gradient failing between the two colors."
+    },
+    {
+      "end": "00:08:24.000",
+      "start": "00:08:19.000",
+      "text": " Black will be where we have our near textures and white will be our far textures."
+    },
+    {
+      "end": "00:08:31.000",
+      "start": "00:08:24.000",
+      "text": " Let's set it up. So back in the material I'll put everything back as it was and then create a new Lurp."
+    },
+    {
+      "end": "00:08:40.000",
+      "start": "00:08:31.000",
+      "text": " Then I'll take the result of the Lurp from the near group and plug this into A and take the result of the Lurp from the far group and plug this into B."
+    },
+    {
+      "end": "00:08:46.000",
+      "start": "00:08:40.000",
+      "text": " And lastly I'll take the result of the create gradient far from camera group and plug this into the alpha."
+    },
+    {
+      "end": "00:08:53.000",
+      "start": "00:08:46.000",
+      "text": " I'll then take the result of the Lurp and put this into the B input of the multiply which adds a noise."
+    },
+    {
+      "end": "00:09:00.000",
+      "start": "00:08:53.000",
+      "text": " And that's everything I need to do. So I'll save the material, create an instance and then apply it to the second landscape."
+    },
+    {
+      "end": "00:09:14.000",
+      "start": "00:09:00.000",
+      "text": " Next I'll just match up the colors for the tint to get a better comparison and then using the material instance I can change the values for the far distance and the far fade amount parameters to get a result that looks like this."
+    },
+    {
+      "end": "00:09:17.000",
+      "start": "00:09:14.000",
+      "text": " And that is everything I have to teach you for today."
+    },
+    {
+      "end": "00:09:23.000",
+      "start": "00:09:17.000",
+      "text": " If you found all this useful and if you have be an absolute G and give that thumbs up button a thorough spanking."
+    },
+    {
+      "end": "00:09:29.000",
+      "start": "00:09:23.000",
+      "text": " If you want to get more from GameDev Academy then please subscribe and also consider supporting my work on Patreon."
+    },
+    {
+      "end": "00:09:32.000",
+      "start": "00:09:29.000",
+      "text": " The link for this can be found in the description below the video."
+    },
+    {
+      "end": "00:09:39.000",
+      "start": "00:09:32.000",
+      "text": " For my next video I am considering creating a devlog for a PS1 style horror game that I've started making in the small amount of free time lag."
+    },
+    {
+      "end": "00:09:42.000",
+      "start": "00:09:39.000",
+      "text": " Let me know if you want to see that video in the comments."
+    },
+    {
+      "end": "00:09:45.000",
+      "start": "00:09:42.000",
+      "text": " Thanks so much for watching and I'll see you next time."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Game Dev Academy",
+  "youtube_channel_follower_count": 117000,
+  "youtube_comment_count": 402,
+  "youtube_description": "Do your textures look all tiled and crappy? Do you want to hide the tiling in your textures? Then this is the video for you. In this quick tutorial video, I'll share 4 pro tips to hide the tiling repetition in your textures in Unreal Engine. I'll cover choosing the right texture for the job, micro variation, macro variation and also using a macro distance blend. By using all of these techniques together, you have professional looking materials in no time!\n\nPATREON\nWant to support my work and become a Game Dev Academy governor? Then check out the Patreon page & come and join us! ►► https://www.patreon.com/shanewhittington\n\nDISCORD\n♥ Join the Game Dev Academy Discord & get sorted into your Game Dev Academy house! - http://bit.ly/GDAdiscord ♥\n\nMORE TUTORIALS FROM ME\nhttps://youtu.be/ATfzfvtvfIo QUICK TRICK to Realistically BLEND ASSETS with LANDSCAPE\nhttps://youtu.be/VKCi_EDcjLM Amazing PHOTOREALISTIC Landscape Blend Material in Unreal Engine 5.1\nhttps://youtu.be/XbgvO83CwAI Making Unreal Engine 5.1 PHOTOREALISTIC in 10 mins\n\nMY PC SPECS (Affiliate links)\nCPU: https://amzn.to/30PEy7E\nGPU: https://amzn.to/2PPbnve\nMotherboard: https://amzn.to/30RfX21\nRAM: https://amzn.to/3fPxLz7\nPSU: https://amzn.to/2PN6bYL\nCase: https://amzn.to/3fSh0TT\nKeyboard: https://amzn.to/30PLfGM\nMonitor: https://amzn.to/2PQyl4S\n\nVIDEO CHAPTERS\nIntroduction 00:00\nUse seamless textures 00:32\nAdd micro variation 01:37\nAdd macro variation (noise) 04:15\nAdd macro Distance Blend 05:52\nConclusion 09:16",
+  "youtube_like_count": 15407,
+  "youtube_tags": [
+    "unreal engine",
+    "blend",
+    "seamlessly",
+    "landscape",
+    "materials",
+    "tutorial",
+    "ue4",
+    "ue5",
+    "tiling",
+    "repetition",
+    "tiled",
+    "break up",
+    "texture",
+    "texture seams",
+    "texture repetition",
+    "macro variation",
+    "micro variation",
+    "how to prevent texture tiling",
+    "landscape material",
+    "texture tiling fix",
+    "fix texture tiling",
+    "landscape tiling",
+    "seamless texture",
+    "megascans material"
+  ],
+  "youtube_title": "The Secret to Hide TEXTURE REPETITION in Unreal Engine 5: 4 PRO TIPS - UE5 Tutorial",
+  "youtube_upload_date": "20230507",
+  "youtube_view_count": 336073
+}

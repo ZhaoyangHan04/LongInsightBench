@@ -1,0 +1,357 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A person with fair skin and a black sleeve bearing white text visible on the left arm. Only their right hand is visible, holding a black Sharpie marker.",
+        "name": "Lecturer"
+      }
+    ],
+    "description": "Analysis of a video focusing on the validity of the WKB approximation in quantum mechanics, particularly in relation to the De Broglie wavelength.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "The lecturer uses the symbol \"λDB\" to represent the De Broglie wavelength.",
+        "question": "How does the lecturer represent the De Broglie wavelength in the equation?"
+      },
+      {
+        "answer": "The inequality states that the rate of change of the De Broglie wavelength over a span of a De Broglie wavelength must be much smaller than the wavelength itself for the WKB approximation to be valid.",
+        "question": "What does the inequality derived in the video tell us about the validity of the WKB approximation?"
+      },
+      {
+        "answer": "The lecturer explains that the WKB approximation breaks down at classical turning points.",
+        "question": "What is a potential problem with the WKB approximation mentioned in the video?"
+      },
+      {
+        "answer": "The lecturer first writes \"ℏ\", representing the reduced Planck constant.",
+        "question": "What does the lecturer write first?"
+      },
+      {
+        "answer": "The lecturer's tone is calm, clear, and informative, aiming to guide the viewer through the mathematical derivation and conceptual understanding.",
+        "question": "What is the overall tone of the lecturer's explanation?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Writing on paper",
+            "timestamp": {
+              "end_timestamp": "00:04:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Explaining WKB approximation validity",
+            "timestamp": {
+              "end_timestamp": "00:04:30.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Lecturer"
+            ],
+            "description": "The Lecturer is interacting solely with the viewer through writing and explaining the concept."
+          }
+        ],
+        "contextualRelevance": "03:51: The mention of WKB approximation's limitations at classical turning points adds a layer of complexity and sets the stage for further exploration in subsequent videos.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Content",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Lecturer starts by explaining the topic of the video.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Discusses the inequality derived in the previous video.",
+            "timestamp": "00:00:15.000"
+          },
+          {
+            "description": "Starts rewriting the inequality in terms of the De Broglie wavelength.",
+            "timestamp": "00:00:50.000"
+          },
+          {
+            "description": "Arrives at the final form of the inequality in terms of the De Broglie wavelength.",
+            "timestamp": "00:02:20.000"
+          },
+          {
+            "description": "Highlights the limitation of the WKB approximation at classical turning points.",
+            "timestamp": "00:03:51.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "White paper with pre-written and handwritten text",
+            "timestamp": {
+              "end_timestamp": "00:04:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Black Sharpie marker",
+            "timestamp": {
+              "end_timestamp": "00:04:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "WKB Approximation, Validity conditions, De Broglie wavelength, Quantum Mechanics",
+        "timestamps": {
+          "end_timestamp": "00:04:30.600",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Scene 1",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Not applicable, as this is not a narrative story.",
+        "timestamp": null
+      },
+      "description": "Exploring the validity of the WKB approximation in terms of the De Broglie wavelength.",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Video Analysis of WKB Approximation Validity",
+    "trimmingSuggestions": [
+      {
+        "description": "Due to the technical nature of the content, trimming for dynamism might not be appropriate. However, the introduction could be shortened for a faster entry into the mathematical derivation.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 271,
+  "original_json_filename": "OjJz_z-NWpE.json",
+  "original_video_filename": "OjJz_z-NWpE.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "in the last video we started exploring uh how to quantify the validity of the wkb approximation in terms of a slowly varying potential and we arrived at an inequality that said that over the span of a debris wavelength the rate of change of the potential energy has to be much much smaller than the local kinetic energy in doing so we found this inequality which is a direct consequence of the assumptions that went into our derivation of the wkb solutions and in this video i'd like to take a different route and show that we can also derive an inequality for the validity of the wqb approximation completely in terms of the debris wavelength so we can rewrite this inequality by bringing over this p square to this side so that this has to be much much smaller than one this in turn can be rewritten [Music] as d dx of h bar over p x h bar is just a constant so we can bring it into the derivative and uh by the chain rule if you take the derivative of one over px you recover this term over here this again has to be much much smaller than one we can recognize this as being proportional to the uh local de bruy wavelength to again it's up to a factor of two pi but our inequality still holds so what this translates to is saying that our local the boy wavelength uh has to vary very very slowly in space and we're still looking at absolute changes we don't care if it's positive or negative we can get a better uh physical interpretation of this or set a physical scale for for this rate of change by multiplying both sides by lambda db so what this uh inequality now says is the rate of change of the debris wavelength over the span of of uh debris wavelength has to be much much smaller than uh the value of the wavelength at position x okay so this sets at a different scale if you if you look at the rate of change over an entire debrief wavelength that quantity has to be much much smaller than the wavelength itself so this is an alternative way of stating the conditions under which the wkb approximation is valid finally there's uh one more uh situation that we have to be careful with and that's at the classical turning points uh this local momentum goes to a small value so our wkb solutions will blow up at those turning points if we just take them at face value so we need to develop a way to patch our solutions so that they remain valid close to the classical turning points and we'll begin looking at that in the next video",
+  "text_to_speech_word_count": 471,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:08.680",
+      "start": "00:00:00.000",
+      "text": " In the last video, we started exploring how to quantify the validity of the WKB approximation"
+    },
+    {
+      "end": "00:00:13.480",
+      "start": "00:00:08.680",
+      "text": " in terms of a slowly varying potential."
+    },
+    {
+      "end": "00:00:17.840",
+      "start": "00:00:13.480",
+      "text": " And we arrived at an inequality that said that over this span of a De Broglie wavelength,"
+    },
+    {
+      "end": "00:00:21.760",
+      "start": "00:00:17.840",
+      "text": " the rate of change of the potential energy has to be much, much smaller than the local"
+    },
+    {
+      "end": "00:00:24.000",
+      "start": "00:00:21.760",
+      "text": " kinetic energy."
+    },
+    {
+      "end": "00:00:29.400",
+      "start": "00:00:24.000",
+      "text": " And doing so, we found this inequality, which is at the right consequence of the assumptions"
+    },
+    {
+      "end": "00:00:34.280",
+      "start": "00:00:29.400",
+      "text": " that went into our derivation of the WKB solutions."
+    },
+    {
+      "end": "00:00:43.720",
+      "start": "00:00:34.280",
+      "text": " And in this video, I'd like to take a different route and show that we can also derive an inequality"
+    },
+    {
+      "end": "00:00:50.880",
+      "start": "00:00:43.720",
+      "text": " for the validity of the WKB approximation completely in terms of the De Broglie wavelength."
+    },
+    {
+      "end": "00:01:00.880",
+      "start": "00:00:50.880",
+      "text": " So we can rewrite this inequality by bringing over this piece square to this side."
+    },
+    {
+      "end": "00:01:19.960",
+      "start": "00:01:00.880",
+      "text": " So that this has to be much, much smaller than one."
+    },
+    {
+      "end": "00:01:32.600",
+      "start": "00:01:19.920",
+      "text": " This in turn can be rewritten as DDX of H bar over PX."
+    },
+    {
+      "end": "00:01:37.280",
+      "start": "00:01:32.600",
+      "text": " H bar is just a constant, so we can bring it into the derivative."
+    },
+    {
+      "end": "00:01:42.800",
+      "start": "00:01:37.280",
+      "text": " And by the chain rule, if you take the derivative of 1 over PX, you recover this term over"
+    },
+    {
+      "end": "00:01:44.800",
+      "start": "00:01:42.800",
+      "text": " here."
+    },
+    {
+      "end": "00:01:47.960",
+      "start": "00:01:44.800",
+      "text": " This again has to be much, much smaller than one."
+    },
+    {
+      "end": "00:01:57.960",
+      "start": "00:01:47.960",
+      "text": " We can recognize this as being proportional to the local De Broglie wavelength."
+    },
+    {
+      "end": "00:02:18.160",
+      "start": "00:01:57.960",
+      "text": " So again, up to a factor of 2 pi, but our inequality still holds."
+    },
+    {
+      "end": "00:02:27.760",
+      "start": "00:02:18.160",
+      "text": " So what this translates to is saying that our local De Broglie wavelength has to vary,"
+    },
+    {
+      "end": "00:02:32.440",
+      "start": "00:02:27.760",
+      "text": " very, very slowly in space."
+    },
+    {
+      "end": "00:02:34.920",
+      "start": "00:02:32.440",
+      "text": " And we're still looking at absolute changes."
+    },
+    {
+      "end": "00:02:39.920",
+      "start": "00:02:34.920",
+      "text": " We don't care if it's positive or negative."
+    },
+    {
+      "end": "00:02:46.280",
+      "start": "00:02:39.920",
+      "text": " We can get a better physical interpretation of this or set a physical scale for this"
+    },
+    {
+      "end": "00:03:05.360",
+      "start": "00:02:46.280",
+      "text": " rate of change by multiplying both sides by lambda db."
+    },
+    {
+      "end": "00:03:13.440",
+      "start": "00:03:05.360",
+      "text": " So what this inequality now says is the rate of change of the De Broglie wavelength"
+    },
+    {
+      "end": "00:03:23.800",
+      "start": "00:03:13.440",
+      "text": " over the span of the De Broglie wavelength has to be much, much smaller than the value"
+    },
+    {
+      "end": "00:03:27.920",
+      "start": "00:03:23.800",
+      "text": " of the wavelength at position X."
+    },
+    {
+      "end": "00:03:30.000",
+      "start": "00:03:27.920",
+      "text": " So this sets a different scale."
+    },
+    {
+      "end": "00:03:34.720",
+      "start": "00:03:30.000",
+      "text": " If you look at the rate of change over an entire De Broglie wavelength, that quantity"
+    },
+    {
+      "end": "00:03:39.120",
+      "start": "00:03:34.720",
+      "text": " has to be much, much smaller than the wavelength itself."
+    },
+    {
+      "end": "00:03:48.160",
+      "start": "00:03:39.120",
+      "text": " So this is an alternative way of stating the conditions under which the wkb approximation"
+    },
+    {
+      "end": "00:03:51.440",
+      "start": "00:03:48.160",
+      "text": " is valid."
+    },
+    {
+      "end": "00:04:01.680",
+      "start": "00:03:51.440",
+      "text": " Finally, there's one more situation that we have to be careful with, and that's at the"
+    },
+    {
+      "end": "00:04:04.760",
+      "start": "00:04:01.680",
+      "text": " classical turning points."
+    },
+    {
+      "end": "00:04:11.960",
+      "start": "00:04:04.760",
+      "text": " This local momentum goes to a small value."
+    },
+    {
+      "end": "00:04:17.920",
+      "start": "00:04:11.960",
+      "text": " So our wkb solutions will blow up at those turning points if we just take them at face value."
+    },
+    {
+      "end": "00:04:24.560",
+      "start": "00:04:17.920",
+      "text": " So we need to develop a way to patch our solutions so that they remain valid close to the"
+    },
+    {
+      "end": "00:04:26.360",
+      "start": "00:04:24.560",
+      "text": " classical turning points."
+    },
+    {
+      "end": "00:04:28.440",
+      "start": "00:04:26.360",
+      "text": " And we'll begin looking at that in the next video."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Daniel Nino",
+  "youtube_channel_follower_count": 241,
+  "youtube_comment_count": 0,
+  "youtube_description": "Quantifies the conditions under which the WKB approximation is valid in terms of the local deBroglie wavelength",
+  "youtube_like_count": 2,
+  "youtube_tags": [],
+  "youtube_title": "7.2 Validity of the WKB approximation in terms of the local deBroglie wavelength",
+  "youtube_upload_date": "20210527",
+  "youtube_view_count": 287
+}

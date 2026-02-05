@@ -1,0 +1,913 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A male voice, unseen, provides instructions throughout the video.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A tutorial video demonstrating the process of importing Google Maps 3D data into Blender using technical tools and add-ons.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "The narrator doesn't explain the technical reason, but mentions 'technical reasons.' Ellie Michel's GitHub page might offer more information.",
+        "question": "Why does the process only work on Windows?"
+      },
+      {
+        "answer": "The modification adds flags that launch Chrome in debug mode, allowing RenderDoc to capture the 3D buffer.",
+        "question": "What is the purpose of modifying the Chrome shortcut target?"
+      },
+      {
+        "answer": "It uniquely identifies the specific instance of the Chrome GPU process running in debug mode.",
+        "question": "What does the PID (Process ID) represent?"
+      },
+      {
+        "answer": "It captures the 3D buffer, which contains the geometric and texture data of the rendered scene.",
+        "question": "What does RenderDoc capture from Google Maps?"
+      },
+      {
+        "answer": "The narrator states the model is imported at 2% of its original size and demonstrates scaling it up by a factor of 50.",
+        "question": "Why is the imported model smaller than its real-world scale?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "The Narrator introduces the process of importing Google Maps 3D data into Blender.",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "The Narrator shows an example of a 3D model in Blender.",
+            "timestamp": {
+              "end_timestamp": "00:00:06.000",
+              "start_timestamp": "00:00:03.000"
+            }
+          },
+          {
+            "description": "The Narrator explains the process only works on Windows.",
+            "timestamp": {
+              "end_timestamp": "00:00:10.000",
+              "start_timestamp": "00:00:08.000"
+            }
+          },
+          {
+            "description": "The Narrator mentions Ellie Michel, the creator of the process.",
+            "timestamp": {
+              "end_timestamp": "00:00:16.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "description": "The Narrator shows the GitHub page of the Maps Model Importer add-on.",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:16.000"
+            }
+          },
+          {
+            "description": "The Narrator mentions RenderDoc, a tool used to capture 3D buffers.",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "description": "The Narrator mentions Google Chrome is required.",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Curious - The narrator's calm voice and the presentation of technical information contribute to a curious and informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the topic and the tools required.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "Limitation of the process (Windows only).",
+            "timestamp": "00:00:08.000"
+          },
+          {
+            "description": "Introduction of Ellie Michel and the add-on.",
+            "timestamp": "00:00:12.000"
+          },
+          {
+            "description": "Introduction of RenderDoc.",
+            "timestamp": "00:00:23.000"
+          },
+          {
+            "description": "Introduction of Google Chrome.",
+            "timestamp": "00:00:30.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of Canary Wharf in Blender",
+            "timestamp": {
+              "end_timestamp": "00:00:03.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "GitHub page of Maps Model Importer add-on",
+            "timestamp": {
+              "end_timestamp": "00:00:20.000",
+              "start_timestamp": "00:00:12.000"
+            }
+          },
+          {
+            "name": "RenderDoc website",
+            "timestamp": {
+              "end_timestamp": "00:00:28.000",
+              "start_timestamp": "00:00:23.000"
+            }
+          },
+          {
+            "name": "Google Chrome website",
+            "timestamp": {
+              "end_timestamp": "00:00:34.000",
+              "start_timestamp": "00:00:30.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "3D modeling, data import, technical process",
+        "timestamps": {
+          "end_timestamp": "00:00:34.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and Explanation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The Narrator downloads the Maps Model Importer add-on.",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:34.033"
+            }
+          },
+          {
+            "description": "The Narrator navigates to Blender's preferences and add-ons tab.",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          },
+          {
+            "description": "The Narrator installs the add-on and enables it.",
+            "timestamp": {
+              "end_timestamp": "00:00:55.800",
+              "start_timestamp": "00:00:49.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral/Content - The scene is straightforward and focused on the technical process, maintaining a neutral and content mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Downloading the add-on.",
+            "timestamp": "00:00:34.033"
+          },
+          {
+            "description": "Navigating to Blender's preferences.",
+            "timestamp": "00:00:43.000"
+          },
+          {
+            "description": "Installing and enabling the add-on.",
+            "timestamp": "00:00:49.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "GitHub releases page for Maps Model Importer",
+            "timestamp": {
+              "end_timestamp": "00:00:43.000",
+              "start_timestamp": "00:00:34.033"
+            }
+          },
+          {
+            "name": "Blender window",
+            "timestamp": {
+              "end_timestamp": "00:00:47.000",
+              "start_timestamp": "00:00:43.000"
+            }
+          },
+          {
+            "name": "File explorer window",
+            "timestamp": {
+              "end_timestamp": "00:00:55.800",
+              "start_timestamp": "00:00:49.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Technical process, software installation",
+        "timestamps": {
+          "end_timestamp": "00:00:55.800",
+          "start_timestamp": "00:00:34.033"
+        },
+        "title": "Add-on Installation",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The Narrator opens RenderDoc.",
+            "timestamp": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "description": "The Narrator navigates to Chrome's application folder and creates a shortcut.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "description": "The Narrator modifies the shortcut's target to enable debug mode.",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:13.000"
+            }
+          },
+          {
+            "description": "The Narrator runs the shortcut to launch Chrome in debug mode.",
+            "timestamp": {
+              "end_timestamp": "00:01:52.000",
+              "start_timestamp": "00:01:48.000"
+            }
+          },
+          {
+            "description": "The Narrator notes the PID (Process ID) of Chrome.",
+            "timestamp": {
+              "end_timestamp": "00:02:00.000",
+              "start_timestamp": "00:01:56.000"
+            }
+          },
+          {
+            "description": "The Narrator injects RenderDoc into Chrome using the PID.",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          },
+          {
+            "description": "The Narrator confirms a successful connection with Chrome.",
+            "timestamp": {
+              "end_timestamp": "00:02:17.000",
+              "start_timestamp": "00:02:13.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Neutral/Content - The scene focuses on technical details and instructions, maintaining a neutral and focused mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Opening RenderDoc.",
+            "timestamp": "00:00:56.000"
+          },
+          {
+            "description": "Creating a Chrome shortcut.",
+            "timestamp": "00:01:03.000"
+          },
+          {
+            "description": "Modifying the shortcut target for debug mode.",
+            "timestamp": "00:01:13.000"
+          },
+          {
+            "description": "Launching Chrome in debug mode.",
+            "timestamp": "00:01:48.000"
+          },
+          {
+            "description": "Noting the PID of Chrome.",
+            "timestamp": "00:01:56.000"
+          },
+          {
+            "description": "Injecting RenderDoc into Chrome.",
+            "timestamp": "00:02:00.000"
+          },
+          {
+            "description": "Confirming connection establishment.",
+            "timestamp": "00:02:13.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "RenderDoc window",
+            "timestamp": {
+              "end_timestamp": "00:01:01.000",
+              "start_timestamp": "00:00:56.000"
+            }
+          },
+          {
+            "name": "File explorer window",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:03.000"
+            }
+          },
+          {
+            "name": "Shortcut properties window",
+            "timestamp": {
+              "end_timestamp": "00:01:35.000",
+              "start_timestamp": "00:01:13.000"
+            }
+          },
+          {
+            "name": "Command prompt shortcut icon",
+            "timestamp": {
+              "end_timestamp": "00:01:52.000",
+              "start_timestamp": "00:01:47.000"
+            }
+          },
+          {
+            "name": "Chrome GPU process window",
+            "timestamp": {
+              "end_timestamp": "00:01:56.000",
+              "start_timestamp": "00:01:52.000"
+            }
+          },
+          {
+            "name": "RenderDoc's inject to process window",
+            "timestamp": {
+              "end_timestamp": "00:02:10.000",
+              "start_timestamp": "00:02:00.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Technical setup, software debugging, process ID (PID)",
+        "timestamps": {
+          "end_timestamp": "00:02:21.900",
+          "start_timestamp": "00:00:55.833"
+        },
+        "title": "Setting up RenderDoc and Chrome",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The Narrator navigates to Google Maps in Chrome and selects a location.",
+            "timestamp": {
+              "end_timestamp": "00:02:26.000",
+              "start_timestamp": "00:02:23.000"
+            }
+          },
+          {
+            "description": "The Narrator positions the camera to view the desired location.",
+            "timestamp": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:02:26.000"
+            }
+          },
+          {
+            "description": "The Narrator captures the 3D data using RenderDoc.",
+            "timestamp": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:02:32.000"
+            }
+          },
+          {
+            "description": "The Narrator saves the captured data as an RDC file.",
+            "timestamp": {
+              "end_timestamp": "00:02:57.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral/Content - The scene retains a neutral and focused mood, primarily driven by the technical actions performed.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Navigating to Google Maps.",
+            "timestamp": "00:02:23.000"
+          },
+          {
+            "description": "Positioning the camera.",
+            "timestamp": "00:02:26.000"
+          },
+          {
+            "description": "Capturing the 3D data.",
+            "timestamp": "00:02:32.000"
+          },
+          {
+            "description": "Saving the captured data as an RDC file.",
+            "timestamp": "00:02:50.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Chrome window displaying Google Maps",
+            "timestamp": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:02:23.000"
+            }
+          },
+          {
+            "name": "RenderDoc window",
+            "timestamp": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:02:32.000"
+            }
+          },
+          {
+            "name": "Save capture as window",
+            "timestamp": {
+              "end_timestamp": "00:02:57.000",
+              "start_timestamp": "00:02:50.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "3D data capture, screenshot, Google Maps",
+        "timestamps": {
+          "end_timestamp": "00:02:57.233",
+          "start_timestamp": "00:02:21.933"
+        },
+        "title": "Capturing the 3D Data",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The Narrator returns to Blender and imports the RDC file.",
+            "timestamp": {
+              "end_timestamp": "00:03:04.000",
+              "start_timestamp": "00:02:57.267"
+            }
+          },
+          {
+            "description": "The Narrator deletes the default cube and shows the imported 3D model.",
+            "timestamp": {
+              "end_timestamp": "00:03:11.000",
+              "start_timestamp": "00:03:08.000"
+            }
+          },
+          {
+            "description": "The Narrator switches to texture mode to display the image texture.",
+            "timestamp": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:03:13.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Content - The scene remains focused on the technical process, resulting in a neutral and content mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Importing the RDC file into Blender.",
+            "timestamp": "00:02:57.267"
+          },
+          {
+            "description": "Displaying the imported 3D model.",
+            "timestamp": "00:03:08.000"
+          },
+          {
+            "description": "Switching to texture mode to show the texture.",
+            "timestamp": "00:03:13.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender window",
+            "timestamp": {
+              "end_timestamp": "00:03:17.000",
+              "start_timestamp": "00:02:57.267"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "3D model import, texture display, software interface",
+        "timestamps": {
+          "end_timestamp": "00:03:21.700",
+          "start_timestamp": "00:02:57.267"
+        },
+        "title": "Importing the Data into Blender",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "The Narrator explains that imported models are scaled down and need adjustment.",
+            "timestamp": {
+              "end_timestamp": "00:03:27.000",
+              "start_timestamp": "00:03:22.000"
+            }
+          },
+          {
+            "description": "The Narrator demonstrates importing a base map using Blender GIS.",
+            "timestamp": {
+              "end_timestamp": "00:03:32.000",
+              "start_timestamp": "00:03:27.000"
+            }
+          },
+          {
+            "description": "The Narrator scales the imported 3D model to match the base map.",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:40.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral/Content - The scene focuses on addressing the scaling issue, maintaining a neutral and informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explanation of the scaling issue.",
+            "timestamp": "00:03:22.000"
+          },
+          {
+            "description": "Importing a base map using Blender GIS.",
+            "timestamp": "00:03:27.000"
+          },
+          {
+            "description": "Scaling the 3D model to match the base map.",
+            "timestamp": "00:03:40.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Blender window with a base map and imported model",
+            "timestamp": {
+              "end_timestamp": "00:03:50.000",
+              "start_timestamp": "00:03:22.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Model scaling, real-world scale, Blender GIS, base map",
+        "timestamps": {
+          "end_timestamp": "00:03:50.200",
+          "start_timestamp": "00:03:21.733"
+        },
+        "title": "Scaling the Model",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs in Scene 5 when the 3D model is successfully imported into Blender.",
+        "timestamp": "00:02:57.000"
+      },
+      "description": "The tutorial video focuses on importing Google Maps 3D data into Blender using specific technical tools and add-ons.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "title": "Importing Google Maps 3D Data into Blender Tutorial",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial fly-through of the Canary Wharf model could be shortened. While showcasing the result, it prolongs the introduction.",
+        "timestamps": {
+          "end_timestamp": "00:03:21.733",
+          "start_timestamp": "00:03:21.733"
+        }
+      },
+      {
+        "description": "The part explaining the requirements could be condensed or integrated more seamlessly into the add-on download section.",
+        "timestamps": {
+          "end_timestamp": "00:03:21.733",
+          "start_timestamp": "00:03:21.733"
+        }
+      },
+      {
+        "description": "The navigation to Google Maps could be sped up slightly.",
+        "timestamps": {
+          "end_timestamp": "00:03:21.733",
+          "start_timestamp": "00:03:21.733"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 231,
+  "original_json_filename": "F_XsmoZJmG8.json",
+  "original_video_filename": "F_XsmoZJmG8.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "okay so in this video I'm gonna show you how you can import Google Maps 3d data into blender and just a word of warning this process only works on Windows at the moment this process was devised by a guy called le Michel and if you find the process useful I'd encourage you to go over here and donate he came up with an add-on called Maps model importer which lets you import this special 3d file and the 3d file is created using a program called render dog which is an open source project for capturing 3d buffer and we're going to import a 3d buffer from Google Maps on Google Chrome so you can need Google Chrome and well so first of all you download the add-on by going down to the releases page downloading this file here so save that to your add-ons folder and once your download is finished you want to head over to blender go to edit preferences go to the add-ons tab press install choose the place where you saved Maps model importer press install and you'll just need to check this little box here to enable the add-on then next you need to install render dock and if you did it correctly it should look something like this when it starts okay so now for the tricky bit you need to go over to your Chrome application folder for me it was C program files x86 Google Chrome application find your Chrome dot X e launcher file right click on it go to create a shortcut and it'll ask you if you want to put it on your desktop so if you say yes then go over to your desktop you should find Chrome XE and if you right click on it and go to properties you should see this section here called target we need to change the target and there's a special bit of text that you need to paste into here I'll put it in the description basically it's going to add a couple of flags onto the execution of this file so that it runs in a kind of debug mode you can see here there's a few little dashes and press play and you should see that your icon changes to this command prompt icon okay so then we want to double click on our shortcut and you can see that Chrome has launched with two windows one of them has this message that says GPU starting with PID one one two five six and you're gonna want to write that number down and then head over to render dot go to file inject into process and then here I'm gonna search for that number that we just wrote down we can see that there is a process with that PID I'm gonna select it and then we're gonna press inject and if you've done it correctly you should see connection status established then we can go back to that message press ok a chrome will launch but it will launch with this debug mode and then what you can do is you can go over to Google Maps satellite view go to an interesting location position your camera so that it can see the thing that you want to capture this is a bit like taking a screenshot go over to render dock and then if you press capture frames immediately and then just wiggle the viewport inside of Chrome you should see that this little thumbnail pops up and this is our captured 3d data and if it's got these sections here color pass to color pass three you've probably done it right and so with this selected we can go to file save capture as and then we can save an RDC file to a location that's convenient for us then we go back to blender and I'm gonna go to file import Google Maps capture our DC and then we're gonna go to the place where I saved my file press import and then if I just delete the default cube we should see that the geometry has been imported and if I go to this button here the textured mode we should see that it has an image texture on it as well and that's how you import Google Maps 3d data into blender it's a bit of a hack though but it works so one thing you may have noticed is that the models don't import that real-world scale so what I've done here is I've just imported a base map using blender GIS and I worked out that it imports the 3d models 50 times smaller so 2 percent of their original size so here I'm just going to select my 3d data press s to scale and then scale it by a factor of 50 and then you should see that it matches the real the real-world scale of your blender scene",
+  "text_to_speech_word_count": 834,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:06.167",
+      "start": "00:00:00.000",
+      "text": " Okay, so in this video I'm going to show you how you can import Google Maps 3D data into Blender."
+    },
+    {
+      "end": "00:00:10.533",
+      "start": "00:00:06.167",
+      "text": " I'm just a word of warning, this process only works on Windows at the moment."
+    },
+    {
+      "end": "00:00:14.233",
+      "start": "00:00:10.533",
+      "text": " This process was devised by a guy called Elimye Shell and if you find the process useful,"
+    },
+    {
+      "end": "00:00:16.100",
+      "start": "00:00:14.233",
+      "text": " I'd encourage you to go over here and donate."
+    },
+    {
+      "end": "00:00:22.033",
+      "start": "00:00:16.100",
+      "text": " He came up with an add-on called Maps Model Importer, which lets you import this special 3D file."
+    },
+    {
+      "end": "00:00:28.433",
+      "start": "00:00:22.033",
+      "text": " The 3D file is created using a program called RenderDog, which is an open source project for capturing 3D buffer."
+    },
+    {
+      "end": "00:00:34.033",
+      "start": "00:00:28.433",
+      "text": " We're going to import a 3D buffer from Google Maps on Google Chrome, so you can need Google Chrome as well."
+    },
+    {
+      "end": "00:00:40.533",
+      "start": "00:00:34.033",
+      "text": " First of all, we download the add-on by going down to the releases page, downloading this file here."
+    },
+    {
+      "end": "00:00:42.533",
+      "start": "00:00:40.533",
+      "text": " Save that to your add-ons folder."
+    },
+    {
+      "end": "00:00:46.900",
+      "start": "00:00:42.533",
+      "text": " Once your download is finished, you want to head over to Blender, go to Edit Preferences,"
+    },
+    {
+      "end": "00:00:52.500",
+      "start": "00:00:46.900",
+      "text": " go to the Add-ons tab, Press and Stool, choose the place where you saved Maps Model Importer, Press and Stool,"
+    },
+    {
+      "end": "00:00:55.800",
+      "start": "00:00:52.500",
+      "text": " and you'll just need to check this little box here to enable the add-on."
+    },
+    {
+      "end": "00:01:01.500",
+      "start": "00:00:55.900",
+      "text": " Then next, you need to install RenderDog, and if you did it correctly, it should look something like this when it starts."
+    },
+    {
+      "end": "00:01:06.733",
+      "start": "00:01:01.500",
+      "text": " Okay, so now for the tricky bit, you need to go over to your Chrome application folder."
+    },
+    {
+      "end": "00:01:11.200",
+      "start": "00:01:06.733",
+      "text": " For me, it was cprogramm files x86 Google Chrome application."
+    },
+    {
+      "end": "00:01:18.233",
+      "start": "00:01:11.200",
+      "text": " Find your chrome.exe launcher file, right-click on it, go to Create a shortcut, and it'll ask you if you want to put it on your desktop."
+    },
+    {
+      "end": "00:01:25.433",
+      "start": "00:01:18.233",
+      "text": " So if you say yes, then go over to your desktop, you should find chrome.exe, and if you right-click on it, and go to properties,"
+    },
+    {
+      "end": "00:01:28.033",
+      "start": "00:01:25.433",
+      "text": " you should see this section here called Target."
+    },
+    {
+      "end": "00:01:33.100",
+      "start": "00:01:28.033",
+      "text": " We need to change the target, and there's a special bit of text that you need to paste into here."
+    },
+    {
+      "end": "00:01:34.433",
+      "start": "00:01:33.100",
+      "text": " I'll put it in the description."
+    },
+    {
+      "end": "00:01:40.767",
+      "start": "00:01:34.433",
+      "text": " Basically, it's going to add a couple of flags onto the execution of this file so that it runs in a kind of debug mode."
+    },
+    {
+      "end": "00:01:47.333",
+      "start": "00:01:40.767",
+      "text": " You can see here, there's a few little dashes and press Play, and you should see that your icon changes to this command prompt icon."
+    },
+    {
+      "end": "00:01:52.700",
+      "start": "00:01:47.333",
+      "text": " Okay, so then we want to double-click on our shortcut, and you can see that Chrome has launched with two windows."
+    },
+    {
+      "end": "00:01:57.667",
+      "start": "00:01:52.700",
+      "text": " And one of them has this message that says GPU starting with PID 11256."
+    },
+    {
+      "end": "00:02:03.933",
+      "start": "00:01:57.667",
+      "text": " And you're going to want to write that number down, and then head over to RenderDock, go to File, Inject into Process."
+    },
+    {
+      "end": "00:02:07.667",
+      "start": "00:02:03.933",
+      "text": " And then here, I'm going to search for that number that we just wrote down."
+    },
+    {
+      "end": "00:02:10.300",
+      "start": "00:02:07.667",
+      "text": " And we can see that there is a process with that PID."
+    },
+    {
+      "end": "00:02:12.600",
+      "start": "00:02:10.300",
+      "text": " I'm going to select it, and then I'm going to press Inject."
+    },
+    {
+      "end": "00:02:16.333",
+      "start": "00:02:12.600",
+      "text": " And if you've done it correctly, you should see Connection status established."
+    },
+    {
+      "end": "00:02:21.900",
+      "start": "00:02:16.333",
+      "text": " Then we can go back to that message, press OK, and Chrome will launch, but it will launch with this debug mode."
+    },
+    {
+      "end": "00:02:30.233",
+      "start": "00:02:21.900",
+      "text": " And then what you can do is you can go over to Google Maps, satellite view, go to an interesting location, position your camera, so that it can see the thing that you want to capture."
+    },
+    {
+      "end": "00:02:31.900",
+      "start": "00:02:30.233",
+      "text": " This is a bit like taking a screenshot."
+    },
+    {
+      "end": "00:02:41.933",
+      "start": "00:02:31.900",
+      "text": " Go over to RenderDock, and then if you press CaptureFrames immediately, and then just wiggle the viewport inside of Chrome, you should see that this little thumbnail pops up."
+    },
+    {
+      "end": "00:02:44.433",
+      "start": "00:02:41.933",
+      "text": " And this is our Captured 3D data."
+    },
+    {
+      "end": "00:02:49.133",
+      "start": "00:02:44.433",
+      "text": " And if it's got these sections here, ColorPass 2, ColorPass 3, you've probably done it right."
+    },
+    {
+      "end": "00:02:57.733",
+      "start": "00:02:49.133",
+      "text": " And so with this selected, we can go to File, Save Capture As, and then we can save an RDC file to a location that's convenient for us."
+    },
+    {
+      "end": "00:03:07.500",
+      "start": "00:02:57.733",
+      "text": " Then we go back to Blender, and I'm going to go to File, Import, Google Maps Capture, RDC, and then we're going to go to the place where I save my file, press Import."
+    },
+    {
+      "end": "00:03:11.667",
+      "start": "00:03:07.500",
+      "text": " And then if I just delete the default cube, we should see that the geometry has been imported."
+    },
+    {
+      "end": "00:03:17.033",
+      "start": "00:03:11.667",
+      "text": " And if I go to this button here, the Textured mode, we should see that it has an image text drawn as well."
+    },
+    {
+      "end": "00:03:20.867",
+      "start": "00:03:17.033",
+      "text": " And that's how you import Google Maps 3D data into Blender."
+    },
+    {
+      "end": "00:03:22.533",
+      "start": "00:03:20.867",
+      "text": " It's a bit of a hack though, but it works."
+    },
+    {
+      "end": "00:03:26.767",
+      "start": "00:03:22.533",
+      "text": " So one thing you may have noticed is that the models don't import at real-world scale."
+    },
+    {
+      "end": "00:03:31.733",
+      "start": "00:03:26.767",
+      "text": " So what I've done here is I've just imported a base map using Blender GIS."
+    },
+    {
+      "end": "00:03:38.900",
+      "start": "00:03:31.733",
+      "text": " And I worked out that it imports the 3D models 50 times smaller, so 2% of their original size."
+    },
+    {
+      "end": "00:03:45.300",
+      "start": "00:03:38.900",
+      "text": " So here I'm just going to select my 3D data, press S to scale, and then scale it by a factor of 50."
+    },
+    {
+      "end": "00:03:49.767",
+      "start": "00:03:45.300",
+      "text": " And then you should see that it matches the real-world scale of your Blender scene."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Education"
+  ],
+  "youtube_channel": "Nicko16",
+  "youtube_channel_follower_count": 36000,
+  "youtube_comment_count": 1700,
+  "youtube_description": "UPDATE - July 2024 - I can confirm this is working with: \nBlender 4.1.1\nRenderDoc 1.31\nMapsModelImporter 0.7.0  \n\nIn order to enable 'Inject into Process' in newer versions of RenderDoc you need to go into: \nTools - Settings - General - 'Enable process injection' \nand restart the app.\n\nIn this video I show you how to extract 3D data from Google Maps using RenderDoc and the amazing MapsModelsImporter by Élie Michel.  Please consider donating on his Github page if you find this process useful:\nhttps://github.com/eliemichel/MapsModelsImporter\n\nThis is the text that you need to add to the Chrome shortcut 'target' field to run it in debug mode (delete the existing contents beforehand):\n\nC:\\Windows\\System32\\cmd.exe /c \"SET RENDERDOC_HOOK_EGL=0 && START \"\" ^\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe^\" --disable-gpu-sandbox --gpu-startup-dialog --disable_direct_composition=1\"\n\nor\n\nC:\\Windows\\System32\\cmd.exe /c \"SET RENDERDOC_HOOK_EGL=0 && START \"\" ^\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe^\" --disable-gpu-sandbox --gpu-startup-dialog --disable_direct_composition=1\"\n\nIf your Chrome is installed in a different location to the one above you may need to go in and change parts of this text.\n\nYou can download the MapsModelmporter addon here:\nhttps://github.com/eliemichel/MapsModelsImporter/releases\n\nYou can download RenderDoc here:\nhttps://renderdoc.org/\n\nYou can see a tutorial on cleaning up the mesh here:\nhttps://youtu.be/XUkMY8Sp_AM\n\nYou can see Elie’s original video here:\nhttps://youtu.be/X6Q7dbtXVZQ\n\nYou can download Blender here:\nhttps://www.blender.org/download/\n\nDonate to Élie here:\nhttps://github.com/eliemichel/MapsModelsImporter\n\nYou can see how to use Blender GIS here:\nhttps://youtu.be/YNtKnmRXVlo\n\nThanks also to Bjørn Terje Hansebråten who recommended this process to me in the Blender GIS comments.",
+  "youtube_like_count": 34403,
+  "youtube_tags": [
+    "blender",
+    "3d",
+    "google earth",
+    "gis",
+    "google maps",
+    "osm"
+  ],
+  "youtube_title": "Google Maps 3D: Data into Blender",
+  "youtube_upload_date": "20200314",
+  "youtube_view_count": 1554714
+}

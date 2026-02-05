@@ -1,0 +1,542 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A young woman with short black hair, wearing a black top. She is a postdoc from Lund University in Sweden. She is shown in a small picture at the top right corner of the initial presentation slide.",
+        "name": "Namsun Eom"
+      }
+    ],
+    "description": "An analytical breakdown of a video presentation discussing the sintering mechanism in core-shell nanoparticles using molecular dynamics simulations, featuring character interactions, scene activities, narrative elements, and thematic representations.",
+    "fps": 24.0,
+    "qAndA": [
+      {
+        "answer": "While the colors change over time and for each nanoparticle pair, in the initial slides green represents crystalline structures while orange represents amorphous structures.",
+        "question": "What is the color coding used for the atoms in the 3D models?"
+      },
+      {
+        "answer": "The MSD graph shows a steeper slope for surface atoms compared to core atoms, indicating that surface atoms move significantly more over time, supporting the idea of localized surface diffusion.",
+        "question": "How does the MSD graph support the observation of localized surface diffusion?"
+      },
+      {
+        "answer": "It challenges the commonly held assumption that surface atoms in nanoparticles are highly mobile and contribute to diffusion across the entire surface. This finding suggests a more nuanced understanding of surface diffusion mechanisms in core-shell nanoparticles.",
+        "question": "Why is the finding of localized surface diffusion considered significant?"
+      },
+      {
+        "answer": "The video consistently shows two nanoparticles coalescing for each simulation, suggesting only a single pair was simulated for each type of nanoparticle.",
+        "question": "How many nanoparticle pairs were simulated for each type?"
+      },
+      {
+        "answer": "The video maintains a neutral and informative mood throughout, focusing on presenting scientific findings and their implications. It sparks curiosity with the unexpected observation of localized surface diffusion but remains grounded in objective data analysis.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Namsun introduces herself and the topic of her poster.",
+            "timestamp": {
+              "end_timestamp": "00:00:09.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Namsun Eom"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Namsun Eom"
+            ],
+            "description": "Namsun speaks directly to the viewer through a voiceover."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Curious. The speaker's tone is calm and informative, setting a neutral and slightly curious mood. The visuals are basic and support the introduction.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduces the speaker, research institution, and the topic of the poster.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Presentation slide with title, author names, and a picture of Namsun.",
+            "timestamp": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Nanotechnology, material science, sintering, core-shell nanoparticles.",
+        "timestamps": {
+          "end_timestamp": "00:00:22.167",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Simple static slide with text and picture.",
+            "timestamps": {
+              "end_timestamp": "00:00:22.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explains the lack of previous studies on core-shell nanoparticles.",
+            "timestamp": {
+              "end_timestamp": "00:00:35.000",
+              "start_timestamp": "00:00:24.000"
+            }
+          },
+          {
+            "description": "Introduces three different types of core-shell nanoparticles for the simulation.",
+            "timestamp": {
+              "end_timestamp": "00:00:59.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          },
+          {
+            "description": "Describes the simulation process of merging two nanoparticles and observing atomic diffusion.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:01:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral - Informative. The scene focuses on explaining the background and setup of the simulation, maintaining a neutral and informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Explains the motivation for the study, introduces the different types of nanoparticles, and outlines the simulation process.",
+            "timestamp": "00:00:22.208"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated 3D models of two nanoparticles with amorphous and crystalline shells.",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:22.208"
+            }
+          },
+          {
+            "name": "Animated 3D models of three different pairs of nanoparticles (Ni@NiO, Cu@Cu2O, Fe@Fe2O3).",
+            "timestamp": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:47.000"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Scientific research, simulation methods, atomic diffusion, core-shell structure.",
+        "timestamps": {
+          "end_timestamp": "00:01:11.333",
+          "start_timestamp": "00:00:22.208"
+        },
+        "title": "Simulation Setup",
+        "videoEditingDetails": [
+          {
+            "description": "Transitions between different 3D models with text overlay.",
+            "timestamps": {
+              "end_timestamp": "00:01:10.000",
+              "start_timestamp": "00:00:22.208"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Shows the simulation of the sintering process for different nanoparticles.",
+            "timestamp": {
+              "end_timestamp": "00:01:20.000",
+              "start_timestamp": "00:01:11.375"
+            }
+          },
+          {
+            "description": "Discusses the common feature observed across all three nanoparticle types - core atoms do not diffuse, only surface atoms do.",
+            "timestamp": {
+              "end_timestamp": "00:01:41.000",
+              "start_timestamp": "00:01:24.000"
+            }
+          },
+          {
+            "description": "Shows and explains the Mean Square Displacement (MSD) graph, indicating higher surface atom diffusion.",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:43.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral - Analytical. The scene focuses on presenting and analyzing the simulation results, creating a neutral and analytical mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presents the simulation results, highlighting the key observation of localized surface diffusion, and supports it with quantitative MSD data.",
+            "timestamp": "00:01:11.375"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated 3D models showing the coalescence of different nanoparticle pairs over time.",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:11.375"
+            }
+          },
+          {
+            "name": "MSD graph comparing surface and core atom diffusion for each nanoparticle type.",
+            "timestamp": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:43.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Scientific findings, atomic mobility, surface diffusion, data analysis.",
+        "timestamps": {
+          "end_timestamp": "00:02:05.708",
+          "start_timestamp": "00:01:11.375"
+        },
+        "title": "Simulation Results",
+        "videoEditingDetails": [
+          {
+            "description": "Transitions between 3D models and graphs, synchronized with the voiceover explanation.",
+            "timestamps": {
+              "end_timestamp": "00:02:05.000",
+              "start_timestamp": "00:01:11.375"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Further emphasizes the localized nature of surface diffusion observed in the simulations.",
+            "timestamp": {
+              "end_timestamp": "00:02:14.000",
+              "start_timestamp": "00:02:05.750"
+            }
+          },
+          {
+            "description": "Shows atomic trajectory tracing, demonstrating that atoms far from the contact region remain relatively stationary.",
+            "timestamp": {
+              "end_timestamp": "00:02:30.000",
+              "start_timestamp": "00:02:15.000"
+            }
+          },
+          {
+            "description": "Contrasts this finding with the commonly held belief of high surface atom mobility in nanoparticles.",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:30.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral - Intrigued. The scene delves deeper into the specific finding of localized surface diffusion, creating a neutral yet intrigued mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Provides evidence for localized surface diffusion through atomic trajectory tracing, and highlights its significance by contrasting it with existing notions.",
+            "timestamp": "00:02:05.750"
+          }
+        ],
+        "props": [
+          {
+            "name": "3D model of two coalescing nanoparticles with highlighted atomic trajectories.",
+            "timestamp": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:05.750"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Scientific discovery, localized diffusion, atomic trajectories, challenging existing assumptions.",
+        "timestamps": {
+          "end_timestamp": "00:02:41.083",
+          "start_timestamp": "00:02:05.750"
+        },
+        "title": "Localized Surface Diffusion",
+        "videoEditingDetails": [
+          {
+            "description": "Zooms in on the 3D model to emphasize localized surface diffusion.",
+            "timestamps": {
+              "end_timestamp": "00:02:41.000",
+              "start_timestamp": "00:02:05.750"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Concludes the presentation and directs viewers to the poster for more information.",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:41.125"
+            }
+          },
+          {
+            "description": "Acknowledgements to NanoLund and the Swedish Research Council.",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:41.125"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral - Informative. A concise conclusion and clear guidance for further information contribute to a neutral and informative mood.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Summarizes the key findings and encourages viewers to engage with the poster for further details.",
+            "timestamp": "00:02:41.125"
+          }
+        ],
+        "props": [
+          {
+            "name": "Static slide with logos of Lund University, NanoLund, and the Swedish Research Council, and email addresses for contact.",
+            "timestamp": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:41.125"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Research presentation, acknowledgement of funding sources.",
+        "timestamps": {
+          "end_timestamp": "00:02:48.917",
+          "start_timestamp": "00:02:41.125"
+        },
+        "title": "Conclusion and Acknowledgement",
+        "videoEditingDetails": [
+          {
+            "description": "Simple static slide with logos and text.",
+            "timestamps": {
+              "end_timestamp": "00:02:48.000",
+              "start_timestamp": "00:02:41.125"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs in Scene 3 (1:24-1:41) where the key finding of localized surface diffusion is presented, challenging prior assumptions.",
+        "timestamp": "00:01:24.000"
+      },
+      "description": "The video contains two main storylines. The primary storyline is factual and informative, focusing on the molecular dynamics simulations to investigate sintering in core-shell nanoparticles. A secondary storyline in Scene 5 centers on thanking the viewers and pointing them to additional resources.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Video analysis of \"Sintering mechanism of Core@Shell NPs\"",
+    "trimmingSuggestions": [
+      {
+        "description": "The initial presentation slide could be shortened to quickly introduce the speaker and the topic, focusing more on the animated visualizations in subsequent scenes.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      },
+      {
+        "description": "The concluding slide could be shortened, minimizing the time spent on static information.",
+        "timestamps": {
+          "end_timestamp": null,
+          "start_timestamp": null
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 169,
+  "original_json_filename": "lEFca651p3U.json",
+  "original_video_filename": "lEFca651p3U.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello my name is namsun i'm a postdoc from lund university in sweden my poster is about the sintering mechanism of caution nanoparticles sintering of nanoparticle is important because how the shape and the structure of nanoparticles change due to sintering has huge impact on the performance of the functional nanoparticles in given applications centering mechanisms of pure crystalline metal nanoparticles had been investigated previously but there was no study on particles that have crystalline metal core with amorphous metal oxide shell and because this metal metal oxide core shell system itself is gathering much attention as a functional nanoparticle we studied their sintering behavior by using molecular dynamics so we prepared three different types of metal metal oxide caution nanoparticles which exhibit crystalline core and amorphous metal oxide shell after equilibrium at given temperatures then we let the nanoparticles merge and coalesce together and studied how the atoms diffuse during the sintering process here it shows how two nickel nickel oxide caution nanoparticles coalesce over a period of time and for the other two types of nanoparticles as well a common feature we observed in all three types of nanoparticles is that the core atoms do not diffuse across the boundary zone between the two clusters and the surface atoms do not diffuse onto the other side of the nanoparticle surface either but of course if we plot and compare the mean square displacement msd of surface atoms and core atoms we can see that the surface atoms are the one diffused more and therefore contribute to the sintering processes so in that sense the mechanism here was similar to that of the pure crystalline metal nanoparticles one thing that was quite interesting was that when we traced the atomic trajectory we could see that the diffusion was highly localized what we mean by that is as we can see here for example we are tracing the atoms that are far away from the contact region and we can see that the atoms remain pretty much where they were while the sintering progresses quite significantly and this is quite contrasting to the commonly known concept of the high mobility of liquid-like surface atoms and surface diffusion of nanoparticles thank you for watching and for more detailed information please read my poster",
+  "text_to_speech_word_count": 382,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:05.833",
+      "start": "00:00:00.000",
+      "text": " Hello, my name is Namsoon, I'm a postdoc from Lund University in Sweden. My poster is about"
+    },
+    {
+      "end": "00:00:12.208",
+      "start": "00:00:05.833",
+      "text": " the centering mechanism of causal nanoparticles. Centering of nanoparticle is important because"
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:12.208",
+      "text": " how the shape and the structure of nanoparticle change due to centering has huge impact on the"
+    },
+    {
+      "end": "00:00:24.292",
+      "start": "00:00:18.000",
+      "text": " performance of the functional nanoparticles in given applications. Centering mechanisms of"
+    },
+    {
+      "end": "00:00:30.292",
+      "start": "00:00:24.292",
+      "text": " pure crystalline metal nanoparticles had been investigated previously, but there was no study on"
+    },
+    {
+      "end": "00:00:37.167",
+      "start": "00:00:30.292",
+      "text": " particles that have crystalline metal core with amorphous metal oxide shell. And because these metal"
+    },
+    {
+      "end": "00:00:43.083",
+      "start": "00:00:37.167",
+      "text": " metal oxide core shell system itself is gathering much attention as a functional nanoparticle,"
+    },
+    {
+      "end": "00:00:49.417",
+      "start": "00:00:43.083",
+      "text": " we studied their centering behavior by using molecular dynamics. So we prepared three different types"
+    },
+    {
+      "end": "00:00:56.458",
+      "start": "00:00:49.417",
+      "text": " of metal, metal oxide, causal nanoparticles, which exhibit crystalline core and amorphous metal"
+    },
+    {
+      "end": "00:01:04.375",
+      "start": "00:00:56.458",
+      "text": " oxide shell after equilibrium at given temperatures. Then we let the nanoparticles merge and coalesce"
+    },
+    {
+      "end": "00:01:14.042",
+      "start": "00:01:04.375",
+      "text": " together and studied how the atoms diffuse during the centering process. Here it shows how to"
+    },
+    {
+      "end": "00:01:22.000",
+      "start": "00:01:14.708",
+      "text": " nickel oxide core and nanoparticles coalesce over a period of time. And for the other two types of"
+    },
+    {
+      "end": "00:01:28.458",
+      "start": "00:01:22.000",
+      "text": " nanoparticles as well. A common feature we observed in all three types of nanoparticles is that"
+    },
+    {
+      "end": "00:01:36.208",
+      "start": "00:01:28.458",
+      "text": " the core atoms do not diffuse across the boundary zone between the two clusters, and the surface"
+    },
+    {
+      "end": "00:01:43.500",
+      "start": "00:01:36.208",
+      "text": " atoms do not diffuse onto the other side of the nanoparticle surface either. But of course if we"
+    },
+    {
+      "end": "00:01:50.958",
+      "start": "00:01:43.500",
+      "text": " plot and compare the mean square displacement, MST of surface atoms and core atoms, we can see that"
+    },
+    {
+      "end": "00:01:57.333",
+      "start": "00:01:50.958",
+      "text": " the surface atoms are the one diffuse more and therefore contribute to the centering processes."
+    },
+    {
+      "end": "00:02:04.792",
+      "start": "00:01:58.625",
+      "text": " So in that sense, the mechanism here was similar to that of the pure crystalline metal nanoparticles."
+    },
+    {
+      "end": "00:02:11.250",
+      "start": "00:02:05.917",
+      "text": " One thing that was quite interesting was that when we traced the atomic trajectory,"
+    },
+    {
+      "end": "00:02:17.917",
+      "start": "00:02:11.250",
+      "text": " we could see that the diffusion was highly localized. What we mean by that is, as we can see here,"
+    },
+    {
+      "end": "00:02:24.125",
+      "start": "00:02:17.917",
+      "text": " for example, we are tracing the atoms that are far away from the contact region, and we can see"
+    },
+    {
+      "end": "00:02:30.375",
+      "start": "00:02:24.125",
+      "text": " that the atoms remain pretty much where they were while the centering progress is quite significantly."
+    },
+    {
+      "end": "00:02:36.208",
+      "start": "00:02:31.250",
+      "text": " And this is quite contrasting to the commonly known concept of the high mobility of"
+    },
+    {
+      "end": "00:02:41.167",
+      "start": "00:02:36.875",
+      "text": " liquid-like surface atoms and surface diffusion of nanoparticles."
+    },
+    {
+      "end": "00:02:48.792",
+      "start": "00:02:42.958",
+      "text": " Thank you for watching and for more detailed information, please read my poster."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Film & Animation"
+  ],
+  "youtube_channel": "AAAFM USA",
+  "youtube_channel_follower_count": 1210,
+  "youtube_comment_count": 0,
+  "youtube_description": "Sintering mechanisms of core@shell metal@metal oxide nanoparticles",
+  "youtube_like_count": 8,
+  "youtube_tags": [],
+  "youtube_title": "Sintering mechanisms of core@shell metal@metal oxide nanoparticles",
+  "youtube_upload_date": "20210830",
+  "youtube_view_count": 406
+}

@@ -1,0 +1,919 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A black woman with short curly hair, wearing red lipstick and red cat-eye glasses. She's in a black shirt with white dots across the chest.",
+        "name": "Joy Buolamwini"
+      }
+    ],
+    "description": "The video follows Joy Buolamwini's exploration of bias in facial recognition technology, her research project 'Gender Shades', and her call for ethical AI development.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "A white mask.",
+        "question": "What type of mask does Joy put on to finally be detected by the facial recognition system?"
+      },
+      {
+        "answer": "Four.",
+        "question": "How many commercial products did Joy test for her Gender Shades project?"
+      },
+      {
+        "answer": "IBM.",
+        "question": "Which company had the largest accuracy gap between lighter males and darker females in the Gender Shades project?"
+      },
+      {
+        "answer": "Job advertising and loan applications.",
+        "question": "What real-world examples does Joy provide to illustrate the potential dangers of biased AI beyond facial recognition?"
+      },
+      {
+        "answer": "The video starts with curiosity, transitions to anger and frustration, then shifts to determination and ends with a sense of urgency, emphasizing the importance of addressing algorithmic bias.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Joy introduces herself and her research topic.",
+            "timestamp": {
+              "end_timestamp": "00:00:16.884",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Joy Buolamwini"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Joy Buolamwini"
+            ],
+            "description": "Joy addresses the camera directly, engaging the viewer."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of the speaker and her research area.",
+            "timestamp": "00:00:10.010"
+          }
+        ],
+        "props": [],
+        "sceneId": 1,
+        "thematicElements": "Algorithmic bias, facial recognition, computer vision.",
+        "timestamps": {
+          "end_timestamp": "00:00:16.884",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Black screen with an animated 'MIT Media Lab' logo.",
+            "timestamps": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Four blurred faces appear with the title 'Gender Shades'.",
+            "timestamps": {
+              "end_timestamp": "00:00:07.007",
+              "start_timestamp": "00:00:04.004"
+            }
+          },
+          {
+            "description": "Transition to Joy speaking to the camera.",
+            "timestamps": {
+              "end_timestamp": "00:00:16.884",
+              "start_timestamp": "00:00:07.007"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Joy explains her experience with facial recognition technology and introduces the term 'coded gaze'.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.992",
+              "start_timestamp": "00:00:16.984"
+            }
+          },
+          {
+            "description": "Joy shares an anecdote about a facial recognition system failing to detect her face until she put on a white mask.",
+            "timestamp": {
+              "end_timestamp": "00:00:36.403",
+              "start_timestamp": "00:00:24.992"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Joy Buolamwini"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Joy Buolamwini"
+            ],
+            "description": "Joy addresses the camera directly, sharing her experience."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Confused, then Angry",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Joy introduces the problem of algorithmic bias through her personal experience.",
+            "timestamp": "00:00:24.992"
+          }
+        ],
+        "props": [
+          {
+            "name": "Video clip of Joy giving a TED talk. Two white masks.",
+            "timestamp": {
+              "end_timestamp": "00:00:24.992",
+              "start_timestamp": "00:00:18.986"
+            }
+          },
+          {
+            "name": "Video clip demonstrating a facial recognition system failure.",
+            "timestamp": {
+              "end_timestamp": "00:00:36.403",
+              "start_timestamp": "00:00:24.992"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Algorithmic bias, discrimination in technology, personal experience with coded gaze.",
+        "timestamps": {
+          "end_timestamp": "00:00:36.403",
+          "start_timestamp": "00:00:16.917"
+        },
+        "title": "The Coded Gaze",
+        "videoEditingDetails": [
+          {
+            "description": "Joy speaks to the camera with a screenshot of the TED website in the background.",
+            "timestamps": {
+              "end_timestamp": "00:00:24.992",
+              "start_timestamp": "00:00:16.984"
+            }
+          },
+          {
+            "description": "Video clip of Joy giving her TED talk.",
+            "timestamps": {
+              "end_timestamp": "00:00:36.403",
+              "start_timestamp": "00:00:24.992"
+            }
+          },
+          {
+            "description": "Smooth transition back to Joy speaking to the camera.",
+            "timestamps": {
+              "end_timestamp": "00:00:36.403",
+              "start_timestamp": "00:00:36.403"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Joy describes testing her speaker image profile across various facial analysis products and the resulting misgendering.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.002",
+              "start_timestamp": "00:00:37.004"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Joy Buolamwini"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Joy Buolamwini"
+            ],
+            "description": "Joy addresses the camera directly, presenting her findings."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Frustrated",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Evidence of algorithmic bias in various commercial facial analysis products is presented.",
+            "timestamp": "00:00:37.004"
+          },
+          {
+            "description": "Two out of four products don't even detect Joy's face, the remaining two misgender her.",
+            "timestamp": "00:00:46.013"
+          }
+        ],
+        "props": [
+          {
+            "name": "Screen recordings of various facial analysis products and their output.",
+            "timestamp": {
+              "end_timestamp": "00:01:09.002",
+              "start_timestamp": "00:00:37.004"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Algorithmic bias, misgendering in facial recognition, diversity in technology, evidence of the 'coded gaze'.",
+        "timestamps": {
+          "end_timestamp": "00:01:09.069",
+          "start_timestamp": "00:00:36.436"
+        },
+        "title": "Testing Commercial Facial Analysis Products",
+        "videoEditingDetails": [
+          {
+            "description": "Joy speaks to the camera with screen recordings of the products intercut.",
+            "timestamps": {
+              "end_timestamp": "00:01:09.002",
+              "start_timestamp": "00:00:37.004"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Joy explains her research project 'Gender Shades' and its goals.",
+            "timestamp": {
+              "end_timestamp": "00:01:27.988",
+              "start_timestamp": "00:01:09.102"
+            }
+          },
+          {
+            "description": "Joy outlines the methodology, including a diverse dataset.",
+            "timestamp": {
+              "end_timestamp": "00:02:08.996",
+              "start_timestamp": "00:01:27.988"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Joy Buolamwini"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Joy Buolamwini"
+            ],
+            "description": "Joy addresses the camera directly, explaining her research."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Determined",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction of 'Gender Shades' research project and methodology.",
+            "timestamp": "00:01:27.988"
+          }
+        ],
+        "props": [
+          {
+            "name": "Image of Joy's thesis 'Gender Shades'.",
+            "timestamp": {
+              "end_timestamp": "00:01:23.016",
+              "start_timestamp": "00:01:23.016"
+            }
+          },
+          {
+            "name": "Visual of a large collage of faces with different skin tones and genders.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.986",
+              "start_timestamp": "00:01:28.989"
+            }
+          },
+          {
+            "name": "Chart showing ranking of countries based on women in power.",
+            "timestamp": {
+              "end_timestamp": "00:01:58.986",
+              "start_timestamp": "00:01:28.989"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Research methodology, data collection, intersectionality, diversity in research, understanding algorithmic bias.",
+        "timestamps": {
+          "end_timestamp": "00:02:10.964",
+          "start_timestamp": "00:01:09.102"
+        },
+        "title": "Gender Shades Research Project",
+        "videoEditingDetails": [
+          {
+            "description": "Joy speaks to the camera.",
+            "timestamps": {
+              "end_timestamp": "00:01:27.988",
+              "start_timestamp": "00:01:09.102"
+            }
+          },
+          {
+            "description": "Video transitions to visuals that illustrate the creation of the dataset.",
+            "timestamps": {
+              "end_timestamp": "00:01:58.986",
+              "start_timestamp": "00:01:28.989"
+            }
+          },
+          {
+            "description": "Joy speaks to the camera again, explaining country choices.",
+            "timestamps": {
+              "end_timestamp": "00:02:08.996",
+              "start_timestamp": "00:01:58.986"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Joy explains the selection of companies for evaluation.",
+            "timestamp": {
+              "end_timestamp": "00:02:19.006",
+              "start_timestamp": "00:02:10.998"
+            }
+          },
+          {
+            "description": "Joy presents the results of her research, highlighting differences in accuracy across gender and skin tone.",
+            "timestamp": {
+              "end_timestamp": "00:03:22.002",
+              "start_timestamp": "00:02:19.006"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Joy Buolamwini"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Joy Buolamwini"
+            ],
+            "description": "Joy addresses the camera directly, explaining the research findings."
+          }
+        ],
+        "contextualRelevance": "Initial presentation of overall accuracy highlights importance of intersectional analysis.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Concerned",
+          "keyMoments": [
+            {
+              "changeDescription": "Happy, blurred face of a white woman appears.",
+              "timestamp": "00:02:25.012"
+            },
+            {
+              "changeDescription": "Four blurred faces appear, one for each subgroup.",
+              "timestamp": "00:02:30.017"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Presentation of research findings, highlighting bias in commercial products.",
+            "timestamp": "00:02:25.012"
+          },
+          {
+            "description": "Stark accuracy differences when looking at subgroups.",
+            "timestamp": "00:02:29.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Text displaying the names of evaluated companies: 'IBM,' 'Microsoft,' and 'Face++.'",
+            "timestamp": {
+              "end_timestamp": "00:02:19.006",
+              "start_timestamp": "00:02:10.998"
+            }
+          },
+          {
+            "name": "Graphs and charts demonstrating accuracy rates for subgroups.",
+            "timestamp": {
+              "end_timestamp": "00:03:22.002",
+              "start_timestamp": "00:02:19.006"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Accuracy discrepancies, intersectional analysis, gender and racial bias, social implications of biased algorithms.",
+        "timestamps": {
+          "end_timestamp": "00:03:23.970",
+          "start_timestamp": "00:02:10.998"
+        },
+        "title": "Testing and Results",
+        "videoEditingDetails": [
+          {
+            "description": "Joy speaks to the camera with text displaying company names.",
+            "timestamps": {
+              "end_timestamp": "00:02:19.006",
+              "start_timestamp": "00:02:10.998"
+            }
+          },
+          {
+            "description": "Graphs and charts showing accuracy results are intercut.",
+            "timestamps": {
+              "end_timestamp": "00:03:22.002",
+              "start_timestamp": "00:02:19.006"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Joy discusses social implications of biased algorithms perpetuating discrimination.",
+            "timestamp": {
+              "end_timestamp": "00:03:55.001",
+              "start_timestamp": "00:03:24.004"
+            }
+          },
+          {
+            "description": "Joy ends with a call to action for transparency in AI development.",
+            "timestamp": {
+              "end_timestamp": "00:04:49.990",
+              "start_timestamp": "00:03:55.001"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Joy Buolamwini"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Joy Buolamwini"
+            ],
+            "description": "Joy addresses the viewer directly, engaging them in her call to action."
+          }
+        ],
+        "contextualRelevance": "",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Urgent",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Bringing research findings to larger context, issuing call to action.",
+            "timestamp": "00:03:24.004"
+          }
+        ],
+        "props": [
+          {
+            "name": "Footage of airport security line and facial recognition use on streets.",
+            "timestamp": {
+              "end_timestamp": "00:04:10.016",
+              "start_timestamp": "00:03:55.001"
+            }
+          },
+          {
+            "name": "Article headline and loan application form.",
+            "timestamp": {
+              "end_timestamp": "00:04:21.995",
+              "start_timestamp": "00:04:10.016"
+            }
+          },
+          {
+            "name": "Footage of civil rights and women's rights protests.",
+            "timestamp": {
+              "end_timestamp": "00:04:49.990",
+              "start_timestamp": "00:04:21.995"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Social impact of technology, potential for discrimination, ethical AI development, transparency and accountability.",
+        "timestamps": {
+          "end_timestamp": "00:04:50.290",
+          "start_timestamp": "00:03:24.004"
+        },
+        "title": "Conclusion & Call to Action",
+        "videoEditingDetails": [
+          {
+            "description": "Joy speaks to the camera, with visuals intercut throughout.",
+            "timestamps": {
+              "end_timestamp": "00:04:49.990",
+              "start_timestamp": "00:03:24.004"
+            }
+          },
+          {
+            "description": "Fade to black. 'www.gendershades.org' appears.",
+            "timestamps": {
+              "end_timestamp": "00:04:49.990",
+              "start_timestamp": "00:04:49.990"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Neutral",
+          "keyMoments": []
+        },
+        "narrativeProgression": [],
+        "props": [
+          {
+            "name": "Black screen with 'www.gendershades.org' followed by 'MIT Media Lab' logo.",
+            "timestamp": {
+              "end_timestamp": "00:04:58.999",
+              "start_timestamp": "00:04:50.323"
+            }
+          }
+        ],
+        "sceneId": 7,
+        "thematicElements": "",
+        "timestamps": {
+          "end_timestamp": "00:04:59.366",
+          "start_timestamp": "00:04:50.323"
+        },
+        "title": "Outro",
+        "videoEditingDetails": [
+          {
+            "description": "Simple fade out to black.",
+            "timestamps": {
+              "end_timestamp": "00:04:58.999",
+              "start_timestamp": "00:04:50.323"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The presentation of the research findings revealing substantial accuracy discrepancies.",
+        "timestamp": "00:02:29.016"
+      },
+      "description": "The video follows Joy's journey from encountering bias in facial recognition technology to conducting research and issuing a call to action for ethical AI development.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "Joy Buolamwini - Gender Shades",
+    "trimmingSuggestions": [
+      {
+        "description": "The introductory logos could be shortened or moved to the end.",
+        "timestamps": {
+          "end_timestamp": "00:04:50.323",
+          "start_timestamp": "00:04:50.323"
+        }
+      },
+      {
+        "description": "Scene 4, which explains the research methodology, could be condensed to maintain a faster pace and focus on the impactful findings.",
+        "timestamps": {
+          "end_timestamp": "00:04:50.323",
+          "start_timestamp": "00:04:50.323"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 299,
+  "original_json_filename": "TWWsW1w-BVo.json",
+  "original_video_filename": "TWWsW1w-BVo.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "[music] Hi, I'm Joy and I research how computers detect, recognize, and classify people's faces. In my TED featured talk, I spoke about my experience with the Coded Gaze, my term for algorithmic bias. The system I was using worked well on my lighter skinned friend's face,  but when it came to detecting my face, it didn't do so well, until I put on a white mask. After my talk was posted, I tested my speaker image profile across different facial analysis demos. Two of the demos didn't detect my face. The other two, well they misgendered me. The demos didn't even distinguish between gender identity and biological sex. They just provided two labels: male and female. Now I wanted to see if these results were just because my unique facial features, or if this was something that was more of a pattern across other faces too. So I began a project that became my MIT thesis, Gender Shades. Or the long title: Or just Gender Shades. I wanted to see how well different gender classifications systems worked across different people's faces and if the results changed based on somebody's gender or their skin type. I created a dataset of over a thousand images of parliament members ranked among the top ten in the world based on their representation of women in power. To get at a range of skin types, I chose three African countries and three European countries, so I could see how the system performed on lighter skin and darker skin. Then I chose three companies to evaluate: IBM, Microsoft, and Face ++, which has access to one of the largest data sets Chinese faces. So now with the dataset and the companies, I decided to run a test. The companies appeared to have relatively accuracy overall. Microsoft performed best achieving 94% accuracy on whole dataset. All companies performed better on males than females, and all companies also performed better on lighter subjects than on darker subjects. When we analyzed the results by four subgroups, we saw that all companies performed worse on darker females. IBM and Microsoft performed best on lighter males and Face++ performed best on darker males compared to the others. IBM had the largest gap in accuracy with a difference of 34 percent in error rates between lighter males and darker females. I was surprised to see multiple commercial products failing on one in three women of color. In fact, as we tested women with darker and darker skin, the chances of being correctly gendered came close to a coin toss. While more research is needed to explore the specific reasons for the accuracy differences, one general issue is the lack of diversity in training images and benchmark data sets. Failure to separate accuracy results across traits like gender and skin type, also makes it harder to identify differences. Companies should do better with commercially sold products, especially since the machine learning techniques that have made gender classification possible, are applied to other domains of computer vision like facial recognition and other areas of artificial intelligence like predictive analytics. Predictive systems can help determine who is hired, granted a loan, or what information a particular individual sees. These data centric technologies are vulnerable to bias and abuse. As a result, we must demand more transparency and accountability. We have entered the age of automation over confident yet under prepared. If we fail to make ethical and inclusive artificial intelligence, we risk losing gains made in civil rights and gender equity under the guise of machine neutrality. The Coded Gaze reflected in the Gender Shades project must be faced.",
+  "text_to_speech_word_count": 605,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:17.284",
+      "start": "00:00:00.000",
+      "text": " Hi, I'm Joy and I research how computers detect, recognize and classify people's faces."
+    },
+    {
+      "end": "00:00:23.190",
+      "start": "00:00:17.284",
+      "text": " In my TED featured talk, I spoke about my experience with the coded gaze, my term for"
+    },
+    {
+      "end": "00:00:25.459",
+      "start": "00:00:23.190",
+      "text": " algorithmic bias."
+    },
+    {
+      "end": "00:00:30.497",
+      "start": "00:00:25.459",
+      "text": " The system I was using worked well on my lighter skin friend's face, but when it came"
+    },
+    {
+      "end": "00:00:37.070",
+      "start": "00:00:30.497",
+      "text": " to detecting my face, it didn't do so well, until I put on a white mask."
+    },
+    {
+      "end": "00:00:42.776",
+      "start": "00:00:37.070",
+      "text": " After my talk was posted, I tested my speaker image profile across different facial analysis"
+    },
+    {
+      "end": "00:00:43.777",
+      "start": "00:00:42.776",
+      "text": " demos."
+    },
+    {
+      "end": "00:00:55.255",
+      "start": "00:00:43.777",
+      "text": " Two of the demos didn't detect my face."
+    },
+    {
+      "end": "00:00:59.893",
+      "start": "00:00:55.255",
+      "text": " The other two, well they misgendered me."
+    },
+    {
+      "end": "00:01:05.132",
+      "start": "00:00:59.893",
+      "text": " The demos didn't even distinguish between gender identity and biological sex."
+    },
+    {
+      "end": "00:01:09.536",
+      "start": "00:01:05.132",
+      "text": " They just provided two labels, male and female."
+    },
+    {
+      "end": "00:01:14.474",
+      "start": "00:01:09.536",
+      "text": " Now I wanted to see if these results were just because of my unique facial features or"
+    },
+    {
+      "end": "00:01:19.613",
+      "start": "00:01:14.474",
+      "text": " if this was something that was more of a pattern across other faces too."
+    },
+    {
+      "end": "00:01:25.452",
+      "start": "00:01:19.613",
+      "text": " So I began a project that became my MIT thesis, Gender Shades."
+    },
+    {
+      "end": "00:01:32.092",
+      "start": "00:01:25.452",
+      "text": " Or the long title, Gender Shades, Intersectional, Fino-Topic and Demographic, Evaluation of"
+    },
+    {
+      "end": "00:01:34.928",
+      "start": "00:01:32.092",
+      "text": " Face Data Sets and Gender Classifiers."
+    },
+    {
+      "end": "00:01:36.830",
+      "start": "00:01:34.928",
+      "text": " Or just Gender Shades."
+    },
+    {
+      "end": "00:01:41.735",
+      "start": "00:01:36.830",
+      "text": " I wanted to see how well different gender classification systems worked across different"
+    },
+    {
+      "end": "00:01:49.476",
+      "start": "00:01:41.735",
+      "text": " people's faces and if the results changed based on somebody's gender or their skin type."
+    },
+    {
+      "end": "00:01:54.715",
+      "start": "00:01:49.476",
+      "text": " I created a data set of over a thousand images of parliament members ranked among the top"
+    },
+    {
+      "end": "00:01:59.219",
+      "start": "00:01:54.715",
+      "text": " 10 in the world based on their representation of women in power."
+    },
+    {
+      "end": "00:02:03.423",
+      "start": "00:01:59.219",
+      "text": " To get out a range of skin types, I chose three African countries and three European"
+    },
+    {
+      "end": "00:02:09.930",
+      "start": "00:02:03.423",
+      "text": " countries so I could see how the system performed on lighter skin and darker skin."
+    },
+    {
+      "end": "00:02:12.532",
+      "start": "00:02:09.930",
+      "text": " Then I chose three companies to evaluate."
+    },
+    {
+      "end": "00:02:18.038",
+      "start": "00:02:12.532",
+      "text": " IBM, Microsoft and Face Plus Plus, which has access to one of the largest data sets of"
+    },
+    {
+      "end": "00:02:20.140",
+      "start": "00:02:18.038",
+      "text": " Chinese faces."
+    },
+    {
+      "end": "00:02:25.879",
+      "start": "00:02:20.140",
+      "text": " So now with the data set and the companies I decided to run a test, the companies appear"
+    },
+    {
+      "end": "00:02:30.417",
+      "start": "00:02:25.879",
+      "text": " to have relatively high accuracy overall."
+    },
+    {
+      "end": "00:02:36.223",
+      "start": "00:02:30.417",
+      "text": " Microsoft performed best achieving 94% accuracy on the whole data set."
+    },
+    {
+      "end": "00:02:42.662",
+      "start": "00:02:36.223",
+      "text": " All companies perform better on males than females and all companies also perform better"
+    },
+    {
+      "end": "00:02:47.334",
+      "start": "00:02:42.662",
+      "text": " on lighter subjects than on darker subjects."
+    },
+    {
+      "end": "00:02:53.373",
+      "start": "00:02:47.334",
+      "text": " When we analyzed the results by four subgroups, we saw that all companies performed worst"
+    },
+    {
+      "end": "00:02:55.308",
+      "start": "00:02:53.373",
+      "text": " on darker females."
+    },
+    {
+      "end": "00:03:01.982",
+      "start": "00:02:55.308",
+      "text": " IBM and Microsoft performed best on lighter males and Face Plus Plus performed best on darker"
+    },
+    {
+      "end": "00:03:05.185",
+      "start": "00:03:01.982",
+      "text": " males compared to the others."
+    },
+    {
+      "end": "00:03:12.292",
+      "start": "00:03:05.185",
+      "text": " IBM had the largest gap in accuracy with the difference of 34% in error rates between"
+    },
+    {
+      "end": "00:03:15.128",
+      "start": "00:03:12.292",
+      "text": " lighter males and darker females."
+    },
+    {
+      "end": "00:03:20.534",
+      "start": "00:03:15.128",
+      "text": " I was surprised to see multiple commercial products failing on over one in three women"
+    },
+    {
+      "end": "00:03:22.569",
+      "start": "00:03:20.534",
+      "text": " of color."
+    },
+    {
+      "end": "00:03:27.874",
+      "start": "00:03:22.569",
+      "text": " In fact, as we tested women with darker and darker skin, the chances of being correctly"
+    },
+    {
+      "end": "00:03:31.745",
+      "start": "00:03:27.874",
+      "text": " gendered can close to a coin toss."
+    },
+    {
+      "end": "00:03:37.451",
+      "start": "00:03:31.745",
+      "text": " While more research is needed to explore the specific reasons for the accuracy differences,"
+    },
+    {
+      "end": "00:03:43.757",
+      "start": "00:03:37.451",
+      "text": " one general issue is the lack of diversity in training images and benchmark data sets."
+    },
+    {
+      "end": "00:03:48.929",
+      "start": "00:03:43.757",
+      "text": " Earlier to separate accuracy results across traits like gender and skin type also makes"
+    },
+    {
+      "end": "00:03:52.232",
+      "start": "00:03:48.929",
+      "text": " it harder to identify differences."
+    },
+    {
+      "end": "00:03:56.870",
+      "start": "00:03:52.232",
+      "text": " Companies should do better with commercially sold products, especially since the machine"
+    },
+    {
+      "end": "00:04:02.309",
+      "start": "00:03:56.870",
+      "text": " learning techniques that have made gender classification possible are applied to other domains"
+    },
+    {
+      "end": "00:04:08.448",
+      "start": "00:04:02.309",
+      "text": " of computer vision, like facial recognition, and other areas of artificial intelligence,"
+    },
+    {
+      "end": "00:04:10.984",
+      "start": "00:04:08.448",
+      "text": " like predictive analytics."
+    },
+    {
+      "end": "00:04:16.823",
+      "start": "00:04:10.984",
+      "text": " Data systems can help determine who is hired, granted alone, or what information a particular"
+    },
+    {
+      "end": "00:04:18.692",
+      "start": "00:04:16.823",
+      "text": " individual sees."
+    },
+    {
+      "end": "00:04:23.497",
+      "start": "00:04:18.692",
+      "text": " These data-centric technologies are vulnerable to bias and abuse."
+    },
+    {
+      "end": "00:04:28.568",
+      "start": "00:04:23.497",
+      "text": " As a result, we must demand more transparency and more accountability."
+    },
+    {
+      "end": "00:04:34.007",
+      "start": "00:04:28.568",
+      "text": " We have entered the age of automation overconfident yet underprepared."
+    },
+    {
+      "end": "00:04:40.514",
+      "start": "00:04:34.007",
+      "text": " If we fail to make ethical and inclusive artificial intelligence, we risk losing gains made"
+    },
+    {
+      "end": "00:04:46.386",
+      "start": "00:04:40.514",
+      "text": " it in civil rights and gender equity under the guise of machine neutrality."
+    },
+    {
+      "end": "00:04:50.357",
+      "start": "00:04:46.386",
+      "text": " The coded gaze reflected in the Gender Shades project must be faced."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "MIT Media Lab",
+  "youtube_channel_follower_count": 61700,
+  "youtube_comment_count": 0,
+  "youtube_description": "The Gender Shades Project pilots an intersectional approach to inclusive product testing for AI.\n\nGender Shades is a preliminary excavation of inadvertent negligence that will cripple the age of automation and further exacerbate inequality if left to fester. The deeper we dig, the more remnants of bias we will find in our technology. We cannot afford to look away this time, because the stakes are simply too high.  We risk losing the gains made with the civil rights movement and women's movement under the false assumption of machine neutrality. Automated systems are not inherently neutral. They reflect the priorities, preferences, and prejudices—the coded gaze—of those who have the power to mold artificial intelligence.\n\nVideo produced by Joy Buolamwini and Jimmy Day\n\nMany thanks to the Natural Sciences and Engineering Research Council of Canada | Conseil de recherches en sciences naturelles et en génie du Canada for translating the captions into French. \n\nMore information at: https://www.media.mit.edu/projects/gender-shades/overview/ \nLicense: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)",
+  "youtube_like_count": 1400,
+  "youtube_tags": [
+    "MIT",
+    "Gender",
+    "Shades",
+    "gendershades",
+    "face",
+    "recognition",
+    "algorithmic"
+  ],
+  "youtube_title": "Gender Shades",
+  "youtube_upload_date": "20180209",
+  "youtube_view_count": 190872
+}

@@ -1,0 +1,624 @@
+{
+  "content_fine_category": "AI Concepts",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "The speaker. A man with a full beard and dark hair, wearing a black shirt. He is the sole character in the video.",
+        "name": "Krzysztof Świdrak"
+      }
+    ],
+    "description": "An analysis-driven video exploring the use of AI in dissecting malware, focusing on a particular phishing attack involving a malicious HTML file and the subsequent deobfuscation process using ChatGPT.",
+    "fps": 15.984015984015985,
+    "qAndA": [
+      {
+        "answer": "The phishing attack utilized a malicious HTML file disguised as an 'Invoice Payment Reminder.'",
+        "question": "What kind of file was used in the phishing attack?"
+      },
+      {
+        "answer": "He used an online tool called CyberChef.",
+        "question": "What tool did Krzysztof use to decode the embedded code within the HTML file?"
+      },
+      {
+        "answer": "The code was obfuscated to make it more difficult for security analysts to understand its purpose and detect its malicious intent.",
+        "question": "Why was the code obfuscated?"
+      },
+      {
+        "answer": "ChatGPT determined that the code was designed to run on a Windows machine, execute commands, and manipulate environment variables.",
+        "question": "What did ChatGPT identify as the code's primary function?"
+      },
+      {
+        "answer": "ChatGPT declined to deobfuscate the final payload due to its ethical programming, stating that it cannot perform reverse engineering or provide potentially malicious code. This highlights the importance of responsible AI development and usage.",
+        "question": "Why did ChatGPT refuse to deobfuscate the final payload?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Krzysztof introduces the topic of the video about a discovery related to a phishing attack.",
+            "timestamp": {
+              "end_timestamp": "00:00:18.018",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "He explains about a malicious HTML sample.",
+            "timestamp": {
+              "end_timestamp": "00:00:27.027",
+              "start_timestamp": "00:00:18.018"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Krzysztof Świdrak"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Sets the context for the video and introduces the incident that led to the discovery.",
+        "dynamismScore": 0.2,
+        "mood": {
+          "description": "Curious. The speaker's calm demeanor and clear explanation create a sense of curiosity about the discovery.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Krzysztof reveals a phishing attack targeted his company.",
+            "timestamp": "00:00:12.012"
+          },
+          {
+            "description": "He mentions a malicious HTML sample as the focus of the discovery.",
+            "timestamp": "00:00:18.018"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer desktop with a blue background and a file labeled 'Invoice Payment Reminder.htm'",
+            "timestamp": {
+              "end_timestamp": "00:00:27.027",
+              "start_timestamp": "00:00:04.004"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Cybersecurity, phishing attacks, malware analysis.",
+        "timestamps": {
+          "end_timestamp": "00:00:28.966",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction",
+        "videoEditingDetails": [
+          {
+            "description": "Black screen with white text displaying 'Malware with AI' and the date.",
+            "timestamps": {
+              "end_timestamp": "00:00:04.004",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Static shot of Krzysztof overlaid on the computer desktop.",
+            "timestamps": {
+              "end_timestamp": "00:00:27.027",
+              "start_timestamp": "00:00:04.004"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Krzysztof opens the 'Invoice Payment Reminder.htm' file and displays its content in Notepad.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.998",
+              "start_timestamp": "00:00:29.029"
+            }
+          },
+          {
+            "description": "He analyzes obfuscated code and suspicious elements.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.992",
+              "start_timestamp": "00:01:00.998"
+            }
+          },
+          {
+            "description": "Uses CyberChef to decode Base64 encoded code.",
+            "timestamp": {
+              "end_timestamp": "00:02:16.011",
+              "start_timestamp": "00:01:56.992"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Krzysztof Świdrak"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Focus on technical exploration of malicious HTML code.",
+        "dynamismScore": 0.3,
+        "mood": {
+          "description": "Intrigued, technical.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Suspicious nature of HTML files discussed.",
+            "timestamp": "00:01:07.004"
+          },
+          {
+            "description": "Highly obfuscated nature of the code revealed.",
+            "timestamp": "00:01:23.020"
+          },
+          {
+            "description": "Base64 encoded code is decoded revealing obfuscated Javascript.",
+            "timestamp": "00:02:14.009"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer desktop, file icon with right-click menu, Notepad window.",
+            "timestamp": {
+              "end_timestamp": "00:01:00.998",
+              "start_timestamp": "00:00:29.029"
+            }
+          },
+          {
+            "name": "Notepad window displaying the HTML code.",
+            "timestamp": {
+              "end_timestamp": "00:01:56.992",
+              "start_timestamp": "00:01:00.998"
+            }
+          },
+          {
+            "name": "CyberChef webpage with the decoded code.",
+            "timestamp": {
+              "end_timestamp": "00:02:16.011",
+              "start_timestamp": "00:01:56.992"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Code analysis, obfuscation, cybersecurity threats.",
+        "timestamps": {
+          "end_timestamp": "00:02:17.200",
+          "start_timestamp": "00:00:29.029"
+        },
+        "title": "HTML Analysis",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the file opening and code display.",
+            "timestamps": {
+              "end_timestamp": "00:01:00.998",
+              "start_timestamp": "00:00:29.029"
+            }
+          },
+          {
+            "description": "Screen recording of the Notepad window with highlighted code sections.",
+            "timestamps": {
+              "end_timestamp": "00:01:56.992",
+              "start_timestamp": "00:01:00.998"
+            }
+          },
+          {
+            "description": "Screen recording of the CyberChef webpage with highlighted decoded code.",
+            "timestamps": {
+              "end_timestamp": "00:02:16.011",
+              "start_timestamp": "00:01:56.992"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Krzysztof explains utilizing ChatGPT for faster analysis and demonstrates interaction with AI.",
+            "timestamp": {
+              "end_timestamp": "00:03:29.021",
+              "start_timestamp": "00:02:17.262"
+            }
+          },
+          {
+            "description": "Highlights ChatGPT's responses to deobfuscate and rewrite the code.",
+            "timestamp": {
+              "end_timestamp": "00:04:45.973",
+              "start_timestamp": "00:03:29.021"
+            }
+          },
+          {
+            "description": "ChatGPT identifies the code's purpose and translates it.",
+            "timestamp": {
+              "end_timestamp": "00:07:08.991",
+              "start_timestamp": "00:04:45.973"
+            }
+          },
+          {
+            "description": "Summarizes findings and efficiency of AI assistance.",
+            "timestamp": {
+              "end_timestamp": "00:07:28.010",
+              "start_timestamp": "00:07:08.991"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Krzysztof Świdrak"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Krzysztof Świdrak"
+            ],
+            "description": "Interacting with ChatGPT by providing code snippets."
+          }
+        ],
+        "contextualRelevance": "Showcase of AI capabilities in analysis.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Hopeful, fascinated.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "ChatGPT rewrites and deobfuscates code.",
+            "timestamp": "00:02:38.971"
+          },
+          {
+            "description": "Identifies code's purpose for Windows and command execution.",
+            "timestamp": "00:03:53.984"
+          },
+          {
+            "description": "Translates code to Powershell.",
+            "timestamp": "00:04:45.973"
+          },
+          {
+            "description": "ChatGPT recognizes malicious nature but sets ethical limitations.",
+            "timestamp": "00:06:08.994"
+          }
+        ],
+        "props": [
+          {
+            "name": "ChatGPT webpage with conversation and code outputs.",
+            "timestamp": {
+              "end_timestamp": "00:07:28.010",
+              "start_timestamp": "00:02:17.262"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "AI assistance in cybersecurity, code optimization, ethical considerations.",
+        "timestamps": {
+          "end_timestamp": "00:07:28.573",
+          "start_timestamp": "00:02:17.262"
+        },
+        "title": "Enter ChatGPT",
+        "videoEditingDetails": [
+          {
+            "description": "Screen recording of the ChatGPT webpage with conversation history.",
+            "timestamps": {
+              "end_timestamp": "00:07:28.010",
+              "start_timestamp": "00:02:17.262"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Krzysztof concludes the video emphasizing AI's value in analysis.",
+            "timestamp": {
+              "end_timestamp": "00:07:34.016",
+              "start_timestamp": "00:07:28.636"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Krzysztof Świdrak"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "Final remarks on AI applications and future.",
+        "dynamismScore": 0.1,
+        "mood": {
+          "description": "Enthusiastic.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "Summary of findings and call to action for further exploration.",
+            "timestamp": "00:07:28.636"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer desktop.",
+            "timestamp": {
+              "end_timestamp": "00:07:34.016",
+              "start_timestamp": "00:07:28.636"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "AI advancement in cybersecurity, future prospects.",
+        "timestamps": {
+          "end_timestamp": "00:07:34.767",
+          "start_timestamp": "00:07:28.636"
+        },
+        "title": "Conclusion",
+        "videoEditingDetails": [
+          {
+            "description": "Static shot of Krzysztof speaking.",
+            "timestamps": {
+              "end_timestamp": "00:07:34.016",
+              "start_timestamp": "00:07:28.636"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "ChatGPT reveals malicious nature, decodes the final payload.",
+        "timestamp": "00:06:08.994"
+      },
+      "description": "AI Assisted Malware Analysis",
+      "scenes": [
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Malware with AI Video Analysis",
+    "trimmingSuggestions": [
+      {
+        "description": "Trim the initial black screen to 1-2 seconds for a quicker start.",
+        "timestamps": {
+          "end_timestamp": "00:07:28.636",
+          "start_timestamp": "00:07:28.636"
+        }
+      },
+      {
+        "description": "Speed up the scrolling through conversation history in ChatGPT to focus on key responses.",
+        "timestamps": {
+          "end_timestamp": "00:07:28.636",
+          "start_timestamp": "00:07:28.636"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 455,
+  "original_json_filename": "9wDWz_FrG38.json",
+  "original_video_filename": "9wDWz_FrG38.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "hello good evening everyone I just want to share one thing that I discovered today um basically we had an incident we were targeted with a fishing attack and some kind of malicious sample of HTML this one was delivered to one of the forks in the company um and I thought that in the reversing this and checking this the Open Eye dot GPT may be useful because it has more knowledge than me probably and can Computing faster and it sees basically what they what is seen by the computer uh from the from the from the beginning yeah so what I did is first of all I've seen that this is the HTM attachment yes so this was kind of um suspicious because HTM files are not commonly used and this is kind of popular um attacking buff yeah delivery method for for executing some kind of malicious malicious executables into the Windows systems um okay so what I did I've opened this kind of malicious HTML or maybe suspicious at that moment and I found out that there is a lot a bunch of um highly obfuscated um stuff in here as you can see we can see some kind of robots Google Bots meta informations LARP etc etc xqa compatible etc etc and there is some kind of targeted email of course it was reducted by me um and what I did next is idea decode this bunch of um base64 stuff that is actually embedded in here um and I did it with the um chatbot mountains or with with the Cyber chef okay and did you return something like this just for your pretty there is a bunch a bunch of stuff that is that looks highly obfuscated also we can see here some kind of alphabet charts and numbers so I assume there will be some kind of uh decoding or or decrypting of of this fun stuff but to do it in a fast way I just opened a new chat with chat GPT and ask him few questions because I assume he or it will perform this kind of reversing faster and as you can see I have asked him if he can optimize the code because I didn't want to basically directly ask him to help for skating because it will ask me if this is malicious God Etc I may deny it so I asked him to optimize the code he asked me for the context of this code as you see I'm providing the language environment and also the this is the obfuscated code that I need to understand what it does and he reorganized this code and some kind of cleared it so you can see there is not so much mess in here that were previously yeah okay then I stated that it do something on Windows machine store so specifying more clarifying the environment okay he did some bunch of stuff basically he didn't want to perform some kind of reverse engineering because this is the eye machine and it states that that he cannot perform reverse engineering as you can see but asking him to to to code it in power surely provided it for being something like this okay and asking him to decode the encoded face meaning fragment as you can he see here and call it command and banjo bunch of bunch of letters uh it returned me the um both scriptural object which is obvious that this will try to execute something and as you can see it created these constants so clarifying the object setting the temp folder for it and providing the file name here we can see basic C4 encoded file yeah so there is our execute table I will copy it for for demonstration [Music] um and then it did this kind of stuff for the crypting it yes yes and saving it to this temp folder and file name so wanted our tab the slash payload we would see this page what I want um execute it because this is for sure 100 but this is um and I've tried to ask him if he could possibly tell me what isn't called it reverse engineered um I will Deep dive more in in this later um so I was able to basically um they obfuscated meaning the recover the original malware executable from from here even basically five minutes probably so can you imagine how how faster it is for the model analyst now to the obfuscate all of this Bunch stuff um compared to the previous times when the AI cannot help of this they probably would have to spend a lot a bunch of time or in in you know setting all of the puzzles in here and I did it in five minutes probably I strongly recommend you to to proceed with this with this with this model and what is this buff so first stage of of of forensics or this kind of malware investigations are really boosted with this machine learning capabilities and that's all thank you very much this is my first recording",
+  "text_to_speech_word_count": 865,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:09.947",
+      "start": "00:00:00.000",
+      "text": " Hello, good evening everyone. I just want to share one thing that I discovered today."
+    },
+    {
+      "end": "00:00:19.957",
+      "start": "00:00:09.947",
+      "text": " Basically we had an incident. We were targeted with a fishing attack and some kind of malicious sample of HTML."
+    },
+    {
+      "end": "00:00:26.964",
+      "start": "00:00:19.957",
+      "text": " This one was delivered to one of the folks in the company."
+    },
+    {
+      "end": "00:00:51.989",
+      "start": "00:00:27.965",
+      "text": " And I felt that in the reversing this and checking this, the open eye dot GPT may be useful because it has more knowledge done me probably and can computing faster and it sees basically what is seen by the computer from the from the from the beginning."
+    },
+    {
+      "end": "00:01:20.956",
+      "start": "00:00:52.990",
+      "text": " So what I did is, first of all, I've seen that this is the HTML attachment. Yes. So this was kind of suspicious because HTML files are not commonly used and this is kind of popular attack attacking a deaf, yeah, delivery method for for executing some kind of malicious malicious executables onto the windows."
+    },
+    {
+      "end": "00:01:23.959",
+      "start": "00:01:20.956",
+      "text": " And those systems."
+    },
+    {
+      "end": "00:01:39.975",
+      "start": "00:01:23.959",
+      "text": " Okay, so what I did I've opened this kind of malicious HTML or maybe suspicious at that moment. And I found out that there is a lot a bunch of highly sophisticated stuff in here."
+    },
+    {
+      "end": "00:01:52.988",
+      "start": "00:01:39.975",
+      "text": " As you can see, you can see some kind of robots, Google bots meta, information, slurp, et cetera, et cetera, XUA compatible, et cetera, et cetera, yeah."
+    },
+    {
+      "end": "00:01:59.995",
+      "start": "00:01:52.988",
+      "text": " And there is some kind of target the email. Of course, it was redacted by me."
+    },
+    {
+      "end": "00:02:14.947",
+      "start": "00:01:59.995",
+      "text": " And what I did next is idea was the the the call this bunch of base 64 stuff that is actually embedded in here."
+    },
+    {
+      "end": "00:02:29.962",
+      "start": "00:02:14.947",
+      "text": " And I did it with the chatbot, mouse or with with the cyber chef."
+    },
+    {
+      "end": "00:02:43.976",
+      "start": "00:02:29.962",
+      "text": " Okay, and we return something like this."
+    },
+    {
+      "end": "00:02:46.979",
+      "start": "00:02:43.976",
+      "text": " The best for your."
+    },
+    {
+      "end": "00:02:57.990",
+      "start": "00:02:46.979",
+      "text": " The really there is a bunch of bunch of stuff that is that looks highly upfuscated also we can see here some kind of alpha, the chance and numbers."
+    },
+    {
+      "end": "00:03:20.951",
+      "start": "00:02:57.990",
+      "text": " So I assume there will be some kind of decoding or decrypting of of this bunch of stuff, but to do it in fast way, I just opened the new chat with chat GPT and asking a few questions."
+    },
+    {
+      "end": "00:03:41.972",
+      "start": "00:03:20.951",
+      "text": " And he or he will perform this kind of reversing faster. And as you can see, I have asked him if he can optimize the code because I didn't want to basically directly ask him to help for skate the code because it will ask me if this is malicious code, et cetera, I may deny it."
+    },
+    {
+      "end": "00:03:55.986",
+      "start": "00:03:41.972",
+      "text": " So I asked him to optimize the code he asked me for the context of this code as you see, I providing the language environment and also the this is the upfuscated code I need to understand what it does."
+    },
+    {
+      "end": "00:04:07.998",
+      "start": "00:03:55.986",
+      "text": " And he reorganized this code and some kind of cleared it. So you can see there is not so much messing here that were previously."
+    },
+    {
+      "end": "00:04:10.000",
+      "start": "00:04:07.998",
+      "text": " Yeah."
+    },
+    {
+      "end": "00:04:11.939",
+      "start": "00:04:10.000",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:23.951",
+      "start": "00:04:11.939",
+      "text": " Then I stated that we do something on Windows machines, so specifying more clarifying the environment."
+    },
+    {
+      "end": "00:04:39.967",
+      "start": "00:04:23.951",
+      "text": " Okay, he did some bunch of stuff basically didn't want to perform some kind of reverse engineering because this is the machine and state that he cannot perform reverse engineering as you can see."
+    },
+    {
+      "end": "00:04:49.977",
+      "start": "00:04:39.967",
+      "text": " But asking him to call it in power, shall he provided it for me something like this."
+    },
+    {
+      "end": "00:04:50.978",
+      "start": "00:04:49.977",
+      "text": " Okay."
+    },
+    {
+      "end": "00:04:58.986",
+      "start": "00:04:50.978",
+      "text": " And asking him to decode the encoded phase meaning fragment."
+    },
+    {
+      "end": "00:05:04.992",
+      "start": "00:04:58.986",
+      "text": " So you can see here and call it command and bunch of bunch of bunch of letters."
+    },
+    {
+      "end": "00:05:14.940",
+      "start": "00:05:04.992",
+      "text": " It returned me the both script shall object, which is obvious that this will try to execute something."
+    },
+    {
+      "end": "00:05:19.945",
+      "start": "00:05:14.940",
+      "text": " And as you can see it created this constants."
+    },
+    {
+      "end": "00:05:28.954",
+      "start": "00:05:19.945",
+      "text": " So clarifying the object setting temp folder for it and providing file name here, we can see basics if we're encoded file."
+    },
+    {
+      "end": "00:05:31.957",
+      "start": "00:05:28.954",
+      "text": " Yeah, so there is our executable."
+    },
+    {
+      "end": "00:05:36.962",
+      "start": "00:05:31.957",
+      "text": " I will copy it for demonstration."
+    },
+    {
+      "end": "00:05:44.970",
+      "start": "00:05:36.962",
+      "text": " And then it did this kind of stuff for the crypt ing it."
+    },
+    {
+      "end": "00:05:48.974",
+      "start": "00:05:44.970",
+      "text": " And saving it to this temp folder and file names."
+    },
+    {
+      "end": "00:06:00.986",
+      "start": "00:05:48.974",
+      "text": " So on the our temp slash payload, we would see this payload I want executed because this is for 300% while issues."
+    },
+    {
+      "end": "00:06:13.999",
+      "start": "00:06:00.986",
+      "text": " And I tried to ask him if he could possibly tell me what this encoded file do, but what tonight cannot or reverse engineered."
+    },
+    {
+      "end": "00:06:19.942",
+      "start": "00:06:13.999",
+      "text": " I will deep dive more in this later."
+    },
+    {
+      "end": "00:06:41.964",
+      "start": "00:06:19.942",
+      "text": " So I was able to basically, they are first created meaning the record original malware executable from from from here basically five minutes probably."
+    },
+    {
+      "end": "00:06:51.974",
+      "start": "00:06:41.964",
+      "text": " So can you imagine how, how faster it is for the model, and it's now to the opposite of all of this bunch stuff."
+    },
+    {
+      "end": "00:07:05.988",
+      "start": "00:06:51.974",
+      "text": " Compared to the previous times when the AI cannot help with this, they probably would have to spend a lot a bunch of time or in, you know, setting all of the puzzles in here."
+    },
+    {
+      "end": "00:07:15.998",
+      "start": "00:07:05.988",
+      "text": " And I did it in five minutes probably I strongly recommend to proceed with this with this with this model and what is this buff."
+    },
+    {
+      "end": "00:07:29.950",
+      "start": "00:07:15.998",
+      "text": " So first stage of of four n zicks or this kind of malware investigations are really boosted with this machine learning capabilities."
+    },
+    {
+      "end": "00:07:33.953",
+      "start": "00:07:29.950",
+      "text": " That's all thank you very much. This is my first recording."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Krzysztof Świdrak",
+  "youtube_channel_follower_count": 0,
+  "youtube_comment_count": 0,
+  "youtube_description": "I found out that AI machine learning can boost incredibly the malware recognition and deobfuscation.\n\nSee how Open Chat GPT helped me to investigate the malware delivered in phishing attack.",
+  "youtube_like_count": 1,
+  "youtube_tags": [
+    "malware",
+    "cybersecurity",
+    "phishing",
+    "hacking"
+  ],
+  "youtube_title": "AI helps in malware recognition",
+  "youtube_upload_date": "20230306",
+  "youtube_view_count": 25
+}

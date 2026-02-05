@@ -1,0 +1,222 @@
+{
+  "content_fine_category": "Physics",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A middle-aged man with fair skin and graying hair. He is wearing a dark blue shirt and is holding a blue marker.",
+        "name": "Lecturer"
+      }
+    ],
+    "description": "This video analysis examines the limitations of digital filters compared to analog filters, focusing on the issues of frequency response beyond the Nyquist frequency. The analysis includes scenes, storylines, Q&A, and trimming suggestions.",
+    "fps": 25.0,
+    "qAndA": [
+      {
+        "answer": "Impulse invariance and matched z-transform.",
+        "question": "What two transformations were previously discussed before introducing the \"problem\"?"
+      },
+      {
+        "answer": "Lowpass response.",
+        "question": "What specific type of filter response is used as an example to illustrate the problem?"
+      },
+      {
+        "answer": "Nyquist frequency.",
+        "question": "What is the maximum frequency a digital filter can handle called?"
+      },
+      {
+        "answer": "The digital filter's response repeats beyond the Nyquist frequency, while the analog filter's response continues to decrease.",
+        "question": "How is the frequency response of a digital filter different from an analog filter beyond the Nyquist frequency?"
+      },
+      {
+        "answer": "The response in this region is a repetition of the response within the Nyquist range, leading to inaccurate filtering.",
+        "question": "Why is the region beyond the Nyquist frequency considered unusable for the digital filter?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Writing and explaining: The lecturer writes formulas, draws a graph, and explains a problem with digital filter response.",
+            "timestamp": {
+              "end_timestamp": "00:03:31.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Lecturer"
+        ],
+        "characterInteraction": [],
+        "contextualRelevance": "The scene highlights the inherent trade-offs encountered when transitioning from the continuous analog world to the discrete digital domain. (Timestamp: Throughout the scene).",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Curious/Pensive. The visual focuses on the lecture content, and the audio explains a complex issue prompting curiosity and reflection.",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The lecturer reviews previous topics related to transformations between analog and digital domains.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The lecturer introduces the problem of limited frequency response in digital filters.",
+            "timestamp": "00:00:35.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Whiteboard",
+            "timestamp": {
+              "end_timestamp": "00:03:31.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "name": "Blue marker",
+            "timestamp": {
+              "end_timestamp": "00:03:31.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Digital Signal Processing: The scene focuses on a core concept in digital signal processing, the limitations of digital filters compared to analog filters.",
+        "timestamps": {
+          "end_timestamp": "00:03:31.280",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Digital Filter Limitations",
+        "videoEditingDetails": []
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax occurs when the lecturer identifies the usable region of the digital filter, highlighting the limitations compared to the analog filter.",
+        "timestamp": "00:03:00.000"
+      },
+      "description": "Limitations of Digital Filters",
+      "scenes": [
+        1
+      ]
+    },
+    "title": "Limitations of Digital Filters",
+    "trimmingSuggestions": [
+      {
+        "description": "The segment where the lecturer reviews past topics, could be trimmed for a more dynamic start. While helpful for context, it slows down the introduction of the main problem.",
+        "timestamps": {
+          "end_timestamp": "00:00:34.000",
+          "start_timestamp": "00:00:00.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 211,
+  "original_json_filename": "3ywXN7wwZpk.json",
+  "original_video_filename": "3ywXN7wwZpk.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so far we have worked with some different transformations between the analog space yes and into the digital domain set and so we we have done this with two transformation so far this was a so-called impulse invariance and the other one was V matched that transform so they saw the main problem with these transforms is it's a following so if we look at that's a analog response here so this is our analog domain so if you have an analog response here so we have h of j and and capital omega analog frequencies and we've got user Omega and so for example we have a low-pass response so it's a low-pass then the frequency ex is here this this goes to infinity yeah so we have no limitations so we're starting starting from zero and this goes to infinity here the problem now is that our digital filter won't do that so our digital filter stops at some point here so let's see this is here for digital filters a Nyquist frequency so we know that above the Nyquist frequency spectrum just repeats so this means that for eons Nyquist frequency this would go up yeah so the so the response this is the response he of our analog filter and this one here this is the response of the digital filter so this means the bottom line is replicating a very poor filter response so if you're limiting if we define this frequency here and our digital filter filter PI then essentially this is only the usable region of our filter here",
+  "text_to_speech_word_count": 266,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:10.760",
+      "start": "00:00:00.000",
+      "text": " So far we have worked with different transformations between the analog space S and into the"
+    },
+    {
+      "end": "00:00:18.000",
+      "start": "00:00:10.760",
+      "text": " duty to domain Z. And so we have done this with two transformations so far. This was so called"
+    },
+    {
+      "end": "00:00:37.960",
+      "start": "00:00:18.000",
+      "text": " impulse invariance. And the other one was the matched Z transform. So the main problem"
+    },
+    {
+      "end": "00:00:52.520",
+      "start": "00:00:37.960",
+      "text": " with these transforms is a following. So if we look at a analog response here, so this is our"
+    },
+    {
+      "end": "00:01:09.200",
+      "start": "00:00:52.520",
+      "text": " analog domain. So if we have an analog response here, so we have a h of j and then capital omega"
+    },
+    {
+      "end": "00:01:16.040",
+      "start": "00:01:09.200",
+      "text": " for analog frequencies. And we've got here's omega. And so for example we have a low pass response."
+    },
+    {
+      "end": "00:01:29.240",
+      "start": "00:01:16.040",
+      "text": " So that's a low pass. So the frequency axis here, this goes to infinity. So we have no limitations."
+    },
+    {
+      "end": "00:01:38.520",
+      "start": "00:01:29.240",
+      "text": " So we're starting from zero and this goes to infinity here. The problem now is that our digital filter"
+    },
+    {
+      "end": "00:01:47.440",
+      "start": "00:01:38.520",
+      "text": " won't do that. So our digital filter stops at some point here. So let's see this is here for"
+    },
+    {
+      "end": "00:02:03.680",
+      "start": "00:01:47.440",
+      "text": " digital filter as a Nyquist frequency. So we know that above the Nyquist frequency this"
+    },
+    {
+      "end": "00:02:12.000",
+      "start": "00:02:03.680",
+      "text": " spectrum just repeats. So this means that for the Nyquist frequency this would go up. So the"
+    },
+    {
+      "end": "00:02:33.160",
+      "start": "00:02:12.000",
+      "text": " response, this is the response here of our analog filter. And this one here, this is the response"
+    },
+    {
+      "end": "00:02:50.440",
+      "start": "00:02:33.160",
+      "text": " of the digital filter. So this means the bottom line is at we're getting a very poor filter response."
+    },
+    {
+      "end": "00:03:07.480",
+      "start": "00:02:50.760",
+      "text": " So if we're limiting, if we define this frequency here in our digital filter, filter pi, then essentially this is only the"
+    },
+    {
+      "end": "00:03:10.520",
+      "start": "00:03:07.480",
+      "text": " usable region of our digital filter here."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Digital Signal Processing",
+  "youtube_channel_follower_count": 9980,
+  "youtube_comment_count": 2,
+  "youtube_description": "The problem with the impulse invariance / matched z method is that they map frequencies from analogue linearly. This means that the mapping works only up to Nyquist but not to infinity. The bilinear transform fixes this problem. It's linear for lower frequencies but then becomes non-linear to compress the whole analogue frequency range into the digital one.",
+  "youtube_like_count": 24,
+  "youtube_tags": [
+    "Bilinear Transform",
+    "Gnu Octave Programming Language",
+    "Infinite Impulse Response",
+    "Iir",
+    "Digital Filter",
+    "Matlab Programming Language",
+    "Filter",
+    "Iir Filter",
+    "Signal Processing Field Of Study",
+    "Filter Design"
+  ],
+  "youtube_title": "Bilinear transform: introduction (#0000)",
+  "youtube_upload_date": "20131125",
+  "youtube_view_count": 11958
+}

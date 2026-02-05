@@ -1,0 +1,1143 @@
+{
+  "content_fine_category": "Software Tutorials",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A man with a shaved head, mustache, and beard. He is wearing sunglasses and a dark gray shirt.",
+        "name": "Luke"
+      }
+    ],
+    "description": "An informative guide on using the XDG Base Directory and environment variables for efficient Linux home directory management.",
+    "fps": 30.0,
+    "qAndA": [
+      {
+        "answer": "lsa -a | wc -l",
+        "question": "What command does Luke initially ask the viewer to run?"
+      },
+      {
+        "answer": "Below 25.",
+        "question": "According to Luke, what is considered an ideal number of files in the home directory?"
+      },
+      {
+        "answer": "It was introduced to standardize the organization of user files and minimize clutter in the home directory.",
+        "question": "What is the historical significance of the XDG Base Directory?"
+      },
+      {
+        "answer": "They haven't fully adopted the XDG Base Directory specification and still create files in the home directory.",
+        "question": "What specific frustration does Luke express about some programs?"
+      },
+      {
+        "answer": "He uses environment variables and aliases to manually specify the location of configuration files.",
+        "question": "How does Luke handle programs that don't automatically use XDG?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Talking to the camera",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Luke"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Luke"
+            ],
+            "description": "Luke addresses the viewer directly."
+          }
+        ],
+        "contextualRelevance": "The focus is on engaging the viewer and creating intrigue for the upcoming content.",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Curious",
+          "keyMoments": [
+            {
+              "changeDescription": "",
+              "timestamp": "00:00:00.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Introduction to the 'ultimate test of minimalism' - a command to run on the computer.",
+            "timestamp": "00:00:00.000"
+          },
+          {
+            "description": "The command is displayed on the screen.",
+            "timestamp": "00:00:22.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen with a command prompt",
+            "timestamp": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:14.000"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Minimalism, organization, self-reflection.",
+        "timestamps": {
+          "end_timestamp": "00:00:29.000",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction to Minimalism Challenge",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:00:29.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Explaining the command and its results",
+            "timestamp": {
+              "end_timestamp": "00:01:52.000",
+              "start_timestamp": "00:00:29.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Luke"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Luke"
+            ],
+            "description": "Luke addresses the viewer directly."
+          }
+        ],
+        "contextualRelevance": "Luke shares his personal approach to downloads, highlighting the significance of file organization.",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": [
+            {
+              "changeDescription": "",
+              "timestamp": "00:00:29.033"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Luke interprets different numbers of files.",
+            "timestamp": "00:00:35.000"
+          },
+          {
+            "description": "He explains the role of the command and the significance of hidden files.",
+            "timestamp": "00:00:52.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen with a command prompt",
+            "timestamp": {
+              "end_timestamp": "00:01:52.000",
+              "start_timestamp": "00:00:29.033"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "File organization, hidden files, understanding the Linux filesystem.",
+        "timestamps": {
+          "end_timestamp": "00:01:52.000",
+          "start_timestamp": "00:00:29.033"
+        },
+        "title": "Explanation of the Command",
+        "videoEditingDetails": [
+          {
+            "description": "No transitions or effects.",
+            "timestamps": {
+              "end_timestamp": "00:01:52.000",
+              "start_timestamp": "00:00:29.033"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Discussing historical context and solutions to file clutter",
+            "timestamp": {
+              "end_timestamp": "00:04:08.000",
+              "start_timestamp": "00:01:52.033"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Luke"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Luke"
+            ],
+            "description": "Luke addresses the viewer directly."
+          }
+        ],
+        "contextualRelevance": "The use of the Arch Wiki underscores the importance of community documentation and collaborative knowledge sharing.",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Informative",
+          "keyMoments": [
+            {
+              "changeDescription": "Increase in visual engagement.",
+              "timestamp": "00:02:47.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Luke explains the old way of storing configuration files.",
+            "timestamp": "00:01:52.033"
+          },
+          {
+            "description": "He introduces the XDG directory specification.",
+            "timestamp": "00:02:51.000"
+          },
+          {
+            "description": "The Arch Wiki page provides a list of supported programs.",
+            "timestamp": "00:03:26.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen with a command prompt",
+            "timestamp": {
+              "end_timestamp": "00:02:46.000",
+              "start_timestamp": "00:01:52.033"
+            }
+          },
+          {
+            "name": "Arch Wiki page on XDG Base Directory",
+            "timestamp": {
+              "end_timestamp": "00:04:08.000",
+              "start_timestamp": "00:02:47.000"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "History of Linux file management, standardization, XDG Base Directory.",
+        "timestamps": {
+          "end_timestamp": "00:04:09.433",
+          "start_timestamp": "00:01:52.033"
+        },
+        "title": "Historical Context and Solutions to File Clutter",
+        "videoEditingDetails": [
+          {
+            "description": "Transition to the Arch Wiki page.",
+            "timestamps": {
+              "end_timestamp": "00:02:47.000",
+              "start_timestamp": "00:02:47.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Demonstrating personal file management techniques and providing further recommendations",
+            "timestamp": {
+              "end_timestamp": "00:08:41.000",
+              "start_timestamp": "00:04:09.467"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.9,
+        "cast": [
+          "Luke"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Luke"
+            ],
+            "description": "Luke addresses the viewer directly."
+          }
+        ],
+        "contextualRelevance": "The emphasis on personalization highlights the flexibility and control users have over their Linux environment.",
+        "dynamismScore": 0.8,
+        "mood": {
+          "description": "Practical, slightly frustrated",
+          "keyMoments": [
+            {
+              "changeDescription": "Shift to frustration when discussing programs lacking XDG support.",
+              "timestamp": "00:06:46.000"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "Luke explains how to move files for programs not automatically using XDG.",
+            "timestamp": "00:04:09.467"
+          },
+          {
+            "description": "He demonstrates his environment file with specific configurations.",
+            "timestamp": "00:04:20.000"
+          },
+          {
+            "description": "He showcases his aliases and how he uses them to organize files.",
+            "timestamp": "00:04:58.000"
+          },
+          {
+            "description": "Luke reiterates his commitment to a clean home directory.",
+            "timestamp": "00:07:38.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Computer screen with a command prompt",
+            "timestamp": {
+              "end_timestamp": "00:04:19.000",
+              "start_timestamp": "00:04:09.467"
+            }
+          },
+          {
+            "name": "Text editor showing environment file",
+            "timestamp": {
+              "end_timestamp": "00:04:57.000",
+              "start_timestamp": "00:04:20.000"
+            }
+          },
+          {
+            "name": "Text editor showing aliases",
+            "timestamp": {
+              "end_timestamp": "00:07:25.000",
+              "start_timestamp": "00:04:58.000"
+            }
+          },
+          {
+            "name": "Computer screen with a command prompt",
+            "timestamp": {
+              "end_timestamp": "00:08:41.000",
+              "start_timestamp": "00:07:25.000"
+            }
+          },
+          {
+            "name": "Arch Wiki page on XDG Base Directory",
+            "timestamp": {
+              "end_timestamp": "00:08:15.000",
+              "start_timestamp": "00:08:09.000"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Customization, environmental variables, aliases, personal preferences.",
+        "timestamps": {
+          "end_timestamp": "00:08:41.500",
+          "start_timestamp": "00:04:09.467"
+        },
+        "title": "Demonstrating Personal File Management Techniques",
+        "videoEditingDetails": [
+          {
+            "description": "Transitions between command prompt, text editor, and Arch Wiki page.",
+            "timestamps": {
+              "end_timestamp": "00:08:41.000",
+              "start_timestamp": "00:04:09.467"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "The climax is implicit throughout the video, emphasizing the ongoing effort to maintain a clean home directory.",
+        "timestamp": "00:07:38.000"
+      },
+      "description": "How to clean up the home directory in Linux using XDG Base Directory and environment variables.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": "Cleaning Up Your Linux Home Directory",
+    "trimmingSuggestions": [
+      {
+        "description": "Shorten the opening by directly introducing the command.",
+        "timestamps": {
+          "end_timestamp": "00:04:09.467",
+          "start_timestamp": "00:04:09.467"
+        }
+      },
+      {
+        "description": "Condense explanations to maintain a quicker pace.",
+        "timestamps": {
+          "end_timestamp": "00:04:09.467",
+          "start_timestamp": "00:04:09.467"
+        }
+      },
+      {
+        "description": "Streamline demonstration of environment variables and aliases, showing only key examples.",
+        "timestamps": {
+          "end_timestamp": "00:07:25.000",
+          "start_timestamp": "00:04:20.000"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Education",
+  "duration_seconds": 522,
+  "original_json_filename": "yy8RoDSdhIQ.json",
+  "original_video_filename": "yy8RoDSdhIQ.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "so we're gonna do some spring cleaning in this video actually this is the ultimate test of minimalism or an out really minimalism it's really the ultimate test of are you a messy person okay so here's what I want you to do I want you to run this command on your computer and you're gonna get a number the smaller is better okay so here is the command LS a pipe that into word count of lines just run that and show me what number you got you might as well post it in the comments section so you can all bully each other about what numbers you got smaller is better or better I'll say that below 25 or so that's ideal if you got 3040 you're sort of a messy person if you got closer to a hundred you're a really messy person if you got more than a hundred I don't know what's going on you got you got some improvement to do or something I don't know what's going on in your head now of course LSA that's listing out all the files in your home directory now of course if you just do LS that's only your normal files but really what we're looking at is the hidden files here now of course part of the mess comes from you just keeping a bunch of files in your home directory some people do that I usually have my downloads directly to my home directory even though I have a download folder but when it comes down to it LS a will list out all these config files which usually on Linux are going to be most of the files in your home directory now the reason this is now people ask me actually I should say the reason I'm doing this video is I will occasionally LSA and people will comment about how few files of I have in my home directory it looks very organized you can see them all a lot of people if you run LS a it'll take up the entire terminal screen there are easy ways to minimize the files in your home directory without messing things up okay now here's the story here's how is this relevant to anything it used to be that every single program for example you know bat your bash RC or I three configuration your stuff like that every single configuration file you used to go directly in your home directory so that meant that if you had a hundred programs you had a hundred dot files in your home directory and that's just going to be total whenever you have to run some command even just look at the contents you're just gonna see all this junk okay now what eventually happened is people started moving things into different folders cell for example dot config if I LS the contents of dot config you'll see a hovel a whole lot more in here actually let's let's count it up I have a 75 directories and files in here and actually some of these I don't even use anymore but if in the olden days all of this junk would just be in your home directory it was a big mess but gradually there started I guess what people call the xdg directory specifications which meant okay we're gonna move all config files to dot config we're gonna move all cache files to doc cache and there's also some stuff in dot local slash share as well and that is just a way to clean up the home directory now if you go to the arch wiki right now there is actually let's give my face so you don't forget what I look like if you go to the arch wiki right now and go to xdg base directory if you check that that article or whatever it actually lists out over the over time a bunch of the programs actually that let me go back here to provide some examples let's say for example I three it used to be the I threes config was way back I don't I don't know even know where it used to be I three yeah it used to be in your home directory in the dot I three folder okay and I think actually I think if you get like Manjaro I three by default they still have it in this folder it's disgusting to me you need to just move everything into config but as time went on this is actually a list here so for example the supported programs these are programs that all have moved into dot config or the pro or move their cache to dot cache and stuff like that so if you are using any of these programs although they might have some legacy option to have it in your home directory you can easily just move your config file into you know config I three slash config and it will still work perfectly fine so you can go ahead and start moving those files into into those through into the config directory or whatever now there are other programs now in order to get rid of some other programs from your home directory actually let me show you I have a where's my environment file okay actually by default I should say so my this file in my home directory zsh environment it list or load a series of environmental variables and this is what they look like now you'll notice I have this big category here called cleanup and that is all the different there are other programs that don't necessarily support the xdg directory specification so they don't automatically look and look in the config directory for configuration files or for cache files but you can move things by manually setting them with environmental variables and that's what I've done here for example X Authority by default it will you will have a dot X authority file in your home directory but you can easily move it by just setting this variable in restarting right same thing with a lot of things input RC W get less has this annoying history file I actually just delete it a whole bunch of stuff and there are more here these are just the programs I happen to use which recently you know do PG stuff like that even Kodi I found out it's not on the arch wiki there are some things that are actually let me scroll down to that so let's see on the arch wiki has it does a good job at listing out most of the things that can take let's say environmental variables I guess it might not have them in a separate section but it lists out some of the things the environmental variables that you can change but they don't list all of them it's not perfectly updated but you can move a whole bunch of these just by specifying those so for example my Z shrc by default that's going to be in your home directory I don't like it there so I haven't moved into dot config slash z8z Sh it would be really nice if they just had xdg compatibility and zsh by default but you can at least set this so anyway that's a way to clean up your home directories so here are some of the very use and there are other there are other programs that still haven't built that you know the invert the ability to use environmental variables into their programs but there are other things you can do for example I think if I go to my aliases here there are a couple programs let's say a book a book is you know an address book and by default it has it looks in the home directory you can't change that with an environmental variable but you can give a book the C option capital C option to change the location of its config file so that's what I do here I move it and it's data file to somewhere else so whenever I run a book it actually runs this larger command that looks in a different place for the configuration file okay so anyway that is how I clean up my home directory I recommend you to check out the this page on the arch wiki just to give you sort of ideas of where to go but I definitely like cleaning I like having my home directory very clean I've always liked it like that and it actually annoys me to know in the fact that there are still files in here that I haven't moved to some other location like the zsh environment I'd like to be able to set that environmental variable somewhere else in a user specific location so I don't even have to have this file you can at you can't actually move some of these you can move X in it RC but not every program will properly read them correctly but if by default if you know if it's listed in the arch wiki you can at least move them without any major problems so I recommend trying that anyway that's about it just the minor note just cuz people have asked I'll see you guys next time oh yeah you're like i i've been i'm using my my built-in or my built-in webcam and microphone for this video just because i don't know i wanted to record outside i actually got a new ThinkPad x2 20 and it's microphone it's not that bad it's a lot better than the one I used to have maybe I'll talk about why I got a new one in another video but alright that's it see you guys next",
+  "text_to_speech_word_count": 1653,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:04.000",
+      "start": "00:00:00.000",
+      "text": " So we're going to do some spring cleaning in this video."
+    },
+    {
+      "end": "00:00:07.000",
+      "start": "00:00:04.000",
+      "text": " Actually this is the ultimate test of minimalism."
+    },
+    {
+      "end": "00:00:10.000",
+      "start": "00:00:07.000",
+      "text": " Or not really minimalism, it's really the ultimate test of"
+    },
+    {
+      "end": "00:00:12.000",
+      "start": "00:00:10.000",
+      "text": " are you a messy person."
+    },
+    {
+      "end": "00:00:15.000",
+      "start": "00:00:12.000",
+      "text": " Okay? So here's what I want you to do."
+    },
+    {
+      "end": "00:00:17.000",
+      "start": "00:00:15.000",
+      "text": " I want you to run this command on your computer."
+    },
+    {
+      "end": "00:00:19.000",
+      "start": "00:00:17.000",
+      "text": " And you're going to get a number."
+    },
+    {
+      "end": "00:00:21.000",
+      "start": "00:00:19.000",
+      "text": " The smaller is better."
+    },
+    {
+      "end": "00:00:23.000",
+      "start": "00:00:21.000",
+      "text": " Okay? So here is the command."
+    },
+    {
+      "end": "00:00:26.000",
+      "start": "00:00:23.000",
+      "text": " LSA pipe that into word count of lines."
+    },
+    {
+      "end": "00:00:27.000",
+      "start": "00:00:26.000",
+      "text": " Just run that."
+    },
+    {
+      "end": "00:00:29.000",
+      "start": "00:00:27.000",
+      "text": " And show me what number you got."
+    },
+    {
+      "end": "00:00:32.000",
+      "start": "00:00:29.000",
+      "text": " You might as well post it in the comments section so you can all bully"
+    },
+    {
+      "end": "00:00:34.000",
+      "start": "00:00:32.000",
+      "text": " each other about what numbers you got."
+    },
+    {
+      "end": "00:00:35.000",
+      "start": "00:00:34.000",
+      "text": " Smaller is better."
+    },
+    {
+      "end": "00:00:39.000",
+      "start": "00:00:35.000",
+      "text": " I'll say that below 25 or so that's ideal."
+    },
+    {
+      "end": "00:00:42.000",
+      "start": "00:00:39.000",
+      "text": " If you got 30, 40, you're sort of a messy person."
+    },
+    {
+      "end": "00:00:46.000",
+      "start": "00:00:42.000",
+      "text": " If you got closer to 100, you're a really messy person."
+    },
+    {
+      "end": "00:00:48.000",
+      "start": "00:00:46.000",
+      "text": " If you got more than 100, I don't know what's going on."
+    },
+    {
+      "end": "00:00:50.000",
+      "start": "00:00:48.000",
+      "text": " You got some improvement to do or something."
+    },
+    {
+      "end": "00:00:52.000",
+      "start": "00:00:50.000",
+      "text": " I don't know what's going on in your head."
+    },
+    {
+      "end": "00:00:56.000",
+      "start": "00:00:52.000",
+      "text": " Now of course LSA, that's listing out all the files in your home directory."
+    },
+    {
+      "end": "00:00:59.000",
+      "start": "00:00:56.000",
+      "text": " Now of course if you just do LS, that's only your normal files."
+    },
+    {
+      "end": "00:01:02.000",
+      "start": "00:00:59.000",
+      "text": " But really what we're looking at is the hidden files here."
+    },
+    {
+      "end": "00:01:07.000",
+      "start": "00:01:02.000",
+      "text": " Now of course part of the mess comes from you just keeping a bunch of files in your home directory."
+    },
+    {
+      "end": "00:01:08.000",
+      "start": "00:01:07.000",
+      "text": " Some people do that."
+    },
+    {
+      "end": "00:01:11.000",
+      "start": "00:01:08.000",
+      "text": " I usually have my downloads directly to my home directory,"
+    },
+    {
+      "end": "00:01:13.000",
+      "start": "00:01:11.000",
+      "text": " even though I have a download folder."
+    },
+    {
+      "end": "00:01:18.000",
+      "start": "00:01:13.000",
+      "text": " But when it comes down to it, LSA will list out all these config files,"
+    },
+    {
+      "end": "00:01:23.000",
+      "start": "00:01:18.000",
+      "text": " which usually on Linux are going to be most of the files in your home directory."
+    },
+    {
+      "end": "00:01:26.000",
+      "start": "00:01:23.000",
+      "text": " Now the reason this is, now people ask me,"
+    },
+    {
+      "end": "00:01:31.000",
+      "start": "00:01:26.000",
+      "text": " actually I should say the reason I'm doing this video is I will occasionally LSA"
+    },
+    {
+      "end": "00:01:35.000",
+      "start": "00:01:31.000",
+      "text": " and people will comment about how few files I have in my home directory."
+    },
+    {
+      "end": "00:01:36.000",
+      "start": "00:01:35.000",
+      "text": " It looks very organized."
+    },
+    {
+      "end": "00:01:37.000",
+      "start": "00:01:36.000",
+      "text": " You can see them all."
+    },
+    {
+      "end": "00:01:41.000",
+      "start": "00:01:37.000",
+      "text": " A lot of people if you run LSA, it'll take up the entire terminal screen."
+    },
+    {
+      "end": "00:01:47.000",
+      "start": "00:01:41.000",
+      "text": " There are easy ways to minimize the files in your home directory without messing things up."
+    },
+    {
+      "end": "00:01:49.000",
+      "start": "00:01:47.000",
+      "text": " Now here's the story."
+    },
+    {
+      "end": "00:01:51.000",
+      "start": "00:01:49.000",
+      "text": " How is this relevant to anything?"
+    },
+    {
+      "end": "00:01:55.000",
+      "start": "00:01:51.000",
+      "text": " It used to be that every single program, for example,"
+    },
+    {
+      "end": "00:02:00.000",
+      "start": "00:01:55.000",
+      "text": " you know, your BasharC or I3 configuration,"
+    },
+    {
+      "end": "00:02:06.000",
+      "start": "00:02:00.000",
+      "text": " your stuff like that, every single configuration file used to go directly in your home directory."
+    },
+    {
+      "end": "00:02:12.000",
+      "start": "00:02:06.000",
+      "text": " So that meant that if you had 100 programs, you had 100 dot files in your home directory."
+    },
+    {
+      "end": "00:02:15.000",
+      "start": "00:02:12.000",
+      "text": " And that's just going to be total mess whenever you have to run some command,"
+    },
+    {
+      "end": "00:02:19.000",
+      "start": "00:02:15.000",
+      "text": " even just look at the contents, you're just going to see all this junk."
+    },
+    {
+      "end": "00:02:24.000",
+      "start": "00:02:19.000",
+      "text": " Now what eventually happened is people started moving things into different folders."
+    },
+    {
+      "end": "00:02:29.000",
+      "start": "00:02:24.000",
+      "text": " For example, dot config, if I LS the contents of dot config,"
+    },
+    {
+      "end": "00:02:31.000",
+      "start": "00:02:29.000",
+      "text": " you'll see I have a whole lot more in here."
+    },
+    {
+      "end": "00:02:33.000",
+      "start": "00:02:31.000",
+      "text": " Actually, let's count it up."
+    },
+    {
+      "end": "00:02:37.000",
+      "start": "00:02:33.000",
+      "text": " I have 75 directories and files in here."
+    },
+    {
+      "end": "00:02:40.000",
+      "start": "00:02:37.000",
+      "text": " And actually some of these I don't even use anymore."
+    },
+    {
+      "end": "00:02:45.000",
+      "start": "00:02:40.000",
+      "text": " But if in the olden days all of this junk would just be in your home directory."
+    },
+    {
+      "end": "00:02:46.000",
+      "start": "00:02:45.000",
+      "text": " It was a big mess."
+    },
+    {
+      "end": "00:02:53.000",
+      "start": "00:02:46.000",
+      "text": " But gradually they're started, I guess what people call the XDG directory specifications,"
+    },
+    {
+      "end": "00:02:57.000",
+      "start": "00:02:53.000",
+      "text": " which meant, okay, we're going to move all config files to dot config."
+    },
+    {
+      "end": "00:03:00.000",
+      "start": "00:02:57.000",
+      "text": " We're going to move all cache files to dot cache."
+    },
+    {
+      "end": "00:03:04.000",
+      "start": "00:03:00.000",
+      "text": " And there's also some stuff in dot local slash share as well."
+    },
+    {
+      "end": "00:03:09.000",
+      "start": "00:03:04.000",
+      "text": " And that is just a way to clean up the home directory."
+    },
+    {
+      "end": "00:03:13.000",
+      "start": "00:03:09.000",
+      "text": " Now, if you go to the Archwicky right now, there is actually let's get my face."
+    },
+    {
+      "end": "00:03:16.000",
+      "start": "00:03:13.000",
+      "text": " So you don't forget what I look like."
+    },
+    {
+      "end": "00:03:20.000",
+      "start": "00:03:16.000",
+      "text": " If you go to the Archwicky right now and go to XDG base directory,"
+    },
+    {
+      "end": "00:03:27.000",
+      "start": "00:03:20.000",
+      "text": " if you check that article or whatever, it actually lists out over time."
+    },
+    {
+      "end": "00:03:31.000",
+      "start": "00:03:27.000",
+      "text": " A bunch of the programs, actually, let me go back here to provide some examples."
+    },
+    {
+      "end": "00:03:33.000",
+      "start": "00:03:31.000",
+      "text": " Let's say for example, I3."
+    },
+    {
+      "end": "00:03:37.000",
+      "start": "00:03:33.000",
+      "text": " It used to be the I3's config was way back."
+    },
+    {
+      "end": "00:03:40.000",
+      "start": "00:03:37.000",
+      "text": " I don't even know where it used to be."
+    },
+    {
+      "end": "00:03:44.000",
+      "start": "00:03:40.000",
+      "text": " Yeah, it used to be in your home directory in the dot I3 folder."
+    },
+    {
+      "end": "00:03:49.000",
+      "start": "00:03:44.000",
+      "text": " And I think actually, I think if you get like Mangaro I3 by default,"
+    },
+    {
+      "end": "00:03:50.000",
+      "start": "00:03:49.000",
+      "text": " they still have it in this folder."
+    },
+    {
+      "end": "00:03:51.000",
+      "start": "00:03:50.000",
+      "text": " It's disgusting to me."
+    },
+    {
+      "end": "00:03:54.000",
+      "start": "00:03:51.000",
+      "text": " You need to just move everything into config."
+    },
+    {
+      "end": "00:03:58.000",
+      "start": "00:03:54.000",
+      "text": " But as time went on, this is actually a list here."
+    },
+    {
+      "end": "00:04:03.000",
+      "start": "00:03:58.000",
+      "text": " So for example, the supported programs, these are programs that all have moved into dot config"
+    },
+    {
+      "end": "00:04:07.000",
+      "start": "00:04:03.000",
+      "text": " or the, or move their cache to dot cache and stuff like that."
+    },
+    {
+      "end": "00:04:13.000",
+      "start": "00:04:07.000",
+      "text": " So if you are using any of these programs, although they might have some legacy option"
+    },
+    {
+      "end": "00:04:18.000",
+      "start": "00:04:13.000",
+      "text": " to have it in your home directory, you can easily just move your config file"
+    },
+    {
+      "end": "00:04:24.000",
+      "start": "00:04:18.000",
+      "text": " into config I3 slash config and it will still work perfectly fine."
+    },
+    {
+      "end": "00:04:29.000",
+      "start": "00:04:24.000",
+      "text": " So you can go ahead and start moving those files into that, into those,"
+    },
+    {
+      "end": "00:04:31.000",
+      "start": "00:04:29.000",
+      "text": " into the config directory or whatever."
+    },
+    {
+      "end": "00:04:33.000",
+      "start": "00:04:31.000",
+      "text": " Now there are other programs."
+    },
+    {
+      "end": "00:04:37.000",
+      "start": "00:04:33.000",
+      "text": " Now in order to get rid of some other programs from your home directory,"
+    },
+    {
+      "end": "00:04:42.000",
+      "start": "00:04:37.000",
+      "text": " actually let me show you, I have a, where's my environment file?"
+    },
+    {
+      "end": "00:04:47.000",
+      "start": "00:04:42.000",
+      "text": " Okay, actually by default I should say so my, this file in my home directory,"
+    },
+    {
+      "end": "00:04:53.000",
+      "start": "00:04:47.000",
+      "text": " CSH environment, I actually just have it list or load a series of environmental variables."
+    },
+    {
+      "end": "00:04:55.000",
+      "start": "00:04:53.000",
+      "text": " And this is what they look like."
+    },
+    {
+      "end": "00:04:58.000",
+      "start": "00:04:55.000",
+      "text": " Now you'll notice I have this big category here called cleanup."
+    },
+    {
+      "end": "00:05:02.000",
+      "start": "00:04:58.000",
+      "text": " And that is all the different, there are other programs that don't necessarily"
+    },
+    {
+      "end": "00:05:06.000",
+      "start": "00:05:02.000",
+      "text": " support the XDG directory specifications."
+    },
+    {
+      "end": "00:05:13.000",
+      "start": "00:05:06.000",
+      "text": " They don't automatically look in the config directory for configuration files or for cache files."
+    },
+    {
+      "end": "00:05:17.000",
+      "start": "00:05:13.000",
+      "text": " But you can move things by manually setting them with environmental variables."
+    },
+    {
+      "end": "00:05:19.000",
+      "start": "00:05:17.000",
+      "text": " And that's what I've done here."
+    },
+    {
+      "end": "00:05:26.000",
+      "start": "00:05:19.000",
+      "text": " For example, X authority by default, you will have a dot X authority file in your home directory."
+    },
+    {
+      "end": "00:05:31.000",
+      "start": "00:05:26.000",
+      "text": " But you can easily move it by just setting this variable in restarting, right?"
+    },
+    {
+      "end": "00:05:38.000",
+      "start": "00:05:31.000",
+      "text": " Same thing with a lot of things, input RC, WGIT, less has this annoying history file."
+    },
+    {
+      "end": "00:05:40.000",
+      "start": "00:05:38.000",
+      "text": " I actually just delete it."
+    },
+    {
+      "end": "00:05:42.000",
+      "start": "00:05:40.000",
+      "text": " A whole bunch of stuff and there are more here."
+    },
+    {
+      "end": "00:05:49.000",
+      "start": "00:05:42.000",
+      "text": " These are just the programs I happen to use, which recent, you know, GNU PG stuff like that."
+    },
+    {
+      "end": "00:05:52.000",
+      "start": "00:05:49.000",
+      "text": " Even Cody I found out, it's not on the Archwiki."
+    },
+    {
+      "end": "00:05:55.000",
+      "start": "00:05:52.000",
+      "text": " There are some things that are actually, let me scroll down to that."
+    },
+    {
+      "end": "00:05:56.000",
+      "start": "00:05:55.000",
+      "text": " So let's see."
+    },
+    {
+      "end": "00:06:04.000",
+      "start": "00:05:56.000",
+      "text": " The Archwiki has it does a good job at listing out most of the things that can take, let's say, environmental variables."
+    },
+    {
+      "end": "00:06:08.000",
+      "start": "00:06:04.000",
+      "text": " I guess it might not have them in a separate section."
+    },
+    {
+      "end": "00:06:14.000",
+      "start": "00:06:08.000",
+      "text": " But it lists out some of the things that environmental variables that you can change, but they don't list all of them."
+    },
+    {
+      "end": "00:06:16.000",
+      "start": "00:06:14.000",
+      "text": " It's not perfectly updated."
+    },
+    {
+      "end": "00:06:22.000",
+      "start": "00:06:16.000",
+      "text": " But you can move a whole bunch of these just by specifying, so for example my ZSHRC."
+    },
+    {
+      "end": "00:06:24.000",
+      "start": "00:06:22.000",
+      "text": " By default, that's going to be in your home directory."
+    },
+    {
+      "end": "00:06:30.000",
+      "start": "00:06:24.000",
+      "text": " I don't like it there, so I haven't moved into .config slash ZSH."
+    },
+    {
+      "end": "00:06:36.000",
+      "start": "00:06:30.000",
+      "text": " It would be really nice if they just had XDG compatibility and ZSH by default."
+    },
+    {
+      "end": "00:06:38.000",
+      "start": "00:06:36.000",
+      "text": " But you can at least set this."
+    },
+    {
+      "end": "00:06:41.000",
+      "start": "00:06:38.000",
+      "text": " So anyway, that's a way to clean up your home directories."
+    },
+    {
+      "end": "00:06:43.000",
+      "start": "00:06:41.000",
+      "text": " So here are some of the variables I need to use."
+    },
+    {
+      "end": "00:06:52.000",
+      "start": "00:06:43.000",
+      "text": " And there are other programs that still haven't built that, you know, the ability to use environmental variables into their programs."
+    },
+    {
+      "end": "00:06:58.000",
+      "start": "00:06:52.000",
+      "text": " But there are other things you can do, for example, I think if I go to my aliases here."
+    },
+    {
+      "end": "00:07:00.000",
+      "start": "00:06:58.000",
+      "text": " There are a couple of programs that let's say A book."
+    },
+    {
+      "end": "00:07:02.000",
+      "start": "00:07:00.000",
+      "text": " A book is, you know, an address book."
+    },
+    {
+      "end": "00:07:05.000",
+      "start": "00:07:02.000",
+      "text": " And by default, it looks in the home directory."
+    },
+    {
+      "end": "00:07:08.000",
+      "start": "00:07:05.000",
+      "text": " You can't change that with an environmental variable."
+    },
+    {
+      "end": "00:07:14.000",
+      "start": "00:07:08.000",
+      "text": " But you can give A book the C option, capital C option, to change the location of its config file."
+    },
+    {
+      "end": "00:07:18.000",
+      "start": "00:07:14.000",
+      "text": " So that's what I do here. I move it and it's data file to somewhere else."
+    },
+    {
+      "end": "00:07:25.000",
+      "start": "00:07:18.000",
+      "text": " So whenever I run A book, it actually runs this larger command that looks in a different place for the configuration file."
+    },
+    {
+      "end": "00:07:28.000",
+      "start": "00:07:25.000",
+      "text": " So anyway, that is how I clean up my home directory."
+    },
+    {
+      "end": "00:07:35.000",
+      "start": "00:07:28.000",
+      "text": " I recommend you to check out this page on the ArchWiki just to give you sort of ideas of where to go."
+    },
+    {
+      "end": "00:07:38.000",
+      "start": "00:07:35.000",
+      "text": " But I definitely like cleaning."
+    },
+    {
+      "end": "00:07:41.000",
+      "start": "00:07:38.000",
+      "text": " I like having my home directory very clean."
+    },
+    {
+      "end": "00:07:43.000",
+      "start": "00:07:41.000",
+      "text": " I've always liked it like that."
+    },
+    {
+      "end": "00:07:49.000",
+      "start": "00:07:43.000",
+      "text": " But actually, it annoys me to know in the fact that there are still files in here that I haven't moved to some other location."
+    },
+    {
+      "end": "00:07:56.000",
+      "start": "00:07:49.000",
+      "text": " Like the ZSH environment, I'd like to be able to set that environmental variable somewhere else in a user specific location."
+    },
+    {
+      "end": "00:07:59.000",
+      "start": "00:07:56.000",
+      "text": " So I don't even have to have this file."
+    },
+    {
+      "end": "00:08:01.000",
+      "start": "00:07:59.000",
+      "text": " You can actually move some of these."
+    },
+    {
+      "end": "00:08:07.000",
+      "start": "00:08:01.000",
+      "text": " You can move X and N at RC, but not every program will properly read them correctly."
+    },
+    {
+      "end": "00:08:15.000",
+      "start": "00:08:07.000",
+      "text": " If by default, if it's listed in the ArchWiki, you can at least move them without any major problems."
+    },
+    {
+      "end": "00:08:17.000",
+      "start": "00:08:15.000",
+      "text": " So I recommend trying that."
+    },
+    {
+      "end": "00:08:20.000",
+      "start": "00:08:17.000",
+      "text": " Anyway, that's about it. Just the minor note, just because people have asked."
+    },
+    {
+      "end": "00:08:21.000",
+      "start": "00:08:20.000",
+      "text": " I'll see you guys next time."
+    },
+    {
+      "end": "00:08:29.000",
+      "start": "00:08:21.000",
+      "text": " Oh yeah, you like? I'm using my built-in webcam and microphone for this video just because I don't know."
+    },
+    {
+      "end": "00:08:30.000",
+      "start": "00:08:29.000",
+      "text": " I wanted to record outside."
+    },
+    {
+      "end": "00:08:33.000",
+      "start": "00:08:30.000",
+      "text": " I actually got a new ThinkPad X220."
+    },
+    {
+      "end": "00:08:37.000",
+      "start": "00:08:33.000",
+      "text": " And it's microphone is not that bad. It's a lot better than the one I used to have."
+    },
+    {
+      "end": "00:08:40.000",
+      "start": "00:08:37.000",
+      "text": " Maybe I'll talk about why I got a new one in another video."
+    },
+    {
+      "end": "00:08:42.000",
+      "start": "00:08:40.000",
+      "text": " But all right, that's it. See you guys next time."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "Science & Technology"
+  ],
+  "youtube_channel": "Luke Smith",
+  "youtube_channel_follower_count": 206000,
+  "youtube_comment_count": 762,
+  "youtube_description": "Seeing someone with a messy home is like going over to someone's house and seeing their clothes and junk all over the living room floor. es em haitch tee bee haitch fam. Here I talk about setting environmental variables and taking advantage of the XDG directory specifications to minimize ugly dotfiles in your home directory.\n\nWEBSITE: https://lukesmith.xyz 🌐❓🔎\r\nDONATE NOW: https://lukesmith.xyz/donate 💰😎👌💯",
+  "youtube_like_count": 2894,
+  "youtube_tags": [
+    "linux",
+    "gnu",
+    "macos",
+    "bsd",
+    "dotfiles",
+    "configuration",
+    "clean",
+    "remove",
+    "home",
+    "~/",
+    "directory",
+    "minimal",
+    "minimalist",
+    "xdg",
+    "specfications",
+    "cache",
+    "local",
+    "share",
+    "settings",
+    "edit",
+    "system",
+    "traditional"
+  ],
+  "youtube_title": "Spring Cleaning your Home! (~/, That is...)",
+  "youtube_upload_date": "20200324",
+  "youtube_view_count": 88596
+}

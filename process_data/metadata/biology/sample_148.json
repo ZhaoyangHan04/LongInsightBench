@@ -1,0 +1,669 @@
+{
+  "content_fine_category": "Biology",
+  "content_metadata": {
+    "characterList": [
+      {
+        "characterId": "1",
+        "description": "A female voice providing a step-by-step explanation of the concepts and tools discussed. There is no visual representation of the narrator.",
+        "name": "Narrator"
+      }
+    ],
+    "description": "A detailed walkthrough explaining RNA-Seq and TopHat, focusing on genomic visualization and splice junction predictions.",
+    "fps": 29.97002997002997,
+    "qAndA": [
+      {
+        "answer": "To answer this question, one needs to look at the color coding key in Scene 5 and then count the number of red colored bars in the visualization.",
+        "question": "How many splice junctions are supported by more than 1000 reads according to the TopHat prediction?"
+      },
+      {
+        "answer": "Scene 3 explains that TopHat doesn't rely on a database of known junctions, allowing it to identify novel splice sites. This is further showcased in Scene 4 with the application on D. biarmipes.",
+        "question": "How does the TopHat program differ from the default splice junction predictions shown in the genome browser?"
+      },
+      {
+        "answer": "Scene 2 shows how unselecting this option allows the browser to only display data for the adult female sample, as opposed to the default view showing both male and female data.",
+        "question": "What does the unselecting of 'Adult Males' option achieve in the RNA-Seq read coverage visualization?"
+      },
+      {
+        "answer": "Scene 5 demonstrates the visualization of TopHat predictions as horizontal bars, color-coded according to the number of reads supporting the predicted splice junction.",
+        "question": "How are the TopHat predictions visually represented in the browser?"
+      },
+      {
+        "answer": "The video maintains a neutral and informative tone throughout, focusing on providing clear explanations and demonstrations without injecting significant emotional elements.",
+        "question": "What is the overall mood of the video?"
+      }
+    ],
+    "scenes": [
+      {
+        "activities": [
+          {
+            "description": "Explaining the function of the genome browser and its tracks",
+            "timestamp": {
+              "end_timestamp": "00:00:12.012",
+              "start_timestamp": "00:00:00.000"
+            }
+          },
+          {
+            "description": "Selecting specific settings in the browser to focus on a specific gene assembly and contig",
+            "timestamp": {
+              "end_timestamp": "00:00:30.964",
+              "start_timestamp": "00:00:20.988"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains RNA-Seq basics and browser functionalities."
+          }
+        ],
+        "contextualRelevance": "Basics of RNA-Seq visual representation",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator introduces the topic of RNA-Seq and how it can provide evidence for gene identification. The scene transitions into showcasing how to visualize RNA-Seq data in the genome browser.",
+            "timestamp": "00:00:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Genome browser webpage displaying information about D. melanogaster",
+            "timestamp": {
+              "end_timestamp": "00:00:28.996",
+              "start_timestamp": "00:00:05.005"
+            }
+          }
+        ],
+        "sceneId": 1,
+        "thematicElements": "Introduction to RNA-Seq and visual tools",
+        "timestamps": {
+          "end_timestamp": "00:00:30.964",
+          "start_timestamp": "00:00:00.000"
+        },
+        "title": "Introduction and RNA-Seq visualization",
+        "videoEditingDetails": [
+          {
+            "description": "Fade-in from black",
+            "timestamps": {
+              "end_timestamp": "00:00:00.000",
+              "start_timestamp": "00:00:00.000"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Selecting settings for visualizing RNA-Seq read coverage data",
+            "timestamp": {
+              "end_timestamp": "00:01:09.002",
+              "start_timestamp": "00:00:30.998"
+            }
+          },
+          {
+            "description": "Explaining the significance of RNA-Seq read coverage in identifying transcribed regions",
+            "timestamp": {
+              "end_timestamp": "00:01:27.988",
+              "start_timestamp": "00:01:09.002"
+            }
+          },
+          {
+            "description": "Introducing the concept of splice junctions and how to visualize them in the browser",
+            "timestamp": {
+              "end_timestamp": "00:01:54.014",
+              "start_timestamp": "00:01:27.988"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator dives deeper into RNA-Seq and introduces splice junctions."
+          }
+        ],
+        "contextualRelevance": "RNA-Seq data interpretation",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The narrator further delves into RNA-Seq analysis, focusing on read coverage and splice junction prediction.",
+            "timestamp": "00:00:30.998"
+          }
+        ],
+        "props": [
+          {
+            "name": "Genome browser webpage displaying RNA-Seq data for D. melanogaster",
+            "timestamp": {
+              "end_timestamp": "00:01:54.014",
+              "start_timestamp": "00:00:30.998"
+            }
+          }
+        ],
+        "sceneId": 2,
+        "thematicElements": "Advanced RNA-Seq analysis",
+        "timestamps": {
+          "end_timestamp": "00:01:55.983",
+          "start_timestamp": "00:00:30.998"
+        },
+        "title": "RNA-Seq read coverage and splice junctions",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Introducing the TopHat program and its purpose in identifying splice junctions",
+            "timestamp": {
+              "end_timestamp": "00:02:39.993",
+              "start_timestamp": "00:01:56.016"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 0.8,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator describes the functionality and purpose of TopHat."
+          }
+        ],
+        "contextualRelevance": "Tool for identifying splice junctions",
+        "dynamismScore": 0.5,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": [
+            {
+              "changeDescription": "Visual pause transitioning to audio focus.",
+              "timestamp": "00:01:56.016"
+            },
+            {
+              "changeDescription": "Reintroduction of visuals with TopHat text.",
+              "timestamp": "00:02:32.986"
+            }
+          ]
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene introduces a new tool, TopHat, capable of identifying splice junctions without relying on prior knowledge. The animated diagram helps visualize TopHat's process.",
+            "timestamp": "00:01:56.016"
+          }
+        ],
+        "props": [
+          {
+            "name": "Animated diagram illustrating TopHat's process of identifying splice junctions",
+            "timestamp": {
+              "end_timestamp": "00:02:39.993",
+              "start_timestamp": "00:02:39.993"
+            }
+          }
+        ],
+        "sceneId": 3,
+        "thematicElements": "Introduction to TopHat",
+        "timestamps": {
+          "end_timestamp": "00:02:41.962",
+          "start_timestamp": "00:01:56.016"
+        },
+        "title": "TopHat introduction and functionality",
+        "videoEditingDetails": [
+          {
+            "description": "Fade to black",
+            "timestamps": {
+              "end_timestamp": "00:01:56.016",
+              "start_timestamp": "00:01:56.016"
+            }
+          },
+          {
+            "description": "Fade-in from black with 'TopHat' text",
+            "timestamps": {
+              "end_timestamp": "00:02:32.986",
+              "start_timestamp": "00:02:32.986"
+            }
+          },
+          {
+            "description": "Animated diagram appears",
+            "timestamps": {
+              "end_timestamp": "00:02:39.993",
+              "start_timestamp": "00:02:39.993"
+            }
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "description": "Navigating to the D. biarmipes genome in the browser",
+            "timestamp": {
+              "end_timestamp": "00:03:00.013",
+              "start_timestamp": "00:02:41.995"
+            }
+          },
+          {
+            "description": "Visualizing and explaining TopHat splice junction predictions",
+            "timestamp": {
+              "end_timestamp": "00:03:32.612",
+              "start_timestamp": "00:03:00.013"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator applies TopHat to a different species, demonstrating its capability."
+          }
+        ],
+        "contextualRelevance": "TopHat applicability across genomes",
+        "dynamismScore": 0.7,
+        "mood": {
+          "description": "Neutral (Curious)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene demonstrates TopHat's application in a different Drosophila species, showcasing its ability to identify splice junctions across different genomes.",
+            "timestamp": "00:02:41.995"
+          }
+        ],
+        "props": [
+          {
+            "name": "Genome browser webpage displaying D. biarmipes data",
+            "timestamp": {
+              "end_timestamp": "00:03:32.612",
+              "start_timestamp": "00:02:41.995"
+            }
+          }
+        ],
+        "sceneId": 4,
+        "thematicElements": "Cross-species genomic analysis with TopHat",
+        "timestamps": {
+          "end_timestamp": "00:03:32.612",
+          "start_timestamp": "00:02:41.995"
+        },
+        "title": "TopHat application on D. biarmipes",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Setting display mode for TopHat splice junctions to 'pack'",
+            "timestamp": {
+              "end_timestamp": "00:04:27.000",
+              "start_timestamp": "00:03:34.014"
+            }
+          },
+          {
+            "description": "Explaining the color coding scheme for TopHat predictions",
+            "timestamp": {
+              "end_timestamp": "00:04:57.998",
+              "start_timestamp": "00:04:27.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator explains the visualization technique and the significance of color coding."
+          }
+        ],
+        "contextualRelevance": "Understanding visual data representation",
+        "dynamismScore": 0.6,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene delves into the visualization of TopHat's predictions, explaining the color coding scheme that represents the number of reads supporting each predicted splice junction.",
+            "timestamp": "00:03:34.014"
+          }
+        ],
+        "props": [
+          {
+            "name": "Genome browser webpage displaying TopHat predictions for D. biarmipes",
+            "timestamp": {
+              "end_timestamp": "00:04:57.998",
+              "start_timestamp": "00:03:34.014"
+            }
+          }
+        ],
+        "sceneId": 5,
+        "thematicElements": "Visualization of genomic data",
+        "timestamps": {
+          "end_timestamp": "00:04:59.966",
+          "start_timestamp": "00:03:32.646"
+        },
+        "title": "TopHat visualization and color coding",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [
+          {
+            "description": "Briefly discussing additional RNA-Seq evidence tracks available in the browser",
+            "timestamp": {
+              "end_timestamp": "00:05:30.997",
+              "start_timestamp": "00:05:00.000"
+            }
+          }
+        ],
+        "audioVisualCorrelation": 1.0,
+        "cast": [
+          "Narrator"
+        ],
+        "characterInteraction": [
+          {
+            "characters": [
+              "Narrator"
+            ],
+            "description": "The narrator wraps up the explanation, inviting further exploration."
+          }
+        ],
+        "contextualRelevance": "Encouragement for further discovery",
+        "dynamismScore": 0.4,
+        "mood": {
+          "description": "Neutral (Informative)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "The scene concludes by mentioning other RNA-Seq evidence tracks, encouraging viewers to explore further using the available resources.",
+            "timestamp": "00:05:00.000"
+          }
+        ],
+        "props": [
+          {
+            "name": "Genome browser webpage displaying RNA-Seq track options",
+            "timestamp": {
+              "end_timestamp": "00:05:30.997",
+              "start_timestamp": "00:05:00.000"
+            }
+          }
+        ],
+        "sceneId": 6,
+        "thematicElements": "Conclusion of RNA-Seq exploration",
+        "timestamps": {
+          "end_timestamp": "00:05:32.799",
+          "start_timestamp": "00:05:00.000"
+        },
+        "title": "Conclusion and additional tracks",
+        "videoEditingDetails": []
+      },
+      {
+        "activities": [],
+        "audioVisualCorrelation": 0.0,
+        "cast": [],
+        "characterInteraction": [],
+        "contextualRelevance": "Acknowledgement of contributors",
+        "dynamismScore": 0.0,
+        "mood": {
+          "description": "Neutral (Indifferent)",
+          "keyMoments": []
+        },
+        "narrativeProgression": [
+          {
+            "description": "This scene serves solely to display the credits for the video.",
+            "timestamp": "00:05:32.832"
+          }
+        ],
+        "props": [],
+        "sceneId": 7,
+        "thematicElements": "End credits",
+        "timestamps": {
+          "end_timestamp": "00:05:37.938",
+          "start_timestamp": "00:05:32.832"
+        },
+        "title": "Credits",
+        "videoEditingDetails": [
+          {
+            "description": "Fade to black",
+            "timestamps": {
+              "end_timestamp": "00:05:32.832",
+              "start_timestamp": "00:05:32.832"
+            }
+          },
+          {
+            "description": "Text displaying credits appears",
+            "timestamps": {
+              "end_timestamp": "00:05:32.832",
+              "start_timestamp": "00:05:32.832"
+            }
+          }
+        ]
+      }
+    ],
+    "storylines": {
+      "climax": {
+        "description": "Visualization of TopHat splice junction predictions in the genome browser with a color-coded scheme.",
+        "timestamp": "00:03:34.014"
+      },
+      "description": "Detailed walkthrough of RNA-Seq data visualization and splice junction prediction using TopHat.",
+      "scenes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "title": "RNA Seq and TopHat",
+    "trimmingSuggestions": [
+      {
+        "description": "Scene 6 could be trimmed to remove the brief mention of additional tracks. This information is not elaborated upon and might create an unnecessary slowdown in the video's pace.",
+        "timestamps": {
+          "end_timestamp": "00:05:32.832",
+          "start_timestamp": "00:05:32.832"
+        }
+      }
+    ]
+  },
+  "content_parent_category": "Science & Technology",
+  "duration_seconds": 338,
+  "original_json_filename": "qepVXEsfLMM.json",
+  "original_video_filename": "qepVXEsfLMM.mp4",
+  "resolution": "640x360",
+  "text_to_speech": "The Genome Browser contains tracks that we can&nbsp; use to visualize regions of the DNA that are transcribed into RNA. This type of data can provide&nbsp; strong supporting evidence to the hypothesis that a certain region of a genome codes for a gene.&nbsp; Let's look into the RNA-Seq tracks section of the Genome Browser to visualize this type of&nbsp; data. We are once again using the July 2014 (Gene) assembly of D. melanogaster and focusing on contig1. The RNA Seq Tracks section contains results from sequencing mRNAs and then mapping these&nbsp; sequencing reads against the genome. Hence, regions with RNA-Seq read coverage usually correspond to&nbsp; regions in the genome that are being transcribed. To visualize the RNA-Seq read coverage data, click&nbsp; on the  RNA-Seq Coverage link under the RNA Seq Tracks section to open another window in&nbsp; order to specify the settings for this track. Change the Display mode to \"full.\" Change the&nbsp; Data view scaling field to \"use vertical viewing range\" setting, and change the \"max\" field&nbsp; under the Vertical viewing range section to 37. Unselect the Adult Males track under the&nbsp; List subtracks section, and then click \"submit.\" By unselecting the Adult Males option, the genome&nbsp; browser will only show the RNA-Seq read coverage from the Adult Female sample. If we did not&nbsp; unselect the Adult Males option, the default would be to display both the female and male&nbsp; data as two separate subtracks on the Genome Browser. In addition to RNA-Seq coverage, it is often also helpful to consider splice junction prediction data that are derived from the subset&nbsp; of RNA-Seq reads that span two or more exons, known as spliced RNA-Seq reads. To visualize these&nbsp; predictions, click on the Exon Junctions link under the RNA Seq Tracks section, use the drop&nbsp; down menu to select \"pack,\" and then click \"submit.\" We can examine the splice junction predictions&nbsp; more carefully by zooming into the five prime and three prime end of the exon. Several other tools&nbsp; can help us analyze splice junctions. TopHat is a program that can identify splice junctions&nbsp; without relying on a database of known junctions. TopHat first identifies potential exons by&nbsp; mapping segments of RNA-Seq reads to the genome. because RNA-Seq reads are short sequences derived&nbsp; from processed mature mRNA, they will often align contiguously with an exon. However, some&nbsp; RNA-Seq reads will span multiple exons thus containing valuable information about&nbsp; splice sites, TopHat builds a database of possible splice junctions followed by mapping the actual&nbsp; sequencing reads against these predicted junctions. This method allows us to find novel splice sites,&nbsp; aligns RNA-Seq reads to the genome assembly, and then analyzes the mapping results to identify the&nbsp; splice junctions between exons. To illustrate, let's view the RNA-Seq data for&nbsp; a different Drosophila species. Click on the Genomes link on the main menu bar&nbsp; to return to the Genome Browser gateway page. Change the genome field to \"D. biarmipes,\"&nbsp; the assembly field to \"April 2013 BCM-HGSC/Dbia_2.0,\" enter \"tra-pa,\" into the search&nbsp; terms field and then click \"submit.\" We are now navigating to the genomic region that contains&nbsp; the presumed tra ortholog in the Drosophila biarmipes whole genome assembly and will examine&nbsp; the evidence tracks for the presumed ortholog. Scroll down to the RNA Seq Tracks section&nbsp; and then change the display mode for the modENCODE TopHat Junctions track to \"pack\"&nbsp; to view the individual splice junctions. After clicking \"refresh,\" we now see a single&nbsp; track with the collection of all TopHat splice junction predictions from the mixed&nbsp; embryos, adult female, and adult male samples. In order to create this track, splice junction&nbsp; predictions from the different libraries are filtered and then merged together. The&nbsp; predictions are color-coded to indicate the number of spliced RNA reads that support the&nbsp; predicted splice junction. Red indicates that there are more than one thousand spliced RNA-Seq&nbsp; reads supporting the junction, followed by brown, pink, green, blue, and black in descending order, with black corresponding to fewer than 10 reads. Several other evidence tracks are&nbsp; available under the RNA Seq Tracks section. You may click on the track title link above&nbsp; the display mode drop down list to learn more about how that evidence track was created and the&nbsp; display convention used by that particular track.",
+  "text_to_speech_word_count": 707,
+  "timecoded_text_to_speech": [
+    {
+      "end": "00:00:11.979",
+      "start": "00:00:00.000",
+      "text": " The genome browser contains tracks that we can use to visualize regions of the DNA that are transcribed into RNA."
+    },
+    {
+      "end": "00:00:20.988",
+      "start": "00:00:11.979",
+      "text": " This type of data can provide strong supporting evidence to the hypothesis that a certain region of a genome codes for a gene."
+    },
+    {
+      "end": "00:00:27.995",
+      "start": "00:00:20.988",
+      "text": " Let's look into the RNA-seq tracks section of the genome browser to visualize this type of data."
+    },
+    {
+      "end": "00:00:37.971",
+      "start": "00:00:28.996",
+      "text": " We are once again using the July 2014 gene assembly of de-molana-gaster and focusing on Contake 1."
+    },
+    {
+      "end": "00:00:46.980",
+      "start": "00:00:37.971",
+      "text": " The RNA-seq tracks section contains results from sequencing mRNAs and then mapping these sequencing reads against the genome."
+    },
+    {
+      "end": "00:00:54.988",
+      "start": "00:00:46.980",
+      "text": " Hence, regions with RNA-seq read coverage usually correspond to regions in the genome that are being transcribed."
+    },
+    {
+      "end": "00:01:08.969",
+      "start": "00:00:54.988",
+      "text": " To visualize the RNA-seq read coverage data, click on the RNA-seq coverage link under the RNA-seq tracks section to open another window in order to specify the settings for this track."
+    },
+    {
+      "end": "00:01:23.984",
+      "start": "00:01:08.969",
+      "text": " Change the display mode to full. Change the data view scaling field to use vertical viewing range setting and change the max field under the vertical viewing range section to 37."
+    },
+    {
+      "end": "00:01:30.991",
+      "start": "00:01:23.984",
+      "text": " Unselect the adult males track under the list subtract section and then click submit."
+    },
+    {
+      "end": "00:01:40.968",
+      "start": "00:01:30.991",
+      "text": " By unselecting the adult males option, the genome browser will only show the RNA-seq read coverage from the adult females sample."
+    },
+    {
+      "end": "00:01:52.980",
+      "start": "00:01:40.968",
+      "text": " If we did not unselect the adult males option, the default would be to display both the female and male data as two separate subtracts on the genome browser."
+    },
+    {
+      "end": "00:02:08.996",
+      "start": "00:01:52.980",
+      "text": " In addition to RNA-seq coverage, it is often also helpful to consider splice junction prediction data that are derived from the subset of RNA-seq reads that span two or more axons, known as spliced RNA-seq reads."
+    },
+    {
+      "end": "00:02:19.973",
+      "start": "00:02:08.996",
+      "text": " To visualize these predictions, click on the axon junctions link under the RNA-seq tracks section, use the drop-down menu to select pack and then click submit."
+    },
+    {
+      "end": "00:02:28.982",
+      "start": "00:02:19.973",
+      "text": " We can examine the spliced junction predictions more carefully by zooming into the 5 prime and 3 prime end of the axon."
+    },
+    {
+      "end": "00:02:39.993",
+      "start": "00:02:28.982",
+      "text": " Several other tools can help us analyze spliced junctions. Top Hat is a program that can identify spliced junctions without relying on a database of known junctions."
+    },
+    {
+      "end": "00:02:46.967",
+      "start": "00:02:39.993",
+      "text": " Top Hat first identifies potential axons by mapping segments of RNA-seq reads to the genome."
+    },
+    {
+      "end": "00:02:56.977",
+      "start": "00:02:46.967",
+      "text": " Because RNA-seq reads are short sequences derived from processed mature mRNA, they will often align continuously with an axon."
+    },
+    {
+      "end": "00:03:04.985",
+      "start": "00:02:56.977",
+      "text": " However, some RNA-seq reads will span multiple axons, thus containing valuable information about spliced sites."
+    },
+    {
+      "end": "00:03:13.994",
+      "start": "00:03:04.985",
+      "text": " Top Hat builds a database of possible spliced junctions followed by mapping the actual sequencing reads against these predicted junctions."
+    },
+    {
+      "end": "00:03:26.973",
+      "start": "00:03:13.994",
+      "text": " This method allows us to find novel spliced sites, aligns RNA-seq reads to the genome assembly, and then analyzes the mapping results to identify the spliced junctions between axons."
+    },
+    {
+      "end": "00:03:33.980",
+      "start": "00:03:26.973",
+      "text": " To illustrate, let's view the RNA-seq data for a different drosophila species."
+    },
+    {
+      "end": "00:03:40.987",
+      "start": "00:03:33.980",
+      "text": " Click on the genome's link on the main menu bar to return to the genome browser gateway page."
+    },
+    {
+      "end": "00:03:59.973",
+      "start": "00:03:40.987",
+      "text": " Change the genome field to D biomepies. The assembly field to April 2013, B-C-M-H-G-S-C-D-B-I-A underscore 2.0, enter TRA-PA into the search term field, and then click Submit."
+    },
+    {
+      "end": "00:04:13.987",
+      "start": "00:04:00.974",
+      "text": " We are now navigating to the genomic region that contains the presumed TRA-Ortholog in the drosophila biomepies whole genome assembly, and will examine the evidence tracks for the presumed orthologue."
+    },
+    {
+      "end": "00:04:26.967",
+      "start": "00:04:13.987",
+      "text": " Scroll down to the RNA-seq track section, and then change the display mode for the mod and code Top Hat junctions track to pack to view the individual spliced junctions."
+    },
+    {
+      "end": "00:04:40.981",
+      "start": "00:04:27.968",
+      "text": " After clicking Refresh, we now see a single track with the collection of all Top Hat spliced junctions predictions from the mixed embryos, adult female, and adult male samples."
+    },
+    {
+      "end": "00:04:48.989",
+      "start": "00:04:40.981",
+      "text": " In order to create this track, spliced junctions from the different libraries are filtered and then merged together."
+    },
+    {
+      "end": "00:04:56.997",
+      "start": "00:04:48.989",
+      "text": " The predictions are color-coded to indicate the number of spliced RNA reads that support the predicted spliced junction."
+    },
+    {
+      "end": "00:05:12.979",
+      "start": "00:04:56.997",
+      "text": " Red indicates that there are more than 1000 spliced RNA-seq reads supporting the junction, followed by brown, pink, green, blue, and black in descending order, with black corresponding to fewer than 10 reads."
+    },
+    {
+      "end": "00:05:18.985",
+      "start": "00:05:13.980",
+      "text": " Several other evidence tracks are available under the RNA-seq track section."
+    },
+    {
+      "end": "00:05:30.997",
+      "start": "00:05:18.985",
+      "text": " You may click on the track title link above the display mode drop-down list to learn more about how that evidence track was created, and the display convention used by that particular track."
+    }
+  ],
+  "youtube_age_limit": 0,
+  "youtube_categories": [
+    "People & Blogs"
+  ],
+  "youtube_channel": "Le Paliulis",
+  "youtube_channel_follower_count": 118,
+  "youtube_comment_count": 1,
+  "youtube_description": "RNA-Seq and TopHat\n\nThis video uses animation and the GEP UCSC Genome Browser to illustrate how RNA-Seq data are displayed in the Genome Browser and how TopHat predicts splice junctions. It is associated with the “Understanding Eukaryotic Genes” (UEG) curriculum, which uses the Genome Browser as a tool for teaching students about the structure of eukaryotic genes.\n\n--\n\nGEP UCSC Genome Browser: http://gander.wustl.edu/index.html\nUEG Curriculum: https://thegep.org/ueg/\n\nThis video is part of a series created by Dr. Le Paliulis (Bucknell University; GEP member since 2013): https://youtube.com/playlist?list=PLjMi88MMUqsJ5xHbmVU9p-BJU44Wukgyn\n\n--\n\nLearn more about the GEP: https://thegep.org\nFollow GEP on Twitter: https://twitter.com/GEP_CURE",
+  "youtube_like_count": 41,
+  "youtube_tags": [],
+  "youtube_title": "RNA Seq and TopHat",
+  "youtube_upload_date": "20160829",
+  "youtube_view_count": 10354
+}
