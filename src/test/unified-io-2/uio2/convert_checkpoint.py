@@ -12,7 +12,6 @@ def convert_param(name: str, param: np.ndarray) -> Tuple[str, np.ndarray]:
     return name, param
 
   if parts[0] in {"input_encoders_audio_history", "input_encoders_image_history"}:
-    # resampler translation
     if parts[0] == "input_encoders_image_history":
       parts[0] = "input_embedders.image_history"
     else:
@@ -24,7 +23,6 @@ def convert_param(name: str, param: np.ndarray) -> Tuple[str, np.ndarray]:
       parts[2] = "perceiver"
 
   if parts[0] in {'input_image_encoder', 'input_audio_encoder'}:
-    # encoder translation
     if "audio" in parts[0]:
       parts[0] = "input_embedders.audio"
     else:
@@ -76,7 +74,6 @@ def convert_param(name: str, param: np.ndarray) -> Tuple[str, np.ndarray]:
     parts[0] = "target_embedders.text"
 
   if parts[0] == "target_encoders_image":
-    # image target encoder translation
     parts[0] = "target_embedders.image"
     if parts[1] == "discrete_vae":
       parts[1] = "vqgan"
@@ -90,7 +87,6 @@ def convert_param(name: str, param: np.ndarray) -> Tuple[str, np.ndarray]:
         return ".".join(parts), np.transpose(param, (3, 2, 0, 1))
 
   if parts[0] == "target_encoders_audio":
-    # audio target encoder translation
     parts[0] = "target_embedders.audio"
     if parts[1] == "discrete_vae":
       parts[1] = "vqgan"

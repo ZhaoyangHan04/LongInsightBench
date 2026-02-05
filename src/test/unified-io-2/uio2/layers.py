@@ -49,7 +49,7 @@ def get_2d_position_embedding(
 ):
   if isinstance(patch_size, int):
     patch_size = (patch_size, patch_size)
-  
+
   if pos_emb_type == "llama_rope":
     shape = (input_size[0] // patch_size[0], input_size[1] // patch_size[1])
     positional_embedding = build_llama_rope_cache_2d(shape, head_dim, resolution=resolution)
@@ -60,40 +60,34 @@ def get_2d_position_embedding(
 def build_llama_rope_cache_1d(seq_len: int, n_elem: int, base: float=10000.0) -> torch.Tensor:
 
   theta = 1.0 / (base ** (torch.arange(0, n_elem, 2).to(torch.float32) / n_elem))
-  # Create position indexes `[0, 1, ..., seq_len - 1]`
   seq_idx = torch.arange(seq_len).to(torch.float32)
-  
-  # Calculate the product of position index and $\theta_i$
-  idx_theta = torch.outer(seq_idx, theta).to(torch.float32)  # type: ignore
+
+  idx_theta = torch.outer(seq_idx, theta).to(torch.float32)
   cache = torch.stack([torch.cos(idx_theta), torch.sin(idx_theta)], dim=-1)
   cache = torch.reshape(cache, [cache.shape[0], -1])
-  
+
   return cache
 
 
 def build_llama_rope_cache_2d(shape: tuple, n_elem: int, base: float=10000.0, resolution: float=1.0):
-    
+
   img_coords = get_rotary_coordinates_2d(shape[0], shape[1], llama=True, resolution=resolution)
   n_elem = n_elem // 2
-    
-  # $\Theta = {\theta_i = 10000^{\frac{2(i-1)}{d}}, i \in [1, 2, ..., \frac{d}{2}]}$
+
   theta = 1.0 / (base ** (torch.arange(0, n_elem, 2, dtype=torch.float32) / n_elem))
 
-  # Create position indexes `[0, 1, ..., seq_len - 1]`
-  # seq_idx = np.arange(seq_len).astype(jnp.float32)
 
-  # Calculate the product of position index and $\theta_i$
-  idx_theta_0 = torch.outer(img_coords[:,0], theta).to(torch.float32) # type: ignore
-  idx_theta_1 = torch.outer(img_coords[:,1], theta).to(torch.float32)  # type: ignore
-    
+  idx_theta_0 = torch.outer(img_coords[:,0], theta).to(torch.float32)
+  idx_theta_1 = torch.outer(img_coords[:,1], theta).to(torch.float32)
+
   idx_theta = torch.concat([idx_theta_0, idx_theta_1], dim=-1)
-    
+
   cache = torch.stack([torch.cos(idx_theta), torch.sin(idx_theta)], dim=-1)
   cache = torch.reshape(cache, [cache.shape[0], -1])
-    
+
   return cache
-  
-  
+
+
 def get_rotary_coordinates_2d(h, w, llama=False, resolution=1):
   """
   Rotary embeddings for 2d (e.g. an image).
@@ -108,7 +102,7 @@ def get_rotary_coordinates_2d(h, w, llama=False, resolution=1):
 
   w_coords = base_scale * get_rotary_coordinates(w, center_origin=False if llama else True, llama=llama)
   h_coords = base_scale * get_rotary_coordinates(h, center_origin=False if llama else True, llama=llama)
-    
+
   return torch.stack(torch.meshgrid(h_coords, w_coords, indexing='ij'), -1).reshape((h * w, 2))
 
 
@@ -121,7 +115,7 @@ def get_rotary_coordinates(seq_len, center_origin=True, llama=False):
                         if false then coordinates from    [1, seq_len]
   :return: sequence of length L -- coordinates are from [-L / 2, -L / 2] if center_origin else [1, L]
   """
-    
+
   if center_origin:
     sl0 = seq_len // 2
     nseq = torch.arange(sl0, dtype=torch.float32) - float(sl0)
@@ -139,20 +133,16 @@ def apply_rotary(x, rope_cache):
   Args:
     x (torch.Tensor): Input tensor to apply rotary embeddings.
     rope_cache (torch.Tensor): Precomputed rotary matrices elements.
-  
+
   Returns:
     torch.Tensor: Modfied input tensor with rotary embeddings.
   """
-  # Group two consecutive numbers forming a single complex number.
-  # [batch, length, num_heads, n x rotary_hsize, 2] where n: 1(d) or 2(d)
   xshaped = x.to(torch.float32).reshape(*x.shape[:-1], -1, 2)
-  # [batch, length, 1, n x rotary_hsize, 2] where n: 1(d) or 2(d)
   rope_cache = rope_cache.reshape(xshaped.shape[0], xshaped.shape[1], 1, xshaped.shape[3], 2).to(torch.float32)
-  # Apply rotary matrices to the input tensor.
   x_out2 = torch.stack(
     [
-      xshaped[..., 0] * rope_cache[..., 0] - xshaped[..., 1] * rope_cache[..., 1], # real(x_m) * cos(m*theta_j) - imag(x_m) * sin(m*theta_j)
-      xshaped[..., 1] * rope_cache[..., 0] + xshaped[..., 0] * rope_cache[..., 1], # real(x_m) * sin(m*theta_j) + imag(x_m) * cos(m*theta_j)
+      xshaped[..., 0] * rope_cache[..., 0] - xshaped[..., 1] * rope_cache[..., 1],
+      xshaped[..., 1] * rope_cache[..., 0] + xshaped[..., 0] * rope_cache[..., 1],
     ],
     -1,
   )
@@ -180,7 +170,7 @@ def get_2d_sincos_pos_embed(emb_dim, image_size, image_patch_size, class_token=F
   assert emb_dim % 4 == 0, 'Embed dimension must be divisible by 4 for 2D sin-cos position embedding'
   emb_w = get_1d_sincos_pos_embed_from_grid(emb_dim // 2, grid_w, temperature)
   emb_h = get_1d_sincos_pos_embed_from_grid(emb_dim // 2, grid_h, temperature)
-  pos_emb = torch.cat([emb_w, emb_h], axis=1) # (H*W, D)
+  pos_emb = torch.cat([emb_w, emb_h], axis=1)
   if class_token:
     pos_emb = torch.cat([torch.zeros(1, emb_dim, dtype=pos_emb.dtype), pos_emb], axis=0)
   return pos_emb
@@ -197,14 +187,14 @@ def get_1d_sincos_pos_embed_from_grid(emb_dim, pos, temperature=10000.):
   assert emb_dim % 2 == 0
   omega = torch.arange(emb_dim // 2, dtype=torch.float32)
   omega /= emb_dim / 2.
-  omega = 1. / temperature**omega  # (D/2,)
+  omega = 1. / temperature**omega
 
-  out = torch.einsum('m,d->md', pos.flatten(), omega) # (M, D/2), outer product
+  out = torch.einsum('m,d->md', pos.flatten(), omega)
 
-  emb_sin = torch.sin(out) # (M, D/2)
-  emb_cos = torch.cos(out) # (M, D/2)
+  emb_sin = torch.sin(out)
+  emb_cos = torch.cos(out)
 
-  emb = torch.cat([emb_sin, emb_cos], axis=1)  # (M, D)
+  emb = torch.cat([emb_sin, emb_cos], axis=1)
   return emb
 
 
@@ -251,8 +241,6 @@ class Dropout(nn.Dropout):
   def foward(self, x: torch.Tensor):
     if self.training and self.p > 0.:
       keep_prob = 1.0 - self.p
-      # T5 broadcasts along the "length" dim, but unclear which one that
-      # corresponds to in positional dimensions here, assuming query dim.
       dropout_shape = list(x.shape)
       for dim in self.broadcast_dims:
         dropout_shape[dim] = 1
@@ -271,13 +259,13 @@ def drop_path(x, drop_prob: float = 0., training: bool = False, scale_by_keep: b
   See discussion: https://github.com/tensorflow/tpu/issues/494#issuecomment-532968956 ... I've opted for
   changing the layer and argument names to 'drop path' rather than mix DropConnect as a layer name and use
   'survival rate' as the argument.
-  
+
   Derived from https://github.com/huggingface/pytorch-image-models/blob/main/timm/layers/drop.py.
   """
   if drop_prob == 0. or not training:
     return x
   keep_prob = 1 - drop_prob
-  shape = (x.shape[0],) + (1,) * (x.ndim - 1)  # work with diff dim tensors, not just 2D ConvNets
+  shape = (x.shape[0],) + (1,) * (x.ndim - 1)
   random_tensor = x.new_empty(shape).bernoulli_(keep_prob)
   if keep_prob > 0.0 and scale_by_keep:
     random_tensor.div_(keep_prob)
@@ -292,7 +280,7 @@ class DropPath(nn.Module):
     super(DropPath, self).__init__()
     self.drop_prob = drop_prob
     self.scale_by_keep = scale_by_keep
-  
+
   def forward(self, x):
     return drop_path(x, self.drop_prob, self.training, self.scale_by_keep)
 
@@ -303,7 +291,7 @@ class DropPath(nn.Module):
 class QuickGELU(nn.Module):
   def forward(self, x: torch.Tensor):
     return x * torch.sigmoid(1.702 * x)
-    
+
 
 class UIOLayerNorm(nn.Module):
   """Layer norm used in the UIO2 Trasnformers, follows T5 and has no bias or mean subtraction"""
@@ -322,9 +310,9 @@ class UIOLayerNorm(nn.Module):
     return self.scale.to(orig_type) * x_normed.to(orig_type)
 
 
-#------------------------------------------------------------------------------
-# Mask-making utility functions.
-#------------------------------------------------------------------------------
+
+
+
 def make_attention_mask(query_input: torch.Tensor,
                         key_input: torch.Tensor,
                         pairwise_fn: Callable = torch.mul,
@@ -346,13 +334,11 @@ def make_attention_mask(query_input: torch.Tensor,
   Returns:
     A `[batch, 1, len_q, len_kv]` shaped mask for 1d attention.
   """
-  # [batch, len_q, len_kv]
   mask = pairwise_fn(
     query_input.unsqueeze(-1),
     key_input.unsqueeze(-2),
   )
 
-  # [batch, 1, len_q, len_kv]. This creates the head dim.
   mask = mask.unsqueeze(-3)
   dims = [1] * extra_batch_dims + list(mask.shape)
   mask = mask.view(*dims)
@@ -361,22 +347,19 @@ def make_attention_mask(query_input: torch.Tensor,
 
 def make_decoder_mask(token_mask,
                       decoder_segment_ids=None):
-  # Casual mask
   idxs = torch.arange(token_mask.shape[1], dtype=torch.int32, device=token_mask.device)
   mask = idxs[None, :] <= idxs[:, None]
   mask = mask[None, :, :]
 
-  # Padding mask
   token_mask = token_mask > 0
   mask = torch.logical_and(mask, token_mask[:, None, :])
   mask = torch.logical_and(mask, token_mask[:, :, None,])
 
   if decoder_segment_ids is not None:
-    # Segment mask
     segment_mask = decoder_segment_ids[:, None, :] == decoder_segment_ids[:, :, None,]
     mask = torch.logical_and(mask,  segment_mask)
 
-  mask = mask[:, None, :, :]  # head dim
+  mask = mask[:, None, :, :]
   return mask
 
 
@@ -462,7 +445,6 @@ def dot_product_attention(query: torch.Tensor,
   assert key.shape[-3] == value.shape[-3], 'k, v lengths must match.'
   assert query.shape[-1] == key.shape[-1], 'q, k depths must match.'
 
-  # Casting logits and softmax computation for float32 for model stability.
   dtype = query.dtype
   if float32_logits:
     query = query.to(torch.float32)
@@ -476,28 +458,21 @@ def dot_product_attention(query: torch.Tensor,
         logit_scale = torch.exp(logit_scale)
     attn_weights = attn_weights * logit_scale
   else:
-    # calculate attention matrix
     if depth_normalize:
       depth = query.shape[-1]
       query = query / np.sqrt(depth)
 
-    # `attn_weights`: [batch, num_heads, q_length, kv_length]
     attn_weights = torch.einsum('bqhd,bkhd->bhqk', query, key)
 
-    # clip attention weight 
     if clip_attn_logit:
       attn_weights = torch.clamp(attn_weights, -clip_attn_logit, clip_attn_logit)
 
-  # Apply attention bias: masking, dropout, proximity bias, etc.
   if bias is not None:
     attn_weights = attn_weights + bias.to(attn_weights.dtype)
-  # Normalize the attention weights across `kv_length` dimension.
   attn_weights = F.softmax(attn_weights, dim=-1).to(dtype)
 
-  # Apply attention dropout.
   attn_weights = dropout_fn(attn_weights)
 
-  # Take the linear combination of `value`.
   return torch.einsum('bhqk,bkhd->bqhd', attn_weights, value)
 
 
@@ -522,7 +497,7 @@ class MultiHeadDotProductAttention(nn.Module):
       use_bias: bool = False,
       dropout_rate: float = 0.,
       dropout_broadcast_dims: Sequence[int] = (-2, ),
-      float32_logits: bool = True, # compute logits in float32 for stability.
+      float32_logits: bool = True,
       qk_norm: bool = True,
       use_head_scale: bool = False,
       depth_normalize: bool = True,
@@ -539,7 +514,6 @@ class MultiHeadDotProductAttention(nn.Module):
     self.float32_logits = float32_logits
     self.layer_idx = layer_idx
 
-    # query / key / value projection
     self.query = nn.Linear(emb_dim, emb_dim, bias=use_bias)
     self.key = nn.Linear(emb_dim, emb_dim, bias=use_bias)
     self.value = nn.Linear(emb_dim, emb_dim, bias=use_bias)
@@ -550,14 +524,12 @@ class MultiHeadDotProductAttention(nn.Module):
       nn.init.zeros_(self.query.bias)
       nn.init.zeros_(self.key.bias)
       nn.init.zeros_(self.value.bias)
-    
-    # qknorm
+
     self.qk_norm = qk_norm
     if qk_norm:
       self.query_norm = UIOLayerNorm(head_dim)
       self.key_norm = UIOLayerNorm(head_dim)
-    
-    # scaled cosine attention
+
     self.scaled_cosine = scaled_cosine
     if scaled_cosine:
       self.logit_scale = nn.Parameter(torch.log(10 * torch.ones(num_heads)))
@@ -570,10 +542,9 @@ class MultiHeadDotProductAttention(nn.Module):
     self.use_head_scale = use_head_scale
     if use_head_scale:
       self.head_scale = nn.Parameter(torch.ones(num_heads))
-    
+
     self.attn_drop = Dropout(dropout_rate, broadcast_dims=dropout_broadcast_dims)
-    
-    # output projection
+
     self.out = nn.Linear(emb_dim, emb_dim, bias=use_bias)
     nn.init.kaiming_normal_(self.out.weight, mode='fan_in', nonlinearity='linear')
     if use_bias:
@@ -613,8 +584,6 @@ class MultiHeadDotProductAttention(nn.Module):
     """
     bs, q_len, emb_dim = inputs_q.shape
     kv_len = inputs_kv.shape[1]
-    # Project inputs_q/inputs_kv to multi-headed q/k/v
-    # dimensions are then [batch, length, num_heads, head_dim]
     query = self.query(inputs_q).reshape(bs, q_len, self.num_heads, self.head_dim)
     key = self.key(inputs_kv).reshape(bs, kv_len, self.num_heads, self.head_dim)
     value = self.value(inputs_kv).reshape(bs, kv_len, self.num_heads, self.head_dim)
@@ -622,36 +591,33 @@ class MultiHeadDotProductAttention(nn.Module):
     if self.qk_norm:
       query = self.query_norm(query)
       key = self.key_norm(key)
-    
+
     if q_sinusoids is not None:
       query = apply_rotary(query, q_sinusoids)
     if k_sinusoids is not None:
       key = apply_rotary(key, k_sinusoids)
-    
-    # Convert the 0/1 attention mask to an attention bias.
+
     if mask is not None:
       attention_bias = torch.zeros_like(mask, dtype=query.dtype)
       attention_bias.masked_fill_(~(mask > 0), -1e10)
     else:
       attention_bias = None
-    
+
     if attn_pattern_mask is not None:
       pattern_bias = torch.zeros_like(attn_pattern_mask, dtype=query.dtype)
       pattern_bias.masked_fill_(~(attn_pattern_mask > 0), -1e10)
     else:
       pattern_bias = None
-    
-    # Add provided bias term (e.g. relative position embedding).
+
     if bias is not None:
       attention_bias = combine_biases(attention_bias, pattern_bias, bias, abs_bias)
-    
+
     if self.scaled_cosine:
       logit_scale = self.logit_scale.reshape(1, self.num_heads, 1, 1)
     else:
       logit_scale = None
 
     if past_key_values is not None:
-      # The cache expects seq_dim to be the second-to-last-dim
       key = torch.transpose(key, 1, 2)
       value = torch.transpose(value, 1, 2)
       past_key_values.update(key, value, self.layer_idx)
@@ -660,7 +626,6 @@ class MultiHeadDotProductAttention(nn.Module):
       value = torch.transpose(value, 1, 2)
       assert attention_bias is None
 
-    # Apply attention.
     x = dot_product_attention(
         query,
         key,
@@ -669,15 +634,14 @@ class MultiHeadDotProductAttention(nn.Module):
         dropout_fn=self.attn_drop,
         depth_normalize=self.depth_normalize,
         clip_attn_logit=self.clip_attn_logit,
-        float32_logits=self.float32_logits, 
+        float32_logits=self.float32_logits,
         logit_scale=logit_scale)
 
     if self.use_head_scale:
       head_scale = self.head_scale.reshape(1, 1, self.num_heads, 1)
       x = x * head_scale
-    
+
     x = x.reshape(bs, q_len, emb_dim)
-    # Back to the original inputs dimensions.
     out = self.out(x)
     return out
 
@@ -729,7 +693,7 @@ class MlpBlock(nn.Module):
         self.add_module(f"wi_{idx}", nn.Linear(emb_dim, intermediate_dim, bias=use_bias))
     self.dropout = Dropout(intermediate_dropout_rate, broadcast_dims=dropout_broadcast_dims)
     self.wo = nn.Linear(intermediate_dim, emb_dim, bias=use_bias)
-  
+
   def forward(self, inputs):
     """Applies Transformer MlpBlock module."""
     activations = []
@@ -738,9 +702,7 @@ class MlpBlock(nn.Module):
       x = getattr(self, dense_name)(inputs)
       x = _convert_to_activation_function(act_fn)(x)
       activations.append(x)
-    # Take elementwise product of above intermediate activations.
     x = functools.reduce(operator.mul, activations)
-    # Apply dropout and final dense output projection.
     x = self.dropout(x)
     output = self.wo(x)
     return output
@@ -762,49 +724,40 @@ class VectorQuantizer(nn.Module):
     self.beta = beta
 
     self.embedding = nn.Embedding(n_e, e_dim)
-    # default_embedding_init = nn.initializers.variance_scaling(1.0, 'fan_in', 'normal', out_axis=0)
     if uniform_init:
       nn.init.uniform_(self.embedding.weight, b=2.0)
     else:
       nn.init.kaiming_normal_(self.embedding.weight, mode='fan_in', nonlinearity='linear')
     self.legacy = legacy
-    self.l2_norm = l2_norm # l2 normalization for ViT-VQGAN
-  
-  def get_codebook_entry(self, indices, shape=None):
-    # shape specifying (batch, height, width, channel)
+    self.l2_norm = l2_norm
 
-    # get quantized latent vectors
+  def get_codebook_entry(self, indices, shape=None):
+
     z_q = self.embedding(indices)
 
     if self.l2_norm:
-      # normalize latent variable (Ze(x) in the paper)
       z_q = F.normalize(z_q, dim=-1)
 
     if shape is not None:
       z_q = z_q.view(shape)
-      # reshape back to match original input shape
       z_q = einops.rearrange(z_q, 'b h w c -> b c h w').contiguous()
-    
+
     return z_q
-  
+
   def forward(self, z: torch.Tensor):
-    # reshape z -> to channel first, then flatten
     sh = z.shape
     if len(sh) == 4:
       z = einops.rearrange(z, 'b c h w -> b h w c').contiguous()
-    # else:
-    #   z = einops.rearrange(z, 'b c w -> b w c').contiguous()
     z_flattened = z.view(-1, self.e_dim)
     embedding_weight = self.embedding.weight
     if self.l2_norm:
       z_flattened = F.normalize(z_flattened, dim=-1)
       embedding_weight = F.normalize(embedding_weight, dim=-1)
-    # distances from z to embeddings e_j (z - e)^2 = z^2 + e^2 - 2 e * z
 
     d = torch.sum(z_flattened ** 2, dim=1, keepdim=True) + \
         torch.sum(embedding_weight ** 2, dim=1) - 2 * \
         torch.einsum('bd,nd->bn', z_flattened, embedding_weight)
-    
+
     min_encoding_indices = torch.argmin(d, dim=1)
     z_q = self.get_codebook_entry(min_encoding_indices).view(z.shape)
     z_norm = F.normalize(z, dim=-1) if self.l2_norm else z
@@ -812,7 +765,6 @@ class VectorQuantizer(nn.Module):
     perplexity = None
     min_encodings = None
 
-    # compute loss for embedding
     if self.legacy:
       loss = torch.mean((z_q.detach() - z_norm) ** 2) + self.beta * \
               torch.mean((z_q - z_norm.detach()) ** 2)
@@ -820,13 +772,9 @@ class VectorQuantizer(nn.Module):
       loss = self.beta * torch.mean((z_q.detach() - z_norm) ** 2) + \
               torch.mean((z_q - z_norm.detach()) ** 2)
 
-    # preserve gradients
     z_q = z + (z_q - z).detach()
 
-    # reshape back to match original input shape
     if len(sh) == 4:
       z_q = einops.rearrange(z_q, 'b h w c -> b c h w').contiguous()
-    # else:
-    #   z_q = einops.rearrange(z_q, 'b w c -> b c w').contiguous()
 
     return z_q, loss, (perplexity, min_encodings, min_encoding_indices.to(torch.int32))

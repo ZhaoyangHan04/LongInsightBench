@@ -1,17 +1,17 @@
-# --------------------------------------------------------
-# BEATs: Audio Pre-Training with Acoustic Tokenizers (https://arxiv.org/abs/2212.09058)
-# Github source: https://github.com/microsoft/unilm/tree/master/beats
-# Copyright (c) 2022 Microsoft
-# Licensed under The MIT License [see LICENSE for details]
-# Based on fairseq code bases
-# https://github.com/pytorch/fairseq
-# --------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
 import torch
 import torch.nn as nn
 from torch.nn import LayerNorm
-# import torchaudio.compliance.kaldi as ta_kaldi
+
 
 from .kaldi import fbank as kaldi_fbank
 
@@ -30,39 +30,35 @@ logger = logging.getLogger(__name__)
 
 class TokenizersConfig:
     def __init__(self, cfg=None):
-        self.input_patch_size: int = -1  # path size of patch embedding
-        self.embed_dim: int = 512  # patch embedding dimension
-        self.conv_bias: bool = False  # include bias in conv encoder
+        self.input_patch_size: int = -1
+        self.embed_dim: int = 512
+        self.conv_bias: bool = False
 
-        self.encoder_layers: int = 12  # num encoder layers in the transformer
-        self.encoder_embed_dim: int = 768  # encoder embedding dimension
-        self.encoder_ffn_embed_dim: int = 3072  # encoder embedding dimension for FFN
-        self.encoder_attention_heads: int = 12  # num encoder attention heads
-        self.activation_fn: str = "gelu"  # activation function to use
+        self.encoder_layers: int = 12
+        self.encoder_embed_dim: int = 768
+        self.encoder_ffn_embed_dim: int = 3072
+        self.encoder_attention_heads: int = 12
+        self.activation_fn: str = "gelu"
 
-        self.layer_norm_first: bool = False  # apply layernorm first in the transformer
-        self.deep_norm: bool = False  # apply deep_norm first in the transformer
+        self.layer_norm_first: bool = False
+        self.deep_norm: bool = False
 
-        # dropouts
-        self.dropout: float = 0.1  # dropout probability for the transformer
-        self.attention_dropout: float = 0.1  # dropout probability for attention weights
-        self.activation_dropout: float = 0.0  # dropout probability after activation in FFN
-        self.encoder_layerdrop: float = 0.0  # probability of dropping a tarnsformer layer
-        self.dropout_input: float = 0.0  # dropout to apply to the input (after feat extr)
+        self.dropout: float = 0.1
+        self.attention_dropout: float = 0.1
+        self.activation_dropout: float = 0.0
+        self.encoder_layerdrop: float = 0.0
+        self.dropout_input: float = 0.0
 
-        # positional embeddings
-        self.conv_pos: int = 128  # number of filters for convolutional positional embeddings
-        self.conv_pos_groups: int = 16  # number of groups for convolutional positional embedding
+        self.conv_pos: int = 128
+        self.conv_pos_groups: int = 16
 
-        # relative position embedding
-        self.relative_position_embedding: bool = False  # apply relative position embedding
-        self.num_buckets: int = 320  # number of buckets for relative position embedding
-        self.max_distance: int = 1280  # maximum distance for relative position embedding
-        self.gru_rel_pos: bool = False  # apply gated relative position embedding
+        self.relative_position_embedding: bool = False
+        self.num_buckets: int = 320
+        self.max_distance: int = 1280
+        self.gru_rel_pos: bool = False
 
-        # quantizer
-        self.quant_n: int = 1024 # codebook number in quantizer
-        self.quant_dim: int = 256    # codebook dimension in quantizer
+        self.quant_n: int = 1024
+        self.quant_dim: int = 256
 
         if cfg is not None:
             self.update(cfg)
@@ -105,7 +101,7 @@ class Tokenizers(nn.Module):
         self.quantize_layer = nn.Sequential(
             nn.Linear(cfg.encoder_embed_dim, cfg.encoder_embed_dim),
             nn.Tanh(),
-            nn.Linear(cfg.encoder_embed_dim, cfg.quant_dim)  # for quantize
+            nn.Linear(cfg.encoder_embed_dim, cfg.quant_dim)
         )
 
     def forward_padding_mask(

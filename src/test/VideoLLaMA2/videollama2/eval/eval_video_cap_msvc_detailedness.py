@@ -13,8 +13,8 @@ from openai import AzureOpenAI
 
 def init():
     client = AzureOpenAI(
-        azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"), 
-        api_key=os.getenv("AZURE_OPENAI_KEY"),  
+        azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
+        api_key=os.getenv("AZURE_OPENAI_KEY"),
         api_version="2024-02-15-preview"
     )
 
@@ -41,9 +41,9 @@ def annotate(prediction_set, caption_files, output_dir):
     Evaluates question and answer pairs using GPT-3
     Returns a score for correctness.
     """
-    
+
     for file in tqdm(caption_files):
-        key = file[:-5] # Strip file extension
+        key = file[:-5]
         qa_set = prediction_set[key]
         question = qa_set['q']
         answer = str(qa_set['a'])
@@ -74,17 +74,15 @@ def annotate(prediction_set, caption_files, output_dir):
                     },
                 ]
             completion = interaction(client, message)
-            # Convert response to a Python dictionary.
             response_message = completion.choices[0].message.content
             response_dict = ast.literal_eval(response_message)
             result_qa_pair = [response_dict, qa_set]
-            # # Save the question-answer pairs to a json file.
             with open(f"{output_dir}/{key}.json", "w") as f:
                 json.dump(result_qa_pair, f)
 
         except Exception as e:
             print(f"Error processing file '{key}': {e}")
-        
+
     time.sleep(1)
 
 
@@ -121,11 +119,9 @@ def main(args):
     else:
         pred_contents = [json.loads(line) for line in open(args.pred_path)]
 
-    # Dictionary to store the count of occurrences for each video_id
     video_id_counts = {}
     new_pred_contents = []
 
-    # Iterate through each sample in pred_contents
     for sample in pred_contents:
         video_id = sample["video_name"]
         if video_id in video_id_counts:
@@ -133,74 +129,54 @@ def main(args):
         else:
             video_id_counts[video_id] = 0
 
-        # Create a new sample with the modified key
         new_sample = sample
         new_sample["video_name"] = f"{video_id.split('/')[-1].split('.')[0]}_{video_id_counts[video_id]}"
         new_pred_contents.append(new_sample)
 
-    # Generating list of id's and corresponding files
     id_list = [x["video_name"] for x in new_pred_contents]
     caption_files = [f"{id}.json" for id in id_list]
 
     output_dir = args.output_dir
-    # Generate output directory if not exists.
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    # Preparing dictionary of question-answer sets
     prediction_set = {}
     for sample in new_pred_contents:
         id = sample["video_name"]
-        # print(sample)
         question = sample["question"]
         answer = sample["answer"]
         pred = sample["pred"]
         qa_set = {"q": question, "a": answer, "pred": pred}
         prediction_set[id] = qa_set
 
-    # # Set the OpenAI API key.
-    # openai.api_key = args.api_key  # Your API key here
-    # if args.api_base:
-    #     openai.api_base = args.api_base  # Your API base here
     num_tasks = args.num_tasks
 
-    # While loop to ensure that all captions are processed.
     while True:
         try:
-            # Files that have not been processed yet.
             completed_files = os.listdir(output_dir)
             print(f"completed_files: {len(completed_files)}")
 
-            # Files that have not been processed yet.
             incomplete_files = [f for f in caption_files if f not in completed_files]
             print(f"incomplete_files: {len(incomplete_files)}")
 
-            # Break the loop when there are no incomplete files
             if len(incomplete_files) == 0:
                 break
             if len(incomplete_files) <= num_tasks:
                 num_tasks = 1
 
-            # Split tasks into parts.
             part_len = len(incomplete_files) // num_tasks
             all_parts = [incomplete_files[i : i + part_len] for i in range(0, len(incomplete_files), part_len)]
             task_args = [(prediction_set, part, args.output_dir) for part in all_parts]
             print("Generate", len(all_parts), "subprocess.")
 
-            # Use a pool of workers to process the files in parallel.
-            # with Pool() as pool:
-                # pool.starmap(annotate, task_args)
-            # import pdb;pdb.set_trace()
             annotate(*task_args[0])
 
         except Exception as e:
             print(f"Error: {e}")
 
-    # Combine all the processed files into one
     combined_contents = {}
     json_path = args.output_json
 
-    # Iterate through json files
     for file_name in os.listdir(output_dir):
         if file_name.endswith(".json"):
             file_path = os.path.join(output_dir, file_name)
@@ -212,14 +188,11 @@ def main(args):
                     print(f"Error: {e}")
                     pass
 
-    # Calculate average score
     score_sum = 0
     count = 0
     for key, result in combined_contents.items():
         count += 1
         try:
-            # key = result[0].keys()[0]
-            # import pdb; pdb.set_trace()
             for _ in result[0].keys():
                 score_match = result[0][_]
                 score = int(score_match)
@@ -247,7 +220,6 @@ if __name__ == "__main__":
     parser.add_argument("--api-deployname", required=True, type=str, help="Azure Openai API deployname.")
     args = parser.parse_args()
 
-    # Set the OpenAI API key.
     os.environ["AZURE_OPENAI_KEY"] = args.api_key
     os.environ["AZURE_OPENAI_ENDPOINT"] = args.api_endpoint
     os.environ["AZURE_OPENAI_DEPLOYNAME"] = args.api_deployname

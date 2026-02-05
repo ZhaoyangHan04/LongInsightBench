@@ -1,21 +1,21 @@
 """Tokenizer for UIO2, light modified from seqio"""
-# Copyright 2023 The SeqIO Authors.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 
-# Modified for UIO2 to use with the LLaMa tokenizer
-# For backward compatibility reasons, our tokenizer
-# is changed so that EOS is 1 and BOS 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import dataclasses
 import functools
@@ -86,10 +86,6 @@ class SentencePieceVocabulary:
 
   def __getstate__(self):
     state = self.__dict__.copy()
-    # Gin config makes a deep copy of the keyword arguments of configurables.
-    # When a SentencePieceVocabulary vocabulary is used as a keyword argument
-    # in a Gin configurable, it must be picklable. We therefore remove
-    # _model; will be initialized lazily as needed.
     del state["_model"]
     return state
 
@@ -141,31 +137,23 @@ class SentencePieceVocabulary:
       prefix_as_special_token=True,
   ) -> _ModelContext:
     """Load SPM, Python tokenizer, and cache results to the class definition."""
-    # SentencePieceProcessor::LoadFromSerializedProto is not thread-safe.
-    # Without a lock, users may randomly see SIGSEGV on
-    # sentencepiece::ModelInterface::pad_piece when using the vocabulary in
-    # SeqIO preprocessors.
     with cls._load_model_lock:
-      # Handle cases where SP can't load the file, but gfile can.
       with tf.io.gfile.GFile(sentencepiece_model_file, "rb") as f:
         sp_model = f.read()
         model = sentencepiece_model_pb2.ModelProto.FromString(sp_model)
 
         if hack_to_t5_start_tokens:
-          # PAD token would still be 0 same as BOS for consistency as previous!
           unk = model.pieces[0]
           bos = model.pieces[1]
           eos = model.pieces[2]
           model.pieces.remove(unk)
           model.pieces.remove(bos)
           model.pieces.remove(eos)
-          model.pieces.insert(0, bos)   # BOS is token 0
-          model.pieces.insert(1, eos)   # EOS is token 1
-          model.pieces.insert(2, unk)   # UNK is token 2
+          model.pieces.insert(0, bos)
+          model.pieces.insert(1, eos)
+          model.pieces.insert(2, unk)
 
-        # Add placeholder strings for extra IDs.
         if extra_ids:
-          # By default, we them in reverse order to match span corruption.
           if reverse_extra_ids:
             extra_id_tokens = reversed(range(extra_ids))
           else:
@@ -179,7 +167,6 @@ class SentencePieceVocabulary:
             )
 
         if modality_extra_id_n_frames:
-          # Note: start from 1, not affect by `reverse_extra_ids` and not counted in `extra_ids`
           for i in range(1, modality_extra_id_n_frames + 1):
             model.pieces.add(
               piece=f"▁<image_history_{i}>",
@@ -249,7 +236,6 @@ class SentencePieceVocabulary:
           model.normalizer_spec.MergeFrom(normalizer_spec_overrides)
           model.denormalizer_spec.MergeFrom(normalizer_spec_overrides)
         sp_model = model.SerializeToString()
-      # Load Python tokenizer and ensure the EOS and PAD IDs are correct.
       tokenizer = sentencepiece_processor.SentencePieceProcessor()
       tokenizer.LoadFromSerializedProto(sp_model)
       return cls._ModelContext(tokenizer=tokenizer, sp_model=sp_model)
@@ -257,7 +243,6 @@ class SentencePieceVocabulary:
   @property
   def modality_extra_ids(self):
     if self._modality_extra_id_n_frames:
-      # image/audio input + n * image/audio history + R/S * 3 modalities + [Text] [X]
       return (self._modality_extra_id_n_frames + 1) * 2 + self._prefix_as_special_token * (2 * 3 + 1)
     return 0 + self._prefix_as_special_token * (2 * 3 + 1)
 
@@ -303,7 +288,6 @@ class SentencePieceVocabulary:
     return self.tokenizer.EncodeAsIds(s)
 
   def _decode(self, ids):
-    # convert all the extra ids (sentinels) to UNK=2
     unk_id = self.tokenizer.unk_id()
     piece_size = self.tokenizer.GetPieceSize()
     ids = [unk_id if i >= piece_size else int(i) for i in ids]
@@ -333,8 +317,6 @@ class SentencePieceVocabulary:
   @property
   def tf_tokenizer(self):
     """Instantiate and return a TF tokenizer."""
-    # TF tokenize is not used in the pytorch version, so import here to keep the
-    # dependency optional
     import tensorflow_text as tf_text
     return tf_text.SentencepieceTokenizer(model=self.sp_model)
 

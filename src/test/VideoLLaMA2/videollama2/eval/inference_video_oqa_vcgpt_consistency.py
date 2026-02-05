@@ -14,13 +14,13 @@ sys.path.append('./')
 from videollama2 import model_init, mm_infer
 from videollama2.utils import disable_torch_init
 
-# NOTE: Ignore TypedStorage warning, which refers to this link~(https://github.com/pytorch/pytorch/issues/97207#issuecomment-1494781560)
+
 warnings.filterwarnings('ignore', category=UserWarning, message='TypedStorage is deprecated')
 
 
 def split_list(lst, n):
     """Split a list into n (roughly) equal-sized chunks"""
-    chunk_size = math.ceil(len(lst) / n)  # integer division
+    chunk_size = math.ceil(len(lst) / n)
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
 
 
@@ -39,7 +39,7 @@ class VCGPTDataset(Dataset):
 
     def __len__(self):
         return len(self.data_list)
-    
+
     def __getitem__(self, idx):
         line = self.data_list[idx]
         question1 = line['Q1']
@@ -47,7 +47,7 @@ class VCGPTDataset(Dataset):
         answer = line['A']
         video_name = line['video_name']
 
-        for fmt in self.video_formats:  # Added this line
+        for fmt in self.video_formats:
             temp_path = os.path.join(args.video_folder, f"{video_name}{fmt}")
             if os.path.exists(temp_path):
                 video_path = temp_path
@@ -77,7 +77,6 @@ def collate_fn(batch):
 def run_inference(args):
     disable_torch_init()
 
-    # Initialize the model
     model, processor, tokenizer = model_init(args.model_path)
 
     questions = json.load(open(args.question_file, "r"))
@@ -91,12 +90,10 @@ def run_inference(args):
     os.makedirs(os.path.dirname(answer_file), exist_ok=True)
     ans_file = open(answer_file, "w")
 
-    output_list = []  # List to store the output results
+    output_list = []
 
-    # Iterate over each sample in the ground truth file
     for i, (video_tensors, video_names, questions1, questions2, answers) in enumerate(tqdm(dataloader)):
 
-        # reduce batch dimension
         video_tensor = video_tensors[0]
         video_name = video_names[0]
         question1 = questions1[0]
@@ -105,7 +102,7 @@ def run_inference(args):
 
         output1 = mm_infer(
             video_tensor,
-            question1, 
+            question1,
             model=model,
             tokenizer=tokenizer,
             modal='video',
@@ -131,7 +128,6 @@ def run_inference(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    # Define the command-line arguments
     parser.add_argument('--model-path', help='', required=True)
     parser.add_argument('--model_base', help='', default=None, type=str, required=False)
     parser.add_argument('--video-folder', help='Directory containing video files.', required=True)

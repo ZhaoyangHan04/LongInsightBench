@@ -29,7 +29,7 @@ class EncoderProjectorConcat(nn.Module):
         if num_frames_to_discard > 0:
             x = x[:, :-num_frames_to_discard, :]
         seq_len = x.size(1)
-        
+
         x = x.contiguous()
         x = x.view(batch_size, seq_len // self.k, dim * self.k)
         x = self.linear1(x)
@@ -43,5 +43,4 @@ class EncoderProjectorConcat(nn.Module):
         end = self.speech_end.reshape(1, -1).to(x.dtype)
         x = x.flatten(0, 1)
         x = torch.cat([begin, x, end], dim=0)
-        # x = x.flatten(0, 1)
         return x

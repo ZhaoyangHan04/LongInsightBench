@@ -18,7 +18,6 @@ def apply_with_random_selector(x, func, num_cases):
     selector as a python integer, but sel is sampled dynamically.
   """
   sel = tf.random.uniform([], maxval=num_cases, dtype=tf.int32)
-  # Pass the real x only to one of the func calls.
   return control_flow_ops.merge([
     func(control_flow_ops.switch(x, tf.equal(sel, case))[1], case)
     for case in range(num_cases)])[0]
@@ -79,11 +78,9 @@ def resize_and_crop_boxes(boxes, image_scale, output_size, offset, paddings):
   Returns:
     boxes: `Tensor` of shape [N, 4] representing the scaled boxes.
   """
-  # Adjusts box coordinates based on image_scale, offset and paddings.
   boxes *= tf.tile(tf.expand_dims(image_scale, axis=0), [1, 2])
   boxes -= tf.tile(tf.expand_dims(offset, axis=0), [1, 2])
   boxes += tf.tile(tf.expand_dims(paddings, axis=0), [1, 2])
-  # Clips the boxes.
   boxes = clip_boxes(boxes, output_size)
   return boxes
 
@@ -190,22 +187,17 @@ def resize_and_pad(
     width = tf.cast(tf.shape(image)[1], tf.float32)
 
   if boxes is not None and boxes_normalized:
-    # Converts boxes from normalized coordinates to pixel coordinates.
-    # Now the coordinates of boxes are w.r.t. the original image.
     boxes = denormalize_boxes(boxes, [height, width])
 
   if do_random_scale:
     random_scale_factor = tf.random.uniform([], random_scale_min, random_scale_max)
     if not shrink_both_sides:
-      # Max random is where scale * W > W_desired
-      #                     scale * H > H_desired
       rsf_max = tf.maximum(desired_width_f / width, desired_height_f / height)
       random_scale_factor = tf.minimum(rsf_max, random_scale_factor)
 
     scaled_y = tf.cast(random_scale_factor * desired_height_f, tf.int32)
     scaled_x = tf.cast(random_scale_factor * desired_width_f, tf.int32)
 
-    # Recompute the accurate scale_factor using rounded scaled image size.
     image_scale_y = tf.cast(scaled_y, tf.float32) / height
     image_scale_x = tf.cast(scaled_x, tf.float32) / width
 
@@ -215,12 +207,8 @@ def resize_and_pad(
       lambda: tf.maximum(image_scale_x, image_scale_y),
       lambda: tf.minimum(image_scale_x, image_scale_y))
 
-    # Don't scale any side lower than to 64
-    # For very wide images, this truncates the edge in order to keep the resolution
-    # reasonable
     image_scale = tf.maximum(image_scale, 64.0 / tf.minimum(height, width))
 
-    # Select non-zero random offset (x, y) if scaled image is larger than
     scaled_height = tf.cast(height * image_scale, tf.int32)
     scaled_width = tf.cast(width * image_scale, tf.int32)
     offset_y = tf.cast(scaled_height - desired_height, tf.float32)
@@ -238,10 +226,8 @@ def resize_and_pad(
     offset_y = tf.constant(0)
     offset_x = tf.constant(0)
 
-  # Now resize and crop
   if resize_method == 'random' and do_random_scale and (not tf.executing_eagerly()):
     resize_methods = sorted([k for k in tf.image.ResizeMethod.__dict__.keys() if k.isupper()])
-    # print("Random resize method:\n{}".format(','.join(resize_methods)))
     image = apply_with_random_selector(
       image,
       lambda x, method_idx: tf.image.resize(x, [scaled_height, scaled_width],
@@ -258,12 +244,10 @@ def resize_and_pad(
   image = tf.clip_by_value(image, 0.0, 1.0)
 
   if is_video:
-    # frames x H x W x C
     image = image[:,offset_y:offset_y + desired_height, offset_x:offset_x + desired_width, :]
     H = tf.shape(image)[1]
     W = tf.shape(image)[2]
   else:
-    # H x W x C
     image = image[offset_y:offset_y + desired_height, offset_x:offset_x + desired_width, :]
     H = tf.shape(image)[0]
     W = tf.shape(image)[1]
@@ -271,7 +255,6 @@ def resize_and_pad(
   top_pad = (desired_height - H) // 2
   left_pad = (desired_width - W) // 2
 
-  # Get the mask which indicates which regions were padded
   mask = tf.ones(tf.concat([tf.shape(image)[:-1], [1]], 0), dtype=tf.int32)
   image_mask = tf.squeeze(tf.image.pad_to_bounding_box(
     mask, top_pad, left_pad, desired_height, desired_width), -1)
@@ -318,8 +301,6 @@ def resize_and_pad(
     if box_labels is not None:
       box_labels = tf.gather(box_labels, indices)
 
-  # Stores meta meta-data about how the image was resized, needed if we want
-  # reverse the padding/resizing later
   image_info = tf.stack([
     tf.cast(top_pad, tf.float32),
     tf.cast(left_pad, tf.float32),
@@ -367,7 +348,6 @@ def values_to_tokens(vals, clss=None):
   vocab_start = config.VOCAB_START
   quantized_boxes = tf.cast(vals * (num_bins-1), tf.int32)
 
-  # For values that were exactly one
   vals = tf.constant([f'<extra_id_{i}>' for i in range(vocab_start, vocab_start+num_bins)])
   tokens = tf.gather(vals, quantized_boxes)
 
@@ -385,14 +365,11 @@ def _shift_right_by_one(tensor: tf.Tensor, bos_id: int = 0) -> tf.Tensor:
 
   if not (tensor.dtype.is_integer or tensor.dtype.is_floating):
     raise ValueError(f"Only numeric types are supported. Got: {tensor.dtype}")
-  # tf.roll wraps around the axis.
   rolled = tf.roll(tensor, shift=1, axis=0)
 
-  # Zero out the first position by multiplying with [0, 1, 1, ..., 1].
   depth = tf.shape(tensor)[0]
   mask = tf.one_hot(0, depth=depth, on_value=0, off_value=1, dtype=tensor.dtype)
 
-  # Expand dims of mask to broadcast to rolled.
   dim_expansion = [slice(None, None)] + [None] * (len(rolled.shape) - 1)
   mask = mask[dim_expansion]
   return rolled * mask + (1 - mask) * bos_id
@@ -424,8 +401,6 @@ def make_autoregressive_inputs(
   if inputs.dtype != output_dtype:
     inputs = tf.cast(inputs, output_dtype)
 
-  # We should have a 0 at the beginning of each sequence rather than the
-  # shifted EOS (e.g. 1) from the previous sequence.
   if sequence_id is not None:
     not_first_in_sequence = tf.equal(
       sequence_id, _shift_right_by_one(sequence_id)

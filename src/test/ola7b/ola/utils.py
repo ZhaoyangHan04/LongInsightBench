@@ -1,17 +1,17 @@
-# Adopted from https://github.com/haotian-liu/LLaVA. Below is the original copyright:
-#    Copyright 2023 Haotian Liu
-#
-#    Licensed under the Apache License, Version 2.0 (the "License");
-#    you may not use this file except in compliance with the License.
-#    You may obtain a copy of the License at
-#
-#        http://www.apache.org/licenses/LICENSE-2.0
-#
-#    Unless required by applicable law or agreed to in writing, software
-#    distributed under the License is distributed on an "AS IS" BASIS,
-#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#    See the License for the specific language governing permissions and
-#    limitations under the License.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import os
 import sys
@@ -36,12 +36,10 @@ def build_logger(logger_name, logger_filename):
         datefmt="%Y-%m-%d %H:%M:%S",
     )
 
-    # Set the format of root handlers
     if not logging.getLogger().handlers:
         logging.basicConfig(level=logging.INFO)
     logging.getLogger().handlers[0].setFormatter(formatter)
 
-    # Redirect stdout and stderr to loggers
     stdout_logger = logging.getLogger("stdout")
     stdout_logger.setLevel(logging.INFO)
     sl = StreamToLogger(stdout_logger, logging.INFO)
@@ -52,11 +50,9 @@ def build_logger(logger_name, logger_filename):
     sl = StreamToLogger(stderr_logger, logging.ERROR)
     sys.stderr = sl
 
-    # Get logger
     logger = logging.getLogger(logger_name)
     logger.setLevel(logging.INFO)
 
-    # Add a file handler for all loggers
     if handler is None:
         os.makedirs(LOGDIR, exist_ok=True)
         filename = os.path.join(LOGDIR, logger_filename)
@@ -88,11 +84,6 @@ class StreamToLogger(object):
         temp_linebuf = self.linebuf + buf
         self.linebuf = ''
         for line in temp_linebuf.splitlines(True):
-            # From the io.TextIOWrapper docs:
-            #   On output, if newline is None, any '\n' characters written
-            #   are translated to the system default line separator.
-            # By default sys.stdout.write() expects '\n' newlines and then
-            # translates them so this is still cross platform.
             if line[-1] == '\n':
                 self.logger.log(self.log_level, line.rstrip())
             else:
@@ -118,7 +109,7 @@ def maybe_zero_3(param, ignore_status=False, name=None):
     return param
 
 
-# Borrowed from peft.utils.get_peft_model_state_dict
+
 def get_peft_state_maybe_zero_3(named_params, bias):
     if bias == "none":
         to_return = {k: t for k, t in named_params if "lora_" in k}

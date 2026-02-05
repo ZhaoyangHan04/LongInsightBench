@@ -100,32 +100,27 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, chunk_si
     model_name = model_selector
 
     if state.skip_next:
-        # This generate call is skipped due to invalid inputs
         yield (state, "", "", None)
         return
 
     if len(state.messages) == state.offset + 2:
-        # First round of conversation
         template_name = "llama_3"
         new_state = conv_templates[template_name].copy()
         new_state.append_message(new_state.roles[0], state.messages[-2][1])
         new_state.append_message(new_state.roles[1], None)
         state = new_state
 
-    # Query worker address
     controller_url = args.controller_url
     ret = requests.post(controller_url + "/get_worker_address",
             json={"model": model_name})
     worker_addr = ret.json()["address"]
     logger.info(f"model_name: {model_name}, worker_addr: {worker_addr}")
 
-    # No available worker
     if worker_addr == "":
         state.messages[-1][-1] = server_error_msg
         yield (state, "", "", None)
         return
 
-    # Construct prompt
     prompt = state.get_prompt()
 
     sr, audio = state.messages[0][1][1]
@@ -134,7 +129,6 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, chunk_si
     audio = resampler(audio).squeeze(0).numpy()
     audio /= 32768.0
     audio = audio.tolist()
-    # Make requests
     pload = {
         "model": model_name,
         "prompt": prompt,
@@ -150,7 +144,6 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, chunk_si
     cur_dir = os.path.dirname(os.path.abspath(__file__))
 
     try:
-        # Stream output
         response = requests.post(worker_addr + "/worker_generate_stream",
             headers=headers, json=pload, stream=True, timeout=10)
         num_generated_units = 0
@@ -163,7 +156,6 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, chunk_si
                     output_unit = list(map(int, data["unit"].strip().split()))
                     state.messages[-1][-1] = (output, data["unit"].strip())
 
-                    # vocoder
                     new_units = output_unit[num_generated_units:]
                     if len(new_units) >= chunk_size:
                         num_generated_units = len(output_unit)
@@ -197,7 +189,7 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, chunk_si
         }
         wav = vocoder(x, True)
         wav_list.append(wav.detach().cpu().numpy())
-    
+
     if len(wav_list) > 0:
         wav_full = np.concatenate(wav_list)
         return_value = (16000, wav_full)
@@ -266,7 +258,7 @@ def build_demo(embed_mode, vocoder, cur_dir=None, concurrency_count=10):
             clear_btn = gr.Button(value="Clear")
 
         text_output_box = gr.Textbox(label="Text Output", type="text")
-        unit_output_box = gr.Textbox(label="Unit Output", type="text") 
+        unit_output_box = gr.Textbox(label="Unit Output", type="text")
         audio_output_box = gr.Audio(label="Speech Output")
 
         url_params = gr.JSON(visible=False)

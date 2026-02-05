@@ -60,8 +60,7 @@ def create_photo_grid(arr, rows=None, cols=None):
             raise ValueError("Invalid input type. Expected list of Images or numpy arrays.")
 
     t, h, w, c = arr.shape
-    
-    # Calculate the number of rows and columns if not provided
+
     if rows is None and cols is None:
         rows = math.ceil(math.sqrt(t))
         cols = math.ceil(t / rows)
@@ -70,21 +69,18 @@ def create_photo_grid(arr, rows=None, cols=None):
     elif cols is None:
         cols = math.ceil(t / rows)
 
-    # Check if the grid can hold all the images
     if rows * cols < t:
         raise ValueError(f"Not enough grid cells ({rows}x{cols}) to hold all images ({t}).")
-    
-    # Create the grid array with appropriate height and width
+
     grid_height = h * rows
     grid_width = w * cols
     grid = np.zeros((grid_height, grid_width, c), dtype=arr.dtype)
-    
-    # Fill the grid with images
+
     for i in range(t):
         row_idx = i // cols
         col_idx = i % cols
         grid[row_idx*h:(row_idx+1)*h, col_idx*w:(col_idx+1)*w, :] = arr[i]
-    
+
     return grid
 
 
@@ -106,21 +102,15 @@ def process_image(image_path, processor, aspect_ratio='pad'):
 def frame_sample(duration, mode='uniform', num_frames=None, fps=None):
     if mode == 'uniform':
         assert num_frames is not None, "Number of frames must be provided for uniform sampling."
-        # NOTE: v1 version
-        # Calculate the size of each segment from which a frame will be extracted
         seg_size = float(duration - 1) / num_frames
 
         frame_ids = []
         for i in range(num_frames):
-            # Calculate the start and end indices of each segment
             start = seg_size * i
             end   = seg_size * (i + 1)
-            # Append the middle index of the segment to the list
             frame_ids.append((start + end) / 2)
 
         return np.round(np.array(frame_ids) + 1e-6).astype(int)
-        # NOTE: v0 version
-        # return np.linspace(0, duration-1, num_frames, dtype=int)
     elif mode == 'fps':
         assert fps is not None, "FPS must be provided for FPS sampling."
         segment_len = min(fps // NUM_FRAMES_PER_SECOND, duration)
@@ -139,8 +129,7 @@ def process_video(video_path, processor, s=None, e=None, aspect_ratio='pad', num
             elif s == e:
                 e = s + 1
 
-        # 1. Loading Video
-        if os.path.isdir(video_path):                
+        if os.path.isdir(video_path):
             frame_files = sorted(os.listdir(video_path))
 
             fps = 3
@@ -156,20 +145,17 @@ def process_video(video_path, processor, s=None, e=None, aspect_ratio='pad', num
             fps = vreader.get_avg_fps()
             num_frames_of_video = len(vreader)
 
-        # 2. Determine frame range & Calculate frame indices
         f_start = 0                       if s is None else max(int(s * fps) - 1, 0)
         f_end   = num_frames_of_video - 1 if e is None else min(int(e * fps) - 1, num_frames_of_video - 1)
         frame_indices = list(range(f_start, f_end + 1))
 
         duration = len(frame_indices)
-        # 3. Sampling frame indices 
         if num_frames is None:
             sampled_frame_indices = [frame_indices[i] for i in frame_sample(duration, mode='fps', fps=fps)]
         else:
             sampled_frame_indices = [frame_indices[i] for i in frame_sample(duration, mode='uniform', num_frames=num_frames)]
 
-        # 4. Acquire frame data
-        if os.path.isdir(video_path): 
+        if os.path.isdir(video_path):
             video_data = [Image.open(os.path.join(video_path, frame_files[f_idx])) for f_idx in sampled_frame_indices]
         elif video_path.endswith('.gif'):
             video_data = [Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_RGBA2RGB)) for idx, frame in enumerate(gif_reader) if idx in sampled_frame_indices]
@@ -190,7 +176,6 @@ def process_video(video_path, processor, s=None, e=None, aspect_ratio='pad', num
     while num_frames is not None and len(video_data) < num_frames:
         video_data.append(Image.fromarray(np.zeros((*video_data[-1].size, 3), dtype=np.uint8)))
 
-    # MAX_FRAMES filter
     video_data = video_data[:MAX_FRAMES]
 
     if aspect_ratio == 'pad':
@@ -205,20 +190,15 @@ def process_video(video_path, processor, s=None, e=None, aspect_ratio='pad', num
 def process_video_old(video_path, processor, aspect_ratio='pad', num_frames=NUM_FRAMES, image_grid=False, sample_scheme='uniform'):
     def frame_sample(duration, mode='uniform', local_fps=None):
         if mode == 'uniform':
-            # Calculate the size of each segment from which a frame will be extracted
             seg_size = float(duration - 1) / num_frames
 
             frame_ids = []
             for i in range(num_frames):
-                # Calculate the start and end indices of each segment
                 start = int(np.round(seg_size * i))
                 end = int(np.round(seg_size * (i + 1)))
-                # Append the middle index of the segment to the list
                 frame_ids.append((start + end) // 2)
 
             return frame_ids
-            # NOTE: old version
-            # return np.linspace(0, duration-1, num_frames, dtype=int)
         elif mode == 'fps':
             assert local_fps is not None
             segment_len = min(local_fps // NUM_FRAMES_PER_SECOND, duration)
@@ -232,18 +212,14 @@ def process_video_old(video_path, processor, aspect_ratio='pad', num_frames=NUM_
             duration, local_fps = len(video_gif), 10
 
             frame_id_list = frame_sample(duration, mode=sample_scheme, local_fps=local_fps)
-            # limit the max input frames
             if len(frame_id_list) > MAX_FRAMES:
                 frame_id_list = np.linspace(0, duration-1, MAX_FRAMES, dtype=int)
             video_data = [frame for index, frame in enumerate(video_gif) if index in frame_id_list]
         else:
-            # NOTE: num_threads=1 is required to avoid deadlock in multiprocessing
-            # decord_vr = VideoReader(uri=video_path, ctx=cpu(0), num_threads=1)
-            decord_vr = VideoReader(video_path, ctx=cpu(0), num_threads=2) 
+            decord_vr = VideoReader(video_path, ctx=cpu(0), num_threads=2)
             duration, local_fps = len(decord_vr), float(decord_vr.get_avg_fps())
-        
+
             frame_id_list = frame_sample(duration, mode=sample_scheme, local_fps=local_fps)
-            # limit the max input frames
             if len(frame_id_list) > MAX_FRAMES:
                 frame_id_list = np.linspace(0, duration-1, MAX_FRAMES, dtype=int)
             try:
@@ -325,7 +301,7 @@ class KeywordsStoppingCriteria(StoppingCriteria):
             self.keyword_ids.append(torch.tensor(cur_keyword_ids))
         self.tokenizer = tokenizer
         self.start_len = input_ids.shape[1]
-    
+
     def call_for_batch(self, output_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> bool:
         offset = min(output_ids.shape[1] - self.start_len, self.max_keyword_len)
         self.keyword_ids = [keyword_id.to(output_ids.device) for keyword_id in self.keyword_ids]
@@ -337,7 +313,7 @@ class KeywordsStoppingCriteria(StoppingCriteria):
             if keyword in outputs:
                 return True
         return False
-    
+
     def __call__(self, output_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> bool:
         outputs = []
         for i in range(output_ids.shape[0]):

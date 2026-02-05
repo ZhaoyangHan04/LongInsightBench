@@ -1,17 +1,17 @@
-# Adopted from https://github.com/haotian-liu/LLaVA. Below is the original copyright:
-#    Copyright 2023 Haotian Liu
-#
-#    Licensed under the Apache License, Version 2.0 (the "License");
-#    you may not use this file except in compliance with the License.
-#    You may obtain a copy of the License at
-#
-#        http://www.apache.org/licenses/LICENSE-2.0
-#
-#    Unless required by applicable law or agreed to in writing, software
-#    distributed under the License is distributed on an "AS IS" BASIS,
-#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#    See the License for the specific language governing permissions and
-#    limitations under the License.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import os
 from abc import ABC, abstractmethod
@@ -70,7 +70,6 @@ class Videollama2MetaModel:
         if getattr(self, 'mm_projector', None) is None:
             self.mm_projector = build_vision_projector(self.config)
         else:
-            # In case it is frozen by LoRA
             for p in self.mm_projector.parameters():
                 p.requires_grad = True
 
@@ -82,7 +81,6 @@ class Videollama2MetaModel:
                 else:
                     mm_projector_weights = torch.load(pretrain_mm_mlp_adapter, map_location='cpu')
             else:
-                # Support loading projector weights from remote HuggingFace model hub
                 is_local = False
                 pretrain_mm_mlp_adapter = pretrain_mm_mlp_adapter.replace('mm_projector.bin', '')
                 pretrain_mm_mlp_adapter = pretrain_mm_mlp_adapter.strip('/').strip('\\').strip()
@@ -91,8 +89,6 @@ class Videollama2MetaModel:
             def get_w(weights, keyword):
                 return {k.split(keyword + '.')[1]: v for k, v in weights.items() if keyword in k}
 
-            # self.mm_projector.load_state_dict(get_w(mm_projector_weights, 'mm_projector'))
-            # set strict=False to avoid missing key error regarding bert.embeddings.position_ids
             self.mm_projector.load_state_dict(get_w(mm_projector_weights, 'mm_projector'), strict=False)
 
 
@@ -140,17 +136,12 @@ class Videollama2MetaForCausalLM(ABC):
         Returns:
             torch.Tensor: Video features with shape (b, n, h).
         """
-        # TODO: improve the merging method.
-        # *********** mean pooling *************
         if self.config.mm_projector_type == "mlp2x_gelu" or self.config.mm_projector_type == "linear":
             video_features = self.get_model().mm_projector(frames_features.mean(1))
-        # *********** spatial convolution *************
         elif self.config.mm_projector_type == "spatial_conv":
             video_features = self.get_model().mm_projector(frames_features)
-        # *********** spatial pooling *************
         elif self.config.mm_projector_type == "spatial_pool":
             video_features = self.get_model().mm_projector(frames_features)
-        # *********** time  ************
         elif "tc_connector" in self.config.mm_projector_type or "tp_connector" in self.config.mm_projector_type:
             video_features = self.get_model().mm_projector(frames_features)
         else:
@@ -162,10 +153,7 @@ class Videollama2MetaForCausalLM(ABC):
         self, input_ids, attention_mask, past_key_values, labels, images
     ):
         vision_tower = self.get_vision_tower()
-        # NOTE: text-only situation
         if vision_tower is None or images is None or input_ids.shape[1] == 1:
-            # if past_key_values is not None and vision_tower is not None and Xs is not None and input_ids.shape[1] == 1:
-            #    attention_mask = torch.ones((attention_mask.shape[0], past_key_values[-1][-1].shape[-2] + 1), dtype=attention_mask.dtype, device=attention_mask.device)
             return input_ids, attention_mask, past_key_values, None, labels
 
         mm_features = self.encode_images_or_videos(images)
@@ -173,10 +161,8 @@ class Videollama2MetaForCausalLM(ABC):
         new_input_embeds = []
         new_labels = [] if labels is not None else None
         cur_mm_idx = 0
-        # replace image/video/audio tokens with pre-computed embeddings
         for batch_idx, cur_input_ids in enumerate(input_ids):
             num_multimodals = sum((cur_input_ids == mm_token_idx).sum() for mm_token_idx in MODAL_INDEX_MAP.values())
-            # pure text input
             if num_multimodals == 0:
                 half_len = cur_input_ids.shape[0] // 2
                 cur_mm_features = mm_features[cur_mm_idx]
@@ -186,7 +172,7 @@ class Videollama2MetaForCausalLM(ABC):
                 new_input_embeds.append(cur_input_embeds)
                 if labels is not None:
                     new_labels.append(labels[batch_idx])
-                cur_mm_idx += 1 
+                cur_mm_idx += 1
                 continue
 
             cur_new_input_embeds = []
@@ -200,7 +186,7 @@ class Videollama2MetaForCausalLM(ABC):
                 cur_mm_features = mm_features[cur_mm_idx]
                 mm_token_start = mm_token_indices[0]
 
-                cur_new_input_embeds.append(self.get_model().embed_tokens(cur_input_ids[:mm_token_start])) 
+                cur_new_input_embeds.append(self.get_model().embed_tokens(cur_input_ids[:mm_token_start]))
                 cur_new_input_embeds.append(cur_mm_features)
                 if labels is not None:
                     cur_new_labels.append(cur_labels[:mm_token_start])
@@ -208,7 +194,7 @@ class Videollama2MetaForCausalLM(ABC):
                     cur_labels = cur_labels[mm_token_start+1:]
 
                 cur_mm_idx += 1
-                cur_input_ids = cur_input_ids[mm_token_start+1:] 
+                cur_input_ids = cur_input_ids[mm_token_start+1:]
                 mm_token_indices = torch.where(sum([cur_input_ids == mm_token_idx for mm_token_idx in MODAL_INDEX_MAP.values()]))[0]
 
             if cur_input_ids.numel() > 0:
@@ -216,14 +202,12 @@ class Videollama2MetaForCausalLM(ABC):
                 if labels is not None:
                     cur_new_labels.append(cur_labels)
             cur_new_input_embeds = [x.to(device=self.device) for x in cur_new_input_embeds]
-            # NOTE: one cur_new_input_embeds per each  
             cur_new_input_embeds = torch.cat(cur_new_input_embeds, dim=0)
             new_input_embeds.append(cur_new_input_embeds)
             if labels is not None:
                 cur_new_labels = torch.cat(cur_new_labels, dim=0)
                 new_labels.append(cur_new_labels)
 
-        # padding
         if any(x.shape != new_input_embeds[0].shape for x in new_input_embeds):
             max_len = max(x.shape[0] for x in new_input_embeds)
 

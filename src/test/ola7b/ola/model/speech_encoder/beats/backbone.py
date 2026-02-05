@@ -1,11 +1,11 @@
-# --------------------------------------------------------
-# BEATs: Audio Pre-Training with Acoustic Tokenizers (https://arxiv.org/abs/2212.09058)
-# Github source: https://github.com/microsoft/unilm/tree/master/beats
-# Copyright (c) 2022 Microsoft
-# Licensed under The MIT License [see LICENSE for details]
-# Based on fairseq code bases
-# https://github.com/pytorch/fairseq
-# --------------------------------------------------------
+
+
+
+
+
+
+
+
 
 import math
 import numpy as np
@@ -119,7 +119,6 @@ class TransformerEncoder(nn.Module):
 
         x = F.dropout(x, p=self.dropout, training=self.training)
 
-        # B x T x C -> T x B x C
         x = x.transpose(0, 1)
 
         layer_results = []
@@ -143,7 +142,6 @@ class TransformerEncoder(nn.Module):
         if r is not None:
             x = r
 
-        # T x B x C -> B x T x C
         x = x.transpose(0, 1)
 
         return x, layer_results
@@ -368,8 +366,6 @@ class MultiheadAttention(nn.Module):
 
     def reset_parameters(self):
         if self.qkv_same_dim:
-            # Empirically observed the convergence to be much better with
-            # the scaled initialization
             nn.init.xavier_uniform_(self.k_proj.weight, gain=1 / math.sqrt(2))
             nn.init.xavier_uniform_(self.v_proj.weight, gain=1 / math.sqrt(2))
             nn.init.xavier_uniform_(self.q_proj.weight, gain=1 / math.sqrt(2))
@@ -482,8 +478,6 @@ class MultiheadAttention(nn.Module):
         if incremental_state is not None:
             saved_state = self._get_input_buffer(incremental_state)
             if saved_state is not None and "prev_key" in saved_state:
-                # previous time steps are cached - no need to recompute
-                # key and value if they are static
                 if static_kv:
                     assert self.encoder_decoder_attention and not self.self_attention
                     key = value = None
@@ -495,7 +489,6 @@ class MultiheadAttention(nn.Module):
             k = self.k_proj(query)
             v = self.v_proj(query)
         elif self.encoder_decoder_attention:
-            # encoder-decoder attention
             q = self.q_proj(query)
             if key is None:
                 assert value is None
@@ -549,7 +542,6 @@ class MultiheadAttention(nn.Module):
             )
 
         if saved_state is not None:
-            # saved states are stored with shape (bsz, num_heads, seq_len, head_dim)
             if "prev_key" in saved_state:
                 _prev_key = saved_state["prev_key"]
                 assert _prev_key is not None
@@ -584,14 +576,11 @@ class MultiheadAttention(nn.Module):
             saved_state["prev_key"] = k.view(bsz, self.num_heads, -1, self.head_dim)
             saved_state["prev_value"] = v.view(bsz, self.num_heads, -1, self.head_dim)
             saved_state["prev_key_padding_mask"] = key_padding_mask
-            # In this branch incremental_state is never None
             assert incremental_state is not None
             incremental_state = self._set_input_buffer(incremental_state, saved_state)
         assert k is not None
         assert k.size(1) == src_len
 
-        # This is part of a workaround to get around fork/join parallelism
-        # not supporting Optional types.
         if key_padding_mask is not None and key_padding_mask.dim() == 0:
             key_padding_mask = None
 
@@ -630,7 +619,6 @@ class MultiheadAttention(nn.Module):
             attn_weights += attn_mask
 
         if key_padding_mask is not None:
-            # don't attend to padding symbols
             attn_weights = attn_weights.view(bsz, self.num_heads, tgt_len, src_len)
             if not is_tpu:
                 attn_weights = attn_weights.masked_fill(
@@ -677,7 +665,6 @@ class MultiheadAttention(nn.Module):
                 bsz, self.num_heads, tgt_len, src_len
             ).transpose(1, 0)
             if not need_head_weights:
-                # average attention weights over heads
                 attn_weights = attn_weights.mean(dim=0)
 
         return attn, attn_weights, position_bias
@@ -690,16 +677,12 @@ class MultiheadAttention(nn.Module):
             src_len: int,
             static_kv: bool,
     ) -> Optional[Tensor]:
-        # saved key padding masks have shape (bsz, seq_len)
         if prev_key_padding_mask is not None and static_kv:
             new_key_padding_mask = prev_key_padding_mask
         elif prev_key_padding_mask is not None and key_padding_mask is not None:
             new_key_padding_mask = torch.cat(
                 [prev_key_padding_mask.float(), key_padding_mask.float()], dim=1
             )
-        # During incremental decoding, as the padding token enters and
-        # leaves the frame, there will be a time when prev or current
-        # is None
         elif prev_key_padding_mask is not None:
             if src_len > prev_key_padding_mask.size(1):
                 filler = torch.zeros(
@@ -762,8 +745,6 @@ def init_bert_params(module):
     """
 
     def normal_(data):
-        # with FSDP, module params will be on CUDA, so we cast them back to CPU
-        # so that the RNG is consistent with and without FSDP
         data.copy_(
             data.cpu().normal_(mean=0.0, std=0.02).to(data.device)
         )

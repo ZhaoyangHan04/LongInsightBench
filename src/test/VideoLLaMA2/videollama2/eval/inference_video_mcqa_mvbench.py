@@ -18,13 +18,13 @@ sys.path.append('./')
 from videollama2 import model_init, mm_infer
 from videollama2.utils import disable_torch_init
 
-# NOTE: Ignore TypedStorage warning, which refers to this link~(https://github.com/pytorch/pytorch/issues/97207#issuecomment-1494781560)
+
 warnings.filterwarnings('ignore', category=UserWarning, message='TypedStorage is deprecated')
 
 
 def split_list(lst, n):
     """Split a list into n (roughly) equal-sized chunks"""
-    chunk_size = math.ceil(len(lst) / n)  # integer division
+    chunk_size = math.ceil(len(lst) / n)
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
 
 
@@ -62,10 +62,10 @@ class MVBenchDataset(Dataset):
             if c == answer:
                 answer_idx = option_idx
 
-        instruct = f'Question: {question}\nOptions:\n{options_string}Answer with the option\'s letter from the given choices directly and only give the best option.' 
+        instruct = f'Question: {question}\nOptions:\n{options_string}Answer with the option\'s letter from the given choices directly and only give the best option.'
 
         return {
-            'video': torch_imgs, 
+            'video': torch_imgs,
             'video_path': video_path,
             'instruct': instruct,
             'letters': letters,
@@ -76,16 +76,16 @@ class MVBenchDataset(Dataset):
 
 
 tasks = {
-    "Action Sequence": ("action_sequence.json", "star/Charades_v1_480/", "video", True), # has start & end
-    "Action Prediction": ("action_prediction.json", "star/Charades_v1_480/", "video", True), # has start & end
+    "Action Sequence": ("action_sequence.json", "star/Charades_v1_480/", "video", True),
+    "Action Prediction": ("action_prediction.json", "star/Charades_v1_480/", "video", True),
     "Action Antonym": ("action_antonym.json", "ssv2_video/", "video", False),
     "Fine-grained Action": ("fine_grained_action.json", "Moments_in_Time_Raw/videos/", "video", False),
     "Unexpected Action": ("unexpected_action.json", "FunQA_test/test/", "video", False),
     "Object Existence": ("object_existence.json", "clevrer/video_validation/", "video", False),
-    "Object Interaction": ("object_interaction.json", "star/Charades_v1_480/", "video", True), # has start & end
+    "Object Interaction": ("object_interaction.json", "star/Charades_v1_480/", "video", True),
     "Object Shuffle": ("object_shuffle.json", "perception/videos/", "video", False),
     "Moving Direction": ("moving_direction.json", "clevrer/video_validation/", "video", False),
-    "Action Localization": ("action_localization.json", "sta/sta_video/", "video", True),  # has start & end
+    "Action Localization": ("action_localization.json", "sta/sta_video/", "video", True),
     "Scene Transition": ("scene_transition.json", "scene_qa/video/", "video", False),
     "Action Count": ("action_count.json", "perception/videos/", "video", False),
     "Moving Count": ("moving_count.json", "clevrer/video_validation/", "video", False),
@@ -94,7 +94,7 @@ tasks = {
     "Fine-grained Pose": ("fine_grained_pose.json", "nturgbd/", "video", False),
     "Character Order": ("character_order.json", "perception/videos/", "video", False),
     "Egocentric Navigation": ("egocentric_navigation.json", "vlnqa/", "video", False),
-    "Episodic Reasoning": ("episodic_reasoning.json", "tvqa/frames_fps3_hq/", "frame", True),  # has start & end, read frame
+    "Episodic Reasoning": ("episodic_reasoning.json", "tvqa/frames_fps3_hq/", "frame", True),
     "Counterfactual Inference": ("counterfactual_inference.json", "clevrer/video_validation/", "video", False),
 }
 
@@ -122,7 +122,7 @@ def build_mvbench_eval(args, processor):
 
 
 def mvbench_dump(vid, instruct, letters, options, output):
-    
+
     output = output.replace('answer', '')
     output = output.replace('Answer', '')
     pred_answer = re.findall(f'[\(,\ ]*[{letters[0]}-{letters[-1]}][\),\ ]*', output)
@@ -130,7 +130,6 @@ def mvbench_dump(vid, instruct, letters, options, output):
         find_flag = False
         if len(pred_answer) == 0:
             for idx, opt in enumerate(options):
-                # Arabic numerals -> English words
                 if opt.lower() in output.lower():
                     pred_idx = idx
                     find_flag = True
@@ -145,7 +144,7 @@ def mvbench_dump(vid, instruct, letters, options, output):
     except:
         traceback.print_exc()
         pred_idx = 2
-    
+
     return pred_idx
 
 
@@ -160,7 +159,6 @@ def run_inference(args):
 
     val_loader = build_mvbench_eval(args, processor['video'])
 
-    # NOTE: only support batch size 1 for now
     for i, line in enumerate(tqdm(val_loader)):
         vid = line['video_path'][0]
         video_tensor = line['video'][0]

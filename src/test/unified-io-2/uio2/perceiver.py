@@ -39,29 +39,21 @@ class CrossAttention(nn.Module):
     self.post_mlp_droppath = layers.DropPath(droppath_rate)
 
   def forward(self, latents, context, mask=None):
-    # Cross attention block.
     assert context.ndim == 3
     assert latents.ndim == 3
     assert latents.shape[-1] == context.shape[-1]
 
-    # q: latents. [batch, latent_length, emb_dim]
-    # kv: context. [batch, context_length, emb_dim]
     inputs_q = self.pre_xattention_norm(latents)
     inputs_kv = context
 
-    # Cross-attention
-    # [batch, latent_length, emb_dim] x [batch, context_length, emb_dim]
-    # => [batch, latent_length, emb_dim]
     x = self.xattention(inputs_q, inputs_kv, mask=mask)
-    
+
     x = self.dropout(x)
 
     x = self.post_xattn_droppath(x) + latents
 
-    # MLP block.
     y = self.pre_mlp_norm(x)
 
-    # [batch, length, emb_dim] -> [batch, length, emb_dim]
     y = self.mlp(y)
 
     y = self.post_mlp_droppath(y) + x
@@ -98,23 +90,16 @@ class Attention(nn.Module):
     self.post_mlp_droppath = layers.DropPath(droppath_rate)
 
   def forward(self, latents, mask=None):
-    # Self-attention block.
 
-    # qkv: latents. [batch, latent_length, emb_dim]
     x = self.pre_attention_norm(latents)
 
-    # Self-attention
-    # [batch, latent_length, emb_dim]
-    # => [batch, latent_length, emb_dim]
     x = self.attention(x, x, mask=mask)
 
     x = self.dropout(x)
 
     x = self.post_attn_droppath(x) + latents
 
-    # MLP block.
     y = self.pre_mlp_norm(x)
-    # [batch, length, emb_dim] -> [batch, length, emb_dim]
     y = self.mlp(y)
 
     y = self.post_mlp_droppath(y) + x
@@ -126,9 +111,8 @@ class PerceiverResampler(nn.Module):
     super().__init__()
     """Perceiver resampler: a stack of cross-attention layers."""
     self.config = config
-    
+
     self.latents = nn.Parameter(torch.empty(config.latents_size, config.emb_dim))
-    # default_embedding_init = nn.initializers.variance_scaling(1.0, 'fan_in', 'normal', out_axis=0)
     nn.init.kaiming_normal_(self.latents, mode='fan_in', nonlinearity='linear')
     self.context_norm = layers.UIOLayerNorm(config.emb_dim)
     self.perceiver_norm = layers.UIOLayerNorm(config.emb_dim)
@@ -142,10 +126,10 @@ class PerceiverResampler(nn.Module):
 
   def forward(self, embed, *, mask=None):
     bs, seq_len, dim = embed.shape
-        
+
     if mask is None:
       mask = torch.ones([bs, seq_len], dtype=torch.int32, device=embed.device)
-    
+
     embed = embed.reshape((bs, seq_len, dim))
     query_mask = torch.ones([bs, self.config.latents_size], dtype=mask.dtype, device=mask.device)
     key_mask = mask.reshape((bs, seq_len))
@@ -161,9 +145,9 @@ class PerceiverResampler(nn.Module):
         latents = getattr(self, f'layers_{lyr}')(latents, embed, xattention_mask)
       else:
         latents = getattr(self, f'layers_{lyr}')(latents, attention_mask)
-    
+
     latents = self.perceiver_norm(latents)
-    
+
     return latents
 
 
@@ -172,7 +156,7 @@ class Resampler(nn.Module):
     super().__init__()
     self.config = config
     self.perceiver = PerceiverResampler(config)
-    
+
     """Perceiver resampler: a stack of cross-attention layers."""
   def forward(self, embed, *, mask=None):
     embed = self.perceiver(embed, mask=mask)

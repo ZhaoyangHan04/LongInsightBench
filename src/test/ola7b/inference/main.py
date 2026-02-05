@@ -31,7 +31,7 @@ from decord import VideoReader, cpu
 from PIL import Image
 import numpy as np
 import moviepy.editor as mpy
-# from moviepy import editor as mpy
+
 import librosa
 import whisper
 
@@ -48,7 +48,7 @@ Output format:
     "reason": your explanation
 """
 
-# ========= 函数部分 =========
+
 def load_audio(audio_file_name):
     speech_wav, samplerate = librosa.load(audio_file_name, sr=16000)
     if len(speech_wav.shape) > 1:
@@ -92,12 +92,10 @@ def extract_audio(video_path):
 
 
 def ask_model(model, tokenizer, image_processor, video_path, text):
-    """核心推理函数，输入视频和问题，返回模型答案"""
 
     modality = "video"
     visual = video_path
 
-    # 抽帧
     vr = VideoReader(visual, ctx=cpu(0))
     total_frame_num = len(vr)
     uniform_sampled_frames = np.linspace(0, total_frame_num - 1, 64, dtype=int)
@@ -105,13 +103,11 @@ def ask_model(model, tokenizer, image_processor, video_path, text):
     spare_frames = vr.get_batch(frame_idx).asnumpy()
     video = [Image.fromarray(frame) for frame in spare_frames]
 
-    # 音频
     audio = extract_audio(visual)
     audio.write_audiofile("./video_audio.wav")
     video_audio_path = './video_audio.wav'
     speech, speech_length, speech_chunk, speech_wav = load_audio(video_audio_path)
 
-    # 拼接 prompt
     qs = DEFAULT_SPEECH_TOKEN + DEFAULT_IMAGE_TOKEN + "\n" + text
     conv = conv_templates["qwen_1_5"].copy()
     conv.append_message(conv.roles[0], qs)
@@ -120,7 +116,6 @@ def ask_model(model, tokenizer, image_processor, video_path, text):
 
     input_ids = tokenizer_speech_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to('cuda')
 
-    # 视频预处理
     video_processed = []
     for idx, frame in enumerate(video):
         image_processor.do_resize = False
@@ -130,7 +125,6 @@ def ask_model(model, tokenizer, image_processor, video_path, text):
     video_processed = torch.cat(video_processed, dim=0).bfloat16().to("cuda")
     video_processed = (video_processed, video_processed)
 
-    # 生成
     attention_masks = input_ids.ne(151643).long().to('cuda')
     stop_str = conv.sep if conv.sep_style != SeparatorStyle.TWO else conv.sep2
     stopping_criteria = KeywordsStoppingCriteria([stop_str], tokenizer, input_ids)
@@ -158,27 +152,25 @@ def ask_model(model, tokenizer, image_processor, video_path, text):
     return outputs.strip()
 
 
-# ========= 主逻辑 =========
+
 if __name__ == "__main__":
-    MODEL_PATH = "./models/Ola-7b"  
-    curren_tasks = ["1intra_event_reasoning", 
-                    "2multimodal_temporal_localization", 
-                    "3audio_visual_alignment", 
-                    "4timeline_reconstruction", 
-                    "5topic_stance_evolution_summarization", 
-                    "6cross_event_causality"] 
+    MODEL_PATH = "./models/Ola-7b"
+    curren_tasks = ["1intra_event_reasoning",
+                    "2multimodal_temporal_localization",
+                    "3audio_visual_alignment",
+                    "4timeline_reconstruction",
+                    "5topic_stance_evolution_summarization",
+                    "6cross_event_causality"]
     for curren_task in curren_tasks:
-        print(f"===== 处理任务: {curren_task} =====")
+        print(f"===== Processing task: {curren_task} =====")
         INPUT_FILE = f"./final_qa_subset/{curren_task}.json"
         OUTPUT_FILE = f"./experiment_frames/ola7b_raw/64/{curren_task}.json"
         VIDEO_ROOT = "./datasets/finevideo/videos"
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
-        # 加载模型
         tokenizer, model, image_processor, _ = load_pretrained_model(MODEL_PATH, None)
         model = model.to("cuda").eval().bfloat16()
 
-        # 已有结果
         if os.path.exists(OUTPUT_FILE):
             with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
                 results = json.load(f)
@@ -201,21 +193,19 @@ if __name__ == "__main__":
                 category, idx = video_id.rsplit("_", 1)
                 video_path = os.path.join(VIDEO_ROOT, category, f"sample_{idx}.mp4")
             except Exception as e:
-                print(f"⚠️ 无法解析 videoID: {video_id}, 跳过。异常: {e}")
+                print(f"Cannot parse videoID: {video_id}, skipping. Exception: {e}")
                 continue
 
             if not os.path.exists(video_path):
-                print(f"⚠️ 视频不存在: {video_path}")
+                print(f"Video does not exist: {video_path}")
                 continue
 
-            # 拼接问题
             prompt = USER_PROMPT.format(question=question, options=options)
 
-            # 调用 Ola 模型
             try:
                 answer = ask_model(model, tokenizer, image_processor, video_path, prompt)
             except Exception as e:
-                print(f"⚠️ 推理失败: {video_id}, 异常: {e}")
+                print(f"Inference failed: {video_id}, exception: {e}")
                 continue
 
             results[qid] = {
@@ -229,4 +219,4 @@ if __name__ == "__main__":
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 json.dump(results, f, ensure_ascii=False, indent=2)
 
-        print(f"✅ 完成推理，结果已保存到 {OUTPUT_FILE}")
+        print(f"Inference completed, results saved to {OUTPUT_FILE}")

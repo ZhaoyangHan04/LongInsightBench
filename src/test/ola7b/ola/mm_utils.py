@@ -9,7 +9,6 @@ import os
 import io
 
 if 'VIDEO_RESIZE' in os.environ:
-    # highresxpatch
     VIDEO_RESIZE = os.environ['VIDEO_RESIZE']
     video_base, video_ps = VIDEO_RESIZE.split('x')
     video_base = int(video_base)
@@ -19,7 +18,6 @@ else:
     HIGHRES_BASE = None
 
 if 'HIGHRES_BASE' in os.environ:
-    # highresxpatch
     HIGHRES_BASE = os.environ['HIGHRES_BASE']
     highres_base, highres_ps = HIGHRES_BASE.split('x')
     highres_base = int(highres_base)
@@ -29,35 +27,30 @@ else:
     HIGHRES_BASE = None
 
 if 'MAXRES' in os.environ:
-    # highresxpatch
     MAXRES = int(os.environ['MAXRES'])
     print(f"MAXRES is set as {MAXRES}")
 else:
     MAXRES = 1536
 
 if 'MINRES' in os.environ:
-    # highresxpatch
     MINRES = int(os.environ['MINRES'])
     print(f"MINRES is set as {MINRES}")
 else:
     MINRES = 0
 
 if 'VIDEO_MAXRES' in os.environ:
-    # highresxpatch
     VIDEO_MAXRES = int(os.environ['VIDEO_MAXRES'])
     print(f"VIDEO_MAXRES is set as {VIDEO_MAXRES}")
 else:
     VIDEO_MAXRES = 1536
 
 if 'VIDEO_MINRES' in os.environ:
-    # highresxpatch
     VIDEO_MINRES = int(os.environ['VIDEO_MINRES'])
     print(f"VIDEO_MINRES is set as {VIDEO_MINRES}")
 else:
     MINRES = 0
 
 if 'PAD2STRIDE' in os.environ:
-    # highresxpatch
     PAD2STRIDE = True
     print(f"PAD2STRIDE is set")
 else:
@@ -75,7 +68,7 @@ if 'LOWRES_RESIZE' in os.environ:
         LOWRES_RESIZE = int(LOWRES_RESIZE)
 else:
     LOWRES_RESIZE = None
-    
+
 
 def pad_image(image, target_resolution, value=0):
     """
@@ -90,7 +83,6 @@ def pad_image(image, target_resolution, value=0):
     """
     original_width, original_height = image.size
     target_width, target_height = target_resolution
-    # Create a new image with the target size and paste the resized image onto it
     new_image = Image.new('RGB', (target_width, target_height), (value, value, value))
     paste_x = (target_width - original_width) // 2
     paste_y = (target_height - original_height) // 2
@@ -101,11 +93,9 @@ def resize_images(image, patch_size=14, base_size=896):
     h, w = image.size
     if base_size == 0:
         if h * w > MAXRES * MAXRES:
-            # print(f'{h}x{w} larger than max size {MAXRES}, resize to {MAXRES}')
             scale = MAXRES * MAXRES / (h * w)
             scale = math.sqrt(scale)
         elif h * w < MINRES * MINRES:
-            # print(f'{h}x{w} smaller than max size {MINRES}, resize to {MINRES}')
             scale = MINRES * MINRES / (h * w)
             scale = math.sqrt(scale)
         else:
@@ -126,7 +116,7 @@ def resize_images(image, patch_size=14, base_size=896):
             new_h = h
         else:
             new_h = (h // patch_size + 1) * patch_size
-        
+
         if w % patch_size == 0:
             new_w = w
         else:
@@ -146,11 +136,9 @@ def resize_video(image, patch_size=14, base_size=896):
     h, w = image.size
     if base_size == 0:
         if h * w > VIDEO_MAXRES * VIDEO_MAXRES:
-            # print(f'{h}x{w} larger than max size {MAXRES}, resize to {MAXRES}')
             scale = VIDEO_MAXRES * VIDEO_MAXRES / (h * w)
             scale = math.sqrt(scale)
         elif h * w < VIDEO_MINRES * VIDEO_MINRES:
-            # print(f'{h}x{w} smaller than max size {MINRES}, resize to {MINRES}')
             scale = VIDEO_MINRES * VIDEO_MINRES / (h * w)
             scale = math.sqrt(scale)
         else:
@@ -168,7 +156,7 @@ def resize_video(image, patch_size=14, base_size=896):
             new_h = h
         else:
             new_h = (h // patch_size + 1) * patch_size
-        
+
         if w % patch_size == 0:
             new_w = w
         else:
@@ -197,7 +185,7 @@ def process_anyres_highres_image(image, processor):
 
     if HIGHRES_BASE is not None:
         image = resize_images(image, patch_size=highres_ps, base_size=highres_base)
-        
+
     if processor2 is not None:
         image_original_resize = image.resize((processor2.size['shortest_edge'], processor.size['shortest_edge']))
         image_patches = [image_original_resize] + [image_original_resize]
@@ -258,7 +246,7 @@ class KeywordsStoppingCriteria(StoppingCriteria):
         self.start_len = input_ids.shape[1]
 
     def __call__(self, output_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> bool:
-        assert output_ids.shape[0] == 1, "Only support batch size 1 (yet)"  # TODO
+        assert output_ids.shape[0] == 1, "Only support batch size 1 (yet)"
         offset = min(output_ids.shape[1] - self.start_len, 3)
         self.keyword_ids = [keyword_id.to(output_ids.device) for keyword_id in self.keyword_ids]
         for keyword_id in self.keyword_ids:

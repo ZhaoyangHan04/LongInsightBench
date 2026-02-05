@@ -1,11 +1,11 @@
-# --------------------------------------------------------
-# BEATs: Audio Pre-Training with Acoustic Tokenizers (https://arxiv.org/abs/2212.09058)
-# Github source: https://github.com/microsoft/unilm/tree/master/beats
-# Copyright (c) 2022 Microsoft
-# Licensed under The MIT License [see LICENSE for details]
-# Based on fairseq code bases
-# https://github.com/pytorch/fairseq
-# --------------------------------------------------------
+
+
+
+
+
+
+
+
 
 import math
 import warnings
@@ -71,7 +71,6 @@ class GLU_Linear(nn.Module):
             self.linear = nn.Linear(input_dim, output_dim * 2, False)
 
     def forward(self, x):
-        # to be consistent with GLU_Linear, we assume the input always has the #channel (#dim) in the last dimension of the tensor, so need to switch the dimension first for 1D-Conv case
         x = self.linear(x)
 
         if self.glu_type == "bilinear":
@@ -138,44 +137,34 @@ def quant_noise(module, p, block_size):
           which consists in randomly dropping blocks
     """
 
-    # if no quantization noise, don't register hook
     if p <= 0:
         return module
 
-    # supported modules
     assert isinstance(module, (nn.Linear, nn.Embedding, nn.Conv2d))
 
-    # test whether module.weight has the right sizes wrt block_size
     is_conv = module.weight.ndim == 4
 
-    # 2D matrix
     if not is_conv:
         assert (
             module.weight.size(1) % block_size == 0
         ), "Input features must be a multiple of block sizes"
 
-    # 4D matrix
     else:
-        # 1x1 convolutions
         if module.kernel_size == (1, 1):
             assert (
                 module.in_channels % block_size == 0
             ), "Input channels must be a multiple of block sizes"
-        # regular convolutions
         else:
             k = module.kernel_size[0] * module.kernel_size[1]
             assert k % block_size == 0, "Kernel size must be a multiple of block size"
 
     def _forward_pre_hook(mod, input):
-        # no noise for evaluation
         if mod.training:
             if not is_conv:
-                # gather weight and sizes
                 weight = mod.weight
                 in_features = weight.size(1)
                 out_features = weight.size(0)
 
-                # split weight matrix into blocks and randomly drop selected blocks
                 mask = torch.zeros(
                     in_features // block_size * out_features, device=weight.device
                 )
@@ -183,12 +172,10 @@ def quant_noise(module, p, block_size):
                 mask = mask.repeat_interleave(block_size, -1).view(-1, in_features)
 
             else:
-                # gather weight and sizes
                 weight = mod.weight
                 in_channels = mod.in_channels
                 out_channels = mod.out_channels
 
-                # split weight matrix into blocks and randomly drop selected blocks
                 if mod.kernel_size == (1, 1):
                     mask = torch.zeros(
                         int(in_channels // block_size * out_channels),
@@ -207,10 +194,9 @@ def quant_noise(module, p, block_size):
                         .repeat(1, 1, mod.kernel_size[0], mod.kernel_size[1])
                     )
 
-            # scale weights and apply mask
             mask = mask.to(
                 torch.bool
-            )  # x.bool() is not currently supported in TorchScript
+            )
             s = 1 / (1 - p)
             mod.weight.data = s * weight.masked_fill(mask, 0)
 

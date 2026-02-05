@@ -89,7 +89,6 @@ def split_to_even_chunks(indices, lengths, num_chunks):
 
 
 def get_variable_length_grouped_indices(lengths, batch_size, world_size, megabatch_mult = 8, generator=None):
-    # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
     indices = torch.randperm(len(lengths), generator=generator)
     sorted_indices = sorted(range(len(lengths)), key=lambda i: lengths[i], reverse=True)
     megabatch_size = world_size * batch_size * megabatch_mult
@@ -117,10 +116,8 @@ def get_modality_length_grouped_indices(lengths, batch_size, world_size, generat
     maximum length placed first, so that an OOM happens sooner rather than later.
     """
 
-    # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
     assert all(l != 0 for l in lengths), "Should not have zero length."
     if all(l > 0 for l in lengths) or all(l < 0 for l in lengths):
-        # all samples are in the same modality
         return get_length_grouped_indices(lengths, batch_size, world_size, generator=generator)
     mm_indices, mm_lengths = zip(*[(i, l) for i, l in enumerate(lengths) if l > 0])
     lang_indices, lang_lengths = zip(*[(i, -l) for i, l in enumerate(lengths) if l < 0])
@@ -157,7 +154,6 @@ def get_length_grouped_indices(lengths, batch_size, world_size, generator=None, 
     maximum length placed first, so that an OOM happens sooner rather than later.
     """
 
-    # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
     indices = torch.randperm(len(lengths), generator=generator)
     megabatch_size = world_size * batch_size
     megabatches = [indices[i : i + megabatch_size].tolist() for i in range(0, len(lengths), megabatch_size)]
@@ -175,7 +171,6 @@ def get_length_grouped_indices_auto_single(lengths, batch_size, world_size, gene
     megabatches = [sorted(megabatch, key=lambda i: lengths[i], reverse=True) for megabatch in megabatches]
     megabatches = [split_to_even_chunks(megabatch, lengths, world_size) for megabatch in megabatches]
 
-    # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
     batch_indices = torch.randperm(len(megabatches), generator=generator)
     megabatches = [megabatches[i] for i in batch_indices]
 
@@ -183,10 +178,8 @@ def get_length_grouped_indices_auto_single(lengths, batch_size, world_size, gene
 
 
 def get_modality_length_grouped_indices_auto(lengths, batch_size, world_size, generator=None):
-    # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
     assert all(l != 0 for l in lengths), "Should not have zero length."
     if all(l > 0 for l in lengths) or all(l < 0 for l in lengths):
-        # all samples are in the same modality
         return get_length_grouped_indices_auto_single(lengths, batch_size, world_size, generator=generator)
     mm_indices, mm_lengths = zip(*[(i, l) for i, l in enumerate(lengths) if l > 0])
     lang_indices, lang_lengths = zip(*[(i, -l) for i, l in enumerate(lengths) if l < 0])
@@ -258,7 +251,6 @@ class LengthGroupedSampler(Sampler):
 def _is_peft_model(model):
     if is_peft_available():
         classes_to_check = (PeftModel,) if is_peft_available() else ()
-        # Here we also check if the model is an instance of `PeftMixedModel` introduced in peft>=0.7.0: https://github.com/huggingface/transformers/pull/28321
         if version.parse(importlib.metadata.version("peft")) >= version.parse("0.7.0"):
             from peft import PeftMixedModel
 
@@ -278,29 +270,23 @@ class OlaTrainer(Trainer):
         if self.args.group_by_length:
             lengths = self.train_dataset.lengths
             return LengthGroupedSampler(
-                # self.args.train_batch_size * self.args.gradient_accumulation_steps, # TODO: seems that we should not have gradient_accumulation_steps
                 self.args.train_batch_size,
-                # world_size=self.args.world_size,
-                world_size=self.args.world_size * self.args.gradient_accumulation_steps,  # TODO: seems that this may work?
+                world_size=self.args.world_size * self.args.gradient_accumulation_steps,
                 lengths=lengths,
             )
         elif self.args.group_by_modality_length:
             lengths = self.train_dataset.modality_lengths
             return LengthGroupedSampler(
-                # self.args.train_batch_size * self.args.gradient_accumulation_steps, # TODO: seems that we should not have gradient_accumulation_steps
                 self.args.train_batch_size,
-                # world_size=self.args.world_size,
-                world_size=self.args.world_size * self.args.gradient_accumulation_steps,  # TODO: seems that this may work?
+                world_size=self.args.world_size * self.args.gradient_accumulation_steps,
                 lengths=lengths,
                 group_by_modality=True,
             )
         elif self.args.group_by_modality_length_auto:
             lengths = self.train_dataset.modality_lengths
             return LengthGroupedSampler(
-                # self.args.train_batch_size * self.args.gradient_accumulation_steps, # TODO: seems that we should not have gradient_accumulation_steps
                 self.args.train_batch_size,
-                # world_size=self.args.world_size,
-                world_size=self.args.world_size * self.args.gradient_accumulation_steps,  # TODO: seems that this may work?
+                world_size=self.args.world_size * self.args.gradient_accumulation_steps,
                 lengths=lengths,
                 group_by_modality_auto=True,
             )
@@ -308,9 +294,7 @@ class OlaTrainer(Trainer):
             lengths = self.train_dataset.lengths
             return LengthGroupedSampler(
                 self.args.train_batch_size * self.args.gradient_accumulation_steps,
-                # self.args.train_batch_size, # TODO: seems that we should have gradient_accumulation_steps
-                # world_size=self.args.world_size,
-                world_size=self.args.world_size * self.args.gradient_accumulation_steps,  # TODO: seems that this may work?
+                world_size=self.args.world_size * self.args.gradient_accumulation_steps,
                 lengths=lengths,
                 variable_length=True,
             )
@@ -337,7 +321,7 @@ class OlaTrainer(Trainer):
                 lr_mapper['mm_projector'] = self.args.mm_projector_lr
             if self.args.speech_projector_lr is not None:
                 lr_mapper['speech_projector'] = self.args.speech_projector_lr
-            
+
             if len(lr_mapper) > 0:
                 special_lr_parameters = [name for name, _ in opt_model.named_parameters() if any(module_keyword in name for module_keyword in lr_mapper)]
                 optimizer_grouped_parameters = [
@@ -415,7 +399,6 @@ class OlaTrainer(Trainer):
             run_dir = self._get_output_dir(trial=trial)
             output_dir = os.path.join(run_dir, checkpoint_folder)
 
-            # Only save Adapter
             keys_to_match = ['speech_projector']
             if getattr(self.args, "use_im_start_end", False):
                 keys_to_match.extend(['embed_tokens', 'embed_in'])
@@ -432,7 +415,6 @@ class OlaTrainer(Trainer):
             run_dir = self._get_output_dir(trial=trial)
             output_dir = os.path.join(run_dir, checkpoint_folder)
 
-            # Only save Adapter
             keys_to_match = ['mm_projector', 'vision_resampler']
             if getattr(self.args, "use_im_start_end", False):
                 keys_to_match.extend(['embed_tokens', 'embed_in'])

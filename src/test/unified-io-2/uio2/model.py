@@ -40,11 +40,9 @@ class EncoderLayer(nn.Module):
                                intermediate_dropout_rate=config.dropout_rate)
 
   def forward(self, inputs, encoder_mask=None, abs_bias=None, sinusoids=None):
-    # Attention block.
     assert inputs.ndim == 3
     x = self.pre_attention_norm(inputs)
 
-    # [batch, length, emb_dim] -> [batch, length, emb_dim]
     x = self.attention(
       x, x, encoder_mask, None, abs_bias=abs_bias,
       q_sinusoids=sinusoids, k_sinusoids=sinusoids)
@@ -53,10 +51,8 @@ class EncoderLayer(nn.Module):
 
     x = x + inputs
 
-    # MLP block.
     y = self.pre_mlp_norm(x)
 
-    # [batch, length, emb_dim] -> [batch, length, emb_dim]
     y = self.mlp(y)
 
     y = self.drop(y)
@@ -80,7 +76,6 @@ class Encoder(nn.Module):
     mask = layers.make_attention_mask(seq.mask, seq.mask)
 
     if seq.segment_ids is not None:
-      # Only attend between items belonging to the same segment
       mask = mask * torch.unsqueeze(seq.segment_ids[:, :, None] == seq.segment_ids[:, None, :], 1)
     mask = mask.to(embed.dtype)
     pos_emb = seq.position_embed
@@ -131,10 +126,8 @@ class DecoderLayer(nn.Module):
               attn_pattern_mask=None,
               past_key_values: Optional[DynamicCache]=None
               ):
-    # inputs: embedded inputs to the decoder with shape [batch, length, emb_dim]
     x = self.pre_self_attention_norm(inputs)
 
-    # Self-attention block
     x = self.self_attention(
       x,
       x,
@@ -151,7 +144,6 @@ class DecoderLayer(nn.Module):
     x = x + inputs
 
     if self.enable_xattention:
-      # Encoder-Decoder block.
       y = self.pre_cross_attention_norm(x)
 
       y = self.encoder_decoder_attention(
@@ -168,7 +160,6 @@ class DecoderLayer(nn.Module):
     else:
       y = x
 
-    # MLP block.
     z = self.pre_mlp_norm(y)
     z = self.mlp(z)
     z = self.drop(z)
@@ -207,7 +198,6 @@ class Decoder(nn.Module, GenerationMixin):
     decoder_bias=None,
     attn_pattern_mask=None,
 
-    # Used for inference
     input_ids=None,
     past_key_values: Optional[DynamicCache] = None,
     return_dict=False,
@@ -219,9 +209,8 @@ class Decoder(nn.Module, GenerationMixin):
       raise NotImplementedError()
 
     cfg = self.config
-    assert decoder_embedding.ndim == 3  # [batch, len]
+    assert decoder_embedding.ndim == 3
 
-    # [batch, length] -> [batch, length, emb_dim]
     y = decoder_embedding
     y = self.drop(y)
 
@@ -237,7 +226,6 @@ class Decoder(nn.Module, GenerationMixin):
     return_kv_cache = []
     hidden_state = []
     for lyr_ix in range(cfg.num_decoder_layers):
-      # [batch, length, emb_dim] -> [batch, length, emb_dim]
 
       if attn_pattern_mask is not None:
         if lyr_ix == cfg.num_decoder_layers - 1:
@@ -286,7 +274,7 @@ class Decoder(nn.Module, GenerationMixin):
     ) -> Tuple[torch.LongTensor]:
     ix, args = super()._expand_inputs_for_generation(
       expand_size, is_encoder_decoder, input_ids, **model_kwargs)
-    args["logit_weights"] = logit_weights  # Don't expand the `logit_weights` tensor
+    args["logit_weights"] = logit_weights
     return ix, args
 
   def prepare_inputs_for_generation(
@@ -295,7 +283,6 @@ class Decoder(nn.Module, GenerationMixin):
       _clf_free_guidance=False
   ):
     if _clf_free_guidance:
-      # Ignore the sampled ids for the guidance batches and just use ones for the main batch
       n = input_ids.shape[0] // 2
       input_ids = torch.cat([input_ids[:n], input_ids[:n]], 0)
 
@@ -303,7 +290,6 @@ class Decoder(nn.Module, GenerationMixin):
     device = input_ids.device
     cur_index = input_ids.shape[1] - 1
     if use_cache:
-      # Embed just the most recently generated tokens
       input_ids = input_ids[:, -1:]
       seq = embed_token_id(
         input_ids, mask=torch.ones_like(input_ids, dtype=torch.int32), cur_index=cur_index)
@@ -313,7 +299,6 @@ class Decoder(nn.Module, GenerationMixin):
       )
       decoder_attn_mask = None
     else:
-      # Embeds all the tokens
       seq = embed_token_id(
         input_ids, mask=torch.ones_like(input_ids, dtype=torch.int32, device=device))
       encoder_decoder_mask = layers.make_attention_mask(
@@ -351,11 +336,10 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
 
   def __init__(self, config, input_encoders=None, target_encoders=None):
     super().__init__()
-    if isinstance(config, dict):  # Support create from dictionary for `PyTorchModelHubMixin`
+    if isinstance(config, dict):
       config = Config.from_dict(config)
 
     if isinstance(config, Config):
-      # Initialize from full Config
       assert input_encoders is None
       assert target_encoders is None
       input_encoders = get_input_modalities(
@@ -370,12 +354,10 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
       cfg = config.t5_config
       self.full_config = config
     else:
-      # Initialize from a T5Config and the input/target encoders
       cfg = config
       self.full_config = None
     self.config = cfg
 
-    # Embeddings used for both prediction and for embedding inputs
     self.text_token_embedder = nn.Embedding(
       num_embeddings=cfg.vocab_size,
       embedding_dim=cfg.emb_dim)
@@ -394,10 +376,8 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
       'audio': self.audio_token_embedder,
     }
 
-    # Encode input modalities
     self.input_embedders = nn.ModuleDict(input_encoders)
 
-    # Encode target modalities
     self.target_embedders = nn.ModuleDict(target_encoders)
 
     self.encoder = Encoder(cfg)
@@ -422,7 +402,7 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
     return self.text_token_embedder.weight.device
 
   def to_dtype(self, dtype, vit_dtype, vqgan_dtype):
-    param_to_dtype = dict()  # works because torch tensors are hashed by identify
+    param_to_dtype = dict()
     for k in ["audio", "image"]:
       if k in self.target_embedders:
         for param in self.target_embedders[k].vqgan.parameters():
@@ -457,7 +437,6 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
     else:
       n_batches = (option_batch_size - 1 + len(options)) // option_batch_size
 
-    # Shift right and add BOS
     input_tokens = torch.cat([
       torch.zeros((options.shape[0], 1), dtype=options.dtype, device=options.device),
       options[:, :-1]
@@ -473,7 +452,7 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
     encoder_hidden = self.encoder(input_seq)
     encoder_decoder_mask = layers.make_attention_mask(
       target_seq.mask, input_seq.mask).to(encoder_hidden.dtype)
-    options = options.to(torch.long)  # for cross entropy
+    options = options.to(torch.long)
     decoder_attn_mask = layers.make_decoder_mask(target_seq.mask)
 
     all_loses = []
@@ -528,18 +507,14 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
     Returns: text tokens, an image, or a spectrogram depending on `modality`
     """
     if generation_config is None:
-      # Build default config
       generation_config = GenerationConfig(
-        max_length=None,  # Avoid warning about preferring max_new_tokens
+        max_length=None,
         bos_token_id=0,
         eos_token_id=1,
-        # We generally use 0 for padding, but having pad==bos triggers a superfluous
-        # warning from GenerationMixin so we just tell it 1 to keep it quiet
         pad_token_id=1,
       )
 
       if modality != "text":
-        # Change defaults if not doing text
         if kwargs.get("do_sample"):
           generation_config.top_k = None
           generation_config.top_p = 0.95
@@ -554,25 +529,17 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
     if modality != "text":
       if kwargs.get("max_new_tokens") is not None or kwargs.get("min_new_tokens") is not None:
         raise ValueError("non-text modalities cannot set generation length")
-      # Need this many tokens to get a complete image/audio output
-      # `min_new_tokens` unfortunately breaks `ClfFreeGuidanceProcessor` because it inserts
-      # inf., so for now don't set it
       if modality == "image":
         kwargs["max_new_tokens"] = 1024
       else:
         kwargs["max_new_tokens"] = 512
 
     if negative_prompt is not None:
-      # GenerationMixin's CLF free guidance did not look like it would play nice with how
-      # we do Generation, so we do our own version here by appending the negative
-      # examples to the batch
       joint_batch = {}
       assert set(negative_prompt) == set(batch)
       for k, neg_v in negative_prompt.items():
         batch_v = batch[k]
         if neg_v.shape[0] == 1 and batch_v.shape[0] != 1:
-          # One negative batch of all input examples
-          # This is a bit wasteful, but for now just encode the same negative prompt multiple times
           neg_v = neg_v.expand(*([batch_v.shape[0]] + [-1]*(len(batch_v.shape)-1)))
         elif batch[k].shape[0] != negative_prompt[k].shape[0]:
           raise ValueError("Negative prompt has mismistached batch size")
@@ -583,9 +550,6 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
       kwargs["logits_processor"] = processors
       kwargs["_clf_free_guidance"] = True
 
-    # Using `GenerationMixin` requires a bit of finessing since it hard-codes some assumptions
-    # about how the subclass works that aren't true for our model. To make this easier
-    # we manually do the encoding here then call generate on the decoder
 
     batch = unflatten_dict(batch)
     input_seq = self.encode_batch(batch["inputs"])
@@ -597,7 +561,6 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
     input_ids = torch.zeros((bs, 1), dtype=torch.long, device=input_seq.embed.device)
 
     def embed_token_id(input_id, mask, cur_index=None):
-      # Turn a generated input id into an embedding
       return self.target_embedders[modality](
           input_id, mask=mask, cur_index=cur_index, shared_embed=self.shared_embedding[modality])
 
@@ -613,7 +576,6 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
       encoder_mask=mask,
     )
 
-    # post-processing
     if isinstance(out, ModelOutput):
       tokens = out[0]
       output_dict = out
@@ -625,12 +587,10 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
       tokens = tokens[:tokens.shape[0]//2]
 
     if modality == "image":
-      tokens = tokens[:, 1:]  # remove BOS
+      tokens = tokens[:, 1:]
       if tokens.shape[1] != 1024:
         raise ValueError("Did not generate a full image")
       tokens = tokens - 2
-      # Our output tokens can include values not supported by the VQGAN, those value should
-      # never be predicted by a trained model, but clip here to be safe
       tokens = torch.clip(tokens, 0, self.target_embedders["image"].vqgan.config.n_embed-1)
       images = self.target_embedders["image"].vqgan.decode_code(tokens)
       images = torch.clip((images+1)/2, 0, 1)
@@ -641,7 +601,7 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
         output_dict["image"] = images
 
     elif modality == "audio":
-      tokens = tokens[:, 1:]  # remove BOS
+      tokens = tokens[:, 1:]
       if tokens.shape[1] != 512:
         raise ValueError("Did not generate a full spectogram")
       tokens = tokens - 2
@@ -649,7 +609,7 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
       tokens = torch.reshape(tokens, [-1, 32, 16])
       tokens = tokens.transpose(2, 1).reshape(tokens.shape[0], -1)
       spectogram = self.target_embedders["audio"].vqgan.decode_code(tokens)
-      spectogram = torch.unsqueeze(torch.squeeze(spectogram, 1), -1)  # [batch_size, 128, 256, 1]
+      spectogram = torch.unsqueeze(torch.squeeze(spectogram, 1), -1)
       if output_dict is None:
         return spectogram
       else:
@@ -711,7 +671,6 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
                        torch.unsqueeze(input_seq.segment_ids, -2)
       encoder_decoder_mask = encoder_decoder_mask * torch.unsqueeze(cross_seg_mask, 1)
 
-    # Do the decoding and output the feature vector for transformers.
     hidden_state = self.decoder(
       encoded=encoder_hidden,
       decoder_pos_emb=target_seq.position_embed,
@@ -723,7 +682,6 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
       attn_pattern_mask=target_seq.attn_pattern_mask,
     )
 
-    # per-modality hidden states
     embedding_parts = torch.split(
       hidden_state, [x.seq_len for x in target_parts], dim=1)
 
@@ -740,7 +698,7 @@ class UnifiedIOModel(nn.Module, GenerationMixin, PyTorchModelHubMixin):
   def _save_pretrained(self, save_directory) -> None:
     if self.full_config is None:
       raise ValueError("Must be built from Config to be saved")
-    super()._save_pretrained(save_directory)  # Saves the weights
+    super()._save_pretrained(save_directory)
     data = self.full_config.to_dict()
     with open(join(save_directory, CONFIG_NAME), "w") as f:
       json.dump(data, f)

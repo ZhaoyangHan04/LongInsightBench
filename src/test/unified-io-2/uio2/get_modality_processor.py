@@ -12,17 +12,6 @@ from uio2.image_embedder import ImageFeature
 
 
 class ModuleReference:
-  # Used as part of a hack to handle a case where multiple modules what a reference to
-  # a shared submodule in UIO2.
-  #
-  # In particular `InputAudioHistoryViTEncoder` and  `InputImageViTEncoder` both need a reference to
-  # the `ImageFeature` module, which causes issues where the state dict includes the
-  # `ImageFeature` parameters twice, once for each reference.
-  #
-  # I am not sure what the canonical solution to this is, but as a hack we wrap the
-  # `ImageFeature` in this class for history encoder so it has a reference to the module,
-  # but does not register the module. Then the state_dict will onlu include one copy of the
-  # `ImageFeature` parameters
   def __init__(self, module):
     self.module = module
 

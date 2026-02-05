@@ -57,7 +57,6 @@ class OlaMetaModel:
         if getattr(self, 'speech_projector', None) is None:
             self.speech_projector = build_speech_projector(self.config)
         else:
-            # In case it is frozen by LoRA
             for p in self.speech_projector.parameters():
                 p.requires_grad = True
 
@@ -81,7 +80,6 @@ class OlaMetaModel:
         if self.get_vision_tower() is None:
             vision_tower = build_vision_tower(model_args)
             vision_resampler = build_vision_resampler(model_args, vision_tower=vision_tower)
-            ## Get the mm_spatial_pool_mode and  mm_spatial_pool_stride
             for k, v in vision_resampler.config.items():
                 setattr(self.config, k, v)
 
@@ -100,7 +98,6 @@ class OlaMetaModel:
                 vision_tower = self.vision_tower
             vision_tower.load_model()
 
-            # In case it is frozen by LoRA
             for p in self.vision_resampler.parameters():
                 p.requires_grad = True
 
@@ -110,7 +107,7 @@ class OlaMetaModel:
 
         self.config.mm_vision_select_layer = mm_vision_select_layer
         self.config.mm_vision_select_feature = mm_vision_select_feature
-        
+
         if getattr(self, 'mm_projector', None) is None:
             self.mm_projector = build_vision_projector(self.config, vision_cfg=vision_tower.config)
         else:
@@ -121,7 +118,7 @@ class OlaMetaModel:
             mm_projector_weights = torch.load(pretrain_mm_mlp_adapter, map_location='cpu')
             def get_w(weights, keyword):
                 return {k.split(keyword + '.')[1]: v for k, v in weights.items() if keyword in k}
-            
+
             self.mm_projector.load_state_dict(get_w(mm_projector_weights, 'mm_projector'))
             print('Loading pretrain mm projector weights')
             incompatible_keys = self.vision_resampler.load_state_dict(get_w(mm_projector_weights, 'vision_resampler'), strict=False)
@@ -138,12 +135,11 @@ class OlaMetaForCausalLM(ABC):
 
     def get_vision_tower(self):
         return self.get_model().get_vision_tower()
-    
+
     def get_speech_projector(self):
         return self.get_model().speech_projector
 
     def encode_speech(self, speech, speech_lengths, speech_wav):
-        # import pdb; pdb.set_trace()
         speech_encoder_type = self.config.speech_encoder_type
         speech_encoder = self.get_speech_encoder()
         if "whisper" in speech_encoder_type.lower():
@@ -159,7 +155,6 @@ class OlaMetaForCausalLM(ABC):
             speech_lengths = speech_lengths // speech_projector.k
         else:
             raise ValueError(f'Unknown speech projector: {speech_projector_type}')
-        # speech_features = [encoder_outs[i, :speech_lengths[i]] for i in range(len(encoder_outs))]
         return encoder_outs
 
     def prepare_inputs_labels_for_speech_vision_text(
@@ -174,7 +169,6 @@ class OlaMetaForCausalLM(ABC):
 
         if vision_tower is None or input_ids.shape[1] == 1:
             return input_ids, position_ids, attention_mask, past_key_values, None, labels
-        # encode speech
         if not isinstance(speech, list):
             speech = torch.split(speech, speech_chunks.tolist(), dim=0)
             speech_lengths = torch.split(speech_lengths, speech_chunks.tolist(), dim=0)
@@ -183,7 +177,6 @@ class OlaMetaForCausalLM(ABC):
         for idx in range(len(speech)):
             speech_features.append(self.encode_speech(speech[idx], speech_lengths[idx], speech_wav[idx]))
 
-        # encode vision
         if isinstance(modalities, str):
             modalities = [modalities]
 
@@ -229,7 +222,6 @@ class OlaMetaForCausalLM(ABC):
         if labels is None:
             labels = torch.full_like(input_ids, IGNORE_INDEX)
 
-        # remove the padding using attention_mask -- FIXME
         _input_ids = input_ids
         input_ids = [cur_input_ids[cur_attention_mask] for cur_input_ids, cur_attention_mask in zip(input_ids, attention_mask)]
         labels = [cur_labels[cur_attention_mask] for cur_labels, cur_attention_mask in zip(labels, attention_mask)]
@@ -244,7 +236,7 @@ class OlaMetaForCausalLM(ABC):
             num_images = (cur_input_ids == IMAGE_TOKEN_INDEX).sum()
 
             num_speech_images = (cur_input_ids == IMAGE_TOKEN_INDEX).sum() + (cur_input_ids == SPEECH_TOKEN_INDEX).sum()
-            
+
             if num_speech_images == 0:
                 cur_speech_features = speech_features[cur_speech_idx]
                 cur_images_features = image_features[cur_image_idx]
@@ -268,7 +260,7 @@ class OlaMetaForCausalLM(ABC):
             cur_input_embeds_no_speech_image = torch.split(cur_input_embeds, split_sizes, dim=0)
             cur_new_input_embeds = []
             cur_new_labels = []
-            
+
             for i in range(num_speech_images + 1):
                 cur_new_input_embeds.append(cur_input_embeds_no_speech_image[i])
                 cur_new_labels.append(cur_labels_nospeech_image[i])
@@ -300,13 +292,11 @@ class OlaMetaForCausalLM(ABC):
             new_input_embeds.append(cur_new_input_embeds)
             new_labels.append(cur_new_labels)
 
-        # Truncate sequences to max length as speech features can make the sequence longer
         tokenizer_model_max_length = getattr(self.config, 'tokenizer_model_max_length', None)
         if tokenizer_model_max_length is not None:
             new_input_embeds = [x[:tokenizer_model_max_length] for x in new_input_embeds]
             new_labels = [x[:tokenizer_model_max_length] for x in new_labels]
 
-        # Combine them
         max_len = max(x.shape[0] for x in new_input_embeds)
         batch_size = len(new_input_embeds)
 

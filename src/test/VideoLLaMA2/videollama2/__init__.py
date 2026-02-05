@@ -43,7 +43,6 @@ def mm_infer(image_or_video, instruct, model, tokenizer, modal='video', **kwargs
         str: response of the model.
     """
 
-    # 1. text preprocess (tag process & generate prompt).
     if modal == 'image':
         modal_token = DEFAULT_IMAGE_TOKEN
     elif modal == 'video':
@@ -53,14 +52,12 @@ def mm_infer(image_or_video, instruct, model, tokenizer, modal='video', **kwargs
     else:
         raise ValueError(f"Unsupported modal: {modal}")
 
-    # 1. vision preprocess (load & transform image or video).
     if modal == 'text':
         tensor = None
     else:
         tensor = image_or_video.half().cuda()
         tensor = [(tensor, modal)]
 
-    # 2. text preprocess (tag process & generate prompt).
     if isinstance(instruct, str):
         message = [{'role': 'user', 'content': modal_token + '\n' + instruct}]
     elif isinstance(instruct, list):
@@ -86,7 +83,6 @@ def mm_infer(image_or_video, instruct, model, tokenizer, modal='video', **kwargs
     input_ids = tokenizer_multimodal_token(prompt, tokenizer, modal_token, return_tensors='pt').unsqueeze(0).long().cuda()
     attention_masks = input_ids.ne(tokenizer.pad_token_id).long().cuda()
 
-    # 3. generate response according to visual signals and prompts. 
     keywords = [tokenizer.eos_token]
     stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
 

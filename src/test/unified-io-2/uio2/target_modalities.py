@@ -30,7 +30,7 @@ class TextEmbedder(nn.Module):
       cfg.text_pos_emb, cfg.decoder_max_text_length, cfg.emb_dim, cfg.head_dim, True, 1), persistent=False)
     if "llama_rope" in cfg.text_pos_emb:
       self.modality_embedding = nn.Parameter(torch.empty(cfg.emb_dim).normal_(std=0.02))
-    
+
   def forward(self, inputs, shared_embed, mask=None, pos_ids=None, segment_ids=None,
               targets=None, cur_index=None):
     cfg = self.config
@@ -100,7 +100,7 @@ def get_row_mask(height=32, width=32, is_bool_mask=False):
   step = width + 1
   for col in range(mask.shape[1]):
       mask[col + step:, col] = False if is_bool_mask else 0.0
-  return mask  
+  return mask
 
 
 def get_col_mask(height=32, width=32, is_bool_mask=False):
@@ -148,8 +148,7 @@ class ImageVQGAN(nn.Module):
 
     assert cfg.image_tokenizer_type == 'vqgan', "Only VQGAN is supported for image."
     self.vqgan = VQGAN(vqgan_config)
-    
-    # construct the row, col and conv mask.
+
     row_mask = get_row_mask(self.grid_size[0], self.grid_size[1])
     col_mask = get_col_mask(self.grid_size[0], self.grid_size[1])
     conv_mask = get_conv_mask(self.grid_size[0], self.grid_size[1])
@@ -157,7 +156,7 @@ class ImageVQGAN(nn.Module):
 
     self.register_buffer(
       "attn_mask", torch.stack([row_mask, col_mask, conv_mask, full_mask], dim=0), persistent=False)
-    
+
     self.register_buffer("pos_emb_cache", layers.get_2d_position_embedding(
         cfg.image_pos_emb,
         vqgan_cfg.default_input_size,
@@ -165,28 +164,24 @@ class ImageVQGAN(nn.Module):
         cfg.emb_dim,
         cfg.head_dim,
         2), persistent=False)
-    
+
     if "llama_rope" in cfg.image_pos_emb:
       self.modality_embedding = nn.Parameter(torch.empty(cfg.emb_dim).normal_(std=0.02))
-    
+
   def target_image_to_seq(self, image: torch.Tensor, loss_mask: torch.Tensor = None):
     cfg = self.config
     bs = image.shape[0]
 
-    # reshape image to (batch, channel, height, width)
     image = image.permute(0, 3, 1, 2).contiguous()
     target_tokens = self.vqgan.get_codebook_indices(image)
 
-    # 0: start token
-    # 1: [MASK] token
-    # from 2: normal tokens
     target_tokens = target_tokens + 2
     target_tokens = target_tokens.detach()
 
     input_tokens = torch.cat([
       torch.zeros((target_tokens.shape[0], 1), dtype=torch.int32, device=target_tokens.device),
       target_tokens[:, :-1]], dim=1)
-    
+
     return input_tokens, target_tokens, loss_mask
 
   def get_target_sequence(self, input_tokens, shared_embed, mask, target_tokens=None, task_mask=None,
@@ -200,7 +195,7 @@ class ImageVQGAN(nn.Module):
       pos_emb = self.pos_emb_cache[cur_index:cur_index+1,:][None, :, :]
     else:
       pos_emb = self.pos_emb_cache[:x.shape[1]][None, :, :]
-    
+
     pos_emb = pos_emb.expand(bs, -1, -1)
 
     if "llama_rope" in cfg.image_pos_emb:
@@ -212,13 +207,10 @@ class ImageVQGAN(nn.Module):
     if cfg.dalle_attn_mask:
       attn_pattern_mask = self.attn_mask[None,:,:,:].expand(x.shape[0], -1, -1, -1)
     else:
-      # use full mask if we are not using dalle attn mask.
       attn_pattern_mask = self.attn_mask[None,-1,:,:].expand(x.shape[0], 4, -1, -1)
 
-    # task_mask: 1 if we should mask the corresponding token
     if cfg.dynamic_unk_mask and task_mask is not None:
       noise_mask = 1 - task_mask
-      # shift the mask by 1
       noise_mask = torch.cat([
         torch.ones(noise_mask.shape[0], 1, dtype=noise_mask.dtype, device=noise_mask.device),
         noise_mask[:, :-1]], dim=1)
@@ -231,12 +223,12 @@ class ImageVQGAN(nn.Module):
     seq = TargetSequence(
       x, pos_emb, modality_id, mask, attn_pattern_mask=attn_pattern_mask,
       subsegments=segment_ids, target_tokens=target_tokens, loss_mask=loss_mask)
-    
+
     return seq
 
   def forward(self, image, shared_embed, mask=None, loss_mask=None, task_mask=None, segment_ids=None,
               cur_index=None, pos_ids=None):
-    
+
     cfg = self.config
     if cur_index is not None:
       return self.get_target_sequence(image, shared_embed, mask, segment_ids, cur_index=cur_index)
@@ -265,12 +257,10 @@ class TargetImageVQGANEmbedder(ModalityEncoder):
     if image_targets is None:
       return {}
     else:
-      image_targets = image_targets * 2.0 - 1  # VQGAN pre-processing
-      # In case the dimension were unknown
+      image_targets = image_targets * 2.0 - 1
       image_targets = tf.ensure_shape(image_targets, image_target_size + [3])
       assert image_target_masks is not None
       if len(image_target_masks.shape) == 1:
-        # Given mask is on the patches rather then pixels, used in depth_preprocessing
         image_target_masks = image_target_masks
       else:
         image_target_masks = tf.image.resize(
@@ -317,8 +307,7 @@ class AudioVQGAN(nn.Module):
     ]
 
     self.vqgan = ViTVQGAN(vqgan_config)
-    
-    # construct the row, col and conv mask.
+
     row_mask = get_row_mask(self.grid_size[0], self.grid_size[1])
     col_mask = get_col_mask(self.grid_size[0], self.grid_size[1])
     conv_mask = get_conv_mask(self.grid_size[0], self.grid_size[1])
@@ -326,7 +315,7 @@ class AudioVQGAN(nn.Module):
 
     self.register_buffer(
       "attn_mask", torch.stack([row_mask, col_mask, conv_mask, full_mask], dim=0), persistent=False)
-    
+
     self.register_buffer("pos_emb_cache", layers.get_2d_position_embedding(
         cfg.audio_pos_emb,
         vqgan_cfg.default_input_size,
@@ -334,33 +323,27 @@ class AudioVQGAN(nn.Module):
         cfg.emb_dim,
         cfg.head_dim,
         3), persistent=False)
-    
+
     if "llama_rope" in cfg.image_pos_emb:
       self.modality_embedding = nn.Parameter(torch.empty(cfg.emb_dim).normal_(std=0.02))
-    
+
   def target_audio_to_seq(self, audio: torch.Tensor, loss_mask: torch.Tensor = None):
-    # audio: (batch, height, width, channel)
     cfg = self.config
     bs = audio.shape[0]
 
-    # since the vit-vqgan takes as input of shape [128, 256], we need to tranpose this first.
     audio = audio.permute(0, 2, 1, 3).contiguous()
     target_tokens = self.vqgan.get_codebook_indices(audio)
 
-    # reshape the target back to the original shape: (batch, height=256, width=128)
     target_tokens = target_tokens.reshape(bs, self.grid_size[1], self.grid_size[0])
     target_tokens = target_tokens.permute(0, 2, 1).contiguous().view(bs, -1)
 
-    # 0: start token
-    # 1: [MASK] token
-    # from 2: normal tokens
     target_tokens = target_tokens + 2
     target_tokens = target_tokens.detach()
 
     input_tokens = torch.cat([
       torch.zeros((target_tokens.shape[0], 1), dtype=torch.int32, device=target_tokens.device),
       target_tokens[:, :-1]], dim=1)
-    
+
     return input_tokens, target_tokens, loss_mask
 
   def get_target_sequence(self, input_tokens, shared_embed, mask, target_tokens=None, task_mask=None,
@@ -375,7 +358,7 @@ class AudioVQGAN(nn.Module):
       pos_emb = self.pos_emb_cache[cur_index:cur_index+1,:][None, :, :]
     else:
       pos_emb = self.pos_emb_cache[:x.shape[1]][None, :, :]
-    
+
     pos_emb = pos_emb.expand(bs, -1, -1)
 
     if "llama_rope" in cfg.image_pos_emb:
@@ -387,13 +370,10 @@ class AudioVQGAN(nn.Module):
     if cfg.dalle_attn_mask:
       attn_pattern_mask = self.attn_mask[None,:,:,:].expand(x.shape[0], -1, -1, -1)
     else:
-      # use full mask if we are not using dalle attn mask.
       attn_pattern_mask = self.attn_mask[None,-1,:,:].expand(x.shape[0], 4, -1, -1)
 
-    # task_mask: 1 if we should mask the corresponding token
     if cfg.dynamic_unk_mask and task_mask is not None:
       noise_mask = 1 - task_mask
-      # shift the mask by 1
       noise_mask = torch.cat([
         torch.ones(noise_mask.shape[0], 1, dtype=noise_mask.dtype, device=noise_mask.device),
         noise_mask[:, :-1]], dim=1)
@@ -406,12 +386,12 @@ class AudioVQGAN(nn.Module):
     seq = TargetSequence(
       x, pos_emb, modality_id, mask, attn_pattern_mask=attn_pattern_mask,
       subsegments=segment_ids, target_tokens=target_tokens, loss_mask=loss_mask)
-    
+
     return seq
 
   def forward(self, audio, shared_embed, mask=None, loss_mask=None, task_mask=None, segment_ids=None,
               cur_index=None, pos_ids=None):
-    
+
     cfg = self.config
     if cur_index is not None:
       return self.get_target_sequence(audio, shared_embed, mask, segment_ids, cur_index=cur_index)
@@ -424,9 +404,9 @@ class AudioVQGAN(nn.Module):
 
 class TargetAudioVQGANEmbedder(ModalityEncoder):
   def __init__(self, config):
-    super().__init__()    
+    super().__init__()
     self.config = config
-    
+
   def get_encoder(self, config: T5Config) -> nn.Module:
     return AudioVQGAN(config, self.config)
 
@@ -446,7 +426,6 @@ class TargetAudioVQGANEmbedder(ModalityEncoder):
       return {}
     else:
       targets = (targets - config.AUDIOSET_MEAN) / config.AUDIOSET_STD
-      # In case the dimension were unknown
       targets = tf.ensure_shape(targets, target_size + [1])
       assert target_masks is not None
       if len(target_masks.shape) == 1:

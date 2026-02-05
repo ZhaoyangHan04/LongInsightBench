@@ -1,19 +1,19 @@
-# Adopted from https://github.com/haotian-liu/LLaVA. Below is the original copyright:
-# Adopted from https://github.com/lm-sys/FastChat. Below is the original copyright:
-# Adopted from tatsu-lab@stanford_alpaca. Below is the original copyright:
-#    Copyright 2023 Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li
-#
-#    Licensed under the Apache License, Version 2.0 (the "License");
-#    you may not use this file except in compliance with the License.
-#    You may obtain a copy of the License at
-#
-#        http://www.apache.org/licenses/LICENSE-2.0
-#
-#    Unless required by applicable law or agreed to in writing, software
-#    distributed under the License is distributed on an "AS IS" BASIS,
-#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#    See the License for the specific language governing permissions and
-#    limitations under the License.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import re
 import os
@@ -25,8 +25,8 @@ import traceback
 from dataclasses import dataclass, field
 from typing import Dict, Optional, Sequence, List
 
-# torch-related packages
-# NOTE: torch must be imported before transformers. Otherwise, `Segmentation fault (core dumped)` will occur.
+
+
 import torch
 from torch.utils.data import Dataset
 
@@ -39,11 +39,11 @@ from videollama2.model import *
 from videollama2.constants import NUM_FRAMES, IGNORE_INDEX, MODAL_INDEX_MAP
 from videollama2.mm_utils import tokenizer_multimodal_token, process_video, process_image
 from videollama2.videollama2_trainer import (VideoLLaMA2Trainer,
-    get_peft_state_maybe_zero_3, get_peft_state_non_lora_maybe_zero_3, 
+    get_peft_state_maybe_zero_3, get_peft_state_non_lora_maybe_zero_3,
     find_all_linear_names, safe_save_model_for_hf_trainer
 )
 
-# NOTE: fast tokenizer warning issue: https://github.com/huggingface/transformers/issues/5486   
+
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
 local_rank = None
@@ -62,23 +62,20 @@ def set_seed(seed=42):
     """
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)  # for multi-GPU setups
+    torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
 
 @dataclass
 class ModelArguments:
-    # LLM Arguments
     model_type: Optional[str] = field(default="videollama2", metadata={"help": "Model type selected in the list: " + ", ".join(VLLMs.keys())})
     model_path: Optional[str] = field(default="lmsys/vicuna-7b-v1.5")
     version: Optional[str] = field(default="v1", metadata={"help": "Version of the conversation template."})
     freeze_backbone: bool = field(default=False, metadata={"help": "Whether to freeze the LLM backbone."})
-    # Connector Arguments
     mm_projector_type: Optional[str] = field(default='linear')
     tune_mm_mlp_adapter: bool = field(default=False)
     pretrain_mm_mlp_adapter: Optional[str] = field(default=None)
-    # Vision tower Arguments
     vision_tower: Optional[str] = field(default=None)
     mm_vision_select_layer: Optional[int] = field(default=-1)
     mm_vision_select_feature: Optional[str] = field(default="patch")
@@ -86,16 +83,11 @@ class ModelArguments:
 
 @dataclass
 class DataArguments:
-    # Path Arguments
     data_path: List[str] = field(default=None, metadata={"help": "Path to the training data."})
-    # image_folder: Optional[str] = field(default=None)
-    # video_folder: Optional[str] = field(default=None)
     data_folder: Optional[str] = field(default=None)
-    # Loading Arguments
     is_multimodal: bool = False
     lazy_preprocess: bool = False
     num_frames: Optional[int] = field(default=None)
-    # Preprocess Arguments
     image_aspect_ratio: str = 'square'
 
 
@@ -105,7 +97,6 @@ class TrainingArguments(transformers.TrainingArguments):
     mm_projector_lr: Optional[float] = None
     freeze_mm_mlp_adapter: bool = field(default=False)
     remove_unused_columns: bool = field(default=False)
-    # Training Data Arguments 
     group_by_modality_length: bool = field(default=False)
     model_max_length: int = field(
         default=512,
@@ -114,7 +105,6 @@ class TrainingArguments(transformers.TrainingArguments):
             "Maximum sequence length. Sequences will be right padded (and possibly truncated)."
         },
     )
-    # Lora or Quant Arguments
     double_quant: bool = field(
         default=True,
         metadata={"help": "Compress the quantization statistics through double quantization."}
@@ -145,7 +135,6 @@ def preprocess_plain(
     input_ids = []
     targets = []
     for source in sources:
-        # 1. apply chat template for input conversation
         assert len(source) == 2
         assert modal_token in source[0]['value']
         message = [
@@ -171,13 +160,11 @@ def preprocess(
 ) -> Dict:
     roles = {"human": "user", "gpt": "assistant"}
 
-    # Apply prompt templates
     conversations = []
     input_ids = []
     targets = []
     for i, source in enumerate(sources):
         if roles[source[0]["from"]] != "user":
-            # Skip the first one if it is not from human
             source = source[1:]
 
         message = [{'role': roles[sentence['from']], 'content': sentence['value']} for sentence in source]
@@ -192,7 +179,7 @@ def preprocess(
         for idx, sentence in enumerate(source):
             if idx % 2 == 1:
                 tmp_message = [
-                    {'role': roles[source[idx-1]['from']], 'content': source[idx-1]['value']}, 
+                    {'role': roles[source[idx-1]['from']], 'content': source[idx-1]['value']},
                     {'role': roles[sentence['from']], 'content': sentence['value']}
                 ]
 
@@ -228,7 +215,6 @@ def preprocess_multimodal(
                 sentence['value'] = modal_token + '\n' + sentence['value']
                 sentence['value'] = sentence['value'].strip()
             replace_token = modal_token
-            # TODO: fix this for multimedia, e.g., <video>, <audio>, etc.
             sentence["value"] = sentence["value"].replace(modal_token, replace_token)
 
     return sources
@@ -275,7 +261,7 @@ class LazySupervisedDataset(Dataset):
         sources = self.list_data_dict[i]
         if isinstance(i, int):
             sources = [sources]
-        assert len(sources) == 1, "Don't know why it is wrapped to a list"  # FIXME
+        assert len(sources) == 1, "Don't know why it is wrapped to a list"
 
         image_processor = self.data_args.image_processor
         video_processor = self.data_args.video_processor
@@ -295,7 +281,6 @@ class LazySupervisedDataset(Dataset):
                 print(f"Encounted error when reading image {image_file}, use {backup_idx}-th example instead!!!")
                 return self.__getitem__(backup_idx)
 
-            # place <image> tag to question head.
             modal_token = "<image>"
             sources = preprocess_multimodal(copy.deepcopy([e["conversations"] for e in sources]), self.data_args, modal_token)
         elif 'video' in sources[0]:
@@ -311,7 +296,6 @@ class LazySupervisedDataset(Dataset):
                 print(f"Encounted error when reading video {video_file}, use {backup_idx}-th example instead!!!")
                 return self.__getitem__(backup_idx)
 
-            # place <video> tag to question head.
             modal_token = "<video>"
             sources = preprocess_multimodal(copy.deepcopy([e["conversations"] for e in sources]), self.data_args, modal_token)
         else:
@@ -326,13 +310,11 @@ class LazySupervisedDataset(Dataset):
         if isinstance(i, int):
             data_dict = dict(input_ids=data_dict["input_ids"][0], labels=data_dict["labels"][0])
 
-        # image exist in the data
         if 'image' in self.list_data_dict[i]:
             data_dict['image'] = image
         elif 'video' in self.list_data_dict[i]:
             data_dict['video'] = video
         elif self.data_args.is_multimodal:
-            # image does not exist in the data, but the model is multimodal
             data_dict['image'] = torch.zeros(3, self.data_args.image_size, self.data_args.image_size)
         return data_dict
 
@@ -361,12 +343,10 @@ class DataCollatorForSupervisedDataset(object):
             attention_mask=input_ids.ne(self.tokenizer.pad_token_id),
         )
 
-        # work for 'images' argument in `prepare_inputs_labels_for_multimodal` of LlavaMetaForCausalLM in llava_arch.py
         batch['images'] = []
         for instance in instances:
             for modal_token in MODAL_INDEX_MAP.keys():
                 modal_token = modal_token.lower()
-                # MODAL_TOKEN shape like: <image>, <video>, ...
                 modal_name = re.findall(f'[<](.*)[>]', modal_token)
                 assert len(modal_name) == 1
                 modal_name = modal_name[0]
@@ -404,11 +384,6 @@ def train(attn_implementation=None):
     if training_args.bits in [4, 8]:
         from transformers import BitsAndBytesConfig
         bnb_model_from_pretrained_args.update(dict(
-            # device_map={"": training_args.device},
-            # BUG: High version transformers report error: 
-            # ValueError: You can't pass `load_in_4bit`or `load_in_8bit` as a kwarg when passing `quantization_config` argument at the same time
-            # load_in_4bit=training_args.bits == 4,
-            # load_in_8bit=training_args.bits == 8,
             quantization_config=BitsAndBytesConfig(
                 load_in_4bit=training_args.bits == 4,
                 load_in_8bit=training_args.bits == 8,
@@ -417,7 +392,7 @@ def train(attn_implementation=None):
                 llm_int8_has_fp16_weight=False,
                 bnb_4bit_compute_dtype=compute_dtype,
                 bnb_4bit_use_double_quant=training_args.double_quant,
-                bnb_4bit_quant_type=training_args.quant_type, # {'fp4', 'nf4'}
+                bnb_4bit_quant_type=training_args.quant_type,
                 bnb_4bit_quant_storage=compute_dtype,
             )
         ))
@@ -492,7 +467,6 @@ def train(attn_implementation=None):
         tokenizer.pad_token = tokenizer.unk_token
 
     if model_args.vision_tower is not None:
-        # initialize vision encoder + multi-modal projector
         model.get_model().initialize_vision_modules(model_args=model_args, fsdp=training_args.fsdp)
 
         vision_tower = model.get_vision_tower()
@@ -530,7 +504,6 @@ def train(attn_implementation=None):
 
         model.config.mm_projector_lr = training_args.mm_projector_lr
         model.config.num_frames = NUM_FRAMES if data_args.num_frames is None else data_args.num_frames
-        # vision_tower is not trainable in VideoLLaMA2
         model.get_model().vision_tower.requires_grad_(False)
 
     if training_args.bits in [4, 8]:
@@ -548,7 +521,6 @@ def train(attn_implementation=None):
 
     print("Current model:", model)
     data_module = make_supervised_data_module(tokenizer=tokenizer, data_args=data_args)
-    # select a Trainer
     trainer = VideoLLaMA2Trainer(model=model, tokenizer=tokenizer, args=training_args, **data_module)
 
     if list(pathlib.Path(training_args.output_dir).glob("checkpoint-*")):

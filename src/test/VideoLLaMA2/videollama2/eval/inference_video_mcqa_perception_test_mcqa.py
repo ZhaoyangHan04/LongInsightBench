@@ -18,7 +18,7 @@ from videollama2.utils import disable_torch_init
 
 def split_list(lst, n):
     """Split a list into n (roughly) equal-sized chunks"""
-    chunk_size = math.ceil(len(lst) / n)  # integer division
+    chunk_size = math.ceil(len(lst) / n)
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
 
 
@@ -37,18 +37,18 @@ class PerceptionTestMCQADataset(Dataset):
 
     def __len__(self):
         return len(self.data_list)
-    
+
     def __getitem__(self, idx):
         line = self.data_list[idx]
         video_name = line['metadata']['video_id']
         mc_questions = line['mc_question']
 
-        for fmt in self.video_formats:  # Added this line
+        for fmt in self.video_formats:
             temp_path = os.path.join(args.video_folder, f"{video_name}{fmt}")
             if os.path.exists(temp_path):
                 video_path = temp_path
                 break
-        
+
         video_tensor = self.processor(video_path)
 
         instructs = []
@@ -100,10 +100,8 @@ def run_inference(args):
     os.makedirs(os.path.dirname(answer_file), exist_ok=True)
     ans_file = open(answer_file, "w")
 
-    # Iterate over each sample in the ground truth file
     for i, (video_tensor, video_id, instructs, question_ids, options) in enumerate(tqdm(dataloader)):
 
-        # reduce batch dimension
         video_tensor = video_tensor[0]
         video_id = video_id[0]
         instructs = instructs[0]
@@ -131,7 +129,6 @@ def run_inference(args):
             try:
                 assert len(pred_answer) >= 1, 'The video \"{}\" instruct: \n\"{}\"\n output: \n\"{}\"\n is not in the expected format'.format(video_id, instruct, output)
                 pred_answer = pred_answer[0].strip()
-                # if not pred_answer.startswith('('):
                 pred_answer = pred_answer.strip('()')
                 pred_answer = f'({pred_answer})'
                 pred_idx = letters.index(pred_answer)

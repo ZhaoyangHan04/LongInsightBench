@@ -3,27 +3,22 @@ import re
 import os
 
 def parse_model_output(text):
-    """
-    从模型的回答字符串中提取 answer 和 reason
-    """
+    
     answer, reason = None, None
 
     if not isinstance(text, str):
         return answer, reason
 
-    # 提取 reason
     match_reason = re.search(r'["“]?reason["”]?\s*[:：]\s*(.*)', text, re.IGNORECASE | re.DOTALL)
     if match_reason:
         reason = match_reason.group(1).strip()
         reason = reason.rstrip("',\"} ")
 
-    # 提取 answer
     match_answer = re.search(r'["“]?answer["”]?\s*[:：]\s*(\[.*?\]|".*?"|\'.*?\')',
                              text, re.IGNORECASE | re.DOTALL)
     if match_answer:
         answer_raw = match_answer.group(1).strip()
 
-        # 提取选项字母
         letters = re.findall(r'\b([A-Z])\s*:', answer_raw)
         if letters:
             answer = letters
@@ -65,7 +60,7 @@ def process_file(input_file, output_file):
 if __name__ == "__main__":
     current_task = "6cross_event_causality"
     model_name = "videollama3"
-    input_path = f"./experiment/{model_name}/{current_task}.json"      # 输入文件
-    output_path = f"./experiment_final/{model_name}/{current_task}.json"   # 输出文件
+    input_path = f"./experiment/{model_name}/{current_task}.json"
+    output_path = f"./experiment_final/{model_name}/{current_task}.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     process_file(input_path, output_path)

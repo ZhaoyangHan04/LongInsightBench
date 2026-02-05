@@ -8,30 +8,23 @@ import tempfile
 import numpy as np
 import subprocess
 import sys
-# sys.path.append('./')
 from videollama2 import model_init, mm_infer
 from videollama2.utils import disable_torch_init
 
-# ====== 初始化模型 ======
 MODEL_PATH = "./models/VideoLLaMA2-7B"
 model, processor, tokenizer = model_init(MODEL_PATH)
-    
-
-# ====== 文件路径 ======
 current_task = "1intra_event_reasoning"
 INPUT_FILE = f"./final_qa/{current_task}.json"
 OUTPUT_FILE = f"./experiment/videollama2/{current_task}.json"
 VIDEO_ROOT = "./datasets/finevideo/videos"
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
-# ====== 读取已有结果 ======
 if os.path.exists(OUTPUT_FILE):
     with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
         results = json.load(f)
 else:
     results = {}
 
-# ====== 读取 QA 数据 ======
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     qa_data = json.load(f)
 
@@ -60,11 +53,11 @@ for qa in tqdm(qa_data):
         category, idx = video_id.rsplit("_", 1)
         video_path = os.path.join(VIDEO_ROOT, category, f"sample_{idx}.mp4")
     except Exception as e:
-        print(f"⚠️ 无法解析 videoID: {video_id}, 跳过。异常: {e}")
+        print(f"Cannot parse videoID: {video_id}, skipping. Exception: {e}")
         continue
 
     if not os.path.exists(video_path):
-        print(f"⚠️ 视频不存在: {video_path}")
+        print(f"Video does not exist: {video_path}")
         continue
 
     output = mm_infer(processor['video'](video_path), USER_PROMPT.format(question=question, options=options), model=model, tokenizer=tokenizer, do_sample=False, modal='video')
@@ -80,4 +73,4 @@ for qa in tqdm(qa_data):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-print(f"✅ 完成推理，结果已保存到 {OUTPUT_FILE}")
+print(f"Inference completed, results saved to {OUTPUT_FILE}")

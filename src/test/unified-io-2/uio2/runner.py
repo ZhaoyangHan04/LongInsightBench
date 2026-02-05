@@ -58,20 +58,18 @@ class ForceKeypointPrediction(LogitsProcessor):
       mask.append(None)
       mask.append(None)
       mask += tokenizer.encode(part)
-    mask.append(1)  # EOS
+    mask.append(1)
     self.mask = mask
 
   def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:
-    cur_index = input_ids.shape[1] - 1  # Minus one for the BOS
+    cur_index = input_ids.shape[1] - 1
     if cur_index >= len(self.mask):
       return scores
     mask = self.mask[cur_index]
     if mask is None:
-      # Force a location token predictions
       scores[:, :32000] = -10000
       scores[:, 33000:] = -10000
     else:
-      # Force the next part name
       scores = scores*0
       scores[:, mask] = 1000
     return scores
@@ -91,7 +89,7 @@ def extract_labelled_boxes(text):
 
 def extract_keypoints(text, image_info):
   """Extract keypoint prediction from UIO output text"""
-  invalid = False  # Is this text a valid keypoint prediction
+  invalid = False
   points, labels = [], []
   for id1, id2, part in part_name_re.findall(text):
     ids = (int(id1), int(id2))
@@ -112,7 +110,6 @@ def extract_keypoints(text, image_info):
     if ix is None:
       invalid = True
     elif output_labels[ix] != 0:
-      # Generated a part twice, skip the later one
       invalid = True
     else:
       output_points[ix] = point
@@ -120,15 +117,12 @@ def extract_keypoints(text, image_info):
   points, labels = output_points, output_labels
 
   if np.sum(labels) == 0:
-    # No visible points predicted
     return None, invalid
 
   if image_info is not None:
     points = undo_box_preprocessing(np.tile(points, [1, 2]), image_info)[:, :2]
-  points = points[:, ::-1]  # convert to xy
+  points = points[:, ::-1]
 
-  # replace non visible point with mean so we do something non-crazy if the
-  # GT turns out to be `visible`
   mean = np.mean(points[labels != 0], 0, keepdims=True)
   points[labels == 0] = mean
 
@@ -150,19 +144,17 @@ class PredictBoxesPreprocessor(LogitsProcessor):
 
   def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:
     logits = torch.log_softmax(scores, dim=-1)
-    # Total probability on a location token
     probs = torch.exp(torch.logsumexp(logits[:, 32000:33000], dim=-1))
     use_loc = probs > self.thresh
     if use_loc:
       scores[:, :32000] = -10000
       scores[:, 33000:] = -10000
     if self.require_one_box and input_ids.shape[1] == 1:
-      # Prevent starting with EOS
       scores[:, config.EOS_ID] = -10000
     return scores
 
 
-# Default prompts use to train the model in the classifier free settings
+
 IMAGE_CLF_FREE_PROMPT = "An image of a random picture."
 AUDIO_CLF_FREE_PROMPT = "A video of a random audio."
 
@@ -190,7 +182,7 @@ class SpectogramConverter:
           json_config = json.load(f)
         torch_device = torch.device("cpu")
 
-        class ObjConfig:  # `Generator` uses attribute lookup, so wrap the json in a dummy class
+        class ObjConfig:
           def __getattr__(self, item):
             return json_config[item]
 
@@ -210,7 +202,7 @@ class SpectogramConverter:
     else:
       import librosa
       spectrogram = np.exp(spectogram * 3.8312 - 5.0945)[:, :, 0]
-      return librosa.feature.inverse.mel_to_audio(  # type: ignore
+      return librosa.feature.inverse.mel_to_audio(
         spectrogram,
         sr=16000,
         n_fft=1024,
@@ -248,23 +240,17 @@ class TaskRunner:
   def device(self):
     return self.model.device
 
-  # def singleton_batch(self, batch):
-  #   return {k: torch.as_tensor(v, device=self.device)[None, ...] for k, v in batch.items()}
   def singleton_batch(self, batch):
     processed_batch = {}
     for k, v in batch.items():
         if isinstance(v, np.ndarray):
-            if v.dtype == np.int32 or v.dtype == np.int64: # 确保处理所有整数类型
-                # 将整数类型的 NumPy 数组转换为 torch.long
+            if v.dtype == np.int32 or v.dtype == np.int64:
                 processed_batch[k] = torch.as_tensor(v, device=self.device, dtype=torch.long)[None, ...]
-            elif v.dtype == np.float32 or v.dtype == np.float64: # 处理浮点数
-                # 保持浮点数类型
+            elif v.dtype == np.float32 or v.dtype == np.float64:
                 processed_batch[k] = torch.as_tensor(v, device=self.device, dtype=torch.float32)[None, ...]
             else:
-                # 处理其他未知类型，让 torch.as_tensor 自动推断
                 processed_batch[k] = torch.as_tensor(v, device=self.device)[None, ...]
         else:
-            # 如果不是 NumPy 数组，可能是 Python list 等，让 torch.as_tensor 自动推断
             processed_batch[k] = torch.as_tensor(v, device=self.device)[None, ...]
     return processed_batch
 
@@ -296,10 +282,10 @@ class TaskRunner:
     if len(tokens) != 6 or (tokens[0] != 0) or (tokens[-1] != 1):
       raise ValueError(f"Output not a bounding box {tokens}")
     box = token_to_float(np.array(tokens[1:-1]))
-    box *= config.IMAGE_INPUT_SIZE[0]  # de-normalized w.r.t the preprocessed image
-    box = undo_box_preprocessing(box, batch["/meta/image_info"])  # -> coordinates for the input image
+    box *= config.IMAGE_INPUT_SIZE[0]
+    box = undo_box_preprocessing(box, batch["/meta/image_info"])
     box = box.tolist()
-    box = [box[1], box[0], box[3], box[2]]  # yxyx to xyxy
+    box = [box[1], box[0], box[3], box[2]]
     return box
 
   def vqa(self, image, question) -> str:
@@ -332,7 +318,6 @@ class TaskRunner:
         [self.tokenizer.encode(x) + [1] for x in answer_options], add_eos=True)
       tensors = tensors.to(self.device)
     else:
-      # assume options are already in tensor form
       tensors = answer_options
     prompt = self.prompt.random_prompt("Box_Classification_Scene")
     example = self.uio2_preprocessor(
@@ -347,8 +332,6 @@ class TaskRunner:
 
   def categorization(self, image, answer_options, batch_size=50):
     """Categorize the image, return a class in `answer_options`"""
-    # imagenet prompt is generic, but using a prompt that give a better hint about what kind
-    # of classes to consider can help
     prompt = self.prompt.random_prompt("image_tagging_imagenet2012")
     batch = self.uio2_preprocessor(text_inputs=prompt, image_inputs=image, target_modality="text")
     batch = self.singleton_batch(batch)
@@ -446,10 +429,8 @@ class TaskRunner:
     note this task can be pretty unreliable for UIO2, particularly for crowded images
     """
     if coco_prompt:
-      # Prompt used for the COCO training data
       prompt = self.prompt.random_prompt("Detection_COCO")
     else:
-      # Prompt for other detection datasets, can result in detecting more classes
       prompt = self.prompt.random_prompt("Detection_Generic")
     batch = self.uio2_preprocessor(text_inputs=prompt, image_inputs=image, target_modality="text")
     out = self.predict_text(
@@ -528,7 +509,6 @@ class TaskRunner:
 
     Returns: Text caption
     """
-    # This prompt will get a COCO-like caption, which is generally expected
     prompt = self.prompt.random_prompt("image_caption_coco_2017")
     batch = self.uio2_preprocessor(text_inputs=prompt, image_inputs=image, target_modality="text")
     return self.predict_text(batch, max_tokens=64)
@@ -562,8 +542,6 @@ class TaskRunner:
       negative_prompt = None
 
     if num_out:
-      # A bit wasteful since we end up re-encoding the same inputs multiple times,
-      # but GenerationMixin doesn't seem to support multiple outputs
       example = {k: v.expand(*([num_out] + [-1]*(len(v.shape)-1))) for k, v in example.items()}
 
     out = self.model.generate(
@@ -665,7 +643,6 @@ class TaskRunner:
     example = self.singleton_batch(example)
 
     if guidance_scale:
-      # Generally not helpful for audio, but can be worth experimenting with
       negative_prompt = self.uio2_preprocessor(
         text_inputs=AUDIO_CLF_FREE_PROMPT, target_modality="audio")
       negative_prompt = self.singleton_batch(negative_prompt)

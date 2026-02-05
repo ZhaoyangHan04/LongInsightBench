@@ -1,16 +1,16 @@
-#    Copyright 2024 Alibaba DAMO Academy
-#
-#    Licensed under the Apache License, Version 2.0 (the "License");
-#    you may not use this file except in compliance with the License.
-#    You may obtain a copy of the License at
-#
-#        http://www.apache.org/licenses/LICENSE-2.0
-#
-#    Unless required by applicable law or agreed to in writing, software
-#    distributed under the License is distributed on an "AS IS" BASIS,
-#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#    See the License for the specific language governing permissions and
-#    limitations under the License.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import os
 import re
@@ -26,21 +26,18 @@ from transformers import TRANSFORMERS_CACHE
 
 def parse_snapshot_folder(repo_id, cache_dir=None, repo_type="model"):
     revision = "main"
-    # 1. parse the downloaded cache folder
     if cache_dir is None:
         cache_dir = TRANSFORMERS_CACHE
     else:
         cache_dir = cache_dir
     object_id = repo_id.replace("/", "--")
     repo_cache = os.path.join(cache_dir, f"{repo_type}s--{object_id}")
-    # 2. resolve refs (for instance to convert main to the associated commit sha)
     refs_dir = os.path.join(repo_cache, "refs")
     if os.path.isdir(refs_dir):
         revision_file = os.path.join(refs_dir, revision)
         if os.path.isfile(revision_file):
             with open(revision_file) as f:
                 revision = f.read()
-    # 3. acquire the snapshot folder
     folder = os.path.join(repo_cache, "snapshots", revision)
 
     return folder
@@ -54,7 +51,6 @@ def load_mm_projector(model_path, cache_dir=None, token=None):
         is_local = False
         folder = parse_snapshot_folder(model_path, cache_dir=cache_dir, repo_type="model")
         if not os.path.exists(os.path.join(folder, 'mm_projector.bin')):
-            # downloading from remote repo
             from huggingface_hub import snapshot_download
             snapshot_download(repo_id=model_path, cache_dir=cache_dir, token=token)
 
@@ -104,7 +100,6 @@ def build_vision_projector(config, delay_load=False, **kwargs):
         return nn.Sequential(*modules)
 
     if projector_type == "linear":
-        # NOTE: for both linear and mlp2x_gelu projector type, mean pooling is adopted to aggreate video features
         return nn.Linear(config.mm_hidden_size, config.hidden_size)
     elif projector_type == "stc_connector":
         return STCConnector(config)
@@ -134,7 +129,7 @@ class STCConnector(nn.Module):
 
     def __init__(self, config, downsample=(2, 2, 2), depth=4, mlp_depth=2):
         """Temporal Convolutional Vision-Language Connector.
-        
+
         Args:
             config: config object.
             downsample: (temporal, height, width) downsample rate.
@@ -145,7 +140,6 @@ class STCConnector(nn.Module):
         self.encoder_hidden_size = encoder_hidden_size = config.mm_hidden_size
         self.hidden_size = hidden_size = config.hidden_size
         self.output_hidden_size = output_hidden_size = config.hidden_size
-        # TODO: make these as config arguments
         self.depth = depth
         self.mlp_depth = mlp_depth
         self.downsample = downsample
@@ -201,13 +195,10 @@ class STCConnector(nn.Module):
             x = einops.rearrange(x, "b t h w d -> b d t h w")
 
         x = einops.rearrange(x, "b d t h w -> (b t) d h w")
-        # 1. the first stage of the adapter
         x = self.s1(x)
         x = einops.rearrange(x, "(b t) d h w -> b d t h w", t=t)
-        # 2. downsampler
         x = self.sampler(x)
         new_t = x.size(2)
-        # 3. the second stage of the adapter
         x = einops.rearrange(x, "b d t h w -> (b t) d h w")
         x = self.s2(x)
         x = einops.rearrange(x, "(b t) d h w -> b (t h w) d", t=new_t)

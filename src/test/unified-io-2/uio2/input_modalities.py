@@ -42,7 +42,7 @@ class ModalityEncoder:
     raise NotImplementedError()
 
 
-# Text Modalities
+
 class InputTextEmbedder(nn.Module):
   def __init__(self, config: T5Config) -> None:
     super().__init__()
@@ -91,7 +91,6 @@ class InputTextEncoder(ModalityEncoder):
       text_inputs = features[f"text_inputs"]
       if isinstance(text_inputs, str):
         text_inputs = tf.convert_to_tensor(vocab.encode(text_inputs))
-      # Add EOS
       text_inputs = text_inputs[:config.MAX_TEXT_LEN-1]
       tokens = tf.pad(text_inputs, paddings=[[0, 1]], constant_values=config.EOS_ID)
       return {
@@ -115,7 +114,7 @@ class ViTImageEmbedder(nn.Module):
 
     self.image_encoder = image_encoder
     self.modality_idx = 2 if "image" in self.modality else 3
-    
+
     if self.use_vit:
       patch_size = cfg.image_vit_patch_size if self.modality == "image" else cfg.audio_vit_patch_size
       default_size = cfg.default_image_vit_size if self.modality == "image" else cfg.default_audio_vit_size
@@ -136,24 +135,23 @@ class ViTImageEmbedder(nn.Module):
 
     scale = math.sqrt(cfg.decoder_max_image_length / cfg.encoder_max_image_length)
     self.register_buffer('pos_emb_cache', layers.get_2d_position_embedding(
-        pos_emb_type, 
-        default_size, 
-        patch_size, 
-        cfg.emb_dim, 
-        cfg.head_dim, 
-        self.modality_idx, 
+        pos_emb_type,
+        default_size,
+        patch_size,
+        cfg.emb_dim,
+        cfg.head_dim,
+        self.modality_idx,
         scale), persistent=False)
-    
+
     if "llama_rope" in pos_emb_type:
       self.modality_embedding = nn.Parameter(torch.empty(cfg.emb_dim).normal_(std=0.02))
-    
+
   def forward(self, input, pos_ids, mask, shared_embed, use_constraints=True):
     cfg = self.t5_config
     bs = input.shape[0]
     pos_emb_type = cfg.image_pos_emb if "image" in self.modality else cfg.audio_pos_emb
-    
+
     if self.use_vit:
-      # get image feature from the encoder
       x, x1 = self.image_encoder(input, mask, pos_ids, patch_num = self.patch_num)
       if self.freeze_vit:
         x = x.detach()
@@ -162,7 +160,6 @@ class ViTImageEmbedder(nn.Module):
     else:
       x = input
 
-    # The image_encoder might have a different dtype
     x = x.to(self.projection.weight.dtype)
     x = self.projection(x)
 
@@ -180,7 +177,7 @@ class InputImageViTEncoder(ModalityEncoder):
     self.image_encoder = image_encoder
     self.use_vit = use_vit
     self.freeze_vit = freeze_vit
-    
+
   def get_encoder(self, config: T5Config) -> nn.Module:
     return ViTImageEmbedder(self.image_encoder, config, "image", self.use_vit, self.freeze_vit)
 
@@ -202,8 +199,6 @@ class InputImageViTEncoder(ModalityEncoder):
     image_input_masks = features.get("image_input_masks")
 
     if "image_encoder_pos_ids" in features:
-      # We assume image sampling has already been done by the task
-      # currently only happens for the image prefix modelling pre-training task
       assert len(image_inputs.shape) == 2
       image_inputs = tf.ensure_shape(image_inputs, [image_samples, None])
       image_inputs = tf.reshape(
@@ -225,18 +220,14 @@ class InputImageViTEncoder(ModalityEncoder):
     )
     assert image_input_masks is not None
     if len(image_input_masks.shape) == 1:
-      # Assume client give us a mask over the patches
       image_input_masks = image_input_masks
     else:
-      # Convert the pixel mask to a mask over the image patches
-      # this a rather hacky since this conversion is approximate
       image_input_masks = tf.image.resize(
         tf.expand_dims(image_input_masks, 2),
         input_padding_size,
         method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)
       image_input_masks = tf.cast(tf.reshape(image_input_masks, [-1]), tf.int32)
 
-    # Arrange into a list of patches
     image_inputs = einops.rearrange(
       image_inputs, '(h dh) (w dw) c -> (h w) (dh dw c)',
       dh=config.IMAGE_INPUT_D, dw=config.IMAGE_INPUT_D)
@@ -272,7 +263,7 @@ class ViTHistoryEmbedder(nn.Module):
     self.config = config
     self.modality = modality
     self.max_images_per_example = max_images_per_example
-  
+
     cfg = self.config
     self.resampler = Resampler(self.resampler_config)
     self.modality_idx = 4 if "image" in self.modality else 5
@@ -283,7 +274,7 @@ class ViTHistoryEmbedder(nn.Module):
     else:
       patch_size = cfg.image_patch_size if self.modality == "image" else cfg.audio_patch_size
       default_size = cfg.default_image_size if self.modality == "image" else cfg.default_audio_size
-    
+
     self.patch_num = [i // patch_size for i in default_size]
 
     pos_emb_type = cfg.image_history_pos_emb if "image" in self.modality else cfg.audio_history_pos_emb
@@ -296,7 +287,7 @@ class ViTHistoryEmbedder(nn.Module):
     nn.init.trunc_normal_(self.pre_projection.weight, std=math.sqrt(1 / in_dim), a=-2.0, b=2.0)
     self.post_projection = nn.Linear(self.resampler_config.emb_dim, cfg.emb_dim, bias=False)
     nn.init.trunc_normal_(self.post_projection.weight, std=math.sqrt(1 / self.resampler_config.emb_dim), a=-2.0, b=2.0)
- 
+
     self.register_buffer('pos_emb_cache', layers.get_2d_position_embedding(
       pos_emb_type, (self.resampler_config.max_frames, self.resampler_config.latents_size),
       (1, 1), cfg.emb_dim, cfg.head_dim, self.modality_idx).reshape(
@@ -317,20 +308,17 @@ class ViTHistoryEmbedder(nn.Module):
     compressed_mask = torch.reshape(mask, [batch * frames, patch])
 
     if self.max_images_per_example and use_constraints:
-      # Compress [batch*frames, ...] -> [self.max_images_per_batch, ...]
       max_images_per_batch = int(round(self.max_images_per_example*batch))
 
-      # Build [max_images, batch*frames] compression matrix
       valid_frames = torch.any(mask > 0, -1).to(torch.int32).flatten()
       ixs = torch.cumsum(valid_frames, 0) - 1
       mat = torch.unsqueeze(ixs, 0) == torch.unsqueeze(torch.arange(max_images_per_batch, dtype=ixs.dtype, device=ixs.device), 1)
       mat = mat.to(torch.int32) * torch.reshape(valid_frames, [-1])
-                
-      # Do the compressing
-      input = torch.einsum("mb,bpd->mpd", mat.to(input.dtype), input)  # [max_images, patches, patch_dim]
+
+      input = torch.einsum("mb,bpd->mpd", mat.to(input.dtype), input)
       compressed_mask = torch.einsum("mb,bp->mp", mat, compressed_mask)
       compressed_pos_ids = torch.einsum("mb,bp->mp", mat, compressed_pos_ids)
-    
+
     if self.vit_image_encoder is not None:
       features, _ = self.vit_image_encoder(
         input, compressed_mask, compressed_pos_ids, patch_num=self.patch_num,
@@ -347,16 +335,15 @@ class ViTHistoryEmbedder(nn.Module):
     video_features = self.post_projection(video_features)
 
     if self.max_images_per_example and use_constraints:
-      # Decompress [self.max_images_per_batch, ...] -> [batch*frames, ...]
       video_features = torch.einsum("mb,mpd->bpd", mat.to(video_features.dtype), video_features)
       compressed_mask = torch.einsum("mb,md->bd", mat, compressed_mask)
-    
+
     video_features = torch.reshape(video_features, [batch, frames] + list(video_features.shape[1:]))
     compressed_mask = torch.reshape(compressed_mask, [batch, frames] + list(compressed_mask.shape[1:]))
 
     video_mask = torch.any(compressed_mask > 0, -1, keepdim=True).expand(
       -1, -1, self.resampler_config.latents_size).to(torch.int32)
-    
+
     video_pos_emb = self.pos_emb_cache[:frames].reshape(-1, self.pos_emb_cache.shape[-1])
     video_pos_emb = video_pos_emb[None, :, :].expand(batch, -1, -1)
 
@@ -364,11 +351,11 @@ class ViTHistoryEmbedder(nn.Module):
       video_features += self.modality_embedding[None, None, None, :].to(video_features.dtype)
 
     latents_size = self.resampler_config.latents_size
-    
+
     video_features = torch.reshape(video_features, (batch, frames*latents_size, video_features.shape[-1]))
     video_mask = torch.reshape(video_mask, (batch, frames*latents_size))
     video_pos_emb = torch.reshape(video_pos_emb, (batch, frames*latents_size, video_pos_emb.shape[-1]))
-    
+
     return InputSequence(video_features, mask=video_mask, position_embed=video_pos_emb)
 
 
@@ -378,7 +365,7 @@ class InputImageHistoryViTEncoder(ModalityEncoder):
     self.image_encoder = image_encoder
     self.resampler_config = resampler_config
     self.max_images_per_batch = max_images_per_batch
-    
+
   def get_encoder(self, config: T5Config) -> nn.Module:
     return ViTHistoryEmbedder(
       self.image_encoder, self.resampler_config, config, "image", self.max_images_per_batch)
@@ -416,18 +403,14 @@ class InputImageHistoryViTEncoder(ModalityEncoder):
     input = normalize_image(input)
     assert input_masks is not None
     if len(input_masks.shape) == 2:
-      # Assume client give us a mask over the patches
       input_masks = input_masks
     else:
-      # Convert the pixel mask to a mask over the image patches
-      # this a rather hacky since this conversion is approximate
       input_masks = tf.image.resize(
         tf.expand_dims(input_masks, 3),
         input_padding_size,
         method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)
       input_masks = tf.cast(tf.reshape(input_masks, [tf.shape(input_masks)[0], -1]), tf.int32)
 
-    # Arrange into a list of patches
     input = einops.rearrange(
       input, 't (h dh) (w dw) c -> t (h w) (dh dw c)',
       dh=config.IMAGE_HISTORY_INPUT_D, dw=config.IMAGE_HISTORY_INPUT_D)
@@ -445,7 +428,6 @@ class InputImageHistoryViTEncoder(ModalityEncoder):
       encoder_pos_ids = tf.tile(encoder_pos_ids, [n_frames, 1])
       encoder_pos_ids = tf.cast(encoder_pos_ids, tf.int32)
 
-    # Pad everything to be a constant shape
     spatial_len = input.shape[1]
     assert spatial_len is not None
     n_pixels = config.IMAGE_HISTORY_INPUT_D*config.IMAGE_HISTORY_INPUT_D*3
@@ -465,7 +447,7 @@ class InputAudioViTEncoder(ModalityEncoder):
     self.audio_encoder = audio_encoder
     self.use_vit = use_vit
     self.freeze_vit = freeze_vit
-    
+
   def get_encoder(self, config: T5Config) -> nn.Module:
     return ViTImageEmbedder(self.audio_encoder, config, "audio", self.use_vit, self.freeze_vit)
 
@@ -482,10 +464,7 @@ class InputAudioViTEncoder(ModalityEncoder):
     audio_input_masks = features.get("audio_input_masks")
 
     if "audio_encoder_pos_ids" in features:
-      # We assume audio sampling has already been done by the task
-      # currently only happens for the audio prefix modelling pre-training task
       assert len(audio_inputs.shape) == 2
-      # normalization
       audio_inputs = (audio_inputs - config.AUDIO_VIT_MEAN) / config.AUDIO_VIT_STD
       return {
         'input': audio_inputs,
@@ -496,18 +475,14 @@ class InputAudioViTEncoder(ModalityEncoder):
     audio_inputs = (audio_inputs - config.AUDIO_VIT_MEAN) / config.AUDIO_VIT_STD
     assert audio_input_masks is not None
     if len(audio_input_masks.shape) == 1:
-      # Assume client give us a mask over the patches
       audio_input_masks = audio_input_masks
     else:
-      # Convert the pixel mask to a mask over the audio patches
-      # this a rather hacky since this conversion is approximate
       audio_input_masks = tf.image.resize(
         tf.expand_dims(audio_input_masks, 2),
         input_padding_size,
         method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)
       audio_input_masks = tf.cast(tf.reshape(audio_input_masks, [-1]), tf.int32)
 
-    # Arrange into a list of patches
     audio_inputs = einops.rearrange(
       audio_inputs, '(h dh) (w dw) c -> (h w) (dh dw c)',
       dh=config.AUDIO_INPUT_D, dw=config.AUDIO_INPUT_D)
@@ -570,7 +545,6 @@ class InputAudioHistoryViTEncoder(ModalityEncoder):
     if "audio_history_encoder_pos_ids" in features:
       assert len(input.shape) == 3
       input = tf.ensure_shape(input, [n_frames, n_patches, n_pixels])
-      # normalization
       input = (input - config.AUDIO_VIT_MEAN) / config.AUDIO_VIT_STD
       return {
         'input': input,
@@ -581,18 +555,14 @@ class InputAudioHistoryViTEncoder(ModalityEncoder):
     input = (input - config.AUDIO_VIT_MEAN) / config.AUDIO_VIT_STD
     assert input_masks is not None
     if len(input_masks.shape) == 2:
-      # Assume client give us a mask over the patches
       input_masks = input_masks
     else:
-      # Convert the pixel mask to a mask over the audio patches
-      # this a rather hacky since this conversion is approximate
       input_masks = tf.image.resize(
         tf.expand_dims(input_masks, 3),
         input_padding_size,
         method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)
       input_masks = tf.cast(tf.reshape(input_masks, [tf.shape(input_masks)[0], -1]), tf.int32)
 
-    # Arrange into a list of patches
     input = einops.rearrange(
       input, 't (h dh) (w dw) c -> t (h w) (dh dw c)',
       dh=config.AUDIO_HISTORY_INPUT_D, dw=config.AUDIO_HISTORY_INPUT_D)
@@ -611,7 +581,6 @@ class InputAudioHistoryViTEncoder(ModalityEncoder):
       encoder_pos_ids = tf.tile(encoder_pos_ids, [n_frames, 1])
       encoder_pos_ids = tf.cast(encoder_pos_ids, tf.int32)
 
-    # Pad everything to be a constant shape
     spatial_len = input.shape[1]
     temporal_len = sequence_length.get('num_frames')
     if temporal_len is None:

@@ -40,23 +40,12 @@ def load_image_or_video(image_or_video_file):
 
 
 def main(args):
-    # Model
     disable_torch_init()
 
     model_name = get_model_name_from_path(args.model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(args.model_path, args.model_base, model_name, args.load_8bit, args.load_4bit, device=args.device)
 
-    # if "llama-2" in model_name.lower():
-    #     conv_mode = "llava_llama2"
-    # elif "mistral" in model_name.lower():
-    #     conv_mode = "mistral"
-    # elif "v1.6-34b" in model_name.lower():
-    #     conv_mode = "chatml_direct"
-    # elif "v1" in model_name.lower():
-    #     conv_mode = "llava_v1"
-    # else:
-    #     conv_mode = "llava_v0"
-    conv_mode = "llava_v1" # fix conversation mode for now
+    conv_mode = "llava_v1"
 
     if args.conv_mode is not None and conv_mode != args.conv_mode:
         print('[WARNING] the auto inferred conversation mode is {}, while `--conv-mode` is {}, using {}'.format(conv_mode, args.conv_mode, args.conv_mode))
@@ -68,7 +57,6 @@ def main(args):
 
     image = load_image(args.image_file)
     image_size = image.size
-    # Similar operation in model_worker.py
     image_tensor = process_images([image], image_processor, model.config)
     if type(image_tensor) is list:
         image_tensor = [image.to(model.device, dtype=torch.float16) for image in image_tensor]
@@ -87,7 +75,6 @@ def main(args):
         print(f"{roles[1]}: ", end="")
 
         if image is not None:
-            # first message
             if model.config.mm_use_im_start_end:
                 inp = DEFAULT_IM_START_TOKEN + DEFAULT_IMAGE_TOKEN + DEFAULT_IM_END_TOKEN + '\n' + inp
             else:
@@ -95,7 +82,6 @@ def main(args):
             conv.append_message(conv.roles[0], inp)
             image = None
         else:
-            # later messages
             conv.append_message(conv.roles[0], inp)
         conv.append_message(conv.roles[1], None)
         prompt = conv.get_prompt()

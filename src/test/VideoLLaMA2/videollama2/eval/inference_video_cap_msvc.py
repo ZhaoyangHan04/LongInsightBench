@@ -12,13 +12,13 @@ sys.path.append('./')
 from videollama2 import model_init, mm_infer
 from videollama2.utils import disable_torch_init
 
-# NOTE: Ignore TypedStorage warning, which refers to this link~(https://github.com/pytorch/pytorch/issues/97207#issuecomment-1494781560)
+
 warnings.filterwarnings('ignore', category=UserWarning, message='TypedStorage is deprecated')
 
 
 def split_list(lst, n):
     """Split a list into n (roughly) equal-sized chunks"""
-    chunk_size = math.ceil(len(lst) / n)  # integer division
+    chunk_size = math.ceil(len(lst) / n)
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
 
 
@@ -38,7 +38,7 @@ class MSVCDataset(Dataset):
 
     def __len__(self):
         return len(self.questions)
-    
+
     def __getitem__(self, idx):
         sample = self.questions[idx]
 
@@ -81,7 +81,6 @@ def run_inference(args):
     dataset = MSVCDataset(args.video_folder, gt_questions, processor['video'])
     dataloader = DataLoader(dataset, shuffle=False, batch_size=args.batch_size, num_workers=args.num_workers, collate_fn=collate_fn)
 
-    # Iterate over each sample in the ground truth file
     for idx, (video_tensors, video_names, questions, answers) in enumerate(tqdm(dataloader)):
         video_tensor = video_tensors[0]
         video_name   = video_names[0]
@@ -90,7 +89,7 @@ def run_inference(args):
 
         output = mm_infer(
             video_tensor,
-            question, 
+            question,
             model=model,
             tokenizer=tokenizer,
             modal='video',

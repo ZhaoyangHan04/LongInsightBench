@@ -170,18 +170,17 @@ def concat_sequences(seqs: List):
     shape = list(full_sized[0].shape)
 
     if len(full_sized) != len(args):
-      # Replace scalar/None values with blank/full values
       padded_args = []
       for ix, x in enumerate(args):
         if x is not None and x.shape[0] == max_bs:
-          padded_args.append(x)  # Full sized
+          padded_args.append(x)
 
         elif x is not None and x.shape[0] != max_bs:
-          assert x.shape[0] == 1  # broadcasts the batch dim, tile to max_bs
+          assert x.shape[0] == 1
           padded_args.append(torch.tile(x, [max_bs] + [1]*(len(x.shape)-1)))
 
         else:
-          assert x is None  # replace with zero array of the correct shape
+          assert x is None
           arg_shape = list(shape)
           arg_shape[0] = max_bs
           if len(shape) <= 3:

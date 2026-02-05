@@ -1,21 +1,17 @@
-#!/usr/bin/env python3
-# convert_bin_to_safetensors.py
+
+
 import sys
 import torch
 from safetensors.torch import save_file
 
 def load_state_dict(bin_path):
     obj = torch.load(bin_path, map_location="cpu")
-    # 常见情形：obj 就是 state_dict（mapping str->Tensor）
     if isinstance(obj, dict):
-        # 直接是 tensor 映射
         if all(isinstance(v, torch.Tensor) for v in obj.values()):
             return obj
-        # 常见的包装字段
         for key in ("state_dict", "model", "module"):
             if key in obj and isinstance(obj[key], dict):
                 return obj[key]
-        # 尝试在子项里找到第一个满足条件的 dict
         for k, v in obj.items():
             if isinstance(v, dict) and all(isinstance(t, torch.Tensor) for t in v.values()):
                 print(f"Using nested dict '{k}' as state_dict")

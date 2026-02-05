@@ -71,7 +71,6 @@ def extract_audio_chunk(mp4_path, start, end, chunk_file):
     return chunk_file
 
 def log_token_usage(video_file, chunk_id, usage_metadata):
-    """把 token 消耗追加写入日志文件"""
     with open(token_log_path, "a", encoding="utf-8") as log_f:
         log_f.write(
             f"{datetime.now().isoformat()} | {video_file} | chunk {chunk_id} | "
@@ -80,7 +79,6 @@ def log_token_usage(video_file, chunk_id, usage_metadata):
             f"total_tokens={usage_metadata.total_token_count}\n"
         )
 
-# 遍历视频
 for video_file in os.listdir(video_dir):
     if not video_file.endswith(".mp4"):
         continue
@@ -91,7 +89,7 @@ for video_file in os.listdir(video_dir):
     audio_output_json = os.path.join(audio_output_dir, f"{base_name}.json")
 
     if os.path.exists(audio_output_json):
-        print(f"⏩ 跳过 {video_file}，结果文件已存在：{audio_output_json}")
+        print(f"Skipping {video_file}, result file already exists: {audio_output_json}")
         continue
     if not os.path.exists(chunk_json_path):
         print(f"[SKIP] Chunk json not found for {video_file}")
@@ -105,7 +103,7 @@ for video_file in os.listdir(video_dir):
 
     results = []
     for i, (start, end) in enumerate(chunks):
-        print(f"正在处理 {video_file} 的 audio chunk {i}: {start} - {end}")
+        print(f"Processing {video_file} audio chunk {i}: {start} - {end}")
 
         chunk_file = os.path.join(audio_tmp_dir, f"{base_name}_{i}.aac")
         chunk_file = extract_audio_chunk(video_path, start, end, chunk_file)
@@ -138,10 +136,9 @@ for video_file in os.listdir(video_dir):
             "audio_caption": caption
         })
 
-        # 保存 token 消耗日志
         if hasattr(response, "usage_metadata"):
             log_token_usage(video_file, i, response.usage_metadata)
 
     with open(audio_output_json, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
-    print(f"✅ {video_file} 完成，结果已保存到 {audio_output_json}")
+    print(f"{video_file} completed, results saved to {audio_output_json}")

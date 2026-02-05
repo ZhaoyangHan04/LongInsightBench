@@ -14,7 +14,6 @@ class SimpleScorer:
 
     @torch.no_grad()
     def ppl(self, text: str) -> float:
-        """普通 PPL"""
         if not text.strip():
             return 1.0
         enc = self.tokenizer(text, return_tensors="pt")
@@ -24,8 +23,7 @@ class SimpleScorer:
         return math.exp(loss)
 
     @torch.no_grad()
-    def ppl_conditional(self, q: str, d: str) -> float:
-        """条件 PPL：只计算 q 的 loss"""
+    def ppl_conditional(self, q: str, d: str) -> float: 
         if not q.strip():
             return 1.0
         dq = (d + " " + q).strip() if d.strip() else q
@@ -35,7 +33,6 @@ class SimpleScorer:
         q_ids = self.tokenizer(q, return_tensors="pt")["input_ids"]
         q_len = q_ids.size(1)
 
-        # mask 掉 d，只保留 q 的 token
         labels = torch.full_like(ids_all, -100)
         labels[:, -q_len:] = ids_all[:, -q_len:]
 
@@ -44,7 +41,6 @@ class SimpleScorer:
         loss = outputs.loss.item()
         return math.exp(loss)
 
-    # ----- MoC 指标 -----
     def bc(self, q: str, d: str) -> float:
         """Boundary Clarity"""
         base = self.ppl(q)
@@ -59,7 +55,6 @@ class SimpleScorer:
         return float(min(1.0, max(0.0, val)))
 
 
-# --------- BC & CS 的计算函数 ---------
 def bc_per_boundary(chunks: List[str], scorer: SimpleScorer) -> List[float]:
     return [scorer.bc(chunks[i+1], chunks[i]) for i in range(len(chunks)-1)]
 
@@ -82,7 +77,7 @@ def compute_cs(chunks: List[str], scorer: SimpleScorer,
                 w = max(scorer.edge(chunks[j], chunks[i]),
                         scorer.edge(chunks[i], chunks[j]))
                 add_edge(i, j, w)
-    else:  # sequential
+    else:
         for i in range(n-1):
             w = max(scorer.edge(chunks[i+1], chunks[i]),
                     scorer.edge(chunks[i], chunks[i+1]))

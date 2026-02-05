@@ -16,7 +16,7 @@ thinking_budget = 0
 
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_PATH,
-    torch_dtype=torch.bfloat16,  #不能用float16，否则只会输出一堆感叹号!!!!!
+    torch_dtype=torch.bfloat16,
     trust_remote_code=True
 ).cuda()
 model.eval()
@@ -98,7 +98,6 @@ def generate_captions(video_path, chunks_json_path, num_frames=8):
 
     i = 0
     while i < len(chunks):
-        # 一次处理3个chunk
         batch_chunks = chunks[i:i+3]
         captions_batch = []
         for start_str, end_str in batch_chunks:
@@ -128,10 +127,7 @@ if __name__ == "__main__":
     base_video_dir = "./clean_data_for_caption/videos"
     base_json_dir  = "./clean_data_for_caption/clean_chunks"
     base_out_dir   = f"./caption_result/v_caption/{model_name}"
-    
-    categories = ["political_interviews", "science_explainers", "ted_talks", "sports_talk_shows", "camping", 
-                  "celebrity_interviews", "travel_vlogs", "hiking", "chemistry", "expert_interviews", 
-                  "film_trailers", "physics", "biology", "academic_lectures", "astronomy", "software_tutorials", "ai_concepts"]
+    categories = []
 
     for category in categories:
         video_dir = os.path.join(base_video_dir, category)
@@ -146,7 +142,6 @@ if __name__ == "__main__":
             idx = os.path.basename(video_path).replace(".mp4", "")
             out_path = os.path.join(out_dir, f"{idx}.json")
 
-            # 续跑
             if os.path.exists(out_path):
                 continue
 

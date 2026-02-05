@@ -17,7 +17,6 @@ WAV_MAX_VALUE = 32768.0
 def get_num_segments(audio_length, audio_segment_length):
   num_segments = int(audio_length // audio_segment_length)
 
-  # allows extra frame only if the midpoint is an available to extract video frames
   if (audio_length % audio_segment_length) - BUFFER_FROM_END > (
       audio_segment_length / 2.0
   ):
@@ -69,7 +68,6 @@ def make_spectrogram(waveform, sample_rate=16000):
   except ImportError as e:
     raise ValueError("Librosa must be install for audio pre-processing", e)
 
-  # Parameters we manually selected for sound quality
   params = {
     'n_fft': 1024,
     'hop_length': 256,
@@ -97,7 +95,6 @@ def extract_spectrograms_from_audio(
     0, num_segments * audio_segment_length, num_segments + 1
   ).tolist()
 
-  # Pad to max time just in case, crop if longer
   max_samples = int(sampling_rate * num_segments * audio_segment_length)
   if waveform.size < max_samples:
     waveform = np.concatenate(
@@ -105,7 +102,6 @@ def extract_spectrograms_from_audio(
     )
   waveform = waveform[:max_samples]
 
-  # split waveform into segments
   spectrograms = []
   for i in range(num_segments):
     if audio_segment_length <= spectrogram_length:
@@ -133,17 +129,15 @@ def extract_spectrograms_from_audio(
       end = start + int(sampling_rate * spectrogram_length)
       waveform_segment = waveform[start:end]
 
-    # Create spectrogram from waveform
     spectrogram = make_spectrogram(
       waveform_segment, sampling_rate,
-    )  # shape (128, 256)
+    )
     spectrograms.append(spectrogram)
 
   if len(spectrograms) == 0:
     assert num_segments == 0
     raise ValueError("Couldn't make spectrograms: num_segments is 0")
 
-  # (N,128,256) is (# of segments, # of mel bands in spectrogram, # of hops in spectrogram)
   spectrograms = np.stack(spectrograms).astype(np.float32)
   assert spectrograms.shape[1:] == (128, 256)
   return spectrograms

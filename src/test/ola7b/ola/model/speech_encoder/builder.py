@@ -9,5 +9,5 @@ def build_speech_encoder(config):
         return DualWrappedEncoder(config)
     elif "none" in speech_encoder_type.lower():
         return None
-    
+
     raise ValueError(f'Unknown speech encoder: {speech_encoder_type}')

@@ -18,13 +18,13 @@ class MLP(nn.Module):
     self.fc1 = nn.Linear(config.emb_dim, config.mlp_dim, bias=True)
     self.gelu = nn.GELU(approximate='none')
     self.fc2 = nn.Linear(config.mlp_dim, config.emb_dim, bias=True)
-  
+
   def forward(self, x):
     x = self.fc1(x)
     x = self.gelu(x)
     x = self.fc2(x)
     return x
-  
+
 
 class MultiHeadDotProductAttention(nn.Module):
   def __init__(
@@ -33,7 +33,7 @@ class MultiHeadDotProductAttention(nn.Module):
       num_heads: int,
       head_dim: int,
       dropout_rate: float = 0.,
-      float32_logits: bool = False  # computes logits in float32 for stability.
+      float32_logits: bool = False
   ):
     super().__init__()
     self.num_heads = num_heads
@@ -52,14 +52,9 @@ class MultiHeadDotProductAttention(nn.Module):
 
     self.attn_drop = layers.Dropout(dropout_rate, broadcast_dims=(-2, ))
     self.out_proj = nn.Linear(emb_dim, emb_dim, bias=True)
-  
+
   def forward(self, inputs_q, inputs_kv, attn_mask: Optional[torch.Tensor] = None):
-    # inputs_q: [batch_size, len_q, emb_dim]
-    # inputs_kv: [batch_size, len_kv, emb_dim]
-    # attn_mask: [batch_size, num_heads, len_q, len_kv]
-    
-    # Project inputs_q/inputs_kv to multi-headed q/k/v
-    # dimensions are then [batch, len, num_heads, head_dim]
+
     bs, q_len, emb_dim = inputs_q.shape
     kv_len = inputs_kv.shape[1]
     query = F.linear(inputs_q, self.query_in_proj_weight, self.query_in_proj_bias).reshape(
@@ -75,9 +70,8 @@ class MultiHeadDotProductAttention(nn.Module):
     if self.float32_logits:
       query = query.to(torch.float32)
       key = key.to(torch.float32)
-    
+
     query = query * self.scale
-    # `attn_weights`: [batch, num_heads, len_q, len_kv]
     attn_weights = torch.einsum("bqhd,bkhd->bhqk", query, key)
 
     if attn_mask is not None:
@@ -85,13 +79,11 @@ class MultiHeadDotProductAttention(nn.Module):
       new_attn_mask.masked_fill_(~(attn_mask > 0), -1e10)
       attn_mask = new_attn_mask
       attn_weights += attn_mask
-    
+
     attn_weights = F.softmax(attn_weights, dim=-1).to(inputs_q.dtype)
     attn_weights = self.attn_drop(attn_weights)
 
-    # `attn_out`: [batch, len_q, num_heads, head_dim]
     attn_out = torch.einsum("bhqk,bkhd->bqhd", attn_weights, value)
-    # `out`: [batch, len_q, emb_dim]
     out = self.out_proj(attn_out.reshape(bs, q_len, emb_dim))
 
     return out
@@ -107,12 +99,10 @@ class ResidualAttentionBlock(nn.Module):
         config.num_heads,
         config.head_dim,
         config.dropout_rate,
-        # The uio2 jax code did not use this parameter.
-        # float32_logits=config.float32_attention_logits
     )
     self.ln_2 = nn.LayerNorm(config.emb_dim, eps=1e-5)
     self.mlp = MLP(config)
-  
+
   def forward(self, x, attn_mask):
     x1 = self.ln_1(x)
     x2 = self.attn(x1, x1, attn_mask)
@@ -132,7 +122,7 @@ class Transformer(nn.Module):
     for i in range(config.num_layers):
       resblocks.append(ResidualAttentionBlock(config))
     self.resblocks = nn.ModuleList(resblocks)
-  
+
   def forward(self, x: torch.Tensor, attn_mask: Optional[torch.Tensor] = None):
     xs = []
     for r in self.resblocks:
@@ -166,12 +156,9 @@ class VisionTransformer(nn.Module):
     pos_emb = pos_emb.reshape(
       (int(math.sqrt(pos_emb.shape[0])), int(math.sqrt(pos_emb.shape[0])), pos_emb.shape[1])
     )
-    
+
     (patch_num_0, patch_num_1) = patch_num
-    # assert patch_num_0 == self.config.patch_size and patch_num_1 == self.config.patch_size_1
     if pos_emb.shape[0] != patch_num_0 or pos_emb.shape[1] != patch_num_1:
-      # Dervied from https://github.com/facebookresearch/mae/blob/main/util/pos_embed.py
-      # antialias: default True in jax.image.resize
       pos_emb = pos_emb.unsqueeze(0).permute(0, 3, 1, 2)
       pos_emb = F.interpolate(
         pos_emb, size=(patch_num_0, patch_num_1), mode="bicubic", align_corners=False, antialias=True,
@@ -181,7 +168,7 @@ class VisionTransformer(nn.Module):
     pos_emb = pos_emb.reshape(-1, pos_emb.shape[-1])[pos_ids]
     x = x + torch.cat([_expand_token(cls_emb, x.shape[0]), pos_emb], dim=1).to(x.dtype)
     return x
-  
+
   def forward(self, x, mask, pos_ids, *, patch_num: Any = (16, 16)):
     B = x.shape[0]
     x = self.embedding(x)
@@ -197,7 +184,6 @@ class VisionTransformer(nn.Module):
 
     x, xs = self.transformer(x, attn_mask)
 
-    # remove the cls token
     x = x[:, 1:, :]
 
     x1 = xs[1][:, 1:, :]
@@ -211,7 +197,7 @@ class ImageFeature(nn.Module):
     super().__init__()
     self.config = config
     self.vision_transformer = VisionTransformer(config)
-    
+
   def forward(self, x, mask, pos_ids, *, patch_num: Any = (16, 16)):
     x, x1 = self.vision_transformer(x, mask, pos_ids, patch_num=patch_num)
     return x, x1

@@ -58,7 +58,6 @@ class ModelWorker:
         self.worker_addr = worker_addr
         self.worker_id = worker_id
 
-        # Select backend
         backend = RuntimeEndpoint(sgl_endpoint)
         sgl.set_default_backend(backend)
         model_path = backend.model_info["model_path"]
@@ -139,11 +138,6 @@ class ModelWorker:
 
                 images = [load_image_from_base64(image) for image in images]
 
-                # FIXME: for image-start/end token
-                # replace_token = DEFAULT_IMAGE_TOKEN
-                # if getattr(self.model.config, 'mm_use_im_start_end', False):
-                #     replace_token = DEFAULT_IM_START_TOKEN + replace_token + DEFAULT_IM_END_TOKEN
-                # prompt = prompt.replace(DEFAULT_IMAGE_TOKEN, replace_token)
                 prompt = prompt.replace(' ' + DEFAULT_IMAGE_TOKEN + '\n', DEFAULT_IMAGE_TOKEN)
                 prompt_split = prompt.split(DEFAULT_IMAGE_TOKEN)
                 prompt = []
@@ -156,7 +150,6 @@ class ModelWorker:
 
         temperature = float(params.get("temperature", 1.0))
         top_p = float(params.get("top_p", 1.0))
-        # max_context_length = getattr(model.config, 'max_position_embeddings', 2048)
         max_new_tokens = min(int(params.get("max_new_tokens", 256)), 1024)
         stop_str = params.get("stop", None)
         stop_str = [stop_str] if stop_str is not None else None

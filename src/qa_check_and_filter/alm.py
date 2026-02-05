@@ -6,9 +6,6 @@ import soundfile as sf
 from tqdm import tqdm
 from transformers import AutoProcessor, Qwen2AudioForConditionalGeneration
 
-# -----------------------------
-# 模型初始化
-# -----------------------------
 audio_model_path = "./models/Qwen2-Audio-7B-Instruct"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -19,9 +16,6 @@ model = Qwen2AudioForConditionalGeneration.from_pretrained(
     torch_dtype=torch.float16
 )
 
-# -----------------------------
-# Prompt
-# -----------------------------
 QA_PROMPT_TEMPLATE = """
 You are given an audio clip and a question with multiple-choice answers.
 
@@ -38,15 +32,10 @@ Options:
 {options}
 """
 
-# -----------------------------
-# 批处理函数
-# -----------------------------
 def run_audio_qa(audio_path, qa_json_path):
-    # 读取音频
     audio_array, sampling_rate = sf.read(audio_path)
     audio_array = audio_array.astype("float32").squeeze()
 
-    # 读取 QA
     with open(qa_json_path, "r", encoding="utf-8") as f:
         qa_data = json.load(f)
 
@@ -56,7 +45,6 @@ def run_audio_qa(audio_path, qa_json_path):
         options_text = "\n".join(qa["options"])
         prompt = QA_PROMPT_TEMPLATE.format(question=q_text, options=options_text)
 
-        # 构造消息
         messages = [
             {"role": "system", "content": [{"type": "text", "text": "You are a helpful assistant for answering multiple-choice questions."}]},
             {"role": "user", "content": [{"type": "audio", "audio": audio_path},
@@ -72,7 +60,6 @@ def run_audio_qa(audio_path, qa_json_path):
             return_tensors="pt"
         ).to(device)
 
-        # 生成
         with torch.no_grad():
             output_ids = model.generate(**inputs, max_new_tokens=256)
 
@@ -91,13 +78,9 @@ def run_audio_qa(audio_path, qa_json_path):
     return results
 
 
-# -----------------------------
-# 主函数
-# -----------------------------
 if __name__ == "__main__":
-    current_task = "6cross_event_causality" #6cross_event_causality
-    categories = ["expert_interviews", "celebrity_interviews", "political_interviews", "sports_talk_shows", "ted_talks", "travel_vlogs", "ai_concepts", "physics", "biology", "academic_lectures", "astronomy", "camping", "chemistry", "film_trailers", "hiking", "science_explainers", "software_tutorials"]
-    
+    current_task = ""
+    categories = []
     for category in categories:
         print(f"\n=== Processing category: {category} ===")
         audio_dir = f"./clean_data_for_caption/audios/{category}"
@@ -112,7 +95,6 @@ if __name__ == "__main__":
             qa_path = os.path.join(qa_dir, f"{idx}.json")
             out_path = os.path.join(out_dir, f"{idx}.json")
 
-            # 跳过已存在的
             if os.path.exists(out_path):
                 continue
 

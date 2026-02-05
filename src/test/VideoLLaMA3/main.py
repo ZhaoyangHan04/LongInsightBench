@@ -8,7 +8,6 @@ import tempfile
 import numpy as np
 import subprocess
 
-# ====== 初始化模型 ======
 MODEL_PATH = "./models/VideoLLaMA3-7B"
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_PATH,
@@ -20,7 +19,6 @@ model = AutoModelForCausalLM.from_pretrained(
 processor = AutoProcessor.from_pretrained(MODEL_PATH, trust_remote_code=True)
 USE_AUDIO_IN_VIDEO = True
 
-# ====== 文件路径 ======
 current_tasks = ["1intra_event_reasoning", "3audio_visual_alignment", "5topic_stance_evolution_summarization", "4timeline_reconstruction", "6cross_event_causality", "2multimodal_temporal_localization"]
 for current_task in current_tasks:
     INPUT_FILE = f"./final_qa_subset/{current_task}.json"
@@ -28,14 +26,12 @@ for current_task in current_tasks:
     VIDEO_ROOT = "./datasets/finevideo/videos"
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
-    # ====== 读取已有结果 ======
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             results = json.load(f)
     else:
         results = {}
 
-    # ====== 读取 QA 数据 ======
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         qa_data = json.load(f)
 
@@ -64,14 +60,13 @@ for current_task in current_tasks:
             category, idx = video_id.rsplit("_", 1)
             video_path = os.path.join(VIDEO_ROOT, category, f"sample_{idx}.mp4")
         except Exception as e:
-            print(f"⚠️ 无法解析 videoID: {video_id}, 跳过。异常: {e}")
+            print(f"Cannot parse videoID: {video_id}, skipping. Exception: {e}")
             continue
 
         if not os.path.exists(video_path):
-            print(f"⚠️ 视频不存在: {video_path}")
+            print(f"Video does not exist: {video_path}")
             continue
 
-        # ====== 构造 messages ======
         messages = [
             {"role": "system", "content": [{"type": "text", "text": SYSTEM_PROMPT}]},
             {
@@ -101,4 +96,4 @@ for current_task in current_tasks:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ 完成推理，结果已保存到 {OUTPUT_FILE}")
+    print(f"Inference completed, results saved to {OUTPUT_FILE}")

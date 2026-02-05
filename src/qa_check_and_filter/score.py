@@ -49,20 +49,18 @@ event_root = f"./event_lists"
 output_file = f"./qa_scored/{current_task}.json"
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-# 读取QA数据
 with open(qa_file, "r", encoding="utf-8") as f:
     qa_data = json.load(f)
 
-# 如果有历史结果，就读进来
 scored_data = {}
 if os.path.exists(output_file):
     with open(output_file, "r", encoding="utf-8") as f:
         try:
             old = json.load(f)
             scored_data = {qa["question_id"]: qa for qa in old}
-            print(f"🔄 已加载已有结果 {len(scored_data)} 条，将跳过这些QA")
+            print(f"Loaded existing results {len(scored_data)} items, will skip these QAs")
         except json.JSONDecodeError:
-            print("⚠️ 输出文件损坏，重新开始评分")
+            print("Output file corrupted, restarting scoring")
 
 def load_event_clip(category, idx, required_event_ids):
     path = os.path.join(event_root, category, f"sample_{idx}.json")
@@ -104,11 +102,10 @@ def judge_with_gpt(video_caption, audio_caption, qa):
     )
     return result
 
-# 逐个处理
 for qa in tqdm(qa_data, desc="Scoring QA pairs"):
     qid = qa["question_id"]
     if qid in scored_data:
-        continue  # 跳过已评分
+        continue
 
     videoID = qa["related_videoID"]
     parts = videoID.split("_")
@@ -129,8 +126,7 @@ for qa in tqdm(qa_data, desc="Scoring QA pairs"):
 
     scored_data[qid] = qa
 
-    # 每个评分完就写入文件
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(list(scored_data.values()), f, ensure_ascii=False, indent=2)
 
-print(f"✅ 已完成评分，共 {len(scored_data)} 条，保存到 {output_file}")
+print(f"Scoring completed, total {len(scored_data)} items, saved to {output_file}")

@@ -4,16 +4,10 @@ import os
 import json
 
 def sentence_split(text):
-    """中英文通用的分句"""
-    # 保留中英文标点作为句子分隔符
     sentences = re.split(r'(?<=[。！？.!?])\s*', text.strip())
     return [s for s in sentences if s]
 
 def find_best_match(sentence_list, target, threshold=70):
-    """
-    在句子列表中找到与 target 最相似的句子索引
-    使用 partial_ratio，提高鲁棒性
-    """
     best_idx, best_score = -1, 0
     for i, sent in enumerate(sentence_list):
         score = fuzz.partial_ratio(sent.lower(), target.lower())
@@ -22,18 +16,13 @@ def find_best_match(sentence_list, target, threshold=70):
     return best_idx if best_score >= threshold else -1
 
 def split_text_by_borders_aligned(text, borders, threshold=60):
-    """
-    根据 borders 切分文本，但保证切分点落在标点符号后面（避免截断句子/单词）
-    """
     cut_positions = []
     lower_text = text.lower()
 
     for border in borders:
         start_candidate = border[0].lower()
-        # 在原文中找位置
         match_pos = lower_text.find(start_candidate)
         if match_pos == -1:
-            # fallback: 用 rapidfuzz 找
             match, score, pos = process.extractOne(
                 start_candidate,
                 [lower_text[i:i+len(start_candidate)+50] for i in range(len(lower_text)-len(start_candidate))],
@@ -45,17 +34,14 @@ def split_text_by_borders_aligned(text, borders, threshold=60):
                 print(f"[WARN] Border not matched: {border[0][:30]}...")
                 continue
 
-        # 🚩 向前找最近的标点符号，避免切在单词中间
         punctuation = "。！？.!?"
         while match_pos > 0 and text[match_pos] not in punctuation:
             match_pos -= 1
         if match_pos > 0:
-            cut_positions.append(match_pos + 1)  # 切在标点之后
+            cut_positions.append(match_pos + 1)
 
-    # 排序，去重
     cut_positions = sorted(set(cut_positions))
 
-    # 按位置切分
     chunks = []
     prev = 0
     for pos in cut_positions:
@@ -63,11 +49,9 @@ def split_text_by_borders_aligned(text, borders, threshold=60):
         if chunk_text:
             chunks.append({"text": chunk_text})
         prev = pos
-    # 最后一段
     if prev < len(text):
         chunks.append({"text": text[prev:].strip()})
 
-    # 一致性检查
     expected = len(borders) + 1
     if len(chunks) != expected:
         print(f"[WARN] Expected {expected} chunks, got {len(chunks)}")
@@ -94,8 +78,7 @@ def main():
 
             borders = sample["borders"]
 
-            # 从 metadata 读取原始文本
-            filename = os.path.basename(file_path)  # e.g. sample_160.json
+            filename = os.path.basename(file_path)
             meta_path = os.path.join(base_metadata_dir, category, filename)
 
             if not os.path.exists(meta_path):
@@ -112,12 +95,10 @@ def main():
 
             chunks = split_text_by_borders_aligned(text, borders)
 
-            # ⚡ 删除旧的 chunks，写入新的
             if "chunks" in sample:
                 del sample["chunks"]
             sample["chunks"] = chunks
 
-            # 写回原文件
             with open(file_path, "w", encoding="utf-8") as f:
                 json.dump(sample, f, ensure_ascii=False, indent=2)
 

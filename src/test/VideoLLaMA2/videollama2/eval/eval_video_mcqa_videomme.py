@@ -86,7 +86,7 @@ def extract_characters_regex(s):
 
 
 def eval_your_results(
-        your_results_path: str, 
+        your_results_path: str,
         video_types: Optional[Union[List[str], str]] = None,
         skip_missing: Optional[bool] = True,
         return_categories_accuracy: Optional[bool] = True,
@@ -110,7 +110,6 @@ def eval_your_results(
     - your_answer_key (Optional[str]): Key to access your answer in the results file.
     """
 
-    # Load your results
     with open(your_results_path, 'r') as f:
         your_results = json.load(f)
 
@@ -124,25 +123,21 @@ def eval_your_results(
 
     for video_type in video_types:
 
-        # Filter your results based on video types
         your_results_video_type = [item for item in your_results if item["duration"] == video_type]
 
-        # Task Categories
         q_type_dict[video_type] = {}
         for q_type in TASK_CATEGORIES:
             q_type_dict[video_type][q_type] = {"correct": 0, "answered": 0}
 
-        # Video categories
         v_type_dict[video_type] = {}
         for v_type in CATEGORIES:
             v_type_dict[video_type][v_type] = {"correct": 0, "answered": 0}
-        
+
         v_sub_type_dict[video_type] = {}
         for v_sub_type in SUB_CATEGORIES:
             v_sub_type_dict[video_type][v_sub_type] = {"correct": 0, "answered": 0}
 
         if not skip_missing:
-            # Check if the number of files in your results and ground truth are the same
             assert len(your_results_video_type) == 300, f"Number of files in {video_type} is not 300. Check if there are missing files."
 
         for item in your_results_video_type:
@@ -150,22 +145,19 @@ def eval_your_results(
             if skip_missing and item["missing"]:
                 continue
 
-            # Get the video category, sub category and question category
             video_category = item["domain"]
             video_sub_category = item["sub_category"]
-            
+
             questions = item["questions"]
 
             for question in questions:
                 q_type = question["task_type"]
 
-                # Get the ground truth and your response
                 gt_answer = question[gt_answer_key]
                 response = question[your_answer_key]
 
-                # Extract the answer from the response
                 extration = extract_characters_regex(response)
-    
+
                 if extration != "":
                     q_type_dict[video_type][q_type]["answered"] += 1
                     q_type_dict[video_type][q_type]["correct"] += extration == gt_answer
@@ -177,7 +169,6 @@ def eval_your_results(
                     v_sub_type_dict[video_type][video_sub_category]["correct"] += extration == gt_answer
 
 
-    # Print the results for each video type
     for video_type in video_types:
 
         print("=====================================")
@@ -201,7 +192,7 @@ def eval_your_results(
             print("-------------------------------------")
             for q_type in q_type_dict[video_type]:
                 print(f"{q_type}: {100 * q_type_dict[video_type][q_type]['correct'] / q_type_dict[video_type][q_type]['answered'] if q_type_dict[video_type][q_type]['answered'] > 0 else 0 : .1f}%")
-        
+
         print("-------------------------------------")
         print("Overall Performance")
         print("-------------------------------------")
@@ -211,7 +202,6 @@ def eval_your_results(
 
         print("\n")
 
-    # Print the results for the entire dataset
     print("=====================================")
     print("Evaluation on the entire dataset")
     print("=====================================")
@@ -224,7 +214,7 @@ def eval_your_results(
             total_correct = sum([v_type_dict[video_type][v_type]["correct"] for video_type in video_types])
             total_answered = sum([v_type_dict[video_type][v_type]["answered"] for video_type in video_types])
             print(f"{v_type}: {100 * total_correct / total_answered if total_answered > 0 else 0 : .1f}%")
-    
+
 
     if return_sub_categories_accuracy:
         print("-------------------------------------")
@@ -268,7 +258,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     eval_your_results(
-        args.results_file, 
+        args.results_file,
         video_types=args.video_duration_type,
         skip_missing=args.skip_missing,
         return_categories_accuracy=args.return_categories_accuracy,

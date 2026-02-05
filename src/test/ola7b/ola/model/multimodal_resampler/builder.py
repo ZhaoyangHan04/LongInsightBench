@@ -12,7 +12,6 @@ class IdentityMap(torch.nn.Module):
         return {"mm_resampler_type": None}
 
 def build_vision_resampler(model_args, delay_load=False, **kwargs):
-    # import pdb;pdb.set_trace()
     resampler_type = getattr(model_args, 'mm_resampler_type', None)
     if resampler_type is None:
         return IdentityMap()

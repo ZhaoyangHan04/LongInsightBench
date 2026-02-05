@@ -3,35 +3,24 @@ import re
 import os
 
 def parse_model_output_universal(text):
-    """
-    通用解析器：
-    1) 支持 "answer": ["A","B"], "reason": ...
-    2) 支持 answer: [A, B]\nreason: ...
-    3) 支持多个 "answer"/"reason" 重复拼接
-    """
+    
     if not isinstance(text, str):
         return None, None
 
     answers = []
     reasons = []
 
-    # ===== 1. 提取所有 answer =====
-    # 匹配 ["A", "B"] 或 [A, B] 或单个字母
     for match in re.finditer(r'["“]?answer["”]?\s*[:：]\s*(\[.*?\]|[A-Z])',
                              text, re.IGNORECASE | re.DOTALL):
         raw = match.group(1).strip()
 
-        # 如果是 list
         if raw.startswith("["):
             letters = re.findall(r'\b([A-Z])\b', raw)
             answers.extend(letters)
         else:
-            # 单个字母
             if re.match(r'^[A-Z]$', raw):
                 answers.append(raw)
 
-    # ===== 2. 提取所有 reason =====
-    # 匹配 "reason": ... 一直到下一个 "answer" 或文本结束
     for match in re.finditer(
         r'["“]?reason["”]?\s*[:：]\s*(.*?)(?=(["“]?answer["”]?\s*[:：]|$))',
         text, re.IGNORECASE | re.DOTALL):
@@ -40,7 +29,6 @@ def parse_model_output_universal(text):
         if reason_raw:
             reasons.append(reason_raw)
 
-    # ===== 3. 整理结果 =====
     answers = sorted(set(answers)) if answers else None
     reason_text = "\n".join(reasons) if reasons else None
 

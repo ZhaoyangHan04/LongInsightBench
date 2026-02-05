@@ -117,19 +117,16 @@ def regenerate(state, image_process_mode, request: gr.Request):
     if type(prev_human_msg[1]) in (tuple, list):
         prev_human_msg[1] = (*prev_human_msg[1][:2], image_process_mode)
     state.skip_next = False
-    # (state, chatbot, textbox, imagebox, videobox, upvote, downvote, flag, generate, clear)
     return (state, state.to_gradio_chatbot(), "", None, None) + (disable_btn,) * 5
 
 
 def clear_history(request: gr.Request):
     logger.info(f"clear_history. ip: {request.client.host}")
     state = default_conversation.copy()
-    # (state, chatbot, textbox, imagebox, videobox, upvote, downvote, flag, generate, clear)
     return (state, state.to_gradio_chatbot(), "", None, None) + (disable_btn,) * 5
 
 
 def add_text_ori(state, text, image, video, image_process_mode, request: gr.Request):
-    # note: imagebox itself is PIL object while videobox is filepath
     logger.info(f"add_text. ip: {request.client.host}. len: {len(text)}")
     if len(text) <= 0 and image is None:
         state.skip_next = True
@@ -141,12 +138,10 @@ def add_text_ori(state, text, image, video, image_process_mode, request: gr.Requ
             return (state, state.to_gradio_chatbot(), moderation_msg, None) + (
                 no_change_btn,) * 5
     assert image is None or video is None, "Please don't feed image and video inputs at the same time!!!"
-    text = text[:1536]  # Hard cut-off
+    text = text[:1536]
     if image is not None:
-        # here image is the PIL object itself
-        text = text[:1200]  # Hard cut-off for images
+        text = text[:1200]
         if '<image>' not in text:
-            # text = '<Image><image></Image>' + text
             text = text + '\n<image>'
         text = (text, image, image_process_mode)
         if len(state.get_images(return_pil=True)) > 0:
@@ -154,10 +149,8 @@ def add_text_ori(state, text, image, video, image_process_mode, request: gr.Requ
         state.modality = "image"
     if video is not None:
         print("Video box:", video)
-        # here video is the file path of video
-        text = text[:1200]  # Hard cut-off for images
+        text = text[:1200]
         if '<video>' not in text:
-            # text = '<Image><image></Image>' + text
             text = text + '\n<video>'
         text = (text, video, image_process_mode)
         if len(state.get_videos(return_pil=True)) > 0:
@@ -167,14 +160,12 @@ def add_text_ori(state, text, image, video, image_process_mode, request: gr.Requ
     state.append_message(state.roles[0], text)
     state.append_message(state.roles[1], None)
     state.skip_next = False
-    # (state, chatbot, textbox, imagebox, videobox, upvote, downvote, flag, generate, clear)
     return (state, state.to_gradio_chatbot(), "", None, None) + (disable_btn,) * 5
 
 
 def add_text(state, text, image, video, image_process_mode, request: gr.Request):
     logger.info(f"add_text. ip: {request.client.host}. len: {len(text)}")
 
-    # if input is new video or image ,reset the state
     if image is not None or video is not None:
         state = default_conversation.copy()
 
@@ -188,26 +179,24 @@ def add_text(state, text, image, video, image_process_mode, request: gr.Request)
             state.skip_next = True
             return (state, state.to_gradio_chatbot(), moderation_msg, None) + (no_change_btn,) * 5
 
-    # process the input video
     if video is not None:
-        text = text[:1200]  # 
+        text = text[:1200]
         if '<video>' not in text:
             text = text + '\n<video>'
         text = (text, video, image_process_mode)
         state.modality = "video"
-    # process the input image
     elif image is not None:
-        text = text[:1200]  # 
+        text = text[:1200]
         if '<image>' not in text:
             text = text + '\n<image>'
         text = (text, image, image_process_mode)
         state.modality = "image"
     elif state.modality == "image" and len(text)>0:
-        state.modality = "image_text"  
-        text = text[:1536]  # Hard cut-off
+        state.modality = "image_text"
+        text = text[:1536]
     elif state.modality == "video" and len(text)>0:
-        state.modality = "video_text"  
-        text = text[:1536]  # Hard cut-off
+        state.modality = "video_text"
+        text = text[:1536]
 
     state.append_message(state.roles[0], text)
     state.append_message(state.roles[1], None)
@@ -222,12 +211,10 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
     model_name = model_selector
 
     if state.skip_next:
-        # This generate call is skipped due to invalid inputs
         yield (state, state.to_gradio_chatbot()) + (no_change_btn,) * 5
         return
 
     if len(state.messages) == state.offset + 2:
-        # First round of conversation
         if "llava" in model_name.lower():
             if 'llama-2' in model_name.lower():
                 template_name = "llava_llama2"
@@ -256,25 +243,22 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
         new_state.modality = state.modality
         state = new_state
 
-    # Query worker address
     controller_url = args.controller_url
     ret = requests.post(controller_url + "/get_worker_address",
             json={"model": model_name})
     worker_addr = ret.json()["address"]
     logger.info(f"model_name: {model_name}, worker_addr: {worker_addr}")
 
-    # No available worker
     if worker_addr == "":
         state.messages[-1][-1] = server_error_msg
         yield (state, state.to_gradio_chatbot(), disable_btn, disable_btn, disable_btn, enable_btn, enable_btn)
         return
 
-    # Construct prompt
     prompt = state.get_prompt()
     if state.modality == "image" or state.modality == "image_text":
-        all_images = state.get_images(return_pil=True) # return PIL.Image object
+        all_images = state.get_images(return_pil=True)
     elif state.modality == "video" or state.modality == "video_text":
-        all_images = state.get_videos(return_pil=True) # return video frames where each frame is a PIL.Image object
+        all_images = state.get_videos(return_pil=True)
     all_image_hash = [hashlib.md5(image.tobytes()).hexdigest() for image in all_images]
     for idx, (image, hash) in enumerate(zip(all_images, all_image_hash)):
         t = datetime.datetime.now()
@@ -286,7 +270,6 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
             os.makedirs(os.path.dirname(filename), exist_ok=True)
             image.save(filename)
 
-    # Make requests
     pload = {
         "model": model_name,
         "prompt": prompt,
@@ -294,7 +277,6 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
         "top_p": float(top_p),
         "max_new_tokens": min(int(max_new_tokens), 1536),
         "stop": state.sep if state.sep_style in [SeparatorStyle.SINGLE] else state.sep2,
-        #"images": f'List of {len(state.get_images())} images: {all_image_hash}',
         "images": f'List of {len(all_image_hash)} images: {all_image_hash}',
     }
     logger.info(f"==== request ====\n{pload}")
@@ -308,7 +290,6 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
     yield (state, state.to_gradio_chatbot()) + (disable_btn,) * 5
 
     try:
-        # Stream output
         response = requests.post(worker_addr + "/worker_generate_stream",
             headers=headers, json=pload, stream=True, timeout=10)
         for chunk in response.iter_lines(decode_unicode=False, delimiter=b"\0"):
@@ -342,7 +323,6 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
             "model": model_name,
             "start": round(start_tstamp, 4),
             "finish": round(start_tstamp, 4),
-            #"state": state.dict(),
             "images": all_image_hash,
             "ip": request.client.host,
         }
@@ -406,13 +386,11 @@ def build_demo(embed_mode):
                     [f"{cur_dir}/examples/desert.jpg", "If there are factual errors in the questions, point it out; if not, proceed answering the question. What’s happening in the desert?"],
                 ], inputs=[imagebox, textbox], label="Image examples")
 
-                # video example inputs
                 gr.Examples(examples=[
                 [f"{cur_dir}/examples/sample_demo_1.mp4", "Why is this video funny?"],
                 [f"{cur_dir}/examples/sample_demo_3.mp4", "Can you identify any safety hazards in this video?"],
                 [f"{cur_dir}/examples/1034346401.mp4", "What is this young woman doing?"]
                 ], inputs=[videobox, textbox], label="Video examples")
-                #[f"{cur_dir}/examples/sample_demo_9.mp4", "Describe the video in detail and please do not generate repetitive content."]
 
                 with gr.Accordion("Parameters", open=False) as parameter_row:
                     temperature = gr.Slider(minimum=0.0, maximum=1.0, value=0.2, step=0.1, interactive=True, label="Temperature",)
@@ -430,7 +408,6 @@ def build_demo(embed_mode):
                     upvote_btn = gr.Button(value="👍  Upvote", interactive=False)
                     downvote_btn = gr.Button(value="👎  Downvote", interactive=False)
                     flag_btn = gr.Button(value="⚠️  Flag", interactive=False)
-                    #stop_btn = gr.Button(value="⏹️  Stop Generation", interactive=False)
                     regenerate_btn = gr.Button(value="🔄  Regenerate", interactive=False)
                     clear_btn = gr.Button(value="🗑️  Clear", interactive=False)
 
@@ -439,7 +416,6 @@ def build_demo(embed_mode):
             gr.Markdown(learn_more_markdown)
         url_params = gr.JSON(visible=False)
 
-        # Register listeners
         btn_list = [upvote_btn, downvote_btn, flag_btn, regenerate_btn, clear_btn]
         upvote_btn.click(upvote_last_response,
             [state, model_selector], [textbox, upvote_btn, downvote_btn, flag_btn])

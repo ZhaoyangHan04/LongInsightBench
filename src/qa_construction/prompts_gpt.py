@@ -1,6 +1,3 @@
-# =============================================================================
-# Common SYSTEM_PROMPT for all tasks
-# =============================================================================
 SYSTEM_PROMPT = """
 You are a multimodal question generator specializing in video understanding.
 Your task is to create high-quality multiple-choice questions (MCQs) for video understanding.
@@ -9,9 +6,6 @@ Do not use external knowledge, hallucinated facts, or information not present in
 Each generated question must strictly follow the JSON schema below.
 """
 
-# =============================================================================
-# JSON Schema Definition
-# =============================================================================
 QUESTION_JSON_SCHEMA = {
     "type": "object",
     "properties": {
@@ -21,7 +15,7 @@ QUESTION_JSON_SCHEMA = {
                 "type": "object",
                 "properties": {
                     "question_id": {"type": "string"},
-                    "type": {"type": "string"}, # "single_choice_question" or "multiple_choice_question"
+                    "type": {"type": "string"},
                     "question": {"type": "string"},
                     "options": {
                         "type": "object",
@@ -43,7 +37,7 @@ QUESTION_JSON_SCHEMA = {
                     },
                     "correct_answer": {
                         "type": "array",
-                        "items": {"type": "string"} # Corresponds to "A", "B", "C", "D"
+                        "items": {"type": "string"}
                     },
                     "related_video_id": {"type": "string"},
                     "gold_reasoning": {"type": "string"}
@@ -60,9 +54,6 @@ QUESTION_JSON_SCHEMA = {
 }
 
 
-# =============================================================================
-# USER_PROMPT Templates for different task types
-# =============================================================================t
 INTRA_EVENT_REASONING_USER_PROMPT = """
 video_id: {video_id}
 summary: {summary}

@@ -26,16 +26,14 @@ for file in tqdm(filelist):
         target_path = file.replace('.mkv', '.wav')
     else:
         raise NotImplementedError
-    
+
     target_path = target_path.replace('/path/to/video_folder', '/path/to/audio_folder')
 
     if os.path.exists(target_path):
         continue
 
-    # create target dir
     target_dir = os.path.dirname(target_path)
     if not os.path.exists(target_dir):
         os.makedirs(target_dir)
-    
-    # convert
+
     os.system(f'ffmpeg -i {file} -ac 1 -ar 16000 -vn {target_path}')

@@ -20,13 +20,13 @@ sys.path.append('./')
 from videollama2 import model_init, mm_infer
 from videollama2.utils import disable_torch_init
 
-# NOTE: Ignore TypedStorage warning, which refers to this link~(https://github.com/pytorch/pytorch/issues/97207#issuecomment-1494781560)
+
 warnings.filterwarnings('ignore', category=UserWarning, message='TypedStorage is deprecated')
 
 
 def split_list(lst, n):
     """Split a list into n (roughly) equal-sized chunks"""
-    chunk_size = math.ceil(len(lst) / n)  # integer division
+    chunk_size = math.ceil(len(lst) / n)
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
 
 
@@ -47,16 +47,13 @@ def get_seq_frames(total_num_frames, desired_num_frames):
     list: List of indices of frames to extract.
     """
 
-    # Calculate the size of each segment from which a frame will be extracted
     seg_size = float(total_num_frames - 1) / desired_num_frames
 
     seq = []
     for i in range(desired_num_frames):
-        # Calculate the start and end indices of each segment
         start = int(np.round(seg_size * i))
         end = int(np.round(seg_size * (i + 1)))
 
-        # Append the middle index of the segment to the list
         seq.append((start + end) // 2)
 
     return seq
@@ -74,13 +71,13 @@ class VideoMMEDataset(Dataset):
 
     def __len__(self):
         return len(self.data_list)
-    
+
     def __getitem__(self, idx):
         line = self.data_list[idx]
 
         video_ytid = line['url'].split('watch?v=')[-1]
 
-        for fmt in self.video_formats:  # Added this line
+        for fmt in self.video_formats:
             temp_path = os.path.join(self.video_folder, f'{video_ytid}{fmt}')
             if os.path.exists(temp_path):
                 video_path = temp_path
@@ -135,7 +132,6 @@ def collate_fn(batch):
 def load_parquet(parquet_file):
     table = pq.read_table(parquet_file)
 
-    # Convert PyArrow Table to pandas DataFrame
     df = table.to_pandas()
 
     jsons = []
@@ -172,9 +168,7 @@ def load_parquet(parquet_file):
 
 
 def build_videomme_eval(args, processor):
-    # convert parquet to json
     questions = load_parquet(args.question_file)
-    # questions = json.load(open(args.question_file, "r"))
     questions = get_chunk(questions, args.num_chunks, args.chunk_idx)
     dataset = VideoMMEDataset(args.video_folder, args.subtitle_folder, questions, processor)
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers, collate_fn=collate_fn)
@@ -205,7 +199,6 @@ def videomme_dump(record, instruct, options, output):
         find_flag = False
         if len(pred_answer) == 0:
             for idx, opt in enumerate(options):
-                # Arabic numerals -> English words
                 opt2 = opt
                 if opt in digit2word:
                     opt2 = digit2word[opt]
@@ -230,7 +223,6 @@ def videomme_dump(record, instruct, options, output):
 def run_inference(args):
     disable_torch_init()
 
-    # Initialize the model
     model, processor, tokenizer = model_init(args.model_path)
 
     answer_file = os.path.expanduser(args.answer_file)
@@ -241,7 +233,6 @@ def run_inference(args):
 
     val_loader = build_videomme_eval(args, processor['video'])
 
-    # Iterate over each sample in the ground truth file
     for i, (videos, subtitles, records) in enumerate(tqdm(val_loader)):
         video_tensor  = videos[0]
         subtitle = subtitles[0]
@@ -270,7 +261,6 @@ def run_inference(args):
             instruct += f"{q}\n"
             for cho_idx, cho in enumerate(choices):
                 instruct += f"{cho}\n"
-            # instruct += "The best option is: "
             instruct += "Answer with the option\'s letter from the given choices directly and only give the best option. The best answer is: "
             output = mm_infer(video_tensor, instruct, model=model, tokenizer=tokenizer, modal='video', do_sample=False)
             new_record['questions'][idx]['response'] = videomme_dump(record, instruct, options, output)

@@ -1,7 +1,6 @@
 import os
 import json
 
-# 指定主文件夹路径
 root_folder = "./datasets/finevideo/metadata"
 
 count_duration = 0
@@ -21,18 +20,15 @@ for dirpath, dirnames, filenames in os.walk(root_folder):
                 with open(file_path, "r", encoding="utf-8") as f:
                     data = json.load(f)
 
-                    # 标志变量
                     duration_ok = False
                     scenes_ok = False
 
-                    # 检查 duration_seconds
                     if "duration_seconds" in data and isinstance(data["duration_seconds"], (int, float)):
                         if data["duration_seconds"] > 420:
                             duration_ok = True
                             count_duration += 1
                             files_duration.append(file_path)
 
-                    # 检查 content_metadata.scenes
                     if (
                         "content_metadata" in data
                         and "scenes" in data["content_metadata"]
@@ -43,7 +39,6 @@ for dirpath, dirnames, filenames in os.walk(root_folder):
                             count_scenes += 1
                             files_scenes.append(file_path)
 
-                    # 检查转录文本词数
                     if "timecoded_text_to_speech" in data and isinstance(data["timecoded_text_to_speech"], list):
                         full_text = "".join([seg.get("text", "") for seg in data["timecoded_text_to_speech"]])
                         word_count = len(full_text.split())
@@ -51,17 +46,16 @@ for dirpath, dirnames, filenames in os.walk(root_folder):
                             words_ok = True
                             count_words += 1
 
-                    # 3个条件同时满足
                     if duration_ok and scenes_ok and words_ok:
                         count_both += 1
                         files_both.append(file_path)
 
             except Exception as e:
-                print(f"读取文件 {file_path} 时出错: {e}")
+                print(f"Reading file {file_path} error occurred: {e}")
 
-print("\n===== 统计结果 =====")
-print(f"duration_seconds > 420 的视频数量: {count_duration}")
-print(f"scenes > 3 的视频数量: {count_scenes}")
-print(f"转录文本词数 > 500 的视频数量: {count_words}")
-print(f"同时满足3个条件的视频数量: {count_both}")
+print("\n===== Statistics =====")
+print(f"Number of videos with duration_seconds > 420: {count_duration}")
+print(f"Number of videos with scenes > 3: {count_scenes}")
+print(f"Number of videos with transcript word count > 500: {count_words}")
+print(f"Number of videos satisfying all 3 conditions: {count_both}")
 

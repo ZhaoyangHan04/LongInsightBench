@@ -105,7 +105,7 @@ elif audio_path is not None:
     modality = "text"
 
 
-# input audio and video, do not parse audio in the video, else parse audio in the video
+
 if audio_path:
     USE_SPEECH = True
 elif modality == "video":
@@ -143,7 +143,6 @@ if USE_SPEECH and audio_path:
     speech_wavs.append(speech_wav.to('cuda'))
     print('load audio')
 elif USE_SPEECH and not audio_path:
-    # parse audio in the video
     audio = extract_audio(visual)
     audio.write_audiofile("./video_audio.wav")
     video_audio_path = './video_audio.wav'
@@ -164,26 +163,26 @@ if text:
 else:
     qs = ''
 
-if USE_SPEECH and audio_path and image_path: # image + speech instruction
+if USE_SPEECH and audio_path and image_path:
     qs = DEFAULT_IMAGE_TOKEN + "\n" + "User's question in speech: " + DEFAULT_SPEECH_TOKEN + '\n'
-elif USE_SPEECH and video_path: # video + audio
+elif USE_SPEECH and video_path:
     qs = DEFAULT_SPEECH_TOKEN + DEFAULT_IMAGE_TOKEN + "\n" + qs
-elif USE_SPEECH and audio_path: # audio + text
+elif USE_SPEECH and audio_path:
     qs = DEFAULT_SPEECH_TOKEN + "\n" + qs
-elif image_path or video_path: # image / video
+elif image_path or video_path:
     qs = DEFAULT_IMAGE_TOKEN + "\n" + qs
-elif text: # text
+elif text:
     qs = qs
 
 conv = conv_templates[conv_mode].copy()
 conv.append_message(conv.roles[0], qs)
 conv.append_message(conv.roles[1], None)
 prompt = conv.get_prompt()
-if USE_SPEECH and audio_path and image_path: # image + speech instruction
+if USE_SPEECH and audio_path and image_path:
     input_ids = tokenizer_speech_question_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to('cuda')
-elif USE_SPEECH and video_path: # video + audio
+elif USE_SPEECH and video_path:
     input_ids = tokenizer_speech_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to('cuda')
-elif USE_SPEECH and audio_path: # audio + text
+elif USE_SPEECH and audio_path:
     input_ids = tokenizer_speech_token(prompt, tokenizer, SPEECH_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to('cuda')
 else:
     input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to('cuda')
@@ -199,10 +198,10 @@ if modality == "video":
             video_processed.append(frame.unsqueeze(0))
         elif frame_idx is None:
             video_processed.append(frame.unsqueeze(0))
-    
+
     if frame_idx is None:
         frame_idx = np.arange(0, len(video_processed), dtype=int).tolist()
-    
+
     video_processed = torch.cat(video_processed, dim=0).bfloat16().to("cuda")
     video_processed = (video_processed, video_processed)
 

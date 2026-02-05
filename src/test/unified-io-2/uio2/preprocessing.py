@@ -61,14 +61,11 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
     self.target_encoders = target_encoders
     self.sequence_length = sequence_length
     if isinstance(tokenizer, str):
-      # Assume a path to the tokenizer file
       tokenizer = get_tokenizer(tokenizer)
     self.tokenizer = tokenizer
-    self.config = config  # Only needed if saving the Preprocessor
+    self.config = config
 
   def to_dict(self):
-    # Our configuration does not cleanly distinguish pre-processing and model config options
-    # To avoid a significant re-write, we just dump everything as part of the pre-processor config
     if self.config is None:
       raise ValueError("Config must be given to convert to dictionary")
     out = dict(config=self.config.to_dict())
@@ -95,7 +92,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
 
       image_targets=None, audio_targets=None, text_targets=None,
 
-      # Other
       is_training=False,
   ) -> Dict[str, np.ndarray]:
     """General pre-processing function
@@ -140,14 +136,11 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
 
     features = {}
 
-    # Add the target-modality prefix which tells the model what to generate
     text_inputs = self.PREFIXES[target_modality] + text_inputs
 
     if box_inputs is not None:
-      # Need something the box references
       assert (image_inputs is not None or
               (video_inputs is not None and encode_frame_as_image is not None))
-      # To yxyx
       box_inputs = [box_inputs[1], box_inputs[0], box_inputs[3], box_inputs[2]]
       boxes = np.asarray(box_inputs, dtype=np.float32)[None, :]
     else:
@@ -158,7 +151,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
     if isinstance(image_inputs, str):
       image_inputs = self.load_image(image_inputs)
 
-    # Information about how the input image was resized
     resize_meta = None
 
     if image_history is not None:
@@ -175,7 +167,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
         raise ValueError("Asked to encode a frame as an image, but also given an image input")
       max_frame = self.sequence_length["num_frames"]
       if encode_frame_as_image is not None:
-        # image_inputs will use the last frame
         max_frame += 1
       if isinstance(video_inputs, str):
         video_inputs, video_audio = load_video(video_inputs, max_frame, use_audio=use_video_audio)
@@ -183,7 +174,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
         assert video_inputs.shape[0] <= max_frame
       assert len(video_inputs.shape) == 4 and video_inputs.shape[-1] == 3
 
-      # remove black bars
       video_inputs = remove_bars_from_frames(video_inputs, black_bar=True, threshold=16)
 
       if encode_frame_as_image is None:
@@ -195,8 +185,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
         video_inputs, video_mask, _ = resize_and_pad_default(
           video_inputs, is_training, is_input=True, is_history=True)
       else:
-        # Make sure augmentation effects the image and history in the same way
-        # by applying `resize_and_pad_default` to them in the same way
         video_inputs, video_mask, resize_meta = resize_and_pad_default(
           video_inputs, is_training, boxes=boxes,
           masks=image_targets, is_input=True)
@@ -205,7 +193,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
         features["image_input_masks"] = video_mask[encode_frame_as_image]
         video_inputs = np.delete(video_inputs, encode_frame_as_image, axis=0)
         video_mask = np.delete(video_mask, encode_frame_as_image, axis=0)
-        # now resize the video into the correct video size
         video_inputs = tf.image.resize(
           video_inputs,
           config.IMAGE_HISTORY_INPUT_SIZE,
@@ -230,7 +217,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
       else:
         spectograms = video_audio
 
-      # spectogram pre-processing
       spectograms = np.transpose(spectograms, [0, 2, 1])
       mask = (spectograms != 0).astype(np.int32)
       audio = tf.math.log(tf.clip_by_value(spectograms, 1e-5, 1e5))
@@ -259,7 +245,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
     if box_inputs:
       resized_boxes = resize_meta[2]
       if len(resized_boxes) == 0:
-        # Can happen if `is_training=True` and the box gets cropped during rescaling augmentation
         return None
       box_text = values_to_tokens(resized_boxes / image_inputs.shape[0])
       assert "{box}" in text_inputs
@@ -268,7 +253,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
 
     if image_targets is not None:
       if resize_meta is not None:
-        # Image was resized in way that matches input image/video
         features["image_targets"] = resize_meta[1]
         target_mask = tf.image.resize(
           tf.expand_dims(tf.cast(features["image_input_masks"], tf.float32), -1),
@@ -276,7 +260,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
           method=tf.image.ResizeMethod.NEAREST_NEIGHBOR)[:, :, 0]
         features["image_target_masks"] = target_mask
       else:
-        # Resize the image independently
         image_targets, image_targets_mask, other = resize_and_pad_default(
           image_targets, is_training, is_input=False)
         features["image_targets"] = image_targets
@@ -319,7 +302,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
       if fe:
         target_features[k] = fe
 
-    # Extra features that might be needed by metric functions or for evaluations
     if "meta" in features:
       meta = features["meta"]
     else:
@@ -334,7 +316,6 @@ class UnifiedIOPreprocessor(FeatureExtractionMixin):
       meta=meta
     )
 
-    # Special cases that might need to be used inference
     if "choices" in features:
       out["choices"] = self.target_encoders["text"].convert_choices(
         features["choices"], self.sequence_length)

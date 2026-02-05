@@ -30,9 +30,7 @@ class Conversation:
 
     tokenizer_id: str = ""
     tokenizer: Any = None
-    # Stop criteria (the default one is EOS token)
     stop_str: Union[str, List[str]] = None
-    # Stops generation if meeting any token in this list
     stop_token_ids: List[int] = None
 
     skip_next: bool = False
@@ -115,10 +113,10 @@ class Conversation:
                 if message:
                     if type(message) is tuple:
                         message, _, _ = message
-                    
+
                     if message.endswith('<|endoftext|>'):
                         message = message.replace('<|endoftext|>', '')
-                        ret += start + role + "\n" + message + end + '<|endoftext|>'                        
+                        ret += start + role + "\n" + message + end + '<|endoftext|>'
                     else:
                         assert not '<|endoftext|>' in message, f"Invalid message: {message}"
                         ret += start + role + "\n" + message + end
@@ -131,7 +129,7 @@ class Conversation:
 
     def append_message(self, role, message):
         self.messages.append([role, message])
-    
+
     def to_gradio_chatbot(self):
         ret = []
         for i, (role, msg) in enumerate(self.messages[self.offset:]):

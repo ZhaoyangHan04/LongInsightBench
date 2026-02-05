@@ -28,33 +28,27 @@ class Recipe(BaseModel):
     model_answer: list[str]
     model_reason: str
 
-# ========== 工具函数 ==========
+
 def concat_audio_caption(a_caption_file):
-    """
-    拼接整个 JSON 文件里所有的 audio_caption 文本
-    """
+    
     captions = [seg.get("audio_caption", "") for seg in a_caption_file if isinstance(seg, dict)]
 
-    # 过滤空白，拼接
     captions = [c.strip() for c in captions if c and c.strip()]
     return " ".join(captions)
 
 def preprocess_video_for_gemini(
     video_path: str,
-    output_size: str = "480x270",  
-    output_fps: int = 1,          
-    video_bitrate: str = "200k",    
-    output_format: str = "mp4",   
-    max_file_size_mb: int = 10    
+    output_size: str = "480x270",
+    output_fps: int = 1,
+    video_bitrate: str = "200k",
+    output_format: str = "mp4",
+    max_file_size_mb: int = 10
 ) -> tuple[str, str]:
-    """
-    预处理视频以减小文件大小，包括降低分辨率、帧率、码率，并分离音视频。
-    如果超过 max_file_size_mb，会自动尝试更低的参数，直到满足要求。
-    """
+    
     def run_ffmpeg(v_size, v_bitrate):
         video_command = (
             ffmpeg
-            .input(video_path) 
+            .input(video_path)
             .filter('scale', v_size)
             .filter('fps', fps=output_fps)
             .output('pipe:',
@@ -72,38 +66,34 @@ def preprocess_video_for_gemini(
         total_size = len(video_stream_stdout)
         return video_b64, total_size / (1024 * 1024)
 
-    # 初始参数
     v_size = output_size
     v_bitrate = video_bitrate
 
     while True:
         video_b64, total_size_mb = run_ffmpeg(v_size, v_bitrate)
-        print("预处理参数:", v_size, v_bitrate)
-        print(f"预处理后文件大小: {total_size_mb:.2f} MB (目标 {max_file_size_mb} MB)")
+        print("Preprocessing parameters:", v_size, v_bitrate)
+        print(f"File size after preprocessing: {total_size_mb:.2f} MB (target {max_file_size_mb} MB)")
 
         if total_size_mb <= max_file_size_mb:
             return video_b64
 
-        # 否则降级参数继续压缩
-        print("⚠️ 超过大小限制，尝试更低的参数...")
-        # 降低分辨率
+        print("Exceeds size limit, trying lower parameters...")
         if v_size == "480x270":
             v_size = "320x180"
-        # 降低视频码率
         elif v_bitrate == "200k":
             v_bitrate = "150k"
         elif v_bitrate == "150k":
             v_bitrate = "100k"
         else:
-            raise RuntimeError("即使极限压缩后，文件仍然超过大小限制！")
+            raise RuntimeError("Even after extreme compression, the file still exceeds the size limit!")
 
-# 文件路径
-current_tasks = ["1intra_event_reasoning", "2multimodal_temporal_localization", "3audio_visual_alignment", 
+
+current_tasks = ["1intra_event_reasoning", "2multimodal_temporal_localization", "3audio_visual_alignment",
                  "4timeline_reconstruction", "5topic_stance_evolution_summarization", "6cross_event_causality"]
 
 for current_task in current_tasks:
-    print(f"===== 处理任务: {current_task} =====")
-    
+    print(f"===== Processing task: {current_task} =====")
+
     INPUT_FILE = f"./final_qa_subset/{current_task}.json"
     OUTPUT_FILE = f"./experiment_subset/gemini2.5flash_vlm/{current_task}.json"
     VIDEO_ROOT = "./datasets/finevideo/videos"
@@ -111,14 +101,12 @@ for current_task in current_tasks:
     TMP_FILE = f"./experiment_subset/gemini2.5flash_vlm/tmp.json"
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
-    # ====== 读取已有结果 ======
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             results = json.load(f)
     else:
         results = {}
 
-    # ====== 读取 QA 数据 ======
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         qa_data = json.load(f)
 
@@ -135,33 +123,29 @@ for current_task in current_tasks:
             video_path = os.path.join(VIDEO_ROOT, category, f"sample_{idx}.mp4")
             a_caption_path = os.path.join(AUDIO_CAPTION_ROOT, category, f"sample_{idx}.json")
         except Exception as e:
-            print(f"⚠️ 无法解析 videoID: {video_id}, 跳过。异常: {e}")
+            print(f"Cannot parse videoID: {video_id}, skipping. Exception: {e}")
             continue
 
         print("Processing video:", video_id)
 
-        # 预处理视频
         try:
             video_data = preprocess_video_for_gemini(
                 video_path,
-                output_size="480x270",  # 尝试更低的分辨率
+                output_size="480x270",
                 output_fps=1,
-                video_bitrate="200k",   # 更低的视频码率
-                max_file_size_mb=10     # 留点余量
+                video_bitrate="200k",
+                max_file_size_mb=10
             )
         except Exception as e:
-            print(f"⚠️ 视频/音频预处理失败，跳过 {qid}。异常: {e}")
+            print(f"Video/audio preprocessing failed, skipping {qid}. Exception: {e}")
             continue
 
-        # 读取并拼接 audio caption 段落
         with open(a_caption_path, "r", encoding="utf-8") as f:
             a_caption_file = json.load(f)
         a_caption = concat_audio_caption(a_caption_file)
         if not a_caption:
-            # 如果拼接后为空，也可以继续，但给个警告
-            print(f"⚠️ {a_caption_path} 的音频字幕拼接结果为空（qid={qid}）")
-        
-        # 调用模型
+            print(f"Audio caption concatenation result is empty for {a_caption_path} (qid={qid})")
+
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=[
@@ -182,13 +166,11 @@ for current_task in current_tasks:
             },
         )
 
-        # ====== 临时保存 tmp.json ======
         result = response.text
         result_json = json.loads(result)
         with open(TMP_FILE, "w", encoding="utf-8") as f:
             json.dump(result_json, f, ensure_ascii=False, indent=2)
 
-        # ====== 融合进最终结果 ======
         results[qid] = {
             "question_id": qid,
             "question": question,
@@ -201,4 +183,4 @@ for current_task in current_tasks:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ 完成推理，结果已保存到 {OUTPUT_FILE}")
+    print(f"Processing task: {current_task} completed. Results saved to {OUTPUT_FILE}")

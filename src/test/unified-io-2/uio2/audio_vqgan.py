@@ -35,7 +35,7 @@ class MlpBlock(nn.Module):
     nn.init.normal_(self.fc1.bias, std=1e-6)
     nn.init.xavier_uniform_(self.fc2.weight)
     nn.init.normal_(self.fc2.bias, std=1e-6)
-  
+
   def forward(self, inputs):
     """Applies Transformer MlpBlock module."""
     x = self.fc1(inputs)
@@ -76,7 +76,7 @@ class TransformerLayer(nn.Module):
     self.droppath = layers.DropPath(droppath_rate)
     self.ln_2 = nn.LayerNorm(emb_dim, eps=1e-6)
     self.mlp = MlpBlock(emb_dim, mlp_dim, act_fn, dropout_rate)
-  
+
   def forward(self, inputs):
     x = self.ln_1(inputs)
     x = self.attn(x, x)
@@ -124,7 +124,7 @@ class Transformer(nn.Module):
           droppath_rate=dpr[lyr],
           attention_dropout_rate=attention_dropout_rate,
           act_fn=act_fn))
-    
+
     self.encoder_norm = nn.LayerNorm(emb_dim, eps=1e-6)
 
   def forward(self, x):
@@ -173,7 +173,6 @@ class ViTEncoder(nn.Module):
     nn.init.ones_(self.encoder_norm.bias)
 
   def forward(self, x):
-    # reshape [bs, h, w, c] to [bs, (h/dh) * (w/dw), c*dh*dw]
     x = layers.space_to_depth(x, spatial_block_size=self.config.patch_size[0])
     x = self.embedding(x)
     x += self.encoder_position_embedding.unsqueeze(0)
@@ -218,9 +217,6 @@ class ViTDecoder(nn.Module):
     )
 
     nn.init.trunc_normal_(self.decoder_proj.weight, std=math.sqrt(1 / cfg.proj_dim), a=-2.0, b=2.0)
-    # the weight shape of ConvTranspose2d is (in_channels, out_channels/groups, kernel_size[0], kernel_size[1])
-    # while that of Conv2d is (out_channels/groups, in_channels, kernel_size[0], kernel_size[1]).
-    # Thus, get fan_out
     _, fan_out = nn.init._calculate_fan_in_and_fan_out(self.conv_transpose.weight)
     nn.init.trunc_normal_(self.conv_transpose.weight, std=math.sqrt(1 / fan_out), a=-2.0, b=2.0)
     if cfg.use_bias:
@@ -228,7 +224,6 @@ class ViTDecoder(nn.Module):
       nn.init.zeros_(self.conv_transpose.bias)
 
   def forward(self, x):
-    # [bs, (h/dh) * (w/dw), c*dh*dw] -> [bs, c, h, w]
     cfg = self.config
     bs = x.shape[0]
     x = self.decoder_proj(x)
@@ -264,33 +259,31 @@ class ViTVQGAN(nn.Module):
 
   def encode(self, x):
     return self.encoder(x)
-  
+
   def decode(self, x):
     return self.decoder(x)
-  
+
   def get_quantize_from_emb(self, h):
     z, _, [_, _, indices] = self.quantize(h)
     return indices.reshape(h.shape[0], -1)
-  
+
   def decode_code(self, code_b):
     quant_b = self.quantize.get_codebook_entry(code_b)
     dec = self.decode(quant_b)
     return dec
-  
+
   def get_codebook_indices(self, x, vqgan_decode=False):
     h = self.encode(x)
     z, _, [_, _, indices] = self.quantize(h)
     if vqgan_decode:
       dec = self.decode(z)
-    
+
     return indices.reshape(h.shape[0], -1)
-  
+
   def forward(self, x):
-    # x: [bs, h, w, c]
     h = self.encode(x)
     z, _, [_, _, indices] = self.quantize(h)
     if self.config.use_decoder:
-      # [bs, c, h, w]
       dec = self.decode(z)
     else:
       dec = None

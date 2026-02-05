@@ -58,7 +58,6 @@ def extract_locations_from_token_ids(tokens, n=4):
         boxes.append(token_to_float(np.array(box)))
         box = []
     else:
-      # sequence <N are assumed to be bad formatting and skipped
       box = []
   return np.array(boxes)
 
@@ -104,17 +103,13 @@ def undo_box_preprocessing(boxes, image_info):
   else:
     boxes = boxes - paddings[None, :]
 
-  # Not sure how to handle offsets at the moment (simple addition?)
-  # for now just require them to be zero as should be the case during eval
   off_y = int(image_info[7])
   off_x = int(image_info[8])
   assert off_x == off_y == 0
 
-  # Undo the scaling
   inv_scale = image_info[2]
   boxes = boxes * inv_scale
 
-  # clip in case the model predicted a region in the padded area
   h, w = image_info[3:5]
   boxes = np.maximum(boxes, 0)
   boxes = np.minimum(boxes, [h, w, h, w])

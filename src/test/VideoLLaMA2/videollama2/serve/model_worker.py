@@ -41,15 +41,15 @@ global_counter = 0
 model_semaphore = None
 
 
-# variable_content = os.getenv('MY_VARIABLE', '')
-# KEYWORDS_LIST = set(variable_content.split('\n'))
+
+
 KEYWORDS_LIST = []
 path = 'assets/keywords.txt'
 if os.path.exists(path):
     with open(path, 'r', encoding='utf-8') as file:
         for line in file:
-            
-            KEYWORDS_LIST.append(line.strip()) 
+
+            KEYWORDS_LIST.append(line.strip())
 else:
     KEYWORDS_LIST = []
 
@@ -71,7 +71,7 @@ def safety_check(text, history=None, ) -> Optional[str]:
     if len(KEYWORDS_LIST) > 0 and any(x in text.lower() for x in KEYWORDS_LIST):
         print('############')
         return KEYWORD_BLOCK_MESSAGE2
-    
+
     return None
 
 
@@ -169,19 +169,18 @@ class ModelWorker:
         prompt = params["prompt"]
         ori_prompt = prompt
         images_or_videos = params.get("images", None)
-        #print("Input images:", images_or_videos)
         num_image_tokens = 0
         modal_list = []
         if images_or_videos is not None and len(images_or_videos) and self.is_multimodal:
             if len(images_or_videos) > 0:
                 if len(images_or_videos) != prompt.count(DEFAULT_IMAGE_TOKEN) and len(images_or_videos) != (prompt.count(DEFAULT_VIDEO_TOKEN)):
                     raise ValueError("Number of images/videos does not match number of <image>/<video> tokens in prompt")
-                
+
                 try:
                     print("Load image...")
                     images_or_videos = [load_image_from_base64(image) for image in images_or_videos]
                     images_or_videos = process_images(images_or_videos, image_processor, model.config)
-                    
+
                     modal_list = ["image"]
                     replace_token = DEFAULT_IMAGE_TOKEN
                     modal_token_index = MMODAL_TOKEN_INDEX["IMAGE"]
@@ -202,14 +201,10 @@ class ModelWorker:
                         expanded_video_frames = [frame_expansion(frame_list, 2) for frame_list in chunked_video_frames]
                         images_or_videos = process_videos(expanded_video_frames, image_processor, model.config)
 
-                    # frame_id_list = np.linspace(0, duration-1, NUM_FRAMES, dtype=int)
-                    # images_or_videos = decord_vr.get_batch(frame_id_list).asnumpy()
-                    # images_or_videos = process_videos(images_or_videos, image_processor, model.config)
-                    #print("images_or_videos.shape:", images_or_videos.shape)
                     modal_list = ["video"]
                     replace_token = DEFAULT_VIDEO_TOKEN
                     modal_token_index = MMODAL_TOKEN_INDEX["VIDEO"]
-                
+
                 if type(images_or_videos) is list:
                     images_or_videos = [image.to(self.model.device, dtype=torch.float16) for image in images_or_videos]
                 else:
@@ -221,18 +216,9 @@ class ModelWorker:
                         print("Image:", images_or_videos.shape)
 
 
-                #image_sizes = [image.size for image in images_or_videos]
-                
 
-                # if len(images_or_videos) % NUM_FRAMES == 0:
-                #     images_or_videos = process_images(images_or_videos, image_processor, model.config)
-                #     #images_or_videos = [image.to(self.model.device, dtype=torch.float16) for image in images_or_videos]
-                #     #modal_list = ["image"] * len(images_or_videos)
-                #     images_or_videos = images_or_videos.to(self.model.device, dtype=torch.float16)
-                #     modal_list = ["video"]
-                #     replace_token = DEFAULT_VIDEO_TOKEN
-                # else:
-                    
+
+
                 if getattr(self.model.config, 'mm_use_im_start_end', False):
                     replace_token = DEFAULT_IM_START_TOKEN + replace_token + DEFAULT_IM_END_TOKEN
                 prompt = prompt.replace(DEFAULT_IMAGE_TOKEN, replace_token)
@@ -253,11 +239,7 @@ class ModelWorker:
         stop_str = params.get("stop", None)
         do_sample = True if temperature > 0.001 else False
 
-        #input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(self.device)
-        # tokenizer for our video-llama beta
         input_ids = tokenizer_MMODAL_token(prompt, tokenizer, modal_token_index, return_tensors='pt').unsqueeze(0).to(self.device)
-        #print("Current prompt:", prompt)
-        #print("input_ids.shape:", input_ids.shape)
         keywords = [stop_str]
         stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
         streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True, timeout=15)
@@ -291,16 +273,16 @@ class ModelWorker:
                 if safety_message:
                     print('####### Keyword alarm triggered:', generated_text)
                     yield json.dumps({"text": safety_message , "error_code": 1}).encode() + b"\0"
-                    return  
-                token_count = 0  # 
-                
+                    return
+                token_count = 0
+
 
             if generated_text.endswith(stop_str):
                 generated_text = generated_text[:-len(stop_str)]
             yield json.dumps({"text": generated_text, "error_code": 0}).encode() + b"\0"
 
     def generate_stream_gate(self, params):
-        try:      
+        try:
             input_text = params.get("prompt", "")
             safety_message = input_safety_check(input_text)
             if safety_message:

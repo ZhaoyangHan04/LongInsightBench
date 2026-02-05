@@ -83,11 +83,10 @@ class Chat:
     @spaces.GPU(duration=120)
     @torch.inference_mode()
     def generate(self, data: list, message, temperature, top_p, max_output_tokens):
-        # TODO: support multiple turns of conversation.
         assert len(data) == 1
 
         tensor, modal = data[0]
-        response = mm_infer(tensor, message, self.model, self.tokenizer, modal=modal.strip('<>'), 
+        response = mm_infer(tensor, message, self.model, self.tokenizer, modal=modal.strip('<>'),
             do_sample=True if temperature > 0.0 else False,
             temperature=temperature,
             top_p=top_p,
@@ -124,12 +123,9 @@ def generate(image, video, message, chatbot, textbox_in, temperature, top_p, max
 
     one_turn_chat = [textbox_in, None]
 
-    # 1. first run case
     if len(chatbot) == 0:
         one_turn_chat[0] += "\n" + show_images
-    # 2. not first run case
     else:
-        # scanning the last image or video
         length = len(chatbot)
         for i in range(length - 1, -1, -1):
             previous_image = re.findall(r'<img src="./file=(.+?)"', chatbot[i][0])
@@ -137,14 +133,12 @@ def generate(image, video, message, chatbot, textbox_in, temperature, top_p, max
 
             if len(previous_image) > 0:
                 previous_image = previous_image[-1]
-                # 2.1 new image append or pure text input will start a new conversation
                 if (video is not None) or (image is not None and os.path.basename(previous_image) != os.path.basename(image)):
                     message.clear()
                     one_turn_chat[0] += "\n" + show_images
                 break
             elif len(previous_video) > 0:
                 previous_video = previous_video[-1]
-                # 2.2 new video append or pure text input will start a new conversation
                 if image is not None or (video is not None and os.path.basename(previous_video) != os.path.basename(video)):
                     message.clear()
                     one_turn_chat[0] += "\n" + show_images
@@ -174,10 +168,10 @@ def clear_history(message, chatbot):
             gr.update(value=None, interactive=True))
 
 
-# BUG of Zero Environment
-# 1. The environment is fixed to torch>=2.0,<=2.2, gradio>=4.x.x
-# 2. The operation or tensor which requires cuda are limited in those functions wrapped via spaces.GPU
-# 3. The function can't return tensor or other cuda objects.
+
+
+
+
 
 model_path = 'DAMO-NLP-SG/VideoLLaMA2.1-7B-16F'
 
@@ -186,12 +180,12 @@ handler = Chat(model_path, load_8bit=False, load_4bit=True)
 textbox = gr.Textbox(show_label=False, placeholder="Enter text and press ENTER", container=False)
 
 theme = gr.themes.Default(primary_hue=plum_color)
-# theme.update_color("primary", plum_color.c500)
+
 theme.set(slider_color="#9C276A")
 theme.set(block_title_text_color="#9C276A")
 theme.set(block_label_text_color="#9C276A")
 theme.set(button_primary_text_color="#9C276A")
-# theme.set(button_secondary_text_color="*neutral_800")
+
 
 
 with gr.Blocks(title='VideoLLaMA 2 🔥🚀🔥', theme=theme, css=block_css) as demo:
@@ -204,14 +198,6 @@ with gr.Blocks(title='VideoLLaMA 2 🔥🚀🔥', theme=theme, css=block_css) as
             video = gr.Video(label="Input Video")
 
             with gr.Accordion("Parameters", open=True) as parameter_row:
-                # num_beams = gr.Slider(
-                #     minimum=1,
-                #     maximum=10,
-                #     value=1,
-                #     step=1,
-                #     interactive=True,
-                #     label="beam search numbers",
-                # )
 
                 temperature = gr.Slider(
                     minimum=0.1,
@@ -250,8 +236,6 @@ with gr.Blocks(title='VideoLLaMA 2 🔥🚀🔥', theme=theme, css=block_css) as
             with gr.Row(elem_id="buttons") as button_row:
                 upvote_btn     = gr.Button(value="👍  Upvote", interactive=True)
                 downvote_btn   = gr.Button(value="👎  Downvote", interactive=True)
-                # flag_btn     = gr.Button(value="⚠️  Flag", interactive=True)
-                # stop_btn     = gr.Button(value="⏹️  Stop Generation", interactive=False)
                 regenerate_btn = gr.Button(value="🔄  Regenerate", interactive=True)
                 clear_btn      = gr.Button(value="🗑️  Clear history", interactive=True)
 
@@ -298,20 +282,20 @@ with gr.Blocks(title='VideoLLaMA 2 🔥🚀🔥', theme=theme, css=block_css) as
     gr.Markdown(learn_more_markdown)
 
     submit_btn.click(
-        generate, 
+        generate,
         [image, video, message, chatbot, textbox, temperature, top_p, max_output_tokens],
         [image, video, message, chatbot])
 
     regenerate_btn.click(
-        regenerate, 
-        [message, chatbot], 
+        regenerate,
+        [message, chatbot],
         [message, chatbot]).then(
-        generate, 
-        [image, video, message, chatbot, textbox, temperature, top_p, max_output_tokens], 
+        generate,
+        [image, video, message, chatbot, textbox, temperature, top_p, max_output_tokens],
         [image, video, message, chatbot])
 
     clear_btn.click(
-        clear_history, 
+        clear_history,
         [message, chatbot],
         [image, video, message, chatbot, textbox])
 

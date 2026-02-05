@@ -1,4 +1,4 @@
-# Adopted from: https://github.com/haotian-liu/LLaVA/blob/main/llava/train/llava_trainer.py
+
 import os
 import logging
 from typing import List, Optional
@@ -38,7 +38,7 @@ def get_mm_adapter_state_maybe_zero_3(named_params, keys_to_match):
     return to_return
 
 
-# Borrowed from peft.utils.get_peft_model_state_dict
+
 def get_peft_state_maybe_zero_3(named_params, bias):
     if bias == "none":
         to_return = {k: t for k, t in named_params if "lora_" in k}
@@ -83,7 +83,7 @@ def find_all_linear_names(model):
             names = name.split('.')
             lora_module_names.add(names[0] if len(names) == 1 else names[-1])
 
-    if 'lm_head' in lora_module_names: # needed for 16-bit
+    if 'lm_head' in lora_module_names:
         lora_module_names.remove('lm_head')
     return list(lora_module_names)
 
@@ -93,7 +93,6 @@ def safe_save_model_for_hf_trainer(trainer: Trainer,
     """Collects the state dict and dump to disk."""
 
     if getattr(trainer.args, "tune_mm_mlp_adapter", False):
-        # Only save Adapter
         keys_to_match = ['mm_projector']
 
         weight_to_save = get_mm_adapter_state_maybe_zero_3(trainer.model.named_parameters(), keys_to_match)
@@ -122,7 +121,7 @@ def safe_save_model_for_hf_trainer(trainer: Trainer,
             for key, value in state_dict.items()
         }
         del state_dict
-        trainer._save(output_dir, state_dict=cpu_state_dict)  # noqa
+        trainer._save(output_dir, state_dict=cpu_state_dict)
 
 
 def split_to_even_chunks(indices, lengths, num_chunks):
@@ -148,10 +147,8 @@ def split_to_even_chunks(indices, lengths, num_chunks):
 
 
 def get_modality_length_grouped_indices(lengths, batch_size, world_size, generator=None):
-    # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
     assert all(l != 0 for l in lengths), "Should not have zero length."
     if all(l > 0 for l in lengths) or all(l < 0 for l in lengths):
-        # all samples are in the same modality
         return get_length_grouped_indices(lengths, batch_size, world_size, generator=generator)
     mm_indices, mm_lengths = zip(*[(i, l) for i, l in enumerate(lengths) if l > 0])
     lang_indices, lang_lengths = zip(*[(i, -l) for i, l in enumerate(lengths) if l < 0])
@@ -176,7 +173,6 @@ def get_modality_length_grouped_indices(lengths, batch_size, world_size, generat
 
 
 def get_length_grouped_indices(lengths, batch_size, world_size, generator=None, merge=True):
-    # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
     indices = torch.randperm(len(lengths), generator=generator)
     megabatch_size = world_size * batch_size
     megabatches = [indices[i : i + megabatch_size].tolist() for i in range(0, len(lengths), megabatch_size)]
@@ -325,7 +321,6 @@ class VideoLLaMA2Trainer(Trainer):
             run_dir = self._get_output_dir(trial=trial)
             output_dir = os.path.join(run_dir, checkpoint_folder)
 
-            # Only save Adapter
             keys_to_match = ['mm_projector', 'vision_resampler']
 
             weight_to_save = get_mm_adapter_state_maybe_zero_3(self.model.named_parameters(), keys_to_match)
@@ -333,14 +328,11 @@ class VideoLLaMA2Trainer(Trainer):
             if self.args.local_rank == 0 or self.args.local_rank == -1:
                 self.model.config.save_pretrained(output_dir)
                 torch.save(weight_to_save, os.path.join(output_dir, f'mm_projector.bin'))
-            # Save optimizer and scheduler
             self._save_optimizer_and_scheduler(output_dir)
-            # Save RNG state
             self._save_rng_state(output_dir)
             self.state.save_to_json(os.path.join(output_dir, TRAINER_STATE_NAME))
             self.args.distributed_state.wait_for_everyone()
         else:
-            # NOTE: Supporting save complete lora checkpoint during training.
             if self.args.lora_enable:
                 from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
                 checkpoint_folder = f"{PREFIX_CHECKPOINT_DIR}-{self.state.global_step}"
@@ -351,13 +343,9 @@ class VideoLLaMA2Trainer(Trainer):
                 state_dict = get_peft_state_maybe_zero_3(self.model.named_parameters(), self.args.lora_bias)
                 non_lora_state_dict = get_peft_state_non_lora_maybe_zero_3(self.model.named_parameters())
                 if self.args.local_rank == 0 or self.args.local_rank == -1:
-                    # save for acquring `config.json`
                     self.model.config.save_pretrained(output_dir)
-                    # save for acquring `adapter_config.json`, `adapter_model.bin`
-                    # self.model.save_pretrained(output_dir, state_dict=state_dict)
                     torch.save(non_lora_state_dict, os.path.join(output_dir, 'non_lora_trainables.bin'))
 
-                # save for acquring lora adapter parameters & trainer states: `adapter_config.json`, `adapter_model.safetensors`
                 super(VideoLLaMA2Trainer, self)._save_checkpoint(model, trial, metrics)
             else:
                 super(VideoLLaMA2Trainer, self)._save_checkpoint(model, trial, metrics)

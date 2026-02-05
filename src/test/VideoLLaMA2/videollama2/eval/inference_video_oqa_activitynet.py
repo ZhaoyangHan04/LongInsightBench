@@ -13,13 +13,13 @@ sys.path.append('./')
 from videollama2 import model_init, mm_infer
 from videollama2.utils import disable_torch_init
 
-# NOTE: Ignore TypedStorage warning, which refers to this link~(https://github.com/pytorch/pytorch/issues/97207#issuecomment-1494781560)
+
 warnings.filterwarnings('ignore', category=UserWarning, message='TypedStorage is deprecated')
 
 
 def split_list(lst, n):
     """Split a list into n (roughly) equal-sized chunks"""
-    chunk_size = math.ceil(len(lst) / n)  # integer division
+    chunk_size = math.ceil(len(lst) / n)
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
 
 
@@ -39,7 +39,7 @@ class ActivitynetDataset(Dataset):
 
     def __len__(self):
         return len(self.questions)
-    
+
     def __getitem__(self, idx):
         sample = self.questions[idx]
         answer = self.answers[idx]
@@ -50,12 +50,11 @@ class ActivitynetDataset(Dataset):
         answer      = answer['answer']
 
         video_path = None
-        for fmt in self.video_formats:  # Added this line
+        for fmt in self.video_formats:
             temp_path = os.path.join(args.video_folder, f"v_{video_name}{fmt}")
             if os.path.exists(temp_path):
                 video_path = temp_path
                 break
-            # BUG: compatibility for MSVD, MSRVTT, TGIF
             temp_path = os.path.join(args.video_folder, f"{video_name}{fmt}")
             if os.path.exists(temp_path):
                 video_path = temp_path
@@ -87,7 +86,6 @@ def collate_fn(batch):
 def run_inference(args):
     disable_torch_init()
 
-    # Initialize the model
     model, processor, tokenizer = model_init(args.model_path)
 
     gt_questions = json.load(open(args.question_file, "r"))
@@ -103,7 +101,6 @@ def run_inference(args):
     os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
     ans_file = open(answer_file, "w")
 
-    # Iterate over each sample in the ground truth file
     for i, (video_tensors, video_names, questions, question_ids, answers) in enumerate(tqdm(dataloader)):
         video_tensor = video_tensors[0]
         video_name   = video_names[0]
@@ -111,7 +108,6 @@ def run_inference(args):
         question_id  = question_ids[0]
         answer       = answers[0]
 
-        # question = question + '\n' + 'Answer the question using a single word or a short phrase with multiple words.'
 
         try:
             output = mm_infer(

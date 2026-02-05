@@ -1,19 +1,12 @@
 import json
 
 def accuracy_multichoice(gold_list, pred_list):
-    """
-    计算多选题的严格 Accuracy：
-    完全匹配得 1 分，否则得 0 分
-    """
     gold_set = set(gold_list or [])
     pred_set = set(pred_list or [])
     return 1.0 if gold_set == pred_set else 0.0
 
 
 def compute_task_accuracy(qa_file, model_file):
-    """
-    返回每类任务的平均 Accuracy，总分和题数
-    """
     with open(qa_file, 'r', encoding='utf-8') as f:
         qa_data = json.load(f)
     with open(model_file, 'r', encoding='utf-8') as f:
@@ -47,21 +40,21 @@ if __name__ == "__main__":
         "6cross_event_causality"
     ]
 
-    model_name = "qwen"  # 修改为你的模型名称
+    model_name = "qwen"
     grand_total_acc = 0.0
     grand_total_count = 0
 
-    print("===== 各类任务 Accuracy 分数 =====")
+    print("===== Accuracy scores for each task =====")
     for task in tasks:
         qa_file = f"./final_qa_subset/{task}.json"
         model_file = f"./experiment_frames_raw/{model_name}/{task}.json"
 
         avg_acc, total_acc, count = compute_task_accuracy(qa_file, model_file)
-        print(f"{task}: 平均 Accuracy = {avg_acc:.4f} (题数 {count})")
+        print(f"{task}: Average Accuracy = {avg_acc:.4f} (questions {count})")
 
         grand_total_acc += total_acc
         grand_total_count += count
 
     overall_acc = grand_total_acc / grand_total_count if grand_total_count > 0 else 0.0
-    print(f"\n===== 所有任务合并后的整体 Accuracy: {overall_acc:.4f} =====")
+    print(f"\n===== Overall Accuracy across all tasks: {overall_acc:.4f} =====")
 

@@ -1,11 +1,11 @@
-# --------------------------------------------------------
-# BEATs: Audio Pre-Training with Acoustic Tokenizers (https://arxiv.org/abs/2212.09058)
-# Github source: https://github.com/microsoft/unilm/tree/master/beats
-# Copyright (c) 2022 Microsoft
-# Licensed under The MIT License [see LICENSE for details]
-# Based on VQGAN code bases
-# https://github.com/CompVis/taming-transformers
-# --------------------------------------------------------'
+
+
+
+
+
+
+
+
 
 import torch
 import torch.nn as nn
@@ -90,7 +90,6 @@ class EmbeddingEMA(nn.Module):
         self.weight = nn.Parameter(weight, requires_grad=False)
         self.cluster_size = nn.Parameter(torch.zeros(num_tokens), requires_grad=False)
         self.embed_avg = nn.Parameter(weight.clone(), requires_grad=False)
-        # self.register_buffer('initted', torch.Tensor([not kmeans_init]))
         self.update = True
 
     @torch.jit.ignore
@@ -117,9 +116,7 @@ class EmbeddingEMA(nn.Module):
         smoothed_cluster_size = (
                 (self.cluster_size + self.eps) / (n + num_tokens * self.eps) * n
         )
-        # normalize embedding average with smoothed cluster size
         embed_normalized = self.embed_avg / smoothed_cluster_size.unsqueeze(1)
-        # embed_normalized = l2norm(self.embed_avg / smoothed_cluster_size.unsqueeze(1))
         self.weight.data.copy_(embed_normalized)
 
 
@@ -137,7 +134,6 @@ class NormEMAVectorQuantizer(nn.Module):
         self.beta = beta
         self.decay = decay
 
-        # learnable = True if orthogonal_reg_weight > 0 else False
         self.embedding = EmbeddingEMA(self.num_tokens, self.codebook_dim, decay, eps, kmeans_init, codebook_init_path)
 
         self.statistic_code_usage = statistic_code_usage
@@ -155,10 +151,6 @@ class NormEMAVectorQuantizer(nn.Module):
             self.cluster_size = self.cluster_size.to(device)
 
     def forward(self, z):
-        # reshape z -> (batch, height, width, channel) and flatten
-        # z, 'b c h w -> b h w c'
-        # z = rearrange(z, 'b c h w -> b h w c')
-        # z = z.transpose(1, 2)
         z = l2norm(z)
         z_flattened = z.reshape(-1, self.codebook_dim)
 
@@ -166,7 +158,7 @@ class NormEMAVectorQuantizer(nn.Module):
 
         d = z_flattened.pow(2).sum(dim=1, keepdim=True) + \
             self.embedding.weight.pow(2).sum(dim=1) - 2 * \
-            torch.einsum('bd,nd->bn', z_flattened, self.embedding.weight)  # 'n d -> d n'
+            torch.einsum('bd,nd->bn', z_flattened, self.embedding.weight)
 
         encoding_indices = torch.argmin(d, dim=1)
 
@@ -181,12 +173,10 @@ class NormEMAVectorQuantizer(nn.Module):
                 ema_inplace(self.cluster_size, cluster_size, self.decay)
 
         if self.training and self.embedding.update:
-            # EMA cluster size
 
             bins = encodings.sum(0)
             self.all_reduce_fn(bins)
 
-            # self.embedding.cluster_size_ema_update(bins)
             ema_inplace(self.cluster_size, bins, self.decay)
 
             zero_mask = (bins == 0)
@@ -202,14 +192,8 @@ class NormEMAVectorQuantizer(nn.Module):
                                            embed_normalized)
             norm_ema_inplace(self.embedding.weight, embed_normalized, self.decay)
 
-        # compute loss for embedding
         loss = self.beta * F.mse_loss(z_q.detach(), z)
 
-        # preserve gradients
         z_q = z + (z_q - z).detach()
 
-        # reshape back to match original input shape
-        # z_q, 'b h w c -> b c h w'
-        # z_q = rearrange(z_q, 'b h w c -> b c h w')
-        # z_q = z_q.transpose(1, 2)
         return z_q, loss, encoding_indices
